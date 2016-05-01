@@ -163,8 +163,8 @@ def get_annotations(sentence):
     
 
 csv_dir = 'CrowdFlower/WikiAstronauts/f900315.csv'
-output_csv_dir = 'Outputs/WikiAstronauts/Output.xls'
-output_eval_dir = 'Outputs/WikiAstronauts/Evaluation.xls'
+output_csv_dir = 'Output/WikiAstronauts/Output.xls'
+output_eval_dir = 'Output/WikiAstronauts/Evaluation.xls'
 
 num_tokens = []
 

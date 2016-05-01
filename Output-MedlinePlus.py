@@ -163,8 +163,8 @@ def get_annotations(sentence):
     
 
 csv_dir = 'CrowdFlower/MedlinePlus/f902529.csv'
-output_csv_dir = 'Outputs/MedlinePlus/Output.xls'
-output_eval_dir = 'Outputs/MedlinePlus/Evaluation.xls'
+output_csv_dir = 'Output/MedlinePlus/Output.xls'
+output_eval_dir = 'Output/MedlinePlus/Evaluation.xls'
 
 num_tokens = []
 
