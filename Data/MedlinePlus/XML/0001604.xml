@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The flu is an infection of the nose, throat, and lungs.</value>
+		<pattern_crowdsource> The [[flu|C0021400]] is an [[infection|C0009450]] of the [[nose|C0028429]], [[throat|C0230069]], and [[lungs|C0024109]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>flu</surface-form>
+				<RDF-ID>C0021400</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>throat</surface-form>
+				<RDF-ID>C0230069</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021400 ISA C0009450</triple>
+			<triple>C0028429 LOCATION_OF C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0009450</triple>
+			<triple>C0230069 LOCATION_OF C0009450</triple>
+			<triple>C0028429 LOCATION_OF C0021400</triple>
+			<triple>C0024109 LOCATION_OF C0021400</triple>
+			<triple>C0230069 LOCATION_OF C0021400</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The flu is caused by an influenza virus.</value>
+		<pattern_crowdsource> The [[flu|C0021400]] is caused by an [[influenza virus|C0029341]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>flu</surface-form>
+				<RDF-ID>C0021400</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>influenza virus</surface-form>
+				<RDF-ID>C0029341</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0029341 CAUSES C0021400</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Diabetes also increases your risk of glaucoma and other eye problems.</value>
+		<pattern_crowdsource> [[Diabetes|C0011847]] also increases your risk of [[glaucoma|C0017601]] and other eye problems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glaucoma</surface-form>
+				<RDF-ID>C0017601</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye problems</surface-form>
+				<RDF-ID>C0262477</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 PREDISPOSES C0017601</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may see two different types of eye doctors:  - An ophthalmologist is a medical doctor who is an eye specialist trained to diagnose and treat eye problems.</value>
+		<pattern_crowdsource> You may see two different types of eye doctors:  - An [[ophthalmologist|C0260073]] is a [[medical doctor|C0031831]] who is an eye specialist trained to diagnose and treat eye problems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>two</surface-form>
+				<RDF-ID>C0205448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>types</surface-form>
+				<RDF-ID>C0332307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctors</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ophthalmologist</surface-form>
+				<RDF-ID>C0260073</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medical doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye problems</surface-form>
+				<RDF-ID>C0262477</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0260073 ISA C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- An optometrist is a health care provider trained to diagnose and treat problems with your vision.</value>
+		<pattern_crowdsource> - An [[optometrist|C0029146]] is a [[health care provider|C0018724]] trained to diagnose and treat problems with your [[vision|C0042789]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>optometrist</surface-form>
+				<RDF-ID>C0029146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision</surface-form>
+				<RDF-ID>C0042789</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0029146 ISA C0018724</triple>
+			<triple>C0042789 PROCESS_OF C0018724</triple>
+			<triple>C0042789 PROCESS_OF C0029146</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Once you have eye disease caused by diabetes, you need to see an ophthalmologist.</value>
+		<pattern_crowdsource> Once you have [[eye disease|C0015397]] caused by [[diabetes|C0011847]], you need to see an ophthalmologist.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>eye disease</surface-form>
+				<RDF-ID>C0015397</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ophthalmologist</surface-form>
+				<RDF-ID>C0260073</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 CAUSES C0015397</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

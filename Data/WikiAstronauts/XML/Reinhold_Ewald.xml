@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut.	</value>
+
+		<annotated-sentence>	Dr. [[Reinhold Ewald|Reinhold_Ewald]] (born December 18, 1956) is a [[German|Germany]] [[physicist|Physicist]] and [[ESA|European_Space_Agency]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. [[Reinhold Ewald|Reinhold_Ewald]] (born December 18, 1956) is a [[German|Germany]] [[physicist|Physicist]] and ESA [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Ewald/NNP-3,Dr./NNP-1)
+				nn(Ewald/NNP-3,Reinhold/NNP-2)
+				nsubj(physicist/NN-14,Ewald/NNP-3)
+				dep(Ewald/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,December/NNP-6)
+				num(December/NNP-6,18/CD-7)
+				num(December/NNP-6,1956/CD-9)
+				cop(physicist/NN-14,is/VBZ-11)
+				det(physicist/NN-14,a/DT-12)
+				amod(physicist/NN-14,German/JJ-13)
+				nn(astronaut/NN-17,ESA/NN-16)
+				conj_and(physicist/NN-14,astronaut/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Reinhold Ewald</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reinhold_Ewald</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>German</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physicist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physicist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ESA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhold_Ewald http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhold_Ewald http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhold_Ewald http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Physicist
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhold_Ewald http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Mönchengladbach, Germany, he received diploma in experimental physics from the University of Cologne in 1983 and the Ph.D. in 1986, with a minor degree in human physiology.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-8,Born/VBN-1)
+				nn(Germany/NNP-5,Mönchengladbach/NNP-3)
+				prep_in(Born/VBN-1,Germany/NNP-5)
+				nsubj(received/VBD-8,he/PRP-7)
+				dobj(received/VBD-8,diploma/NN-9)
+				amod(physics/NNS-12,experimental/JJ-11)
+				prep_in(received/VBD-8,physics/NNS-12)
+				det(University/NNP-15,the/DT-14)
+				prep_from(received/VBD-8,University/NNP-15)
+				prep_of(University/NNP-15,Cologne/NNP-17)
+				prep_in(Cologne/NNP-17,1983/CD-19)
+				det(Ph.D./NNP-22,the/DT-21)
+				prep_of(University/NNP-15,Ph.D./NNP-22)
+				conj_and(Cologne/NNP-17,Ph.D./NNP-22)
+				prep_in(Ph.D./NNP-22,1986/CD-24)
+				det(degree/NN-29,a/DT-27)
+				amod(degree/NN-29,minor/JJ-28)
+				prep_with(received/VBD-8,degree/NN-29)
+				amod(physiology/NN-32,human/JJ-31)
+				prep_in(degree/NN-29,physiology/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1990, he was selected to the German astronaut team, training for the Mir '92 mission.	</value>
+
+		<annotated-sentence>	In [[1990|1990]], he was selected to [[the German astronaut team|German_astronaut_team]], [[training|Training]] for the Mir '92 mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1990, he was selected to the German astronaut team, training for the Mir '92 mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1990/CD-2)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				det(team/NN-11,the/DT-8)
+				amod(team/NN-11,German/JJ-9)
+				nn(team/NN-11,astronaut/NN-10)
+				prep_to(selected/VBN-6,team/NN-11)
+				appos(team/NN-11,training/NN-13)
+				det(Mir/NNS-16,the/DT-15)
+				prep_for(training/NN-13,Mir/NNS-16)
+				num(mission/NN-18,'92/CD-17)
+				dep(training/NN-13,mission/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German astronaut team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_astronaut_team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the backup of Klaus-Dietrich Flade for the Soyuz TM-14 mission.	</value>
+
+		<annotated-sentence>	He was [[the backup|Backup]] of [[Klaus-Dietrich Flade|Klaus-Dietrich_Flade]] for the [[Soyuz TM-14|Soyuz_TM-14]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the backup of [[Klaus-Dietrich Flade|Klaus-Dietrich_Flade]] for the [[Soyuz TM-14|Soyuz_TM-14]] mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(backup/NN-4,He/PRP-1)
+				cop(backup/NN-4,was/VBD-2)
+				det(backup/NN-4,the/DT-3)
+				nn(Flade/NNP-7,Klaus-Dietrich/NNP-6)
+				prep_of(backup/NN-4,Flade/NNP-7)
+				det(mission/NN-12,the/DT-9)
+				nn(mission/NN-12,Soyuz/NNP-10)
+				nn(mission/NN-12,TM-14/NN-11)
+				prep_for(Flade/NNP-7,mission/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Klaus-Dietrich Flade</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Klaus-Dietrich_Flade</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-14</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-14 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Klaus-Dietrich_Flade
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1995 he began training for the second German Mir mission.	</value>
+
+		<annotated-sentence>	In [[1995|1995]] he began training for the second German Mir mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1995 he began training for the second German Mir mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(began/VBD-4,1995/CD-2)
+				nsubj(began/VBD-4,he/PRP-3)
+				xcomp(began/VBD-4,training/VBG-5)
+				det(mission/NN-11,the/DT-7)
+				amod(mission/NN-11,second/JJ-8)
+				amod(mission/NN-11,German/JJ-9)
+				nn(mission/NN-11,Mir/NNS-10)
+				prep_for(training/VBG-5,mission/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 1997 he flew to the space station Mir with Soyuz TM-25, spending 20 days in space.	</value>
+
+		<annotated-sentence>	In [[February 1997|1997]] he flew to [[the space station Mir|Mir]] with [[Soyuz TM-25|Soyuz_TM-25]], spending 20 days in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In February 1997 he flew to the space station Mir with [[Soyuz TM-25|Soyuz_TM-25]], spending 20 days in space.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,February/NNP-2)
+				num(February/NNP-2,1997/CD-3)
+				nsubj(flew/VBD-5,he/PRP-4)
+				det(Mir/NNS-10,the/DT-7)
+				nn(Mir/NNS-10,space/NN-8)
+				nn(Mir/NNS-10,station/NN-9)
+				prep_to(flew/VBD-5,Mir/NNS-10)
+				nn(TM-25/NNP-13,Soyuz/NNP-12)
+				prep_with(flew/VBD-5,TM-25/NNP-13)
+				xcomp(flew/VBD-5,spending/VBG-15)
+				num(days/NNS-17,20/CD-16)
+				dobj(spending/VBG-15,days/NNS-17)
+				prep_in(days/NNS-17,space/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space station Mir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-25</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-25</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhold_Ewald http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-25
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-25 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Reinhold_Ewald
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He performed experiments in biomedical and material sciences, and carried out operational tests in preparation for the International Space Station.	</value>
+
+		<annotated-sentence>	He performed [[experiments|Experiment]] in [[biomedical and|Institute_of_Biomaterials_and_Biomedical_Engineering]] [[material sciences|Material_Sciences,_Armament]], and carried out operational [[tests|Experiment]] in preparation for [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He performed experiments in biomedical and material sciences, and carried out operational tests in preparation for the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,He/PRP-1)
+				nsubj(carried/VBD-11,He/PRP-1)
+				dobj(performed/VBD-2,experiments/NNS-3)
+				amod(sciences/NNS-8,biomedical/JJ-5)
+				conj_and(biomedical/JJ-5,material/JJ-7)
+				amod(sciences/NNS-8,material/JJ-7)
+				prep_in(performed/VBD-2,sciences/NNS-8)
+				conj_and(performed/VBD-2,carried/VBD-11)
+				prt(carried/VBD-11,out/RP-12)
+				amod(tests/NNS-14,operational/JJ-13)
+				dobj(carried/VBD-11,tests/NNS-14)
+				prep_in(carried/VBD-11,preparation/NN-16)
+				det(Station/NNP-21,the/DT-18)
+				nn(Station/NNP-21,International/NNP-19)
+				nn(Station/NNP-21,Space/NNP-20)
+				prep_for(carried/VBD-11,Station/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>biomedical and</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute_of_Biomaterials_and_Biomedical_Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material_Sciences,_Armament</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 1999, he joined the European Astronaut Corps at the European Astronaut Centre (EAC) in Cologne, Germany.	</value>
+
+		<annotated-sentence>	In [[February 1999|February_1999]], he joined [[the European Astronaut Corps|European_Astronaut_Corps]] at [[the European Astronaut Centre|European_Astronaut_Centre]] ([[EAC|EAC-C2C]]) in [[Cologne , Germany|Cologne]]	</annotated-sentence>
+
+		<pattern_crowdsource>	In February 1999, he joined the European Astronaut Corps at the European Astronaut Centre (EAC) in Cologne, Germany.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-6,February/NNP-2)
+				num(February/NNP-2,1999/CD-3)
+				nsubj(joined/VBD-6,he/PRP-5)
+				det(Corps/NNP-10,the/DT-7)
+				amod(Corps/NNP-10,European/JJ-8)
+				nn(Corps/NNP-10,Astronaut/NNP-9)
+				dobj(joined/VBD-6,Corps/NNP-10)
+				det(Centre/NNP-15,the/DT-12)
+				amod(Centre/NNP-15,European/JJ-13)
+				nn(Centre/NNP-15,Astronaut/NNP-14)
+				prep_at(joined/VBD-6,Centre/NNP-15)
+				appos(Centre/NNP-15,EAC/NNP-17)
+				nn(Germany/NNP-22,Cologne/NNP-20)
+				prep_in(joined/VBD-6,Germany/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February 1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Astronaut Centre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Astronaut_Centre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EAC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/EAC-C2C</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cologne , Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cologne</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 2006 to 2011, Ewald headed the Flight Operations Division within ESA’s ISS Operations department at the Columbus Control Centre near Munich.	</value>
+
+		<annotated-sentence>	From [[2006|2006]] to [[2011|2011_(album)]], Ewald headed the [[Flight Operations|Flight_Operations]] Division within ESA’s [[ISS|S]] [[Operations|Flight_Operations]] department at [[the Columbus Control Centre|Columbus_Control_Centre]] near [[Munich|Munich]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 2006 to 2011, Ewald headed the Flight Operations Division within ESA’s ISS Operations department at the Columbus Control Centre near Munich.	</pattern_crowdsource>
+
+
+		<tree>
+				num(2011/CD-4,2006/CD-2)
+				dep(2011/CD-4,to/TO-3)
+				prep_from(headed/VBD-7,2011/CD-4)
+				nsubj(headed/VBD-7,Ewald/NNP-6)
+				det(Division/NNP-11,the/DT-8)
+				nn(Division/NNP-11,Flight/NNP-9)
+				nn(Division/NNP-11,Operations/NNP-10)
+				dobj(headed/VBD-7,Division/NNP-11)
+				poss(department/NN-17,ESA/NNP-13)
+				nn(department/NN-17,ISS/NNP-15)
+				nn(department/NN-17,Operations/NNP-16)
+				prep_within(headed/VBD-7,department/NN-17)
+				det(Centre/NNP-22,the/DT-19)
+				nn(Centre/NNP-22,Columbus/NNP-20)
+				nn(Centre/NNP-22,Control/NNP-21)
+				prep_at(headed/VBD-7,Centre/NNP-22)
+				prep_near(Centre/NNP-22,Munich/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Columbus Control Centre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Columbus_Control_Centre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Munich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Munich</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In this role, he directed a team of ESA Mission Directors managing the Columbus laboratory delivery flight in February 2008 and the Columbus science activities thereafter.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(role/NN-3,this/DT-2)
+				prep_in(directed/VBD-6,role/NN-3)
+				nsubj(directed/VBD-6,he/PRP-5)
+				det(team/NN-8,a/DT-7)
+				dobj(directed/VBD-6,team/NN-8)
+				nn(Directors/NNS-12,ESA/NNP-10)
+				nn(Directors/NNS-12,Mission/NNP-11)
+				prep_of(team/NN-8,Directors/NNS-12)
+				partmod(Directors/NNS-12,managing/VBG-13)
+				det(flight/NN-18,the/DT-14)
+				nn(flight/NN-18,Columbus/NNP-15)
+				nn(flight/NN-18,laboratory/NN-16)
+				nn(flight/NN-18,delivery/NN-17)
+				dobj(managing/VBG-13,flight/NN-18)
+				prep_in(flight/NN-18,February/NNP-20)
+				num(February/NNP-20,2008/CD-21)
+				det(activities/NNS-26,the/DT-23)
+				nn(activities/NNS-26,Columbus/NNP-24)
+				nn(activities/NNS-26,science/NN-25)
+				prep_in(flight/NN-18,activities/NNS-26)
+				conj_and(February/NNP-20,activities/NNS-26)
+				advmod(managing/VBG-13,thereafter/RB-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is now advisor to the Head of Director General's Cabinet at ESA's Headquarter in Paris He is married and has three children.	</value>
+
+		<annotated-sentence>	He is now advisor to [[the Head|Headquarters]] of Director General's Cabinet at ESA's [[Headquarter|Headquarters]] in [[Paris|Paris]] He is married and has three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is now advisor to the Head of Director General's Cabinet at ESA's Headquarter in Paris He is married and has three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(advisor/NN-4,He/PRP-1)
+				cop(advisor/NN-4,is/VBZ-2)
+				advmod(advisor/NN-4,now/RB-3)
+				det(Head/NNP-7,the/DT-6)
+				prep_to(advisor/NN-4,Head/NNP-7)
+				nn(General/NNP-10,Director/NNP-9)
+				poss(Cabinet/NNP-12,General/NNP-10)
+				prep_of(Head/NNP-7,Cabinet/NNP-12)
+				poss(Headquarter/NNP-16,ESA/NNP-14)
+				prep_at(Cabinet/NNP-12,Headquarter/NNP-16)
+				prep_in(Headquarter/NNP-16,Paris/NNP-18)
+				nsubjpass(married/VBN-21,He/PRP-19)
+				nsubj(has/VBZ-23,He/PRP-19)
+				auxpass(married/VBN-21,is/VBZ-20)
+				dep(advisor/NN-4,married/VBN-21)
+				dep(advisor/NN-4,has/VBZ-23)
+				conj_and(married/VBN-21,has/VBZ-23)
+				num(children/NNS-25,three/CD-24)
+				dobj(has/VBZ-23,children/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Head</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Headquarters</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Headquarter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Headquarters</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Paris</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Paris</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He enjoys reading and spending time with his family, and performs with an amateur theatre group.	</value>
+
+		<annotated-sentence>	He enjoys [[reading and spending|Government_spending]] time with [[his family|Family]], and performs with an [[amateur theatre|Amateur_theatre]] group.	</annotated-sentence>
+
+		<pattern_crowdsource>	He enjoys reading and spending time with his family, and performs with an amateur theatre group.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-2,He/PRP-1)
+				nsubj(performs/VBZ-12,He/PRP-1)
+				nn(time/NN-6,reading/NN-3)
+				conj_and(reading/NN-3,spending/NN-5)
+				nn(time/NN-6,spending/NN-5)
+				dobj(enjoys/VBZ-2,time/NN-6)
+				poss(family/NN-9,his/PRP$-8)
+				prep_with(enjoys/VBZ-2,family/NN-9)
+				conj_and(enjoys/VBZ-2,performs/VBZ-12)
+				det(group/NN-17,an/DT-14)
+				amod(group/NN-17,amateur/JJ-15)
+				nn(group/NN-17,theatre/NN-16)
+				prep_with(performs/VBZ-12,group/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>reading and spending</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Government_spending</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his family</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>amateur theatre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amateur_theatre</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His main sports are soccer and he holds a black belt in karate.	</value>
+
+		<annotated-sentence>	His main [[sports|Sport]] are soccer and he holds a black belt in [[karate|Karate]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His main sports are soccer and he holds a black belt in karate.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(sports/NNS-3,His/PRP$-1)
+				amod(sports/NNS-3,main/JJ-2)
+				nsubj(soccer/NN-5,sports/NNS-3)
+				cop(soccer/NN-5,are/VBP-4)
+				nsubj(holds/VBZ-8,he/PRP-7)
+				conj_and(soccer/NN-5,holds/VBZ-8)
+				det(belt/NN-11,a/DT-9)
+				amod(belt/NN-11,black/JJ-10)
+				dobj(holds/VBZ-8,belt/NN-11)
+				prep_in(belt/NN-11,karate/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>sports</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sport</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>karate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Karate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

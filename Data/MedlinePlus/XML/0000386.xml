@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>- If you have had back pain before, is this pain similar or different?</value>
+		<pattern_crowdsource> - If you have had [[back pain|C0004604]] before, is this [[pain|C0030193]] similar or different?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>back pain</surface-form>
+				<RDF-ID>C0004604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>similar</surface-form>
+				<RDF-ID>C0871364</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004604 ISA C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Do you feel the pain anywhere else, such as in your hip, thigh, leg or feet?</value>
+		<pattern_crowdsource> - Do you feel the [[pain|C0030193]] anywhere else, such as in your [[hip|C0022122]], [[thigh|C1281586]], leg or [[feet|C0016504]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hip</surface-form>
+				<RDF-ID>C0022122</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thigh</surface-form>
+				<RDF-ID>C1281586</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leg</surface-form>
+				<RDF-ID>C0023216</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>C0016504</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022122 LOCATION_OF C0030193</triple>
+			<triple>C0016504 LOCATION_OF C0030193</triple>
+			<triple>C1281586 LOCATION_OF C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tell your health care provider if you have had weight loss, fever, a change in urination or bowel habits, or a history of cancer.</value>
+		<pattern_crowdsource> Tell your [[health care provider|C0018724]] if you have had [[weight loss|C0043096]], fever, a change in urination or bowel habits, or a history of cancer.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight loss</surface-form>
+				<RDF-ID>C0043096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>change</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urination</surface-form>
+				<RDF-ID>C0042034</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel habits</surface-form>
+				<RDF-ID>C0011135</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>C0019665</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043096 PROCESS_OF C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your health care provider will perform a physical exam to try to find the exact location of your pain, and determine how it affects your movement.</value>
+		<pattern_crowdsource> Your [[health care provider|C0018724]] will perform a [[physical exam|C0031809]] to try to find the exact location of your pain, and determine how it affects your movement.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>location</surface-form>
+				<RDF-ID>C0450429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>movement</surface-form>
+				<RDF-ID>C0026649</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your provider will touch your skin in many places, using a pin, cotton swab, or feather.</value>
+		<pattern_crowdsource> Your [[provider|C1138603]] will touch your skin in many places, using a [[pin|C0175718]], [[cotton swab|C0183754]], or feather.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1138603</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>places</surface-form>
+				<RDF-ID>C0442504</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pin</surface-form>
+				<RDF-ID>C0175718</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cotton swab</surface-form>
+				<RDF-ID>C0183754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feather</surface-form>
+				<RDF-ID>C0015731</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1138603 USES C0175718</triple>
+			<triple>C1138603 USES C0183754</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

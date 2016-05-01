@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Lev Stepanovich Dyomin (Russian: ??? ?????????? ?????; January 11, 1926, in Moscow – December 18, 1998, in Zvyozdny Gorodok) was a Soviet cosmonaut who flew on the Soyuz 15 spaceflight in 1974.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Dyomin/NNP-3,Lev/NNP-1)
+				nn(Dyomin/NNP-3,Stepanovich/NNP-2)
+				nsubj(cosmonaut/NN-31,Dyomin/NNP-3)
+				dep(Dyomin/NNP-3,Russian/NNP-5)
+				dep(Russian/NNP-5,???/NNP-7)
+				nn(?????/NNP-9,??????????/NNP-8)
+				dep(???/NNP-7,?????/NNP-9)
+				dep(???/NNP-7,January/NNP-11)
+				num(January/NNP-11,11/CD-12)
+				num(January/NNP-11,1926/CD-14)
+				prep_in(January/NNP-11,Moscow/NNP-17)
+				dep(???/NNP-7,December/NNP-19)
+				num(December/NNP-19,18/CD-20)
+				num(December/NNP-19,1998/CD-22)
+				nn(Gorodok/NNP-26,Zvyozdny/NNP-25)
+				prep_in(December/NNP-19,Gorodok/NNP-26)
+				cop(cosmonaut/NN-31,was/VBD-28)
+				det(cosmonaut/NN-31,a/DT-29)
+				amod(cosmonaut/NN-31,Soviet/JJ-30)
+				nsubj(flew/VBD-33,who/WP-32)
+				rcmod(cosmonaut/NN-31,flew/VBD-33)
+				det(spaceflight/NN-38,the/DT-35)
+				nn(spaceflight/NN-38,Soyuz/NNP-36)
+				num(spaceflight/NN-38,15/CD-37)
+				prep_on(flew/VBD-33,spaceflight/NN-38)
+				prep_in(flew/VBD-33,1974/CD-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This spaceflight was intended to dock with the space station Salyut 3, but the docking failed.	</value>
+
+		<annotated-sentence>	This [[spaceflight|Spaceflight]] was intended to [[dock|DOCK]] with the [[space station|SpaceStation]] [[Salyut 3|Salyut_3]], but the docking failed.	</annotated-sentence>
+
+		<pattern_crowdsource>	This spaceflight was intended to dock with the space station Salyut 3, but the docking failed.	</pattern_crowdsource>
+
+
+		<tree>
+				det(spaceflight/NN-2,This/DT-1)
+				nsubjpass(intended/VBN-4,spaceflight/NN-2)
+				auxpass(intended/VBN-4,was/VBD-3)
+				prep_to(intended/VBN-4,dock/NN-6)
+				det(Salyut/NNP-11,the/DT-8)
+				nn(Salyut/NNP-11,space/NN-9)
+				nn(Salyut/NNP-11,station/NN-10)
+				prep_with(intended/VBN-4,Salyut/NNP-11)
+				num(Salyut/NNP-11,3/CD-12)
+				det(docking/NN-16,the/DT-15)
+				nsubj(failed/VBD-17,docking/NN-16)
+				conj_but(intended/VBN-4,failed/VBD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>dock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/DOCK</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Salyut 3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Salyut_3</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dyomin gained a doctoral degree in engineering from the Soviet Air Force Engineering Academy and the rank of Colonel in the Soviet Air Force.	</value>
+
+		<annotated-sentence>	[[Dyomin|Lev_Dyomin]] gained a doctoral degree in [[engineering|Engineering]] from the [[Soviet Air Force|Soviet_Air_Forces]] [[Engineering|Engineering]] [[Academy|Academy]] and [[the rank|Colonel]] of [[Colonel|Colonel]] in [[the Soviet Air Force|Soviet_Air_Forces]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Dyomin|Lev_Dyomin]] gained a doctoral degree in engineering from the Soviet Air Force Engineering Academy and [[the rank|Colonel]] of [[Colonel|Colonel]] in the Soviet Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(gained/VBD-2,Dyomin/NNP-1)
+				det(degree/NN-5,a/DT-3)
+				amod(degree/NN-5,doctoral/JJ-4)
+				dobj(gained/VBD-2,degree/NN-5)
+				prep_in(gained/VBD-2,engineering/NN-7)
+				det(Academy/NNP-14,the/DT-9)
+				nn(Academy/NNP-14,Soviet/NNP-10)
+				nn(Academy/NNP-14,Air/NNP-11)
+				nn(Academy/NNP-14,Force/NNP-12)
+				nn(Academy/NNP-14,Engineering/NNP-13)
+				prep_from(engineering/NN-7,Academy/NNP-14)
+				det(rank/NN-17,the/DT-16)
+				prep_in(gained/VBD-2,rank/NN-17)
+				conj_and(engineering/NN-7,rank/NN-17)
+				prep_of(rank/NN-17,Colonel/NNP-19)
+				det(Force/NNP-24,the/DT-21)
+				nn(Force/NNP-24,Soviet/NNP-22)
+				nn(Force/NNP-24,Air/NNP-23)
+				prep_in(gained/VBD-2,Force/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dyomin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lev_Dyomin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Soviet Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lev_Dyomin http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lev_Dyomin http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aged 48 at the time of his flight on Soyuz 15, he was the oldest cosmonaut up to that point as well as the first grandfather to go into space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(cosmonaut/NN-17,Aged/VBN-1)
+				dobj(Aged/VBN-1,48/CD-2)
+				det(time/NN-5,the/DT-4)
+				prep_at(Aged/VBN-1,time/NN-5)
+				poss(flight/NN-8,his/PRP$-7)
+				prep_of(time/NN-5,flight/NN-8)
+				prep_on(Aged/VBN-1,Soyuz/NNP-10)
+				num(Soyuz/NNP-10,15/CD-11)
+				nsubj(cosmonaut/NN-17,he/PRP-13)
+				cop(cosmonaut/NN-17,was/VBD-14)
+				det(cosmonaut/NN-17,the/DT-15)
+				amod(cosmonaut/NN-17,oldest/JJS-16)
+				advmod(cosmonaut/NN-17,up/IN-18)
+				det(point/NN-21,that/DT-20)
+				prep_to(up/IN-18,point/NN-21)
+				det(grandfather/NN-27,the/DT-25)
+				amod(grandfather/NN-27,first/JJ-26)
+				prep_to(up/IN-18,grandfather/NN-27)
+				conj_and(point/NN-21,grandfather/NN-27)
+				aux(go/VB-29,to/TO-28)
+				infmod(grandfather/NN-27,go/VB-29)
+				prep_into(go/VB-29,space/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained in the program until leaving in 1982 to pursue deep-sea research.	</value>
+
+		<annotated-sentence>	He remained in the program until leaving in [[1982|1982]] to pursue deep-sea [[research|Research]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained in the program until leaving in 1982 to pursue deep-sea research.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remained/VBD-2,He/PRP-1)
+				det(program/NN-5,the/DT-4)
+				prep_in(remained/VBD-2,program/NN-5)
+				prepc_until(remained/VBD-2,leaving/VBG-7)
+				prep_in(leaving/VBG-7,1982/CD-9)
+				aux(pursue/VB-11,to/TO-10)
+				xcomp(leaving/VBG-7,pursue/VB-11)
+				amod(research/NN-13,deep-sea/JJ-12)
+				dobj(pursue/VB-11,research/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dyomin died of cancer in Zvyozdny Gorodok in 1998.	</value>
+
+		<annotated-sentence>	Dyomin died of [[cancer|Cancer]] in [[Zvyozdny Gorodok|Zvyozdny_gorodok_(urban-type_settlement)]] in [[1998|1998]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dyomin died of cancer in Zvyozdny Gorodok in 1998.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(died/VBD-2,Dyomin/NNP-1)
+				prep_of(died/VBD-2,cancer/NN-4)
+				nn(Gorodok/NNP-7,Zvyozdny/NNP-6)
+				prep_in(died/VBD-2,Gorodok/NNP-7)
+				prep_in(Gorodok/NNP-7,1998/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cancer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Zvyozdny Gorodok</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Zvyozdny_gorodok_(urban-type_settlement)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded:	</value>
+
+		<annotated-sentence>	He was awarded:	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded:	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

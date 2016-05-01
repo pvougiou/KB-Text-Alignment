@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The symptoms of EIA are coughing, wheezing, a feeling of tightness in your chest, or shortness of breath.</value>
+		<pattern_crowdsource> The [[symptoms|C1457887]] of [[EIA|C0004099]] are [[coughing|C0010200]], wheezing, a feeling of tightness in your [[chest|C0817096]], or shortness of breath.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EIA</surface-form>
+				<RDF-ID>C0004099</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wheezing</surface-form>
+				<RDF-ID>C0043144</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feeling</surface-form>
+				<RDF-ID>C1527305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shortness</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breath</surface-form>
+				<RDF-ID>C0225386</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010200 ISA C1457887</triple>
+			<triple>C0817096 LOCATION_OF C0004099</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people may have symptoms after they start exercising.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] may have [[symptoms|C1457887]] after they start exercising.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercising</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking part in recess, physical education (PE), and after-school sports is important for all children.</value>
+		<pattern_crowdsource> Taking part in recess, physical education (PE), and after-[[school sports|C0681648]] is important for all [[children|C0008059]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical education</surface-form>
+				<RDF-ID>C0031805</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>school sports</surface-form>
+				<RDF-ID>C0681648</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0681648 TREATS C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Teachers, coaches, and other school staff should know the symptoms of asthma and what to do if a student has an asthma attack.</value>
+		<pattern_crowdsource> Teachers, coaches, and other school staff should know the symptoms of asthma and what to do if a [[student|C0038492]] has an [[asthma attack|C0347950]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Teachers</surface-form>
+				<RDF-ID>C0221457</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coaches</surface-form>
+				<RDF-ID>C0876909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>staff</surface-form>
+				<RDF-ID>C0851286</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>C0038492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma attack</surface-form>
+				<RDF-ID>C0347950</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0347950 PROCESS_OF C0038492</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Help the student take the medicines listed in his or her asthma action plan.</value>
+		<pattern_crowdsource> Help the [[student|C0038492]] take the [[medicines|C0013227]] listed in his or her asthma action plan.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>C0038492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plan</surface-form>
+				<RDF-ID>C0032074</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0038492</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If an asthma action plan instructs the student to take medicines before exercising, remind the student to do so.</value>
+		<pattern_crowdsource> If an asthma action plan instructs the [[student|C0038492]] to take [[medicines|C0013227]] before exercising, remind the student to do so.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plan</surface-form>
+				<RDF-ID>C0032074</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>C0038492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercising</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>C0038492</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0038492</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You had surgery to prevent the aneurysm from bleeding or to treat the aneurysm after it bled.</value>
+		<pattern_crowdsource> You had [[surgery|C0543467]] to prevent the aneurysm from bleeding or to treat the [[aneurysm|C0002940]] after it bled.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aneurysm</surface-form>
+				<RDF-ID>C0002940</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aneurysm</surface-form>
+				<RDF-ID>C0002940</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0002940</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There are two types of surgery:  - Open craniotomy, during which the doctor makes a hole in your skull to place a clip on the base of the aneurysm.</value>
+		<pattern_crowdsource> There are two types of surgery:  - Open craniotomy, during which the doctor makes a [[hole|C0544726]] in your [[skull|C0037303]] to place a clip on the base of the aneurysm.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>two</surface-form>
+				<RDF-ID>C0205448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>types</surface-form>
+				<RDF-ID>C0332307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Open</surface-form>
+				<RDF-ID>C0175566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>craniotomy</surface-form>
+				<RDF-ID>C0010280</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hole</surface-form>
+				<RDF-ID>C0544726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skull</surface-form>
+				<RDF-ID>C0037303</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clip</surface-form>
+				<RDF-ID>C0175722</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aneurysm</surface-form>
+				<RDF-ID>C0002940</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037303 LOCATION_OF C0544726</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Be sure you understand any instructions about taking medicines such as blood thinners (anticoagulants), aspirin, or nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen and naproxen.</value>
+		<pattern_crowdsource> Be sure you understand any instructions about taking [[medicines|C0013227]] such as [[blood thinners|C0003280]] (anticoagulants), [[aspirin|C0004057]], or [[nonsteroidal anti-inflammatory drugs|C0003211]] (NSAIDs), such as [[ibuprofen|C0020740]] and [[naproxen|C0027396]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>instructions</surface-form>
+				<RDF-ID>C1186996</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood thinners</surface-form>
+				<RDF-ID>C0003280</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anticoagulants</surface-form>
+				<RDF-ID>C0003280</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nonsteroidal anti-inflammatory drugs</surface-form>
+				<RDF-ID>C0003211</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003280 ISA C0013227</triple>
+			<triple>C0020740 ISA C0003211</triple>
+			<triple>C0027396 ISA C0003211</triple>
+			<triple>C0003211 ISA C0004057</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Oral herpes is an infection of the lips, mouth, or gums due to the herpes simplex virus.</value>
+		<pattern_crowdsource> Oral herpes is an [[infection|C0009450]] of the [[lips|C0023759]], [[mouth|C1278910]], or [[gums|C0017562]] due to the [[herpes simplex virus|C0206558]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Oral</surface-form>
+				<RDF-ID>C0442027</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes</surface-form>
+				<RDF-ID>C0019340</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lips</surface-form>
+				<RDF-ID>C0023759</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gums</surface-form>
+				<RDF-ID>C0017562</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes simplex virus</surface-form>
+				<RDF-ID>C0206558</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023759 LOCATION_OF C0009450</triple>
+			<triple>C0017562 LOCATION_OF C0009450</triple>
+			<triple>C1278910 LOCATION_OF C0009450</triple>
+			<triple>C0206558 CAUSES C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Oral herpes is also called herpes labialis.</value>
+		<pattern_crowdsource> Oral [[herpes|C0019340]] is also called [[herpes labialis|C0019345]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Oral</surface-form>
+				<RDF-ID>C0442027</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes</surface-form>
+				<RDF-ID>C0019340</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes labialis</surface-form>
+				<RDF-ID>C0019345</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019345 ISA C0019340</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

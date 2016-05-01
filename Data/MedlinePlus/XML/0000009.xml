@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You had open aortic aneurysm surgery to repair an aneurysm (a widened part) in your aorta, the large artery that carries blood to your belly (abdomen), pelvis, and legs.</value>
+		<pattern_crowdsource> You had open aortic aneurysm surgery to repair an [[aneurysm|C0002940]] (a widened part) in your [[aorta|C0003483]], the [[large artery|C1282824]] that carries [[blood|C0005767]] to your belly (abdomen), pelvis, and legs.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>aortic aneurysm</surface-form>
+				<RDF-ID>C0003486</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>open aortic aneurysm surgery</surface-form>
+				<RDF-ID>C0348025</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aneurysm</surface-form>
+				<RDF-ID>C0002940</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>widened</surface-form>
+				<RDF-ID>C0332464</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aorta</surface-form>
+				<RDF-ID>C0003483</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large artery</surface-form>
+				<RDF-ID>C1282824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdomen</surface-form>
+				<RDF-ID>C0000726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pelvis</surface-form>
+				<RDF-ID>C0030797</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>legs</surface-form>
+				<RDF-ID>C1140621</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003483 LOCATION_OF C0002940</triple>
+			<triple>C0005767 PART_OF C1282824</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Avoid all strenuous activity, including heavy exercising, weightlifting, and other activities that make you breathe hard or strain.</value>
+		<pattern_crowdsource> - Avoid all strenuous activity, including heavy [[exercising|C0015259]], [[weightlifting|C0871604]], and other [[activities|C0441655]] that make you breathe hard or strain.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>strenuous activity</surface-form>
+				<RDF-ID>C1514989</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercising</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weightlifting</surface-form>
+				<RDF-ID>C0871604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>C0441655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hard</surface-form>
+				<RDF-ID>C0018599</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>strain</surface-form>
+				<RDF-ID>C0456178</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0871604 ISA C0441655</triple>
+			<triple>C0871604 ISA C0015259</triple>
+			<triple>C0441655 ISA C0871604</triple>
+			<triple>C0441655 ISA C0015259</triple>
+			<triple>C0015259 ISA C0441655</triple>
+			<triple>C0015259 ISA C0871604</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you are given medicines for blood pressure or diabetes, take them as your doctor has asked you to.</value>
+		<pattern_crowdsource> If you are given [[medicines|C0013227]] for [[blood pressure|C1272641]] or [[diabetes|C0011847]], take them as your doctor has asked you to.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C1272641</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

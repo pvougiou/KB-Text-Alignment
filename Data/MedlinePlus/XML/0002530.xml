@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Most often, a mastectomy is done to treat breast cancer.</value>
+		<pattern_crowdsource> Most often, a [[mastectomy|C0024881]] is done to treat [[breast cancer|C0006142]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mastectomy</surface-form>
+				<RDF-ID>C0024881</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast cancer</surface-form>
+				<RDF-ID>C0006142</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024881 TREATS C0006142</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is surgery to create a new breast after mastectomy.</value>
+		<pattern_crowdsource> This is [[surgery|C0543467]] to create a new breast after [[mastectomy|C0024881]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mastectomy</surface-form>
+				<RDF-ID>C0024881</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024881 PRECEDES C0543467</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- What types of cancer treatment will I need before or after surgery?</value>
+		<pattern_crowdsource> - What types of [[cancer treatment|C0920425]] will I need before or after [[surgery|C0543467]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>types</surface-form>
+				<RDF-ID>C0332307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer treatment</surface-form>
+				<RDF-ID>C0920425</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>need</surface-form>
+				<RDF-ID>C0027552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 PRECEDES C0920425</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Will these treatments be different depending on the type of surgery I have?</value>
+		<pattern_crowdsource> Will these [[treatments|C0087111]] be different depending on the type of [[surgery|C0543467]] I have?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 ISA C0087111</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Will I have swelling in my arm?</value>
+		<pattern_crowdsource> - Will I have [[swelling|C0038999]] in my [[arm|C1140618]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0038999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1140618 LOCATION_OF C0038999</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Can I have surgery to create a new breast after my mastectomy (breast reconstruction)?</value>
+		<pattern_crowdsource> Can I have [[surgery|C0543467]] to create a new breast after my [[mastectomy|C0024881]] (breast reconstruction)?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mastectomy</surface-form>
+				<RDF-ID>C0024881</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast reconstruction</surface-form>
+				<RDF-ID>C0085076</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024881 PRECEDES C0543467</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What medicines can I take for the pain?</value>
+		<pattern_crowdsource> What [[medicines|C0013227]] can I take for the [[pain|C0030193]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

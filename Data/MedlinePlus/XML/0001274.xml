@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Down syndrome is a genetic condition in which a person has 47 chromosomes instead of the usual 46.</value>
+		<pattern_crowdsource> [[Down syndrome|C0013080]] is a [[genetic condition|C0019247]] in which a person has 47 chromosomes instead of the usual 46.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Down syndrome</surface-form>
+				<RDF-ID>C0013080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>genetic condition</surface-form>
+				<RDF-ID>C0019247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chromosomes</surface-form>
+				<RDF-ID>C0008633</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013080 ISA C0019247</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Down syndrome is one of the most common causes of birth defects.</value>
+		<pattern_crowdsource> [[Down syndrome|C0013080]] is one of the most common causes of [[birth defects|C0000768]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Down syndrome</surface-form>
+				<RDF-ID>C0013080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>birth defects</surface-form>
+				<RDF-ID>C0000768</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013080 ISA C0000768</triple>
+			<triple>C0000768 MANIFESTATION_OF C0013080</triple>
+			<triple>C0013080 MANIFESTATION_OF C0013080</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,2404 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Bruce McCandless II (born June 8, 1937) is a former naval aviator with the United States Navy and former NASA astronaut.	</value>
+
+		<annotated-sentence>	Bruce [[McCandless|Bruce_McCandless]] [[II|World_War_II]] (born June 8, 1937) is [[a former naval aviator|United_States_Naval_Aviator]] with [[the United States Navy|United_States_Navy]] and former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Bruce [[McCandless|Bruce_McCandless]] [[II|World_War_II]] (born June 8, 1937) is a former naval aviator with [[the United States Navy|United_States_Navy]] and former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(II/NNP-3,Bruce/NNP-1)
+				nn(II/NNP-3,McCandless/NNP-2)
+				nsubj(aviator/NN-15,II/NNP-3)
+				dep(II/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,June/NNP-6)
+				num(June/NNP-6,8/CD-7)
+				num(June/NNP-6,1937/CD-9)
+				cop(aviator/NN-15,is/VBZ-11)
+				det(aviator/NN-15,a/DT-12)
+				amod(aviator/NN-15,former/JJ-13)
+				amod(aviator/NN-15,naval/JJ-14)
+				det(Navy/NNP-20,the/DT-17)
+				nn(Navy/NNP-20,United/NNP-18)
+				nn(Navy/NNP-20,States/NNPS-19)
+				prep_with(aviator/NN-15,Navy/NNP-20)
+				amod(astronaut/NN-24,former/JJ-22)
+				nn(astronaut/NN-24,NASA/NNP-23)
+				prep_with(aviator/NN-15,astronaut/NN-24)
+				conj_and(Navy/NNP-20,astronaut/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McCandless</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_McCandless</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World_War_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former naval aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/relation http://dbpedia.org/resource/Bruce_McCandless_II
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/battle http://dbpedia.org/resource/World_War_II
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/militaryBranch http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the first of his two Space Shuttle missions he made the first ever untethered free flight using the Manned Maneuvering Unit in 1984.	</value>
+
+		<annotated-sentence>	During the first of [[his two Space Shuttle missions|List_of_space_shuttle_missions]] he made the first ever untethered free flight using [[the Manned Maneuvering Unit|Manned_Maneuvering_Unit]] in [[1984|1984]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the first of his two Space Shuttle missions he made the first ever untethered free flight using the Manned Maneuvering Unit in 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				det(first/JJ-3,the/DT-2)
+				prep_during(made/VBD-11,first/JJ-3)
+				poss(missions/NNS-9,his/PRP$-5)
+				num(missions/NNS-9,two/CD-6)
+				nn(missions/NNS-9,Space/NN-7)
+				nn(missions/NNS-9,Shuttle/NNP-8)
+				prep_of(first/JJ-3,missions/NNS-9)
+				nsubj(made/VBD-11,he/PRP-10)
+				det(flight/NN-17,the/DT-12)
+				amod(flight/NN-17,first/JJ-13)
+				advmod(untethered/JJ-15,ever/RB-14)
+				amod(flight/NN-17,untethered/JJ-15)
+				amod(flight/NN-17,free/JJ-16)
+				dobj(made/VBD-11,flight/NN-17)
+				partmod(flight/NN-17,using/VBG-18)
+				det(Unit/NN-22,the/DT-19)
+				amod(Unit/NN-22,Manned/JJ-20)
+				nn(Unit/NN-22,Maneuvering/NN-21)
+				dobj(using/VBG-18,Unit/NN-22)
+				prep_in(using/VBG-18,1984/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his two Space Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Manned Maneuvering Unit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Maneuvering_Unit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless is the son of Bruce McCandless, and grandson of Willis W. Bradley, both decorated war heroes.	</value>
+
+		<annotated-sentence>	[[McCandless|Bruce_McCandless]] is the son of Bruce [[McCandless|Bruce_McCandless]], and [[grandson|Family]] of [[Willis W. Bradley|Willis_W._Bradley]], both decorated [[war heroes|War_Heroes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McCandless|Bruce_McCandless]] is the son of Bruce [[McCandless|Bruce_McCandless]], and grandson of [[Willis W. Bradley|Willis_W._Bradley]], both decorated war heroes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(son/NN-4,McCandless/NNP-1)
+				cop(son/NN-4,is/VBZ-2)
+				det(son/NN-4,the/DT-3)
+				nn(McCandless/NNP-7,Bruce/NNP-6)
+				prep_of(son/NN-4,McCandless/NNP-7)
+				conj_and(son/NN-4,grandson/NN-10)
+				nn(Bradley/NNP-14,Willis/NNP-12)
+				nn(Bradley/NNP-14,W./NNP-13)
+				prep_of(grandson/NN-10,Bradley/NNP-14)
+				det(heroes/NNS-19,both/DT-16)
+				amod(heroes/NNS-19,decorated/VBN-17)
+				nn(heroes/NNS-19,war/NN-18)
+				appos(Bradley/NNP-14,heroes/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McCandless</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_McCandless</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McCandless</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_McCandless</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>grandson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Willis W. Bradley</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Willis_W._Bradley</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>war heroes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/War_Heroes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/relation http://dbpedia.org/resource/Bruce_McCandless_II
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Willis_W._Bradley http://dbpedia.org/ontology/relation http://dbpedia.org/resource/Bruce_McCandless
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/relation http://dbpedia.org/resource/Bruce_McCandless_II
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Willis_W._Bradley http://dbpedia.org/ontology/relation http://dbpedia.org/resource/Bruce_McCandless
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Woodrow Wilson Senior High School, Long Beach, California.	</value>
+
+		<annotated-sentence>	He graduated from [[Woodrow Wilson Senior High School|Woodrow_Wilson_High_School_(Washington,_D.C.)]], Long Beach, [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Woodrow Wilson Senior High School, Long Beach, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-8,Woodrow/NNP-4)
+				nn(School/NNP-8,Wilson/NNP-5)
+				nn(School/NNP-8,Senior/NNP-6)
+				nn(School/NNP-8,High/NNP-7)
+				prep_from(graduated/VBD-2,School/NNP-8)
+				nn(Beach/NNP-11,Long/NNP-10)
+				appos(School/NNP-8,Beach/NNP-11)
+				appos(Beach/NNP-11,California/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Woodrow Wilson Senior High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Woodrow_Wilson_High_School_(Washington,_D.C.)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	With his father having been awarded the Medal of Honor, McCandless was assured of being appointed to a military academy.	</value>
+
+		<annotated-sentence>	With [[his father|Father]] having been awarded [[the Medal of Honor|Medal_of_Honor]], McCandless was assured of being appointed to [[a military academy|Military_academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	With his father having been awarded the Medal of Honor, McCandless was assured of being appointed to a military academy.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-3,his/PRP$-2)
+				nsubjpass(awarded/VBN-6,father/NN-3)
+				aux(awarded/VBN-6,having/VBG-4)
+				auxpass(awarded/VBN-6,been/VBN-5)
+				prepc_with(assured/VBN-14,awarded/VBN-6)
+				det(Medal/NN-8,the/DT-7)
+				dobj(awarded/VBN-6,Medal/NN-8)
+				prep_of(Medal/NN-8,Honor/NN-10)
+				nsubjpass(assured/VBN-14,McCandless/NNP-12)
+				auxpass(assured/VBN-14,was/VBD-13)
+				auxpass(appointed/VBN-17,being/VBG-16)
+				prepc_of(assured/VBN-14,appointed/VBN-17)
+				det(academy/NN-21,a/DT-19)
+				amod(academy/NN-21,military/JJ-20)
+				prep_to(appointed/VBN-17,academy/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Medal of Honor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medal_of_Honor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a military academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1958 he received a Bachelor of Science degree from the United States Naval Academy, followed by a Master of Science degree in Electrical Engineering from Stanford University in 1965.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-4,1958/CD-2)
+				nsubj(received/VBD-4,he/PRP-3)
+				det(Bachelor/NN-6,a/DT-5)
+				dobj(received/VBD-4,Bachelor/NN-6)
+				nn(degree/NN-9,Science/NNP-8)
+				prep_of(Bachelor/NN-6,degree/NN-9)
+				det(Academy/NNP-15,the/DT-11)
+				nn(Academy/NNP-15,United/NNP-12)
+				nn(Academy/NNP-15,States/NNPS-13)
+				nn(Academy/NNP-15,Naval/NNP-14)
+				prep_from(received/VBD-4,Academy/NNP-15)
+				partmod(received/VBD-4,followed/VBN-17)
+				det(Master/NN-20,a/DT-19)
+				agent(followed/VBN-17,Master/NN-20)
+				nn(degree/NN-23,Science/NNP-22)
+				prep_of(Master/NN-20,degree/NN-23)
+				amod(Engineering/NNP-26,Electrical/JJ-25)
+				prep_in(followed/VBN-17,Engineering/NNP-26)
+				nn(University/NNP-29,Stanford/NNP-28)
+				prep_from(followed/VBN-17,University/NNP-29)
+				prep_in(University/NNP-29,1965/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1987 he received a Master of Business Administration degree from the University of Houston–Clear Lake.	</value>
+
+		<annotated-sentence>	In [[1987|1987]] he received [[a Master of Business Administration degree|Master_of_Business_Administration_Degree]] from the [[University|University]] of [[Houston|Houston]]–Clear [[Lake|Lake]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1987 he received a Master of Business Administration degree from the University of Houston–Clear Lake.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-4,1987/CD-2)
+				nsubj(received/VBD-4,he/PRP-3)
+				det(Master/NN-6,a/DT-5)
+				dobj(received/VBD-4,Master/NN-6)
+				nn(degree/NN-10,Business/NNP-8)
+				nn(degree/NN-10,Administration/NNP-9)
+				prep_of(Master/NN-6,degree/NN-10)
+				det(Lake/NNP-18,the/DT-12)
+				dep(Lake/NNP-18,University/NNP-13)
+				prep_of(University/NNP-13,Houston/NNP-15)
+				nn(Lake/NNP-18,Clear/NNP-17)
+				prep_from(received/VBD-4,Lake/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Business Administration degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master_of_Business_Administration_Degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lake</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Lake</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless graduated second in a class of 899 from the Naval Academy (Class of 1958), along with John McCain and John Poindexter.	</value>
+
+		<annotated-sentence>	McCandless graduated second in [[a class|United_States_Naval_Academy]] of 899 from [[the Naval Academy|Naval_academy]] ([[Class|United_States_Naval_Academy]] of [[1958|1958]]), along with John [[McCain|John_McCain]] and [[John Poindexter|John_Poindexter]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McCandless graduated second in [[a class|United_States_Naval_Academy]] of 899 from the Naval Academy ([[Class|United_States_Naval_Academy]] of 1958), along with John [[McCain|John_McCain]] and [[John Poindexter|John_Poindexter]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,McCandless/NNP-1)
+				acomp(graduated/VBD-2,second/JJ-3)
+				det(class/NN-6,a/DT-5)
+				prep_in(second/JJ-3,class/NN-6)
+				prep_of(class/NN-6,899/CD-8)
+				det(Academy/NNP-12,the/DT-10)
+				nn(Academy/NNP-12,Naval/NNP-11)
+				prep_from(graduated/VBD-2,Academy/NNP-12)
+				dep(Academy/NNP-12,Class/NNP-14)
+				prep_of(Class/NNP-14,1958/CD-16)
+				nn(McCain/NNP-22,John/NNP-21)
+				prep_along_with(Academy/NNP-12,McCain/NNP-22)
+				nn(Poindexter/NNP-25,John/NNP-24)
+				prep_along_with(Academy/NNP-12,Poindexter/NNP-25)
+				conj_and(McCain/NNP-22,Poindexter/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a class</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Naval Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Class</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1958</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1958</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McCain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_McCain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>John Poindexter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Poindexter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_McCain http://dbpedia.org/property/education http://dbpedia.org/resource/United_States_Naval_Academy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Poindexter http://dbpedia.org/property/almaMater http://dbpedia.org/resource/United_States_Naval_Academy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_McCain http://dbpedia.org/property/education http://dbpedia.org/resource/United_States_Naval_Academy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Poindexter http://dbpedia.org/property/almaMater http://dbpedia.org/resource/United_States_Naval_Academy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Subsequently, he received flight training from the Naval Air Training Command at bases in Pensacola, Florida, and Kingsville, Texas.	</value>
+
+		<annotated-sentence>	Subsequently, he received [[flight training|Flight_training]] from [[the Naval Air Training Command|Naval_Air_Training_Command]] at bases in Pensacola, Florida, and Kingsville, [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Subsequently, he received flight training from the Naval Air Training Command at bases in Pensacola, Florida, and Kingsville, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(received/VBD-4,Subsequently/RB-1)
+				nsubj(received/VBD-4,he/PRP-3)
+				nn(training/NN-6,flight/NN-5)
+				dobj(received/VBD-4,training/NN-6)
+				det(Command/NN-12,the/DT-8)
+				nn(Command/NN-12,Naval/NNP-9)
+				nn(Command/NN-12,Air/NNP-10)
+				nn(Command/NN-12,Training/NNP-11)
+				prep_from(received/VBD-4,Command/NN-12)
+				prep_at(received/VBD-4,bases/NNS-14)
+				prep_in(bases/NNS-14,Pensacola/NNP-16)
+				prep_in(bases/NNS-14,Florida/NNP-18)
+				conj_and(Pensacola/NNP-16,Florida/NNP-18)
+				prep_in(bases/NNS-14,Kingsville/NNP-21)
+				conj_and(Pensacola/NNP-16,Kingsville/NNP-21)
+				appos(bases/NNS-14,Texas/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Naval Air Training Command</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Training_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1960 he was designated a Naval Aviator and proceeded to Naval Air Station Key West, Florida, for weapons system and carrier landing training in the F-6A Skyray.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(designated/VBN-6,March/NNP-2)
+				num(March/NNP-2,1960/CD-3)
+				nsubjpass(designated/VBN-6,he/PRP-4)
+				nsubjpass(proceeded/VBD-11,he/PRP-4)
+				auxpass(designated/VBN-6,was/VBD-5)
+				det(Aviator/NNP-9,a/DT-7)
+				nn(Aviator/NNP-9,Naval/NNP-8)
+				dobj(designated/VBN-6,Aviator/NNP-9)
+				conj_and(designated/VBN-6,proceeded/VBD-11)
+				nn(West/NNP-17,Naval/NNP-13)
+				nn(West/NNP-17,Air/NNP-14)
+				nn(West/NNP-17,Station/NNP-15)
+				nn(West/NNP-17,Key/NNP-16)
+				prep_to(proceeded/VBD-11,West/NNP-17)
+				appos(West/NNP-17,Florida/NNP-19)
+				prep_for(proceeded/VBD-11,weapons/NNS-22)
+				nn(training/NN-27,system/NN-23)
+				conj_and(system/NN-23,carrier/NN-25)
+				nn(training/NN-27,carrier/NN-25)
+				nn(training/NN-27,landing/NN-26)
+				dobj(designated/VBN-6,training/NN-27)
+				det(Skyray/NN-31,the/DT-29)
+				nn(Skyray/NN-31,F-6A/NN-30)
+				prep_in(training/NN-27,Skyray/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Between December 1960 and February 1964 he was assigned to Fighter Squadron 102 (VF-102), flying the Skyray and the F-4B Phantom II.	</value>
+
+		<annotated-sentence>	Between [[December 1960|December_1960]] and [[February 1964|February_1964]] he was assigned to [[Fighter Squadron|Fighter_Squadron]] 102 ([[VF-102|VFA-102]]), flying [[the Skyray|Douglas_F4D_Skyray]] and [[the F-4B Phantom II|McDonnell_Douglas_F-4_Phantom_II]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Between December 1960 and February 1964 he was assigned to Fighter Squadron 102 (VF-102), flying the Skyray and the F-4B Phantom II.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_between(assigned/VBN-9,December/NNP-2)
+				num(December/NNP-2,1960/CD-3)
+				conj_and(December/NNP-2,February/NNP-5)
+				prep_between(assigned/VBN-9,February/NNP-5)
+				num(February/NNP-5,1964/CD-6)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				nn(Squadron/NNP-12,Fighter/NNP-11)
+				prep_to(assigned/VBN-9,Squadron/NNP-12)
+				num(Squadron/NNP-12,102/CD-13)
+				appos(Squadron/NNP-12,VF-102/NN-15)
+				xcomp(assigned/VBN-9,flying/VBG-18)
+				det(Skyray/NNP-20,the/DT-19)
+				dobj(flying/VBG-18,Skyray/NNP-20)
+				det(F-4B/NN-23,the/DT-22)
+				dobj(flying/VBG-18,F-4B/NN-23)
+				conj_and(Skyray/NNP-20,F-4B/NN-23)
+				nn(II/NNP-25,Phantom/NNP-24)
+				dep(F-4B/NN-23,II/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_1960</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_1964</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-102</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VFA-102</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Skyray</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_F4D_Skyray</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-4B Phantom II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-4_Phantom_II</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He saw duty aboard USS Forrestal and USS Enterprise, including the latter's participation in the Cuban Missile Crisis.	</value>
+
+		<annotated-sentence>	He saw [[duty|Duty]] aboard [[USS Forrestal|USS_Forrestal_(CV-59)]] and USS Enterprise, including the latter's participation in the Cuban Missile Crisis.	</annotated-sentence>
+
+		<pattern_crowdsource>	He saw duty aboard USS Forrestal and USS Enterprise, including the latter's participation in the Cuban Missile Crisis.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(saw/VBD-2,He/PRP-1)
+				dobj(saw/VBD-2,duty/NN-3)
+				nn(Forrestal/NNP-6,USS/NNP-5)
+				prep_aboard(saw/VBD-2,Forrestal/NNP-6)
+				nn(Enterprise/NNP-9,USS/NNP-8)
+				prep_aboard(saw/VBD-2,Enterprise/NNP-9)
+				conj_and(Forrestal/NNP-6,Enterprise/NNP-9)
+				det(latter/NN-13,the/DT-12)
+				poss(participation/NN-15,latter/NN-13)
+				prep_including(saw/VBD-2,participation/NN-15)
+				det(Crisis/NNP-20,the/DT-17)
+				amod(Crisis/NNP-20,Cuban/JJ-18)
+				nn(Crisis/NNP-20,Missile/NNP-19)
+				prep_in(participation/NN-15,Crisis/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Forrestal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Forrestal_(CV-59)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	For three months in early 1964, he was an instrument flight instructor in Attack Squadron 43 (VA-43) at NAS Oceana, Virginia and then reported to the Naval Reserve Officer Training Corps Unit at Stanford University for graduate studies in electrical engineering.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(months/NNS-3,three/CD-2)
+				prep_for(instructor/NN-13,months/NNS-3)
+				amod(1964/CD-6,early/JJ-5)
+				prep_in(months/NNS-3,1964/CD-6)
+				nsubj(instructor/NN-13,he/PRP-8)
+				cop(instructor/NN-13,was/VBD-9)
+				det(instructor/NN-13,an/DT-10)
+				nn(instructor/NN-13,instrument/NN-11)
+				nn(instructor/NN-13,flight/NN-12)
+				nn(Squadron/NNP-16,Attack/NNP-15)
+				prep_in(instructor/NN-13,Squadron/NNP-16)
+				num(VA-43/NN-19,43/CD-17)
+				nsubj(reported/VBD-28,VA-43/NN-19)
+				nn(Oceana/NNP-23,NAS/NNP-22)
+				prep_at(VA-43/NN-19,Oceana/NNP-23)
+				prep_at(VA-43/NN-19,Virginia/NNP-25)
+				conj_and(Oceana/NNP-23,Virginia/NNP-25)
+				prep_at(VA-43/NN-19,then/RB-27)
+				conj_and(Oceana/NNP-23,then/RB-27)
+				rcmod(Squadron/NNP-16,reported/VBD-28)
+				det(Unit/NNP-36,the/DT-30)
+				nn(Unit/NNP-36,Naval/NNP-31)
+				nn(Unit/NNP-36,Reserve/NNP-32)
+				nn(Unit/NNP-36,Officer/NNP-33)
+				nn(Unit/NNP-36,Training/NNP-34)
+				nn(Unit/NNP-36,Corps/NNP-35)
+				prep_to(reported/VBD-28,Unit/NNP-36)
+				nn(University/NNP-39,Stanford/NNP-38)
+				prep_at(reported/VBD-28,University/NNP-39)
+				amod(studies/NNS-42,graduate/JJ-41)
+				prep_for(University/NNP-39,studies/NNS-42)
+				amod(engineering/NN-45,electrical/JJ-44)
+				prep_in(studies/NNS-42,engineering/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During Naval service he gained flying proficiency in the T-33B Shooting Star, T-38A Talon, F-4B Phantom II, F-6A Skyray, F-11 Tiger, F-9 Cougar, T-1 Seastar, and T-34B Mentor airplane, and the Bell 47G helicopter.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(service/NN-3,Naval/NNP-2)
+				prep_during(gained/VBD-5,service/NN-3)
+				nsubj(gained/VBD-5,he/PRP-4)
+				xcomp(gained/VBD-5,flying/VBG-6)
+				dobj(flying/VBG-6,proficiency/NN-7)
+				det(Star/NNP-12,the/DT-9)
+				nn(Star/NNP-12,T-33B/NN-10)
+				nn(Star/NNP-12,Shooting/NN-11)
+				prep_in(proficiency/NN-7,Star/NNP-12)
+				nn(Talon/NNP-15,T-38A/NNP-14)
+				dobj(flying/VBG-6,Talon/NNP-15)
+				conj_and(proficiency/NN-7,Talon/NNP-15)
+				nn(II/NNP-19,F-4B/NN-17)
+				nn(II/NNP-19,Phantom/NNP-18)
+				conj_and(proficiency/NN-7,II/NNP-19)
+				conj_and(Talon/NNP-15,II/NNP-19)
+				nn(Skyray/NNP-22,F-6A/NNP-21)
+				conj_and(proficiency/NN-7,Skyray/NNP-22)
+				conj_and(Talon/NNP-15,Skyray/NNP-22)
+				nn(Tiger/NNP-25,F-11/NNP-24)
+				conj_and(proficiency/NN-7,Tiger/NNP-25)
+				conj_and(Talon/NNP-15,Tiger/NNP-25)
+				nn(Cougar/NNP-28,F-9/NNP-27)
+				conj_and(proficiency/NN-7,Cougar/NNP-28)
+				conj_and(Talon/NNP-15,Cougar/NNP-28)
+				nn(Seastar/NNP-31,T-1/NNP-30)
+				conj_and(proficiency/NN-7,Seastar/NNP-31)
+				conj_and(Talon/NNP-15,Seastar/NNP-31)
+				nn(airplane/NN-36,T-34B/NN-34)
+				nn(airplane/NN-36,Mentor/NNP-35)
+				conj_and(proficiency/NN-7,airplane/NN-36)
+				conj_and(Talon/NNP-15,airplane/NN-36)
+				det(helicopter/NN-42,the/DT-39)
+				nn(helicopter/NN-42,Bell/NNP-40)
+				nn(helicopter/NN-42,47G/NNP-41)
+				dobj(flying/VBG-6,helicopter/NN-42)
+				conj_and(proficiency/NN-7,helicopter/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He logged more than 5,200 hours flying time—5,000 hours in jet aircraft.	</value>
+
+		<annotated-sentence>	He logged more than 5,200 [[hours|Hour]] flying time—[[5,000|5,000,000]] [[hours|Hour]] in [[jet aircraft|Jet_aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He logged more than 5,200 hours flying time—5,000 hours in jet aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,He/PRP-1)
+				mwe(than/IN-4,more/JJR-3)
+				quantmod(5,200/CD-5,than/IN-4)
+				num(hours/NNS-6,5,200/CD-5)
+				dobj(logged/VBD-2,hours/NNS-6)
+				partmod(hours/NNS-6,flying/VBG-7)
+				dobj(flying/VBG-7,time/NN-8)
+				num(hours/NNS-11,5,000/CD-10)
+				dep(time/NN-8,hours/NNS-11)
+				nn(aircraft/NN-14,jet/NN-13)
+				prep_in(hours/NNS-11,aircraft/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless was one of the 19 astronauts selected by NASA in April 1966.	</value>
+
+		<annotated-sentence>	McCandless was one of the 19 [[astronauts|Astronaut]] selected by [[NASA|NASA]] in April [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McCandless was one of the 19 [[astronauts|Astronaut]] selected by [[NASA|NASA]] in April 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,McCandless/NNP-1)
+				cop(one/CD-3,was/VBD-2)
+				det(astronauts/NNS-7,the/DT-5)
+				num(astronauts/NNS-7,19/CD-6)
+				prep_of(one/CD-3,astronauts/NNS-7)
+				partmod(astronauts/NNS-7,selected/VBN-8)
+				agent(selected/VBN-8,NASA/NNP-10)
+				prep_in(selected/VBN-8,April/NNP-12)
+				num(April/NNP-12,1966/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a member of the astronaut support crew for the Apollo 14 mission, served as CAPCOM during the Apollo 11 mission when Neil Armstrong first set his foot on the Moon (during the EVA), and was backup pilot for the first manned Skylab mission (SL-1/SL-2).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				ccomp(served/VBD-16,member/NN-4)
+				det(crew/NN-9,the/DT-6)
+				nn(crew/NN-9,astronaut/NN-7)
+				nn(crew/NN-9,support/NN-8)
+				prep_of(member/NN-4,crew/NN-9)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,Apollo/NNP-12)
+				num(mission/NN-14,14/CD-13)
+				prep_for(crew/NN-9,mission/NN-14)
+				prep_as(served/VBD-16,CAPCOM/NNP-18)
+				det(mission/NN-23,the/DT-20)
+				nn(mission/NN-23,Apollo/NNP-21)
+				num(mission/NN-23,11/CD-22)
+				prep_during(served/VBD-16,mission/NN-23)
+				advmod(set/VBD-28,when/WRB-24)
+				nn(Armstrong/NNP-26,Neil/NNP-25)
+				nsubj(set/VBD-28,Armstrong/NNP-26)
+				nsubj(was/VBD-41,Armstrong/NNP-26)
+				advmod(set/VBD-28,first/RB-27)
+				rcmod(mission/NN-23,set/VBD-28)
+				poss(foot/NN-30,his/PRP$-29)
+				dobj(set/VBD-28,foot/NN-30)
+				det(Moon/NNP-33,the/DT-32)
+				prep_on(set/VBD-28,Moon/NNP-33)
+				dep(set/VBD-28,during/IN-35)
+				det(EVA/NNP-37,the/DT-36)
+				pobj(during/IN-35,EVA/NNP-37)
+				rcmod(mission/NN-23,was/VBD-41)
+				conj_and(set/VBD-28,was/VBD-41)
+				amod(pilot/NN-43,backup/JJ-42)
+				nsubj(served/VBD-16,pilot/NN-43)
+				det(mission/NN-49,the/DT-45)
+				amod(mission/NN-49,first/JJ-46)
+				amod(mission/NN-49,manned/JJ-47)
+				nn(mission/NN-49,Skylab/NNP-48)
+				prep_for(pilot/NN-43,mission/NN-49)
+				appos(mission/NN-49,SL-1/NN-51)
+				punct(SL-1/NN-51,//:-52)
+				dep(SL-1/NN-51,SL-2/NN-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a co-investigator on the M-509 astronaut maneuvering unit experiment which was flown in the Skylab Program, and collaborated on the development of the Manned Maneuvering Unit (MMU) used during Shuttle extra-vehicular activities (EVAs).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(co-investigator/NN-4,He/PRP-1)
+				cop(co-investigator/NN-4,was/VBD-2)
+				det(co-investigator/NN-4,a/DT-3)
+				det(experiment/NN-11,the/DT-6)
+				nn(experiment/NN-11,M-509/NN-7)
+				nn(experiment/NN-11,astronaut/NN-8)
+				amod(experiment/NN-11,maneuvering/VBG-9)
+				nn(experiment/NN-11,unit/NN-10)
+				prep_on(co-investigator/NN-4,experiment/NN-11)
+				nsubjpass(flown/VBN-14,which/WDT-12)
+				auxpass(flown/VBN-14,was/VBD-13)
+				rcmod(co-investigator/NN-4,flown/VBN-14)
+				det(Program/NNP-18,the/DT-16)
+				nn(Program/NNP-18,Skylab/NNP-17)
+				prep_in(flown/VBN-14,Program/NNP-18)
+				conj_and(co-investigator/NN-4,collaborated/VBD-21)
+				det(development/NN-24,the/DT-23)
+				prep_on(collaborated/VBD-21,development/NN-24)
+				det(Unit/NN-29,the/DT-26)
+				amod(Unit/NN-29,Manned/JJ-27)
+				nn(Unit/NN-29,Maneuvering/NN-28)
+				prep_of(development/NN-24,Unit/NN-29)
+				appos(Unit/NN-29,MMU/NN-31)
+				partmod(Unit/NN-29,used/VBN-33)
+				prep_during(used/VBN-33,Shuttle/NNP-35)
+				amod(activities/NNS-37,extra-vehicular/JJ-36)
+				nsubj(collaborated/VBD-21,activities/NNS-37)
+				appos(activities/NNS-37,EVAs/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was responsible for crew inputs to the development of hardware and procedures for the Inertial Upper Stage (IUS), Space Telescope, the Solar Maximum Repair Mission, and the Space Station Program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-3,He/PRP-1)
+				cop(responsible/JJ-3,was/VBD-2)
+				nn(inputs/NNS-6,crew/NN-5)
+				prep_for(responsible/JJ-3,inputs/NNS-6)
+				det(development/NN-9,the/DT-8)
+				prep_to(responsible/JJ-3,development/NN-9)
+				prep_of(development/NN-9,hardware/NN-11)
+				prep_of(development/NN-9,procedures/NNS-13)
+				conj_and(hardware/NN-11,procedures/NNS-13)
+				det(Stage/NNP-18,the/DT-15)
+				nn(Stage/NNP-18,Inertial/NNP-16)
+				nn(Stage/NNP-18,Upper/NNP-17)
+				prep_for(responsible/JJ-3,Stage/NNP-18)
+				appos(Stage/NNP-18,IUS/NNS-20)
+				nn(Telescope/NNP-24,Space/NN-23)
+				prep_for(responsible/JJ-3,Telescope/NNP-24)
+				conj_and(Stage/NNP-18,Telescope/NNP-24)
+				det(Mission/NNP-30,the/DT-26)
+				nn(Mission/NNP-30,Solar/NNP-27)
+				nn(Mission/NNP-30,Maximum/NNP-28)
+				nn(Mission/NNP-30,Repair/NNP-29)
+				prep_for(responsible/JJ-3,Mission/NNP-30)
+				conj_and(Stage/NNP-18,Mission/NNP-30)
+				det(Space/NN-34,the/DT-33)
+				prep_for(responsible/JJ-3,Space/NN-34)
+				conj_and(Stage/NNP-18,Space/NN-34)
+				nn(Program/NNP-36,Station/NNP-35)
+				dep(Space/NN-34,Program/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless logged over 312 hours in space, including four hours of MMU flight time.	</value>
+
+		<annotated-sentence>	McCandless logged over 312 [[hours|Hour]] in [[space|Space]], including [[four hours|Hour]] of MMU [[flight time|Herbert_%22Flight_Time%22_Lang]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McCandless logged over 312 hours in space, including four hours of MMU flight time.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,McCandless/NNP-1)
+				num(hours/NNS-5,312/CD-4)
+				prep_over(logged/VBD-2,hours/NNS-5)
+				prep_in(logged/VBD-2,space/NN-7)
+				num(hours/NNS-11,four/CD-10)
+				prep_including(logged/VBD-2,hours/NNS-11)
+				nn(time/NN-15,MMU/NNP-13)
+				nn(time/NN-15,flight/NN-14)
+				prep_of(hours/NNS-11,time/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Herbert_%22Flight_Time%22_Lang</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew as a mission specialist on STS-41-B and STS-31.	</value>
+
+		<annotated-sentence>	He flew as [[a mission specialist|Mission_Specialist]] on [[STS-41-B and STS-31|STS-41-B]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew as a mission specialist on [[STS-41-B and STS-31|STS-41-B]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(flew/VBD-2,specialist/NN-6)
+				prep_on(flew/VBD-2,STS-41-B/NN-8)
+				prep_on(flew/VBD-2,STS-31/NN-10)
+				conj_and(STS-41-B/NN-8,STS-31/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-B and STS-31</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-B</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless_II http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-41-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Bruce_McCandless_II
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bruce_McCandless_II
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Challenger launched from Kennedy Space Center, Florida, on February 3, 1984.	</value>
+
+		<annotated-sentence>	Challenger launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[February|February]] 3, 1984.	</annotated-sentence>
+
+		<pattern_crowdsource>	Challenger launched from Kennedy Space Center, Florida, on February 3, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,Challenger/NNP-1)
+				nn(Center/NNP-6,Kennedy/NNP-4)
+				nn(Center/NNP-6,Space/NNP-5)
+				prep_from(launched/VBD-2,Center/NNP-6)
+				appos(Center/NNP-6,Florida/NNP-8)
+				prep_on(launched/VBD-2,February/NNP-11)
+				num(February/NNP-11,3/CD-12)
+				num(February/NNP-11,1984/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight deployed two communications satellites, and flight-tested rendezvous sensors and computer programs for the first time.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]] deployed [[two communications satellites|Communications_satellite]], and flight-tested rendezvous [[sensors|Sensor]] and computer programs for the first time.	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight deployed two communications satellites, and flight-tested rendezvous sensors and computer programs for the first time.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(deployed/VBN-3,flight/NN-2)
+				nsubj(flight-tested/VBD-9,flight/NN-2)
+				num(satellites/NNS-6,two/CD-4)
+				nn(satellites/NNS-6,communications/NNS-5)
+				dobj(deployed/VBN-3,satellites/NNS-6)
+				conj_and(deployed/VBN-3,flight-tested/VBD-9)
+				nn(sensors/NNS-11,rendezvous/NN-10)
+				dobj(flight-tested/VBD-9,sensors/NNS-11)
+				nn(programs/NNS-14,computer/NN-13)
+				dobj(flight-tested/VBD-9,programs/NNS-14)
+				conj_and(sensors/NNS-11,programs/NNS-14)
+				det(time/NN-18,the/DT-16)
+				amod(time/NN-18,first/JJ-17)
+				prep_for(flight-tested/VBD-9,time/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two communications satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sensors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sensor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission marked the first checkout of the Manned Maneuvering Unit (MMU) and Manipulator Foot Restraint (MFR).	</value>
+
+		<annotated-sentence>	This mission marked [[the first checkout|Point_of_sale]] of [[the Manned Maneuvering Unit|Manned_Maneuvering_Unit]] ([[MMU|Manned_Maneuvering_Unit]]) and [[Manipulator|Manipulator]] [[Foot|Foot]] Restraint (MFR).	</annotated-sentence>
+
+		<pattern_crowdsource>	This mission marked the first checkout of the Manned Maneuvering Unit (MMU) and Manipulator Foot Restraint (MFR).	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(marked/VBD-3,mission/NN-2)
+				det(checkout/NN-6,the/DT-4)
+				amod(checkout/NN-6,first/JJ-5)
+				dobj(marked/VBD-3,checkout/NN-6)
+				det(Unit/NN-11,the/DT-8)
+				amod(Unit/NN-11,Manned/JJ-9)
+				nn(Unit/NN-11,Maneuvering/NN-10)
+				prep_of(checkout/NN-6,Unit/NN-11)
+				appos(Unit/NN-11,MMU/NN-13)
+				nn(Restraint/NNP-18,Manipulator/NNP-16)
+				nn(Restraint/NNP-18,Foot/NNP-17)
+				prep_of(checkout/NN-6,Restraint/NNP-18)
+				conj_and(Unit/NN-11,Restraint/NNP-18)
+				appos(Unit/NN-11,MFR/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first checkout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Point_of_sale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Manned Maneuvering Unit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Maneuvering_Unit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MMU</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Maneuvering_Unit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Manipulator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manipulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Foot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless made the first untethered free flight on each of the two MMUs carried on board, thereby becoming the first person ever to make an untethered spacewalk.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,McCandless/NNP-1)
+				det(flight/NN-7,the/DT-3)
+				amod(flight/NN-7,first/JJ-4)
+				amod(flight/NN-7,untethered/JJ-5)
+				amod(flight/NN-7,free/JJ-6)
+				dobj(made/VBD-2,flight/NN-7)
+				prep_on(made/VBD-2,each/DT-9)
+				det(MMUs/NNS-13,the/DT-11)
+				num(MMUs/NNS-13,two/CD-12)
+				prep_of(each/DT-9,MMUs/NNS-13)
+				rcmod(MMUs/NNS-13,carried/VBD-14)
+				prep_on(carried/VBD-14,board/NN-16)
+				advmod(carried/VBD-14,thereby/RB-18)
+				partmod(MMUs/NNS-13,becoming/VBG-19)
+				det(person/NN-22,the/DT-20)
+				amod(person/NN-22,first/JJ-21)
+				xcomp(becoming/VBG-19,person/NN-22)
+				advmod(becoming/VBG-19,ever/RB-23)
+				aux(make/VB-25,to/TO-24)
+				xcomp(becoming/VBG-19,make/VB-25)
+				det(spacewalk/NN-28,an/DT-26)
+				amod(spacewalk/NN-28,untethered/JJ-27)
+				dobj(make/VB-25,spacewalk/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After eight days in orbit, Challenger made the first landing on the runway at Kennedy Space Center on February 11, 1984.	</value>
+
+		<annotated-sentence>	After eight days in orbit, Challenger made [[the first landing|Amphibious_warfare]] on [[the runway|Runway]] at [[Kennedy Space Center|Kennedy_Space_Center]] on [[February|February]] 11, 1984.	</annotated-sentence>
+
+		<pattern_crowdsource>	After eight days in orbit, Challenger made the first landing on the runway at Kennedy Space Center on February 11, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				num(days/NNS-3,eight/CD-2)
+				prep_after(made/VBD-8,days/NNS-3)
+				prep_in(days/NNS-3,orbit/NN-5)
+				nsubj(made/VBD-8,Challenger/NNP-7)
+				det(landing/NN-11,the/DT-9)
+				amod(landing/NN-11,first/JJ-10)
+				dobj(made/VBD-8,landing/NN-11)
+				det(runway/NN-14,the/DT-13)
+				prep_on(made/VBD-8,runway/NN-14)
+				nn(Center/NNP-18,Kennedy/NNP-16)
+				nn(Center/NNP-18,Space/NNP-17)
+				prep_at(made/VBD-8,Center/NNP-18)
+				prep_on(Center/NNP-18,February/NNP-20)
+				num(February/NNP-20,11/CD-21)
+				num(February/NNP-20,1984/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the runway</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Runway</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On this five-day Discovery flight, launched on April 24, 1990 from the Kennedy Space Center in Florida, the crew deployed the Hubble Space Telescope from their record-setting altitude of 380 miles (612 km).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-5,this/DT-2)
+				amod(flight/NN-5,five-day/JJ-3)
+				nn(flight/NN-5,Discovery/NNP-4)
+				prep_on(deployed/VBD-23,flight/NN-5)
+				partmod(flight/NN-5,launched/VBN-7)
+				prep_on(launched/VBN-7,April/NNP-9)
+				num(April/NNP-9,24/CD-10)
+				num(April/NNP-9,1990/CD-12)
+				det(Center/NNP-17,the/DT-14)
+				nn(Center/NNP-17,Kennedy/NNP-15)
+				nn(Center/NNP-17,Space/NNP-16)
+				prep_from(launched/VBN-7,Center/NNP-17)
+				prep_in(Center/NNP-17,Florida/NNP-19)
+				det(crew/NN-22,the/DT-21)
+				nsubj(deployed/VBD-23,crew/NN-22)
+				det(Telescope/NNP-27,the/DT-24)
+				nn(Telescope/NNP-27,Hubble/NNP-25)
+				nn(Telescope/NNP-27,Space/NNP-26)
+				dobj(deployed/VBD-23,Telescope/NNP-27)
+				poss(altitude/NN-31,their/PRP$-29)
+				amod(altitude/NN-31,record-setting/JJ-30)
+				prep_from(deployed/VBD-23,altitude/NN-31)
+				num(miles/NNS-34,380/CD-33)
+				prep_of(altitude/NN-31,miles/NNS-34)
+				num(km/NN-37,612/CD-36)
+				appos(miles/NNS-34,km/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Discovery landed at Edwards Air Force Base, California, on April 29, 1990.	</value>
+
+		<annotated-sentence>	Discovery landed at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on April 29, 1990.	</annotated-sentence>
+
+		<pattern_crowdsource>	Discovery landed at Edwards Air Force Base, California, on April 29, 1990.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,Discovery/NNP-1)
+				nn(Base/NNP-7,Edwards/NNP-4)
+				nn(Base/NNP-7,Air/NNP-5)
+				nn(Base/NNP-7,Force/NNP-6)
+				prep_at(landed/VBD-2,Base/NNP-7)
+				appos(Base/NNP-7,California/NNP-9)
+				prep_on(landed/VBD-2,April/NNP-12)
+				num(April/NNP-12,29/CD-13)
+				num(April/NNP-12,1990/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded a patent for the design of a tool tethering system that is currently used during Shuttle spacewalks.	</value>
+
+		<annotated-sentence>	He was awarded [[a patent|Patent]] for [[the design|Design]] of a [[tool|Tool]] [[tethering|Tethering]] [[system|System]] that is currently used during Shuttle [[spacewalks|Spacewalk_(software)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded a patent for the design of a tool tethering system that is currently used during Shuttle spacewalks.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(patent/NN-5,a/DT-4)
+				dobj(awarded/VBN-3,patent/NN-5)
+				det(design/NN-8,the/DT-7)
+				prep_for(patent/NN-5,design/NN-8)
+				det(system/NN-13,a/DT-10)
+				nn(system/NN-13,tool/NN-11)
+				nn(system/NN-13,tethering/NN-12)
+				prep_of(design/NN-8,system/NN-13)
+				nsubjpass(used/VBN-17,that/WDT-14)
+				auxpass(used/VBN-17,is/VBZ-15)
+				advmod(used/VBN-17,currently/RB-16)
+				rcmod(patent/NN-5,used/VBN-17)
+				nn(spacewalks/NNS-20,Shuttle/NNP-19)
+				prep_during(used/VBN-17,spacewalks/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a patent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Design</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tool</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tool</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tethering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tethering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a fellow of the American Astronautical Society and former president of the Houston Audubon Society.	</value>
+
+		<annotated-sentence>	He is a fellow of [[the American Astronautical Society|American_Astronautical_Society]] and [[former president|President]] of the [[Houston|Houston]] [[Audubon Society|National_Audubon_Society]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a fellow of the American Astronautical Society and former president of the Houston Audubon Society.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(fellow/NN-4,He/PRP-1)
+				cop(fellow/NN-4,is/VBZ-2)
+				det(fellow/NN-4,a/DT-3)
+				det(Society/NNP-9,the/DT-6)
+				amod(Society/NNP-9,American/JJ-7)
+				nn(Society/NNP-9,Astronautical/NNP-8)
+				prep_of(fellow/NN-4,Society/NNP-9)
+				amod(president/NN-12,former/JJ-11)
+				conj_and(fellow/NN-4,president/NN-12)
+				det(Society/NNP-17,the/DT-14)
+				nn(Society/NNP-17,Houston/NNP-15)
+				nn(Society/NNP-17,Audubon/NNP-16)
+				prep_of(president/NN-12,Society/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the American Astronautical Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Astronautical_Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>former president</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Audubon Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Audubon_Society</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McCandless married Bernice Doyle, and the couple have two grown children.	</value>
+
+		<annotated-sentence>	McCandless married Bernice Doyle, and [[the couple|Intimate_relationship]] have two grown [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McCandless married Bernice Doyle, and the couple have two grown children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(married/VBD-2,McCandless/NNP-1)
+				nn(Doyle/NNP-4,Bernice/NNP-3)
+				dobj(married/VBD-2,Doyle/NNP-4)
+				det(couple/NN-8,the/DT-7)
+				nsubj(have/VBP-9,couple/NN-8)
+				conj_and(married/VBD-2,have/VBP-9)
+				num(children/NNS-12,two/CD-10)
+				amod(children/NNS-12,grown/JJ-11)
+				dobj(have/VBP-9,children/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the couple</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Intimate_relationship</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His recreational interests include electronics, photography, scuba diving, and flying.	</value>
+
+		<annotated-sentence>	His recreational [[interests|Interest]] include [[electronics|Electronics]], [[photography|Photography]], [[scuba diving|Scuba_diving]], and flying.	</annotated-sentence>
+
+		<pattern_crowdsource>	His recreational interests include electronics, photography, scuba diving, and flying.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				amod(interests/NNS-3,recreational/JJ-2)
+				nsubj(include/VBP-4,interests/NNS-3)
+				dobj(include/VBP-4,electronics/NNS-5)
+				dobj(include/VBP-4,photography/NN-7)
+				conj_and(electronics/NNS-5,photography/NN-7)
+				nn(diving/NN-10,scuba/NN-9)
+				dobj(include/VBP-4,diving/NN-10)
+				conj_and(electronics/NNS-5,diving/NN-10)
+				dobj(include/VBP-4,flying/VBG-13)
+				conj_and(electronics/NNS-5,flying/VBG-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>electronics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electronics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>photography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also enjoys cross country skiing.	</value>
+
+		<annotated-sentence>	He also enjoys cross country skiing.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also enjoys cross country skiing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-3,He/PRP-1)
+				advmod(enjoys/VBZ-3,also/RB-2)
+				amod(skiing/NN-6,cross/JJ-4)
+				nn(skiing/NN-6,country/NN-5)
+				dobj(enjoys/VBZ-3,skiing/NN-6)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 30, 2010, McCandless launched a lawsuit against British singer Dido for unauthorized use of a photo of his 1984 space flight for the album art of her 2008 album Safe Trip Home, which showed McCandless “free flying” about 320 feet away from the Space Shuttle Challenger.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(launched/VBD-8,September/NNP-2)
+				num(September/NNP-2,30/CD-3)
+				num(September/NNP-2,2010/CD-5)
+				nsubj(launched/VBD-8,McCandless/NNP-7)
+				det(lawsuit/NN-10,a/DT-9)
+				dobj(launched/VBD-8,lawsuit/NN-10)
+				amod(Dido/NNP-14,British/JJ-12)
+				nn(Dido/NNP-14,singer/NN-13)
+				prep_against(lawsuit/NN-10,Dido/NNP-14)
+				amod(use/NN-17,unauthorized/JJ-16)
+				prep_for(Dido/NNP-14,use/NN-17)
+				det(photo/NN-20,a/DT-19)
+				prep_of(use/NN-17,photo/NN-20)
+				poss(flight/NN-25,his/PRP$-22)
+				num(flight/NN-25,1984/CD-23)
+				nn(flight/NN-25,space/NN-24)
+				prep_of(photo/NN-20,flight/NN-25)
+				det(art/NN-29,the/DT-27)
+				nn(art/NN-29,album/NN-28)
+				prep_for(launched/VBD-8,art/NN-29)
+				poss(album/NN-33,her/PRP$-31)
+				num(album/NN-33,2008/CD-32)
+				prep_of(art/NN-29,album/NN-33)
+				nn(Home/NNP-36,Safe/NNP-34)
+				nn(Home/NNP-36,Trip/NNP-35)
+				tmod(launched/VBD-8,Home/NNP-36)
+				nsubj(showed/VBD-39,which/WDT-38)
+				rcmod(Home/NNP-36,showed/VBD-39)
+				iobj(showed/VBD-39,McCandless/NNP-40)
+				amod(flying/NN-43,free/JJ-42)
+				dobj(showed/VBD-39,flying/NN-43)
+				prep(showed/VBD-39,about/IN-45)
+				num(feet/NNS-47,320/CD-46)
+				npadvmod(away/RB-48,feet/NNS-47)
+				pcomp(about/IN-45,away/RB-48)
+				det(Challenger/NNP-53,the/DT-50)
+				nn(Challenger/NNP-53,Space/NN-51)
+				nn(Challenger/NNP-53,Shuttle/NNP-52)
+				prep_from(showed/VBD-39,Challenger/NNP-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The lawsuit - which also named Sony Corp.’s Sony Music Entertainment and Getty Images Inc. as defendants - does not allege copyright infringement, only infringement of his persona.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(lawsuit/NN-2,The/DT-1)
+				nsubj(allege/VB-22,lawsuit/NN-2)
+				nsubj(named/VBD-6,which/WDT-4)
+				advmod(named/VBD-6,also/RB-5)
+				rcmod(lawsuit/NN-2,named/VBD-6)
+				nn(Corp./NNP-8,Sony/NNP-7)
+				poss(Entertainment/NNP-12,Corp./NNP-8)
+				nn(Entertainment/NNP-12,Sony/NNP-10)
+				nn(Entertainment/NNP-12,Music/NNP-11)
+				dobj(named/VBD-6,Entertainment/NNP-12)
+				nn(Inc./NNP-16,Getty/NNP-14)
+				nn(Inc./NNP-16,Images/NNPS-15)
+				dobj(named/VBD-6,Inc./NNP-16)
+				conj_and(Entertainment/NNP-12,Inc./NNP-16)
+				prep_as(named/VBD-6,defendants/NNS-18)
+				aux(allege/VB-22,does/VBZ-20)
+				neg(allege/VB-22,not/RB-21)
+				nn(infringement/NN-24,copyright/NN-23)
+				dobj(allege/VB-22,infringement/NN-24)
+				advmod(infringement/NN-24,only/RB-26)
+				dep(infringement/NN-24,infringement/NN-27)
+				poss(persona/NN-30,his/PRP$-29)
+				prep_of(infringement/NN-27,persona/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This action was settled amicably on January 14, 2011.	</value>
+
+		<annotated-sentence>	This action was settled amicably on [[January|January]] 14, 2011.	</annotated-sentence>
+
+		<pattern_crowdsource>	This action was settled amicably on January 14, 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				det(action/NN-2,This/DT-1)
+				nsubjpass(settled/VBN-4,action/NN-2)
+				auxpass(settled/VBN-4,was/VBD-3)
+				advmod(settled/VBN-4,amicably/RB-5)
+				prep_on(settled/VBN-4,January/NNP-7)
+				num(January/NNP-7,14/CD-8)
+				num(January/NNP-7,2011/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ironically, an August 2005 Smithsonian magazine article about the photo quoted McCandless saying that the subject's anonymity is its best feature.	</value>
+
+		<annotated-sentence>	Ironically, an [[August 2005|August_2005]] [[Smithsonian magazine|Smithsonian_(magazine)]] article about the photo quoted McCandless saying that the subject's [[anonymity|Anonymity]] is its best feature.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ironically, an August 2005 Smithsonian magazine article about the photo quoted McCandless saying that the subject's anonymity is its best feature.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(quoted/VBN-12,Ironically/RB-1)
+				det(article/NN-8,an/DT-3)
+				nn(article/NN-8,August/NNP-4)
+				num(article/NN-8,2005/CD-5)
+				nn(article/NN-8,Smithsonian/NNP-6)
+				nn(article/NN-8,magazine/NN-7)
+				nsubj(quoted/VBN-12,article/NN-8)
+				det(photo/NN-11,the/DT-10)
+				prep_about(article/NN-8,photo/NN-11)
+				nsubj(saying/VBG-14,McCandless/NNP-13)
+				dep(quoted/VBN-12,saying/VBG-14)
+				mark(feature/NN-23,that/IN-15)
+				det(subject/NN-17,the/DT-16)
+				poss(anonymity/NN-19,subject/NN-17)
+				nsubj(feature/NN-23,anonymity/NN-19)
+				cop(feature/NN-23,is/VBZ-20)
+				poss(feature/NN-23,its/PRP$-21)
+				amod(feature/NN-23,best/JJS-22)
+				ccomp(saying/VBG-14,feature/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Smithsonian magazine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Smithsonian_(magazine)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>anonymity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anonymity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	"I have the sun visor down, so you can't see my face, and that means it could be anybody in there.	</value>
+
+		<annotated-sentence>	"I have [[the sun visor|Sun_visor]] down, so you can't see my face, and that means it could be [[anybody|Anybody_(Movin'_On)]] in there.	</annotated-sentence>
+
+		<pattern_crowdsource>	"I have the sun visor down, so you can't see my face, and that means it could be anybody in there.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-3,I/PRP-2)
+				det(visor/NN-6,the/DT-4)
+				nn(visor/NN-6,sun/NN-5)
+				dobj(have/VBP-3,visor/NN-6)
+				advmod(have/VBP-3,down/RB-7)
+				mark(see/VB-13,so/IN-9)
+				nsubj(see/VB-13,you/PRP-10)
+				aux(see/VB-13,ca/MD-11)
+				neg(see/VB-13,n't/RB-12)
+				advcl(have/VBP-3,see/VB-13)
+				poss(face/NN-15,my/PRP$-14)
+				dobj(see/VB-13,face/NN-15)
+				nsubj(means/VBZ-19,that/DT-18)
+				conj_and(have/VBP-3,means/VBZ-19)
+				nsubj(anybody/NN-23,it/PRP-20)
+				aux(anybody/NN-23,could/MD-21)
+				cop(anybody/NN-23,be/VB-22)
+				ccomp(means/VBZ-19,anybody/NN-23)
+				prep(anybody/NN-23,in/IN-24)
+				pobj(in/IN-24,there/RB-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the sun visor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sun_visor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>anybody</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anybody_(Movin'_On)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It's sort of a representation not of Bruce McCandless, but mankind."	</value>
+
+		<annotated-sentence>	It's [[sort|SORT]] of a representation not of Bruce McCandless, but mankind."	</annotated-sentence>
+
+		<pattern_crowdsource>	It's sort of a representation not of Bruce McCandless, but mankind."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(sort/NN-3,It/PRP-1)
+				cop(sort/NN-3,'s/VBZ-2)
+				det(representation/NN-6,a/DT-5)
+				prep_of(sort/NN-3,representation/NN-6)
+				neg(of/IN-8,not/RB-7)
+				prep(sort/NN-3,of/IN-8)
+				nn(McCandless/NNP-10,Bruce/NNP-9)
+				pobj(of/IN-8,McCandless/NNP-10)
+				prep(sort/NN-3,mankind/NN-13)
+				conj_but(of/IN-8,mankind/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>sort</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SORT</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

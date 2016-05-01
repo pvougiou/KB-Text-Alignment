@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>If an artery becomes blocked, it can lead to heart attack or stroke.</value>
+		<pattern_crowdsource> If an artery becomes [[blocked|C0028778]], it can lead to [[heart attack|C0027051]] or [[stroke|C0038454]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>artery</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blocked</surface-form>
+				<RDF-ID>C0028778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0028778 CAUSES C0027051</triple>
+			<triple>C0028778 CAUSES C0038454</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>CHD is also called coronary artery disease (CAD).</value>
+		<pattern_crowdsource> [[CHD|C0010068]] is also called [[coronary artery disease|C0010054]] (CAD).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>CHD</surface-form>
+				<RDF-ID>C0010068</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary artery disease</surface-form>
+				<RDF-ID>C0010054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010054 ISA C0010068</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A blocked artery can cause a heart attack.</value>
+		<pattern_crowdsource> A [[blocked artery|C0264995]] can cause a [[heart attack|C0027051]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blocked artery</surface-form>
+				<RDF-ID>C0264995</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0264995 CAUSES C0027051</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>High blood pressure and CAD are common causes of heart failure.</value>
+		<pattern_crowdsource> [[High blood pressure|C0020538]] and [[CAD|C0010054]] are common causes of [[heart failure|C0018801]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CAD</surface-form>
+				<RDF-ID>C0010054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010054 CAUSES C0018801</triple>
+			<triple>C0020538 CAUSES C0018801</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Heart valve diseases occur when one of the four valves in the heart doesn't work properly.</value>
+		<pattern_crowdsource> [[Heart valve diseases|C0018824]] occur when one of the four valves in the [[heart|C0018787]] doesn't work properly.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Heart valve diseases</surface-form>
+				<RDF-ID>C0018824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>four</surface-form>
+				<RDF-ID>C0205450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>valves</surface-form>
+				<RDF-ID>C0870080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018787 LOCATION_OF C0018824</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An unusual heartbeat, called a heart murmur, is the most common symptom.</value>
+		<pattern_crowdsource> An unusual heartbeat, called a [[heart murmur|C0018808]], is the most common [[symptom|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>heartbeat</surface-form>
+				<RDF-ID>C0425583</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart murmur</surface-form>
+				<RDF-ID>C0018808</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptom</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018808 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Certain heart problems, such as heart attack, heart disease, or infection, can cause heart valve diseases.</value>
+		<pattern_crowdsource> Certain [[heart problems|C0795691]], such as [[heart attack|C0027051]], [[heart disease|C0018799]], or [[infection|C0009450]], can cause [[heart valve diseases|C0018824]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart problems</surface-form>
+				<RDF-ID>C0795691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart valve diseases</surface-form>
+				<RDF-ID>C0018824</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 CAUSES C0018824</triple>
+			<triple>C0018799 CAUSES C0018824</triple>
+			<triple>C0027051 CAUSES C0018824</triple>
+			<triple>C0795691 CAUSES C0018824</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>High blood pressure (hypertension) is a cardiovascular disease that can lead to other problems, such as heart attack, heart failure, and stroke.</value>
+		<pattern_crowdsource> [[High blood pressure|C0020538]] (hypertension) is a [[cardiovascular disease|C0007222]] that can lead to other problems, such as heart attack, heart failure, and stroke.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hypertension</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cardiovascular disease</surface-form>
+				<RDF-ID>C0007222</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020538 ISA C0007222</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This can happen because of a blood clot traveling to the blood vessels in the brain, or bleeding in the brain.</value>
+		<pattern_crowdsource> This can happen because of a blood clot traveling to the blood vessels in the brain, or [[bleeding|C0019080]] in the [[brain|C0006104]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>traveling</surface-form>
+				<RDF-ID>C0040802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006104 LOCATION_OF C0019080</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

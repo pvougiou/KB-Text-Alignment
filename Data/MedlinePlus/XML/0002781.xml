@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Neuroretinitis is inflammation of the retina and optic nerve of the eye.</value>
+		<pattern_crowdsource> [[Neuroretinitis|C0154874]] is [[inflammation|C0021368]] of the [[retina|C0035298]] and [[optic nerve|C0029130]] of the [[eye|C0015392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Neuroretinitis</surface-form>
+				<RDF-ID>C0154874</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>optic nerve</surface-form>
+				<RDF-ID>C0029130</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0154874 ISA C0021368</triple>
+			<triple>C0035298 LOCATION_OF C0021368</triple>
+			<triple>C0029130 LOCATION_OF C0021368</triple>
+			<triple>C0029130 PART_OF C0015392</triple>
+			<triple>C0035298 PART_OF C0015392</triple>
+			<triple>C0035298 LOCATION_OF C0154874</triple>
+			<triple>C0029130 LOCATION_OF C0154874</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

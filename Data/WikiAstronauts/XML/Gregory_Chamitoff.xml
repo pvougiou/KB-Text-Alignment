@@ -1,0 +1,2417 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Gregory Errol Chamitoff (born 6 August 1962 in Montreal, Quebec, Canada) is an engineer and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Gregory Errol Chamitoff|Gregory_Chamitoff]] (born 6 [[August 1962|August_1962]] in [[Montreal|Montreal]], Quebec, Canada) is [[an engineer|Engineer]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Gregory Errol Chamitoff|Gregory_Chamitoff]] (born 6 August 1962 in [[Montreal|Montreal]], Quebec, Canada) is an engineer and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Chamitoff/NNP-3,Gregory/NNP-1)
+				nn(Chamitoff/NNP-3,Errol/NNP-2)
+				nsubj(engineer/NN-18,Chamitoff/NNP-3)
+				dep(Chamitoff/NNP-3,born/VBN-5)
+				dobj(born/VBN-5,6/CD-6)
+				tmod(born/VBN-5,August/NNP-7)
+				num(August/NNP-7,1962/CD-8)
+				prep_in(born/VBN-5,Montreal/NNP-10)
+				nn(Canada/NNP-14,Quebec/NNP-12)
+				appos(Montreal/NNP-10,Canada/NNP-14)
+				cop(engineer/NN-18,is/VBZ-16)
+				det(engineer/NN-18,an/DT-17)
+				nn(astronaut/NN-21,NASA/NNP-20)
+				conj_and(engineer/NN-18,astronaut/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gregory Errol Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Montreal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Montreal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Montreal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned to Expedition 17 and flew to the International Space Station on STS-124, launching 31 May 2008.	</value>
+
+		<annotated-sentence>	He was assigned to [[Expedition 17|Expedition_17]] and flew to [[the International Space Station|International_Space_Station]] on [[STS-124|STS-124]], launching 31 [[May 2008|May_2008]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was assigned to [[Expedition 17|Expedition_17]] and flew to [[the International Space Station|International_Space_Station]] on [[STS-124|STS-124]], launching 31 May 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBD-8,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				prep_to(assigned/VBN-3,Expedition/NN-5)
+				num(Expedition/NN-5,17/CD-6)
+				conj_and(assigned/VBN-3,flew/VBD-8)
+				det(Station/NNP-13,the/DT-10)
+				nn(Station/NNP-13,International/NNP-11)
+				nn(Station/NNP-13,Space/NNP-12)
+				prep_to(flew/VBD-8,Station/NNP-13)
+				prep_on(flew/VBD-8,STS-124/NN-15)
+				dep(flew/VBD-8,launching/VBG-17)
+				dobj(launching/VBG-17,31/CD-18)
+				tmod(launching/VBG-17,May/NNP-19)
+				num(May/NNP-19,2008/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Expedition 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_17</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_2008</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/expedition7Up http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was in space 198 days, joining Expedition 18 after Expedition 17 left the station, and returned to Earth 30 November 2008 on STS-126.	</value>
+
+		<annotated-sentence>	He was in [[space|Space]] 198 days, joining [[Expedition 18|Expedition_18]] after [[Expedition 17|Expedition_17]] left [[the station|Station]], and returned to [[Earth|Earth]] 30 [[November 2008|November_2008]] on [[STS-126|STS-126]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was in space 198 days, joining [[Expedition 18|Expedition_18]] after [[Expedition 17|Expedition_17]] left the station, and returned to Earth 30 November 2008 on [[STS-126|STS-126]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(was/VBD-2,He/PRP-1)
+				prep_in(was/VBD-2,space/NN-4)
+				num(days/NNS-6,198/CD-5)
+				tmod(was/VBD-2,days/NNS-6)
+				partmod(was/VBD-2,joining/VBG-8)
+				dep(left/VBD-14,Expedition/NN-9)
+				num(Expedition/NN-9,18/CD-10)
+				mark(left/VBD-14,after/IN-11)
+				nsubj(left/VBD-14,Expedition/NN-12)
+				nsubj(returned/VBD-19,Expedition/NN-12)
+				num(Expedition/NN-12,17/CD-13)
+				advcl(joining/VBG-8,left/VBD-14)
+				det(station/NN-16,the/DT-15)
+				dobj(left/VBD-14,station/NN-16)
+				advcl(joining/VBG-8,returned/VBD-19)
+				conj_and(left/VBD-14,returned/VBD-19)
+				prep_to(returned/VBD-19,Earth/NNP-21)
+				num(Earth/NNP-21,30/CD-22)
+				tmod(returned/VBD-19,November/NNP-23)
+				num(November/NNP-23,2008/CD-24)
+				prep_on(returned/VBD-19,STS-126/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 18</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_18</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_17</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-126</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-126</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_18
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_18 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_18 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Expedition_18
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_18
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/expedition7Up http://dbpedia.org/resource/Expedition_18
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-126
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff served as a mission specialist on the STS-134 mission, which was the last flight of Endeavour and delivered the Alpha Magnetic Spectrometer.	</value>
+
+		<annotated-sentence>	[[Chamitoff|Gregory_Chamitoff]] served as [[a mission specialist|Mission_Specialist]] on the [[STS-134|STS-134]] [[mission|Mission_Specialist]], which was [[the last flight|Flight]] of [[Endeavour|Endeavour]] and delivered [[the Alpha Magnetic Spectrometer|Alpha_Magnetic_Spectrometer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Chamitoff|Gregory_Chamitoff]] served as a mission specialist on the [[STS-134|STS-134]] mission, which was the last flight of Endeavour and delivered the Alpha Magnetic Spectrometer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Chamitoff/NNP-1)
+				nsubj(delivered/VBN-20,Chamitoff/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(served/VBD-2,specialist/NN-6)
+				det(mission/NN-10,the/DT-8)
+				nn(mission/NN-10,STS-134/NN-9)
+				prep_on(served/VBD-2,mission/NN-10)
+				nsubj(flight/NN-16,which/WDT-12)
+				cop(flight/NN-16,was/VBD-13)
+				det(flight/NN-16,the/DT-14)
+				amod(flight/NN-16,last/JJ-15)
+				rcmod(mission/NN-10,flight/NN-16)
+				prep_of(flight/NN-16,Endeavour/NNP-18)
+				conj_and(served/VBD-2,delivered/VBN-20)
+				det(Spectrometer/NN-24,the/DT-21)
+				amod(Magnetic/JJ-23,Alpha/NNP-22)
+				amod(Spectrometer/NN-24,Magnetic/JJ-23)
+				dobj(delivered/VBN-20,Spectrometer/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-134</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-134</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the last flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Alpha Magnetic Spectrometer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Alpha_Magnetic_Spectrometer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-134
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff was born 6 August 1962 in Montreal, Quebec, Canada to a Jewish family of Russian origin and is married to Alison Chantal Caviness, M.D., M.P.H., Ph.D.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Chamitoff/NNP-1)
+				nsubjpass(married/VBN-22,Chamitoff/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				dobj(born/VBN-3,6/CD-4)
+				tmod(born/VBN-3,August/NNP-5)
+				num(August/NNP-5,1962/CD-6)
+				nn(Canada/NNP-12,Montreal/NNP-8)
+				appos(Canada/NNP-12,Quebec/NNP-10)
+				prep_in(born/VBN-3,Canada/NNP-12)
+				det(family/NN-16,a/DT-14)
+				amod(family/NN-16,Jewish/JJ-15)
+				prep_to(Canada/NNP-12,family/NN-16)
+				amod(origin/NN-19,Russian/JJ-18)
+				prep_of(family/NN-16,origin/NN-19)
+				auxpass(married/VBN-22,is/VBZ-21)
+				conj_and(born/VBN-3,married/VBN-22)
+				nn(Caviness/NNP-26,Alison/NNP-24)
+				nn(Caviness/NNP-26,Chantal/NNP-25)
+				prep_to(married/VBN-22,Caviness/NNP-26)
+				nn(Ph.D./NNP-32,M.D./NNP-28)
+				appos(Ph.D./NNP-32,M.P.H./NNP-30)
+				appos(Caviness/NNP-26,Ph.D./NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two children, Natasha and Dimitri.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[two children|Child]], Natasha and Dimitri.	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two children, Natasha and Dimitri.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,two/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+				dobj(have/VBP-2,Natasha/NNP-6)
+				conj_and(children/NNS-4,Natasha/NNP-6)
+				dobj(have/VBP-2,Dimitri/NNP-8)
+				conj_and(children/NNS-4,Dimitri/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His mother Shari Chamitoff and brother Ken Chamitoff live in southern California.	</value>
+
+		<annotated-sentence>	His [[mother|Mother]] Shari [[Chamitoff|Gregory_Chamitoff]] and brother Ken [[Chamitoff|Gregory_Chamitoff]] live in [[southern California|Southern_California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His mother Shari Chamitoff and brother Ken Chamitoff live in southern California.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Chamitoff/NNP-4,His/PRP$-1)
+				nn(Chamitoff/NNP-4,mother/NN-2)
+				nn(Chamitoff/NNP-4,Shari/NNP-3)
+				nsubj(live/VB-9,Chamitoff/NNP-4)
+				nn(Chamitoff/NNP-8,brother/NN-6)
+				nn(Chamitoff/NNP-8,Ken/NNP-7)
+				conj_and(Chamitoff/NNP-4,Chamitoff/NNP-8)
+				nsubj(live/VB-9,Chamitoff/NNP-8)
+				amod(California/NNP-12,southern/JJ-11)
+				prep_in(live/VB-9,California/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mother</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>southern California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southern_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His father was the late Ashley "Al" Chamitoff.	</value>
+
+		<annotated-sentence>	His [[father|Father]] was the late Ashley "Al" [[Chamitoff|Gregory_Chamitoff]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His father was the late Ashley "Al" Chamitoff.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-2,His/PRP$-1)
+				nsubj(late/JJ-5,father/NN-2)
+				cop(late/JJ-5,was/VBD-3)
+				det(late/JJ-5,the/DT-4)
+				nn(Chamitoff/NNP-10,Ashley/NNP-6)
+				nn(Chamitoff/NNP-10,Al/NNP-8)
+				dep(late/JJ-5,Chamitoff/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His wife's parents are Madeline Caviness, Ph.D., and Verne Caviness, M.D., Ph.D.	</value>
+
+		<annotated-sentence>	[[His wife|Carolyn_Bessette-Kennedy]]'s [[parents|Parent]] are [[Madeline|Madeline]] [[Caviness|Cathryn_Caviness]], Ph.D., and Verne [[Caviness|Cathryn_Caviness]], M.D., Ph.D.	</annotated-sentence>
+
+		<pattern_crowdsource>	His wife's parents are Madeline Caviness, Ph.D., and Verne Caviness, M.D., Ph.D.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(wife/NN-2,His/PRP$-1)
+				poss(parents/NNS-4,wife/NN-2)
+				nsubj(Caviness/NNP-7,parents/NNS-4)
+				cop(Caviness/NNP-7,are/VBP-5)
+				nn(Caviness/NNP-7,Madeline/NNP-6)
+				conj_and(Caviness/NNP-7,Ph.D./NNP-9)
+				nn(Ph.D./NNP-17,Verne/NNP-12)
+				nn(Ph.D./NNP-17,Caviness/NNP-13)
+				appos(Ph.D./NNP-17,M.D./NNP-15)
+				conj_and(Caviness/NNP-7,Ph.D./NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carolyn_Bessette-Kennedy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Madeline</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Madeline</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Caviness</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cathryn_Caviness</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Caviness</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cathryn_Caviness</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On his father's side of the family, he is also related to the owners of the famous Fairmount bagel establishment in Montreal, from which Chamitoff brought bagels into space on his first mission into orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-3,his/PRP$-2)
+				poss(side/NN-5,father/NN-3)
+				prep_on(related/VBN-13,side/NN-5)
+				det(family/NN-8,the/DT-7)
+				prep_of(side/NN-5,family/NN-8)
+				nsubjpass(related/VBN-13,he/PRP-10)
+				auxpass(related/VBN-13,is/VBZ-11)
+				advmod(related/VBN-13,also/RB-12)
+				det(owners/NNS-16,the/DT-15)
+				prep_to(related/VBN-13,owners/NNS-16)
+				det(establishment/NN-22,the/DT-18)
+				amod(establishment/NN-22,famous/JJ-19)
+				nn(establishment/NN-22,Fairmount/NNP-20)
+				nn(establishment/NN-22,bagel/NN-21)
+				prep_of(owners/NNS-16,establishment/NN-22)
+				prep_in(related/VBN-13,Montreal/NNP-24)
+				prep_from(brought/VBD-29,which/WDT-27)
+				nsubj(brought/VBD-29,Chamitoff/NNP-28)
+				rcmod(Montreal/NNP-24,brought/VBD-29)
+				dobj(brought/VBD-29,bagels/NNS-30)
+				prep_into(brought/VBD-29,space/NN-32)
+				poss(mission/NN-36,his/PRP$-34)
+				amod(mission/NN-36,first/JJ-35)
+				prep_on(space/NN-32,mission/NN-36)
+				prep_into(brought/VBD-29,orbit/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff's recreational interests include scuba diving, backpacking, flying, skiing, racquetball, Aikido, juggling, magic and guitar.	</value>
+
+		<annotated-sentence>	[[Chamitoff|Gregory_Chamitoff]]'s recreational [[interests|Interest]] include [[scuba diving|Scuba_diving]], backpacking, flying, [[skiing|Skiing]], [[racquetball|12426_Racquetball]], [[Aikido|Aikido]], [[juggling|Juggling]], magic and [[guitar|Guitar]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chamitoff's recreational interests include scuba diving, backpacking, flying, skiing, racquetball, Aikido, juggling, magic and guitar.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-4,Chamitoff/NNP-1)
+				amod(interests/NNS-4,recreational/JJ-3)
+				nsubj(include/VBP-5,interests/NNS-4)
+				nn(diving/NN-7,scuba/NN-6)
+				dobj(include/VBP-5,diving/NN-7)
+				appos(diving/NN-7,backpacking/NN-9)
+				partmod(diving/NN-7,flying/VBG-11)
+				appos(diving/NN-7,skiing/NN-13)
+				appos(diving/NN-7,racquetball/NN-15)
+				conj_and(skiing/NN-13,racquetball/NN-15)
+				appos(diving/NN-7,Aikido/NNP-17)
+				conj_and(skiing/NN-13,Aikido/NNP-17)
+				appos(diving/NN-7,juggling/NN-19)
+				conj_and(skiing/NN-13,juggling/NN-19)
+				appos(diving/NN-7,magic/NN-21)
+				conj_and(skiing/NN-13,magic/NN-21)
+				appos(diving/NN-7,guitar/NN-23)
+				conj_and(skiing/NN-13,guitar/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skiing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>racquetball</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/12426_Racquetball</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aikido</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aikido</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>juggling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Juggling</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>guitar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Guitar</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a certified divemaster and instrument rated pilot.	</value>
+
+		<annotated-sentence>	He is a certified [[divemaster|Divemaster]] and instrument rated pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a certified divemaster and instrument rated pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(divemaster/NN-5,He/PRP-1)
+				cop(divemaster/NN-5,is/VBZ-2)
+				det(divemaster/NN-5,a/DT-3)
+				amod(divemaster/NN-5,certified/JJ-4)
+				conj_and(divemaster/NN-5,instrument/NN-7)
+				partmod(divemaster/NN-5,rated/VBN-8)
+				dobj(rated/VBN-8,pilot/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>divemaster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Divemaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff also enjoys chess and has played games with people on earth while living in the ISS.	</value>
+
+		<annotated-sentence>	[[Chamitoff|Gregory_Chamitoff]] also enjoys [[chess|Chess]] and has played games with people on [[earth|Earth]] while living in [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chamitoff also enjoys chess and has played games with people on earth while living in the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-3,Chamitoff/NNP-1)
+				nsubj(played/VBN-7,Chamitoff/NNP-1)
+				advmod(enjoys/VBZ-3,also/RB-2)
+				dobj(enjoys/VBZ-3,chess/NN-4)
+				aux(played/VBN-7,has/VBZ-6)
+				conj_and(enjoys/VBZ-3,played/VBN-7)
+				advmod(played/VBN-7,games/NNS-8)
+				prep_with(games/NNS-8,people/NNS-10)
+				prep_on(people/NNS-10,earth/NN-12)
+				prepc_while(played/VBN-7,living/VBG-14)
+				det(ISS/NNP-17,the/DT-16)
+				prep_in(living/VBG-14,ISS/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>chess</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chess</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His education includes: As an undergraduate student at Cal Poly, Chamitoff taught lab courses in circuit design and worked summer internships at Four Phase Systems, Atari Computers, Northern Telecom, and IBM.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(education/NN-2,His/PRP$-1)
+				nsubj(includes/VBZ-3,education/NN-2)
+				det(student/NN-8,an/DT-6)
+				amod(student/NN-8,undergraduate/JJ-7)
+				prep_as(taught/VBD-14,student/NN-8)
+				nn(Poly/NNP-11,Cal/NNP-10)
+				prep_at(student/NN-8,Poly/NNP-11)
+				nsubj(taught/VBD-14,Chamitoff/NNP-13)
+				nsubj(worked/VBD-21,Chamitoff/NNP-13)
+				parataxis(includes/VBZ-3,taught/VBD-14)
+				nn(courses/NNS-16,lab/NN-15)
+				dobj(taught/VBD-14,courses/NNS-16)
+				nn(design/NN-19,circuit/NN-18)
+				prep_in(taught/VBD-14,design/NN-19)
+				parataxis(includes/VBZ-3,worked/VBD-21)
+				conj_and(taught/VBD-14,worked/VBD-21)
+				nn(internships/NNS-23,summer/NN-22)
+				dobj(worked/VBD-21,internships/NNS-23)
+				num(Phase/NN-26,Four/CD-25)
+				prep_at(worked/VBD-21,Phase/NN-26)
+				dobj(taught/VBD-14,Systems/NNPS-27)
+				nn(Computers/NNP-30,Atari/NNP-29)
+				dobj(taught/VBD-14,Computers/NNP-30)
+				conj_and(Systems/NNPS-27,Computers/NNP-30)
+				nn(Telecom/NNP-33,Northern/NNP-32)
+				dobj(taught/VBD-14,Telecom/NNP-33)
+				conj_and(Systems/NNPS-27,Telecom/NNP-33)
+				dobj(taught/VBD-14,IBM/NNP-36)
+				conj_and(Systems/NNPS-27,IBM/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He developed a self-guided robot for his undergraduate thesis project.	</value>
+
+		<annotated-sentence>	He developed a self-guided [[robot|Robot]] for his undergraduate [[thesis|Thesis]] [[project|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He developed a self-guided robot for his undergraduate thesis project.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(developed/VBD-2,He/PRP-1)
+				det(robot/NN-5,a/DT-3)
+				amod(robot/NN-5,self-guided/JJ-4)
+				dobj(developed/VBD-2,robot/NN-5)
+				poss(project/NN-10,his/PRP$-7)
+				amod(project/NN-10,undergraduate/JJ-8)
+				nn(project/NN-10,thesis/NN-9)
+				prep_for(developed/VBD-2,project/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>robot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>thesis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Thesis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at MIT and Draper Labs (1985–1992), Chamitoff worked on several NASA projects.	</value>
+
+		<annotated-sentence>	While at MIT and Draper [[Labs|5152_Labs]] ([[1985|1985]]–[[1992|1992]]), [[Chamitoff|Gregory_Chamitoff]] worked on several [[NASA|NASA]] [[projects|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at MIT and Draper Labs (1985–1992), [[Chamitoff|Gregory_Chamitoff]] worked on several [[NASA|NASA]] projects.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(worked/VBD-14,at/IN-2)
+				nn(Labs/NNPS-6,MIT/NNP-3)
+				conj_and(MIT/NNP-3,Draper/NNP-5)
+				nn(Labs/NNPS-6,Draper/NNP-5)
+				pobj(at/IN-2,Labs/NNPS-6)
+				dep(Labs/NNPS-6,1985/CD-8)
+				dep(1985/CD-8,1992/CD-10)
+				nsubj(worked/VBD-14,Chamitoff/NNP-13)
+				amod(projects/NNS-18,several/JJ-16)
+				nn(projects/NNS-18,NASA/NNP-17)
+				prep_on(worked/VBD-14,projects/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Labs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5152_Labs</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>projects</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He performed stability analyses for the deployment of the Hubble Space Telescope, designed flight control upgrades for the Space Shuttle autopilot, and worked on the attitude control system for Space Station Freedom.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,He/PRP-1)
+				nsubj(worked/VBD-25,He/PRP-1)
+				nn(analyses/NNS-4,stability/NN-3)
+				dobj(performed/VBD-2,analyses/NNS-4)
+				det(deployment/NN-7,the/DT-6)
+				prep_for(performed/VBD-2,deployment/NN-7)
+				det(Telescope/NNP-12,the/DT-9)
+				nn(Telescope/NNP-12,Hubble/NNP-10)
+				nn(Telescope/NNP-12,Space/NNP-11)
+				prep_of(deployment/NN-7,Telescope/NNP-12)
+				partmod(deployment/NN-7,designed/VBN-14)
+				nn(upgrades/NNS-17,flight/NN-15)
+				nn(upgrades/NNS-17,control/NN-16)
+				dobj(designed/VBN-14,upgrades/NNS-17)
+				det(autopilot/NN-22,the/DT-19)
+				nn(autopilot/NN-22,Space/NN-20)
+				nn(autopilot/NN-22,Shuttle/NN-21)
+				prep_for(upgrades/NNS-17,autopilot/NN-22)
+				conj_and(performed/VBD-2,worked/VBD-25)
+				det(system/NN-30,the/DT-27)
+				nn(system/NN-30,attitude/NN-28)
+				nn(system/NN-30,control/NN-29)
+				prep_on(worked/VBD-25,system/NN-30)
+				nn(Freedom/NNP-34,Space/NN-32)
+				nn(Freedom/NNP-34,Station/NNP-33)
+				prep_for(worked/VBD-25,Freedom/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His doctoral thesis developed a new approach for robust intelligent flight control of hypersonic vehicles.	</value>
+
+		<annotated-sentence>	His doctoral thesis developed a new approach for robust [[intelligent flight control|Intelligent_flight_control_system]] of hypersonic [[vehicles|Vehicle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His doctoral thesis developed a new approach for robust intelligent flight control of hypersonic vehicles.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(thesis/NN-3,His/PRP$-1)
+				amod(thesis/NN-3,doctoral/JJ-2)
+				nsubj(developed/VBD-4,thesis/NN-3)
+				det(approach/NN-7,a/DT-5)
+				amod(approach/NN-7,new/JJ-6)
+				dobj(developed/VBD-4,approach/NN-7)
+				amod(control/NN-12,robust/JJ-9)
+				amod(control/NN-12,intelligent/JJ-10)
+				nn(control/NN-12,flight/NN-11)
+				prep_for(developed/VBD-4,control/NN-12)
+				amod(vehicles/NNS-15,hypersonic/JJ-14)
+				prep_of(control/NN-12,vehicles/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>intelligent flight control</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Intelligent_flight_control_system</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1993 to 1995, Chamitoff was a visiting professor at the University of Sydney, Australia, where he led a research group in the development of autonomous flight vehicles, and taught courses in flight dynamics and control.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(1995/CD-4,1993/CD-2)
+				dep(1995/CD-4,to/TO-3)
+				prep_from(professor/NN-10,1995/CD-4)
+				nsubj(professor/NN-10,Chamitoff/NNP-6)
+				cop(professor/NN-10,was/VBD-7)
+				det(professor/NN-10,a/DT-8)
+				amod(professor/NN-10,visiting/VBG-9)
+				det(University/NNP-13,the/DT-12)
+				prep_at(professor/NN-10,University/NNP-13)
+				prep_of(University/NNP-13,Sydney/NNP-15)
+				appos(professor/NN-10,Australia/NNP-17)
+				advmod(led/VBD-21,where/WRB-19)
+				nsubj(led/VBD-21,he/PRP-20)
+				nsubj(taught/VBD-34,he/PRP-20)
+				rcmod(professor/NN-10,led/VBD-21)
+				det(group/NN-24,a/DT-22)
+				nn(group/NN-24,research/NN-23)
+				dobj(led/VBD-21,group/NN-24)
+				det(development/NN-27,the/DT-26)
+				prep_in(led/VBD-21,development/NN-27)
+				amod(vehicles/NNS-31,autonomous/JJ-29)
+				nn(vehicles/NNS-31,flight/NN-30)
+				prep_of(development/NN-27,vehicles/NNS-31)
+				rcmod(professor/NN-10,taught/VBD-34)
+				conj_and(led/VBD-21,taught/VBD-34)
+				dobj(taught/VBD-34,courses/NNS-35)
+				nn(dynamics/NNS-38,flight/NN-37)
+				prep_in(taught/VBD-34,dynamics/NNS-38)
+				prep_in(taught/VBD-34,control/NN-40)
+				conj_and(dynamics/NNS-38,control/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has published numerous papers on aircraft and spacecraft guidance and control, trajectory optimization, and Mars mission design.	</value>
+
+		<annotated-sentence>	He has published numerous papers on aircraft and spacecraft guidance and control, [[trajectory optimization|Trajectory_optimization]], and [[Mars mission|Lego_Mars_Mission]] [[design|Design]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has published numerous papers on aircraft and spacecraft guidance and control, trajectory optimization, and Mars mission design.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(published/VBN-3,He/PRP-1)
+				aux(published/VBN-3,has/VBZ-2)
+				amod(papers/NNS-5,numerous/JJ-4)
+				dobj(published/VBN-3,papers/NNS-5)
+				nn(guidance/NN-10,aircraft/NN-7)
+				conj_and(aircraft/NN-7,spacecraft/NN-9)
+				nn(guidance/NN-10,spacecraft/NN-9)
+				prep_on(published/VBN-3,guidance/NN-10)
+				prep_on(published/VBN-3,control/NN-12)
+				conj_and(guidance/NN-10,control/NN-12)
+				nn(optimization/NN-15,trajectory/NN-14)
+				prep_on(published/VBN-3,optimization/NN-15)
+				conj_and(guidance/NN-10,optimization/NN-15)
+				nn(design/NN-20,Mars/NNP-18)
+				nn(design/NN-20,mission/NN-19)
+				prep_on(published/VBN-3,design/NN-20)
+				conj_and(guidance/NN-10,design/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>trajectory optimization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Trajectory_optimization</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lego_Mars_Mission</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Design</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr Chamitoff is currently the Lawrence Hargrave Professor of Aeronautical Engineering at the University of Sydney, Australia.	</value>
+
+		<annotated-sentence>	Dr [[Chamitoff|Gregory_Chamitoff]] is currently the [[Lawrence Hargrave|Lawrence_Hargrave]] [[Professor|Professor_Farnsworth]] of [[Aeronautical Engineering|Aerospace_engineering]] at [[the University|University]] of Sydney, Australia.	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr Chamitoff is currently the Lawrence Hargrave Professor of Aeronautical Engineering at the University of Sydney, Australia.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Chamitoff/NNP-2,Dr/NNP-1)
+				nsubj(Professor/NNP-8,Chamitoff/NNP-2)
+				cop(Professor/NNP-8,is/VBZ-3)
+				advmod(Professor/NNP-8,currently/RB-4)
+				det(Professor/NNP-8,the/DT-5)
+				nn(Professor/NNP-8,Lawrence/NNP-6)
+				nn(Professor/NNP-8,Hargrave/NNP-7)
+				nn(Engineering/NNP-11,Aeronautical/NNP-10)
+				prep_of(Professor/NNP-8,Engineering/NNP-11)
+				det(University/NNP-14,the/DT-13)
+				prep_at(Engineering/NNP-11,University/NNP-14)
+				nn(Australia/NNP-18,Sydney/NNP-16)
+				prep_of(University/NNP-14,Australia/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawrence Hargrave</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawrence_Hargrave</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also Professor of Engineering Practice in Aerospace Engineering at Texas A&M University.	</value>
+
+		<annotated-sentence>	He is also [[Professor|Professor_Farnsworth]] of [[Engineering|Aerospace_engineering]] Practice in [[Aerospace Engineering|Aerospace_engineering]] at [[Texas A&M University|Texas_A&M_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also Professor of Engineering Practice in Aerospace Engineering at Texas A&M University.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Professor/NNP-4,He/PRP-1)
+				cop(Professor/NNP-4,is/VBZ-2)
+				advmod(Professor/NNP-4,also/RB-3)
+				nn(Practice/NNP-7,Engineering/NNP-6)
+				prep_of(Professor/NNP-4,Practice/NNP-7)
+				nn(Engineering/NNP-10,Aerospace/NNP-9)
+				prep_in(Practice/NNP-7,Engineering/NNP-10)
+				nn(University/NNP-14,Texas/NNP-12)
+				nn(University/NNP-14,A&M/NNP-13)
+				prep_at(Engineering/NNP-10,University/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas A&M University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas_A&M_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1995, Chamitoff joined the Motion Control Systems Group in the Mission Operations Directorate at the Johnson Space Center, where he developed software applications for spacecraft attitude control monitoring, prediction, analysis, and maneuver optimization.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,1995/CD-2)
+				nsubj(joined/VBD-5,Chamitoff/NNP-4)
+				det(Group/NNP-10,the/DT-6)
+				nn(Group/NNP-10,Motion/NNP-7)
+				nn(Group/NNP-10,Control/NNP-8)
+				nn(Group/NNP-10,Systems/NNP-9)
+				dobj(joined/VBD-5,Group/NNP-10)
+				det(Directorate/NNP-15,the/DT-12)
+				nn(Directorate/NNP-15,Mission/NNP-13)
+				nn(Directorate/NNP-15,Operations/NNP-14)
+				prep_in(joined/VBD-5,Directorate/NNP-15)
+				det(Center/NNP-20,the/DT-17)
+				nn(Center/NNP-20,Johnson/NNP-18)
+				nn(Center/NNP-20,Space/NNP-19)
+				prep_at(joined/VBD-5,Center/NNP-20)
+				advmod(developed/VBD-24,where/WRB-22)
+				nsubj(developed/VBD-24,he/PRP-23)
+				advcl(joined/VBD-5,developed/VBD-24)
+				nn(applications/NNS-26,software/NN-25)
+				dobj(developed/VBD-24,applications/NNS-26)
+				nn(monitoring/NN-31,spacecraft/NN-28)
+				nn(monitoring/NN-31,attitude/NN-29)
+				nn(monitoring/NN-31,control/NN-30)
+				prep_for(developed/VBD-24,monitoring/NN-31)
+				prep_for(developed/VBD-24,prediction/NN-33)
+				conj_and(monitoring/NN-31,prediction/NN-33)
+				prep_for(developed/VBD-24,analysis/NN-35)
+				conj_and(monitoring/NN-31,analysis/NN-35)
+				nn(optimization/NN-39,maneuver/NN-38)
+				prep_for(developed/VBD-24,optimization/NN-39)
+				conj_and(monitoring/NN-31,optimization/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA for the Astronaut Class of 1998, Chamitoff started training in August 1998 and qualified for flight assignment as a Mission Specialist in 2000.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(started/VBD-12,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				det(Class/NNP-7,the/DT-5)
+				nn(Class/NNP-7,Astronaut/NNP-6)
+				prep_for(Selected/VBN-1,Class/NNP-7)
+				prep_of(Class/NNP-7,1998/CD-9)
+				nsubj(started/VBD-12,Chamitoff/NNP-11)
+				dobj(started/VBD-12,training/NN-13)
+				prep_in(training/NN-13,August/NNP-15)
+				num(August/NNP-15,1998/CD-16)
+				amod(assignment/NN-21,qualified/VBN-18)
+				prep_for(qualified/VBN-18,flight/NN-20)
+				dobj(started/VBD-12,assignment/NN-21)
+				conj_and(training/NN-13,assignment/NN-21)
+				det(Specialist/NNP-25,a/DT-23)
+				nn(Specialist/NNP-25,Mission/NNP-24)
+				prep_as(assignment/NN-21,Specialist/NNP-25)
+				prep_in(Specialist/NNP-25,2000/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since then, Chamitoff has worked in the Space Station Robotics branch, been the lead CAPCOM for ISS Expedition 9, acted as Crew Support Astronaut for ISS Expedition 6, and helped develop onboard procedures and displays for Space Station system operations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep(worked/VBN-6,Since/IN-1)
+				pobj(Since/IN-1,then/RB-2)
+				nsubj(worked/VBN-6,Chamitoff/NNP-4)
+				aux(worked/VBN-6,has/VBZ-5)
+				det(branch/NN-12,the/DT-8)
+				nn(branch/NN-12,Space/NN-9)
+				nn(branch/NN-12,Station/NNP-10)
+				nn(branch/NN-12,Robotics/NNP-11)
+				nsubj(acted/VBD-23,branch/NN-12)
+				nsubj(helped/VBD-34,branch/NN-12)
+				cop(CAPCOM/NNP-17,been/VBN-14)
+				det(CAPCOM/NNP-17,the/DT-15)
+				nn(CAPCOM/NNP-17,lead/NN-16)
+				partmod(branch/NN-12,CAPCOM/NNP-17)
+				nn(Expedition/NNP-20,ISS/NNP-19)
+				prep_for(CAPCOM/NNP-17,Expedition/NNP-20)
+				num(Expedition/NNP-20,9/CD-21)
+				prepc_in(worked/VBN-6,acted/VBD-23)
+				nn(Astronaut/NN-27,Crew/NNP-25)
+				nn(Astronaut/NN-27,Support/NN-26)
+				prep_as(acted/VBD-23,Astronaut/NN-27)
+				nn(Expedition/NNP-30,ISS/NNP-29)
+				prep_for(acted/VBD-23,Expedition/NNP-30)
+				num(Expedition/NNP-30,6/CD-31)
+				prepc_in(worked/VBN-6,helped/VBD-34)
+				conj_and(acted/VBD-23,helped/VBD-34)
+				xcomp(helped/VBD-34,develop/VB-35)
+				amod(procedures/NNS-37,onboard/JJ-36)
+				dobj(develop/VB-35,procedures/NNS-37)
+				dep(operations/NNS-44,displays/NNS-39)
+				prep_for(displays/NNS-39,Space/NN-41)
+				nn(operations/NNS-44,Station/NNP-42)
+				nn(operations/NNS-44,system/NN-43)
+				prepc_in(worked/VBN-6,operations/NNS-44)
+				conj_and(acted/VBD-23,operations/NNS-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 2002, Chamitoff was a crew-member on the Aquarius undersea research habitat for 9 days as part of the NEEMO 3 mission (NASA Extreme Environment Mission Operations).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(crew-member/NN-8,July/NNP-2)
+				num(July/NNP-2,2002/CD-3)
+				nsubj(crew-member/NN-8,Chamitoff/NNP-5)
+				cop(crew-member/NN-8,was/VBD-6)
+				det(crew-member/NN-8,a/DT-7)
+				det(habitat/NN-14,the/DT-10)
+				nn(habitat/NN-14,Aquarius/NNP-11)
+				nn(habitat/NN-14,undersea/NN-12)
+				nn(habitat/NN-14,research/NN-13)
+				prep_on(crew-member/NN-8,habitat/NN-14)
+				num(days/NNS-17,9/CD-16)
+				prep_for(habitat/NN-14,days/NNS-17)
+				prep_as(days/NNS-17,part/NN-19)
+				det(mission/NN-24,the/DT-21)
+				nn(mission/NN-24,NEEMO/NN-22)
+				num(mission/NN-24,3/CD-23)
+				prep_of(part/NN-19,mission/NN-24)
+				nn(Operations/NNP-30,NASA/NNP-26)
+				nn(Operations/NNP-30,Extreme/NNP-27)
+				nn(Operations/NNP-30,Environment/NNP-28)
+				nn(Operations/NNP-30,Mission/NNP-29)
+				appos(mission/NN-24,Operations/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as the backup Expedition 15/16 Flight Engineer 2 and STS-117/STS-120 Mission Specialist 5 for Clayton Anderson.	</value>
+
+		<annotated-sentence>	He served as the [[backup|Backup]] [[Expedition|Exploration]] 15/16 [[Flight Engineer|Flight_engineer]] 2 and [[STS-117|STS-117]]/[[STS-120|STS-120]] [[Mission Specialist|Mission_Specialist]] 5 for [[Clayton Anderson|Clayton_Anderson]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as the backup Expedition 15/16 Flight Engineer 2 and [[STS-117|STS-117]]/[[STS-120|STS-120]] Mission Specialist 5 for [[Clayton Anderson|Clayton_Anderson]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(Engineer/NN-9,the/DT-4)
+				nn(Engineer/NN-9,backup/NN-5)
+				nn(Engineer/NN-9,Expedition/NN-6)
+				num(Engineer/NN-9,15/16/CD-7)
+				nn(Engineer/NN-9,Flight/NN-8)
+				prep_as(served/VBD-2,Engineer/NN-9)
+				dep(Engineer/NN-9,2/CD-10)
+				prep_as(served/VBD-2,STS-117/NN-12)
+				conj_and(Engineer/NN-9,STS-117/NN-12)
+				punct(Specialist/NNP-16,//:-13)
+				nn(Specialist/NNP-16,STS-120/NN-14)
+				nn(Specialist/NNP-16,Mission/NNP-15)
+				prep(STS-117/NN-12,Specialist/NNP-16)
+				num(Specialist/NNP-16,5/CD-17)
+				nn(Anderson/NNP-20,Clayton/NNP-19)
+				prep_for(served/VBD-2,Anderson/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-117</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-117</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-120</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-120</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Clayton Anderson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clayton_Anderson</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Clayton_Anderson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Clayton_Anderson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Clayton_Anderson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-117
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-120 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Clayton_Anderson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-120 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Clayton_Anderson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Clayton_Anderson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-120
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff served on a long duration mission to the International Space Station.	</value>
+
+		<annotated-sentence>	[[Chamitoff|Gregory_Chamitoff]] served on a long duration mission to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chamitoff served on a long duration mission to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Chamitoff/NNP-1)
+				det(mission/NN-7,a/DT-4)
+				amod(mission/NN-7,long/JJ-5)
+				nn(mission/NN-7,duration/NN-6)
+				prep_on(served/VBD-2,mission/NN-7)
+				det(Station/NNP-12,the/DT-9)
+				nn(Station/NNP-12,International/NNP-10)
+				nn(Station/NNP-12,Space/NNP-11)
+				prep_to(served/VBD-2,Station/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He launched as a Mission Specialist on board Space Shuttle mission STS-124.	</value>
+
+		<annotated-sentence>	He launched as [[a Mission Specialist|Mission_Specialist]] on board [[Space|Space]] Shuttle [[mission|Mission_Specialist]] [[STS-124|STS-124]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He launched as a Mission Specialist on board Space Shuttle mission [[STS-124|STS-124]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,He/PRP-1)
+				det(Specialist/NN-6,a/DT-4)
+				nn(Specialist/NN-6,Mission/NNP-5)
+				prep_as(launched/VBD-2,Specialist/NN-6)
+				nn(Space/NN-9,board/NN-8)
+				prep_on(launched/VBD-2,Space/NN-9)
+				nn(STS-124/NN-12,Shuttle/NNP-10)
+				nn(STS-124/NN-12,mission/NN-11)
+				dep(Space/NN-9,STS-124/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was Flight Engineer 2 and Science Officer on Expedition 17.	</value>
+
+		<annotated-sentence>	He was [[Flight Engineer|Flight_engineer]] 2 and [[Science Officer|Ground_Control_II:_Operation_Exodus]] on [[Expedition 17|Expedition_17]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was Flight Engineer 2 and Science Officer on [[Expedition 17|Expedition_17]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Engineer/NNP-4,He/PRP-1)
+				cop(Engineer/NNP-4,was/VBD-2)
+				nn(Engineer/NNP-4,Flight/NNP-3)
+				dep(Engineer/NNP-4,2/CD-5)
+				nn(Officer/NNP-8,Science/NNP-7)
+				conj_and(Engineer/NNP-4,Officer/NNP-8)
+				prep_on(Officer/NNP-8,Expedition/NNP-10)
+				num(Expedition/NNP-10,17/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ground_Control_II:_Operation_Exodus</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_17</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned home as a Mission Specialist on STS-126, completing a tour that lasted six months.	</value>
+
+		<annotated-sentence>	He returned home as [[a Mission Specialist|Mission_Specialist]] on [[STS-126|STS-126]], completing a tour that lasted [[six months|Month]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned home as a Mission Specialist on [[STS-126|STS-126]], completing a tour that lasted six months.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				dobj(returned/VBD-2,home/NN-3)
+				det(Specialist/NN-7,a/DT-5)
+				nn(Specialist/NN-7,Mission/NNP-6)
+				prep_as(returned/VBD-2,Specialist/NN-7)
+				prep_on(returned/VBD-2,STS-126/NN-9)
+				partmod(returned/VBD-2,completing/VBG-11)
+				det(tour/NN-13,a/DT-12)
+				dobj(completing/VBG-11,tour/NN-13)
+				nsubj(lasted/VBD-15,that/WDT-14)
+				rcmod(tour/NN-13,lasted/VBD-15)
+				num(months/NNS-17,six/CD-16)
+				tmod(lasted/VBD-15,months/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-126</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-126</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>six months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-126
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-126 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As part of his personal allowance, Chamitoff brought the first bagels into space, 3 bags (18 sesame seed bagels) of Fairmount Bagels with him, from his cousin's bagel bakery.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_as(brought/VBD-9,part/NN-2)
+				poss(allowance/NN-6,his/PRP$-4)
+				amod(allowance/NN-6,personal/JJ-5)
+				prep_of(part/NN-2,allowance/NN-6)
+				nsubj(brought/VBD-9,Chamitoff/NNP-8)
+				det(bagels/NNS-12,the/DT-10)
+				amod(bagels/NNS-12,first/JJ-11)
+				dobj(brought/VBD-9,bagels/NNS-12)
+				prep_into(brought/VBD-9,space/NN-14)
+				num(bags/NN-17,3/CD-16)
+				appos(space/NN-14,bags/NN-17)
+				num(bagels/NNS-22,18/CD-19)
+				nn(bagels/NNS-22,sesame/NN-20)
+				nn(bagels/NNS-22,seed/NN-21)
+				dep(bags/NN-17,bagels/NNS-22)
+				nn(Bagels/NNPS-26,Fairmount/NNP-25)
+				prep_of(bags/NN-17,Bagels/NNPS-26)
+				prep_with(brought/VBD-9,him/PRP-28)
+				poss(cousin/NN-32,his/PRP$-31)
+				poss(bakery/NN-35,cousin/NN-32)
+				nn(bakery/NN-35,bagel/NN-34)
+				prep_from(brought/VBD-9,bakery/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While Richard Garriott was aboard the ISS at the beginning of Expedition 18, Chamitoff and Garriott filmed the first magic show in space, and along with Yury Lonchakov, Michael Fincke and Richard Garriott, filmed the first science-fiction movie made in space, "Apogee of Fear".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(was/VBD-4,While/IN-1)
+				nn(Garriott/NNP-3,Richard/NNP-2)
+				nsubj(was/VBD-4,Garriott/NNP-3)
+				advcl(filmed/VBD-18,was/VBD-4)
+				advmod(was/VBD-4,aboard/IN-5)
+				det(ISS/NN-7,the/DT-6)
+				pobj(aboard/IN-5,ISS/NN-7)
+				det(beginning/NN-10,the/DT-9)
+				prep_at(was/VBD-4,beginning/NN-10)
+				prep_of(beginning/NN-10,Expedition/NN-12)
+				num(Expedition/NN-12,18/CD-13)
+				nsubj(filmed/VBD-18,Chamitoff/NNP-15)
+				nsubj(filmed/VBD-38,Chamitoff/NNP-15)
+				conj_and(Chamitoff/NNP-15,Garriott/NNP-17)
+				nsubj(filmed/VBD-18,Garriott/NNP-17)
+				det(show/NN-22,the/DT-19)
+				amod(show/NN-22,first/JJ-20)
+				amod(show/NN-22,magic/JJ-21)
+				dobj(filmed/VBD-18,show/NN-22)
+				prep_in(filmed/VBD-18,space/NN-24)
+				nn(Lonchakov/NNP-30,Yury/NNP-29)
+				prep_along_with(filmed/VBD-38,Lonchakov/NNP-30)
+				nn(Fincke/NNP-33,Michael/NNP-32)
+				conj_and(Lonchakov/NNP-30,Fincke/NNP-33)
+				prep_along_with(filmed/VBD-38,Fincke/NNP-33)
+				nn(Garriott/NNP-36,Richard/NNP-35)
+				conj_and(Lonchakov/NNP-30,Garriott/NNP-36)
+				prep_along_with(filmed/VBD-38,Garriott/NNP-36)
+				conj_and(filmed/VBD-18,filmed/VBD-38)
+				det(movie/NN-42,the/DT-39)
+				amod(movie/NN-42,first/JJ-40)
+				nn(movie/NN-42,science-fiction/NN-41)
+				dobj(filmed/VBD-38,movie/NN-42)
+				partmod(movie/NN-42,made/VBN-43)
+				prep_in(made/VBN-43,space/NN-45)
+				appos(space/NN-45,Apogee/NNP-48)
+				prep_of(Apogee/NNP-48,Fear/NN-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chamitoff served as a mission specialist on STS-134, the penultimate Space Shuttle mission, during which he made two spacewalks.	</value>
+
+		<annotated-sentence>	[[Chamitoff|Gregory_Chamitoff]] served as [[a mission specialist|Mission_Specialist]] on [[STS-134|STS-134]], the [[penultimate|Penultimate_Hop_Popping]] [[Space Shuttle|SpaceShuttle]] [[mission|Mission_Specialist]], during which he made [[two spacewalks|Spacewalk_(software)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Chamitoff|Gregory_Chamitoff]] served as a mission specialist on [[STS-134|STS-134]], the penultimate Space Shuttle mission, during which he made two spacewalks.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Chamitoff/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(served/VBD-2,specialist/NN-6)
+				prep_on(served/VBD-2,STS-134/NN-8)
+				det(mission/NN-14,the/DT-10)
+				nn(mission/NN-14,penultimate/NN-11)
+				nn(mission/NN-14,Space/NN-12)
+				nn(mission/NN-14,Shuttle/NNP-13)
+				appos(STS-134/NN-8,mission/NN-14)
+				prep_during(made/VBD-19,which/WDT-17)
+				nsubj(made/VBD-19,he/PRP-18)
+				rcmod(STS-134/NN-8,made/VBD-19)
+				num(spacewalks/NNS-21,two/CD-20)
+				dobj(made/VBD-19,spacewalks/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-134</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-134</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>penultimate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Penultimate_Hop_Popping</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-134
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	AIAA Associate Fellow; AIAA Technical Excellence Award; NASA Silver Snoopy award; NASA/USA Space Flight Awareness Award; C.S. Draper Laboratory Graduate Fellowship; IEEE Graduate Fellowship; Tau Beta Pi Honor Society Fellowship; Phi Kappa Phi Honor Society; Eta Kappa Nu Honor Society; Applied Magnetics Scholarships; Academic Excellence Award; Most Outstanding Senior Award; Degree of Excellence and California Statewide Speech Finalist; Eagle Scout.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fellow/NNP-3,AIAA/NNP-1)
+				nn(Fellow/NNP-3,Associate/NNP-2)
+				nn(Excellence/NNP-7,AIAA/NNP-5)
+				nn(Excellence/NNP-7,Technical/NNP-6)
+				dep(Fellow/NNP-3,Excellence/NNP-7)
+				dep(Excellence/NNP-7,Award/NN-8)
+				nn(Snoopy/NNP-12,NASA/NNP-10)
+				nn(Snoopy/NNP-12,Silver/NNP-11)
+				dep(Fellow/NNP-3,Snoopy/NNP-12)
+				dep(Snoopy/NNP-12,award/NN-13)
+				nn(Awareness/NNP-18,NASA/USA/NNP-15)
+				nn(Awareness/NNP-18,Space/NNP-16)
+				nn(Awareness/NNP-18,Flight/NNP-17)
+				dep(Fellow/NNP-3,Awareness/NNP-18)
+				dep(Awareness/NNP-18,Award/NN-19)
+				nn(Draper/NNP-22,C.S./NNP-21)
+				dep(Fellow/NNP-3,Draper/NNP-22)
+				nn(Fellowship/NNP-25,Laboratory/NNP-23)
+				nn(Fellowship/NNP-25,Graduate/NNP-24)
+				dep(Draper/NNP-22,Fellowship/NNP-25)
+				nn(Fellowship/NNP-29,IEEE/NNP-27)
+				nn(Fellowship/NNP-29,Graduate/NNP-28)
+				dep(Fellow/NNP-3,Fellowship/NNP-29)
+				nn(Fellowship/NNP-36,Tau/NNP-31)
+				nn(Fellowship/NNP-36,Beta/NNP-32)
+				nn(Fellowship/NNP-36,Pi/NNP-33)
+				nn(Fellowship/NNP-36,Honor/NN-34)
+				nn(Fellowship/NNP-36,Society/NNP-35)
+				dep(Fellowship/NNP-29,Fellowship/NNP-36)
+				nn(Kappa/NNP-39,Phi/NNP-38)
+				dep(Fellow/NNP-3,Kappa/NNP-39)
+				nn(Society/NNP-42,Phi/NNP-40)
+				nn(Society/NNP-42,Honor/NN-41)
+				dep(Kappa/NNP-39,Society/NNP-42)
+				nn(Society/NNP-48,Eta/NNP-44)
+				nn(Society/NNP-48,Kappa/NNP-45)
+				nn(Society/NNP-48,Nu/NNP-46)
+				nn(Society/NNP-48,Honor/NN-47)
+				dep(Fellow/NNP-3,Society/NNP-48)
+				nn(Scholarships/NNPS-52,Applied/NNP-50)
+				nn(Scholarships/NNPS-52,Magnetics/NNPS-51)
+				dep(Society/NNP-48,Scholarships/NNPS-52)
+				nn(Excellence/NNP-55,Academic/NNP-54)
+				dep(Fellow/NNP-3,Excellence/NNP-55)
+				dep(Excellence/NNP-55,Award/NN-56)
+				dep(Fellow/NNP-3,Most/JJS-58)
+				amod(Award/NN-61,Outstanding/JJ-59)
+				amod(Award/NN-61,Senior/JJ-60)
+				dep(Most/JJS-58,Award/NN-61)
+				dep(Fellow/NNP-3,Degree/NN-63)
+				prep_of(Degree/NN-63,Excellence/NN-65)
+				nn(Finalist/NNP-70,California/NNP-67)
+				nn(Finalist/NNP-70,Statewide/NNP-68)
+				nn(Finalist/NNP-70,Speech/NNP-69)
+				prep_of(Degree/NN-63,Finalist/NNP-70)
+				conj_and(Excellence/NN-65,Finalist/NNP-70)
+				dep(Fellow/NNP-3,Eagle/NNP-72)
+				appos(Eagle/NNP-72,Scout/NNP-73)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

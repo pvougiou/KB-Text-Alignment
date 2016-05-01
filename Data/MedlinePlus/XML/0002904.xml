@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Estrogens and progesterone may be found in birth control pills and hormone replacement therapy.</value>
+		<pattern_crowdsource> [[Estrogens|C0014939]] and [[progesterone|C0033308]] may be found in [[birth control pills|C0009905]] and hormone replacement therapy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Estrogens</surface-form>
+				<RDF-ID>C0014939</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>progesterone</surface-form>
+				<RDF-ID>C0033308</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>birth control pills</surface-form>
+				<RDF-ID>C0009905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone replacement therapy</surface-form>
+				<RDF-ID>C0282402</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033308 COEXISTS_WITH C0009905</triple>
+			<triple>C0014939 COEXISTS_WITH C0009905</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The drug clomiphene citrate (Clomid) can increase LH levels.</value>
+		<pattern_crowdsource> The [[drug|C0013227]] [[clomiphene citrate|C0546859]] ([[Clomid|C0591268]]) can increase LH levels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drug</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clomiphene citrate</surface-form>
+				<RDF-ID>C0546859</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Clomid</surface-form>
+				<RDF-ID>C0591268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0546859 ISA C0013227</triple>
+			<triple>C0591268 ISA C0546859</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>For women with a 28-day menstrual cycle, this release normally occurs between days 11 and 14.</value>
+		<pattern_crowdsource> For [[women|C0043210]] with a 28-day [[menstrual cycle|C0025329]], this release normally occurs between days 11 and 14.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>menstrual cycle</surface-form>
+				<RDF-ID>C0025329</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025329 PROCESS_OF C0043210</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

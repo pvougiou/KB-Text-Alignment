@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>So, your doctor may recommend that you take certain vitamins and supplements.</value>
+		<pattern_crowdsource> So, your [[doctor|C0031831]] may recommend that you take certain [[vitamins|C0042890]] and supplements.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamins</surface-form>
+				<RDF-ID>C0042890</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042890 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You also may need to be on a full liquid diet for a little while after you have had surgery on your stomach or intestine.</value>
+		<pattern_crowdsource> You also may need to be on a full [[liquid diet|C0301571]] for a little while after you have had surgery on your [[stomach|C0038351]] or [[intestine|C0021853]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>full</surface-form>
+				<RDF-ID>C0443225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liquid diet</surface-form>
+				<RDF-ID>C0301571</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>little</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach</surface-form>
+				<RDF-ID>C0038351</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038351 LOCATION_OF C0301571</triple>
+			<triple>C0021853 LOCATION_OF C0301571</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

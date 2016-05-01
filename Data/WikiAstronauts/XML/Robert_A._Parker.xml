@@ -1,0 +1,1310 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Robert Allan Ridley Parker (born December 14, 1936) is the former director of the NASA Management Office at the Jet Propulsion Laboratory and a retired NASA astronaut.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Parker/NNP-4,Robert/NNP-1)
+				nn(Parker/NNP-4,Allan/NNP-2)
+				nn(Parker/NNP-4,Ridley/NNP-3)
+				nsubj(director/NN-15,Parker/NNP-4)
+				dep(Parker/NNP-4,born/VBN-6)
+				tmod(born/VBN-6,December/NNP-7)
+				num(December/NNP-7,14/CD-8)
+				num(December/NNP-7,1936/CD-10)
+				cop(director/NN-15,is/VBZ-12)
+				det(director/NN-15,the/DT-13)
+				amod(director/NN-15,former/JJ-14)
+				det(Office/NNP-20,the/DT-17)
+				nn(Office/NNP-20,NASA/NNP-18)
+				nn(Office/NNP-20,Management/NNP-19)
+				prep_of(director/NN-15,Office/NNP-20)
+				det(Laboratory/NNP-25,the/DT-22)
+				nn(Laboratory/NNP-25,Jet/NNP-23)
+				nn(Laboratory/NNP-25,Propulsion/NNP-24)
+				prep_at(Office/NNP-20,Laboratory/NNP-25)
+				det(astronaut/NN-30,a/DT-27)
+				amod(astronaut/NN-30,retired/JJ-28)
+				nn(astronaut/NN-30,NASA/NNP-29)
+				prep_at(Office/NNP-20,astronaut/NN-30)
+				conj_and(Laboratory/NNP-25,astronaut/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a mission specialist on two space shuttle missions, STS-9 and STS-35.	</value>
+
+		<annotated-sentence>	He was [[a mission specialist|Mission_Specialist]] on [[two space shuttle missions|List_of_space_shuttle_missions]], [[STS-9|STS-9]] and [[STS-35|STS-35]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a mission specialist on two space shuttle missions, [[STS-9|STS-9]] and [[STS-35|STS-35]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,He/PRP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				num(missions/NNS-10,two/CD-7)
+				nn(missions/NNS-10,space/NN-8)
+				nn(missions/NNS-10,shuttle/NN-9)
+				prep_on(specialist/NN-5,missions/NNS-10)
+				prep_on(specialist/NN-5,STS-9/NN-12)
+				conj_and(missions/NNS-10,STS-9/NN-12)
+				prep_on(specialist/NN-5,STS-35/NN-14)
+				conj_and(missions/NNS-10,STS-35/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two space shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-35</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-35</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-9
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-9 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Robert_A._Parker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-9 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Robert_A._Parker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-35
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-35 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Robert_A._Parker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-35 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Robert_A._Parker
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 3,500 hours flying time in jet aircraft and 463 hours in space.	</value>
+
+		<annotated-sentence>	He has logged over 3,500 [[hours|Hour]] flying time in [[jet aircraft|Jet_aircraft]] and 463 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 3,500 hours flying time in jet aircraft and 463 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,3,500/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				partmod(hours/NNS-6,flying/VBG-7)
+				dobj(flying/VBG-7,time/NN-8)
+				nn(aircraft/NN-11,jet/NN-10)
+				prep_in(time/NN-8,aircraft/NN-11)
+				num(hours/NNS-14,463/CD-13)
+				dobj(flying/VBG-7,hours/NNS-14)
+				conj_and(time/NN-8,hours/NNS-14)
+				prep_in(hours/NNS-14,space/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker was born in New York City but grew up in Shrewsbury, Massachusetts.	</value>
+
+		<annotated-sentence>	[[Parker|Charlie_Parker]] was born in [[New York City|New_York_City]] but grew up in [[Shrewsbury , Massachusetts|Shrewsbury,_Massachusetts]]	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Parker|Charlie_Parker]] was born in [[New York City|New_York_City]] but grew up in Shrewsbury, Massachusetts.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Parker/NNP-1)
+				nsubjpass(grew/VBD-9,Parker/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(City/NNP-7,New/NNP-5)
+				nn(City/NNP-7,York/NNP-6)
+				prep_in(born/VBN-3,City/NNP-7)
+				conj_but(born/VBN-3,grew/VBD-9)
+				prt(grew/VBD-9,up/RP-10)
+				nn(Massachusetts/NNP-14,Shrewsbury/NNP-12)
+				prep_in(grew/VBD-9,Massachusetts/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Parker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Charlie_Parker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shrewsbury , Massachusetts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shrewsbury,_Massachusetts</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Charlie_Parker http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/New_York_City
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York_City
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended primary and secondary schools in Shrewsbury.	</value>
+
+		<annotated-sentence>	He attended [[primary and secondary|Primary_and_secondary_(relationship)]] schools in [[Shrewsbury|Shrewsbury]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended primary and secondary schools in Shrewsbury.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				amod(schools/NNS-6,primary/JJ-3)
+				conj_and(primary/JJ-3,secondary/JJ-5)
+				amod(schools/NNS-6,secondary/JJ-5)
+				dobj(attended/VBD-2,schools/NNS-6)
+				prep_in(attended/VBD-2,Shrewsbury/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>primary and secondary</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Primary_and_secondary_(relationship)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shrewsbury</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shrewsbury</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a bachelor of arts degree in astronomy and physics from Amherst College in 1958 and a doctorate in astronomy from the California Institute of Technology in 1962.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,bachelor/NN-4)
+				nn(degree/NN-7,arts/NNS-6)
+				prep_of(bachelor/NN-4,degree/NN-7)
+				prep_in(degree/NN-7,astronomy/NN-9)
+				prep_in(degree/NN-7,physics/NN-11)
+				conj_and(astronomy/NN-9,physics/NN-11)
+				nn(College/NNP-14,Amherst/NNP-13)
+				prep_from(received/VBD-2,College/NNP-14)
+				prep_in(College/NNP-14,1958/CD-16)
+				det(doctorate/NN-19,a/DT-18)
+				prep_from(received/VBD-2,doctorate/NN-19)
+				conj_and(College/NNP-14,doctorate/NN-19)
+				prep_in(doctorate/NN-19,astronomy/NN-21)
+				det(Institute/NNP-25,the/DT-23)
+				nn(Institute/NNP-25,California/NNP-24)
+				prep_from(received/VBD-2,Institute/NNP-25)
+				prep_of(Institute/NNP-25,Technology/NNP-27)
+				prep_in(received/VBD-2,1962/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to his selection for astronaut training, Parker was an associate professor of astronomy at the University of Wisconsin–Madison.	</value>
+
+		<annotated-sentence>	Prior to [[his selection|Selection]] for [[astronaut training|Astronaut_training]], Parker was an associate professor of [[astronomy|Astronomy]] at the [[University|University]] of [[Wisconsin|Wisconsin]]–Madison.	</annotated-sentence>
+
+		<pattern_crowdsource>	Prior to his selection for astronaut training, Parker was an associate professor of astronomy at the University of Wisconsin–Madison.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(selection/NN-4,his/PRP$-3)
+				prep_prior_to(professor/NN-13,selection/NN-4)
+				nn(training/NN-7,astronaut/NN-6)
+				prep_for(selection/NN-4,training/NN-7)
+				nsubj(professor/NN-13,Parker/NNP-9)
+				cop(professor/NN-13,was/VBD-10)
+				det(professor/NN-13,an/DT-11)
+				amod(professor/NN-13,associate/JJ-12)
+				prep_of(professor/NN-13,astronomy/NN-15)
+				det(Madison/NNP-22,the/DT-17)
+				dep(Madison/NNP-22,University/NNP-18)
+				prep_of(University/NNP-18,Wisconsin/NNP-20)
+				prep_at(astronomy/NN-15,Madison/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wisconsin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wisconsin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker was selected as a scientist-astronaut by NASA in August 1967.	</value>
+
+		<annotated-sentence>	Parker was selected as a scientist-astronaut by [[NASA|NASA]] in August [[1967|1967]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker was selected as a scientist-astronaut by [[NASA|NASA]] in August 1967.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Parker/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(scientist-astronaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,scientist-astronaut/NN-6)
+				agent(selected/VBN-3,NASA/NNP-8)
+				prep_in(NASA/NNP-8,August/NNP-10)
+				num(August/NNP-10,1967/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a member of the astronaut support crews for the Apollo 15 and 17 missions, and served as program scientist for the Skylab program Director's Office during the three manned Skylab flights.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				nsubj(served/VBD-19,He/PRP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				det(crews/NNS-9,the/DT-6)
+				nn(crews/NNS-9,astronaut/NN-7)
+				nn(crews/NNS-9,support/NN-8)
+				prep_of(member/NN-4,crews/NNS-9)
+				det(Apollo/NNP-12,the/DT-11)
+				prep_for(member/NN-4,Apollo/NNP-12)
+				num(Apollo/NNP-12,15/CD-13)
+				num(missions/NNS-16,17/CD-15)
+				prep_for(member/NN-4,missions/NNS-16)
+				conj_and(Apollo/NNP-12,missions/NNS-16)
+				conj_and(member/NN-4,served/VBD-19)
+				nn(scientist/NN-22,program/NN-21)
+				prep_as(served/VBD-19,scientist/NN-22)
+				det(program/NN-26,the/DT-24)
+				nn(program/NN-26,Skylab/NNP-25)
+				prep_for(served/VBD-19,program/NN-26)
+				poss(Office/NNP-29,Director/NNP-27)
+				dobj(served/VBD-19,Office/NNP-29)
+				det(three/CD-32,the/DT-31)
+				prep_during(Office/NNP-29,three/CD-32)
+				partmod(three/CD-32,manned/VBN-33)
+				nn(flights/NNS-35,Skylab/NNP-34)
+				dobj(manned/VBN-33,flights/NNS-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From March 1988 to March 1989, Parker was stationed at NASA Headquarters in Washington, D.C. where he served as director of the Space Flight/Space Station Integration Office.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(stationed/VBN-10,March/NNP-2)
+				num(March/NNP-2,1988/CD-3)
+				prep_to(March/NNP-2,March/NNP-5)
+				num(March/NNP-5,1989/CD-6)
+				nsubjpass(stationed/VBN-10,Parker/NNP-8)
+				auxpass(stationed/VBN-10,was/VBD-9)
+				nn(Headquarters/NN-13,NASA/NNP-12)
+				prep_at(stationed/VBN-10,Headquarters/NN-13)
+				nn(D.C./NNP-17,Washington/NNP-15)
+				prep_in(stationed/VBN-10,D.C./NNP-17)
+				advmod(served/VBD-20,where/WRB-18)
+				nsubj(served/VBD-20,he/PRP-19)
+				advcl(stationed/VBN-10,served/VBD-20)
+				prep_as(served/VBD-20,director/NN-22)
+				det(Office/NNP-29,the/DT-24)
+				nn(Office/NNP-29,Space/NN-25)
+				nn(Office/NNP-29,Flight/Space/NNP-26)
+				nn(Office/NNP-29,Station/NNP-27)
+				nn(Office/NNP-29,Integration/NN-28)
+				prep_of(director/NN-22,Office/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of two Spacelab missions, Parker was a mission specialist on STS-9/Spacelab-1 (28 November-8 December 1983) and on STS-35 (2–10 December 1990); which featured the ASTRO-1 ultraviolet astronomy laboratory.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(specialist/NN-12,veteran/NN-2)
+				num(missions/NNS-6,two/CD-4)
+				amod(missions/NNS-6,Spacelab/JJ-5)
+				prep_of(veteran/NN-2,missions/NNS-6)
+				appos(missions/NNS-6,Parker/NNP-8)
+				cop(specialist/NN-12,was/VBD-9)
+				det(specialist/NN-12,a/DT-10)
+				nn(specialist/NN-12,mission/NN-11)
+				nn(Spacelab-1/NN-16,STS-9/NN-14)
+				punct(STS-9/NN-14,//:-15)
+				prep_on(specialist/NN-12,Spacelab-1/NN-16)
+				num(November-8/NN-19,28/CD-18)
+				dep(Spacelab-1/NN-16,November-8/NN-19)
+				tmod(November-8/NN-19,December/NNP-20)
+				num(December/NNP-20,1983/CD-21)
+				prep_on(specialist/NN-12,STS-35/NN-25)
+				conj_and(Spacelab-1/NN-16,STS-35/NN-25)
+				dep(STS-35/NN-25,2/CD-27)
+				dep(2/CD-27,10/CD-29)
+				tmod(10/CD-29,December/NNP-30)
+				num(December/NNP-30,1990/CD-31)
+				nsubj(featured/VBD-35,which/WDT-34)
+				rcmod(STS-35/NN-25,featured/VBD-35)
+				det(laboratory/NN-40,the/DT-36)
+				nn(laboratory/NN-40,ASTRO-1/NN-37)
+				nn(laboratory/NN-40,ultraviolet/NN-38)
+				nn(laboratory/NN-40,astronomy/NN-39)
+				dobj(featured/VBD-35,laboratory/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker was director of the Division of Policy and Plans for the Office of Space Flight at NASA Headquarters from January 1991 to December 1991.	</value>
+
+		<annotated-sentence>	Parker was director of the Division of Policy and Plans for [[the Office|Office]] of Space Flight at [[NASA Headquarters|NASA_Headquarters]] from [[January 1991|1991]] to [[December 1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker was director of the Division of Policy and Plans for the Office of Space Flight at NASA Headquarters from January 1991 to December 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(director/NN-3,Parker/NNP-1)
+				cop(director/NN-3,was/VBD-2)
+				det(Division/NN-6,the/DT-5)
+				prep_of(director/NN-3,Division/NN-6)
+				prep_of(Division/NN-6,Policy/NN-8)
+				prep_of(Division/NN-6,Plans/NNS-10)
+				conj_and(Policy/NN-8,Plans/NNS-10)
+				det(Office/NNP-13,the/DT-12)
+				prep_for(director/NN-3,Office/NNP-13)
+				nn(Flight/NNP-16,Space/NNP-15)
+				prep_of(Office/NNP-13,Flight/NNP-16)
+				nn(Headquarters/NN-19,NASA/NNP-18)
+				prep_at(Flight/NNP-16,Headquarters/NN-19)
+				prep_from(director/NN-3,January/NNP-21)
+				num(January/NNP-21,1991/CD-22)
+				prep_to(director/NN-3,December/NNP-24)
+				num(December/NNP-24,1991/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Headquarters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Headquarters</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From January 1992 to November 1993, he was director of the Spacelab and Operations Program.	</value>
+
+		<annotated-sentence>	From [[January 1992|1992]] to [[November 1993|1993]], he was director of the [[Spacelab and Operations|Spacelab]] Program.	</annotated-sentence>
+
+		<pattern_crowdsource>	From January 1992 to November 1993, he was director of the Spacelab and Operations Program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(director/NN-10,January/NNP-2)
+				num(January/NNP-2,1992/CD-3)
+				prep_to(January/NNP-2,November/NNP-5)
+				num(November/NNP-5,1993/CD-6)
+				nsubj(director/NN-10,he/PRP-8)
+				cop(director/NN-10,was/VBD-9)
+				det(Program/NNP-16,the/DT-12)
+				nn(Program/NNP-16,Spacelab/NNP-13)
+				conj_and(Spacelab/NNP-13,Operations/NNP-15)
+				nn(Program/NNP-16,Operations/NNP-15)
+				prep_of(director/NN-10,Program/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab and Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From December 1993 to August 1997 he was manager of the Space Operations Utilization Program.	</value>
+
+		<annotated-sentence>	From [[December 1993|1993]] to [[August 1997|1997]] he was manager of the [[Space|Space]] Operations [[Utilization|Utilization]] Program.	</annotated-sentence>
+
+		<pattern_crowdsource>	From December 1993 to August 1997 he was manager of the Space Operations Utilization Program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(manager/NN-9,December/NNP-2)
+				num(December/NNP-2,1993/CD-3)
+				prep_to(December/NNP-2,August/NNP-5)
+				num(August/NNP-5,1997/CD-6)
+				nsubj(manager/NN-9,he/PRP-7)
+				cop(manager/NN-9,was/VBD-8)
+				det(Program/NN-15,the/DT-11)
+				nn(Program/NN-15,Space/NNP-12)
+				nn(Program/NN-15,Operations/NNP-13)
+				nn(Program/NN-15,Utilization/NN-14)
+				prep_of(manager/NN-9,Program/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Utilization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Utilization</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1997, Parker was named director of the NASA Management Office at the Jet Propulsion Laboratory in Pasadena, California.	</value>
+
+		<annotated-sentence>	In [[August 1997|1997]], Parker was named director of the [[NASA|NASA]] [[Management|Management]] [[Office|Office]] at [[the Jet Propulsion Laboratory|Jet_Propulsion_Laboratory]] in [[Pasadena , California|Pasadena,_California]]	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1997, Parker was named director of the [[NASA|NASA]] Management Office at the Jet Propulsion Laboratory in Pasadena, California.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(named/VBN-7,August/NNP-2)
+				num(August/NNP-2,1997/CD-3)
+				nsubjpass(named/VBN-7,Parker/NNP-5)
+				auxpass(named/VBN-7,was/VBD-6)
+				dobj(named/VBN-7,director/NN-8)
+				det(Office/NNP-13,the/DT-10)
+				nn(Office/NNP-13,NASA/NNP-11)
+				nn(Office/NNP-13,Management/NNP-12)
+				prep_of(director/NN-8,Office/NNP-13)
+				det(Laboratory/NNP-18,the/DT-15)
+				nn(Laboratory/NNP-18,Jet/NNP-16)
+				nn(Laboratory/NNP-18,Propulsion/NNP-17)
+				prep_at(named/VBN-7,Laboratory/NNP-18)
+				nn(California/NNP-22,Pasadena/NNP-20)
+				prep_in(named/VBN-7,California/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Jet Propulsion Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_Propulsion_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pasadena , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pasadena,_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker retired from NASA on August 31, 2005.	</value>
+
+		<annotated-sentence>	Parker retired from [[NASA|NASA]] on August 31, 2005.	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker retired from [[NASA|NASA]] on August 31, 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Parker/NNP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				prep_on(retired/VBD-2,August/NNP-6)
+				num(August/NNP-6,31/CD-7)
+				num(August/NNP-6,2005/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker married the former Judy Woodruff of San Marino, California.	</value>
+
+		<annotated-sentence>	Parker married [[the former Judy Woodruff|Judy_Woodruff]] of [[San Marino|San_Marino]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker married the former Judy Woodruff of San Marino, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(married/VBD-2,Parker/NNP-1)
+				det(Woodruff/NNP-6,the/DT-3)
+				amod(Woodruff/NNP-6,former/JJ-4)
+				nn(Woodruff/NNP-6,Judy/NNP-5)
+				dobj(married/VBD-2,Woodruff/NNP-6)
+				nn(Marino/NNP-9,San/NNP-8)
+				prep_of(Woodruff/NNP-6,Marino/NNP-9)
+				appos(Marino/NNP-9,California/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the former Judy Woodruff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Judy_Woodruff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>San Marino</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/San_Marino</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have five children and nine grandchildren.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[five children|Child]] and [[nine grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have five children and nine grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,five/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+				num(grandchildren/NNS-7,nine/CD-6)
+				dobj(have/VBP-2,grandchildren/NNS-7)
+				conj_and(children/NNS-4,grandchildren/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>five children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>nine grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker is a member of the American Astronomical Society and of the International Astronomical Union.	</value>
+
+		<annotated-sentence>	Parker is a member of [[the American Astronomical Society|American_Astronomical_Society]] and of [[the International Astronomical Union|International_Astronomical_Union]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker is a member of the American Astronomical Society and of the International Astronomical Union.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Parker/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Society/NNP-9,the/DT-6)
+				amod(Society/NNP-9,American/JJ-7)
+				nn(Society/NNP-9,Astronomical/NNP-8)
+				prep_of(member/NN-4,Society/NNP-9)
+				conj_and(member/NN-4,of/IN-11)
+				det(Union/NNP-15,the/DT-12)
+				nn(Union/NNP-15,International/NNP-13)
+				nn(Union/NNP-15,Astronomical/NNP-14)
+				pobj(of/IN-11,Union/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the American Astronomical Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Astronomical_Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Astronomical Union</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Astronomical_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded the NASA Exceptional Scientific Achievement Medal (1973) and the NASA Outstanding Leadership Medal (1974).	</value>
+
+		<annotated-sentence>	He was awarded [[the NASA Exceptional Scientific Achievement Medal|NASA_Exceptional_Scientific_Achievement_Medal]] ([[1973|1973]]) and [[the NASA Outstanding Leadership Medal|NASA_Outstanding_Leadership_Medal]] ([[1974|Rudebox]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded the NASA Exceptional Scientific Achievement Medal (1973) and the NASA Outstanding Leadership Medal (1974).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(Medal/NN-9,the/DT-4)
+				nn(Medal/NN-9,NASA/NNP-5)
+				nn(Medal/NN-9,Exceptional/NNP-6)
+				nn(Medal/NN-9,Scientific/NNP-7)
+				nn(Medal/NN-9,Achievement/NNP-8)
+				dobj(awarded/VBN-3,Medal/NN-9)
+				appos(Medal/NN-9,1973/CD-11)
+				det(Medal/NN-18,the/DT-14)
+				nn(Medal/NN-18,NASA/NNP-15)
+				amod(Medal/NN-18,Outstanding/JJ-16)
+				nn(Medal/NN-18,Leadership/NN-17)
+				dobj(awarded/VBN-3,Medal/NN-18)
+				conj_and(Medal/NN-9,Medal/NN-18)
+				appos(Medal/NN-18,1974/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Exceptional Scientific Achievement Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Exceptional_Scientific_Achievement_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Outstanding Leadership Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Outstanding_Leadership_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parker was a contributor to the book, NASA's Scientist-Astronauts by David Shayler and Colin Burgess.	</value>
+
+		<annotated-sentence>	Parker was [[a contributor|Contributor_License_Agreement]] to [[the book|Book]], [[NASA|NASA]]'s Scientist-Astronauts by [[David Shayler|David_Shayler]] and Colin Burgess.	</annotated-sentence>
+
+		<pattern_crowdsource>	Parker was a contributor to the book, [[NASA|NASA]]'s Scientist-Astronauts by David Shayler and Colin Burgess.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(contributor/NN-4,Parker/NNP-1)
+				cop(contributor/NN-4,was/VBD-2)
+				det(contributor/NN-4,a/DT-3)
+				det(book/NN-7,the/DT-6)
+				prep_to(contributor/NN-4,book/NN-7)
+				poss(Scientist-Astronauts/NNP-11,NASA/NNP-9)
+				appos(book/NN-7,Scientist-Astronauts/NNP-11)
+				nn(Shayler/NNP-14,David/NNP-13)
+				prep_by(contributor/NN-4,Shayler/NNP-14)
+				nn(Burgess/NNP-17,Colin/NNP-16)
+				prep_by(contributor/NN-4,Burgess/NNP-17)
+				conj_and(Shayler/NNP-14,Burgess/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a contributor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Contributor_License_Agreement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Shayler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Shayler</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_A._Parker http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the 1998 miniseries From the Earth to the Moon, Parker was portrayed by Chris Ellis.	</value>
+
+		<annotated-sentence>	In the [[1998|1998]] [[miniseries|Limited_series]] From [[the Earth|Earth]] to [[the Moon|Moon]], Parker was portrayed by Chris Ellis.	</annotated-sentence>
+
+		<pattern_crowdsource>	In the 1998 miniseries From [[the Earth|Earth]] to [[the Moon|Moon]], Parker was portrayed by Chris Ellis.	</pattern_crowdsource>
+
+
+		<tree>
+				det(miniseries/NNS-4,the/DT-2)
+				num(miniseries/NNS-4,1998/CD-3)
+				prep_in(portrayed/VBN-14,miniseries/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_from(portrayed/VBN-14,Earth/NNP-7)
+				det(Moon/NNP-10,the/DT-9)
+				prep_to(Earth/NNP-7,Moon/NNP-10)
+				nsubjpass(portrayed/VBN-14,Parker/NNP-12)
+				auxpass(portrayed/VBN-14,was/VBD-13)
+				nn(Ellis/NNP-17,Chris/NNP-16)
+				agent(portrayed/VBN-14,Ellis/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miniseries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Limited_series</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Moon http://dbpedia.org/property/satelliteOf http://dbpedia.org/resource/Earth
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

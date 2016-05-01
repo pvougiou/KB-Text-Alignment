@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Light bleeding or discharge from the vagina is normal.</value>
+		<pattern_crowdsource> Light [[bleeding|C0019080]] or discharge from the [[vagina|C0042232]] is normal.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Light</surface-form>
+				<RDF-ID>C0031765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>discharge</surface-form>
+				<RDF-ID>C0012621</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vagina</surface-form>
+				<RDF-ID>C0042232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042232 LOCATION_OF C0019080</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Ask your doctor before you use a laxative or enema.</value>
+		<pattern_crowdsource> - Ask your [[doctor|C0031831]] before you use a [[laxative|C0282090]] or enema.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>laxative</surface-form>
+				<RDF-ID>C0282090</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0282090 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may send you home with a urinary catheter if you cannot urinate on your own yet.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may send you home with a [[urinary catheter|C0179802]] if you cannot urinate on your own yet.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urinary catheter</surface-form>
+				<RDF-ID>C0179802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>own</surface-form>
+				<RDF-ID>C1546511</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031831 USES C0179802</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

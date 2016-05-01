@@ -1,0 +1,860 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Andreas Enevold Mogensen was born in Copenhagen, Denmark, in 1976.	</value>
+
+		<annotated-sentence>	[[Andreas|AEK_Athens_F.C.]] Enevold Mogensen was born in [[Copenhagen , Denmark ,|Akron,_Ohio]]n [[1976|1976]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Andreas Enevold Mogensen was born in Copenhagen, Denmark, in 1976.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mogensen/NNP-3,Andreas/NNP-1)
+				nn(Mogensen/NNP-3,Enevold/NNP-2)
+				nsubjpass(born/VBN-5,Mogensen/NNP-3)
+				auxpass(born/VBN-5,was/VBD-4)
+				nn(Denmark/NNP-9,Copenhagen/NNP-7)
+				prep_in(born/VBN-5,Denmark/NNP-9)
+				prep_in(born/VBN-5,1976/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Andreas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AEK_Athens_F.C.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Copenhagen , Denmark ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In Denmark he worked as an engineer in the R&D department of Vestas Wind Systems in Denmark.	</value>
+
+		<annotated-sentence>	In [[Denmark|Denmark]] he worked as [[an engineer|Engineer]] in the R&D department of [[Vestas|Vestas]] [[Wind|Wind]] Systems in [[Denmark|Denmark]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In [[Denmark|Denmark]] he worked as an engineer in the R&D department of [[Vestas|Vestas]] Wind Systems in [[Denmark|Denmark]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(worked/VBD-4,Denmark/NNP-2)
+				nsubj(worked/VBD-4,he/PRP-3)
+				det(engineer/NN-7,an/DT-6)
+				prep_as(worked/VBD-4,engineer/NN-7)
+				det(department/NN-11,the/DT-9)
+				nn(department/NN-11,R&D/NN-10)
+				prep_in(worked/VBD-4,department/NN-11)
+				nn(Wind/NN-14,Vestas/NNP-13)
+				prep_of(department/NN-11,Wind/NN-14)
+				dobj(worked/VBD-4,Systems/NNPS-15)
+				prep_in(Systems/NNPS-15,Denmark/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Denmark</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Denmark</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vestas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vestas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wind</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wind</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Denmark</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Denmark</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vestas http://dbpedia.org/ontology/locationCountry http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Denmark http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Denmark http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vestas http://dbpedia.org/ontology/locationCountry http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Denmark
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has been working in Germany as an attitude & orbit control system and guidance, navigation & control engineer for HE Space Operations associated with the SWARM mission.	</value>
+
+		<annotated-sentence>	He has been working in [[Germany|Germany]] as an attitude & orbit control system and guidance, [[navigation|Navigation]] & control [[engineer|Engineer]] for HE [[Space|Space]] Operations associated with the SWARM mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has been working in Germany as an attitude & orbit control system and guidance, navigation & control engineer for HE Space Operations associated with the SWARM mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-4,He/PRP-1)
+				aux(working/VBG-4,has/VBZ-2)
+				aux(working/VBG-4,been/VBN-3)
+				prep_in(working/VBG-4,Germany/NNP-6)
+				det(attitude/NN-9,an/DT-8)
+				prep_as(Germany/NNP-6,attitude/NN-9)
+				nn(system/NN-13,orbit/NN-11)
+				nn(system/NN-13,control/NN-12)
+				prep_as(Germany/NNP-6,system/NN-13)
+				conj_and(attitude/NN-9,system/NN-13)
+				nn(engineer/NN-20,guidance/NN-15)
+				conj_and(guidance/NN-15,navigation/NN-17)
+				nn(engineer/NN-20,navigation/NN-17)
+				conj_and(guidance/NN-15,control/NN-19)
+				nn(engineer/NN-20,control/NN-19)
+				prep_as(Germany/NNP-6,engineer/NN-20)
+				conj_and(attitude/NN-9,engineer/NN-20)
+				prep_for(engineer/NN-20,HE/PRP-22)
+				nn(Operations/NNP-24,Space/NNP-23)
+				dobj(working/VBG-4,Operations/NNP-24)
+				partmod(Operations/NNP-24,associated/VBN-25)
+				det(mission/NN-29,the/DT-27)
+				nn(mission/NN-29,SWARM/NNP-28)
+				prep_with(associated/VBN-25,mission/NN-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>navigation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navigation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His position when he was selected by ESA was Aerospace engineering at Surrey Space Centre, University of Surrey, he also lives in England.	</value>
+
+		<annotated-sentence>	His position when he was selected by ESA was [[Aerospace engineering|Aerospace_engineering]] at [[Surrey Space Centre|University_of_Surrey]], [[University of Surrey|University_of_Surrey]], he also lives in [[England|England]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His position when he was selected by ESA was Aerospace engineering at [[Surrey Space Centre|University_of_Surrey]], [[University of Surrey|University_of_Surrey]], he also lives in [[England|England]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(position/NN-2,His/PRP$-1)
+				nsubj(engineering/NN-11,position/NN-2)
+				advmod(selected/VBN-6,when/WRB-3)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				rcmod(position/NN-2,selected/VBN-6)
+				agent(selected/VBN-6,ESA/NNP-8)
+				cop(engineering/NN-11,was/VBD-9)
+				nn(engineering/NN-11,Aerospace/NNP-10)
+				ccomp(lives/VBZ-23,engineering/NN-11)
+				nn(Centre/NNP-15,Surrey/NNP-13)
+				nn(Centre/NNP-15,Space/NNP-14)
+				prep_at(engineering/NN-11,Centre/NNP-15)
+				dep(engineering/NN-11,University/NNP-17)
+				prep_of(University/NNP-17,Surrey/NNP-19)
+				nsubj(lives/VBZ-23,he/PRP-21)
+				advmod(lives/VBZ-23,also/RB-22)
+				prep_in(lives/VBZ-23,England/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aerospace engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Surrey Space Centre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Surrey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Surrey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Surrey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>England</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/England</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/University_of_Surrey http://dbpedia.org/ontology/country http://dbpedia.org/resource/England
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/University_of_Surrey http://dbpedia.org/ontology/country http://dbpedia.org/resource/England
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his career he also spent time in Thailand, Singapore, Portugal, Congo and the USA.	</value>
+
+		<annotated-sentence>	During [[his career|Career]] he also spent time in Thailand, Singapore, Portugal, Congo and [[the USA|United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During his career he also spent time in Thailand, Singapore, Portugal, Congo and the USA.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-3,his/PRP$-2)
+				prep_during(spent/VBD-6,career/NN-3)
+				nsubj(spent/VBD-6,he/PRP-4)
+				advmod(spent/VBD-6,also/RB-5)
+				dobj(spent/VBD-6,time/NN-7)
+				nn(Congo/NNP-15,Thailand/NNP-9)
+				appos(Congo/NNP-15,Singapore/NNP-11)
+				appos(Congo/NNP-15,Portugal/NNP-13)
+				prep_in(spent/VBD-6,Congo/NNP-15)
+				det(USA/NNP-18,the/DT-17)
+				prep_in(spent/VBD-6,USA/NNP-18)
+				conj_and(Congo/NNP-15,USA/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His pastimes include rugby, mountaineering and diving.	</value>
+
+		<annotated-sentence>	His [[pastimes|Pastime_(novel)]] include rugby, [[mountaineering|Mountaineering]] and [[diving|Diving]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His pastimes include rugby, mountaineering and diving.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(pastimes/NNS-2,His/PRP$-1)
+				nsubj(include/VBP-3,pastimes/NNS-2)
+				dobj(include/VBP-3,rugby/JJ-4)
+				dobj(include/VBP-3,mountaineering/NN-6)
+				conj_and(rugby/JJ-4,mountaineering/NN-6)
+				dobj(include/VBP-3,diving/NN-8)
+				conj_and(rugby/JJ-4,diving/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>pastimes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pastime_(novel)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mountaineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mountaineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diving</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mogensen was selected to become the first Danish astronaut by the European Space Agency in May 2009.	</value>
+
+		<annotated-sentence>	[[Mogensen|Andreas_Mogensen]] was selected to become the first [[Danish|Denmark]] [[astronaut|Astronaut]] by [[the European Space Agency|European_Space_Agency]] in [[May 2009|May_2009]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Mogensen|Andreas_Mogensen]] was selected to become the first [[Danish|Denmark]] [[astronaut|Astronaut]] by the European Space Agency in May 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Mogensen/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				aux(astronaut/NN-9,to/TO-4)
+				cop(astronaut/NN-9,become/VB-5)
+				det(astronaut/NN-9,the/DT-6)
+				amod(astronaut/NN-9,first/JJ-7)
+				amod(astronaut/NN-9,Danish/JJ-8)
+				xcomp(selected/VBN-3,astronaut/NN-9)
+				det(Agency/NNP-14,the/DT-11)
+				amod(Agency/NNP-14,European/JJ-12)
+				nn(Agency/NNP-14,Space/NNP-13)
+				prep_by(astronaut/NN-9,Agency/NNP-14)
+				prep_in(Agency/NNP-14,May/NNP-16)
+				num(May/NNP-16,2009/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mogensen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andreas_Mogensen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Danish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Denmark</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_2009</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed initial training and became a member of the European Astronaut Corps in November 2010.	</value>
+
+		<annotated-sentence>	He completed initial [[training|Training]] and became a member of [[the European Astronaut Corps|European_Astronaut_Corps]] in [[November 2010|November_2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed initial training and became a member of the European Astronaut Corps in November 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				amod(training/NN-4,initial/JJ-3)
+				dobj(completed/VBD-2,training/NN-4)
+				cop(member/NN-8,became/VBD-6)
+				det(member/NN-8,a/DT-7)
+				conj_and(completed/VBD-2,member/NN-8)
+				det(Corps/NNP-13,the/DT-10)
+				amod(Corps/NNP-13,European/JJ-11)
+				nn(Corps/NNP-13,Astronaut/NNP-12)
+				prep_of(member/NN-8,Corps/NNP-13)
+				prep_in(member/NN-8,November/NNP-15)
+				num(November/NNP-15,2010/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	September 2015 Andreas Mogensen will be launched with Soyuz TMA-18M to ISS, and land with Soyuz TMA-16M ten days later.	</value>
+
+		<annotated-sentence>	[[September 2015|2015]] [[Andreas Mogensen|Andreas_Mogensen]] will be launched with [[Soyuz TMA-18M|Soyuz_TMA-18M]] to [[ISS|S]], and land with [[Soyuz TMA-16M|Soyuz_TMA-16M]] [[ten days|Ten_Days]] later.	</annotated-sentence>
+
+		<pattern_crowdsource>	September 2015 [[Andreas Mogensen|Andreas_Mogensen]] will be launched with [[Soyuz TMA-18M|Soyuz_TMA-18M]] to ISS, and land with [[Soyuz TMA-16M|Soyuz_TMA-16M]] ten days later.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(launched/VBN-7,September/NNP-1)
+				num(September/NNP-1,2015/CD-2)
+				nn(Mogensen/NNP-4,Andreas/NNP-3)
+				nsubjpass(launched/VBN-7,Mogensen/NNP-4)
+				aux(launched/VBN-7,will/MD-5)
+				auxpass(launched/VBN-7,be/VB-6)
+				nn(TMA-18M/NNP-10,Soyuz/NNP-9)
+				prep_with(launched/VBN-7,TMA-18M/NNP-10)
+				prep_to(TMA-18M/NNP-10,ISS/NNP-12)
+				prep_with(launched/VBN-7,land/NN-15)
+				conj_and(TMA-18M/NNP-10,land/NN-15)
+				nn(TMA-16M/NN-18,Soyuz/NNP-17)
+				prep_with(land/NN-15,TMA-16M/NN-18)
+				num(days/NNS-20,ten/CD-19)
+				tmod(launched/VBN-7,days/NNS-20)
+				advmod(days/NNS-20,later/RB-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 2015</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2015</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Andreas Mogensen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andreas_Mogensen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-18M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-18M</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-16M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-16M</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ten days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ten_Days</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-18M http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-18M http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-16M http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-16M http://dbpedia.org/property/crew2Down http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He will be travelling with opera singer Sarah Brightman.	</value>
+
+		<annotated-sentence>	He will be travelling with [[opera singer|Opera]] [[Sarah Brightman|Sarah_Brightman]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He will be travelling with opera singer Sarah Brightman.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(travelling/VBG-4,He/PRP-1)
+				aux(travelling/VBG-4,will/MD-2)
+				aux(travelling/VBG-4,be/VB-3)
+				nn(Brightman/NNP-9,opera/NN-6)
+				nn(Brightman/NNP-9,singer/NN-7)
+				nn(Brightman/NNP-9,Sarah/NNP-8)
+				prep_with(travelling/VBG-4,Brightman/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>opera singer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Opera</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sarah Brightman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sarah_Brightman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Sergey Volkov will be the ascent pilot (TMA-18M) and someone else will be the descent pilot (TMA-16M).	</value>
+
+		<annotated-sentence>	[[Sergey Volkov|Sergey_Volkov]] will be the ascent pilot ([[TMA-18M|Soyuz_TMA-18M]]) and someone else will be the descent pilot ([[TMA-16M|Soyuz_TMA-16M]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Sergey Volkov will be the ascent pilot ([[TMA-18M|Soyuz_TMA-18M]]) and someone else will be the descent pilot ([[TMA-16M|Soyuz_TMA-16M]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Volkov/NNP-2,Sergey/NNP-1)
+				nsubj(pilot/NN-7,Volkov/NNP-2)
+				aux(pilot/NN-7,will/MD-3)
+				cop(pilot/NN-7,be/VB-4)
+				det(pilot/NN-7,the/DT-5)
+				nn(pilot/NN-7,ascent/NN-6)
+				appos(pilot/NN-7,TMA-18M/NN-9)
+				nsubj(pilot/NN-18,someone/NN-12)
+				advmod(someone/NN-12,else/RB-13)
+				aux(pilot/NN-18,will/MD-14)
+				cop(pilot/NN-18,be/VB-15)
+				det(pilot/NN-18,the/DT-16)
+				nn(pilot/NN-18,descent/NN-17)
+				conj_and(pilot/NN-7,pilot/NN-18)
+				appos(pilot/NN-18,TMA-16M/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sergey Volkov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergey_Volkov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TMA-18M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-18M</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TMA-16M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-16M</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-18M http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-18M http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-16M http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-16M http://dbpedia.org/property/crew2Down http://dbpedia.org/resource/Andreas_Mogensen
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Andreas Mogensen blogs about space and the life as an astronaut on the Danish science website Videnskab.dk.	</value>
+
+		<annotated-sentence>	[[Andreas Mogensen|Andreas_Mogensen]] [[blogs|Blog]] about [[space|Space]] and the life as [[an astronaut|Astronaut]] on the [[Danish|Denmark]] [[science|Science]] [[website|Website]] [[Videnskab.dk|Videnskab]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Andreas Mogensen|Andreas_Mogensen]] blogs about space and the life as [[an astronaut|Astronaut]] on the [[Danish|Denmark]] science [[website|Website]] [[Videnskab.dk|Videnskab]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(blogs/NNS-3,Andreas/NNP-1)
+				nn(blogs/NNS-3,Mogensen/NNP-2)
+				prep_about(blogs/NNS-3,space/NN-5)
+				det(life/NN-8,the/DT-7)
+				prep_about(blogs/NNS-3,life/NN-8)
+				conj_and(space/NN-5,life/NN-8)
+				det(astronaut/NN-11,an/DT-10)
+				prep_as(blogs/NNS-3,astronaut/NN-11)
+				det(Videnskab.dk/NN-17,the/DT-13)
+				amod(Videnskab.dk/NN-17,Danish/JJ-14)
+				nn(Videnskab.dk/NN-17,science/NN-15)
+				nn(Videnskab.dk/NN-17,website/NN-16)
+				prep_on(astronaut/NN-11,Videnskab.dk/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Andreas Mogensen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andreas_Mogensen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>blogs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Blog</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Danish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Denmark</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>website</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Website</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Videnskab.dk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Videnskab</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andreas_Mogensen http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Denmark
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Videnskab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Website
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

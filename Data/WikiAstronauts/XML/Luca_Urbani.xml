@@ -1,0 +1,1858 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Luca Urbani was born May 11, 1957, in Rome, Italy.	</value>
+
+		<annotated-sentence>	[[Luca Urbani|Luca_Urbani]] was born [[May 11 , 1957 ,|Akron,_Ohio]]n [[Rome , Italy|Rome]]	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Luca Urbani|Luca_Urbani]] was born May 11, 1957, in Rome, Italy.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Urbani/NNP-2,Luca/NNP-1)
+				nsubjpass(born/VBN-4,Urbani/NNP-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				tmod(born/VBN-4,May/NNP-5)
+				num(May/NNP-5,11/CD-6)
+				num(May/NNP-5,1957/CD-8)
+				nn(Italy/NNP-13,Rome/NNP-11)
+				prep_in(born/VBN-4,Italy/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Luca Urbani</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Luca_Urbani</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 11 , 1957 ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rome , Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rome</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Rome
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was an ASI astronaut and was assigned as an alternate payload specialist for mission STS-78.	</value>
+
+		<annotated-sentence>	He was an [[ASI|Italian_Space_Agency]] [[astronaut|Astronaut]] and was assigned as an alternate [[payload specialist|Payload_Specialist]] for mission [[STS-78|STS-78]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was an [[ASI|Italian_Space_Agency]] [[astronaut|Astronaut]] and was assigned as an alternate payload specialist for mission [[STS-78|STS-78]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(astronaut/NN-5,He/PRP-1)
+				nsubjpass(assigned/VBN-8,He/PRP-1)
+				cop(astronaut/NN-5,was/VBD-2)
+				det(astronaut/NN-5,an/DT-3)
+				nn(astronaut/NN-5,ASI/NNP-4)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				conj_and(astronaut/NN-5,assigned/VBN-8)
+				det(specialist/NN-13,an/DT-10)
+				amod(specialist/NN-13,alternate/JJ-11)
+				nn(specialist/NN-13,payload/NN-12)
+				prep_as(assigned/VBN-8,specialist/NN-13)
+				nn(STS-78/NN-16,mission/NN-15)
+				prep_for(specialist/NN-13,STS-78/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ASI</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-78</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-78</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/type http://dbpedia.org/resource/Italian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-78 http://dbpedia.org/property/agency7Up http://dbpedia.org/resource/Italian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-78 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Luca_Urbani
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born May 11, 1957, in Rome, Italy.	</value>
+
+		<annotated-sentence>	Born [[May 11 , 1957 ,|Akron,_Ohio]]n [[Rome , Italy|Rome]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Born May 11, 1957, in Rome, Italy.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,May/NNP-2)
+				num(May/NNP-2,11/CD-3)
+				num(May/NNP-2,1957/CD-5)
+				nn(Italy/NNP-10,Rome/NNP-8)
+				prep_in(Born/VBN-1,Italy/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>May 11 , 1957 ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rome , Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rome</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Rome
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He now resides in Rieti, Italy.	</value>
+
+		<annotated-sentence>	He now resides in [[Rieti , Italy|Rieti]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He now resides in Rieti, Italy.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(resides/VBZ-3,He/PRP-1)
+				advmod(resides/VBZ-3,now/RB-2)
+				nn(Italy/NNP-7,Rieti/NNP-5)
+				prep_in(resides/VBZ-3,Italy/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rieti , Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rieti</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to Cinzia Naccari of Senago (Milan), Italy.	</value>
+
+		<annotated-sentence>	Married to [[Cinzia|Cinzia_Savi_Scarponi]] [[Naccari|Andrea_Naccari]] of [[Senago|Senago]] ([[Milan|Milan]]), [[Italy|Italy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to Cinzia [[Naccari|Andrea_Naccari]] of [[Senago|Senago]] ([[Milan|Milan]]), [[Italy|Italy]].	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Italy/NNP-11,Married/JJ-1)
+				nn(Naccari/NNP-4,Cinzia/NNP-3)
+				prep_to(Married/JJ-1,Naccari/NNP-4)
+				prep_of(Naccari/NNP-4,Senago/NNP-6)
+				appos(Senago/NNP-6,Milan/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cinzia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cinzia_Savi_Scarponi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naccari</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andrea_Naccari</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Senago</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Senago</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Milan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Milan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andrea_Naccari http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Senago http://dbpedia.org/ontology/country http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Milan http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Italy http://dbpedia.org/property/largestMetropolitanArea http://dbpedia.org/resource/Milan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Italy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two sons.	</value>
+
+		<annotated-sentence>	[[They|They]] have two sons.	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two sons.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(sons/NNS-4,two/CD-3)
+				dobj(have/VBP-2,sons/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recreational interests include flying (he is a licensed private pilot of airplanes, gliders and ultralights, with about 2,850 hours logged in gliders and single-engine airplanes); gliding (at a competitive level: seven times Italian Gliding Champion in different classes); horseback-riding; skiing; tennis.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(interests/NNS-2,Recreational/JJ-1)
+				nsubj(include/VBP-3,interests/NNS-2)
+				dobj(include/VBP-3,flying/VBG-4)
+				nsubj(pilot/NN-11,he/PRP-6)
+				cop(pilot/NN-11,is/VBZ-7)
+				det(pilot/NN-11,a/DT-8)
+				amod(pilot/NN-11,licensed/JJ-9)
+				amod(pilot/NN-11,private/JJ-10)
+				dep(flying/VBG-4,pilot/NN-11)
+				prep_of(pilot/NN-11,airplanes/NNS-13)
+				prep_of(pilot/NN-11,gliders/NNS-15)
+				conj_and(airplanes/NNS-13,gliders/NNS-15)
+				prep_of(pilot/NN-11,ultralights/NNS-17)
+				conj_and(airplanes/NNS-13,ultralights/NNS-17)
+				dep(pilot/NN-11,with/IN-19)
+				num(hours/NNS-22,2,850/CD-21)
+				prep_about(pilot/NN-11,hours/NNS-22)
+				partmod(hours/NNS-22,logged/VBN-23)
+				prep_in(logged/VBN-23,gliders/NNS-25)
+				amod(airplanes/NNS-28,single-engine/JJ-27)
+				prep_in(logged/VBN-23,airplanes/NNS-28)
+				conj_and(gliders/NNS-25,airplanes/NNS-28)
+				dep(flying/VBG-4,gliding/VBG-31)
+				dep(gliding/VBG-31,at/IN-33)
+				det(level/NN-36,a/DT-34)
+				amod(level/NN-36,competitive/JJ-35)
+				pobj(at/IN-33,level/NN-36)
+				num(times/NNS-39,seven/CD-38)
+				dep(level/NN-36,times/NNS-39)
+				amod(times/NNS-39,Italian/JJ-40)
+				partmod(times/NNS-39,Gliding/VBG-41)
+				dobj(Gliding/VBG-41,Champion/NNP-42)
+				amod(classes/NNS-45,different/JJ-44)
+				prep_in(Champion/NNP-42,classes/NNS-45)
+				parataxis(gliding/VBG-31,horseback-riding/VBG-48)
+				dep(horseback-riding/VBG-48,skiing/NN-50)
+				dep(skiing/NN-50,tennis/NN-52)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also a licensed amateur radio operator.	</value>
+
+		<annotated-sentence>	He is also a licensed [[amateur radio operator|Amateur_radio_operator]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also a licensed amateur radio operator.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(operator/NN-8,He/PRP-1)
+				cop(operator/NN-8,is/VBZ-2)
+				advmod(operator/NN-8,also/RB-3)
+				det(operator/NN-8,a/DT-4)
+				amod(operator/NN-8,licensed/JJ-5)
+				amod(operator/NN-8,amateur/JJ-6)
+				nn(operator/NN-8,radio/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>amateur radio operator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amateur_radio_operator</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Scientific Lyceum "M. Massimo" in Rome in 1975.	</value>
+
+		<annotated-sentence>	Graduated from Scientific [[Lyceum|Lyceum]] "[[M.|Monsieur]] [[Massimo|Massimo_D'Alema]]" in [[Rome|Rome]] in [[1975|1975]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Graduated from Scientific Lyceum "M. [[Massimo|Massimo_D'Alema]]" in [[Rome|Rome]] in 1975.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Massimo/NNP-7,Scientific/NNP-3)
+				nn(Massimo/NNP-7,Lyceum/NNP-4)
+				nn(Massimo/NNP-7,M./NNP-6)
+				prep_from(Graduated/VBN-1,Massimo/NNP-7)
+				prep_in(Graduated/VBN-1,Rome/NNP-10)
+				prep_in(Graduated/VBN-1,1975/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lyceum</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyceum</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>M.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Monsieur</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Massimo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massimo_D'Alema</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Massimo_D'Alema http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Rome
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Rome
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Received a Doctor of Medicine Degree from the University of Rome "La Sapienza" Medical School in 1981 (Summa cum Laude).	</value>
+
+		<annotated-sentence>	Received [[a Doctor|Physician]] of [[Medicine|Medicine]] Degree from the [[University|University]] of [[Rome|Rome]] "[[La Sapienza|Sapienza_University_of_Rome]]" [[Medical|Medicine]] [[School|School]] in [[1981|1981]] ([[Summa cum Laude|Latin_honors]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Received [[a Doctor|Physician]] of [[Medicine|Medicine]] Degree from the [[University|University]] of [[Rome|Rome]] "[[La Sapienza|Sapienza_University_of_Rome]]" [[Medical|Medicine]] School in 1981 (Summa cum Laude).	</pattern_crowdsource>
+
+
+		<tree>
+				det(Doctor/NN-3,a/DT-2)
+				dobj(Received/VBN-1,Doctor/NN-3)
+				nn(Degree/NNP-6,Medicine/NNP-5)
+				prep_of(Doctor/NN-3,Degree/NNP-6)
+				det(School/NNP-17,the/DT-8)
+				dep(School/NNP-17,University/NNP-9)
+				nn(Sapienza/NNP-14,Rome/NNP-11)
+				nn(Sapienza/NNP-14,La/NNP-13)
+				prep_of(University/NNP-9,Sapienza/NNP-14)
+				nn(School/NNP-17,Medical/NNP-16)
+				prep_from(Received/VBN-1,School/NNP-17)
+				prep_in(School/NNP-17,1981/CD-19)
+				nn(cum/NN-22,Summa/NN-21)
+				dep(1981/CD-19,cum/NN-22)
+				appos(cum/NN-22,Laude/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Doctor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>La Sapienza</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sapienza_University_of_Rome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Summa cum Laude</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Latin_honors</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Physician http://dbpedia.org/property/activitySector http://dbpedia.org/resource/Medicine
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Physician http://dbpedia.org/property/activitySector http://dbpedia.org/resource/Medicine
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sapienza_University_of_Rome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/University
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Luca_Urbani http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Rome
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sapienza_University_of_Rome http://dbpedia.org/ontology/city http://dbpedia.org/resource/Rome
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Completed residencies in Otorhinolaryngology at the University of Rome "La Sapienza" in 1984 (Summa cum Laude) and in Audiological Medicine at the University of Naples in 1989.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				conj_and(Completed/VBN-1,Completed/VBN-1)
+				npadvmod(Completed/VBN-1,residencies/NNS-2)
+				prep_in(residencies/NNS-2,Otorhinolaryngology/NNP-4)
+				det(University/NNP-7,the/DT-6)
+				prep_at(Completed/VBN-1,University/NNP-7)
+				nn(Sapienza/NNP-12,Rome/NNP-9)
+				nn(Sapienza/NNP-12,La/NNP-11)
+				prep_of(University/NNP-7,Sapienza/NNP-12)
+				prep_in(Sapienza/NNP-12,1984/CD-15)
+				nn(cum/NN-18,Summa/NN-17)
+				dep(University/NNP-7,cum/NN-18)
+				appos(cum/NN-18,Laude/NNP-19)
+				nn(Medicine/NNP-24,Audiological/NNP-23)
+				prep_in(Completed/VBN-1,Medicine/NNP-24)
+				det(University/NNP-27,the/DT-26)
+				prep_at(Completed/VBN-1,University/NNP-27)
+				prep_of(University/NNP-27,Naples/NNP-29)
+				prep_in(Completed/VBN-1,1989/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Member of: the Aviation Medicine Committee of the Italian Aero Club; the Aerospace Medical Association (AsMA), U.S.; the Italian Aerospace Medical Association (AIMAS); the Italian Group on Eye Movements (GIMO); the European Low Gravity Research Association (ELGRA; associate member); the Aerospace Physiology Society, U.S.; the Italian Chronobiology Society.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep(Member/NNP-1,of/IN-2)
+				det(Committee/NNP-7,the/DT-4)
+				nn(Committee/NNP-7,Aviation/NNP-5)
+				nn(Committee/NNP-7,Medicine/NNP-6)
+				dep(Member/NNP-1,Committee/NNP-7)
+				det(Club/NNP-12,the/DT-9)
+				amod(Club/NNP-12,Italian/JJ-10)
+				nn(Club/NNP-12,Aero/NNP-11)
+				prep_of(Committee/NNP-7,Club/NNP-12)
+				det(Association/NNP-17,the/DT-14)
+				nn(Association/NNP-17,Aerospace/NNP-15)
+				nn(Association/NNP-17,Medical/NNP-16)
+				dep(Member/NNP-1,Association/NNP-17)
+				appos(Association/NNP-17,AsMA/NNP-19)
+				appos(Association/NNP-17,U.S./NNP-22)
+				det(Association/NNP-28,the/DT-24)
+				amod(Association/NNP-28,Italian/JJ-25)
+				nn(Association/NNP-28,Aerospace/NNP-26)
+				nn(Association/NNP-28,Medical/NNP-27)
+				dep(Member/NNP-1,Association/NNP-28)
+				appos(Association/NNP-28,AIMAS/NNP-30)
+				det(Group/NNP-35,the/DT-33)
+				nn(Group/NNP-35,Italian/NNP-34)
+				dep(Member/NNP-1,Group/NNP-35)
+				nn(Movements/NNP-38,Eye/NNP-37)
+				prep_on(Group/NNP-35,Movements/NNP-38)
+				appos(Movements/NNP-38,GIMO/NNP-40)
+				det(Association/NNP-48,the/DT-43)
+				amod(Association/NNP-48,European/JJ-44)
+				amod(Association/NNP-48,Low/JJ-45)
+				nn(Association/NNP-48,Gravity/NNP-46)
+				nn(Association/NNP-48,Research/NNP-47)
+				dep(Member/NNP-1,Association/NNP-48)
+				appos(Association/NNP-48,ELGRA/NNP-50)
+				amod(member/NN-53,associate/JJ-52)
+				dep(ELGRA/NNP-50,member/NN-53)
+				det(Society/NNP-59,the/DT-56)
+				nn(Society/NNP-59,Aerospace/NNP-57)
+				nn(Society/NNP-59,Physiology/NNP-58)
+				dep(Member/NNP-1,Society/NNP-59)
+				appos(Society/NNP-59,U.S./NNP-61)
+				det(Society/NNP-66,the/DT-63)
+				amod(Society/NNP-66,Italian/JJ-64)
+				nn(Society/NNP-66,Chronobiology/NNP-65)
+				dep(Member/NNP-1,Society/NNP-66)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has over 50 publications (full papers and abstracts), mostly in the areas of auditory and vestibular pathophysiology and of aerospace physiology and medicine.	</value>
+
+		<annotated-sentence>	He has over 50 [[publications|Publication]] (full papers and abstracts), mostly in [[the areas|Area]] of [[auditory and vestibular|Vestibulocochlear_nerve]] [[pathophysiology|Pathophysiology]] and of [[aerospace|Aerospace]] [[physiology|Physiology]] and medicine.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has over 50 publications (full papers and abstracts), mostly in the areas of auditory and vestibular pathophysiology and of aerospace physiology and medicine.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				nsubj(has/VBZ-2,He/PRP-1)
+				conj_and(has/VBZ-2,has/VBZ-2)
+				quantmod(50/CD-4,over/IN-3)
+				num(publications/NNS-5,50/CD-4)
+				dobj(has/VBZ-2,publications/NNS-5)
+				amod(papers/NNS-8,full/JJ-7)
+				dep(publications/NNS-5,papers/NNS-8)
+				dep(publications/NNS-5,abstracts/NNS-10)
+				conj_and(papers/NNS-8,abstracts/NNS-10)
+				advmod(has/VBZ-2,mostly/RB-13)
+				det(areas/NNS-16,the/DT-15)
+				prep_in(has/VBZ-2,areas/NNS-16)
+				amod(pathophysiology/NN-21,auditory/JJ-18)
+				conj_and(auditory/JJ-18,vestibular/JJ-20)
+				amod(pathophysiology/NN-21,vestibular/JJ-20)
+				prep_of(areas/NNS-16,pathophysiology/NN-21)
+				nn(physiology/NN-25,aerospace/NN-24)
+				prep_of(has/VBZ-2,physiology/NN-25)
+				prep_of(has/VBZ-2,medicine/NN-27)
+				conj_and(physiology/NN-25,medicine/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>publications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Publication</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the areas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>auditory and vestibular</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vestibulocochlear_nerve</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pathophysiology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pathophysiology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physiology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physiology</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	International FAI (Fédération Aéronautique Internationale) Diamond Badge for Gliding (1985); Italian National Olympic Committee Bronze Medal for Sports Merit (for Gliding: 1989 and 1995); Italian Air Force Long Service Medal (1994).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(FAI/NNP-2,International/NNP-1)
+				nn(Badge/NNP-9,Fédération/NNP-4)
+				nn(Badge/NNP-9,Aéronautique/NNP-5)
+				nn(Badge/NNP-9,Internationale/NNP-6)
+				nn(Badge/NNP-9,Diamond/NNP-8)
+				dep(FAI/NNP-2,Badge/NNP-9)
+				prepc_for(Badge/NNP-9,Gliding/VBG-11)
+				dep(Medal/NN-21,1985/CD-13)
+				amod(Medal/NN-21,Italian/JJ-16)
+				nn(Medal/NN-21,National/NNP-17)
+				nn(Medal/NN-21,Olympic/NNP-18)
+				nn(Medal/NN-21,Committee/NNP-19)
+				nn(Medal/NN-21,Bronze/NN-20)
+				dep(Gliding/VBG-11,Medal/NN-21)
+				nn(Merit/NNP-24,Sports/NNP-23)
+				prep_for(Medal/NN-21,Merit/NNP-24)
+				prepc_for(Merit/NNP-24,Gliding/VBG-27)
+				dep(Medal/NN-21,1989/CD-29)
+				dep(Medal/NN-21,1995/CD-31)
+				conj_and(1989/CD-29,1995/CD-31)
+				nn(Service/NNP-38,Italian/NNP-34)
+				nn(Service/NNP-38,Air/NNP-35)
+				nn(Service/NNP-38,Force/NNP-36)
+				nn(Service/NNP-38,Long/NNP-37)
+				dep(FAI/NNP-2,Service/NNP-38)
+				dep(Service/NNP-38,Medal/NN-39)
+				appos(Medal/NN-39,1994/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1983-1984, Urbani served as Medical Officer of the Italian Army, Medical Corps (2nd Lieutenant).	</value>
+
+		<annotated-sentence>	In [[1983-1984|1983%E2%80%9384_in_English_football]], [[Urbani|Carlo_Urbani]] served as [[Medical Officer|Physician]] of [[the Italian Army|Italian_Army]], [[Medical Corps|Medical_corps]] (2nd Lieutenant).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1983-1984, [[Urbani|Carlo_Urbani]] served as [[Medical Officer|Physician]] of the Italian Army, Medical Corps (2nd Lieutenant).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-5,1983-1984/CD-2)
+				nsubj(served/VBD-5,Urbani/NNP-4)
+				amod(Officer/NNP-8,Medical/JJ-7)
+				prep_as(served/VBD-5,Officer/NNP-8)
+				det(Army/NNP-12,the/DT-10)
+				amod(Army/NNP-12,Italian/JJ-11)
+				prep_of(Officer/NNP-8,Army/NNP-12)
+				nn(Corps/NNP-15,Medical/NNP-14)
+				appos(Army/NNP-12,Corps/NNP-15)
+				amod(Lieutenant/NN-18,2nd/JJ-17)
+				appos(Corps/NNP-15,Lieutenant/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1983-1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983%E2%80%9384_in_English_football</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Urbani</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carlo_Urbani</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Italian Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Carlo_Urbani http://dbpedia.org/ontology/profession http://dbpedia.org/resource/Physician
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since 1985, he has been serving as Medical Officer in the Italian Air Force, Medical Corps.	</value>
+
+		<annotated-sentence>	Since [[1985|1985]], he has been serving as [[Medical Officer|Physician]] in [[the Italian Air Force|Italian_Air_Force]], [[Medical Corps|Medical_corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Since 1985, he has been serving as Medical Officer in the Italian Air Force, Medical Corps.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_since(serving/VBG-7,1985/CD-2)
+				nsubj(serving/VBG-7,he/PRP-4)
+				aux(serving/VBG-7,has/VBZ-5)
+				aux(serving/VBG-7,been/VBN-6)
+				amod(Officer/NNP-10,Medical/JJ-9)
+				prep_as(serving/VBG-7,Officer/NNP-10)
+				det(Force/NNP-15,the/DT-12)
+				nn(Force/NNP-15,Italian/NNP-13)
+				nn(Force/NNP-15,Air/NNP-14)
+				prep_in(serving/VBG-7,Force/NNP-15)
+				nn(Corps/NNP-18,Medical/NNP-17)
+				appos(Force/NNP-15,Corps/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Italian Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1985-1987 he was Chief of the Medical Service, Vigna di Valle AFB, Rome.	</value>
+
+		<annotated-sentence>	In [[1985-1987|Stutz_Blackhawk__Seventh_Generation_1985-1987__1]] he was Chief of [[the Medical Service|Health_care]], [[Vigna di Valle|Bracciano]] [[AFB|AzFinansBank_-_AFB_Bank]], [[Rome|Province_of_Rome]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1985-1987 he was Chief of the Medical Service, [[Vigna di Valle|Bracciano]] AFB, [[Rome|Province_of_Rome]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(Chief/NNP-5,1985-1987/CD-2)
+				nsubj(Chief/NNP-5,he/PRP-3)
+				cop(Chief/NNP-5,was/VBD-4)
+				det(Service/NNP-9,the/DT-7)
+				nn(Service/NNP-9,Medical/NNP-8)
+				prep_of(Chief/NNP-5,Service/NNP-9)
+				nn(AFB/NNP-14,Vigna/NNP-11)
+				nn(AFB/NNP-14,di/NNP-12)
+				nn(AFB/NNP-14,Valle/NNP-13)
+				appos(Service/NNP-9,AFB/NNP-14)
+				appos(AFB/NNP-14,Rome/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1985-1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stutz_Blackhawk__Seventh_Generation_1985-1987__1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Medical Service</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Health_care</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vigna di Valle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bracciano</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AzFinansBank_-_AFB_Bank</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Province_of_Rome</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bracciano http://dbpedia.org/ontology/province http://dbpedia.org/resource/Province_of_Rome
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since the late 1987, he has been assigned as a research medical officer at D.A.S.R.S.-Department of Aerospace Medicine, Pratica di Mare AFB, Rome, where his last position has been Chief of the Audio-Vestibular Section.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(1987/CD-4,the/DT-2)
+				amod(1987/CD-4,late/JJ-3)
+				prep_since(assigned/VBN-9,1987/CD-4)
+				nsubjpass(assigned/VBN-9,he/PRP-6)
+				aux(assigned/VBN-9,has/VBZ-7)
+				auxpass(assigned/VBN-9,been/VBN-8)
+				det(officer/NN-14,a/DT-11)
+				nn(officer/NN-14,research/NN-12)
+				amod(officer/NN-14,medical/JJ-13)
+				prep_as(assigned/VBN-9,officer/NN-14)
+				prep_at(assigned/VBN-9,D.A.S.R.S.-Department/NN-16)
+				nn(Medicine/NNP-19,Aerospace/NNP-18)
+				prep_of(D.A.S.R.S.-Department/NN-16,Medicine/NNP-19)
+				nn(AFB/NNP-24,Pratica/NNP-21)
+				nn(AFB/NNP-24,di/FW-22)
+				nn(AFB/NNP-24,Mare/NNP-23)
+				appos(Medicine/NNP-19,AFB/NNP-24)
+				appos(Medicine/NNP-19,Rome/NNP-26)
+				advmod(Chief/NNP-34,where/WRB-28)
+				poss(position/NN-31,his/PRP$-29)
+				amod(position/NN-31,last/JJ-30)
+				nsubj(Chief/NNP-34,position/NN-31)
+				aux(Chief/NNP-34,has/VBZ-32)
+				cop(Chief/NNP-34,been/VBN-33)
+				rcmod(Medicine/NNP-19,Chief/NNP-34)
+				det(Section/NN-38,the/DT-36)
+				amod(Section/NN-38,Audio-Vestibular/JJ-37)
+				prep_of(Chief/NNP-34,Section/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His current rank is Lieutenant Colonel.	</value>
+
+		<annotated-sentence>	His current [[rank|RANK]] is Lieutenant Colonel.	</annotated-sentence>
+
+		<pattern_crowdsource>	His current rank is Lieutenant Colonel.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(rank/NN-3,His/PRP$-1)
+				amod(rank/NN-3,current/JJ-2)
+				nsubj(Colonel/NNP-6,rank/NN-3)
+				cop(Colonel/NNP-6,is/VBZ-4)
+				nn(Colonel/NNP-6,Lieutenant/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He qualified as Flight Surgeon at the USAF School of Aerospace Medicine, Brooks AFB, Texas, where he was the top graduate of the 1989 AAMIMO Course (Advanced Aerospace Medicine for International Medical Officers ).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(qualified/VBD-2,He/PRP-1)
+				nn(Surgeon/NNP-5,Flight/NNP-4)
+				prep_as(qualified/VBD-2,Surgeon/NNP-5)
+				det(School/NNP-9,the/DT-7)
+				nn(School/NNP-9,USAF/NNP-8)
+				prep_at(qualified/VBD-2,School/NNP-9)
+				nn(Medicine/NNP-12,Aerospace/NNP-11)
+				prep_of(School/NNP-9,Medicine/NNP-12)
+				nn(AFB/NNP-15,Brooks/NNP-14)
+				appos(Medicine/NNP-12,AFB/NNP-15)
+				appos(Medicine/NNP-12,Texas/NNP-17)
+				advmod(graduate/NN-24,where/WRB-19)
+				nsubj(graduate/NN-24,he/PRP-20)
+				cop(graduate/NN-24,was/VBD-21)
+				det(graduate/NN-24,the/DT-22)
+				amod(graduate/NN-24,top/JJ-23)
+				rcmod(Medicine/NNP-12,graduate/NN-24)
+				det(Course/NNP-29,the/DT-26)
+				num(Course/NNP-29,1989/CD-27)
+				nn(Course/NNP-29,AAMIMO/NNP-28)
+				prep_of(graduate/NN-24,Course/NNP-29)
+				nn(Medicine/NNP-33,Advanced/NNP-31)
+				nn(Medicine/NNP-33,Aerospace/NNP-32)
+				dep(Course/NNP-29,Medicine/NNP-33)
+				nn(Officers/NNP-37,International/NNP-35)
+				nn(Officers/NNP-37,Medical/NNP-36)
+				prep_for(Medicine/NNP-33,Officers/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1991 to the present, he has held an appointment as instructor of "Aerospace Physiological Techniques" at the Residency Program of Aerospace Medicine, University of Rome "La Sapienza."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(held/VBN-9,1991/CD-2)
+				det(present/JJ-5,the/DT-4)
+				prep_to(1991/CD-2,present/JJ-5)
+				nsubj(held/VBN-9,he/PRP-7)
+				aux(held/VBN-9,has/VBZ-8)
+				det(appointment/NN-11,an/DT-10)
+				dobj(held/VBN-9,appointment/NN-11)
+				prep_as(held/VBN-9,instructor/NN-13)
+				nn(Techniques/NNS-18,Aerospace/NNP-16)
+				amod(Techniques/NNS-18,Physiological/JJ-17)
+				prep_of(instructor/NN-13,Techniques/NNS-18)
+				det(Program/NN-23,the/DT-21)
+				nn(Program/NN-23,Residency/NNP-22)
+				prep_at(held/VBN-9,Program/NN-23)
+				nn(Medicine/NNP-26,Aerospace/NNP-25)
+				prep_of(Program/NN-23,Medicine/NNP-26)
+				appos(Medicine/NNP-26,University/NNP-28)
+				prep_of(University/NNP-28,Rome/NNP-30)
+				nn(Sapienza/NNP-33,La/NNP-32)
+				dep(Rome/NNP-30,Sapienza/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1993 to 1995, he has held an appointment as instructor of "Aerospace Medicine" at the Courses for Air Force Medical Officers, Italian Air Force Health School, Rome.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(1995/CD-4,1993/CD-2)
+				dep(1995/CD-4,to/TO-3)
+				prep_from(held/VBN-8,1995/CD-4)
+				nsubj(held/VBN-8,he/PRP-6)
+				aux(held/VBN-8,has/VBZ-7)
+				det(appointment/NN-10,an/DT-9)
+				dobj(held/VBN-8,appointment/NN-10)
+				prep_as(held/VBN-8,instructor/NN-12)
+				nn(Medicine/NNP-16,Aerospace/NNP-15)
+				prep_of(instructor/NN-12,Medicine/NNP-16)
+				det(Courses/NNS-20,the/DT-19)
+				prep_at(Medicine/NNP-16,Courses/NNS-20)
+				nn(Officers/NNP-25,Air/NNP-22)
+				nn(Officers/NNP-25,Force/NNP-23)
+				nn(Officers/NNP-25,Medical/NNP-24)
+				prep_for(Courses/NNS-20,Officers/NNP-25)
+				nn(School/NNP-31,Italian/NNP-27)
+				nn(School/NNP-31,Air/NNP-28)
+				nn(School/NNP-31,Force/NNP-29)
+				nn(School/NNP-31,Health/NNP-30)
+				appos(Officers/NNP-25,School/NNP-31)
+				appos(School/NNP-31,Rome/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1991, Urbani was selected by the Italian Space Agency (ASI) as one of the five Italian astronaut candidates for the last European Space Agency (ESA) astronaut selection.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1991/CD-2)
+				nsubjpass(selected/VBN-6,Urbani/NNP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				det(Agency/NNP-11,the/DT-8)
+				amod(Agency/NNP-11,Italian/JJ-9)
+				nn(Agency/NNP-11,Space/NN-10)
+				agent(selected/VBN-6,Agency/NNP-11)
+				appos(Agency/NNP-11,ASI/NNP-13)
+				prep_as(selected/VBN-6,one/CD-16)
+				det(selection/NN-33,the/DT-18)
+				num(candidates/NNS-22,five/CD-19)
+				amod(candidates/NNS-22,Italian/JJ-20)
+				nn(candidates/NNS-22,astronaut/NN-21)
+				nn(selection/NN-33,candidates/NNS-22)
+				det(astronaut/NN-32,the/DT-24)
+				amod(astronaut/NN-32,last/JJ-25)
+				amod(astronaut/NN-32,European/JJ-26)
+				nn(astronaut/NN-32,Space/NNP-27)
+				nn(astronaut/NN-32,Agency/NNP-28)
+				appos(astronaut/NN-32,ESA/NNP-30)
+				prep_for(candidates/NNS-22,astronaut/NN-32)
+				prep_of(one/CD-16,selection/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Eventually, he participated in the ESA selection and was one of the two Italians retained in the group of candidates considered by ESA for the final selection.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(participated/VBD-4,Eventually/RB-1)
+				nsubj(participated/VBD-4,he/PRP-3)
+				det(selection/NN-8,the/DT-6)
+				nn(selection/NN-8,ESA/NNP-7)
+				prep_in(participated/VBD-4,selection/NN-8)
+				cop(one/CD-11,was/VBD-10)
+				conj_and(participated/VBD-4,one/CD-11)
+				det(Italians/NNPS-15,the/DT-13)
+				num(Italians/NNPS-15,two/CD-14)
+				prep_of(one/CD-11,Italians/NNPS-15)
+				partmod(Italians/NNPS-15,retained/VBN-16)
+				det(group/NN-19,the/DT-18)
+				prep_in(retained/VBN-16,group/NN-19)
+				prep_of(group/NN-19,candidates/NNS-21)
+				partmod(candidates/NNS-21,considered/VBN-22)
+				agent(considered/VBN-22,ESA/NNP-24)
+				det(selection/NN-28,the/DT-26)
+				amod(selection/NN-28,final/JJ-27)
+				prep_for(ESA/NNP-24,selection/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, he participated in the ESA project "EXEMSI'92" (Experimental Campaign for the European Manned Space Infrastructure, performed at DLR, Cologne, Germany) as a member of the EXPET team (Experimental Programme Execution Team) and as Principal Investigator of the experiment "Oculomotor Performance during Prolonged Isolation," one of the physiological experiments carried out within the project.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(participated/VBD-5,1992/CD-2)
+				nsubj(participated/VBD-5,he/PRP-4)
+				det(EXEMSI/NN-11,the/DT-7)
+				nn(EXEMSI/NN-11,ESA/NNP-8)
+				nn(EXEMSI/NN-11,project/NN-9)
+				prep_in(participated/VBD-5,EXEMSI/NN-11)
+				dobj(participated/VBD-5,92/CD-13)
+				amod(Campaign/NN-17,Experimental/JJ-16)
+				dep(for/IN-18,Campaign/NN-17)
+				dep(participated/VBD-5,for/IN-18)
+				det(Infrastructure/NNP-23,the/DT-19)
+				amod(Infrastructure/NNP-23,European/JJ-20)
+				nn(Infrastructure/NNP-23,Manned/NNP-21)
+				nn(Infrastructure/NNP-23,Space/NNP-22)
+				pobj(for/IN-18,Infrastructure/NNP-23)
+				dep(for/IN-18,performed/VBN-25)
+				prep_at(performed/VBN-25,DLR/NNP-27)
+				nn(Germany/NNP-31,Cologne/NNP-29)
+				appos(DLR/NNP-27,Germany/NNP-31)
+				det(member/NN-35,a/DT-34)
+				prep_as(participated/VBD-5,member/NN-35)
+				det(team/NN-39,the/DT-37)
+				nn(team/NN-39,EXPET/NNP-38)
+				prep_of(member/NN-35,team/NN-39)
+				amod(Team/NNP-44,Experimental/JJ-41)
+				nn(Team/NNP-44,Programme/NNP-42)
+				nn(Team/NNP-44,Execution/NNP-43)
+				appos(team/NN-39,Team/NNP-44)
+				nn(Investigator/NN-49,Principal/NN-48)
+				prep_as(participated/VBD-5,Investigator/NN-49)
+				conj_and(member/NN-35,Investigator/NN-49)
+				det(experiment/NN-52,the/DT-51)
+				prep_of(Investigator/NN-49,experiment/NN-52)
+				nn(Performance/NNP-55,Oculomotor/NNP-54)
+				dep(Investigator/NN-49,Performance/NNP-55)
+				amod(Isolation/NN-58,Prolonged/JJ-57)
+				prep_during(Performance/NNP-55,Isolation/NN-58)
+				nsubj(carried/VBD-66,one/CD-61)
+				det(experiments/NNS-65,the/DT-63)
+				amod(experiments/NNS-65,physiological/JJ-64)
+				prep_of(one/CD-61,experiments/NNS-65)
+				rcmod(Investigator/NN-49,carried/VBD-66)
+				prt(carried/VBD-66,out/RP-67)
+				det(project/NN-70,the/DT-69)
+				prep_within(carried/VBD-66,project/NN-70)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 1994, he took part as crew member in the CUS'94 Campaign (Columbus Utilisation Simulation), ESA simulation of a long-term mission increment performed at the Columbus mockup in ESTEC, Noordwijk, The Netherlands.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(took/VBD-6,February/NNP-2)
+				num(February/NNP-2,1994/CD-3)
+				nsubj(took/VBD-6,he/PRP-5)
+				dobj(took/VBD-6,part/NN-7)
+				nn(member/NN-10,crew/NN-9)
+				prep_as(took/VBD-6,member/NN-10)
+				det(Campaign/NNP-15,the/DT-12)
+				nn(Campaign/NNP-15,CUS/NNP-13)
+				num(Campaign/NNP-15,'94/CD-14)
+				prep_in(took/VBD-6,Campaign/NNP-15)
+				nn(Simulation/NNP-19,Columbus/NNP-17)
+				nn(Simulation/NNP-19,Utilisation/NNP-18)
+				appos(Campaign/NNP-15,Simulation/NNP-19)
+				nn(simulation/NN-23,ESA/NNP-22)
+				appos(Campaign/NNP-15,simulation/NN-23)
+				det(increment/NN-28,a/DT-25)
+				amod(increment/NN-28,long-term/JJ-26)
+				nn(increment/NN-28,mission/NN-27)
+				prep_of(simulation/NN-23,increment/NN-28)
+				partmod(increment/NN-28,performed/VBN-29)
+				det(mockup/NN-33,the/DT-31)
+				nn(mockup/NN-33,Columbus/NNP-32)
+				prep_at(performed/VBN-29,mockup/NN-33)
+				nn(Noordwijk/NNP-37,ESTEC/NNP-35)
+				prep_in(performed/VBN-29,Noordwijk/NNP-37)
+				det(Netherlands/NNP-40,The/DT-39)
+				appos(Noordwijk/NNP-37,Netherlands/NNP-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following candidature by the Italian Space Agency, Urbani was selected by the National Aeronautics and Space Administration (NASA) in May 1995 as an alternate Payload Specialist for the Life and Microgravity Spacelab (LMS) mission, STS-78, and began training for the flight duties of a Payload Specialist Astronaut at the Johnson Space Center in Houston.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(selected/VBN-11,candidature/NN-2)
+				det(Agency/NNP-7,the/DT-4)
+				amod(Agency/NNP-7,Italian/JJ-5)
+				nn(Agency/NNP-7,Space/NN-6)
+				prep_by(candidature/NN-2,Agency/NNP-7)
+				nsubjpass(selected/VBN-11,Urbani/NNP-9)
+				nsubjpass(began/VBD-44,Urbani/NNP-9)
+				auxpass(selected/VBN-11,was/VBD-10)
+				det(Aeronautics/NNP-15,the/DT-13)
+				nn(Aeronautics/NNP-15,National/NNP-14)
+				agent(selected/VBN-11,Aeronautics/NNP-15)
+				nn(Administration/NNP-18,Space/NNP-17)
+				agent(selected/VBN-11,Administration/NNP-18)
+				conj_and(Aeronautics/NNP-15,Administration/NNP-18)
+				appos(Aeronautics/NNP-15,NASA/NNP-20)
+				prep_in(Aeronautics/NNP-15,May/NNP-23)
+				num(May/NNP-23,1995/CD-24)
+				det(Specialist/NNP-29,an/DT-26)
+				amod(Specialist/NNP-29,alternate/JJ-27)
+				nn(Specialist/NNP-29,Payload/NNP-28)
+				prep_as(selected/VBN-11,Specialist/NNP-29)
+				det(mission/NN-39,the/DT-31)
+				nn(Spacelab/NNP-35,Life/NNP-32)
+				conj_and(Life/NNP-32,Microgravity/NNP-34)
+				nn(Spacelab/NNP-35,Microgravity/NNP-34)
+				nn(mission/NN-39,Spacelab/NNP-35)
+				appos(Spacelab/NNP-35,LMS/NNP-37)
+				prep_for(Specialist/NNP-29,mission/NN-39)
+				appos(mission/NN-39,STS-78/NN-41)
+				conj_and(selected/VBN-11,began/VBD-44)
+				xcomp(began/VBD-44,training/VBG-45)
+				det(duties/NNS-49,the/DT-47)
+				nn(duties/NNS-49,flight/NN-48)
+				prep_for(training/VBG-45,duties/NNS-49)
+				det(Astronaut/NNP-54,a/DT-51)
+				nn(Astronaut/NNP-54,Payload/NNP-52)
+				nn(Astronaut/NNP-54,Specialist/NNP-53)
+				prep_of(duties/NNS-49,Astronaut/NNP-54)
+				det(Center/NNP-59,the/DT-56)
+				nn(Center/NNP-59,Johnson/NNP-57)
+				nn(Center/NNP-59,Space/NNP-58)
+				prep_at(training/VBG-45,Center/NNP-59)
+				prep_in(Center/NNP-59,Houston/NNP-61)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	LMS was an international research mission scheduled for flight on June 1996 aboard the Space Shuttle Columbia.	</value>
+
+		<annotated-sentence>	LMS was an international [[research|Research]] mission scheduled for [[flight|Flight_simulator]] on [[June 1996|1996]] aboard [[the Space|Space]] [[Shuttle|Shuttle_(video_game)]] Columbia.	</annotated-sentence>
+
+		<pattern_crowdsource>	LMS was an international research mission scheduled for [[flight|Flight_simulator]] on June 1996 aboard the Space [[Shuttle|Shuttle_(video_game)]] Columbia.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-6,LMS/NNP-1)
+				cop(mission/NN-6,was/VBD-2)
+				det(mission/NN-6,an/DT-3)
+				amod(mission/NN-6,international/JJ-4)
+				nn(mission/NN-6,research/NN-5)
+				partmod(mission/NN-6,scheduled/VBN-7)
+				dep(Columbia/NNP-17,flight/NN-9)
+				prep_on(flight/NN-9,June/NNP-11)
+				num(June/NNP-11,1996/CD-12)
+				det(Space/NN-15,the/DT-14)
+				prep_aboard(June/NNP-11,Space/NN-15)
+				nn(Columbia/NNP-17,Shuttle/NNP-16)
+				prep_for(scheduled/VBN-7,Columbia/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission, Urbani acted as Crew Interface Coordinator in the Payload Operations Control Center at the Marshall Space Flight Center in Huntsville.	</value>
+
+		<annotated-sentence>	During the mission, Urbani acted as Crew Interface [[Coordinator|Parenting_coordinator]] in the Payload Operations Control Center at [[the Marshall Space Flight Center|Marshall_Space_Flight_Center]] in Huntsville.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission, Urbani acted as Crew Interface Coordinator in the Payload Operations Control Center at the Marshall Space Flight Center in Huntsville.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(acted/VBD-6,mission/NN-3)
+				nsubj(acted/VBD-6,Urbani/NNP-5)
+				nn(Coordinator/NNP-10,Crew/NNP-8)
+				nn(Coordinator/NNP-10,Interface/NNP-9)
+				prep_as(acted/VBD-6,Coordinator/NNP-10)
+				det(Center/NNP-16,the/DT-12)
+				nn(Center/NNP-16,Payload/NNP-13)
+				nn(Center/NNP-16,Operations/NNP-14)
+				nn(Center/NNP-16,Control/NNP-15)
+				prep_in(Coordinator/NNP-10,Center/NNP-16)
+				det(Center/NNP-22,the/DT-18)
+				nn(Center/NNP-22,Marshall/NNP-19)
+				nn(Center/NNP-22,Space/NNP-20)
+				nn(Center/NNP-22,Flight/NNP-21)
+				prep_at(acted/VBD-6,Center/NNP-22)
+				prep_in(acted/VBD-6,Huntsville/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Coordinator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parenting_coordinator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Marshall Space Flight Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This biography has been taken from the Astronautix web site, which was itself a cut and paste of the official NASA JSC astronaut bio from June 1996 which has, since then, been removed from the NASA site and archived.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(biography/NN-2,This/DT-1)
+				nsubjpass(taken/VBN-5,biography/NN-2)
+				nsubj(paste/VB-18,biography/NN-2)
+				aux(taken/VBN-5,has/VBZ-3)
+				auxpass(taken/VBN-5,been/VBN-4)
+				det(site/NN-10,the/DT-7)
+				nn(site/NN-10,Astronautix/NNP-8)
+				nn(site/NN-10,web/NN-9)
+				prep_from(taken/VBN-5,site/NN-10)
+				nsubj(was/VBD-13,which/WDT-12)
+				rcmod(site/NN-10,was/VBD-13)
+				nsubj(cut/NN-16,itself/PRP-14)
+				det(cut/NN-16,a/DT-15)
+				xcomp(was/VBD-13,cut/NN-16)
+				conj_and(taken/VBN-5,paste/VB-18)
+				det(bio/NN-25,the/DT-20)
+				amod(bio/NN-25,official/JJ-21)
+				nn(bio/NN-25,NASA/NNP-22)
+				nn(bio/NN-25,JSC/NNP-23)
+				nn(bio/NN-25,astronaut/NN-24)
+				prep_of(paste/VB-18,bio/NN-25)
+				prep_from(paste/VB-18,June/NNP-27)
+				num(June/NNP-27,1996/CD-28)
+				nsubjpass(removed/VBN-36,which/WDT-29)
+				nsubjpass(archived/VBN-42,which/WDT-29)
+				aux(removed/VBN-36,has/VBZ-30)
+				prep(removed/VBN-36,since/IN-32)
+				pobj(since/IN-32,then/RB-33)
+				auxpass(removed/VBN-36,been/VBN-35)
+				rcmod(June/NNP-27,removed/VBN-36)
+				det(site/NN-40,the/DT-38)
+				nn(site/NN-40,NASA/NNP-39)
+				prep_from(removed/VBN-36,site/NN-40)
+				rcmod(June/NNP-27,archived/VBN-42)
+				conj_and(removed/VBN-36,archived/VBN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

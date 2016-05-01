@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>ALT is an enzyme found in a high level in the liver.</value>
+		<pattern_crowdsource> ALT is an [[enzyme|C0014442]] found in a high level in the [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>enzyme</surface-form>
+				<RDF-ID>C0014442</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023884 LOCATION_OF C0014442</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is used to determine if a person has liver damage.</value>
+		<pattern_crowdsource> This test is used to determine if a [[person|C0027361]] has [[liver damage|C0151763]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver damage</surface-form>
+				<RDF-ID>C0151763</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0151763 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

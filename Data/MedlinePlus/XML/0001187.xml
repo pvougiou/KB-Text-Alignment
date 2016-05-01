@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Type 2 diabetes is a (lifelong) disease that causes a high level of sugar (glucose) in your blood.</value>
+		<pattern_crowdsource> [[Type 2 diabetes|C0011860]] is a (lifelong) [[disease|C0012634]] that causes a high level of [[sugar|C0242209]] ([[glucose|C0017725]]) in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Type 2 diabetes</surface-form>
+				<RDF-ID>C0011860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011860 ISA C0012634</triple>
+			<triple>C0017725 ISA C0242209</triple>
+			<triple>C0005767 LOCATION_OF C0242209</triple>
+			<triple>C0005767 LOCATION_OF C0017725</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You can do many things to control your symptoms, prevent damage due to diabetes, and make your life better.</value>
+		<pattern_crowdsource> You can do many things to control your [[symptoms|C1457887]], prevent damage due to [[diabetes|C0011847]], and make your life better.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>better</surface-form>
+				<RDF-ID>C0332272</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 CAUSES C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ask your provider about other tests you may need, such as cholesterol, A1C, and a urine test to check for kidney problems.</value>
+		<pattern_crowdsource> Ask your [[provider|C1441436]] about other tests you may need, such as cholesterol, A1C, and a urine test to check for [[kidney problems|C0812426]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney problems</surface-form>
+				<RDF-ID>C0812426</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1441436 TREATS C0812426</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

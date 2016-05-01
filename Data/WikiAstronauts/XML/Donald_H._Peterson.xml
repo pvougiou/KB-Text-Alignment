@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Donald Herod Peterson is a retired United States Air Force officer and a former USAF and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Donald Herod Peterson|Donald_H._Peterson]] is a retired [[United States Air Force|United_States_Air_Force]] [[officer|Officer_(armed_forces)]] and [[a former USAF|United_States_Air_Force]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Donald Herod Peterson|Donald_H._Peterson]] is a retired United States Air Force officer and a former USAF and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Peterson/NNP-3,Donald/NNP-1)
+				nn(Peterson/NNP-3,Herod/NNP-2)
+				nsubj(officer/NN-11,Peterson/NNP-3)
+				cop(officer/NN-11,is/VBZ-4)
+				det(officer/NN-11,a/DT-5)
+				amod(officer/NN-11,retired/JJ-6)
+				nn(officer/NN-11,United/NNP-7)
+				nn(officer/NN-11,States/NNP-8)
+				nn(officer/NN-11,Air/NNP-9)
+				nn(officer/NN-11,Force/NNP-10)
+				det(USAF/NNP-15,a/DT-13)
+				amod(USAF/NNP-15,former/JJ-14)
+				conj_and(officer/NN-11,USAF/NNP-15)
+				nn(astronaut/NN-18,NASA/NNP-17)
+				conj_and(officer/NN-11,astronaut/NN-18)
+				conj_and(USAF/NNP-15,astronaut/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Donald Herod Peterson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Donald_H._Peterson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former USAF</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born in Winona, Mississippi, on October 22, 1933.	</value>
+
+		<annotated-sentence>	He was born in [[Winona , Mississippi ,|Akron,_Ohio]]n October 22, 1933.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born in Winona, Mississippi, on October 22, 1933.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Mississippi/NNP-7,Winona/NNP-5)
+				prep_in(born/VBN-3,Mississippi/NNP-7)
+				prep_on(born/VBN-3,October/NNP-10)
+				num(October/NNP-10,22/CD-11)
+				num(October/NNP-10,1933/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Winona , Mississippi ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson is married, and has three children and four grandchildren.	</value>
+
+		<annotated-sentence>	Peterson is married, and has three [[children|Child]] and [[four grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Peterson is married, and has three children and four grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Peterson/NNP-1)
+				nsubj(has/VBZ-6,Peterson/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-6)
+				num(children/NNS-8,three/CD-7)
+				dobj(has/VBZ-6,children/NNS-8)
+				num(grandchildren/NNS-11,four/CD-10)
+				dobj(has/VBZ-6,grandchildren/NNS-11)
+				conj_and(children/NNS-8,grandchildren/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Winona High School, Winona, Mississippi; received a bachelor of science degree from the United States Military Academy at West Point, New York in 1955, and a master's degree in Nuclear Engineering from the Air Force Institute of Technology, Wright-Patterson Air Force Base, Ohio in 1962.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Winona/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Mississippi/NNP-10,Winona/NNP-8)
+				appos(School/NNP-6,Mississippi/NNP-10)
+				parataxis(graduated/VBD-2,received/VBD-12)
+				det(bachelor/NN-14,a/DT-13)
+				dobj(received/VBD-12,bachelor/NN-14)
+				nn(degree/NN-17,science/NN-16)
+				prep_of(bachelor/NN-14,degree/NN-17)
+				det(Academy/NNP-23,the/DT-19)
+				nn(Academy/NNP-23,United/NNP-20)
+				nn(Academy/NNP-23,States/NNPS-21)
+				nn(Academy/NNP-23,Military/NNP-22)
+				prep_from(degree/NN-17,Academy/NNP-23)
+				nn(Point/NNP-26,West/NNP-25)
+				prep_at(bachelor/NN-14,Point/NNP-26)
+				nn(York/NNP-29,New/NNP-28)
+				dobj(received/VBD-12,York/NNP-29)
+				conj_and(bachelor/NN-14,York/NNP-29)
+				prep_in(York/NNP-29,1955/CD-31)
+				det(master/NN-35,a/DT-34)
+				poss(degree/NN-37,master/NN-35)
+				dobj(received/VBD-12,degree/NN-37)
+				conj_and(bachelor/NN-14,degree/NN-37)
+				amod(Engineering/NNP-40,Nuclear/JJ-39)
+				prep_in(degree/NN-37,Engineering/NNP-40)
+				det(Institute/NNP-45,the/DT-42)
+				nn(Institute/NNP-45,Air/NNP-43)
+				nn(Institute/NNP-45,Force/NNP-44)
+				prep_from(received/VBD-12,Institute/NNP-45)
+				nn(Wright-Patterson/NNP-49,Technology/NNP-47)
+				prep_of(Institute/NNP-45,Wright-Patterson/NNP-49)
+				nn(Base/NNP-52,Air/NNP-50)
+				nn(Base/NNP-52,Force/NNP-51)
+				nsubj(received/VBD-12,Base/NNP-52)
+				appos(Base/NNP-52,Ohio/NNP-54)
+				prep_in(Ohio/NNP-54,1962/CD-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson graduated from West Point in 1955.	</value>
+
+		<annotated-sentence>	Peterson graduated from West Point in [[1955|1955]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Peterson graduated from West Point in 1955.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Peterson/NNP-1)
+				nn(Point/NNP-5,West/NNP-4)
+				prep_from(graduated/VBD-2,Point/NNP-5)
+				prep_in(graduated/VBD-2,1955/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1955</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1955</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His assignments included four years as a flight instructor and military training officer with the Air Training Command, three years as a nuclear systems analyst with the Air Force Systems Command, and one year as a fighter pilot with Tactical Air Command, including 3 months combat weapons training.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-2,His/PRP$-1)
+				nsubj(included/VBD-3,assignments/NNS-2)
+				num(years/NNS-5,four/CD-4)
+				tmod(included/VBD-3,years/NNS-5)
+				det(instructor/NN-9,a/DT-7)
+				nn(instructor/NN-9,flight/NN-8)
+				prep_as(included/VBD-3,instructor/NN-9)
+				amod(officer/NN-13,military/JJ-11)
+				nn(officer/NN-13,training/NN-12)
+				prep_as(included/VBD-3,officer/NN-13)
+				conj_and(instructor/NN-9,officer/NN-13)
+				det(Command/NN-18,the/DT-15)
+				nn(Command/NN-18,Air/NNP-16)
+				nn(Command/NN-18,Training/NNP-17)
+				prep_with(instructor/NN-9,Command/NN-18)
+				num(years/NNS-21,three/CD-20)
+				prep_as(included/VBD-3,years/NNS-21)
+				conj_and(instructor/NN-9,years/NNS-21)
+				det(analyst/NN-26,a/DT-23)
+				amod(analyst/NN-26,nuclear/JJ-24)
+				nn(analyst/NN-26,systems/NNS-25)
+				prep_as(years/NNS-21,analyst/NN-26)
+				det(Command/NN-32,the/DT-28)
+				nn(Command/NN-32,Air/NNP-29)
+				nn(Command/NN-32,Force/NNP-30)
+				nn(Command/NN-32,Systems/NNPS-31)
+				prep_with(analyst/NN-26,Command/NN-32)
+				num(year/NN-36,one/CD-35)
+				prep_as(included/VBD-3,year/NN-36)
+				conj_and(instructor/NN-9,year/NN-36)
+				det(pilot/NN-40,a/DT-38)
+				nn(pilot/NN-40,fighter/NN-39)
+				prep_as(year/NN-36,pilot/NN-40)
+				nn(Command/NN-44,Tactical/NNP-42)
+				nn(Command/NN-44,Air/NNP-43)
+				prep_with(included/VBD-3,Command/NN-44)
+				num(months/NNS-48,3/CD-47)
+				prep_including(included/VBD-3,months/NNS-48)
+				nn(training/NN-51,combat/NN-49)
+				nn(training/NN-51,weapons/NNS-50)
+				dep(months/NNS-48,training/NN-51)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a graduate of the Aerospace Research Pilot School at Edwards Air Force Base, California, and was one of the third group of astronauts assigned to the USAF Manned Orbiting Laboratory (MOL) program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-4,He/PRP-1)
+				cop(graduate/NN-4,is/VBZ-2)
+				det(graduate/NN-4,a/DT-3)
+				det(School/NNP-10,the/DT-6)
+				nn(School/NNP-10,Aerospace/NNP-7)
+				nn(School/NNP-10,Research/NNP-8)
+				nn(School/NNP-10,Pilot/NN-9)
+				prep_of(graduate/NN-4,School/NNP-10)
+				nn(Base/NNP-15,Edwards/NNP-12)
+				nn(Base/NNP-15,Air/NNP-13)
+				nn(Base/NNP-15,Force/NNP-14)
+				prep_at(School/NNP-10,Base/NNP-15)
+				appos(Base/NNP-15,California/NNP-17)
+				auxpass(assigned/VBN-28,was/VBD-20)
+				nsubjpass(assigned/VBN-28,one/CD-21)
+				det(group/NN-25,the/DT-23)
+				amod(group/NN-25,third/JJ-24)
+				prep_of(one/CD-21,group/NN-25)
+				prep_of(group/NN-25,astronauts/NNS-27)
+				conj_and(graduate/NN-4,assigned/VBN-28)
+				det(program/NN-38,the/DT-30)
+				nn(Laboratory/NNP-34,USAF/NNP-31)
+				nn(Laboratory/NNP-34,Manned/NNP-32)
+				nn(Laboratory/NNP-34,Orbiting/NNP-33)
+				nn(program/NN-38,Laboratory/NNP-34)
+				appos(Laboratory/NNP-34,MOL/NNP-36)
+				prep_to(assigned/VBN-28,program/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 5,300 hours flying time—including more than 5,000 hours in jet aircraft.	</value>
+
+		<annotated-sentence>	He has logged over 5,300 [[hours|Hour]] flying time—including more than [[5,000|5,000,000]] [[hours|Hour]] in [[jet aircraft|Jet_aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 5,300 hours flying time—including more than 5,000 hours in jet aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,5,300/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				partmod(hours/NNS-6,flying/VBG-7)
+				dobj(flying/VBG-7,time/NN-8)
+				mwe(than/IN-12,more/JJR-11)
+				quantmod(5,000/CD-13,than/IN-12)
+				num(hours/NNS-14,5,000/CD-13)
+				prep_including(hours/NNS-6,hours/NNS-14)
+				nn(aircraft/NN-17,jet/NN-16)
+				prep_in(hours/NNS-14,aircraft/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson became a NASA astronaut in September 1969 after the MOL program was cancelled.	</value>
+
+		<annotated-sentence>	Peterson became a [[NASA|NASA]] [[astronaut|Astronaut]] in [[September|September]] [[1969|1969]] after the MOL [[program|NASA]] was cancelled.	</annotated-sentence>
+
+		<pattern_crowdsource>	Peterson became a [[NASA|NASA]] [[astronaut|Astronaut]] in September 1969 after the MOL [[program|NASA]] was cancelled.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(astronaut/NN-5,Peterson/NNP-1)
+				cop(astronaut/NN-5,became/VBD-2)
+				det(astronaut/NN-5,a/DT-3)
+				nn(astronaut/NN-5,NASA/NNP-4)
+				prep_in(astronaut/NN-5,September/NNP-7)
+				num(September/NNP-7,1969/CD-8)
+				mark(cancelled/VBN-14,after/IN-9)
+				det(program/NN-12,the/DT-10)
+				nn(program/NN-12,MOL/NNP-11)
+				nsubjpass(cancelled/VBN-14,program/NN-12)
+				auxpass(cancelled/VBN-14,was/VBD-13)
+				advcl(astronaut/NN-5,cancelled/VBN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served on the astronaut support crew for Apollo 16.	</value>
+
+		<annotated-sentence>	He served on the [[astronaut|Astronaut]] [[support crew|Preserved_main_line_steam_locomotive_support_in_the_United_Kingdom]] for [[Apollo 16|Apollo_16]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served on the [[astronaut|Astronaut]] support crew for Apollo 16.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(crew/NN-7,the/DT-4)
+				nn(crew/NN-7,astronaut/NN-5)
+				nn(crew/NN-7,support/NN-6)
+				prep_on(served/VBD-2,crew/NN-7)
+				prep_for(served/VBD-2,Apollo/NNP-9)
+				num(Apollo/NNP-9,16/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>support crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Preserved_main_line_steam_locomotive_support_in_the_United_Kingdom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_16</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson retired from the United States Air Force with the rank of colonel after having completed more than 24 years of active service, but continued his assignment as a NASA astronaut in a civilian capacity.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Peterson/NNP-1)
+				nsubj(continued/VBD-26,Peterson/NNP-1)
+				det(Force/NNP-8,the/DT-4)
+				nn(Force/NNP-8,United/NNP-5)
+				nn(Force/NNP-8,States/NNP-6)
+				nn(Force/NNP-8,Air/NNP-7)
+				prep_from(retired/VBD-2,Force/NNP-8)
+				det(rank/NN-11,the/DT-10)
+				prep_with(Force/NNP-8,rank/NN-11)
+				prep_of(rank/NN-11,colonel/NN-13)
+				aux(completed/VBN-16,having/VBG-15)
+				prepc_after(retired/VBD-2,completed/VBN-16)
+				mwe(than/IN-18,more/JJR-17)
+				quantmod(24/CD-19,than/IN-18)
+				num(years/NNS-20,24/CD-19)
+				dobj(completed/VBN-16,years/NNS-20)
+				amod(service/NN-23,active/JJ-22)
+				prep_of(years/NNS-20,service/NN-23)
+				conj_but(retired/VBD-2,continued/VBD-26)
+				poss(assignment/NN-28,his/PRP$-27)
+				dobj(continued/VBD-26,assignment/NN-28)
+				det(astronaut/NN-32,a/DT-30)
+				nn(astronaut/NN-32,NASA/NNP-31)
+				prep_as(continued/VBD-26,astronaut/NN-32)
+				det(capacity/NN-36,a/DT-34)
+				amod(capacity/NN-36,civilian/JJ-35)
+				prep_in(continued/VBD-26,capacity/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His areas of responsibility have included engineering support, man/machine interface, and safety assessment.	</value>
+
+		<annotated-sentence>	His [[areas|Area]] of responsibility have included [[engineering support|Engineering_support]], man/machine interface, and safety assessment.	</annotated-sentence>
+
+		<pattern_crowdsource>	His areas of responsibility have included engineering support, man/machine interface, and safety assessment.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(areas/NNS-2,His/PRP$-1)
+				nsubj(included/VBN-6,areas/NNS-2)
+				prep_of(areas/NNS-2,responsibility/NN-4)
+				aux(included/VBN-6,have/VBP-5)
+				nn(support/NN-8,engineering/NN-7)
+				dobj(included/VBN-6,support/NN-8)
+				nn(interface/NN-11,man/machine/NN-10)
+				dobj(included/VBN-6,interface/NN-11)
+				conj_and(support/NN-8,interface/NN-11)
+				nn(assessment/NN-15,safety/NN-14)
+				dobj(included/VBN-6,assessment/NN-15)
+				conj_and(support/NN-8,assessment/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>areas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering support</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering_support</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson was a mission specialist on STS-6, which launched from Kennedy Space Center, Florida, on April 4, 1983.	</value>
+
+		<annotated-sentence>	Peterson was [[a mission specialist|Mission_Specialist]] on [[STS-6|STS-6]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on April 4, 1983.	</annotated-sentence>
+
+		<pattern_crowdsource>	Peterson was a mission specialist on [[STS-6|STS-6]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], Florida, on April 4, 1983.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,Peterson/NNP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_on(specialist/NN-5,STS-6/NN-7)
+				nsubj(launched/VBD-10,which/WDT-9)
+				rcmod(STS-6/NN-7,launched/VBD-10)
+				nn(Center/NNP-14,Kennedy/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_from(launched/VBD-10,Center/NNP-14)
+				appos(Center/NNP-14,Florida/NNP-16)
+				prep_on(launched/VBD-10,April/NNP-19)
+				num(April/NNP-19,4/CD-20)
+				num(April/NNP-19,1983/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-6</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-6 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Donald_H._Peterson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_H._Peterson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-6 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was accompanied by Paul J. Weitz (spacecraft commander), Col. Karol J. Bobko (pilot), and Dr. F. Story Musgrave (mission specialist).	</value>
+
+		<annotated-sentence>	He was accompanied by [[Paul J. Weitz|Paul_J._Weitz]] ([[spacecraft|Spacecraft]] [[commander|Commander]]), [[Col.|Colonel_(United_States)]] [[Karol J. Bobko|Karol_J._Bobko]] ([[pilot|Pilot_(aircraft)]]), and Dr. [[F. Story Musgrave|Story_Musgrave]] ([[mission specialist|Mission_Specialist]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was accompanied by Paul J. Weitz (spacecraft commander), [[Col.|Colonel_(United_States)]] [[Karol J. Bobko|Karol_J._Bobko]] (pilot), and Dr. F. Story Musgrave (mission specialist).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(accompanied/VBN-3,He/PRP-1)
+				auxpass(accompanied/VBN-3,was/VBD-2)
+				nn(Weitz/NNP-7,Paul/NNP-5)
+				nn(Weitz/NNP-7,J./NNP-6)
+				agent(accompanied/VBN-3,Weitz/NNP-7)
+				nn(commander/NN-10,spacecraft/NN-9)
+				appos(Weitz/NNP-7,commander/NN-10)
+				nn(Bobko/NNP-16,Col./NNP-13)
+				nn(Bobko/NNP-16,Karol/NNP-14)
+				nn(Bobko/NNP-16,J./NNP-15)
+				agent(accompanied/VBN-3,Bobko/NNP-16)
+				conj_and(Weitz/NNP-7,Bobko/NNP-16)
+				appos(Bobko/NNP-16,pilot/NN-18)
+				nn(Musgrave/NNP-25,Dr./NNP-22)
+				nn(Musgrave/NNP-25,F./NNP-23)
+				nn(Musgrave/NNP-25,Story/NNP-24)
+				agent(accompanied/VBN-3,Musgrave/NNP-25)
+				conj_and(Weitz/NNP-7,Musgrave/NNP-25)
+				nn(specialist/NN-28,mission/NN-27)
+				appos(Musgrave/NNP-25,specialist/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Paul J. Weitz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Paul_J._Weitz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Col.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Karol J. Bobko</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Karol_J._Bobko</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pilot_(aircraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F. Story Musgrave</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Story_Musgrave</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Karol_J._Bobko http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel_(United_States)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this maiden voyage of the spacecraft Challenger, the STS-6 crew conducted numerous experiments in materials processing, recorded lightning activities, deployed the first Tracking and Data Relay Satellite (TDRS-A), and activated three Getaway Specials.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(voyage/NN-4,this/DT-2)
+				amod(voyage/NN-4,maiden/JJ-3)
+				prep_during(recorded/VBD-20,voyage/NN-4)
+				det(spacecraft/NN-7,the/DT-6)
+				prep_of(voyage/NN-4,spacecraft/NN-7)
+				nsubj(recorded/VBD-20,Challenger/NNP-8)
+				nsubj(deployed/VBD-24,Challenger/NNP-8)
+				nsubj(activated/VBD-37,Challenger/NNP-8)
+				det(crew/NN-12,the/DT-10)
+				nn(crew/NN-12,STS-6/NN-11)
+				appos(Challenger/NNP-8,crew/NN-12)
+				partmod(crew/NN-12,conducted/VBN-13)
+				amod(experiments/NNS-15,numerous/JJ-14)
+				dobj(conducted/VBN-13,experiments/NNS-15)
+				nn(processing/NN-18,materials/NNS-17)
+				prep_in(conducted/VBN-13,processing/NN-18)
+				nn(activities/NNS-22,lightning/NN-21)
+				dobj(recorded/VBD-20,activities/NNS-22)
+				conj_and(recorded/VBD-20,deployed/VBD-24)
+				det(Tracking/NNP-27,the/DT-25)
+				amod(Tracking/NNP-27,first/JJ-26)
+				dobj(deployed/VBD-24,Tracking/NNP-27)
+				nn(Satellite/NNP-31,Data/NNP-29)
+				nn(Satellite/NNP-31,Relay/NNP-30)
+				dobj(deployed/VBD-24,Satellite/NNP-31)
+				conj_and(Tracking/NNP-27,Satellite/NNP-31)
+				appos(Tracking/NNP-27,TDRS-A/NN-33)
+				conj_and(recorded/VBD-20,activated/VBD-37)
+				num(Specials/NNS-40,three/CD-38)
+				nn(Specials/NNS-40,Getaway/NNP-39)
+				dobj(activated/VBD-37,Specials/NNS-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson and Musgrave conducted an extravehicular activity (EVA), commonly called a "spacewalk," to test the new suit, the Shuttle airlock, and new tools and techniques for construction and repair outside a spacecraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(conducted/VBD-4,Peterson/NNP-1)
+				conj_and(Peterson/NNP-1,Musgrave/NNP-3)
+				nsubj(conducted/VBD-4,Musgrave/NNP-3)
+				det(activity/NN-7,an/DT-5)
+				amod(activity/NN-7,extravehicular/JJ-6)
+				nsubj(called/VBD-13,activity/NN-7)
+				appos(activity/NN-7,EVA/NN-9)
+				advmod(called/VBD-13,commonly/RB-12)
+				ccomp(conducted/VBD-4,called/VBD-13)
+				det(spacewalk/NN-16,a/DT-14)
+				dobj(called/VBD-13,spacewalk/NN-16)
+				aux(test/VB-20,to/TO-19)
+				xcomp(called/VBD-13,test/VB-20)
+				det(suit/NN-23,the/DT-21)
+				amod(suit/NN-23,new/JJ-22)
+				dobj(test/VB-20,suit/NN-23)
+				det(airlock/NN-27,the/DT-25)
+				nn(airlock/NN-27,Shuttle/NNP-26)
+				dobj(test/VB-20,airlock/NN-27)
+				conj_and(suit/NN-23,airlock/NN-27)
+				amod(tools/NNS-31,new/JJ-30)
+				dobj(test/VB-20,tools/NNS-31)
+				conj_and(suit/NN-23,tools/NNS-31)
+				conj_and(suit/NN-23,techniques/NNS-33)
+				conj_and(tools/NNS-31,techniques/NNS-33)
+				prep_for(tools/NNS-31,construction/NN-35)
+				prep_for(tools/NNS-31,repair/NN-37)
+				conj_and(construction/NN-35,repair/NN-37)
+				det(spacecraft/NN-40,a/DT-39)
+				prep_outside(test/VB-20,spacecraft/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 120 hours of orbital operations STS-6 landed on the concrete runway at Edwards Air Force Base, California, on April 9, 1983.	</value>
+
+		<annotated-sentence>	After 120 [[hours|Hour]] of orbital operations [[STS-6|STS-6]] landed on the concrete [[runway|Runway]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on April 9, 1983.	</annotated-sentence>
+
+		<pattern_crowdsource>	After 120 hours of orbital operations [[STS-6|STS-6]] landed on the concrete runway at Edwards Air Force Base, California, on April 9, 1983.	</pattern_crowdsource>
+
+
+		<tree>
+				num(hours/NNS-3,120/CD-2)
+				prep_after(landed/VBD-8,hours/NNS-3)
+				amod(operations/NNS-6,orbital/JJ-5)
+				prep_of(hours/NNS-3,operations/NNS-6)
+				nsubj(landed/VBD-8,STS-6/NN-7)
+				det(runway/NN-12,the/DT-10)
+				amod(runway/NN-12,concrete/JJ-11)
+				prep_on(landed/VBD-8,runway/NN-12)
+				nn(Base/NNP-17,Edwards/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(runway/NN-12,Base/NNP-17)
+				appos(Base/NNP-17,California/NNP-19)
+				prep_on(landed/VBD-8,April/NNP-22)
+				num(April/NNP-22,9/CD-23)
+				num(April/NNP-22,1983/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-6</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>runway</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Runway</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-6 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Donald_H._Peterson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_H._Peterson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	With the completion of this flight Don Peterson has logged 4 hours 15 minutes in extravehicular activity, and a total of 120 hours in space.	</value>
+
+		<annotated-sentence>	With the completion of [[this flight|Flight]] [[Don Peterson|Don_Peterson]] has logged 4 [[hours|Hour]] [[15 minutes|15_Minutes]] in [[extravehicular activity|Extra-vehicular_activity]], and a total of 120 [[hours|Hour]] in [[space|Extra-vehicular_activity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	With the completion of this flight Don Peterson has logged 4 hours 15 minutes in extravehicular activity, and a total of 120 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_with(logged/VBN-10,completion/NN-3)
+				det(flight/NN-6,this/DT-5)
+				prep_of(completion/NN-3,flight/NN-6)
+				nn(Peterson/NNP-8,Don/NNP-7)
+				nsubj(logged/VBN-10,Peterson/NNP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				num(hours/NNS-12,4/CD-11)
+				dobj(logged/VBN-10,hours/NNS-12)
+				num(minutes/NNS-14,15/CD-13)
+				tmod(hours/NNS-12,minutes/NNS-14)
+				amod(activity/NN-17,extravehicular/JJ-16)
+				prep_in(hours/NNS-12,activity/NN-17)
+				det(total/NN-21,a/DT-20)
+				dobj(logged/VBN-10,total/NN-21)
+				conj_and(hours/NNS-12,total/NN-21)
+				num(hours/NNS-24,120/CD-23)
+				prep_of(total/NN-21,hours/NNS-24)
+				prep_in(hours/NNS-24,space/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Don Peterson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Don_Peterson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>15 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/15_Minutes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>extravehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson resigned from the NASA Astronaut Corps in November 1984, and since that time has worked as a consultant in the area of manned aerospace operations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(resigned/VBD-2,Peterson/NNP-1)
+				nsubj(worked/VBN-17,Peterson/NNP-1)
+				det(Corps/NNP-7,the/DT-4)
+				nn(Corps/NNP-7,NASA/NNP-5)
+				nn(Corps/NNP-7,Astronaut/NNP-6)
+				prep_from(resigned/VBD-2,Corps/NNP-7)
+				prep_in(resigned/VBD-2,November/NNP-9)
+				num(November/NNP-9,1984/CD-10)
+				advmod(worked/VBN-17,since/IN-13)
+				det(time/NN-15,that/DT-14)
+				pobj(since/IN-13,time/NN-15)
+				aux(worked/VBN-17,has/VBZ-16)
+				conj_and(resigned/VBD-2,worked/VBN-17)
+				det(consultant/NN-20,a/DT-19)
+				prep_as(worked/VBN-17,consultant/NN-20)
+				det(area/NN-23,the/DT-22)
+				prep_in(consultant/NN-20,area/NN-23)
+				amod(operations/NNS-27,manned/JJ-25)
+				nn(operations/NNS-27,aerospace/NN-26)
+				prep_of(area/NN-23,operations/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Deceased October 10, 2013 (age 88) He was awarded the Air Force Commendation Medal, the Meritorious Service Medal, and the JSC Group Achievement Award (1972).	</value>
+
+		<annotated-sentence>	[[Deceased|Death]] October 10, 2013 (age 88) He was awarded [[the Air Force Commendation Medal|Commendation_Medal]], [[the Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], and the JSC Group [[Achievement|Xbox_Live]] [[Award|Award]] ([[1972|1972_(album)]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Deceased October 10, 2013 (age 88) He was awarded the Air Force Commendation Medal, the Meritorious Service Medal, and the JSC Group Achievement Award (1972).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(October/NNP-2,Deceased/JJ-1)
+				num(October/NNP-2,10/CD-3)
+				num(October/NNP-2,2013/CD-5)
+				appos(October/NNP-2,age/NN-7)
+				num(age/NN-7,88/CD-8)
+				nsubjpass(awarded/VBN-12,He/PRP-10)
+				auxpass(awarded/VBN-12,was/VBD-11)
+				rcmod(October/NNP-2,awarded/VBN-12)
+				det(Medal/NN-17,the/DT-13)
+				nn(Medal/NN-17,Air/NNP-14)
+				nn(Medal/NN-17,Force/NNP-15)
+				nn(Medal/NN-17,Commendation/NNP-16)
+				dobj(awarded/VBN-12,Medal/NN-17)
+				det(Medal/NN-22,the/DT-19)
+				nn(Medal/NN-22,Meritorious/NNP-20)
+				nn(Medal/NN-22,Service/NNP-21)
+				dobj(awarded/VBN-12,Medal/NN-22)
+				conj_and(Medal/NN-17,Medal/NN-22)
+				det(Award/NN-29,the/DT-25)
+				nn(Award/NN-29,JSC/NNP-26)
+				nn(Award/NN-29,Group/NNP-27)
+				nn(Award/NN-29,Achievement/NNP-28)
+				dobj(awarded/VBN-12,Award/NN-29)
+				conj_and(Medal/NN-17,Award/NN-29)
+				dep(October/NNP-2,1972/CD-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Deceased</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Death</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force Commendation Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Meritorious Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Achievement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Xbox_Live</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Peterson's NASA Biography.	</value>
+
+		<annotated-sentence>	Peterson's [[NASA|NASA]] [[Biography|Biography]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Peterson's [[NASA|NASA]] Biography.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(NASA/NNP-3,Peterson/NNP-1)
+				amod(NASA/NNP-3,Biography/NN-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Biography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biography</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_H._Peterson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,1755 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Terence Thomas "Tom" Henricks is a retired colonel in the United States Air Force and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Terence Thomas|Terence_Thomas,_Baron_Thomas_of_Macclesfield]] "Tom" [[Henricks|Terence_T._Henricks]] is a retired [[colonel|Colonel]] in [[the United States Air Force|United_States_Air_Force]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Terence Thomas "Tom" [[Henricks|Terence_T._Henricks]] is a retired colonel in [[the United States Air Force|United_States_Air_Force]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Henricks/NNP-6,Terence/NNP-1)
+				nn(Henricks/NNP-6,Thomas/NNP-2)
+				nn(Henricks/NNP-6,Tom/NNP-4)
+				nsubj(colonel/NN-10,Henricks/NNP-6)
+				cop(colonel/NN-10,is/VBZ-7)
+				det(colonel/NN-10,a/DT-8)
+				amod(colonel/NN-10,retired/JJ-9)
+				det(Force/NNP-16,the/DT-12)
+				nn(Force/NNP-16,United/NNP-13)
+				nn(Force/NNP-16,States/NNP-14)
+				nn(Force/NNP-16,Air/NNP-15)
+				prep_in(colonel/NN-10,Force/NNP-16)
+				det(astronaut/NN-21,a/DT-18)
+				amod(astronaut/NN-21,former/JJ-19)
+				nn(astronaut/NN-21,NASA/NNP-20)
+				prep_in(colonel/NN-10,astronaut/NN-21)
+				conj_and(Force/NNP-16,astronaut/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Terence Thomas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terence_Thomas,_Baron_Thomas_of_Macclesfield</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Henricks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terence_T._Henricks</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served on four Space Shuttle missions.	</value>
+
+		<annotated-sentence>	He served on [[four Space Shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served on four Space Shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				num(Space/NN-5,four/CD-4)
+				prep_on(served/VBD-2,Space/NN-5)
+				nn(missions/NNS-7,Shuttle/NNP-6)
+				dep(Space/NN-5,missions/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>four Space Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hendricks was born on July 5, 1952, in Bryan, Ohio, but considers Woodville, Ohio, to be his hometown.	</value>
+
+		<annotated-sentence>	Hendricks was born on [[July|July]] 5, 1952, in [[Bryan , Ohio|Akron,_Ohio]] but considers Woodville, [[Ohio|Ohio]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hendricks was born on July 5, 1952, in Bryan, [[Ohio|Ohio]], but considers Woodville, [[Ohio|Ohio]], to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Hendricks/NNP-1)
+				nsubj(considers/VBZ-16,Hendricks/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,July/NNP-5)
+				num(July/NNP-5,5/CD-6)
+				num(July/NNP-5,1952/CD-8)
+				nn(Ohio/NNP-13,Bryan/NNP-11)
+				prep_in(born/VBN-3,Ohio/NNP-13)
+				conj_but(born/VBN-3,considers/VBZ-16)
+				nsubj(hometown/NN-24,Woodville/NNP-17)
+				appos(Woodville/NNP-17,Ohio/NNP-19)
+				aux(hometown/NN-24,to/TO-21)
+				cop(hometown/NN-24,be/VB-22)
+				poss(hometown/NN-24,his/PRP$-23)
+				xcomp(considers/VBZ-16,hometown/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bryan , Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Akron,_Ohio http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Ohio
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Woodmore High School in 1970.	</value>
+
+		<annotated-sentence>	He graduated from [[Woodmore High School|Woodmore_High_School]] in [[1970|1970]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Woodmore High School in 1970.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Woodmore/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				prep_in(School/NNP-6,1970/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Woodmore High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Woodmore_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1970</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1970</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married and has three children.	</value>
+
+		<annotated-sentence>	He is married and has three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married and has three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-5,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(children/NNS-7,three/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Henricks completed pilot training at Craig Air Force Base (AFB) in Selma, Alabama, and F-4 Phantom II conversion training at Homestead AFB in Miami, Florida.	</value>
+
+		<annotated-sentence>	Henricks completed [[pilot training|Flight_training]] at [[Craig Air Force Base|Craig_Air_Force_Base]] ([[AFB|Craig_Air_Force_Base]]) in [[Selma , Alabama ,|Akron,_Ohio]]nd [[F-4 Phantom|McDonnell_Douglas_F-4_Phantom_II]] II [[conversion|Flight_training]] [[training|Flight_training]] at Homestead AFB in Miami, Florida.	</annotated-sentence>
+
+		<pattern_crowdsource>	Henricks completed pilot training at Craig Air Force Base (AFB) in Selma, Alabama, and F-4 Phantom II conversion training at Homestead AFB in Miami, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Henricks/NNPS-1)
+				nn(training/NN-4,pilot/NN-3)
+				dobj(completed/VBD-2,training/NN-4)
+				nn(Base/NNP-9,Craig/NNP-6)
+				nn(Base/NNP-9,Air/NNP-7)
+				nn(Base/NNP-9,Force/NNP-8)
+				prep_at(completed/VBD-2,Base/NNP-9)
+				appos(Base/NNP-9,AFB/NNP-11)
+				nn(Alabama/NNP-16,Selma/NNP-14)
+				prep_in(Base/NNP-9,Alabama/NNP-16)
+				nn(Phantom/NN-20,F-4/NN-19)
+				prep_at(completed/VBD-2,Phantom/NN-20)
+				conj_and(Base/NNP-9,Phantom/NN-20)
+				num(training/NN-23,II/CD-21)
+				nn(training/NN-23,conversion/NN-22)
+				dep(Phantom/NN-20,training/NN-23)
+				nn(AFB/NNP-26,Homestead/NNP-25)
+				prep_at(completed/VBD-2,AFB/NNP-26)
+				nn(Florida/NNP-30,Miami/NNP-28)
+				prep_in(AFB/NNP-26,Florida/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Craig Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Craig_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Craig_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Selma , Alabama ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-4 Phantom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-4_Phantom_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>conversion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then flew the F-4 in fighter squadrons in England and Iceland.	</value>
+
+		<annotated-sentence>	He then flew the F-4 in fighter squadrons in England and Iceland.	</annotated-sentence>
+
+		<pattern_crowdsource>	He then flew the F-4 in fighter squadrons in England and Iceland.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-3,He/PRP-1)
+				advmod(flew/VBD-3,then/RB-2)
+				det(F-4/NN-5,the/DT-4)
+				dobj(flew/VBD-3,F-4/NN-5)
+				nn(squadrons/NNS-8,fighter/NN-7)
+				prep_in(flew/VBD-3,squadrons/NNS-8)
+				prep_in(flew/VBD-3,England/NNP-10)
+				prep_in(flew/VBD-3,Iceland/NNP-12)
+				conj_and(England/NNP-10,Iceland/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1980, he was reassigned to Nellis AFB, Las Vegas, Nevada.	</value>
+
+		<annotated-sentence>	In [[1980|1980]], he was reassigned to [[Nellis AFB|Nellis_Air_Force_Base]], [[Las Vegas|Las_Vegas]], [[Nevada|Nevada]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1980, he was reassigned to Nellis AFB, [[Las Vegas|Las_Vegas]], [[Nevada|Nevada]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-6,1980/CD-2)
+				nsubjpass(reassigned/VBN-6,he/PRP-4)
+				auxpass(reassigned/VBN-6,was/VBD-5)
+				nn(AFB/NNP-9,Nellis/NNP-8)
+				prep_to(reassigned/VBN-6,AFB/NNP-9)
+				nn(Vegas/NNP-12,Las/NNP-11)
+				appos(AFB/NNP-9,Vegas/NNP-12)
+				appos(Vegas/NNP-12,Nevada/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Nellis AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nellis_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Las Vegas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Las_Vegas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Nevada</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nevada</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Las_Vegas http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Nevada
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nevada http://dbpedia.org/property/largestcity http://dbpedia.org/resource/Las_Vegas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After attending the USAF Test Pilot School in 1983, he remained at Edwards AFB, California, as an F-16C test pilot and Chief of the 57th Fighter Weapons Wing Operating Location until his NASA selection.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(remained/VBD-12,attending/VBG-2)
+				det(School/NNP-7,the/DT-3)
+				nn(School/NNP-7,USAF/NNP-4)
+				nn(School/NNP-7,Test/NNP-5)
+				nn(School/NNP-7,Pilot/NN-6)
+				dobj(attending/VBG-2,School/NNP-7)
+				prep_in(School/NNP-7,1983/CD-9)
+				nsubj(remained/VBD-12,he/PRP-11)
+				nn(AFB/NNP-15,Edwards/NNP-14)
+				prep_at(remained/VBD-12,AFB/NNP-15)
+				appos(AFB/NNP-15,California/NNP-17)
+				det(pilot/NN-23,an/DT-20)
+				nn(pilot/NN-23,F-16C/NN-21)
+				nn(pilot/NN-23,test/NN-22)
+				prep_as(AFB/NNP-15,pilot/NN-23)
+				prep_at(remained/VBD-12,Chief/NNP-25)
+				conj_and(AFB/NNP-15,Chief/NNP-25)
+				det(Location/NNP-33,the/DT-27)
+				amod(Location/NNP-33,57th/JJ-28)
+				nn(Location/NNP-33,Fighter/NNP-29)
+				nn(Location/NNP-33,Weapons/NNP-30)
+				nn(Location/NNP-33,Wing/NNP-31)
+				nn(Location/NNP-33,Operating/NNP-32)
+				prep_of(Chief/NNP-25,Location/NNP-33)
+				poss(selection/NN-37,his/PRP$-35)
+				nn(selection/NN-37,NASA/NNP-36)
+				prep_until(remained/VBD-12,selection/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has 749 parachute jumps and a Master Parachutist rating.	</value>
+
+		<annotated-sentence>	He has 749 [[parachute|Parachutist_Badge_(United_States)]] jumps and a [[Master Parachutist|Parachutist_Badge_(United_States)]] rating.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has 749 parachute jumps and a Master Parachutist rating.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				num(jumps/NNS-5,749/CD-3)
+				nn(jumps/NNS-5,parachute/NN-4)
+				dobj(has/VBZ-2,jumps/NNS-5)
+				det(rating/NN-10,a/DT-7)
+				nn(rating/NN-10,Master/NNP-8)
+				nn(rating/NN-10,Parachutist/NNP-9)
+				dobj(has/VBZ-2,rating/NN-10)
+				conj_and(jumps/NNS-5,rating/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>parachute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parachutist_Badge_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Master Parachutist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parachutist_Badge_(United_States)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has flown 30 different types of aircraft, has logged over 6,000 hours flying time, and holds an FAA commercial pilot rating.	</value>
+
+		<annotated-sentence>	He has flown 30 different types of [[aircraft|Aircraft]], has logged over 6,000 [[hours|Hour]] flying time, and holds an [[FAA|Faaa]] commercial pilot rating.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has flown 30 different types of aircraft, has logged over 6,000 hours flying time, and holds an FAA commercial pilot rating.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,He/PRP-1)
+				nsubj(logged/VBN-11,He/PRP-1)
+				nsubj(holds/VBZ-19,He/PRP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(types/NNS-6,30/CD-4)
+				amod(types/NNS-6,different/JJ-5)
+				dobj(flown/VBN-3,types/NNS-6)
+				prep_of(types/NNS-6,aircraft/NN-8)
+				aux(logged/VBN-11,has/VBZ-10)
+				conj_and(flown/VBN-3,logged/VBN-11)
+				num(hours/NNS-14,6,000/CD-13)
+				prep_over(logged/VBN-11,hours/NNS-14)
+				partmod(hours/NNS-14,flying/VBG-15)
+				dobj(flying/VBG-15,time/NN-16)
+				conj_and(flown/VBN-3,holds/VBZ-19)
+				det(rating/NN-24,an/DT-20)
+				nn(rating/NN-24,FAA/NNP-21)
+				amod(rating/NN-24,commercial/JJ-22)
+				nn(rating/NN-24,pilot/NN-23)
+				dobj(holds/VBZ-19,rating/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>FAA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faaa</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in June 1985, Henricks became an astronaut in July 1986.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[June 1985|1985]], [[Henricks|Terence_T._Henricks]] became [[an astronaut|Astronaut]] in [[July 1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in June 1985, [[Henricks|Terence_T._Henricks]] became [[an astronaut|Astronaut]] in July 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-11,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,June/NNP-5)
+				num(June/NNP-5,1985/CD-6)
+				nsubj(astronaut/NN-11,Henricks/NNPS-8)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				prep_in(astronaut/NN-11,July/NNP-13)
+				num(July/NNP-13,1986/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Henricks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terence_T._Henricks</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments to date include: re-evaluating Shuttle landing sites world wide; Assistant Manager for Engineering Integration in the Shuttle Program Office; Lead Astronaut of the Shuttle Avionics Integration Laboratory at Johnson Space Center, and of Vehicle Test and Checkout at the Kennedy Space Center; Chief of the Astronaut Office Operations Development Branch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(include/VBP-6,assignments/NNS-3)
+				prep_to(assignments/NNS-3,date/NN-5)
+				parataxis(include/VBP-6,re-evaluating/VBG-8)
+				nn(sites/NNS-11,Shuttle/NNP-9)
+				nn(sites/NNS-11,landing/NN-10)
+				dobj(re-evaluating/VBG-8,sites/NNS-11)
+				npadvmod(wide/JJ-13,world/NN-12)
+				amod(sites/NNS-11,wide/JJ-13)
+				nn(Manager/NNP-16,Assistant/NNP-15)
+				dep(sites/NNS-11,Manager/NNP-16)
+				nn(Integration/NN-19,Engineering/NNP-18)
+				prep_for(Manager/NNP-16,Integration/NN-19)
+				det(Office/NNP-24,the/DT-21)
+				nn(Office/NNP-24,Shuttle/NNP-22)
+				nn(Office/NNP-24,Program/NNP-23)
+				prep_in(Manager/NNP-16,Office/NNP-24)
+				amod(Astronaut/NN-27,Lead/JJ-26)
+				dep(sites/NNS-11,Astronaut/NN-27)
+				det(Laboratory/NN-33,the/DT-29)
+				nn(Laboratory/NN-33,Shuttle/NNP-30)
+				nn(Laboratory/NN-33,Avionics/NNP-31)
+				nn(Laboratory/NN-33,Integration/NN-32)
+				prep_of(Astronaut/NN-27,Laboratory/NN-33)
+				nn(Center/NNP-37,Johnson/NNP-35)
+				nn(Center/NNP-37,Space/NNP-36)
+				prep_at(Laboratory/NN-33,Center/NNP-37)
+				dobj(re-evaluating/VBG-8,of/IN-40)
+				conj_and(sites/NNS-11,of/IN-40)
+				pobj(of/IN-40,Vehicle/NNP-41)
+				dep(sites/NNS-11,Test/NNP-42)
+				dep(sites/NNS-11,Checkout/NNP-44)
+				conj_and(Test/NNP-42,Checkout/NNP-44)
+				det(Center/NNP-49,the/DT-46)
+				nn(Center/NNP-49,Kennedy/NNP-47)
+				nn(Center/NNP-49,Space/NNP-48)
+				prep_at(Test/NNP-42,Center/NNP-49)
+				dep(Test/NNP-42,Chief/NNP-51)
+				det(Branch/NNP-58,the/DT-53)
+				nn(Branch/NNP-58,Astronaut/NNP-54)
+				nn(Branch/NNP-58,Office/NNP-55)
+				nn(Branch/NNP-58,Operations/NNP-56)
+				nn(Branch/NNP-58,Development/NNP-57)
+				prep_of(Chief/NNP-51,Branch/NNP-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as the Assistant for Shuttle to the Chief of the Astronaut Office, directing crew involvement in the development and operation of the Shuttle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				det(Assistant/NNP-6,the/DT-5)
+				prep_as(served/VBD-3,Assistant/NNP-6)
+				prep_for(Assistant/NNP-6,Shuttle/NNP-8)
+				det(Chief/NNP-11,the/DT-10)
+				prep_to(served/VBD-3,Chief/NNP-11)
+				det(Office/NNP-15,the/DT-13)
+				nn(Office/NNP-15,Astronaut/NNP-14)
+				prep_of(Chief/NNP-11,Office/NNP-15)
+				xcomp(served/VBD-3,directing/VBG-17)
+				nn(involvement/NN-19,crew/NN-18)
+				dobj(directing/VBG-17,involvement/NN-19)
+				det(development/NN-22,the/DT-21)
+				prep_in(directing/VBG-17,development/NN-22)
+				prep_in(directing/VBG-17,operation/NN-24)
+				conj_and(development/NN-22,operation/NN-24)
+				det(Shuttle/NNP-27,the/DT-26)
+				prep_of(development/NN-22,Shuttle/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A commander of two Space Shuttle missions and pilot of two others, Henricks became the first person to log over 1,000 hours as a Space Shuttle pilot/commander.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(commander/NN-2,A/DT-1)
+				nsubj(person/NN-18,commander/NN-2)
+				num(missions/NNS-7,two/CD-4)
+				nn(missions/NNS-7,Space/NN-5)
+				nn(missions/NNS-7,Shuttle/NNP-6)
+				prep_of(commander/NN-2,missions/NNS-7)
+				prep_of(commander/NN-2,pilot/NN-9)
+				conj_and(missions/NNS-7,pilot/NN-9)
+				num(others/NNS-12,two/CD-11)
+				prep_of(pilot/NN-9,others/NNS-12)
+				appos(others/NNS-12,Henricks/NNPS-14)
+				cop(person/NN-18,became/VBD-15)
+				det(person/NN-18,the/DT-16)
+				amod(person/NN-18,first/JJ-17)
+				aux(log/VB-20,to/TO-19)
+				xcomp(person/NN-18,log/VB-20)
+				prt(log/VB-20,over/RP-21)
+				num(hours/NNS-23,1,000/CD-22)
+				dobj(log/VB-20,hours/NNS-23)
+				det(pilot/commander/NN-28,a/DT-25)
+				nn(pilot/commander/NN-28,Space/NN-26)
+				nn(pilot/commander/NN-28,Shuttle/NNP-27)
+				prep_as(hours/NNS-23,pilot/commander/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tom Henricks left government service in November 1997 to pursue a career in business.	</value>
+
+		<annotated-sentence>	[[Tom Henricks|Terence_T._Henricks]] left government service in [[November 1997|1997]] to pursue [[a career|Career]] in [[business|Business]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Tom Henricks left government service in November 1997 to pursue a career in business.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Henricks/NNP-2,Tom/NNP-1)
+				nsubj(left/VBD-3,Henricks/NNP-2)
+				nn(service/NN-5,government/NN-4)
+				dobj(left/VBD-3,service/NN-5)
+				prep_in(left/VBD-3,November/NNP-7)
+				num(November/NNP-7,1997/CD-8)
+				aux(pursue/VB-10,to/TO-9)
+				xcomp(left/VBD-3,pursue/VB-10)
+				det(career/NN-12,a/DT-11)
+				dobj(pursue/VB-10,career/NN-12)
+				prep_in(career/NN-12,business/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Tom Henricks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terence_T._Henricks</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>business</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He held the position of President of McGraw-Hill's Aviation Week, based in New York City until his departure in 2010 to pursue other opportunities.	</value>
+
+		<annotated-sentence>	He held the position of [[President|President]] of [[McGraw-Hill|330_West_42nd_Street]]'s [[Aviation|Aviation]] [[Week|The_Week]], based in [[New York City|New_York_City]] until his departure in [[2010|2010]] to pursue other opportunities.	</annotated-sentence>
+
+		<pattern_crowdsource>	He held the position of President of McGraw-Hill's Aviation [[Week|The_Week]], based in [[New York City|New_York_City]] until his departure in 2010 to pursue other opportunities.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-2,He/PRP-1)
+				det(position/NN-4,the/DT-3)
+				dobj(held/VBD-2,position/NN-4)
+				prep_of(position/NN-4,President/NNP-6)
+				poss(Week/NNP-11,McGraw-Hill/NNP-8)
+				nn(Week/NNP-11,Aviation/NNP-10)
+				prep_of(position/NN-4,Week/NNP-11)
+				partmod(position/NN-4,based/VBN-13)
+				nn(City/NNP-17,New/NNP-15)
+				nn(City/NNP-17,York/NNP-16)
+				prep_in(based/VBN-13,City/NNP-17)
+				poss(departure/NN-20,his/PRP$-19)
+				prep_until(based/VBN-13,departure/NN-20)
+				prep_in(departure/NN-20,2010/CD-22)
+				aux(pursue/VB-24,to/TO-23)
+				xcomp(based/VBN-13,pursue/VB-24)
+				amod(opportunities/NNS-26,other/JJ-25)
+				dobj(pursue/VB-24,opportunities/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McGraw-Hill</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/330_West_42nd_Street</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Week</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Week</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Week http://dbpedia.org/ontology/city http://dbpedia.org/resource/New_York_City
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-44 Atlantis launched the night of November 24, 1991.	</value>
+
+		<annotated-sentence>	[[STS-44|STS-44]] [[Atlantis|Atlantis]] launched the night of [[November|November]] 24, 1991.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-44|STS-44]] Atlantis launched the night of November 24, 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-44/NN-1)
+				nsubj(launched/VBD-3,Atlantis/NNP-2)
+				det(night/NN-5,the/DT-4)
+				dobj(launched/VBD-3,night/NN-5)
+				prep_of(night/NN-5,November/NNP-7)
+				num(November/NNP-7,24/CD-8)
+				num(November/NNP-7,1991/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-44</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-44</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-44
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-44 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-44 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The primary mission objective was the deployment of a Defense Support Program (DSP) satellite with an Inertial Upper Stage (IUS) rocket booster.	</value>
+
+		<annotated-sentence>	The primary mission objective was the deployment of [[a Defense Support Program|Defense_Support_Program]] ([[DSP|Defense_Support_Program]]) [[satellite|Defense_Support_Program]] with [[an Inertial Upper Stage|Inertial_Upper_Stage]] ([[IUS|Inertial_Upper_Stage]]) [[rocket booster|Booster_(rocketry)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The primary mission objective was the deployment of a Defense Support Program (DSP) satellite with an Inertial Upper Stage (IUS) rocket booster.	</pattern_crowdsource>
+
+
+		<tree>
+				det(objective/NN-4,The/DT-1)
+				amod(objective/NN-4,primary/JJ-2)
+				nn(objective/NN-4,mission/NN-3)
+				nsubj(deployment/NN-7,objective/NN-4)
+				cop(deployment/NN-7,was/VBD-5)
+				det(deployment/NN-7,the/DT-6)
+				det(Program/NN-12,a/DT-9)
+				nn(Program/NN-12,Defense/NNP-10)
+				nn(Program/NN-12,Support/NN-11)
+				prep_of(deployment/NN-7,Program/NN-12)
+				appos(Program/NN-12,DSP/NNP-14)
+				dep(Program/NN-12,satellite/NN-16)
+				det(Stage/NNP-21,an/DT-18)
+				nn(Stage/NNP-21,Inertial/NNP-19)
+				nn(Stage/NNP-21,Upper/NNP-20)
+				prep_with(satellite/NN-16,Stage/NNP-21)
+				appos(satellite/NN-16,IUS/NNS-23)
+				nn(booster/NN-26,rocket/NN-25)
+				dep(satellite/NN-16,booster/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Defense Support Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Defense_Support_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DSP</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Defense_Support_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Defense_Support_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an Inertial Upper Stage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inertial_Upper_Stage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>IUS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inertial_Upper_Stage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rocket booster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Booster_(rocketry)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was concluded after 110 orbits of the Earth returning to a landing on the lakebed at Edwards Air Force Base, California, on December 1, 1991.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(concluded/VBN-4,mission/NN-2)
+				auxpass(concluded/VBN-4,was/VBD-3)
+				num(orbits/NNS-7,110/CD-6)
+				prep_after(concluded/VBN-4,orbits/NNS-7)
+				det(Earth/NNP-10,the/DT-9)
+				prep_of(orbits/NNS-7,Earth/NNP-10)
+				xcomp(concluded/VBN-4,returning/VBG-11)
+				det(landing/NN-14,a/DT-13)
+				prep_to(returning/VBG-11,landing/NN-14)
+				prep_on(returning/VBG-11,the/DT-16)
+				partmod(the/DT-16,lakebed/VBN-17)
+				nn(Base/NNP-22,Edwards/NNP-19)
+				nn(Base/NNP-22,Air/NNP-20)
+				nn(Base/NNP-22,Force/NNP-21)
+				prep_at(lakebed/VBN-17,Base/NNP-22)
+				appos(Base/NNP-22,California/NNP-24)
+				prep_on(lakebed/VBN-17,December/NNP-27)
+				num(December/NNP-27,1/CD-28)
+				num(December/NNP-27,1991/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-55, the German D-2 Spacelab mission, was launched on April 26, 1993, aboard Columbia, and landed 10 days later on May 6, 1993, at Edwards AFB California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-10,STS-55/NN-1)
+				nsubjpass(landed/VBD-21,STS-55/NN-1)
+				det(D-2/NN-5,the/DT-3)
+				amod(D-2/NN-5,German/JJ-4)
+				appos(STS-55/NN-1,D-2/NN-5)
+				amod(mission/NN-7,Spacelab/JJ-6)
+				dep(D-2/NN-5,mission/NN-7)
+				auxpass(launched/VBN-10,was/VBD-9)
+				prep_on(launched/VBN-10,April/NNP-12)
+				num(April/NNP-12,26/CD-13)
+				num(April/NNP-12,1993/CD-15)
+				prep_aboard(launched/VBN-10,Columbia/NNP-18)
+				conj_and(launched/VBN-10,landed/VBD-21)
+				num(days/NNS-23,10/CD-22)
+				tmod(landed/VBD-21,days/NNS-23)
+				advmod(days/NNS-23,later/RB-24)
+				prep_on(landed/VBD-21,May/NNP-26)
+				num(May/NNP-26,6/CD-27)
+				num(May/NNP-26,1993/CD-29)
+				nn(California/NNP-34,Edwards/NNP-32)
+				nn(California/NNP-34,AFB/NNP-33)
+				prep_at(landed/VBD-21,California/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the ambitious mission 89 experiments were performed in many disciplines such as materials processing, life sciences, robotics, technology, astronomy, and Earth mapping.	</value>
+
+		<annotated-sentence>	During the ambitious mission 89 [[experiments|Experiment]] were performed in [[many disciplines|Discipline]] such as [[materials processing|Materials_processing]], [[life sciences|Life_sciences]], robotics, [[technology|Technology]], [[astronomy|Astronomy]], and [[Earth|Earth]] mapping.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the ambitious mission 89 experiments were performed in many disciplines such as materials processing, life sciences, robotics, technology, astronomy, and Earth mapping.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,ambitious/JJ-3)
+				prep_during(performed/VBN-8,mission/NN-4)
+				num(experiments/NNS-6,89/CD-5)
+				nsubjpass(performed/VBN-8,experiments/NNS-6)
+				auxpass(performed/VBN-8,were/VBD-7)
+				amod(disciplines/NNS-11,many/JJ-10)
+				prep_in(performed/VBN-8,disciplines/NNS-11)
+				nn(processing/NN-15,materials/NNS-14)
+				prep_such_as(disciplines/NNS-11,processing/NN-15)
+				nn(sciences/NNS-18,life/NN-17)
+				prep_such_as(disciplines/NNS-11,sciences/NNS-18)
+				conj_and(processing/NN-15,sciences/NNS-18)
+				prep_such_as(disciplines/NNS-11,robotics/NNS-20)
+				conj_and(processing/NN-15,robotics/NNS-20)
+				prep_such_as(disciplines/NNS-11,technology/NN-22)
+				conj_and(processing/NN-15,technology/NN-22)
+				prep_such_as(disciplines/NNS-11,astronomy/NN-24)
+				conj_and(processing/NN-15,astronomy/NN-24)
+				nn(mapping/NN-28,Earth/NNP-27)
+				prep_such_as(disciplines/NNS-11,mapping/NN-28)
+				conj_and(processing/NN-15,mapping/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>many disciplines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Discipline</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials processing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Materials_processing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>life sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Life_sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-70 launched from the Kennedy Space Center, Florida, on July 13, 1995, and returned there July 22, 1995.	</value>
+
+		<annotated-sentence>	[[STS-70|STS-70]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[July|July]] 13, 1995, and returned there [[July|July]] 22, 1995.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-70|STS-70]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on July 13, 1995, and returned there July 22, 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,STS-70/NN-1)
+				nsubj(returned/VBD-18,STS-70/NN-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Kennedy/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_from(launched/VBD-2,Center/NNP-7)
+				appos(Center/NNP-7,Florida/NNP-9)
+				prep_on(launched/VBD-2,July/NNP-12)
+				num(July/NNP-12,13/CD-13)
+				num(July/NNP-12,1995/CD-15)
+				conj_and(launched/VBD-2,returned/VBD-18)
+				advmod(returned/VBD-18,there/RB-19)
+				tmod(returned/VBD-18,July/NNP-20)
+				num(July/NNP-20,22/CD-21)
+				num(July/NNP-20,1995/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-70</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-70</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-70
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/landingSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 142 orbits of the Earth, the crew performed a variety of experiments in addition to deploying the sixth and final NASA Tracking and Data Relay Satellite.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,142/CD-2)
+				prep_during(performed/VBD-10,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				det(crew/NN-9,the/DT-8)
+				nsubj(performed/VBD-10,crew/NN-9)
+				det(variety/NN-12,a/DT-11)
+				dobj(performed/VBD-10,variety/NN-12)
+				prep_of(variety/NN-12,experiments/NNS-14)
+				prep_in(experiments/NNS-14,addition/NN-16)
+				prepc_to(performed/VBD-10,deploying/VBG-18)
+				det(sixth/JJ-20,the/DT-19)
+				dobj(deploying/VBG-18,sixth/JJ-20)
+				amod(Tracking/NNP-24,final/JJ-22)
+				nn(Tracking/NNP-24,NASA/NNP-23)
+				dobj(deploying/VBG-18,Tracking/NNP-24)
+				conj_and(sixth/JJ-20,Tracking/NNP-24)
+				nn(Satellite/NNP-28,Data/NNP-26)
+				nn(Satellite/NNP-28,Relay/NNP-27)
+				conj_and(sixth/JJ-20,Satellite/NNP-28)
+				conj_and(Tracking/NNP-24,Satellite/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-70, with an "all-Ohio" crew, was the first mission controlled from the new combined control center.	</value>
+
+		<annotated-sentence>	[[STS-70|STS-70]], with an "all-Ohio" crew, was the first mission controlled from the new combined control center.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-70|STS-70]], with an "all-Ohio" crew, was the first mission controlled from the new combined control center.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-13,STS-70/NN-1)
+				det(crew/NN-8,an/DT-4)
+				amod(crew/NN-8,all-Ohio/JJ-6)
+				prep_with(STS-70/NN-1,crew/NN-8)
+				cop(mission/NN-13,was/VBD-10)
+				det(mission/NN-13,the/DT-11)
+				amod(mission/NN-13,first/JJ-12)
+				partmod(mission/NN-13,controlled/VBN-14)
+				det(center/NN-20,the/DT-16)
+				amod(center/NN-20,new/JJ-17)
+				amod(center/NN-20,combined/JJ-18)
+				nn(center/NN-20,control/NN-19)
+				prep_from(controlled/VBN-14,center/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-70</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-70</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terence_T._Henricks http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-70
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Terence_T._Henricks
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-78 launched June 20, 1996 and landed July 7, 1996 becoming the longest Space Shuttle mission to date (later that year the STS-80 mission broke its record by 19 hours.)	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,STS-78/NN-1)
+				nsubj(landed/VBD-8,STS-78/NN-1)
+				tmod(launched/VBD-2,June/NNP-3)
+				num(June/NNP-3,20/CD-4)
+				num(June/NNP-3,1996/CD-6)
+				conj_and(launched/VBD-2,landed/VBD-8)
+				tmod(landed/VBD-8,July/NNP-9)
+				num(July/NNP-9,7/CD-10)
+				num(July/NNP-9,1996/CD-12)
+				xcomp(landed/VBD-8,becoming/VBG-13)
+				det(mission/NN-18,the/DT-14)
+				amod(mission/NN-18,longest/JJS-15)
+				nn(mission/NN-18,Space/NN-16)
+				nn(mission/NN-18,Shuttle/NNP-17)
+				xcomp(becoming/VBG-13,mission/NN-18)
+				prep_to(mission/NN-18,date/NN-20)
+				dep(year/NN-24,later/RB-22)
+				det(year/NN-24,that/DT-23)
+				dep(mission/NN-18,year/NN-24)
+				det(mission/NN-27,the/DT-25)
+				nn(mission/NN-27,STS-80/NN-26)
+				nsubj(broke/VBD-28,mission/NN-27)
+				ccomp(year/NN-24,broke/VBD-28)
+				poss(record/NN-30,its/PRP$-29)
+				dobj(broke/VBD-28,record/NN-30)
+				num(hours/NNS-33,19/CD-32)
+				prep_by(broke/VBD-28,hours/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 16-day mission included studies sponsored by 10 nations and five space agencies, and was the first mission to combine both a full microgravity studies agenda and a comprehensive life science investigation.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,The/DT-1)
+				amod(mission/NN-3,16-day/JJ-2)
+				nsubj(included/VBD-4,mission/NN-3)
+				dobj(included/VBD-4,studies/NNS-5)
+				partmod(studies/NNS-5,sponsored/VBN-6)
+				num(nations/NNS-9,10/CD-8)
+				agent(sponsored/VBN-6,nations/NNS-9)
+				num(agencies/NNS-13,five/CD-11)
+				nn(agencies/NNS-13,space/NN-12)
+				agent(sponsored/VBN-6,agencies/NNS-13)
+				conj_and(nations/NNS-9,agencies/NNS-13)
+				cop(mission/NN-19,was/VBD-16)
+				det(mission/NN-19,the/DT-17)
+				amod(mission/NN-19,first/JJ-18)
+				conj_and(included/VBD-4,mission/NN-19)
+				aux(combine/VB-21,to/TO-20)
+				infmod(mission/NN-19,combine/VB-21)
+				preconj(agenda/NN-27,both/CC-22)
+				det(agenda/NN-27,a/DT-23)
+				amod(agenda/NN-27,full/JJ-24)
+				nn(agenda/NN-27,microgravity/NN-25)
+				nn(agenda/NN-27,studies/NNS-26)
+				dobj(combine/VB-21,agenda/NN-27)
+				det(investigation/NN-33,a/DT-29)
+				amod(investigation/NN-33,comprehensive/JJ-30)
+				nn(investigation/NN-33,life/NN-31)
+				nn(investigation/NN-33,science/NN-32)
+				dobj(combine/VB-21,investigation/NN-33)
+				conj_and(agenda/NN-27,investigation/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Life and Microgravity Spacelab mission served as a model for future studies on board the International Space Station.	</value>
+
+		<annotated-sentence>	The Life and [[Microgravity|Microgravity_(album)]] [[Spacelab|Spacelab]] mission served as [[a model|Model]] for [[future studies|Futures_studies]] on board [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Life and Microgravity Spacelab mission served as a model for future studies on board the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Life/NNP-2,The/DT-1)
+				nsubj(served/VBD-7,Life/NNP-2)
+				nn(mission/NN-6,Microgravity/NNP-4)
+				nn(mission/NN-6,Spacelab/NNP-5)
+				conj_and(Life/NNP-2,mission/NN-6)
+				nsubj(served/VBD-7,mission/NN-6)
+				det(model/NN-10,a/DT-9)
+				prep_as(served/VBD-7,model/NN-10)
+				amod(studies/NNS-13,future/JJ-12)
+				prep_for(model/NN-10,studies/NNS-13)
+				prep_on(served/VBD-7,board/NN-15)
+				det(Station/NNP-19,the/DT-16)
+				nn(Station/NNP-19,International/NNP-17)
+				nn(Station/NNP-19,Space/NNP-18)
+				dep(board/NN-15,Station/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a model</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>future studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Futures_studies</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

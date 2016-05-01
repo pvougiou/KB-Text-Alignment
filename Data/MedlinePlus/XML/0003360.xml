@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A renal disorder refers to any disease of the kidneys.</value>
+		<pattern_crowdsource> A renal disorder refers to any [[disease|C0012634]] of the [[kidneys|C0022646]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>renal disorder</surface-form>
+				<RDF-ID>C0022658</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidneys</surface-form>
+				<RDF-ID>C0022646</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022646 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Urological disorders are diseases of the kidneys and urinary tract.</value>
+		<pattern_crowdsource> [[Urological disorders|C0042075]] are [[diseases|C0012634]] of the [[kidneys|C0022646]] and urinary tract.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Urological disorders</surface-form>
+				<RDF-ID>C0042075</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidneys</surface-form>
+				<RDF-ID>C0022646</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urinary tract</surface-form>
+				<RDF-ID>C1508753</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042075 ISA C0012634</triple>
+			<triple>C0022646 LOCATION_OF C0012634</triple>
+			<triple>C0022646 LOCATION_OF C0042075</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Kinins are proteins in the blood that cause inflammation and affect blood pressure (especially low blood pressure).</value>
+		<pattern_crowdsource> [[Kinins|C0022714]] are [[proteins|C0033684]] in the [[blood|C0005767]] that cause inflammation and affect [[blood pressure|C1272641]] (especially low blood pressure).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Kinins</surface-form>
+				<RDF-ID>C0022714</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>proteins</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low blood pressure</surface-form>
+				<RDF-ID>C0020649</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022714 ISA C0033684</triple>
+			<triple>C0005767 LOCATION_OF C0033684</triple>
+			<triple>C0033684 AFFECTS C1272641</triple>
+			<triple>C0022714 AFFECTS C1272641</triple>
+			<triple>C0005767 LOCATION_OF C0022714</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

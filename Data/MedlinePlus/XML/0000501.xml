@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Being obese puts strain on your heart and can lead to serious health problems.</value>
+		<pattern_crowdsource> Being [[obese|C0028754]] puts strain on your [[heart|C0018787]] and can lead to serious health problems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>serious</surface-form>
+				<RDF-ID>C0205404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018787 LOCATION_OF C0028754</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>No matter what your BMI is, exercise can help reduce your risk of heart disease and diabetes.</value>
+		<pattern_crowdsource> No matter what your BMI is, [[exercise|C0015259]] can help reduce your risk of [[heart disease|C0018799]] and [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>BMI</surface-form>
+				<RDF-ID>C1305855</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015259 PREVENTS C0018799</triple>
+			<triple>C0015259 PREVENTS C0011847</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

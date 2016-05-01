@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Ethmoiditis is an infection of the ethmoidal cells in the sinuses.</value>
+		<pattern_crowdsource> [[Ethmoiditis|C0015029]] is an [[infection|C0009450]] of the ethmoidal [[cells|C0007634]] in the [[sinuses|C0030471]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ethmoiditis</surface-form>
+				<RDF-ID>C0015029</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sinuses</surface-form>
+				<RDF-ID>C0030471</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015029 ISA C0009450</triple>
+			<triple>C0007634 LOCATION_OF C0009450</triple>
+			<triple>C0030471 LOCATION_OF C0009450</triple>
+			<triple>C0007634 LOCATION_OF C0015029</triple>
+			<triple>C0030471 LOCATION_OF C0015029</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Bacteria cause most ethmoid sinus infections.</value>
+		<pattern_crowdsource> [[Bacteria|C0004611]] cause most [[ethmoid sinus|C1278901]] [[infections|C0021311]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ethmoid sinus</surface-form>
+				<RDF-ID>C1278901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 CAUSES C0021311</triple>
+			<triple>C1278901 LOCATION_OF C0021311</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>All hospital staff, patients, and visitors should use PPE when there will be contact with blood or other bodily fluids.</value>
+		<pattern_crowdsource> All hospital staff, [[patients|C0030705]], and visitors should use PPE when there will be contact with [[blood|C0005767]] or other bodily fluids.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hospital staff</surface-form>
+				<RDF-ID>C0031228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>PPE</surface-form>
+				<RDF-ID>C1443871</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 PART_OF C0030705</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- A surgical mask helps stop germs in your nose and mouth from spreading.</value>
+		<pattern_crowdsource> - A [[surgical mask|C0181758]] helps stop germs in your [[nose|C0028429]] and mouth from spreading.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgical mask</surface-form>
+				<RDF-ID>C0181758</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C0226896</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>spreading</surface-form>
+				<RDF-ID>C0332261</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0028429 LOCATION_OF C0181758</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Visitors wear gowns if they are visiting a patient who is in isolation due to an illness that can be easily spread.</value>
+		<pattern_crowdsource> - Visitors wear [[gowns|C0181064]] if they are visiting a patient who is in [[isolation|C0260397]] due to an illness that can be easily spread.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>gowns</surface-form>
+				<RDF-ID>C0181064</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patient</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>isolation</surface-form>
+				<RDF-ID>C0260397</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>illness</surface-form>
+				<RDF-ID>C0221423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>easily</surface-form>
+				<RDF-ID>C0332219</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0181064 TREATS C0260397</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

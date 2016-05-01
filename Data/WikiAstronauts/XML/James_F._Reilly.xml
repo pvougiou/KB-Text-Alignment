@@ -1,0 +1,1398 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Francis Reilly, II, Ph.D. (born March 18, 1954) is an American geologist and a former NASA astronaut who has flown on three space shuttle missions: STS-89, STS-104 and STS-117.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Reilly/NNP-3,James/NNP-1)
+				nn(Reilly/NNP-3,Francis/NNP-2)
+				nsubj(geologist/NN-18,Reilly/NNP-3)
+				nn(Ph.D./NNP-7,II/NNP-5)
+				appos(Reilly/NNP-3,Ph.D./NNP-7)
+				dep(Reilly/NNP-3,born/VBN-9)
+				tmod(born/VBN-9,March/NNP-10)
+				num(March/NNP-10,18/CD-11)
+				num(March/NNP-10,1954/CD-13)
+				cop(geologist/NN-18,is/VBZ-15)
+				det(geologist/NN-18,an/DT-16)
+				amod(geologist/NN-18,American/JJ-17)
+				det(astronaut/NN-23,a/DT-20)
+				amod(astronaut/NN-23,former/JJ-21)
+				nn(astronaut/NN-23,NASA/NNP-22)
+				conj_and(geologist/NN-18,astronaut/NN-23)
+				nsubj(flown/VBN-26,who/WP-24)
+				aux(flown/VBN-26,has/VBZ-25)
+				rcmod(astronaut/NN-23,flown/VBN-26)
+				num(missions/NNS-31,three/CD-28)
+				nn(missions/NNS-31,space/NN-29)
+				nn(missions/NNS-31,shuttle/NN-30)
+				prep_on(flown/VBN-26,missions/NNS-31)
+				dobj(flown/VBN-26,STS-89/NN-33)
+				dobj(flown/VBN-26,STS-104/NN-35)
+				conj_and(STS-89/NN-33,STS-104/NN-35)
+				dobj(flown/VBN-26,STS-117/NN-37)
+				conj_and(STS-89/NN-33,STS-117/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born at Mountain Home Air Force Base, Idaho and considers Mesquite, Texas to be his hometown.	</value>
+
+		<annotated-sentence>	He was born at [[Mountain Home Air Force Base|Mountain_Home_Air_Force_Base]], [[Idaho|Idaho]] and considers Mesquite, Texas to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born at [[Mountain Home Air Force Base|Mountain_Home_Air_Force_Base]], [[Idaho|Idaho]] and considers Mesquite, Texas to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				nsubj(considers/VBZ-13,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Base/NNP-9,Mountain/NNP-5)
+				nn(Base/NNP-9,Home/NNP-6)
+				nn(Base/NNP-9,Air/NNP-7)
+				nn(Base/NNP-9,Force/NNP-8)
+				prep_at(born/VBN-3,Base/NNP-9)
+				appos(Base/NNP-9,Idaho/NNP-11)
+				conj_and(born/VBN-3,considers/VBZ-13)
+				nn(Texas/NNP-16,Mesquite/NNP-14)
+				nsubj(hometown/NN-20,Texas/NNP-16)
+				aux(hometown/NN-20,to/TO-17)
+				cop(hometown/NN-20,be/VB-18)
+				poss(hometown/NN-20,his/PRP$-19)
+				xcomp(considers/VBZ-13,hometown/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mountain Home Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mountain_Home_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Idaho</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Idaho</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Mountain_Home_Air_Force_Base
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Idaho
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He enjoys flying, skiing, photography, running, soccer, hunting and fishing.	</value>
+
+		<annotated-sentence>	He enjoys flying, [[skiing|Skiing]], [[photography|Photography]], running, soccer, [[hunting|Hunting]] and [[fishing|Fishing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He enjoys flying, skiing, photography, running, soccer, hunting and fishing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-2,He/PRP-1)
+				dobj(enjoys/VBZ-2,flying/VBG-3)
+				dobj(enjoys/VBZ-2,skiing/NN-5)
+				conj_and(flying/VBG-3,skiing/NN-5)
+				dobj(enjoys/VBZ-2,photography/NN-7)
+				conj_and(flying/VBG-3,photography/NN-7)
+				partmod(photography/NN-7,running/VBG-9)
+				dobj(enjoys/VBZ-2,soccer/NN-11)
+				conj_and(flying/VBG-3,soccer/NN-11)
+				dobj(enjoys/VBZ-2,hunting/NN-13)
+				conj_and(flying/VBG-3,hunting/NN-13)
+				dobj(enjoys/VBZ-2,fishing/NN-15)
+				conj_and(flying/VBG-3,fishing/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skiing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>photography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hunting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hunting</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fishing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fishing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reilly graduated from Lake Highlands High School, Dallas, Texas, in 1972.	</value>
+
+		<annotated-sentence>	Reilly graduated from [[Lake Highlands High School|Lake_Highlands_High_School]], Dallas, Texas, in [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reilly graduated from Lake Highlands High School, Dallas, Texas, in 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Reilly/NNP-1)
+				nn(School/NNP-7,Lake/NNP-4)
+				nn(School/NNP-7,Highlands/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(Texas/NNP-11,Dallas/NNP-9)
+				appos(School/NNP-7,Texas/NNP-11)
+				prep_in(graduated/VBD-2,1972/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lake Highlands High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lake_Highlands_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has three degrees from the University of Texas at Dallas, a bachelor of science degree in geosciences in 1977, a master of science degree in geosciences in 1987 and a doctorate in geosciences in 1995.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				num(degrees/NNS-4,three/CD-3)
+				dobj(has/VBZ-2,degrees/NNS-4)
+				det(University/NNP-7,the/DT-6)
+				prep_from(degrees/NNS-4,University/NNP-7)
+				prep_of(University/NNP-7,Texas/NNP-9)
+				prep_at(Texas/NNP-9,Dallas/NNP-11)
+				det(bachelor/NN-14,a/DT-13)
+				dobj(has/VBZ-2,bachelor/NN-14)
+				conj_and(degrees/NNS-4,bachelor/NN-14)
+				nn(degree/NN-17,science/NN-16)
+				prep_of(bachelor/NN-14,degree/NN-17)
+				prep_in(degree/NN-17,geosciences/NNS-19)
+				prep_in(geosciences/NNS-19,1977/CD-21)
+				det(master/NN-24,a/DT-23)
+				dobj(has/VBZ-2,master/NN-24)
+				conj_and(degrees/NNS-4,master/NN-24)
+				nn(degree/NN-27,science/NN-26)
+				prep_of(master/NN-24,degree/NN-27)
+				prep_in(degree/NN-27,geosciences/NNS-29)
+				prep_in(geosciences/NNS-29,1987/CD-31)
+				det(doctorate/NN-34,a/DT-33)
+				dobj(has/VBZ-2,doctorate/NN-34)
+				conj_and(degrees/NNS-4,doctorate/NN-34)
+				prep_in(doctorate/NN-34,geosciences/NNS-36)
+				prep_in(geosciences/NNS-36,1995/CD-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Officer in the U.S. Navy Reserve.	</value>
+
+		<annotated-sentence>	[[Officer|Officer]] in [[the U.S. Navy Reserve|United_States_Navy_Reserve]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Officer in the U.S. Navy Reserve.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Reserve/NNP-6,the/DT-3)
+				nn(Reserve/NNP-6,U.S./NNP-4)
+				nn(Reserve/NNP-6,Navy/NNP-5)
+				prep_in(Officer/NNP-1,Reserve/NNP-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy Reserve</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Reserve</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Member, American Association of Petroleum Geologists, Naval Reserve Association, Tailhook Association, Reserve Officers Association, Association of Space Explorers.	</value>
+
+		<annotated-sentence>	Member, [[American Association of Petroleum Geologists|American_Association_of_Petroleum_Geologists]], Naval Reserve [[Association|Tailhook_Association]], [[Tailhook Association|Tailhook_Association]], [[Reserve Officers Association|Reserve_Officers_Association]], [[Association of Space Explorers|Association_of_Space_Explorers]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Member, American Association of Petroleum Geologists, Naval Reserve Association, Tailhook Association, Reserve Officers Association, Association of Space Explorers.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Association/NNP-4,American/NNP-3)
+				appos(Member/NNP-1,Association/NNP-4)
+				nn(Geologists/NNP-7,Petroleum/NNP-6)
+				prep_of(Association/NNP-4,Geologists/NNP-7)
+				nn(Association/NNP-11,Naval/NNP-9)
+				nn(Association/NNP-11,Reserve/NNP-10)
+				appos(Member/NNP-1,Association/NNP-11)
+				nn(Association/NNP-14,Tailhook/NNP-13)
+				appos(Member/NNP-1,Association/NNP-14)
+				nn(Association/NNP-18,Reserve/NNP-16)
+				nn(Association/NNP-18,Officers/NNP-17)
+				appos(Member/NNP-1,Association/NNP-18)
+				appos(Member/NNP-1,Association/NNP-20)
+				nn(Explorers/NNPS-23,Space/NNP-22)
+				prep_of(Association/NNP-20,Explorers/NNPS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>American Association of Petroleum Geologists</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Association_of_Petroleum_Geologists</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Association</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tailhook_Association</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tailhook Association</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tailhook_Association</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reserve Officers Association</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reserve_Officers_Association</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Association of Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Association_of_Space_Explorers</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antarctic Service Medal, 1978.	</value>
+
+		<annotated-sentence>	[[Antarctic Service Medal|Antarctica_Service_Medal]], [[1978|Tsubasa_Otomiya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Antarctic Service Medal, 1978.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Medal/NN-3,Antarctic/NNP-1)
+				nn(Medal/NN-3,Service/NNP-2)
+				amod(Medal/NN-3,1978/CD-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Antarctic Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Antarctica_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	US Navy ROTC scholarship, 1972.	</value>
+
+		<annotated-sentence>	US Navy ROTC [[scholarship|Scholarly_method]], [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	US Navy ROTC scholarship, 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(ROTC/NNP-3,US/NNP-1)
+				nn(ROTC/NNP-3,Navy/NNP-2)
+				dep(ROTC/NNP-3,scholarship/NN-4)
+				amod(scholarship/NN-4,1972/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>scholarship</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scholarly_method</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Seventh Honorary U.S. Marshal, 2001.	</value>
+
+		<annotated-sentence>	[[Seventh|Seventh_Air_Force]] Honorary [[U.S.|United_States]] [[Marshal|United_States_Marshals_Service]], [[2001|Stargate_SG-1_(season_5)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Seventh|Seventh_Air_Force]] Honorary [[U.S.|United_States]] Marshal, 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Marshal/NNP-4,Seventh/NNP-1)
+				nn(Marshal/NNP-4,Honorary/NNP-2)
+				nn(Marshal/NNP-4,U.S./NNP-3)
+				amod(Marshal/NNP-4,2001/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Seventh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Seventh_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marshal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marshals_Service</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargate_SG-1_(season_5)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Seventh_Air_Force http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After receiving his bachelor of science degree in 1977, Reilly entered graduate school and was selected to participate as a research scientist specializing in stable isotope geochronology as part of the 1977-1978 scientific expedition to Marie Byrd Land, West Antarctica.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(entered/VBD-12,receiving/VBG-2)
+				poss(bachelor/NN-4,his/PRP$-3)
+				dobj(receiving/VBG-2,bachelor/NN-4)
+				nn(degree/NN-7,science/NN-6)
+				prep_of(bachelor/NN-4,degree/NN-7)
+				prep_in(receiving/VBG-2,1977/CD-9)
+				nsubj(entered/VBD-12,Reilly/NNP-11)
+				nsubjpass(selected/VBN-17,Reilly/NNP-11)
+				amod(school/NN-14,graduate/JJ-13)
+				dobj(entered/VBD-12,school/NN-14)
+				auxpass(selected/VBN-17,was/VBD-16)
+				conj_and(entered/VBD-12,selected/VBN-17)
+				aux(participate/VB-19,to/TO-18)
+				xcomp(selected/VBN-17,participate/VB-19)
+				det(scientist/NN-23,a/DT-21)
+				nn(scientist/NN-23,research/NN-22)
+				prep_as(participate/VB-19,scientist/NN-23)
+				partmod(scientist/NN-23,specializing/VBG-24)
+				amod(geochronology/NN-28,stable/JJ-26)
+				nn(geochronology/NN-28,isotope/NN-27)
+				prep_in(specializing/VBG-24,geochronology/NN-28)
+				prep_as(geochronology/NN-28,part/NN-30)
+				det(expedition/NN-35,the/DT-32)
+				num(expedition/NN-35,1977-1978/CD-33)
+				amod(expedition/NN-35,scientific/JJ-34)
+				prep_of(part/NN-30,expedition/NN-35)
+				nn(Land/NNP-39,Marie/NNP-37)
+				nn(Land/NNP-39,Byrd/NNP-38)
+				prep_to(specializing/VBG-24,Land/NNP-39)
+				nn(Antarctica/NNP-42,West/NNP-41)
+				appos(Land/NNP-39,Antarctica/NNP-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1979, he accepted employment as an exploration geologist with Santa Fe Minerals Inc., in Dallas, Texas.	</value>
+
+		<annotated-sentence>	In [[1979|1979]], he accepted [[employment|Employment_(album)]] as an [[exploration|Exploration]] [[geologist|Geology]] with Santa Fe [[Minerals|The_Minerals,_Metals_&_Materials_Society]] Inc., in Dallas, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1979, he accepted employment as an exploration geologist with Santa Fe Minerals Inc., in Dallas, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(accepted/VBD-5,1979/CD-2)
+				nsubj(accepted/VBD-5,he/PRP-4)
+				dobj(accepted/VBD-5,employment/NN-6)
+				det(geologist/NN-10,an/DT-8)
+				nn(geologist/NN-10,exploration/NN-9)
+				prep_as(accepted/VBD-5,geologist/NN-10)
+				nn(Inc./NNP-15,Santa/NNP-12)
+				nn(Inc./NNP-15,Fe/NNP-13)
+				nn(Inc./NNP-15,Minerals/NNPS-14)
+				prep_with(accepted/VBD-5,Inc./NNP-15)
+				nn(Texas/NNP-20,Dallas/NNP-18)
+				prep_in(accepted/VBD-5,Texas/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>employment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Employment_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>geologist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Minerals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Minerals,_Metals_&_Materials_Society</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1980 to the time he was selected for the astronaut program, Reilly was employed as an oil and gas exploration geologist for Enserch Exploration Inc., in Dallas, Texas, rising to the position of Chief Geologist of the Offshore Region.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(selected/VBN-8,1980/CD-2)
+				det(time/NN-5,the/DT-4)
+				prep_to(1980/CD-2,time/NN-5)
+				nsubjpass(selected/VBN-8,he/PRP-6)
+				auxpass(selected/VBN-8,was/VBD-7)
+				ccomp(employed/VBN-16,selected/VBN-8)
+				det(program/NN-12,the/DT-10)
+				nn(program/NN-12,astronaut/NN-11)
+				prep_for(selected/VBN-8,program/NN-12)
+				nsubjpass(employed/VBN-16,Reilly/NNP-14)
+				auxpass(employed/VBN-16,was/VBD-15)
+				det(oil/NN-19,an/DT-18)
+				nsubj(rising/VBG-34,oil/NN-19)
+				nn(geologist/NN-23,gas/NN-21)
+				nn(geologist/NN-23,exploration/NN-22)
+				conj_and(oil/NN-19,geologist/NN-23)
+				nsubj(rising/VBG-34,geologist/NN-23)
+				nn(Inc./NNP-27,Enserch/NNP-25)
+				nn(Inc./NNP-27,Exploration/NNP-26)
+				prep_for(oil/NN-19,Inc./NNP-27)
+				nn(Texas/NNP-32,Dallas/NNP-30)
+				prep_in(rising/VBG-34,Texas/NNP-32)
+				prepc_as(employed/VBN-16,rising/VBG-34)
+				det(position/NN-37,the/DT-36)
+				prep_to(rising/VBG-34,position/NN-37)
+				nn(Geologist/NNP-40,Chief/NNP-39)
+				prep_of(position/NN-37,Geologist/NNP-40)
+				det(Region/NNP-44,the/DT-42)
+				nn(Region/NNP-44,Offshore/NNP-43)
+				prep_of(Geologist/NNP-40,Region/NNP-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Concurrent with his duties as an exploration geologist, he was actively involved in the application of new imaging technology for industrial applications in deep water engineering projects and biological research.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				ccomp(involved/VBN-13,Concurrent/JJ-1)
+				poss(duties/NNS-4,his/PRP$-3)
+				prep_with(Concurrent/JJ-1,duties/NNS-4)
+				det(geologist/NN-8,an/DT-6)
+				nn(geologist/NN-8,exploration/NN-7)
+				prep_as(duties/NNS-4,geologist/NN-8)
+				nsubjpass(involved/VBN-13,he/PRP-10)
+				auxpass(involved/VBN-13,was/VBD-11)
+				advmod(involved/VBN-13,actively/RB-12)
+				det(application/NN-16,the/DT-15)
+				prep_in(involved/VBN-13,application/NN-16)
+				amod(technology/NN-20,new/JJ-18)
+				nn(technology/NN-20,imaging/NN-19)
+				prep_of(application/NN-16,technology/NN-20)
+				amod(applications/NNS-23,industrial/JJ-22)
+				prep_for(technology/NN-20,applications/NNS-23)
+				amod(projects/NNS-28,deep/JJ-25)
+				nn(projects/NNS-28,water/NN-26)
+				nn(projects/NNS-28,engineering/NN-27)
+				prep_in(involved/VBN-13,projects/NNS-28)
+				amod(research/NN-31,biological/JJ-30)
+				prep_in(involved/VBN-13,research/NN-31)
+				conj_and(projects/NNS-28,research/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As part of this work, Reilly has spent approximately 22 days in deep submergence vehicles operated by Harbor Branch Oceanographic Institution and the U.S. Navy.	</value>
+
+		<annotated-sentence>	As part of [[this work|Work]], Reilly has spent approximately 22 days in deep submergence [[vehicles|Vehicle]] operated by [[Harbor Branch Oceanographic Institution|Harbor_Branch_Oceanographic_Institution]] and [[the U.S. Navy|United_States_Navy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As part of this work, Reilly has spent approximately 22 days in deep submergence vehicles operated by Harbor Branch Oceanographic Institution and the U.S. Navy.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_as(spent/VBN-9,part/NN-2)
+				det(work/NN-5,this/DT-4)
+				prep_of(part/NN-2,work/NN-5)
+				nsubj(spent/VBN-9,Reilly/NNP-7)
+				aux(spent/VBN-9,has/VBZ-8)
+				quantmod(22/CD-11,approximately/RB-10)
+				num(days/NNS-12,22/CD-11)
+				npadvmod(spent/VBN-9,days/NNS-12)
+				amod(vehicles/NNS-16,deep/JJ-14)
+				nn(vehicles/NNS-16,submergence/NN-15)
+				prep_in(spent/VBN-9,vehicles/NNS-16)
+				partmod(vehicles/NNS-16,operated/VBN-17)
+				nn(Institution/NNP-22,Harbor/NNP-19)
+				nn(Institution/NNP-22,Branch/NNP-20)
+				nn(Institution/NNP-22,Oceanographic/NNP-21)
+				agent(operated/VBN-17,Institution/NNP-22)
+				det(Navy/NNP-26,the/DT-24)
+				nn(Navy/NNP-26,U.S./NNP-25)
+				agent(operated/VBN-17,Navy/NNP-26)
+				conj_and(Institution/NNP-22,Navy/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harbor Branch Oceanographic Institution</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harbor_Branch_Oceanographic_Institution</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In January 2010, Reilly joined American Public University System as the Dean of the School of Science and Technology.	</value>
+
+		<annotated-sentence>	In [[January 2010|January_2010]], Reilly joined [[American Public University System|American_Public_University_System]] as the Dean of [[the School of Science and Technology|School_of_Science_and_Technology]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In January 2010, Reilly joined American Public University System as the Dean of the School of Science and Technology.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-6,January/NNP-2)
+				num(January/NNP-2,2010/CD-3)
+				nsubj(joined/VBD-6,Reilly/NNP-5)
+				nn(System/NNP-10,American/NNP-7)
+				nn(System/NNP-10,Public/NNP-8)
+				nn(System/NNP-10,University/NNP-9)
+				dobj(joined/VBD-6,System/NNP-10)
+				det(Dean/NNP-13,the/DT-12)
+				prep_as(System/NNP-10,Dean/NNP-13)
+				det(School/NNP-16,the/DT-15)
+				prep_of(Dean/NNP-13,School/NNP-16)
+				prep_of(School/NNP-16,Science/NNP-18)
+				prep_of(School/NNP-16,Technology/NNP-20)
+				conj_and(Science/NNP-18,Technology/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American Public University System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Public_University_System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the School of Science and Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School_of_Science_and_Technology</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in December 1994, Reilly reported to the Johnson Space Center in March 1995 and completed a year of training and evaluation, and is qualified for flight assignment as a mission specialist.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-9,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,December/NNP-5)
+				num(December/NNP-5,1994/CD-6)
+				nsubj(reported/VBD-9,Reilly/NNP-8)
+				nsubj(completed/VBD-19,Reilly/NNP-8)
+				nsubjpass(qualified/VBN-29,Reilly/NNP-8)
+				det(Center/NNP-14,the/DT-11)
+				nn(Center/NNP-14,Johnson/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_to(reported/VBD-9,Center/NNP-14)
+				prep_in(reported/VBD-9,March/NNP-16)
+				num(March/NNP-16,1995/CD-17)
+				conj_and(reported/VBD-9,completed/VBD-19)
+				det(year/NN-21,a/DT-20)
+				dobj(completed/VBD-19,year/NN-21)
+				prep_of(year/NN-21,training/NN-23)
+				prep_of(year/NN-21,evaluation/NN-25)
+				conj_and(training/NN-23,evaluation/NN-25)
+				auxpass(qualified/VBN-29,is/VBZ-28)
+				conj_and(reported/VBD-9,qualified/VBN-29)
+				nn(assignment/NN-32,flight/NN-31)
+				prep_for(qualified/VBN-29,assignment/NN-32)
+				det(specialist/NN-36,a/DT-34)
+				nn(specialist/NN-36,mission/NN-35)
+				prep_as(assignment/NN-32,specialist/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Initially, he was assigned to work technical issues for the Astronaut Office Computer Support Branch.	</value>
+
+		<annotated-sentence>	Initially, he was assigned to work technical issues for the [[Astronaut Office|NASA_Astronaut_Corps]] [[Computer Support|Technical_support]] Branch.	</annotated-sentence>
+
+		<pattern_crowdsource>	Initially, he was assigned to work technical issues for the Astronaut Office Computer Support Branch.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(assigned/VBN-5,Initially/RB-1)
+				nsubjpass(assigned/VBN-5,he/PRP-3)
+				auxpass(assigned/VBN-5,was/VBD-4)
+				aux(work/VB-7,to/TO-6)
+				xcomp(assigned/VBN-5,work/VB-7)
+				amod(issues/NNS-9,technical/JJ-8)
+				dobj(work/VB-7,issues/NNS-9)
+				det(Branch/NNP-16,the/DT-11)
+				nn(Branch/NNP-16,Astronaut/NNP-12)
+				nn(Branch/NNP-16,Office/NNP-13)
+				nn(Branch/NNP-16,Computer/NNP-14)
+				nn(Branch/NNP-16,Support/NN-15)
+				prep_for(work/VB-7,Branch/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Computer Support</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technical_support</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reilly flew on STS-89 in 1998 and STS-104 in 2001.	</value>
+
+		<annotated-sentence>	Reilly flew on [[STS-89|STS-89]] in [[1998|1998]] and [[STS-104|STS-104]] in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reilly flew on [[STS-89|STS-89]] in 1998 and [[STS-104|STS-104]] in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Reilly/NNP-1)
+				prep_on(flew/VBD-2,STS-89/NN-4)
+				prep_in(STS-89/NN-4,1998/CD-6)
+				prep_on(flew/VBD-2,STS-104/NN-8)
+				conj_and(STS-89/NN-4,STS-104/NN-8)
+				prep_in(STS-104/NN-8,2001/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-89</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-89</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-104</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-104</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-89
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-104
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-104 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/James_F._Reilly
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-104 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_F._Reilly
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 517 hours in space, including three spacewalks totaling 16 hours and 30 minutes.	</value>
+
+		<annotated-sentence>	He has logged over 517 [[hours|Hour]] in [[space|Space]], including three [[spacewalks|Spacewalk_(software)]] totaling 16 [[hours|Hour]] and [[30 minutes|30_Minutes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 517 hours in space, including three spacewalks totaling 16 hours and 30 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				quantmod(517/CD-5,over/IN-4)
+				num(hours/NNS-6,517/CD-5)
+				dobj(logged/VBN-3,hours/NNS-6)
+				prep_in(logged/VBN-3,space/NN-8)
+				num(spacewalks/NNS-12,three/CD-11)
+				prep_including(logged/VBN-3,spacewalks/NNS-12)
+				partmod(spacewalks/NNS-12,totaling/VBG-13)
+				num(hours/NNS-15,16/CD-14)
+				dobj(totaling/VBG-13,hours/NNS-15)
+				num(minutes/NNS-18,30/CD-17)
+				dobj(totaling/VBG-13,minutes/NNS-18)
+				conj_and(hours/NNS-15,minutes/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>30 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/30_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has worked both on the ISS and Mir space stations.	</value>
+
+		<annotated-sentence>	He has worked both on [[the ISS|S]] and Mir [[space stations|Space_station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has worked both on the ISS and Mir space stations.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBN-3,He/PRP-1)
+				aux(worked/VBN-3,has/VBZ-2)
+				dep(worked/VBN-3,both/DT-4)
+				det(ISS/NN-7,the/DT-6)
+				prep_on(worked/VBN-3,ISS/NN-7)
+				nn(stations/NNS-11,Mir/NNS-9)
+				nn(stations/NNS-11,space/NN-10)
+				prep_on(worked/VBN-3,stations/NNS-11)
+				conj_and(ISS/NN-7,stations/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space stations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reilly was next assigned as the Astronaut Office lead on Shuttle training.	</value>
+
+		<annotated-sentence>	Reilly was next assigned as [[the Astronaut Office|NASA_Astronaut_Corps]] lead on Shuttle [[training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reilly was next assigned as the Astronaut Office lead on Shuttle training.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,Reilly/NNP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,next/JJ-3)
+				mark(lead/VB-9,as/IN-5)
+				det(Office/NNP-8,the/DT-6)
+				nn(Office/NNP-8,Astronaut/NNP-7)
+				nsubj(lead/VB-9,Office/NNP-8)
+				advcl(assigned/VBN-4,lead/VB-9)
+				nn(training/NN-12,Shuttle/NNP-11)
+				prep_on(lead/VB-9,training/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2007 was a member of the crew of STS-117.	</value>
+
+		<annotated-sentence>	In [[2007|2007]] was a member of the crew of [[STS-117|STS-117]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2007 was a member of the crew of [[STS-117|STS-117]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(was/VBD-3,2007/CD-2)
+				det(member/NN-5,a/DT-4)
+				nsubj(was/VBD-3,member/NN-5)
+				det(crew/NN-8,the/DT-7)
+				prep_of(member/NN-5,crew/NN-8)
+				prep_of(crew/NN-8,STS-117/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-117</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-117</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_F._Reilly http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-117
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_F._Reilly
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_F._Reilly
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/James_F._Reilly
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Concurrent with his crew assignment he is designated as Payloads and Procedures Operations lead for the Astronaut Office ISS Branch.	</value>
+
+		<annotated-sentence>	Concurrent with his crew assignment he is designated as [[Payloads and Procedures|Payload_(air_and_space_craft)]] Operations lead for the [[Astronaut Office|NASA_Astronaut_Corps]] [[ISS|S]] Branch.	</annotated-sentence>
+
+		<pattern_crowdsource>	Concurrent with his crew assignment he is designated as Payloads and Procedures Operations lead for the Astronaut Office ISS Branch.	</pattern_crowdsource>
+
+
+		<tree>
+				dep(designated/VBN-8,Concurrent/JJ-1)
+				poss(assignment/NN-5,his/PRP$-3)
+				nn(assignment/NN-5,crew/NN-4)
+				prep_with(Concurrent/JJ-1,assignment/NN-5)
+				nsubjpass(designated/VBN-8,he/PRP-6)
+				auxpass(designated/VBN-8,is/VBZ-7)
+				prep_as(designated/VBN-8,Payloads/NNPS-10)
+				prep_as(designated/VBN-8,Procedures/NNPS-12)
+				conj_and(Payloads/NNPS-10,Procedures/NNPS-12)
+				nsubj(lead/VBP-14,Operations/NNPS-13)
+				rcmod(Payloads/NNPS-10,lead/VBP-14)
+				det(Branch/NNP-20,the/DT-16)
+				nn(Branch/NNP-20,Astronaut/NNP-17)
+				nn(Branch/NNP-20,Office/NNP-18)
+				nn(Branch/NNP-20,ISS/NNP-19)
+				prep_for(lead/VBP-14,Branch/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Payloads and Procedures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_(air_and_space_craft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

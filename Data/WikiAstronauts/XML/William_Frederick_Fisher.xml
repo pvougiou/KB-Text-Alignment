@@ -1,0 +1,2049 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	William Frederick Fisher (born April 1, 1946) is an American physician and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[William Frederick Fisher|William_Frederick_Fisher]] (born April 1, 1946) is an [[American|United_States]] [[physician|Physician]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[William Frederick Fisher|William_Frederick_Fisher]] (born April 1, 1946) is an [[American|United_States]] physician and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fisher/NNP-3,William/NNP-1)
+				nn(Fisher/NNP-3,Frederick/NNP-2)
+				nsubj(physician/NN-14,Fisher/NNP-3)
+				dep(Fisher/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,April/NNP-6)
+				num(April/NNP-6,1/CD-7)
+				num(April/NNP-6,1946/CD-9)
+				cop(physician/NN-14,is/VBZ-11)
+				det(physician/NN-14,an/DT-12)
+				amod(physician/NN-14,American/JJ-13)
+				det(astronaut/NN-19,a/DT-16)
+				amod(astronaut/NN-19,former/JJ-17)
+				nn(astronaut/NN-19,NASA/NNP-18)
+				conj_and(physician/NN-14,astronaut/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>William Frederick Fisher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/William_Frederick_Fisher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physician</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born April 1, 1946, in Dallas, Texas.	</value>
+
+		<annotated-sentence>	Born April 1, 1946, in Dallas, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	Born April 1, 1946, in Dallas, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,April/NNP-2)
+				num(April/NNP-2,1/CD-3)
+				num(April/NNP-2,1946/CD-5)
+				nn(Texas/NNP-10,Dallas/NNP-8)
+				prep_in(Born/VBN-1,Texas/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was married to a fellow astronaut, Anna Lee Fisher of St. Albans, New York in 1977.	</value>
+
+		<annotated-sentence>	He was married to [[a fellow astronaut|Astronaut]], [[Anna Lee Fisher|Anna_Lee_Fisher]] of [[St. Albans|St._Albans,_Queens]], [[New York|New_York]] in [[1977|1977]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was married to [[a fellow astronaut|Astronaut]], [[Anna Lee Fisher|Anna_Lee_Fisher]] of [[St. Albans|St._Albans,_Queens]], [[New York|New_York]] in 1977.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,was/VBD-2)
+				det(astronaut/NN-7,a/DT-5)
+				amod(astronaut/NN-7,fellow/JJ-6)
+				prep_to(married/VBN-3,astronaut/NN-7)
+				nn(Fisher/NNP-11,Anna/NNP-9)
+				nn(Fisher/NNP-11,Lee/NNP-10)
+				appos(astronaut/NN-7,Fisher/NNP-11)
+				nn(Albans/NNP-14,St./NNP-13)
+				prep_of(Fisher/NNP-11,Albans/NNP-14)
+				nn(York/NNP-17,New/NNP-16)
+				appos(astronaut/NN-7,York/NNP-17)
+				prep_in(York/NNP-17,1977/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a fellow astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Anna Lee Fisher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anna_Lee_Fisher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>St. Albans</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/St._Albans,_Queens</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Anna_Lee_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Anna_Lee_Fisher http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/St._Albans,_Queens http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two daughters, Kristin Anne (b. July 29, 1983), who is now a correspondent for WUSA 9 Television News in Washington DC, and Kara Lynne (b.January 10, 1989), who works in the field of Investment Banking near Mclean, Virginia.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(daughters/NNS-4,two/CD-3)
+				dobj(have/VBP-2,daughters/NNS-4)
+				nn(Anne/NNP-7,Kristin/NNP-6)
+				appos(daughters/NNS-4,Anne/NNP-7)
+				dep(Anne/NNP-7,b./NNP-9)
+				tmod(b./NNP-9,July/NNP-10)
+				num(July/NNP-10,29/CD-11)
+				num(July/NNP-10,1983/CD-13)
+				nsubj(News/NNP-25,who/WP-16)
+				cop(News/NNP-25,is/VBZ-17)
+				advmod(News/NNP-25,now/RB-18)
+				det(correspondent/NN-20,a/DT-19)
+				pobj(now/RB-18,correspondent/NN-20)
+				prep_for(now/RB-18,WUSA/NNP-22)
+				num(WUSA/NNP-22,9/CD-23)
+				nn(News/NNP-25,Television/NNP-24)
+				rcmod(daughters/NNS-4,News/NNP-25)
+				nn(DC/NNP-28,Washington/NNP-27)
+				prep_in(News/NNP-25,DC/NNP-28)
+				nn(Lynne/NNP-32,Kara/NNP-31)
+				conj_and(daughters/NNS-4,Lynne/NNP-32)
+				appos(Lynne/NNP-32,b.January/NNP-34)
+				num(b.January/NNP-34,10/CD-35)
+				dep(b.January/NNP-34,1989/CD-37)
+				nsubj(works/VBZ-41,who/WP-40)
+				rcmod(Lynne/NNP-32,works/VBZ-41)
+				det(field/NN-44,the/DT-43)
+				prep_in(works/VBZ-41,field/NN-44)
+				nn(Banking/NN-47,Investment/NN-46)
+				prep_of(field/NN-44,Banking/NN-47)
+				nn(Virginia/NNP-51,Mclean/NNP-49)
+				prep_near(Banking/NN-47,Virginia/NNP-51)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Drs. Fisher were divorced in 2000.	</value>
+
+		<annotated-sentence>	The [[Drs.|Doctorandus]] Fisher were divorced in [[2000|2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Drs. Fisher were divorced in 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Fisher/NNP-3,The/DT-1)
+				nn(Fisher/NNP-3,Drs./NNP-2)
+				nsubjpass(divorced/VBN-5,Fisher/NNP-3)
+				auxpass(divorced/VBN-5,were/VBD-4)
+				prep_in(divorced/VBN-5,2000/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Drs.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorandus</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Fisher enjoys alpine skiing, water skiing, mountain climbing, flying, skydiving, camping, and most New Adventures.	</value>
+
+		<annotated-sentence>	Dr. Fisher enjoys [[alpine skiing|Alpine_skiing]], [[water skiing|Waterskiing]], [[mountain climbing|Mountaineering]], flying, [[skydiving|Parachuting]], [[camping|Camping]], and [[most New Adventures|New_Adventures]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Fisher enjoys alpine skiing, water skiing, mountain climbing, flying, skydiving, camping, and most New Adventures.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fisher/NNP-2,Dr./NNP-1)
+				nsubj(enjoys/VBZ-3,Fisher/NNP-2)
+				amod(skiing/NN-5,alpine/JJ-4)
+				dobj(enjoys/VBZ-3,skiing/NN-5)
+				nn(skiing/NN-8,water/NN-7)
+				dobj(enjoys/VBZ-3,skiing/NN-8)
+				conj_and(skiing/NN-5,skiing/NN-8)
+				nn(climbing/NN-11,mountain/NN-10)
+				dobj(enjoys/VBZ-3,climbing/NN-11)
+				conj_and(skiing/NN-5,climbing/NN-11)
+				appos(climbing/NN-11,flying/VBG-13)
+				dobj(enjoys/VBZ-3,skydiving/NN-15)
+				conj_and(skiing/NN-5,skydiving/NN-15)
+				dobj(enjoys/VBZ-3,camping/NN-17)
+				conj_and(skiing/NN-5,camping/NN-17)
+				amod(Adventures/NNS-22,most/JJS-20)
+				amod(Adventures/NNS-22,New/JJ-21)
+				dobj(enjoys/VBZ-3,Adventures/NNS-22)
+				conj_and(skiing/NN-5,Adventures/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>alpine skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Alpine_skiing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>water skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Waterskiing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mountain climbing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mountaineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>skydiving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parachuting</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>camping</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Camping</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>most New Adventures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Adventures</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His favorite book is Robert Fagel's translation of Homer's Iliad.	</value>
+
+		<annotated-sentence>	His favorite [[book|Book]] is Robert [[Fagel|Gaspar_Fagel]]'s [[translation|Translation]] of [[Homer|Homer]]'s Iliad.	</annotated-sentence>
+
+		<pattern_crowdsource>	His favorite book is Robert Fagel's translation of Homer's Iliad.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(book/NN-3,His/PRP$-1)
+				amod(book/NN-3,favorite/JJ-2)
+				nsubj(translation/NN-8,book/NN-3)
+				cop(translation/NN-8,is/VBZ-4)
+				nn(Fagel/NNP-6,Robert/NNP-5)
+				poss(translation/NN-8,Fagel/NNP-6)
+				poss(Iliad/NNP-12,Homer/NNP-10)
+				prep_of(translation/NN-8,Iliad/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fagel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gaspar_Fagel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>translation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Translation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Homer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Homer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He loves opera, but prefers to listen rather than to attend.	</value>
+
+		<annotated-sentence>	He loves [[opera|Opera]], but prefers to listen rather than to attend.	</annotated-sentence>
+
+		<pattern_crowdsource>	He loves opera, but prefers to listen rather than to attend.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(loves/VBZ-2,He/PRP-1)
+				nsubj(prefers/VBZ-6,He/PRP-1)
+				dobj(loves/VBZ-2,opera/NN-3)
+				conj_but(loves/VBZ-2,prefers/VBZ-6)
+				aux(listen/VB-8,to/TO-7)
+				ccomp(prefers/VBZ-6,listen/VB-8)
+				aux(attend/VB-12,to/TO-11)
+				ccomp(prefers/VBZ-6,attend/VB-12)
+				conj_negcc(listen/VB-8,attend/VB-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>opera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Opera</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He appreciates most types of music, but with the exception of Eminem, dislikes Rap.	</value>
+
+		<annotated-sentence>	He appreciates most [[types of music|List_of_music_styles]], but with the exception of [[Eminem|The_Eminem_Show]], [[dislikes|Disgust]] Rap.	</annotated-sentence>
+
+		<pattern_crowdsource>	He appreciates most types of music, but with the exception of Eminem, dislikes Rap.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(appreciates/VBZ-2,He/PRP-1)
+				advmod(appreciates/VBZ-2,most/RBS-3)
+				dobj(appreciates/VBZ-2,types/NNS-4)
+				prep_of(types/NNS-4,music/NN-6)
+				conj_but(appreciates/VBZ-2,with/IN-9)
+				det(exception/NN-11,the/DT-10)
+				pobj(with/IN-9,exception/NN-11)
+				prep_of(exception/NN-11,Eminem/NNP-13)
+				nn(Rap/NN-16,dislikes/NN-15)
+				appos(Eminem/NNP-13,Rap/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>types of music</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_music_styles</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Eminem</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Eminem_Show</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>dislikes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Disgust</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Fisher collects Bill Graham Fillmore, Family Dog, and other rock/concert music posters from the 1965-1973 timeframe.	</value>
+
+		<annotated-sentence>	Dr. Fisher collects Bill Graham Fillmore, Family Dog, and other rock/concert [[music|Music]] [[posters|Film_poster]] from the [[1965-1973|The_Golden_Road_(1965%E2%80%931973)]] [[timeframe|Time]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Fisher collects Bill Graham Fillmore, Family Dog, and other rock/concert music posters from the 1965-1973 timeframe.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fisher/NNP-2,Dr./NNP-1)
+				nsubj(collects/VBZ-3,Fisher/NNP-2)
+				nn(Fillmore/NNP-6,Bill/NNP-4)
+				nn(Fillmore/NNP-6,Graham/NNP-5)
+				dobj(collects/VBZ-3,Fillmore/NNP-6)
+				nn(Dog/NNP-9,Family/NNP-8)
+				dobj(collects/VBZ-3,Dog/NNP-9)
+				conj_and(Fillmore/NNP-6,Dog/NNP-9)
+				amod(posters/NNS-15,other/JJ-12)
+				nn(posters/NNS-15,rock/concert/NN-13)
+				nn(posters/NNS-15,music/NN-14)
+				dobj(collects/VBZ-3,posters/NNS-15)
+				conj_and(Fillmore/NNP-6,posters/NNS-15)
+				det(timeframe/NN-19,the/DT-17)
+				num(timeframe/NN-19,1965-1973/CD-18)
+				prep_from(collects/VBZ-3,timeframe/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>music</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Music</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>posters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Film_poster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1965-1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Golden_Road_(1965%E2%80%931973)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>timeframe</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Time</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an amateur luthier, specializing in making, repairing, and refinishing Neapolitan-style mandolins.	</value>
+
+		<annotated-sentence>	He is an amateur [[luthier|Luthier]], specializing in making, repairing, and refinishing Neapolitan-style [[mandolins|Mandolin]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is an amateur luthier, specializing in making, repairing, and refinishing Neapolitan-style mandolins.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(luthier/NN-5,He/PRP-1)
+				cop(luthier/NN-5,is/VBZ-2)
+				det(luthier/NN-5,an/DT-3)
+				amod(luthier/NN-5,amateur/JJ-4)
+				partmod(luthier/NN-5,specializing/VBG-7)
+				prepc_in(specializing/VBG-7,making/VBG-9)
+				prepc_in(specializing/VBG-7,repairing/VBG-11)
+				conj_and(making/VBG-9,repairing/VBG-11)
+				prepc_in(specializing/VBG-7,refinishing/VBG-14)
+				conj_and(making/VBG-9,refinishing/VBG-14)
+				amod(mandolins/NNS-16,Neapolitan-style/JJ-15)
+				dobj(refinishing/VBG-14,mandolins/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>luthier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Luthier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mandolins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mandolin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Fisher is also the owner of Twenty-First Century Arms, a sporting goods company, and is a both a Federal Firearms Licensee and NFA Firearms Dealer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fisher/NNP-2,Dr./NNP-1)
+				nsubj(owner/NN-6,Fisher/NNP-2)
+				cop(owner/NN-6,is/VBZ-3)
+				advmod(owner/NN-6,also/RB-4)
+				det(owner/NN-6,the/DT-5)
+				nn(Arms/NNS-10,Twenty-First/NNP-8)
+				nn(Arms/NNS-10,Century/NNP-9)
+				prep_of(owner/NN-6,Arms/NNS-10)
+				det(company/NN-15,a/DT-12)
+				amod(company/NN-15,sporting/VBG-13)
+				nn(company/NN-15,goods/NNS-14)
+				appos(Arms/NNS-10,company/NN-15)
+				cop(Licensee/NNP-24,is/VBZ-18)
+				det(Licensee/NNP-24,a/DT-19)
+				preconj(Licensee/NNP-24,both/DT-20)
+				det(Licensee/NNP-24,a/DT-21)
+				nn(Licensee/NNP-24,Federal/NNP-22)
+				nn(Licensee/NNP-24,Firearms/NNP-23)
+				conj_and(owner/NN-6,Licensee/NNP-24)
+				nn(Dealer/NNP-28,NFA/NNP-26)
+				nn(Dealer/NNP-28,Firearms/NNP-27)
+				conj_and(owner/NN-6,Dealer/NNP-28)
+				conj_and(Licensee/NNP-24,Dealer/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher was graduated from Stanford University in 1968, and later served as an Instructor in Mountaineering in Leysin, Switzerland.	</value>
+
+		<annotated-sentence>	Fisher was graduated from [[Stanford University|Stanford_University]] in [[1968|An_American_Carol]], and later served as an Instructor in [[Mountaineering|Mountaineering]] in [[Leysin , Switzerland|Leysin]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Fisher was graduated from Stanford University in 1968, and later served as an Instructor in Mountaineering in Leysin, Switzerland.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(graduated/VBN-3,Fisher/NNP-1)
+				nsubjpass(served/VBD-12,Fisher/NNP-1)
+				auxpass(graduated/VBN-3,was/VBD-2)
+				nn(University/NNP-6,Stanford/NNP-5)
+				prep_from(graduated/VBN-3,University/NNP-6)
+				prep_in(University/NNP-6,1968/CD-8)
+				advmod(served/VBD-12,later/RB-11)
+				conj_and(graduated/VBN-3,served/VBD-12)
+				det(Instructor/NN-15,an/DT-14)
+				prep_as(served/VBD-12,Instructor/NN-15)
+				prep_in(Instructor/NN-15,Mountaineering/NNP-17)
+				nn(Switzerland/NNP-21,Leysin/NNP-19)
+				prep_in(served/VBD-12,Switzerland/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stanford University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stanford_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1968</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/An_American_Carol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mountaineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mountaineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Leysin , Switzerland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leysin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended medical school at the University of Florida, graduating in 1975.	</value>
+
+		<annotated-sentence>	He attended [[medical school|Medical_school]] at [[the University of Florida|University_of_Florida]], graduating in [[1975|1975]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended medical school at the University of Florida, graduating in 1975.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				amod(school/NN-4,medical/JJ-3)
+				dobj(attended/VBD-2,school/NN-4)
+				det(University/NNP-7,the/DT-6)
+				prep_at(attended/VBD-2,University/NNP-7)
+				prep_of(University/NNP-7,Florida/NNP-9)
+				partmod(attended/VBD-2,graduating/VBG-11)
+				prep_in(graduating/VBG-11,1975/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>medical school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After medical school, Fisher completed a surgical residency from 1975 to 1977 at UCLA's Harbor General Hospital in Torrance, California.	</value>
+
+		<annotated-sentence>	After [[medical school|Medical_school]], Fisher completed a surgical [[residency|Residency]] from [[1975|1975]] to [[1977|1977]] at UCLA's [[Harbor|Harbor]] General [[Hospital|Hospital]] in [[Torrance , California|Torrance,_California]]	</annotated-sentence>
+
+		<pattern_crowdsource>	After medical school, Fisher completed a surgical residency from 1975 to 1977 at UCLA's Harbor General Hospital in Torrance, California.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(school/NN-3,medical/JJ-2)
+				prep_after(completed/VBD-6,school/NN-3)
+				nsubj(completed/VBD-6,Fisher/NNP-5)
+				det(residency/NN-9,a/DT-7)
+				amod(residency/NN-9,surgical/JJ-8)
+				dobj(completed/VBD-6,residency/NN-9)
+				num(1977/CD-13,1975/CD-11)
+				dep(1977/CD-13,to/TO-12)
+				prep_from(completed/VBD-6,1977/CD-13)
+				poss(Hospital/NNP-19,UCLA/NNP-15)
+				nn(Hospital/NNP-19,Harbor/NNP-17)
+				nn(Hospital/NNP-19,General/NNP-18)
+				prep_at(1977/CD-13,Hospital/NNP-19)
+				nn(California/NNP-23,Torrance/NNP-21)
+				prep_in(completed/VBD-6,California/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>medical school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>residency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Residency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harbor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harbor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hospital</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Hospital</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Torrance , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Torrance,_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He entered private practice in emergency medicine from 1977 to 1980, and was an Instructor in Emergency Medicine at the University of South Florida.	</value>
+
+		<annotated-sentence>	He entered private practice in [[emergency medicine|Emergency_medicine]] from [[1977|1977]] to [[1980|1980]], and was an Instructor in [[Emergency Medicine|Emergency_medicine]] at [[the University of South Florida|University_of_South_Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He entered private practice in emergency medicine from 1977 to 1980, and was an Instructor in Emergency Medicine at the University of South Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-2,He/PRP-1)
+				amod(practice/NN-4,private/JJ-3)
+				dobj(entered/VBD-2,practice/NN-4)
+				nn(medicine/NN-7,emergency/NN-6)
+				prep_in(entered/VBD-2,medicine/NN-7)
+				num(1980/CD-11,1977/CD-9)
+				dep(1980/CD-11,to/TO-10)
+				prep_from(entered/VBD-2,1980/CD-11)
+				cop(Instructor/NN-16,was/VBD-14)
+				det(Instructor/NN-16,an/DT-15)
+				conj_and(entered/VBD-2,Instructor/NN-16)
+				nn(Medicine/NNP-19,Emergency/NNP-18)
+				prep_in(Instructor/NN-16,Medicine/NNP-19)
+				det(University/NNP-22,the/DT-21)
+				prep_at(Instructor/NN-16,University/NNP-22)
+				nn(Florida/NNP-25,South/NNP-24)
+				prep_of(University/NNP-22,Florida/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>emergency medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Emergency_medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Emergency Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Emergency_medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of South Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_South_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also attended graduate school at the University of Houston from 1978 to 1980, and received a Masters Degree in Mechanical Engineering in 1980.	</value>
+
+		<annotated-sentence>	He also attended graduate school at [[the University of Houston|University_of_Houston]] from [[1978|Tsubasa_Otomiya]] to [[1980|1980]], and received a Masters Degree in [[Mechanical Engineering|Mechanical_engineering]] in [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also attended graduate school at the University of Houston from 1978 to 1980, and received a Masters Degree in Mechanical Engineering in 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				nsubj(received/VBD-17,He/PRP-1)
+				advmod(attended/VBD-3,also/RB-2)
+				amod(school/NN-5,graduate/JJ-4)
+				dobj(attended/VBD-3,school/NN-5)
+				det(University/NNP-8,the/DT-7)
+				prep_at(attended/VBD-3,University/NNP-8)
+				prep_of(University/NNP-8,Houston/NNP-10)
+				num(1980/CD-14,1978/CD-12)
+				dep(1980/CD-14,to/TO-13)
+				prep_from(attended/VBD-3,1980/CD-14)
+				conj_and(attended/VBD-3,received/VBD-17)
+				det(Degree/NN-20,a/DT-18)
+				nn(Degree/NN-20,Masters/NN-19)
+				dobj(received/VBD-17,Degree/NN-20)
+				amod(Engineering/NNP-23,Mechanical/JJ-22)
+				prep_in(received/VBD-17,Engineering/NNP-23)
+				prep_in(received/VBD-17,1980/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University of Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mechanical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was accepted as a NASA Astronaut in 1980.	</value>
+
+		<annotated-sentence>	He was accepted as a [[NASA|NASA]] [[Astronaut|Astronaut]] in [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was accepted as a [[NASA|NASA]] [[Astronaut|Astronaut]] in 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(accepted/VBN-3,He/PRP-1)
+				auxpass(accepted/VBN-3,was/VBD-2)
+				det(Astronaut/NNP-7,a/DT-5)
+				nn(Astronaut/NNP-7,NASA/NNP-6)
+				prep_as(accepted/VBN-3,Astronaut/NNP-7)
+				prep_in(Astronaut/NNP-7,1980/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 2,000 hours in prop, rotary-wing, jet aircraft and spacecraft.	</value>
+
+		<annotated-sentence>	He has logged over [[2,000|2,000,000_Voices]] [[hours|Hour]] in prop, rotary-wing, [[jet aircraft|Jet_aircraft]] and [[spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 2,000 hours in prop, rotary-wing, jet aircraft and spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,2,000/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				dep(rotary-wing/JJ-10,prop/VBP-8)
+				prep_in(hours/NNS-6,rotary-wing/JJ-10)
+				nn(aircraft/NN-13,jet/NN-12)
+				prep_in(hours/NNS-6,aircraft/NN-13)
+				conj_and(rotary-wing/JJ-10,aircraft/NN-13)
+				prep_in(hours/NNS-6,spacecraft/NN-15)
+				conj_and(rotary-wing/JJ-10,spacecraft/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2,000,000_Voices</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher was selected as NASA Astronaut in 1980.	</value>
+
+		<annotated-sentence>	Fisher was selected as [[NASA|NASA]] [[Astronaut|Astronaut]] in [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fisher was selected as [[NASA|NASA]] [[Astronaut|Astronaut]] in 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Fisher/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				nn(Astronaut/NNP-6,NASA/NNP-5)
+				prep_as(selected/VBN-3,Astronaut/NNP-6)
+				prep_in(Astronaut/NNP-6,1980/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments included: scientific equipment operator for high altitude research on the WB-57F aircraft (1980–1981); astronaut medical support for the first four Shuttle missions (1980–1982); astronaut office representative for Extravehicular Mobility Unit (spacesuit) and Extravehicular Activity (EVA) procedures and development, including thermal vacuum testing of the suit (1981–1984); astronaut office representative for the Payload Assist Module (PAM-D) procedures and development (1982–1983); astronaut office representative for Shuttle Mission Simulator (SMS) development (1983); support crewman for STS-8; CAPCOM for STS-8 and STS-9; Remote Manipulator System (RMS) hardware and software development team (1983); Manned Maneuvering Unit (MMU) development team (1983); Deputy Director of NASA Government-furnished and Contractor-furnished Equipment (1982–1983); Chief of Astronaut Public Appearances (1985–1987); Head, Astronaut Office Space Station Manned Systems Division, and Health Maintenance Facility (1987–1989); Astronaut Office representative on space crew selection and retention standards for Space Station (1989–1991).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBD-4,assignments/NNS-3)
+				amod(operator/NN-8,scientific/JJ-6)
+				nn(operator/NN-8,equipment/NN-7)
+				nsubj(Manned/VBN-132,operator/NN-8)
+				amod(research/NN-12,high/JJ-10)
+				nn(research/NN-12,altitude/NN-11)
+				prep_for(operator/NN-8,research/NN-12)
+				det(aircraft/NN-16,the/DT-14)
+				nn(aircraft/NN-16,WB-57F/NN-15)
+				prep_on(research/NN-12,aircraft/NN-16)
+				dep(aircraft/NN-16,1980/CD-18)
+				dep(1980/CD-18,1981/CD-20)
+				nn(support/NN-25,astronaut/NN-23)
+				amod(support/NN-25,medical/JJ-24)
+				dep(operator/NN-8,support/NN-25)
+				det(missions/NNS-31,the/DT-27)
+				amod(missions/NNS-31,first/JJ-28)
+				num(missions/NNS-31,four/CD-29)
+				nn(missions/NNS-31,Shuttle/NNP-30)
+				prep_for(support/NN-25,missions/NNS-31)
+				dep(missions/NNS-31,1980/CD-33)
+				dep(1980/CD-33,1982/CD-35)
+				nn(representative/NN-40,astronaut/NN-38)
+				nn(representative/NN-40,office/NN-39)
+				dep(operator/NN-8,representative/NN-40)
+				amod(Unit/NN-44,Extravehicular/JJ-42)
+				nn(Unit/NN-44,Mobility/NN-43)
+				prep_for(representative/NN-40,Unit/NN-44)
+				appos(Unit/NN-44,spacesuit/NN-46)
+				amod(procedures/NNS-54,Extravehicular/JJ-49)
+				nn(procedures/NNS-54,Activity/NN-50)
+				appos(procedures/NNS-54,EVA/NN-52)
+				prep_for(representative/NN-40,procedures/NNS-54)
+				conj_and(Unit/NN-44,procedures/NNS-54)
+				prep_for(representative/NN-40,development/NN-56)
+				conj_and(Unit/NN-44,development/NN-56)
+				amod(testing/NN-61,thermal/JJ-59)
+				nn(testing/NN-61,vacuum/NN-60)
+				prep_including(operator/NN-8,testing/NN-61)
+				det(suit/NN-64,the/DT-63)
+				prep_of(testing/NN-61,suit/NN-64)
+				dep(suit/NN-64,1981/CD-66)
+				dep(1981/CD-66,1984/CD-68)
+				nn(representative/NN-73,astronaut/NN-71)
+				nn(representative/NN-73,office/NN-72)
+				dep(testing/NN-61,representative/NN-73)
+				dep(procedures/NNS-82,the/DT-75)
+				nn(procedures/NNS-82,Payload/NNP-76)
+				nn(procedures/NNS-82,Assist/NNP-77)
+				nn(procedures/NNS-82,Module/NNP-78)
+				appos(procedures/NNS-82,PAM-D/NN-80)
+				prep_for(representative/NN-73,procedures/NNS-82)
+				prep_for(representative/NN-73,development/NN-84)
+				conj_and(procedures/NNS-82,development/NN-84)
+				dep(development/NN-84,1982/CD-86)
+				dep(1982/CD-86,1983/CD-88)
+				nn(representative/NN-93,astronaut/NN-91)
+				nn(representative/NN-93,office/NN-92)
+				dep(testing/NN-61,representative/NN-93)
+				nn(Simulator/NNP-97,Shuttle/NNP-95)
+				nn(Simulator/NNP-97,Mission/NNP-96)
+				nn(development/NN-101,Simulator/NNP-97)
+				appos(Simulator/NNP-97,SMS/NNP-99)
+				prep_for(representative/NN-93,development/NN-101)
+				appos(development/NN-101,1983/CD-103)
+				nn(crewman/NN-107,support/NN-106)
+				dep(testing/NN-61,crewman/NN-107)
+				prep_for(crewman/NN-107,STS-8/NN-109)
+				dep(testing/NN-61,CAPCOM/NNP-111)
+				prep_for(CAPCOM/NNP-111,STS-8/NN-113)
+				prep_for(CAPCOM/NNP-111,STS-9/NN-115)
+				conj_and(STS-8/NN-113,STS-9/NN-115)
+				nn(System/NNP-119,Remote/NNP-117)
+				nn(System/NNP-119,Manipulator/NNP-118)
+				dep(testing/NN-61,System/NNP-119)
+				appos(System/NNP-119,RMS/NNP-121)
+				dep(System/NNP-119,hardware/NN-123)
+				nn(team/NN-127,software/NN-125)
+				nn(team/NN-127,development/NN-126)
+				prep_including(operator/NN-8,team/NN-127)
+				conj_and(testing/NN-61,team/NN-127)
+				appos(team/NN-127,1983/CD-129)
+				parataxis(included/VBD-4,Manned/VBN-132)
+				nn(Unit/NN-134,Maneuvering/NN-133)
+				dobj(Manned/VBN-132,Unit/NN-134)
+				appos(Unit/NN-134,MMU/NN-136)
+				nn(team/NN-139,development/NN-138)
+				dep(Unit/NN-134,team/NN-139)
+				appos(team/NN-139,1983/CD-141)
+				nn(Director/NNP-145,Deputy/NNP-144)
+				dep(Unit/NN-134,Director/NNP-145)
+				prep_of(Director/NNP-145,NASA/NNP-147)
+				amod(Equipment/NN-151,Government-furnished/JJ-148)
+				conj_and(Government-furnished/JJ-148,Contractor-furnished/JJ-150)
+				amod(Equipment/NN-151,Contractor-furnished/JJ-150)
+				dep(NASA/NNP-147,Equipment/NN-151)
+				dep(NASA/NNP-147,1982/CD-153)
+				dep(1982/CD-153,1983/CD-155)
+				dep(Unit/NN-134,Chief/NNP-158)
+				nn(Appearances/NNPS-162,Astronaut/NNP-160)
+				nn(Appearances/NNPS-162,Public/NNP-161)
+				prep_of(Chief/NNP-158,Appearances/NNPS-162)
+				dep(Appearances/NNPS-162,1985/CD-164)
+				dep(1985/CD-164,1987/CD-166)
+				dep(Unit/NN-134,Head/NNP-169)
+				nn(Division/NNP-177,Astronaut/NNP-171)
+				nn(Division/NNP-177,Office/NNP-172)
+				nn(Division/NNP-177,Space/NNP-173)
+				nn(Division/NNP-177,Station/NNP-174)
+				nn(Division/NNP-177,Manned/NNP-175)
+				nn(Division/NNP-177,Systems/NNPS-176)
+				dep(Unit/NN-134,Division/NNP-177)
+				conj_and(Head/NNP-169,Division/NNP-177)
+				nn(Facility/NNP-182,Health/NNP-180)
+				nn(Facility/NNP-182,Maintenance/NNP-181)
+				dep(Unit/NN-134,Facility/NNP-182)
+				conj_and(Head/NNP-169,Facility/NNP-182)
+				dep(Facility/NNP-182,1987/CD-184)
+				dep(1987/CD-184,1989/CD-186)
+				nn(representative/NN-191,Astronaut/NNP-189)
+				nn(representative/NN-191,Office/NNP-190)
+				dep(Unit/NN-134,representative/NN-191)
+				nn(selection/NN-195,space/NN-193)
+				nn(selection/NN-195,crew/NN-194)
+				prep_on(representative/NN-191,selection/NN-195)
+				nn(standards/NNS-198,retention/NN-197)
+				dobj(Manned/VBN-132,standards/NNS-198)
+				conj_and(Unit/NN-134,standards/NNS-198)
+				nn(Station/NNP-201,Space/NN-200)
+				prep_for(standards/NNS-198,Station/NNP-201)
+				dep(Station/NNP-201,1989/CD-203)
+				dep(1989/CD-203,1991/CD-205)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher also continued to practice Emergency Medicine in the greater Houston area in conjunction with his Astronaut duties.	</value>
+
+		<annotated-sentence>	Fisher also continued to practice [[Emergency Medicine|Emergency_medicine]] in [[the greater Houston area|Greater_Houston]] in conjunction with his [[Astronaut|Astronaut]] [[duties|Duty]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fisher also continued to practice Emergency Medicine in the greater Houston area in conjunction with his [[Astronaut|Astronaut]] duties.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(continued/VBD-3,Fisher/NNP-1)
+				advmod(continued/VBD-3,also/RB-2)
+				aux(practice/VB-5,to/TO-4)
+				xcomp(continued/VBD-3,practice/VB-5)
+				nn(Medicine/NN-7,Emergency/NN-6)
+				dobj(practice/VB-5,Medicine/NN-7)
+				det(area/NN-12,the/DT-9)
+				amod(area/NN-12,greater/JJR-10)
+				nn(area/NN-12,Houston/NNP-11)
+				prep_in(Medicine/NN-7,area/NN-12)
+				prep_in(area/NN-12,conjunction/NN-14)
+				poss(duties/NNS-18,his/PRP$-16)
+				nn(duties/NNS-18,Astronaut/NN-17)
+				prep_with(practice/VB-5,duties/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Emergency Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Emergency_medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the greater Houston area</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Greater_Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher was a mission specialist on STS-51-I, which launched from Kennedy Space Center, Florida, on August 27, 1985.	</value>
+
+		<annotated-sentence>	Fisher was [[a mission specialist|Mission_Specialist]] on [[STS-51-I|STS-51-I]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on August 27, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	Fisher was a mission specialist on [[STS-51-I|STS-51-I]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], Florida, on August 27, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,Fisher/NNP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_on(specialist/NN-5,STS-51-I/NN-7)
+				nsubj(launched/VBD-10,which/WDT-9)
+				rcmod(STS-51-I/NN-7,launched/VBD-10)
+				nn(Center/NNP-14,Kennedy/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_from(launched/VBD-10,Center/NNP-14)
+				appos(Center/NNP-14,Florida/NNP-16)
+				prep_on(launched/VBD-10,August/NNP-19)
+				num(August/NNP-19,27/CD-20)
+				num(August/NNP-19,1985/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-I</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-I</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-I
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-I http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-51-I was acknowledged as the most successful Space Shuttle mission yet flown.	</value>
+
+		<annotated-sentence>	[[STS-51-I|STS-51-I]] was acknowledged as the most successful [[Space Shuttle|SpaceShuttle]] mission yet flown.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-51-I|STS-51-I]] was acknowledged as the most successful Space Shuttle mission yet flown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(acknowledged/VBN-3,STS-51-I/NN-1)
+				auxpass(acknowledged/VBN-3,was/VBD-2)
+				mark(flown/VBN-12,as/IN-4)
+				det(mission/NN-10,the/DT-5)
+				advmod(successful/JJ-7,most/RBS-6)
+				amod(mission/NN-10,successful/JJ-7)
+				nn(mission/NN-10,Space/NN-8)
+				nn(mission/NN-10,Shuttle/NNP-9)
+				nsubj(flown/VBN-12,mission/NN-10)
+				advmod(flown/VBN-12,yet/RB-11)
+				advcl(acknowledged/VBN-3,flown/VBN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-51-I</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-I</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-I
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew aboard Space Shuttle Space Shuttle Discovery deployed three communications satellites, the Navy SYNCOM IV-4, the Australian AUSSAT, and American Satellite Company's ASC-1.	</value>
+
+		<annotated-sentence>	[[The crew|The_Crew_(Australian_TV_series)]] aboard [[Space Shuttle|SpaceShuttle]] [[Space Shuttle Discovery|Space_Shuttle_Discovery]] deployed [[three|Dave_Barnes]] [[communications satellites|Communications_satellite]], the [[Navy|United_States_Navy]] [[SYNCOM|Syncom]] IV-4, the [[Australian|Australia]] [[AUSSAT|Optus]], and [[American|United_States]] [[Satellite|Communications_satellite]] [[Company|Company]]'s ASC-1.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[The crew|The_Crew_(Australian_TV_series)]] aboard [[Space Shuttle|SpaceShuttle]] [[Space Shuttle Discovery|Space_Shuttle_Discovery]] deployed [[three|Dave_Barnes]] communications satellites, the Navy SYNCOM IV-4, the [[Australian|Australia]] [[AUSSAT|Optus]], and [[American|United_States]] Satellite [[Company|Company]]'s ASC-1.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(deployed/VBD-9,crew/NN-2)
+				nn(Discovery/NNP-8,Space/NN-4)
+				nn(Discovery/NNP-8,Shuttle/NNP-5)
+				nn(Discovery/NNP-8,Space/NNP-6)
+				nn(Discovery/NNP-8,Shuttle/NNP-7)
+				prep_aboard(crew/NN-2,Discovery/NNP-8)
+				num(satellites/NNS-12,three/CD-10)
+				nn(satellites/NNS-12,communications/NNS-11)
+				dobj(deployed/VBD-9,satellites/NNS-12)
+				det(IV-4/NN-17,the/DT-14)
+				nn(IV-4/NN-17,Navy/NNP-15)
+				nn(IV-4/NN-17,SYNCOM/NNP-16)
+				dobj(deployed/VBD-9,IV-4/NN-17)
+				conj_and(satellites/NNS-12,IV-4/NN-17)
+				det(AUSSAT/NNP-21,the/DT-19)
+				amod(AUSSAT/NNP-21,Australian/JJ-20)
+				dobj(deployed/VBD-9,AUSSAT/NNP-21)
+				conj_and(satellites/NNS-12,AUSSAT/NNP-21)
+				nn(Company/NNP-26,American/NNP-24)
+				nn(Company/NNP-26,Satellite/NNP-25)
+				poss(ASC-1/NN-28,Company/NNP-26)
+				dobj(deployed/VBD-9,ASC-1/NN-28)
+				conj_and(satellites/NNS-12,ASC-1/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Crew_(Australian_TV_series)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>three</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dave_Barnes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communications satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SYNCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Syncom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Australian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Australia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AUSSAT</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Optus</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Crew_(Australian_TV_series) http://dbpedia.org/property/country http://dbpedia.org/resource/Australia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle_Discovery http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SpaceShuttle
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Dave_Barnes http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Optus http://dbpedia.org/ontology/location http://dbpedia.org/resource/Australia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Optus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Company
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_Frederick_Fisher http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They also performed a successful on-orbit rendezvous with the ailing 15,400 pound SYNCOM IV-3 satellite, and two EVAs (space walks) by Fisher and van Hoften to repair it, including the longest space walk in history (at that time).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-3,They/PRP-1)
+				advmod(performed/VBD-3,also/RB-2)
+				det(rendezvous/NN-7,a/DT-4)
+				amod(rendezvous/NN-7,successful/JJ-5)
+				amod(rendezvous/NN-7,on-orbit/JJ-6)
+				dobj(performed/VBD-3,rendezvous/NN-7)
+				prep_with(performed/VBD-3,the/DT-9)
+				amod(the/DT-9,ailing/VBG-10)
+				num(SYNCOM/NNP-13,15,400/CD-11)
+				nn(SYNCOM/NNP-13,pound/NN-12)
+				nsubj(repair/VB-30,SYNCOM/NNP-13)
+				nn(satellite/NN-15,IV-3/NN-14)
+				dep(SYNCOM/NNP-13,satellite/NN-15)
+				num(EVAs/NNS-19,two/CD-18)
+				conj_and(SYNCOM/NNP-13,EVAs/NNS-19)
+				nsubj(repair/VB-30,EVAs/NNS-19)
+				nsubj(walks/VBZ-22,space/NN-21)
+				dep(SYNCOM/NNP-13,walks/VBZ-22)
+				nn(Hoften/NNP-28,Fisher/NNP-25)
+				conj_and(Fisher/NNP-25,van/NNP-27)
+				nn(Hoften/NNP-28,van/NNP-27)
+				prep_by(SYNCOM/NNP-13,Hoften/NNP-28)
+				aux(repair/VB-30,to/TO-29)
+				infmod(the/DT-9,repair/VB-30)
+				dobj(repair/VB-30,it/PRP-31)
+				det(walk/NN-37,the/DT-34)
+				amod(walk/NN-37,longest/JJS-35)
+				nn(walk/NN-37,space/NN-36)
+				prep_including(repair/VB-30,walk/NN-37)
+				prep_in(walk/NN-37,history/NN-39)
+				dep(repair/VB-30,at/IN-41)
+				det(time/NN-43,that/DT-42)
+				pobj(at/IN-41,time/NN-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Discovery completed 112 orbits of the Earth before landing at Edwards Air Force Base, California, on September 3, 1985.	</value>
+
+		<annotated-sentence>	Discovery completed 112 orbits of [[the Earth|Earth]] before [[landing|Amphibious_warfare]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on [[September|September]] 3, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	Discovery completed 112 orbits of the Earth before landing at Edwards Air Force Base, California, on September 3, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Discovery/NNP-1)
+				num(orbits/NNS-4,112/CD-3)
+				dobj(completed/VBD-2,orbits/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_of(orbits/NNS-4,Earth/NNP-7)
+				prep_before(completed/VBD-2,landing/NN-9)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_at(landing/NN-9,Base/NNP-14)
+				appos(Base/NNP-14,California/NNP-16)
+				prep_on(completed/VBD-2,September/NNP-19)
+				num(September/NNP-19,3/CD-20)
+				num(September/NNP-19,1985/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher logged over 170 hours in space, including 11 hours and 52 minutes of Extravehicular Activity (EVA).	</value>
+
+		<annotated-sentence>	Fisher logged over 170 [[hours|Hour]] in [[space|Extra-vehicular_activity]], including 11 [[hours|Hour]] and 52 [[minutes|Minute]] of [[Extravehicular Activity|Extra-vehicular_activity]] ([[EVA|Extra-vehicular_activity]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Fisher logged over 170 hours in space, including 11 hours and 52 minutes of Extravehicular Activity (EVA).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,Fisher/NNP-1)
+				num(hours/NNS-5,170/CD-4)
+				prep_over(logged/VBD-2,hours/NNS-5)
+				prep_in(logged/VBD-2,space/NN-7)
+				num(hours/NNS-11,11/CD-10)
+				prep_including(logged/VBD-2,hours/NNS-11)
+				num(minutes/NNS-14,52/CD-13)
+				prep_including(logged/VBD-2,minutes/NNS-14)
+				conj_and(hours/NNS-11,minutes/NNS-14)
+				amod(Activity/NN-17,Extravehicular/JJ-16)
+				prep_of(minutes/NNS-14,Activity/NN-17)
+				appos(Activity/NN-17,EVA/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Extravehicular Activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EVA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fisher left NASA in 1992 and is currently in the private practice of Emergency Medicine in Houston, Texas as well as an Assistant Professor of Emergency Medicine at the University of Texas Health Science Center at Houston.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,Fisher/NNP-1)
+				nsubj(is/VBZ-7,Fisher/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				prep_in(NASA/NNP-3,1992/CD-5)
+				conj_and(left/VBD-2,is/VBZ-7)
+				advmod(is/VBZ-7,currently/RB-8)
+				det(practice/NN-12,the/DT-10)
+				amod(practice/NN-12,private/JJ-11)
+				prep_in(is/VBZ-7,practice/NN-12)
+				nn(Medicine/NN-15,Emergency/NN-14)
+				prep_of(practice/NN-12,Medicine/NN-15)
+				nn(Texas/NNP-19,Houston/NNP-17)
+				prep_in(Medicine/NN-15,Texas/NNP-19)
+				det(Professor/NNP-25,an/DT-23)
+				nn(Professor/NNP-25,Assistant/NNP-24)
+				prep_of(practice/NN-12,Professor/NNP-25)
+				conj_and(Medicine/NN-15,Professor/NNP-25)
+				nn(Medicine/NNP-28,Emergency/NNP-27)
+				prep_of(Professor/NNP-25,Medicine/NNP-28)
+				det(University/NNP-31,the/DT-30)
+				prep_at(is/VBZ-7,University/NNP-31)
+				nn(Center/NNP-36,Texas/NNP-33)
+				nn(Center/NNP-36,Health/NNP-34)
+				nn(Center/NNP-36,Science/NNP-35)
+				prep_of(University/NNP-31,Center/NNP-36)
+				prep_at(Center/NNP-36,Houston/NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

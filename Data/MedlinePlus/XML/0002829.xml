@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Taking in more calories than your body burns can lead to obesity.</value>
+		<pattern_crowdsource> Taking in more calories than your body [[burns|C0006434]] can lead to [[obesity|C0028754]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>calories</surface-form>
+				<RDF-ID>C0439259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>burns</surface-form>
+				<RDF-ID>C0006434</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obesity</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006434 CAUSES C0028754</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A person may be obese, follow an unhealthy diet, and have an eating disorder all at the same time.</value>
+		<pattern_crowdsource> A [[person|C0027361]] may be obese, follow an unhealthy diet, and have an [[eating disorder|C0013473]] all at the same time.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diet</surface-form>
+				<RDF-ID>C0012155</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eating disorder</surface-form>
+				<RDF-ID>C0013473</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013473 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Sometimes, medical problems or treatments cause weight gain, including:  - Underactive thyroid (hypothyroidism)  - Medicines such as birth control pills, antidepressants, and antipsychotics    Other things that can cause weight gain are:  - Quitting smoking.</value>
+		<pattern_crowdsource> Sometimes, medical problems or treatments cause weight gain, including:  - Underactive thyroid (hypothyroidism)  - [[Medicines|C0013227]] such as [[birth control pills|C0009905]], [[antidepressants|C0003289]], and [[antipsychotics|C0040615]]    Other things that can cause [[weight gain|C0043094]] are:  - Quitting smoking.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medical</surface-form>
+				<RDF-ID>C0205476</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight gain</surface-form>
+				<RDF-ID>C0043094</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Underactive</surface-form>
+				<RDF-ID>C0391853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hypothyroidism</surface-form>
+				<RDF-ID>C0020676</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>birth control pills</surface-form>
+				<RDF-ID>C0009905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antidepressants</surface-form>
+				<RDF-ID>C0003289</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antipsychotics</surface-form>
+				<RDF-ID>C0040615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight gain</surface-form>
+				<RDF-ID>C0043094</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009905 ISA C0013227</triple>
+			<triple>C0040615 ISA C0013227</triple>
+			<triple>C0003289 ISA C0013227</triple>
+			<triple>C0040615 CAUSES C0043094</triple>
+			<triple>C0003289 CAUSES C0043094</triple>
+			<triple>C0009905 CAUSES C0043094</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The health care provider will perform a physical exam and ask about your medical history, eating habits, and exercise routine.</value>
+		<pattern_crowdsource> The [[health care provider|C0018724]] will perform a [[physical exam|C0031809]] and ask about your medical history, eating habits, and exercise routine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medical history</surface-form>
+				<RDF-ID>C0262926</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eating habits</surface-form>
+				<RDF-ID>C1266864</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>routine</surface-form>
+				<RDF-ID>C0205547</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>SURGERY   Bariatric (weight-loss) surgery can reduce the risk of certain diseases in people with severe obesity.</value>
+		<pattern_crowdsource> SURGERY   Bariatric (weight-loss) [[surgery|C0543467]] can reduce the risk of certain [[diseases|C0012634]] in [[people|C0027361]] with [[severe obesity|C0028756]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>SURGERY</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight-loss</surface-form>
+				<RDF-ID>C0043096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe obesity</surface-form>
+				<RDF-ID>C0028756</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 PREVENTS C0012634</triple>
+			<triple>C0012634 PROCESS_OF C0027361</triple>
+			<triple>C0028756 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These risks include:  - Arthritis  - Diabetes  - Heart disease  - High blood pressure  - Sleep apnea  - Some cancers  - Stroke    Surgery may help people who have been very obese for 5 years or more and have not lost weight from other treatments, such as diet, exercise, or medicine.</value>
+		<pattern_crowdsource> These risks include:  - Arthritis  - Diabetes  - Heart disease  - High blood pressure  - Sleep apnea  - Some cancers  - Stroke    Surgery may help [[people|C0027361]] who have been very obese for 5 years or more and have not [[lost weight|C0043096]] from other treatments, such as diet, exercise, or medicine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Arthritis</surface-form>
+				<RDF-ID>C0003864</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sleep apnea</surface-form>
+				<RDF-ID>C0037315</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancers  - Stroke    Surgery</surface-form>
+				<RDF-ID>C0920424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very</surface-form>
+				<RDF-ID>C0442824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>C0439234</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lost weight</surface-form>
+				<RDF-ID>C0043096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diet</surface-form>
+				<RDF-ID>C0012155</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0025118</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043096 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Surgery alone is not the answer for weight loss.</value>
+		<pattern_crowdsource> [[Surgery|C0543467]] alone is not the answer for [[weight loss|C0043096]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight loss</surface-form>
+				<RDF-ID>C0043096</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0043096</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A TSH test measures the amount of thyroid stimulating hormone (TSH) in your blood.</value>
+		<pattern_crowdsource> A TSH test measures the amount of [[thyroid stimulating hormone|C0040160]] (TSH) in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>TSH</surface-form>
+				<RDF-ID>C0040160</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid stimulating hormone</surface-form>
+				<RDF-ID>C0040160</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0040160</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>TSH is produced by the pituitary gland.</value>
+		<pattern_crowdsource> [[TSH|C0040160]] is produced by the [[pituitary gland|C0032005]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>TSH</surface-form>
+				<RDF-ID>C0040160</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032005 PRODUCES C0040160</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

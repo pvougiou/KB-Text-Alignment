@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>HCG is a hormone produced during pregnancy.</value>
+		<pattern_crowdsource> [[HCG|C1141639]] is a [[hormone|C0019932]] produced during [[pregnancy|C0032961]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>HCG</surface-form>
+				<RDF-ID>C1141639</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pregnancy</surface-form>
+				<RDF-ID>C0032961</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1141639 ISA C0019932</triple>
+			<triple>C1141639 CAUSES C0032961</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Urine pregnancy tests will only be positive when you have enough HCG in your blood.</value>
+		<pattern_crowdsource> Urine pregnancy tests will only be positive when you have enough [[HCG|C1141639]] in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Urine pregnancy tests</surface-form>
+				<RDF-ID>C0430056</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>positive</surface-form>
+				<RDF-ID>C1446409</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HCG</surface-form>
+				<RDF-ID>C1141639</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C1141639</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

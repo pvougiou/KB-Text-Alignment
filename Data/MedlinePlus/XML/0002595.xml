@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Mesenteric angiography is a test used took look at the blood vessels that supply the small and large intestines.</value>
+		<pattern_crowdsource> [[Mesenteric|C0025474]] [[angiography|C0002978]] is a test used took look at the [[blood vessels|C0005847]] that supply the small and large intestines.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mesenteric</surface-form>
+				<RDF-ID>C0025474</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>angiography</surface-form>
+				<RDF-ID>C0002978</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large intestines</surface-form>
+				<RDF-ID>C0009368</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025474 LOCATION_OF C0002978</triple>
+			<triple>C0005847 LOCATION_OF C0002978</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Arteries are blood vessels that carry blood away from the heart.</value>
+		<pattern_crowdsource> Arteries are [[blood vessels|C0005847]] that carry [[blood|C0005767]] away from the heart.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 PART_OF C0005847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is most often done in the radiology area in a hospital.</value>
+		<pattern_crowdsource> This [[test|C0039593]] is most often done in the radiology area in a [[hospital|C0019994]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>radiology</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>area</surface-form>
+				<RDF-ID>C0205146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019994 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The doctor uses x-rays as a guide.</value>
+		<pattern_crowdsource> The [[doctor|C0031831]] uses [[x-rays|C0043299]] as a guide.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-rays</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043299 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

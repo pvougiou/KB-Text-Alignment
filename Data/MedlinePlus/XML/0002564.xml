@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Melanoma of the eye</value>
+		<pattern_crowdsource> [[Melanoma|C0025202]] of the [[eye|C0015392]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Melanoma</surface-form>
+				<RDF-ID>C0025202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025202 PART_OF C0015392</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Melanoma of the eye is cancer that occurs in various parts of the eye.</value>
+		<pattern_crowdsource> [[Melanoma|C0025202]] of the [[eye|C0015392]] is [[cancer|C0006826]] that occurs in various parts of the [[eye|C0015392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Melanoma</surface-form>
+				<RDF-ID>C0025202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parts</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025202 ISA C0006826</triple>
+			<triple>C0025202 PART_OF C0015392</triple>
+			<triple>C0006826 PART_OF C0015392</triple>
+			<triple>C0025202 PART_OF C0015392</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

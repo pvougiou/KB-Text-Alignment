@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This is an infection of the prostate gland.</value>
+		<pattern_crowdsource> This is an [[infection|C0009450]] of the [[prostate gland|C0033572]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate gland</surface-form>
+				<RDF-ID>C0033572</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033572 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Chronic prostatitis is treated with antibiotics for 4 to 12 weeks or longer.</value>
+		<pattern_crowdsource> [[Chronic prostatitis|C0085696]] is treated with [[antibiotics|C0003232]] for 4 to 12 weeks or longer.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Chronic prostatitis</surface-form>
+				<RDF-ID>C0085696</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weeks</surface-form>
+				<RDF-ID>C0439230</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>longer</surface-form>
+				<RDF-ID>C0205166</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0085696</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is harder for antibiotics to get into prostate tissue to treat the infection.</value>
+		<pattern_crowdsource> It is harder for [[antibiotics|C0003232]] to get into prostate tissue to treat the [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>harder</surface-form>
+				<RDF-ID>C0018599</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate tissue</surface-form>
+				<RDF-ID>C1514521</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Antibiotics may cause side effects.</value>
+		<pattern_crowdsource> [[Antibiotics|C0003232]] may cause [[side effects|C0879626]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>side effects</surface-form>
+				<RDF-ID>C0879626</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 CAUSES C0879626</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These include nausea or vomiting, diarrhea, and other symptoms.</value>
+		<pattern_crowdsource> These include nausea or [[vomiting|C0042963]], [[diarrhea|C0011991]], and other [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>nausea</surface-form>
+				<RDF-ID>C0027497</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diarrhea</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011991 ISA C1457887</triple>
+			<triple>C1457887 ISA C0011991</triple>
+			<triple>C1457887 ISA C0042963</triple>
+			<triple>C0042963 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Nonsteroidal anti-inflammatory medicines (NSAIDs), such as ibuprofen or naproxen, may help with pain or discomfort.</value>
+		<pattern_crowdsource> Nonsteroidal anti-inflammatory [[medicines|C0013227]] ([[NSAIDs|C0003211]]), such as ibuprofen or naproxen, may help with pain or discomfort.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>anti-inflammatory</surface-form>
+				<RDF-ID>C1515999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>NSAIDs</surface-form>
+				<RDF-ID>C0003211</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003211 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This helps flush bacteria from the bladder.</value>
+		<pattern_crowdsource> This helps flush [[bacteria|C0004611]] from the [[bladder|C0005682]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>flush</surface-form>
+				<RDF-ID>C0016382</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005682 LOCATION_OF C0004611</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,3934 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Craig Adamson (born March 3, 1946) is a former NASA astronaut and retired Colonel of the United States Army.	</value>
+
+		<annotated-sentence>	[[James Craig Adamson|James_C._Adamson]] (born March 3, 1946) is a former [[NASA|NASA]] [[astronaut|Astronaut]] and retired [[Colonel|Colonel]] of [[the United States Army|United_States_Army]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[James Craig Adamson|James_C._Adamson]] (born March 3, 1946) is a former [[NASA|NASA]] [[astronaut|Astronaut]] and retired Colonel of [[the United States Army|United_States_Army]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Adamson/NNP-3,James/NNP-1)
+				nn(Adamson/NNP-3,Craig/NNP-2)
+				nsubj(astronaut/NN-15,Adamson/NNP-3)
+				nsubj(retired/VBD-17,Adamson/NNP-3)
+				dep(Adamson/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,March/NNP-6)
+				num(March/NNP-6,3/CD-7)
+				num(March/NNP-6,1946/CD-9)
+				cop(astronaut/NN-15,is/VBZ-11)
+				det(astronaut/NN-15,a/DT-12)
+				amod(astronaut/NN-15,former/JJ-13)
+				nn(astronaut/NN-15,NASA/NNP-14)
+				conj_and(astronaut/NN-15,retired/VBD-17)
+				dobj(retired/VBD-17,Colonel/NNP-18)
+				det(Army/NNP-23,the/DT-20)
+				nn(Army/NNP-23,United/NNP-21)
+				nn(Army/NNP-23,States/NNPS-22)
+				prep_of(Colonel/NNP-18,Army/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Craig Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married with 3 children.	</value>
+
+		<annotated-sentence>	He is married with 3 [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married with 3 children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,3/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	James Adamson flew on two missions, STS-28 and STS-43, and completed 263 orbits and 334 hours in space.	</value>
+
+		<annotated-sentence>	[[James Adamson|James_Adamson]] flew on two missions, STS-28 and STS-43, and completed 263 orbits and 334 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	James Adamson flew on two missions, STS-28 and STS-43, and completed 263 orbits and 334 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Adamson/NNP-2,James/NNP-1)
+				nsubj(flew/VBD-3,Adamson/NNP-2)
+				nsubj(completed/VBD-13,Adamson/NNP-2)
+				num(missions/NNS-6,two/CD-5)
+				prep_on(flew/VBD-3,missions/NNS-6)
+				prep_on(flew/VBD-3,STS-28/NN-8)
+				conj_and(missions/NNS-6,STS-28/NN-8)
+				prep_on(flew/VBD-3,STS-43/NN-10)
+				conj_and(missions/NNS-6,STS-43/NN-10)
+				conj_and(flew/VBD-3,completed/VBD-13)
+				num(orbits/NNS-15,263/CD-14)
+				dobj(completed/VBD-13,orbits/NNS-15)
+				num(hours/NNS-18,334/CD-17)
+				dobj(completed/VBD-13,hours/NNS-18)
+				conj_and(orbits/NNS-15,hours/NNS-18)
+				prep_in(completed/VBD-13,space/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After retiring from NASA, he was recruited by Allied Signal (later merged with Honeywell) where he retired in 2001.	</value>
+
+		<annotated-sentence>	After retiring from [[NASA|NASA]], he was recruited by [[Allied Signal|AlliedSignal]] (later merged with [[Honeywell|Honeywell]]) where he retired in [[2001|2001_Mars_Odyssey]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After retiring from [[NASA|NASA]], he was recruited by [[Allied Signal|AlliedSignal]] (later merged with [[Honeywell|Honeywell]]) where he retired in [[2001|2001_Mars_Odyssey]].	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(recruited/VBN-8,retiring/VBG-2)
+				prep_from(retiring/VBG-2,NASA/NNP-4)
+				nsubjpass(recruited/VBN-8,he/PRP-6)
+				auxpass(recruited/VBN-8,was/VBD-7)
+				nn(Signal/NNP-11,Allied/NNP-10)
+				agent(recruited/VBN-8,Signal/NNP-11)
+				advmod(merged/VBN-14,later/RB-13)
+				dep(Signal/NNP-11,merged/VBN-14)
+				prep_with(merged/VBN-14,Honeywell/NNP-16)
+				advmod(retired/VBD-20,where/WRB-18)
+				nsubj(retired/VBD-20,he/PRP-19)
+				rcmod(Signal/NNP-11,retired/VBD-20)
+				prep_in(retired/VBD-20,2001/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Allied Signal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AlliedSignal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Honeywell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honeywell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001_Mars_Odyssey</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/2001_Mars_Odyssey http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/AlliedSignal http://dbpedia.org/ontology/successor http://dbpedia.org/resource/Honeywell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Honeywell http://dbpedia.org/ontology/predecessor http://dbpedia.org/resource/AlliedSignal
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson has logged over 3,000 hours in over 30 different types of helicopters and airplanes.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] has logged over [[3,000|Harvest:_3,000_Years]] [[hours|Hour]] in over 30 different types of [[helicopters and airplanes|Airplanes_(song)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson has logged over 3,000 hours in over 30 different types of helicopters and airplanes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,Adamson/NNP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,3,000/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				dep(logged/VBN-3,in/IN-7)
+				num(types/NNS-11,30/CD-9)
+				amod(types/NNS-11,different/JJ-10)
+				prep_over(logged/VBN-3,types/NNS-11)
+				prep_of(types/NNS-11,helicopters/NNS-13)
+				prep_of(types/NNS-11,airplanes/NNS-15)
+				conj_and(helicopters/NNS-13,airplanes/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>3,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvest:_3,000_Years</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>helicopters and airplanes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airplanes_(song)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson was born in Warsaw, New York.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] was born in [[Warsaw|Warsaw]], [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson was born in Warsaw, New York.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Adamson/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Warsaw/NNP-5)
+				nn(York/NNP-8,New/NNP-7)
+				appos(Warsaw/NNP-5,York/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Warsaw</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Warsaw</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He currently resides in Fishersville, Virginia with his wife Ellen and two of his three children.	</value>
+
+		<annotated-sentence>	He currently resides in [[Fishersville , Virginia|North_Grosvenor_Dale]]with his [[wife|Wife]] Ellen and two of his three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He currently resides in Fishersville, Virginia with his wife Ellen and two of his three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(resides/VBZ-3,He/PRP-1)
+				advmod(resides/VBZ-3,currently/RB-2)
+				nn(Virginia/NNP-7,Fishersville/NNP-5)
+				prep_in(resides/VBZ-3,Virginia/NNP-7)
+				poss(Ellen/NNP-11,his/PRP$-9)
+				nn(Ellen/NNP-11,wife/NN-10)
+				prep_with(resides/VBZ-3,Ellen/NNP-11)
+				prep_with(resides/VBZ-3,two/CD-13)
+				conj_and(Ellen/NNP-11,two/CD-13)
+				poss(children/NNS-17,his/PRP$-15)
+				num(children/NNS-17,three/CD-16)
+				prep_of(two/CD-13,children/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fishersville , Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Grosvenor_Dale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson completed his Bachelor of Science in Engineering and was commissioned a Second Lieutenant in the U.S. Army at United States Military Academy at West Point, New York in 1969.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Adamson/NN-1)
+				nsubjpass(commissioned/VBN-11,Adamson/NN-1)
+				poss(Bachelor/NN-4,his/PRP$-3)
+				dobj(completed/VBD-2,Bachelor/NN-4)
+				prep_of(Bachelor/NN-4,Science/NN-6)
+				prep_in(completed/VBD-2,Engineering/NNP-8)
+				auxpass(commissioned/VBN-11,was/VBD-10)
+				conj_and(completed/VBD-2,commissioned/VBN-11)
+				det(Lieutenant/NN-14,a/DT-12)
+				amod(Lieutenant/NN-14,Second/JJ-13)
+				dobj(commissioned/VBN-11,Lieutenant/NN-14)
+				det(Army/NNP-18,the/DT-16)
+				nn(Army/NNP-18,U.S./NNP-17)
+				prep_in(Lieutenant/NN-14,Army/NNP-18)
+				nn(Academy/NNP-23,United/NNP-20)
+				nn(Academy/NNP-23,States/NNPS-21)
+				nn(Academy/NNP-23,Military/NNP-22)
+				prep_at(commissioned/VBN-11,Academy/NNP-23)
+				nn(Point/NNP-26,West/NNP-25)
+				prep_at(commissioned/VBN-11,Point/NNP-26)
+				nn(York/NNP-29,New/NNP-28)
+				appos(Point/NNP-26,York/NNP-29)
+				prep_in(York/NNP-29,1969/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1977, he completed a Master of Science degree in Aerospace Engineering at Princeton University.	</value>
+
+		<annotated-sentence>	In [[1977|1977]], he completed [[a Master of Science degree|Master%27s_degree]] in [[Aerospace Engineering|Aerospace_engineering]] at [[Princeton University|Princeton_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1977, he completed a Master of Science degree in Aerospace Engineering at Princeton University.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(completed/VBD-5,1977/CD-2)
+				nsubj(completed/VBD-5,he/PRP-4)
+				det(Master/NN-7,a/DT-6)
+				dobj(completed/VBD-5,Master/NN-7)
+				nn(degree/NN-10,Science/NNP-9)
+				prep_of(Master/NN-7,degree/NN-10)
+				nn(Engineering/NNP-13,Aerospace/NNP-12)
+				prep_in(completed/VBD-5,Engineering/NNP-13)
+				nn(University/NNP-16,Princeton/NNP-15)
+				prep_at(Engineering/NNP-13,University/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Princeton University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Princeton_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2010, he completed his Chartered Director certification, graduating from The Directors College, (a joint venture between McMaster University and the Conference Board of Canada.	</value>
+
+		<annotated-sentence>	In [[2010|2010]], he completed his [[Chartered|Chartered_Semiconductor_Manufacturing]] [[Director|Chief_executive_officer]] [[certification|Certification]], graduating from The [[Directors|Chief_executive_officer]] [[College|College]], ([[a joint venture|Joint_venture]] between McMaster [[University|University]] and [[the Conference Board of Canada|Conference_Board_of_Canada]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2010, he completed his Chartered Director certification, graduating from The Directors College, (a joint venture between McMaster University and the Conference Board of Canada.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(completed/VBD-5,2010/CD-2)
+				nsubj(completed/VBD-5,he/PRP-4)
+				poss(certification/NN-9,his/PRP$-6)
+				nn(certification/NN-9,Chartered/NNP-7)
+				nn(certification/NN-9,Director/NNP-8)
+				dobj(completed/VBD-5,certification/NN-9)
+				partmod(completed/VBD-5,graduating/VBG-11)
+				det(College/NNP-15,The/DT-13)
+				nn(College/NNP-15,Directors/NNS-14)
+				prep_from(graduating/VBG-11,College/NNP-15)
+				det(venture/NN-20,a/DT-18)
+				amod(venture/NN-20,joint/JJ-19)
+				dep(between/IN-21,venture/NN-20)
+				dep(College/NNP-15,between/IN-21)
+				nn(University/NNP-23,McMaster/NNP-22)
+				pobj(between/IN-21,University/NNP-23)
+				det(Board/NNP-27,the/DT-25)
+				nn(Board/NNP-27,Conference/NNP-26)
+				dep(College/NNP-15,Board/NNP-27)
+				conj_and(between/IN-21,Board/NNP-27)
+				prep_of(Board/NNP-27,Canada/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chartered</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chartered_Semiconductor_Manufacturing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Director</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chief_executive_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>certification</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Certification</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Directors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chief_executive_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>College</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/College</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a joint venture</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_venture</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Conference Board of Canada</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Conference_Board_of_Canada</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Additionally he has completed undergraduate and graduate pilot training, paratrooper training, Arctic water and mountain survival training, Nuclear weapons training, basic and advanced officer training, U.S. Army Command and General Staff College, and the U.S. Naval Test Pilot School.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(completed/VBN-4,Additionally/RB-1)
+				nsubj(completed/VBN-4,he/PRP-2)
+				aux(completed/VBN-4,has/VBZ-3)
+				dobj(completed/VBN-4,undergraduate/JJ-5)
+				amod(training/NN-9,graduate/JJ-7)
+				nn(training/NN-9,pilot/NN-8)
+				dobj(completed/VBN-4,training/NN-9)
+				conj_and(undergraduate/JJ-5,training/NN-9)
+				nn(training/NN-12,paratrooper/NN-11)
+				dobj(completed/VBN-4,training/NN-12)
+				conj_and(undergraduate/JJ-5,training/NN-12)
+				nn(water/NN-15,Arctic/NNP-14)
+				dobj(completed/VBN-4,water/NN-15)
+				conj_and(undergraduate/JJ-5,water/NN-15)
+				nn(training/NN-19,mountain/NN-17)
+				nn(training/NN-19,survival/NN-18)
+				conj_and(undergraduate/JJ-5,training/NN-19)
+				conj_and(water/NN-15,training/NN-19)
+				amod(training/NN-23,Nuclear/JJ-21)
+				nn(training/NN-23,weapons/NNS-22)
+				dobj(completed/VBN-4,training/NN-23)
+				conj_and(undergraduate/JJ-5,training/NN-23)
+				amod(training/NN-29,basic/JJ-25)
+				conj_and(basic/JJ-25,advanced/JJ-27)
+				amod(training/NN-29,advanced/JJ-27)
+				nn(training/NN-29,officer/NN-28)
+				dobj(completed/VBN-4,training/NN-29)
+				conj_and(undergraduate/JJ-5,training/NN-29)
+				nn(Command/NN-33,U.S./NNP-31)
+				nn(Command/NN-33,Army/NNP-32)
+				dobj(completed/VBN-4,Command/NN-33)
+				conj_and(undergraduate/JJ-5,Command/NN-33)
+				nn(College/NNP-37,General/NNP-35)
+				nn(College/NNP-37,Staff/NNP-36)
+				conj_and(undergraduate/JJ-5,College/NNP-37)
+				conj_and(Command/NN-33,College/NNP-37)
+				det(School/NNP-45,the/DT-40)
+				nn(School/NNP-45,U.S./NNP-41)
+				nn(School/NNP-45,Naval/NNP-42)
+				nn(School/NNP-45,Test/NNP-43)
+				nn(School/NNP-45,Pilot/NN-44)
+				dobj(completed/VBN-4,School/NNP-45)
+				conj_and(undergraduate/JJ-5,School/NNP-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a military test pilot, Adamson has flown research aircraft at Edwards Air Force Base, Princeton University, West Point, Naval Air Station Patuxent River, and NASA Houston.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(pilot/NN-5,a/DT-2)
+				amod(pilot/NN-5,military/JJ-3)
+				nn(pilot/NN-5,test/NN-4)
+				prep_as(flown/VBN-9,pilot/NN-5)
+				nsubj(flown/VBN-9,Adamson/NNP-7)
+				aux(flown/VBN-9,has/VBZ-8)
+				nn(aircraft/NN-11,research/NN-10)
+				dobj(flown/VBN-9,aircraft/NN-11)
+				nn(Base/NNP-16,Edwards/NNP-13)
+				nn(Base/NNP-16,Air/NNP-14)
+				nn(Base/NNP-16,Force/NNP-15)
+				prep_at(flown/VBN-9,Base/NNP-16)
+				nn(University/NNP-19,Princeton/NNP-18)
+				prep_at(flown/VBN-9,University/NNP-19)
+				conj_and(Base/NNP-16,University/NNP-19)
+				nn(Point/NNP-22,West/NNP-21)
+				prep_at(flown/VBN-9,Point/NNP-22)
+				conj_and(Base/NNP-16,Point/NNP-22)
+				nn(River/NNP-28,Naval/NNP-24)
+				nn(River/NNP-28,Air/NNP-25)
+				nn(River/NNP-28,Station/NNP-26)
+				nn(River/NNP-28,Patuxent/NNP-27)
+				prep_at(flown/VBN-9,River/NNP-28)
+				conj_and(Base/NNP-16,River/NNP-28)
+				nn(Houston/NNP-32,NASA/NNP-31)
+				prep_at(flown/VBN-9,Houston/NNP-32)
+				conj_and(Base/NNP-16,Houston/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the Vietnam War, he flew in the IV Corps area and in Cambodia with the Air Cavalry as Scout Pilot, Team Lead, and Air Mission Commander.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(War/NNP-4,the/DT-2)
+				nn(War/NNP-4,Vietnam/NNP-3)
+				prep_during(flew/VBD-7,War/NNP-4)
+				nsubj(flew/VBD-7,he/PRP-6)
+				det(area/NN-12,the/DT-9)
+				num(area/NN-12,IV/CD-10)
+				nn(area/NN-12,Corps/NNP-11)
+				prep_in(flew/VBD-7,area/NN-12)
+				prep_in(flew/VBD-7,Cambodia/NNP-15)
+				conj_and(area/NN-12,Cambodia/NNP-15)
+				det(Cavalry/NNP-19,the/DT-17)
+				nn(Cavalry/NNP-19,Air/NNP-18)
+				prep_with(flew/VBD-7,Cavalry/NNP-19)
+				nn(Pilot/NN-22,Scout/NNP-21)
+				prep_as(Cavalry/NNP-19,Pilot/NN-22)
+				prep_with(flew/VBD-7,Team/NNP-24)
+				conj_and(Cavalry/NNP-19,Team/NNP-24)
+				dep(Team/NNP-24,Lead/JJ-25)
+				nn(Commander/NNP-30,Air/NNP-28)
+				nn(Commander/NNP-30,Mission/NNP-29)
+				prep_with(flew/VBD-7,Commander/NNP-30)
+				conj_and(Cavalry/NNP-19,Commander/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also flown with several peacetime flight units at Fort Bliss, Texas, West Point and Houston, Texas.	</value>
+
+		<annotated-sentence>	He has also flown with several [[peacetime|Peacetime]] [[flight|Flight]] [[units|UNIT]] at [[Fort Bliss|Fort_Bliss]], [[Texas|Texas]], West Point and Houston, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has also flown with several peacetime flight units at Fort Bliss, Texas, West Point and Houston, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-4,He/PRP-1)
+				aux(flown/VBN-4,has/VBZ-2)
+				advmod(flown/VBN-4,also/RB-3)
+				amod(units/NNS-9,several/JJ-6)
+				nn(units/NNS-9,peacetime/NN-7)
+				nn(units/NNS-9,flight/NN-8)
+				prep_with(flown/VBN-4,units/NNS-9)
+				nn(Bliss/NNP-12,Fort/NNP-11)
+				prep_at(flown/VBN-4,Bliss/NNP-12)
+				prep_at(flown/VBN-4,Texas/NNP-14)
+				conj_and(Bliss/NNP-12,Texas/NNP-14)
+				nn(Point/NNP-17,West/NNP-16)
+				prep_at(flown/VBN-4,Point/NNP-17)
+				conj_and(Bliss/NNP-12,Point/NNP-17)
+				nn(Texas/NNP-21,Houston/NNP-19)
+				prep_at(flown/VBN-4,Texas/NNP-21)
+				conj_and(Bliss/NNP-12,Texas/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>peacetime</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Peacetime</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>units</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/UNIT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fort Bliss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fort_Bliss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following completion of his Master's in aerospace engineering at Princeton University, he became Assistant Professor of Aerodynamics at the U.S. Military Academy at West Point.	</value>
+
+		<annotated-sentence>	Following completion of his [[Master|Teacher]]'s in [[aerospace engineering|Aerospace_engineering]] at [[Princeton University|Princeton_University]], he became [[Assistant Professor|Professor]] of [[Aerodynamics|Aerodynamics]] at the U.S. Military Academy at [[West Point|West_Point,_New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following completion of his [[Master|Teacher]]'s in aerospace engineering at Princeton University, he became [[Assistant Professor|Professor]] of Aerodynamics at the U.S. Military Academy at West Point.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(Professor/NNP-17,completion/NN-2)
+				poss(Master/NN-5,his/PRP$-4)
+				prep_of(completion/NN-2,Master/NN-5)
+				possessive(Master/NN-5,'s/POS-6)
+				nn(engineering/NN-9,aerospace/NN-8)
+				prep_in(Master/NN-5,engineering/NN-9)
+				nn(University/NNP-12,Princeton/NNP-11)
+				prep_at(Master/NN-5,University/NNP-12)
+				nsubj(Professor/NNP-17,he/PRP-14)
+				cop(Professor/NNP-17,became/VBD-15)
+				nn(Professor/NNP-17,Assistant/NNP-16)
+				prep_of(Professor/NNP-17,Aerodynamics/NNPS-19)
+				det(Academy/NNP-24,the/DT-21)
+				nn(Academy/NNP-24,U.S./NNP-22)
+				nn(Academy/NNP-24,Military/NNP-23)
+				prep_at(Professor/NNP-17,Academy/NNP-24)
+				nn(Point/NNP-27,West/NNP-26)
+				prep_at(Professor/NNP-17,Point/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Master</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Teacher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Princeton University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Princeton_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Assistant Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerodynamics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerodynamics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Point,_New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Teacher http://dbpedia.org/property/relatedOccupation http://dbpedia.org/resource/Professor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Professor http://dbpedia.org/property/relatedOccupation http://dbpedia.org/resource/Teacher
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at West Point, he developed and taught courses in Fluid Mechanics, Aerodynamics, Aircraft Performance, and Stability and Control.	</value>
+
+		<annotated-sentence>	While at West Point, he developed and taught courses in [[Fluid Mechanics|Fluid_mechanics]], [[Aerodynamics|Aerodynamics]], [[Aircraft|Aircraft]] [[Performance|Performance]], and [[Stability and Control|United_States_Air_Force_Stability_and_Control_Digital_DATCOM]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at West Point, he developed and taught courses in Fluid Mechanics, Aerodynamics, Aircraft Performance, and Stability and Control.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(developed/VBD-7,at/IN-2)
+				nn(Point/NNP-4,West/NNP-3)
+				pobj(at/IN-2,Point/NNP-4)
+				nsubj(developed/VBD-7,he/PRP-6)
+				nsubj(taught/VBD-9,he/PRP-6)
+				conj_and(developed/VBD-7,taught/VBD-9)
+				dobj(taught/VBD-9,courses/NNS-10)
+				nn(Mechanics/NNPS-13,Fluid/NNP-12)
+				prep_in(taught/VBD-9,Mechanics/NNPS-13)
+				prep_in(taught/VBD-9,Aerodynamics/NNPS-15)
+				conj_and(Mechanics/NNPS-13,Aerodynamics/NNPS-15)
+				nn(Performance/NNP-18,Aircraft/NNP-17)
+				prep_in(taught/VBD-9,Performance/NNP-18)
+				conj_and(Mechanics/NNPS-13,Performance/NNP-18)
+				prep_in(taught/VBD-9,Stability/NN-21)
+				conj_and(Mechanics/NNPS-13,Stability/NN-21)
+				conj_and(Mechanics/NNPS-13,Control/NN-23)
+				conj_and(Stability/NN-21,Control/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fluid Mechanics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_mechanics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerodynamics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerodynamics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Performance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Performance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stability and Control</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Stability_and_Control_Digital_DATCOM</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also developed flight laboratories in aircraft flight testing and completed a text on aircraft performance.	</value>
+
+		<annotated-sentence>	He also developed [[flight|Flight_test]] [[laboratories|Laboratory]] in [[aircraft|Aircraft]] [[flight testing|Flight_test]] and completed [[a text|TEXT]] on [[aircraft|Aircraft]] [[performance|Performance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also developed flight laboratories in aircraft flight testing and completed a text on aircraft performance.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(developed/VBD-3,He/PRP-1)
+				nsubj(completed/VBD-11,He/PRP-1)
+				advmod(developed/VBD-3,also/RB-2)
+				nn(laboratories/NNS-5,flight/NN-4)
+				dobj(developed/VBD-3,laboratories/NNS-5)
+				nn(testing/NN-9,aircraft/NN-7)
+				nn(testing/NN-9,flight/NN-8)
+				prep_in(developed/VBD-3,testing/NN-9)
+				conj_and(developed/VBD-3,completed/VBD-11)
+				det(text/NN-13,a/DT-12)
+				dobj(completed/VBD-11,text/NN-13)
+				nn(performance/NN-16,aircraft/NN-15)
+				prep_on(completed/VBD-11,performance/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>laboratories</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight testing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a text</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/TEXT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>performance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Performance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to being an experimental test pilot and Master Army Aviator, Adamson is also a certified Professional Engineer and licensed commercial pilot.	</value>
+
+		<annotated-sentence>	In [[addition|Addition]] to being an experimental [[test pilot|Test_pilot]] and Master [[Army Aviator|Army_aviation]], [[Adamson|James_C._Adamson]] is also a certified [[Professional Engineer|Professional_Engineer]] and licensed commercial pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	In addition to being an experimental [[test pilot|Test_pilot]] and Master Army Aviator, [[Adamson|James_C._Adamson]] is also a certified Professional Engineer and licensed commercial pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				cop(pilot/NN-8,being/VBG-4)
+				det(pilot/NN-8,an/DT-5)
+				amod(pilot/NN-8,experimental/JJ-6)
+				nn(pilot/NN-8,test/NN-7)
+				prepc_in_addition_to(Engineer/NN-20,pilot/NN-8)
+				nn(Aviator/NNP-12,Master/NN-10)
+				nn(Aviator/NNP-12,Army/NNP-11)
+				conj_and(pilot/NN-8,Aviator/NNP-12)
+				prepc_in_addition_to(Engineer/NN-20,Aviator/NNP-12)
+				nsubj(Engineer/NN-20,Adamson/NNP-14)
+				cop(Engineer/NN-20,is/VBZ-15)
+				advmod(Engineer/NN-20,also/RB-16)
+				det(Engineer/NN-20,a/DT-17)
+				amod(Engineer/NN-20,certified/JJ-18)
+				amod(Engineer/NN-20,Professional/JJ-19)
+				amod(pilot/NN-24,licensed/JJ-22)
+				amod(pilot/NN-24,commercial/JJ-23)
+				conj_and(Engineer/NN-20,pilot/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>addition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Addition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army_aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Professional Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professional_Engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In ground assignments with the Army, Adamson has commanded nuclear-capable missile units in Europe and in the United States.	</value>
+
+		<annotated-sentence>	In ground assignments with [[the Army|United_States_Army]], [[Adamson|James_C._Adamson]] has commanded nuclear-capable [[missile|Missile]] [[units|UNIT]] in [[Europe|Europe]] and in [[the United States|United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In ground assignments with [[the Army|United_States_Army]], [[Adamson|James_C._Adamson]] has commanded nuclear-capable missile units in Europe and in [[the United States|United_States]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(assignments/NNS-3,ground/NN-2)
+				prep_in(commanded/VBN-10,assignments/NNS-3)
+				det(Army/NNP-6,the/DT-5)
+				prep_with(assignments/NNS-3,Army/NNP-6)
+				nsubj(commanded/VBN-10,Adamson/NNP-8)
+				aux(commanded/VBN-10,has/VBZ-9)
+				amod(units/NNS-13,nuclear-capable/JJ-11)
+				nn(units/NNS-13,missile/NN-12)
+				dobj(commanded/VBN-10,units/NNS-13)
+				prep_in(commanded/VBN-10,Europe/NNP-15)
+				det(States/NNPS-20,the/DT-18)
+				nn(States/NNPS-20,United/NNP-19)
+				prep_in(commanded/VBN-10,States/NNPS-20)
+				conj_and(Europe/NNP-15,States/NNPS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>missile</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Missile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>units</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/UNIT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Europe</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Europe</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_Army http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson was employed at the Lyndon B. Johnson Space Center from 1981 to 1992.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] was employed at [[the Lyndon B. Johnson Space Center|Lyndon_B._Johnson_Space_Center]] from [[1981|1981]] to [[1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson was employed at the Lyndon B. Johnson Space Center from 1981 to 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(employed/VBN-3,Adamson/NNP-1)
+				auxpass(employed/VBN-3,was/VBD-2)
+				det(Center/NNP-10,the/DT-5)
+				nn(Center/NNP-10,Lyndon/NNP-6)
+				nn(Center/NNP-10,B./NNP-7)
+				nn(Center/NNP-10,Johnson/NNP-8)
+				nn(Center/NNP-10,Space/NNP-9)
+				prep_at(employed/VBN-3,Center/NNP-10)
+				num(1992/CD-14,1981/CD-12)
+				dep(1992/CD-14,to/TO-13)
+				prep_from(employed/VBN-3,1992/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Lyndon B. Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the Operational Flight Test phase of the Shuttle Program, he served as a research test pilot and aerodynamics officer in Mission Control.	</value>
+
+		<annotated-sentence>	During the Operational [[Flight Test|Flight_test]] phase of [[the Shuttle Program|Space_Shuttle_program]], he served as [[a research test pilot|Test_pilot]] and [[aerodynamics|Aerodynamics]] [[officer|Officer]] in Mission Control.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the Operational Flight Test phase of the Shuttle Program, he served as [[a research test pilot|Test_pilot]] and aerodynamics officer in Mission Control.	</pattern_crowdsource>
+
+
+		<tree>
+				det(phase/NN-6,the/DT-2)
+				nn(phase/NN-6,Operational/NNP-3)
+				nn(phase/NN-6,Flight/NNP-4)
+				nn(phase/NN-6,Test/NNP-5)
+				prep_during(served/VBD-13,phase/NN-6)
+				det(Program/NNP-10,the/DT-8)
+				nn(Program/NNP-10,Shuttle/NNP-9)
+				prep_of(phase/NN-6,Program/NNP-10)
+				nsubj(served/VBD-13,he/PRP-12)
+				det(pilot/NN-18,a/DT-15)
+				nn(pilot/NN-18,research/NN-16)
+				nn(pilot/NN-18,test/NN-17)
+				prep_as(served/VBD-13,pilot/NN-18)
+				nn(officer/NN-21,aerodynamics/NNS-20)
+				prep_as(served/VBD-13,officer/NN-21)
+				conj_and(pilot/NN-18,officer/NN-21)
+				nn(Control/NNP-24,Mission/NNP-23)
+				prep_in(served/VBD-13,Control/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a research test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerodynamics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerodynamics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following completion of the operational test flights he became Guidance Navigation and Control Officer for Shuttle Missions 5 through 11.	</value>
+
+		<annotated-sentence>	Following completion of the operational test [[flights|Flight]] he became [[Guidance Navigation|Flight_controller]] and Control [[Officer|Officer]] for [[Shuttle Missions|List_of_space_shuttle_missions]] 5 through 11.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following completion of the operational test flights he became Guidance Navigation and Control Officer for Shuttle Missions 5 through 11.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(Navigation/NNP-11,completion/NN-2)
+				det(flights/NNS-7,the/DT-4)
+				amod(flights/NNS-7,operational/JJ-5)
+				nn(flights/NNS-7,test/NN-6)
+				prep_of(completion/NN-2,flights/NNS-7)
+				nsubj(Navigation/NNP-11,he/PRP-8)
+				cop(Navigation/NNP-11,became/VBD-9)
+				nn(Navigation/NNP-11,Guidance/NNP-10)
+				nn(Officer/NNP-14,Control/NNP-13)
+				conj_and(Navigation/NNP-11,Officer/NNP-14)
+				nn(Missions/NNPS-17,Shuttle/NNP-16)
+				prep_for(Navigation/NNP-11,Missions/NNPS-17)
+				npadvmod(Navigation/NNP-11,5/CD-18)
+				prep_through(Navigation/NNP-11,11/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Guidance Navigation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle Missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As research test pilot he also conducted airborne remote sensing studies in Biospheric Research.	</value>
+
+		<annotated-sentence>	As [[research test pilot|Test_pilot]] he also conducted airborne remote sensing studies in [[Biospheric|Biosphere]] [[Research|Research]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As [[research test pilot|Test_pilot]] he also conducted airborne remote sensing studies in Biospheric Research.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(pilot/NN-4,research/NN-2)
+				nn(pilot/NN-4,test/NN-3)
+				prep_as(conducted/VBD-7,pilot/NN-4)
+				nsubj(conducted/VBD-7,he/PRP-5)
+				advmod(conducted/VBD-7,also/RB-6)
+				amod(studies/NNS-11,airborne/JJ-8)
+				amod(studies/NNS-11,remote/JJ-9)
+				amod(studies/NNS-11,sensing/VBG-10)
+				dobj(conducted/VBD-7,studies/NNS-11)
+				nn(Research/NNP-14,Biospheric/NNP-13)
+				prep_in(studies/NNS-11,Research/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Biospheric</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biosphere</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA as an astronaut in 1984, Adamson became qualified for mission assignment on Space Shuttle flights.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] as [[an astronaut|Astronaut]] in [[1984|1984]], [[Adamson|James_C._Adamson]] became qualified for [[mission|Lyndon_B._Johnson_Space_Center]] assignment on [[Space|NASA]] [[Shuttle|Shuttle_(video_game)]] [[flights|Flight_simulator]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] as [[an astronaut|Astronaut]] in 1984, [[Adamson|James_C._Adamson]] became qualified for [[mission|Lyndon_B._Johnson_Space_Center]] assignment on [[Space|NASA]] [[Shuttle|Shuttle_(video_game)]] [[flights|Flight_simulator]].	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(flights/NNS-19,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(Selected/VBN-1,astronaut/NN-6)
+				prep_in(astronaut/NN-6,1984/CD-8)
+				nsubj(flights/NNS-19,Adamson/NNP-10)
+				cop(flights/NNS-19,became/VBD-11)
+				amod(flights/NNS-19,qualified/VBN-12)
+				nn(assignment/NN-15,mission/NN-14)
+				prep_for(qualified/VBN-12,assignment/NN-15)
+				prep_on(assignment/NN-15,Space/NN-17)
+				nn(flights/NNS-19,Shuttle/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In November 1985, he was selected to the crew of a Department of Defense mission, which was subsequently delayed due to the Challenger accident.	</value>
+
+		<annotated-sentence>	In [[November 1985|1985]], he was selected to the crew of a Department of Defense mission, which was subsequently delayed due to [[the Challenger accident|Space_Shuttle_Challenger_disaster]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In November 1985, he was selected to the crew of a Department of Defense mission, which was subsequently delayed due to the Challenger accident.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,November/NNP-2)
+				num(November/NNP-2,1985/CD-3)
+				nsubjpass(selected/VBN-7,he/PRP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				det(crew/NN-10,the/DT-9)
+				prep_to(selected/VBN-7,crew/NN-10)
+				det(mission/NN-16,a/DT-12)
+				dep(mission/NN-16,Department/NNP-13)
+				prep_of(Department/NNP-13,Defense/NNP-15)
+				prep_of(crew/NN-10,mission/NN-16)
+				nsubjpass(delayed/VBN-21,which/WDT-18)
+				auxpass(delayed/VBN-21,was/VBD-19)
+				advmod(delayed/VBN-21,subsequently/RB-20)
+				rcmod(mission/NN-16,delayed/VBN-21)
+				acomp(delayed/VBN-21,due/JJ-22)
+				det(accident/NN-26,the/DT-24)
+				nn(accident/NN-26,Challenger/NNP-25)
+				prep_to(due/JJ-22,accident/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>November 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Challenger accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the Shuttle Program reconstruction period, Adamson was one of eleven astronauts selected to hold management positions within NASA.	</value>
+
+		<annotated-sentence>	During the [[Shuttle Program|Space_Shuttle_program]] reconstruction period, [[Adamson|James_C._Adamson]] was one of eleven [[astronauts|Astronaut]] selected to hold [[management|Management]] positions within [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the Shuttle Program reconstruction period, [[Adamson|James_C._Adamson]] was one of eleven [[astronauts|Astronaut]] selected to hold management positions within [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(period/NN-6,the/DT-2)
+				nn(period/NN-6,Shuttle/NNP-3)
+				nn(period/NN-6,Program/NNP-4)
+				nn(period/NN-6,reconstruction/NN-5)
+				prep_during(one/CD-10,period/NN-6)
+				nsubj(one/CD-10,Adamson/NNP-8)
+				cop(one/CD-10,was/VBD-9)
+				nn(astronauts/NNS-13,eleven/NNS-12)
+				prep_of(one/CD-10,astronauts/NNS-13)
+				partmod(astronauts/NNS-13,selected/VBN-14)
+				aux(hold/VB-16,to/TO-15)
+				xcomp(selected/VBN-14,hold/VB-16)
+				nn(positions/NNS-18,management/NN-17)
+				dobj(hold/VB-16,positions/NNS-18)
+				prep_within(hold/VB-16,NASA/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Shuttle Program Office Assistant Manager for Engineering Integration.	</value>
+
+		<annotated-sentence>	He served as [[Shuttle Program|Space_Shuttle_program]] Office Assistant Manager for [[Engineering|Engineering]] Integration.	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as Shuttle Program Office Assistant Manager for Engineering Integration.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nn(Manager/NNP-8,Shuttle/NNP-4)
+				nn(Manager/NNP-8,Program/NNP-5)
+				nn(Manager/NNP-8,Office/NNP-6)
+				nn(Manager/NNP-8,Assistant/NNP-7)
+				prep_as(served/VBD-2,Manager/NNP-8)
+				nn(Integration/NN-11,Engineering/NNP-10)
+				prep_for(served/VBD-2,Integration/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In this position he was responsible for the initial development of a reliability based maintenance program for the Space Shuttle program.	</value>
+
+		<annotated-sentence>	In this position he was responsible for the initial development of a reliability based maintenance [[program|Space_Shuttle_program]] for [[the Space Shuttle program|Space_Shuttle_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In this position he was responsible for the initial development of a reliability based maintenance program for the Space Shuttle program.	</pattern_crowdsource>
+
+
+		<tree>
+				det(position/NN-3,this/DT-2)
+				prep_in(responsible/JJ-6,position/NN-3)
+				nsubj(responsible/JJ-6,he/PRP-4)
+				cop(responsible/JJ-6,was/VBD-5)
+				det(development/NN-10,the/DT-8)
+				amod(development/NN-10,initial/JJ-9)
+				prep_for(responsible/JJ-6,development/NN-10)
+				det(reliability/NN-13,a/DT-12)
+				prep_of(development/NN-10,reliability/NN-13)
+				partmod(reliability/NN-13,based/VBN-14)
+				nn(program/NN-16,maintenance/NN-15)
+				dobj(based/VBN-14,program/NN-16)
+				det(program/NN-21,the/DT-18)
+				nn(program/NN-21,Space/NN-19)
+				nn(program/NN-21,Shuttle/NN-20)
+				prep_for(program/NN-16,program/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also initiated an enhancements program for Shuttle ground processing.	</value>
+
+		<annotated-sentence>	He also initiated an [[enhancements|Human_enhancement]] program for Shuttle ground processing.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also initiated an enhancements program for Shuttle ground processing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(initiated/VBD-3,He/PRP-1)
+				advmod(initiated/VBD-3,also/RB-2)
+				det(program/NN-6,an/DT-4)
+				nn(program/NN-6,enhancements/NNS-5)
+				dobj(initiated/VBD-3,program/NN-6)
+				nn(processing/NN-10,Shuttle/NNP-8)
+				nn(processing/NN-10,ground/NN-9)
+				prep_for(initiated/VBD-3,processing/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>enhancements</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_enhancement</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 1988 Adamson was assigned to the flight crew of STS-28, the first flight of Space Shuttle Columbia following the reconstruction period.	</value>
+
+		<annotated-sentence>	In [[February 1988|1988]] [[Adamson|James_C._Adamson]] was assigned to [[the flight crew|Aircrew]] of [[STS-28|STS-28]], [[the first flight|Aircrew]] of [[Space Shuttle Columbia|Space_Shuttle_Columbia]] following the reconstruction period.	</annotated-sentence>
+
+		<pattern_crowdsource>	In February 1988 [[Adamson|James_C._Adamson]] was assigned to the flight crew of [[STS-28|STS-28]], the first flight of Space Shuttle Columbia following the reconstruction period.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,February/NNP-2)
+				num(February/NNP-2,1988/CD-3)
+				nsubjpass(assigned/VBN-6,Adamson/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(crew/NN-10,the/DT-8)
+				nn(crew/NN-10,flight/NN-9)
+				prep_to(assigned/VBN-6,crew/NN-10)
+				prep_of(crew/NN-10,STS-28/NN-12)
+				det(flight/NN-16,the/DT-14)
+				amod(flight/NN-16,first/JJ-15)
+				appos(STS-28/NN-12,flight/NN-16)
+				nn(Columbia/NNP-20,Space/NN-18)
+				nn(Columbia/NNP-20,Shuttle/NNP-19)
+				prep_of(flight/NN-16,Columbia/NNP-20)
+				det(period/NN-24,the/DT-22)
+				nn(period/NN-24,reconstruction/NN-23)
+				prep_following(Columbia/NNP-20,period/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February 1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-28</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-28</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-28
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-28 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-28 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Columbia launched from the Kennedy Space Center, Florida, on August 8, 1989.	</value>
+
+		<annotated-sentence>	Columbia launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on August 8, 1989.	</annotated-sentence>
+
+		<pattern_crowdsource>	Columbia launched from the Kennedy Space Center, Florida, on August 8, 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,Columbia/NNP-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Kennedy/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_from(launched/VBD-2,Center/NNP-7)
+				appos(Center/NNP-7,Florida/NNP-9)
+				prep_on(launched/VBD-2,August/NNP-12)
+				num(August/NNP-12,8/CD-13)
+				num(August/NNP-12,1989/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission carried a classified Department of Defense payload and a number of secondary payloads.	</value>
+
+		<annotated-sentence>	The mission carried a classified Department of Defense payload and a number of secondary payloads.	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission carried a classified Department of Defense payload and a number of secondary payloads.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(carried/VBD-3,mission/NN-2)
+				det(Department/NNP-6,a/DT-4)
+				amod(Department/NNP-6,classified/VBN-5)
+				dobj(carried/VBD-3,Department/NNP-6)
+				nn(payload/NN-9,Defense/NNP-8)
+				prep_of(Department/NNP-6,payload/NN-9)
+				det(number/NN-12,a/DT-11)
+				dobj(carried/VBD-3,number/NN-12)
+				conj_and(Department/NNP-6,number/NN-12)
+				amod(payloads/NNS-15,secondary/JJ-14)
+				prep_of(number/NN-12,payloads/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 80 earth orbits in 121 hours, this five day mission concluded with a dry lakebed landing on Runway 17 at Edwards Air Force Base, California, on August 13, 1989.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-4,80/CD-2)
+				nn(orbits/NNS-4,earth/NN-3)
+				prep_after(concluded/VBD-13,orbits/NNS-4)
+				num(hours/NNS-7,121/CD-6)
+				prep_in(orbits/NNS-4,hours/NNS-7)
+				det(mission/NN-12,this/DT-9)
+				num(mission/NN-12,five/CD-10)
+				nn(mission/NN-12,day/NN-11)
+				nsubj(concluded/VBD-13,mission/NN-12)
+				det(landing/NN-18,a/DT-15)
+				amod(landing/NN-18,dry/JJ-16)
+				amod(landing/NN-18,lakebed/JJ-17)
+				prep_with(concluded/VBD-13,landing/NN-18)
+				prep_on(landing/NN-18,Runway/NN-20)
+				num(Runway/NN-20,17/CD-21)
+				nn(Base/NNP-26,Edwards/NNP-23)
+				nn(Base/NNP-26,Air/NNP-24)
+				nn(Base/NNP-26,Force/NNP-25)
+				prep_at(concluded/VBD-13,Base/NNP-26)
+				appos(Base/NNP-26,California/NNP-28)
+				prep_on(concluded/VBD-13,August/NNP-31)
+				num(August/NNP-31,13/CD-32)
+				num(August/NNP-31,1989/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following STS-28 Adamson once again returned to management.	</value>
+
+		<annotated-sentence>	Following [[STS-28|STS-28]] [[Adamson|James_C._Adamson]] once again returned to [[management|Management]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following [[STS-28|STS-28]] [[Adamson|James_C._Adamson]] once again returned to management.	</pattern_crowdsource>
+
+
+		<tree>
+				csubj(returned/VBN-6,Following/VBG-1)
+				amod(Adamson/NN-3,STS-28/JJ-2)
+				dobj(Following/VBG-1,Adamson/NN-3)
+				advmod(again/RB-5,once/RB-4)
+				advmod(Following/VBG-1,again/RB-5)
+				prep_to(returned/VBN-6,management/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-28</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-28</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-28
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-28 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-28 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This time he was assigned to the Kennedy Space Center as Director of Shuttle Processing Analysis.	</value>
+
+		<annotated-sentence>	This time he was assigned to [[the Kennedy Space Center|Kennedy_Space_Center]] as Director of [[Shuttle|Space_Shuttle]] Processing [[Analysis|Analysis]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This time he was assigned to [[the Kennedy Space Center|Kennedy_Space_Center]] as Director of [[Shuttle|Space_Shuttle]] Processing Analysis.	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-2,This/DT-1)
+				tmod(assigned/VBN-5,time/NN-2)
+				nsubjpass(assigned/VBN-5,he/PRP-3)
+				auxpass(assigned/VBN-5,was/VBD-4)
+				det(Center/NNP-10,the/DT-7)
+				nn(Center/NNP-10,Kennedy/NNP-8)
+				nn(Center/NNP-10,Space/NNP-9)
+				prep_to(assigned/VBN-5,Center/NNP-10)
+				prep_as(assigned/VBN-5,Director/NNP-12)
+				nn(Analysis/NN-16,Shuttle/NNP-14)
+				nn(Analysis/NN-16,Processing/NNP-15)
+				prep_of(Director/NNP-12,Analysis/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Analysis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Analysis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle http://dbpedia.org/ontology/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served in this post from September 1989 until October 1990 when he was assigned to the flight crew of STS-43.	</value>
+
+		<annotated-sentence>	He served in this post from [[September 1989|1989]] until [[October 1990|1990]] when he was assigned to [[the flight crew|Aircrew]] of [[STS-43|STS-43]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served in this post from September 1989 until October 1990 when he was assigned to the flight crew of [[STS-43|STS-43]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(post/NN-5,this/DT-4)
+				prep_in(served/VBD-2,post/NN-5)
+				prep_from(post/NN-5,September/NNP-7)
+				num(September/NNP-7,1989/CD-8)
+				prep_until(served/VBD-2,October/NNP-10)
+				num(October/NNP-10,1990/CD-11)
+				advmod(assigned/VBN-15,when/WRB-12)
+				nsubjpass(assigned/VBN-15,he/PRP-13)
+				auxpass(assigned/VBN-15,was/VBD-14)
+				advcl(served/VBD-2,assigned/VBN-15)
+				det(crew/NN-19,the/DT-17)
+				nn(crew/NN-19,flight/NN-18)
+				prep_to(assigned/VBN-15,crew/NN-19)
+				prep_of(crew/NN-19,STS-43/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-43</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-43</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-43
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-43 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-43 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_C._Adamson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this period Adamson developed risk based processing and scheduling programs which resulted in reduction of processing times from 80 days to 50 days.	</value>
+
+		<annotated-sentence>	During this period [[Adamson|Adamson]] developed [[risk|Risk]] based processing and scheduling programs which resulted in reduction of processing times from [[80 days|80_Days]] to 50 days.	</annotated-sentence>
+
+		<pattern_crowdsource>	During this period Adamson developed risk based processing and scheduling programs which resulted in reduction of processing times from 80 days to 50 days.	</pattern_crowdsource>
+
+
+		<tree>
+				det(period/NN-3,this/DT-2)
+				prep_during(developed/VBD-5,period/NN-3)
+				nsubj(developed/VBD-5,Adamson/NNP-4)
+				dobj(developed/VBD-5,risk/NN-6)
+				prep(developed/VBD-5,based/VBN-7)
+				nn(programs/NNS-11,processing/NN-8)
+				conj_and(processing/NN-8,scheduling/NN-10)
+				nn(programs/NNS-11,scheduling/NN-10)
+				dep(based/VBN-7,programs/NNS-11)
+				nsubj(resulted/VBD-13,which/WDT-12)
+				rcmod(programs/NNS-11,resulted/VBD-13)
+				prep_in(resulted/VBD-13,reduction/NN-15)
+				nn(times/NNS-18,processing/NN-17)
+				prep_of(reduction/NN-15,times/NNS-18)
+				number(days/NNS-21,80/CD-20)
+				num(days/NNS-24,days/NNS-21)
+				dep(days/NNS-21,to/TO-22)
+				number(days/NNS-21,50/CD-23)
+				prep_from(resulted/VBD-13,days/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Risk</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>80 days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/80_Days</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The nine day STS-43 mission aboard Space Shuttle Atlantis launched from the Kennedy Space Center on August 2, 1991, setting a new world record for payload weight lifted to orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-5,The/DT-1)
+				num(mission/NN-5,nine/CD-2)
+				nn(mission/NN-5,day/NN-3)
+				nn(mission/NN-5,STS-43/NN-4)
+				nsubj(lifted/VBD-30,mission/NN-5)
+				prep_aboard(mission/NN-5,Space/NN-7)
+				nn(Atlantis/NNP-9,Shuttle/NNP-8)
+				nsubj(launched/VBD-10,Atlantis/NNP-9)
+				rcmod(Space/NN-7,launched/VBD-10)
+				det(Center/NNP-15,the/DT-12)
+				nn(Center/NNP-15,Kennedy/NNP-13)
+				nn(Center/NNP-15,Space/NNP-14)
+				prep_from(launched/VBD-10,Center/NNP-15)
+				prep_on(launched/VBD-10,August/NNP-17)
+				num(August/NNP-17,2/CD-18)
+				num(August/NNP-17,1991/CD-20)
+				xcomp(launched/VBD-10,setting/VBG-22)
+				det(record/NN-26,a/DT-23)
+				amod(record/NN-26,new/JJ-24)
+				nn(record/NN-26,world/NN-25)
+				dobj(setting/VBG-22,record/NN-26)
+				nn(weight/NN-29,payload/NN-28)
+				prep_for(setting/VBG-22,weight/NN-29)
+				prep_to(lifted/VBD-30,orbit/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The five member crew deployed a Tracking and Data Relay Satellite (TDRS-E) and conducted 32 physical and life sciences experiments.	</value>
+
+		<annotated-sentence>	The five member crew deployed [[a Tracking and Data Relay Satellite|Tracking_and_Data_Relay_Satellite]] (TDRS-E) and conducted 32 physical and [[life sciences|Life_sciences]] [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The five member crew deployed a Tracking and Data Relay Satellite (TDRS-E) and conducted 32 physical and life sciences experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-4,The/DT-1)
+				num(crew/NN-4,five/CD-2)
+				nn(crew/NN-4,member/NN-3)
+				nsubj(deployed/VBD-5,crew/NN-4)
+				nsubj(conducted/VBN-16,crew/NN-4)
+				det(Tracking/NNP-7,a/DT-6)
+				dobj(deployed/VBD-5,Tracking/NNP-7)
+				nn(Satellite/NNP-11,Data/NNP-9)
+				nn(Satellite/NNP-11,Relay/NNP-10)
+				dobj(deployed/VBD-5,Satellite/NNP-11)
+				conj_and(Tracking/NNP-7,Satellite/NNP-11)
+				appos(Tracking/NNP-7,TDRS-E/NN-13)
+				conj_and(deployed/VBD-5,conducted/VBN-16)
+				number(physical/JJ-18,32/CD-17)
+				dobj(conducted/VBN-16,physical/JJ-18)
+				nn(experiments/NNS-22,life/NN-20)
+				nn(experiments/NNS-22,sciences/NNS-21)
+				dobj(conducted/VBN-16,experiments/NNS-22)
+				conj_and(physical/JJ-18,experiments/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Tracking and Data Relay Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tracking_and_Data_Relay_Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>life sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Life_sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this flight Adamson performed the first flight test of the Orbital Digital Autopilot following Shuttle retrofit with new General Purpose Computers and new software.	</value>
+
+		<annotated-sentence>	During [[this flight|Flight_simulator]] [[Adamson|Adamson]] performed [[the first flight test|Flight_test]] of the Orbital [[Digital|Digital]] [[Autopilot|Autopilot_(album)]] following [[Shuttle|Shuttle_(video_game)]] retrofit with new [[General Purpose|Jeep]] [[Computers|Computers,_Freedom_and_Privacy_Conference]] and [[new software|Software]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During [[this flight|Flight_simulator]] Adamson performed the first flight test of the Orbital Digital Autopilot following [[Shuttle|Shuttle_(video_game)]] retrofit with new General Purpose Computers and new software.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,this/DT-2)
+				prep_during(performed/VBD-5,flight/NN-3)
+				nsubj(performed/VBD-5,Adamson/NNP-4)
+				det(test/NN-9,the/DT-6)
+				amod(test/NN-9,first/JJ-7)
+				nn(test/NN-9,flight/NN-8)
+				nsubj(retrofit/VB-17,test/NN-9)
+				det(Autopilot/NNP-14,the/DT-11)
+				nn(Autopilot/NNP-14,Orbital/NNP-12)
+				nn(Autopilot/NNP-14,Digital/NNP-13)
+				prep_of(test/NN-9,Autopilot/NNP-14)
+				prep_following(Autopilot/NNP-14,Shuttle/NNP-16)
+				ccomp(performed/VBD-5,retrofit/VB-17)
+				amod(Computers/NNPS-22,new/JJ-19)
+				nn(Computers/NNPS-22,General/NNP-20)
+				nn(Computers/NNPS-22,Purpose/NNP-21)
+				prep_with(retrofit/VB-17,Computers/NNPS-22)
+				amod(software/NN-25,new/JJ-24)
+				prep_with(retrofit/VB-17,software/NN-25)
+				conj_and(Computers/NNPS-22,software/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first flight test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Digital</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Digital</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Autopilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Autopilot_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>General Purpose</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jeep</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Computers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Computers,_Freedom_and_Privacy_Conference</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>new software</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Software</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 142 earth orbits in 213 hours, the STS-43 mission concluded with a landing on Runway 15 at the Kennedy Space Center on August 11, 1991.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-4,142/CD-2)
+				nn(orbits/NNS-4,earth/NN-3)
+				prep_after(concluded/VBD-12,orbits/NNS-4)
+				num(hours/NNS-7,213/CD-6)
+				prep_in(orbits/NNS-4,hours/NNS-7)
+				det(mission/NN-11,the/DT-9)
+				nn(mission/NN-11,STS-43/NN-10)
+				nsubj(concluded/VBD-12,mission/NN-11)
+				det(landing/NN-15,a/DT-14)
+				prep_with(concluded/VBD-12,landing/NN-15)
+				prep_on(landing/NN-15,Runway/NN-17)
+				num(Runway/NN-17,15/CD-18)
+				det(Center/NNP-23,the/DT-20)
+				nn(Center/NNP-23,Kennedy/NNP-21)
+				nn(Center/NNP-23,Space/NNP-22)
+				prep_at(concluded/VBD-12,Center/NNP-23)
+				prep_on(Center/NNP-23,August/NNP-25)
+				num(August/NNP-25,11/CD-26)
+				num(August/NNP-25,1991/CD-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following Adamson’s retirement from government service in June 1992, he continued as a management consultant to NASA and the aerospace industry.	</value>
+
+		<annotated-sentence>	Following [[Adamson|James_C._Adamson]]’s [[retirement|Retirement]] from government service in [[June 1992|1992]], he continued as a management consultant to [[NASA|NASA]] and the aerospace industry.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following [[Adamson|James_C._Adamson]]’s retirement from government service in June 1992, he continued as a management consultant to [[NASA|NASA]] and the aerospace industry.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(retirement/NN-4,Adamson/NNP-2)
+				prep_following(continued/VBD-13,retirement/NN-4)
+				nn(service/NN-7,government/NN-6)
+				prep_from(retirement/NN-4,service/NN-7)
+				prep_in(service/NN-7,June/NNP-9)
+				num(June/NNP-9,1992/CD-10)
+				nsubj(continued/VBD-13,he/PRP-12)
+				det(consultant/NN-17,a/DT-15)
+				nn(consultant/NN-17,management/NN-16)
+				prep_as(continued/VBD-13,consultant/NN-17)
+				prep_to(continued/VBD-13,NASA/NNP-19)
+				det(industry/NN-23,the/DT-21)
+				nn(industry/NN-23,aerospace/NN-22)
+				prep_to(continued/VBD-13,industry/NN-23)
+				conj_and(NASA/NNP-19,industry/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Until September 1994 he served as management consultant and strategic planner for Lockheed Corporation in the area of Human Space Flight Operations.	</value>
+
+		<annotated-sentence>	Until [[September 1994|1994]] he served as management consultant and strategic planner for [[Lockheed Corporation|Lockheed_Corporation]] in [[the area|Area]] of [[Human Space Flight|Human_spaceflight]] Operations.	</annotated-sentence>
+
+		<pattern_crowdsource>	Until September 1994 he served as management consultant and strategic planner for Lockheed Corporation in the area of Human Space Flight Operations.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_until(served/VBD-5,September/NNP-2)
+				num(September/NNP-2,1994/CD-3)
+				nsubj(served/VBD-5,he/PRP-4)
+				nn(consultant/NN-8,management/NN-7)
+				prep_as(served/VBD-5,consultant/NN-8)
+				amod(planner/NN-11,strategic/JJ-10)
+				prep_as(served/VBD-5,planner/NN-11)
+				conj_and(consultant/NN-8,planner/NN-11)
+				nn(Corporation/NNP-14,Lockheed/NNP-13)
+				prep_for(served/VBD-5,Corporation/NNP-14)
+				det(area/NN-17,the/DT-16)
+				prep_in(Corporation/NNP-14,area/NN-17)
+				amod(Operations/NNP-22,Human/JJ-19)
+				nn(Operations/NNP-22,Space/NN-20)
+				nn(Operations/NNP-22,Flight/NN-21)
+				prep_of(area/NN-17,Operations/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lockheed Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lockheed_Corporation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the area</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Human Space Flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also selected by the NASA Administrator to serve on the NASA Advisory Council.	</value>
+
+		<annotated-sentence>	He was also selected by [[the NASA Administrator|List_of_Administrators_and_Deputy_Administrators_of_NASA]] to serve on [[the NASA Advisory Council|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also selected by the NASA Administrator to serve on [[the NASA Advisory Council|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-4,He/PRP-1)
+				auxpass(selected/VBN-4,was/VBD-2)
+				advmod(selected/VBN-4,also/RB-3)
+				det(Administrator/NNP-8,the/DT-6)
+				nn(Administrator/NNP-8,NASA/NNP-7)
+				agent(selected/VBN-4,Administrator/NNP-8)
+				aux(serve/VB-10,to/TO-9)
+				xcomp(selected/VBN-4,serve/VB-10)
+				det(Council/NNP-15,the/DT-12)
+				nn(Council/NNP-15,NASA/NNP-13)
+				nn(Council/NNP-15,Advisory/NNP-14)
+				prep_on(serve/VB-10,Council/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Administrator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Administrators_and_Deputy_Administrators_of_NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Advisory Council</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 1994 Adamson joined Lockheed Corporation as Executive Vice President of Lockheed Engineering and Science Company (LESC) where he was shortly promoted to President and CEO.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,September/NNP-2)
+				num(September/NNP-2,1994/CD-3)
+				nsubj(joined/VBD-5,Adamson/NNP-4)
+				nn(Corporation/NNP-7,Lockheed/NNP-6)
+				dobj(joined/VBD-5,Corporation/NNP-7)
+				nn(President/NNP-11,Executive/NNP-9)
+				nn(President/NNP-11,Vice/NNP-10)
+				prep_as(Corporation/NNP-7,President/NNP-11)
+				nn(Engineering/NNP-14,Lockheed/NNP-13)
+				prep_of(President/NNP-11,Engineering/NNP-14)
+				nn(Company/NNP-17,Science/NNP-16)
+				prep_of(President/NNP-11,Company/NNP-17)
+				conj_and(Engineering/NNP-14,Company/NNP-17)
+				appos(Corporation/NNP-7,LESC/NNP-19)
+				advmod(promoted/VBN-25,where/WRB-21)
+				nsubjpass(promoted/VBN-25,he/PRP-22)
+				auxpass(promoted/VBN-25,was/VBD-23)
+				advmod(promoted/VBN-25,shortly/RB-24)
+				rcmod(Corporation/NNP-7,promoted/VBN-25)
+				prep_to(promoted/VBN-25,President/NNP-27)
+				prep_to(promoted/VBN-25,CEO/NNP-29)
+				conj_and(President/NNP-27,CEO/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In late 1995 he was selected by Lockheed Martin to start up and become the first COO of the United Space Alliance (USA), a joint venture with Rockwell International.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(1995/CD-3,late/JJ-2)
+				prep_in(selected/VBN-6,1995/CD-3)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				nn(Martin/NNP-9,Lockheed/NNP-8)
+				agent(selected/VBN-6,Martin/NNP-9)
+				aux(start/VB-11,to/TO-10)
+				infmod(Martin/NNP-9,start/VB-11)
+				prt(start/VB-11,up/RP-12)
+				cop(COO/NN-17,become/VB-14)
+				det(COO/NN-17,the/DT-15)
+				amod(COO/NN-17,first/JJ-16)
+				infmod(Martin/NNP-9,COO/NN-17)
+				conj_and(start/VB-11,COO/NN-17)
+				det(Alliance/NNP-22,the/DT-19)
+				nn(Alliance/NNP-22,United/NNP-20)
+				nn(Alliance/NNP-22,Space/NNP-21)
+				prep_of(COO/NN-17,Alliance/NNP-22)
+				appos(Martin/NNP-9,USA/NNP-24)
+				det(venture/NN-29,a/DT-27)
+				amod(venture/NN-29,joint/JJ-28)
+				appos(Martin/NNP-9,venture/NN-29)
+				nn(International/NNP-32,Rockwell/NNP-31)
+				prep_with(venture/NN-29,International/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	USA subsequently won the Space Flight Operations Contract with NASA to operate the Space Shuttle Program and grew to $1.5 billion annual revenue in the first year.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(won/VBD-3,USA/NNP-1)
+				nsubj(grew/VBD-18,USA/NNP-1)
+				advmod(won/VBD-3,subsequently/RB-2)
+				det(Contract/NN-8,the/DT-4)
+				nn(Contract/NN-8,Space/NNP-5)
+				nn(Contract/NN-8,Flight/NNP-6)
+				nn(Contract/NN-8,Operations/NNP-7)
+				dobj(won/VBD-3,Contract/NN-8)
+				prep_with(Contract/NN-8,NASA/NNP-10)
+				aux(operate/VB-12,to/TO-11)
+				xcomp(won/VBD-3,operate/VB-12)
+				det(Space/NN-14,the/DT-13)
+				iobj(operate/VB-12,Space/NN-14)
+				nn(Program/NNP-16,Shuttle/NNP-15)
+				dobj(operate/VB-12,Program/NNP-16)
+				conj_and(won/VBD-3,grew/VBD-18)
+				prep_to(grew/VBD-18,$/$-20)
+				number(billion/CD-22,1.5/CD-21)
+				num($/$-20,billion/CD-22)
+				amod(revenue/NN-24,annual/JJ-23)
+				tmod(grew/VBD-18,revenue/NN-24)
+				det(year/NN-28,the/DT-26)
+				amod(year/NN-28,first/JJ-27)
+				prep_in(revenue/NN-24,year/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1999 Adamson was recruited by AlliedSignal Corporation to be the President of Allied Signal Technical Services Corporation.	</value>
+
+		<annotated-sentence>	In [[1999|1999]] [[Adamson|Adamson]] was recruited by [[AlliedSignal|AlliedSignal]] [[Corporation|Corporation]] to be [[the President|President]] of [[Allied Signal|AlliedSignal]] Technical Services [[Corporation|Corporation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1999 Adamson was recruited by AlliedSignal Corporation to be the President of Allied Signal Technical Services Corporation.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(recruited/VBN-5,1999/CD-2)
+				nsubjpass(recruited/VBN-5,Adamson/NNP-3)
+				auxpass(recruited/VBN-5,was/VBD-4)
+				nn(Corporation/NNP-8,AlliedSignal/NNP-7)
+				agent(recruited/VBN-5,Corporation/NNP-8)
+				aux(President/NNP-12,to/TO-9)
+				cop(President/NNP-12,be/VB-10)
+				det(President/NNP-12,the/DT-11)
+				xcomp(recruited/VBN-5,President/NNP-12)
+				nn(Corporation/NNP-18,Allied/NNP-14)
+				nn(Corporation/NNP-18,Signal/NNP-15)
+				nn(Corporation/NNP-18,Technical/NNP-16)
+				nn(Corporation/NNP-18,Services/NNP-17)
+				prep_of(President/NNP-12,Corporation/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AlliedSignal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AlliedSignal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Corporation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Allied Signal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AlliedSignal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Corporation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained in that post through Allied Signal’s merger with Honeywell until his retirement in March 2001.	</value>
+
+		<annotated-sentence>	He remained in that post through [[Allied Signal|AlliedSignal]]’s merger with [[Honeywell|Honeywell]] until [[his retirement|Retirement]] in [[March 2001|March_2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained in that post through [[Allied Signal|AlliedSignal]]’s merger with [[Honeywell|Honeywell]] until his retirement in March 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remained/VBD-2,He/PRP-1)
+				det(post/NN-5,that/DT-4)
+				prep_in(remained/VBD-2,post/NN-5)
+				nn(Signal/NNP-8,Allied/NNP-7)
+				poss(merger/NN-10,Signal/NNP-8)
+				prep_through(remained/VBD-2,merger/NN-10)
+				prep_with(merger/NN-10,Honeywell/NNP-12)
+				poss(retirement/NN-15,his/PRP$-14)
+				prep_until(remained/VBD-2,retirement/NN-15)
+				prep_in(retirement/NN-15,March/NNP-17)
+				num(March/NNP-17,2001/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Allied Signal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/AlliedSignal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Honeywell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honeywell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/AlliedSignal http://dbpedia.org/ontology/successor http://dbpedia.org/resource/Honeywell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Honeywell http://dbpedia.org/ontology/predecessor http://dbpedia.org/resource/AlliedSignal
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson is still active as a consultant and board member for the aerospace industry and still serves on the NASA Advisory Council for the NASA Administrator.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-4,Adamson/NNP-1)
+				nsubj(serves/VBZ-17,Adamson/NNP-1)
+				cop(active/JJ-4,is/VBZ-2)
+				advmod(active/JJ-4,still/RB-3)
+				det(member/NN-10,a/DT-6)
+				nn(member/NN-10,consultant/NN-7)
+				conj_and(consultant/NN-7,board/NN-9)
+				nn(member/NN-10,board/NN-9)
+				prep_as(active/JJ-4,member/NN-10)
+				det(industry/NN-14,the/DT-12)
+				nn(industry/NN-14,aerospace/NN-13)
+				prep_for(member/NN-10,industry/NN-14)
+				advmod(serves/VBZ-17,still/RB-16)
+				conj_and(active/JJ-4,serves/VBZ-17)
+				det(Council/NNP-22,the/DT-19)
+				nn(Council/NNP-22,NASA/NNP-20)
+				nn(Council/NNP-22,Advisory/NNP-21)
+				prep_on(serves/VBZ-17,Council/NNP-22)
+				det(Administrator/NNP-26,the/DT-24)
+				nn(Administrator/NNP-26,NASA/NNP-25)
+				prep_for(Council/NNP-22,Administrator/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson was recently awarded the "Gil Bennett Gold Standard Award" for corporate governance.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] was recently awarded the "Gil Bennett [[Gold Standard|Gold_standard]] [[Award|Award]]" for [[corporate governance|Corporate_governance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson was recently awarded the "Gil Bennett Gold Standard Award" for corporate governance.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-4,Adamson/NNP-1)
+				auxpass(awarded/VBN-4,was/VBD-2)
+				advmod(awarded/VBN-4,recently/RB-3)
+				det(Award/NN-11,the/DT-5)
+				nn(Award/NN-11,Gil/NNP-7)
+				nn(Award/NN-11,Bennett/NNP-8)
+				nn(Award/NN-11,Gold/NNP-9)
+				nn(Award/NN-11,Standard/NNP-10)
+				dobj(awarded/VBN-4,Award/NN-11)
+				amod(governance/NN-15,corporate/JJ-14)
+				prep_for(awarded/VBN-4,governance/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gold Standard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gold_standard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>corporate governance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Corporate_governance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2007 he was inducted into the Army Aviation Hall of Fame.	</value>
+
+		<annotated-sentence>	In [[2007|2007]] he was inducted into the [[Army Aviation|Army_aviation]] Hall of Fame.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2007 he was inducted into the Army Aviation Hall of Fame.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(inducted/VBN-5,2007/CD-2)
+				nsubjpass(inducted/VBN-5,he/PRP-3)
+				auxpass(inducted/VBN-5,was/VBD-4)
+				det(Hall/NNP-10,the/DT-7)
+				nn(Hall/NNP-10,Army/NNP-8)
+				nn(Hall/NNP-10,Aviation/NNP-9)
+				prep_into(inducted/VBN-5,Hall/NNP-10)
+				prep_of(Hall/NNP-10,Fame/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army_aviation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson was a two time All-American in pistol competition.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] was a two time All-American in [[pistol|Pistol]] [[competition|Competition]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson was a two time All-American in pistol competition.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(was/VBD-2,Adamson/NNP-1)
+				det(All-American/NNP-6,a/DT-3)
+				num(All-American/NNP-6,two/CD-4)
+				nn(All-American/NNP-6,time/NN-5)
+				dep(was/VBD-2,All-American/NNP-6)
+				nn(competition/NN-9,pistol/NN-8)
+				prep_in(was/VBD-2,competition/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pistol</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pistol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>competition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Competition</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a winner of the Army's Excellency In Competition Award, and a recipient of the George S. Patton Award.	</value>
+
+		<annotated-sentence>	He was also a winner of the [[Army|United_States_Army]]'s [[Excellency|Excellency]] In [[Competition|Competition]] [[Award|Award]], and a recipient of the [[George S. Patton|George_S._Patton]] [[Award|Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a winner of the [[Army|United_States_Army]]'s Excellency In Competition Award, and a recipient of the [[George S. Patton|George_S._Patton]] Award.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(winner/NN-5,He/PRP-1)
+				cop(winner/NN-5,was/VBD-2)
+				advmod(winner/NN-5,also/RB-3)
+				det(winner/NN-5,a/DT-4)
+				det(Army/NNP-8,the/DT-7)
+				poss(Excellency/NNP-10,Army/NNP-8)
+				prep_of(winner/NN-5,Excellency/NNP-10)
+				nn(Award/NN-13,Competition/NN-12)
+				prep_in(Excellency/NNP-10,Award/NN-13)
+				det(recipient/JJ-17,a/DT-16)
+				prep_of(winner/NN-5,recipient/JJ-17)
+				conj_and(Excellency/NNP-10,recipient/JJ-17)
+				det(Award/NN-23,the/DT-19)
+				nn(Award/NN-23,George/NNP-20)
+				nn(Award/NN-23,S./NNP-21)
+				nn(Award/NN-23,Patton/NNP-22)
+				prep_of(recipient/JJ-17,Award/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Excellency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Excellency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Competition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Competition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>George S. Patton</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_S._Patton</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_S._Patton http://dbpedia.org/ontology/militaryBranch http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Named an Outstanding College Athlete of America, Adamson captained West Point's pistol team to the national championship in 1969.	</value>
+
+		<annotated-sentence>	Named an [[Outstanding|Outstanding]] [[College Athlete|College_athletics]] of [[America|United_States]], [[Adamson|James_C._Adamson]] captained West Point's [[pistol|Pistol]] [[team|Team]] to [[the national championship|National_championship]] in [[1969|1969:_The_Velvet_Underground_Live]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Named an Outstanding College Athlete of [[America|United_States]], [[Adamson|James_C._Adamson]] captained West Point's pistol team to the national championship in [[1969|1969:_The_Velvet_Underground_Live]].	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(captained/VBD-10,Named/VBN-1)
+				det(Athlete/NNP-5,an/DT-2)
+				amod(Athlete/NNP-5,Outstanding/JJ-3)
+				nn(Athlete/NNP-5,College/NNP-4)
+				dobj(Named/VBN-1,Athlete/NNP-5)
+				prep_of(Athlete/NNP-5,America/NNP-7)
+				nsubj(captained/VBD-10,Adamson/NNP-9)
+				nn(Point/NNP-12,West/NNP-11)
+				poss(team/NN-15,Point/NNP-12)
+				nn(team/NN-15,pistol/NN-14)
+				dobj(captained/VBD-10,team/NN-15)
+				det(championship/NN-19,the/DT-17)
+				amod(championship/NN-19,national/JJ-18)
+				prep_to(captained/VBD-10,championship/NN-19)
+				prep_in(championship/NN-19,1969/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Outstanding</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outstanding</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>College Athlete</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/College_athletics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>America</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_C._Adamson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pistol</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pistol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the national championship</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_championship</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969:_The_Velvet_Underground_Live</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_C._Adamson http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/1969:_The_Velvet_Underground_Live http://dbpedia.org/ontology/recordedIn http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a distinguished graduate of his pilot training class, as well as his graduate fixed-wing and multi-engine pilot training classes.	</value>
+
+		<annotated-sentence>	He was a distinguished graduate of his [[pilot training|Flight_training]] class, as well as his graduate [[fixed-wing|Fixed-wing_aircraft]] and multi-engine [[pilot training|Flight_training]] classes.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a distinguished graduate of his pilot training class, as well as his graduate fixed-wing and multi-engine pilot training classes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,He/PRP-1)
+				cop(graduate/NN-5,was/VBD-2)
+				det(graduate/NN-5,a/DT-3)
+				amod(graduate/NN-5,distinguished/JJ-4)
+				poss(class/NN-10,his/PRP$-7)
+				nn(class/NN-10,pilot/NN-8)
+				nn(class/NN-10,training/NN-9)
+				prep_of(graduate/NN-5,class/NN-10)
+				poss(fixed-wing/NN-17,his/PRP$-15)
+				nn(fixed-wing/NN-17,graduate/NN-16)
+				conj_and(graduate/NN-5,fixed-wing/NN-17)
+				amod(classes/NNS-22,multi-engine/JJ-19)
+				nn(classes/NNS-22,pilot/NN-20)
+				nn(classes/NNS-22,training/NN-21)
+				conj_and(graduate/NN-5,classes/NNS-22)
+				conj_and(fixed-wing/NN-17,classes/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fixed-wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fixed-wing_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During aerial combat in Southeast Asia, he earned two Distinguished Flying Crosses, 18 Air Medals, and three Vietnam Crosses of Gallantry for valor.	</value>
+
+		<annotated-sentence>	During [[aerial combat|Aerial_warfare]] in [[Southeast Asia|Southeast_Asia]], he earned two [[Distinguished|Distinguishing]] [[Flying|Flight]] Crosses, 18 [[Air Medals|Air_Medal]], and three [[Vietnam|Vietnam]] Crosses of [[Gallantry|Gallantry_(opera)]] for [[valor|Lar_Gand]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During aerial combat in Southeast Asia, he earned two Distinguished [[Flying|Flight]] Crosses, 18 Air Medals, and three Vietnam Crosses of Gallantry for [[valor|Lar_Gand]].	</pattern_crowdsource>
+
+
+		<tree>
+				amod(combat/NN-3,aerial/JJ-2)
+				prep_during(earned/VBD-9,combat/NN-3)
+				nn(Asia/NNP-6,Southeast/NNP-5)
+				prep_in(combat/NN-3,Asia/NNP-6)
+				nsubj(earned/VBD-9,he/PRP-8)
+				dobj(earned/VBD-9,two/CD-10)
+				partmod(two/CD-10,Distinguished/VBN-11)
+				nn(Crosses/NNP-13,Flying/NNP-12)
+				dobj(Distinguished/VBN-11,Crosses/NNP-13)
+				num(Medals/NNPS-17,18/CD-15)
+				nn(Medals/NNPS-17,Air/NNP-16)
+				dobj(Distinguished/VBN-11,Medals/NNPS-17)
+				conj_and(Crosses/NNP-13,Medals/NNPS-17)
+				num(Crosses/NNS-22,three/CD-20)
+				nn(Crosses/NNS-22,Vietnam/NNP-21)
+				dobj(Distinguished/VBN-11,Crosses/NNS-22)
+				conj_and(Crosses/NNP-13,Crosses/NNS-22)
+				prep_of(Crosses/NNS-22,Gallantry/NNP-24)
+				prep_for(Distinguished/VBN-11,valor/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>aerial combat</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerial_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Southeast Asia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southeast_Asia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flying</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Medals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vietnam</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vietnam</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gallantry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gallantry_(opera)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>valor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lar_Gand</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lar_Gand http://dbpedia.org/property/powers http://dbpedia.org/resource/Flight
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also earned the Defense Superior Service Medal, Defense Meritorious Service Medal, the Meritorious Service Medal, two Army Commendation Medals, the Bronze Star, NASA Exceptional Service Medal, two NASA Space Flight Medals, and is a world record holder for space flight lifting the most weight to orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBN-4,He/PRP-1)
+				aux(earned/VBN-4,has/VBZ-2)
+				advmod(earned/VBN-4,also/RB-3)
+				det(Medal/NN-9,the/DT-5)
+				nn(Medal/NN-9,Defense/NNP-6)
+				nn(Medal/NN-9,Superior/NNP-7)
+				nn(Medal/NN-9,Service/NNP-8)
+				xcomp(earned/VBN-4,Medal/NN-9)
+				nn(Medal/NN-14,Defense/NNP-11)
+				nn(Medal/NN-14,Meritorious/NNP-12)
+				nn(Medal/NN-14,Service/NNP-13)
+				appos(Medal/NN-9,Medal/NN-14)
+				det(Medal/NN-19,the/DT-16)
+				nn(Medal/NN-19,Meritorious/NNP-17)
+				nn(Medal/NN-19,Service/NNP-18)
+				appos(Medal/NN-9,Medal/NN-19)
+				appos(Medal/NN-9,two/CD-21)
+				nn(Medals/NNPS-24,Army/NNP-22)
+				nn(Medals/NNPS-24,Commendation/NNP-23)
+				dep(two/CD-21,Medals/NNPS-24)
+				det(Star/NN-28,the/DT-26)
+				nn(Star/NN-28,Bronze/NN-27)
+				appos(Medal/NN-9,Star/NN-28)
+				nn(Service/NNP-32,NASA/NNP-30)
+				nn(Service/NNP-32,Exceptional/NNP-31)
+				appos(Medal/NN-9,Service/NNP-32)
+				dep(Service/NNP-32,Medal/NN-33)
+				appos(Medal/NN-9,two/CD-35)
+				nn(Medals/NNPS-39,NASA/NNP-36)
+				nn(Medals/NNPS-39,Space/NNP-37)
+				nn(Medals/NNPS-39,Flight/NNP-38)
+				dep(two/CD-35,Medals/NNPS-39)
+				cop(holder/NN-46,is/VBZ-42)
+				det(holder/NN-46,a/DT-43)
+				nn(holder/NN-46,world/NN-44)
+				nn(holder/NN-46,record/NN-45)
+				conj_and(earned/VBN-4,holder/NN-46)
+				nn(flight/NN-49,space/NN-48)
+				prep_for(holder/NN-46,flight/NN-49)
+				partmod(flight/NN-49,lifting/VBG-50)
+				det(weight/NN-53,the/DT-51)
+				amod(weight/NN-53,most/JJS-52)
+				dobj(lifting/VBG-50,weight/NN-53)
+				prep_to(lifting/VBG-50,orbit/NN-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a Charter Honoree of the Geneseo Central School Alumni Hall of Fame, Class of 1964.	</value>
+
+		<annotated-sentence>	He is a [[Charter|Charter]] [[Honoree|Kennedy_Center_Honors]] of the [[Geneseo Central|Geneseo_Central_School_District]] School Alumni Hall of Fame, Class of [[1964|1964]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a Charter Honoree of the Geneseo Central School Alumni Hall of Fame, Class of 1964.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Honoree/NNP-5,He/PRP-1)
+				cop(Honoree/NNP-5,is/VBZ-2)
+				det(Honoree/NNP-5,a/DT-3)
+				nn(Honoree/NNP-5,Charter/NNP-4)
+				det(Hall/NNP-12,the/DT-7)
+				nn(Hall/NNP-12,Geneseo/NNP-8)
+				nn(Hall/NNP-12,Central/NNP-9)
+				nn(Hall/NNP-12,School/NNP-10)
+				nn(Hall/NNP-12,Alumni/NNP-11)
+				prep_of(Honoree/NNP-5,Hall/NNP-12)
+				nn(Class/NNP-16,Fame/NNP-14)
+				prep_of(Honoree/NNP-5,Class/NNP-16)
+				prep_of(Class/NNP-16,1964/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Charter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Charter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Honoree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Center_Honors</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Geneseo Central</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geneseo_Central_School_District</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1964</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adamson is an Eagle Scout.	</value>
+
+		<annotated-sentence>	[[Adamson|Adamson]] is an Eagle Scout.	</annotated-sentence>
+
+		<pattern_crowdsource>	Adamson is an Eagle Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scout/NNP-5,Adamson/NNP-1)
+				cop(Scout/NNP-5,is/VBZ-2)
+				det(Scout/NNP-5,an/DT-3)
+				nn(Scout/NNP-5,Eagle/NNP-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Adamson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adamson</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

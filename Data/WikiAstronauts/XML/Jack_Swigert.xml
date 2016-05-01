@@ -1,0 +1,1369 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Leonard "Jack" Swigert, Jr., (August 30, 1931 – December 27, 1982) was a NASA astronaut, one of the 24 persons who have flown to the Moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Swigert/NNP-6,John/NNP-1)
+				nn(Swigert/NNP-6,Leonard/NNP-2)
+				nn(Swigert/NNP-6,Jack/NNP-4)
+				nsubj(astronaut/NN-24,Swigert/NNP-6)
+				appos(Swigert/NNP-6,Jr./NNP-8)
+				dep(Swigert/NNP-6,August/NNP-11)
+				num(August/NNP-11,30/CD-12)
+				num(August/NNP-11,1931/CD-14)
+				dep(August/NNP-11,December/NNP-16)
+				num(December/NNP-16,27/CD-17)
+				num(December/NNP-16,1982/CD-19)
+				cop(astronaut/NN-24,was/VBD-21)
+				det(astronaut/NN-24,a/DT-22)
+				nn(astronaut/NN-24,NASA/NNP-23)
+				appos(astronaut/NN-24,one/CD-26)
+				det(persons/NNS-30,the/DT-28)
+				num(persons/NNS-30,24/CD-29)
+				prep_of(one/CD-26,persons/NNS-30)
+				nsubj(flown/VBN-33,who/WP-31)
+				aux(flown/VBN-33,have/VBP-32)
+				rcmod(one/CD-26,flown/VBN-33)
+				det(Moon/NNP-36,the/DT-35)
+				prep_to(flown/VBN-33,Moon/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before joining NASA, Swigert was a test pilot.	</value>
+
+		<annotated-sentence>	Before joining [[NASA|NASA]], [[Swigert|Jack_Swigert]] was [[a test pilot|Test_pilot]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Before joining [[NASA|NASA]], [[Swigert|Jack_Swigert]] was [[a test pilot|Test_pilot]].	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_before(pilot/NN-9,joining/VBG-2)
+				dobj(joining/VBG-2,NASA/NNP-3)
+				nsubj(pilot/NN-9,Swigert/NNP-5)
+				cop(pilot/NN-9,was/VBD-6)
+				det(pilot/NN-9,a/DT-7)
+				nn(pilot/NN-9,test/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Swigert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jack_Swigert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving NASA, he was elected to the United States House of Representatives for Colorado's 6th congressional district, but died before being sworn in.	</value>
+
+		<annotated-sentence>	After leaving [[NASA|NASA]], he was elected to [[the United States House of Representatives|United_States_House_of_Representatives]] for [[Colorado|Colorado]]'s 6th congressional [[district|Washington,_D.C.]], but died before being sworn in.	</annotated-sentence>
+
+		<pattern_crowdsource>	After leaving [[NASA|NASA]], he was elected to [[the United States House of Representatives|United_States_House_of_Representatives]] for Colorado's 6th congressional [[district|Washington,_D.C.]], but died before being sworn in.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(elected/VBN-7,leaving/VBG-2)
+				dobj(leaving/VBG-2,NASA/NNP-3)
+				nsubjpass(elected/VBN-7,he/PRP-5)
+				nsubjpass(died/VBD-23,he/PRP-5)
+				auxpass(elected/VBN-7,was/VBD-6)
+				det(House/NNP-12,the/DT-9)
+				nn(House/NNP-12,United/NNP-10)
+				nn(House/NNP-12,States/NNP-11)
+				prep_to(elected/VBN-7,House/NNP-12)
+				prep_of(House/NNP-12,Representatives/NNPS-14)
+				poss(district/NN-20,Colorado/NNP-16)
+				amod(district/NN-20,6th/JJ-18)
+				amod(district/NN-20,congressional/JJ-19)
+				prep_for(elected/VBN-7,district/NN-20)
+				conj_but(elected/VBN-7,died/VBD-23)
+				auxpass(sworn/VBN-26,being/VBG-25)
+				prepc_before(died/VBD-23,sworn/VBN-26)
+				prep(sworn/VBN-26,in/IN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States House of Representatives</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_House_of_Representatives</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>district</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Washington,_D.C.</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/NASA http://dbpedia.org/property/headquarters http://dbpedia.org/resource/Washington,_D.C.
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_House_of_Representatives http://dbpedia.org/ontology/location http://dbpedia.org/resource/Washington,_D.C.
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Washington,_D.C. http://dbpedia.org/property/leaderTitle http://dbpedia.org/resource/United_States_House_of_Representatives
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended Blessed Sacrament School, Regis Jesuit High School, and East High School, from which he graduated.	</value>
+
+		<annotated-sentence>	He attended Blessed Sacrament School, [[Regis Jesuit High School|Regis_Jesuit_High_School]], and East High School, from which he graduated.	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended Blessed Sacrament School, Regis Jesuit High School, and East High School, from which he graduated.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				amod(School/NNP-5,Blessed/JJ-3)
+				nn(School/NNP-5,Sacrament/NNP-4)
+				dobj(attended/VBD-2,School/NNP-5)
+				nn(School/NNP-10,Regis/NNP-7)
+				nn(School/NNP-10,Jesuit/NNP-8)
+				nn(School/NNP-10,High/NNP-9)
+				dobj(attended/VBD-2,School/NNP-10)
+				conj_and(School/NNP-5,School/NNP-10)
+				nn(School/NNP-15,East/NNP-13)
+				nn(School/NNP-15,High/NNP-14)
+				dobj(attended/VBD-2,School/NNP-15)
+				conj_and(School/NNP-5,School/NNP-15)
+				dobj(graduated/VBD-20,which/WDT-18)
+				nsubj(graduated/VBD-20,he/PRP-19)
+				prepc_from(attended/VBD-2,graduated/VBD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Regis Jesuit High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Regis_Jesuit_High_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert received a Bachelor of Science degree in Mechanical engineering from the University of Colorado in 1953, a Master of Science degree in Aerospace engineering from the Rensselaer Polytechnic Institute in 1965, and a Master of Business Administration degree from the University of Hartford in 1967; and was presented an Honorary Doctorate of Science degree from American International College in 1970, and an Honorary Doctorate of Laws degree from Western State University in 1970, and an Honorary Doctorate of Science from Western Michigan University in 1970.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Swigert/NNP-1)
+				nsubjpass(presented/VBN-52,Swigert/NNP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(engineering/NN-10,Mechanical/JJ-9)
+				prep_in(received/VBD-2,engineering/NN-10)
+				det(degree/NN-41,the/DT-12)
+				dep(degree/NN-41,University/NNP-13)
+				prep_of(University/NNP-13,Colorado/NNP-15)
+				prep_in(Colorado/NNP-15,1953/CD-17)
+				det(Master/NN-20,a/DT-19)
+				prep_of(University/NNP-13,Master/NN-20)
+				conj_and(Colorado/NNP-15,Master/NN-20)
+				nn(degree/NN-23,Science/NNP-22)
+				prep_of(Master/NN-20,degree/NN-23)
+				nn(engineering/NN-26,Aerospace/NNP-25)
+				prep_in(Master/NN-20,engineering/NN-26)
+				det(Institute/NNP-31,the/DT-28)
+				nn(Institute/NNP-31,Rensselaer/NNP-29)
+				nn(Institute/NNP-31,Polytechnic/NNP-30)
+				prep_from(engineering/NN-26,Institute/NNP-31)
+				prep_in(Institute/NNP-31,1965/CD-33)
+				det(Master/NN-37,a/DT-36)
+				prep_of(University/NNP-13,Master/NN-37)
+				conj_and(Colorado/NNP-15,Master/NN-37)
+				nn(Administration/NNP-40,Business/NNP-39)
+				prep_of(Master/NN-37,Administration/NNP-40)
+				prep_from(received/VBD-2,degree/NN-41)
+				det(University/NNP-44,the/DT-43)
+				prep_from(degree/NN-41,University/NNP-44)
+				prep_of(University/NNP-44,Hartford/NNP-46)
+				prep_in(Hartford/NNP-46,1967/CD-48)
+				auxpass(presented/VBN-52,was/VBD-51)
+				conj_and(received/VBD-2,presented/VBN-52)
+				det(Doctorate/NN-55,an/DT-53)
+				amod(Doctorate/NN-55,Honorary/JJ-54)
+				dobj(presented/VBN-52,Doctorate/NN-55)
+				nn(degree/NN-58,Science/NNP-57)
+				prep_of(Doctorate/NN-55,degree/NN-58)
+				nn(College/NNP-62,American/NNP-60)
+				nn(College/NNP-62,International/NNP-61)
+				prep_from(presented/VBN-52,College/NNP-62)
+				prep_in(College/NNP-62,1970/CD-64)
+				det(Doctorate/NN-69,an/DT-67)
+				amod(Doctorate/NN-69,Honorary/JJ-68)
+				prep_from(presented/VBN-52,Doctorate/NN-69)
+				conj_and(College/NNP-62,Doctorate/NN-69)
+				nn(degree/NN-72,Laws/NNP-71)
+				prep_of(Doctorate/NN-69,degree/NN-72)
+				nn(University/NNP-76,Western/NNP-74)
+				nn(University/NNP-76,State/NNP-75)
+				prep_from(Doctorate/NN-69,University/NNP-76)
+				prep_in(University/NNP-76,1970/CD-78)
+				det(Doctorate/NN-83,an/DT-81)
+				amod(Doctorate/NN-83,Honorary/JJ-82)
+				prep_from(presented/VBN-52,Doctorate/NN-83)
+				conj_and(College/NNP-62,Doctorate/NN-83)
+				prep_of(Doctorate/NN-83,Science/NN-85)
+				amod(University/NNP-89,Western/JJ-87)
+				nn(University/NNP-89,Michigan/NNP-88)
+				prep_from(presented/VBN-52,University/NNP-89)
+				prep_in(University/NNP-89,1970/CD-91)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After unsuccessfully applying for NASA's second and third astronaut selections, Swigert was accepted into the astronaut corps as part of NASA Astronaut Group 5 in April 1966.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(applying/VBG-3,unsuccessfully/RB-2)
+				prepc_after(accepted/VBN-15,applying/VBG-3)
+				poss(selections/NNS-11,NASA/NNP-5)
+				amod(selections/NNS-11,second/JJ-7)
+				conj_and(second/JJ-7,third/JJ-9)
+				amod(selections/NNS-11,third/JJ-9)
+				nn(selections/NNS-11,astronaut/NN-10)
+				prep_for(applying/VBG-3,selections/NNS-11)
+				nsubjpass(accepted/VBN-15,Swigert/NNP-13)
+				auxpass(accepted/VBN-15,was/VBD-14)
+				det(corps/NN-19,the/DT-17)
+				nn(corps/NN-19,astronaut/NN-18)
+				prep_into(accepted/VBN-15,corps/NN-19)
+				prep_as(accepted/VBN-15,part/NN-21)
+				nn(Group/NNP-25,NASA/NNP-23)
+				nn(Group/NNP-25,Astronaut/NNP-24)
+				prep_of(part/NN-21,Group/NNP-25)
+				num(Group/NNP-25,5/CD-26)
+				prep_in(Group/NNP-25,April/NNP-28)
+				num(April/NNP-28,1966/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert became a specialist on the Apollo command module: he was one of the few astronauts who requested to be command-module pilots.	</value>
+
+		<annotated-sentence>	[[Swigert|Jack_Swigert]] became a specialist on [[the Apollo command module|Service_Module]]: he was one of [[the few astronauts|Astronaut]] who requested to be command-module pilots.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Swigert|Jack_Swigert]] became a specialist on the Apollo command module: he was one of [[the few astronauts|Astronaut]] who requested to be command-module pilots.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-4,Swigert/NNP-1)
+				cop(specialist/NN-4,became/VBD-2)
+				det(specialist/NN-4,a/DT-3)
+				det(module/NN-9,the/DT-6)
+				nn(module/NN-9,Apollo/NNP-7)
+				nn(module/NN-9,command/NN-8)
+				prep_on(specialist/NN-4,module/NN-9)
+				nsubj(one/CD-13,he/PRP-11)
+				cop(one/CD-13,was/VBD-12)
+				parataxis(specialist/NN-4,one/CD-13)
+				det(astronauts/NNS-17,the/DT-15)
+				amod(astronauts/NNS-17,few/JJ-16)
+				prep_of(one/CD-13,astronauts/NNS-17)
+				nsubj(requested/VBD-19,who/WP-18)
+				rcmod(astronauts/NNS-17,requested/VBD-19)
+				aux(pilots/NNS-23,to/TO-20)
+				cop(pilots/NNS-23,be/VB-21)
+				amod(pilots/NNS-23,command-module/JJ-22)
+				xcomp(requested/VBD-19,pilots/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Swigert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jack_Swigert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Apollo command module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Command/Service_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the few astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert was one of three astronauts aboard the ill-fated Apollo 13 moon mission launched April 11, 1970.	</value>
+
+		<annotated-sentence>	[[Swigert|Jack_Swigert]] was one of three [[astronauts|Astronaut]] aboard the ill-fated [[Apollo 13|Apollo_13]] [[moon|Moon]] mission launched April 11, 1970.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Swigert|Jack_Swigert]] was one of three [[astronauts|Astronaut]] aboard the ill-fated [[Apollo 13|Apollo_13]] moon mission launched April 11, 1970.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,Swigert/NNP-1)
+				cop(one/CD-3,was/VBD-2)
+				num(astronauts/NNS-6,three/CD-5)
+				prep_of(one/CD-3,astronauts/NNS-6)
+				det(mission/NN-13,the/DT-8)
+				amod(mission/NN-13,ill-fated/JJ-9)
+				nn(mission/NN-13,Apollo/NNP-10)
+				num(mission/NN-13,13/CD-11)
+				nn(mission/NN-13,moon/NN-12)
+				prep_aboard(astronauts/NNS-6,mission/NN-13)
+				partmod(mission/NN-13,launched/VBN-14)
+				tmod(launched/VBN-14,April/NNP-15)
+				num(April/NNP-15,11/CD-16)
+				num(April/NNP-15,1970/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Swigert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jack_Swigert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 13</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_13</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_13
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_13 http://dbpedia.org/property/crewList http://dbpedia.org/resource/Jack_Swigert
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_13 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Jack_Swigert
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Originally part of the backup crew for the mission, he was assigned to the mission three days before launch, replacing astronaut Ken Mattingly.	</value>
+
+		<annotated-sentence>	Originally part of the [[backup|Backup]] crew for the mission, he was assigned to the mission three days before launch, replacing [[astronaut|Astronaut]] [[Ken Mattingly|Ken_Mattingly]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Originally part of the backup crew for the mission, he was assigned to the mission three days before launch, replacing [[astronaut|Astronaut]] [[Ken Mattingly|Ken_Mattingly]].	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(part/NN-2,Originally/RB-1)
+				ccomp(assigned/VBN-13,part/NN-2)
+				det(crew/NN-6,the/DT-4)
+				nn(crew/NN-6,backup/NN-5)
+				prep_of(part/NN-2,crew/NN-6)
+				det(mission/NN-9,the/DT-8)
+				prep_for(crew/NN-6,mission/NN-9)
+				nsubjpass(assigned/VBN-13,he/PRP-11)
+				auxpass(assigned/VBN-13,was/VBD-12)
+				det(mission/NN-16,the/DT-15)
+				prep_to(assigned/VBN-13,mission/NN-16)
+				num(days/NNS-18,three/CD-17)
+				tmod(mission/NN-16,days/NNS-18)
+				prep_before(mission/NN-16,launch/NN-20)
+				partmod(mission/NN-16,replacing/VBG-22)
+				nn(Mattingly/NNP-25,astronaut/NN-23)
+				nn(Mattingly/NNP-25,Ken/NNP-24)
+				dobj(replacing/VBG-22,Mattingly/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ken Mattingly</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ken_Mattingly</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ken_Mattingly http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The prime crew had been exposed to German Measles (the rubella virus) and, because he had no immunity to the disease, NASA did not want to risk his falling ill during critical phases of the flight.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-3,The/DT-1)
+				amod(crew/NN-3,prime/JJ-2)
+				nsubjpass(exposed/VBN-6,crew/NN-3)
+				aux(exposed/VBN-6,had/VBD-4)
+				auxpass(exposed/VBN-6,been/VBN-5)
+				amod(Measles/NNS-9,German/JJ-8)
+				prep_to(exposed/VBN-6,Measles/NNS-9)
+				det(virus/NN-13,the/DT-11)
+				nn(virus/NN-13,rubella/NN-12)
+				appos(Measles/NNS-9,virus/NN-13)
+				mark(had/VBD-19,because/IN-17)
+				nsubj(had/VBD-19,he/PRP-18)
+				advcl(want/VB-29,had/VBD-19)
+				det(immunity/NN-21,no/DT-20)
+				dobj(had/VBD-19,immunity/NN-21)
+				det(disease/NN-24,the/DT-23)
+				prep_to(immunity/NN-21,disease/NN-24)
+				nsubj(want/VB-29,NASA/NNP-26)
+				aux(want/VB-29,did/VBD-27)
+				neg(want/VB-29,not/RB-28)
+				conj_and(exposed/VBN-6,want/VB-29)
+				aux(risk/VB-31,to/TO-30)
+				xcomp(want/VB-29,risk/VB-31)
+				dobj(risk/VB-31,his/PRP$-32)
+				xcomp(risk/VB-31,falling/VBG-33)
+				advmod(falling/VBG-33,ill/RB-34)
+				amod(phases/NNS-37,critical/JJ-36)
+				prep_during(falling/VBG-33,phases/NNS-37)
+				det(flight/NN-40,the/DT-39)
+				prep_of(phases/NNS-37,flight/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Incidentally, this made Swigert the first American bachelor astronaut to fly in space.	</value>
+
+		<annotated-sentence>	Incidentally, this made [[Swigert|Jack_Swigert]] the first [[American|United_States]] [[bachelor|Bachelor]] [[astronaut|Astronaut]] to fly in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Incidentally, this made [[Swigert|Jack_Swigert]] the first [[American|United_States]] bachelor [[astronaut|Astronaut]] to fly in space.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(made/VBD-4,Incidentally/RB-1)
+				nsubj(made/VBD-4,this/DT-3)
+				iobj(made/VBD-4,Swigert/NNP-5)
+				det(astronaut/NN-10,the/DT-6)
+				amod(astronaut/NN-10,first/JJ-7)
+				amod(astronaut/NN-10,American/JJ-8)
+				nn(astronaut/NN-10,bachelor/NN-9)
+				dobj(made/VBD-4,astronaut/NN-10)
+				aux(fly/VB-12,to/TO-11)
+				xcomp(made/VBD-4,fly/VB-12)
+				prep_in(fly/VB-12,space/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Swigert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jack_Swigert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was the third lunar-landing attempt, but was aborted after the rupture of an oxygen tank in the spacecraft's service module.	</value>
+
+		<annotated-sentence>	The mission was the third lunar-landing [[attempt|Attempt]], but was aborted after the rupture of [[an oxygen tank|Oxygen_tank]] in the [[spacecraft|Spacecraft]]'s service module.	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission was the third lunar-landing attempt, but was aborted after the rupture of an oxygen tank in the spacecraft's service module.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(attempt/NN-7,mission/NN-2)
+				nsubjpass(aborted/VBN-11,mission/NN-2)
+				cop(attempt/NN-7,was/VBD-3)
+				det(attempt/NN-7,the/DT-4)
+				amod(attempt/NN-7,third/JJ-5)
+				amod(attempt/NN-7,lunar-landing/JJ-6)
+				auxpass(aborted/VBN-11,was/VBD-10)
+				conj_but(attempt/NN-7,aborted/VBN-11)
+				det(rupture/NN-14,the/DT-13)
+				prep_after(aborted/VBN-11,rupture/NN-14)
+				det(tank/NN-18,an/DT-16)
+				nn(tank/NN-18,oxygen/NN-17)
+				prep_of(rupture/NN-14,tank/NN-18)
+				det(spacecraft/NN-21,the/DT-20)
+				poss(module/NN-24,spacecraft/NN-21)
+				nn(module/NN-24,service/NN-23)
+				prep_in(tank/NN-18,module/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>attempt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Attempt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an oxygen tank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oxygen_tank</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert was the astronaut who made the famous dramatic announcement, "Houston, we've had a problem here".	</value>
+
+		<annotated-sentence>	[[Swigert|Jack_Swigert]] was [[the astronaut|Astronaut]] who made the famous dramatic announcement, "[[Houston|Houston]], we've had [[a problem|Problem]] here".	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Swigert|Jack_Swigert]] was [[the astronaut|Astronaut]] who made the famous dramatic announcement, "Houston, we've had a problem here".	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(astronaut/NN-4,Swigert/NNP-1)
+				cop(astronaut/NN-4,was/VBD-2)
+				det(astronaut/NN-4,the/DT-3)
+				nsubj(made/VBD-6,who/WP-5)
+				rcmod(astronaut/NN-4,made/VBD-6)
+				det(announcement/NN-10,the/DT-7)
+				amod(announcement/NN-10,famous/JJ-8)
+				amod(announcement/NN-10,dramatic/JJ-9)
+				dobj(made/VBD-6,announcement/NN-10)
+				nsubj(had/VBD-17,Houston/NNP-13)
+				nsubj(had/VBD-17,we/PRP-15)
+				aux(had/VBD-17,'ve/VBP-16)
+				dep(made/VBD-6,had/VBD-17)
+				det(problem/NN-19,a/DT-18)
+				dobj(had/VBD-17,problem/NN-19)
+				advmod(had/VBD-17,here/RB-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Swigert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jack_Swigert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a problem</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Problem</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert, along with fellow astronauts Jim Lovell and Fred Haise, returned safely to Earth on April 13 after about 5 days and 23 hours in space, and received the Presidential Medal of Freedom later that year.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-13,Swigert/NNP-1)
+				nsubj(received/VBD-31,Swigert/NNP-1)
+				amod(astronauts/NNS-6,fellow/JJ-5)
+				prep_along_with(Swigert/NNP-1,astronauts/NNS-6)
+				nn(Lovell/NNP-8,Jim/NNP-7)
+				dep(Swigert/NNP-1,Lovell/NNP-8)
+				nn(Haise/NNP-11,Fred/NNP-10)
+				dep(Swigert/NNP-1,Haise/NNP-11)
+				conj_and(Lovell/NNP-8,Haise/NNP-11)
+				advmod(returned/VBD-13,safely/RB-14)
+				prep_to(returned/VBD-13,Earth/NNP-16)
+				prep_on(Earth/NNP-16,April/NNP-18)
+				num(April/NNP-18,13/CD-19)
+				dep(returned/VBD-13,after/IN-20)
+				num(days/NNS-23,5/CD-22)
+				prep_about(returned/VBD-13,days/NNS-23)
+				num(hours/NNS-26,23/CD-25)
+				prep_about(returned/VBD-13,hours/NNS-26)
+				conj_and(days/NNS-23,hours/NNS-26)
+				prep_in(hours/NNS-26,space/NN-28)
+				conj_and(returned/VBD-13,received/VBD-31)
+				det(Medal/NN-34,the/DT-32)
+				nn(Medal/NN-34,Presidential/NNP-33)
+				dobj(received/VBD-31,Medal/NN-34)
+				prep_of(Medal/NN-34,Freedom/NNP-36)
+				advmod(year/NN-39,later/RB-37)
+				det(year/NN-39,that/DT-38)
+				tmod(received/VBD-31,year/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Swigert received the NASA Distinguished Service Medal.	</value>
+
+		<annotated-sentence>	Swigert received [[the NASA Distinguished Service Medal|NASA_Distinguished_Service_Medal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Swigert received the NASA Distinguished Service Medal.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Swigert/NNP-1)
+				det(Medal/NN-7,the/DT-3)
+				nn(Medal/NN-7,NASA/NNP-4)
+				nn(Medal/NN-7,Distinguished/NNP-5)
+				nn(Medal/NN-7,Service/NNP-6)
+				dobj(received/VBD-2,Medal/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1982, during his political campaign, Swigert developed a malignant tumor in his right nasal passage.	</value>
+
+		<annotated-sentence>	In [[1982|1982]], during [[his political campaign|Political_campaign]], Swigert developed [[a malignant tumor|Cancer]] in [[his right nasal passage|Sinus_ostium]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1982, during his political campaign, Swigert developed a malignant tumor in his right nasal passage.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(developed/VBD-10,1982/CD-2)
+				poss(campaign/NN-7,his/PRP$-5)
+				amod(campaign/NN-7,political/JJ-6)
+				prep_during(developed/VBD-10,campaign/NN-7)
+				nsubj(developed/VBD-10,Swigert/NN-9)
+				det(tumor/NN-13,a/DT-11)
+				amod(tumor/NN-13,malignant/JJ-12)
+				dobj(developed/VBD-10,tumor/NN-13)
+				poss(passage/NN-18,his/PRP$-15)
+				amod(passage/NN-18,right/JJ-16)
+				amod(passage/NN-18,nasal/JJ-17)
+				prep_in(developed/VBD-10,passage/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his political campaign</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Political_campaign</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a malignant tumor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cancer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his right nasal passage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sinus_ostium</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He underwent surgery, but the cancer spread to his bone marrow and lungs.	</value>
+
+		<annotated-sentence>	He underwent [[surgery|Surgery]], but the [[cancer|Cancer]] spread to his [[bone|Bone_marrow]][[bone marrow|Bone_marrow]] and lungs.	</annotated-sentence>
+
+		<pattern_crowdsource>	He underwent surgery, but the cancer spread to his bone marrow and lungs.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(underwent/VBD-2,He/PRP-1)
+				dobj(underwent/VBD-2,surgery/NN-3)
+				det(spread/NN-8,the/DT-6)
+				nn(spread/NN-8,cancer/NN-7)
+				dobj(underwent/VBD-2,spread/NN-8)
+				conj_but(surgery/NN-3,spread/NN-8)
+				poss(marrow/NN-12,his/PRP$-10)
+				nn(marrow/NN-12,bone/NN-11)
+				prep_to(underwent/VBD-2,marrow/NN-12)
+				prep_to(underwent/VBD-2,lungs/NNS-14)
+				conj_and(marrow/NN-12,lungs/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Surgery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cancer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bone</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bone_marrow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bone marrow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bone_marrow</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was hospitalized at Georgetown University Hospital on 19 December, and died of respiratory failure on December 27, eight days before the beginning of his Congressional term.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(hospitalized/VBN-3,He/PRP-1)
+				nsubjpass(died/VBD-13,He/PRP-1)
+				auxpass(hospitalized/VBN-3,was/VBD-2)
+				nn(Hospital/NNP-7,Georgetown/NNP-5)
+				nn(Hospital/NNP-7,University/NNP-6)
+				prep_at(hospitalized/VBN-3,Hospital/NNP-7)
+				prep_on(Hospital/NNP-7,19/CD-9)
+				tmod(hospitalized/VBN-3,December/NNP-10)
+				conj_and(hospitalized/VBN-3,died/VBD-13)
+				amod(failure/NN-16,respiratory/JJ-15)
+				prep_of(died/VBD-13,failure/NN-16)
+				prep_on(failure/NN-16,December/NNP-18)
+				num(December/NNP-18,27/CD-19)
+				num(December/NNP-18,eight/CD-21)
+				tmod(failure/NN-16,days/NNS-22)
+				det(beginning/NN-25,the/DT-24)
+				prep_before(died/VBD-13,beginning/NN-25)
+				poss(term/NN-29,his/PRP$-27)
+				amod(term/NN-29,Congressional/JJ-28)
+				prep_of(beginning/NN-25,term/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is buried in Mount Olivet Cemetery (Wheat Ridge), in Colorado.	</value>
+
+		<annotated-sentence>	He is buried in Mount Olivet Cemetery ([[Wheat Ridge|Wheat_Ridge,_Colorado]]), in [[Colorado|Colorado]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is buried in Mount Olivet Cemetery ([[Wheat Ridge|Wheat_Ridge,_Colorado]]), in [[Colorado|Colorado]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(buried/VBN-3,He/PRP-1)
+				auxpass(buried/VBN-3,is/VBZ-2)
+				nn(Cemetery/NNP-7,Mount/NNP-5)
+				nn(Cemetery/NNP-7,Olivet/NNP-6)
+				prep_in(buried/VBN-3,Cemetery/NNP-7)
+				nn(Ridge/NNP-10,Wheat/NNP-9)
+				appos(Cemetery/NNP-7,Ridge/NNP-10)
+				prep_in(Cemetery/NNP-7,Colorado/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Wheat Ridge</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wheat_Ridge,_Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_Swigert http://dbpedia.org/property/restingplace http://dbpedia.org/resource/Wheat_Ridge,_Colorado
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Wheat_Ridge,_Colorado http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Colorado
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2004, the Space Foundation launched the John L. "Jack" Swigert, Jr., Award for Space Exploration, which is presented annually to an individual, group or organization that has made a significant contribution to space exploration.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(launched/VBD-7,2004/CD-2)
+				det(Foundation/NNP-6,the/DT-4)
+				nn(Foundation/NNP-6,Space/NNP-5)
+				nsubj(launched/VBD-7,Foundation/NNP-6)
+				det(Swigert/NNP-14,the/DT-8)
+				nn(Swigert/NNP-14,John/NNP-9)
+				nn(Swigert/NNP-14,L./NNP-10)
+				nn(Swigert/NNP-14,Jack/NNP-12)
+				dobj(launched/VBD-7,Swigert/NNP-14)
+				appos(Swigert/NNP-14,Jr./NNP-16)
+				appos(Swigert/NNP-14,Award/NN-18)
+				nn(Exploration/NN-21,Space/NN-20)
+				prep_for(Award/NN-18,Exploration/NN-21)
+				nsubjpass(presented/VBN-25,which/WDT-23)
+				auxpass(presented/VBN-25,is/VBZ-24)
+				rcmod(Exploration/NN-21,presented/VBN-25)
+				advmod(presented/VBN-25,annually/RB-26)
+				det(individual/JJ-29,an/DT-28)
+				prep_to(presented/VBN-25,individual/JJ-29)
+				prep_to(presented/VBN-25,group/NN-31)
+				conj_or(individual/JJ-29,group/NN-31)
+				prep_to(presented/VBN-25,organization/NN-33)
+				conj_or(individual/JJ-29,organization/NN-33)
+				nsubj(made/VBN-36,that/WDT-34)
+				aux(made/VBN-36,has/VBZ-35)
+				rcmod(Swigert/NNP-14,made/VBN-36)
+				det(contribution/NN-39,a/DT-37)
+				amod(contribution/NN-39,significant/JJ-38)
+				dobj(made/VBN-36,contribution/NN-39)
+				nn(exploration/NN-42,space/NN-41)
+				prep_to(made/VBN-36,exploration/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Based in Colorado Springs, Colo., the Space Foundation was founded in 1983 in part to honor the memory and accomplishments of Swigert.	</value>
+
+		<annotated-sentence>	Based in Colorado Springs, [[Colo.|Colorado]], [[the Space Foundation|Space_Foundation]] was founded in [[1983|1983]] in part to honor the [[memory|Memory]] and accomplishments of Swigert.	</annotated-sentence>
+
+		<pattern_crowdsource>	Based in Colorado Springs, Colo., the Space Foundation was founded in 1983 in part to honor the memory and accomplishments of Swigert.	</pattern_crowdsource>
+
+
+		<tree>
+				prep(founded/VBN-12,Based/VBN-1)
+				pcomp(Based/VBN-1,in/IN-2)
+				nn(Springs/NNP-4,Colorado/NNP-3)
+				pobj(in/IN-2,Springs/NNP-4)
+				appos(Springs/NNP-4,Colo./NNP-6)
+				det(Foundation/NNP-10,the/DT-8)
+				nn(Foundation/NNP-10,Space/NNP-9)
+				nsubjpass(founded/VBN-12,Foundation/NNP-10)
+				auxpass(founded/VBN-12,was/VBD-11)
+				prep_in(founded/VBN-12,1983/CD-14)
+				prep_in(founded/VBN-12,part/NN-16)
+				aux(honor/VB-18,to/TO-17)
+				xcomp(founded/VBN-12,honor/VB-18)
+				det(memory/NN-20,the/DT-19)
+				dobj(honor/VB-18,memory/NN-20)
+				dobj(honor/VB-18,accomplishments/NNS-22)
+				conj_and(memory/NN-20,accomplishments/NNS-22)
+				prep_of(memory/NN-20,Swigert/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colo.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Foundation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Foundation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>memory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Memory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recipients include:	</value>
+
+		<annotated-sentence>	Recipients include:	</annotated-sentence>
+
+		<pattern_crowdsource>	Recipients include:	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(include/VBP-2,Recipients/NNS-1)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

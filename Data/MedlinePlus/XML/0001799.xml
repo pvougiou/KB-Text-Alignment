@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The Ham test is a blood test done to diagnose paroxysmal nocturnal hemoglobinuria (PNH).</value>
+		<pattern_crowdsource> The [[Ham test|C0430257]] is a [[blood test|C0018941]] done to diagnose [[paroxysmal nocturnal hemoglobinuria|C0024790]] (PNH).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ham test</surface-form>
+				<RDF-ID>C0430257</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood test</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>paroxysmal nocturnal hemoglobinuria</surface-form>
+				<RDF-ID>C0024790</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0430257 ISA C0018941</triple>
+			<triple>C0018941 DIAGNOSES C0024790</triple>
+			<triple>C0430257 DIAGNOSES C0024790</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The Ham test can also be used to diagnose another rare disorder called congenital dyserythropoietic anemia.</value>
+		<pattern_crowdsource> The [[Ham test|C0430257]] can also be used to diagnose another [[rare disorder|C0678236]] called congenital dyserythropoietic anemia.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ham test</surface-form>
+				<RDF-ID>C0430257</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare disorder</surface-form>
+				<RDF-ID>C0678236</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>congenital dyserythropoietic anemia</surface-form>
+				<RDF-ID>C0002876</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0430257 DIAGNOSES C0678236</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Swelling can lead to poor wound healing and other surgery complications.</value>
+		<pattern_crowdsource> [[Swelling|C0013604]] can lead to poor [[wound healing|C0043240]] and other surgery complications.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poor</surface-form>
+				<RDF-ID>C0032854</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wound healing</surface-form>
+				<RDF-ID>C0043240</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery complications</surface-form>
+				<RDF-ID>C0221082</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013604 CAUSES C0043240</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking ibuprofen (Advil, Motrin) or another anti-inflammatory medicine may also help.</value>
+		<pattern_crowdsource> Taking [[ibuprofen|C0020740]] ([[Advil|C0593507]], [[Motrin|C0699203]]) or another anti-inflammatory [[medicine|C0013227]] may also help.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anti-inflammatory</surface-form>
+				<RDF-ID>C1515999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0013227 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

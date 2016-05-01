@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Yvonne Darlene Cagle (born April 24, 1959, West Point, New York, United States) is an African American NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Yvonne Darlene Cagle|Yvonne_Cagle]] (born April 24, 1959, [[West Point|West_Point,_New_York]], [[New York|New_York]], [[United States|United_States]]) is an [[African American|African_American]] [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Yvonne Darlene Cagle|Yvonne_Cagle]] (born April 24, 1959, [[West Point|West_Point,_New_York]], [[New York|New_York]], [[United States|United_States]]) is an African American [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cagle/NNP-3,Yvonne/NNP-1)
+				nn(Cagle/NNP-3,Darlene/NNP-2)
+				nsubj(astronaut/NN-25,Cagle/NNP-3)
+				dep(Cagle/NNP-3,born/VBN-5)
+				dobj(born/VBN-5,April/NNP-6)
+				num(April/NNP-6,24/CD-7)
+				num(April/NNP-6,1959/CD-9)
+				nn(Point/NNP-12,West/NNP-11)
+				appos(April/NNP-6,Point/NNP-12)
+				nn(York/NNP-15,New/NNP-14)
+				appos(April/NNP-6,York/NNP-15)
+				nn(States/NNPS-18,United/NNP-17)
+				appos(April/NNP-6,States/NNPS-18)
+				cop(astronaut/NN-25,is/VBZ-20)
+				det(astronaut/NN-25,an/DT-21)
+				amod(American/JJ-23,African/JJ-22)
+				amod(astronaut/NN-25,American/JJ-23)
+				nn(astronaut/NN-25,NASA/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yvonne Darlene Cagle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yvonne_Cagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Point,_New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>African American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/African_American</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/West_Point,_New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/West_Point,_New_York http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/West_Point,_New_York http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/New_York http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Yvonne Cagle received her bachelor's degree in biochemistry from San Francisco State University in 1981, and a doctor of medicine degree from the University of Washington in 1985.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cagle/NNP-2,Yvonne/NNP-1)
+				nsubj(received/VBD-3,Cagle/NNP-2)
+				poss(bachelor/NN-5,her/PRP$-4)
+				poss(degree/NN-7,bachelor/NN-5)
+				dobj(received/VBD-3,degree/NN-7)
+				prep_in(received/VBD-3,biochemistry/NN-9)
+				nn(University/NNP-14,San/NNP-11)
+				nn(University/NNP-14,Francisco/NNP-12)
+				nn(University/NNP-14,State/NNP-13)
+				prep_from(received/VBD-3,University/NNP-14)
+				prep_in(University/NNP-14,1981/CD-16)
+				det(doctor/NN-20,a/DT-19)
+				prep_from(received/VBD-3,doctor/NN-20)
+				conj_and(University/NNP-14,doctor/NN-20)
+				nn(degree/NN-23,medicine/NN-22)
+				prep_of(doctor/NN-20,degree/NN-23)
+				det(University/NNP-26,the/DT-25)
+				prep_from(received/VBD-3,University/NNP-26)
+				prep_of(University/NNP-26,Washington/NNP-28)
+				prep_in(Washington/NNP-28,1985/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She completed a transitional internship at Highland General Hospital in Oakland, California in 1985 and received a certificate in Aerospace Medicine from the School of Aerospace Medicine at Brooks Air Force Base, Texas, in 1988.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,She/PRP-1)
+				nsubj(received/VBD-17,She/PRP-1)
+				det(internship/NN-5,a/DT-3)
+				amod(internship/NN-5,transitional/JJ-4)
+				dobj(completed/VBD-2,internship/NN-5)
+				nn(Hospital/NNP-9,Highland/NNP-7)
+				nn(Hospital/NNP-9,General/NNP-8)
+				prep_at(completed/VBD-2,Hospital/NNP-9)
+				nn(California/NNP-13,Oakland/NNP-11)
+				prep_in(Hospital/NNP-9,California/NNP-13)
+				prep_in(completed/VBD-2,1985/CD-15)
+				conj_and(completed/VBD-2,received/VBD-17)
+				det(certificate/NN-19,a/DT-18)
+				dobj(received/VBD-17,certificate/NN-19)
+				nn(Medicine/NNP-22,Aerospace/NNP-21)
+				prep_in(received/VBD-17,Medicine/NNP-22)
+				det(School/NNP-25,the/DT-24)
+				prep_from(Medicine/NNP-22,School/NNP-25)
+				nn(Medicine/NNP-28,Aerospace/NNP-27)
+				prep_of(School/NNP-25,Medicine/NNP-28)
+				nn(Base/NNP-33,Brooks/NNP-30)
+				nn(Base/NNP-33,Air/NNP-31)
+				nn(Base/NNP-33,Force/NNP-32)
+				prep_at(Medicine/NNP-28,Base/NNP-33)
+				appos(Base/NNP-33,Texas/NNP-35)
+				prep_in(received/VBD-17,1988/CD-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She then went on to complete a residency in family practice at Ghent FP at Eastern Virginia Medical School in 1992 and received certification as a senior aviation medical examiner from the Federal Aviation Administration in 1995.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-3,She/PRP-1)
+				nsubj(received/VBD-23,She/PRP-1)
+				advmod(went/VBD-3,then/RB-2)
+				prt(went/VBD-3,on/IN-4)
+				aux(complete/VB-6,to/TO-5)
+				xcomp(went/VBD-3,complete/VB-6)
+				det(residency/NN-8,a/DT-7)
+				dobj(complete/VB-6,residency/NN-8)
+				nn(practice/NN-11,family/NN-10)
+				prep_in(residency/NN-8,practice/NN-11)
+				nn(FP/NN-14,Ghent/NNP-13)
+				prep_at(complete/VB-6,FP/NN-14)
+				nn(School/NNP-19,Eastern/NNP-16)
+				nn(School/NNP-19,Virginia/NNP-17)
+				nn(School/NNP-19,Medical/NNP-18)
+				prep_at(complete/VB-6,School/NNP-19)
+				prep_in(School/NNP-19,1992/CD-21)
+				conj_and(went/VBD-3,received/VBD-23)
+				dobj(received/VBD-23,certification/NN-24)
+				det(examiner/NN-30,a/DT-26)
+				amod(examiner/NN-30,senior/JJ-27)
+				nn(examiner/NN-30,aviation/NN-28)
+				amod(examiner/NN-30,medical/JJ-29)
+				prep_as(received/VBD-23,examiner/NN-30)
+				det(Administration/NNP-35,the/DT-32)
+				nn(Administration/NNP-35,Federal/NNP-33)
+				nn(Administration/NNP-35,Aviation/NNP-34)
+				prep_from(received/VBD-23,Administration/NNP-35)
+				prep_in(Administration/NNP-35,1995/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Yvonne Cagle was a member of the Astronaut Class of 1996 (NASA Astronaut Group 16).	</value>
+
+		<annotated-sentence>	[[Yvonne Cagle|Yvonne_Cagle]] was a member of the [[Astronaut|Astronaut]] Class of [[1996|1996]] ([[NASA Astronaut Group 16|NASA_Astronaut_Group_16]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Yvonne Cagle|Yvonne_Cagle]] was a member of the [[Astronaut|Astronaut]] Class of 1996 (NASA [[Astronaut|Astronaut]] Group 16).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cagle/NNP-2,Yvonne/NNP-1)
+				nsubj(member/NN-5,Cagle/NNP-2)
+				cop(member/NN-5,was/VBD-3)
+				det(member/NN-5,a/DT-4)
+				det(Class/NNP-9,the/DT-7)
+				nn(Class/NNP-9,Astronaut/NNP-8)
+				prep_of(member/NN-5,Class/NNP-9)
+				prep_of(Class/NNP-9,1996/CD-11)
+				nn(Group/NNP-15,NASA/NNP-13)
+				nn(Group/NNP-15,Astronaut/NNP-14)
+				dep(1996/CD-11,Group/NNP-15)
+				dep(Group/NNP-15,16/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yvonne Cagle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yvonne_Cagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Astronaut Group 16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_16</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_16
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is currently assigned to Johnson Space Center's Space and Life Sciences Directorate.	</value>
+
+		<annotated-sentence>	She is currently assigned to [[Johnson Space Center|Lyndon_B._Johnson_Space_Center]]'s [[Space|Space_center]] and [[Life Sciences|Life_sciences]] Directorate.	</annotated-sentence>
+
+		<pattern_crowdsource>	She is currently assigned to Johnson Space Center's Space and Life Sciences Directorate.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,She/PRP-1)
+				auxpass(assigned/VBN-4,is/VBZ-2)
+				advmod(assigned/VBN-4,currently/RB-3)
+				nn(Center/NNP-8,Johnson/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				poss(Space/NN-10,Center/NNP-8)
+				prep_to(assigned/VBN-4,Space/NN-10)
+				nn(Directorate/NNP-14,Life/NNP-12)
+				nn(Directorate/NNP-14,Sciences/NNPS-13)
+				prep_to(assigned/VBN-4,Directorate/NNP-14)
+				conj_and(Space/NN-10,Directorate/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Life Sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Life_sciences</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Cagle is also an advisor for NASA's Flight Opportunities Program (originally named CRuSR – Commercial Reusable Suborbital Research Program).	</value>
+
+		<annotated-sentence>	Dr. [[Cagle|Yvonne_Cagle]] is also [[an advisor|Financial_adviser]] for [[NASA|NASA]]'s [[Flight|Sub-orbital_spaceflight]] Opportunities Program (originally named CRuSR – [[Commercial|Business]] [[Reusable|Reusability]] [[Suborbital|Sub-orbital_spaceflight]] [[Research Program|Research_program]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. [[Cagle|Yvonne_Cagle]] is also [[an advisor|Financial_adviser]] for [[NASA|NASA]]'s Flight Opportunities Program (originally named CRuSR – [[Commercial|Business]] Reusable Suborbital Research Program).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cagle/NNP-2,Dr./NNP-1)
+				nsubj(advisor/NN-6,Cagle/NNP-2)
+				cop(advisor/NN-6,is/VBZ-3)
+				advmod(advisor/NN-6,also/RB-4)
+				det(advisor/NN-6,an/DT-5)
+				poss(Program/NNP-12,NASA/NNP-8)
+				nn(Program/NNP-12,Flight/NNP-10)
+				nn(Program/NNP-12,Opportunities/NNPS-11)
+				prep_for(advisor/NN-6,Program/NNP-12)
+				advmod(named/VBN-15,originally/RB-14)
+				dep(Program/NNP-12,named/VBN-15)
+				dobj(named/VBN-15,CRuSR/NN-16)
+				amod(Program/NNP-22,Commercial/JJ-18)
+				amod(Program/NNP-22,Reusable/JJ-19)
+				nn(Program/NNP-22,Suborbital/NNP-20)
+				nn(Program/NNP-22,Research/NNP-21)
+				dep(CRuSR/NN-16,Program/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cagle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yvonne_Cagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an advisor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Financial_adviser</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sub-orbital_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commercial</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reusable</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reusability</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Suborbital</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sub-orbital_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Financial_adviser http://dbpedia.org/property/activitySector http://dbpedia.org/resource/Business
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Currently Dr. Cagle is on faculty and serves as the NASA liaison for exploration and space development with Singularity University.	</value>
+
+		<annotated-sentence>	Currently Dr. [[Cagle|Yvonne_Cagle]] is on faculty and serves as the [[NASA|NASA]] liaison for exploration and space development with [[Singularity University|Singularity_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Currently Dr. [[Cagle|Yvonne_Cagle]] is on faculty and serves as the [[NASA|NASA]] liaison for exploration and space development with Singularity University.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(is/VBZ-4,Currently/RB-1)
+				nn(Cagle/NNP-3,Dr./NNP-2)
+				nsubj(is/VBZ-4,Cagle/NNP-3)
+				nsubj(serves/VBZ-8,Cagle/NNP-3)
+				prep_on(is/VBZ-4,faculty/NN-6)
+				conj_and(is/VBZ-4,serves/VBZ-8)
+				det(liaison/NN-12,the/DT-10)
+				nn(liaison/NN-12,NASA/NNP-11)
+				prep_as(serves/VBZ-8,liaison/NN-12)
+				nn(development/NN-17,exploration/NN-14)
+				conj_and(exploration/NN-14,space/NN-16)
+				nn(development/NN-17,space/NN-16)
+				prep_for(liaison/NN-12,development/NN-17)
+				nn(University/NNP-20,Singularity/NNP-19)
+				prep_with(serves/VBZ-8,University/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cagle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yvonne_Cagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Singularity University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Singularity_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yvonne_Cagle http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the workshop, Dr. Cagle was embedded with the crew as a crew training consultant and advisor, providing insights and feedback to both crew and study team from the viewpoint of an astronaut, flight surgeon, space development expert and science liaison.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(workshop/NN-3,the/DT-2)
+				prep_during(embedded/VBN-8,workshop/NN-3)
+				nn(Cagle/NNP-6,Dr./NNP-5)
+				nsubjpass(embedded/VBN-8,Cagle/NNP-6)
+				auxpass(embedded/VBN-8,was/VBD-7)
+				det(crew/NN-11,the/DT-10)
+				prep_with(embedded/VBN-8,crew/NN-11)
+				det(consultant/NN-16,a/DT-13)
+				nn(consultant/NN-16,crew/NN-14)
+				nn(consultant/NN-16,training/NN-15)
+				prep_as(embedded/VBN-8,consultant/NN-16)
+				prep_as(embedded/VBN-8,advisor/NN-18)
+				conj_and(consultant/NN-16,advisor/NN-18)
+				xcomp(embedded/VBN-8,providing/VBG-20)
+				dobj(providing/VBG-20,insights/NNS-21)
+				dobj(providing/VBG-20,feedback/NN-23)
+				conj_and(insights/NNS-21,feedback/NN-23)
+				preconj(team/NN-29,both/DT-25)
+				nn(team/NN-29,crew/NN-26)
+				conj_and(crew/NN-26,study/NN-28)
+				nn(team/NN-29,study/NN-28)
+				prep_to(providing/VBG-20,team/NN-29)
+				det(viewpoint/NN-32,the/DT-31)
+				prep_from(providing/VBG-20,viewpoint/NN-32)
+				det(astronaut/NN-35,an/DT-34)
+				prep_of(viewpoint/NN-32,astronaut/NN-35)
+				nn(surgeon/NN-38,flight/NN-37)
+				prep_of(viewpoint/NN-32,surgeon/NN-38)
+				conj_and(astronaut/NN-35,surgeon/NN-38)
+				nn(expert/NN-42,space/NN-40)
+				nn(expert/NN-42,development/NN-41)
+				prep_of(viewpoint/NN-32,expert/NN-42)
+				conj_and(astronaut/NN-35,expert/NN-42)
+				nn(liaison/NN-45,science/NN-44)
+				prep_of(viewpoint/NN-32,liaison/NN-45)
+				conj_and(astronaut/NN-35,liaison/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She has recently been selected reserve crew for Hawai‘i Space Exploration Analog and Simulation (HI-SEAS), which is part of a study for NASA to determine the best way to keep astronauts well nourished during multiple-year missions to Mars or the moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-5,She/PRP-1)
+				aux(selected/VBN-5,has/VBZ-2)
+				advmod(selected/VBN-5,recently/RB-3)
+				auxpass(selected/VBN-5,been/VBN-4)
+				nn(crew/NN-7,reserve/NN-6)
+				dobj(selected/VBN-5,crew/NN-7)
+				nn(Analog/NNP-12,Hawai‘i/NNP-9)
+				nn(Analog/NNP-12,Space/NNP-10)
+				nn(Analog/NNP-12,Exploration/NNP-11)
+				prep_for(selected/VBN-5,Analog/NNP-12)
+				prep_for(selected/VBN-5,Simulation/NNP-14)
+				conj_and(Analog/NNP-12,Simulation/NNP-14)
+				appos(Simulation/NNP-14,HI-SEAS/NNP-16)
+				nsubj(part/NN-21,which/WDT-19)
+				cop(part/NN-21,is/VBZ-20)
+				rcmod(Simulation/NNP-14,part/NN-21)
+				det(study/NN-24,a/DT-23)
+				prep_of(part/NN-21,study/NN-24)
+				prep_for(study/NN-24,NASA/NNP-26)
+				aux(determine/VB-28,to/TO-27)
+				infmod(part/NN-21,determine/VB-28)
+				det(way/NN-31,the/DT-29)
+				amod(way/NN-31,best/JJS-30)
+				dobj(determine/VB-28,way/NN-31)
+				aux(keep/VB-33,to/TO-32)
+				xcomp(determine/VB-28,keep/VB-33)
+				nsubj(nourished/VBD-36,astronauts/NNS-34)
+				advmod(nourished/VBD-36,well/RB-35)
+				ccomp(keep/VB-33,nourished/VBD-36)
+				amod(missions/NNS-39,multiple-year/JJ-38)
+				prep_during(nourished/VBD-36,missions/NNS-39)
+				prep_to(nourished/VBD-36,Mars/NNP-41)
+				det(moon/NN-44,the/DT-43)
+				prep_to(nourished/VBD-36,moon/NN-44)
+				conj_or(Mars/NNP-41,moon/NN-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

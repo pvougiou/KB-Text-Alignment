@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Acute myeloid leukemia (AML) is cancer that starts inside bone marrow.</value>
+		<pattern_crowdsource> [[Acute myeloid leukemia|C0023467]] (AML) is [[cancer|C0006826]] that starts inside bone marrow.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Acute myeloid leukemia</surface-form>
+				<RDF-ID>C0023467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow</surface-form>
+				<RDF-ID>C0005953</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023467 ISA C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The cancer grows from cells that would normally turn into white blood cells.</value>
+		<pattern_crowdsource> The [[cancer|C0006826]] grows from [[cells|C0007634]] that would normally turn into white blood cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>white blood cells</surface-form>
+				<RDF-ID>C0023516</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007634 LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Fistula: An artery in your forearm is sewn to a vein nearby.</value>
+		<pattern_crowdsource> Fistula: An [[artery|C0003842]] in your [[forearm|C0016536]] is sewn to a vein nearby.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Fistula</surface-form>
+				<RDF-ID>C0016169</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>artery</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>forearm</surface-form>
+				<RDF-ID>C0016536</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016536 LOCATION_OF C0003842</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- This allows needles to be inserted into the vein for dialysis treatment.</value>
+		<pattern_crowdsource> - This allows [[needles|C0027551]] to be inserted into the vein for [[dialysis|C0011946]] [[treatment|C0087111]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>needles</surface-form>
+				<RDF-ID>C0027551</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dialysis</surface-form>
+				<RDF-ID>C0011946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011946 ISA C0087111</triple>
+			<triple>C0087111 USES C0027551</triple>
+			<triple>C0011946 USES C0027551</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Central venous catheter: A soft plastic tube (catheter) is tunneled under your skin and placed in a vein in your neck, chest, or groin.</value>
+		<pattern_crowdsource> [[Central venous catheter|C1145640]]: A soft plastic tube (catheter) is tunneled under your skin and placed in a [[vein|C0042449]] in your [[neck|C0027530]], [[chest|C0817096]], or [[groin|C0018246]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Central venous catheter</surface-form>
+				<RDF-ID>C1145640</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soft</surface-form>
+				<RDF-ID>C0205358</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plastic tube</surface-form>
+				<RDF-ID>C0336633</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042449 LOCATION_OF C1145640</triple>
+			<triple>C0027530 LOCATION_OF C0042449</triple>
+			<triple>C0018246 LOCATION_OF C0042449</triple>
+			<triple>C0817096 LOCATION_OF C0042449</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking care of the dressing (bandage):  - If you have a graft or fistula, keep the dressing dry for the first 2 days.</value>
+		<pattern_crowdsource> Taking care of the [[dressing|C0013119]] ([[bandage|C0004726]]):  - If you have a graft or fistula, keep the dressing dry for the first 2 days.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>dressing</surface-form>
+				<RDF-ID>C0013119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bandage</surface-form>
+				<RDF-ID>C0004726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>graft</surface-form>
+				<RDF-ID>C0040732</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fistula</surface-form>
+				<RDF-ID>C0016169</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dressing</surface-form>
+				<RDF-ID>C0013119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dry</surface-form>
+				<RDF-ID>C0205222</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>first</surface-form>
+				<RDF-ID>C1279901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004726 ISA C0013119</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Signs of infection are redness, swelling, soreness, pain, warmth, pus around the site, and fever.</value>
+		<pattern_crowdsource> Signs of infection are redness, swelling, [[soreness|C0234233]], [[pain|C0030193]], warmth, pus around the site, and fever.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>redness</surface-form>
+				<RDF-ID>C0332575</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0038999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soreness</surface-form>
+				<RDF-ID>C0234233</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pus</surface-form>
+				<RDF-ID>C0034161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>site</surface-form>
+				<RDF-ID>C0205145</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0234233 ISA C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Change where the needle goes into your fistula or graft for each dialysis treatment.</value>
+		<pattern_crowdsource> - Change where the needle goes into your fistula or [[graft|C0040732]] for each [[dialysis|C0011946]] [[treatment|C0087111]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Change</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fistula</surface-form>
+				<RDF-ID>C0016169</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>graft</surface-form>
+				<RDF-ID>C0040732</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dialysis</surface-form>
+				<RDF-ID>C0011946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011946 ISA C0087111</triple>
+			<triple>C0040732 METHOD_OF C0087111</triple>
+			<triple>C0040732 METHOD_OF C0011946</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- DO NOT let anyone take your blood pressure, start an IV (intravenous line), or draw blood from your access arm.</value>
+		<pattern_crowdsource> - DO NOT let anyone take your [[blood pressure|C1272641]], start an IV (intravenous line), or draw blood from your access [[arm|C1140618]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>let</surface-form>
+				<RDF-ID>C0086562</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intravenous</surface-form>
+				<RDF-ID>C0348016</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>line</surface-form>
+				<RDF-ID>C0205132</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>access</surface-form>
+				<RDF-ID>C0444454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1140618 LOCATION_OF C1272641</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

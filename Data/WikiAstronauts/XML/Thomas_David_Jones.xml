@@ -1,0 +1,2566 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Thomas David Jones (born January 22, 1955) is a former United States astronaut.	</value>
+
+		<annotated-sentence>	[[Thomas David Jones|Thomas_David_Jones]] (born [[January|January]] 22, 1955) is a former [[United States|United_States]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Thomas David Jones|Thomas_David_Jones]] (born January 22, 1955) is a former [[United States|United_States]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jones/NNP-3,Thomas/NNP-1)
+				nn(Jones/NNP-3,David/NNP-2)
+				nsubj(astronaut/NN-16,Jones/NNP-3)
+				dep(Jones/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,January/NNP-6)
+				num(January/NNP-6,22/CD-7)
+				num(January/NNP-6,1955/CD-9)
+				cop(astronaut/NN-16,is/VBZ-11)
+				det(astronaut/NN-16,a/DT-12)
+				amod(astronaut/NN-16,former/JJ-13)
+				nn(astronaut/NN-16,United/NNP-14)
+				nn(astronaut/NN-16,States/NNPS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Thomas David Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Thomas_David_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected to the astronaut corps in 1990 and completed four space shuttle flights before retiring in 2001.	</value>
+
+		<annotated-sentence>	He was selected to [[the astronaut corps|Human_spaceflight]] in [[1990|1990]] and completed four [[space shuttle|SpaceShuttle]] [[flights|Flight]] before retiring in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected to the astronaut corps in 1990 and completed four space shuttle flights before retiring in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				nsubjpass(completed/VBD-11,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(corps/NN-7,the/DT-5)
+				nn(corps/NN-7,astronaut/NN-6)
+				prep_to(selected/VBN-3,corps/NN-7)
+				prep_in(corps/NN-7,1990/CD-9)
+				conj_and(selected/VBN-3,completed/VBD-11)
+				num(flights/NNS-15,four/CD-12)
+				nn(flights/NNS-15,space/NN-13)
+				nn(flights/NNS-15,shuttle/NN-14)
+				dobj(completed/VBD-11,flights/NNS-15)
+				prepc_before(completed/VBD-11,retiring/VBG-17)
+				prep_in(retiring/VBG-17,2001/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the astronaut corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on STS-59 and STS-68 in 1994, STS-80 in 1996 and STS-98 in 2001.	</value>
+
+		<annotated-sentence>	He flew on [[STS-59 and STS-68|STS-68]] in [[1994|1994]], [[STS-80|STS-80]] in [[1996|1996]] and [[STS-98|STS-98]] in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on [[STS-59 and STS-68|STS-68]] in 1994, [[STS-80|STS-80]] in 1996 and [[STS-98|STS-98]] in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				prep_on(flew/VBD-2,STS-59/NN-4)
+				prep_on(flew/VBD-2,STS-68/NN-6)
+				conj_and(STS-59/NN-4,STS-68/NN-6)
+				prep_in(STS-59/NN-4,1994/CD-8)
+				prep_on(flew/VBD-2,STS-80/NN-10)
+				conj_and(STS-59/NN-4,STS-80/NN-10)
+				prep_in(STS-80/NN-10,1996/CD-12)
+				prep_on(flew/VBD-2,STS-98/NN-14)
+				conj_and(STS-59/NN-4,STS-98/NN-14)
+				prep_in(STS-98/NN-14,2001/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-59 and STS-68</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-68</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-80</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-80</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-98</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-98</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-68
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-68 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-68 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-80
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-80 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-80 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-98
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His total mission time was 53 days 48 minutes.	</value>
+
+		<annotated-sentence>	His total mission time was [[53 days|53_Days]] 48 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His total mission time was 53 days 48 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-4,His/PRP$-1)
+				amod(time/NN-4,total/JJ-2)
+				nn(time/NN-4,mission/NN-3)
+				nsubj(days/NNS-7,time/NN-4)
+				cop(days/NNS-7,was/VBD-5)
+				num(days/NNS-7,53/CD-6)
+				num(minutes/NNS-9,48/CD-8)
+				tmod(days/NNS-7,minutes/NNS-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>53 days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/53_Days</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He works as a planetary scientist, space operations consultant, astronaut speaker, and author.	</value>
+
+		<annotated-sentence>	He works as [[a planetary scientist|Planetary_science]], [[space|Space]] operations [[consultant|Consultant]], [[astronaut|Astronaut]] speaker, and [[author|Author]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He works as a planetary scientist, space operations consultant, [[astronaut|Astronaut]] speaker, and author.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(works/VBZ-2,He/PRP-1)
+				det(scientist/NN-6,a/DT-4)
+				amod(scientist/NN-6,planetary/JJ-5)
+				prep_as(works/VBZ-2,scientist/NN-6)
+				nn(consultant/NN-10,space/NN-8)
+				nn(consultant/NN-10,operations/NNS-9)
+				prep_as(works/VBZ-2,consultant/NN-10)
+				conj_and(scientist/NN-6,consultant/NN-10)
+				nn(speaker/NN-13,astronaut/NN-12)
+				prep_as(works/VBZ-2,speaker/NN-13)
+				conj_and(scientist/NN-6,speaker/NN-13)
+				prep_as(works/VBZ-2,author/NN-16)
+				conj_and(scientist/NN-6,author/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a planetary scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planetary_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>consultant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consultant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jones was born in 1955, in Baltimore, Maryland.	</value>
+
+		<annotated-sentence>	Jones was born in [[1955|1955]], in Baltimore, Maryland.	</annotated-sentence>
+
+		<pattern_crowdsource>	Jones was born in 1955, in Baltimore, Maryland.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Jones/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,1955/CD-5)
+				nn(Maryland/NNP-10,Baltimore/NNP-8)
+				prep_in(born/VBN-3,Maryland/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1955</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1955</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Kenwood High School, Essex, Maryland, in 1973; received a bachelor of science degree in basic sciences from the United States Air Force Academy in 1977, and a doctorate in planetary science from the University of Arizona in 1988.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Kenwood/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Maryland/NNP-10,Essex/NNP-8)
+				nsubj(received/VBD-15,Maryland/NNP-10)
+				prep_in(Maryland/NNP-10,1973/CD-13)
+				ccomp(graduated/VBD-2,received/VBD-15)
+				det(bachelor/NN-17,a/DT-16)
+				dobj(received/VBD-15,bachelor/NN-17)
+				nn(degree/NN-20,science/NN-19)
+				prep_of(bachelor/NN-17,degree/NN-20)
+				amod(sciences/NNS-23,basic/JJ-22)
+				prep_in(degree/NN-20,sciences/NNS-23)
+				det(Academy/NNP-30,the/DT-25)
+				nn(Academy/NNP-30,United/NNP-26)
+				nn(Academy/NNP-30,States/NNP-27)
+				nn(Academy/NNP-30,Air/NNP-28)
+				nn(Academy/NNP-30,Force/NNP-29)
+				prep_from(received/VBD-15,Academy/NNP-30)
+				prep_in(Academy/NNP-30,1977/CD-32)
+				det(doctorate/NN-36,a/DT-35)
+				prep_from(received/VBD-15,doctorate/NN-36)
+				conj_and(Academy/NNP-30,doctorate/NN-36)
+				amod(science/NN-39,planetary/JJ-38)
+				prep_in(doctorate/NN-36,science/NN-39)
+				det(University/NNP-42,the/DT-41)
+				prep_from(received/VBD-15,University/NNP-42)
+				prep_of(University/NNP-42,Arizona/NNP-44)
+				prep_in(received/VBD-15,1988/CD-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jones is a Distinguished Eagle Scout.	</value>
+
+		<annotated-sentence>	Jones is [[a Distinguished Eagle Scout|Distinguished_Eagle_Scout_Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jones is a Distinguished Eagle Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scout/NNP-6,Jones/NNP-1)
+				cop(Scout/NNP-6,is/VBZ-2)
+				det(Scout/NNP-6,a/DT-3)
+				amod(Scout/NNP-6,Distinguished/JJ-4)
+				nn(Scout/NNP-6,Eagle/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Distinguished Eagle Scout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguished_Eagle_Scout_Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A Distinguished Graduate of the USAF Academy, Dr. Jones served on active duty as an Air Force officer for 6 years.	</value>
+
+		<annotated-sentence>	A [[Distinguished|Distinguishing]] Graduate of [[the USAF Academy|United_States_Air_Force_Academy]], [[Dr. Jones|Doctor_Jones]] served on [[active duty|Active_duty]] as [[an Air Force officer|Officer_(armed_forces)]] for [[6 years|6_Years,_6_Feet_Under_the_Influence]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A Distinguished Graduate of the USAF Academy, Dr. Jones served on active duty as an Air Force officer for 6 years.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(served/VBD-11,Distinguished/VBN-2)
+				dobj(Distinguished/VBN-2,Graduate/NN-3)
+				det(Academy/NNP-7,the/DT-5)
+				nn(Academy/NNP-7,USAF/NNP-6)
+				prep_of(Graduate/NN-3,Academy/NNP-7)
+				nn(Jones/NNP-10,Dr./NNP-9)
+				nsubj(served/VBD-11,Jones/NNP-10)
+				dep(A/DT-1,served/VBD-11)
+				amod(duty/NN-14,active/JJ-13)
+				prep_on(served/VBD-11,duty/NN-14)
+				det(officer/NN-19,an/DT-16)
+				nn(officer/NN-19,Air/NNP-17)
+				nn(officer/NN-19,Force/NNP-18)
+				prep_as(served/VBD-11,officer/NN-19)
+				num(years/NNS-22,6/CD-21)
+				prep_for(officer/NN-19,years/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USAF Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an Air Force officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>6 years</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/6_Years,_6_Feet_Under_the_Influence</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After pilot training in Oklahoma, he flew strategic bombers at Carswell Air Force Base, Texas.	</value>
+
+		<annotated-sentence>	After [[pilot training|Flight_training]] in [[Oklahoma|Oklahoma]], he flew [[strategic bombers|Strategic_bomber]] at [[Carswell Air Force Base|Carswell_Air_Force_Base]], [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After pilot training in [[Oklahoma|Oklahoma]], he flew strategic bombers at Carswell Air Force Base, [[Texas|Texas]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(training/NN-3,pilot/NN-2)
+				prep_after(flew/VBD-8,training/NN-3)
+				prep_in(training/NN-3,Oklahoma/NNP-5)
+				nsubj(flew/VBD-8,he/PRP-7)
+				amod(bombers/NNS-10,strategic/JJ-9)
+				dobj(flew/VBD-8,bombers/NNS-10)
+				nn(Base/NNP-15,Carswell/NNP-12)
+				nn(Base/NNP-15,Air/NNP-13)
+				nn(Base/NNP-15,Force/NNP-14)
+				prep_at(flew/VBD-8,Base/NNP-15)
+				appos(Base/NNP-15,Texas/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Oklahoma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oklahoma</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>strategic bombers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Strategic_bomber</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Carswell Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carswell_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Texas http://dbpedia.org/property/borderingstates http://dbpedia.org/resource/Oklahoma
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As pilot and aircraft commander of a B-52D Stratofortress, he led a combat crew of six, accumulating over 2,000 hours of jet experience before resigning as a captain in 1983.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(commander/NN-5,pilot/NN-2)
+				conj_and(pilot/NN-2,aircraft/NN-4)
+				nn(commander/NN-5,aircraft/NN-4)
+				prep_as(led/VBD-12,commander/NN-5)
+				det(Stratofortress/NN-9,a/DT-7)
+				nn(Stratofortress/NN-9,B-52D/NN-8)
+				prep_of(commander/NN-5,Stratofortress/NN-9)
+				nsubj(led/VBD-12,he/PRP-11)
+				det(crew/NN-15,a/DT-13)
+				nn(crew/NN-15,combat/NN-14)
+				dobj(led/VBD-12,crew/NN-15)
+				prep_of(crew/NN-15,six/CD-17)
+				partmod(led/VBD-12,accumulating/VBG-19)
+				num(hours/NNS-22,2,000/CD-21)
+				prep_over(accumulating/VBG-19,hours/NNS-22)
+				nn(experience/NN-25,jet/NN-24)
+				prep_of(hours/NNS-22,experience/NN-25)
+				prepc_before(accumulating/VBG-19,resigning/VBG-27)
+				det(captain/NN-30,a/DT-29)
+				prep_as(resigning/VBG-27,captain/NN-30)
+				prep_in(captain/NN-30,1983/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1983 to 1988 he worked toward a Ph.D. at the University of Arizona in Tucson.	</value>
+
+		<annotated-sentence>	From [[1983|1983]] to [[1988|1988]] he worked toward a Ph.D. at [[the University of Arizona|University_of_Arizona]] in [[Tucson|Tucson,_Arizona]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1983 to 1988 he worked toward a Ph.D. at [[the University of Arizona|University_of_Arizona]] in [[Tucson|Tucson,_Arizona]].	</pattern_crowdsource>
+
+
+		<tree>
+				num(1988/CD-4,1983/CD-2)
+				dep(1988/CD-4,to/TO-3)
+				prep_from(worked/VBD-6,1988/CD-4)
+				nsubj(worked/VBD-6,he/PRP-5)
+				det(Ph.D./NNP-9,a/DT-8)
+				prep_toward(worked/VBD-6,Ph.D./NNP-9)
+				det(University/NNP-12,the/DT-11)
+				prep_at(worked/VBD-6,University/NNP-12)
+				prep_of(University/NNP-12,Arizona/NNP-14)
+				prep_in(worked/VBD-6,Tucson/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Arizona</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tucson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tucson,_Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/University_of_Arizona http://dbpedia.org/ontology/city http://dbpedia.org/resource/Tucson,_Arizona
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His research interests included the remote sensing of asteroids, meteorite spectroscopy, and applications of space resources.	</value>
+
+		<annotated-sentence>	His [[research|Research]] [[interests|Interest]] included [[the remote sensing|Remote_sensing]] of [[asteroids|Asteroid]], [[meteorite|Meteorite]] [[spectroscopy|Spectroscopy_(magazine)]], and applications of [[space|Space]] [[resources|Resource]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His research interests included the remote sensing of asteroids, meteorite spectroscopy, and applications of space resources.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				nn(interests/NNS-3,research/NN-2)
+				nsubj(included/VBD-4,interests/NNS-3)
+				det(remote/JJ-6,the/DT-5)
+				dobj(included/VBD-4,remote/JJ-6)
+				amod(remote/JJ-6,sensing/VBG-7)
+				prep_of(remote/JJ-6,asteroids/NNS-9)
+				nn(spectroscopy/NN-12,meteorite/NN-11)
+				dobj(included/VBD-4,spectroscopy/NN-12)
+				conj_and(remote/JJ-6,spectroscopy/NN-12)
+				dobj(included/VBD-4,applications/NNS-15)
+				conj_and(remote/JJ-6,applications/NNS-15)
+				nn(resources/NNS-18,space/NN-17)
+				prep_of(applications/NNS-15,resources/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the remote sensing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Remote_sensing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>asteroids</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>meteorite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meteorite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spectroscopy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spectroscopy_(magazine)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>resources</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Resource</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1989 to 1990, he was a program management engineer in Washington, D.C., at the CIA's Office of Development and Engineering.	</value>
+
+		<annotated-sentence>	From [[1989|1989]] to [[1990|1990]], he was a program [[management engineer|Management_engineering_(healthcare)]] in Washington, D.C., at the CIA's [[Office|Office]] of [[Development and Engineering|United_States_Army_Natick_Soldier_Research,_Development_and_Engineering_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1989 to 1990, he was a program management engineer in Washington, D.C., at the CIA's Office of Development and Engineering.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1990/CD-4,1989/CD-2)
+				dep(1990/CD-4,to/TO-3)
+				prep_from(engineer/NN-11,1990/CD-4)
+				nsubj(engineer/NN-11,he/PRP-6)
+				cop(engineer/NN-11,was/VBD-7)
+				det(engineer/NN-11,a/DT-8)
+				nn(engineer/NN-11,program/NN-9)
+				nn(engineer/NN-11,management/NN-10)
+				dep('s/POS-20,Washington/NNP-13)
+				dep(Washington/NNP-13,D.C./NNP-15)
+				det(CIA/NNP-19,the/DT-18)
+				prep_at(Washington/NNP-13,CIA/NNP-19)
+				prep_in(engineer/NN-11,'s/POS-20)
+				dep('s/POS-20,Office/NNP-21)
+				prep_of('s/POS-20,Development/NNP-23)
+				prep_of('s/POS-20,Engineering/NNP-25)
+				conj_and(Development/NNP-23,Engineering/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>management engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management_engineering_(healthcare)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Development and Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Natick_Soldier_Research,_Development_and_Engineering_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1990 he joined Science Applications International Corporation in Washington, D.C. as a senior scientist.	</value>
+
+		<annotated-sentence>	In [[1990|1990]] he joined [[Science Applications|SAIC_(U.S._company)]] [[International Corporation|SAIC_(U.S._company)]] in Washington, D.C. as a senior [[scientist|Scientist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1990 he joined Science Applications International Corporation in Washington, D.C. as a senior scientist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-4,1990/CD-2)
+				nsubj(joined/VBD-4,he/PRP-3)
+				nn(Applications/NNS-6,Science/NNP-5)
+				nsubj(Corporation/NNP-8,Applications/NNS-6)
+				nn(Corporation/NNP-8,International/NNP-7)
+				xcomp(joined/VBD-4,Corporation/NNP-8)
+				nn(D.C./NNP-12,Washington/NNP-10)
+				prep_in(Corporation/NNP-8,D.C./NNP-12)
+				det(scientist/NN-16,a/DT-14)
+				amod(scientist/NN-16,senior/JJ-15)
+				prep_as(D.C./NNP-12,scientist/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science Applications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SAIC_(U.S._company)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SAIC_(U.S._company)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Scientist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Jones performed advanced program planning for NASA's Solar System Exploration Division, investigating future robotic missions to Mars, asteroids, and the outer solar system.	</value>
+
+		<annotated-sentence>	[[Dr. Jones|Doctor_Jones]] performed advanced [[program|NASA]] [[planning|Planning]] for [[NASA|NASA]]'s Solar [[System|Solar_System]] [[Exploration|Exploration]] Division, investigating future robotic missions to [[Mars|Mars]], [[asteroids|Asteroid]], and [[the outer solar system|Solar_System]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Jones performed advanced [[program|NASA]] planning for [[NASA|NASA]]'s Solar System Exploration Division, investigating future robotic missions to Mars, asteroids, and the outer solar system.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jones/NNP-2,Dr./NNP-1)
+				nsubj(performed/VBD-3,Jones/NNP-2)
+				amod(planning/NN-6,advanced/JJ-4)
+				nn(planning/NN-6,program/NN-5)
+				dobj(performed/VBD-3,planning/NN-6)
+				poss(Division/NNP-13,NASA/NNP-8)
+				nn(Division/NNP-13,Solar/NNP-10)
+				nn(Division/NNP-13,System/NNP-11)
+				nn(Division/NNP-13,Exploration/NNP-12)
+				prep_for(planning/NN-6,Division/NNP-13)
+				partmod(performed/VBD-3,investigating/VBG-15)
+				amod(missions/NNS-18,future/JJ-16)
+				amod(missions/NNS-18,robotic/JJ-17)
+				dobj(investigating/VBG-15,missions/NNS-18)
+				prep_to(investigating/VBG-15,Mars/NNP-20)
+				prep_to(investigating/VBG-15,asteroids/NNS-22)
+				conj_and(Mars/NNP-20,asteroids/NNS-22)
+				det(system/NN-28,the/DT-25)
+				amod(system/NN-28,outer/JJ-26)
+				amod(system/NN-28,solar/JJ-27)
+				prep_to(investigating/VBG-15,system/NN-28)
+				conj_and(Mars/NNP-20,system/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dr. Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>planning</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planning</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Solar_System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>asteroids</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the outer solar system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Solar_System</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After a year of training following his selection by NASA in January 1990, Dr. Jones became an astronaut in July 1991.	</value>
+
+		<annotated-sentence>	After [[a year|Year]] of [[training|Training]] following [[his selection|Selection]] by [[NASA|NASA]] in [[January 1990|1990]], [[Dr. Jones|Doctor_Jones]] became [[an astronaut|Astronaut]] in [[July 1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After [[a year|Year]] of training following his selection by [[NASA|NASA]] in [[January 1990|1990]], Dr. Jones became [[an astronaut|Astronaut]] in [[July 1991|1991]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-3,a/DT-2)
+				nsubj(following/VBG-6,year/NN-3)
+				prep_of(year/NN-3,training/NN-5)
+				prepc_after(astronaut/NN-19,following/VBG-6)
+				poss(selection/NN-8,his/PRP$-7)
+				dobj(following/VBG-6,selection/NN-8)
+				prep_by(following/VBG-6,NASA/NNP-10)
+				prep_in(NASA/NNP-10,January/NNP-12)
+				num(January/NNP-12,1990/CD-13)
+				nn(Jones/NNP-16,Dr./NNP-15)
+				nsubj(astronaut/NN-19,Jones/NNP-16)
+				cop(astronaut/NN-19,became/VBD-17)
+				det(astronaut/NN-19,an/DT-18)
+				prep_in(astronaut/NN-19,July/NNP-21)
+				num(July/NNP-21,1991/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1990 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/1991 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994 he flew as a mission specialist on successive flights of space shuttle Endeavour.	</value>
+
+		<annotated-sentence>	In [[1994|1994]] he flew as [[a mission specialist|Mission_Specialist]] on successive [[flights|Flight]] of [[space shuttle Endeavour|Space_Shuttle_Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1994 he flew as a mission specialist on successive flights of space shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-4,1994/CD-2)
+				nsubj(flew/VBD-4,he/PRP-3)
+				det(specialist/NN-8,a/DT-6)
+				nn(specialist/NN-8,mission/NN-7)
+				prep_as(flew/VBD-4,specialist/NN-8)
+				amod(flights/NNS-11,successive/JJ-10)
+				prep_on(flew/VBD-4,flights/NNS-11)
+				nn(Endeavour/NNP-15,space/NN-13)
+				nn(Endeavour/NNP-15,shuttle/NN-14)
+				prep_of(flights/NNS-11,Endeavour/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	First, in April 1994, he ran science operations on the "night shift" during STS-59, the first flight of the Space Radar Laboratory (SRL-1).	</value>
+
+		<annotated-sentence>	First, in [[April 1994|1994]], he ran [[science|Science]] operations on the "night shift" during [[STS-59|STS-59]], [[the first flight|Flight]] of the [[Space Radar|Space_radar]] [[Laboratory|Laboratory]] (SRL-1).	</annotated-sentence>
+
+		<pattern_crowdsource>	First, in April 1994, he ran science operations on the "night shift" during [[STS-59|STS-59]], the first flight of the Space Radar Laboratory (SRL-1).	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(ran/VBD-8,First/RB-1)
+				prep_in(ran/VBD-8,April/NNP-4)
+				num(April/NNP-4,1994/CD-5)
+				nsubj(ran/VBD-8,he/PRP-7)
+				nn(operations/NNS-10,science/NN-9)
+				dobj(ran/VBD-8,operations/NNS-10)
+				det(shift/NN-15,the/DT-12)
+				nn(shift/NN-15,night/NN-14)
+				prep_on(ran/VBD-8,shift/NN-15)
+				prep_during(ran/VBD-8,STS-59/NN-18)
+				det(flight/NN-22,the/DT-20)
+				amod(flight/NN-22,first/JJ-21)
+				appos(STS-59/NN-18,flight/NN-22)
+				det(Laboratory/NNP-27,the/DT-24)
+				nn(Laboratory/NNP-27,Space/NN-25)
+				nn(Laboratory/NNP-27,Radar/NNP-26)
+				prep_of(flight/NN-22,Laboratory/NNP-27)
+				appos(Laboratory/NNP-27,SRL-1/NN-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>April 1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-59</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-59</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Radar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_radar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-59
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-59 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Then, in October 1994, he was the payload commander on the SRL-2 mission, STS-68.	</value>
+
+		<annotated-sentence>	Then, in [[October 1994|1994]], he was the payload [[commander|Commander]] on the SRL-2 mission, [[STS-68|STS-68]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Then, in October 1994, he was the payload commander on the SRL-2 mission, [[STS-68|STS-68]].	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(commander/NN-11,Then/RB-1)
+				prep_in(commander/NN-11,October/NNP-4)
+				num(October/NNP-4,1994/CD-5)
+				nsubj(commander/NN-11,he/PRP-7)
+				cop(commander/NN-11,was/VBD-8)
+				det(commander/NN-11,the/DT-9)
+				nn(commander/NN-11,payload/NN-10)
+				det(mission/NN-15,the/DT-13)
+				nn(mission/NN-15,SRL-2/NN-14)
+				prep_on(commander/NN-11,mission/NN-15)
+				appos(mission/NN-15,STS-68/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-68</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-68</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-68
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-68 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-68 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Jones next flew in late 1996 on Columbia.	</value>
+
+		<annotated-sentence>	[[Dr. Jones|Doctor_Jones]] next flew in late [[1996|1996]] on Columbia.	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Jones next flew in late 1996 on Columbia.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jones/NNP-2,Dr./NNP-1)
+				nsubj(flew/VBN-4,Jones/NNP-2)
+				advmod(flew/VBN-4,next/IN-3)
+				amod(1996/CD-7,late/JJ-6)
+				prep_in(flew/VBN-4,1996/CD-7)
+				prep_on(1996/CD-7,Columbia/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dr. Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission STS-80 successfully deployed and retrieved 2 science satellites, ORFEUS/SPAS and the Wake Shield Facility.	</value>
+
+		<annotated-sentence>	Mission [[STS-80|STS-80]] successfully deployed and retrieved 2 [[science|Science]] [[satellites|Satellite]], ORFEUS/SPAS and the Wake Shield Facility.	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission [[STS-80|STS-80]] successfully deployed and retrieved 2 science satellites, ORFEUS/SPAS and the Wake Shield Facility.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(STS-80/NN-2,Mission/NNP-1)
+				nsubj(Wake/VB-14,STS-80/NN-2)
+				advmod(deployed/VBN-4,successfully/RB-3)
+				partmod(STS-80/NN-2,deployed/VBN-4)
+				partmod(STS-80/NN-2,retrieved/VBN-6)
+				conj_and(deployed/VBN-4,retrieved/VBN-6)
+				num(satellites/NNS-9,2/CD-7)
+				nn(satellites/NNS-9,science/NN-8)
+				dobj(deployed/VBN-4,satellites/NNS-9)
+				appos(satellites/NNS-9,ORFEUS/SPAS/NN-11)
+				appos(satellites/NNS-9,the/DT-13)
+				conj_and(ORFEUS/SPAS/NN-11,the/DT-13)
+				nn(Facility/NNP-16,Shield/NNP-15)
+				dobj(Wake/VB-14,Facility/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-80</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-80</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-80
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-80 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-80 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Thomas_David_Jones
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While helping set a Shuttle endurance record of nearly 18 days in orbit, Dr. Jones used Columbia's robot arm to release the Wake Shield satellite and later grapple it from orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(helping/VBG-2,While/IN-1)
+				advcl(used/VBD-17,helping/VBG-2)
+				ccomp(helping/VBG-2,set/VB-3)
+				det(record/NN-7,a/DT-4)
+				nn(record/NN-7,Shuttle/NNP-5)
+				amod(record/NN-7,endurance/JJ-6)
+				dobj(set/VB-3,record/NN-7)
+				quantmod(18/CD-10,nearly/RB-9)
+				num(days/NNS-11,18/CD-10)
+				prep_of(record/NN-7,days/NNS-11)
+				prep_in(days/NNS-11,orbit/NN-13)
+				nn(Jones/NNP-16,Dr./NNP-15)
+				nsubj(used/VBD-17,Jones/NNP-16)
+				poss(arm/NN-21,Columbia/NNP-18)
+				nn(arm/NN-21,robot/NN-20)
+				dobj(used/VBD-17,arm/NN-21)
+				aux(release/VB-23,to/TO-22)
+				xcomp(used/VBD-17,release/VB-23)
+				dobj(release/VB-23,the/DT-24)
+				dep(the/DT-24,Wake/VB-25)
+				nn(satellite/NN-27,Shield/NNP-26)
+				dobj(Wake/VB-25,satellite/NN-27)
+				advmod(Wake/VB-25,later/RB-29)
+				dep(the/DT-24,grapple/VBP-30)
+				conj_and(Wake/VB-25,grapple/VBP-30)
+				dobj(grapple/VBP-30,it/PRP-31)
+				prep_from(grapple/VBP-30,orbit/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His latest space flight was aboard Atlantis on STS-98, in February 2001.	</value>
+
+		<annotated-sentence>	His latest space flight was aboard [[Atlantis|Atlantis]] on [[STS-98|STS-98]], in [[February 2001|February_2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His latest space flight was aboard Atlantis on [[STS-98|STS-98]], in February 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-4,His/PRP$-1)
+				amod(flight/NN-4,latest/JJS-2)
+				nn(flight/NN-4,space/NN-3)
+				nsubj(was/VBD-5,flight/NN-4)
+				prep_aboard(was/VBD-5,Atlantis/NNP-7)
+				prep_on(was/VBD-5,STS-98/NN-9)
+				prep_in(was/VBD-5,February/NNP-12)
+				num(February/NNP-12,2001/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-98</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-98</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-98
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Jones and his crew delivered the U.S. Destiny Laboratory Module to the Space Station, and he helped install the Lab in a series of 3 space walks lasting over 19 hours.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jones/NNP-2,Dr./NNP-1)
+				nsubj(delivered/VBD-6,Jones/NNP-2)
+				poss(crew/NN-5,his/PRP$-4)
+				conj_and(Jones/NNP-2,crew/NN-5)
+				nsubj(delivered/VBD-6,crew/NN-5)
+				det(Module/NNP-11,the/DT-7)
+				nn(Module/NNP-11,U.S./NNP-8)
+				nn(Module/NNP-11,Destiny/NNP-9)
+				nn(Module/NNP-11,Laboratory/NNP-10)
+				dobj(delivered/VBD-6,Module/NNP-11)
+				det(Station/NNP-15,the/DT-13)
+				nn(Station/NNP-15,Space/NN-14)
+				prep_to(delivered/VBD-6,Station/NNP-15)
+				nsubj(helped/VBD-19,he/PRP-18)
+				conj_and(delivered/VBD-6,helped/VBD-19)
+				csubj(walks/VBZ-29,install/VB-20)
+				det(Lab/NN-22,the/DT-21)
+				dobj(install/VB-20,Lab/NN-22)
+				det(series/NN-25,a/DT-24)
+				prep_in(install/VB-20,series/NN-25)
+				num(space/NN-28,3/CD-27)
+				prep_of(series/NN-25,space/NN-28)
+				ccomp(helped/VBD-19,walks/VBZ-29)
+				xcomp(walks/VBZ-29,lasting/VBG-30)
+				prt(lasting/VBG-30,over/RP-31)
+				num(hours/NNS-33,19/CD-32)
+				dobj(lasting/VBG-30,hours/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The successful addition of Destiny gave the first Expedition Crew the largest space outpost in history and marked the start of onboard scientific research at the ISS.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(addition/NN-3,The/DT-1)
+				amod(addition/NN-3,successful/JJ-2)
+				nsubj(gave/VBD-6,addition/NN-3)
+				nsubj(marked/VBD-18,addition/NN-3)
+				prep_of(addition/NN-3,Destiny/NNP-5)
+				det(Crew/NNP-10,the/DT-7)
+				amod(Crew/NNP-10,first/JJ-8)
+				nn(Crew/NNP-10,Expedition/NN-9)
+				iobj(gave/VBD-6,Crew/NNP-10)
+				det(outpost/NN-14,the/DT-11)
+				amod(outpost/NN-14,largest/JJS-12)
+				nn(outpost/NN-14,space/NN-13)
+				dobj(gave/VBD-6,outpost/NN-14)
+				prep_in(outpost/NN-14,history/NN-16)
+				conj_and(gave/VBD-6,marked/VBD-18)
+				det(start/NN-20,the/DT-19)
+				dobj(marked/VBD-18,start/NN-20)
+				amod(research/NN-24,onboard/JJ-22)
+				amod(research/NN-24,scientific/JJ-23)
+				prep_of(start/NN-20,research/NN-24)
+				det(ISS/NNP-27,the/DT-26)
+				prep_at(marked/VBD-18,ISS/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, Dr. Jones has logged over 52 days (1,272 hours) in space, including 3 space walks totaling over 19 hours.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], [[Dr. Jones|Doctor_Jones]] has logged over 52 days (1,272 [[hours|Hour]]) in [[space|Space]], including 3 [[space|Space]] walks totaling over 19 [[hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, Dr. Jones has logged over 52 days (1,272 hours) in space, including 3 space walks totaling over 19 hours.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(walks/VBZ-25,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				nn(Jones/NNP-9,Dr./NNP-8)
+				nsubj(logged/VBN-11,Jones/NNP-9)
+				aux(logged/VBN-11,has/VBZ-10)
+				dep(flights/NNS-6,logged/VBN-11)
+				num(days/NNS-14,52/CD-13)
+				prep_over(logged/VBN-11,days/NNS-14)
+				num(hours/NNS-17,1,272/CD-16)
+				appos(days/NNS-14,hours/NNS-17)
+				prep_in(days/NNS-14,space/NN-20)
+				num(space/NN-24,3/CD-23)
+				prep_including(flights/NNS-6,space/NN-24)
+				xcomp(walks/VBZ-25,totaling/VBG-26)
+				prt(totaling/VBG-26,over/RP-27)
+				num(hours/NNS-29,19/CD-28)
+				dobj(totaling/VBG-26,hours/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Jones</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_Jones</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since leaving NASA in 2001, Jones has worked as a planetary scientist and consultant in space operations.	</value>
+
+		<annotated-sentence>	Since leaving [[NASA|NASA]] in [[2001|2001_Mars_Odyssey]], Jones has worked as a [[planetary scientist|Planetary_science]] and consultant in [[space|NASA]] operations.	</annotated-sentence>
+
+		<pattern_crowdsource>	Since leaving [[NASA|NASA]] in [[2001|2001_Mars_Odyssey]], Jones has worked as a planetary scientist and consultant in [[space|NASA]] operations.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_since(worked/VBN-9,leaving/VBG-2)
+				dobj(leaving/VBG-2,NASA/NNP-3)
+				prep_in(NASA/NNP-3,2001/CD-5)
+				nsubj(worked/VBN-9,Jones/NNP-7)
+				aux(worked/VBN-9,has/VBZ-8)
+				det(scientist/NN-13,a/DT-11)
+				amod(scientist/NN-13,planetary/JJ-12)
+				prep_as(worked/VBN-9,scientist/NN-13)
+				prep_as(worked/VBN-9,consultant/NN-15)
+				conj_and(scientist/NN-13,consultant/NN-15)
+				nn(operations/NNS-18,space/NN-17)
+				prep_in(scientist/NN-13,operations/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001_Mars_Odyssey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>planetary scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planetary_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/2001_Mars_Odyssey http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/2001_Mars_Odyssey http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a senior research scientist at the Florida Institute for Human and Machine Cognition, engaged in planning robotic and astronaut expeditions to deep space and the near-Earth asteroids.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(scientist/NN-6,He/PRP-1)
+				cop(scientist/NN-6,is/VBZ-2)
+				det(scientist/NN-6,a/DT-3)
+				amod(scientist/NN-6,senior/JJ-4)
+				nn(scientist/NN-6,research/NN-5)
+				det(Institute/NNP-10,the/DT-8)
+				nn(Institute/NNP-10,Florida/NNP-9)
+				prep_at(scientist/NN-6,Institute/NNP-10)
+				amod(Cognition/NN-15,Human/JJ-12)
+				conj_and(Human/JJ-12,Machine/NN-14)
+				amod(Cognition/NN-15,Machine/NN-14)
+				prep_for(Institute/NNP-10,Cognition/NN-15)
+				partmod(Cognition/NN-15,engaged/VBN-17)
+				prepc_in(engaged/VBN-17,planning/VBG-19)
+				amod(expeditions/NNS-23,robotic/JJ-20)
+				conj_and(robotic/JJ-20,astronaut/NN-22)
+				amod(expeditions/NNS-23,astronaut/NN-22)
+				dobj(planning/VBG-19,expeditions/NNS-23)
+				amod(space/NN-26,deep/JJ-25)
+				prep_to(planning/VBG-19,space/NN-26)
+				det(asteroids/NNS-30,the/DT-28)
+				amod(asteroids/NNS-30,near-Earth/JJ-29)
+				prep_to(planning/VBG-19,asteroids/NNS-30)
+				conj_and(space/NN-26,asteroids/NNS-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also an author and speaker, with four adult, non-fiction works to his credit.	</value>
+
+		<annotated-sentence>	He is also an [[author|Author]] and speaker, with four adult, non-fiction [[works|Work]] to his credit.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also an author and speaker, with four adult, non-fiction works to his credit.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(author/NN-5,He/PRP-1)
+				cop(author/NN-5,is/VBZ-2)
+				advmod(author/NN-5,also/RB-3)
+				det(author/NN-5,an/DT-4)
+				conj_and(author/NN-5,speaker/NN-7)
+				num(works/NNS-14,four/CD-10)
+				amod(works/NNS-14,adult/JJ-11)
+				amod(works/NNS-14,non-fiction/JJ-13)
+				prep_with(author/NN-5,works/NNS-14)
+				poss(credit/NN-17,his/PRP$-16)
+				prep_to(works/NNS-14,credit/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>works</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 2006-2009 he served on the NASA Advisory Council.	</value>
+
+		<annotated-sentence>	From [[2006-2009|War_in_Somalia_(2006%E2%80%9309)]] he served on [[the NASA Advisory Council|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 2006-2009 he served on [[the NASA Advisory Council|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(served/VBD-4,2006-2009/CD-2)
+				nsubj(served/VBD-4,he/PRP-3)
+				det(Council/NNP-9,the/DT-6)
+				nn(Council/NNP-9,NASA/NNP-7)
+				nn(Council/NNP-9,Advisory/NNP-8)
+				prep_on(served/VBD-4,Council/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006-2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/War_in_Somalia_(2006%E2%80%9309)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Advisory Council</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a board member of the Association of Space Explorers and the Astronauts Memorial Foundation.	</value>
+
+		<annotated-sentence>	He is [[a board member|Board_of_directors]] of the Association of [[Space Explorers|The_Space_Explorers]] and [[the Astronauts Memorial Foundation|Space_Mirror_Memorial]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a board member of the Association of Space Explorers and the Astronauts Memorial Foundation.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,is/VBZ-2)
+				det(member/NN-5,a/DT-3)
+				nn(member/NN-5,board/NN-4)
+				det(Association/NNP-8,the/DT-7)
+				prep_of(member/NN-5,Association/NNP-8)
+				nn(Explorers/NNPS-11,Space/NNP-10)
+				prep_of(Association/NNP-8,Explorers/NNPS-11)
+				det(Foundation/NNP-16,the/DT-13)
+				nn(Foundation/NNP-16,Astronauts/NNPS-14)
+				nn(Foundation/NNP-16,Memorial/NNP-15)
+				prep_of(Association/NNP-8,Foundation/NNP-16)
+				conj_and(Explorers/NNPS-11,Foundation/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a board member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Board_of_directors</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Space_Explorers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronauts Memorial Foundation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Mirror_Memorial</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jones became an advisor at Planetary Resources, Inc. in 2012.	</value>
+
+		<annotated-sentence>	Jones became an advisor at [[Planetary Resources|Planetary_Resources]], Inc. in [[2012|2012]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jones became an advisor at Planetary Resources, Inc. in 2012.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(advisor/NN-4,Jones/NNP-1)
+				cop(advisor/NN-4,became/VBD-2)
+				det(advisor/NN-4,an/DT-3)
+				nn(Resources/NNPS-7,Planetary/NNP-6)
+				prep_at(advisor/NN-4,Resources/NNPS-7)
+				appos(Resources/NNPS-7,Inc./NNP-9)
+				prep_in(advisor/NN-4,2012/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Planetary Resources</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planetary_Resources</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2012</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He appears frequently as a science/space commentator on radio and television.	</value>
+
+		<annotated-sentence>	He appears frequently as a science/space commentator on [[radio and television|Radio_and_Television]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He appears frequently as a science/space commentator on radio and television.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(appears/VBZ-2,He/PRP-1)
+				advmod(appears/VBZ-2,frequently/RB-3)
+				det(commentator/NN-7,a/DT-5)
+				nn(commentator/NN-7,science/space/NN-6)
+				prep_as(appears/VBZ-2,commentator/NN-7)
+				prep_on(commentator/NN-7,radio/NN-9)
+				prep_on(commentator/NN-7,television/NN-11)
+				conj_and(radio/NN-9,television/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>radio and television</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radio_and_Television</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jones' awards include the NASA Space Flight Medal (four awards), NASA Distinguished Service Medal, NASA Exceptional Service Award, NASA Exceptional Public Service Medal, and NASA Outstanding Leadership Medal.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(awards/NNS-3,Jones/NNP-1)
+				nsubj(include/VBP-4,awards/NNS-3)
+				det(Medal/NN-9,the/DT-5)
+				nn(Medal/NN-9,NASA/NNP-6)
+				nn(Medal/NN-9,Space/NNP-7)
+				nn(Medal/NN-9,Flight/NNP-8)
+				dobj(include/VBP-4,Medal/NN-9)
+				num(awards/NNS-12,four/CD-11)
+				appos(Medal/NN-9,awards/NNS-12)
+				nn(Medal/NN-18,NASA/NNP-15)
+				nn(Medal/NN-18,Distinguished/NNP-16)
+				nn(Medal/NN-18,Service/NNP-17)
+				appos(Medal/NN-9,Medal/NN-18)
+				nn(Award/NN-23,NASA/NNP-20)
+				nn(Award/NN-23,Exceptional/NNP-21)
+				nn(Award/NN-23,Service/NNP-22)
+				appos(Medal/NN-9,Award/NN-23)
+				conj_and(Medal/NN-18,Award/NN-23)
+				nn(Medal/NN-29,NASA/NNP-25)
+				nn(Medal/NN-29,Exceptional/NNP-26)
+				nn(Medal/NN-29,Public/NNP-27)
+				nn(Medal/NN-29,Service/NNP-28)
+				appos(Medal/NN-9,Medal/NN-29)
+				conj_and(Medal/NN-18,Medal/NN-29)
+				nn(Medal/NN-35,NASA/NNP-32)
+				amod(Medal/NN-35,Outstanding/JJ-33)
+				nn(Medal/NN-35,Leadership/NN-34)
+				appos(Medal/NN-9,Medal/NN-35)
+				conj_and(Medal/NN-18,Medal/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His military decorations include the Air Force Commendation Medal.	</value>
+
+		<annotated-sentence>	His military decorations include [[the Air Force Commendation Medal|Commendation_Medal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His military decorations include the Air Force Commendation Medal.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(decorations/NNS-3,His/PRP$-1)
+				amod(decorations/NNS-3,military/JJ-2)
+				nsubj(include/VBP-4,decorations/NNS-3)
+				det(Medal/NN-9,the/DT-5)
+				nn(Medal/NN-9,Air/NNP-6)
+				nn(Medal/NN-9,Force/NNP-7)
+				nn(Medal/NN-9,Commendation/NNP-8)
+				dobj(include/VBP-4,Medal/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force Commendation Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a distinguished graduate and the outstanding graduate in Basic Sciences at the United States Air Force Academy.	</value>
+
+		<annotated-sentence>	He was a distinguished graduate and the outstanding graduate in [[Basic Sciences|Fundamental_science]] at [[the United States Air Force Academy|United_States_Air_Force_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a distinguished graduate and the outstanding graduate in Basic Sciences at the United States Air Force Academy.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,He/PRP-1)
+				cop(graduate/NN-5,was/VBD-2)
+				det(graduate/NN-5,a/DT-3)
+				amod(graduate/NN-5,distinguished/JJ-4)
+				det(graduate/NN-9,the/DT-7)
+				amod(graduate/NN-9,outstanding/JJ-8)
+				conj_and(graduate/NN-5,graduate/NN-9)
+				nn(Sciences/NNPS-12,Basic/NNP-11)
+				prep_in(graduate/NN-9,Sciences/NNPS-12)
+				det(Academy/NNP-19,the/DT-14)
+				nn(Academy/NNP-19,United/NNP-15)
+				nn(Academy/NNP-19,States/NNP-16)
+				nn(Academy/NNP-19,Air/NNP-17)
+				nn(Academy/NNP-19,Force/NNP-18)
+				prep_at(Sciences/NNPS-12,Academy/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Basic Sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fundamental_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	King's College in Wilkes-Barre, Penn. awarded him an honorary doctoral degree in 2007.	</value>
+
+		<annotated-sentence>	King's [[College|College]] in Wilkes-Barre, Penn. awarded him [[an honorary doctoral degree|Honorary_degree]] in [[2007|2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	King's College in Wilkes-Barre, Penn. awarded him an honorary doctoral degree in 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(College/NNP-3,King/NNP-1)
+				nsubj(awarded/VBD-8,College/NNP-3)
+				nn(Penn./NNP-7,Wilkes-Barre/NNP-5)
+				prep_in(College/NNP-3,Penn./NNP-7)
+				iobj(awarded/VBD-8,him/PRP-9)
+				det(degree/NN-13,an/DT-10)
+				amod(degree/NN-13,honorary/JJ-11)
+				amod(degree/NN-13,doctoral/JJ-12)
+				dobj(awarded/VBD-8,degree/NN-13)
+				prep_in(degree/NN-13,2007/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>College</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/College</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an honorary doctoral degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Main Belt asteroid 1082 TomJones is named in his honor.	</value>
+
+		<annotated-sentence>	The [[Main Belt|Asteroid_belt]] asteroid [[1082|1082]] TomJones is named in his honor.	</annotated-sentence>
+
+		<pattern_crowdsource>	The Main Belt asteroid 1082 TomJones is named in his honor.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Belt/NNP-3,The/DT-1)
+				nn(Belt/NNP-3,Main/NNP-2)
+				nsubj(asteroid/VBD-4,Belt/NNP-3)
+				num(TomJones/NNP-6,1082/CD-5)
+				nsubjpass(named/VBN-8,TomJones/NNP-6)
+				auxpass(named/VBN-8,is/VBZ-7)
+				ccomp(asteroid/VBD-4,named/VBN-8)
+				poss(honor/NN-11,his/PRP$-10)
+				prep_in(named/VBN-8,honor/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Main Belt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid_belt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1082</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1082</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jones's book Sky Walking: An Astronaut's Memoir, was named one of the top five books on the subject of space by the Wall Street Journal.	</value>
+
+		<annotated-sentence>	Jones's [[book|Book]] Sky [[Walking|Walking]]: An [[Astronaut|Astronaut]]'s [[Memoir|Memoir]], was named one of the [[top five|Jadakiss]] [[books|Book]] on the subject of [[space|Space]] by [[the Wall Street Journal|The_Wall_Street_Journal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jones's book Sky Walking: An [[Astronaut|Astronaut]]'s Memoir, was named one of the top five books on the subject of space by the Wall Street Journal.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Sky/NN-4,Jones/NNP-1)
+				nn(Sky/NN-4,book/NN-3)
+				nsubjpass(named/VBN-13,Sky/NN-4)
+				partmod(Sky/NN-4,Walking/VBG-5)
+				det(Astronaut/NN-8,An/DT-7)
+				poss(Memoir/NNP-10,Astronaut/NN-8)
+				dep(Sky/NN-4,Memoir/NNP-10)
+				auxpass(named/VBN-13,was/VBD-12)
+				dobj(named/VBN-13,one/CD-14)
+				det(books/NNS-19,the/DT-16)
+				amod(books/NNS-19,top/JJ-17)
+				num(books/NNS-19,five/CD-18)
+				prep_of(one/CD-14,books/NNS-19)
+				det(subject/NN-22,the/DT-21)
+				prep_on(named/VBN-13,subject/NN-22)
+				prep_of(subject/NN-22,space/NN-24)
+				det(Journal/NNP-29,the/DT-26)
+				nn(Journal/NNP-29,Wall/NNP-27)
+				nn(Journal/NNP-29,Street/NNP-28)
+				agent(named/VBN-13,Journal/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Walking</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Walking</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Memoir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Memoir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>top five</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jadakiss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>books</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Wall Street Journal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Wall_Street_Journal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Thomas_David_Jones http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

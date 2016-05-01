@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Hemophilia B is a hereditary bleeding disorder caused by a lack of blood clotting factor IX.</value>
+		<pattern_crowdsource> [[Hemophilia B|C0008533]] is a [[hereditary bleeding disorder|C0019247]] caused by a lack of blood clotting factor IX.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hemophilia B</surface-form>
+				<RDF-ID>C0008533</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hereditary bleeding disorder</surface-form>
+				<RDF-ID>C0019247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lack</surface-form>
+				<RDF-ID>C0332268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clotting factor</surface-form>
+				<RDF-ID>C0005789</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008533 ISA C0019247</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Without enough factor IX, the blood cannot clot properly to control bleeding.</value>
+		<pattern_crowdsource> Without enough [[factor IX|C0015491]], the blood cannot clot properly to control [[bleeding|C0019080]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>factor IX</surface-form>
+				<RDF-ID>C0015491</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015491 TREATS C0019080</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

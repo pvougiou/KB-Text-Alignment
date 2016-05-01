@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A hemolytic transfusion reaction is a serious complication that can occur after a blood transfusion.</value>
+		<pattern_crowdsource> A [[hemolytic transfusion reaction|C0221123]] is a serious [[complication|C0009566]] that can occur after a blood transfusion.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hemolytic transfusion reaction</surface-form>
+				<RDF-ID>C0221123</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>serious</surface-form>
+				<RDF-ID>C0205404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>complication</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood transfusion</surface-form>
+				<RDF-ID>C0005841</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0221123 ISA C0009566</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you receive blood that is not compatible with your blood, your body produces antibodies to destroy the donor's blood cells.</value>
+		<pattern_crowdsource> If you receive [[blood|C0005767]] that is not compatible with your [[blood|C0005767]], your body produces antibodies to destroy the donor's blood cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>compatible</surface-form>
+				<RDF-ID>C1524057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood cells</surface-form>
+				<RDF-ID>C0005773</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 NEG_PART_OF C0005767</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Blood that you receive in a transfusion must be compatible with your own blood.</value>
+		<pattern_crowdsource> [[Blood|C0005767]] that you receive in a transfusion must be compatible with your own [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>compatible</surface-form>
+				<RDF-ID>C1524057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>own</surface-form>
+				<RDF-ID>C1546511</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 PART_OF C0005767</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Mild symptoms may be treated with:   - Acetaminophen, a pain reliever to reduce fever and discomfort  - Fluids given through a vein (intravenous) and other medicines to treat or prevent kidney failure and shock.</value>
+		<pattern_crowdsource> Mild symptoms may be treated with:   - Acetaminophen, a [[pain reliever|C0722425]] to reduce [[fever|C0015967]] and discomfort  - Fluids given through a vein (intravenous) and other [[medicines|C0013227]] to treat or prevent [[kidney failure|C0035078]] and [[shock|C0036974]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mild</surface-form>
+				<RDF-ID>C0547040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain reliever</surface-form>
+				<RDF-ID>C0722425</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intravenous</surface-form>
+				<RDF-ID>C0348016</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney failure</surface-form>
+				<RDF-ID>C0035078</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shock</surface-form>
+				<RDF-ID>C0036974</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0722425 INHIBITS C0015967</triple>
+			<triple>C0013227 PREVENTS C0035078</triple>
+			<triple>C0013227 PREVENTS C0036974</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

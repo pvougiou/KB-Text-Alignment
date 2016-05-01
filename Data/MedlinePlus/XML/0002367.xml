@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Legionnaire disease is an infection of the lungs and airways.</value>
+		<pattern_crowdsource> [[Legionnaire disease|C0023241]] is an [[infection|C0009450]] of the [[lungs|C0024109]] and airways.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Legionnaire disease</surface-form>
+				<RDF-ID>C0023241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>airways</surface-form>
+				<RDF-ID>C0178987</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023241 ISA C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0023241</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most infections occur in middle-aged or older people.</value>
+		<pattern_crowdsource> Most [[infections|C0021311]] occur in [[middle-aged|C0205847]] or older [[people|C0027361]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>middle-aged</surface-form>
+				<RDF-ID>C0205847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>older</surface-form>
+				<RDF-ID>C0580836</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021311 OCCURS_IN C0205847</triple>
+			<triple>C0021311 OCCURS_IN C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The health care provider will perform a physical exam.</value>
+		<pattern_crowdsource> The [[health care provider|C0018724]] will perform a [[physical exam|C0031809]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal sounds called crackles may be heard when listening to the chest with a stethoscope.</value>
+		<pattern_crowdsource> Abnormal sounds called crackles may be heard when [[listening|C0004339]] to the chest with a [[stethoscope|C0183559]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sounds</surface-form>
+				<RDF-ID>C0037709</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>listening</surface-form>
+				<RDF-ID>C0004339</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stethoscope</surface-form>
+				<RDF-ID>C0183559</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004339 USES C0183559</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Antibiotics are used to fight the infection.</value>
+		<pattern_crowdsource> [[Antibiotics|C0003232]] are used to fight the [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

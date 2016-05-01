@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Quinoa is gluten-free, and the flour is a good substitute for wheat flour.</value>
+		<pattern_crowdsource> Quinoa is gluten-free, and the [[flour|C0016260]] is a good substitute for [[wheat flour|C0458980]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Quinoa</surface-form>
+				<RDF-ID>C1504609</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten-</surface-form>
+				<RDF-ID>C0017842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flour</surface-form>
+				<RDF-ID>C0016260</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>good</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wheat flour</surface-form>
+				<RDF-ID>C0458980</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0458980 ISA C0016260</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Protein is also important for growth and development during childhood, adolescence, and pregnancy.</value>
+		<pattern_crowdsource> [[Protein|C0033684]] is also important for [[growth|C0018270]] and development during childhood, adolescence, and pregnancy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>growth</surface-form>
+				<RDF-ID>C0018270</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>development</surface-form>
+				<RDF-ID>C1527148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>childhood</surface-form>
+				<RDF-ID>C0231335</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adolescence</surface-form>
+				<RDF-ID>C0001578</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pregnancy</surface-form>
+				<RDF-ID>C0032961</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033684 AFFECTS C0018270</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Antioxidants help prevent cell damage.</value>
+		<pattern_crowdsource> [[Antioxidants|C0003402]] help prevent [[cell damage|C0599732]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antioxidants</surface-form>
+				<RDF-ID>C0003402</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cell damage</surface-form>
+				<RDF-ID>C0599732</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003402 PREVENTS C0599732</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

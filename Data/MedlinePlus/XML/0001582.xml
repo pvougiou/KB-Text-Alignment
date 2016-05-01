@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Fibrinogen is a protein produced by the liver.</value>
+		<pattern_crowdsource> [[Fibrinogen|C0016006]] is a [[protein|C0033684]] produced by the [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Fibrinogen</surface-form>
+				<RDF-ID>C0016006</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016006 ISA C0033684</triple>
+			<triple>C0023884 PRODUCES C0033684</triple>
+			<triple>C0023884 PRODUCES C0016006</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A blood test can be done to tell how much fibrinogen you have in the blood.</value>
+		<pattern_crowdsource> A blood test can be done to tell how much [[fibrinogen|C0016006]] you have in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood test</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fibrinogen</surface-form>
+				<RDF-ID>C0016006</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0016006</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may order this test if you have problems with blood clotting, such as excessive bleeding.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have problems with [[blood clotting|C0005778]], such as excessive bleeding.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clotting</surface-form>
+				<RDF-ID>C0005778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>excessive</surface-form>
+				<RDF-ID>C0442802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005778 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

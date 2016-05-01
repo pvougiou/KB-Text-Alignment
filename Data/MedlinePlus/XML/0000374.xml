@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Avian influenza A viruses cause the flu infection in birds.</value>
+		<pattern_crowdsource> [[Avian influenza|C0016627]] A viruses cause the [[flu|C0021400]] [[infection|C0009450]] in [[birds|C0005595]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Avian influenza</surface-form>
+				<RDF-ID>C0016627</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>viruses</surface-form>
+				<RDF-ID>C0521026</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flu</surface-form>
+				<RDF-ID>C0021400</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>birds</surface-form>
+				<RDF-ID>C0005595</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021400 ISA C0009450</triple>
+			<triple>C0016627 CAUSES C0009450</triple>
+			<triple>C0009450 PROCESS_OF C0005595</triple>
+			<triple>C0021400 PROCESS_OF C0005595</triple>
+			<triple>C0016627 CAUSES C0021400</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

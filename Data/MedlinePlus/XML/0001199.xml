@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>It involves extremely high blood sugar (glucose) levels without the presence of ketones.</value>
+		<pattern_crowdsource> It involves extremely high [[blood sugar|C0005802]] ([[glucose|C0017725]]) levels without the presence of [[ketones|C0022634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ketones</surface-form>
+				<RDF-ID>C0022634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0017725</triple>
+			<triple>C0017725 NEG_COEXISTS_WITH C0022634</triple>
+			<triple>C0005802 NEG_COEXISTS_WITH C0022634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

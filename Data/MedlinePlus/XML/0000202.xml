@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Infections like tetanus and gangrene are caused by anaerobic bacteria.</value>
+		<pattern_crowdsource> Infections like [[tetanus|C0039614]] and [[gangrene|C0017086]] are caused by [[anaerobic bacteria|C0004613]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tetanus</surface-form>
+				<RDF-ID>C0039614</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gangrene</surface-form>
+				<RDF-ID>C0017086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anaerobic bacteria</surface-form>
+				<RDF-ID>C0004613</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004613 CAUSES C0017086</triple>
+			<triple>C0004613 CAUSES C0039614</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Anaerobic infections typically cause abscesses (buildups of pus), and death of tissue.</value>
+		<pattern_crowdsource> Anaerobic [[infections|C0021311]] typically cause [[abscesses|C0000833]] (buildups of pus), and death of tissue.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abscesses</surface-form>
+				<RDF-ID>C0000833</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pus</surface-form>
+				<RDF-ID>C0034161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>death</surface-form>
+				<RDF-ID>C0011065</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021311 CAUSES C0000833</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In exercise, our bodies need to perform both anaerobic and aerobic reactions to supply us with energy.</value>
+		<pattern_crowdsource> In exercise, our bodies need to perform both anaerobic and [[aerobic reactions|C0678618]] to supply us with [[energy|C0542479]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aerobic reactions</surface-form>
+				<RDF-ID>C0678618</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>energy</surface-form>
+				<RDF-ID>C0542479</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0542479 PROCESS_OF C0678618</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Anaerobic exercise leads to a buildup of lactic acid in our tissues.</value>
+		<pattern_crowdsource> Anaerobic exercise leads to a buildup of [[lactic acid|C0064582]] in our [[tissues|C0040300]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lactic acid</surface-form>
+				<RDF-ID>C0064582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissues</surface-form>
+				<RDF-ID>C0040300</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040300 LOCATION_OF C0064582</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

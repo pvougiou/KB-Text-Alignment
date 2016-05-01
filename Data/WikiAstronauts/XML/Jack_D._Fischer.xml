@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jack David "2fish" Fischer (born 1974) is an American test pilot and a NASA astronaut.	</value>
+
+		<annotated-sentence>	Jack [[David|Peter_David]] "2fish" Fischer (born [[1974|Rudebox]]) is an [[American|United_States]] [[test pilot|Test_pilot]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jack David "2fish" Fischer (born 1974) is an [[American|United_States]] [[test pilot|Test_pilot]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fischer/NNP-6,Jack/NNP-1)
+				nn(Fischer/NNP-6,David/NNP-2)
+				amod(Fischer/NNP-6,2fish/JJ-4)
+				nsubj(pilot/NN-15,Fischer/NNP-6)
+				dep(Fischer/NNP-6,born/VBN-8)
+				dobj(born/VBN-8,1974/CD-9)
+				cop(pilot/NN-15,is/VBZ-11)
+				det(pilot/NN-15,an/DT-12)
+				amod(pilot/NN-15,American/JJ-13)
+				nn(pilot/NN-15,test/NN-14)
+				det(astronaut/NN-19,a/DT-17)
+				nn(astronaut/NN-19,NASA/NNP-18)
+				conj_and(pilot/NN-15,astronaut/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>David</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Peter_David</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fischer was selected in June 2009 as a member of the NASA Astronaut Group 20 and qualified as an astronaut in 2011.	</value>
+
+		<annotated-sentence>	Fischer was selected in [[June 2009|June_2009]] as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]] and qualified as [[an astronaut|Astronaut]] in [[2011|2011_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fischer was selected in June 2009 as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]] and qualified as [[an astronaut|Astronaut]] in 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(was/VBD-2,Fischer/NNP-1)
+				dep(was/VBD-2,selected/VBN-3)
+				prep_in(selected/VBN-3,June/NNP-5)
+				num(June/NNP-5,2009/CD-6)
+				det(member/NN-9,a/DT-8)
+				prep_as(selected/VBN-3,member/NN-9)
+				det(Group/NNP-14,the/DT-11)
+				nn(Group/NNP-14,NASA/NNP-12)
+				nn(Group/NNP-14,Astronaut/NNP-13)
+				prep_of(member/NN-9,Group/NNP-14)
+				num(Group/NNP-14,20/CD-15)
+				dep(was/VBD-2,qualified/VBN-17)
+				conj_and(selected/VBN-3,qualified/VBN-17)
+				det(astronaut/NN-20,an/DT-19)
+				prep_as(qualified/VBN-17,astronaut/NN-20)
+				prep_in(astronaut/NN-20,2011/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Group 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_20</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fischer is a Lieutenant Colonel in the U.S. Air Force.	</value>
+
+		<annotated-sentence>	Fischer is a Lieutenant Colonel in the U.S. Air Force.	</annotated-sentence>
+
+		<pattern_crowdsource>	Fischer is a Lieutenant Colonel in the U.S. Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Colonel/NNP-5,Fischer/NNP-1)
+				cop(Colonel/NNP-5,is/VBZ-2)
+				det(Colonel/NNP-5,a/DT-3)
+				nn(Colonel/NNP-5,Lieutenant/NNP-4)
+				det(Force/NNP-10,the/DT-7)
+				nn(Force/NNP-10,U.S./NNP-8)
+				nn(Force/NNP-10,Air/NNP-9)
+				prep_in(Colonel/NNP-5,Force/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He considers Louisville, Colorado to be his hometown.	</value>
+
+		<annotated-sentence>	He considers [[Louisville , Colorado|Louisville,_Colorado]]to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	He considers Louisville, Colorado to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(considers/VBZ-2,He/PRP-1)
+				nn(Colorado/NNP-5,Louisville/NNP-3)
+				nsubj(hometown/NN-9,Colorado/NNP-5)
+				aux(hometown/NN-9,to/TO-6)
+				cop(hometown/NN-9,be/VB-7)
+				poss(hometown/NN-9,his/PRP$-8)
+				xcomp(considers/VBZ-2,hometown/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Louisville , Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Louisville,_Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jack_D._Fischer http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Louisville,_Colorado
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fischer is a 1992 graduate of Centaurus High School, a 1996 graduate of the United States Air Force Academy, 1998 graduate of the Massachusetts Institute of Technology, and a 2004 graduate of the U.S. Air Force Test Pilot School at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,Fischer/NNP-1)
+				cop(graduate/NN-5,is/VBZ-2)
+				det(graduate/NN-5,a/DT-3)
+				num(graduate/NN-5,1992/CD-4)
+				nn(School/NNP-9,Centaurus/NNP-7)
+				nn(School/NNP-9,High/NNP-8)
+				prep_of(graduate/NN-5,School/NNP-9)
+				det(graduate/NN-13,a/DT-11)
+				num(graduate/NN-13,1996/CD-12)
+				conj_and(graduate/NN-5,graduate/NN-13)
+				det(Academy/NNP-20,the/DT-15)
+				nn(Academy/NNP-20,United/NNP-16)
+				nn(Academy/NNP-20,States/NNP-17)
+				nn(Academy/NNP-20,Air/NNP-18)
+				nn(Academy/NNP-20,Force/NNP-19)
+				prep_of(graduate/NN-13,Academy/NNP-20)
+				num(graduate/NN-23,1998/CD-22)
+				conj_and(graduate/NN-5,graduate/NN-23)
+				det(Institute/NNP-27,the/DT-25)
+				nn(Institute/NNP-27,Massachusetts/NNP-26)
+				prep_of(graduate/NN-23,Institute/NNP-27)
+				prep_of(Institute/NNP-27,Technology/NNP-29)
+				det(graduate/NN-34,a/DT-32)
+				num(graduate/NN-34,2004/CD-33)
+				conj_and(graduate/NN-5,graduate/NN-34)
+				det(School/NNP-42,the/DT-36)
+				nn(School/NNP-42,U.S./NNP-37)
+				nn(School/NNP-42,Air/NNP-38)
+				nn(School/NNP-42,Force/NNP-39)
+				nn(School/NNP-42,Test/NNP-40)
+				nn(School/NNP-42,Pilot/NN-41)
+				prep_of(graduate/NN-34,School/NNP-42)
+				nn(Base/NNP-47,Edwards/NNP-44)
+				nn(Base/NNP-47,Air/NNP-45)
+				nn(Base/NNP-47,Force/NNP-46)
+				prep_at(School/NNP-42,Base/NNP-47)
+				appos(Base/NNP-47,California/NNP-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His call sign as a pilot is 2fish.	</value>
+
+		<annotated-sentence>	[[His call|His_Call]] sign as a pilot is 2fish.	</annotated-sentence>
+
+		<pattern_crowdsource>	His call sign as a pilot is 2fish.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(sign/NN-3,His/PRP$-1)
+				nn(sign/NN-3,call/NN-2)
+				nsubj(2fish/JJ-8,sign/NN-3)
+				det(pilot/NN-6,a/DT-5)
+				prep_as(sign/NN-3,pilot/NN-6)
+				cop(2fish/JJ-8,is/VBZ-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His call</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/His_Call</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

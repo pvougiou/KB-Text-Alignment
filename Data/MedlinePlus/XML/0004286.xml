@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Palliative care can be given at the same time as treatments meant to cure or treat the disease.</value>
+		<pattern_crowdsource> Palliative care can be given at the same time as [[treatments|C0087111]] meant to cure or treat the [[disease|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Palliative care</surface-form>
+				<RDF-ID>C0030231</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 TREATS C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Any health care provider can give palliative care.</value>
+		<pattern_crowdsource> Any [[health care provider|C0018724]] can give [[palliative care|C0030231]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>palliative care</surface-form>
+				<RDF-ID>C0030231</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030231 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Hospice care begins after treatment of the disease is stopped and when it is clear that the patient is not going to survive the illness.</value>
+		<pattern_crowdsource> [[Hospice care|C0085555]] begins after treatment of the [[disease|C0012634]] is stopped and when it is clear that the patient is not going to survive the illness.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hospice care</surface-form>
+				<RDF-ID>C0085555</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patient</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>illness</surface-form>
+				<RDF-ID>C0221423</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0085555 TREATS C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

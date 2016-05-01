@@ -1,0 +1,2396 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Claude Nicollier (born 2 September 1944 in Vevey, Switzerland) is the first astronaut from Switzerland, and has flown on four Space Shuttle missions.	</value>
+
+		<annotated-sentence>	[[Claude Nicollier|Claude_Nicollier]] (born 2 [[September 1944|1944]] in [[Vevey , Switzerland|Vevey_-_Switzerland]] is [[the first astronaut|Astronaut]] from [[Switzerland|Switzerland]], and has flown on [[four Space|Space]] [[Shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Claude Nicollier|Claude_Nicollier]] (born 2 September 1944 in Vevey, [[Switzerland|Switzerland]]) is [[the first astronaut|Astronaut]] from [[Switzerland|Switzerland]], and has flown on four Space Shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Nicollier/NNP-2,Claude/NNP-1)
+				nsubj(astronaut/NN-16,Nicollier/NNP-2)
+				dep(Nicollier/NNP-2,born/VBN-4)
+				dobj(born/VBN-4,2/CD-5)
+				tmod(born/VBN-4,September/NNP-6)
+				num(September/NNP-6,1944/CD-7)
+				nn(Switzerland/NNP-11,Vevey/NNP-9)
+				prep_in(born/VBN-4,Switzerland/NNP-11)
+				cop(astronaut/NN-16,is/VBZ-13)
+				det(astronaut/NN-16,the/DT-14)
+				amod(astronaut/NN-16,first/JJ-15)
+				prep_from(astronaut/NN-16,Switzerland/NNP-18)
+				aux(flown/VBN-22,has/VBZ-21)
+				conj_and(astronaut/NN-16,flown/VBN-22)
+				num(Space/NN-25,four/CD-24)
+				prep_on(flown/VBN-22,Space/NN-25)
+				nn(missions/NNS-27,Shuttle/NNP-26)
+				nsubj(flown/VBN-22,missions/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Claude Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claude_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1944</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1944</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vevey , Switzerland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vevey_-_Switzerland</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Switzerland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Switzerland</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Switzerland
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Switzerland
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Switzerland
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His first spaceflight (STS-46) was in 1992, and his final spaceflight (STS-103) was in 1999.	</value>
+
+		<annotated-sentence>	His first [[spaceflight|Spaceflight]] ([[STS-46|STS-46]]) was in [[1992|1992]], and [[his final spaceflight|Spaceflight]] ([[STS-103|STS-103]]) was in [[1999|1999]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His first spaceflight ([[STS-46|STS-46]]) was in 1992, and his final spaceflight ([[STS-103|STS-103]]) was in 1999.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,His/PRP$-1)
+				amod(spaceflight/NN-3,first/JJ-2)
+				nsubj(was/VBD-7,spaceflight/NN-3)
+				appos(spaceflight/NN-3,STS-46/NN-5)
+				prep_in(was/VBD-7,1992/CD-9)
+				poss(spaceflight/NN-14,his/PRP$-12)
+				amod(spaceflight/NN-14,final/JJ-13)
+				nsubj(was/VBD-18,spaceflight/NN-14)
+				appos(spaceflight/NN-14,STS-103/NN-16)
+				conj_and(was/VBD-7,was/VBD-18)
+				prep_in(was/VBD-18,1999/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-46</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-46</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his final spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-103</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-103</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-46
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-103
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He took part in two servicing missions to the Hubble Space Telescope (called STS-61 and STS-103).	</value>
+
+		<annotated-sentence>	He took part in two [[servicing|Service_(motor_vehicle)]] missions to [[the Hubble Space Telescope|Hubble_Space_Telescope]] (called [[STS-61 and STS-103|STS-103]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He took part in two servicing missions to the Hubble Space Telescope (called [[STS-61 and STS-103|STS-103]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(took/VBD-2,He/PRP-1)
+				dobj(took/VBD-2,part/NN-3)
+				num(missions/NNS-7,two/CD-5)
+				nn(missions/NNS-7,servicing/NN-6)
+				prep_in(took/VBD-2,missions/NNS-7)
+				det(Telescope/NNP-12,the/DT-9)
+				nn(Telescope/NNP-12,Hubble/NNP-10)
+				nn(Telescope/NNP-12,Space/NNP-11)
+				prep_to(took/VBD-2,Telescope/NNP-12)
+				dep(Telescope/NNP-12,called/VBN-14)
+				dobj(called/VBN-14,STS-61/NN-15)
+				dobj(called/VBN-14,STS-103/NN-17)
+				conj_and(STS-61/NN-15,STS-103/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>servicing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_(motor_vehicle)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61 and STS-103</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-103</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-103
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his final spaceflight he participated in a spacewalk, becoming the first European Space Agency astronaut to do so during a Space Shuttle mission (previous ESA astronauts conducted spacewalks aboard Mir, see List of spacewalks and moonwalks 1965–1999).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-4,his/PRP$-2)
+				amod(spaceflight/NN-4,final/JJ-3)
+				prep_during(participated/VBD-6,spaceflight/NN-4)
+				nsubj(participated/VBD-6,he/PRP-5)
+				det(spacewalk/NN-9,a/DT-8)
+				prep_in(participated/VBD-6,spacewalk/NN-9)
+				xcomp(participated/VBD-6,becoming/VBG-11)
+				det(astronaut/NN-17,the/DT-12)
+				amod(astronaut/NN-17,first/JJ-13)
+				amod(astronaut/NN-17,European/JJ-14)
+				nn(astronaut/NN-17,Space/NNP-15)
+				nn(astronaut/NN-17,Agency/NNP-16)
+				xcomp(becoming/VBG-11,astronaut/NN-17)
+				aux(do/VB-19,to/TO-18)
+				xcomp(becoming/VBG-11,do/VB-19)
+				advmod(do/VB-19,so/RB-20)
+				det(mission/NN-25,a/DT-22)
+				nn(mission/NN-25,Space/NN-23)
+				nn(mission/NN-25,Shuttle/NNP-24)
+				prep_during(do/VB-19,mission/NN-25)
+				amod(astronauts/NNS-29,previous/JJ-27)
+				nn(astronauts/NNS-29,ESA/NNP-28)
+				nsubj(conducted/VBN-30,astronauts/NNS-29)
+				nsubj(see/VBP-35,astronauts/NNS-29)
+				nsubj(moonwalks/VBZ-40,astronauts/NNS-29)
+				dep(mission/NN-25,conducted/VBN-30)
+				dobj(conducted/VBN-30,spacewalks/NNS-31)
+				prep_aboard(conducted/VBN-30,Mir/NNS-33)
+				dep(mission/NN-25,see/VBP-35)
+				conj_and(conducted/VBN-30,see/VBP-35)
+				dobj(see/VBP-35,List/NN-36)
+				prep_of(List/NN-36,spacewalks/NNS-38)
+				dep(mission/NN-25,moonwalks/VBZ-40)
+				conj_and(conducted/VBN-30,moonwalks/VBZ-40)
+				dobj(moonwalks/VBZ-40,1965/CD-41)
+				dep(1965/CD-41,1999/CD-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA astronaut in Houston.	</value>
+
+		<annotated-sentence>	In [[2000|2000]] he was assigned to the [[Astronaut Office|NASA_Astronaut_Corps]] [[Extravehicular Activity|Extra-vehicular_activity]] Branch, while maintaining [[a position|Ice_hockey]] as [[Lead|Lead]] ESA [[astronaut|Astronaut]] in [[Houston|Houston]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA [[astronaut|Astronaut]] in Houston.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-5,2000/CD-2)
+				nsubjpass(assigned/VBN-5,he/PRP-3)
+				auxpass(assigned/VBN-5,was/VBD-4)
+				det(Branch/NNP-12,the/DT-7)
+				nn(Branch/NNP-12,Astronaut/NNP-8)
+				nn(Branch/NNP-12,Office/NNP-9)
+				nn(Branch/NNP-12,Extravehicular/NNP-10)
+				nn(Branch/NNP-12,Activity/NNP-11)
+				prep_to(assigned/VBN-5,Branch/NNP-12)
+				prepc_while(assigned/VBN-5,maintaining/VBG-15)
+				det(position/NN-17,a/DT-16)
+				dobj(maintaining/VBG-15,position/NN-17)
+				amod(astronaut/NN-21,Lead/JJ-19)
+				nn(astronaut/NN-21,ESA/NN-20)
+				prep_as(maintaining/VBG-15,astronaut/NN-21)
+				prep_in(astronaut/NN-21,Houston/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Extravehicular Activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a position</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ice_hockey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicollier retired from ESA in April 2007.	</value>
+
+		<annotated-sentence>	[[Nicollier|14826_Nicollier]] retired from ESA in [[April 2007|April_2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicollier retired from ESA in April 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Nicollier/NNP-1)
+				prep_from(retired/VBD-2,ESA/NNP-4)
+				prep_in(retired/VBD-2,April/NNP-6)
+				num(April/NNP-6,2007/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/14826_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was appointed full professor of Spatial Technology at the École Polytechnique Fédérale de Lausanne on 28 March 2007.	</value>
+
+		<annotated-sentence>	He was appointed full professor of [[Spatial|Space]] [[Technology|Technology]] at the [[École Polytechnique Fédérale de Lausanne|%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne]] on 28 [[March 2007|March_2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was appointed full professor of Spatial Technology at the École Polytechnique Fédérale de Lausanne on 28 March 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(appointed/VBN-3,He/PRP-1)
+				auxpass(appointed/VBN-3,was/VBD-2)
+				amod(professor/NN-5,full/JJ-4)
+				dobj(appointed/VBN-3,professor/NN-5)
+				nn(Technology/NNP-8,Spatial/NNP-7)
+				prep_of(professor/NN-5,Technology/NNP-8)
+				det(Lausanne/NNP-15,the/DT-10)
+				nn(Lausanne/NNP-15,École/NNP-11)
+				nn(Lausanne/NNP-15,Polytechnique/NNP-12)
+				nn(Lausanne/NNP-15,Fédérale/NNP-13)
+				amod(Lausanne/NNP-15,de/IN-14)
+				prep_at(appointed/VBN-3,Lausanne/NNP-15)
+				prep_on(Lausanne/NNP-15,28/CD-17)
+				tmod(Lausanne/NNP-15,March/NNP-18)
+				num(March/NNP-18,2007/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Spatial</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>École Polytechnique Fédérale de Lausanne</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an expert board member of Swiss Space Systems.	</value>
+
+		<annotated-sentence>	He is an expert [[board member|Board_of_directors]] of [[Swiss Space Systems|Swiss_Space_Systems]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is an expert board member of [[Swiss Space Systems|Swiss_Space_Systems]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-6,He/PRP-1)
+				cop(member/NN-6,is/VBZ-2)
+				det(member/NN-6,an/DT-3)
+				amod(member/NN-6,expert/JJ-4)
+				nn(member/NN-6,board/NN-5)
+				amod(Systems/NNPS-10,Swiss/JJ-8)
+				nn(Systems/NNPS-10,Space/NNP-9)
+				prep_of(member/NN-6,Systems/NNPS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>board member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Board_of_directors</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Swiss Space Systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Swiss_Space_Systems</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Swiss_Space_Systems http://dbpedia.org/ontology/keyPerson http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from the Gymnase de Lausanne (high school) in Lausanne in 1962, he studied physics at the University of Lausanne and received a Bachelor of Science in 1970.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(studied/VBD-18,graduating/VBG-2)
+				det(Lausanne/NNP-7,the/DT-4)
+				nn(Lausanne/NNP-7,Gymnase/NNP-5)
+				amod(Lausanne/NNP-7,de/IN-6)
+				prep_from(graduating/VBG-2,Lausanne/NNP-7)
+				amod(school/NN-10,high/JJ-9)
+				appos(Lausanne/NNP-7,school/NN-10)
+				prep_in(Lausanne/NNP-7,Lausanne/NNP-13)
+				prep_in(graduating/VBG-2,1962/CD-15)
+				nsubj(studied/VBD-18,he/PRP-17)
+				nsubj(received/VBD-26,he/PRP-17)
+				dobj(studied/VBD-18,physics/NNS-19)
+				det(University/NNP-22,the/DT-21)
+				prep_at(studied/VBD-18,University/NNP-22)
+				prep_of(University/NNP-22,Lausanne/NNP-24)
+				conj_and(studied/VBD-18,received/VBD-26)
+				det(Bachelor/NN-28,a/DT-27)
+				dobj(received/VBD-26,Bachelor/NN-28)
+				prep_of(Bachelor/NN-28,Science/NN-30)
+				prep_in(received/VBD-26,1970/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then worked as a graduate scientist from 1970 to 1973 at the Institute of Astronomy at the University and at the Geneva Observatory, before obtaining a Master of Science degree in astrophysics from the University of Geneva in 1975.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,He/PRP-1)
+				advmod(worked/VBD-3,then/RB-2)
+				det(scientist/NN-7,a/DT-5)
+				amod(scientist/NN-7,graduate/JJ-6)
+				prep_as(worked/VBD-3,scientist/NN-7)
+				num(1973/CD-11,1970/CD-9)
+				dep(1973/CD-11,to/TO-10)
+				prep_from(scientist/NN-7,1973/CD-11)
+				det(Institute/NNP-14,the/DT-13)
+				prep_at(worked/VBD-3,Institute/NNP-14)
+				prep_of(Institute/NNP-14,Astronomy/NNP-16)
+				det(University/NNP-19,the/DT-18)
+				prep_at(worked/VBD-3,University/NNP-19)
+				det(Observatory/NNP-24,the/DT-22)
+				nn(Observatory/NNP-24,Geneva/NNP-23)
+				prep_at(worked/VBD-3,Observatory/NNP-24)
+				conj_and(University/NNP-19,Observatory/NNP-24)
+				prepc_before(worked/VBD-3,obtaining/VBG-27)
+				det(Master/NN-29,a/DT-28)
+				dobj(obtaining/VBG-27,Master/NN-29)
+				nn(degree/NN-32,Science/NNP-31)
+				prep_of(Master/NN-29,degree/NN-32)
+				prep_in(obtaining/VBG-27,astrophysics/NNS-34)
+				det(University/NNP-37,the/DT-36)
+				prep_from(astrophysics/NNS-34,University/NNP-37)
+				prep_of(University/NNP-37,Geneva/NNP-39)
+				prep_in(obtaining/VBG-27,1975/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In parallel, he became a Swiss Air Force pilot in 1966, where he holds a commission as captain, and has logged 5600 hours flying time, including 4,000 hours in jet aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(pilot/NN-10,parallel/NN-2)
+				nsubj(pilot/NN-10,he/PRP-4)
+				cop(pilot/NN-10,became/VBD-5)
+				det(pilot/NN-10,a/DT-6)
+				nn(pilot/NN-10,Swiss/NNP-7)
+				nn(pilot/NN-10,Air/NNP-8)
+				nn(pilot/NN-10,Force/NNP-9)
+				prep_in(pilot/NN-10,1966/CD-12)
+				advmod(holds/VBZ-16,where/WRB-14)
+				nsubj(holds/VBZ-16,he/PRP-15)
+				nsubj(logged/VBN-24,he/PRP-15)
+				advcl(pilot/NN-10,holds/VBZ-16)
+				det(commission/NN-18,a/DT-17)
+				dobj(holds/VBZ-16,commission/NN-18)
+				prep_as(holds/VBZ-16,captain/NN-20)
+				aux(logged/VBN-24,has/VBZ-23)
+				advcl(pilot/NN-10,logged/VBN-24)
+				conj_and(holds/VBZ-16,logged/VBN-24)
+				num(hours/NNS-26,5600/CD-25)
+				tmod(logged/VBN-24,hours/NNS-26)
+				xcomp(logged/VBN-24,flying/VBG-27)
+				dobj(flying/VBG-27,time/NN-28)
+				num(hours/NNS-32,4,000/CD-31)
+				prep_including(logged/VBN-24,hours/NNS-32)
+				nn(aircraft/NN-35,jet/NN-34)
+				prep_in(hours/NNS-32,aircraft/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later, in 1988, he graduated as a test pilot from the Empire Test Pilot's School in Boscombe Down, United Kingdom.	</value>
+
+		<annotated-sentence>	Later, in [[1988|1988]], he graduated as [[a test pilot|Test_pilot]] from the Empire [[Test Pilot|Test_pilot]]'s [[School|School]] in [[Boscombe Down|MoD_Boscombe_Down]], [[United Kingdom|United_Kingdom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Later, in 1988, he graduated as a test pilot from the Empire Test Pilot's School in Boscombe Down, United Kingdom.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(graduated/VBD-7,Later/RB-1)
+				prep_in(graduated/VBD-7,1988/CD-4)
+				nsubj(graduated/VBD-7,he/PRP-6)
+				det(pilot/NN-11,a/DT-9)
+				nn(pilot/NN-11,test/NN-10)
+				prep_as(graduated/VBD-7,pilot/NN-11)
+				det(Pilot/NN-16,the/DT-13)
+				nn(Pilot/NN-16,Empire/NNP-14)
+				nn(Pilot/NN-16,Test/NNP-15)
+				poss(School/NNP-18,Pilot/NN-16)
+				prep_from(graduated/VBD-7,School/NNP-18)
+				nn(Down/NNP-21,Boscombe/NNP-20)
+				prep_in(School/NNP-18,Down/NNP-21)
+				nn(Kingdom/NNP-24,United/NNP-23)
+				appos(Down/NNP-21,Kingdom/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boscombe Down</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/MoD_Boscombe_Down</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United Kingdom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2004, he started teaching at the École Polytechnique Fédérale de Lausanne, and became a full professor in March 2007.	</value>
+
+		<annotated-sentence>	In [[2004|2004]], he started teaching at the [[École Polytechnique Fédérale de Lausanne|%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne]], and became a full professor in [[March 2007|March_2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2004, he started teaching at the École Polytechnique Fédérale de Lausanne, and became a full professor in March 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(started/VBD-5,2004/CD-2)
+				nsubj(started/VBD-5,he/PRP-4)
+				xcomp(started/VBD-5,teaching/VBG-6)
+				det(Lausanne/NNP-13,the/DT-8)
+				nn(Lausanne/NNP-13,École/NNP-9)
+				nn(Lausanne/NNP-13,Polytechnique/NNP-10)
+				nn(Lausanne/NNP-13,Fédérale/NNP-11)
+				amod(Lausanne/NNP-13,de/IN-12)
+				prep_at(teaching/VBG-6,Lausanne/NNP-13)
+				cop(professor/NN-19,became/VBD-16)
+				det(professor/NN-19,a/DT-17)
+				amod(professor/NN-19,full/JJ-18)
+				conj_and(started/VBD-5,professor/NN-19)
+				prep_in(professor/NN-19,March/NNP-21)
+				num(March/NNP-21,2007/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>École Polytechnique Fédérale de Lausanne</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Concurrently with his part-time research activities, he joined the Swiss Air Transport School in Zürich and became an airline pilot in 1974, assigned as a DC-9 pilot for Swissair.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(joined/VBD-9,Concurrently/RB-1)
+				poss(activities/NNS-6,his/PRP$-3)
+				amod(activities/NNS-6,part-time/JJ-4)
+				nn(activities/NNS-6,research/NN-5)
+				prep_with(joined/VBD-9,activities/NNS-6)
+				nsubj(joined/VBD-9,he/PRP-8)
+				det(School/NNP-14,the/DT-10)
+				nn(School/NNP-14,Swiss/NNP-11)
+				nn(School/NNP-14,Air/NNP-12)
+				nn(School/NNP-14,Transport/NNP-13)
+				dobj(joined/VBD-9,School/NNP-14)
+				prep_in(joined/VBD-9,Zürich/NNP-16)
+				cop(pilot/NN-21,became/VBD-18)
+				det(pilot/NN-21,an/DT-19)
+				nn(pilot/NN-21,airline/NN-20)
+				conj_and(joined/VBD-9,pilot/NN-21)
+				prep_in(pilot/NN-21,1974/CD-23)
+				partmod(1974/CD-23,assigned/VBN-25)
+				det(pilot/NN-29,a/DT-27)
+				nn(pilot/NN-29,DC-9/NNP-28)
+				prep_as(assigned/VBN-25,pilot/NN-29)
+				prep_for(pilot/NN-29,Swissair/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the end of 1976, he accepted a Fellowship at the European Space Agency’s (ESA) Space Science Department at Noordwijk, Netherlands, where he worked as a research scientist in various airborne infrared astronomy programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(end/NN-3,the/DT-2)
+				prep_at(accepted/VBD-8,end/NN-3)
+				prep_of(end/NN-3,1976/CD-5)
+				nsubj(accepted/VBD-8,he/PRP-7)
+				det(Fellowship/NNP-10,a/DT-9)
+				dobj(accepted/VBD-8,Fellowship/NNP-10)
+				det(Agency/NNP-15,the/DT-12)
+				amod(Agency/NNP-15,European/JJ-13)
+				nn(Agency/NNP-15,Space/NNP-14)
+				nn(Department/NNP-22,Agency/NNP-15)
+				possessive(Agency/NNP-15,'s/POS-16)
+				appos(Agency/NNP-15,ESA/NN-18)
+				nn(Department/NNP-22,Space/NN-20)
+				nn(Department/NNP-22,Science/NNP-21)
+				prep_at(accepted/VBD-8,Department/NNP-22)
+				nn(Netherlands/NNP-26,Noordwijk/NNP-24)
+				prep_at(Department/NNP-22,Netherlands/NNP-26)
+				advmod(worked/VBD-30,where/WRB-28)
+				nsubj(worked/VBD-30,he/PRP-29)
+				advcl(accepted/VBD-8,worked/VBD-30)
+				det(scientist/NN-34,a/DT-32)
+				nn(scientist/NN-34,research/NN-33)
+				prep_as(worked/VBD-30,scientist/NN-34)
+				amod(programs/NNS-40,various/JJ-36)
+				amod(programs/NNS-40,airborne/JJ-37)
+				amod(programs/NNS-40,infrared/JJ-38)
+				nn(programs/NNS-40,astronomy/NN-39)
+				prep_in(worked/VBD-30,programs/NNS-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 1978, he was selected by ESA as a member of the first group of European astronauts.	</value>
+
+		<annotated-sentence>	In [[July 1978|1978]], he was selected by ESA as a member of the first group of European [[astronauts|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In July 1978, he was selected by ESA as a member of the first group of European [[astronauts|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,July/NNP-2)
+				num(July/NNP-2,1978/CD-3)
+				nsubjpass(selected/VBN-7,he/PRP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				agent(selected/VBN-7,ESA/NNP-9)
+				det(member/NN-12,a/DT-11)
+				prep_as(selected/VBN-7,member/NN-12)
+				det(group/NN-16,the/DT-14)
+				amod(group/NN-16,first/JJ-15)
+				prep_of(member/NN-12,group/NN-16)
+				amod(astronauts/NNS-19,European/JJ-18)
+				prep_of(group/NN-16,astronauts/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1978</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Under agreement between ESA and NASA, he joined the NASA astronaut candidates selected in May 1980 for astronaut training as a mission specialist.	</value>
+
+		<annotated-sentence>	Under agreement between [[ESA and NASA|Esa_Nasa]], he joined the [[NASA|NASA]] [[astronaut|Astronaut]] [[candidates|Candidate]] selected in [[May 1980|1980]] for [[astronaut training|Astronaut_training]] as [[a mission specialist|Mission_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Under agreement between ESA and NASA, he joined the NASA [[astronaut|Astronaut]] candidates selected in May 1980 for [[astronaut|Astronaut]] training as a mission specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_under(joined/VBD-9,agreement/NN-2)
+				prep_between(agreement/NN-2,ESA/NNP-4)
+				prep_between(agreement/NN-2,NASA/NNP-6)
+				conj_and(ESA/NNP-4,NASA/NNP-6)
+				nsubj(joined/VBD-9,he/PRP-8)
+				det(candidates/NNS-13,the/DT-10)
+				nn(candidates/NNS-13,NASA/NNP-11)
+				nn(candidates/NNS-13,astronaut/NN-12)
+				nsubj(selected/VBN-14,candidates/NNS-13)
+				ccomp(joined/VBD-9,selected/VBN-14)
+				prep_in(selected/VBN-14,May/NNP-16)
+				num(May/NNP-16,1980/CD-17)
+				nn(training/NN-20,astronaut/NN-19)
+				prep_for(selected/VBN-14,training/NN-20)
+				det(specialist/NN-24,a/DT-22)
+				nn(specialist/NN-24,mission/NN-23)
+				prep_as(selected/VBN-14,specialist/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ESA and NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Esa_Nasa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments in the Astronaut Office have included flight software verification in the Shuttle Avionics Integration Laboratory (SAIL), participation in the development of retrieval techniques for the Tethered Satellite System (TSS), Remote Manipulator System (RMS), and International Space Station (ISS) robotics support.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBN-9,assignments/NNS-3)
+				det(Office/NNP-7,the/DT-5)
+				nn(Office/NNP-7,Astronaut/NNP-6)
+				prep_in(assignments/NNS-3,Office/NNP-7)
+				aux(included/VBN-9,have/VBP-8)
+				ccomp(support/VBP-54,included/VBN-9)
+				nn(verification/NN-12,flight/NN-10)
+				nn(verification/NN-12,software/NN-11)
+				dobj(included/VBN-9,verification/NN-12)
+				det(Laboratory/NN-18,the/DT-14)
+				nn(Laboratory/NN-18,Shuttle/NNP-15)
+				nn(Laboratory/NN-18,Avionics/NNP-16)
+				nn(Laboratory/NN-18,Integration/NN-17)
+				prep_in(verification/NN-12,Laboratory/NN-18)
+				appos(Laboratory/NN-18,SAIL/NN-20)
+				nsubj(support/VBP-54,participation/NN-23)
+				det(development/NN-26,the/DT-25)
+				prep_in(participation/NN-23,development/NN-26)
+				nn(techniques/NNS-29,retrieval/NN-28)
+				prep_of(development/NN-26,techniques/NNS-29)
+				det(System/NNP-34,the/DT-31)
+				nn(System/NNP-34,Tethered/NNP-32)
+				nn(System/NNP-34,Satellite/NNP-33)
+				prep_for(techniques/NNS-29,System/NNP-34)
+				appos(System/NNP-34,TSS/NNP-36)
+				amod(System/NNP-41,Remote/JJ-39)
+				nn(System/NNP-41,Manipulator/NNP-40)
+				prep_for(techniques/NNS-29,System/NNP-41)
+				conj_and(System/NNP-34,System/NNP-41)
+				appos(System/NNP-41,RMS/NNP-43)
+				nn(robotics/NNS-53,International/NNP-47)
+				nn(robotics/NNS-53,Space/NNP-48)
+				nn(robotics/NNS-53,Station/NNP-49)
+				appos(robotics/NNS-53,ISS/NNP-51)
+				prep_for(techniques/NNS-29,robotics/NNS-53)
+				conj_and(System/NNP-34,robotics/NNS-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From the Spring of 1996 to the end of 1998, he was Head of the Astronaut Office Robotics Branch.	</value>
+
+		<annotated-sentence>	From [[the Spring|Sherwood_C._Spring]] of [[1996|1996]] to the end of [[1998|1998]], he was Head of the [[Astronaut Office|NASA_Astronaut_Corps]] [[Robotics|Robotics]] Branch.	</annotated-sentence>
+
+		<pattern_crowdsource>	From the Spring of 1996 to the end of 1998, he was Head of the Astronaut Office Robotics Branch.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Spring/NN-3,the/DT-2)
+				prep_from(Head/NNP-14,Spring/NN-3)
+				prep_of(Spring/NN-3,1996/CD-5)
+				det(end/NN-8,the/DT-7)
+				prep_to(1996/CD-5,end/NN-8)
+				prep_of(end/NN-8,1998/CD-10)
+				nsubj(Head/NNP-14,he/PRP-12)
+				cop(Head/NNP-14,was/VBD-13)
+				det(Branch/NNP-20,the/DT-16)
+				nn(Branch/NNP-20,Astronaut/NNP-17)
+				nn(Branch/NNP-20,Office/NNP-18)
+				nn(Branch/NNP-20,Robotics/NNP-19)
+				prep_of(Head/NNP-14,Branch/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Spring</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sherwood_C._Spring</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robotics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robotics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From the year 2000 on, he was assigned to the Astronaut Office EVA (Extravehicular Activity) Branch, while maintaining a position as Lead ESA astronaut in Houston.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-3,the/DT-2)
+				prep_from(assigned/VBN-9,year/NN-3)
+				npadvmod(on/IN-5,2000/CD-4)
+				advmod(assigned/VBN-9,on/IN-5)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(Astronaut/NNP-12,the/DT-11)
+				prep_to(assigned/VBN-9,Astronaut/NNP-12)
+				nn(Branch/NNP-19,Office/NNP-13)
+				nn(Branch/NNP-19,EVA/NNP-14)
+				nn(Activity/NN-17,Extravehicular/NNP-16)
+				appos(Branch/NNP-19,Activity/NN-17)
+				dobj(assigned/VBN-9,Branch/NNP-19)
+				mark(maintaining/VBG-22,while/IN-21)
+				dep(Branch/NNP-19,maintaining/VBG-22)
+				det(position/NN-24,a/DT-23)
+				dobj(maintaining/VBG-22,position/NN-24)
+				amod(astronaut/NN-28,Lead/JJ-26)
+				nn(astronaut/NN-28,ESA/NN-27)
+				prep_as(maintaining/VBG-22,astronaut/NN-28)
+				prep_in(astronaut/NN-28,Houston/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicollier retired from ESA in April 2007.	</value>
+
+		<annotated-sentence>	[[Nicollier|14826_Nicollier]] retired from ESA in [[April 2007|April_2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicollier retired from ESA in April 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Nicollier/NNP-1)
+				prep_from(retired/VBD-2,ESA/NNP-4)
+				prep_in(retired/VBD-2,April/NNP-6)
+				num(April/NNP-6,2007/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/14826_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a member of the Swiss Astronomical Society, the Astronomical Society of the Pacific, the Swiss Air Force Officers Society (AVIA), and the Swiss Academy of Engineering Sciences and fellow of the British Interplanetary Society.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Society/NNP-9,the/DT-6)
+				amod(Society/NNP-9,Swiss/JJ-7)
+				amod(Society/NNP-9,Astronomical/JJ-8)
+				prep_of(member/NN-4,Society/NNP-9)
+				det(Society/NNP-13,the/DT-11)
+				nn(Society/NNP-13,Astronomical/NNP-12)
+				conj_and(member/NN-4,Society/NNP-13)
+				det(Pacific/NNP-16,the/DT-15)
+				prep_of(Society/NNP-13,Pacific/NNP-16)
+				det(Society/NNP-23,the/DT-18)
+				nn(Society/NNP-23,Swiss/NNP-19)
+				nn(Society/NNP-23,Air/NNP-20)
+				nn(Society/NNP-23,Force/NNP-21)
+				nn(Society/NNP-23,Officers/NNP-22)
+				conj_and(member/NN-4,Society/NNP-23)
+				appos(Society/NNP-23,AVIA/NNP-25)
+				det(Academy/NN-31,the/DT-29)
+				amod(Academy/NN-31,Swiss/JJ-30)
+				conj_and(member/NN-4,Academy/NN-31)
+				conj_and(Society/NNP-23,Academy/NN-31)
+				nn(Sciences/NNPS-34,Engineering/NNP-33)
+				prep_of(Academy/NN-31,Sciences/NNPS-34)
+				conj_and(member/NN-4,fellow/NN-36)
+				det(Society/NNP-41,the/DT-38)
+				amod(Society/NNP-41,British/JJ-39)
+				nn(Society/NNP-41,Interplanetary/NNP-40)
+				prep_of(fellow/NN-36,Society/NNP-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also an honorary member of the Swiss Aero Club, the Swiss Society of Engineers and Architects, and the Swiss Astronomy Day Society.	</value>
+
+		<annotated-sentence>	He is also an honorary member of the Swiss Aero Club, the Swiss [[Society|Society]] of [[Engineers and Architects|American_Society_of_Civil_Engineers]], and the Swiss [[Astronomy Day|Astronomy_Day]] [[Society|Society]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also an honorary member of the Swiss Aero Club, the Swiss Society of Engineers and Architects, and the Swiss Astronomy Day Society.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-6,He/PRP-1)
+				cop(member/NN-6,is/VBZ-2)
+				advmod(member/NN-6,also/RB-3)
+				det(member/NN-6,an/DT-4)
+				amod(member/NN-6,honorary/JJ-5)
+				det(Club/NNP-11,the/DT-8)
+				amod(Club/NNP-11,Swiss/JJ-9)
+				nn(Club/NNP-11,Aero/NNP-10)
+				prep_of(member/NN-6,Club/NNP-11)
+				det(Society/NNP-15,the/DT-13)
+				nn(Society/NNP-15,Swiss/NNP-14)
+				conj_and(member/NN-6,Society/NNP-15)
+				prep_of(Society/NNP-15,Engineers/NNPS-17)
+				prep_of(Society/NNP-15,Architects/NNPS-19)
+				conj_and(Engineers/NNPS-17,Architects/NNPS-19)
+				det(Society/NNP-26,the/DT-22)
+				amod(Society/NNP-26,Swiss/JJ-23)
+				nn(Society/NNP-26,Astronomy/NNP-24)
+				nn(Society/NNP-26,Day/NNP-25)
+				conj_and(member/NN-6,Society/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineers and Architects</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Society_of_Civil_Engineers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronomy Day</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy_Day</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicollier has spent over 1000 hours in space (42 days, 12 hours and 5 minutes), including one space walk durating 8 hours and 10 minutes.	</value>
+
+		<annotated-sentence>	[[Nicollier|14826_Nicollier]] has spent over [[1000 hours|1,000_Hours]] in [[space|Extra-vehicular_activity]] (42 days, 12 [[hours|1,000_Hours]] and [[5 minutes|5_Minutes_(The_Stranglers_song)]]), including [[one space walk|Extra-vehicular_activity]] durating 8 [[hours|1,000_Hours]] and [[10 minutes|10_Minutes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicollier has spent over 1000 hours in space (42 days, 12 hours and 5 minutes), including one space walk durating 8 hours and 10 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBN-3,Nicollier/NNP-1)
+				aux(spent/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,1000/CD-5)
+				prep_over(spent/VBN-3,hours/NNS-6)
+				prep_in(hours/NNS-6,space/NN-8)
+				num(days/NNS-11,42/CD-10)
+				dep(space/NN-8,days/NNS-11)
+				num(hours/NNS-14,12/CD-13)
+				dep(space/NN-8,hours/NNS-14)
+				conj_and(days/NNS-11,hours/NNS-14)
+				num(minutes/NNS-17,5/CD-16)
+				dep(space/NN-8,minutes/NNS-17)
+				conj_and(days/NNS-11,minutes/NNS-17)
+				num(walk/NN-23,one/CD-21)
+				nn(walk/NN-23,space/NN-22)
+				prep_including(space/NN-8,walk/NN-23)
+				partmod(walk/NN-23,durating/VBG-24)
+				num(hours/NNS-26,8/CD-25)
+				dobj(durating/VBG-24,hours/NNS-26)
+				num(minutes/NNS-29,10/CD-28)
+				dobj(durating/VBG-24,minutes/NNS-29)
+				conj_and(hours/NNS-26,minutes/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/14826_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1000 hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1,000_Hours</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1,000_Hours</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5_Minutes_(The_Stranglers_song)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>one space walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1,000_Hours</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>10 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/10_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as mission specialist on four missions with four different space shuttles: His first spaceflight was planned to be STS-61-K, which had been schedule for October 1986, but was cancelled following the Space Shuttle Challenger disaster.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_as(served/VBD-2,specialist/NN-5)
+				num(missions/NNS-8,four/CD-7)
+				prep_on(served/VBD-2,missions/NNS-8)
+				num(shuttles/NNS-13,four/CD-10)
+				amod(shuttles/NNS-13,different/JJ-11)
+				nn(shuttles/NNS-13,space/NN-12)
+				prep_with(missions/NNS-8,shuttles/NNS-13)
+				poss(spaceflight/NN-17,His/PRP$-15)
+				amod(spaceflight/NN-17,first/JJ-16)
+				nsubjpass(planned/VBN-19,spaceflight/NN-17)
+				auxpass(planned/VBN-19,was/VBD-18)
+				parataxis(served/VBD-2,planned/VBN-19)
+				aux(STS-61-K/NN-22,to/TO-20)
+				cop(STS-61-K/NN-22,be/VB-21)
+				xcomp(planned/VBN-19,STS-61-K/NN-22)
+				nsubj(schedule/NN-27,which/WDT-24)
+				nsubjpass(cancelled/VBN-34,which/WDT-24)
+				aux(schedule/NN-27,had/VBD-25)
+				cop(schedule/NN-27,been/VBN-26)
+				rcmod(STS-61-K/NN-22,schedule/NN-27)
+				prep_for(schedule/NN-27,October/NNP-29)
+				num(October/NNP-29,1986/CD-30)
+				auxpass(cancelled/VBN-34,was/VBD-33)
+				rcmod(STS-61-K/NN-22,cancelled/VBN-34)
+				conj_but(schedule/NN-27,cancelled/VBN-34)
+				det(disaster/NN-40,the/DT-36)
+				nn(disaster/NN-40,Space/NN-37)
+				nn(disaster/NN-40,Shuttle/NNP-38)
+				nn(disaster/NN-40,Challenger/NNP-39)
+				prep_following(cancelled/VBN-34,disaster/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicollier's first spaceflight was as a Mission Specialist on the 8-day Space Shuttle mission aboard Atlantis, called STS-46, in 1992.	</value>
+
+		<annotated-sentence>	[[Nicollier|14826_Nicollier]]'s first [[spaceflight|Spaceflight]] was as [[a Mission Specialist|Mission_Specialist]] on the 8-day [[Space Shuttle|SpaceShuttle]] [[mission|Mission_Specialist]] aboard [[Atlantis|Space_Shuttle_Atlantis]], called [[STS-46|STS-46]], in [[1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicollier's first spaceflight was as a Mission Specialist on the 8-day [[Space Shuttle|SpaceShuttle]] mission aboard [[Atlantis|Space_Shuttle_Atlantis]], called [[STS-46|STS-46]], in 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-4,Nicollier/NNP-1)
+				amod(spaceflight/NN-4,first/JJ-3)
+				nsubjpass(called/VBN-19,spaceflight/NN-4)
+				auxpass(called/VBN-19,was/VBD-5)
+				det(Specialist/NN-9,a/DT-7)
+				nn(Specialist/NN-9,Mission/NNP-8)
+				prep_as(called/VBN-19,Specialist/NN-9)
+				det(mission/NN-15,the/DT-11)
+				amod(mission/NN-15,8-day/JJ-12)
+				nn(mission/NN-15,Space/NN-13)
+				nn(mission/NN-15,Shuttle/NNP-14)
+				prep_on(called/VBN-19,mission/NN-15)
+				prep_aboard(mission/NN-15,Atlantis/NNP-17)
+				dobj(called/VBN-19,STS-46/NN-20)
+				prep_in(called/VBN-19,1992/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/14826_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-46</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-46</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle_Atlantis http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SpaceShuttle
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-46
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew deployed the European Retrievable Carrier EURECA, as well as the Tethered Satellite System-1, which was a joint NASA and Italian Space Agency project.	</value>
+
+		<annotated-sentence>	The crew deployed the [[European Retrievable Carrier|European_Retrievable_Carrier]] [[EURECA|European_Retrievable_Carrier]], as well as the Tethered [[Satellite|Satellite]] [[System-1|Tulip_System-1]], which was a joint [[NASA|NASA]] and [[Italian Space Agency|Italian_Space_Agency]] [[project|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew deployed the European Retrievable Carrier EURECA, as well as the Tethered Satellite System-1, which was a joint NASA and Italian Space Agency project.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(deployed/VBD-3,crew/NN-2)
+				det(EURECA/NN-8,the/DT-4)
+				amod(EURECA/NN-8,European/JJ-5)
+				nn(EURECA/NN-8,Retrievable/NN-6)
+				nn(EURECA/NN-8,Carrier/NN-7)
+				dobj(deployed/VBD-3,EURECA/NN-8)
+				det(System-1/NNP-16,the/DT-13)
+				nn(System-1/NNP-16,Tethered/NNP-14)
+				nn(System-1/NNP-16,Satellite/NNP-15)
+				dobj(deployed/VBD-3,System-1/NNP-16)
+				conj_and(EURECA/NN-8,System-1/NNP-16)
+				nsubj(NASA/NNP-22,which/WDT-18)
+				cop(NASA/NNP-22,was/VBD-19)
+				det(NASA/NNP-22,a/DT-20)
+				amod(NASA/NNP-22,joint/JJ-21)
+				dobj(deployed/VBD-3,NASA/NNP-22)
+				conj_and(EURECA/NN-8,NASA/NNP-22)
+				amod(project/NN-27,Italian/JJ-24)
+				nn(project/NN-27,Space/NN-25)
+				nn(project/NN-27,Agency/NNP-26)
+				conj_and(EURECA/NN-8,project/NN-27)
+				conj_and(NASA/NNP-22,project/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>European Retrievable Carrier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Retrievable_Carrier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EURECA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Retrievable_Carrier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>System-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tulip_System-1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Italian Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His second spaceflight was as a Mission Specialist on the 10-day mission aboard Endeavour, called STS-61 in 1993.	</value>
+
+		<annotated-sentence>	His second [[spaceflight|Spaceflight]] was as [[a Mission Specialist|Mission_Specialist]] on the 10-day [[mission|Mission_Specialist]] aboard [[Endeavour|Endeavour]], called [[STS-61|STS-61]] in [[1993|1993]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His second spaceflight was as a Mission Specialist on the 10-day mission aboard Endeavour, called [[STS-61|STS-61]] in 1993.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,His/PRP$-1)
+				amod(spaceflight/NN-3,second/JJ-2)
+				nsubj(was/VBD-4,spaceflight/NN-3)
+				ccomp(called/VBD-16,was/VBD-4)
+				det(Specialist/NN-8,a/DT-6)
+				nn(Specialist/NN-8,Mission/NNP-7)
+				prep_as(was/VBD-4,Specialist/NN-8)
+				det(mission/NN-12,the/DT-10)
+				amod(mission/NN-12,10-day/JJ-11)
+				prep_on(was/VBD-4,mission/NN-12)
+				prep_aboard(mission/NN-12,Endeavour/NNP-14)
+				nsubj(called/VBD-16,STS-61/NN-17)
+				prep_in(STS-61/NN-17,1993/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was the first mission to service the Hubble Space Telescope, which had been launched three years previously.	</value>
+
+		<annotated-sentence>	It was the first mission to service [[the Hubble Space Telescope|Hubble_Space_Telescope]], which had been launched [[three years|3_Years,_5_Months_&_2_Days_in_the_Life_Of...]] previously.	</annotated-sentence>
+
+		<pattern_crowdsource>	It was the first mission to service the Hubble Space Telescope, which had been launched three years previously.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-5,It/PRP-1)
+				cop(mission/NN-5,was/VBD-2)
+				det(mission/NN-5,the/DT-3)
+				amod(mission/NN-5,first/JJ-4)
+				aux(service/VB-7,to/TO-6)
+				infmod(mission/NN-5,service/VB-7)
+				det(Telescope/NNP-11,the/DT-8)
+				nn(Telescope/NNP-11,Hubble/NNP-9)
+				nn(Telescope/NNP-11,Space/NNP-10)
+				dobj(service/VB-7,Telescope/NNP-11)
+				nsubjpass(launched/VBN-16,which/WDT-13)
+				aux(launched/VBN-16,had/VBD-14)
+				auxpass(launched/VBN-16,been/VBN-15)
+				rcmod(Telescope/NNP-11,launched/VBN-16)
+				num(years/NNS-18,three/CD-17)
+				tmod(launched/VBN-16,years/NNS-18)
+				advmod(years/NNS-18,previously/RB-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>three years</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3_Years,_5_Months_&_2_Days_in_the_Life_Of...</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1996 he took part in STS-75, aboard Space Shuttle Columbia, which deployed TSS-1R, which was a follow up mission to TSS-1 which had been deployed during STS-46.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(took/VBD-4,1996/CD-2)
+				nsubj(took/VBD-4,he/PRP-3)
+				dobj(took/VBD-4,part/NN-5)
+				prep_in(took/VBD-4,STS-75/NN-7)
+				nn(Columbia/NNP-12,Space/NN-10)
+				nn(Columbia/NNP-12,Shuttle/NNP-11)
+				prep_aboard(took/VBD-4,Columbia/NNP-12)
+				nsubj(deployed/VBD-15,which/WDT-14)
+				rcmod(Columbia/NNP-12,deployed/VBD-15)
+				dobj(deployed/VBD-15,TSS-1R/NN-16)
+				nsubj(was/VBD-19,which/WDT-18)
+				rcmod(TSS-1R/NN-16,was/VBD-19)
+				nsubj(follow/VB-21,a/DT-20)
+				ccomp(was/VBD-19,follow/VB-21)
+				prt(follow/VB-21,up/RP-22)
+				dobj(follow/VB-21,mission/NN-23)
+				prep_to(mission/NN-23,TSS-1/NN-25)
+				nsubjpass(deployed/VBN-29,which/WDT-26)
+				aux(deployed/VBN-29,had/VBD-27)
+				auxpass(deployed/VBN-29,been/VBN-28)
+				rcmod(mission/NN-23,deployed/VBN-29)
+				prep_during(deployed/VBN-29,STS-46/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His final spaceflight was an 8-day mission aboard Space Shuttle Discovery, called STS-103 in 1999.	</value>
+
+		<annotated-sentence>	His final [[spaceflight|Spaceflight]] was an 8-day mission aboard [[Space Shuttle Discovery|Space_Shuttle_Discovery]], called [[STS-103|STS-103]] in [[1999|1999]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His final spaceflight was an 8-day mission aboard Space Shuttle Discovery, called [[STS-103|STS-103]] in 1999.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,His/PRP$-1)
+				amod(spaceflight/NN-3,final/JJ-2)
+				nsubj(mission/NN-7,spaceflight/NN-3)
+				cop(mission/NN-7,was/VBD-4)
+				det(mission/NN-7,an/DT-5)
+				amod(mission/NN-7,8-day/JJ-6)
+				ccomp(called/VBD-13,mission/NN-7)
+				nn(Discovery/NNP-11,Space/NN-9)
+				nn(Discovery/NNP-11,Shuttle/NNP-10)
+				prep_aboard(mission/NN-7,Discovery/NNP-11)
+				nsubj(called/VBD-13,STS-103/NN-14)
+				prep_in(STS-103/NN-14,1999/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-103</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-103</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claude_Nicollier http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-103
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-103 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Claude_Nicollier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was the third servicing mission to the Hubble Space Telescope.	</value>
+
+		<annotated-sentence>	It was the third [[servicing|Service_(motor_vehicle)]] mission to [[the Hubble Space Telescope|Hubble_Space_Telescope]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was the third servicing mission to the Hubble Space Telescope.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-6,It/PRP-1)
+				cop(mission/NN-6,was/VBD-2)
+				det(mission/NN-6,the/DT-3)
+				amod(mission/NN-6,third/JJ-4)
+				nn(mission/NN-6,servicing/NN-5)
+				det(Telescope/NNP-11,the/DT-8)
+				nn(Telescope/NNP-11,Hubble/NNP-9)
+				nn(Telescope/NNP-11,Space/NNP-10)
+				prep_to(mission/NN-6,Telescope/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>servicing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_(motor_vehicle)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this mission Nicollier participated in an 8 hour spacewalk; it was his first, and the first of any ESA astronaut during a Space Shuttle mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,this/DT-2)
+				prep_during(participated/VBD-5,mission/NN-3)
+				nsubj(participated/VBD-5,Nicollier/NN-4)
+				det(spacewalk/NN-10,an/DT-7)
+				num(spacewalk/NN-10,8/CD-8)
+				nn(spacewalk/NN-10,hour/NN-9)
+				prep_in(participated/VBD-5,spacewalk/NN-10)
+				nsubj(first/JJ-15,it/PRP-12)
+				cop(first/JJ-15,was/VBD-13)
+				poss(first/JJ-15,his/PRP$-14)
+				parataxis(participated/VBD-5,first/JJ-15)
+				det(mission/NN-28,the/DT-18)
+				amod(mission/NN-28,first/JJ-19)
+				det(astronaut/NN-23,any/DT-21)
+				nn(astronaut/NN-23,ESA/NN-22)
+				prep_of(first/JJ-19,astronaut/NN-23)
+				det(Space/NN-26,a/DT-25)
+				prep_during(astronaut/NN-23,Space/NN-26)
+				nn(mission/NN-28,Shuttle/NNP-27)
+				parataxis(participated/VBD-5,mission/NN-28)
+				conj_and(first/JJ-15,mission/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicollier has received several awards and honors: He is widowed (Susana Perez of Monterrey, Mexico died December 2007).	</value>
+
+		<annotated-sentence>	[[Nicollier|14826_Nicollier]] has received several [[awards|Award]] and honors: He is widowed ([[Susana|Suzanne_(VOF_de_Kunst_song)]] Perez of [[Monterrey , Mexico|Urban_water_management_in_Monterrey,_Mexico]]died [[December 2007|December_2007]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicollier has received several awards and honors: He is widowed (Susana Perez of Monterrey, Mexico died December 2007).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBN-3,Nicollier/NNP-1)
+				aux(received/VBN-3,has/VBZ-2)
+				amod(awards/NNS-5,several/JJ-4)
+				dobj(received/VBN-3,awards/NNS-5)
+				dobj(received/VBN-3,honors/NNS-7)
+				conj_and(awards/NNS-5,honors/NNS-7)
+				nsubjpass(widowed/VBN-11,He/PRP-9)
+				auxpass(widowed/VBN-11,is/VBZ-10)
+				parataxis(received/VBN-3,widowed/VBN-11)
+				nn(Perez/NNP-14,Susana/NNP-13)
+				nsubj(died/VBD-19,Perez/NNP-14)
+				nn(Mexico/NNP-18,Monterrey/NNP-16)
+				prep_of(Perez/NNP-14,Mexico/NNP-18)
+				dep(widowed/VBN-11,died/VBD-19)
+				tmod(died/VBD-19,December/NNP-20)
+				num(December/NNP-20,2007/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/14826_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Susana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Suzanne_(VOF_de_Kunst_song)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Monterrey , Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Urban_water_management_in_Monterrey,_Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two daughters, Maya (born in 1974) and Marina (born in 1978).	</value>
+
+		<annotated-sentence>	[[They|They]] have [[two daughters|Daughter]], Maya (born in [[1974|Rudebox]]) and Marina (born in [[1978|Tsubasa_Otomiya]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two daughters, Maya (born in 1974) and Marina (born in 1978).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(daughters/NNS-4,two/CD-3)
+				dobj(have/VBP-2,daughters/NNS-4)
+				appos(daughters/NNS-4,Maya/JJ-6)
+				dep(daughters/NNS-4,born/VBN-8)
+				prep_in(born/VBN-8,1974/CD-10)
+				dobj(have/VBP-2,Marina/NNP-13)
+				conj_and(daughters/NNS-4,Marina/NNP-13)
+				dep(Marina/NNP-13,born/VBN-15)
+				prep_in(born/VBN-15,1978/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two daughters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article is originally based on Claude Nicollier's bibliography from NASA, which is in the public domain.	</value>
+
+		<annotated-sentence>	This article is originally based on [[Claude Nicollier|Claude_Nicollier]]'s [[bibliography|Climbing]] from [[NASA|NASA]], which is in [[the public domain|Public_domain]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This article is originally based on Claude Nicollier's bibliography from NASA, which is in the public domain.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubjpass(based/VBN-5,article/NN-2)
+				auxpass(based/VBN-5,is/VBZ-3)
+				advmod(based/VBN-5,originally/RB-4)
+				nn(Nicollier/NNP-8,Claude/NNP-7)
+				poss(bibliography/NN-10,Nicollier/NNP-8)
+				prep_on(based/VBN-5,bibliography/NN-10)
+				prep_from(based/VBN-5,NASA/NNP-12)
+				nsubj(is/VBZ-15,which/WDT-14)
+				rcmod(NASA/NNP-12,is/VBZ-15)
+				det(domain/NN-19,the/DT-17)
+				amod(domain/NN-19,public/JJ-18)
+				prep_in(is/VBZ-15,domain/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Claude Nicollier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claude_Nicollier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bibliography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Climbing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

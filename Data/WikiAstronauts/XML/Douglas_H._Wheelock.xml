@@ -1,0 +1,4236 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Douglas Harry "Wheels" Wheelock (born May 5, 1960) is an American astronaut.	</value>
+
+		<annotated-sentence>	Douglas Harry "Wheels" Wheelock (born May 5, 1960) is [[an American astronaut|The_American_Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Douglas Harry "Wheels" Wheelock (born May 5, 1960) is an American astronaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Wheelock/NNP-6,Douglas/NNP-1)
+				nn(Wheelock/NNP-6,Harry/NNP-2)
+				nn(Wheelock/NNP-6,Wheels/NNP-4)
+				nsubj(astronaut/NN-17,Wheelock/NNP-6)
+				dep(Wheelock/NNP-6,born/VBN-8)
+				tmod(born/VBN-8,May/NNP-9)
+				num(May/NNP-9,5/CD-10)
+				num(May/NNP-9,1960/CD-12)
+				cop(astronaut/NN-17,is/VBZ-14)
+				det(astronaut/NN-17,an/DT-15)
+				amod(astronaut/NN-17,American/JJ-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has flown in space twice, logging 178 days on the Space Shuttle, International Space Station, and Russian Soyuz.	</value>
+
+		<annotated-sentence>	He has flown in [[space|Space]] twice, logging 178 days on [[the Space Shuttle|SpaceShuttle]], [[International Space Station|International_Space_Station]], and [[Russian|Russia]] [[Soyuz|Soyuz_(rocket_family)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has flown in space twice, logging 178 days on the Space Shuttle, International Space Station, and Russian Soyuz.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,He/PRP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				prep_in(flown/VBN-3,space/NN-5)
+				advmod(space/NN-5,twice/RB-6)
+				appos(space/NN-5,logging/VBG-8)
+				num(days/NNS-10,178/CD-9)
+				npadvmod(logging/VBG-8,days/NNS-10)
+				det(Shuttle/NNP-14,the/DT-12)
+				nn(Shuttle/NNP-14,Space/NN-13)
+				prep_on(logging/VBG-8,Shuttle/NNP-14)
+				nn(Station/NNP-18,International/NNP-16)
+				nn(Station/NNP-18,Space/NNP-17)
+				prep_on(logging/VBG-8,Station/NNP-18)
+				conj_and(Shuttle/NNP-14,Station/NNP-18)
+				amod(Soyuz/NNP-22,Russian/JJ-21)
+				prep_on(logging/VBG-8,Soyuz/NNP-22)
+				conj_and(Shuttle/NNP-14,Soyuz/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_(rocket_family)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 12, 2011, Wheelock announced that he would be returning to duty with the active United States Army in support of Operation Enduring Freedom.	</value>
+
+		<annotated-sentence>	On [[July|July]] 12, 2011, Wheelock announced that he would be returning to [[duty|Duty]] with the active [[United States Army|United_States_Army]] in support of [[Operation Enduring Freedom|Operation_Enduring_Freedom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On July 12, 2011, Wheelock announced that he would be returning to duty with the active [[United States Army|United_States_Army]] in support of [[Operation Enduring Freedom|Operation_Enduring_Freedom]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(announced/VBD-8,July/NNP-2)
+				num(July/NNP-2,12/CD-3)
+				num(July/NNP-2,2011/CD-5)
+				nsubj(announced/VBD-8,Wheelock/NNP-7)
+				mark(returning/VBG-13,that/IN-9)
+				nsubj(returning/VBG-13,he/PRP-10)
+				aux(returning/VBG-13,would/MD-11)
+				aux(returning/VBG-13,be/VB-12)
+				ccomp(announced/VBD-8,returning/VBG-13)
+				prep_to(returning/VBG-13,duty/NN-15)
+				det(Army/NNP-21,the/DT-17)
+				amod(Army/NNP-21,active/JJ-18)
+				nn(Army/NNP-21,United/NNP-19)
+				nn(Army/NNP-21,States/NNPS-20)
+				prep_with(returning/VBG-13,Army/NNP-21)
+				prep_in(Army/NNP-21,support/NN-23)
+				nn(Freedom/NNP-27,Operation/NNP-25)
+				nn(Freedom/NNP-27,Enduring/NNP-26)
+				prep_of(support/NN-23,Freedom/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation Enduring Freedom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Enduring_Freedom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_Army http://dbpedia.org/ontology/battle http://dbpedia.org/resource/Operation_Enduring_Freedom
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Douglas Wheelock was born in Binghamton, New York to Olin and Margaret Wheelock.	</value>
+
+		<annotated-sentence>	[[Douglas Wheelock|Douglas_H._Wheelock]] was born in [[Binghamton|Binghamton,_New_York]], [[New York|New_York]] to Olin and Margaret [[Wheelock|Douglas_H._Wheelock]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Douglas [[Wheelock|Douglas_H._Wheelock]]|Douglas_H._Wheelock]] was born in [[Binghamton|Binghamton,_New_York]], [[New York|New_York]] to Olin and Margaret [[Wheelock|Douglas_H._Wheelock]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Wheelock/NNP-2,Douglas/NNP-1)
+				nsubjpass(born/VBN-4,Wheelock/NNP-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				prep_in(born/VBN-4,Binghamton/NNP-6)
+				nn(York/NNP-9,New/NNP-8)
+				appos(Binghamton/NNP-6,York/NNP-9)
+				nn(Wheelock/NNP-14,Olin/NNP-11)
+				conj_and(Olin/NNP-11,Margaret/NNP-13)
+				nn(Wheelock/NNP-14,Margaret/NNP-13)
+				prep_to(born/VBN-4,Wheelock/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Douglas Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Binghamton</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Binghamton,_New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/property/birthPlace http://dbpedia.org/resource/Binghamton,_New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Binghamton,_New_York http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In a pre-flight interview, Wheelock stated that he was inspired to become an astronaut at an early age.	</value>
+
+		<annotated-sentence>	In a pre-flight [[interview|Interview]], [[Wheelock|Douglas_H._Wheelock]] stated that he was inspired to become [[an astronaut|Astronaut]] at an early age.	</annotated-sentence>
+
+		<pattern_crowdsource>	In a pre-flight interview, [[Wheelock|Douglas_H._Wheelock]] stated that he was inspired to become [[an astronaut|Astronaut]] at an early age.	</pattern_crowdsource>
+
+
+		<tree>
+				det(interview/NN-4,a/DT-2)
+				amod(interview/NN-4,pre-flight/JJ-3)
+				prep_in(stated/VBD-7,interview/NN-4)
+				nsubj(stated/VBD-7,Wheelock/NNP-6)
+				mark(inspired/VBN-11,that/IN-8)
+				nsubjpass(inspired/VBN-11,he/PRP-9)
+				auxpass(inspired/VBN-11,was/VBD-10)
+				ccomp(stated/VBD-7,inspired/VBN-11)
+				aux(astronaut/NN-15,to/TO-12)
+				cop(astronaut/NN-15,become/VB-13)
+				det(astronaut/NN-15,an/DT-14)
+				xcomp(inspired/VBN-11,astronaut/NN-15)
+				det(age/NN-19,an/DT-17)
+				amod(age/NN-19,early/JJ-18)
+				prep_at(astronaut/NN-15,age/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interview</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interview</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also stated that a major turning point in his life was the Apollo 11 moon landing in July 1969.	</value>
+
+		<annotated-sentence>	He also stated that a major turning point in his life was the [[Apollo 11|Apollo_11]] [[moon landing|Moon_landing]] in [[July|July]] [[1969|1969]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also stated that a major turning point in his life was the Apollo 11 moon landing in July 1969.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(stated/VBD-3,He/PRP-1)
+				advmod(stated/VBD-3,also/RB-2)
+				mark(landing/NN-17,that/IN-4)
+				det(point/NN-8,a/DT-5)
+				amod(point/NN-8,major/JJ-6)
+				nn(point/NN-8,turning/NN-7)
+				nsubj(landing/NN-17,point/NN-8)
+				poss(life/NN-11,his/PRP$-10)
+				prep_in(point/NN-8,life/NN-11)
+				cop(landing/NN-17,was/VBD-12)
+				det(landing/NN-17,the/DT-13)
+				nn(landing/NN-17,Apollo/NNP-14)
+				num(landing/NN-17,11/CD-15)
+				nn(landing/NN-17,moon/NN-16)
+				ccomp(stated/VBD-3,landing/NN-17)
+				prep_in(landing/NN-17,July/NNP-19)
+				num(July/NNP-19,1969/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>moon landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1978 Wheelock graduated from Windsor Central High School in Windsor, New York before attending the United States Military Academy at West Point.	</value>
+
+		<annotated-sentence>	In [[1978|Tsubasa_Otomiya]] Wheelock graduated from Windsor Central High School in Windsor, [[New York|New_York]] before attending the United States Military Academy at West Point.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1978 Wheelock graduated from Windsor Central High School in Windsor, [[New York|New_York]] before attending the United States Military Academy at West Point.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-4,1978/CD-2)
+				nsubj(graduated/VBD-4,Wheelock/NNP-3)
+				nn(School/NNP-9,Windsor/NNP-6)
+				nn(School/NNP-9,Central/NNP-7)
+				nn(School/NNP-9,High/NNP-8)
+				prep_from(graduated/VBD-4,School/NNP-9)
+				nn(York/NNP-14,Windsor/NNP-11)
+				appos(York/NNP-14,New/NNP-13)
+				prep_in(School/NNP-9,York/NNP-14)
+				prepc_before(graduated/VBD-4,attending/VBG-16)
+				det(Academy/NNP-21,the/DT-17)
+				nn(Academy/NNP-21,United/NNP-18)
+				nn(Academy/NNP-21,States/NNPS-19)
+				nn(Academy/NNP-21,Military/NNP-20)
+				dobj(attending/VBG-16,Academy/NNP-21)
+				nn(Point/NNP-24,West/NNP-23)
+				prep_at(Academy/NNP-21,Point/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock spent four years as a cadet at West Point, graduating in the class of 1983 with a Bachelor of Science degree in Applied Science and Engineering.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,Wheelock/NNP-1)
+				num(years/NNS-4,four/CD-3)
+				tmod(spent/VBD-2,years/NNS-4)
+				det(cadet/NN-7,a/DT-6)
+				prep_as(spent/VBD-2,cadet/NN-7)
+				nn(Point/NNP-10,West/NNP-9)
+				prep_at(spent/VBD-2,Point/NNP-10)
+				partmod(spent/VBD-2,graduating/VBG-12)
+				det(class/NN-15,the/DT-14)
+				prep_in(graduating/VBG-12,class/NN-15)
+				prep_of(class/NN-15,1983/CD-17)
+				det(Bachelor/NN-20,a/DT-19)
+				prep_with(graduating/VBG-12,Bachelor/NN-20)
+				nn(degree/NN-23,Science/NNP-22)
+				prep_of(Bachelor/NN-20,degree/NN-23)
+				nn(Science/NNP-26,Applied/NNP-25)
+				prep_in(graduating/VBG-12,Science/NNP-26)
+				prep_in(graduating/VBG-12,Engineering/NNP-28)
+				conj_and(Science/NNP-26,Engineering/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation he was commissioned a Second Lieutenant in the U.S. Army's Infantry Branch and entered flight school the next year.	</value>
+
+		<annotated-sentence>	After [[graduation|Graduation_(album)]] he was commissioned a Second Lieutenant in the [[U.S.|United_States]] [[Army|United_States_Army_Air_Forces]]'s [[Infantry|Infantry]] Branch and entered flight school [[the next year|Year]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After [[graduation|Graduation_(album)]] he was commissioned a Second Lieutenant in the [[U.S.|United_States]] Army's Infantry Branch and entered flight school the next year.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(commissioned/VBN-5,graduation/NN-2)
+				nsubjpass(commissioned/VBN-5,he/PRP-3)
+				nsubjpass(entered/VBD-17,he/PRP-3)
+				auxpass(commissioned/VBN-5,was/VBD-4)
+				det(Lieutenant/NN-8,a/DT-6)
+				amod(Lieutenant/NN-8,Second/JJ-7)
+				dobj(commissioned/VBN-5,Lieutenant/NN-8)
+				det(Army/NNP-12,the/DT-10)
+				nn(Army/NNP-12,U.S./NNP-11)
+				poss(Branch/NNP-15,Army/NNP-12)
+				nn(Branch/NNP-15,Infantry/NNP-14)
+				prep_in(Lieutenant/NN-8,Branch/NNP-15)
+				conj_and(commissioned/VBN-5,entered/VBD-17)
+				nn(school/NN-19,flight/NN-18)
+				dobj(entered/VBD-17,school/NN-19)
+				det(year/NN-22,the/DT-20)
+				amod(year/NN-22,next/JJ-21)
+				tmod(entered/VBD-17,year/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Air_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Infantry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infantry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the next year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Graduation_(album) http://dbpedia.org/property/title http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 1984, then Lieutenant Wheelock graduated at the top of his flight class and was designated an Army Aviator.	</value>
+
+		<annotated-sentence>	In [[September 1984|1984]], then [[Lieutenant|Lieutenant]] [[Wheelock|Simeon_Wheelock]] graduated at the top of his [[flight|Flight]] class and was designated [[an Army Aviator|Army_aviation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 1984, then [[Lieutenant|Lieutenant]] [[Wheelock|Simeon_Wheelock]] graduated at the top of his flight class and was designated an Army Aviator.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-8,September/NNP-2)
+				num(September/NNP-2,1984/CD-3)
+				advmod(graduated/VBD-8,then/RB-5)
+				nn(Wheelock/NNP-7,Lieutenant/NNP-6)
+				nsubj(graduated/VBD-8,Wheelock/NNP-7)
+				nsubjpass(designated/VBN-18,Wheelock/NNP-7)
+				det(top/NN-11,the/DT-10)
+				prep_at(graduated/VBD-8,top/NN-11)
+				poss(class/NN-15,his/PRP$-13)
+				nn(class/NN-15,flight/NN-14)
+				prep_of(top/NN-11,class/NN-15)
+				auxpass(designated/VBN-18,was/VBD-17)
+				conj_and(graduated/VBD-8,designated/VBN-18)
+				det(Aviator/NNP-21,an/DT-19)
+				nn(Aviator/NNP-21,Army/NNP-20)
+				dobj(designated/VBN-18,Aviator/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lieutenant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lieutenant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Simeon_Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an Army Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army_aviation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Simeon_Wheelock http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Lieutenant
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He subsequently served in the Pacific as a combat aviation Section Leader, Platoon Leader, Company Executive Officer, Battalion Operations Officer, and Commander of an Air Cavalry Troop in the 9th Cavalry.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,subsequently/RB-2)
+				det(Pacific/NNP-6,the/DT-5)
+				prep_in(served/VBD-3,Pacific/NNP-6)
+				det(Section/NN-11,a/DT-8)
+				nn(Section/NN-11,combat/NN-9)
+				nn(Section/NN-11,aviation/NN-10)
+				prep_as(served/VBD-3,Section/NN-11)
+				dobj(served/VBD-3,Leader/NNP-12)
+				nn(Leader/NNP-15,Platoon/NNP-14)
+				dobj(served/VBD-3,Leader/NNP-15)
+				conj_and(Leader/NNP-12,Leader/NNP-15)
+				nn(Officer/NNP-19,Company/NNP-17)
+				nn(Officer/NNP-19,Executive/NNP-18)
+				dobj(served/VBD-3,Officer/NNP-19)
+				conj_and(Leader/NNP-12,Officer/NNP-19)
+				nn(Officer/NNP-23,Battalion/NNP-21)
+				nn(Officer/NNP-23,Operations/NNP-22)
+				dobj(served/VBD-3,Officer/NNP-23)
+				conj_and(Leader/NNP-12,Officer/NNP-23)
+				dobj(served/VBD-3,Commander/NNP-26)
+				conj_and(Leader/NNP-12,Commander/NNP-26)
+				det(Troop/NN-31,an/DT-28)
+				nn(Troop/NN-31,Air/NNP-29)
+				nn(Troop/NN-31,Cavalry/NNP-30)
+				prep_of(Commander/NNP-26,Troop/NN-31)
+				det(Cavalry/NNP-35,the/DT-33)
+				amod(Cavalry/NNP-35,9th/JJ-34)
+				prep_in(Troop/NN-31,Cavalry/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was later assigned to the Aviation Directorate of Combat Developments as an Advanced Weapons Research and Development Engineer.	</value>
+
+		<annotated-sentence>	He was later assigned to the [[Aviation|Aviation]] Directorate of Combat Developments as an [[Advanced|Relative_articulation]] Weapons [[Research|Research]] and Development [[Engineer|Engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was later assigned to the Aviation Directorate of Combat Developments as an Advanced Weapons Research and Development Engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,later/RB-3)
+				det(Directorate/NNP-8,the/DT-6)
+				nn(Directorate/NNP-8,Aviation/NNP-7)
+				prep_to(assigned/VBN-4,Directorate/NNP-8)
+				nn(Developments/NNP-11,Combat/NNP-10)
+				prep_of(Directorate/NNP-8,Developments/NNP-11)
+				det(Research/NNP-16,an/DT-13)
+				nn(Research/NNP-16,Advanced/NNP-14)
+				nn(Research/NNP-16,Weapons/NNP-15)
+				prep_as(Developments/NNP-11,Research/NNP-16)
+				nn(Engineer/NNP-19,Development/NNP-18)
+				prep_as(Developments/NNP-11,Engineer/NNP-19)
+				conj_and(Research/NNP-16,Engineer/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock was selected as a member of Class 104 at the U.S. Naval Test Pilot School and upon completion was assigned as an Experimental Test Pilot with the Army Aviation Technical Test Center (ATTC).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Wheelock/NNP-1)
+				nsubjpass(selected/VBN-3,Wheelock/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				conj_and(selected/VBN-3,selected/VBN-3)
+				dep(assigned/VBN-21,selected/VBN-3)
+				dep(assigned/VBN-21,selected/VBN-3)
+				det(member/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,member/NN-6)
+				prep_of(member/NN-6,Class/NNP-8)
+				num(Class/NNP-8,104/CD-9)
+				det(School/NNP-16,the/DT-11)
+				nn(School/NNP-16,U.S./NNP-12)
+				nn(School/NNP-16,Naval/NNP-13)
+				nn(School/NNP-16,Test/NNP-14)
+				nn(School/NNP-16,Pilot/NN-15)
+				prep_at(selected/VBN-3,School/NNP-16)
+				prep_upon(selected/VBN-3,completion/NN-19)
+				auxpass(assigned/VBN-21,was/VBD-20)
+				det(Pilot/NN-26,an/DT-23)
+				amod(Pilot/NN-26,Experimental/JJ-24)
+				nn(Pilot/NN-26,Test/NN-25)
+				prep_as(assigned/VBN-21,Pilot/NN-26)
+				det(Technical/NNP-31,the/DT-28)
+				nn(Technical/NNP-31,Army/NNP-29)
+				nn(Technical/NNP-31,Aviation/NNP-30)
+				prep_with(Pilot/NN-26,Technical/NNP-31)
+				nn(Center/NNP-33,Test/NNP-32)
+				nsubjpass(assigned/VBN-21,Center/NNP-33)
+				appos(Center/NNP-33,ATTC/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His flight testing was focused in the areas of tactical reconnaissance and surveillance systems in the OH-58D, UH-60, RU-21 and C-23 aircraft.	</value>
+
+		<annotated-sentence>	His [[flight testing|Flight_test]] was focused in [[the areas|Area]] of [[tactical reconnaissance|Aerial_reconnaissance]] and [[surveillance systems|Surveillance_systems]] in [[the OH-58D|Bell_OH-58_Kiowa]], UH-60, RU-21 and C-23 [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His flight testing was focused in the areas of tactical reconnaissance and surveillance systems in [[the OH-58D|Bell_OH-58_Kiowa]], UH-60, RU-21 and C-23 [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(testing/NN-3,His/PRP$-1)
+				nn(testing/NN-3,flight/NN-2)
+				nsubjpass(focused/VBN-5,testing/NN-3)
+				auxpass(focused/VBN-5,was/VBD-4)
+				det(areas/NNS-8,the/DT-7)
+				prep_in(focused/VBN-5,areas/NNS-8)
+				amod(reconnaissance/NN-11,tactical/JJ-10)
+				prep_of(areas/NNS-8,reconnaissance/NN-11)
+				nn(systems/NNS-14,surveillance/NN-13)
+				prep_of(areas/NNS-8,systems/NNS-14)
+				conj_and(reconnaissance/NN-11,systems/NNS-14)
+				det(OH-58D/NN-17,the/DT-16)
+				prep_in(focused/VBN-5,OH-58D/NN-17)
+				nn(aircraft/NN-24,UH-60/NN-19)
+				conj_and(UH-60/NN-19,RU-21/NN-21)
+				nn(aircraft/NN-24,RU-21/NN-21)
+				conj_and(UH-60/NN-19,C-23/NN-23)
+				nn(aircraft/NN-24,C-23/NN-23)
+				appos(OH-58D/NN-17,aircraft/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight testing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the areas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tactical reconnaissance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerial_reconnaissance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>surveillance systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Surveillance_systems</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the OH-58D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bell_OH-58_Kiowa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bell_OH-58_Kiowa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Division Chief for fixed-wing testing of airborne signal and imagery intelligence systems in support of the National Program Office for Intelligence and Electronic Warfare.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nn(Chief/NNP-5,Division/NNP-4)
+				prep_as(served/VBD-2,Chief/NNP-5)
+				amod(testing/NN-8,fixed-wing/JJ-7)
+				prep_for(Chief/NNP-5,testing/NN-8)
+				amod(signal/NN-11,airborne/JJ-10)
+				prep_of(testing/NN-8,signal/NN-11)
+				nn(systems/NNS-15,imagery/NN-13)
+				nn(systems/NNS-15,intelligence/NN-14)
+				prep_of(testing/NN-8,systems/NNS-15)
+				conj_and(signal/NN-11,systems/NNS-15)
+				prep_in(served/VBD-2,support/NN-17)
+				det(Office/NNP-22,the/DT-19)
+				nn(Office/NNP-22,National/NNP-20)
+				nn(Office/NNP-22,Program/NNP-21)
+				prep_of(support/NN-17,Office/NNP-22)
+				nn(Warfare/NNP-27,Intelligence/NNP-24)
+				conj_and(Intelligence/NNP-24,Electronic/NNP-26)
+				nn(Warfare/NNP-27,Electronic/NNP-26)
+				prep_for(Office/NNP-22,Warfare/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While on active duty, Wheelock received a Master of Science degree in Aerospace Engineering from Georgia Tech in 1992.	</value>
+
+		<annotated-sentence>	While on [[active duty|Active_duty]], Wheelock received [[a Master of Science degree|Master%27s_degree]] in [[Aerospace Engineering|Aerospace_engineering]] from Georgia Tech in [[1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While on active duty, Wheelock received a Master of Science degree in Aerospace Engineering from Georgia Tech in 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(on/IN-2,While/IN-1)
+				advcl(received/VBD-7,on/IN-2)
+				amod(duty/NN-4,active/JJ-3)
+				pobj(on/IN-2,duty/NN-4)
+				nsubj(received/VBD-7,Wheelock/NNP-6)
+				det(Master/NN-9,a/DT-8)
+				dobj(received/VBD-7,Master/NN-9)
+				nn(degree/NN-12,Science/NNP-11)
+				prep_of(Master/NN-9,degree/NN-12)
+				nn(Engineering/NNP-15,Aerospace/NNP-14)
+				prep_in(received/VBD-7,Engineering/NNP-15)
+				nn(Tech/NNP-18,Georgia/NNP-17)
+				prep_from(received/VBD-7,Tech/NNP-18)
+				prep_in(Tech/NNP-18,1992/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1996 Wheelock was assigned to the Johnson Space Center as a Space Shuttle integration test engineer.	</value>
+
+		<annotated-sentence>	In [[August 1996|1996]] Wheelock was assigned to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] as a [[Space Shuttle|SpaceShuttle]] [[integration test|Integration_testing]] engineer.	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1996 Wheelock was assigned to the Johnson Space Center as a Space Shuttle integration test engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,August/NNP-2)
+				num(August/NNP-2,1996/CD-3)
+				nsubjpass(assigned/VBN-6,Wheelock/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(Center/NNP-11,the/DT-8)
+				nn(Center/NNP-11,Johnson/NNP-9)
+				nn(Center/NNP-11,Space/NNP-10)
+				prep_to(assigned/VBN-6,Center/NNP-11)
+				det(engineer/NN-18,a/DT-13)
+				nn(engineer/NN-18,Space/NN-14)
+				nn(engineer/NN-18,Shuttle/NNP-15)
+				nn(engineer/NN-18,integration/NN-16)
+				nn(engineer/NN-18,test/NN-17)
+				prep_as(assigned/VBN-6,engineer/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>integration test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Integration_testing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical duties involved engineering liaison for launch and landing operations of the Space Shuttle.	</value>
+
+		<annotated-sentence>	His technical [[duties|Duty]] involved [[engineering|Engineering]] liaison for launch and landing operations of [[the Space Shuttle|SpaceShuttle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His technical duties involved engineering liaison for launch and landing operations of the Space Shuttle.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(duties/NNS-3,His/PRP$-1)
+				amod(duties/NNS-3,technical/JJ-2)
+				nsubj(involved/VBN-4,duties/NNS-3)
+				nn(liaison/NN-6,engineering/NN-5)
+				dobj(involved/VBN-4,liaison/NN-6)
+				nn(operations/NNS-11,launch/NN-8)
+				conj_and(launch/NN-8,landing/NN-10)
+				nn(operations/NNS-11,landing/NN-10)
+				prep_for(liaison/NN-6,operations/NNS-11)
+				det(Shuttle/NNP-15,the/DT-13)
+				nn(Shuttle/NNP-15,Space/NN-14)
+				prep_of(operations/NNS-11,Shuttle/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as the vehicle integration test team lead for the joint Space Shuttle and Russian Space Station Mir mission STS-86, and lead engineer for International Space Station hardware fit checks.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				nsubj(lead/VB-25,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(lead/NN-10,the/DT-5)
+				nn(lead/NN-10,vehicle/NN-6)
+				nn(lead/NN-10,integration/NN-7)
+				nn(lead/NN-10,test/NN-8)
+				nn(lead/NN-10,team/NN-9)
+				prep_as(selected/VBN-3,lead/NN-10)
+				det(Space/NN-14,the/DT-12)
+				amod(Space/NN-14,joint/JJ-13)
+				prep_for(lead/NN-10,Space/NN-14)
+				nn(STS-86/NN-22,Shuttle/NNP-15)
+				conj_and(Shuttle/NNP-15,Russian/NNP-17)
+				nn(STS-86/NN-22,Russian/NNP-17)
+				nn(STS-86/NN-22,Space/NNP-18)
+				nn(STS-86/NN-22,Station/NNP-19)
+				nn(STS-86/NN-22,Mir/NNS-20)
+				nn(STS-86/NN-22,mission/NN-21)
+				dobj(selected/VBN-3,STS-86/NN-22)
+				conj_and(selected/VBN-3,lead/VB-25)
+				dobj(lead/VB-25,engineer/NN-26)
+				nn(checks/NNS-33,International/NNP-28)
+				nn(checks/NNS-33,Space/NNP-29)
+				nn(checks/NNS-33,Station/NNP-30)
+				nn(checks/NNS-33,hardware/NN-31)
+				nn(checks/NNS-33,fit/NN-32)
+				prep_for(lead/VB-25,checks/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock is a graduate of the Army Airborne and Air Assault Courses, the Infantry and Aviation Officer Advanced Courses, the Combined Arms Services Staff School, the Material Acquisition Management Course, and the U.S. Army Command and General Staff College.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-4,Wheelock/NNP-1)
+				cop(graduate/NN-4,is/VBZ-2)
+				det(graduate/NN-4,a/DT-3)
+				det(Airborne/NNP-8,the/DT-6)
+				nn(Airborne/NNP-8,Army/NNP-7)
+				prep_of(graduate/NN-4,Airborne/NNP-8)
+				nn(Courses/NNP-12,Air/NNP-10)
+				nn(Courses/NNP-12,Assault/NNP-11)
+				prep_of(graduate/NN-4,Courses/NNP-12)
+				conj_and(Airborne/NNP-8,Courses/NNP-12)
+				det(Infantry/NNP-15,the/DT-14)
+				prep_of(graduate/NN-4,Infantry/NNP-15)
+				conj_and(Airborne/NNP-8,Infantry/NNP-15)
+				nn(Courses/NNP-20,Aviation/NNP-17)
+				nn(Courses/NNP-20,Officer/NNP-18)
+				nn(Courses/NNP-20,Advanced/NNP-19)
+				prep_of(graduate/NN-4,Courses/NNP-20)
+				conj_and(Airborne/NNP-8,Courses/NNP-20)
+				det(Arms/NNS-24,the/DT-22)
+				amod(Arms/NNS-24,Combined/JJ-23)
+				conj_and(graduate/NN-4,Arms/NNS-24)
+				nn(School/NNP-27,Services/NNPS-25)
+				nn(School/NNP-27,Staff/NNP-26)
+				dep(Arms/NNS-24,School/NNP-27)
+				det(Course/NNP-33,the/DT-29)
+				nn(Course/NNP-33,Material/NNP-30)
+				nn(Course/NNP-33,Acquisition/NNP-31)
+				nn(Course/NNP-33,Management/NNP-32)
+				appos(School/NNP-27,Course/NNP-33)
+				det(Command/NN-39,the/DT-36)
+				nn(Command/NN-39,U.S./NNP-37)
+				nn(Command/NN-39,Army/NNP-38)
+				conj_and(graduate/NN-4,Command/NN-39)
+				nn(College/NNP-43,General/NNP-41)
+				nn(College/NNP-43,Staff/NNP-42)
+				conj_and(graduate/NN-4,College/NNP-43)
+				conj_and(Command/NN-39,College/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 2011, Wheelock left for a tour of duty in support of Operation Enduring Freedom.	</value>
+
+		<annotated-sentence>	In [[July 2011|July_2011]], Wheelock left for [[a tour of duty|Tour_of_duty]] in support of [[Operation Enduring Freedom|Operation_Enduring_Freedom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In July 2011, Wheelock left for a tour of duty in support of Operation Enduring Freedom.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(left/VBD-6,July/NNP-2)
+				num(July/NNP-2,2011/CD-3)
+				nsubj(left/VBD-6,Wheelock/NNP-5)
+				det(tour/NN-9,a/DT-8)
+				prep_for(left/VBD-6,tour/NN-9)
+				prep_of(tour/NN-9,duty/NN-11)
+				prep_in(left/VBD-6,support/NN-13)
+				nn(Freedom/NNP-17,Operation/NNP-15)
+				nn(Freedom/NNP-17,Enduring/NNP-16)
+				prep_of(support/NN-13,Freedom/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2011</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a tour of duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tour_of_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation Enduring Freedom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Enduring_Freedom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is scheduled to return in fall 2011.	</value>
+
+		<annotated-sentence>	He is scheduled to return in fall [[2011|2011_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is scheduled to return in fall 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(scheduled/VBN-3,He/PRP-1)
+				auxpass(scheduled/VBN-3,is/VBZ-2)
+				aux(return/VB-5,to/TO-4)
+				xcomp(scheduled/VBN-3,return/VB-5)
+				prep_in(return/VB-5,fall/NN-7)
+				num(fall/NN-7,2011/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A dual-rated Master Army Aviator Astronaut, he has logged over 2,500 flight hours in 43 different rotary and fixed-wing aircraft.	</value>
+
+		<annotated-sentence>	A dual-rated Master [[Army Aviator|Army_aviation]] [[Astronaut|Astronaut]], he has logged over 2,500 [[flight|Flight]] [[hours|Hour]] in 43 different rotary and [[fixed-wing aircraft|Fixed-wing_aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A dual-rated Master Army Aviator [[Astronaut|Astronaut]], he has logged over 2,500 flight hours in 43 different rotary and fixed-wing aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Master/NN-3,A/DT-1)
+				amod(Master/NN-3,dual-rated/JJ-2)
+				tmod(logged/VBN-10,Master/NN-3)
+				nn(Astronaut/NNP-6,Army/NNP-4)
+				nn(Astronaut/NNP-6,Aviator/NNP-5)
+				dep(Master/NN-3,Astronaut/NNP-6)
+				nsubj(logged/VBN-10,he/PRP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				num(hours/NNS-14,2,500/CD-12)
+				nn(hours/NNS-14,flight/NN-13)
+				prep_over(logged/VBN-10,hours/NNS-14)
+				number(different/JJ-17,43/CD-16)
+				dep(rotary/JJ-18,different/JJ-17)
+				prep_in(hours/NNS-14,rotary/JJ-18)
+				amod(aircraft/NN-21,fixed-wing/JJ-20)
+				prep_in(hours/NNS-14,aircraft/NN-21)
+				conj_and(rotary/JJ-18,aircraft/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Army Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army_aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fixed-wing aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fixed-wing_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1998 Wheelock reported for NASA Astronaut Candidate Training.	</value>
+
+		<annotated-sentence>	In [[August 1998|1998]] [[Wheelock|Douglas_H._Wheelock]] reported for [[NASA|NASA]] [[Astronaut|Astronaut]] [[Candidate|Candidate]] [[Training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1998 [[Wheelock|Douglas_H._Wheelock]] reported for [[NASA|NASA]] [[Astronaut|Astronaut]] Candidate Training.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reported/VBD-5,August/NNP-2)
+				num(August/NNP-2,1998/CD-3)
+				nsubj(reported/VBD-5,Wheelock/NNP-4)
+				nn(Training/NN-10,NASA/NNP-7)
+				nn(Training/NN-10,Astronaut/NNP-8)
+				nn(Training/NN-10,Candidate/NNP-9)
+				prep_for(reported/VBD-5,Training/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Having completed the initial two years of intensive Space Shuttle and Space Station training, he was assigned to the Astronaut Office ISS Operations Branch as a Russian Liaison, participating in the testing and integration of Russian hardware and software products developed for the ISS.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				aux(completed/VBN-2,Having/VBG-1)
+				dep(developed/VBD-43,completed/VBN-2)
+				det(years/NNS-6,the/DT-3)
+				amod(years/NNS-6,initial/JJ-4)
+				num(years/NNS-6,two/CD-5)
+				dobj(completed/VBN-2,years/NNS-6)
+				amod(Space/NN-9,intensive/JJ-8)
+				prep_of(years/NNS-6,Space/NN-9)
+				nn(training/NN-14,Shuttle/NNP-10)
+				conj_and(Shuttle/NNP-10,Space/NNP-12)
+				nn(training/NN-14,Space/NNP-12)
+				nn(training/NN-14,Station/NNP-13)
+				dep(Space/NN-9,training/NN-14)
+				nsubjpass(assigned/VBN-18,he/PRP-16)
+				auxpass(assigned/VBN-18,was/VBD-17)
+				parataxis(developed/VBD-43,assigned/VBN-18)
+				det(Branch/NNP-25,the/DT-20)
+				nn(Branch/NNP-25,Astronaut/NNP-21)
+				nn(Branch/NNP-25,Office/NNP-22)
+				nn(Branch/NNP-25,ISS/NNP-23)
+				nn(Branch/NNP-25,Operations/NNP-24)
+				prep_to(assigned/VBN-18,Branch/NNP-25)
+				det(Liaison/NNP-29,a/DT-27)
+				amod(Liaison/NNP-29,Russian/JJ-28)
+				prep_as(assigned/VBN-18,Liaison/NNP-29)
+				nsubj(developed/VBD-43,participating/VBG-31)
+				det(testing/NN-34,the/DT-33)
+				prep_in(participating/VBG-31,testing/NN-34)
+				prep_in(participating/VBG-31,integration/NN-36)
+				conj_and(testing/NN-34,integration/NN-36)
+				nn(hardware/NN-39,Russian/NNP-38)
+				prep_of(testing/NN-34,hardware/NN-39)
+				nn(products/NNS-42,software/NN-41)
+				prep_of(testing/NN-34,products/NNS-42)
+				conj_and(hardware/NN-39,products/NNS-42)
+				det(ISS/NNP-46,the/DT-45)
+				prep_for(developed/VBD-43,ISS/NNP-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He worked extensively with the Energia Aerospace Company in Moscow, Russia, developing and verifying dual-language procedures for ISS crews.	</value>
+
+		<annotated-sentence>	He worked extensively with the [[Energia|Energia]] [[Aerospace Company|Aerospace_manufacturer]] in [[Moscow , Russia|Moscow]] developing and verifying dual-language procedures for [[ISS|S]] crews.	</annotated-sentence>
+
+		<pattern_crowdsource>	He worked extensively with the Energia Aerospace Company in Moscow, Russia, developing and verifying dual-language procedures for ISS crews.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,He/PRP-1)
+				advmod(worked/VBD-2,extensively/RB-3)
+				det(Company/NNP-8,the/DT-5)
+				nn(Company/NNP-8,Energia/NNP-6)
+				nn(Company/NNP-8,Aerospace/NNP-7)
+				prep_with(worked/VBD-2,Company/NNP-8)
+				nn(Russia/NNP-12,Moscow/NNP-10)
+				prep_in(Company/NNP-8,Russia/NNP-12)
+				xcomp(worked/VBD-2,developing/VBG-14)
+				xcomp(worked/VBD-2,verifying/VBG-16)
+				conj_and(developing/VBG-14,verifying/VBG-16)
+				amod(procedures/NNS-18,dual-language/JJ-17)
+				dobj(developing/VBG-14,procedures/NNS-18)
+				nn(crews/NNS-21,ISS/NN-20)
+				prep_for(developing/VBG-14,crews/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Energia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Energia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Company</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_manufacturer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moscow , Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock led joint U.S./Russian teams to the Baikonur Cosmodrome in Kazakhstan to oversee bench reviews, inventory, loading and launch of the first four unmanned ISS resupply capsules.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(led/VBD-2,Wheelock/NNP-1)
+				amod(U.S./NNP-4,joint/JJ-3)
+				nn(teams/NNS-7,U.S./NNP-4)
+				punct(U.S./NNP-4,//:-5)
+				amod(teams/NNS-7,Russian/JJ-6)
+				dobj(led/VBD-2,teams/NNS-7)
+				det(Cosmodrome/NNP-11,the/DT-9)
+				nn(Cosmodrome/NNP-11,Baikonur/NNP-10)
+				prep_to(teams/NNS-7,Cosmodrome/NNP-11)
+				prep_in(Cosmodrome/NNP-11,Kazakhstan/NNP-13)
+				aux(oversee/VB-15,to/TO-14)
+				infmod(teams/NNS-7,oversee/VB-15)
+				nn(reviews/NNS-17,bench/NN-16)
+				dobj(oversee/VB-15,reviews/NNS-17)
+				dobj(led/VBD-2,inventory/NN-19)
+				conj_and(teams/NNS-7,inventory/NN-19)
+				partmod(inventory/NN-19,loading/VBG-21)
+				dobj(led/VBD-2,launch/NN-23)
+				conj_and(teams/NNS-7,launch/NN-23)
+				det(ISS/NN-29,the/DT-25)
+				amod(ISS/NN-29,first/JJ-26)
+				num(ISS/NN-29,four/CD-27)
+				amod(ISS/NN-29,unmanned/JJ-28)
+				prep_of(launch/NN-23,ISS/NN-29)
+				advmod(ISS/NN-29,resupply/RB-30)
+				pobj(resupply/RB-30,capsules/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2001, Wheelock assumed duties as the Crew Support Astronaut for the ISS Expedition 2 crew, which was on orbit for 147 days from March 2001 to August 2001, and for the ISS Expedition 4 crew, which was on orbit for 195 days from December 2001 to June 2002.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assumed/VBD-5,2001/CD-2)
+				nsubj(assumed/VBD-5,Wheelock/NNP-4)
+				dobj(assumed/VBD-5,duties/NNS-6)
+				det(Astronaut/NN-11,the/DT-8)
+				nn(Astronaut/NN-11,Crew/NNP-9)
+				nn(Astronaut/NN-11,Support/NN-10)
+				prep_as(assumed/VBD-5,Astronaut/NN-11)
+				det(crew/NN-17,the/DT-13)
+				nn(crew/NN-17,ISS/NNP-14)
+				nn(crew/NN-17,Expedition/NN-15)
+				num(crew/NN-17,2/CD-16)
+				prep_for(assumed/VBD-5,crew/NN-17)
+				nsubj(was/VBD-20,which/WDT-19)
+				rcmod(crew/NN-17,was/VBD-20)
+				prep_on(was/VBD-20,orbit/NN-22)
+				num(days/NNS-25,147/CD-24)
+				prep_for(orbit/NN-22,days/NNS-25)
+				prep_from(was/VBD-20,March/NNP-27)
+				prep_from(was/VBD-20,March/NNP-27)
+				conj_and(March/NNP-27,March/NNP-27)
+				num(March/NNP-27,2001/CD-28)
+				prep_to(March/NNP-27,August/NNP-30)
+				num(August/NNP-30,2001/CD-31)
+				det(crew/NN-39,the/DT-35)
+				nn(crew/NN-39,ISS/NNP-36)
+				nn(crew/NN-39,Expedition/NN-37)
+				num(crew/NN-39,4/CD-38)
+				prep_for(March/NNP-27,crew/NN-39)
+				nsubj(was/VBD-42,which/WDT-41)
+				rcmod(crew/NN-39,was/VBD-42)
+				prep_on(was/VBD-42,orbit/NN-44)
+				num(days/NNS-47,195/CD-46)
+				prep_for(orbit/NN-44,days/NNS-47)
+				prep_from(days/NNS-47,December/NNP-49)
+				num(December/NNP-49,2001/CD-50)
+				prep_to(was/VBD-42,June/NNP-52)
+				num(June/NNP-52,2002/CD-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the primary contact for all crew needs, coordination, planning and interactions, and was the primary representative of the crews while they were on orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(contact/NN-5,He/PRP-1)
+				cop(contact/NN-5,was/VBD-2)
+				det(contact/NN-5,the/DT-3)
+				amod(contact/NN-5,primary/JJ-4)
+				det(crew/NN-8,all/DT-7)
+				prep_for(contact/NN-5,crew/NN-8)
+				rcmod(crew/NN-8,needs/VBZ-9)
+				rcmod(crew/NN-8,coordination/NN-11)
+				conj_and(needs/VBZ-9,coordination/NN-11)
+				conj_and(needs/VBZ-9,planning/NN-13)
+				conj_and(coordination/NN-11,planning/NN-13)
+				conj_and(needs/VBZ-9,interactions/NNS-15)
+				conj_and(coordination/NN-11,interactions/NNS-15)
+				cop(representative/NN-21,was/VBD-18)
+				det(representative/NN-21,the/DT-19)
+				amod(representative/NN-21,primary/JJ-20)
+				rcmod(crew/NN-8,representative/NN-21)
+				conj_and(needs/VBZ-9,representative/NN-21)
+				det(crews/NNS-24,the/DT-23)
+				prep_of(representative/NN-21,crews/NNS-24)
+				mark(were/VBD-27,while/IN-25)
+				nsubj(were/VBD-27,they/PRP-26)
+				advcl(contact/NN-5,were/VBD-27)
+				prep_on(were/VBD-27,orbit/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 2002, Wheelock was assigned as a Spacecraft Communicator (CAPCOM) in the Mission Control Center in Houston, Texas.	</value>
+
+		<annotated-sentence>	In [[August 2002|August_2002]], Wheelock was assigned as a [[Spacecraft|Spacecraft]] Communicator ([[CAPCOM|Capcom]]) in [[the Mission Control Center|Mission_control_center]] in Houston, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 2002, Wheelock was assigned as a Spacecraft Communicator (CAPCOM) in the Mission Control Center in Houston, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-7,August/NNP-2)
+				num(August/NNP-2,2002/CD-3)
+				nsubjpass(assigned/VBN-7,Wheelock/NNP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				det(Communicator/NN-11,a/DT-9)
+				nn(Communicator/NN-11,Spacecraft/NN-10)
+				prep_as(assigned/VBN-7,Communicator/NN-11)
+				appos(Communicator/NN-11,CAPCOM/NN-13)
+				det(Center/NNP-19,the/DT-16)
+				nn(Center/NNP-19,Mission/NNP-17)
+				nn(Center/NNP-19,Control/NNP-18)
+				prep_in(Communicator/NN-11,Center/NNP-19)
+				nn(Texas/NNP-23,Houston/NNP-21)
+				prep_in(assigned/VBN-7,Texas/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mission Control Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_control_center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In this role, he was the primary communication link between crews on orbit and the ground support team in the Control Center.	</value>
+
+		<annotated-sentence>	In [[this role|Role]], he was the primary [[communication link|Data_link]] between crews on orbit and the [[ground support|Close_air_support]] [[team|Team]] in the Control Center.	</annotated-sentence>
+
+		<pattern_crowdsource>	In this role, he was the primary communication link between crews on orbit and the ground support team in the Control Center.	</pattern_crowdsource>
+
+
+		<tree>
+				det(role/NN-3,this/DT-2)
+				prep_in(link/NN-10,role/NN-3)
+				nsubj(link/NN-10,he/PRP-5)
+				cop(link/NN-10,was/VBD-6)
+				det(link/NN-10,the/DT-7)
+				amod(link/NN-10,primary/JJ-8)
+				nn(link/NN-10,communication/NN-9)
+				prep_between(link/NN-10,crews/NNS-12)
+				prep_on(crews/NNS-12,orbit/NN-14)
+				det(team/NN-19,the/DT-16)
+				nn(team/NN-19,ground/NN-17)
+				nn(team/NN-19,support/NN-18)
+				prep_between(link/NN-10,team/NN-19)
+				conj_and(crews/NNS-12,team/NN-19)
+				det(Center/NNP-23,the/DT-21)
+				nn(Center/NNP-23,Control/NNP-22)
+				prep_in(team/NN-19,Center/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this role</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Role</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communication link</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Data_link</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ground support</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Close_air_support</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His work as a CAPCOM culminated in his assignment as the lead CAPCOM for the ISS Expedition 8 mission, which was 194 days in duration.	</value>
+
+		<annotated-sentence>	His [[work|Work]] as [[a CAPCOM|Capcom]] culminated in his assignment as [[the lead|Lead]] [[CAPCOM|Capcom]] for the [[ISS|S]] [[Expedition 8|Expedition_8]] mission, which was 194 days in duration.	</annotated-sentence>
+
+		<pattern_crowdsource>	His work as a CAPCOM culminated in his assignment as the lead CAPCOM for the ISS Expedition 8 mission, which was 194 days in duration.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(work/NN-2,His/PRP$-1)
+				nsubj(culminated/VBD-6,work/NN-2)
+				det(CAPCOM/NNP-5,a/DT-4)
+				prep_as(work/NN-2,CAPCOM/NNP-5)
+				poss(assignment/NN-9,his/PRP$-8)
+				prep_in(culminated/VBD-6,assignment/NN-9)
+				det(lead/NN-12,the/DT-11)
+				prep_as(assignment/NN-9,lead/NN-12)
+				dobj(culminated/VBD-6,CAPCOM/NNP-13)
+				det(mission/NN-19,the/DT-15)
+				nn(mission/NN-19,ISS/NNP-16)
+				nn(mission/NN-19,Expedition/NN-17)
+				num(mission/NN-19,8/CD-18)
+				prep_for(CAPCOM/NNP-13,mission/NN-19)
+				nsubj(days/NNS-24,which/WDT-21)
+				cop(days/NNS-24,was/VBD-22)
+				num(days/NNS-24,194/CD-23)
+				rcmod(mission/NN-19,days/NNS-24)
+				prep_in(days/NNS-24,duration/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_8</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 2004, Wheelock served as an aquanaut during the NEEMO 6 mission aboard the Aquarius underwater laboratory, living and working underwater for ten days.	</value>
+
+		<annotated-sentence>	In [[July 2004|July_2004]], Wheelock served as [[an aquanaut|Aquanaut]] during the [[NEEMO|NEEMO]] 6 mission aboard [[the Aquarius underwater laboratory|Aquarius_(laboratory)]], living and working underwater for [[ten days|Ten_Days]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In July 2004, Wheelock served as an aquanaut during the [[NEEMO|NEEMO]] 6 mission aboard [[the Aquarius underwater laboratory|Aquarius_(laboratory)]], living and working underwater for ten days.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-6,July/NNP-2)
+				num(July/NNP-2,2004/CD-3)
+				nsubj(served/VBD-6,Wheelock/NNP-5)
+				det(aquanaut/NN-9,an/DT-8)
+				prep_as(served/VBD-6,aquanaut/NN-9)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,NEEMO/NN-12)
+				num(mission/NN-14,6/CD-13)
+				prep_during(served/VBD-6,mission/NN-14)
+				det(laboratory/NN-19,the/DT-16)
+				nn(laboratory/NN-19,Aquarius/NNP-17)
+				amod(laboratory/NN-19,underwater/JJ-18)
+				prep_aboard(mission/NN-14,laboratory/NN-19)
+				xcomp(served/VBD-6,living/VBG-21)
+				xcomp(served/VBD-6,working/VBG-23)
+				conj_and(living/VBG-21,working/VBG-23)
+				dobj(living/VBG-21,underwater/JJ-24)
+				num(days/NNS-27,ten/CD-26)
+				prep_for(underwater/JJ-24,days/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an aquanaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aquanaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NEEMO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NEEMO</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Aquarius underwater laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aquarius_(laboratory)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ten days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ten_Days</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/NEEMO http://dbpedia.org/property/data http://dbpedia.org/resource/Aquarius_(laboratory)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In January 2005, he was assigned as NASA's Director of Operations – Russia where he served at the Gagarin Cosmonaut Training Center in Star City, Russia.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-7,January/NNP-2)
+				num(January/NNP-2,2005/CD-3)
+				nsubjpass(assigned/VBN-7,he/PRP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				poss(Director/NN-11,NASA/NNP-9)
+				prep_as(assigned/VBN-7,Director/NN-11)
+				prep_of(Director/NN-11,Operations/NNP-13)
+				dep(Director/NN-11,Russia/NNP-15)
+				advmod(served/VBD-18,where/WRB-16)
+				nsubj(served/VBD-18,he/PRP-17)
+				rcmod(Russia/NNP-15,served/VBD-18)
+				det(Center/NNP-24,the/DT-20)
+				nn(Center/NNP-24,Gagarin/NNP-21)
+				nn(Center/NNP-24,Cosmonaut/NNP-22)
+				nn(Center/NNP-24,Training/NNP-23)
+				prep_at(served/VBD-18,Center/NNP-24)
+				nn(City/NNP-27,Star/NNP-26)
+				prep_in(served/VBD-18,City/NNP-27)
+				appos(City/NNP-27,Russia/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was responsible for supporting Russia-based training, logistic, and administrative needs of NASA astronauts preparing for flight on the ISS.	</value>
+
+		<annotated-sentence>	He was responsible for supporting Russia-based [[training|Training]], logistic, and administrative [[needs|Stargate_SG-1_(season_2)]] of [[NASA|NASA]] [[astronauts|Astronaut]] preparing for [[flight|Flight]] on [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was responsible for supporting Russia-based training, logistic, and administrative needs of [[NASA|NASA]] [[astronauts|Astronaut]] preparing for flight on the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-3,He/PRP-1)
+				cop(responsible/JJ-3,was/VBD-2)
+				prepc_for(responsible/JJ-3,supporting/VBG-5)
+				amod(training/NN-7,Russia-based/JJ-6)
+				dobj(supporting/VBG-5,training/NN-7)
+				amod(training/NN-7,logistic/JJ-9)
+				amod(needs/NNS-13,administrative/JJ-12)
+				dobj(supporting/VBG-5,needs/NNS-13)
+				conj_and(training/NN-7,needs/NNS-13)
+				nn(astronauts/NNS-16,NASA/NNP-15)
+				prep_of(needs/NNS-13,astronauts/NNS-16)
+				partmod(needs/NNS-13,preparing/VBG-17)
+				prep_for(preparing/VBG-17,flight/NN-19)
+				det(ISS/NNP-22,the/DT-21)
+				prep_on(needs/NNS-13,ISS/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>needs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargate_SG-1_(season_2)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock was the primary liaison between Star City and NASA operations in Houston, including medical, training, science, contracting, public affairs, and administration departments.	</value>
+
+		<annotated-sentence>	[[Wheelock|Douglas_H._Wheelock]] was the primary liaison between Star City and [[NASA|NASA]] operations in [[Houston|Lyndon_B._Johnson_Space_Center]], including medical, [[training|Training]], [[science|Science]], [[contracting|Contract]], public affairs, and administration departments.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Wheelock|Douglas_H._Wheelock]] was the primary liaison between Star City and [[NASA|NASA]] operations in [[Houston|Lyndon_B._Johnson_Space_Center]], including medical, training, science, contracting, public affairs, and administration departments.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(liaison/NN-5,Wheelock/NNP-1)
+				cop(liaison/NN-5,was/VBD-2)
+				det(liaison/NN-5,the/DT-3)
+				amod(liaison/NN-5,primary/JJ-4)
+				nn(City/NNP-8,Star/NNP-7)
+				prep_between(liaison/NN-5,City/NNP-8)
+				nn(operations/NNS-11,NASA/NNP-10)
+				prep_between(liaison/NN-5,operations/NNS-11)
+				conj_and(City/NNP-8,operations/NNS-11)
+				prep_in(liaison/NN-5,Houston/NNP-13)
+				prep_including(liaison/NN-5,medical/JJ-16)
+				prep_including(liaison/NN-5,training/NN-18)
+				conj_and(medical/JJ-16,training/NN-18)
+				prep_including(liaison/NN-5,science/NN-20)
+				conj_and(medical/JJ-16,science/NN-20)
+				prep_including(liaison/NN-5,contracting/NN-22)
+				conj_and(medical/JJ-16,contracting/NN-22)
+				amod(affairs/NNS-25,public/JJ-24)
+				prep_including(liaison/NN-5,affairs/NNS-25)
+				conj_and(medical/JJ-16,affairs/NNS-25)
+				nn(departments/NNS-29,administration/NN-28)
+				prep_including(liaison/NN-5,departments/NNS-29)
+				conj_and(medical/JJ-16,departments/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>contracting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Contract</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also responsible for liaison duties between NASA and the Russian Space Agency, as well as the Russian aerospace industry.	</value>
+
+		<annotated-sentence>	He was also responsible for liaison [[duties|Duty]] between [[NASA|NASA]] and [[the Russian Space Agency|Russian_Federal_Space_Agency]], as well as [[the Russian aerospace industry|Aircraft_industry_of_Russia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also responsible for liaison duties between [[NASA|NASA]] and the Russian Space Agency, as well as the Russian aerospace industry.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-4,He/PRP-1)
+				cop(responsible/JJ-4,was/VBD-2)
+				advmod(responsible/JJ-4,also/RB-3)
+				nn(duties/NNS-7,liaison/NN-6)
+				prep_for(responsible/JJ-4,duties/NNS-7)
+				prep_between(duties/NNS-7,NASA/NNP-9)
+				det(Space/NN-13,the/DT-11)
+				amod(Space/NN-13,Russian/JJ-12)
+				prep_for(responsible/JJ-4,Space/NN-13)
+				conj_and(duties/NNS-7,Space/NN-13)
+				appos(Space/NN-13,Agency/NNP-14)
+				det(industry/NN-22,the/DT-19)
+				amod(industry/NN-22,Russian/JJ-20)
+				nn(industry/NN-22,aerospace/NN-21)
+				prep_for(responsible/JJ-4,industry/NN-22)
+				conj_and(duties/NNS-7,industry/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Federal_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian aerospace industry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircraft_industry_of_Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his first spaceflight, Wheelock was assigned as the backup to T.J. Creamer for the Soyuz TMA-17/Expedition 22/Expedition 23 mission to the International Space Station.	</value>
+
+		<annotated-sentence>	After [[his first spaceflight|Spaceflight]], [[Wheelock|Douglas_H._Wheelock]] was assigned as [[the backup|Backup]] to [[T.J. Creamer|Timothy_Creamer]] for the [[Soyuz TMA-17|Soyuz_TMA-17]]/[[Expedition|Exploration]] 22/Expedition 23 mission to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his first spaceflight, [[Wheelock|Douglas_H._Wheelock]] was assigned as the backup to [[T.J. Creamer|Timothy_Creamer]] for the [[Soyuz TMA-17|Soyuz_TMA-17]]/Expedition 22/Expedition 23 mission to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-4,his/PRP$-2)
+				amod(spaceflight/NN-4,first/JJ-3)
+				prep_after(assigned/VBN-8,spaceflight/NN-4)
+				nsubjpass(assigned/VBN-8,Wheelock/NNP-6)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				det(backup/NN-11,the/DT-10)
+				prep_as(assigned/VBN-8,backup/NN-11)
+				nn(Creamer/NNP-14,T.J./NNP-13)
+				prep_to(assigned/VBN-8,Creamer/NNP-14)
+				det(TMA-17/NN-18,the/DT-16)
+				nn(TMA-17/NN-18,Soyuz/NNP-17)
+				nn(mission/NN-23,TMA-17/NN-18)
+				punct(TMA-17/NN-18,//:-19)
+				nn(mission/NN-23,Expedition/NN-20)
+				nn(mission/NN-23,22/Expedition/NN-21)
+				num(mission/NN-23,23/CD-22)
+				prep_for(Creamer/NNP-14,mission/NN-23)
+				det(Station/NNP-28,the/DT-25)
+				nn(Station/NNP-28,International/NNP-26)
+				nn(Station/NNP-28,Space/NNP-27)
+				prep_to(assigned/VBN-8,Station/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his first spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>T.J. Creamer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Timothy_Creamer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-17</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Timothy_Creamer http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-17 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Timothy_Creamer
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Timothy_Creamer
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-17 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Douglas_H._Wheelock
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Creamer completed a successful 163 day mission from 2009-2010.	</value>
+
+		<annotated-sentence>	[[Creamer|Results_May_Vary]] completed a successful 163 day mission from 2009-2010.	</annotated-sentence>
+
+		<pattern_crowdsource>	Creamer completed a successful 163 day mission from 2009-2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Creamer/NN-1)
+				det(mission/NN-7,a/DT-3)
+				amod(mission/NN-7,successful/JJ-4)
+				tmod(successful/JJ-4,163/CD-5)
+				nn(mission/NN-7,day/NN-6)
+				dobj(completed/VBD-2,mission/NN-7)
+				prep_from(completed/VBD-2,2009-2010/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Creamer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Results_May_Vary</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On October 23, 2007 Wheelock launched on his first spaceflight aboard Space Shuttle Discovery.	</value>
+
+		<annotated-sentence>	On [[October 23|October_23]], [[2007|2007]] Wheelock launched on [[his first spaceflight|Spaceflight]] aboard [[Space Shuttle Discovery|Space_Shuttle_Discovery]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On October 23, 2007 Wheelock launched on his first spaceflight aboard Space Shuttle Discovery.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(launched/VBN-7,October/NNP-2)
+				num(October/NNP-2,23/CD-3)
+				num(Wheelock/NNP-6,2007/CD-5)
+				nsubj(launched/VBN-7,Wheelock/NNP-6)
+				poss(spaceflight/NN-11,his/PRP$-9)
+				amod(spaceflight/NN-11,first/JJ-10)
+				prep_on(launched/VBN-7,spaceflight/NN-11)
+				nn(Discovery/NNP-15,Space/NN-13)
+				nn(Discovery/NNP-15,Shuttle/NNP-14)
+				prep_aboard(launched/VBN-7,Discovery/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 23</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_23</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his first spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the STS-120 mission, Wheelock was Mission Specialist 3 on a multinational crew whose mission was to deliver the Node 2 module to the International Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				nn(mission/NN-4,STS-120/NN-3)
+				prep_during(Specialist/NNP-9,mission/NN-4)
+				nsubj(Specialist/NNP-9,Wheelock/NNP-6)
+				cop(Specialist/NNP-9,was/VBD-7)
+				nn(Specialist/NNP-9,Mission/NNP-8)
+				num(Specialist/NNP-9,3/CD-10)
+				det(crew/NN-14,a/DT-12)
+				amod(crew/NN-14,multinational/JJ-13)
+				prep_on(Specialist/NNP-9,crew/NN-14)
+				poss(mission/NN-16,whose/WP$-15)
+				nsubj(was/VBD-17,mission/NN-16)
+				rcmod(crew/NN-14,was/VBD-17)
+				aux(deliver/VB-19,to/TO-18)
+				xcomp(was/VBD-17,deliver/VB-19)
+				det(module/NN-23,the/DT-20)
+				nn(module/NN-23,Node/NN-21)
+				num(module/NN-23,2/CD-22)
+				dobj(deliver/VB-19,module/NN-23)
+				det(Station/NNP-28,the/DT-25)
+				nn(Station/NNP-28,International/NNP-26)
+				nn(Station/NNP-28,Space/NNP-27)
+				prep_to(deliver/VB-19,Station/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock participated in three spacewalks with fellow astronaut Scott Parazynski in order to perform mission critical tasks on the exterior of the Station.	</value>
+
+		<annotated-sentence>	[[Wheelock|Douglas_H._Wheelock]] participated in three [[spacewalks|Spacewalk_(software)]] with fellow [[astronaut|Astronaut]] [[Scott Parazynski|Scott_E._Parazynski]] in order to perform [[mission critical|Mission_critical]] tasks on [[the exterior|Exterior_(topology)]] of [[the Station|Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Wheelock|Douglas_H._Wheelock]] participated in three spacewalks with fellow [[astronaut|Astronaut]] [[Scott Parazynski|Scott_E._Parazynski]] in order to perform mission critical tasks on the exterior of the Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,Wheelock/NNP-1)
+				num(spacewalks/NNS-5,three/CD-4)
+				prep_in(participated/VBD-2,spacewalks/NNS-5)
+				amod(Parazynski/NNP-10,fellow/JJ-7)
+				nn(Parazynski/NNP-10,astronaut/NN-8)
+				nn(Parazynski/NNP-10,Scott/NNP-9)
+				prep_with(spacewalks/NNS-5,Parazynski/NNP-10)
+				mark(perform/VB-14,in/IN-11)
+				dep(perform/VB-14,order/NN-12)
+				aux(perform/VB-14,to/TO-13)
+				advcl(participated/VBD-2,perform/VB-14)
+				nn(tasks/NNS-17,mission/NN-15)
+				amod(tasks/NNS-17,critical/JJ-16)
+				dobj(perform/VB-14,tasks/NNS-17)
+				det(exterior/NN-20,the/DT-19)
+				prep_on(perform/VB-14,exterior/NN-20)
+				det(Station/NNP-23,the/DT-22)
+				prep_of(exterior/NN-20,Station/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scott Parazynski</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scott_E._Parazynski</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission critical</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_critical</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the exterior</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exterior_(topology)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Scott_E._Parazynski http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The spacewalks involved outfitting the Node 2 module, storing an S-band antenna, work on the Integrated Truss Structure, and External Stowage Platform 2.	</value>
+
+		<annotated-sentence>	The [[spacewalks|Spacewalk_(software)]] involved outfitting the [[Node 2|Harmony_(ISS_module)]] [[module|Harmony_(ISS_module)]], storing an [[S-band|S_band]] antenna, [[work|Work]] on [[the Integrated Truss Structure|Integrated_Truss_Structure]], and [[External Stowage Platform|External_Stowage_Platform]] 2.	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[spacewalks|Spacewalk_(software)]] involved outfitting the Node 2 module, storing an S-band antenna, [[work|Work]] on the Integrated Truss Structure, and External Stowage Platform 2.	</pattern_crowdsource>
+
+
+		<tree>
+				det(spacewalks/NNS-2,The/DT-1)
+				nsubj(involved/VBN-3,spacewalks/NNS-2)
+				ccomp(involved/VBN-3,outfitting/VBG-4)
+				det(module/NN-8,the/DT-5)
+				nn(module/NN-8,Node/NN-6)
+				num(module/NN-8,2/CD-7)
+				dobj(outfitting/VBG-4,module/NN-8)
+				dep(outfitting/VBG-4,storing/VBG-10)
+				det(antenna/NN-13,an/DT-11)
+				amod(antenna/NN-13,S-band/JJ-12)
+				dobj(storing/VBG-10,antenna/NN-13)
+				dobj(outfitting/VBG-4,work/NN-15)
+				det(Structure/NN-20,the/DT-17)
+				nn(Structure/NN-20,Integrated/NNP-18)
+				nn(Structure/NN-20,Truss/NNP-19)
+				prep_on(work/NN-15,Structure/NN-20)
+				nn(Platform/NNP-25,External/NNP-23)
+				nn(Platform/NNP-25,Stowage/NNP-24)
+				dobj(outfitting/VBG-4,Platform/NNP-25)
+				conj_and(work/NN-15,Platform/NNP-25)
+				dep(Platform/NNP-25,2/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Node 2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harmony_(ISS_module)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harmony_(ISS_module)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>S-band</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S_band</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Integrated Truss Structure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Integrated_Truss_Structure</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>External Stowage Platform</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/External_Stowage_Platform</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Spacewalk_(software) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Work
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission a solar array on the P6 truss tore requiring an emergency repair by Wheelock and Parazynski.	</value>
+
+		<annotated-sentence>	During the mission [[a solar array|Photovoltaic_array]] on the P6 [[truss|Truss]] tore requiring an emergency repair by Wheelock and Parazynski.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission a solar array on the P6 truss tore requiring an emergency repair by Wheelock and Parazynski.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(tore/VBD-11,mission/NN-3)
+				det(array/NN-6,a/DT-4)
+				amod(array/NN-6,solar/JJ-5)
+				nsubj(tore/VBD-11,array/NN-6)
+				det(truss/NN-10,the/DT-8)
+				nn(truss/NN-10,P6/NN-9)
+				prep_on(array/NN-6,truss/NN-10)
+				xcomp(tore/VBD-11,requiring/VBG-12)
+				det(repair/NN-15,an/DT-13)
+				nn(repair/NN-15,emergency/NN-14)
+				dobj(requiring/VBG-12,repair/NN-15)
+				prep_by(requiring/VBG-12,Wheelock/NNP-17)
+				prep_by(requiring/VBG-12,Parazynski/NNP-19)
+				conj_and(Wheelock/NNP-17,Parazynski/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a solar array</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photovoltaic_array</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>truss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Truss</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Parazynski attached cufflinks to the solar array allowing it to expand without additional damage.	</value>
+
+		<annotated-sentence>	[[Parazynski|Scott_E._Parazynski]] attached [[cufflinks|Cufflink]] to [[the solar array|Photovoltaic_array]] allowing it to expand without additional damage.	</annotated-sentence>
+
+		<pattern_crowdsource>	Parazynski attached cufflinks to the solar array allowing it to expand without additional damage.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attached/VBD-2,Parazynski/NNP-1)
+				dobj(attached/VBD-2,cufflinks/NNS-3)
+				det(array/NN-7,the/DT-5)
+				amod(array/NN-7,solar/JJ-6)
+				prep_to(attached/VBD-2,array/NN-7)
+				xcomp(attached/VBD-2,allowing/VBG-8)
+				nsubj(expand/VB-11,it/PRP-9)
+				aux(expand/VB-11,to/TO-10)
+				xcomp(allowing/VBG-8,expand/VB-11)
+				amod(damage/NN-14,additional/JJ-13)
+				prep_without(expand/VB-11,damage/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Parazynski</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scott_E._Parazynski</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cufflinks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cufflink</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the solar array</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photovoltaic_array</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock orbited the Earth 238 times during the 15 day mission.	</value>
+
+		<annotated-sentence>	Wheelock orbited the [[Earth|Earth]] 238 times during the 15 day mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Wheelock orbited the Earth 238 times during the 15 day mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(orbited/VBD-2,Wheelock/NNP-1)
+				det(times/NNS-6,the/DT-3)
+				nn(times/NNS-6,Earth/NNP-4)
+				num(times/NNS-6,238/CD-5)
+				dobj(orbited/VBD-2,times/NNS-6)
+				det(mission/NN-11,the/DT-8)
+				num(mission/NN-11,15/CD-9)
+				nn(mission/NN-11,day/NN-10)
+				prep_during(orbited/VBD-2,mission/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock launched to the International Space Station on June 15, 2010, aboard the Soyuz TMA-19 spacecraft with Fyodor Yurchikhin and Shannon Walker.	</value>
+
+		<annotated-sentence>	[[Wheelock|Douglas_H._Wheelock]] launched to [[the International Space Station|International_Space_Station]] on June 15, 2010, aboard the [[Soyuz TMA-19|Soyuz_TMA-19]] [[spacecraft|Spacecraft]] with [[Fyodor Yurchikhin|Fyodor_Yurchikhin]] and [[Shannon Walker|Shannon_Walker]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Wheelock|Douglas_H._Wheelock]] launched to the International Space Station on June 15, 2010, aboard the [[Soyuz TMA-19|Soyuz_TMA-19]] spacecraft with [[Fyodor Yurchikhin|Fyodor_Yurchikhin]] and [[Shannon Walker|Shannon_Walker]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,Wheelock/NNP-1)
+				det(Station/NNP-7,the/DT-4)
+				nn(Station/NNP-7,International/NNP-5)
+				nn(Station/NNP-7,Space/NNP-6)
+				prep_to(launched/VBD-2,Station/NNP-7)
+				prep_on(Station/NNP-7,June/NNP-9)
+				num(June/NNP-9,15/CD-10)
+				num(June/NNP-9,2010/CD-12)
+				det(spacecraft/NN-18,the/DT-15)
+				nn(spacecraft/NN-18,Soyuz/NNP-16)
+				nn(spacecraft/NN-18,TMA-19/NN-17)
+				prep_aboard(launched/VBD-2,spacecraft/NN-18)
+				nn(Yurchikhin/NNP-21,Fyodor/NNP-20)
+				prep_with(launched/VBD-2,Yurchikhin/NNP-21)
+				nn(Walker/NNP-24,Shannon/NNP-23)
+				prep_with(launched/VBD-2,Walker/NNP-24)
+				conj_and(Yurchikhin/NNP-21,Walker/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-19</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-19</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fyodor Yurchikhin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fyodor_Yurchikhin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shannon Walker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shannon_Walker</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-19
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Douglas_H._Wheelock
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Douglas_H._Wheelock
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Fyodor_Yurchikhin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Fyodor_Yurchikhin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Shannon_Walker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-19 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Shannon_Walker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shannon_Walker http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-19
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock joined the Expedition 24 crew in progress.	</value>
+
+		<annotated-sentence>	[[Wheelock|Douglas_H._Wheelock]] joined the [[Expedition 24|Expedition_24]] crew in progress.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Wheelock|Douglas_H._Wheelock]] joined the [[Expedition 24|Expedition_24]] crew in progress.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,Wheelock/NNP-1)
+				det(crew/NN-6,the/DT-3)
+				nn(crew/NN-6,Expedition/NN-4)
+				num(crew/NN-6,24/CD-5)
+				dobj(joined/VBD-2,crew/NN-6)
+				prep_in(crew/NN-6,progress/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 24</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_24</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_24
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_24 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Douglas_H._Wheelock
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission he participated in several scientific investigations.	</value>
+
+		<annotated-sentence>	During the mission he participated in several scientific investigations.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission he participated in several scientific investigations.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(participated/VBD-5,mission/NN-3)
+				nsubj(participated/VBD-5,he/PRP-4)
+				amod(investigations/NNS-9,several/JJ-7)
+				amod(investigations/NNS-9,scientific/JJ-8)
+				prep_in(participated/VBD-5,investigations/NNS-9)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 31, 2010 a pump module on the exterior of the Space Station failed.	</value>
+
+		<annotated-sentence>	On [[July|July]] 31, 2010 a [[pump|Pump]] [[module|Mir]] on [[the exterior|Exterior_(topology)]] of [[the Space Station|SpaceStation]] failed.	</annotated-sentence>
+
+		<pattern_crowdsource>	On July 31, 2010 a pump module on the exterior of the Space Station failed.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(failed/VBD-16,July/NNP-2)
+				num(July/NNP-2,31/CD-3)
+				num(July/NNP-2,2010/CD-5)
+				det(module/NN-8,a/DT-6)
+				nn(module/NN-8,pump/NN-7)
+				nsubj(failed/VBD-16,module/NN-8)
+				det(exterior/NN-11,the/DT-10)
+				prep_on(module/NN-8,exterior/NN-11)
+				det(Station/NNP-15,the/DT-13)
+				nn(Station/NNP-15,Space/NN-14)
+				prep_of(exterior/NN-11,Station/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pump</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pump</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the exterior</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exterior_(topology)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock and Tracy Caldwell-Dyson made three spacewalks to replace the module.	</value>
+
+		<annotated-sentence>	Wheelock and [[Tracy Caldwell-Dyson|Tracy_Caldwell_Dyson]] made three [[spacewalks|Spacewalk_(software)]] to replace the module.	</annotated-sentence>
+
+		<pattern_crowdsource>	Wheelock and Tracy Caldwell-Dyson made three spacewalks to replace the module.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-5,Wheelock/NNP-1)
+				nn(Caldwell-Dyson/NNP-4,Tracy/NNP-3)
+				conj_and(Wheelock/NNP-1,Caldwell-Dyson/NNP-4)
+				nsubj(made/VBD-5,Caldwell-Dyson/NNP-4)
+				num(spacewalks/NNS-7,three/CD-6)
+				dobj(made/VBD-5,spacewalks/NNS-7)
+				aux(replace/VB-9,to/TO-8)
+				xcomp(made/VBD-5,replace/VB-9)
+				det(module/NN-11,the/DT-10)
+				dobj(replace/VB-9,module/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Tracy Caldwell-Dyson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tracy_Caldwell_Dyson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The failed pump module was later returned home on STS-135.	</value>
+
+		<annotated-sentence>	The failed [[pump|Pump]] module was later returned home on [[STS-135|STS-135]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The failed pump module was later returned home on STS-135.	</pattern_crowdsource>
+
+
+		<tree>
+				det(module/NN-4,The/DT-1)
+				amod(module/NN-4,failed/VBN-2)
+				nn(module/NN-4,pump/NN-3)
+				nsubjpass(returned/VBN-7,module/NN-4)
+				auxpass(returned/VBN-7,was/VBD-5)
+				advmod(returned/VBN-7,later/RB-6)
+				advmod(returned/VBN-7,home/NN-8)
+				prep_on(returned/VBN-7,STS-135/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>pump</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pump</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-135</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-135</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 22, 2010, Wheelock took command of the International Space Station at the beginning of Expedition 25.	</value>
+
+		<annotated-sentence>	On [[September|September]] 22, 2010, [[Wheelock|Douglas_H._Wheelock]] took command of [[the International Space Station|International_Space_Station]] at the beginning of [[Expedition 25|Expedition_25]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On September 22, 2010, [[Wheelock|Douglas_H._Wheelock]] took command of [[the International Space Station|International_Space_Station]] at the beginning of [[Expedition 25|Expedition_25]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(took/VBD-8,September/NNP-2)
+				num(September/NNP-2,22/CD-3)
+				num(September/NNP-2,2010/CD-5)
+				nsubj(took/VBD-8,Wheelock/NNP-7)
+				dobj(took/VBD-8,command/NN-9)
+				det(Station/NNP-14,the/DT-11)
+				nn(Station/NNP-14,International/NNP-12)
+				nn(Station/NNP-14,Space/NNP-13)
+				prep_of(command/NN-9,Station/NNP-14)
+				det(beginning/NN-17,the/DT-16)
+				prep_at(took/VBD-8,beginning/NN-17)
+				prep_of(beginning/NN-17,Expedition/NN-19)
+				num(Expedition/NN-19,25/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wheelock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_H._Wheelock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 25</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_25</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_25 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_25 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_25
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_25 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Douglas_H._Wheelock
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is the first U.S. Army officer to command the ISS.	</value>
+
+		<annotated-sentence>	He is the first [[U.S.|United_States_Army_Air_Forces]] [[Army|United_States_Army_Air_Forces]] [[officer|Officer]] to command [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is the first U.S. Army officer to command the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(officer/NN-7,He/PRP-1)
+				cop(officer/NN-7,is/VBZ-2)
+				det(officer/NN-7,the/DT-3)
+				amod(officer/NN-7,first/JJ-4)
+				nn(officer/NN-7,U.S./NNP-5)
+				nn(officer/NN-7,Army/NNP-6)
+				aux(command/VB-9,to/TO-8)
+				infmod(officer/NN-7,command/VB-9)
+				det(ISS/NNP-11,the/DT-10)
+				dobj(command/VB-9,ISS/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Air_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Air_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock and his crew continued science and maintenance of the space station.	</value>
+
+		<annotated-sentence>	Wheelock and his crew continued science and maintenance of [[the space station|SpaceStation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Wheelock and his crew continued science and maintenance of the space station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(continued/VBD-5,Wheelock/NNP-1)
+				poss(crew/NN-4,his/PRP$-3)
+				conj_and(Wheelock/NNP-1,crew/NN-4)
+				nsubj(continued/VBD-5,crew/NN-4)
+				dobj(continued/VBD-5,science/NN-6)
+				dobj(continued/VBD-5,maintenance/NN-8)
+				conj_and(science/NN-6,maintenance/NN-8)
+				det(station/NN-12,the/DT-10)
+				nn(station/NN-12,space/NN-11)
+				prep_of(science/NN-6,station/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the space station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock is sharing pictures of the Earth, station and views of space via Twitter, as Soichi Noguchi did before him.	</value>
+
+		<annotated-sentence>	Wheelock is sharing pictures of the [[Earth|Earth]], station and views of [[space|Space]] via [[Twitter|Twitter]], as [[Soichi Noguchi|Soichi_Noguchi]] did before him.	</annotated-sentence>
+
+		<pattern_crowdsource>	Wheelock is sharing pictures of the Earth, station and views of space via Twitter, as Soichi Noguchi did before him.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(sharing/VBG-3,Wheelock/NNP-1)
+				aux(sharing/VBG-3,is/VBZ-2)
+				dobj(sharing/VBG-3,pictures/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_of(pictures/NNS-4,Earth/NNP-7)
+				prep_of(pictures/NNS-4,station/NN-9)
+				conj_and(Earth/NNP-7,station/NN-9)
+				prep_of(pictures/NNS-4,views/NNS-11)
+				conj_and(Earth/NNP-7,views/NNS-11)
+				prep_of(Earth/NNP-7,space/NN-13)
+				prep_via(space/NN-13,Twitter/NNP-15)
+				mark(did/VBD-20,as/IN-17)
+				nn(Noguchi/NNP-19,Soichi/NNP-18)
+				nsubj(did/VBD-20,Noguchi/NNP-19)
+				advcl(sharing/VBG-3,did/VBD-20)
+				prep_before(did/VBD-20,him/PRP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Twitter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Twitter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soichi Noguchi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soichi_Noguchi</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 2010, Wheelock tweeted photos from space of Hurricane Earl.	</value>
+
+		<annotated-sentence>	In [[September 2010|September_2010]], Wheelock tweeted photos from [[space|Space]] of Hurricane Earl.	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 2010, Wheelock tweeted photos from space of Hurricane Earl.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(tweeted/VBD-6,September/NNP-2)
+				num(September/NNP-2,2010/CD-3)
+				nsubj(tweeted/VBD-6,Wheelock/NNP-5)
+				dobj(tweeted/VBD-6,photos/NNS-7)
+				prep_from(tweeted/VBD-6,space/NN-9)
+				nn(Earl/NNP-12,Hurricane/NNP-11)
+				prep_of(space/NN-9,Earl/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also participated in a NASA Tweetup on March 16, 2011.	</value>
+
+		<annotated-sentence>	He also participated in [[a NASA Tweetup|NASA_Social]] on March 16, 2011.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also participated in a NASA Tweetup on March 16, 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-3,He/PRP-1)
+				advmod(participated/VBD-3,also/RB-2)
+				det(Tweetup/NNP-7,a/DT-5)
+				nn(Tweetup/NNP-7,NASA/NNP-6)
+				prep_in(participated/VBD-3,Tweetup/NNP-7)
+				prep_on(participated/VBD-3,March/NNP-9)
+				num(March/NNP-9,16/CD-10)
+				num(March/NNP-9,2011/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a NASA Tweetup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Social</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He became the first person to "check in" from space October 22, using the mobile social networking application Foursquare.	</value>
+
+		<annotated-sentence>	He became [[the first person|Person]] to "check in" from [[space|Space]] [[October 22|October_22]], using the mobile [[social networking|Foursquare]] application [[Foursquare|Foursquare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He became [[the first person|Person]] to "check in" from space October 22, using the mobile social networking application Foursquare.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(became/VBD-2,He/PRP-1)
+				det(person/NN-5,the/DT-3)
+				amod(person/NN-5,first/JJ-4)
+				nsubj(check/VB-8,person/NN-5)
+				aux(check/VB-8,to/TO-6)
+				xcomp(became/VBD-2,check/VB-8)
+				prt(check/VB-8,in/IN-9)
+				prep_from(check/VB-8,space/NN-12)
+				tmod(became/VBD-2,October/NNP-13)
+				num(October/NNP-13,22/CD-14)
+				partmod(became/VBD-2,using/VBG-16)
+				det(Foursquare/NN-22,the/DT-17)
+				amod(Foursquare/NN-22,mobile/JJ-18)
+				amod(Foursquare/NN-22,social/JJ-19)
+				nn(Foursquare/NN-22,networking/NN-20)
+				nn(Foursquare/NN-22,application/NN-21)
+				dobj(using/VBG-16,Foursquare/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 22</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_22</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>social networking</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foursquare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Foursquare</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foursquare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock's check-in to the International Space Station launched a partnership between NASA and Foursquare to connect its users to the space agency, enabling them to explore the universe and discover Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(check-in/NN-3,Wheelock/NNP-1)
+				nsubj(launched/VBD-9,check-in/NN-3)
+				nsubj(discover/VBP-32,check-in/NN-3)
+				det(Station/NNP-8,the/DT-5)
+				nn(Station/NNP-8,International/NNP-6)
+				nn(Station/NNP-8,Space/NNP-7)
+				prep_to(check-in/NN-3,Station/NNP-8)
+				det(partnership/NN-11,a/DT-10)
+				dobj(launched/VBD-9,partnership/NN-11)
+				prep_between(partnership/NN-11,NASA/NNP-13)
+				prep_between(partnership/NN-11,Foursquare/NNP-15)
+				conj_and(NASA/NNP-13,Foursquare/NNP-15)
+				aux(connect/VB-17,to/TO-16)
+				xcomp(launched/VBD-9,connect/VB-17)
+				poss(users/NNS-19,its/PRP$-18)
+				dobj(connect/VB-17,users/NNS-19)
+				det(agency/NN-23,the/DT-21)
+				nn(agency/NN-23,space/NN-22)
+				prep_to(connect/VB-17,agency/NN-23)
+				partmod(connect/VB-17,enabling/VBG-25)
+				nsubj(explore/VB-28,them/PRP-26)
+				aux(explore/VB-28,to/TO-27)
+				xcomp(enabling/VBG-25,explore/VB-28)
+				det(universe/NN-30,the/DT-29)
+				dobj(explore/VB-28,universe/NN-30)
+				conj_and(launched/VBD-9,discover/VBP-32)
+				dobj(discover/VBP-32,Earth/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned to Earth on November 26, 2010 aboard the Soyuz.	</value>
+
+		<annotated-sentence>	He returned to [[Earth|Earth]] on [[November|November]] 26, 2010 aboard the Soyuz.	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned to Earth on November 26, 2010 aboard the Soyuz.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				prep_to(returned/VBD-2,Earth/NNP-4)
+				prep_on(returned/VBD-2,November/NNP-6)
+				num(November/NNP-6,26/CD-7)
+				num(November/NNP-6,2010/CD-9)
+				det(Soyuz/NNP-12,the/DT-11)
+				prep_aboard(returned/VBD-2,Soyuz/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Doug has also been awarded: His hometown is Windsor, New York.	</value>
+
+		<annotated-sentence>	[[Doug|Doug]] has also been awarded: His hometown is Windsor, [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Doug has also been awarded: His hometown is Windsor, [[New York|New_York]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-5,Doug/NNP-1)
+				aux(awarded/VBN-5,has/VBZ-2)
+				advmod(awarded/VBN-5,also/RB-3)
+				auxpass(awarded/VBN-5,been/VBN-4)
+				poss(hometown/NN-8,His/PRP$-7)
+				nsubj(Windsor/NNP-10,hometown/NN-8)
+				cop(Windsor/NNP-10,is/VBZ-9)
+				parataxis(awarded/VBN-5,Windsor/NNP-10)
+				nn(York/NNP-13,New/NNP-12)
+				appos(Windsor/NNP-10,York/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Doug</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doug</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_H._Wheelock http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock's parents, Olin and Margaret Wheelock, reside in upstate New York.	</value>
+
+		<annotated-sentence>	Wheelock's [[parents|Parent]], Olin and Margaret Wheelock, reside in [[upstate New York|Upstate_New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Wheelock's parents, Olin and Margaret Wheelock, reside in upstate New York.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(parents/NNS-3,Wheelock/NNP-1)
+				nsubj(reside/VBP-10,parents/NNS-3)
+				nn(Wheelock/NNP-8,Olin/NNP-5)
+				conj_and(Olin/NNP-5,Margaret/NNP-7)
+				nn(Wheelock/NNP-8,Margaret/NNP-7)
+				appos(parents/NNS-3,Wheelock/NNP-8)
+				amod(York/NNP-14,upstate/JJ-12)
+				nn(York/NNP-14,New/NNP-13)
+				prep_in(reside/VBP-10,York/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>upstate New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Upstate_New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1989 he was selected by the U.S. Jaycees as one of "Ten Outstanding Young Men of America".	</value>
+
+		<annotated-sentence>	In [[1989|1989]] he was selected by [[the U.S. Jaycees|United_States_Junior_Chamber]] as one of "[[Ten Outstanding Young Men|Ten_Outstanding_Young_Americans]] of America".	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1989 he was selected by the U.S. Jaycees as one of "Ten Outstanding Young Men of America".	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,1989/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(Jaycees/NNPS-9,the/DT-7)
+				nn(Jaycees/NNPS-9,U.S./NNP-8)
+				agent(selected/VBN-5,Jaycees/NNPS-9)
+				prep_as(selected/VBN-5,one/CD-11)
+				num(Men/NN-17,Ten/CD-14)
+				amod(Men/NN-17,Outstanding/JJ-15)
+				nn(Men/NN-17,Young/NN-16)
+				prep_of(one/CD-11,Men/NN-17)
+				prep_of(Men/NN-17,America/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Jaycees</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Junior_Chamber</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ten Outstanding Young Men</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ten_Outstanding_Young_Americans</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1990 the Veterans of Foreign Wars selected Wheelock as an "Outstanding Spokesman for Freedom".	</value>
+
+		<annotated-sentence>	In [[1990|1990]] [[the Veterans of Foreign Wars|Veterans_of_Foreign_Wars]] selected Wheelock as an "[[Outstanding|Outstanding]] [[Spokesman|Spokesperson]] for Freedom".	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1990 the Veterans of Foreign Wars selected Wheelock as an "Outstanding Spokesman for Freedom".	</pattern_crowdsource>
+
+
+		<tree>
+				pobj(In/IN-1,1990/CD-2)
+				det(Veterans/NNS-4,the/DT-3)
+				nsubj(selected/VBN-8,Veterans/NNS-4)
+				amod(Wars/NNS-7,Foreign/JJ-6)
+				prep_of(Veterans/NNS-4,Wars/NNS-7)
+				rcmod(1990/CD-2,selected/VBN-8)
+				dobj(selected/VBN-8,Wheelock/NNP-9)
+				det(Spokesman/NN-14,an/DT-11)
+				amod(Spokesman/NN-14,Outstanding/JJ-13)
+				prep_as(selected/VBN-8,Spokesman/NN-14)
+				prep_for(selected/VBN-8,Freedom/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Veterans of Foreign Wars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veterans_of_Foreign_Wars</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Outstanding</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outstanding</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spokesman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spokesperson</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wheelock is a member of the Society of Experimental Test Pilots, the Society of American Military Engineers, the Association of the United States Army, and the Army Aviation Association of America.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Wheelock/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Society/NNP-7,the/DT-6)
+				prep_of(member/NN-4,Society/NNP-7)
+				amod(Pilots/NNS-11,Experimental/JJ-9)
+				nn(Pilots/NNS-11,Test/NN-10)
+				prep_of(Society/NNP-7,Pilots/NNS-11)
+				det(Society/NNP-14,the/DT-13)
+				conj_and(member/NN-4,Society/NNP-14)
+				nn(Engineers/NNPS-18,American/NNP-16)
+				nn(Engineers/NNPS-18,Military/NNP-17)
+				prep_of(Society/NNP-14,Engineers/NNPS-18)
+				det(Association/NNP-21,the/DT-20)
+				conj_and(member/NN-4,Association/NNP-21)
+				det(Army/NNP-26,the/DT-23)
+				nn(Army/NNP-26,United/NNP-24)
+				nn(Army/NNP-26,States/NNPS-25)
+				prep_of(Association/NNP-21,Army/NNP-26)
+				det(Association/NNP-32,the/DT-29)
+				nn(Association/NNP-32,Army/NNP-30)
+				nn(Association/NNP-32,Aviation/NNP-31)
+				conj_and(member/NN-4,Association/NNP-32)
+				prep_of(Association/NNP-32,America/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This fungus causes the disease coccidioidomycosis.</value>
+		<pattern_crowdsource> This [[fungus|C0016832]] causes the [[disease|C0012634]] [[coccidioidomycosis|C0009186]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coccidioidomycosis</surface-form>
+				<RDF-ID>C0009186</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009186 ISA C0012634</triple>
+			<triple>C0016832 CAUSES C0009186</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is used to detect infection with the fungus that causes coccidioidomycosis.</value>
+		<pattern_crowdsource> This test is used to detect infection with the [[fungus|C0016832]] that causes [[coccidioidomycosis|C0009186]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coccidioidomycosis</surface-form>
+				<RDF-ID>C0009186</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016832 CAUSES C0009186</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In general, the worse the infection, the higher the titer, except in people with a weakened immune system.</value>
+		<pattern_crowdsource> In general, the worse the [[infection|C0009450]], the higher the titer, except in [[people|C0027361]] with a weakened immune system.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>general</surface-form>
+				<RDF-ID>C0205246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>worse</surface-form>
+				<RDF-ID>C1279889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>titer</surface-form>
+				<RDF-ID>C0475208</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune system</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There can be false positive tests in patients with other fungal diseases such as histoplasmosis and blastomycosis, and false negative tests in people with single lung masses from coccidioidomycosis.</value>
+		<pattern_crowdsource> There can be false positive tests in [[patients|C0030705]] with other [[fungal diseases|C0026946]] such as [[histoplasmosis|C0019655]] and [[blastomycosis|C0005716]], and false negative tests in [[people|C0027361]] with [[single lung masses|C1265601]][[lung|C0024109]] masses from coccidioidomycosis.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>false positive</surface-form>
+				<RDF-ID>C0205557</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungal diseases</surface-form>
+				<RDF-ID>C0026946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>histoplasmosis</surface-form>
+				<RDF-ID>C0019655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blastomycosis</surface-form>
+				<RDF-ID>C0005716</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>false negative</surface-form>
+				<RDF-ID>C0205558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>single lung masses</surface-form>
+				<RDF-ID>C1265601</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coccidioidomycosis</surface-form>
+				<RDF-ID>C0009186</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019655 ISA C0026946</triple>
+			<triple>C0005716 ISA C0026946</triple>
+			<triple>C0026946 PROCESS_OF C0030705</triple>
+			<triple>C0005716 PROCESS_OF C0027361</triple>
+			<triple>C0019655 PROCESS_OF C0027361</triple>
+			<triple>C0024109 LOCATION_OF C1265601</triple>
+			<triple>C1265601 PART_OF C0027361</triple>
+			<triple>C0019655 PROCESS_OF C0030705</triple>
+			<triple>C0005716 PROCESS_OF C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

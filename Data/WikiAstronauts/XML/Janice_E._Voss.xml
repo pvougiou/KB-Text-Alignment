@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Janice Elaine Voss (October 8, 1956 – February 6, 2012) was an American engineer and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Janice Elaine Voss|Janice_E._Voss]] (October 8, 1956 – [[February|February]] 6, 2012) was an [[American|United_States]] [[engineer|Engineer]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Janice Elaine Voss|Janice_E._Voss]] (October 8, 1956 – February 6, 2012) was an [[American|United_States]] engineer and a NASA [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Voss/NNP-3,Janice/NNP-1)
+				nn(Voss/NNP-3,Elaine/NNP-2)
+				nsubj(engineer/NN-18,Voss/NNP-3)
+				dep(Voss/NNP-3,October/NNP-5)
+				num(October/NNP-5,8/CD-6)
+				num(October/NNP-5,1956/CD-8)
+				dep(October/NNP-5,February/NNP-10)
+				num(February/NNP-10,6/CD-11)
+				num(February/NNP-10,2012/CD-13)
+				cop(engineer/NN-18,was/VBD-15)
+				det(engineer/NN-18,an/DT-16)
+				amod(engineer/NN-18,American/JJ-17)
+				det(astronaut/NN-22,a/DT-20)
+				nn(astronaut/NN-22,NASA/NNP-21)
+				conj_and(engineer/NN-18,astronaut/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Janice Elaine Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Janice_E._Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Janice_E._Voss http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Janice_E._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She flew in space five times, jointly holding the record for American women.	</value>
+
+		<annotated-sentence>	She flew in [[space|Space]] five times, jointly holding [[the record|Album]] for [[American women|American_Woman]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She flew in space five times, jointly holding [[the record|Album]] for [[American women|American_Woman]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,She/PRP-1)
+				prep_in(flew/VBD-2,space/NN-4)
+				num(times/NNS-6,five/CD-5)
+				tmod(flew/VBD-2,times/NNS-6)
+				advmod(holding/VBG-9,jointly/RB-8)
+				partmod(flew/VBD-2,holding/VBG-9)
+				det(record/NN-11,the/DT-10)
+				dobj(holding/VBG-9,record/NN-11)
+				amod(women/NNS-14,American/JJ-13)
+				prep_for(record/NN-11,women/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the record</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Album</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American women</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Woman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/American_Woman http://dbpedia.org/ontology/type http://dbpedia.org/resource/Album
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss died on February 6, 2012, from breast cancer.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] died on [[February|February]] 6, 2012, from [[breast cancer|Breast_cancer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss died on February 6, 2012, from breast cancer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(died/VBD-2,Voss/NNP-1)
+				prep_on(died/VBD-2,February/NNP-4)
+				num(February/NNP-4,6/CD-5)
+				num(February/NNP-4,2012/CD-7)
+				nn(cancer/NN-11,breast/NN-10)
+				prep_from(died/VBD-2,cancer/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>breast cancer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Breast_cancer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss graduated from Minnechaug Regional High School in Wilbraham, Massachusetts, in 1972.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] graduated from [[Minnechaug Regional High School|Minnechaug_Regional_High_School]] in [[Wilbraham , Massachusetts ,|Akron,_Ohio]]n [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss graduated from Minnechaug Regional High School in Wilbraham, Massachusetts, in 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Voss/NNP-1)
+				nn(School/NNP-7,Minnechaug/NNP-4)
+				nn(School/NNP-7,Regional/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(Massachusetts/NNP-11,Wilbraham/NNP-9)
+				prep_in(School/NNP-7,Massachusetts/NNP-11)
+				prep_in(graduated/VBD-2,1972/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Minnechaug Regional High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minnechaug_Regional_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wilbraham , Massachusetts ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She earned a bachelor's degree in engineering from Purdue University while working on a co-op at the Johnson Space Center.	</value>
+
+		<annotated-sentence>	She earned a [[bachelor|Bachelor]]'s degree in [[engineering|Engineering]] from [[Purdue University|Purdue_University]] while working on a co-op at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She earned a bachelor's degree in engineering from Purdue University while working on a co-op at the Johnson Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,She/PRP-1)
+				det(bachelor/NN-4,a/DT-3)
+				poss(degree/NN-6,bachelor/NN-4)
+				dobj(earned/VBD-2,degree/NN-6)
+				prep_in(earned/VBD-2,engineering/NN-8)
+				nn(University/NNP-11,Purdue/NNP-10)
+				prep_from(earned/VBD-2,University/NNP-11)
+				prepc_while(earned/VBD-2,working/VBG-13)
+				det(co-op/NN-16,a/DT-15)
+				prep_on(working/VBG-13,co-op/NN-16)
+				det(Center/NNP-21,the/DT-18)
+				nn(Center/NNP-21,Johnson/NNP-19)
+				nn(Center/NNP-21,Space/NNP-20)
+				prep_at(co-op/NN-16,Center/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She earned an S.M. in Electrical Engineering and Computer Science from MIT in 1977.	</value>
+
+		<annotated-sentence>	She earned an S.M. in [[Electrical Engineering and Computer Science|Electrical_Engineering_and_Computer_Science]] from MIT in [[1977|1977]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She earned an S.M. in Electrical Engineering and Computer Science from MIT in 1977.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,She/PRP-1)
+				det(S.M./NNP-4,an/DT-3)
+				dobj(earned/VBD-2,S.M./NNP-4)
+				amod(Engineering/NNP-7,Electrical/JJ-6)
+				prep_in(earned/VBD-2,Engineering/NNP-7)
+				nn(Science/NNP-10,Computer/NNP-9)
+				prep_in(earned/VBD-2,Science/NNP-10)
+				conj_and(Engineering/NNP-7,Science/NNP-10)
+				prep_from(earned/VBD-2,MIT/NNP-12)
+				prep_in(MIT/NNP-12,1977/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Electrical Engineering and Computer Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electrical_Engineering_and_Computer_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After studying space physics at Rice University from 1977 to 1978, she went on to earn a doctorate in aeronautics/astronautics from MIT in 1987.	</value>
+
+		<annotated-sentence>	After studying [[space physics|Space_physics]] at [[Rice University|Rice_University]] from [[1977|1977]] to [[1978|Tsubasa_Otomiya]], she went on to earn [[a doctorate|Doctorate]] in aeronautics/astronautics from MIT in [[1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After studying space physics at Rice University from 1977 to 1978, she went on to earn a doctorate in aeronautics/astronautics from MIT in 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(went/VBD-14,studying/VBG-2)
+				nn(physics/NNS-4,space/NN-3)
+				dobj(studying/VBG-2,physics/NNS-4)
+				nn(University/NNP-7,Rice/NNP-6)
+				prep_at(studying/VBG-2,University/NNP-7)
+				num(1978/CD-11,1977/CD-9)
+				dep(1978/CD-11,to/TO-10)
+				prep_from(University/NNP-7,1978/CD-11)
+				nsubj(went/VBD-14,she/PRP-13)
+				prep(went/VBD-14,on/IN-15)
+				aux(earn/VB-17,to/TO-16)
+				xcomp(went/VBD-14,earn/VB-17)
+				det(doctorate/NN-19,a/DT-18)
+				dobj(earn/VB-17,doctorate/NN-19)
+				prep_in(doctorate/NN-19,aeronautics/astronautics/NNS-21)
+				prep_from(earn/VB-17,MIT/NNP-23)
+				prep_in(earn/VB-17,1987/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rice University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rice_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was selected as an astronaut candidate in 1990 and flew as a mission specialist on missions STS-57 (1993), STS-63 (1995), STS-83 (1997), STS-94 (1997) and STS-99 (2000).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Voss/NNP-1)
+				nsubjpass(flew/VBD-11,Voss/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(candidate/NN-7,an/DT-5)
+				nn(candidate/NN-7,astronaut/NN-6)
+				prep_as(selected/VBN-3,candidate/NN-7)
+				prep_in(candidate/NN-7,1990/CD-9)
+				conj_and(selected/VBN-3,flew/VBD-11)
+				det(specialist/NN-15,a/DT-13)
+				nn(specialist/NN-15,mission/NN-14)
+				prep_as(flew/VBD-11,specialist/NN-15)
+				nn(STS-57/NN-18,missions/NNS-17)
+				prep_on(flew/VBD-11,STS-57/NN-18)
+				appos(STS-57/NN-18,1993/CD-20)
+				prep_on(flew/VBD-11,STS-63/NN-23)
+				conj_and(STS-57/NN-18,STS-63/NN-23)
+				appos(STS-63/NN-23,1995/CD-25)
+				prep_on(flew/VBD-11,STS-83/NN-28)
+				conj_and(STS-57/NN-18,STS-83/NN-28)
+				appos(STS-83/NN-28,1997/CD-30)
+				prep_on(flew/VBD-11,STS-94/NN-33)
+				conj_and(STS-57/NN-18,STS-94/NN-33)
+				appos(STS-94/NN-33,1997/CD-35)
+				prep_on(flew/VBD-11,STS-99/NN-38)
+				conj_and(STS-57/NN-18,STS-99/NN-38)
+				appos(STS-99/NN-38,2000/CD-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	All of her flights included another female astronaut as well.	</value>
+
+		<annotated-sentence>	All of [[her flights|Flight]] included another female [[astronaut|Astronaut]] as well.	</annotated-sentence>
+
+		<pattern_crowdsource>	All of her flights included another female [[astronaut|Astronaut]] as well.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(included/VBD-5,All/DT-1)
+				poss(flights/NNS-4,her/PRP$-3)
+				prep_of(All/DT-1,flights/NNS-4)
+				det(astronaut/NN-8,another/DT-6)
+				amod(astronaut/NN-8,female/JJ-7)
+				dobj(included/VBD-5,astronaut/NN-8)
+				advmod(well/RB-10,as/RB-9)
+				advmod(included/VBD-5,well/RB-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>her flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Janice_E._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During her career as an astronaut, she participated in the first Shuttle rendezvous with the Mir space station on STS-63: it flew around the station, testing communications and inflight manoeuvres for later missions, but did not actually dock.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-3,her/PRP$-2)
+				prep_during(participated/VBD-9,career/NN-3)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(career/NN-3,astronaut/NN-6)
+				nsubj(participated/VBD-9,she/PRP-8)
+				det(rendezvous/NN-14,the/DT-11)
+				amod(rendezvous/NN-14,first/JJ-12)
+				nn(rendezvous/NN-14,Shuttle/NNP-13)
+				prep_in(participated/VBD-9,rendezvous/NN-14)
+				det(station/NN-19,the/DT-16)
+				nn(station/NN-19,Mir/NNS-17)
+				nn(station/NN-19,space/NN-18)
+				prep_with(rendezvous/NN-14,station/NN-19)
+				prep_on(participated/VBD-9,STS-63/NN-21)
+				nsubj(flew/VBD-24,it/PRP-23)
+				nsubj(did/VBD-39,it/PRP-23)
+				parataxis(participated/VBD-9,flew/VBD-24)
+				det(station/NN-27,the/DT-26)
+				prep_around(flew/VBD-24,station/NN-27)
+				nn(communications/NNS-30,testing/NN-29)
+				prep_around(flew/VBD-24,communications/NNS-30)
+				conj_and(station/NN-27,communications/NNS-30)
+				nn(manoeuvres/NNS-33,inflight/NN-32)
+				prep_around(flew/VBD-24,manoeuvres/NNS-33)
+				conj_and(station/NN-27,manoeuvres/NNS-33)
+				amod(missions/NNS-36,later/JJ-35)
+				prep_for(flew/VBD-24,missions/NNS-36)
+				parataxis(participated/VBD-9,did/VBD-39)
+				conj_but(flew/VBD-24,did/VBD-39)
+				neg(dock/NN-42,not/RB-40)
+				advmod(dock/NN-42,actually/RB-41)
+				dobj(did/VBD-39,dock/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As an STS-99 crew member on the Shuttle Radar Topography Mission, she and her fellow crew members worked continuously in shifts to produce what was at the time the most accurate digital topographical map of the Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(member/NN-5,an/DT-2)
+				nn(member/NN-5,STS-99/NN-3)
+				nn(member/NN-5,crew/NN-4)
+				prep_as(worked/VBD-19,member/NN-5)
+				det(Mission/NNP-11,the/DT-7)
+				nn(Mission/NNP-11,Shuttle/NNP-8)
+				nn(Mission/NNP-11,Radar/NNP-9)
+				nn(Mission/NNP-11,Topography/NNP-10)
+				prep_on(member/NN-5,Mission/NNP-11)
+				nsubj(worked/VBD-19,she/PRP-13)
+				poss(members/NNS-18,her/PRP$-15)
+				amod(members/NNS-18,fellow/JJ-16)
+				nn(members/NNS-18,crew/NN-17)
+				conj_and(she/PRP-13,members/NNS-18)
+				nsubj(worked/VBD-19,members/NNS-18)
+				advmod(worked/VBD-19,continuously/RB-20)
+				prep_in(worked/VBD-19,shifts/NNS-22)
+				aux(produce/VB-24,to/TO-23)
+				xcomp(worked/VBD-19,produce/VB-24)
+				nsubj(map/NN-35,what/WP-25)
+				cop(map/NN-35,was/VBD-26)
+				det(time/NN-29,the/DT-28)
+				prep_at(map/NN-35,time/NN-29)
+				det(map/NN-35,the/DT-30)
+				advmod(accurate/JJ-32,most/RBS-31)
+				amod(map/NN-35,accurate/JJ-32)
+				amod(map/NN-35,digital/JJ-33)
+				amod(map/NN-35,topographical/JJ-34)
+				ccomp(produce/VB-24,map/NN-35)
+				det(Earth/NNP-38,the/DT-37)
+				prep_of(map/NN-35,Earth/NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From October 2004 to November 2007, she was Science Director for NASA's Kepler Space Observatory, an Earth-orbiting satellite designed to find Earth-like extrasolar planets in nearby solar systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Director/NNP-11,October/NNP-2)
+				num(October/NNP-2,2004/CD-3)
+				prep_to(October/NNP-2,November/NNP-5)
+				num(November/NNP-5,2007/CD-6)
+				nsubj(Director/NNP-11,she/PRP-8)
+				cop(Director/NNP-11,was/VBD-9)
+				nn(Director/NNP-11,Science/NNP-10)
+				poss(Observatory/NNP-17,NASA/NNP-13)
+				nn(Observatory/NNP-17,Kepler/NNP-15)
+				nn(Observatory/NNP-17,Space/NNP-16)
+				prep_for(Director/NNP-11,Observatory/NNP-17)
+				det(satellite/NN-21,an/DT-19)
+				amod(satellite/NN-21,Earth-orbiting/JJ-20)
+				appos(Observatory/NNP-17,satellite/NN-21)
+				partmod(satellite/NN-21,designed/VBN-22)
+				aux(find/VB-24,to/TO-23)
+				xcomp(designed/VBN-22,find/VB-24)
+				amod(planets/NNS-27,Earth-like/JJ-25)
+				amod(planets/NNS-27,extrasolar/JJ-26)
+				dobj(find/VB-24,planets/NNS-27)
+				amod(systems/NNS-31,nearby/JJ-29)
+				amod(systems/NNS-31,solar/JJ-30)
+				prep_in(find/VB-24,systems/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was launched in March 2009 and was still operational at the time of her death at age 55 from breast cancer.	</value>
+
+		<annotated-sentence>	It was launched in [[March 2009|March_2009]] and was still operational at the time of [[her death|Death]] at age 55 from [[breast cancer|Breast_cancer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was launched in March 2009 and was still operational at the time of her death at age 55 from breast cancer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-3,It/PRP-1)
+				nsubj(operational/JJ-10,It/PRP-1)
+				auxpass(launched/VBN-3,was/VBD-2)
+				prep_in(launched/VBN-3,March/NNP-5)
+				num(March/NNP-5,2009/CD-6)
+				cop(operational/JJ-10,was/VBD-8)
+				advmod(operational/JJ-10,still/RB-9)
+				conj_and(launched/VBN-3,operational/JJ-10)
+				det(time/NN-13,the/DT-12)
+				prep_at(operational/JJ-10,time/NN-13)
+				poss(death/NN-16,her/PRP$-15)
+				prep_of(time/NN-13,death/NN-16)
+				prep_at(death/NN-16,age/NN-18)
+				num(age/NN-18,55/CD-19)
+				nn(cancer/NN-22,breast/NN-21)
+				prep_from(operational/JJ-10,cancer/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her death</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Death</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>breast cancer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Breast_cancer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the Astronaut Office Station Branch, she served as the Payloads Lead.	</value>
+
+		<annotated-sentence>	At the [[Astronaut Office|NASA_Astronaut_Corps]] [[Station|Station]] Branch, she served as [[the Payloads|Payload_(air_and_space_craft)]] [[Lead|Lead]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At the Astronaut Office Station Branch, she served as the Payloads Lead.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Branch/NNP-6,the/DT-2)
+				nn(Branch/NNP-6,Astronaut/NNP-3)
+				nn(Branch/NNP-6,Office/NNP-4)
+				nn(Branch/NNP-6,Station/NNP-5)
+				prep_at(served/VBD-9,Branch/NNP-6)
+				nsubj(served/VBD-9,she/PRP-8)
+				det(Payloads/NNPS-12,the/DT-11)
+				prep_as(served/VBD-9,Payloads/NNPS-12)
+				amod(Payloads/NNPS-12,Lead/JJ-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Payloads</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_(air_and_space_craft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She also worked for Orbital Sciences Corporation in flight operations support.	</value>
+
+		<annotated-sentence>	She also worked for [[Orbital Sciences Corporation|Orbital_Sciences_Corporation]] in [[flight operations|Flight_Operations]] support.	</annotated-sentence>
+
+		<pattern_crowdsource>	She also worked for Orbital Sciences Corporation in flight operations support.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,She/PRP-1)
+				advmod(worked/VBD-3,also/RB-2)
+				mark(support/VBP-11,for/IN-4)
+				nn(Corporation/NNP-7,Orbital/NNP-5)
+				nn(Corporation/NNP-7,Sciences/NNPS-6)
+				nsubj(support/VBP-11,Corporation/NNP-7)
+				nn(operations/NNS-10,flight/NN-9)
+				prep_in(Corporation/NNP-7,operations/NNS-10)
+				advcl(worked/VBD-3,support/VBP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Orbital Sciences Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbital_Sciences_Corporation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cystic fibrosis is a disease that causes thick, sticky mucus to build up in the lungs, digestive tract, and other areas of the body.</value>
+		<pattern_crowdsource> [[Cystic fibrosis|C0010674]] is a [[disease|C0012634]] that causes thick, sticky mucus to build up in the [[lungs|C0024109]], digestive tract, and other areas of the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cystic fibrosis</surface-form>
+				<RDF-ID>C0010674</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thick</surface-form>
+				<RDF-ID>C1280412</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mucus</surface-form>
+				<RDF-ID>C0026727</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>digestive tract</surface-form>
+				<RDF-ID>C0017189</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>areas</surface-form>
+				<RDF-ID>C1504310</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010674 ISA C0012634</triple>
+			<triple>C0024109 LOCATION_OF C0012634</triple>
+			<triple>C0024109 LOCATION_OF C0010674</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is one of the most common chronic lung diseases in children and young adults.</value>
+		<pattern_crowdsource> It is one of the most common [[chronic lung diseases|C0746102]] in [[children|C0008059]] and [[young adults|C0238598]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chronic lung diseases</surface-form>
+				<RDF-ID>C0746102</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>young adults</surface-form>
+				<RDF-ID>C0238598</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0746102 PROCESS_OF C0008059</triple>
+			<triple>C0746102 PROCESS_OF C0238598</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Trypsin and chymotrypsin are substances released from the pancreas during normal digestion.</value>
+		<pattern_crowdsource> [[Trypsin|C0041236]] and [[chymotrypsin|C0008742]] are substances released from the [[pancreas|C0030274]] during normal digestion.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Trypsin</surface-form>
+				<RDF-ID>C0041236</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chymotrypsin</surface-form>
+				<RDF-ID>C0008742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>substances</surface-form>
+				<RDF-ID>C0439861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>digestion</surface-form>
+				<RDF-ID>C0012238</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030274 LOCATION_OF C0008742</triple>
+			<triple>C0030274 LOCATION_OF C0041236</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>When the pancreas does not produce enough trypsin and chymotrypsin, smaller-than-normal amounts can be seen in a stool sample.</value>
+		<pattern_crowdsource> When the [[pancreas|C0030274]] does not produce enough [[trypsin|C0041236]] and [[chymotrypsin|C0008742]], smaller-than-normal amounts can be seen in a stool sample.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>trypsin</surface-form>
+				<RDF-ID>C0041236</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chymotrypsin</surface-form>
+				<RDF-ID>C0008742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>smaller</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amounts</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stool sample</surface-form>
+				<RDF-ID>C0475360</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030274 NEG_PRODUCES C0041236</triple>
+			<triple>C0030274 NEG_PRODUCES C0008742</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These tests are most often done in young children who are thought to have cystic fibrosis.</value>
+		<pattern_crowdsource> These tests are most often done in young [[children|C0008059]] who are thought to have [[cystic fibrosis|C0010674]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>young</surface-form>
+				<RDF-ID>C0332239</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cystic fibrosis</surface-form>
+				<RDF-ID>C0010674</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010674 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

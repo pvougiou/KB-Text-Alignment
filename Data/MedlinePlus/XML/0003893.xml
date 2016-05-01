@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Among other drugs, this includes:  - Aspirin  - Ibuprofen (Advil, Motrin)  - Naproxen (Naprosyn, Aleve)    Take only the medicines your doctor has told you to take before surgery, including prescription medicines.</value>
+		<pattern_crowdsource> Among other drugs, this includes:  - Aspirin  - [[Ibuprofen|C0020740]] ([[Advil|C0593507]], Motrin)  - [[Naproxen|C0027396]] ([[Naprosyn|C0700017]], Aleve)    Take only the medicines your [[doctor|C0031831]] has told you to take before [[surgery|C0543467]], including prescription medicines.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Naprosyn</surface-form>
+				<RDF-ID>C0700017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Aleve</surface-form>
+				<RDF-ID>C0718343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prescription</surface-form>
+				<RDF-ID>C0033080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0700017 ISA C0027396</triple>
+			<triple>C0543467 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor or nurse may have given you a medicated soap to use.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] or [[nurse|C0028661]] may have given you a medicated [[soap|C0037392]] to use.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nurse</surface-form>
+				<RDF-ID>C0028661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soap</surface-form>
+				<RDF-ID>C0037392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037392 ADMINISTERED_TO C0028661</triple>
+			<triple>C0037392 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

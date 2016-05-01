@@ -1,0 +1,1066 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Martin Joseph Fettman (B.S., D.V.M., M.S., Ph.D., Diplomate, ACVP) is an American pathologist and researcher who flew on NASA Space Shuttle mission STS-58 aboard the Space Shuttle Columbia as a Payload Specialist.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Fettman/NNP-3,Martin/NNP-1)
+				nn(Fettman/NNP-3,Joseph/NNP-2)
+				nsubj(pathologist/NN-20,Fettman/NNP-3)
+				nn(Diplomate/NNP-13,B.S./NNP-5)
+				appos(Diplomate/NNP-13,D.V.M./NNP-7)
+				appos(Diplomate/NNP-13,M.S./NNP-9)
+				appos(Diplomate/NNP-13,Ph.D./NNP-11)
+				dep(Fettman/NNP-3,Diplomate/NNP-13)
+				appos(Diplomate/NNP-13,ACVP/NN-15)
+				cop(pathologist/NN-20,is/VBZ-17)
+				det(pathologist/NN-20,an/DT-18)
+				amod(pathologist/NN-20,American/JJ-19)
+				conj_and(pathologist/NN-20,researcher/NN-22)
+				nsubj(flew/VBD-24,who/WP-23)
+				rcmod(pathologist/NN-20,flew/VBD-24)
+				nn(STS-58/NN-30,NASA/NNP-26)
+				nn(STS-58/NN-30,Space/NNP-27)
+				nn(STS-58/NN-30,Shuttle/NNP-28)
+				nn(STS-58/NN-30,mission/NN-29)
+				prep_on(flew/VBD-24,STS-58/NN-30)
+				det(Space/NN-33,the/DT-32)
+				prep_aboard(flew/VBD-24,Space/NN-33)
+				nn(Columbia/NNP-35,Shuttle/NNP-34)
+				dobj(flew/VBD-24,Columbia/NNP-35)
+				det(Specialist/NNP-39,a/DT-37)
+				nn(Specialist/NNP-39,Payload/NNP-38)
+				prep_as(Columbia/NNP-35,Specialist/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born December 31, 1956, Brooklyn, New York.	</value>
+
+		<annotated-sentence>	Born December 31, 1956, [[Brooklyn|Brooklyn]], [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born December 31, 1956, [[Brooklyn|Brooklyn]], [[New York|New_York]].	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,December/NNP-2)
+				num(December/NNP-2,31/CD-3)
+				num(December/NNP-2,1956/CD-5)
+				dobj(Born/VBN-1,Brooklyn/NNP-7)
+				nn(York/NNP-10,New/NNP-9)
+				appos(Brooklyn/NNP-7,York/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brooklyn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brooklyn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brooklyn http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to Heather Connally DVM DACVECC.	</value>
+
+		<annotated-sentence>	Married to Heather Connally DVM DACVECC.	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to Heather Connally DVM DACVECC.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(DACVECC/NNP-6,Heather/NNP-3)
+				nn(DACVECC/NNP-6,Connally/NNP-4)
+				nn(DACVECC/NNP-6,DVM/NNP-5)
+				prep_to(Married/JJ-1,DACVECC/NNP-6)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recreational interests include scuba diving, amateur radio, flying, bicycling, pistol marksmanship, camping and mountain hiking, photography, travel, reading (mysteries), and music (jazz and classical).	</value>
+
+		<annotated-sentence>	Recreational [[interests|Interest]] include [[scuba diving|Scuba_diving]], [[amateur radio|Amateur_radio]], flying, [[bicycling|Bicycling_(magazine)]], [[pistol|Pistol]] marksmanship, camping and mountain [[hiking|Hiking]], [[photography|Photography]], [[travel|Travel]], reading (mysteries), and [[music|Jazz]] ([[jazz and classical|Jazz_and_Classical]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Recreational interests include scuba diving, amateur radio, flying, bicycling, pistol marksmanship, camping and mountain hiking, photography, travel, reading (mysteries), and music (jazz and classical).	</pattern_crowdsource>
+
+
+		<tree>
+				amod(interests/NNS-2,Recreational/JJ-1)
+				nsubj(include/VBP-3,interests/NNS-2)
+				nn(diving/NN-5,scuba/NN-4)
+				nsubj(flying/VBG-10,diving/NN-5)
+				amod(radio/NN-8,amateur/JJ-7)
+				appos(diving/NN-5,radio/NN-8)
+				dep(include/VBP-3,flying/VBG-10)
+				dep(include/VBP-3,bicycling/NN-12)
+				nn(marksmanship/NN-15,pistol/NN-14)
+				appos(bicycling/NN-12,marksmanship/NN-15)
+				nn(hiking/NN-20,camping/NN-17)
+				conj_and(camping/NN-17,mountain/NN-19)
+				nn(hiking/NN-20,mountain/NN-19)
+				appos(bicycling/NN-12,hiking/NN-20)
+				appos(bicycling/NN-12,photography/NN-22)
+				appos(bicycling/NN-12,travel/NN-24)
+				appos(bicycling/NN-12,reading/NN-26)
+				appos(reading/NN-26,mysteries/NNS-28)
+				appos(bicycling/NN-12,music/NN-32)
+				conj_and(reading/NN-26,music/NN-32)
+				dep(music/NN-32,jazz/NN-34)
+				dep(music/NN-32,classical/JJ-36)
+				conj_and(jazz/NN-34,classical/JJ-36)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>amateur radio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amateur_radio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bicycling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bicycling_(magazine)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pistol</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pistol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hiking</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hiking</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>photography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>travel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Travel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>music</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jazz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jazz and classical</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jazz_and_Classical</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His mother, Mrs. Elaine Fettman Peck, resides in Brooklyn, New York, with his stepfather, Mr. Harold Peck.	</value>
+
+		<annotated-sentence>	His [[mother|Mother]], [[Mrs.|Mrs.]] Elaine [[Fettman|Martin_J._Fettman]] Peck, resides in [[Brooklyn|Brooklyn]], [[New York|New_York]], with his stepfather, Mr. Harold Peck.	</annotated-sentence>
+
+		<pattern_crowdsource>	His mother, Mrs. Elaine Fettman Peck, resides in [[Brooklyn|Brooklyn]], [[New York|New_York]], with his stepfather, Mr. Harold Peck.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mother/NN-2,His/PRP$-1)
+				nsubj(resides/VBZ-9,mother/NN-2)
+				nn(Peck/NNP-7,Mrs./NNP-4)
+				nn(Peck/NNP-7,Elaine/NNP-5)
+				nn(Peck/NNP-7,Fettman/NNP-6)
+				appos(mother/NN-2,Peck/NNP-7)
+				prep_in(resides/VBZ-9,Brooklyn/NNP-11)
+				nn(York/NNP-14,New/NNP-13)
+				appos(Brooklyn/NNP-11,York/NNP-14)
+				poss(stepfather/NN-18,his/PRP$-17)
+				prep_with(resides/VBZ-9,stepfather/NN-18)
+				nn(Peck/NNP-22,Mr./NNP-20)
+				nn(Peck/NNP-22,Harold/NNP-21)
+				appos(stepfather/NN-18,Peck/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mother</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mrs.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mrs.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fettman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Martin_J._Fettman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brooklyn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brooklyn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brooklyn http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His father, Mr. Bernard P. Fettman, is deceased.	</value>
+
+		<annotated-sentence>	His [[father|Father]], Mr. Bernard [[P.|P.]] [[Fettman|Martin_J._Fettman]], is deceased.	</annotated-sentence>
+
+		<pattern_crowdsource>	His father, Mr. Bernard P. Fettman, is deceased.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-2,His/PRP$-1)
+				nsubjpass(deceased/VBN-10,father/NN-2)
+				nn(Fettman/NNP-7,Mr./NNP-4)
+				nn(Fettman/NNP-7,Bernard/NNP-5)
+				nn(Fettman/NNP-7,P./NNP-6)
+				appos(father/NN-2,Fettman/NNP-7)
+				auxpass(deceased/VBN-10,is/VBZ-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>P.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/P.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fettman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Martin_J._Fettman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has published over 100 research articles in refereed scientific journals.	</value>
+
+		<annotated-sentence>	He has published over 100 [[research|Research]] articles in refereed [[scientific journals|Scientific_journal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has published over 100 research articles in refereed scientific journals.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(published/VBN-3,He/PRP-1)
+				aux(published/VBN-3,has/VBZ-2)
+				num(articles/NNS-7,100/CD-5)
+				nn(articles/NNS-7,research/NN-6)
+				prep_over(published/VBN-3,articles/NNS-7)
+				prepc_in(published/VBN-3,refereed/VBN-9)
+				amod(journals/NNS-11,scientific/JJ-10)
+				dobj(refereed/VBN-9,journals/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scientific journals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scientific_journal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fettman's first faculty appointment was 1982-1986 in the Department of Pathology of the College of Veterinary Medicine and Biomedical Sciences at Colorado State University, as an Assistant Professor of Clinical Pathology whose duties included teaching, research, and clinical service.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(appointment/NN-5,Fettman/NNP-1)
+				amod(appointment/NN-5,first/JJ-3)
+				nn(appointment/NN-5,faculty/NN-4)
+				nsubj(1982-1986/CD-7,appointment/NN-5)
+				cop(1982-1986/CD-7,was/VBD-6)
+				det(Department/NNP-10,the/DT-9)
+				prep_in(1982-1986/CD-7,Department/NNP-10)
+				prep_of(Department/NNP-10,Pathology/NNP-12)
+				det(College/NNP-15,the/DT-14)
+				prep_of(Pathology/NNP-12,College/NNP-15)
+				amod(Medicine/NN-18,Veterinary/JJ-17)
+				prep_of(College/NNP-15,Medicine/NN-18)
+				nn(Sciences/NNPS-21,Biomedical/NNP-20)
+				prep_of(Pathology/NNP-12,Sciences/NNPS-21)
+				conj_and(College/NNP-15,Sciences/NNPS-21)
+				nn(University/NNP-25,Colorado/NNP-23)
+				nn(University/NNP-25,State/NNP-24)
+				prep_at(Sciences/NNPS-21,University/NNP-25)
+				det(Professor/NNP-30,an/DT-28)
+				nn(Professor/NNP-30,Assistant/NNP-29)
+				prep_as(1982-1986/CD-7,Professor/NNP-30)
+				amod(Pathology/NN-33,Clinical/JJ-32)
+				prep_of(Professor/NNP-30,Pathology/NN-33)
+				dep(included/VBD-36,whose/WP$-34)
+				nsubj(included/VBD-36,duties/NNS-35)
+				dep(Professor/NNP-30,included/VBD-36)
+				dobj(included/VBD-36,teaching/NN-37)
+				dobj(included/VBD-36,research/NN-39)
+				conj_and(teaching/NN-37,research/NN-39)
+				amod(service/NN-43,clinical/JJ-42)
+				dobj(included/VBD-36,service/NN-43)
+				conj_and(teaching/NN-37,service/NN-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1983 to the present, he has held a joint appointment in the Department of Physiology at Colorado State University and his research and teaching interests have focused on selected aspects of the Pathophysiology of nutritional and metabolic diseases, with emphasis on the physiological biochemistry of energy, electrolyte, and fluid metabolism.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(held/VBN-9,1983/CD-2)
+				det(present/JJ-5,the/DT-4)
+				prep_to(1983/CD-2,present/JJ-5)
+				nsubj(held/VBN-9,he/PRP-7)
+				aux(held/VBN-9,has/VBZ-8)
+				det(appointment/NN-12,a/DT-10)
+				amod(appointment/NN-12,joint/JJ-11)
+				dobj(held/VBN-9,appointment/NN-12)
+				det(Department/NNP-15,the/DT-14)
+				prep_in(appointment/NN-12,Department/NNP-15)
+				prep_of(Department/NNP-15,Physiology/NNP-17)
+				nn(University/NNP-21,Colorado/NNP-19)
+				nn(University/NNP-21,State/NNP-20)
+				prep_at(held/VBN-9,University/NNP-21)
+				poss(research/NN-24,his/PRP$-23)
+				nsubj(focused/VBN-29,research/NN-24)
+				nn(interests/NNS-27,teaching/NN-26)
+				conj_and(research/NN-24,interests/NNS-27)
+				nsubj(focused/VBN-29,interests/NNS-27)
+				aux(focused/VBN-29,have/VBP-28)
+				conj_and(held/VBN-9,focused/VBN-29)
+				amod(aspects/NNS-32,selected/VBN-31)
+				prep_on(focused/VBN-29,aspects/NNS-32)
+				det(Pathophysiology/NN-35,the/DT-34)
+				prep_of(aspects/NNS-32,Pathophysiology/NN-35)
+				amod(diseases/NNS-40,nutritional/JJ-37)
+				conj_and(nutritional/JJ-37,metabolic/JJ-39)
+				amod(diseases/NNS-40,metabolic/JJ-39)
+				prep_of(Pathophysiology/NN-35,diseases/NNS-40)
+				prep_with(aspects/NNS-32,emphasis/NN-43)
+				det(biochemistry/NN-47,the/DT-45)
+				amod(biochemistry/NN-47,physiological/JJ-46)
+				prep_on(aspects/NNS-32,biochemistry/NN-47)
+				nn(electrolyte/NN-51,energy/NN-49)
+				prep_of(biochemistry/NN-47,electrolyte/NN-51)
+				nn(metabolism/NN-55,fluid/NN-54)
+				prep_of(biochemistry/NN-47,metabolism/NN-55)
+				conj_and(electrolyte/NN-51,metabolism/NN-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1986 he was promoted to Associate Professor, and in 1988 assumed the duties of section chief of Clinical Pathology in the Veterinary Teaching Hospital at Colorado State University.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(promoted/VBN-5,1986/CD-2)
+				nsubjpass(promoted/VBN-5,he/PRP-3)
+				nsubjpass(assumed/VBD-13,he/PRP-3)
+				auxpass(promoted/VBN-5,was/VBD-4)
+				nn(Professor/NNP-8,Associate/NNP-7)
+				prep_to(promoted/VBN-5,Professor/NNP-8)
+				prep_in(assumed/VBD-13,1988/CD-12)
+				conj_and(promoted/VBN-5,assumed/VBD-13)
+				det(duties/NNS-15,the/DT-14)
+				dobj(assumed/VBD-13,duties/NNS-15)
+				nn(chief/NN-18,section/NN-17)
+				prep_of(duties/NNS-15,chief/NN-18)
+				amod(Pathology/NN-21,Clinical/JJ-20)
+				prep_of(chief/NN-18,Pathology/NN-21)
+				det(Hospital/NNP-26,the/DT-23)
+				amod(Hospital/NNP-26,Veterinary/JJ-24)
+				nn(Hospital/NNP-26,Teaching/NNP-25)
+				prep_in(Pathology/NN-21,Hospital/NNP-26)
+				nn(University/NNP-30,Colorado/NNP-28)
+				nn(University/NNP-30,State/NNP-29)
+				prep_at(assumed/VBD-13,University/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fettman spent one year (1989–1990) on sabbatical leave as a Visiting Professor of Medicine at The Queen Elizabeth Hospital and the University of Adelaide, South Australia, where he worked with the Gastroenterology Unit studying the biochemical epidemiology of human colorectal cancer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,Fettman/NNP-1)
+				num(year/NN-4,one/CD-3)
+				dobj(spent/VBD-2,year/NN-4)
+				dep(year/NN-4,1989/CD-6)
+				dep(1989/CD-6,1990/CD-8)
+				amod(leave/NN-12,sabbatical/JJ-11)
+				prep_on(year/NN-4,leave/NN-12)
+				det(Professor/NNP-16,a/DT-14)
+				amod(Professor/NNP-16,Visiting/VBG-15)
+				prep_as(leave/NN-12,Professor/NNP-16)
+				prep_of(year/NN-4,Medicine/NNP-18)
+				det(Hospital/NNP-23,The/DT-20)
+				nn(Hospital/NNP-23,Queen/NNP-21)
+				nn(Hospital/NNP-23,Elizabeth/NNP-22)
+				prep_at(Medicine/NNP-18,Hospital/NNP-23)
+				det(University/NNP-26,the/DT-25)
+				prep_of(year/NN-4,University/NNP-26)
+				conj_and(Medicine/NNP-18,University/NNP-26)
+				prep_of(University/NNP-26,Adelaide/NNP-28)
+				nn(Australia/NNP-31,South/NNP-30)
+				appos(year/NN-4,Australia/NNP-31)
+				advmod(worked/VBD-35,where/WRB-33)
+				nsubj(worked/VBD-35,he/PRP-34)
+				rcmod(year/NN-4,worked/VBD-35)
+				det(Unit/NNP-39,the/DT-37)
+				nn(Unit/NNP-39,Gastroenterology/NNP-38)
+				prep_with(worked/VBD-35,Unit/NNP-39)
+				xcomp(worked/VBD-35,studying/VBG-40)
+				det(epidemiology/NN-43,the/DT-41)
+				amod(epidemiology/NN-43,biochemical/JJ-42)
+				dobj(studying/VBG-40,epidemiology/NN-43)
+				amod(cancer/NN-47,human/JJ-45)
+				amod(cancer/NN-47,colorectal/JJ-46)
+				prep_of(epidemiology/NN-43,cancer/NN-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was appointed to the Mark L. Morris Chair in Clinical Nutrition at Colorado State University and received a joint appointment in the Department of Clinical Sciences in 1991, and was promoted to Full Professor of Pathology in 1992.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(appointed/VBN-3,He/PRP-1)
+				nsubjpass(received/VBD-18,He/PRP-1)
+				nsubjpass(promoted/VBN-33,He/PRP-1)
+				auxpass(appointed/VBN-3,was/VBD-2)
+				det(Chair/NNP-9,the/DT-5)
+				nn(Chair/NNP-9,Mark/NNP-6)
+				nn(Chair/NNP-9,L./NNP-7)
+				nn(Chair/NNP-9,Morris/NNP-8)
+				prep_to(appointed/VBN-3,Chair/NNP-9)
+				amod(Nutrition/NNP-12,Clinical/JJ-11)
+				prep_in(appointed/VBN-3,Nutrition/NNP-12)
+				nn(University/NNP-16,Colorado/NNP-14)
+				nn(University/NNP-16,State/NNP-15)
+				prep_at(appointed/VBN-3,University/NNP-16)
+				conj_and(appointed/VBN-3,received/VBD-18)
+				det(appointment/NN-21,a/DT-19)
+				amod(appointment/NN-21,joint/JJ-20)
+				dobj(received/VBD-18,appointment/NN-21)
+				det(Department/NNP-24,the/DT-23)
+				prep_in(received/VBD-18,Department/NNP-24)
+				amod(Sciences/NNPS-27,Clinical/JJ-26)
+				prep_of(Department/NNP-24,Sciences/NNPS-27)
+				prep_in(received/VBD-18,1991/CD-29)
+				auxpass(promoted/VBN-33,was/VBD-32)
+				conj_and(appointed/VBN-3,promoted/VBN-33)
+				amod(Professor/NNP-36,Full/JJ-35)
+				prep_to(promoted/VBN-33,Professor/NNP-36)
+				prep_of(Professor/NNP-36,Pathology/NNP-38)
+				prep_in(promoted/VBN-33,1992/CD-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fettman is a George H. Glover distinguished faculty member of the College of Veterinary Medicine and Biomedical Sciences and was named the 1994 Sigma Xi honored scientist at Colorado State University, the 1994 Spencer T. and Ann W. Olin Lecturer at Cornell University, and a Bard College Distinguished Scientist for 1995.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Glover/NNP-6,Fettman/NNP-1)
+				cop(Glover/NNP-6,is/VBZ-2)
+				det(Glover/NNP-6,a/DT-3)
+				nn(Glover/NNP-6,George/NNP-4)
+				nn(Glover/NNP-6,H./NNP-5)
+				rcmod(Glover/NNP-6,distinguished/VBD-7)
+				nn(member/NN-9,faculty/NN-8)
+				dobj(distinguished/VBD-7,member/NN-9)
+				det(College/NNP-12,the/DT-11)
+				prep_of(member/NN-9,College/NNP-12)
+				amod(Medicine/NN-15,Veterinary/JJ-14)
+				prep_of(College/NNP-12,Medicine/NN-15)
+				nn(Sciences/NNPS-18,Biomedical/NNP-17)
+				prep_of(College/NNP-12,Sciences/NNPS-18)
+				conj_and(Medicine/NN-15,Sciences/NNPS-18)
+				auxpass(named/VBN-21,was/VBD-20)
+				rcmod(Glover/NNP-6,named/VBN-21)
+				conj_and(distinguished/VBD-7,named/VBN-21)
+				det(Xi/NN-25,the/DT-22)
+				num(Xi/NN-25,1994/CD-23)
+				nn(Xi/NN-25,Sigma/NNP-24)
+				dobj(named/VBN-21,Xi/NN-25)
+				rcmod(Xi/NN-25,honored/VBD-26)
+				dobj(honored/VBD-26,scientist/NN-27)
+				nn(University/NNP-31,Colorado/NNP-29)
+				nn(University/NNP-31,State/NNP-30)
+				prep_at(honored/VBD-26,University/NNP-31)
+				det(T./NNP-36,the/DT-33)
+				num(T./NNP-36,1994/CD-34)
+				nn(T./NNP-36,Spencer/NNP-35)
+				prep_at(honored/VBD-26,T./NNP-36)
+				conj_and(University/NNP-31,T./NNP-36)
+				nn(Lecturer/NNP-41,Ann/NNP-38)
+				nn(Lecturer/NNP-41,W./NNP-39)
+				nn(Lecturer/NNP-41,Olin/NNP-40)
+				prep_at(honored/VBD-26,Lecturer/NNP-41)
+				conj_and(University/NNP-31,Lecturer/NNP-41)
+				nn(University/NNP-44,Cornell/NNP-43)
+				prep_at(honored/VBD-26,University/NNP-44)
+				det(Scientist/NNP-51,a/DT-47)
+				nn(Scientist/NNP-51,Bard/NNP-48)
+				nn(Scientist/NNP-51,College/NNP-49)
+				nn(Scientist/NNP-51,Distinguished/NNP-50)
+				dobj(named/VBN-21,Scientist/NNP-51)
+				conj_and(Xi/NN-25,Scientist/NNP-51)
+				prep_for(Scientist/NNP-51,1995/CD-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fettman was selected as a NASA payload specialist candidate in December 1991, as the prime payload specialist for Spacelab Life Sciences-2 in October 1992.	</value>
+
+		<annotated-sentence>	[[Fettman|Martin_J._Fettman]] was selected as a [[NASA|NASA]] [[payload specialist|Payload_Specialist]] [[candidate|Candidate]] in [[December 1991|1991]], as the prime [[payload specialist|Payload_Specialist]] for [[Spacelab|Spacelab]] Life Sciences-2 in [[October 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fettman was selected as a NASA payload specialist candidate in December 1991, as the prime payload specialist for Spacelab Life Sciences-2 in October 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Fettman/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(candidate/NN-9,a/DT-5)
+				nn(candidate/NN-9,NASA/NNP-6)
+				nn(candidate/NN-9,payload/NN-7)
+				nn(candidate/NN-9,specialist/NN-8)
+				prep_as(selected/VBN-3,candidate/NN-9)
+				prep_in(selected/VBN-3,December/NNP-11)
+				num(December/NNP-11,1991/CD-12)
+				det(specialist/NN-18,the/DT-15)
+				amod(specialist/NN-18,prime/JJ-16)
+				nn(specialist/NN-18,payload/NN-17)
+				prep_as(selected/VBN-3,specialist/NN-18)
+				nn(Sciences-2/NN-22,Spacelab/NNP-20)
+				nn(Sciences-2/NN-22,Life/NNP-21)
+				prep_for(specialist/NN-18,Sciences-2/NN-22)
+				prep_in(Sciences-2/NN-22,October/NNP-24)
+				num(October/NNP-24,1992/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fettman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Martin_J._Fettman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then flew on STS-58 in October 1993.	</value>
+
+		<annotated-sentence>	He then flew on [[STS-58|STS-58]] in [[October 1993|1993]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then flew on [[STS-58|STS-58]] in October 1993.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-3,He/PRP-1)
+				advmod(flew/VBD-3,then/RB-2)
+				prep_on(flew/VBD-3,STS-58/NN-5)
+				prep_in(flew/VBD-3,October/NNP-7)
+				num(October/NNP-7,1993/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-58</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-58</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Martin_J._Fettman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-58
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-58 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Martin_J._Fettman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-58 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Martin_J._Fettman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since the flight, he has made over seventy public appearances representing space life sciences research before higher education, medical, veterinary, and lay organizations, and visited over twenty K-12 schools around the United States and Canada.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,the/DT-2)
+				prep_since(made/VBN-7,flight/NN-3)
+				nsubj(made/VBN-7,he/PRP-5)
+				nsubj(lay/VBD-26,he/PRP-5)
+				nsubj(visited/VBD-30,he/PRP-5)
+				aux(made/VBN-7,has/VBZ-6)
+				prt(made/VBN-7,over/RP-8)
+				num(appearances/NNS-11,seventy/CD-9)
+				amod(appearances/NNS-11,public/JJ-10)
+				dobj(made/VBN-7,appearances/NNS-11)
+				xcomp(made/VBN-7,representing/VBG-12)
+				nn(research/NN-16,space/NN-13)
+				nn(research/NN-16,life/NN-14)
+				nn(research/NN-16,sciences/NNS-15)
+				dobj(representing/VBG-12,research/NN-16)
+				amod(education/NN-19,higher/JJR-18)
+				prep_before(research/NN-16,education/NN-19)
+				appos(education/NN-19,medical/JJ-21)
+				appos(medical/JJ-21,veterinary/JJ-23)
+				conj_and(made/VBN-7,lay/VBD-26)
+				dobj(lay/VBD-26,organizations/NNS-27)
+				conj_and(made/VBN-7,visited/VBD-30)
+				num(schools/NNS-34,twenty/CD-32)
+				nn(schools/NNS-34,K-12/NN-33)
+				prep_over(visited/VBD-30,schools/NNS-34)
+				det(States/NNPS-38,the/DT-36)
+				nn(States/NNPS-38,United/NNP-37)
+				prep_around(visited/VBD-30,States/NNPS-38)
+				prep_around(visited/VBD-30,Canada/NNP-40)
+				conj_and(States/NNPS-38,Canada/NNP-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is presently a member of the NASA Advisory Council Life and Biomedical Sciences and Applications Advisory Subcommittee.	</value>
+
+		<annotated-sentence>	He is presently a member of the [[NASA Advisory Council|NASA]] Life and [[Biomedical Sciences|Biomedical_scientist]] and Applications Advisory [[Subcommittee|Subcommittee_(Cragg)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is presently a member of the NASA Advisory Council Life and Biomedical Sciences and Applications Advisory Subcommittee.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,is/VBZ-2)
+				advmod(member/NN-5,presently/RB-3)
+				det(member/NN-5,a/DT-4)
+				det(Life/NNP-11,the/DT-7)
+				nn(Life/NNP-11,NASA/NNP-8)
+				nn(Life/NNP-11,Advisory/NNP-9)
+				nn(Life/NNP-11,Council/NNP-10)
+				prep_of(member/NN-5,Life/NNP-11)
+				nn(Sciences/NNPS-14,Biomedical/NNP-13)
+				conj_and(member/NN-5,Sciences/NNPS-14)
+				conj_and(member/NN-5,Applications/NNS-16)
+				conj_and(Sciences/NNPS-14,Applications/NNS-16)
+				nn(Subcommittee/NNP-18,Advisory/NNP-17)
+				dep(Applications/NNS-16,Subcommittee/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA Advisory Council</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Biomedical Sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biomedical_scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Subcommittee</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Subcommittee_(Cragg)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Right heart ventriculography is a study that images the right chambers (atrium and ventricle) of the heart.</value>
+		<pattern_crowdsource> Right [[heart ventriculography|C0596683]] is a study that [[images|C0025086]] the right chambers (atrium and ventricle) of the heart.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart ventriculography</surface-form>
+				<RDF-ID>C0596683</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>study</surface-form>
+				<RDF-ID>C0008972</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>images</surface-form>
+				<RDF-ID>C0025086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chambers</surface-form>
+				<RDF-ID>C0179874</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>atrium</surface-form>
+				<RDF-ID>C1280619</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ventricle</surface-form>
+				<RDF-ID>C0007799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0596683 ISA C0025086</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Then a catheter will be inserted into a vein in your neck or groin.</value>
+		<pattern_crowdsource> Then a catheter will be inserted into a [[vein|C0042449]] in your [[neck|C0027530]] or [[groin|C0018246]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027530 LOCATION_OF C0042449</triple>
+			<triple>C0018246 LOCATION_OF C0042449</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

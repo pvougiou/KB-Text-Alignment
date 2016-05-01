@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Acute bronchitis is swelling and inflammation in the main passages that carry air to the lungs.</value>
+		<pattern_crowdsource> [[Acute bronchitis|C0149514]] is swelling and [[inflammation|C0021368]] in the main passages that carry air to the lungs.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Acute bronchitis</surface-form>
+				<RDF-ID>C0149514</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>air</surface-form>
+				<RDF-ID>C0001861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0149514 ISA C0021368</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Another symptom of bronchitis is a cough.</value>
+		<pattern_crowdsource> Another [[symptom|C1457887]] of bronchitis is a [[cough|C0010200]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptom</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bronchitis</surface-form>
+				<RDF-ID>C0006277</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cough</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010200 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The bronchitis infection is caused by a virus.</value>
+		<pattern_crowdsource> The [[bronchitis|C0006277]] [[infection|C0009450]] is caused by a [[virus|C0042776]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bronchitis</surface-form>
+				<RDF-ID>C0006277</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042776</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006277 ISA C0009450</triple>
+			<triple>C0042776 CAUSES C0009450</triple>
+			<triple>C0042776 CAUSES C0006277</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

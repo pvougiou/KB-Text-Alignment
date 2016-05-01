@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Diphenoxylate is a weak opioid, a class of drugs that includes morphine and other narcotics.</value>
+		<pattern_crowdsource> [[Diphenoxylate|C0012525]] is a weak opioid, a class of [[drugs|C0013227]] that includes [[morphine|C0026549]] and other [[narcotics|C0027415]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Diphenoxylate</surface-form>
+				<RDF-ID>C0012525</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weak</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>opioid</surface-form>
+				<RDF-ID>C0242402</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>class</surface-form>
+				<RDF-ID>C0456387</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>morphine</surface-form>
+				<RDF-ID>C0026549</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>narcotics</surface-form>
+				<RDF-ID>C0027415</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012525 ISA C0013227</triple>
+			<triple>C0026549 ISA C0027415</triple>
+			<triple>C0027415 ISA C0026549</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>However, deaths may occur in young children.</value>
+		<pattern_crowdsource> However, [[deaths|C1306577]] may occur in young [[children|C0008059]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>deaths</surface-form>
+				<RDF-ID>C1306577</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>young</surface-form>
+				<RDF-ID>C0332239</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1306577 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>People with this condition cannot eat gluten because it triggers an immune response that damages the lining of their stomach.</value>
+		<pattern_crowdsource> People with this condition cannot eat [[gluten|C0017842]] because it triggers an [[immune response|C0301872]] that damages the lining of their stomach.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>condition</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten</surface-form>
+				<RDF-ID>C0017842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune response</surface-form>
+				<RDF-ID>C0301872</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017842 CAUSES C0301872</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This response causes inflammation in the small intestine and makes it hard for the body to absorb nutrients in food.</value>
+		<pattern_crowdsource> This response causes [[inflammation|C0021368]] in the [[small intestine|C0021852]] and makes it hard for the body to absorb nutrients in food.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>response</surface-form>
+				<RDF-ID>C0871261</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hard</surface-form>
+				<RDF-ID>C0018599</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nutrients</surface-form>
+				<RDF-ID>C0678695</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>food</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021852 LOCATION_OF C0021368</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People with gluten sensitivity do not have celiac disease.</value>
+		<pattern_crowdsource> [[People|C0027361]] with [[gluten sensitivity|C0850024]] do not have [[celiac disease|C0007570]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten sensitivity</surface-form>
+				<RDF-ID>C0850024</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>celiac disease</surface-form>
+				<RDF-ID>C0007570</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0850024 PROCESS_OF C0027361</triple>
+			<triple>C0007570 NEG_PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Eating gluten causes many of the same symptoms as in celiac disease, without the stomach damage.</value>
+		<pattern_crowdsource> Eating gluten causes many of the same [[symptoms|C1457887]] as in [[celiac disease|C0007570]], without the stomach damage.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Eating</surface-form>
+				<RDF-ID>C0013470</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten</surface-form>
+				<RDF-ID>C0017842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>celiac disease</surface-form>
+				<RDF-ID>C0007570</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 ASSOCIATED_WITH C0007570</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This describes people who have symptoms and may or may not have celiac disease.</value>
+		<pattern_crowdsource> This describes [[people|C0027361]] who have [[symptoms|C1457887]] and may or may not have [[celiac disease|C0007570]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>celiac disease</surface-form>
+				<RDF-ID>C0007570</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+			<triple>C0007570 NEG_PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Many foods are naturally gluten-free, including:  - Fruits and vegetables  - Meat, fish, poultry, and eggs  - Beans  - Nuts and seeds  - Dairy products    Other grains and starches are fine to eat, as long as they do not come boxed with seasonings:  - Quinoa  - Amaranth  - Buckwheat  - Cornmeal  - Millet  - Rice    You can also buy gluten-free versions of foods such as bread, flour, crackers, and cereals.</value>
+		<pattern_crowdsource> Many [[foods|C0016452]] are naturally gluten-free, including:  - [[Fruits|C0016767]] and vegetables  - [[Meat|C0025017]], fish, [[poultry|C0032850]], and eggs  - Beans  - [[Nuts|C0028723]] and seeds  - [[Dairy products|C0010947]]    Other grains and starches are fine to eat, as long as they do not come boxed with seasonings:  - Quinoa  - Amaranth  - Buckwheat  - Cornmeal  - Millet  - Rice    You can also buy gluten-free versions of [[foods|C0016452]] such as [[bread|C0006138]], [[flour|C0016260]], [[crackers|C0452505]], and [[cereals|C0007757]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>foods</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten-</surface-form>
+				<RDF-ID>C0017842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Fruits</surface-form>
+				<RDF-ID>C0016767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vegetables</surface-form>
+				<RDF-ID>C0042440</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Meat</surface-form>
+				<RDF-ID>C0025017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fish</surface-form>
+				<RDF-ID>C0016163</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poultry</surface-form>
+				<RDF-ID>C0032850</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eggs</surface-form>
+				<RDF-ID>C0013710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Beans</surface-form>
+				<RDF-ID>C0004896</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Nuts</surface-form>
+				<RDF-ID>C0028723</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seeds</surface-form>
+				<RDF-ID>C0036563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Dairy products</surface-form>
+				<RDF-ID>C0010947</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>grains</surface-form>
+				<RDF-ID>C0007757</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>starches</surface-form>
+				<RDF-ID>C0038179</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long</surface-form>
+				<RDF-ID>C0205166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seasonings</surface-form>
+				<RDF-ID>C0349383</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Quinoa</surface-form>
+				<RDF-ID>C1504609</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Buckwheat</surface-form>
+				<RDF-ID>C0330394</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cornmeal</surface-form>
+				<RDF-ID>C0458983</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Millet</surface-form>
+				<RDF-ID>C0026145</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Rice</surface-form>
+				<RDF-ID>C0035567</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gluten-</surface-form>
+				<RDF-ID>C0017842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>versions</surface-form>
+				<RDF-ID>C0333052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>foods</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bread</surface-form>
+				<RDF-ID>C0006138</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flour</surface-form>
+				<RDF-ID>C0016260</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>crackers</surface-form>
+				<RDF-ID>C0452505</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cereals</surface-form>
+				<RDF-ID>C0007757</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016767 ISA C0016452</triple>
+			<triple>C0010947 ISA C0016452</triple>
+			<triple>C0032850 ISA C0016452</triple>
+			<triple>C0025017 ISA C0016452</triple>
+			<triple>C0028723 ISA C0016452</triple>
+			<triple>C0006138 ISA C0016452</triple>
+			<triple>C0007757 ISA C0016452</triple>
+			<triple>C0452505 ISA C0016452</triple>
+			<triple>C0016260 ISA C0016452</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Keep in mind that they are often higher in sugar and calories and lower in fiber than the foods they replace.</value>
+		<pattern_crowdsource> Keep in mind that they are often higher in [[sugar|C0242209]] and calories and lower in [[fiber|C0225326]] than the foods they replace.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>calories</surface-form>
+				<RDF-ID>C0439259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lower</surface-form>
+				<RDF-ID>C0441994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fiber</surface-form>
+				<RDF-ID>C0225326</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>foods</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0242209 COEXISTS_WITH C0225326</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

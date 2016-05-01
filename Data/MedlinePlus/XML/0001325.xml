@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The ear canal is lined with hair follicles and glands that produce a waxy oil called cerumen.</value>
+		<pattern_crowdsource> The [[ear canal|C0013444]] is lined with [[hair follicles|C0221971]] and [[glands|C1285092]] that produce a waxy [[oil|C0028908]] called cerumen.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ear canal</surface-form>
+				<RDF-ID>C0013444</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hair follicles</surface-form>
+				<RDF-ID>C0221971</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glands</surface-form>
+				<RDF-ID>C1285092</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>waxy</surface-form>
+				<RDF-ID>C0740486</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oil</surface-form>
+				<RDF-ID>C0028908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cerumen</surface-form>
+				<RDF-ID>C0740486</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0221971 PART_OF C0013444</triple>
+			<triple>C1285092 PART_OF C0013444</triple>
+			<triple>C1285092 PRODUCES C0028908</triple>
+			<triple>C0221971 PRODUCES C0028908</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

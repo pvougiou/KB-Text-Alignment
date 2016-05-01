@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Empyema is usually caused by an infection that spreads from the lung.</value>
+		<pattern_crowdsource> [[Empyema|C0014009]] is usually caused by an [[infection|C0009450]] that spreads from the lung.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Empyema</surface-form>
+				<RDF-ID>C0014009</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014009 ISA C0009450</triple>
+			<triple>C0009450 CAUSES C0014009</triple>
+			<triple>C0014009 CAUSES C0014009</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It leads to a buildup of pus in the pleural space.</value>
+		<pattern_crowdsource> It leads to a buildup of [[pus|C0034161]] in the [[pleural space|C0489872]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pus</surface-form>
+				<RDF-ID>C0034161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleural space</surface-form>
+				<RDF-ID>C0489872</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0489872 LOCATION_OF C0034161</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Sumter Bull (September 25, 1934 – August 11, 2008) was a U.S. Navy test pilot, aeronautical engineer, and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[John Sumter Bull|John_S._Bull]] ([[September|September]] 25, 1934 – August 11, 2008) was a [[U.S.|United_States]] [[Navy|United_States_Navy]] [[test pilot|Test_pilot]], [[aeronautical engineer|Aerospace_engineering]], and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[John Sumter Bull|John_S._Bull]] (September 25, 1934 – August 11, 2008) was a [[U.S.|United_States]] [[Navy|United_States_Navy]] [[test pilot|Test_pilot]], aeronautical engineer, and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Bull/NNP-3,John/NNP-1)
+				nn(Bull/NNP-3,Sumter/NNP-2)
+				nsubj(pilot/NN-20,Bull/NNP-3)
+				dep(Bull/NNP-3,September/NNP-5)
+				num(September/NNP-5,25/CD-6)
+				num(September/NNP-5,1934/CD-8)
+				dep(September/NNP-5,August/NNP-10)
+				num(August/NNP-10,11/CD-11)
+				num(August/NNP-10,2008/CD-13)
+				cop(pilot/NN-20,was/VBD-15)
+				det(pilot/NN-20,a/DT-16)
+				nn(pilot/NN-20,U.S./NNP-17)
+				nn(pilot/NN-20,Navy/NNP-18)
+				nn(pilot/NN-20,test/NN-19)
+				amod(engineer/NN-23,aeronautical/JJ-22)
+				conj_and(pilot/NN-20,engineer/NN-23)
+				det(astronaut/NN-28,a/DT-26)
+				nn(astronaut/NN-28,NASA/NNP-27)
+				conj_and(pilot/NN-20,astronaut/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>John Sumter Bull</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_S._Bull</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aeronautical engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Bull attended primary and secondary schools in Memphis, Tennessee, and graduated in 1952 from Central High School.	</value>
+
+		<annotated-sentence>	Bull attended [[primary and secondary|Primary_and_secondary_(relationship)]] schools in [[Memphis , Tennessee ,|Akron,_Ohio]]nd graduated in [[1952|1952_(album)]] from Central High School.	</annotated-sentence>
+
+		<pattern_crowdsource>	Bull attended primary and secondary schools in Memphis, Tennessee, and graduated in 1952 from Central High School.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Bull/NN-1)
+				nsubj(graduated/VBD-13,Bull/NN-1)
+				amod(schools/NNS-6,primary/JJ-3)
+				conj_and(primary/JJ-3,secondary/JJ-5)
+				amod(schools/NNS-6,secondary/JJ-5)
+				dobj(attended/VBD-2,schools/NNS-6)
+				nn(Tennessee/NNP-10,Memphis/NNP-8)
+				prep_in(attended/VBD-2,Tennessee/NNP-10)
+				conj_and(attended/VBD-2,graduated/VBD-13)
+				prep_in(graduated/VBD-13,1952/CD-15)
+				nn(School/NNP-19,Central/NNP-17)
+				nn(School/NNP-19,High/NNP-18)
+				prep_from(graduated/VBD-13,School/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>primary and secondary</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Primary_and_secondary_(relationship)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Memphis , Tennessee ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1952</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1952_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a bachelor of science degree in Mechanical Engineering from Rice University in 1957 before joining the Navy in June of that same year.	</value>
+
+		<annotated-sentence>	He received [[a bachelor of science degree|Bachelor_of_Science]] in [[Mechanical Engineering|Mechanical_engineering]] from [[Rice University|Rice_University]] in [[1957|1957]] before joining [[the Navy|Navy]] in June of [[that same year|Year]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received a bachelor of science degree in Mechanical Engineering from Rice University in [[1957|1957]] before joining the Navy in June of [[that same year|Year]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,bachelor/NN-4)
+				nn(degree/NN-7,science/NN-6)
+				prep_of(bachelor/NN-4,degree/NN-7)
+				amod(Engineering/NNP-10,Mechanical/JJ-9)
+				prep_in(received/VBD-2,Engineering/NNP-10)
+				nn(University/NNP-13,Rice/NNP-12)
+				prep_from(received/VBD-2,University/NNP-13)
+				prep_in(University/NNP-13,1957/CD-15)
+				prepc_before(received/VBD-2,joining/VBG-17)
+				det(Navy/NNP-19,the/DT-18)
+				dobj(joining/VBG-17,Navy/NNP-19)
+				prep_in(joining/VBG-17,June/NNP-21)
+				det(year/NN-25,that/DT-23)
+				amod(year/NN-25,same/JJ-24)
+				prep_of(June/NNP-21,year/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a bachelor of science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mechanical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rice University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rice_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1957</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1957</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>that same year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1957 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Bull was a Navy fighter pilot with the VF-114 squadron aboard the carriers USS Ranger, USS Hancock, and USS Kitty Hawk.	</value>
+
+		<annotated-sentence>	Bull was a [[Navy|United_States_Navy]] [[fighter pilot|Fighter_pilot]] with the [[VF-114|VF-114]] squadron aboard [[the carriers|Aircraft_carrier]] [[USS Ranger|USS_Ranger_(CV-4)]], [[USS Hancock|USS_Hancock]], and [[USS Kitty Hawk|USS_Kitty_Hawk]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Bull was a [[Navy|United_States_Navy]] [[fighter pilot|Fighter_pilot]] with the [[VF-114|VF-114]] squadron aboard [[the carriers|Aircraft_carrier]] [[USS Ranger|USS_Ranger_(CV-4)]], USS Hancock, and USS Kitty Hawk.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-6,Bull/NN-1)
+				cop(pilot/NN-6,was/VBD-2)
+				det(pilot/NN-6,a/DT-3)
+				nn(pilot/NN-6,Navy/NNP-4)
+				nn(pilot/NN-6,fighter/NN-5)
+				det(squadron/NN-10,the/DT-8)
+				nn(squadron/NN-10,VF-114/NN-9)
+				prep_with(pilot/NN-6,squadron/NN-10)
+				det(carriers/NNS-13,the/DT-12)
+				prep_aboard(pilot/NN-6,carriers/NNS-13)
+				nn(Ranger/NNP-15,USS/NNP-14)
+				dep(carriers/NNS-13,Ranger/NNP-15)
+				nn(Hancock/NNP-18,USS/NNP-17)
+				appos(Ranger/NNP-15,Hancock/NNP-18)
+				nn(Hawk/NNP-23,USS/NNP-21)
+				nn(Hawk/NNP-23,Kitty/NNP-22)
+				prep_aboard(pilot/NN-6,Hawk/NNP-23)
+				conj_and(carriers/NNS-13,Hawk/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-114</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-114</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the carriers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircraft_carrier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Ranger</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Ranger_(CV-4)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Hancock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Hancock</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Kitty Hawk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Kitty_Hawk</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/VF-114 http://dbpedia.org/ontology/militaryBranch http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_S._Bull http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Fighter_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/USS_Ranger_(CV-4) http://dbpedia.org/ontology/type http://dbpedia.org/resource/Aircraft_carrier
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Naval Test Pilot School in February 1964 and was selected as a member of the "Original 19" astronaut candidate group in 1966.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubjpass(selected/VBN-14,He/PRP-1)
+				det(School/NNP-8,the/DT-4)
+				nn(School/NNP-8,Naval/NNP-5)
+				nn(School/NNP-8,Test/NNP-6)
+				nn(School/NNP-8,Pilot/NN-7)
+				prep_from(graduated/VBD-2,School/NNP-8)
+				prep_in(graduated/VBD-2,February/NNP-10)
+				num(February/NNP-10,1964/CD-11)
+				auxpass(selected/VBN-14,was/VBD-13)
+				conj_and(graduated/VBD-2,selected/VBN-14)
+				det(member/NN-17,a/DT-16)
+				prep_as(selected/VBN-14,member/NN-17)
+				det(astronaut/NN-24,the/DT-19)
+				amod(astronaut/NN-24,Original/JJ-21)
+				num(astronaut/NN-24,19/CD-22)
+				prep_of(member/NN-17,astronaut/NN-24)
+				nn(group/NN-26,candidate/NN-25)
+				dobj(graduated/VBD-2,group/NN-26)
+				prep_in(group/NN-26,1966/CD-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After briefly serving as a member of the Apollo 8 support crew as well as crew leader during vacuum-chamber Lunar Module testing, Bull resigned from the astronaut corps after learning that he was suffering from pulmonary disease.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(serving/VBG-3,briefly/NN-2)
+				prepc_after(resigned/VBD-25,serving/VBG-3)
+				det(member/NN-6,a/DT-5)
+				prep_as(serving/VBG-3,member/NN-6)
+				det(crew/NN-12,the/DT-8)
+				nn(crew/NN-12,Apollo/NNP-9)
+				num(crew/NN-12,8/CD-10)
+				nn(crew/NN-12,support/NN-11)
+				prep_of(member/NN-6,crew/NN-12)
+				nn(leader/NN-17,crew/NN-16)
+				prep_as(serving/VBG-3,leader/NN-17)
+				conj_and(member/NN-6,leader/NN-17)
+				nn(Module/NNP-21,vacuum-chamber/NN-19)
+				nn(Module/NNP-21,Lunar/NNP-20)
+				prep_during(leader/NN-17,Module/NNP-21)
+				dep(leader/NN-17,testing/NN-22)
+				nsubj(resigned/VBD-25,Bull/NNP-24)
+				det(corps/NN-29,the/DT-27)
+				nn(corps/NN-29,astronaut/NN-28)
+				prep_from(resigned/VBD-25,corps/NN-29)
+				prepc_after(resigned/VBD-25,learning/VBG-31)
+				mark(suffering/VBG-35,that/IN-32)
+				nsubj(suffering/VBG-35,he/PRP-33)
+				aux(suffering/VBG-35,was/VBD-34)
+				ccomp(learning/VBG-31,suffering/VBG-35)
+				amod(disease/NN-38,pulmonary/JJ-37)
+				prep_from(suffering/VBG-35,disease/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended Stanford University graduate school and received a Ph.D. in Aeronautical Engineering in 1973.	</value>
+
+		<annotated-sentence>	He attended [[Stanford University|Stanford_University]] graduate school and received a Ph.D. in [[Aeronautical Engineering|Aerospace_engineering]] in [[1973|1973]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended Stanford University graduate school and received a Ph.D. in Aeronautical Engineering in 1973.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				nsubj(received/VBD-8,He/PRP-1)
+				nn(school/NN-6,Stanford/NNP-3)
+				nn(school/NN-6,University/NNP-4)
+				amod(school/NN-6,graduate/JJ-5)
+				dobj(attended/VBD-2,school/NN-6)
+				conj_and(attended/VBD-2,received/VBD-8)
+				det(Ph.D./NNP-10,a/DT-9)
+				dobj(received/VBD-8,Ph.D./NNP-10)
+				nn(Engineering/NNP-13,Aeronautical/NNP-12)
+				prep_in(received/VBD-8,Engineering/NNP-13)
+				prep_in(Engineering/NNP-13,1973/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stanford University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stanford_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After receiving his Ph. D., Bull returned to NASA and worked at the Ames Research Center from 1973 to 1985, where he conducted simulation and flight test research in advanced flight systems for both helicopters and fixed-wing aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(returned/VBD-8,receiving/VBG-2)
+				poss(D./NNP-5,his/PRP$-3)
+				nn(D./NNP-5,Ph./NNP-4)
+				dobj(receiving/VBG-2,D./NNP-5)
+				nsubj(returned/VBD-8,Bull/NNP-7)
+				nsubj(worked/VBD-12,Bull/NNP-7)
+				prep_to(returned/VBD-8,NASA/NNP-10)
+				conj_and(returned/VBD-8,worked/VBD-12)
+				det(Center/NNP-17,the/DT-14)
+				nn(Center/NNP-17,Ames/NNP-15)
+				nn(Center/NNP-17,Research/NNP-16)
+				prep_at(worked/VBD-12,Center/NNP-17)
+				num(1985/CD-21,1973/CD-19)
+				dep(1985/CD-21,to/TO-20)
+				prep_from(worked/VBD-12,1985/CD-21)
+				advmod(conducted/VBD-25,where/WRB-23)
+				nsubj(conducted/VBD-25,he/PRP-24)
+				rcmod(1985/CD-21,conducted/VBD-25)
+				nn(research/NN-30,simulation/NN-26)
+				conj_and(simulation/NN-26,flight/NN-28)
+				nn(research/NN-30,flight/NN-28)
+				nn(research/NN-30,test/NN-29)
+				dobj(conducted/VBD-25,research/NN-30)
+				amod(systems/NNS-34,advanced/JJ-32)
+				nn(systems/NNS-34,flight/NN-33)
+				prep_in(conducted/VBD-25,systems/NNS-34)
+				det(helicopters/NNS-37,both/DT-36)
+				prep_for(conducted/VBD-25,helicopters/NNS-37)
+				amod(aircraft/NN-40,fixed-wing/JJ-39)
+				prep_for(conducted/VBD-25,aircraft/NN-40)
+				conj_and(helicopters/NNS-37,aircraft/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1986 until his retirement in 1989, he managed NASA-wide research programs in autonomous systems technology for space applications.	</value>
+
+		<annotated-sentence>	From [[1986|1986]] until [[his retirement|Retirement]] in [[1989|1989]], he managed NASA-wide [[research|Research]] programs in autonomous systems [[technology|Technology]] for [[space|Space]] applications.	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1986 until his retirement in 1989, he managed NASA-wide research programs in autonomous systems technology for space applications.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(managed/VBD-10,1986/CD-2)
+				poss(retirement/NN-5,his/PRP$-4)
+				prep_until(managed/VBD-10,retirement/NN-5)
+				prep_in(retirement/NN-5,1989/CD-7)
+				nsubj(managed/VBD-10,he/PRP-9)
+				amod(programs/NNS-13,NASA-wide/JJ-11)
+				nn(programs/NNS-13,research/NN-12)
+				dobj(managed/VBD-10,programs/NNS-13)
+				amod(technology/NN-17,autonomous/JJ-15)
+				nn(technology/NN-17,systems/NNS-16)
+				prep_in(managed/VBD-10,technology/NN-17)
+				nn(applications/NNS-20,space/NN-19)
+				prep_for(managed/VBD-10,applications/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He maintained an office at NASA Ames until at least 1997.	</value>
+
+		<annotated-sentence>	He maintained [[an office|Office]] at [[NASA Ames|Ames_Research_Center]] until [[at least 1997|1997]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He maintained an office at NASA Ames until at least 1997.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(maintained/VBD-2,He/PRP-1)
+				det(office/NN-4,an/DT-3)
+				dobj(maintained/VBD-2,office/NN-4)
+				nn(Ames/NNP-7,NASA/NNP-6)
+				prep_at(maintained/VBD-2,Ames/NNP-7)
+				advmod(1997/CD-11,at/IN-9)
+				pobj(at/IN-9,least/JJS-10)
+				prep_until(maintained/VBD-2,1997/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Ames</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ames_Research_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>at least 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Bull died on August 11, 2008 at the age of 73 [1] in South Lake Tahoe, California.	</value>
+
+		<annotated-sentence>	Bull died on August 11, 2008 at the age of 73 [1] in South Lake Tahoe, [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Bull died on August 11, 2008 at the age of 73 [1] in South Lake Tahoe, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(died/VBD-2,Bull/NN-1)
+				prep_on(died/VBD-2,August/NNP-4)
+				num(August/NNP-4,11/CD-5)
+				num(August/NNP-4,2008/CD-7)
+				det(age/NN-10,the/DT-9)
+				prep_at(died/VBD-2,age/NN-10)
+				num(1/CD-14,73/CD-12)
+				punct(1/CD-14,-LSB-/-LRB--13)
+				prep_of(age/NN-10,1/CD-14)
+				punct(died/VBD-2,-RSB-/-RRB--15)
+				nn(Tahoe/NNP-19,South/NNP-17)
+				nn(Tahoe/NNP-19,Lake/NNP-18)
+				prep_in(died/VBD-2,Tahoe/NNP-19)
+				appos(Tahoe/NNP-19,California/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	[2]	</value>
+
+		<annotated-sentence>	[2]	</annotated-sentence>
+
+		<pattern_crowdsource>	[2]	</pattern_crowdsource>
+
+
+		<tree>
+				punct(2/CD-2,-LSB-/-LRB--1)
+				punct(2/CD-2,-RSB-/-RRB--3)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Often, the nerve conduction test is followed by electromyography (EMG).</value>
+		<pattern_crowdsource> Often, the [[nerve conduction test|C0200125]] is followed by [[electromyography|C0013839]] (EMG).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nerve conduction test</surface-form>
+				<RDF-ID>C0200125</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>electromyography</surface-form>
+				<RDF-ID>C0013839</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013839 METHOD_OF C0200125</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The test may sometimes be used to evaluate diseases of nerve or muscle, including:   - Myopathy  - Lambert-Eaton syndrome  - Myasthenia gravis</value>
+		<pattern_crowdsource> The test may sometimes be used to evaluate [[diseases|C0012634]] of [[nerve|C1280541]] or [[muscle|C0026845]], including:   - Myopathy  - Lambert-Eaton syndrome  - Myasthenia gravis		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nerve</surface-form>
+				<RDF-ID>C1280541</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle</surface-form>
+				<RDF-ID>C0026845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Myopathy</surface-form>
+				<RDF-ID>C0026848</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lambert-Eaton syndrome</surface-form>
+				<RDF-ID>C0022972</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Myasthenia gravis</surface-form>
+				<RDF-ID>C0026896</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1280541 LOCATION_OF C0012634</triple>
+			<triple>C0026845 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

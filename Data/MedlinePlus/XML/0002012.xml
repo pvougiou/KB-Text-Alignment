@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Hospital-acquired pneumonia is an infection of the lungs that occurs during a hospital stay.</value>
+		<pattern_crowdsource> Hospital-acquired [[pneumonia|C0032285]] is an [[infection|C0009450]] of the [[lungs|C0024109]] that occurs during a hospital stay.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hospital-acquired</surface-form>
+				<RDF-ID>C0456393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032285 ISA C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Pneumonia occurs more often in people who are using a respirator.</value>
+		<pattern_crowdsource> [[Pneumonia|C0032285]] occurs more often in [[people|C0027361]] who are using a [[respirator|C0042497]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>respirator</surface-form>
+				<RDF-ID>C0042497</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032285 OCCURS_IN C0027361</triple>
+			<triple>C0027361 USES C0042497</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Hospital-acquired pneumonia can also be spread by health care workers, who can pass germs from their hands or clothes from one person to another.</value>
+		<pattern_crowdsource> Hospital-acquired [[pneumonia|C0032285]] can also be spread by health care workers, who can pass germs from their [[hands|C0018563]] or clothes from one person to another.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hospital-acquired</surface-form>
+				<RDF-ID>C0456393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care workers</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clothes</surface-form>
+				<RDF-ID>C0009072</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018563 LOCATION_OF C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People can be more likely to get pneumonia while in the hospital if they:  - Abuse alcohol  - Have had chest surgery or other major surgery  - Have a weak immune system from cancer treatment, certain medicines, or severe wounds  - Have long-term (chronic) lung disease  - Breathe saliva or food into their lungs as a result of not being fully alert or having swallowing problems (for example, after a stroke)  - Are older</value>
+		<pattern_crowdsource> [[People|C0027361]] can be more likely to get pneumonia while in the hospital if they:  - Abuse alcohol  - Have had chest surgery or other major surgery  - Have a weak immune system from cancer treatment, certain medicines, or severe wounds  - Have long-term (chronic) lung disease  - Breathe saliva or food into their lungs as a result of not being fully alert or having [[swallowing problems|C0392678]] (for example, after a stroke)  - Are older		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Abuse</surface-form>
+				<RDF-ID>C1328247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest surgery</surface-form>
+				<RDF-ID>C0524832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>major surgery</surface-form>
+				<RDF-ID>C0679637</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weak</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune system</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer treatment</surface-form>
+				<RDF-ID>C0920425</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long-term</surface-form>
+				<RDF-ID>C0443252</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chronic</surface-form>
+				<RDF-ID>C0205191</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung disease</surface-form>
+				<RDF-ID>C0024115</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>saliva</surface-form>
+				<RDF-ID>C0036087</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>food</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swallowing problems</surface-form>
+				<RDF-ID>C0392678</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>older</surface-form>
+				<RDF-ID>C0580836</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0392678 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In an elderly person, the first sign of hospital-acquired pneumonia may be mental changes or confusion   Other symptoms may include:  - A cough with greenish or pus-like phlegm (sputum)  - Fever and chills  - General discomfort, uneasiness, or ill feeling (malaise)  - Loss of appetite  - Nausea and vomiting  - Sharp chest pain that gets worse with deep breathing or coughing  - Shortness of breath  - Decreased blood pressure and fast heart rate</value>
+		<pattern_crowdsource> In an [[elderly person|C0392363]], the first sign of hospital-acquired pneumonia may be mental changes or confusion   Other symptoms may include:  - A cough with greenish or pus-like phlegm (sputum)  - Fever and chills  - General discomfort, uneasiness, or ill feeling (malaise)  - Loss of appetite  - Nausea and vomiting  - Sharp chest pain that gets worse with [[deep breathing|C1328799]] or coughing  - Shortness of breath  - Decreased blood pressure and fast heart rate		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>elderly person</surface-form>
+				<RDF-ID>C0392363</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>first</surface-form>
+				<RDF-ID>C1279901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sign</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital-acquired</surface-form>
+				<RDF-ID>C0456393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mental</surface-form>
+				<RDF-ID>C0229992</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>changes</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>confusion</surface-form>
+				<RDF-ID>C0009676</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cough</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pus</surface-form>
+				<RDF-ID>C0034161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>phlegm</surface-form>
+				<RDF-ID>C0225378</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sputum</surface-form>
+				<RDF-ID>C0038056</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chills</surface-form>
+				<RDF-ID>C0085593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>General discomfort</surface-form>
+				<RDF-ID>C0858924</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ill feeling</surface-form>
+				<RDF-ID>C0557911</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>malaise</surface-form>
+				<RDF-ID>C0231218</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Loss</surface-form>
+				<RDF-ID>C1517945</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>appetite</surface-form>
+				<RDF-ID>C0003618</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Nausea</surface-form>
+				<RDF-ID>C0027497</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sharp chest pain</surface-form>
+				<RDF-ID>C0238995</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>worse</surface-form>
+				<RDF-ID>C1279889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>deep breathing</surface-form>
+				<RDF-ID>C1328799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Shortness</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breath</surface-form>
+				<RDF-ID>C0225386</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Decreased blood pressure</surface-form>
+				<RDF-ID>C0520819</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fast</surface-form>
+				<RDF-ID>C0456962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart rate</surface-form>
+				<RDF-ID>C0018810</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1328799 PROCESS_OF C0392363</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tests to check for hospital-acquired pneumonia may include:  - Arterial blood gases, to measure oxygen levels in the blood  - Blood cultures, to see if the infection has spread to the blood  - Chest x-ray or CT scan, to check the lungs  - Complete blood count (CBC)  - Pulse oximetry, to measure oxygen levels in the blood  - Sputum culture or sputum gram stain, to check what germs are causing the pneumonia</value>
+		<pattern_crowdsource> Tests to check for hospital-acquired pneumonia may include:  - Arterial blood gases, to measure oxygen levels in the blood  - Blood cultures, to see if the infection has spread to the blood  - Chest x-ray or CT scan, to check the lungs  - Complete blood count (CBC)  - Pulse oximetry, to measure [[oxygen|C0030054]] levels in the blood  - Sputum culture or sputum gram stain, to check what germs are causing the [[pneumonia|C0032285]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hospital-acquired</surface-form>
+				<RDF-ID>C0456393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Arterial blood gases</surface-form>
+				<RDF-ID>C0150411</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood  - Blood cultures</surface-form>
+				<RDF-ID>C0200949</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Chest x-ray</surface-form>
+				<RDF-ID>C0039985</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CT scan</surface-form>
+				<RDF-ID>C0040405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Complete blood count</surface-form>
+				<RDF-ID>C0009555</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pulse oximetry</surface-form>
+				<RDF-ID>C0034108</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sputum</surface-form>
+				<RDF-ID>C0038056</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood  - Sputum culture</surface-form>
+				<RDF-ID>C0200949</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sputum gram stain</surface-form>
+				<RDF-ID>C0748963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030054 CAUSES C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Treatments may include:  - Antibiotics through your veins (IV) to treat the lung infection.</value>
+		<pattern_crowdsource> Treatments may include:  - [[Antibiotics|C0003232]] through your veins (IV) to treat the [[lung infection|C0876973]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>veins</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung infection</surface-form>
+				<RDF-ID>C0876973</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0876973</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Follow the advice of your health care provider to help prevent pneumonia.</value>
+		<pattern_crowdsource> Follow the [[advice|C0150600]] of your health care provider to help prevent [[pneumonia|C0032285]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>advice</surface-form>
+				<RDF-ID>C0150600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0150600 PREVENTS C0032285</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

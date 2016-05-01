@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You had shoulder replacement surgery to replace the bones of your shoulder joint with artificial joint parts.</value>
+		<pattern_crowdsource> You had shoulder replacement surgery to replace the [[bones|C0262950]] of your shoulder joint with artificial [[joint parts|C1268102]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>replacement</surface-form>
+				<RDF-ID>C0559956</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shoulder replacement surgery</surface-form>
+				<RDF-ID>C0186321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shoulder joint</surface-form>
+				<RDF-ID>C0459456</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>artificial</surface-form>
+				<RDF-ID>C0205237</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint parts</surface-form>
+				<RDF-ID>C1268102</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1268102 PART_OF C0262950</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You will need to wear a sling for the first 6 weeks after surgery.</value>
+		<pattern_crowdsource> You will need to wear a [[sling|C0441637]] for the first 6 weeks after [[surgery|C0543467]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sling</surface-form>
+				<RDF-ID>C0441637</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>first</surface-form>
+				<RDF-ID>C1279901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weeks</surface-form>
+				<RDF-ID>C0439230</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 PRECEDES C0441637</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ask your doctor about which sports and other activities are ok for you after you recover.</value>
+		<pattern_crowdsource> Ask your doctor about which [[sports|C0038039]] and other [[activities|C0441655]] are ok for you after you recover.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sports</surface-form>
+				<RDF-ID>C0038039</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>C0441655</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038039 ISA C0441655</triple>
+			<triple>C0441655 ISA C0038039</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor will give you a prescription for pain medicines.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] will give you a [[prescription|C0033080]] for pain medicines.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prescription</surface-form>
+				<RDF-ID>C0033080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033080 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Narcotic pain medicine (codeine, hydrocodone, and oxycodone) can make you constipated.</value>
+		<pattern_crowdsource> Narcotic pain [[medicine|C0013227]] ([[codeine|C0009214]], [[hydrocodone|C0020264]], and [[oxycodone|C0030049]]) can make you constipated.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Narcotic</surface-form>
+				<RDF-ID>C0027415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>codeine</surface-form>
+				<RDF-ID>C0009214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrocodone</surface-form>
+				<RDF-ID>C0020264</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxycodone</surface-form>
+				<RDF-ID>C0030049</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009214 ISA C0013227</triple>
+			<triple>C0030049 ISA C0013227</triple>
+			<triple>C0020264 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking ibuprofen (Advil, Motrin) or other anti-inflammatory medicines with your prescription pain medicine may also help.</value>
+		<pattern_crowdsource> Taking [[ibuprofen|C0020740]] ([[Advil|C0593507]], [[Motrin|C0699203]]) or other anti-inflammatory [[medicines|C0013227]] with your prescription pain medicine may also help.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anti-inflammatory</surface-form>
+				<RDF-ID>C1515999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prescription</surface-form>
+				<RDF-ID>C0033080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0013227 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may also give you aspirin to prevent blood clots.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may also give you [[aspirin|C0004057]] to prevent blood clots.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004057 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Keep the dressing (bandage) over your wound clean and dry.</value>
+		<pattern_crowdsource> Keep the [[dressing|C0013119]] ([[bandage|C0004726]]) over your wound clean and dry.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>dressing</surface-form>
+				<RDF-ID>C0013119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bandage</surface-form>
+				<RDF-ID>C0004726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wound</surface-form>
+				<RDF-ID>C0043250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dry</surface-form>
+				<RDF-ID>C0205222</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004726 ISA C0013119</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

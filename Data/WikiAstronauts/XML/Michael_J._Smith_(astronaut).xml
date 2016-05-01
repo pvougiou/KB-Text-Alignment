@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Michael John Smith (April 30, 1945 – January 28, 1986), usually known as Mike Smith, was an American astronaut—pilot of the Space Shuttle Challenger when it was destroyed during the STS-51-L mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Smith/NNP-3,Michael/NNP-1)
+				nn(Smith/NNP-3,John/NNP-2)
+				nsubj(astronaut/NN-25,Smith/NNP-3)
+				dep(Smith/NNP-3,April/NNP-5)
+				num(April/NNP-5,30/CD-6)
+				num(April/NNP-5,1945/CD-8)
+				dep(April/NNP-5,January/NNP-10)
+				num(January/NNP-10,28/CD-11)
+				num(January/NNP-10,1986/CD-13)
+				advmod(known/VBN-17,usually/RB-16)
+				partmod(Smith/NNP-3,known/VBN-17)
+				nn(Smith/NNP-20,Mike/NNP-19)
+				prep_as(known/VBN-17,Smith/NNP-20)
+				cop(astronaut/NN-25,was/VBD-22)
+				det(astronaut/NN-25,an/DT-23)
+				amod(astronaut/NN-25,American/JJ-24)
+				dep(Challenger/NNP-32,pilot/NN-27)
+				det(Space/NN-30,the/DT-29)
+				prep_of(pilot/NN-27,Space/NN-30)
+				nn(Challenger/NNP-32,Shuttle/NNP-31)
+				dep(astronaut/NN-25,Challenger/NNP-32)
+				advmod(destroyed/VBN-36,when/WRB-33)
+				nsubjpass(destroyed/VBN-36,it/PRP-34)
+				auxpass(destroyed/VBN-36,was/VBD-35)
+				rcmod(astronaut/NN-25,destroyed/VBN-36)
+				det(mission/NN-40,the/DT-38)
+				nn(mission/NN-40,STS-51-L/NN-39)
+				prep_during(destroyed/VBN-36,mission/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	All seven crew members died.	</value>
+
+		<annotated-sentence>	All seven [[crew|Crewman]][[crew members|Crewman]] died.	</annotated-sentence>
+
+		<pattern_crowdsource>	All seven crew members died.	</pattern_crowdsource>
+
+
+		<tree>
+				det(members/NNS-4,All/DT-1)
+				num(members/NNS-4,seven/CD-2)
+				nn(members/NNS-4,crew/NN-3)
+				nsubj(died/VBD-5,members/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew members</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Smith was born in Beaufort, North Carolina.	</value>
+
+		<annotated-sentence>	Smith was born in Beaufort, [[North Carolina|North_Carolina]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Smith was born in Beaufort, North Carolina.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Smith/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Beaufort/NNP-5)
+				nn(Carolina/NNP-8,North/NNP-7)
+				appos(Beaufort/NNP-5,Carolina/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>North Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Carolina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the United States Naval Academy in 1967 and subsequently attended the U.S. Naval Postgraduate School at Monterey, California.	</value>
+
+		<annotated-sentence>	He graduated from [[the United States Naval Academy|United_States_Naval_Academy]] in [[1967|1967]] and subsequently attended [[the U.S. Naval Postgraduate School|Naval_Postgraduate_School]] at [[Monterey , California|Monterey,_California]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the United States Naval Academy in 1967 and subsequently attended [[the U.S. Naval Postgraduate School|Naval_Postgraduate_School]] at Monterey, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubj(attended/VBD-13,He/PRP-1)
+				det(Academy/NNP-8,the/DT-4)
+				nn(Academy/NNP-8,United/NNP-5)
+				nn(Academy/NNP-8,States/NNPS-6)
+				nn(Academy/NNP-8,Naval/NNP-7)
+				prep_from(graduated/VBD-2,Academy/NNP-8)
+				prep_in(graduated/VBD-2,1967/CD-10)
+				advmod(attended/VBD-13,subsequently/RB-12)
+				conj_and(graduated/VBD-2,attended/VBD-13)
+				det(School/NNP-18,the/DT-14)
+				nn(School/NNP-18,U.S./NNP-15)
+				nn(School/NNP-18,Naval/NNP-16)
+				nn(School/NNP-18,Postgraduate/NNP-17)
+				dobj(attended/VBD-13,School/NNP-18)
+				nn(California/NNP-22,Monterey/NNP-20)
+				prep_at(attended/VBD-13,California/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States Naval Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Postgraduate School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Postgraduate_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Monterey , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Monterey,_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Naval_Postgraduate_School http://dbpedia.org/property/city http://dbpedia.org/resource/Monterey,_California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed naval aviation jet training at Naval Air Station Kingsville, Texas, receiving his aviator wings in May 1969.	</value>
+
+		<annotated-sentence>	He completed [[naval aviation|Naval_aviation]] jet [[training|Training]] at [[Naval Air Station Kingsville|Naval_Air_Station_Kingsville]], [[Texas|Texas]], receiving his [[aviator|Aviation]] wings in May [[1969|1969]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed naval aviation jet training at Naval Air Station Kingsville, Texas, receiving his aviator wings in May 1969.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				amod(training/NN-6,naval/JJ-3)
+				nn(training/NN-6,aviation/NN-4)
+				nn(training/NN-6,jet/NN-5)
+				dobj(completed/VBD-2,training/NN-6)
+				nn(Kingsville/NNP-11,Naval/NNP-8)
+				nn(Kingsville/NNP-11,Air/NNP-9)
+				nn(Kingsville/NNP-11,Station/NNP-10)
+				prep_at(completed/VBD-2,Kingsville/NNP-11)
+				appos(Kingsville/NNP-11,Texas/NNP-13)
+				partmod(completed/VBD-2,receiving/VBG-15)
+				poss(wings/NNS-18,his/PRP$-16)
+				nn(wings/NNS-18,aviator/NN-17)
+				dobj(receiving/VBG-15,wings/NNS-18)
+				prep_in(receiving/VBG-15,May/NNP-20)
+				num(May/NNP-20,1969/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>naval aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval Air Station Kingsville</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_Kingsville</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was then assigned to the Advanced Jet Training Command (VT-21) where he served as an instructor from May 1969 to March 1971.	</value>
+
+		<annotated-sentence>	He was then assigned to the [[Advanced|Relative_articulation]] Jet [[Training Command|Training_Command]] (VT-21) where he served as an instructor from May [[1969|1969]] to [[March 1971|March_1971]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was then assigned to the Advanced Jet Training Command (VT-21) where he served as an instructor from May 1969 to March 1971.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,then/RB-3)
+				det(Command/NN-10,the/DT-6)
+				nn(Command/NN-10,Advanced/NNP-7)
+				nn(Command/NN-10,Jet/NNP-8)
+				nn(Command/NN-10,Training/NNP-9)
+				prep_to(assigned/VBN-4,Command/NN-10)
+				appos(Command/NN-10,VT-21/NN-12)
+				advmod(served/VBD-16,where/WRB-14)
+				nsubj(served/VBD-16,he/PRP-15)
+				rcmod(Command/NN-10,served/VBD-16)
+				det(instructor/NN-19,an/DT-18)
+				prep_as(served/VBD-16,instructor/NN-19)
+				prep_from(instructor/NN-19,May/NNP-21)
+				num(May/NNP-21,1969/CD-22)
+				prep_to(served/VBD-16,March/NNP-24)
+				num(March/NNP-24,1971/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training Command</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1971</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_1971</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 2-year period that followed, he flew A-6 Intruders and completed a tour during the Vietnam War while assigned to Attack Squadron 52 (VA-52) aboard the USS Kitty Hawk (CV-63).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(period/NN-4,the/DT-2)
+				amod(period/NN-4,2-year/JJ-3)
+				prep_during(flew/VBD-9,period/NN-4)
+				nsubj(followed/VBD-6,that/WDT-5)
+				rcmod(period/NN-4,followed/VBD-6)
+				nsubj(flew/VBD-9,he/PRP-8)
+				nsubj(completed/VBD-13,he/PRP-8)
+				nn(Intruders/NNS-11,A-6/NN-10)
+				dobj(flew/VBD-9,Intruders/NNS-11)
+				conj_and(flew/VBD-9,completed/VBD-13)
+				det(tour/NN-15,a/DT-14)
+				dobj(completed/VBD-13,tour/NN-15)
+				det(War/NNP-19,the/DT-17)
+				nn(War/NNP-19,Vietnam/NNP-18)
+				prep_during(completed/VBD-13,War/NNP-19)
+				mark(assigned/VBN-21,while/IN-20)
+				advcl(completed/VBD-13,assigned/VBN-21)
+				aux(Attack/VB-23,to/TO-22)
+				xcomp(assigned/VBN-21,Attack/VB-23)
+				dobj(Attack/VB-23,Squadron/NNP-24)
+				num(Squadron/NNP-24,52/CD-25)
+				appos(Squadron/NNP-24,VA-52/NN-27)
+				det(Hawk/NNP-33,the/DT-30)
+				nn(Hawk/NNP-33,USS/NNP-31)
+				nn(Hawk/NNP-33,Kitty/NNP-32)
+				prep_aboard(Attack/VB-23,Hawk/NNP-33)
+				appos(Hawk/NNP-33,CV-63/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1974, he graduated from U.S. Naval Test Pilot School and was assigned to the Strike Aircraft Test Directorate at NAS Patuxent River, Maryland, to work on the A-6E TRAM and Cruise missile guidance systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-5,1974/CD-2)
+				nsubj(graduated/VBD-5,he/PRP-4)
+				nsubjpass(assigned/VBN-14,he/PRP-4)
+				nn(School/NNP-11,U.S./NNP-7)
+				nn(School/NNP-11,Naval/NNP-8)
+				nn(School/NNP-11,Test/NNP-9)
+				nn(School/NNP-11,Pilot/NN-10)
+				prep_from(graduated/VBD-5,School/NNP-11)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				conj_and(graduated/VBD-5,assigned/VBN-14)
+				det(Strike/NN-17,the/DT-16)
+				prep_to(assigned/VBN-14,Strike/NN-17)
+				nn(Directorate/NNP-20,Aircraft/NNP-18)
+				nn(Directorate/NNP-20,Test/NNP-19)
+				tmod(assigned/VBN-14,Directorate/NNP-20)
+				nn(River/NNP-24,NAS/NNP-22)
+				nn(River/NNP-24,Patuxent/NNP-23)
+				prep_at(Directorate/NNP-20,River/NNP-24)
+				appos(River/NNP-24,Maryland/NNP-26)
+				aux(work/VB-29,to/TO-28)
+				xcomp(assigned/VBN-14,work/VB-29)
+				det(TRAM/NN-33,the/DT-31)
+				nn(TRAM/NN-33,A-6E/NN-32)
+				prep_on(guidance/NN-37,TRAM/NN-33)
+				nn(missile/NN-36,Cruise/NN-35)
+				conj_and(TRAM/NN-33,missile/NN-36)
+				prep_on(guidance/NN-37,missile/NN-36)
+				amod(systems/NNS-38,guidance/NN-37)
+				dobj(work/VB-29,systems/NNS-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned to the U.S. Naval Test Pilot School in 1976 and completed an 18-month tour as an instructor.	</value>
+
+		<annotated-sentence>	He returned to [[the U.S. Naval Test Pilot School|United_States_Naval_Test_Pilot_School]] in [[1976|1976]] and completed an 18-month tour as an instructor.	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned to the U.S. Naval Test Pilot School in 1976 and completed an 18-month tour as an instructor.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				nsubj(completed/VBD-13,He/PRP-1)
+				det(School/NNP-9,the/DT-4)
+				nn(School/NNP-9,U.S./NNP-5)
+				nn(School/NNP-9,Naval/NNP-6)
+				nn(School/NNP-9,Test/NNP-7)
+				nn(School/NNP-9,Pilot/NN-8)
+				prep_to(returned/VBD-2,School/NNP-9)
+				prep_in(returned/VBD-2,1976/CD-11)
+				conj_and(returned/VBD-2,completed/VBD-13)
+				det(tour/NN-16,an/DT-14)
+				amod(tour/NN-16,18-month/JJ-15)
+				dobj(completed/VBD-13,tour/NN-16)
+				det(instructor/NN-19,an/DT-18)
+				prep_as(completed/VBD-13,instructor/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the U.S. Naval Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From Patuxent River, he was assigned to Attack Squadron 75 (VA-75), where he served as maintenance and operations officer while completing two Mediterranean deployments aboard the USS Saratoga.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(River/NNP-3,Patuxent/NNP-2)
+				prep_from(assigned/VBN-7,River/NNP-3)
+				nsubjpass(assigned/VBN-7,he/PRP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				aux(Attack/VB-9,to/TO-8)
+				xcomp(assigned/VBN-7,Attack/VB-9)
+				dobj(Attack/VB-9,Squadron/NNP-10)
+				num(Squadron/NNP-10,75/CD-11)
+				appos(Squadron/NNP-10,VA-75/NN-13)
+				advmod(served/VBD-18,where/WRB-16)
+				nsubj(served/VBD-18,he/PRP-17)
+				rcmod(Squadron/NNP-10,served/VBD-18)
+				nn(officer/NN-23,maintenance/NN-20)
+				conj_and(maintenance/NN-20,operations/NNS-22)
+				nn(officer/NN-23,operations/NNS-22)
+				prep_as(served/VBD-18,officer/NN-23)
+				prepc_while(officer/NN-23,completing/VBG-25)
+				num(deployments/NNS-28,two/CD-26)
+				amod(deployments/NNS-28,Mediterranean/JJ-27)
+				dobj(completing/VBG-25,deployments/NNS-28)
+				det(Saratoga/NNP-32,the/DT-30)
+				nn(Saratoga/NNP-32,USS/NNP-31)
+				prep_aboard(completing/VBG-25,Saratoga/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew 28 different types of civilian and military aircraft, logging 4,867 hours of flying time.	</value>
+
+		<annotated-sentence>	He flew 28 different types of civilian and [[military aircraft|Military_aircraft]], logging 4,867 [[hours|Hour]] of flying time.	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew 28 different types of civilian and military aircraft, logging 4,867 hours of flying time.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				num(types/NNS-5,28/CD-3)
+				amod(types/NNS-5,different/JJ-4)
+				dobj(flew/VBD-2,types/NNS-5)
+				amod(aircraft/NN-10,civilian/JJ-7)
+				conj_and(civilian/JJ-7,military/JJ-9)
+				amod(aircraft/NN-10,military/JJ-9)
+				prep_of(types/NNS-5,aircraft/NN-10)
+				partmod(flew/VBD-2,logging/VBG-12)
+				num(hours/NNS-14,4,867/CD-13)
+				dobj(logging/VBG-12,hours/NNS-14)
+				amod(time/NN-17,flying/VBG-16)
+				prep_of(hours/NNS-14,time/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>military aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was promoted posthumously by Congress to the rank of Captain, and has had a Chair named in his honor at the Naval Postgraduate School.	</value>
+
+		<annotated-sentence>	He was promoted posthumously by Congress to [[the rank|RANK]] of Captain, and has had [[a Chair|Chair]] named in his honor at [[the Naval Postgraduate School|Naval_Postgraduate_School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was promoted posthumously by Congress to the rank of Captain, and has had a Chair named in his honor at the Naval Postgraduate School.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(promoted/VBN-3,He/PRP-1)
+				nsubjpass(had/VBN-15,He/PRP-1)
+				auxpass(promoted/VBN-3,was/VBD-2)
+				advmod(promoted/VBN-3,posthumously/RB-4)
+				agent(promoted/VBN-3,Congress/NNP-6)
+				det(rank/NN-9,the/DT-8)
+				prep_to(promoted/VBN-3,rank/NN-9)
+				prep_of(rank/NN-9,Captain/NNP-11)
+				aux(had/VBN-15,has/VBZ-14)
+				conj_and(promoted/VBN-3,had/VBN-15)
+				det(Chair/NNP-17,a/DT-16)
+				dobj(had/VBN-15,Chair/NNP-17)
+				partmod(Chair/NNP-17,named/VBN-18)
+				poss(honor/NN-21,his/PRP$-20)
+				prep_in(named/VBN-18,honor/NN-21)
+				det(School/NNP-26,the/DT-23)
+				nn(School/NNP-26,Naval/NNP-24)
+				nn(School/NNP-26,Postgraduate/NNP-25)
+				prep_at(named/VBN-18,School/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Chair</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chair</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Naval Postgraduate School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Postgraduate_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Smith was selected for the astronaut program in May 1980; he served as a commander in the Shuttle Avionics Integration Laboratory (SAIL), Deputy Chief of Aircraft Operations Division, Technical Assistant to the Director, Flight Operations Directorate, and was also assigned to the Astronaut Office Development and Test Group.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Smith/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(program/NN-7,the/DT-5)
+				nn(program/NN-7,astronaut/NN-6)
+				prep_for(selected/VBN-3,program/NN-7)
+				prep_in(program/NN-7,May/NNP-9)
+				num(May/NNP-9,1980/CD-10)
+				nsubj(served/VBD-13,he/PRP-12)
+				nsubjpass(assigned/VBN-47,he/PRP-12)
+				parataxis(selected/VBN-3,served/VBD-13)
+				det(commander/NN-16,a/DT-15)
+				prep_as(served/VBD-13,commander/NN-16)
+				det(Laboratory/NN-22,the/DT-18)
+				nn(Laboratory/NN-22,Shuttle/NNP-19)
+				nn(Laboratory/NN-22,Avionics/NNP-20)
+				nn(Laboratory/NN-22,Integration/NN-21)
+				prep_in(commander/NN-16,Laboratory/NN-22)
+				appos(Laboratory/NN-22,SAIL/NN-24)
+				nn(Chief/NNP-28,Deputy/NNP-27)
+				appos(Laboratory/NN-22,Chief/NNP-28)
+				nn(Division/NNP-32,Aircraft/NNP-30)
+				nn(Division/NNP-32,Operations/NNP-31)
+				prep_of(Chief/NNP-28,Division/NNP-32)
+				nn(Assistant/NNP-35,Technical/NNP-34)
+				appos(Division/NNP-32,Assistant/NNP-35)
+				det(Director/NNP-38,the/DT-37)
+				prep_to(served/VBD-13,Director/NNP-38)
+				nn(Directorate/NNP-42,Flight/NNP-40)
+				nn(Directorate/NNP-42,Operations/NNP-41)
+				appos(Director/NNP-38,Directorate/NNP-42)
+				auxpass(assigned/VBN-47,was/VBD-45)
+				advmod(assigned/VBN-47,also/RB-46)
+				parataxis(selected/VBN-3,assigned/VBN-47)
+				conj_and(served/VBD-13,assigned/VBN-47)
+				det(Development/NNP-52,the/DT-49)
+				nn(Development/NNP-52,Astronaut/NNP-50)
+				nn(Development/NNP-52,Office/NNP-51)
+				prep_to(assigned/VBN-47,Development/NNP-52)
+				nn(Group/NNP-55,Test/NNP-54)
+				prep_to(assigned/VBN-47,Group/NNP-55)
+				conj_and(Development/NNP-52,Group/NNP-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to being pilot on the Challenger, he had been slated to pilot a future Shuttle mission (STS-61-N) which had been scheduled for the Fall of 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				cop(pilot/NN-5,being/VBG-4)
+				prepc_in_addition_to(slated/VBN-13,pilot/NN-5)
+				det(Challenger/NNP-8,the/DT-7)
+				prep_on(pilot/NN-5,Challenger/NNP-8)
+				nsubjpass(slated/VBN-13,he/PRP-10)
+				aux(slated/VBN-13,had/VBD-11)
+				auxpass(slated/VBN-13,been/VBN-12)
+				prep_to(slated/VBN-13,pilot/NN-15)
+				det(mission/NN-19,a/DT-16)
+				amod(mission/NN-19,future/JJ-17)
+				nn(mission/NN-19,Shuttle/NNP-18)
+				dobj(slated/VBN-13,mission/NN-19)
+				appos(mission/NN-19,STS-61-N/NN-21)
+				nsubjpass(scheduled/VBN-26,which/WDT-23)
+				aux(scheduled/VBN-26,had/VBD-24)
+				auxpass(scheduled/VBN-26,been/VBN-25)
+				rcmod(mission/NN-19,scheduled/VBN-26)
+				det(Fall/NN-29,the/DT-28)
+				prep_for(scheduled/VBN-26,Fall/NN-29)
+				prep_of(Fall/NN-29,1986/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Smith's voice was the last one heard on the Challenger voice recorder.	</value>
+
+		<annotated-sentence>	Smith's [[voice|Dictation_machine]] was the last one heard on the Challenger [[voice recorder|Dictation_machine]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Smith's voice was the last one heard on the Challenger voice recorder.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(voice/NN-3,Smith/NNP-1)
+				nsubj(one/CD-7,voice/NN-3)
+				cop(one/CD-7,was/VBD-4)
+				det(one/CD-7,the/DT-5)
+				amod(one/CD-7,last/JJ-6)
+				partmod(one/CD-7,heard/VBN-8)
+				det(recorder/NN-13,the/DT-10)
+				nn(recorder/NN-13,Challenger/NNP-11)
+				nn(recorder/NN-13,voice/NN-12)
+				prep_on(heard/VBN-8,recorder/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>voice</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dictation_machine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>voice recorder</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dictation_machine</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Just before Mission Control received the last telemetry data, Smith was heard saying, "Uh-oh."	</value>
+
+		<annotated-sentence>	Just before Mission Control received the last [[telemetry|Heavy_Hitters_(comics)]] data, Smith was heard saying, "[[Uh-oh|Talking_Heads:_77]]."	</annotated-sentence>
+
+		<pattern_crowdsource>	Just before Mission Control received the last telemetry data, Smith was heard saying, "Uh-oh."	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(received/VBD-5,Just/RB-1)
+				mark(received/VBD-5,before/IN-2)
+				nn(Control/NNP-4,Mission/NNP-3)
+				nsubj(received/VBD-5,Control/NNP-4)
+				advcl(heard/VBN-13,received/VBD-5)
+				det(data/NNS-9,the/DT-6)
+				amod(data/NNS-9,last/JJ-7)
+				nn(data/NNS-9,telemetry/NN-8)
+				dobj(received/VBD-5,data/NNS-9)
+				nsubjpass(heard/VBN-13,Smith/NNP-11)
+				auxpass(heard/VBN-13,was/VBD-12)
+				xcomp(heard/VBN-13,saying/VBG-14)
+				dobj(saying/VBG-14,Uh-oh/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>telemetry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heavy_Hitters_(comics)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Uh-oh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Talking_Heads:_77</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Shuttle broke up 73 seconds into the flight, and at an altitude of 48,000 feet (14.6 km).	</value>
+
+		<annotated-sentence>	[[The Shuttle|The_Shuttle]] broke up 73 seconds into [[the flight|Flight]], and at [[an altitude|Altitude]] of 48,000 [[feet|Foot]] (14.6 km).	</annotated-sentence>
+
+		<pattern_crowdsource>	The Shuttle broke up 73 seconds into the flight, and at an altitude of 48,000 feet (14.6 km).	</pattern_crowdsource>
+
+
+		<tree>
+				det(Shuttle/NNP-2,The/DT-1)
+				nsubj(broke/VBD-3,Shuttle/NNP-2)
+				prt(broke/VBD-3,up/RP-4)
+				num(seconds/NNS-6,73/CD-5)
+				dobj(broke/VBD-3,seconds/NNS-6)
+				dobj(broke/VBD-3,seconds/NNS-6)
+				conj_and(seconds/NNS-6,seconds/NNS-6)
+				det(flight/NN-9,the/DT-8)
+				prep_into(seconds/NNS-6,flight/NN-9)
+				det(altitude/NN-14,an/DT-13)
+				prep_at(seconds/NNS-6,altitude/NN-14)
+				num(feet/NNS-17,48,000/CD-16)
+				prep_of(altitude/NN-14,feet/NNS-17)
+				num(km/NN-20,14.6/CD-19)
+				appos(feet/NNS-17,km/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an altitude</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Altitude</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While analyzing the wreckage, investigators discovered that several electrical system switches on Smith's right-hand panel had been moved from their usual launch positions.	</value>
+
+		<annotated-sentence>	While analyzing the wreckage, [[investigators|Detective]] discovered that [[several electrical system|Electricity]] switches on Smith's right-hand panel had been moved from their usual launch positions.	</annotated-sentence>
+
+		<pattern_crowdsource>	While analyzing the wreckage, investigators discovered that several electrical system switches on Smith's right-hand panel had been moved from their usual launch positions.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(discovered/VBD-7,While/IN-1)
+				partmod(discovered/VBD-7,analyzing/VBG-2)
+				det(wreckage/NN-4,the/DT-3)
+				dobj(analyzing/VBG-2,wreckage/NN-4)
+				nsubj(discovered/VBD-7,investigators/NNS-6)
+				csubjpass(moved/VBN-20,discovered/VBD-7)
+				mark(switches/VBZ-12,that/IN-8)
+				amod(system/NN-11,several/JJ-9)
+				amod(system/NN-11,electrical/JJ-10)
+				nsubj(switches/VBZ-12,system/NN-11)
+				ccomp(discovered/VBD-7,switches/VBZ-12)
+				poss(panel/NN-17,Smith/NNP-14)
+				amod(panel/NN-17,right-hand/JJ-16)
+				prep_on(switches/VBZ-12,panel/NN-17)
+				aux(moved/VBN-20,had/VBD-18)
+				auxpass(moved/VBN-20,been/VBN-19)
+				poss(positions/NNS-25,their/PRP$-22)
+				amod(positions/NNS-25,usual/JJ-23)
+				nn(positions/NNS-25,launch/NN-24)
+				prep_from(moved/VBN-20,positions/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>investigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Detective</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several electrical system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electricity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fellow Astronaut Richard Mullane wrote, "These switches were protected with lever locks that required them to be pulled outward against a spring force before they could be moved to a new position."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mullane/NNP-4,Fellow/NNP-1)
+				nn(Mullane/NNP-4,Astronaut/NNP-2)
+				nn(Mullane/NNP-4,Richard/NNP-3)
+				nsubj(wrote/VBD-5,Mullane/NNP-4)
+				det(switches/NNS-9,These/DT-8)
+				nsubjpass(protected/VBN-11,switches/NNS-9)
+				auxpass(protected/VBN-11,were/VBD-10)
+				ccomp(wrote/VBD-5,protected/VBN-11)
+				nn(locks/NNS-14,lever/NN-13)
+				prep_with(protected/VBN-11,locks/NNS-14)
+				nsubj(required/VBD-16,that/WDT-15)
+				rcmod(locks/NNS-14,required/VBD-16)
+				nsubjpass(pulled/VBN-20,them/PRP-17)
+				aux(pulled/VBN-20,to/TO-18)
+				auxpass(pulled/VBN-20,be/VB-19)
+				xcomp(required/VBD-16,pulled/VBN-20)
+				acomp(pulled/VBN-20,outward/JJ-21)
+				det(force/NN-25,a/DT-23)
+				nn(force/NN-25,spring/NN-24)
+				prep_against(outward/JJ-21,force/NN-25)
+				mark(moved/VBN-30,before/IN-26)
+				nsubjpass(moved/VBN-30,they/PRP-27)
+				aux(moved/VBN-30,could/MD-28)
+				auxpass(moved/VBN-30,be/VB-29)
+				advcl(pulled/VBN-20,moved/VBN-30)
+				det(position/NN-34,a/DT-32)
+				amod(position/NN-34,new/JJ-33)
+				prep_to(moved/VBN-30,position/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later tests established that neither the force of the explosion, nor the impact with the ocean could have moved them, indicating that Smith made the switch changes, presumably in a futile attempt to restore electrical power to the cockpit after the crew cabin detached from the rest of the orbiter.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(established/VBD-3,Later/RB-1)
+				nsubj(established/VBD-3,tests/NNS-2)
+				mark(detached/VBD-47,that/IN-4)
+				preconj(force/NN-7,neither/CC-5)
+				det(force/NN-7,the/DT-6)
+				nsubj(detached/VBD-47,force/NN-7)
+				det(explosion/NN-10,the/DT-9)
+				prep_of(force/NN-7,explosion/NN-10)
+				det(impact/NN-14,the/DT-13)
+				conj_nor(force/NN-7,impact/NN-14)
+				nsubj(detached/VBD-47,impact/NN-14)
+				det(ocean/NN-17,the/DT-16)
+				prep_with(impact/NN-14,ocean/NN-17)
+				aux(moved/VBN-20,could/MD-18)
+				aux(moved/VBN-20,have/VB-19)
+				rcmod(impact/NN-14,moved/VBN-20)
+				xcomp(moved/VBN-20,them/PRP-21)
+				xcomp(moved/VBN-20,indicating/VBG-23)
+				mark(made/VBD-26,that/IN-24)
+				nsubj(made/VBD-26,Smith/NNP-25)
+				ccomp(indicating/VBG-23,made/VBD-26)
+				det(changes/NNS-29,the/DT-27)
+				nn(changes/NNS-29,switch/NN-28)
+				dobj(made/VBD-26,changes/NNS-29)
+				advmod(made/VBD-26,presumably/RB-31)
+				det(attempt/NN-35,a/DT-33)
+				amod(attempt/NN-35,futile/JJ-34)
+				prep_in(made/VBD-26,attempt/NN-35)
+				aux(restore/VB-37,to/TO-36)
+				infmod(attempt/NN-35,restore/VB-37)
+				amod(power/NN-39,electrical/JJ-38)
+				dobj(restore/VB-37,power/NN-39)
+				det(cockpit/NN-42,the/DT-41)
+				prep_to(restore/VB-37,cockpit/NN-42)
+				det(cabin/NN-46,the/DT-44)
+				nn(cabin/NN-46,crew/NN-45)
+				prep_after(restore/VB-37,cabin/NN-46)
+				ccomp(established/VBD-3,detached/VBD-47)
+				det(rest/NN-50,the/DT-49)
+				prep_from(detached/VBD-47,rest/NN-50)
+				det(orbiter/NN-53,the/DT-52)
+				prep_of(rest/NN-50,orbiter/NN-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Smith was posthumously awarded the Congressional Space Medal of Honor in 2004, along with all astronauts lost in the Challenger and Columbia accidents.	</value>
+
+		<annotated-sentence>	Smith was posthumously awarded the Congressional [[Space|Space]] [[Medal|Medal]] of Honor in [[2004|2004]], along with [[all astronauts|Astronaut]] lost in the Challenger and Columbia [[accidents|Traffic_collision]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Smith was posthumously awarded the Congressional Space Medal of Honor in 2004, along with [[all astronauts|Astronaut]] lost in the Challenger and Columbia accidents.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-4,Smith/NNP-1)
+				auxpass(awarded/VBN-4,was/VBD-2)
+				advmod(awarded/VBN-4,posthumously/RB-3)
+				det(Medal/NN-8,the/DT-5)
+				amod(Medal/NN-8,Congressional/JJ-6)
+				nn(Medal/NN-8,Space/NN-7)
+				dobj(awarded/VBN-4,Medal/NN-8)
+				prep_of(Medal/NN-8,Honor/NN-10)
+				prep_in(Honor/NN-10,2004/CD-12)
+				det(astronauts/NNS-17,all/DT-16)
+				prep_along_with(Honor/NN-10,astronauts/NNS-17)
+				partmod(astronauts/NNS-17,lost/VBN-18)
+				det(accidents/NNS-24,the/DT-20)
+				nn(accidents/NNS-24,Challenger/NNP-21)
+				conj_and(Challenger/NNP-21,Columbia/NNP-23)
+				nn(accidents/NNS-24,Columbia/NNP-23)
+				prep_in(lost/VBN-18,accidents/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>all astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>accidents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Traffic_collision</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_J._Smith_(astronaut) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also received the Defense Distinguished Service Medal (posthumous), the Navy Distinguished Flying Cross, 3 Air Medals, 13 Strike/Flight Air Medals, the Navy Commendation Medal with "V" Device, the Navy Unit Citation, and the Vietnam Cross of Gallantry with Silver Star.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-3,He/PRP-1)
+				advmod(received/VBD-3,also/RB-2)
+				det(Medal/NN-8,the/DT-4)
+				nn(Medal/NN-8,Defense/NNP-5)
+				nn(Medal/NN-8,Distinguished/NNP-6)
+				nn(Medal/NN-8,Service/NNP-7)
+				dobj(received/VBD-3,Medal/NN-8)
+				dep(Medal/NN-8,posthumous/JJ-10)
+				det(Cross/NNP-17,the/DT-13)
+				nn(Cross/NNP-17,Navy/NNP-14)
+				nn(Cross/NNP-17,Distinguished/NNP-15)
+				nn(Cross/NNP-17,Flying/NNP-16)
+				appos(Medal/NN-8,Cross/NNP-17)
+				num(Medals/NNS-21,3/CD-19)
+				nn(Medals/NNS-21,Air/NN-20)
+				appos(Cross/NNP-17,Medals/NNS-21)
+				dobj(received/VBD-3,13/CD-23)
+				conj_and(Medal/NN-8,13/CD-23)
+				nn(Medals/NNPS-26,Strike/Flight/NNP-24)
+				nn(Medals/NNPS-26,Air/NNP-25)
+				dep(13/CD-23,Medals/NNPS-26)
+				det(Medal/NN-31,the/DT-28)
+				nn(Medal/NN-31,Navy/NNP-29)
+				nn(Medal/NN-31,Commendation/NNP-30)
+				dobj(received/VBD-3,Medal/NN-31)
+				conj_and(Medal/NN-8,Medal/NN-31)
+				nn(Device/NNP-36,V/NNP-34)
+				prep_with(Medal/NN-31,Device/NNP-36)
+				det(Citation/NNP-41,the/DT-38)
+				nn(Citation/NNP-41,Navy/NNP-39)
+				nn(Citation/NNP-41,Unit/NNP-40)
+				appos(Device/NNP-36,Citation/NNP-41)
+				det(Cross/NN-46,the/DT-44)
+				nn(Cross/NN-46,Vietnam/NNP-45)
+				dobj(received/VBD-3,Cross/NN-46)
+				conj_and(Medal/NN-8,Cross/NN-46)
+				prep_of(Cross/NN-46,Gallantry/NN-48)
+				nn(Star/NN-51,Silver/NN-50)
+				prep_with(received/VBD-3,Star/NN-51)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Michael J. Smith Field airfield in his home town of Beaufort, North Carolina is named after Smith.	</value>
+
+		<annotated-sentence>	The [[Michael J. Smith Field|Michael_J._Smith_Field]] airfield in [[his home town|Town]] of [[Beaufort|Beaufort,_North_Carolina]], [[North Carolina|North_Carolina]] is named after Smith.	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[Michael J. Smith Field|Michael_J._Smith_Field]] airfield in [[his home town|Town]] of [[Beaufort|Beaufort,_North_Carolina]], [[North Carolina|North_Carolina]] is named after Smith.	</pattern_crowdsource>
+
+
+		<tree>
+				det(airfield/NN-6,The/DT-1)
+				nn(airfield/NN-6,Michael/NNP-2)
+				nn(airfield/NN-6,J./NNP-3)
+				nn(airfield/NN-6,Smith/NNP-4)
+				nn(airfield/NN-6,Field/NNP-5)
+				nsubjpass(named/VBN-17,airfield/NN-6)
+				poss(town/NN-10,his/PRP$-8)
+				nn(town/NN-10,home/NN-9)
+				prep_in(airfield/NN-6,town/NN-10)
+				nn(Carolina/NNP-15,Beaufort/NNP-12)
+				appos(Carolina/NNP-15,North/NNP-14)
+				prep_of(town/NN-10,Carolina/NNP-15)
+				auxpass(named/VBN-17,is/VBZ-16)
+				prep_after(named/VBN-17,Smith/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Michael J. Smith Field</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Michael_J._Smith_Field</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his home town</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Town</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Beaufort</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Beaufort,_North_Carolina</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Carolina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_J._Smith_Field http://dbpedia.org/ontology/city http://dbpedia.org/resource/Beaufort,_North_Carolina
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Beaufort,_North_Carolina http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Town
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_J._Smith_(astronaut) http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Beaufort,_North_Carolina
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Beaufort,_North_Carolina http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/North_Carolina
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Smith was portrayed by Brian Kerwin in the 1990 TV movie Challenger.	</value>
+
+		<annotated-sentence>	Smith was portrayed by [[Brian Kerwin|Brian_Kerwin]] in the [[1990|1990]] TV movie [[Challenger|Challenger_(1990_film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Smith was portrayed by [[Brian Kerwin|Brian_Kerwin]] in the 1990 TV movie [[Challenger|Challenger_(1990_film)]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(portrayed/VBN-3,Smith/NNP-1)
+				auxpass(portrayed/VBN-3,was/VBD-2)
+				nn(Kerwin/NNP-6,Brian/NNP-5)
+				agent(portrayed/VBN-3,Kerwin/NNP-6)
+				det(movie/NN-11,the/DT-8)
+				num(movie/NN-11,1990/CD-9)
+				nn(movie/NN-11,TV/NN-10)
+				prep_in(Kerwin/NNP-6,movie/NN-11)
+				appos(movie/NN-11,Challenger/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brian Kerwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brian_Kerwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Challenger</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Challenger_(1990_film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Challenger_(1990_film) http://dbpedia.org/ontology/starring http://dbpedia.org/resource/Brian_Kerwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

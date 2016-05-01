@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your child may have throat infections and need surgery to remove the tonsils (tonsillectomy).</value>
+		<pattern_crowdsource> Your [[child|C0008059]] may have [[throat infections|C0729771]] and need surgery to remove the tonsils (tonsillectomy).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>throat infections</surface-form>
+				<RDF-ID>C0729771</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>need</surface-form>
+				<RDF-ID>C0027552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tonsils</surface-form>
+				<RDF-ID>C0040421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tonsillectomy</surface-form>
+				<RDF-ID>C0040423</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0729771 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These glands are located at the back of the throat.</value>
+		<pattern_crowdsource> These [[glands|C1285092]] are located at the back of the [[throat|C0031354]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>glands</surface-form>
+				<RDF-ID>C1285092</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back of</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>throat</surface-form>
+				<RDF-ID>C0031354</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1285092 PART_OF C0031354</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The adenoid glands are located above the tonsils, in the back of the nose.</value>
+		<pattern_crowdsource> The [[adenoid|C0001428]] [[glands|C1285092]] are located above the [[tonsils|C0040421]], in the [[back of the nose|C0225408]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>adenoid</surface-form>
+				<RDF-ID>C0001428</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glands</surface-form>
+				<RDF-ID>C1285092</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tonsils</surface-form>
+				<RDF-ID>C0040421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back of the nose</surface-form>
+				<RDF-ID>C0225408</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1285092 PART_OF C0001428</triple>
+			<triple>C0225408 LOCATION_OF C0040421</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Can my child still get strep throat and other throat infections after tonsillectomy?</value>
+		<pattern_crowdsource> - Can my child still get [[strep throat|C0036689]] and other [[throat infections|C0729771]] after tonsillectomy?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>strep throat</surface-form>
+				<RDF-ID>C0036689</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>throat infections</surface-form>
+				<RDF-ID>C0729771</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tonsillectomy</surface-form>
+				<RDF-ID>C0040423</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0036689 ISA C0729771</triple>
+			<triple>C0729771 ISA C0036689</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- What should I give my child to help with pain after the surgery?</value>
+		<pattern_crowdsource> - What should I give my [[child|C0008059]] to help with [[pain|C0030193]] after the surgery?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- What should I do if my child has any bleeding?</value>
+		<pattern_crowdsource> - What should I do if my [[child|C0008059]] has any [[bleeding|C0019080]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019080 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

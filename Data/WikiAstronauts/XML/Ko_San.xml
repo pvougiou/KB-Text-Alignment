@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Ko San (born October 19, 1976) is a CEO and founder of TIDE Institute and ATEAM Ventures.	</value>
+
+		<annotated-sentence>	[[Ko San|Ko_San]] (born October 19, 1976) is [[a CEO and founder|CEO_and_Founder]] of [[TIDE|Tide]] [[Institute|Institute]] and [[ATEAM|The_A-Team]] [[Ventures|The_Ventures]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ko San (born October 19, 1976) is a CEO and founder of TIDE Institute and ATEAM Ventures.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(San/NNP-2,Ko/NNP-1)
+				nsubj(CEO/NN-12,San/NNP-2)
+				dep(San/NNP-2,born/VBN-4)
+				tmod(born/VBN-4,October/NNP-5)
+				num(October/NNP-5,19/CD-6)
+				num(October/NNP-5,1976/CD-8)
+				cop(CEO/NN-12,is/VBZ-10)
+				det(CEO/NN-12,a/DT-11)
+				conj_and(CEO/NN-12,founder/NN-14)
+				nn(Institute/NNP-17,TIDE/NNP-16)
+				prep_of(CEO/NN-12,Institute/NNP-17)
+				nn(Ventures/NNP-20,ATEAM/NNP-19)
+				prep_of(CEO/NN-12,Ventures/NNP-20)
+				conj_and(Institute/NNP-17,Ventures/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Ko San</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ko_San</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a CEO and founder</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CEO_and_Founder</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TIDE</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tide</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ATEAM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_A-Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ventures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Ventures</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ko, San was born in Busan, South Korea.	</value>
+
+		<annotated-sentence>	Ko, San was born in [[Busan|Busan]], [[South Korea|South_Korea]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ko, San was born in [[Busan|Busan]], [[South Korea|South_Korea]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(San/NNP-3,Ko/NNP-1)
+				nsubjpass(born/VBN-5,San/NNP-3)
+				auxpass(born/VBN-5,was/VBD-4)
+				prep_in(born/VBN-5,Busan/NNP-7)
+				nn(Korea/NNP-10,South/NNP-9)
+				appos(Busan/NNP-7,Korea/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Busan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Busan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>South Korea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/South_Korea</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ko_San http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Busan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Busan http://dbpedia.org/ontology/country http://dbpedia.org/resource/South_Korea
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ko_San http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/South_Korea
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ko_San http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/South_Korea
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A graduate of Hanyoung Foreign Language High School, Ko studied mathematics and cognitive science at Seoul National University.	</value>
+
+		<annotated-sentence>	A graduate of [[Hanyoung Foreign Language High School|Hanyoung_Foreign_Language_High_School]], Ko studied [[mathematics|Mathematics]] and [[cognitive science|Cognitive_science]] at [[Seoul National University|Seoul_National_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A graduate of Hanyoung Foreign Language High School, Ko studied mathematics and cognitive science at Seoul National University.	</pattern_crowdsource>
+
+
+		<tree>
+				det(graduate/NN-2,A/DT-1)
+				nsubj(studied/VBD-11,graduate/NN-2)
+				nn(School/NNP-8,Hanyoung/NNP-4)
+				nn(School/NNP-8,Foreign/NNP-5)
+				nn(School/NNP-8,Language/NNP-6)
+				nn(School/NNP-8,High/NNP-7)
+				prep_of(graduate/NN-2,School/NNP-8)
+				appos(School/NNP-8,Ko/NNP-10)
+				dobj(studied/VBD-11,mathematics/NNS-12)
+				amod(science/NN-15,cognitive/JJ-14)
+				dobj(studied/VBD-11,science/NN-15)
+				conj_and(mathematics/NNS-12,science/NN-15)
+				nn(University/NNP-19,Seoul/NNP-17)
+				nn(University/NNP-19,National/NNP-18)
+				prep_at(studied/VBD-11,University/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hanyoung Foreign Language High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hanyoung_Foreign_Language_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mathematics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mathematics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cognitive science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cognitive_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Seoul National University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Seoul_National_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He won a bronze medal at a national amateur boxing tournament in 2004 and climbed a 7,546-meter high mountain in China’s Xinjiang Province, Muztagh Ata, the same year.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(won/VBD-2,He/PRP-1)
+				nsubj(climbed/VBD-15,He/PRP-1)
+				det(medal/NN-5,a/DT-3)
+				nn(medal/NN-5,bronze/NN-4)
+				dobj(won/VBD-2,medal/NN-5)
+				det(tournament/NN-11,a/DT-7)
+				amod(tournament/NN-11,national/JJ-8)
+				amod(tournament/NN-11,amateur/JJ-9)
+				nn(tournament/NN-11,boxing/NN-10)
+				prep_at(won/VBD-2,tournament/NN-11)
+				prep_in(tournament/NN-11,2004/CD-13)
+				conj_and(won/VBD-2,climbed/VBD-15)
+				det(mountain/NN-19,a/DT-16)
+				amod(mountain/NN-19,7,546-meter/JJ-17)
+				amod(mountain/NN-19,high/JJ-18)
+				dobj(climbed/VBD-15,mountain/NN-19)
+				poss(Province/NNP-24,China/NNP-21)
+				nn(Province/NNP-24,Xinjiang/NNP-23)
+				prep_in(climbed/VBD-15,Province/NNP-24)
+				nn(Ata/NNP-27,Muztagh/NNP-26)
+				appos(Province/NNP-24,Ata/NNP-27)
+				det(year/NN-31,the/DT-29)
+				amod(year/NN-31,same/JJ-30)
+				tmod(climbed/VBD-15,year/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating at Seoul National University, he started working at Samsung Advanced Institute of Technology as a researcher.	</value>
+
+		<annotated-sentence>	After graduating at [[Seoul National University|Seoul_National_University]], he started working at [[Samsung Advanced Institute of Technology|Samsung]] as [[a researcher|Researcher]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating at Seoul National University, he started working at Samsung Advanced Institute of Technology as [[a researcher|Researcher]].	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(started/VBD-9,graduating/VBG-2)
+				nn(University/NNP-6,Seoul/NNP-4)
+				nn(University/NNP-6,National/NNP-5)
+				prep_at(graduating/VBG-2,University/NNP-6)
+				nsubj(started/VBD-9,he/PRP-8)
+				xcomp(started/VBD-9,working/VBG-10)
+				nn(Institute/NNP-14,Samsung/NNP-12)
+				nn(Institute/NNP-14,Advanced/NNP-13)
+				prep_at(working/VBG-10,Institute/NNP-14)
+				prep_of(Institute/NNP-14,Technology/NNP-16)
+				det(researcher/NN-19,a/DT-18)
+				prep_as(working/VBG-10,researcher/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Seoul National University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Seoul_National_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Samsung Advanced Institute of Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Samsung</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a researcher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Researcher</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ko_San http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Researcher
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His research topic was computer vision.	</value>
+
+		<annotated-sentence>	His [[research|Research]] topic was [[computer vision|Computer_vision]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His research topic was computer vision.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(topic/NN-3,His/PRP$-1)
+				nn(topic/NN-3,research/NN-2)
+				nsubj(vision/NN-6,topic/NN-3)
+				cop(vision/NN-6,was/VBD-4)
+				nn(vision/NN-6,computer/NN-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>computer vision</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Computer_vision</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On December 25 2006, he was chosen as one of two finalists in the Korean Astronaut Program, set to fly as a crew on the Russian Soyuz TMA-12 in April 2008.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(chosen/VBN-8,December/NNP-2)
+				num(December/NNP-2,25/CD-3)
+				dep(December/NNP-2,2006/CD-4)
+				nsubjpass(chosen/VBN-8,he/PRP-6)
+				auxpass(chosen/VBN-8,was/VBD-7)
+				prep_as(chosen/VBN-8,one/CD-10)
+				num(finalists/NNS-13,two/CD-12)
+				prep_of(one/CD-10,finalists/NNS-13)
+				det(Program/NN-18,the/DT-15)
+				amod(Program/NN-18,Korean/JJ-16)
+				nn(Program/NN-18,Astronaut/NN-17)
+				prep_in(chosen/VBN-8,Program/NN-18)
+				partmod(Program/NN-18,set/VBN-20)
+				aux(fly/VB-22,to/TO-21)
+				xcomp(set/VBN-20,fly/VB-22)
+				det(crew/NN-25,a/DT-24)
+				prep_as(fly/VB-22,crew/NN-25)
+				det(TMA-12/NN-30,the/DT-27)
+				amod(TMA-12/NN-30,Russian/JJ-28)
+				nn(TMA-12/NN-30,Soyuz/NNP-29)
+				prep_on(crew/NN-25,TMA-12/NN-30)
+				prep_in(TMA-12/NN-30,April/NNP-32)
+				num(April/NNP-32,2008/CD-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 5, 2007, the Korean Ministry of Science and Technology chose Ko San over Yi So-Yeon based on performance in tests during training in Russia.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(chose/VBD-14,September/NNP-2)
+				num(September/NNP-2,5/CD-3)
+				num(September/NNP-2,2007/CD-5)
+				det(Ministry/NNP-9,the/DT-7)
+				nn(Ministry/NNP-9,Korean/NNP-8)
+				nsubj(chose/VBD-14,Ministry/NNP-9)
+				prep_of(Ministry/NNP-9,Science/NNP-11)
+				prep_of(Ministry/NNP-9,Technology/NNP-13)
+				conj_and(Science/NNP-11,Technology/NNP-13)
+				nn(San/NNP-16,Ko/NNP-15)
+				dobj(chose/VBD-14,San/NNP-16)
+				nn(So-Yeon/NNP-19,Yi/NNP-18)
+				prep_over(San/NNP-16,So-Yeon/NNP-19)
+				partmod(So-Yeon/NNP-19,based/VBN-20)
+				prep_on(based/VBN-20,performance/NN-22)
+				prep_in(performance/NN-22,tests/NNS-24)
+				prep_during(based/VBN-20,training/NN-26)
+				prep_in(training/NN-26,Russia/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	However, on March 10, 2008, this decision was reversed, after the Russian Federal Space Agency asked for a replacement because Ko apparently violated security protocol for maintaining secret information twice at the Yuri Gagarin Cosmonaut Training Center.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(reversed/VBN-12,However/RB-1)
+				prep_on(reversed/VBN-12,March/NNP-4)
+				num(March/NNP-4,10/CD-5)
+				num(March/NNP-4,2008/CD-7)
+				det(decision/NN-10,this/DT-9)
+				nsubjpass(reversed/VBN-12,decision/NN-10)
+				auxpass(reversed/VBN-12,was/VBD-11)
+				mark(asked/VBD-20,after/IN-14)
+				det(Agency/NNP-19,the/DT-15)
+				nn(Agency/NNP-19,Russian/NNP-16)
+				nn(Agency/NNP-19,Federal/NNP-17)
+				nn(Agency/NNP-19,Space/NNP-18)
+				nsubj(asked/VBD-20,Agency/NNP-19)
+				advcl(reversed/VBN-12,asked/VBD-20)
+				det(replacement/NN-23,a/DT-22)
+				prep_for(asked/VBD-20,replacement/NN-23)
+				mark(violated/VBD-27,because/IN-24)
+				nsubj(violated/VBD-27,Ko/NNP-25)
+				advmod(violated/VBD-27,apparently/RB-26)
+				advcl(asked/VBD-20,violated/VBD-27)
+				nn(protocol/NN-29,security/NN-28)
+				dobj(violated/VBD-27,protocol/NN-29)
+				prepc_for(violated/VBD-27,maintaining/VBG-31)
+				amod(information/NN-33,secret/JJ-32)
+				dobj(maintaining/VBG-31,information/NN-33)
+				advmod(maintaining/VBG-31,twice/RB-34)
+				det(Center/NNP-41,the/DT-36)
+				nn(Center/NNP-41,Yuri/NNP-37)
+				nn(Center/NNP-41,Gagarin/NNP-38)
+				nn(Center/NNP-41,Cosmonaut/NNP-39)
+				nn(Center/NNP-41,Training/NNP-40)
+				prep_at(maintaining/VBG-31,Center/NNP-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After returning from Russia he continued working at Korea Aerospace Research Institute.	</value>
+
+		<annotated-sentence>	After returning from [[Russia|Russia]] he continued working at [[Korea Aerospace Research Institute|Korea_Aerospace_Research_Institute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After returning from Russia he continued working at Korea Aerospace Research Institute.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(continued/VBD-6,returning/VBG-2)
+				prep_from(returning/VBG-2,Russia/NNP-4)
+				nsubj(continued/VBD-6,he/PRP-5)
+				xcomp(continued/VBD-6,working/VBG-7)
+				nn(Institute/NNP-12,Korea/NNP-9)
+				nn(Institute/NNP-12,Aerospace/NNP-10)
+				nn(Institute/NNP-12,Research/NNP-11)
+				prep_at(working/VBG-7,Institute/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Korea Aerospace Research Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Korea_Aerospace_Research_Institute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He started studying public policy at the John F. Kennedy School of Government at Harvard University in 2010.	</value>
+
+		<annotated-sentence>	He started studying [[public policy|Public_policy]] at the John F. Kennedy School of Government at [[Harvard University|Harvard_University]] in [[2010|2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He started studying public policy at the John F. Kennedy School of Government at Harvard University in 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(started/VBD-2,He/PRP-1)
+				xcomp(started/VBD-2,studying/VBG-3)
+				amod(policy/NN-5,public/JJ-4)
+				dobj(studying/VBG-3,policy/NN-5)
+				det(School/NNP-11,the/DT-7)
+				nn(School/NNP-11,John/NNP-8)
+				nn(School/NNP-11,F./NNP-9)
+				nn(School/NNP-11,Kennedy/NNP-10)
+				prep_at(studying/VBG-3,School/NNP-11)
+				prep_of(School/NNP-11,Government/NNP-13)
+				nn(University/NNP-16,Harvard/NNP-15)
+				prep_at(studying/VBG-3,University/NNP-16)
+				prep_in(University/NNP-16,2010/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public policy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_policy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harvard University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvard_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Now he is taking a leave of absence from the John F. Kennedy School of Government to run an NGO, TIDE Institute, which he founded on February 2011.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(taking/VBG-4,Now/RB-1)
+				nsubj(taking/VBG-4,he/PRP-2)
+				aux(taking/VBG-4,is/VBZ-3)
+				det(leave/NN-6,a/DT-5)
+				dobj(taking/VBG-4,leave/NN-6)
+				prep_of(leave/NN-6,absence/NN-8)
+				det(School/NNP-14,the/DT-10)
+				nn(School/NNP-14,John/NNP-11)
+				nn(School/NNP-14,F./NNP-12)
+				nn(School/NNP-14,Kennedy/NNP-13)
+				prep_from(taking/VBG-4,School/NNP-14)
+				prep_of(School/NNP-14,Government/NNP-16)
+				aux(run/VB-18,to/TO-17)
+				xcomp(taking/VBG-4,run/VB-18)
+				det(NGO/NNP-20,an/DT-19)
+				dobj(run/VB-18,NGO/NNP-20)
+				nn(Institute/NNP-23,TIDE/NNP-22)
+				appos(NGO/NNP-20,Institute/NNP-23)
+				dobj(founded/VBD-27,which/WDT-25)
+				nsubj(founded/VBD-27,he/PRP-26)
+				rcmod(NGO/NNP-20,founded/VBD-27)
+				prep_on(founded/VBD-27,February/NNP-29)
+				num(February/NNP-29,2011/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 2013 it opened Fab Lab Seoul, a public open space where tools for digital fabrication such as 3D printer, CNC and laser cutter are available for startups and makers.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(opened/VBD-5,April/NNP-2)
+				num(April/NNP-2,2013/CD-3)
+				nsubj(opened/VBD-5,it/PRP-4)
+				nn(Seoul/NNP-8,Fab/NNP-6)
+				nn(Seoul/NNP-8,Lab/NNP-7)
+				dobj(opened/VBD-5,Seoul/NNP-8)
+				det(space/NN-13,a/DT-10)
+				amod(space/NN-13,public/JJ-11)
+				amod(space/NN-13,open/JJ-12)
+				appos(Seoul/NNP-8,space/NN-13)
+				advmod(available/JJ-29,where/WRB-14)
+				nsubj(available/JJ-29,tools/NNS-15)
+				amod(fabrication/NN-18,digital/JJ-17)
+				prep_for(tools/NNS-15,fabrication/NN-18)
+				nn(printer/NN-22,3D/NN-21)
+				prep_such_as(fabrication/NN-18,printer/NN-22)
+				prep_such_as(fabrication/NN-18,CNC/NN-24)
+				conj_and(printer/NN-22,CNC/NN-24)
+				nn(cutter/NN-27,laser/NN-26)
+				prep_such_as(fabrication/NN-18,cutter/NN-27)
+				conj_and(printer/NN-22,cutter/NN-27)
+				cop(available/JJ-29,are/VBP-28)
+				rcmod(space/NN-13,available/JJ-29)
+				prep_for(available/JJ-29,startups/NNS-31)
+				prep_for(available/JJ-29,makers/NNS-33)
+				conj_and(startups/NNS-31,makers/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

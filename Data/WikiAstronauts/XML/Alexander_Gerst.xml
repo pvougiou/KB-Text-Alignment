@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Alexander Gerst (born May 3, 1976 in Künzelsau, Baden-Württemberg) is a European Space Agency astronaut having been selected in 2009 to undergo training.	</value>
+
+		<annotated-sentence>	[[Alexander Gerst|Alexander_Gerst]] (born May 3, 1976 in Künzelsau, Baden-Württemberg) is a European [[Space|Space]] Agency [[astronaut|Astronaut]] having been selected in [[2009|2009]] to undergo [[training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Alexander Gerst|Alexander_Gerst]] (born May 3, 1976 in Künzelsau, Baden-Württemberg) is a European Space Agency [[astronaut|Astronaut]] having been selected in 2009 to undergo training.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Gerst/NNP-2,Alexander/NNP-1)
+				nsubj(astronaut/NN-19,Gerst/NNP-2)
+				dep(Gerst/NNP-2,born/VBN-4)
+				tmod(born/VBN-4,May/NNP-5)
+				num(May/NNP-5,3/CD-6)
+				num(May/NNP-5,1976/CD-8)
+				nn(Baden-Württemberg/NNP-12,Künzelsau/NNP-10)
+				prep_in(born/VBN-4,Baden-Württemberg/NNP-12)
+				cop(astronaut/NN-19,is/VBZ-14)
+				det(astronaut/NN-19,a/DT-15)
+				amod(astronaut/NN-19,European/JJ-16)
+				nn(astronaut/NN-19,Space/NNP-17)
+				nn(astronaut/NN-19,Agency/NNP-18)
+				aux(selected/VBN-22,having/VBG-20)
+				auxpass(selected/VBN-22,been/VBN-21)
+				dep(astronaut/NN-19,selected/VBN-22)
+				prep_in(selected/VBN-22,2009/CD-24)
+				aux(undergo/VB-26,to/TO-25)
+				xcomp(selected/VBN-22,undergo/VB-26)
+				dobj(undergo/VB-26,training/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Alexander Gerst</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Alexander_Gerst</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He studied at the University of Karlsruhe, Germany, where he received a university degree in geophysics.	</value>
+
+		<annotated-sentence>	He studied at [[the University|University]] of [[Karlsruhe , Germany ,|Akron,_Ohio]]here he received [[a university degree|Academic_degree]] in [[geophysics|Geophysics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He studied at the University of Karlsruhe, Germany, where he received a university degree in [[geophysics|Geophysics]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(studied/VBD-2,He/PRP-1)
+				det(University/NNP-5,the/DT-4)
+				prep_at(studied/VBD-2,University/NNP-5)
+				nn(Germany/NNP-9,Karlsruhe/NNP-7)
+				prep_of(University/NNP-5,Germany/NNP-9)
+				advmod(received/VBD-13,where/WRB-11)
+				nsubj(received/VBD-13,he/PRP-12)
+				advcl(studied/VBD-2,received/VBD-13)
+				det(degree/NN-16,a/DT-14)
+				nn(degree/NN-16,university/NN-15)
+				dobj(received/VBD-13,degree/NN-16)
+				prep_in(received/VBD-13,geophysics/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Karlsruhe , Germany ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a university degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academic_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>geophysics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geophysics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Geophysics
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also studied earth science at Victoria University of Wellington in New Zealand, where he was awarded a master of science.	</value>
+
+		<annotated-sentence>	He also studied [[earth science|Earth_science]] at [[Victoria University of Wellington|Victoria_University_of_Wellington]] in [[New Zealand|New_Zealand]], where he was awarded [[a master of science|Master_of_Science]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also studied earth science at Victoria University of Wellington in New Zealand, where he was awarded a master of science.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(studied/VBD-3,He/PRP-1)
+				advmod(studied/VBD-3,also/RB-2)
+				nn(science/NN-5,earth/NN-4)
+				dobj(studied/VBD-3,science/NN-5)
+				nn(University/NNP-8,Victoria/NNP-7)
+				prep_at(studied/VBD-3,University/NNP-8)
+				prep_of(University/NNP-8,Wellington/NNP-10)
+				nn(Zealand/NNP-13,New/NNP-12)
+				prep_in(studied/VBD-3,Zealand/NNP-13)
+				advmod(awarded/VBN-18,where/WRB-15)
+				nsubjpass(awarded/VBN-18,he/PRP-16)
+				auxpass(awarded/VBN-18,was/VBD-17)
+				advcl(studied/VBD-3,awarded/VBN-18)
+				det(master/NN-20,a/DT-19)
+				dobj(awarded/VBN-18,master/NN-20)
+				prep_of(master/NN-20,science/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>earth science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Victoria University of Wellington</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Victoria_University_of_Wellington</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Zealand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Zealand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a master of science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master_of_Science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has been working as a researcher since 2005 and received his doctorate in natural sciences at the Institute of Geophysics of the University of Hamburg, Germany in 2010, with a dissertation on geophysics and volcanic eruption dynamics.	</value>
+
+		<annotated-sentence>	He has been working as [[a researcher|Researcher]] since [[2005|2005]] and received [[his doctorate|Doctorate]] in natural sciences at [[the Institute|Institute]] of [[Geophysics|Geophysics]] of [[the University|University]] of [[Hamburg|Hamburg]], [[Germany|Germany]] in [[2010|2010]], with [[a dissertation|Dissertation,_Honey]] on [[geophysics|Geophysics]] and [[volcanic eruption|Types_of_volcanic_eruptions]] dynamics.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has been working as a researcher since 2005 and received his doctorate in natural sciences at the Institute of [[Geophysics|Geophysics]] of the University of [[Hamburg|Hamburg]], [[Germany|Germany]] in 2010, with a dissertation on [[geophysics|Geophysics]] and volcanic eruption dynamics.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-4,He/PRP-1)
+				nsubj(received/VBD-11,He/PRP-1)
+				aux(working/VBG-4,has/VBZ-2)
+				aux(working/VBG-4,been/VBN-3)
+				det(researcher/NN-7,a/DT-6)
+				prep_as(working/VBG-4,researcher/NN-7)
+				prep_since(researcher/NN-7,2005/CD-9)
+				conj_and(working/VBG-4,received/VBD-11)
+				poss(doctorate/NN-13,his/PRP$-12)
+				dobj(received/VBD-11,doctorate/NN-13)
+				amod(sciences/NNS-16,natural/JJ-15)
+				prep_in(received/VBD-11,sciences/NNS-16)
+				det(Institute/NNP-19,the/DT-18)
+				prep_at(sciences/NNS-16,Institute/NNP-19)
+				prep_of(Institute/NNP-19,Geophysics/NNP-21)
+				det(University/NNP-24,the/DT-23)
+				prep_of(Geophysics/NNP-21,University/NNP-24)
+				prep_of(University/NNP-24,Hamburg/NNP-26)
+				appos(Hamburg/NNP-26,Germany/NNP-28)
+				prep_in(Germany/NNP-28,2010/CD-30)
+				det(dissertation/NN-34,a/DT-33)
+				prep_with(received/VBD-11,dissertation/NN-34)
+				prep_on(dissertation/NN-34,geophysics/NNS-36)
+				amod(dynamics/NNS-40,volcanic/JJ-38)
+				nn(dynamics/NNS-40,eruption/NN-39)
+				prep_on(dissertation/NN-34,dynamics/NNS-40)
+				conj_and(geophysics/NNS-36,dynamics/NNS-40)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a researcher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Researcher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Geophysics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geophysics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hamburg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hamburg</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a dissertation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dissertation,_Honey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>geophysics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geophysics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>volcanic eruption</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Types_of_volcanic_eruptions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Geophysics
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Hamburg http://dbpedia.org/ontology/country http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Geophysics
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In his spare time, he enjoys mountaineering, diving, climbing and skydiving.	</value>
+
+		<annotated-sentence>	In [[his spare time|Leisure]], he enjoys [[mountaineering|Mountaineering]], [[diving|Diving]], climbing and skydiving.	</annotated-sentence>
+
+		<pattern_crowdsource>	In his spare time, he enjoys mountaineering, diving, climbing and skydiving.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-4,his/PRP$-2)
+				amod(time/NN-4,spare/JJ-3)
+				prep_in(enjoys/VBZ-7,time/NN-4)
+				nsubj(enjoys/VBZ-7,he/PRP-6)
+				nsubj(climbing/VBG-12,mountaineering/NN-8)
+				nsubj(skydiving/VBG-14,mountaineering/NN-8)
+				appos(mountaineering/NN-8,diving/NN-10)
+				dep(enjoys/VBZ-7,climbing/VBG-12)
+				dep(enjoys/VBZ-7,skydiving/VBG-14)
+				conj_and(climbing/VBG-12,skydiving/VBG-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his spare time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leisure</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mountaineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mountaineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diving</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as an astronaut in 2009 by the European Space Agency.	</value>
+
+		<annotated-sentence>	He was selected as [[an astronaut|Astronaut]] in [[2009|2009]] by [[the European Space Agency|European_Space_Agency]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected as [[an astronaut|Astronaut]] in 2009 by the European Space Agency.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(selected/VBN-3,astronaut/NN-6)
+				prep_in(astronaut/NN-6,2009/CD-8)
+				det(Agency/NNP-13,the/DT-10)
+				amod(Agency/NNP-13,European/JJ-11)
+				nn(Agency/NNP-13,Space/NNP-12)
+				agent(selected/VBN-3,Agency/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Alexander_Gerst http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

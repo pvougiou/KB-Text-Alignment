@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Pleural biopsy is a procedure to remove a sample of the tissue lining, the lungs, and the inside of the chest wall to check for disease or infection.</value>
+		<pattern_crowdsource> [[Pleural biopsy|C0176531]] is a [[procedure|C0184661]] to remove a sample of the tissue lining, the lungs, and the inside of the chest wall to check for [[disease|C0012634]] or [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pleural biopsy</surface-form>
+				<RDF-ID>C0176531</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest wall</surface-form>
+				<RDF-ID>C1279035</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0176531 ISA C0184661</triple>
+			<triple>C0184661 TREATS C0012634</triple>
+			<triple>C0184661 TREATS C0009450</triple>
+			<triple>C0176531 TREATS C0012634</triple>
+			<triple>C0176531 TREATS C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test may be done in the hospital.</value>
+		<pattern_crowdsource> This [[test|C0039593]] may be done in the [[hospital|C0019994]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019994 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Numbing drug (anesthetic) is injected through the skin and into the lining of the lungs and chest wall (pleural membrane).</value>
+		<pattern_crowdsource> - Numbing [[drug|C0013227]] ([[anesthetic|C0002932]]) is injected through the skin and into the lining of the lungs and chest wall (pleural membrane).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drug</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anesthetic</surface-form>
+				<RDF-ID>C0002932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest wall</surface-form>
+				<RDF-ID>C1279035</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleural</surface-form>
+				<RDF-ID>C1522720</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>membrane</surface-form>
+				<RDF-ID>C0596901</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002932 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Pleural biopsy can diagnose tuberculosis, cancer, and other diseases.</value>
+		<pattern_crowdsource> [[Pleural biopsy|C0176531]] can diagnose [[tuberculosis|C0041296]], [[cancer|C0006826]], and other [[diseases|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pleural biopsy</surface-form>
+				<RDF-ID>C0176531</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tuberculosis</surface-form>
+				<RDF-ID>C0041296</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0012634</triple>
+			<triple>C0012634 ISA C0006826</triple>
+			<triple>C0012634 ISA C0041296</triple>
+			<triple>C0041296 ISA C0012634</triple>
+			<triple>C0176531 DIAGNOSES C0041296</triple>
+			<triple>C0176531 DIAGNOSES C0012634</triple>
+			<triple>C0176531 DIAGNOSES C0006826</triple>
+			<triple>C0176531 DIAGNOSES C0006826</triple>
+			<triple>C0176531 DIAGNOSES C0012634</triple>
+			<triple>C0176531 DIAGNOSES C0012634</triple>
+			<triple>C0176531 DIAGNOSES C0041296</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If this type of pleural biopsy is not enough to make a diagnosis, you may need a surgical biopsy of the pleura.</value>
+		<pattern_crowdsource> If this type of pleural biopsy is not enough to make a diagnosis, you may need a [[surgical biopsy|C0565118]] of the [[pleura|C0032225]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleural biopsy</surface-form>
+				<RDF-ID>C0176531</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diagnosis</surface-form>
+				<RDF-ID>C0011900</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical biopsy</surface-form>
+				<RDF-ID>C0565118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleura</surface-form>
+				<RDF-ID>C0032225</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032225 LOCATION_OF C0565118</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

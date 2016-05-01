@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Wash the access with soap and water every day to decrease your risk of infection.</value>
+		<pattern_crowdsource> Wash the access with [[soap|C0037392]] and [[water|C0043047]] every day to decrease your risk of [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>access</surface-form>
+				<RDF-ID>C0444454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soap</surface-form>
+				<RDF-ID>C0037392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0043047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>every day</surface-form>
+				<RDF-ID>C0332173</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043047 PREDISPOSES C0009450</triple>
+			<triple>C0037392 PREDISPOSES C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- DO NOT let anyone take your blood pressure, draw blood, or start an IV in the arm with the access.</value>
+		<pattern_crowdsource> - DO NOT let anyone take your [[blood pressure|C1272641]], draw blood, or start an IV in the [[arm|C1140618]] with the access.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>let</surface-form>
+				<RDF-ID>C0086562</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>access</surface-form>
+				<RDF-ID>C0444454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1140618 LOCATION_OF C1272641</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

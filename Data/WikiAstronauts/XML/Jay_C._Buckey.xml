@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jay Clark Buckey, Jr. (born June 6, 1956, in New York City) is an American physician and astronaut who flew aboard one space shuttle mission (STS-90) as a Payload Specialist.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Buckey/NNP-3,Jay/NNP-1)
+				nn(Buckey/NNP-3,Clark/NNP-2)
+				nsubj(physician/NN-21,Buckey/NNP-3)
+				appos(Buckey/NNP-3,Jr./NNP-5)
+				dep(Buckey/NNP-3,born/VBN-7)
+				tmod(born/VBN-7,June/NNP-8)
+				num(June/NNP-8,6/CD-9)
+				num(June/NNP-8,1956/CD-11)
+				nn(City/NNP-16,New/NNP-14)
+				nn(City/NNP-16,York/NNP-15)
+				prep_in(born/VBN-7,City/NNP-16)
+				cop(physician/NN-21,is/VBZ-18)
+				det(physician/NN-21,an/DT-19)
+				amod(physician/NN-21,American/JJ-20)
+				conj_and(physician/NN-21,astronaut/NN-23)
+				nsubj(flew/VBD-25,who/WP-24)
+				rcmod(physician/NN-21,flew/VBD-25)
+				num(mission/NN-30,one/CD-27)
+				nn(mission/NN-30,space/NN-28)
+				nn(mission/NN-30,shuttle/NN-29)
+				prep_aboard(flew/VBD-25,mission/NN-30)
+				appos(mission/NN-30,STS-90/NN-32)
+				det(Specialist/NNP-37,a/DT-35)
+				nn(Specialist/NNP-37,Payload/NNP-36)
+				prep_as(flew/VBD-25,Specialist/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Buckey briefly ran for the Democratic nomination to challenge New Hampshire Senator John E. Sununu, a first term Republican, when he was up for re-election in 2008.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(ran/VBD-3,Buckey/NNP-1)
+				advmod(ran/VBD-3,briefly/RB-2)
+				det(nomination/NN-7,the/DT-5)
+				amod(nomination/NN-7,Democratic/JJ-6)
+				prep_for(ran/VBD-3,nomination/NN-7)
+				aux(challenge/VB-9,to/TO-8)
+				xcomp(ran/VBD-3,challenge/VB-9)
+				nn(Sununu/NNP-15,New/NNP-10)
+				nn(Sununu/NNP-15,Hampshire/NNP-11)
+				nn(Sununu/NNP-15,Senator/NNP-12)
+				nn(Sununu/NNP-15,John/NNP-13)
+				nn(Sununu/NNP-15,E./NNP-14)
+				dobj(challenge/VB-9,Sununu/NNP-15)
+				det(Republican/NNP-20,a/DT-17)
+				amod(Republican/NNP-20,first/JJ-18)
+				nn(Republican/NNP-20,term/NN-19)
+				appos(Sununu/NNP-15,Republican/NNP-20)
+				advmod(was/VBD-24,when/WRB-22)
+				nsubj(was/VBD-24,he/PRP-23)
+				rcmod(Sununu/NNP-15,was/VBD-24)
+				advmod(was/VBD-24,up/RB-25)
+				prep_for(up/RB-25,re-election/NN-27)
+				prep_in(was/VBD-24,2008/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Buckey withdrew from the race when former Governor Jeanne Shaheen entered the race.	</value>
+
+		<annotated-sentence>	Buckey withdrew from [[the race|Race]] when former [[Governor|Governor]] [[Jeanne Shaheen|Jeanne_Shaheen]] entered [[the race|Race]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Buckey withdrew from the race when former Governor Jeanne Shaheen entered the race.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(withdrew/VBD-2,Buckey/NNP-1)
+				det(race/NN-5,the/DT-4)
+				prep_from(withdrew/VBD-2,race/NN-5)
+				advmod(entered/VBD-11,when/WRB-6)
+				amod(Shaheen/NNP-10,former/JJ-7)
+				nn(Shaheen/NNP-10,Governor/NNP-8)
+				nn(Shaheen/NNP-10,Jeanne/NNP-9)
+				nsubj(entered/VBD-11,Shaheen/NNP-10)
+				advcl(withdrew/VBD-2,entered/VBD-11)
+				det(race/NN-13,the/DT-12)
+				dobj(entered/VBD-11,race/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the race</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Race</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Governor</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Governor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jeanne Shaheen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jeanne_Shaheen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the race</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Race</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Buckey holds a Bachelor of Science degree in Electrical Engineering from Cornell University (1977) and an M.D. from Cornell in 1981, interning at New York Hospital-Cornell Medical Center and completing his residence at Dartmouth-Hitchcock Medical Center.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,Buckey/NNP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(holds/VBZ-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(Engineering/NNP-10,Electrical/JJ-9)
+				prep_in(Bachelor/NN-4,Engineering/NNP-10)
+				nn(University/NNP-13,Cornell/NNP-12)
+				prep_from(holds/VBZ-2,University/NNP-13)
+				appos(University/NNP-13,1977/CD-15)
+				det(M.D./NNP-19,an/DT-18)
+				prep_from(holds/VBZ-2,M.D./NNP-19)
+				conj_and(University/NNP-13,M.D./NNP-19)
+				prep_from(M.D./NNP-19,Cornell/NNP-21)
+				prep_in(Cornell/NNP-21,1981/CD-23)
+				dep(holds/VBZ-2,interning/VBG-25)
+				nn(Center/NNP-31,New/NNP-27)
+				nn(Center/NNP-31,York/NNP-28)
+				nn(Center/NNP-31,Hospital-Cornell/NNP-29)
+				nn(Center/NNP-31,Medical/NNP-30)
+				prep_at(interning/VBG-25,Center/NNP-31)
+				dep(holds/VBZ-2,completing/VBG-33)
+				conj_and(interning/VBG-25,completing/VBG-33)
+				poss(residence/NN-35,his/PRP$-34)
+				dobj(completing/VBG-33,residence/NN-35)
+				nn(Center/NNP-39,Dartmouth-Hitchcock/NNP-37)
+				nn(Center/NNP-39,Medical/NNP-38)
+				prep_at(completing/VBG-33,Center/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Currently, Buckey is a Professor of Medicine at Dartmouth Medical School.	</value>
+
+		<annotated-sentence>	Currently, [[Buckey|Jay_C._Buckey]] is [[a Professor|Professor_Farnsworth]] of [[Medicine|Medical_school]] at [[Dartmouth Medical School|Dartmouth_Medical_School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Currently, [[Buckey|Jay_C._Buckey]] is a Professor of Medicine at [[Dartmouth Medical School|Dartmouth_Medical_School]].	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(Professor/NNP-6,Currently/RB-1)
+				nsubj(Professor/NNP-6,Buckey/NNP-3)
+				cop(Professor/NNP-6,is/VBZ-4)
+				det(Professor/NNP-6,a/DT-5)
+				prep_of(Professor/NNP-6,Medicine/NNP-8)
+				nn(School/NNP-12,Dartmouth/NNP-10)
+				nn(School/NNP-12,Medical/NNP-11)
+				prep_at(Medicine/NNP-8,School/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Buckey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jay_C._Buckey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dartmouth Medical School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dartmouth_Medical_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jay_C._Buckey http://dbpedia.org/ontology/type http://dbpedia.org/resource/Dartmouth_Medical_School
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a flight surgeon with the U.S. Air Force Reserve for 8 years.	</value>
+
+		<annotated-sentence>	He was also [[a flight surgeon|Flight_surgeon]] with [[the U.S. Air Force Reserve|Air_Force_Reserve_Command]] for 8 [[years|Year]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a flight surgeon with the U.S. Air Force Reserve for 8 years.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(surgeon/NN-6,He/PRP-1)
+				cop(surgeon/NN-6,was/VBD-2)
+				advmod(surgeon/NN-6,also/RB-3)
+				det(surgeon/NN-6,a/DT-4)
+				nn(surgeon/NN-6,flight/NN-5)
+				det(Reserve/NNP-12,the/DT-8)
+				nn(Reserve/NNP-12,U.S./NNP-9)
+				nn(Reserve/NNP-12,Air/NNP-10)
+				nn(Reserve/NNP-12,Force/NNP-11)
+				prep_with(surgeon/NN-6,Reserve/NNP-12)
+				num(years/NNS-15,8/CD-14)
+				prep_for(surgeon/NN-6,years/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a flight surgeon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_surgeon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Air Force Reserve</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Reserve_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1998 he was a Payload Specialist aboard NASA Space Shuttle flight STS-90 as part of the Neurolab mission from April 17 to May 3, 1998.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(Specialist/NNP-7,1998/CD-2)
+				nsubj(Specialist/NNP-7,he/PRP-3)
+				cop(Specialist/NNP-7,was/VBD-4)
+				det(Specialist/NNP-7,a/DT-5)
+				nn(Specialist/NNP-7,Payload/NNP-6)
+				nn(STS-90/NN-13,NASA/NNP-9)
+				nn(STS-90/NN-13,Space/NNP-10)
+				nn(STS-90/NN-13,Shuttle/NNP-11)
+				nn(STS-90/NN-13,flight/NN-12)
+				prep_aboard(Specialist/NNP-7,STS-90/NN-13)
+				prep_as(Specialist/NNP-7,part/NN-15)
+				det(mission/NN-19,the/DT-17)
+				nn(mission/NN-19,Neurolab/NNP-18)
+				prep_of(part/NN-15,mission/NN-19)
+				prep_from(Specialist/NNP-7,April/NNP-21)
+				num(April/NNP-21,17/CD-22)
+				prep_to(April/NNP-21,May/NNP-24)
+				num(May/NNP-24,3/CD-25)
+				num(May/NNP-24,1998/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aboard the Neurolab Mission, Buckey was the Payload Specialist for the experiment "Cardiovascular Adaptation to Zero-Gravity" and assisted with other Spacelab Life Sciences experiments.	</value>
+
+		<annotated-sentence>	Aboard the Neurolab Mission, Buckey was [[the Payload Specialist|Payload_Specialist]] for the [[experiment|Experiment]] "[[Cardiovascular|Cardiovascular_disease]] [[Adaptation|Adaptation]] to [[Zero-Gravity|Weightlessness]]" and assisted with other [[Spacelab|Spacelab]] [[Life Sciences|Life_sciences]] [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aboard the Neurolab Mission, Buckey was the Payload Specialist for the experiment "Cardiovascular Adaptation to Zero-Gravity" and assisted with other Spacelab Life Sciences experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Mission/NNP-4,the/DT-2)
+				nn(Mission/NNP-4,Neurolab/NNP-3)
+				prep_aboard(Specialist/NNP-10,Mission/NNP-4)
+				nsubj(Specialist/NNP-10,Buckey/NNP-6)
+				nsubj(assisted/VBN-21,Buckey/NNP-6)
+				cop(Specialist/NNP-10,was/VBD-7)
+				det(Specialist/NNP-10,the/DT-8)
+				nn(Specialist/NNP-10,Payload/NNP-9)
+				det(Adaptation/NNP-16,the/DT-12)
+				nn(Adaptation/NNP-16,experiment/NN-13)
+				nn(Adaptation/NNP-16,Cardiovascular/NNP-15)
+				prep_for(Specialist/NNP-10,Adaptation/NNP-16)
+				prep_to(Specialist/NNP-10,Zero-Gravity/NNP-18)
+				conj_and(Specialist/NNP-10,assisted/VBN-21)
+				amod(experiments/NNS-27,other/JJ-23)
+				nn(experiments/NNS-27,Spacelab/NNP-24)
+				nn(experiments/NNS-27,Life/NNP-25)
+				nn(experiments/NNS-27,Sciences/NNPS-26)
+				prep_with(assisted/VBN-21,experiments/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cardiovascular</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cardiovascular_disease</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adaptation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adaptation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Zero-Gravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Weightlessness</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Life Sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Life_sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 16-day Spacelab flight, the seven person crew aboard Space Shuttle Columbia served as both experiment subjects and operators for 26 individual life science experiments focusing on the effects of microgravity on the brain and nervous system.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-5,the/DT-2)
+				amod(flight/NN-5,16-day/JJ-3)
+				nn(flight/NN-5,Spacelab/NNP-4)
+				prep_during(served/VBD-15,flight/NN-5)
+				det(crew/NN-10,the/DT-7)
+				num(crew/NN-10,seven/CD-8)
+				nn(crew/NN-10,person/NN-9)
+				nsubj(served/VBD-15,crew/NN-10)
+				nn(Columbia/NNP-14,Space/NN-12)
+				nn(Columbia/NNP-14,Shuttle/NNP-13)
+				prep_aboard(crew/NN-10,Columbia/NNP-14)
+				preconj(subjects/NNS-19,both/DT-17)
+				nn(subjects/NNS-19,experiment/NN-18)
+				prep_as(served/VBD-15,subjects/NNS-19)
+				prep_as(served/VBD-15,operators/NNS-21)
+				conj_and(subjects/NNS-19,operators/NNS-21)
+				num(experiments/NNS-27,26/CD-23)
+				amod(experiments/NNS-27,individual/JJ-24)
+				nn(experiments/NNS-27,life/NN-25)
+				nn(experiments/NNS-27,science/NN-26)
+				prep_for(served/VBD-15,experiments/NNS-27)
+				partmod(experiments/NNS-27,focusing/VBG-28)
+				det(effects/NNS-31,the/DT-30)
+				prep_on(focusing/VBG-28,effects/NNS-31)
+				prep_of(effects/NNS-31,microgravity/NN-33)
+				det(brain/NN-36,the/DT-35)
+				prep_on(focusing/VBG-28,brain/NN-36)
+				amod(system/NN-39,nervous/JJ-38)
+				prep_on(focusing/VBG-28,system/NN-39)
+				conj_and(brain/NN-36,system/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-90 flight orbited the Earth 256 times, covered 6.3 million miles, and logged him over 381 hours in space.	</value>
+
+		<annotated-sentence>	The [[STS-90|STS-90]] [[flight|Flight]] orbited [[the Earth|Earth]] 256 times, covered 6.3 [[million|Million_(band)]] [[miles|Mile]], and logged him over 381 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[STS-90|STS-90]] flight orbited the Earth 256 times, covered 6.3 million miles, and logged him over 381 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,The/DT-1)
+				nn(flight/NN-3,STS-90/NN-2)
+				nsubj(orbited/VBD-4,flight/NN-3)
+				nsubj(covered/VBD-10,flight/NN-3)
+				nsubj(logged/VBD-16,flight/NN-3)
+				det(Earth/NNP-6,the/DT-5)
+				dobj(orbited/VBD-4,Earth/NNP-6)
+				num(times/NNS-8,256/CD-7)
+				tmod(orbited/VBD-4,times/NNS-8)
+				conj_and(orbited/VBD-4,covered/VBD-10)
+				number(million/CD-12,6.3/CD-11)
+				num(miles/NNS-13,million/CD-12)
+				dobj(covered/VBD-10,miles/NNS-13)
+				conj_and(orbited/VBD-4,logged/VBD-16)
+				dobj(logged/VBD-16,him/PRP-17)
+				num(hours/NNS-20,381/CD-19)
+				prep_over(logged/VBD-16,hours/NNS-20)
+				prep_in(hours/NNS-20,space/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-90</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-90</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jay_C._Buckey http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-90
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-90 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jay_C._Buckey
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-90 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Jay_C._Buckey
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

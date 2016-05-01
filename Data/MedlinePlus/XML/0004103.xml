@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Abnormal results may include:  -  Fatty casts are seen in people who have lipids in urine.</value>
+		<pattern_crowdsource> [[Abnormal results|C0459424]] may include:  -  Fatty casts are seen in [[people|C0027361]] who have lipids in urine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal results</surface-form>
+				<RDF-ID>C0459424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lipids</surface-form>
+				<RDF-ID>C0023779</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0459424 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>-  Red blood cell casts mean there is a microscopic amount of bleeding from the kidney.</value>
+		<pattern_crowdsource> -  Red blood cell casts mean there is a microscopic amount of [[bleeding|C0019080]] from the [[kidney|C0022646]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Red blood cell</surface-form>
+				<RDF-ID>C0014792</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>microscopic</surface-form>
+				<RDF-ID>C0205288</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney</surface-form>
+				<RDF-ID>C0022646</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022646 LOCATION_OF C0019080</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>-  Waxy casts can be found in people with advanced kidney disease and chronic kidney failure.</value>
+		<pattern_crowdsource> -  [[Waxy|C0043076]] casts can be found in [[people|C0027361]] with advanced [[kidney disease|C0022658]] and [[chronic kidney failure|C0022661]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Waxy</surface-form>
+				<RDF-ID>C0043076</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney disease</surface-form>
+				<RDF-ID>C0022658</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chronic kidney failure</surface-form>
+				<RDF-ID>C0022661</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027361 LOCATION_OF C0043076</triple>
+			<triple>C0022658 PROCESS_OF C0027361</triple>
+			<triple>C0022661 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

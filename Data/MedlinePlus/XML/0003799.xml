@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A colorless, odorless chemical that causes sweating is applied to a small area on an arm or leg.</value>
+		<pattern_crowdsource> A colorless, odorless chemical that causes [[sweating|C0038990]] is applied to a small area on an [[arm|C1140618]] or [[leg|C0023216]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>colorless</surface-form>
+				<RDF-ID>C0475331</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>odorless</surface-form>
+				<RDF-ID>C0028884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chemical</surface-form>
+				<RDF-ID>C1527218</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sweating</surface-form>
+				<RDF-ID>C0038990</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>area</surface-form>
+				<RDF-ID>C0205146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leg</surface-form>
+				<RDF-ID>C0023216</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1140618 LOCATION_OF C0038990</triple>
+			<triple>C0023216 LOCATION_OF C0038990</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some conditions, such as dehydration or swelling (edema) can affect the test results.</value>
+		<pattern_crowdsource> Some conditions, such as [[dehydration|C0011175]] or [[swelling|C0038999]] ([[edema|C0013604]]) can affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dehydration</surface-form>
+				<RDF-ID>C0011175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0038999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>edema</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013604 ISA C0038999</triple>
+			<triple>C0011175 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

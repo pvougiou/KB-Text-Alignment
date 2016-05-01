@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Dominic Anthony "Tony" Antonelli (born August 23, 1967) is a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Dominic|Dominic_A._Antonelli]] Anthony "Tony" [[Antonelli|Dominic_A._Antonelli]] (born August 23, 1967) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Dominic|Dominic_A._Antonelli]] Anthony "Tony" [[Antonelli|Dominic_A._Antonelli]] (born August 23, 1967) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Antonelli/NNP-6,Dominic/NNP-1)
+				nn(Antonelli/NNP-6,Anthony/NNP-2)
+				nn(Antonelli/NNP-6,Tony/NNP-4)
+				nsubj(astronaut/NN-17,Antonelli/NNP-6)
+				dep(Antonelli/NNP-6,born/VBN-8)
+				tmod(born/VBN-8,August/NNP-9)
+				num(August/NNP-9,23/CD-10)
+				num(August/NNP-9,1967/CD-12)
+				cop(astronaut/NN-17,is/VBZ-14)
+				det(astronaut/NN-17,a/DT-15)
+				nn(astronaut/NN-17,NASA/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dominic</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dominic_A._Antonelli</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Antonelli</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dominic_A._Antonelli</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antonelli was born in Detroit, Michigan, but was raised in both Indiana and North Carolina.	</value>
+
+		<annotated-sentence>	Antonelli was born in Detroit, Michigan, but was raised in both [[Indiana|Indiana]] and [[North Carolina|North_Carolina]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Antonelli was born in Detroit, Michigan, but was raised in both Indiana and North Carolina.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Antonelli/NNP-1)
+				nsubjpass(raised/VBN-11,Antonelli/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Michigan/NNP-7,Detroit/NNP-5)
+				prep_in(born/VBN-3,Michigan/NNP-7)
+				auxpass(raised/VBN-11,was/VBD-10)
+				conj_but(born/VBN-3,raised/VBN-11)
+				preconj(Indiana/NNP-14,both/CC-13)
+				prep_in(raised/VBN-11,Indiana/NNP-14)
+				nn(Carolina/NNP-17,North/NNP-16)
+				prep_in(raised/VBN-11,Carolina/NNP-17)
+				conj_and(Indiana/NNP-14,Carolina/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Carolina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married and has two children.	</value>
+
+		<annotated-sentence>	He is married and has [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married and has two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-5,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(children/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antonelli graduated from Douglas Byrd High School in Fayetteville, North Carolina.	</value>
+
+		<annotated-sentence>	Antonelli graduated from [[Douglas Byrd High School|Douglas_Byrd_High_School]] in [[Fayetteville|Fayetteville,_North_Carolina]], [[North Carolina|North_Carolina]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Antonelli graduated from [[Douglas Byrd High School|Douglas_Byrd_High_School]] in [[Fayetteville|Fayetteville,_North_Carolina]], [[North Carolina|North_Carolina]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Antonelli/NNP-1)
+				nn(School/NNP-7,Douglas/NNP-4)
+				nn(School/NNP-7,Byrd/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				prep_in(graduated/VBD-2,Fayetteville/NNP-9)
+				nn(Carolina/NNP-12,North/NNP-11)
+				appos(Fayetteville/NNP-9,Carolina/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Douglas Byrd High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_Byrd_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fayetteville</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fayetteville,_North_Carolina</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Carolina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_Byrd_High_School http://dbpedia.org/ontology/city http://dbpedia.org/resource/Fayetteville,_North_Carolina
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_Byrd_High_School http://dbpedia.org/ontology/city http://dbpedia.org/resource/North_Carolina
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Fayetteville,_North_Carolina http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/North_Carolina
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He went on to attend the Massachusetts Institute of Technology, where he earned a Bachelor of Science in aeronautics and astronautics.	</value>
+
+		<annotated-sentence>	He went on to attend [[the Massachusetts Institute of Technology|Massachusetts_Institute_of_Technology]], where he earned [[a Bachelor of Science|Bachelor_of_Science]] in aeronautics and astronautics.	</annotated-sentence>
+
+		<pattern_crowdsource>	He went on to attend the Massachusetts Institute of Technology, where he earned a Bachelor of Science in aeronautics and astronautics.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-2,He/PRP-1)
+				prt(went/VBD-2,on/IN-3)
+				aux(attend/VB-5,to/TO-4)
+				xcomp(went/VBD-2,attend/VB-5)
+				det(Institute/NNP-8,the/DT-6)
+				nn(Institute/NNP-8,Massachusetts/NNP-7)
+				dobj(attend/VB-5,Institute/NNP-8)
+				prep_of(Institute/NNP-8,Technology/NNP-10)
+				advmod(earned/VBD-14,where/WRB-12)
+				nsubj(earned/VBD-14,he/PRP-13)
+				advcl(went/VBD-2,earned/VBD-14)
+				det(Bachelor/NN-16,a/DT-15)
+				dobj(earned/VBD-14,Bachelor/NN-16)
+				prep_of(Bachelor/NN-16,Science/NN-18)
+				prep_in(earned/VBD-14,aeronautics/NNS-20)
+				prep_in(earned/VBD-14,astronautics/NNS-22)
+				conj_and(aeronautics/NNS-20,astronautics/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Massachusetts Institute of Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Bachelor of Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He later attended the University of Washington, earning a Master of Science in aeronautics and astronautics.	</value>
+
+		<annotated-sentence>	He later attended [[the University of Washington|University_of_Washington]], earning [[a Master of Science|Master_of_Science]] in aeronautics and astronautics.	</annotated-sentence>
+
+		<pattern_crowdsource>	He later attended the University of Washington, earning a Master of Science in aeronautics and astronautics.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				advmod(attended/VBD-3,later/RB-2)
+				det(University/NNP-5,the/DT-4)
+				dobj(attended/VBD-3,University/NNP-5)
+				prep_of(University/NNP-5,Washington/NNP-7)
+				partmod(attended/VBD-3,earning/VBG-9)
+				det(Master/NN-11,a/DT-10)
+				dobj(earning/VBG-9,Master/NN-11)
+				prep_of(Master/NN-11,Science/NN-13)
+				prep_in(earning/VBG-9,aeronautics/NNS-15)
+				prep_in(earning/VBG-9,astronautics/NNS-17)
+				conj_and(aeronautics/NNS-15,astronautics/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University of Washington</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Washington</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master_of_Science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antonelli served as a fleet Naval Aviator and Landing Signal Officer aboard the aircraft carrier USS Nimitz with the Blue Diamonds (VFA-146), flying F/A-18C Hornets in support of Operation Southern Watch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Antonelli/NNP-1)
+				det(fleet/NN-5,a/DT-4)
+				prep_as(served/VBD-2,fleet/NN-5)
+				nn(Aviator/NNP-7,Naval/NNP-6)
+				dep(flying/VBG-26,Aviator/NNP-7)
+				nn(Officer/NNP-11,Landing/NN-9)
+				nn(Officer/NNP-11,Signal/NN-10)
+				conj_and(Aviator/NNP-7,Officer/NNP-11)
+				dep(flying/VBG-26,Officer/NNP-11)
+				det(carrier/NN-15,the/DT-13)
+				nn(carrier/NN-15,aircraft/NN-14)
+				prep_aboard(Aviator/NNP-7,carrier/NN-15)
+				nn(Nimitz/NNP-17,USS/NNP-16)
+				dep(flying/VBG-26,Nimitz/NNP-17)
+				det(Diamonds/NNPS-21,the/DT-19)
+				nn(Diamonds/NNPS-21,Blue/NNP-20)
+				prep_with(Nimitz/NNP-17,Diamonds/NNPS-21)
+				appos(Nimitz/NNP-17,VFA-146/NN-23)
+				dep(fleet/NN-5,flying/VBG-26)
+				nn(C/NN-29,F/A/NN-27)
+				num(C/NN-29,-18/CD-28)
+				nn(Hornets/NNPS-30,C/NN-29)
+				dobj(flying/VBG-26,Hornets/NNPS-30)
+				prep_in(Hornets/NNPS-30,support/NN-32)
+				nn(Watch/NNP-36,Operation/NNP-34)
+				nn(Watch/NNP-36,Southern/NNP-35)
+				prep_of(support/NN-32,Watch/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antonelli has accumulated over 3,200 hours in 41 different kinds of aircraft and has completed 273 carrier arrested landings.	</value>
+
+		<annotated-sentence>	Antonelli has accumulated over 3,200 [[hours|Hour]] in 41 different kinds of [[aircraft|Aircraft]] and has completed 273 carrier arrested [[landings|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Antonelli has accumulated over 3,200 hours in 41 different kinds of aircraft and has completed 273 carrier arrested landings.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(accumulated/VBN-3,Antonelli/NNP-1)
+				nsubj(completed/VBN-15,Antonelli/NNP-1)
+				aux(accumulated/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,3,200/CD-5)
+				prep_over(accumulated/VBN-3,hours/NNS-6)
+				num(kinds/NNS-10,41/CD-8)
+				amod(kinds/NNS-10,different/JJ-9)
+				prep_in(hours/NNS-6,kinds/NNS-10)
+				prep_of(kinds/NNS-10,aircraft/NN-12)
+				aux(completed/VBN-15,has/VBZ-14)
+				conj_and(accumulated/VBN-3,completed/VBN-15)
+				num(carrier/NN-17,273/CD-16)
+				dobj(completed/VBN-15,carrier/NN-17)
+				partmod(carrier/NN-17,arrested/VBN-18)
+				dobj(arrested/VBN-18,landings/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a Distinguished Graduate of the U.S. Air Force Test Pilot School (Navy Exchange Pilot).	</value>
+
+		<annotated-sentence>	He is a [[Distinguished|Distinguishing]] Graduate of the U.S. Air Force Test Pilot School (Navy Exchange Pilot).	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a Distinguished Graduate of the U.S. Air Force Test Pilot School (Navy Exchange Pilot).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(a/DT-3,He/PRP-1)
+				cop(a/DT-3,is/VBZ-2)
+				partmod(a/DT-3,Distinguished/VBN-4)
+				dobj(Distinguished/VBN-4,Graduate/NN-5)
+				det(School/NNP-13,the/DT-7)
+				nn(School/NNP-13,U.S./NNP-8)
+				nn(School/NNP-13,Air/NNP-9)
+				nn(School/NNP-13,Force/NNP-10)
+				nn(School/NNP-13,Test/NNP-11)
+				nn(School/NNP-13,Pilot/NN-12)
+				prep_of(Graduate/NN-5,School/NNP-13)
+				nn(Exchange/NNP-16,Navy/NNP-15)
+				dep(School/NNP-13,Exchange/NNP-16)
+				dep(Exchange/NNP-16,Pilot/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as an astronaut candidate by NASA in July 2000, Antonelli served in various technical assignments until his assignment to a mission.	</value>
+
+		<annotated-sentence>	Selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]] in [[July 2000|July_2000]], [[Antonelli|Dominic_A._Antonelli]] served in various technical assignments until his assignment to [[a mission|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]] in July 2000, [[Antonelli|Dominic_A._Antonelli]] served in various technical assignments until his assignment to [[a mission|Lyndon_B._Johnson_Space_Center]].	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(served/VBD-13,Selected/VBN-1)
+				det(candidate/NN-5,an/DT-3)
+				nn(candidate/NN-5,astronaut/NN-4)
+				prep_as(Selected/VBN-1,candidate/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,July/NNP-9)
+				num(July/NNP-9,2000/CD-10)
+				nsubj(served/VBD-13,Antonelli/NNP-12)
+				amod(assignments/NNS-17,various/JJ-15)
+				amod(assignments/NNS-17,technical/JJ-16)
+				prep_in(served/VBD-13,assignments/NNS-17)
+				poss(assignment/NN-20,his/PRP$-19)
+				prep_until(served/VBD-13,assignment/NN-20)
+				det(mission/NN-23,a/DT-22)
+				prep_to(served/VBD-13,mission/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Antonelli</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dominic_A._Antonelli</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as pilot on the STS-119 mission which launched on March 15, 2009.	</value>
+
+		<annotated-sentence>	He served as pilot on the [[STS-119|STS-119]] mission which launched on March 15, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as pilot on the [[STS-119|STS-119]] mission which launched on March 15, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				prep_as(served/VBD-2,pilot/NN-4)
+				det(mission/NN-8,the/DT-6)
+				nn(mission/NN-8,STS-119/NN-7)
+				prep_on(served/VBD-2,mission/NN-8)
+				nsubj(launched/VBD-10,which/WDT-9)
+				rcmod(mission/NN-8,launched/VBD-10)
+				prep_on(launched/VBD-10,March/NNP-12)
+				num(March/NNP-12,15/CD-13)
+				num(March/NNP-12,2009/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-119</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-119</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-119
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Dominic_A._Antonelli
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Dominic_A._Antonelli
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight delivered the final pair of power-generating solar array wings and truss element to the International Space Station.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]] delivered [[the final pair|PAIR]] of power-generating [[solar array|Photovoltaic_array]] wings and [[truss|Truss]] element to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight delivered the final pair of power-generating solar array wings and truss element to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(delivered/VBD-3,flight/NN-2)
+				det(pair/NN-6,the/DT-4)
+				amod(pair/NN-6,final/JJ-5)
+				dobj(delivered/VBD-3,pair/NN-6)
+				amod(wings/NNS-11,power-generating/JJ-8)
+				amod(wings/NNS-11,solar/JJ-9)
+				nn(wings/NNS-11,array/NN-10)
+				prep_of(pair/NN-6,wings/NNS-11)
+				nn(element/NN-14,truss/NN-13)
+				prep_of(pair/NN-6,element/NN-14)
+				conj_and(wings/NNS-11,element/NN-14)
+				det(Station/NNP-19,the/DT-16)
+				nn(Station/NNP-19,International/NNP-17)
+				nn(Station/NNP-19,Space/NNP-18)
+				prep_to(delivered/VBD-3,Station/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the final pair</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/PAIR</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>solar array</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photovoltaic_array</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>truss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Truss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Antonelli was assigned as pilot on the STS-132 mission, launched on May 14, 2010.	</value>
+
+		<annotated-sentence>	[[Antonelli|Dominic_A._Antonelli]] was assigned as pilot on the [[STS-132|STS-132]] mission, launched on May 14, 2010.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Antonelli|Dominic_A._Antonelli]] was assigned as pilot on the [[STS-132|STS-132]] mission, launched on May 14, 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,Antonelli/NNP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				prep_as(assigned/VBN-3,pilot/NN-5)
+				det(mission/NN-9,the/DT-7)
+				nn(mission/NN-9,STS-132/NN-8)
+				prep_on(assigned/VBN-3,mission/NN-9)
+				partmod(mission/NN-9,launched/VBN-11)
+				prep_on(launched/VBN-11,May/NNP-13)
+				num(May/NNP-13,14/CD-14)
+				num(May/NNP-13,2010/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Antonelli</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dominic_A._Antonelli</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-132</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-132</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dominic_A._Antonelli http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-132
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Dominic_A._Antonelli
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Dominic_A._Antonelli
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission saw the delivery of the Russian Mini-Research Module 1 (MRM-1) to the International Space Station.	</value>
+
+		<annotated-sentence>	The mission saw the delivery of the Russian Mini-Research [[Module|Mini-Research_Module]] 1 ([[MRM-1|Rassvet_(ISS_module)]]) to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission saw the delivery of the Russian Mini-Research Module 1 (MRM-1) to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(saw/VBD-3,mission/NN-2)
+				det(delivery/NN-5,the/DT-4)
+				dobj(saw/VBD-3,delivery/NN-5)
+				det(MRM-1/NN-13,the/DT-7)
+				amod(MRM-1/NN-13,Russian/JJ-8)
+				nn(MRM-1/NN-13,Mini-Research/NNP-9)
+				nn(MRM-1/NN-13,Module/NNP-10)
+				num(MRM-1/NN-13,1/CD-11)
+				prep_of(delivery/NN-5,MRM-1/NN-13)
+				det(Station/NNP-19,the/DT-16)
+				nn(Station/NNP-19,International/NNP-17)
+				nn(Station/NNP-19,Space/NNP-18)
+				prep_to(MRM-1/NN-13,Station/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mini-Research_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MRM-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rassvet_(ISS_module)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

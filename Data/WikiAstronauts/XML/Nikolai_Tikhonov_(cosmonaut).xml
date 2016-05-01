@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Nikolay Vladimirovich Tikhonov (Russian: ??????? ?.	</value>
+
+		<annotated-sentence>	[[Nikolay|Nikolay_Davydenko]] [[Vladimirovich|Vladimir_(name)]] Tikhonov ([[Russian|Soviet_Union]]: ??????? ?.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Nikolay|Nikolay_Davydenko]] Vladimirovich Tikhonov ([[Russian|Soviet_Union]]: ??????? ?.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Vladimirovich/NNP-2,Nikolay/NNP-1)
+				nn(Russian/NNP-5,Tikhonov/NNP-3)
+				dep(Vladimirovich/NNP-2,Russian/NNP-5)
+				nn(?/NNP-8,???????/NNP-7)
+				dep(Vladimirovich/NNP-2,?/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nikolay</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nikolay_Davydenko</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vladimirovich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vladimir_(name)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nikolay_Davydenko http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	???????) was born May 23, 1982.	</value>
+
+		<annotated-sentence>	???????) was born May 23, 1982.	</annotated-sentence>
+
+		<pattern_crowdsource>	???????) was born May 23, 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				dep(born/VBN-4,???????/NN-1)
+				auxpass(born/VBN-4,was/VBD-3)
+				tmod(born/VBN-4,May/NNP-5)
+				num(May/NNP-5,23/CD-6)
+				num(May/NNP-5,1982/CD-8)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a Russian cosmonaut, selected in 2006.	</value>
+
+		<annotated-sentence>	He is a Russian cosmonaut, selected in [[2006|2006]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a Russian cosmonaut, selected in 2006.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(cosmonaut/NN-5,He/PRP-1)
+				cop(cosmonaut/NN-5,is/VBZ-2)
+				det(cosmonaut/NN-5,a/DT-3)
+				amod(cosmonaut/NN-5,Russian/JJ-4)
+				partmod(cosmonaut/NN-5,selected/VBN-7)
+				prep_in(selected/VBN-7,2006/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

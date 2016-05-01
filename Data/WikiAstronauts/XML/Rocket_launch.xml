@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	A rocket launch is the takeoff phase of the flight of a rocket.	</value>
+
+		<annotated-sentence>	A [[rocket launch|Rocket_launch]] is the [[takeoff|Takeoff_(film)]] phase of [[the flight|Flight]] of [[a rocket|Rocket_launch]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A rocket launch is the takeoff phase of the flight of a rocket.	</pattern_crowdsource>
+
+
+		<tree>
+				det(launch/NN-3,A/DT-1)
+				nn(launch/NN-3,rocket/NN-2)
+				nsubj(phase/NN-7,launch/NN-3)
+				cop(phase/NN-7,is/VBZ-4)
+				det(phase/NN-7,the/DT-5)
+				nn(phase/NN-7,takeoff/NN-6)
+				det(flight/NN-10,the/DT-9)
+				prep_of(phase/NN-7,flight/NN-10)
+				det(rocket/NN-13,a/DT-12)
+				prep_of(flight/NN-10,rocket/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>rocket launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rocket_launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>takeoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Takeoff_(film)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a rocket</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rocket_launch</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Launches for orbital spaceflights, or launches into interplanetary space, are usually from a fixed location on the ground, but may also be from a floating platform (such as the Sea Launch vessel) or, potentially, from a superheavy An-225-class airplane Launches of suborbital flights (including missile launches), can also be from: Launches not into space can also be from: A skyrocket is launched from some stand.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(are/VBP-12,Launches/NNS-1)
+				nsubj(be/VB-25,Launches/NNS-1)
+				nsubj(be/VB-59,Launches/NNS-1)
+				nsubj(Launches/VBZ-62,Launches/NNS-1)
+				amod(spaceflights/NNS-4,orbital/JJ-3)
+				prep_for(Launches/NNS-1,spaceflights/NNS-4)
+				conj_or(Launches/NNS-1,launches/NNS-7)
+				nsubj(are/VBP-12,launches/NNS-7)
+				amod(space/NN-10,interplanetary/JJ-9)
+				prep_into(launches/NNS-7,space/NN-10)
+				advmod(are/VBP-12,usually/RB-13)
+				det(location/NN-17,a/DT-15)
+				amod(location/NN-17,fixed/VBN-16)
+				prep_from(are/VBP-12,location/NN-17)
+				det(ground/NN-20,the/DT-19)
+				prep_on(location/NN-17,ground/NN-20)
+				aux(be/VB-25,may/MD-23)
+				advmod(be/VB-25,also/RB-24)
+				conj_but(are/VBP-12,be/VB-25)
+				det(platform/NN-29,a/DT-27)
+				amod(platform/NN-29,floating/VBG-28)
+				prep_from(be/VB-25,platform/NN-29)
+				det(Sea/NNP-34,the/DT-33)
+				prep_such_as(be/VB-25,Sea/NNP-34)
+				rcmod(Sea/NNP-34,Launch/VB-35)
+				dobj(Launch/VB-35,vessel/NN-36)
+				cc(be/VB-25,or/CC-38)
+				advmod(be/VB-25,potentially/RB-40)
+				det(Launches/NNP-47,a/DT-43)
+				amod(Launches/NNP-47,superheavy/JJ-44)
+				amod(Launches/NNP-47,An-225-class/JJ-45)
+				nn(Launches/NNP-47,airplane/NN-46)
+				prep_from(be/VB-25,Launches/NNP-47)
+				amod(flights/NNS-50,suborbital/JJ-49)
+				prep_of(Launches/NNP-47,flights/NNS-50)
+				nn(launches/NNS-54,missile/NN-53)
+				prep_including(Launches/NNP-47,launches/NNS-54)
+				aux(be/VB-59,can/MD-57)
+				advmod(be/VB-59,also/RB-58)
+				conj_but(are/VBP-12,be/VB-59)
+				prep(be/VB-59,from/IN-60)
+				conj_but(are/VBP-12,Launches/VBZ-62)
+				neg(Launches/VBZ-62,not/RB-63)
+				prep_into(Launches/VBZ-62,space/NN-65)
+				aux(be/VB-68,can/MD-66)
+				advmod(be/VB-68,also/RB-67)
+				rcmod(space/NN-65,be/VB-68)
+				prep(be/VB-68,from/IN-69)
+				det(skyrocket/NN-72,A/DT-71)
+				nsubjpass(launched/VBN-74,skyrocket/NN-72)
+				auxpass(launched/VBN-74,is/VBZ-73)
+				parataxis(are/VBP-12,launched/VBN-74)
+				det(stand/NN-77,some/DT-76)
+				prep_from(launched/VBN-74,stand/NN-77)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	"Rocket launch technologies" generally refers to the entire set of systems needed to successfully launch a vehicle, not just the vehicle itself, but also the firing control systems, ground control station, launch pad, and tracking stations needed for a successful launch and/or recovery.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(technologies/NNS-4,Rocket/NNP-2)
+				nn(technologies/NNS-4,launch/NN-3)
+				nsubj(refers/VBZ-7,technologies/NNS-4)
+				advmod(refers/VBZ-7,generally/RB-6)
+				det(set/NN-11,the/DT-9)
+				amod(set/NN-11,entire/JJ-10)
+				prep_to(refers/VBZ-7,set/NN-11)
+				prep_of(set/NN-11,systems/NNS-13)
+				partmod(systems/NNS-13,needed/VBN-14)
+				aux(launch/VB-17,to/TO-15)
+				advmod(launch/VB-17,successfully/RB-16)
+				xcomp(needed/VBN-14,launch/VB-17)
+				det(vehicle/NN-19,a/DT-18)
+				dobj(launch/VB-17,vehicle/NN-19)
+				neg(vehicle/NN-24,not/RB-21)
+				advmod(vehicle/NN-24,just/RB-22)
+				det(vehicle/NN-24,the/DT-23)
+				dobj(launch/VB-17,vehicle/NN-24)
+				conj_and(vehicle/NN-19,vehicle/NN-24)
+				advmod(vehicle/NN-24,itself/PRP-25)
+				det(firing/NN-30,the/DT-29)
+				conj_and(vehicle/NN-19,firing/NN-30)
+				conj_and(vehicle/NN-24,firing/NN-30)
+				nn(systems/NNS-32,control/NN-31)
+				dep(firing/NN-30,systems/NNS-32)
+				nn(station/NN-36,ground/NN-34)
+				nn(station/NN-36,control/NN-35)
+				dobj(launch/VB-17,station/NN-36)
+				conj_and(vehicle/NN-19,station/NN-36)
+				nn(pad/NN-39,launch/NN-38)
+				dobj(launch/VB-17,pad/NN-39)
+				conj_and(vehicle/NN-19,pad/NN-39)
+				nn(stations/NNS-43,tracking/NN-42)
+				dobj(launch/VB-17,stations/NNS-43)
+				conj_and(vehicle/NN-19,stations/NNS-43)
+				partmod(stations/NNS-43,needed/VBN-44)
+				det(launch/NN-48,a/DT-46)
+				amod(launch/NN-48,successful/JJ-47)
+				prep_for(needed/VBN-44,launch/NN-48)
+				conj_and/or(refers/VBZ-7,recovery/NN-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Commercial launch service providers include: If a rocket is launched to deliver a payload from a planetary surface into space it is called a launch vehicle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(providers/NNS-4,Commercial/JJ-1)
+				nn(providers/NNS-4,launch/NN-2)
+				nn(providers/NNS-4,service/NN-3)
+				nsubj(include/VBP-5,providers/NNS-4)
+				mark(launched/VBN-11,If/IN-7)
+				det(rocket/NN-9,a/DT-8)
+				nsubjpass(launched/VBN-11,rocket/NN-9)
+				auxpass(launched/VBN-11,is/VBZ-10)
+				advcl(called/VBN-24,launched/VBN-11)
+				aux(deliver/VB-13,to/TO-12)
+				xcomp(launched/VBN-11,deliver/VB-13)
+				det(payload/NN-15,a/DT-14)
+				dobj(deliver/VB-13,payload/NN-15)
+				det(surface/NN-19,a/DT-17)
+				amod(surface/NN-19,planetary/JJ-18)
+				prep_from(deliver/VB-13,surface/NN-19)
+				prep_into(deliver/VB-13,space/NN-21)
+				nsubjpass(called/VBN-24,it/PRP-22)
+				auxpass(called/VBN-24,is/VBZ-23)
+				parataxis(include/VBP-5,called/VBN-24)
+				det(vehicle/NN-27,a/DT-25)
+				nn(vehicle/NN-27,launch/NN-26)
+				dobj(called/VBN-24,vehicle/NN-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There are several broad categories that launch vehicles fall under, including: For the launch vehicles currently in use for human spaceflight, see that article.	</value>
+
+		<annotated-sentence>	There are several broad categories that launch [[vehicles|Vehicle]] fall under, including: For the launch [[vehicles|Vehicle]] currently in use for [[human spaceflight|Human_spaceflight]], see that article.	</annotated-sentence>
+
+		<pattern_crowdsource>	There are several broad categories that launch vehicles fall under, including: For the launch vehicles currently in use for human spaceflight, see that article.	</pattern_crowdsource>
+
+
+		<tree>
+				expl(are/VBP-2,There/EX-1)
+				amod(categories/NNS-5,several/JJ-3)
+				amod(categories/NNS-5,broad/JJ-4)
+				nsubj(are/VBP-2,categories/NNS-5)
+				nsubj(launch/VBP-7,that/WDT-6)
+				rcmod(categories/NNS-5,launch/VBP-7)
+				nsubj(fall/VB-9,vehicles/NNS-8)
+				ccomp(launch/VBP-7,fall/VB-9)
+				prep(fall/VB-9,under/IN-10)
+				prep(under/IN-10,including/VBG-12)
+				det(launch/NN-16,the/DT-15)
+				prep_for(see/VBP-25,launch/NN-16)
+				nsubj(see/VBP-25,vehicles/NNS-17)
+				advmod(in/IN-19,currently/RB-18)
+				rcmod(vehicles/NNS-17,in/IN-19)
+				pobj(in/IN-19,use/NN-20)
+				amod(spaceflight/NN-23,human/JJ-22)
+				prep_for(use/NN-20,spaceflight/NN-23)
+				parataxis(are/VBP-2,see/VBP-25)
+				prep_that(see/VBP-25,article/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>human spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There were over 70 orbital launches in 2010.	</value>
+
+		<annotated-sentence>	There were over 70 orbital launches in [[2010|2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	There were over 70 orbital launches in 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				expl(were/VBD-2,There/EX-1)
+				num(launches/NNS-6,70/CD-4)
+				amod(launches/NNS-6,orbital/JJ-5)
+				prep_over(were/VBD-2,launches/NNS-6)
+				prep_in(launches/NNS-6,2010/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Orbital launch vehicles take off vertically, and then begin to progressively lean over, usually following a gravity turn trajectory.	</value>
+
+		<annotated-sentence>	[[Orbital launch|Orbital_spaceflight]] [[vehicles|Vehicle]] take off vertically, and then begin to progressively lean over, usually following a [[gravity turn|Gravity_turn]] [[trajectory|Biblical_hermeneutics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Orbital launch vehicles take off vertically, and then begin to progressively lean over, usually following a gravity turn trajectory.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(vehicles/NNS-3,Orbital/JJ-1)
+				nn(vehicles/NNS-3,launch/NN-2)
+				nsubj(take/VBP-4,vehicles/NNS-3)
+				nsubj(following/VBG-17,vehicles/NNS-3)
+				prt(take/VBP-4,off/RP-5)
+				advmod(take/VBP-4,vertically/RB-6)
+				nsubj(begin/VB-10,then/RB-9)
+				conj_and(take/VBP-4,begin/VB-10)
+				aux(lean/JJ-13,to/TO-11)
+				advmod(lean/JJ-13,progressively/RB-12)
+				xcomp(begin/VB-10,lean/JJ-13)
+				prep(lean/JJ-13,over/IN-14)
+				advmod(following/VBG-17,usually/RB-16)
+				conj_and(take/VBP-4,following/VBG-17)
+				det(trajectory/NN-21,a/DT-18)
+				nn(trajectory/NN-21,gravity/NN-19)
+				nn(trajectory/NN-21,turn/NN-20)
+				pobj(following/VBG-17,trajectory/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Orbital launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbital_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>gravity turn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gravity_turn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>trajectory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biblical_hermeneutics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Once above the majority of the atmosphere, the vehicle then angles the rocket jet, pointing it largely horizontally but somewhat downwards, which permits the vehicle to gain and then maintain altitude while increasing horizontal speed.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(above/IN-2,Once/RB-1)
+				advmod(majority/NN-4,above/IN-2)
+				det(majority/NN-4,the/DT-3)
+				nsubj(pointing/VBG-17,majority/NN-4)
+				det(atmosphere/NN-7,the/DT-6)
+				prep_of(majority/NN-4,atmosphere/NN-7)
+				det(vehicle/NN-10,the/DT-9)
+				appos(majority/NN-4,vehicle/NN-10)
+				advmod(majority/NN-4,then/RB-11)
+				dep(majority/NN-4,angles/NNS-12)
+				det(jet/NN-15,the/DT-13)
+				nn(jet/NN-15,rocket/NN-14)
+				dep(angles/NNS-12,jet/NN-15)
+				dobj(pointing/VBG-17,it/PRP-18)
+				advmod(pointing/VBG-17,largely/RB-19)
+				advmod(pointing/VBG-17,horizontally/RB-20)
+				dep(downwards/NNS-23,somewhat/RB-22)
+				conj_but(pointing/VBG-17,downwards/NNS-23)
+				nsubj(permits/VBZ-26,which/WDT-25)
+				rcmod(downwards/NNS-23,permits/VBZ-26)
+				det(vehicle/NN-28,the/DT-27)
+				dobj(permits/VBZ-26,vehicle/NN-28)
+				aux(gain/VB-30,to/TO-29)
+				infmod(vehicle/NN-28,gain/VB-30)
+				advmod(gain/VB-30,then/RB-32)
+				infmod(vehicle/NN-28,maintain/VB-33)
+				conj_and(gain/VB-30,maintain/VB-33)
+				dobj(maintain/VB-33,altitude/NN-34)
+				prepc_while(maintain/VB-33,increasing/VBG-36)
+				amod(speed/NN-38,horizontal/JJ-37)
+				dobj(increasing/VBG-36,speed/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As the speed grows, the vehicle will become more and more horizontal until at orbital speed, the engine will cut off.	</value>
+
+		<annotated-sentence>	As [[the speed|Orbital_speed]] grows, [[the vehicle|Vehicle]] will become more and more horizontal until at [[orbital speed|Orbital_speed]], [[the engine|Engine]] will cut off.	</annotated-sentence>
+
+		<pattern_crowdsource>	As the speed grows, the vehicle will become more and more horizontal until at orbital speed, the engine will cut off.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(grows/VBZ-4,As/IN-1)
+				det(speed/NN-3,the/DT-2)
+				nsubj(grows/VBZ-4,speed/NN-3)
+				advcl(horizontal/JJ-13,grows/VBZ-4)
+				det(vehicle/NN-7,the/DT-6)
+				nsubj(horizontal/JJ-13,vehicle/NN-7)
+				aux(horizontal/JJ-13,will/MD-8)
+				cop(horizontal/JJ-13,become/VB-9)
+				advmod(horizontal/JJ-13,more/RBR-10)
+				conj_and(more/RBR-10,more/RBR-12)
+				advmod(horizontal/JJ-13,more/RBR-12)
+				mark(cut/VB-22,until/IN-14)
+				amod(speed/NN-17,orbital/JJ-16)
+				prep_at(cut/VB-22,speed/NN-17)
+				det(engine/NN-20,the/DT-19)
+				nsubj(cut/VB-22,engine/NN-20)
+				aux(cut/VB-22,will/MD-21)
+				advcl(horizontal/JJ-13,cut/VB-22)
+				prt(cut/VB-22,off/RP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the speed</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbital_speed</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>orbital speed</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbital_speed</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the engine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engine</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	All current vehicles will stage-jettison hardware on the way to orbit.	</value>
+
+		<annotated-sentence>	All current [[vehicles|Vehicle]] will stage-jettison hardware on the way to orbit.	</annotated-sentence>
+
+		<pattern_crowdsource>	All current vehicles will stage-jettison hardware on the way to orbit.	</pattern_crowdsource>
+
+
+		<tree>
+				det(vehicles/NNS-3,All/DT-1)
+				amod(vehicles/NNS-3,current/JJ-2)
+				nsubj(stage-jettison/VB-5,vehicles/NNS-3)
+				aux(stage-jettison/VB-5,will/MD-4)
+				dobj(stage-jettison/VB-5,hardware/NN-6)
+				det(way/NN-9,the/DT-8)
+				prep_on(stage-jettison/VB-5,way/NN-9)
+				prep_to(way/NN-9,orbit/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When launching a spacecraft to orbit, a "dogleg" is a guided, powered turn during ascent phase that causes a rocket's flight path to deviate from a "straight" path.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(launching/VBG-2,When/WRB-1)
+				advcl(a/DT-13,launching/VBG-2)
+				det(spacecraft/NN-4,a/DT-3)
+				dobj(launching/VBG-2,spacecraft/NN-4)
+				prep_to(launching/VBG-2,orbit/NN-6)
+				det(dogleg/NN-10,a/DT-8)
+				nsubj(a/DT-13,dogleg/NN-10)
+				cop(a/DT-13,is/VBZ-12)
+				partmod(a/DT-13,guided/VBN-14)
+				dep(guided/VBN-14,powered/VBN-16)
+				dobj(guided/VBN-14,turn/NN-17)
+				nn(phase/NN-20,ascent/NN-19)
+				prep_during(guided/VBN-14,phase/NN-20)
+				nsubj(causes/VBZ-22,that/WDT-21)
+				rcmod(phase/NN-20,causes/VBZ-22)
+				det(rocket/NN-24,a/DT-23)
+				poss(path/NN-27,rocket/NN-24)
+				nn(path/NN-27,flight/NN-26)
+				dobj(causes/VBZ-22,path/NN-27)
+				aux(deviate/VB-29,to/TO-28)
+				xcomp(causes/VBZ-22,deviate/VB-29)
+				det(path/NN-35,a/DT-31)
+				amod(path/NN-35,straight/JJ-33)
+				prep_from(deviate/VB-29,path/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A dogleg is necessary if the desired launch azimuth, to reach a desired orbital inclination, would take the ground track over land (or over a populated area, e.g. Russia usually does launch over land, but over unpopulated areas), or if the rocket is trying to reach an orbital plane that does not reach the latitude of the launch site.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(dogleg/NN-2,A/DT-1)
+				nsubj(necessary/JJ-4,dogleg/NN-2)
+				cop(necessary/JJ-4,is/VBZ-3)
+				mark(take/VB-19,if/IN-5)
+				det(azimuth/NN-9,the/DT-6)
+				amod(azimuth/NN-9,desired/VBN-7)
+				nn(azimuth/NN-9,launch/NN-8)
+				nsubj(take/VB-19,azimuth/NN-9)
+				aux(reach/VB-12,to/TO-11)
+				dep(azimuth/NN-9,reach/VB-12)
+				det(inclination/NN-16,a/DT-13)
+				amod(inclination/NN-16,desired/VBN-14)
+				nn(inclination/NN-16,orbital/NN-15)
+				dobj(reach/VB-12,inclination/NN-16)
+				aux(take/VB-19,would/MD-18)
+				dep(necessary/JJ-4,take/VB-19)
+				det(track/NN-22,the/DT-20)
+				nn(track/NN-22,ground/NN-21)
+				dobj(take/VB-19,track/NN-22)
+				prep_over(take/VB-19,land/NN-24)
+				cc(over/IN-27,or/CC-26)
+				dep(take/VB-19,over/IN-27)
+				det(area/NN-30,a/DT-28)
+				amod(area/NN-30,populated/JJ-29)
+				pobj(over/IN-27,area/NN-30)
+				nsubj(does/VBZ-35,e.g./FW-32)
+				appos(e.g./FW-32,Russia/NNP-33)
+				advmod(does/VBZ-35,usually/RB-34)
+				dep(over/IN-27,does/VBZ-35)
+				dobj(does/VBZ-35,launch/NN-36)
+				prep_over(does/VBZ-35,land/NN-38)
+				dep(over/IN-27,over/IN-41)
+				conj_but(does/VBZ-35,over/IN-41)
+				amod(areas/NNS-43,unpopulated/JJ-42)
+				pobj(over/IN-41,areas/NNS-43)
+				mark(trying/VBG-51,if/IN-47)
+				det(rocket/NN-49,the/DT-48)
+				nsubj(trying/VBG-51,rocket/NN-49)
+				aux(trying/VBG-51,is/VBZ-50)
+				dep(necessary/JJ-4,trying/VBG-51)
+				conj_or(take/VB-19,trying/VBG-51)
+				aux(reach/VB-53,to/TO-52)
+				xcomp(trying/VBG-51,reach/VB-53)
+				det(plane/NN-56,an/DT-54)
+				amod(plane/NN-56,orbital/JJ-55)
+				dobj(reach/VB-53,plane/NN-56)
+				nsubj(reach/VB-60,that/WDT-57)
+				aux(reach/VB-60,does/VBZ-58)
+				neg(reach/VB-60,not/RB-59)
+				rcmod(plane/NN-56,reach/VB-60)
+				det(latitude/NN-62,the/DT-61)
+				dobj(reach/VB-60,latitude/NN-62)
+				det(site/NN-66,the/DT-64)
+				nn(site/NN-66,launch/NN-65)
+				prep_of(latitude/NN-62,site/NN-66)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Doglegs are undesirable due to extra onboard fuel required, causing heavier load, and a reduction of vehicle performance.	</value>
+
+		<annotated-sentence>	Doglegs are undesirable due to [[extra onboard|List_of_ship_directions]] [[fuel|Gasoline]] required, causing heavier load, and a reduction of [[vehicle|Automobile]] [[performance|Performance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Doglegs are undesirable due to extra onboard fuel required, causing heavier load, and a reduction of vehicle performance.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(due/JJ-4,Doglegs/NNS-1)
+				cop(due/JJ-4,are/VBP-2)
+				amod(due/JJ-4,undesirable/JJ-3)
+				amod(fuel/NN-8,extra/JJ-6)
+				amod(fuel/NN-8,onboard/JJ-7)
+				prep_to(due/JJ-4,fuel/NN-8)
+				partmod(fuel/NN-8,required/VBN-9)
+				xcomp(required/VBN-9,causing/VBG-11)
+				amod(load/NN-13,heavier/JJR-12)
+				dobj(causing/VBG-11,load/NN-13)
+				det(reduction/NN-17,a/DT-16)
+				prep_to(due/JJ-4,reduction/NN-17)
+				conj_and(fuel/NN-8,reduction/NN-17)
+				nn(performance/NN-20,vehicle/NN-19)
+				prep_of(reduction/NN-17,performance/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>extra onboard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_ship_directions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fuel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gasoline</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Automobile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>performance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Performance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

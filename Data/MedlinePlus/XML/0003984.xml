@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Toxins are substances created by plants and animals that are poisonous to humans.</value>
+		<pattern_crowdsource> Toxins are substances created by plants and [[animals|C0003062]] that are poisonous to [[humans|C0020114]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Toxins</surface-form>
+				<RDF-ID>C0040549</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>substances</surface-form>
+				<RDF-ID>C0439861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plants</surface-form>
+				<RDF-ID>C0032098</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>animals</surface-form>
+				<RDF-ID>C0003062</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poisonous</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>humans</surface-form>
+				<RDF-ID>C0020114</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020114 ISA C0003062</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most toxins that cause problems in humans come from germs such as bacteria.</value>
+		<pattern_crowdsource> Most [[toxins|C0040549]] that cause problems in [[humans|C0020114]] come from germs such as bacteria.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>toxins</surface-form>
+				<RDF-ID>C0040549</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>humans</surface-form>
+				<RDF-ID>C0020114</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020114 LOCATION_OF C0040549</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>For example, cholera is caused by a poisonous bacteria.</value>
+		<pattern_crowdsource> For example, [[cholera|C0008354]] is caused by a poisonous [[bacteria|C0004611]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cholera</surface-form>
+				<RDF-ID>C0008354</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poisonous</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 CAUSES C0008354</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

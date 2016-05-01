@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Georgiy Timofeyevich Dobrovolsky (Russian: ???????? ??????????? ??????????????; June 1, 1928 – June 30, 1971) was a Soviet cosmonaut.	</value>
+
+		<annotated-sentence>	[[Georgiy Timofeyevich Dobrovolsky|Georgy_Dobrovolsky]] ([[Russian|Soviet_Union]]: ???????? ??????????? ??????????????; June 1, 1928 – June 30, 1971) was a [[Soviet|Soviet_Air_Forces]] cosmonaut.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Georgiy Timofeyevich Dobrovolsky|Georgy_Dobrovolsky]] ([[Russian|Soviet_Union]]: ???????? ??????????? ??????????????; June 1, 1928 – June 30, 1971) was a [[Soviet|Soviet_Air_Forces]] cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Dobrovolsky/NNP-3,Georgiy/NNP-1)
+				nn(Dobrovolsky/NNP-3,Timofeyevich/NNP-2)
+				nsubj(cosmonaut/NN-24,Dobrovolsky/NNP-3)
+				dep(Dobrovolsky/NNP-3,Russian/NNP-5)
+				nn(??????????????/NN-9,????????/NN-7)
+				nn(??????????????/NN-9,???????????/NN-8)
+				dep(Russian/NNP-5,??????????????/NN-9)
+				dep(??????????????/NN-9,June/NNP-11)
+				num(June/NNP-11,1/CD-12)
+				num(June/NNP-11,1928/CD-14)
+				dep(June/NNP-11,June/NNP-16)
+				num(June/NNP-16,30/CD-17)
+				num(June/NNP-16,1971/CD-19)
+				cop(cosmonaut/NN-24,was/VBD-21)
+				det(cosmonaut/NN-24,a/DT-22)
+				amod(cosmonaut/NN-24,Soviet/JJ-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Georgiy Timofeyevich Dobrovolsky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Georgy_Dobrovolsky</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Georgy_Dobrovolsky http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soviet_Air_Forces http://dbpedia.org/ontology/country http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is notable for being one of the only three people in history to die in outer space.	</value>
+
+		<annotated-sentence>	He is notable for being one of [[the only three people|Three_men_make_a_tiger]] in [[history|History]] to die in [[outer space|Outer_space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is notable for being one of the only three people in history to die in outer space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(notable/JJ-3,He/PRP-1)
+				cop(notable/JJ-3,is/VBZ-2)
+				cop(one/CD-6,being/VBG-5)
+				prepc_for(notable/JJ-3,one/CD-6)
+				det(people/NNS-11,the/DT-8)
+				amod(people/NNS-11,only/JJ-9)
+				num(people/NNS-11,three/CD-10)
+				prep_of(one/CD-6,people/NNS-11)
+				prep_in(one/CD-6,history/NN-13)
+				aux(die/VB-15,to/TO-14)
+				xcomp(notable/JJ-3,die/VB-15)
+				amod(space/NN-18,outer/JJ-17)
+				prep_in(die/VB-15,space/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the only three people</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Three_men_make_a_tiger</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/History</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>outer space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outer_space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on the Soyuz 11 mission and had the unfortunate distinction of being part of the second Soviet crew to die during a space flight (after Vladimir Mikhaylovich Komarov in Soyuz 1).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nsubj(had/VBD-9,He/PRP-1)
+				det(mission/NN-7,the/DT-4)
+				nn(mission/NN-7,Soyuz/NNP-5)
+				num(mission/NN-7,11/CD-6)
+				prep_on(flew/VBD-2,mission/NN-7)
+				conj_and(flew/VBD-2,had/VBD-9)
+				det(distinction/NN-12,the/DT-10)
+				amod(distinction/NN-12,unfortunate/JJ-11)
+				dobj(had/VBD-9,distinction/NN-12)
+				cop(part/NN-15,being/VBG-14)
+				prepc_of(distinction/NN-12,part/NN-15)
+				det(crew/NN-20,the/DT-17)
+				amod(crew/NN-20,second/JJ-18)
+				amod(crew/NN-20,Soviet/JJ-19)
+				prep_of(part/NN-15,crew/NN-20)
+				aux(die/VB-22,to/TO-21)
+				xcomp(flew/VBD-2,die/VB-22)
+				det(flight/NN-26,a/DT-24)
+				nn(flight/NN-26,space/NN-25)
+				prep_during(die/VB-22,flight/NN-26)
+				nn(Komarov/NNP-31,Vladimir/NNP-29)
+				nn(Komarov/NNP-31,Mikhaylovich/NNP-30)
+				prep_after(flight/NN-26,Komarov/NNP-31)
+				prep_in(Komarov/NNP-31,Soyuz/NNP-33)
+				dep(Soyuz/NNP-33,1/LS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After a normal re-entry, the capsule was opened and the crew was found dead.	</value>
+
+		<annotated-sentence>	After a normal re-entry, the capsule was opened and the crew was found dead.	</annotated-sentence>
+
+		<pattern_crowdsource>	After a normal re-entry, the capsule was opened and the crew was found dead.	</pattern_crowdsource>
+
+
+		<tree>
+				det(re-entry/NN-4,a/DT-2)
+				amod(re-entry/NN-4,normal/JJ-3)
+				prep_after(opened/VBN-9,re-entry/NN-4)
+				det(capsule/NN-7,the/DT-6)
+				nsubjpass(opened/VBN-9,capsule/NN-7)
+				auxpass(opened/VBN-9,was/VBD-8)
+				det(crew/NN-12,the/DT-11)
+				nsubjpass(found/VBN-14,crew/NN-12)
+				auxpass(found/VBN-14,was/VBD-13)
+				conj_and(opened/VBN-9,found/VBN-14)
+				acomp(found/VBN-14,dead/JJ-15)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was discovered that a valve had opened just prior to leaving orbit that had allowed the capsule's atmosphere to vent away into space, suffocating the crew.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(discovered/VBN-3,It/PRP-1)
+				auxpass(discovered/VBN-3,was/VBD-2)
+				mark(opened/VBN-8,that/IN-4)
+				det(valve/NN-6,a/DT-5)
+				nsubj(opened/VBN-8,valve/NN-6)
+				aux(opened/VBN-8,had/VBD-7)
+				ccomp(discovered/VBN-3,opened/VBN-8)
+				advmod(opened/VBN-8,just/RB-9)
+				prepc_prior_to(opened/VBN-8,leaving/VBG-12)
+				dobj(leaving/VBG-12,orbit/NN-13)
+				nsubj(allowed/VBN-16,that/WDT-14)
+				aux(allowed/VBN-16,had/VBD-15)
+				rcmod(orbit/NN-13,allowed/VBN-16)
+				det(capsule/NN-18,the/DT-17)
+				poss(atmosphere/NN-20,capsule/NN-18)
+				dobj(allowed/VBN-16,atmosphere/NN-20)
+				aux(vent/VB-22,to/TO-21)
+				infmod(atmosphere/NN-20,vent/VB-22)
+				advmod(vent/VB-22,away/RB-23)
+				prep_into(vent/VB-22,space/NN-25)
+				partmod(allowed/VBN-16,suffocating/VBG-27)
+				det(crew/NN-29,the/DT-28)
+				dobj(suffocating/VBG-27,crew/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dobrovolsky's ashes were placed in an urn in the Kremlin Wall Necropolis on the Red Square in Moscow.	</value>
+
+		<annotated-sentence>	[[Dobrovolsky|Igor_Dobrovolski]]'s ashes were placed in an urn in [[the Kremlin Wall Necropolis|Kremlin_Wall_Necropolis]] on [[the Red Square|Red_Square]] in [[Moscow|Moscow]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dobrovolsky's ashes were placed in an urn in the Kremlin Wall Necropolis on the Red Square in Moscow.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(ashes/NNS-3,Dobrovolsky/NNP-1)
+				nsubjpass(placed/VBN-5,ashes/NNS-3)
+				auxpass(placed/VBN-5,were/VBD-4)
+				det(urn/NN-8,an/DT-7)
+				prep_in(placed/VBN-5,urn/NN-8)
+				det(Necropolis/NNP-13,the/DT-10)
+				nn(Necropolis/NNP-13,Kremlin/NNP-11)
+				nn(Necropolis/NNP-13,Wall/NNP-12)
+				prep_in(urn/NN-8,Necropolis/NNP-13)
+				det(Square/NNP-17,the/DT-15)
+				nn(Square/NNP-17,Red/NNP-16)
+				prep_on(placed/VBN-5,Square/NNP-17)
+				prep_in(Square/NNP-17,Moscow/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dobrovolsky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Igor_Dobrovolski</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kremlin Wall Necropolis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kremlin_Wall_Necropolis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Red Square</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Red_Square</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was posthumously awarded the title of Hero of the Soviet Union, the Order of Lenin and the title of Pilot-Cosmonaut of the USSR.	</value>
+
+		<annotated-sentence>	He was posthumously awarded [[the title|Title]] of [[Hero of the Soviet Union|Hero_of_the_Soviet_Union]], [[the Order of Lenin|Order_of_Lenin]] and [[the title|Title]] of Pilot-Cosmonaut of [[the USSR|Soviet_Union]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was posthumously awarded the title of [[Hero of the Soviet Union|Hero_of_the_Soviet_Union]], [[the Order of Lenin|Order_of_Lenin]] and the title of Pilot-Cosmonaut of [[the USSR|Soviet_Union]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-4,He/PRP-1)
+				auxpass(awarded/VBN-4,was/VBD-2)
+				advmod(awarded/VBN-4,posthumously/RB-3)
+				det(title/NN-6,the/DT-5)
+				dobj(awarded/VBN-4,title/NN-6)
+				prep_of(title/NN-6,Hero/NN-8)
+				det(Union/NNP-12,the/DT-10)
+				nn(Union/NNP-12,Soviet/NNP-11)
+				prep_of(Hero/NN-8,Union/NNP-12)
+				det(Order/NN-15,the/DT-14)
+				prep_of(title/NN-6,Order/NN-15)
+				conj_and(Hero/NN-8,Order/NN-15)
+				prep_of(Order/NN-15,Lenin/NNP-17)
+				det(title/NN-20,the/DT-19)
+				prep_of(title/NN-6,title/NN-20)
+				conj_and(Hero/NN-8,title/NN-20)
+				prep_of(title/NN-20,Pilot-Cosmonaut/NN-22)
+				det(USSR/NNP-25,the/DT-24)
+				prep_of(Pilot-Cosmonaut/NN-22,USSR/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the title</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Title</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hero of the Soviet Union</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hero_of_the_Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Order of Lenin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Order_of_Lenin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the title</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Title</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Hero_of_the_Soviet_Union http://dbpedia.org/property/lower http://dbpedia.org/resource/Order_of_Lenin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Order_of_Lenin http://dbpedia.org/property/higher http://dbpedia.org/resource/Hero_of_the_Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Georgy_Dobrovolsky http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

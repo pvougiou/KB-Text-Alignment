@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Myoglobin is a protein in heart and skeletal muscles.</value>
+		<pattern_crowdsource> [[Myoglobin|C0027078]] is a [[protein|C0033684]] in [[heart|C0018787]] and [[skeletal muscles|C0242692]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Myoglobin</surface-form>
+				<RDF-ID>C0027078</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skeletal muscles</surface-form>
+				<RDF-ID>C0242692</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027078 ISA C0033684</triple>
+			<triple>C0018787 LOCATION_OF C0033684</triple>
+			<triple>C0242692 LOCATION_OF C0033684</triple>
+			<triple>C0018787 LOCATION_OF C0027078</triple>
+			<triple>C0242692 LOCATION_OF C0027078</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The kidneys help remove myoglobin from the blood into the urine.</value>
+		<pattern_crowdsource> The kidneys help remove [[myoglobin|C0027078]] from the [[blood|C0005767]] into the urine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>kidneys</surface-form>
+				<RDF-ID>C0022646</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>myoglobin</surface-form>
+				<RDF-ID>C0027078</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0027078</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>It looks for antibodies that are present in the blood of people who may have the disease.</value>
+		<pattern_crowdsource> It looks for [[antibodies|C0003241]] that are present in the [[blood|C0005767]] of [[people|C0027361]] who may have the disease.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>present</surface-form>
+				<RDF-ID>C0150312</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0003241</triple>
+			<triple>C0005767 PART_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The RPR test can be used to screen for syphilis.</value>
+		<pattern_crowdsource> The [[RPR test|C0201405]] can be used to screen for [[syphilis|C0039128]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>RPR test</surface-form>
+				<RDF-ID>C0201405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0201405 DIAGNOSES C0039128</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is used to screen people who have symptoms of sexually transmitted infections and is routinely used to screen pregnant women for the disease.</value>
+		<pattern_crowdsource> It is used to screen [[people|C0027361]] who have [[symptoms|C1457887]] of sexually transmitted infections and is routinely used to screen pregnant women for the disease.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pregnant women</surface-form>
+				<RDF-ID>C0033011</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If the screening test is positive, the next step is to confirm the diagnosis with a more specific test for syphilis, such as FTA-ABS.</value>
+		<pattern_crowdsource> If the screening test is positive, the next step is to confirm the [[diagnosis|C0011900]] with a more specific test for [[syphilis|C0039128]], such as FTA-ABS.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>screening test</surface-form>
+				<RDF-ID>C0871311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>positive</surface-form>
+				<RDF-ID>C1446409</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>next</surface-form>
+				<RDF-ID>C1552851</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>step</surface-form>
+				<RDF-ID>C1261552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diagnosis</surface-form>
+				<RDF-ID>C0011900</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ABS</surface-form>
+				<RDF-ID>C0000833</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011900 TREATS C0039128</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The FTA-ABS test will help distinguish between syphilis and other infections or conditions.</value>
+		<pattern_crowdsource> The FTA-ABS test will help distinguish between [[syphilis|C0039128]] and other [[infections|C0021311]] or conditions.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>FTA-ABS test</surface-form>
+				<RDF-ID>C0085108</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0039128 ISA C0021311</triple>
+			<triple>C0021311 ISA C0039128</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>How well the RPR test can detect syphilis depends on the stage of the infection.</value>
+		<pattern_crowdsource> How well the [[RPR test|C0201405]] can detect [[syphilis|C0039128]] depends on the stage of the infection.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>well</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>RPR test</surface-form>
+				<RDF-ID>C0201405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stage</surface-form>
+				<RDF-ID>C1306673</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0201405 DIAGNOSES C0039128</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

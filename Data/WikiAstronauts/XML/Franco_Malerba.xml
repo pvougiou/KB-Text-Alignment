@@ -1,0 +1,920 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Franco Egidio Malerba (Ph.D.) (born October 10, 1946, in Busalla, Genoa, Italy) is an Italian astronaut.	</value>
+
+		<annotated-sentence>	[[Franco Egidio Malerba|Franco_Malerba]] (Ph.D.) (born October 10, 1946, in [[Busalla|Busalla]], Genoa, Italy) is an [[Italian|Italy]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Franco Egidio Malerba|Franco_Malerba]] (Ph.D.) (born October 10, 1946, in [[Busalla|Busalla]], Genoa, Italy) is an [[Italian|Italy]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Malerba/NNP-3,Franco/NNP-1)
+				nn(Malerba/NNP-3,Egidio/NNP-2)
+				nsubj(astronaut/NN-24,Malerba/NNP-3)
+				appos(Malerba/NNP-3,Ph.D./NNP-5)
+				dep(Malerba/NNP-3,born/VBN-8)
+				tmod(born/VBN-8,October/NNP-9)
+				num(October/NNP-9,10/CD-10)
+				num(October/NNP-9,1946/CD-12)
+				prep_in(born/VBN-8,Busalla/NNP-15)
+				nn(Italy/NNP-19,Genoa/NNP-17)
+				appos(Busalla/NNP-15,Italy/NNP-19)
+				cop(astronaut/NN-24,is/VBZ-21)
+				det(astronaut/NN-24,an/DT-22)
+				amod(astronaut/NN-24,Italian/JJ-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Franco Egidio Malerba</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franco_Malerba</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Busalla</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Busalla</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Italian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Busalla http://dbpedia.org/ontology/country http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the first citizen of Italy to travel to space.	</value>
+
+		<annotated-sentence>	He was the first citizen of [[Italy|Italy]] to travel to [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the first citizen of [[Italy|Italy]] to travel to space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(citizen/NN-5,He/PRP-1)
+				cop(citizen/NN-5,was/VBD-2)
+				det(citizen/NN-5,the/DT-3)
+				amod(citizen/NN-5,first/JJ-4)
+				prep_of(citizen/NN-5,Italy/NNP-7)
+				aux(travel/VB-9,to/TO-8)
+				infmod(citizen/NN-5,travel/VB-9)
+				prep_to(travel/VB-9,space/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Italy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to the former Marie-Aude Némo.	</value>
+
+		<annotated-sentence>	Married to the former [[Marie-Aude|Marie-Aude_Murail]] Némo.	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to the former Marie-Aude Némo.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Némo/NNP-6,the/DT-3)
+				amod(Némo/NNP-6,former/JJ-4)
+				nn(Némo/NNP-6,Marie-Aude/NNP-5)
+				prep_to(Married/JJ-1,Némo/NNP-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Marie-Aude</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marie-Aude_Murail</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have one child.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[one child|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have one child.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(child/NN-4,one/CD-3)
+				dobj(have/VBP-2,child/NN-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>one child</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recreational interests include mountaineering, skiing, and tennis.	</value>
+
+		<annotated-sentence>	Recreational [[interests|Interest]] include mountaineering, skiing, and tennis.	</annotated-sentence>
+
+		<pattern_crowdsource>	Recreational interests include mountaineering, skiing, and tennis.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(interests/NNS-2,Recreational/JJ-1)
+				nsubj(include/VBP-3,interests/NNS-2)
+				dobj(include/VBP-3,mountaineering/NN-4)
+				dobj(include/VBP-3,skiing/NN-6)
+				conj_and(mountaineering/NN-4,skiing/NN-6)
+				dobj(include/VBP-3,tennis/NN-9)
+				conj_and(mountaineering/NN-4,tennis/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is fluent in Italian, English, and French.	</value>
+
+		<annotated-sentence>	He is fluent in [[Italian|Italy]], [[English|United_Kingdom]], and [[French|French_people]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is fluent in [[Italian|Italy]], [[English|United_Kingdom]], and [[French|French_people]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(fluent/JJ-3,He/PRP-1)
+				cop(fluent/JJ-3,is/VBZ-2)
+				prep_in(fluent/JJ-3,Italian/JJ-5)
+				prep_in(fluent/JJ-3,English/NNP-7)
+				conj_and(Italian/JJ-5,English/NNP-7)
+				prep_in(fluent/JJ-3,French/NNP-10)
+				conj_and(Italian/JJ-5,French/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Italian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>English</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>French</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/French_people</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/French_people http://dbpedia.org/ontology/populationPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/French_people http://dbpedia.org/ontology/populationPlace http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Founding Member of the Italian Space Society.	</value>
+
+		<annotated-sentence>	Founding Member of the Italian [[Space|Space]] [[Society|Society]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Founding Member of the Italian Space Society.	</pattern_crowdsource>
+
+
+		<tree>
+				dobj(Founding/VBG-1,Member/NNP-2)
+				det(Society/NNP-7,the/DT-4)
+				amod(Society/NNP-7,Italian/JJ-5)
+				nn(Society/NNP-7,Space/NN-6)
+				prep_of(Member/NNP-2,Society/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reserve Officer, Marina Militare.	</value>
+
+		<annotated-sentence>	[[Reserve Officer|Military_reserve_force]], [[Marina Militare|Italian_Navy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reserve Officer, Marina Militare.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Officer/NNP-2,Reserve/NNP-1)
+				nn(Militare/NNP-5,Marina/NNP-4)
+				appos(Officer/NNP-2,Militare/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Reserve Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_reserve_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marina Militare</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_Navy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Served in 1974-75 (Sottotenente Armi Navali); was assigned to the Destroyer San Giorgio as Science Lecturer to the Naval Academy, and then to the Mariperman Technical Center in La Spezia working on ELF transmission systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-11,1974-75/CD-3)
+				nn(Navali/NNP-7,Sottotenente/NNP-5)
+				nn(Navali/NNP-7,Armi/NNP-6)
+				nsubjpass(assigned/VBN-11,Navali/NNP-7)
+				auxpass(assigned/VBN-11,was/VBD-10)
+				ccomp(Served/VBN-1,assigned/VBN-11)
+				det(Giorgio/NNP-16,the/DT-13)
+				nn(Giorgio/NNP-16,Destroyer/NNP-14)
+				nn(Giorgio/NNP-16,San/NNP-15)
+				prep_to(assigned/VBN-11,Giorgio/NNP-16)
+				nn(Lecturer/NNP-19,Science/NNP-18)
+				prep_as(assigned/VBN-11,Lecturer/NNP-19)
+				prep(Served/VBN-1,to/TO-20)
+				det(Academy/NNP-23,the/DT-21)
+				nn(Academy/NNP-23,Naval/NNP-22)
+				pobj(to/TO-20,Academy/NNP-23)
+				prep(Served/VBN-1,then/RB-26)
+				conj_and(to/TO-20,then/RB-26)
+				dep(to/TO-20,to/TO-27)
+				det(Center/NNP-31,the/DT-28)
+				nn(Center/NNP-31,Mariperman/NNP-29)
+				nn(Center/NNP-31,Technical/NNP-30)
+				pobj(to/TO-27,Center/NNP-31)
+				nn(Spezia/NNP-34,La/NNP-33)
+				prep_in(Served/VBN-1,Spezia/NNP-34)
+				partmod(Spezia/NNP-34,working/VBG-35)
+				nn(systems/NNS-39,ELF/NN-37)
+				nn(systems/NNS-39,transmission/NN-38)
+				prep_on(working/VBG-35,systems/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Obtained scuba diving license from the Calypso Scuba Club, Geneva (1984).	</value>
+
+		<annotated-sentence>	Obtained [[scuba diving|Scuba_diving]] [[license|License]] from the Calypso [[Scuba|Scuba_diving]] [[Club|Scuba_diving]], Geneva ([[1984|1984]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Obtained scuba diving license from the Calypso Scuba Club, Geneva (1984).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(license/NN-4,scuba/NN-2)
+				nn(license/NN-4,diving/NN-3)
+				dobj(Obtained/VBN-1,license/NN-4)
+				det(Geneva/NNP-11,the/DT-6)
+				amod(Geneva/NNP-11,Calypso/JJ-7)
+				nn(Geneva/NNP-11,Scuba/NNP-8)
+				nn(Geneva/NNP-11,Club/NNP-9)
+				prep_from(license/NN-4,Geneva/NNP-11)
+				appos(Geneva/NNP-11,1984/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>license</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/License</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scuba</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Club</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Obtained Private Pilot License (College Park, Washington, D.C., 1973) and then the equivalent Italian flying license.	</value>
+
+		<annotated-sentence>	Obtained [[Private Pilot License|Private_Pilot_License]] (College Park, Washington, D.C., [[1973|1973]]) and then the equivalent Italian flying [[license|License]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Obtained Private Pilot License (College Park, Washington, D.C., 1973) and then the equivalent Italian flying license.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(License/NN-4,Private/JJ-2)
+				nn(License/NN-4,Pilot/NN-3)
+				dobj(Obtained/VBN-1,License/NN-4)
+				nn(Park/NNP-7,College/NNP-6)
+				appos(License/NN-4,Park/NNP-7)
+				nn(D.C./NNP-11,Washington/NNP-9)
+				dep(Park/NNP-7,D.C./NNP-11)
+				dep(Park/NNP-7,1973/CD-13)
+				advmod(License/NN-4,then/RB-16)
+				det(Italian/JJ-19,the/DT-17)
+				amod(Italian/JJ-19,equivalent/JJ-18)
+				dobj(Obtained/VBN-1,Italian/JJ-19)
+				conj_and(License/NN-4,Italian/JJ-19)
+				partmod(Italian/JJ-19,flying/VBG-20)
+				dobj(flying/VBG-20,license/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Private Pilot License</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Private_Pilot_License</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>license</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/License</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After selection in 1989 as a Payload Specialist by the Italian Space Agency (ASI) and NASA, he became a staff member of ASI and was assigned to the NASA Johnson Space Center, Houston, Texas, for training.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(member/NN-24,selection/NN-2)
+				prep_in(selection/NN-2,1989/CD-4)
+				det(Specialist/NN-8,a/DT-6)
+				nn(Specialist/NN-8,Payload/NNP-7)
+				prep_as(1989/CD-4,Specialist/NN-8)
+				det(Agency/NNP-13,the/DT-10)
+				amod(Agency/NNP-13,Italian/JJ-11)
+				nn(Agency/NNP-13,Space/NN-12)
+				prep_by(Specialist/NN-8,Agency/NNP-13)
+				appos(Agency/NNP-13,ASI/NNP-15)
+				prep_by(Specialist/NN-8,NASA/NNP-18)
+				conj_and(Agency/NNP-13,NASA/NNP-18)
+				nsubj(member/NN-24,he/PRP-20)
+				nsubjpass(assigned/VBN-29,he/PRP-20)
+				cop(member/NN-24,became/VBD-21)
+				det(member/NN-24,a/DT-22)
+				nn(member/NN-24,staff/NN-23)
+				prep_of(member/NN-24,ASI/NNP-26)
+				auxpass(assigned/VBN-29,was/VBD-28)
+				conj_and(member/NN-24,assigned/VBN-29)
+				det(Center/NNP-35,the/DT-31)
+				nn(Center/NNP-35,NASA/NNP-32)
+				nn(Center/NNP-35,Johnson/NNP-33)
+				nn(Center/NNP-35,Space/NNP-34)
+				prep_to(assigned/VBN-29,Center/NNP-35)
+				nn(Texas/NNP-39,Houston/NNP-37)
+				appos(Center/NNP-35,Texas/NNP-39)
+				prep_for(assigned/VBN-29,training/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 1991, he was designated Prime Payload Specialist for the TSS-1 Space Shuttle mission.	</value>
+
+		<annotated-sentence>	In [[September 1991|1991]], he was designated Prime [[Payload Specialist|Payload_Specialist]] for the TSS-1 [[Space Shuttle|SpaceShuttle]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 1991, he was designated Prime Payload Specialist for the TSS-1 Space Shuttle mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(designated/VBN-7,September/NNP-2)
+				num(September/NNP-2,1991/CD-3)
+				nsubjpass(designated/VBN-7,he/PRP-5)
+				auxpass(designated/VBN-7,was/VBD-6)
+				nn(Specialist/NNP-10,Prime/NNP-8)
+				nn(Specialist/NNP-10,Payload/NNP-9)
+				dobj(designated/VBN-7,Specialist/NNP-10)
+				det(mission/NN-16,the/DT-12)
+				nn(mission/NN-16,TSS-1/NN-13)
+				nn(mission/NN-16,Space/NN-14)
+				nn(mission/NN-16,Shuttle/NNP-15)
+				prep_for(Specialist/NNP-10,mission/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Malerba flew as the first Italian citizen in space on STS-46 (July 31, 1992 to August 7, 1992).	</value>
+
+		<annotated-sentence>	[[Malerba|Franco_Malerba]] flew as [[the first Italian citizen|Italian_nationality_law]] in [[space|Space]] on [[STS-46|STS-46]] ([[July|July]] 31, 1992 to August 7, 1992).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Malerba|Franco_Malerba]] flew as the first Italian citizen in space on [[STS-46|STS-46]] (July 31, 1992 to August 7, 1992).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Malerba/NNP-1)
+				det(citizen/NN-7,the/DT-4)
+				amod(citizen/NN-7,first/JJ-5)
+				amod(citizen/NN-7,Italian/JJ-6)
+				prep_as(flew/VBD-2,citizen/NN-7)
+				prep_in(citizen/NN-7,space/NN-9)
+				prep_on(flew/VBD-2,STS-46/NN-11)
+				dep(flew/VBD-2,July/NNP-13)
+				num(July/NNP-13,31/CD-14)
+				num(July/NNP-13,1992/CD-16)
+				prep_to(July/NNP-13,August/NNP-18)
+				num(August/NNP-18,7/CD-19)
+				num(August/NNP-18,1992/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Malerba</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franco_Malerba</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first Italian citizen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italian_nationality_law</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-46</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-46</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Franco_Malerba http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-46
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Franco_Malerba
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-46 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Franco_Malerba
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is now involved with the Italian Space Agency (ASI) manned space flight program follow-on activities.	</value>
+
+		<annotated-sentence>	He is now involved with the Italian [[Space|Space]] Agency (ASI) manned [[space|Space]] [[flight|Darts]] program follow-on [[activities|Activity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is now involved with the Italian Space Agency (ASI) manned space [[flight|Darts]] program follow-on [[activities|Activity]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(involved/VBN-4,He/PRP-1)
+				auxpass(involved/VBN-4,is/VBZ-2)
+				advmod(involved/VBN-4,now/RB-3)
+				det(Space/NN-8,the/DT-6)
+				amod(Space/NN-8,Italian/JJ-7)
+				prep_with(involved/VBN-4,Space/NN-8)
+				nsubj(manned/VBD-13,Agency/NNP-9)
+				appos(Agency/NNP-9,ASI/NNP-11)
+				rcmod(Space/NN-8,manned/VBD-13)
+				dobj(manned/VBD-13,space/NN-14)
+				nn(activities/NNS-18,flight/NN-15)
+				nn(activities/NNS-18,program/NN-16)
+				amod(activities/NNS-18,follow-on/JJ-17)
+				dep(manned/VBD-13,activities/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Darts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Darts http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Activity
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

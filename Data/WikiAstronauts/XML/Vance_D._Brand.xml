@@ -1,0 +1,4264 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Vance DeVoe Brand (born May 9, 1931) is a former test pilot and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Vance|Vance_D._Brand]] [[DeVoe|Ronnie_DeVoe]] [[Brand|Vance_D._Brand]] (born May 9, 1931) is [[a former test pilot|Test_pilot]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Vance|Vance_D._Brand]] DeVoe [[Brand|Vance_D._Brand]] (born May 9, 1931) is [[a former test pilot|Test_pilot]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Brand/NNP-3,Vance/NNP-1)
+				nn(Brand/NNP-3,DeVoe/NNP-2)
+				nsubj(pilot/NN-15,Brand/NNP-3)
+				dep(Brand/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,May/NNP-6)
+				num(May/NNP-6,9/CD-7)
+				num(May/NNP-6,1931/CD-9)
+				cop(pilot/NN-15,is/VBZ-11)
+				det(pilot/NN-15,a/DT-12)
+				amod(pilot/NN-15,former/JJ-13)
+				nn(pilot/NN-15,test/NN-14)
+				nn(astronaut/NN-18,NASA/NNP-17)
+				conj_and(pilot/NN-15,astronaut/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DeVoe</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ronnie_DeVoe</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as command module pilot during the first U.S.-Soviet joint space flight in 1975, and as commander of three space shuttle missions.	</value>
+
+		<annotated-sentence>	He served as [[command module pilot|Apollo_program]] during the first [[U.S.-Soviet|U.S.%E2%80%93Soviet_Incidents_at_Sea_agreement]] joint [[space flight|Kennedy_Space_Center]] in [[1975|1975]], and as [[commander|Commander]] of three [[space shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as command module pilot during the first U.S.-Soviet joint space flight in 1975, and as commander of three space shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nsubj(served/VBD-2,He/PRP-1)
+				conj_and(served/VBD-2,served/VBD-2)
+				nn(pilot/NN-6,command/NN-4)
+				nn(pilot/NN-6,module/NN-5)
+				prep_as(served/VBD-2,pilot/NN-6)
+				det(flight/NN-13,the/DT-8)
+				amod(flight/NN-13,first/JJ-9)
+				amod(flight/NN-13,U.S.-Soviet/JJ-10)
+				amod(flight/NN-13,joint/JJ-11)
+				nn(flight/NN-13,space/NN-12)
+				prep_during(served/VBD-2,flight/NN-13)
+				prep_in(flight/NN-13,1975/CD-15)
+				prep_as(served/VBD-2,commander/NN-19)
+				num(missions/NNS-24,three/CD-21)
+				nn(missions/NNS-24,space/NN-22)
+				nn(missions/NNS-24,shuttle/NN-23)
+				prep_of(commander/NN-19,missions/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>command module pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.-Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S.%E2%80%93Soviet_Incidents_at_Sea_agreement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His flight experience includes 9,669 flying hours, which includes 8,089 hours in jets, 391 hours in helicopters, 746 hours in spacecraft, and checkout in more than 30 types of military aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(experience/NN-3,His/PRP$-1)
+				nn(experience/NN-3,flight/NN-2)
+				nsubj(includes/VBZ-4,experience/NN-3)
+				num(hours/NNS-7,9,669/CD-5)
+				amod(hours/NNS-7,flying/VBG-6)
+				dobj(includes/VBZ-4,hours/NNS-7)
+				nsubj(includes/VBZ-10,which/WDT-9)
+				rcmod(hours/NNS-7,includes/VBZ-10)
+				num(hours/NNS-12,8,089/CD-11)
+				dobj(includes/VBZ-10,hours/NNS-12)
+				prep_in(hours/NNS-12,jets/NNS-14)
+				num(hours/NNS-17,391/CD-16)
+				dobj(includes/VBZ-10,hours/NNS-17)
+				conj_and(hours/NNS-12,hours/NNS-17)
+				prep_in(hours/NNS-17,helicopters/NNS-19)
+				num(hours/NNS-22,746/CD-21)
+				dobj(includes/VBZ-10,hours/NNS-22)
+				conj_and(hours/NNS-12,hours/NNS-22)
+				prep_in(hours/NNS-22,spacecraft/NN-24)
+				dobj(includes/VBZ-10,checkout/NN-27)
+				conj_and(hours/NNS-12,checkout/NN-27)
+				mwe(than/IN-30,more/JJR-29)
+				quantmod(30/CD-31,than/IN-30)
+				num(types/NNS-32,30/CD-31)
+				prep_in(checkout/NN-27,types/NNS-32)
+				amod(aircraft/NN-35,military/JJ-34)
+				prep_of(types/NNS-32,aircraft/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vance Brand Airport in Longmont, Colorado, is named in his honor.	</value>
+
+		<annotated-sentence>	[[Vance Brand Airport|Vance_Brand_Airport]] in [[Longmont , Colorado ,|Akron,_Ohio]]s named in his honor.	</annotated-sentence>
+
+		<pattern_crowdsource>	Vance Brand Airport in Longmont, Colorado, is named in his honor.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Airport/NNP-3,Vance/NNP-1)
+				nn(Airport/NNP-3,Brand/NNP-2)
+				nsubjpass(named/VBN-10,Airport/NNP-3)
+				nn(Colorado/NNP-7,Longmont/NNP-5)
+				prep_in(Airport/NNP-3,Colorado/NNP-7)
+				auxpass(named/VBN-10,is/VBZ-9)
+				poss(honor/NN-13,his/PRP$-12)
+				prep_in(named/VBN-10,honor/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vance Brand Airport</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_Brand_Airport</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Longmont , Colorado ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was born in Longmont, Colorado, May 9, 1931, and is the son of Rudolph William and Donna Mae Brand.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] was born in Longmont, Colorado, May 9, 1931, and is the son of Rudolph William and Donna Mae [[Brand|Brand]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand was born in Longmont, Colorado, May 9, 1931, and is the son of Rudolph William and Donna Mae Brand.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Brand/NN-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(May/NNP-9,Longmont/NNP-5)
+				appos(May/NNP-9,Colorado/NNP-7)
+				prep_in(born/VBN-3,May/NNP-9)
+				num(May/NNP-9,9/CD-10)
+				num(May/NNP-9,1931/CD-12)
+				cop(son/NN-17,is/VBZ-15)
+				det(son/NN-17,the/DT-16)
+				conj_and(born/VBN-3,son/NN-17)
+				nn(William/NNP-20,Rudolph/NNP-19)
+				prep_of(son/NN-17,William/NNP-20)
+				nn(Brand/NNP-24,Donna/NNP-22)
+				nn(Brand/NNP-24,Mae/NNP-23)
+				prep_of(son/NN-17,Brand/NNP-24)
+				conj_and(William/NNP-20,Brand/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was active in Troop 64 of the Boy Scouts of America in Longmont, where he achieved Life Scout.	</value>
+
+		<annotated-sentence>	He was active in [[Troop|Troop]] 64 of [[the Boy Scouts of America|Boy_Scouts_of_America]] in [[Longmont|Longmont,_Colorado]], where he achieved [[Life Scout|Ranks_in_the_Boy_Scouts_of_America]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was active in Troop 64 of the Boy Scouts of America in [[Longmont|Longmont,_Colorado]], where he achieved Life Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-3,He/PRP-1)
+				cop(active/JJ-3,was/VBD-2)
+				prep_in(active/JJ-3,Troop/NN-5)
+				num(Troop/NN-5,64/CD-6)
+				det(Scouts/NNS-10,the/DT-8)
+				nn(Scouts/NNS-10,Boy/NNP-9)
+				prep_of(Troop/NN-5,Scouts/NNS-10)
+				prep_of(Scouts/NNS-10,America/NNP-12)
+				prep_in(active/JJ-3,Longmont/NNP-14)
+				advmod(achieved/VBD-18,where/WRB-16)
+				nsubj(achieved/VBD-18,he/PRP-17)
+				advcl(active/JJ-3,achieved/VBD-18)
+				nn(Scout/NNP-20,Life/NNP-19)
+				dobj(achieved/VBD-18,Scout/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Troop</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Troop</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Boy Scouts of America</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Longmont</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Longmont,_Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Life Scout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranks_in_the_Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Longmont,_Colorado
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was active in the International Order of DeMolay.	</value>
+
+		<annotated-sentence>	He was active in the [[International|International]] Order of [[DeMolay|Karl_DeMolay]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was active in the International Order of DeMolay.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-3,He/PRP-1)
+				cop(active/JJ-3,was/VBD-2)
+				det(Order/NNP-7,the/DT-5)
+				nn(Order/NNP-7,International/NNP-6)
+				prep_in(active/JJ-3,Order/NNP-7)
+				prep_of(Order/NNP-7,DeMolay/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DeMolay</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Karl_DeMolay</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to the former Beverly Ann Whitnel, and has two daughters and four sons; Susan Nancy, Stephanie Brand Lowery, Patrick Richard, Kevin Stephen, Erik Ryan, and Dane Vance.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-12,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Whitnel/NNP-9,the/DT-5)
+				amod(Whitnel/NNP-9,former/JJ-6)
+				nn(Whitnel/NNP-9,Beverly/NNP-7)
+				nn(Whitnel/NNP-9,Ann/NNP-8)
+				prep_to(married/VBN-3,Whitnel/NNP-9)
+				conj_and(married/VBN-3,has/VBZ-12)
+				num(daughters/NNS-14,two/CD-13)
+				dobj(has/VBZ-12,daughters/NNS-14)
+				num(sons/NNS-17,four/CD-16)
+				dobj(has/VBZ-12,sons/NNS-17)
+				conj_and(daughters/NNS-14,sons/NNS-17)
+				nn(Nancy/NNP-20,Susan/NNP-19)
+				dep(daughters/NNS-14,Nancy/NNP-20)
+				nn(Lowery/NNP-24,Stephanie/NNP-22)
+				nn(Lowery/NNP-24,Brand/NNP-23)
+				dep(daughters/NNS-14,Lowery/NNP-24)
+				conj_and(Nancy/NNP-20,Lowery/NNP-24)
+				nn(Richard/NNP-27,Patrick/NNP-26)
+				dep(daughters/NNS-14,Richard/NNP-27)
+				conj_and(Nancy/NNP-20,Richard/NNP-27)
+				nn(Stephen/NNP-30,Kevin/NNP-29)
+				dep(daughters/NNS-14,Stephen/NNP-30)
+				conj_and(Nancy/NNP-20,Stephen/NNP-30)
+				nn(Ryan/NNP-33,Erik/NNP-32)
+				dep(daughters/NNS-14,Ryan/NNP-33)
+				conj_and(Nancy/NNP-20,Ryan/NNP-33)
+				nn(Vance/NNP-37,Dane/NN-36)
+				dep(daughters/NNS-14,Vance/NNP-37)
+				conj_and(Nancy/NNP-20,Vance/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Longmont High School, he received a Bachelor of Science degree in Business from the University of Colorado at Boulder in 1953, a Bachelor of Science degree in Aeronautical Engineering from there in 1960, and a Master's degree in Business Administration from UCLA in 1964.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-8,Graduated/VBN-1)
+				nn(School/NNP-5,Longmont/NNP-3)
+				nn(School/NNP-5,High/NNP-4)
+				prep_from(Graduated/VBN-1,School/NNP-5)
+				nsubj(received/VBD-8,he/PRP-7)
+				det(Bachelor/NN-10,a/DT-9)
+				dobj(received/VBD-8,Bachelor/NN-10)
+				nn(degree/NN-13,Science/NNP-12)
+				prep_of(Bachelor/NN-10,degree/NN-13)
+				prep_in(received/VBD-8,Business/NN-15)
+				det(University/NNP-18,the/DT-17)
+				prep_from(received/VBD-8,University/NNP-18)
+				prep_of(University/NNP-18,Colorado/NNP-20)
+				prep_at(received/VBD-8,Boulder/NNP-22)
+				prep_in(Boulder/NNP-22,1953/CD-24)
+				det(Bachelor/NN-27,a/DT-26)
+				prep_at(received/VBD-8,Bachelor/NN-27)
+				conj_and(Boulder/NNP-22,Bachelor/NN-27)
+				nn(degree/NN-30,Science/NNP-29)
+				prep_of(Bachelor/NN-27,degree/NN-30)
+				nn(Engineering/NNP-33,Aeronautical/NNP-32)
+				prep_in(degree/NN-30,Engineering/NNP-33)
+				prep_from(Engineering/NNP-33,there/EX-35)
+				prep_in(Bachelor/NN-27,1960/CD-37)
+				det(Master/NN-41,a/DT-40)
+				poss(degree/NN-43,Master/NN-41)
+				prep_at(received/VBD-8,degree/NN-43)
+				conj_and(Boulder/NNP-22,degree/NN-43)
+				nn(Administration/NNP-46,Business/NNP-45)
+				prep_in(degree/NN-43,Administration/NNP-46)
+				prep_from(Administration/NNP-46,UCLA/NNP-48)
+				prep_in(UCLA/NNP-48,1964/CD-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a member of Sigma Nu Fraternity while at University of Colorado at Boulder.	</value>
+
+		<annotated-sentence>	He was a member of [[Sigma Nu Fraternity|Sigma_Nu]] while at [[University of Colorado|University_of_Colorado]] at [[Boulder|Boulder]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a member of Sigma Nu Fraternity while at University of Colorado at Boulder.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				nn(Fraternity/NNP-8,Sigma/NNP-6)
+				nn(Fraternity/NNP-8,Nu/NNP-7)
+				prep_of(member/NN-4,Fraternity/NNP-8)
+				mark(at/IN-10,while/IN-9)
+				dep(Fraternity/NNP-8,at/IN-10)
+				pobj(at/IN-10,University/NNP-11)
+				prep_of(University/NNP-11,Colorado/NNP-13)
+				prep_at(member/NN-4,Boulder/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sigma Nu Fraternity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sigma_Nu</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boulder</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boulder</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was a commissioned officer and naval aviator with the United States Marine Corps from 1953 to 1957.	</value>
+
+		<annotated-sentence>	[[Brand|Vance_D._Brand]] was [[a commissioned officer|Officer_(armed_forces)]] and [[naval aviator|United_States_Naval_Aviator]] with [[the United States Marine Corps|United_States_Marine_Corps]] from [[1953|1953_(album)]] to [[1957|1957]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand was a commissioned officer and naval aviator with the United States Marine Corps from 1953 to 1957.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(officer/NN-5,Brand/NN-1)
+				cop(officer/NN-5,was/VBD-2)
+				det(officer/NN-5,a/DT-3)
+				amod(officer/NN-5,commissioned/VBN-4)
+				amod(aviator/NN-8,naval/JJ-7)
+				conj_and(officer/NN-5,aviator/NN-8)
+				det(Corps/NNP-14,the/DT-10)
+				nn(Corps/NNP-14,United/NNP-11)
+				nn(Corps/NNP-14,States/NNPS-12)
+				nn(Corps/NNP-14,Marine/NNP-13)
+				prep_with(aviator/NN-8,Corps/NNP-14)
+				num(1957/CD-18,1953/CD-16)
+				dep(1957/CD-18,to/TO-17)
+				prep_from(aviator/NN-8,1957/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a commissioned officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>naval aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1953</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1953_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1957</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1957</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His military assignments included a 15-month tour in Japan as a jet fighter pilot.	</value>
+
+		<annotated-sentence>	His military assignments included a 15-month tour in [[Japan|Japan]] as a [[jet fighter|Fighter_aircraft]] pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	His military assignments included a 15-month tour in Japan as a jet fighter pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,military/JJ-2)
+				nsubj(included/VBD-4,assignments/NNS-3)
+				det(tour/NN-7,a/DT-5)
+				amod(tour/NN-7,15-month/JJ-6)
+				dobj(included/VBD-4,tour/NN-7)
+				prep_in(included/VBD-4,Japan/NNP-9)
+				det(pilot/NN-14,a/DT-11)
+				nn(pilot/NN-14,jet/NN-12)
+				nn(pilot/NN-14,fighter/NN-13)
+				prep_as(included/VBD-4,pilot/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Japan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet fighter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following his release from active duty, Brand continued service in Marine Forces Reserve and Air National Guard jet fighter squadrons until 1966.	</value>
+
+		<annotated-sentence>	Following his release from [[active duty|Active_duty]], [[Brand|Brand]] continued [[service|Active_duty]] in [[Marine Forces Reserve|United_States_Marine_Corps_Reserve]] and [[Air National Guard|Air_National_Guard]] [[jet fighter|McDonnell_Douglas_F-15_Eagle]] squadrons until [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following his release from active duty, Brand continued service in Marine Forces Reserve and Air National Guard jet fighter squadrons until 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(release/NN-3,his/PRP$-2)
+				prep_following(continued/VBD-9,release/NN-3)
+				amod(duty/NN-6,active/JJ-5)
+				prep_from(release/NN-3,duty/NN-6)
+				nsubj(continued/VBD-9,Brand/NN-8)
+				dobj(continued/VBD-9,service/NN-10)
+				nn(Reserve/NNP-14,Marine/NNP-12)
+				nn(Reserve/NNP-14,Forces/NNP-13)
+				prep_in(continued/VBD-9,Reserve/NNP-14)
+				nn(squadrons/NNS-21,Air/NNP-16)
+				nn(squadrons/NNS-21,National/NNP-17)
+				nn(squadrons/NNS-21,Guard/NNP-18)
+				nn(squadrons/NNS-21,jet/NN-19)
+				nn(squadrons/NNS-21,fighter/NN-20)
+				prep_in(continued/VBD-9,squadrons/NNS-21)
+				conj_and(Reserve/NNP-14,squadrons/NNS-21)
+				prep_until(continued/VBD-9,1966/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>service</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marine Forces Reserve</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps_Reserve</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air National Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_National_Guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet fighter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-15_Eagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Employed as a civilian by the Lockheed Corporation from 1960 to 1966, he worked initially as a flight test engineer on the United States Navy's P-3 Orion aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(worked/VBD-15,Employed/VBN-1)
+				det(civilian/JJ-4,a/DT-3)
+				prep_as(Employed/VBN-1,civilian/JJ-4)
+				det(Corporation/NNP-8,the/DT-6)
+				nn(Corporation/NNP-8,Lockheed/NNP-7)
+				agent(Employed/VBN-1,Corporation/NNP-8)
+				num(1966/CD-12,1960/CD-10)
+				dep(1966/CD-12,to/TO-11)
+				prep_from(Employed/VBN-1,1966/CD-12)
+				nsubj(worked/VBD-15,he/PRP-14)
+				advmod(worked/VBD-15,initially/RB-16)
+				det(engineer/NN-21,a/DT-18)
+				nn(engineer/NN-21,flight/NN-19)
+				nn(engineer/NN-21,test/NN-20)
+				prep_as(worked/VBD-15,engineer/NN-21)
+				det(Navy/NNP-26,the/DT-23)
+				nn(Navy/NNP-26,United/NNP-24)
+				nn(Navy/NNP-26,States/NNPS-25)
+				poss(P-3/NN-28,Navy/NNP-26)
+				prep_on(worked/VBD-15,P-3/NN-28)
+				nn(aircraft/NN-30,Orion/NNP-29)
+				dep(P-3/NN-28,aircraft/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1963, Brand graduated from the United States Naval Test Pilot School and was assigned to Palmdale, California as an experimental test pilot on Canadian and German F-104 programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-5,1963/CD-2)
+				nsubj(graduated/VBD-5,Brand/NN-4)
+				nsubjpass(assigned/VBN-16,Brand/NN-4)
+				det(Pilot/NN-12,the/DT-7)
+				nn(Pilot/NN-12,United/NNP-8)
+				nn(Pilot/NN-12,States/NNPS-9)
+				nn(Pilot/NN-12,Naval/NNP-10)
+				nn(Pilot/NN-12,Test/NNP-11)
+				prep_from(graduated/VBD-5,Pilot/NN-12)
+				appos(Pilot/NN-12,School/NNP-13)
+				auxpass(assigned/VBN-16,was/VBD-15)
+				conj_and(graduated/VBD-5,assigned/VBN-16)
+				nn(California/NNP-20,Palmdale/NNP-18)
+				prep_to(assigned/VBN-16,California/NNP-20)
+				det(pilot/NN-25,an/DT-22)
+				amod(pilot/NN-25,experimental/JJ-23)
+				nn(pilot/NN-25,test/NN-24)
+				prep_as(assigned/VBN-16,pilot/NN-25)
+				amod(programs/NNS-31,Canadian/JJ-27)
+				conj_and(Canadian/JJ-27,German/JJ-29)
+				amod(programs/NNS-31,German/JJ-29)
+				nn(programs/NNS-31,F-104/NN-30)
+				prep_on(pilot/NN-25,programs/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to selection to the astronaut program, Brand worked at the West German F-104G Flight Test Center at Istres, France as an experimental test pilot and leader of a Lockheed flight test advisory group.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_prior_to(worked/VBD-10,selection/NN-3)
+				det(program/NN-7,the/DT-5)
+				nn(program/NN-7,astronaut/NN-6)
+				prep_to(selection/NN-3,program/NN-7)
+				nsubj(worked/VBD-10,Brand/NN-9)
+				det(Center/NN-18,the/DT-12)
+				amod(German/JJ-14,West/JJ-13)
+				amod(Center/NN-18,German/JJ-14)
+				nn(Center/NN-18,F-104G/NN-15)
+				nn(Center/NN-18,Flight/NN-16)
+				nn(Center/NN-18,Test/NN-17)
+				prep_at(worked/VBD-10,Center/NN-18)
+				nn(France/NNP-22,Istres/NNP-20)
+				prep_at(worked/VBD-10,France/NNP-22)
+				det(pilot/NN-27,an/DT-24)
+				amod(pilot/NN-27,experimental/JJ-25)
+				nn(pilot/NN-27,test/NN-26)
+				prep_as(worked/VBD-10,pilot/NN-27)
+				prep_as(worked/VBD-10,leader/NN-29)
+				conj_and(pilot/NN-27,leader/NN-29)
+				det(test/NN-34,a/DT-31)
+				nn(test/NN-34,Lockheed/NNP-32)
+				nn(test/NN-34,flight/NN-33)
+				prep_of(pilot/NN-27,test/NN-34)
+				amod(group/NN-36,advisory/JJ-35)
+				dep(test/NN-34,group/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	One of the 19 pilot astronauts selected by NASA in April 1966, Brand initially was a crew member in the thermal vacuum chamber testing of the prototype Command Module (alongside astronauts Joe Engle and Joseph Kerwin) and support crewman on Apollos 8 and 13.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-19,One/CD-1)
+				det(astronauts/NNS-6,the/DT-3)
+				num(astronauts/NNS-6,19/CD-4)
+				nn(astronauts/NNS-6,pilot/NN-5)
+				prep_of(One/CD-1,astronauts/NNS-6)
+				partmod(astronauts/NNS-6,selected/VBN-7)
+				agent(selected/VBN-7,NASA/NNP-9)
+				prep_in(selected/VBN-7,April/NNP-11)
+				num(April/NNP-11,1966/CD-12)
+				appos(April/NNP-11,Brand/NN-14)
+				advmod(member/NN-19,initially/RB-15)
+				cop(member/NN-19,was/VBD-16)
+				det(member/NN-19,a/DT-17)
+				nn(member/NN-19,crew/NN-18)
+				det(testing/NN-25,the/DT-21)
+				amod(testing/NN-25,thermal/JJ-22)
+				nn(testing/NN-25,vacuum/NN-23)
+				nn(testing/NN-25,chamber/NN-24)
+				prep_in(member/NN-19,testing/NN-25)
+				det(Module/NN-30,the/DT-27)
+				nn(Module/NN-30,prototype/NN-28)
+				nn(Module/NN-30,Command/NN-29)
+				prep_of(testing/NN-25,Module/NN-30)
+				nn(Engle/NNP-35,astronauts/NNS-33)
+				nn(Engle/NNP-35,Joe/NNP-34)
+				prep_alongside(Module/NN-30,Engle/NNP-35)
+				nn(Kerwin/NNP-38,Joseph/NNP-37)
+				prep_alongside(Module/NN-30,Kerwin/NNP-38)
+				conj_and(Engle/NNP-35,Kerwin/NNP-38)
+				nn(crewman/NN-42,support/NN-41)
+				prep_in(member/NN-19,crewman/NN-42)
+				conj_and(testing/NN-25,crewman/NN-42)
+				prep_on(crewman/NN-42,Apollos/NNP-44)
+				num(Apollos/NNP-44,8/CD-45)
+				prep_on(crewman/NN-42,13/CD-47)
+				conj_and(Apollos/NNP-44,13/CD-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later he was backup command module pilot for Apollo 15, and was likely to be named to the prime crew of Apollo 18 before that mission was canceled.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(pilot/NN-7,Later/RB-1)
+				nsubj(pilot/NN-7,he/PRP-2)
+				nsubj(likely/JJ-14,he/PRP-2)
+				cop(pilot/NN-7,was/VBD-3)
+				amod(pilot/NN-7,backup/JJ-4)
+				nn(pilot/NN-7,command/NN-5)
+				nn(pilot/NN-7,module/NN-6)
+				prep_for(pilot/NN-7,Apollo/NNP-9)
+				num(Apollo/NNP-9,15/CD-10)
+				cop(likely/JJ-14,was/VBD-13)
+				conj_and(pilot/NN-7,likely/JJ-14)
+				aux(named/VBN-17,to/TO-15)
+				auxpass(named/VBN-17,be/VB-16)
+				xcomp(likely/JJ-14,named/VBN-17)
+				det(crew/NN-21,the/DT-19)
+				amod(crew/NN-21,prime/JJ-20)
+				prep_to(named/VBN-17,crew/NN-21)
+				prep_of(crew/NN-21,Apollo/NNP-23)
+				num(Apollo/NNP-23,18/CD-24)
+				mark(canceled/VBN-29,before/IN-25)
+				det(mission/NN-27,that/DT-26)
+				nsubjpass(canceled/VBN-29,mission/NN-27)
+				auxpass(canceled/VBN-29,was/VBD-28)
+				advcl(named/VBN-17,canceled/VBN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was backup commander for Skylabs 3 and 4.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] was backup [[commander|Commander]] for Skylabs 3 and 4.	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand was backup commander for Skylabs 3 and 4.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commander/NN-4,Brand/NN-1)
+				cop(commander/NN-4,was/VBD-2)
+				amod(commander/NN-4,backup/JJ-3)
+				prep_for(commander/NN-4,Skylabs/NNS-6)
+				num(Skylabs/NNS-6,3/CD-7)
+				prep_for(commander/NN-4,4/CD-9)
+				conj_and(Skylabs/NNS-6,4/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When Skylab 3's CSM had problems with its Reaction Control System, Brand was put on standby to pilot a rescue mission, but was later stood down when it was decided that the problem did not require the rescue mission to be launched.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(had/VBD-6,When/WRB-1)
+				poss(CSM/NNP-5,Skylab/NNP-2)
+				num(Skylab/NNP-2,3/CD-3)
+				nsubj(had/VBD-6,CSM/NNP-5)
+				advcl(put/VBN-16,had/VBD-6)
+				dobj(had/VBD-6,problems/NNS-7)
+				poss(System/NNP-12,its/PRP$-9)
+				nn(System/NNP-12,Reaction/NNP-10)
+				nn(System/NNP-12,Control/NNP-11)
+				prep_with(problems/NNS-7,System/NNP-12)
+				nsubjpass(put/VBN-16,Brand/NNP-14)
+				nsubjpass(was/VBD-26,Brand/NNP-14)
+				auxpass(put/VBN-16,was/VBD-15)
+				prep_on(put/VBN-16,standby/NN-18)
+				prep_to(put/VBN-16,pilot/NN-20)
+				det(mission/NN-23,a/DT-21)
+				nn(mission/NN-23,rescue/NN-22)
+				dep(pilot/NN-20,mission/NN-23)
+				conj_but(put/VBN-16,was/VBD-26)
+				advmod(was/VBD-26,later/RB-27)
+				dep(later/RB-27,stood/VBD-28)
+				prt(stood/VBD-28,down/RP-29)
+				advmod(decided/VBN-33,when/WRB-30)
+				nsubjpass(decided/VBN-33,it/PRP-31)
+				auxpass(decided/VBN-33,was/VBD-32)
+				advcl(stood/VBD-28,decided/VBN-33)
+				mark(require/VB-39,that/IN-34)
+				det(problem/NN-36,the/DT-35)
+				nsubj(require/VB-39,problem/NN-36)
+				aux(require/VB-39,did/VBD-37)
+				neg(require/VB-39,not/RB-38)
+				ccomp(decided/VBN-33,require/VB-39)
+				det(mission/NN-42,the/DT-40)
+				nn(mission/NN-42,rescue/NN-41)
+				dobj(require/VB-39,mission/NN-42)
+				aux(launched/VBN-45,to/TO-43)
+				auxpass(launched/VBN-45,be/VB-44)
+				xcomp(require/VB-39,launched/VBN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As an astronaut, he held management positions relating to spacecraft development, acquisition, flight safety and mission operations.	</value>
+
+		<annotated-sentence>	As [[an astronaut|Astronaut]], he held [[management|Management]] positions relating to [[spacecraft|Spacecraft]] development, acquisition, [[flight safety|Aviation_safety]] and mission operations.	</annotated-sentence>
+
+		<pattern_crowdsource>	As [[an astronaut|Astronaut]], he held management positions relating to spacecraft development, acquisition, flight safety and mission operations.	</pattern_crowdsource>
+
+
+		<tree>
+				det(astronaut/NN-3,an/DT-2)
+				prep_as(held/VBD-6,astronaut/NN-3)
+				nsubj(held/VBD-6,he/PRP-5)
+				nn(positions/NNS-8,management/NN-7)
+				dobj(held/VBD-6,positions/NNS-8)
+				partmod(positions/NNS-8,relating/VBG-9)
+				nn(development/NN-12,spacecraft/NN-11)
+				prep_to(relating/VBG-9,development/NN-12)
+				prep_to(relating/VBG-9,acquisition/NN-14)
+				conj_and(development/NN-12,acquisition/NN-14)
+				nn(safety/NN-17,flight/NN-16)
+				prep_to(relating/VBG-9,safety/NN-17)
+				conj_and(development/NN-12,safety/NN-17)
+				nn(operations/NNS-20,mission/NN-19)
+				prep_to(relating/VBG-9,operations/NNS-20)
+				conj_and(development/NN-12,operations/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight safety</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation_safety</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand flew on four space missions; Apollo-Soyuz, STS-5, STS-41-B, and STS-35.	</value>
+
+		<annotated-sentence>	[[Brand|Vance_D._Brand]] flew on [[four space missions|Space_exploration]]; [[Apollo-Soyuz|Apollo%E2%80%93Soyuz_Test_Project]], STS-5, STS-41-B, and STS-35.	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand flew on four space missions; Apollo-Soyuz, STS-5, STS-41-B, and STS-35.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Brand/NN-1)
+				num(missions/NNS-6,four/CD-4)
+				nn(missions/NNS-6,space/NN-5)
+				prep_on(flew/VBD-2,missions/NNS-6)
+				dep(missions/NNS-6,Apollo-Soyuz/NNP-8)
+				appos(Apollo-Soyuz/NNP-8,STS-5/NN-10)
+				appos(Apollo-Soyuz/NNP-8,STS-41-B/NN-12)
+				conj_and(STS-5/NN-10,STS-41-B/NN-12)
+				appos(Apollo-Soyuz/NNP-8,STS-35/NN-15)
+				conj_and(STS-5/NN-10,STS-35/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four space missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo-Soyuz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo%E2%80%93Soyuz_Test_Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He logged 746 hours in space and commanded three missions.	</value>
+
+		<annotated-sentence>	He logged 746 [[hours|Hour]] in [[space|Space]] and commanded three missions.	</annotated-sentence>
+
+		<pattern_crowdsource>	He logged 746 hours in space and commanded three missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,He/PRP-1)
+				nsubj(commanded/VBD-8,He/PRP-1)
+				num(hours/NNS-4,746/CD-3)
+				dobj(logged/VBD-2,hours/NNS-4)
+				prep_in(logged/VBD-2,space/NN-6)
+				conj_and(logged/VBD-2,commanded/VBD-8)
+				num(missions/NNS-10,three/CD-9)
+				dobj(commanded/VBD-8,missions/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was the last member of his astronaut class to remain active with NASA, and was the only Apollo-era astronaut to fly the Space Shuttle in the post-Challenger era.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,Brand/NN-1)
+				cop(member/NN-5,was/VBD-2)
+				det(member/NN-5,the/DT-3)
+				amod(member/NN-5,last/JJ-4)
+				poss(class/NN-9,his/PRP$-7)
+				nn(class/NN-9,astronaut/NN-8)
+				prep_of(member/NN-5,class/NN-9)
+				aux(active/JJ-12,to/TO-10)
+				cop(active/JJ-12,remain/VB-11)
+				infmod(member/NN-5,active/JJ-12)
+				prep_with(active/JJ-12,NASA/NNP-14)
+				cop(astronaut/NN-21,was/VBD-17)
+				det(astronaut/NN-21,the/DT-18)
+				amod(astronaut/NN-21,only/JJ-19)
+				amod(astronaut/NN-21,Apollo-era/JJ-20)
+				conj_and(member/NN-5,astronaut/NN-21)
+				aux(fly/VB-23,to/TO-22)
+				infmod(astronaut/NN-21,fly/VB-23)
+				det(Shuttle/NNP-26,the/DT-24)
+				nn(Shuttle/NNP-26,Space/NN-25)
+				dobj(fly/VB-23,Shuttle/NNP-26)
+				det(era/NN-30,the/DT-28)
+				amod(era/NN-30,post-Challenger/JJ-29)
+				prep_in(Shuttle/NNP-26,era/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand departed the Astronaut Office in 1992 to become Chief of Plans at the National Aerospace Plane (NASP) Joint Program Office at Wright-Patterson Air Force Base.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(departed/VBD-2,Brand/NN-1)
+				det(Office/NNP-5,the/DT-3)
+				nn(Office/NNP-5,Astronaut/NNP-4)
+				dobj(departed/VBD-2,Office/NNP-5)
+				prep_in(departed/VBD-2,1992/CD-7)
+				aux(Office/NNP-23,to/TO-8)
+				cop(Office/NNP-23,become/VB-9)
+				dep(Office/NNP-23,Chief/NNP-10)
+				prep_of(Chief/NNP-10,Plans/NNS-12)
+				det(Plane/NN-17,the/DT-14)
+				nn(Plane/NN-17,National/NNP-15)
+				nn(Plane/NN-17,Aerospace/NNP-16)
+				prep_at(Plans/NNS-12,Plane/NN-17)
+				appos(Plane/NN-17,NASP/NN-19)
+				nn(Office/NNP-23,Joint/NNP-21)
+				nn(Office/NNP-23,Program/NNP-22)
+				xcomp(departed/VBD-2,Office/NNP-23)
+				nn(Base/NNP-28,Wright-Patterson/NNP-25)
+				nn(Base/NNP-28,Air/NNP-26)
+				nn(Base/NNP-28,Force/NNP-27)
+				prep_at(Office/NNP-23,Base/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 1994, he moved to California to become Assistant Chief of Flight Operations at the Dryden Flight Research Center, then Acting Chief Engineer, Deputy Director for Aerospace Projects, and Acting Associate Center Director for Programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(moved/VBD-6,September/NNP-2)
+				num(September/NNP-2,1994/CD-3)
+				nsubj(moved/VBD-6,he/PRP-5)
+				prep_to(moved/VBD-6,California/NNP-8)
+				aux(Chief/NNP-12,to/TO-9)
+				cop(Chief/NNP-12,become/VB-10)
+				nn(Chief/NNP-12,Assistant/NNP-11)
+				xcomp(moved/VBD-6,Chief/NNP-12)
+				nn(Operations/NNP-15,Flight/NNP-14)
+				prep_of(Chief/NNP-12,Operations/NNP-15)
+				det(Center/NNP-21,the/DT-17)
+				nn(Center/NNP-21,Dryden/NNP-18)
+				nn(Center/NNP-21,Flight/NNP-19)
+				nn(Center/NNP-21,Research/NNP-20)
+				prep_at(Chief/NNP-12,Center/NNP-21)
+				advmod(Chief/NNP-12,then/RB-23)
+				nn(Engineer/NNP-26,Acting/NNP-24)
+				nn(Engineer/NNP-26,Chief/NNP-25)
+				dep(Chief/NNP-12,Engineer/NNP-26)
+				nn(Director/NNP-29,Deputy/NNP-28)
+				appos(Engineer/NNP-26,Director/NNP-29)
+				nn(Projects/NNPS-32,Aerospace/NNP-31)
+				prep_for(Director/NNP-29,Projects/NNPS-32)
+				nn(Director/NNP-38,Acting/NNP-35)
+				nn(Director/NNP-38,Associate/NNP-36)
+				nn(Director/NNP-38,Center/NNP-37)
+				xcomp(moved/VBD-6,Director/NNP-38)
+				conj_and(Chief/NNP-12,Director/NNP-38)
+				prep_for(Director/NNP-38,Programs/NNP-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from NASA in January 2008.	</value>
+
+		<annotated-sentence>	He retired from [[NASA|NASA]] in [[January 2008|January_2008]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from [[NASA|NASA]] in January 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				prep_in(retired/VBD-2,January/NNP-6)
+				num(January/NNP-6,2008/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2008</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was launched on his first space flight on July 15, 1975, as Apollo command module pilot on the Apollo-Soyuz Test Project mission.	</value>
+
+		<annotated-sentence>	[[Brand|Vance_D._Brand]] was launched on his first space flight on [[July|July]] 15, 1975, as [[Apollo command module|Service_Module]] pilot on the [[Apollo-Soyuz|Apollo%E2%80%93Soyuz_Test_Project]] Test [[Project|Apollo_program]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand was launched on his first space flight on July 15, 1975, as Apollo command module pilot on the Apollo-Soyuz Test Project mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-3,Brand/NN-1)
+				auxpass(launched/VBN-3,was/VBD-2)
+				poss(flight/NN-8,his/PRP$-5)
+				amod(flight/NN-8,first/JJ-6)
+				nn(flight/NN-8,space/NN-7)
+				prep_on(launched/VBN-3,flight/NN-8)
+				prep_on(flight/NN-8,July/NNP-10)
+				num(July/NNP-10,15/CD-11)
+				num(July/NNP-10,1975/CD-13)
+				nn(pilot/NN-19,Apollo/NNP-16)
+				nn(pilot/NN-19,command/NN-17)
+				nn(pilot/NN-19,module/NN-18)
+				prep_as(launched/VBN-3,pilot/NN-19)
+				det(mission/NN-25,the/DT-21)
+				nn(mission/NN-25,Apollo-Soyuz/NNP-22)
+				nn(mission/NN-25,Test/NNP-23)
+				nn(mission/NN-25,Project/NNP-24)
+				prep_on(pilot/NN-19,mission/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo command module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Command/Service_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo-Soyuz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo%E2%80%93Soyuz_Test_Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Project</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This flight resulted in the historic meeting in space between American astronauts and Soviet cosmonauts.	</value>
+
+		<annotated-sentence>	This [[flight|Flight]] resulted in the historic [[meeting|Meeting]] in [[space|Space]] between [[American|United_States]] [[astronauts|Astronaut]] and [[Soviet cosmonauts|List_of_cosmonauts]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This flight resulted in the historic meeting in space between [[American|United_States]] [[astronauts|Astronaut]] and Soviet cosmonauts.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,This/DT-1)
+				nsubj(resulted/VBD-3,flight/NN-2)
+				det(meeting/NN-7,the/DT-5)
+				amod(meeting/NN-7,historic/JJ-6)
+				prep_in(resulted/VBD-3,meeting/NN-7)
+				prep_in(resulted/VBD-3,space/NN-9)
+				amod(astronauts/NNS-12,American/JJ-11)
+				prep_between(space/NN-9,astronauts/NNS-12)
+				amod(cosmonauts/NNS-15,Soviet/JJ-14)
+				prep_between(space/NN-9,cosmonauts/NNS-15)
+				conj_and(astronauts/NNS-12,cosmonauts/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>meeting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meeting</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet cosmonauts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_cosmonauts</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Other crewmen on this nine-day Earth-orbital mission were Thomas Stafford, Apollo commander, Deke Slayton, Apollo docking module pilot; cosmonaut Alexei Leonov, Soyuz commander; and cosmonaut Valery Kubasov, Soyuz flight engineer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(crewmen/NNS-2,Other/JJ-1)
+				nsubj(Stafford/NNP-10,crewmen/NNS-2)
+				det(mission/NN-7,this/DT-4)
+				amod(mission/NN-7,nine-day/JJ-5)
+				amod(mission/NN-7,Earth-orbital/JJ-6)
+				prep_on(crewmen/NNS-2,mission/NN-7)
+				cop(Stafford/NNP-10,were/VBD-8)
+				nn(Stafford/NNP-10,Thomas/NNP-9)
+				nn(commander/NN-13,Apollo/NNP-12)
+				appos(Stafford/NNP-10,commander/NN-13)
+				nn(Slayton/NNP-16,Deke/NNP-15)
+				appos(Stafford/NNP-10,Slayton/NNP-16)
+				nn(pilot/NN-21,Apollo/NNP-18)
+				nn(pilot/NN-21,docking/NN-19)
+				nn(pilot/NN-21,module/NN-20)
+				appos(Stafford/NNP-10,pilot/NN-21)
+				nn(Leonov/NNP-25,cosmonaut/NN-23)
+				nn(Leonov/NNP-25,Alexei/NNP-24)
+				conj_and(Stafford/NNP-10,Leonov/NNP-25)
+				nn(commander/NN-28,Soyuz/NNP-27)
+				appos(Leonov/NNP-25,commander/NN-28)
+				nn(Kubasov/NNP-33,cosmonaut/NN-31)
+				nn(Kubasov/NNP-33,Valery/NNP-32)
+				conj_and(Stafford/NNP-10,Kubasov/NNP-33)
+				nn(engineer/NN-37,Soyuz/NNP-35)
+				nn(engineer/NN-37,flight/NN-36)
+				appos(Kubasov/NNP-33,engineer/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Soyuz spacecraft was launched at Baikonur Cosmodrome, and the Apollo was launched 7½ hours later at the Kennedy Space Center.	</value>
+
+		<annotated-sentence>	The [[Soyuz spacecraft|Soyuz_(spacecraft)]] was launched at [[Baikonur Cosmodrome|Baikonur_Cosmodrome]], and [[the Apollo|Apollo]] was launched 7½ [[hours|Hour]] later at [[the Kennedy Space Center|Kennedy_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Soyuz spacecraft was launched at Baikonur Cosmodrome, and the Apollo was launched 7½ hours later at the Kennedy Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				det(spacecraft/NN-3,The/DT-1)
+				nn(spacecraft/NN-3,Soyuz/NNP-2)
+				nsubjpass(launched/VBN-5,spacecraft/NN-3)
+				auxpass(launched/VBN-5,was/VBD-4)
+				nn(Cosmodrome/NNP-8,Baikonur/NNP-7)
+				prep_at(launched/VBN-5,Cosmodrome/NNP-8)
+				det(Apollo/NNP-12,the/DT-11)
+				nsubjpass(launched/VBN-14,Apollo/NNP-12)
+				auxpass(launched/VBN-14,was/VBD-13)
+				conj_and(launched/VBN-5,launched/VBN-14)
+				number(1/2/CD-16,7/CD-15)
+				num(hours/NNS-17,1/2/CD-16)
+				npadvmod(later/RB-18,hours/NNS-17)
+				advmod(launched/VBN-14,later/RB-18)
+				det(Center/NNP-23,the/DT-20)
+				nn(Center/NNP-23,Kennedy/NNP-21)
+				nn(Center/NNP-23,Space/NNP-22)
+				prep_at(launched/VBN-14,Center/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Soyuz spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_(spacecraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Baikonur Cosmodrome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Baikonur_Cosmodrome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Two days later, the two spacecraft docked successfully.	</value>
+
+		<annotated-sentence>	[[Two days|Two_Days]] later, [[the two spacecraft|Spacecraft]] docked successfully.	</annotated-sentence>
+
+		<pattern_crowdsource>	Two days later, the two spacecraft docked successfully.	</pattern_crowdsource>
+
+
+		<tree>
+				num(days/NNS-2,Two/CD-1)
+				tmod(docked/VBN-8,days/NNS-2)
+				advmod(days/NNS-2,later/RB-3)
+				det(spacecraft/NN-7,the/DT-5)
+				num(spacecraft/NN-7,two/CD-6)
+				nsubj(docked/VBN-8,spacecraft/NN-7)
+				advmod(docked/VBN-8,successfully/RB-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Two days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Two_Days</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the two spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The linkup tested a unique, new docking system and demonstrated international cooperation in space.	</value>
+
+		<annotated-sentence>	[[The linkup|The_Linkup]] tested a unique, new docking [[system|System]] and demonstrated [[international cooperation|Internationalism_(politics)]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The linkup tested a unique, new docking system and demonstrated international cooperation in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(linkup/NN-2,The/DT-1)
+				nsubj(tested/VBD-3,linkup/NN-2)
+				nsubj(demonstrated/VBD-11,linkup/NN-2)
+				det(system/NN-9,a/DT-4)
+				amod(system/NN-9,unique/JJ-5)
+				amod(system/NN-9,new/JJ-7)
+				nn(system/NN-9,docking/NN-8)
+				dobj(tested/VBD-3,system/NN-9)
+				conj_and(tested/VBD-3,demonstrated/VBD-11)
+				amod(cooperation/NN-13,international/JJ-12)
+				dobj(demonstrated/VBD-11,cooperation/NN-13)
+				prep_in(demonstrated/VBD-11,space/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The linkup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Linkup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>international cooperation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Internationalism_(politics)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There were 44 hours of docked joint activities which included four crew transfers between the Apollo and the Soyuz.	</value>
+
+		<annotated-sentence>	There were 44 [[hours|Hour]] of docked joint [[activities|Activity]] which included four crew transfers between [[the Apollo|Apollo]] and the Soyuz.	</annotated-sentence>
+
+		<pattern_crowdsource>	There were 44 hours of docked joint activities which included four crew transfers between the Apollo and the Soyuz.	</pattern_crowdsource>
+
+
+		<tree>
+				expl(docked/VBN-6,There/EX-1)
+				auxpass(docked/VBN-6,were/VBD-2)
+				num(hours/NNS-4,44/CD-3)
+				npadvmod(of/IN-5,hours/NNS-4)
+				advmod(docked/VBN-6,of/IN-5)
+				amod(activities/NNS-8,joint/JJ-7)
+				dobj(docked/VBN-6,activities/NNS-8)
+				nsubj(included/VBD-10,which/WDT-9)
+				rcmod(activities/NNS-8,included/VBD-10)
+				num(transfers/NNS-13,four/CD-11)
+				nn(transfers/NNS-13,crew/NN-12)
+				dobj(included/VBD-10,transfers/NNS-13)
+				det(Apollo/NNP-16,the/DT-15)
+				prep_between(included/VBD-10,Apollo/NNP-16)
+				det(Soyuz/NNP-19,the/DT-18)
+				prep_between(included/VBD-10,Soyuz/NNP-19)
+				conj_and(Apollo/NNP-16,Soyuz/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Six records for docked and group flight were set on the mission and are recognized by the Fédération Aéronautique Internationale.	</value>
+
+		<annotated-sentence>	Six records for docked and group [[flight|Flight]] were set on the mission and are recognized by the [[Fédération Aéronautique Internationale|F%C3%A9d%C3%A9ration_A%C3%A9ronautique_Internationale]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Six records for docked and group flight were set on the mission and are recognized by the Fédération Aéronautique Internationale.	</pattern_crowdsource>
+
+
+		<tree>
+				num(records/NNS-2,Six/CD-1)
+				nsubjpass(set/VBN-9,records/NNS-2)
+				nsubjpass(recognized/VBN-15,records/NNS-2)
+				prep_for(records/NNS-2,docked/VBN-4)
+				nn(flight/NN-7,group/NN-6)
+				prep_for(records/NNS-2,flight/NN-7)
+				conj_and(docked/VBN-4,flight/NN-7)
+				auxpass(set/VBN-9,were/VBD-8)
+				det(mission/NN-12,the/DT-11)
+				prep_on(set/VBN-9,mission/NN-12)
+				auxpass(recognized/VBN-15,are/VBP-14)
+				conj_and(set/VBN-9,recognized/VBN-15)
+				det(Internationale/NNP-20,the/DT-17)
+				nn(Internationale/NNP-20,Fédération/NNP-18)
+				nn(Internationale/NNP-20,Aéronautique/NNP-19)
+				agent(recognized/VBN-15,Internationale/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fédération Aéronautique Internationale</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/F%C3%A9d%C3%A9ration_A%C3%A9ronautique_Internationale</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apollo splashed down in the Pacific Ocean near Hawaii, on July 25, and was recovered by the USS New Orleans, completing a 217-hour mission.	</value>
+
+		<annotated-sentence>	[[Apollo|Apollo]] splashed down in [[the Pacific Ocean|Pacific_Ocean]] near [[Hawaii|Hawaii_County,_Hawaii]], on [[July 25|July_25]], and was recovered by [[the USS New Orleans|USS_New_Orleans]], completing a 217-hour mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Apollo splashed down in the Pacific Ocean near Hawaii, on July 25, and was recovered by the USS New Orleans, completing a 217-hour mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(splashed/VBD-2,Apollo/NNP-1)
+				nsubjpass(recovered/VBN-17,Apollo/NNP-1)
+				nsubj(completing/VBG-24,Apollo/NNP-1)
+				prt(splashed/VBD-2,down/RP-3)
+				det(Ocean/NNP-7,the/DT-5)
+				nn(Ocean/NNP-7,Pacific/NNP-6)
+				prep_in(splashed/VBD-2,Ocean/NNP-7)
+				prep_near(Ocean/NNP-7,Hawaii/NNP-9)
+				prep_on(splashed/VBD-2,July/NNP-12)
+				num(July/NNP-12,25/CD-13)
+				auxpass(recovered/VBN-17,was/VBD-16)
+				conj_and(splashed/VBD-2,recovered/VBN-17)
+				det(Orleans/NNP-22,the/DT-19)
+				nn(Orleans/NNP-22,USS/NNP-20)
+				nn(Orleans/NNP-22,New/NNP-21)
+				agent(recovered/VBN-17,Orleans/NNP-22)
+				conj_and(splashed/VBD-2,completing/VBG-24)
+				det(mission/NN-27,a/DT-25)
+				amod(mission/NN-27,217-hour/JJ-26)
+				dobj(completing/VBG-24,mission/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Pacific Ocean</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pacific_Ocean</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hawaii</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hawaii_County,_Hawaii</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 25</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_25</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USS New Orleans</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_New_Orleans</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission almost ended in disaster when, during the final stages of the mission, the crew was exposed to near fatal amounts of nitrogen tetroxide gas.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(ended/VBD-4,mission/NN-2)
+				advmod(ended/VBD-4,almost/RB-3)
+				prep_in(ended/VBD-4,disaster/NN-6)
+				advmod(exposed/VBN-20,when/WRB-7)
+				det(stages/NNS-12,the/DT-10)
+				amod(stages/NNS-12,final/JJ-11)
+				prep_during(exposed/VBN-20,stages/NNS-12)
+				det(mission/NN-15,the/DT-14)
+				prep_of(stages/NNS-12,mission/NN-15)
+				det(crew/NN-18,the/DT-17)
+				nsubjpass(exposed/VBN-20,crew/NN-18)
+				auxpass(exposed/VBN-20,was/VBD-19)
+				advcl(ended/VBD-4,exposed/VBN-20)
+				dep(fatal/JJ-23,near/IN-22)
+				amod(amounts/NNS-24,fatal/JJ-23)
+				prep_to(exposed/VBN-20,amounts/NNS-24)
+				nn(gas/NN-28,nitrogen/NN-26)
+				nn(gas/NN-28,tetroxide/NN-27)
+				prep_of(amounts/NNS-24,gas/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The reaction control system had been inadvertently left on during descent, and the poisonous fumes were sucked into the capsule as it drew in outside air.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(system/NN-4,The/DT-1)
+				nn(system/NN-4,reaction/NN-2)
+				nn(system/NN-4,control/NN-3)
+				nsubjpass(left/VBN-8,system/NN-4)
+				aux(left/VBN-8,had/VBD-5)
+				auxpass(left/VBN-8,been/VBN-6)
+				advmod(left/VBN-8,inadvertently/RB-7)
+				prep(left/VBN-8,on/IN-9)
+				pcomp(on/IN-9,during/IN-10)
+				pobj(during/IN-10,descent/NN-11)
+				det(poisonous/JJ-15,the/DT-14)
+				nsubj(fumes/VBZ-16,poisonous/JJ-15)
+				conj_and(left/VBN-8,fumes/VBZ-16)
+				auxpass(sucked/VBN-18,were/VBD-17)
+				ccomp(fumes/VBZ-16,sucked/VBN-18)
+				det(capsule/NN-21,the/DT-20)
+				prep_into(sucked/VBN-18,capsule/NN-21)
+				mark(drew/VBD-24,as/IN-22)
+				nsubj(drew/VBD-24,it/PRP-23)
+				advcl(sucked/VBN-18,drew/VBD-24)
+				amod(air/NN-27,outside/JJ-26)
+				prep_in(drew/VBD-24,air/NN-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand briefly lost consciousness and all three crewmen required hospitalization in Hawaii for a number of weeks after landing.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] briefly lost [[consciousness|Consciousness]] and all three [[crewmen|Crewman]] required [[hospitalization|Hospital]] in [[Hawaii|Hawaii_County,_Hawaii]] for a number of weeks after [[landing|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand briefly lost consciousness and all three crewmen required hospitalization in Hawaii for a number of weeks after landing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(lost/VBD-3,Brand/NN-1)
+				advmod(lost/VBD-3,briefly/NN-2)
+				dobj(lost/VBD-3,consciousness/NN-4)
+				det(crewmen/NNS-8,all/DT-6)
+				num(crewmen/NNS-8,three/CD-7)
+				dobj(lost/VBD-3,crewmen/NNS-8)
+				conj_and(consciousness/NN-4,crewmen/NNS-8)
+				partmod(crewmen/NNS-8,required/VBN-9)
+				dobj(required/VBN-9,hospitalization/NN-10)
+				prep_in(hospitalization/NN-10,Hawaii/NNP-12)
+				det(number/NN-15,a/DT-14)
+				prep_for(required/VBN-9,number/NN-15)
+				prep_of(number/NN-15,weeks/NNS-17)
+				prep_after(required/VBN-9,landing/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>consciousness</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consciousness</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crewmen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hospitalization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hospital</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hawaii</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hawaii_County,_Hawaii</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was commander of Space Shuttle Columbia for STS-5, the first fully operational flight of the Space Shuttle program, which launched on November 11, 1982.	</value>
+
+		<annotated-sentence>	[[Brand|Vance_D._Brand]] was [[commander|Commander]] of [[Space Shuttle Columbia|Space_Shuttle_Columbia]] for [[STS-5|STS-5]], the first [[fully operational|T.A.P.O.A.F.O.M.]] [[flight|Commander]] of [[the Space Shuttle program|Space_Shuttle_program]], which launched on [[November|November]] 11, 1982.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Brand|Vance_D._Brand]] was commander of Space Shuttle Columbia for [[STS-5|STS-5]], the first fully operational flight of [[the Space Shuttle program|Space_Shuttle_program]], which launched on November 11, 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commander/NN-3,Brand/NN-1)
+				cop(commander/NN-3,was/VBD-2)
+				nn(Columbia/NNP-7,Space/NN-5)
+				nn(Columbia/NNP-7,Shuttle/NNP-6)
+				prep_of(commander/NN-3,Columbia/NNP-7)
+				prep_for(Columbia/NNP-7,STS-5/NN-9)
+				det(flight/NN-15,the/DT-11)
+				amod(flight/NN-15,first/JJ-12)
+				advmod(operational/JJ-14,fully/RB-13)
+				amod(flight/NN-15,operational/JJ-14)
+				appos(STS-5/NN-9,flight/NN-15)
+				det(program/NN-20,the/DT-17)
+				nn(program/NN-20,Space/NN-18)
+				nn(program/NN-20,Shuttle/NN-19)
+				prep_of(flight/NN-15,program/NN-20)
+				nsubj(launched/VBD-23,which/WDT-22)
+				rcmod(program/NN-20,launched/VBD-23)
+				prep_on(launched/VBD-23,November/NNP-25)
+				num(November/NNP-25,11/CD-26)
+				num(November/NNP-25,1982/CD-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_D._Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fully operational</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/T.A.P.O.A.F.O.M.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-5
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-5 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-5 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-5 http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His crew comprised Colonel Robert Overmyer, pilot, and two mission specialists, Dr. Joseph P. Allen and Dr. William B. Lenoir.	</value>
+
+		<annotated-sentence>	His crew comprised [[Colonel|Colonel]] [[Robert Overmyer|Robert_F._Overmyer]], pilot, and [[two mission specialists|Mission_Specialist]], Dr. [[Joseph P. Allen|Joseph_P._Allen]] and Dr. [[William B. Lenoir|William_B._Lenoir]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His crew comprised [[Colonel|Colonel]] [[Robert Overmyer|Robert_F._Overmyer]], pilot, and two mission specialists, Dr. Joseph P. Allen and Dr. William B. Lenoir.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(crew/NN-2,His/PRP$-1)
+				nsubj(comprised/VBN-3,crew/NN-2)
+				nn(Overmyer/NNP-6,Colonel/NNP-4)
+				nn(Overmyer/NNP-6,Robert/NNP-5)
+				dobj(comprised/VBN-3,Overmyer/NNP-6)
+				dobj(comprised/VBN-3,pilot/NN-8)
+				conj_and(Overmyer/NNP-6,pilot/NN-8)
+				num(specialists/NNS-13,two/CD-11)
+				nn(specialists/NNS-13,mission/NN-12)
+				dobj(comprised/VBN-3,specialists/NNS-13)
+				conj_and(Overmyer/NNP-6,specialists/NNS-13)
+				nn(Allen/NNP-18,Dr./NNP-15)
+				nn(Allen/NNP-18,Joseph/NNP-16)
+				nn(Allen/NNP-18,P./NNP-17)
+				conj_and(Overmyer/NNP-6,Allen/NNP-18)
+				conj_and(specialists/NNS-13,Allen/NNP-18)
+				nn(Lenoir/NNP-23,Dr./NNP-20)
+				nn(Lenoir/NNP-23,William/NNP-21)
+				nn(Lenoir/NNP-23,B./NNP-22)
+				conj_and(Overmyer/NNP-6,Lenoir/NNP-23)
+				conj_and(specialists/NNS-13,Lenoir/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robert Overmyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_F._Overmyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two mission specialists</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Joseph P. Allen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joseph_P._Allen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>William B. Lenoir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/William_B._Lenoir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_F._Overmyer http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-5, the first mission with a four-man crew, demonstrated the Shuttle as operational by the successful first deployment of two commercial communications satellites from the Shuttle's payload bay.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(demonstrated/VBD-11,STS-5/NN-1)
+				det(mission/NN-5,the/DT-3)
+				amod(mission/NN-5,first/JJ-4)
+				appos(STS-5/NN-1,mission/NN-5)
+				det(crew/NN-9,a/DT-7)
+				amod(crew/NN-9,four-man/JJ-8)
+				prep_with(mission/NN-5,crew/NN-9)
+				det(Shuttle/NNP-13,the/DT-12)
+				dobj(demonstrated/VBD-11,Shuttle/NNP-13)
+				amod(satellites/NNS-25,operational/JJ-15)
+				det(deployment/NN-20,the/DT-17)
+				amod(deployment/NN-20,successful/JJ-18)
+				amod(deployment/NN-20,first/JJ-19)
+				prep_by(operational/JJ-15,deployment/NN-20)
+				num(communications/NNS-24,two/CD-22)
+				amod(communications/NNS-24,commercial/JJ-23)
+				prep_of(deployment/NN-20,communications/NNS-24)
+				prep_as(demonstrated/VBD-11,satellites/NNS-25)
+				det(Shuttle/NNP-28,the/DT-27)
+				poss(bay/NN-31,Shuttle/NNP-28)
+				nn(bay/NN-31,payload/NN-30)
+				prep_from(demonstrated/VBD-11,bay/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission marked the Shuttle's first use of an upper stage rocket for payloads, the Payload Assist Module (PAM-D).	</value>
+
+		<annotated-sentence>	The mission marked the [[Shuttle|Space_Shuttle]]'s first use of an [[upper stage|Multistage_rocket]] [[rocket|Rocket]] for payloads, [[the Payload Assist Module|Payload_Assist_Module]] ([[PAM-D|Payload_Assist_Module]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission marked the [[Shuttle|Space_Shuttle]]'s first use of an upper stage [[rocket|Rocket]] for payloads, the Payload Assist Module (PAM-D).	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(marked/VBD-3,mission/NN-2)
+				det(Shuttle/NNP-5,the/DT-4)
+				poss(use/NN-8,Shuttle/NNP-5)
+				amod(use/NN-8,first/JJ-7)
+				dobj(marked/VBD-3,use/NN-8)
+				det(rocket/NN-13,an/DT-10)
+				amod(rocket/NN-13,upper/JJ-11)
+				nn(rocket/NN-13,stage/NN-12)
+				prep_of(use/NN-8,rocket/NN-13)
+				prep_for(marked/VBD-3,payloads/NNS-15)
+				det(Module/NNP-20,the/DT-17)
+				nn(Module/NNP-20,Payload/NNP-18)
+				nn(Module/NNP-20,Assist/NNP-19)
+				appos(payloads/NNS-15,Module/NNP-20)
+				appos(Module/NNP-20,PAM-D/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>upper stage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multistage_rocket</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rocket</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Rocket</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Payload Assist Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Assist_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>PAM-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Assist_Module</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Rocket
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The satellites were deployed for Satellite Business Systems Corporation of McLean, Virginia, and TELESAT of Ottawa, Canada.	</value>
+
+		<annotated-sentence>	The [[satellites|Satellite]] were deployed for [[Satellite Business Systems|Satellite_Business_Systems]] [[Corporation|Corporation]] of McLean, Virginia, and TELESAT of Ottawa, Canada.	</annotated-sentence>
+
+		<pattern_crowdsource>	The satellites were deployed for Satellite Business Systems Corporation of McLean, Virginia, and TELESAT of Ottawa, Canada.	</pattern_crowdsource>
+
+
+		<tree>
+				det(satellites/NNS-2,The/DT-1)
+				nsubjpass(deployed/VBN-4,satellites/NNS-2)
+				auxpass(deployed/VBN-4,were/VBD-3)
+				nn(Corporation/NNP-9,Satellite/NNP-6)
+				nn(Corporation/NNP-9,Business/NNP-7)
+				nn(Corporation/NNP-9,Systems/NNPS-8)
+				prep_for(deployed/VBN-4,Corporation/NNP-9)
+				prep_of(Corporation/NNP-9,McLean/NNP-11)
+				prep_of(Corporation/NNP-9,Virginia/NNP-13)
+				conj_and(McLean/NNP-11,Virginia/NNP-13)
+				prep_of(Corporation/NNP-9,TELESAT/NNP-16)
+				conj_and(McLean/NNP-11,TELESAT/NNP-16)
+				nn(Canada/NNP-20,Ottawa/NNP-18)
+				prep_of(Corporation/NNP-9,Canada/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite Business Systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite_Business_Systems</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Corporation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Two FAI records for mass to altitude were set on the mission.	</value>
+
+		<annotated-sentence>	Two [[FAI records|FAI_Records]] for mass to [[altitude|Altitude]] were set on the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Two FAI records for mass to altitude were set on the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				num(records/NNS-3,Two/CD-1)
+				nn(records/NNS-3,FAI/NNP-2)
+				nsubjpass(set/VBN-9,records/NNS-3)
+				prep_for(records/NNS-3,mass/NN-5)
+				prep_to(mass/NN-5,altitude/NN-7)
+				auxpass(set/VBN-9,were/VBD-8)
+				det(mission/NN-12,the/DT-11)
+				prep_on(set/VBN-9,mission/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>FAI records</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/FAI_Records</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>altitude</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Altitude</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Numerous flight tests were performed to ascertain Shuttle performance.	</value>
+
+		<annotated-sentence>	[[Numerous|Numerous_Times]] [[flight|Flight_simulator]] tests were performed to ascertain [[Shuttle|Shuttle_(video_game)]] [[performance|Performance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Numerous [[flight|Flight_simulator]] tests were performed to ascertain [[Shuttle|Shuttle_(video_game)]] performance.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(tests/NNS-3,Numerous/JJ-1)
+				nn(tests/NNS-3,flight/NN-2)
+				nsubjpass(performed/VBN-5,tests/NNS-3)
+				auxpass(performed/VBN-5,were/VBD-4)
+				aux(ascertain/VB-7,to/TO-6)
+				xcomp(performed/VBN-5,ascertain/VB-7)
+				nn(performance/NN-9,Shuttle/NNP-8)
+				dobj(ascertain/VB-7,performance/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Numerous</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Numerous_Times</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>performance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Performance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-5 was the last flight to carry the Development Flight Instrumentation package to support extensive flight testing.	</value>
+
+		<annotated-sentence>	[[STS-5|STS-5]] was the last [[flight|Flight_test]] to carry the Development [[Flight|Flight_test]] [[Instrumentation|Musical_instrument]] package to support extensive [[flight testing|Flight_test]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-5|STS-5]] was the last flight to carry the Development Flight Instrumentation package to support extensive flight testing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flight/NN-5,STS-5/NN-1)
+				cop(flight/NN-5,was/VBD-2)
+				det(flight/NN-5,the/DT-3)
+				amod(flight/NN-5,last/JJ-4)
+				aux(carry/VB-7,to/TO-6)
+				infmod(flight/NN-5,carry/VB-7)
+				det(package/NN-12,the/DT-8)
+				nn(package/NN-12,Development/NNP-9)
+				nn(package/NN-12,Flight/NNP-10)
+				nn(package/NN-12,Instrumentation/NNP-11)
+				nsubj(support/VB-14,package/NN-12)
+				aux(support/VB-14,to/TO-13)
+				xcomp(carry/VB-7,support/VB-14)
+				amod(testing/NN-17,extensive/JJ-15)
+				nn(testing/NN-17,flight/NN-16)
+				dobj(support/VB-14,testing/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Instrumentation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Musical_instrument</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight testing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-5
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-5 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-5 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-5 crew concluded the 5-day orbital flight of Columbia with the landing approach through a cloud deck to Runway 22 at Edwards Air Force Base, California on November 16, 1982.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-3,The/DT-1)
+				nn(crew/NN-3,STS-5/NN-2)
+				nsubj(concluded/VBD-4,crew/NN-3)
+				det(flight/NN-8,the/DT-5)
+				amod(flight/NN-8,5-day/JJ-6)
+				amod(flight/NN-8,orbital/JJ-7)
+				dobj(concluded/VBD-4,flight/NN-8)
+				prep_of(flight/NN-8,Columbia/NNP-10)
+				det(approach/NN-14,the/DT-12)
+				nn(approach/NN-14,landing/NN-13)
+				prep_with(concluded/VBD-4,approach/NN-14)
+				det(deck/NN-18,a/DT-16)
+				nn(deck/NN-18,cloud/NN-17)
+				prep_through(concluded/VBD-4,deck/NN-18)
+				prep_to(deck/NN-18,Runway/NN-20)
+				num(Runway/NN-20,22/CD-21)
+				nn(Base/NNP-26,Edwards/NNP-23)
+				nn(Base/NNP-26,Air/NNP-24)
+				nn(Base/NNP-26,Force/NNP-25)
+				prep_at(concluded/VBD-4,Base/NNP-26)
+				appos(Base/NNP-26,California/NNP-28)
+				prep_on(California/NNP-28,November/NNP-30)
+				num(November/NNP-30,16/CD-31)
+				num(November/NNP-30,1982/CD-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 122 hours.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 122 [[hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 122 hours.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,122/CD-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand commanded Challenger with a crew of five on the tenth flight of the Space Shuttle program, STS-41-B.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] commanded Challenger with a crew of five on the tenth [[flight|Flight]] of [[the Space Shuttle program|Space_Shuttle_program]], [[STS-41-B|STS-41-B]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand commanded Challenger with a crew of five on the tenth flight of [[the Space Shuttle program|Space_Shuttle_program]], [[STS-41-B|STS-41-B]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commanded/VBD-2,Brand/NN-1)
+				dobj(commanded/VBD-2,Challenger/NNP-3)
+				det(crew/NN-6,a/DT-5)
+				prep_with(commanded/VBD-2,crew/NN-6)
+				prep_of(crew/NN-6,five/CD-8)
+				det(flight/NN-12,the/DT-10)
+				nn(flight/NN-12,tenth/NN-11)
+				prep_on(commanded/VBD-2,flight/NN-12)
+				det(program/NN-17,the/DT-14)
+				nn(program/NN-17,Space/NN-15)
+				nn(program/NN-17,Shuttle/NN-16)
+				prep_of(flight/NN-12,program/NN-17)
+				appos(program/NN-17,STS-41-B/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-B</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-41-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The launch was on February 3, 1984.	</value>
+
+		<annotated-sentence>	[[The launch|The_Launch]] was on [[February|February]] 3, 1984.	</annotated-sentence>
+
+		<pattern_crowdsource>	The launch was on February 3, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				det(launch/NN-2,The/DT-1)
+				nsubj(was/VBD-3,launch/NN-2)
+				prep_on(was/VBD-3,February/NNP-5)
+				num(February/NNP-5,3/CD-6)
+				num(February/NNP-5,1984/CD-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His crew included Commander Robert L. Gibson, pilot, and 3 mission specialists, Captain Bruce McCandless II, Dr. Ronald McNair, and Lt. Col. Robert L. Stewart.	</value>
+
+		<annotated-sentence>	His [[crew|Columbus_Crew]] included [[Commander|Commander]] [[Robert L. Gibson|Robert_L._Gibson]], [[pilot|Pilot_(aircraft)]], and 3 [[mission specialists|Mission_Specialist]], [[Captain|Captain_(association_football)]] [[Bruce|Bruce_Dickinson]] [[McCandless|Bruce_McCandless]] [[II|World_War_II]], Dr. Ronald McNair, and Lt. Col. [[Robert L. Stewart|Robert_L._Stewart]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His crew included Commander Robert L. Gibson, pilot, and 3 mission specialists, Captain Bruce [[McCandless|Bruce_McCandless]] [[II|World_War_II]], Dr. Ronald McNair, and Lt. Col. Robert L. Stewart.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(crew/NN-2,His/PRP$-1)
+				nsubj(included/VBD-3,crew/NN-2)
+				nn(Gibson/NNP-7,Commander/NNP-4)
+				nn(Gibson/NNP-7,Robert/NNP-5)
+				nn(Gibson/NNP-7,L./NNP-6)
+				dobj(included/VBD-3,Gibson/NNP-7)
+				dobj(included/VBD-3,pilot/NN-9)
+				conj_and(Gibson/NNP-7,pilot/NN-9)
+				num(specialists/NNS-14,3/CD-12)
+				nn(specialists/NNS-14,mission/NN-13)
+				dobj(included/VBD-3,specialists/NNS-14)
+				conj_and(Gibson/NNP-7,specialists/NNS-14)
+				nn(II/NNP-19,Captain/NNP-16)
+				nn(II/NNP-19,Bruce/NNP-17)
+				nn(II/NNP-19,McCandless/NNP-18)
+				conj_and(Gibson/NNP-7,II/NNP-19)
+				conj_and(specialists/NNS-14,II/NNP-19)
+				nn(McNair/NNP-23,Dr./NNP-21)
+				nn(McNair/NNP-23,Ronald/NNP-22)
+				conj_and(Gibson/NNP-7,McNair/NNP-23)
+				conj_and(specialists/NNS-14,McNair/NNP-23)
+				nn(Stewart/NNP-30,Lt./NNP-26)
+				nn(Stewart/NNP-30,Col./NNP-27)
+				nn(Stewart/NNP-30,Robert/NNP-28)
+				nn(Stewart/NNP-30,L./NNP-29)
+				conj_and(Gibson/NNP-7,Stewart/NNP-30)
+				conj_and(specialists/NNS-14,Stewart/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Columbus_Crew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robert L. Gibson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_L._Gibson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pilot_(aircraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission specialists</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Captain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Captain_(association_football)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bruce</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_Dickinson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McCandless</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_McCandless</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World_War_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robert L. Stewart</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_L._Stewart</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_McCandless http://dbpedia.org/ontology/battle http://dbpedia.org/resource/World_War_II
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight accomplished the deployment of two Hughes HS-376 communications satellites which failed to reach desired geosynchronous orbits due to upper stage rocket failures.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]] accomplished the deployment of two Hughes [[HS-376|HS-376]] [[communications satellites|Communications_satellite]] which failed to reach [[desired geosynchronous|Geosynchronous_orbit]] orbits due to [[upper stage|Multistage_rocket]] [[rocket|Multistage_rocket]] [[failures|Failure]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight accomplished the deployment of two Hughes HS-376 communications satellites which failed to reach desired geosynchronous orbits due to upper stage rocket failures.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(accomplished/VBD-3,flight/NN-2)
+				det(deployment/NN-5,the/DT-4)
+				dobj(accomplished/VBD-3,deployment/NN-5)
+				num(satellites/NNS-11,two/CD-7)
+				nn(satellites/NNS-11,Hughes/NNP-8)
+				nn(satellites/NNS-11,HS-376/NNP-9)
+				nn(satellites/NNS-11,communications/NNS-10)
+				prep_of(deployment/NN-5,satellites/NNS-11)
+				nsubj(failed/VBD-13,which/WDT-12)
+				rcmod(deployment/NN-5,failed/VBD-13)
+				aux(reach/VB-15,to/TO-14)
+				xcomp(failed/VBD-13,reach/VB-15)
+				amod(orbits/NNS-18,desired/VBN-16)
+				amod(orbits/NNS-18,geosynchronous/JJ-17)
+				nsubj(due/JJ-19,orbits/NNS-18)
+				xcomp(reach/VB-15,due/JJ-19)
+				amod(failures/NNS-24,upper/JJ-21)
+				nn(failures/NNS-24,stage/NN-22)
+				nn(failures/NNS-24,rocket/NN-23)
+				prep_to(due/JJ-19,failures/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HS-376</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HS-376</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communications satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>desired geosynchronous</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geosynchronous_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>upper stage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multistage_rocket</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rocket</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multistage_rocket</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>failures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Failure</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission marked the first flight checkout of the Manned Maneuvering Unit and the Manipulator Foot Restraint with McCandless and Stewart performing two untethered extravehicular activities.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(marked/VBD-3,mission/NN-2)
+				det(checkout/NN-7,the/DT-4)
+				amod(checkout/NN-7,first/JJ-5)
+				nn(checkout/NN-7,flight/NN-6)
+				dobj(marked/VBD-3,checkout/NN-7)
+				det(Unit/NN-12,the/DT-9)
+				amod(Unit/NN-12,Manned/JJ-10)
+				nn(Unit/NN-12,Maneuvering/NN-11)
+				prep_of(checkout/NN-7,Unit/NN-12)
+				det(Restraint/NN-17,the/DT-14)
+				nn(Restraint/NN-17,Manipulator/NNP-15)
+				nn(Restraint/NN-17,Foot/NNP-16)
+				prep_of(checkout/NN-7,Restraint/NN-17)
+				conj_and(Unit/NN-12,Restraint/NN-17)
+				nsubj(performing/VBG-22,McCandless/NN-19)
+				conj_and(McCandless/NN-19,Stewart/NNP-21)
+				nsubj(performing/VBG-22,Stewart/NNP-21)
+				prepc_with(marked/VBD-3,performing/VBG-22)
+				num(activities/NNS-26,two/CD-23)
+				amod(activities/NNS-26,untethered/JJ-24)
+				amod(activities/NNS-26,extravehicular/JJ-25)
+				dobj(performing/VBG-22,activities/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shuttle rendezvous sensors and computer programs were flight-tested for the first time.	</value>
+
+		<annotated-sentence>	Shuttle rendezvous [[sensors|Sensor]] and computer programs were flight-tested for the first time.	</annotated-sentence>
+
+		<pattern_crowdsource>	Shuttle rendezvous sensors and computer programs were flight-tested for the first time.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(sensors/NNS-3,Shuttle/NNP-1)
+				nn(sensors/NNS-3,rendezvous/NN-2)
+				nsubjpass(flight-tested/VBN-8,sensors/NNS-3)
+				nn(programs/NNS-6,computer/NN-5)
+				conj_and(sensors/NNS-3,programs/NNS-6)
+				nsubjpass(flight-tested/VBN-8,programs/NNS-6)
+				auxpass(flight-tested/VBN-8,were/VBD-7)
+				det(time/NN-12,the/DT-10)
+				amod(time/NN-12,first/JJ-11)
+				prep_for(flight-tested/VBN-8,time/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>sensors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sensor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 8-day flight of Challenger ended with the first landing to the runway at the Kennedy Space Center on February 11, 1984.	</value>
+
+		<annotated-sentence>	The 8-day [[flight|Flight]] of Challenger ended with [[the first landing|Amphibious_warfare]] to [[the runway|Runway]] at [[the Kennedy Space Center|Kennedy_Space_Center]] on [[February|February]] 11, 1984.	</annotated-sentence>
+
+		<pattern_crowdsource>	The 8-day flight of Challenger ended with the first landing to the runway at the Kennedy Space Center on February 11, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,The/DT-1)
+				amod(flight/NN-3,8-day/JJ-2)
+				nsubj(ended/VBD-6,flight/NN-3)
+				prep_of(flight/NN-3,Challenger/NNP-5)
+				det(landing/NN-10,the/DT-8)
+				amod(landing/NN-10,first/JJ-9)
+				prep_with(ended/VBD-6,landing/NN-10)
+				det(runway/NN-13,the/DT-12)
+				prep_to(ended/VBD-6,runway/NN-13)
+				det(Center/NNP-18,the/DT-15)
+				nn(Center/NNP-18,Kennedy/NNP-16)
+				nn(Center/NNP-18,Space/NNP-17)
+				prep_at(runway/NN-13,Center/NNP-18)
+				prep_on(ended/VBD-6,February/NNP-20)
+				num(February/NNP-20,11/CD-21)
+				num(February/NNP-20,1984/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the runway</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Runway</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand was training initially for STS-51-H on Atlantis in November 1985.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] was training initially for STS-51-H on [[Atlantis|Atlantis]] in [[November 1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand was training initially for STS-51-H on Atlantis in November 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(training/VBG-3,Brand/NN-1)
+				aux(training/VBG-3,was/VBD-2)
+				advmod(training/VBG-3,initially/RB-4)
+				prep_for(training/VBG-3,STS-51-H/NN-6)
+				prep_on(training/VBG-3,Atlantis/NNP-8)
+				prep_in(training/VBG-3,November/NNP-10)
+				num(November/NNP-10,1985/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	That mission was canceled and re-manifested as STS-61-K, a Spacelab mission which would've launched on Columbia in October 1986.	</value>
+
+		<annotated-sentence>	That mission was canceled and re-manifested as STS-61-K, a [[Spacelab|Spacelab]] mission which would've launched on Columbia in [[October 1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	That mission was canceled and re-manifested as STS-61-K, a Spacelab mission which would've launched on Columbia in October 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,That/DT-1)
+				nsubjpass(canceled/VBN-4,mission/NN-2)
+				nsubjpass(re-manifested/VBN-6,mission/NN-2)
+				auxpass(canceled/VBN-4,was/VBD-3)
+				conj_and(canceled/VBN-4,re-manifested/VBN-6)
+				prep_as(canceled/VBN-4,STS-61-K/NN-8)
+				det(mission/NN-12,a/DT-10)
+				amod(mission/NN-12,Spacelab/JJ-11)
+				appos(STS-61-K/NN-8,mission/NN-12)
+				nsubj(launched/VBN-16,which/WDT-13)
+				aux(launched/VBN-16,would/MD-14)
+				aux(launched/VBN-16,'ve/VB-15)
+				rcmod(mission/NN-12,launched/VBN-16)
+				prep_on(launched/VBN-16,Columbia/NNP-18)
+				prep_in(launched/VBN-16,October/NNP-20)
+				num(October/NNP-20,1986/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	That mission was canceled by the Challenger disaster.	</value>
+
+		<annotated-sentence>	That mission was canceled by [[the Challenger disaster|Space_Shuttle_Challenger_disaster]].	</annotated-sentence>
+
+		<pattern_crowdsource>	That mission was canceled by the Challenger disaster.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,That/DT-1)
+				nsubjpass(canceled/VBN-4,mission/NN-2)
+				auxpass(canceled/VBN-4,was/VBD-3)
+				det(disaster/NN-8,the/DT-6)
+				nn(disaster/NN-8,Challenger/NNP-7)
+				agent(canceled/VBN-4,disaster/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Challenger disaster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brand again commanded Columbia on the 38th flight of the shuttle, this time with a crew of seven, on STS-35.	</value>
+
+		<annotated-sentence>	[[Brand|Brand]] again commanded Columbia on the 38th [[flight|Flight_simulator]] of [[the shuttle|Shuttle_(video_game)]], this time with a crew of seven, on [[STS-35|STS-35]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brand again commanded Columbia on the 38th [[flight|Flight_simulator]] of [[the shuttle|Shuttle_(video_game)]], this time with a crew of seven, on [[STS-35|STS-35]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commanded/VBD-3,Brand/NN-1)
+				advmod(commanded/VBD-3,again/RB-2)
+				dobj(commanded/VBD-3,Columbia/NNP-4)
+				det(flight/NN-8,the/DT-6)
+				amod(flight/NN-8,38th/JJ-7)
+				prep_on(commanded/VBD-3,flight/NN-8)
+				det(shuttle/NN-11,the/DT-10)
+				prep_of(flight/NN-8,shuttle/NN-11)
+				det(time/NN-14,this/DT-13)
+				appos(shuttle/NN-11,time/NN-14)
+				det(crew/NN-17,a/DT-16)
+				prep_with(time/NN-14,crew/NN-17)
+				prep_of(crew/NN-17,seven/CD-19)
+				prep_on(commanded/VBD-3,STS-35/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brand</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-35</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-35</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_D._Brand http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-35
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-35 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-35 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Vance_D._Brand
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The spectacular night launch on December 2, 1990 started a nine-day mission devoted to round-the-clock astronomical observations.	</value>
+
+		<annotated-sentence>	The spectacular [[night launch|Night_Launch]] on December 2, 1990 started a nine-day mission devoted to round-the-clock astronomical [[observations|Observation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The spectacular night launch on December 2, 1990 started a nine-day mission devoted to round-the-clock astronomical observations.	</pattern_crowdsource>
+
+
+		<tree>
+				det(launch/NN-4,The/DT-1)
+				amod(launch/NN-4,spectacular/JJ-2)
+				nn(launch/NN-4,night/NN-3)
+				nsubj(started/VBD-10,launch/NN-4)
+				prep_on(launch/NN-4,December/NNP-6)
+				num(December/NNP-6,2/CD-7)
+				num(December/NNP-6,1990/CD-9)
+				det(mission/NN-13,a/DT-11)
+				amod(mission/NN-13,nine-day/JJ-12)
+				dobj(started/VBD-10,mission/NN-13)
+				partmod(mission/NN-13,devoted/VBN-14)
+				amod(observations/NNS-18,round-the-clock/JJ-16)
+				amod(observations/NNS-18,astronomical/JJ-17)
+				prep_to(devoted/VBN-14,observations/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>night launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Night_Launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>observations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Observation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Crewmen included the pilot, Col. Guy Gardner; three mission specialists, John M. Lounge, Dr. Robert A. Parker and Dr. Jeffrey A. Hoffman; and two payload specialists, Dr. Samuel T. Durrance and Dr. Ronald A. Parise.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(included/VBD-2,Crewmen/NNS-1)
+				det(pilot/NN-4,the/DT-3)
+				dobj(included/VBD-2,pilot/NN-4)
+				nn(Gardner/NNP-8,Col./NNP-6)
+				nn(Gardner/NNP-8,Guy/NNP-7)
+				appos(pilot/NN-4,Gardner/NNP-8)
+				num(specialists/NNS-12,three/CD-10)
+				nn(specialists/NNS-12,mission/NN-11)
+				dobj(included/VBD-2,specialists/NNS-12)
+				conj_and(pilot/NN-4,specialists/NNS-12)
+				nn(Lounge/NNP-16,John/NNP-14)
+				nn(Lounge/NNP-16,M./NNP-15)
+				conj_and(pilot/NN-4,Lounge/NNP-16)
+				conj_and(specialists/NNS-12,Lounge/NNP-16)
+				nn(Parker/NNP-21,Dr./NNP-18)
+				nn(Parker/NNP-21,Robert/NNP-19)
+				nn(Parker/NNP-21,A./NNP-20)
+				conj_and(pilot/NN-4,Parker/NNP-21)
+				conj_and(specialists/NNS-12,Parker/NNP-21)
+				nn(Hoffman/NNP-26,Dr./NNP-23)
+				nn(Hoffman/NNP-26,Jeffrey/NNP-24)
+				nn(Hoffman/NNP-26,A./NNP-25)
+				conj_and(pilot/NN-4,Hoffman/NNP-26)
+				conj_and(specialists/NNS-12,Hoffman/NNP-26)
+				num(specialists/NNS-31,two/CD-29)
+				nn(specialists/NNS-31,payload/NN-30)
+				dobj(included/VBD-2,specialists/NNS-31)
+				conj_and(pilot/NN-4,specialists/NNS-31)
+				nn(Durrance/NNP-36,Dr./NNP-33)
+				nn(Durrance/NNP-36,Samuel/NNP-34)
+				nn(Durrance/NNP-36,T./NNP-35)
+				conj_and(pilot/NN-4,Durrance/NNP-36)
+				conj_and(specialists/NNS-31,Durrance/NNP-36)
+				nn(Parise/NNP-41,Dr./NNP-38)
+				nn(Parise/NNP-41,Ronald/NNP-39)
+				nn(Parise/NNP-41,A./NNP-40)
+				conj_and(pilot/NN-4,Parise/NNP-41)
+				conj_and(specialists/NNS-31,Parise/NNP-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 13-ton payload consisted of the three ASTRO-1 ultraviolet (UV) telescopes and the Broadband X-ray Telescope.	</value>
+
+		<annotated-sentence>	The 13-ton payload consisted of the three ASTRO-1 [[ultraviolet|Ultraviolet]] (UV) [[telescopes|A_Million_Lights]] and the [[Broadband|Broadband]] [[X-ray|X-ray]] [[Telescope|A_Million_Lights]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The 13-ton payload consisted of the three ASTRO-1 ultraviolet (UV) telescopes and the Broadband X-ray Telescope.	</pattern_crowdsource>
+
+
+		<tree>
+				det(payload/NN-3,The/DT-1)
+				amod(payload/NN-3,13-ton/JJ-2)
+				nsubj(consisted/VBD-4,payload/NN-3)
+				det(ultraviolet/NN-9,the/DT-6)
+				num(ultraviolet/NN-9,three/CD-7)
+				nn(ultraviolet/NN-9,ASTRO-1/NN-8)
+				prep_of(consisted/VBD-4,ultraviolet/NN-9)
+				appos(ultraviolet/NN-9,UV/NN-11)
+				dep(ultraviolet/NN-9,telescopes/NNS-13)
+				det(X-ray/NN-17,the/DT-15)
+				nn(X-ray/NN-17,Broadband/NNP-16)
+				prep_of(consisted/VBD-4,X-ray/NN-17)
+				conj_and(ultraviolet/NN-9,X-ray/NN-17)
+				appos(X-ray/NN-17,Telescope/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ultraviolet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ultraviolet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>telescopes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/A_Million_Lights</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Broadband</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadband</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>X-ray</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/X-ray</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/A_Million_Lights</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	More than 200 Orbiter maneuvers were required to point the telescopes.	</value>
+
+		<annotated-sentence>	[[More than|Inequality_(mathematics)]] 200 [[Orbiter|Orbiter]] maneuvers were required to point [[the telescopes|A_Million_Lights]].	</annotated-sentence>
+
+		<pattern_crowdsource>	More than 200 Orbiter maneuvers were required to point the telescopes.	</pattern_crowdsource>
+
+
+		<tree>
+				mwe(than/IN-2,More/JJR-1)
+				quantmod(200/CD-3,than/IN-2)
+				num(maneuvers/NNS-5,200/CD-3)
+				nn(maneuvers/NNS-5,Orbiter/NN-4)
+				nsubjpass(required/VBN-7,maneuvers/NNS-5)
+				auxpass(required/VBN-7,were/VBD-6)
+				aux(point/VB-9,to/TO-8)
+				xcomp(required/VBN-7,point/VB-9)
+				det(telescopes/NNS-11,the/DT-10)
+				dobj(point/VB-9,telescopes/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>More than</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inequality_(mathematics)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orbiter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the telescopes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/A_Million_Lights</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This Shuttle flight, one of the first dedicated to astronomy, provided a rich return of science data with emphasis on observations of very active celestial objects.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,This/DT-1)
+				nn(flight/NN-3,Shuttle/NNP-2)
+				nsubj(provided/VBD-13,flight/NN-3)
+				appos(flight/NN-3,one/CD-5)
+				det(first/JJ-8,the/DT-7)
+				prep_of(one/CD-5,first/JJ-8)
+				partmod(first/JJ-8,dedicated/VBN-9)
+				prep_to(dedicated/VBN-9,astronomy/NN-11)
+				det(return/NN-16,a/DT-14)
+				amod(return/NN-16,rich/JJ-15)
+				dobj(provided/VBD-13,return/NN-16)
+				nn(data/NNS-19,science/NN-18)
+				prep_of(return/NN-16,data/NNS-19)
+				prep_with(provided/VBD-13,emphasis/NN-21)
+				prep_on(provided/VBD-13,observations/NNS-23)
+				advmod(active/JJ-26,very/RB-25)
+				amod(objects/NNS-28,active/JJ-26)
+				amod(objects/NNS-28,celestial/JJ-27)
+				prep_of(observations/NNS-23,objects/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A night landing was made on December 10, to Runway 22 at Edwards Air Force Base.	</value>
+
+		<annotated-sentence>	A [[night landing|List_of_Virtual_Boy_games]] was made on [[December 10|December_10]], to [[Runway|Runway]] 22 at [[Edwards Air Force Base|Edwards_Air_Force_Base]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A night landing was made on December 10, to Runway 22 at Edwards Air Force Base.	</pattern_crowdsource>
+
+
+		<tree>
+				det(landing/NN-3,A/DT-1)
+				nn(landing/NN-3,night/NN-2)
+				nsubjpass(made/VBN-5,landing/NN-3)
+				auxpass(made/VBN-5,was/VBD-4)
+				prep_on(made/VBN-5,December/NNP-7)
+				num(December/NNP-7,10/CD-8)
+				prep_to(made/VBN-5,Runway/NN-11)
+				num(Runway/NN-11,22/CD-12)
+				nn(Base/NNP-17,Edwards/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(Runway/NN-11,Base/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>night landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Virtual_Boy_games</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_10</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Runway</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Runway</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 215 hours.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 215 [[hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 215 hours.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,215/CD-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the United States Government.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of [[the United States Government|Federal_government_of_the_United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the United States Government.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Government/NNP-15,the/DT-12)
+				nn(Government/NNP-15,United/NNP-13)
+				nn(Government/NNP-15,States/NNPS-14)
+				prep_of(websites/NNS-8,Government/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Government</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Federal_government_of_the_United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

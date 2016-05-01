@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>EMG is most often used when a person has symptoms of weakness, pain, or abnormal sensation.</value>
+		<pattern_crowdsource> EMG is most often used when a [[person|C0027361]] has [[symptoms|C1457887]] of weakness, pain, or abnormal sensation.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>EMG</surface-form>
+				<RDF-ID>C0013839</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weakness</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal sensation</surface-form>
+				<RDF-ID>C0423571</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It can help tell the difference between muscle weakness caused by the injury of a nerve attached to a muscle, and weakness due to nervous system disorders, such as muscle diseases.</value>
+		<pattern_crowdsource> It can help tell the difference between muscle weakness caused by the [[injury|C0175677]] of a [[nerve|C1280541]] attached to a muscle, and [[weakness|C0004093]] due to [[nervous system disorders|C0027765]], such as [[muscle diseases|C0026848]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>difference</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle weakness</surface-form>
+				<RDF-ID>C0151786</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nerve</surface-form>
+				<RDF-ID>C1280541</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle</surface-form>
+				<RDF-ID>C0026845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weakness</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nervous system disorders</surface-form>
+				<RDF-ID>C0027765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle diseases</surface-form>
+				<RDF-ID>C0026848</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0026848 ISA C0027765</triple>
+			<triple>C1280541 LOCATION_OF C0175677</triple>
+			<triple>C0027765 CAUSES C0004093</triple>
+			<triple>C0026848 CAUSES C0004093</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Both males and females may have chlamydia without having any symptoms.</value>
+		<pattern_crowdsource> Both [[males|C0086582]] and [[females|C0086287]] may have chlamydia without having any [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>males</surface-form>
+				<RDF-ID>C0086582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>females</surface-form>
+				<RDF-ID>C0086287</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlamydia</surface-form>
+				<RDF-ID>C0008148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 NEG_PROCESS_OF C0086287</triple>
+			<triple>C1457887 NEG_PROCESS_OF C0086582</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You are more likely to become infected with chlamydia if you have:  - Sex without using a condom  - Had multiple sexual partners  - Been infected with chlamydia before</value>
+		<pattern_crowdsource> You are more likely to become infected with [[chlamydia|C0008148]] if you have:  - Sex without using a condom  - Had multiple sexual partners  - Been infected with [[chlamydia|C0008148]] before		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlamydia</surface-form>
+				<RDF-ID>C0008148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>condom</surface-form>
+				<RDF-ID>C0009653</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>multiple sexual partners</surface-form>
+				<RDF-ID>C0558265</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlamydia</surface-form>
+				<RDF-ID>C0008148</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008148 INTERACTS_WITH C0008148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most women do not have symptoms.</value>
+		<pattern_crowdsource> Most [[women|C0043210]] do not have [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 NEG_PROCESS_OF C0043210</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>All of your sexual partners must take the antibiotics, even if they do not have symptoms.</value>
+		<pattern_crowdsource> All of your [[sexual partners|C0036911]] must take the [[antibiotics|C0003232]], even if they do not have symptoms.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sexual partners</surface-form>
+				<RDF-ID>C0036911</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 ADMINISTERED_TO C0036911</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Because gonorrhea often occurs with chlamydia, treatment for gonorrhea is often given at the same time.</value>
+		<pattern_crowdsource> Because [[gonorrhea|C0018081]] often occurs with [[chlamydia|C0008148]], [[treatment|C0087111]] for [[gonorrhea|C0018081]] is often given at the same time.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>gonorrhea</surface-form>
+				<RDF-ID>C0018081</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlamydia</surface-form>
+				<RDF-ID>C0008148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gonorrhea</surface-form>
+				<RDF-ID>C0018081</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018081 ASSOCIATED_WITH C0008148</triple>
+			<triple>C0087111 TREATS C0018081</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

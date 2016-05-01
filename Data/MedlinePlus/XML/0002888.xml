@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Otitis is a general term for infection or inflammation of the ear.</value>
+		<pattern_crowdsource> [[Otitis|C0029877]] is a [[general term|C0278060]] for [[infection|C0009450]] or [[inflammation|C0021368]] of the [[ear|C0521421]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Otitis</surface-form>
+				<RDF-ID>C0029877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>general term</surface-form>
+				<RDF-ID>C0278060</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ear</surface-form>
+				<RDF-ID>C0521421</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0029877 ISA C0278060</triple>
+			<triple>C0521421 LOCATION_OF C0021368</triple>
+			<triple>C0521421 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Otitis externa (swimmer's ear).</value>
+		<pattern_crowdsource> - [[Otitis externa|C0029878]] ([[swimmer's ear|C0021355]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Otitis externa</surface-form>
+				<RDF-ID>C0029878</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swimmer's ear</surface-form>
+				<RDF-ID>C0021355</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021355 ISA C0029878</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Otitis media (ear infection).</value>
+		<pattern_crowdsource> - [[Otitis media|C0029882]] ([[ear|C0521421]] [[infection|C0009450]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Otitis media</surface-form>
+				<RDF-ID>C0029882</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ear</surface-form>
+				<RDF-ID>C0521421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0029882 ISA C0009450</triple>
+			<triple>C0521421 LOCATION_OF C0009450</triple>
+			<triple>C0521421 LOCATION_OF C0029882</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

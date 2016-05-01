@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You may feel a sharp prick when the IV is placed in the vein in your arm for the perfusion part of the scan.</value>
+		<pattern_crowdsource> You may feel a sharp [[prick|C0033119]] when the IV is placed in the [[vein|C0042449]] in your arm for the perfusion part of the scan.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>prick</surface-form>
+				<RDF-ID>C0033119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scan</surface-form>
+				<RDF-ID>C0441633</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042449 LOCATION_OF C0033119</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A ventilation and perfusion scan is most often done to detect a pulmonary embolus (blood clot in the lungs).</value>
+		<pattern_crowdsource> A ventilation and perfusion [[scan|C0441633]] is most often done to detect a [[pulmonary embolus|C0034065]] ([[blood clot|C0302148]] in the [[lungs|C0024109]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ventilation</surface-form>
+				<RDF-ID>C0035203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scan</surface-form>
+				<RDF-ID>C0441633</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pulmonary embolus</surface-form>
+				<RDF-ID>C0034065</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0441633 DIAGNOSES C0034065</triple>
+			<triple>C0024109 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is also used to:  - Detect abnormal circulation (shunts) in the blood vessels of the lungs (pulmonary vessels)  - Test regional (different lung areas) lung function in people with advanced pulmonary disease, such as COPD</value>
+		<pattern_crowdsource> It is also used to:  - Detect abnormal circulation (shunts) in the [[blood vessels|C0005847]] of the [[lungs|C0024109]] (pulmonary vessels)  - Test regional (different lung areas) lung function in [[people|C0027361]] with advanced [[pulmonary disease|C0024115]], such as [[COPD|C0024117]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shunts</surface-form>
+				<RDF-ID>C0542331</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pulmonary vessels</surface-form>
+				<RDF-ID>C1508661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>regional</surface-form>
+				<RDF-ID>C0205147</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung areas</surface-form>
+				<RDF-ID>C0278459</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung function</surface-form>
+				<RDF-ID>C0024119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pulmonary disease</surface-form>
+				<RDF-ID>C0024115</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>COPD</surface-form>
+				<RDF-ID>C0024117</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024117 ISA C0024115</triple>
+			<triple>C0005847 PART_OF C0024109</triple>
+			<triple>C0024115 PROCESS_OF C0027361</triple>
+			<triple>C0024117 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The risk with perfusion scan is the same as with inserting an intravenous needle for any other purpose.</value>
+		<pattern_crowdsource> The risk with perfusion [[scan|C0441633]] is the same as with [[inserting|C0813036]] an intravenous needle for any other purpose.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scan</surface-form>
+				<RDF-ID>C0441633</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inserting</surface-form>
+				<RDF-ID>C0813036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intravenous needle</surface-form>
+				<RDF-ID>C0181976</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>purpose</surface-form>
+				<RDF-ID>C1285529</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0441633 USES C0813036</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In rare cases, a person may develop an allergy to the radioisotope.</value>
+		<pattern_crowdsource> In rare cases, a [[person|C0027361]] may develop an [[allergy|C0020517]] to the radioisotope.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cases</surface-form>
+				<RDF-ID>C0868928</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>allergy</surface-form>
+				<RDF-ID>C0020517</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>radioisotope</surface-form>
+				<RDF-ID>C0034595</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020517 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test may not provide a definite diagnosis, especially in people with lung disease.</value>
+		<pattern_crowdsource> This test may not provide a definite [[diagnosis|C0011900]], especially in [[people|C0027361]] with [[lung disease|C0024115]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>definite</surface-form>
+				<RDF-ID>C0439544</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diagnosis</surface-form>
+				<RDF-ID>C0011900</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung disease</surface-form>
+				<RDF-ID>C0024115</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011900 TREATS C0027361</triple>
+			<triple>C0024115 PROCESS_OF C0027361</triple>
+			<triple>C0011900 TREATS C0024115</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

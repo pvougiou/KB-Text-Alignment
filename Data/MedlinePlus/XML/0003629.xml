@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Intestinal ischemia and infarction is damage to (ischemia) or death of (infarction) part of the intestine.</value>
+		<pattern_crowdsource> Intestinal ischemia and [[infarction|C0021308]] is damage to ([[ischemia|C0022116]]) or [[death|C0011065]] of (infarction) part of the intestine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Intestinal ischemia</surface-form>
+				<RDF-ID>C0156149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infarction</surface-form>
+				<RDF-ID>C0021308</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ischemia</surface-form>
+				<RDF-ID>C0022116</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>death</surface-form>
+				<RDF-ID>C0011065</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infarction</surface-form>
+				<RDF-ID>C0021308</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021308 ISA C0022116</triple>
+			<triple>C0021308 ISA C0011065</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Adhesions: The intestine may become trapped in scar tissue from past surgery (adhesions).</value>
+		<pattern_crowdsource> - [[Adhesions|C0001511]]: The intestine may become trapped in [[scar tissue|C0008767]] from past surgery (adhesions).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Adhesions</surface-form>
+				<RDF-ID>C0001511</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scar tissue</surface-form>
+				<RDF-ID>C0008767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>past surgery</surface-form>
+				<RDF-ID>C0241311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adhesions</surface-form>
+				<RDF-ID>C0001511</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001511 COEXISTS_WITH C0008767</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Embolus: A blood clot from the heart or main blood vessels may travel through the bloodstream and block one of the arteries supplying the intestine.</value>
+		<pattern_crowdsource> - Embolus: A [[blood clot|C0302148]] from the [[heart|C0018787]] or main [[blood vessels|C0005847]] may travel through the bloodstream and block one of the arteries supplying the intestine.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Embolus</surface-form>
+				<RDF-ID>C0013922</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bloodstream</surface-form>
+				<RDF-ID>C0005775</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>block</surface-form>
+				<RDF-ID>C0028778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018787 LOCATION_OF C0302148</triple>
+			<triple>C0005847 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People who have had a heart attack or who have arrhythmias, such as atrial fibrillation, are at risk for this problem.</value>
+		<pattern_crowdsource> [[People|C0027361]] who have had a [[heart attack|C0027051]] or who have [[arrhythmias|C0003811]], such as [[atrial fibrillation|C0004238]], are at risk for this problem.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arrhythmias</surface-form>
+				<RDF-ID>C0003811</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>atrial fibrillation</surface-form>
+				<RDF-ID>C0004238</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>at risk</surface-form>
+				<RDF-ID>C1444641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004238 ISA C0003811</triple>
+			<triple>C0027051 PROCESS_OF C0027361</triple>
+			<triple>C0003811 PROCESS_OF C0027361</triple>
+			<triple>C0004238 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Venous thrombosis: The veins carrying blood away from the intestines may become blocked by blood clots This interrupts blood flow in the intestines.</value>
+		<pattern_crowdsource> - [[Venous thrombosis|C0042487]]: The [[veins|C0042449]] carrying [[blood|C0005767]] away from the [[intestines|C0021853]] may become blocked by [[blood clots|C0302148]] This interrupts blood flow in the [[intestines|C0021853]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Venous thrombosis</surface-form>
+				<RDF-ID>C0042487</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>veins</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood flow</surface-form>
+				<RDF-ID>C0232338</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 PART_OF C0042449</triple>
+			<triple>C0021853 LOCATION_OF C0042487</triple>
+			<triple>C0021853 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is more common in people with liver disease, cancer, or blood clotting disorders.</value>
+		<pattern_crowdsource> This is more common in [[people|C0027361]] with [[liver disease|C0023895]], [[cancer|C0006826]], or [[blood clotting disorders|C0005779]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver disease</surface-form>
+				<RDF-ID>C0023895</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clotting disorders</surface-form>
+				<RDF-ID>C0005779</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023895 PROCESS_OF C0027361</triple>
+			<triple>C0005779 PROCESS_OF C0027361</triple>
+			<triple>C0006826 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The main symptoms of intestinal ischemia is abdominal pain.</value>
+		<pattern_crowdsource> The main [[symptoms|C1457887]] of intestinal ischemia is [[abdominal pain|C0000737]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestinal ischemia</surface-form>
+				<RDF-ID>C0156149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdominal pain</surface-form>
+				<RDF-ID>C0000737</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0000737 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Laboratory tests may show a high white blood cell (WBC) count (a marker of infection) and increased acid in the bloodstream.</value>
+		<pattern_crowdsource> [[Laboratory tests|C0022885]] may show a [[high white blood cell (WBC) count|C0750426]] (a marker of infection) and increased acid in the bloodstream.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Laboratory tests</surface-form>
+				<RDF-ID>C0022885</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high white blood cell (WBC) count</surface-form>
+				<RDF-ID>C0750426</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>marker</surface-form>
+				<RDF-ID>C0005516</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>increased</surface-form>
+				<RDF-ID>C0205217</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acid</surface-form>
+				<RDF-ID>C0001128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bloodstream</surface-form>
+				<RDF-ID>C0005775</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022885 DIAGNOSES C0750426</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other tests include:  - Angiogram  - CT scan of the abdomen  - Doppler ultrasound of the abdomen    These tests do not always diagnose the problem.</value>
+		<pattern_crowdsource> Other tests include:  - Angiogram  - CT scan of the [[abdomen  - Doppler ultrasound|C0203464]] of the [[abdomen|C0000726]]    These tests do not always diagnose the problem.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Angiogram</surface-form>
+				<RDF-ID>C0002978</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CT scan</surface-form>
+				<RDF-ID>C0040405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdomen  - Doppler ultrasound</surface-form>
+				<RDF-ID>C0203464</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdomen</surface-form>
+				<RDF-ID>C0000726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>always</surface-form>
+				<RDF-ID>C1549493</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0000726 LOCATION_OF C0203464</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Intestinal ischemia is a serious condition that can result in death if not treated promptly.</value>
+		<pattern_crowdsource> [[Intestinal ischemia|C0156149]] is a serious condition that can result in [[death|C0011065]] if not treated promptly.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Intestinal ischemia</surface-form>
+				<RDF-ID>C0156149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>serious</surface-form>
+				<RDF-ID>C0205404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>condition</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>death</surface-form>
+				<RDF-ID>C0011065</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0156149 CAUSES C0011065</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People who have a large amount of tissue death in the intestine can have problems absorbing nutrients.</value>
+		<pattern_crowdsource> [[People|C0027361]] who have a large amount of [[tissue death|C1159864]] in the intestine can have problems absorbing nutrients.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large</surface-form>
+				<RDF-ID>C0549177</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissue death</surface-form>
+				<RDF-ID>C1159864</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nutrients</surface-form>
+				<RDF-ID>C0678695</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1159864 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people may become severely ill with fever and a bloodstream infection (sepsis).</value>
+		<pattern_crowdsource> Some [[people|C0027361]] may become severely ill with [[fever|C0015967]] and a bloodstream [[infection|C0009450]] ([[sepsis|C0036690]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severely</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ill</surface-form>
+				<RDF-ID>C0231218</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bloodstream</surface-form>
+				<RDF-ID>C0005775</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sepsis</surface-form>
+				<RDF-ID>C0036690</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0036690 ISA C0009450</triple>
+			<triple>C0015967 PROCESS_OF C0027361</triple>
+			<triple>C0009450 PROCESS_OF C0027361</triple>
+			<triple>C0036690 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Call your health care provider if you have any severe abdominal pain.</value>
+		<pattern_crowdsource> Call your [[health care provider|C0018724]] if you have any [[severe abdominal pain|C0278140]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdominal</surface-form>
+				<RDF-ID>C0000726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe abdominal pain</surface-form>
+				<RDF-ID>C0278140</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0278140 PROCESS_OF C0018724</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

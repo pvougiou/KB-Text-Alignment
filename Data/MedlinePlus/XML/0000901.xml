@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Some of these diseases are similar to each other such as arthritis and inflammation of arteries in the tissues.</value>
+		<pattern_crowdsource> Some of these [[diseases|C0012634]] are similar to each other such as [[arthritis|C0003864]] and [[inflammation|C0021368]] of [[arteries|C0003842]] in the [[tissues|C0040300]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>similar</surface-form>
+				<RDF-ID>C0871364</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arthritis</surface-form>
+				<RDF-ID>C0003864</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissues</surface-form>
+				<RDF-ID>C0040300</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003864 ISA C0012634</triple>
+			<triple>C0003842 LOCATION_OF C0021368</triple>
+			<triple>C0003842 LOCATION_OF C0003864</triple>
+			<triple>C0040300 LOCATION_OF C0012634</triple>
+			<triple>C0040300 LOCATION_OF C0003864</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People who developed these disorders were previously said to have "connective tissue" or "collagen vascular" disease.</value>
+		<pattern_crowdsource> [[People|C0027361]] who developed these [[disorders|C0012634]] were previously said to have "connective tissue" or "collagen vascular" disease.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorders</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>connective tissue</surface-form>
+				<RDF-ID>C0009780</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>collagen vascular" disease</surface-form>
+				<RDF-ID>C0262428</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

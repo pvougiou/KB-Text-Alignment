@@ -1,0 +1,2103 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Captain Donald Edward Williams (born February 13, 1942) is a retired United States Navy officer and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	Captain [[Donald Edward Williams|Donald_E._Williams]] (born [[February|February]] 13, 1942) is a retired [[United States Navy|United_States_Navy]] officer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Captain [[Donald Edward Williams|Donald_E._Williams]] (born February 13, 1942) is a retired [[United States Navy|United_States_Navy]] officer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Williams/NNP-4,Captain/NNP-1)
+				nn(Williams/NNP-4,Donald/NNP-2)
+				nn(Williams/NNP-4,Edward/NNP-3)
+				nsubj(officer/NN-18,Williams/NNP-4)
+				dep(Williams/NNP-4,born/VBN-6)
+				tmod(born/VBN-6,February/NNP-7)
+				num(February/NNP-7,13/CD-8)
+				num(February/NNP-7,1942/CD-10)
+				cop(officer/NN-18,is/VBZ-12)
+				det(officer/NN-18,a/DT-13)
+				amod(officer/NN-18,retired/JJ-14)
+				nn(officer/NN-18,United/NNP-15)
+				nn(officer/NN-18,States/NNPS-16)
+				nn(officer/NN-18,Navy/NNP-17)
+				det(astronaut/NN-23,a/DT-20)
+				amod(astronaut/NN-23,former/JJ-21)
+				nn(astronaut/NN-23,NASA/NNP-22)
+				conj_and(officer/NN-18,astronaut/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Donald Edward Williams</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Donald_E._Williams</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged a total of 287 hours and 35 minutes in space.	</value>
+
+		<annotated-sentence>	He has logged a total of 287 [[hours|Hour]] and 35 [[minutes|Minute]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged a total of 287 hours and 35 minutes in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				quantmod(total/NN-5,a/DT-4)
+				num(hours/NNS-8,total/NN-5)
+				quantmod(total/NN-5,of/IN-6)
+				number(total/NN-5,287/CD-7)
+				dobj(logged/VBN-3,hours/NNS-8)
+				num(minutes/NNS-11,35/CD-10)
+				dobj(logged/VBN-3,minutes/NNS-11)
+				conj_and(hours/NNS-8,minutes/NNS-11)
+				prep_in(minutes/NNS-11,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Williams was born in 1942 in Lafayette, Indiana and raised in the nearby town of Green Hill.	</value>
+
+		<annotated-sentence>	Williams was born in [[1942|1942]] in [[Lafayette , Indiana|Lafayette,_Indiana]]and raised in the nearby [[town|Town]] of Green Hill.	</annotated-sentence>
+
+		<pattern_crowdsource>	Williams was born in 1942 in Lafayette, Indiana and raised in the nearby town of Green Hill.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Williams/NNP-1)
+				nsubjpass(raised/VBN-11,Williams/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,1942/CD-5)
+				nn(Indiana/NNP-9,Lafayette/NNP-7)
+				prep_in(born/VBN-3,Indiana/NNP-9)
+				conj_and(born/VBN-3,raised/VBN-11)
+				det(town/NN-15,the/DT-13)
+				amod(town/NN-15,nearby/JJ-14)
+				prep_in(raised/VBN-11,town/NN-15)
+				nn(Hill/NNP-18,Green/NNP-17)
+				prep_of(town/NN-15,Hill/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1942</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1942</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lafayette , Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lafayette,_Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>town</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Town</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Lafayette,_Indiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Otterbein High School in Otterbein, Indiana in 1960.	</value>
+
+		<annotated-sentence>	He graduated from Otterbein [[High School|High_school]] in Otterbein, Indiana in [[1960|1960]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Otterbein High School in Otterbein, Indiana in 1960.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Otterbein/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Indiana/NNP-10,Otterbein/NNP-8)
+				prep_in(School/NNP-6,Indiana/NNP-10)
+				prep_in(graduated/VBD-2,1960/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/High_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1960</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Williams then went on to earn a bachelor of science degree in Mechanical Engineering from Purdue University in 1964.	</value>
+
+		<annotated-sentence>	Williams then went on to earn [[a bachelor of science degree|Bachelor_of_Science]] in [[Mechanical Engineering|Mechanical_engineering]] from [[Purdue University|Purdue_University]] in [[1964|1964]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Williams then went on to earn a bachelor of science degree in Mechanical Engineering from Purdue University in 1964.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-3,Williams/NNP-1)
+				advmod(went/VBD-3,then/RB-2)
+				prep(went/VBD-3,on/IN-4)
+				aux(earn/VB-6,to/TO-5)
+				xcomp(went/VBD-3,earn/VB-6)
+				det(bachelor/NN-8,a/DT-7)
+				dobj(earn/VB-6,bachelor/NN-8)
+				nn(degree/NN-11,science/NN-10)
+				prep_of(bachelor/NN-8,degree/NN-11)
+				amod(Engineering/NNP-14,Mechanical/JJ-13)
+				prep_in(earn/VB-6,Engineering/NNP-14)
+				nn(University/NNP-17,Purdue/NNP-16)
+				prep_from(earn/VB-6,University/NNP-17)
+				prep_in(University/NNP-17,1964/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a bachelor of science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mechanical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1964</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Society of Experimental Test Pilots, the Association of Space Explorers, and the National Aeronautic Association.	</value>
+
+		<annotated-sentence>	[[Society|Society]] of Experimental [[Test Pilots|Test_pilot]], [[the Association of Space Explorers|Association_of_Space_Explorers]], and [[the National Aeronautic Association|National_Aeronautic_Association]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Society of Experimental [[Test Pilots|Test_pilot]], the Association of Space Explorers, and the National Aeronautic Association.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Pilots/NNS-5,Experimental/JJ-3)
+				nn(Pilots/NNS-5,Test/NN-4)
+				prep_of(Society/NNP-1,Pilots/NNS-5)
+				det(Association/NNP-8,the/DT-7)
+				prep_of(Society/NNP-1,Association/NNP-8)
+				conj_and(Pilots/NNS-5,Association/NNP-8)
+				nn(Explorers/NNPS-11,Space/NNP-10)
+				prep_of(Association/NNP-8,Explorers/NNPS-11)
+				det(Association/NNP-17,the/DT-14)
+				nn(Association/NNP-17,National/NNP-15)
+				nn(Association/NNP-17,Aeronautic/NNP-16)
+				prep_of(Society/NNP-1,Association/NNP-17)
+				conj_and(Pilots/NNS-5,Association/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Association of Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Association_of_Space_Explorers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the National Aeronautic Association</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Aeronautic_Association</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Williams received his commission through the Naval ROTC program at Purdue University.	</value>
+
+		<annotated-sentence>	Williams received his commission through the Naval ROTC program at [[Purdue University|Purdue_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Williams received his commission through the Naval ROTC program at Purdue University.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Williams/NNP-1)
+				poss(commission/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,commission/NN-4)
+				det(program/NN-9,the/DT-6)
+				nn(program/NN-9,Naval/NNP-7)
+				nn(program/NN-9,ROTC/NNP-8)
+				prep_through(received/VBD-2,program/NN-9)
+				nn(University/NNP-12,Purdue/NNP-11)
+				prep_at(received/VBD-2,University/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed flight training at Pensacola, Florida, Meridian, Mississippi and Kingsville, Texas, receiving his aviator wings in May 1966.	</value>
+
+		<annotated-sentence>	He completed [[flight training|Flight_training]] at Pensacola, Florida, Meridian, Mississippi and Kingsville, Texas, receiving his [[aviator|Aviator]] wings in May [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed flight training at Pensacola, Florida, Meridian, Mississippi and Kingsville, Texas, receiving his aviator wings in May 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				nn(training/NN-4,flight/NN-3)
+				dobj(completed/VBD-2,training/NN-4)
+				nn(Texas/NNP-16,Pensacola/NNP-6)
+				conj_and(Pensacola/NNP-6,Florida/NNP-8)
+				nn(Texas/NNP-16,Florida/NNP-8)
+				conj_and(Pensacola/NNP-6,Meridian/NNP-10)
+				nn(Texas/NNP-16,Meridian/NNP-10)
+				conj_and(Pensacola/NNP-6,Mississippi/NNP-12)
+				nn(Texas/NNP-16,Mississippi/NNP-12)
+				conj_and(Pensacola/NNP-6,Kingsville/NNP-14)
+				nn(Texas/NNP-16,Kingsville/NNP-14)
+				prep_at(completed/VBD-2,Texas/NNP-16)
+				xcomp(completed/VBD-2,receiving/VBG-18)
+				poss(wings/NNS-21,his/PRP$-19)
+				nn(wings/NNS-21,aviator/NN-20)
+				dobj(receiving/VBG-18,wings/NNS-21)
+				prep_in(receiving/VBG-18,May/NNP-23)
+				num(May/NNP-23,1966/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After A-4 Skyhawk training, he made two Vietnam War deployments aboard the USS Enterprise with Attack Squadron 113 (VA-113).	</value>
+
+		<annotated-sentence>	After [[A-4 Skyhawk|Douglas_A-4_Skyhawk]] [[training|Training]], he made two [[Vietnam War|Vietnam_War]] deployments aboard the USS Enterprise with [[Attack Squadron 113|VFA-113]] ([[VA-113|VA113]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	After A-4 Skyhawk training, he made two [[Vietnam War|Vietnam_War]] deployments aboard the USS Enterprise with [[Attack Squadron 113|VFA-113]] (VA-113).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(training/NN-4,A-4/NN-2)
+				nn(training/NN-4,Skyhawk/NN-3)
+				prep_after(made/VBD-7,training/NN-4)
+				nsubj(made/VBD-7,he/PRP-6)
+				num(deployments/NNS-11,two/CD-8)
+				nn(deployments/NNS-11,Vietnam/NNP-9)
+				nn(deployments/NNS-11,War/NNP-10)
+				dobj(made/VBD-7,deployments/NNS-11)
+				det(Enterprise/NNP-15,the/DT-13)
+				nn(Enterprise/NNP-15,USS/NNP-14)
+				prep_aboard(made/VBD-7,Enterprise/NNP-15)
+				nn(Squadron/NNP-18,Attack/NNP-17)
+				prep_with(made/VBD-7,Squadron/NNP-18)
+				num(Squadron/NNP-18,113/CD-19)
+				appos(Squadron/NNP-18,VA-113/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>A-4 Skyhawk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_A-4_Skyhawk</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vietnam War</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vietnam_War</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Attack Squadron 113</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VFA-113</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VA-113</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VA113</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/VFA-113 http://dbpedia.org/ontology/battle http://dbpedia.org/resource/Vietnam_War
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a flight instructor in Attack Squadron 125 (VA-125) at Naval Air Station Lemoore, California for 2 years and transitioned to the A-7 Corsair II aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nsubj(transitioned/VBN-25,He/PRP-1)
+				det(instructor/NN-6,a/DT-4)
+				nn(instructor/NN-6,flight/NN-5)
+				prep_as(served/VBD-2,instructor/NN-6)
+				nn(Squadron/NNP-9,Attack/NNP-8)
+				prep_in(instructor/NN-6,Squadron/NNP-9)
+				num(Squadron/NNP-9,125/CD-10)
+				appos(Squadron/NNP-9,VA-125/NN-12)
+				nn(Lemoore/NNP-18,Naval/NNP-15)
+				nn(Lemoore/NNP-18,Air/NNP-16)
+				nn(Lemoore/NNP-18,Station/NNP-17)
+				prep_at(served/VBD-2,Lemoore/NNP-18)
+				appos(Lemoore/NNP-18,California/NNP-20)
+				num(years/NNS-23,2/CD-22)
+				prep_for(California/NNP-20,years/NNS-23)
+				conj_and(served/VBD-2,transitioned/VBN-25)
+				det(aircraft/NN-31,the/DT-27)
+				nn(aircraft/NN-31,A-7/NNP-28)
+				nn(aircraft/NN-31,Corsair/NNP-29)
+				nn(aircraft/NN-31,II/NNP-30)
+				prep_to(transitioned/VBN-25,aircraft/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He made two additional Vietnam deployments aboard the Enterprise with Carrier Air Wing 14 staff and Attack Squadron 97 (VA-97).	</value>
+
+		<annotated-sentence>	He made two additional [[Vietnam|Vietnam]] deployments aboard the Enterprise with Carrier Air Wing 14 staff and Attack Squadron 97 ([[VA-97|VA97]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He made two additional Vietnam deployments aboard the Enterprise with Carrier Air Wing 14 staff and Attack Squadron 97 (VA-97).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,He/PRP-1)
+				num(deployments/NNS-6,two/CD-3)
+				amod(deployments/NNS-6,additional/JJ-4)
+				nn(deployments/NNS-6,Vietnam/NNP-5)
+				dobj(made/VBD-2,deployments/NNS-6)
+				det(Enterprise/NN-9,the/DT-8)
+				prep_aboard(made/VBD-2,Enterprise/NN-9)
+				nn(Wing/NN-13,Carrier/NN-11)
+				nn(Wing/NN-13,Air/NN-12)
+				prep_with(made/VBD-2,Wing/NN-13)
+				num(staff/NN-15,14/CD-14)
+				dep(Wing/NN-13,staff/NN-15)
+				nn(Squadron/NN-18,Attack/NN-17)
+				prep_with(made/VBD-2,Squadron/NN-18)
+				conj_and(Wing/NN-13,Squadron/NN-18)
+				num(VA-97/NN-21,97/CD-19)
+				dep(Squadron/NN-18,VA-97/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vietnam</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vietnam</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VA-97</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VA97</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Williams completed a total of 330 combat missions.	</value>
+
+		<annotated-sentence>	Williams completed a total of 330 [[combat missions|Combat_Missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Williams completed a total of 330 combat missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Williams/NNP-1)
+				det(total/NN-4,a/DT-3)
+				dobj(completed/VBD-2,total/NN-4)
+				num(missions/NNS-8,330/CD-6)
+				nn(missions/NNS-8,combat/NN-7)
+				prep_of(total/NN-4,missions/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1973, Williams attended the Armed Forces Staff College.	</value>
+
+		<annotated-sentence>	In [[1973|1973]], Williams attended [[the Armed Forces Staff College|Joint_Forces_Staff_College]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1973, Williams attended the Armed Forces Staff College.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(attended/VBD-5,1973/CD-2)
+				nsubj(attended/VBD-5,Williams/NNP-4)
+				det(College/NNP-10,the/DT-6)
+				nn(College/NNP-10,Armed/NNP-7)
+				nn(College/NNP-10,Forces/NNP-8)
+				nn(College/NNP-10,Staff/NNP-9)
+				dobj(attended/VBD-5,College/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Armed Forces Staff College</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Forces_Staff_College</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the U.S. Naval Test Pilot School at NAS Patuxent River, Maryland, in June 1974, and was assigned to the Naval Air Test Center's Carrier Suitability Branch of Flight Test Division.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubjpass(assigned/VBN-23,He/PRP-1)
+				det(School/NNP-9,the/DT-4)
+				nn(School/NNP-9,U.S./NNP-5)
+				nn(School/NNP-9,Naval/NNP-6)
+				nn(School/NNP-9,Test/NNP-7)
+				nn(School/NNP-9,Pilot/NN-8)
+				prep_from(graduated/VBD-2,School/NNP-9)
+				nn(River/NNP-13,NAS/NNP-11)
+				nn(River/NNP-13,Patuxent/NNP-12)
+				prep_at(graduated/VBD-2,River/NNP-13)
+				appos(River/NNP-13,Maryland/NNP-15)
+				prep_in(graduated/VBD-2,June/NNP-18)
+				num(June/NNP-18,1974/CD-19)
+				auxpass(assigned/VBN-23,was/VBD-22)
+				conj_and(graduated/VBD-2,assigned/VBN-23)
+				det(Center/NNP-29,the/DT-25)
+				nn(Center/NNP-29,Naval/NNP-26)
+				nn(Center/NNP-29,Air/NNP-27)
+				nn(Center/NNP-29,Test/NNP-28)
+				poss(Branch/NNP-33,Center/NNP-29)
+				nn(Branch/NNP-33,Carrier/NN-31)
+				nn(Branch/NNP-33,Suitability/NN-32)
+				prep_to(assigned/VBN-23,Branch/NNP-33)
+				nn(Division/NNP-37,Flight/NNP-35)
+				nn(Division/NNP-37,Test/NNP-36)
+				prep_of(Branch/NNP-33,Division/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From August 1976 to June 1977, following reorganization of the Naval Air Test Center, he was head of the Carrier Systems Branch, Strike Aircraft Test Directorate.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(head/NN-19,August/NNP-2)
+				num(August/NNP-2,1976/CD-3)
+				prep_to(August/NNP-2,June/NNP-5)
+				num(June/NNP-5,1977/CD-6)
+				prep_following(head/NN-19,reorganization/NN-9)
+				det(Center/NNP-15,the/DT-11)
+				nn(Center/NNP-15,Naval/NNP-12)
+				nn(Center/NNP-15,Air/NNP-13)
+				nn(Center/NNP-15,Test/NNP-14)
+				prep_of(reorganization/NN-9,Center/NNP-15)
+				nsubj(head/NN-19,he/PRP-17)
+				cop(head/NN-19,was/VBD-18)
+				det(Branch/NNP-24,the/DT-21)
+				nn(Branch/NNP-24,Carrier/NN-22)
+				nn(Branch/NNP-24,Systems/NNPS-23)
+				prep_of(head/NN-19,Branch/NNP-24)
+				appos(head/NN-19,Strike/NN-26)
+				nn(Directorate/NNP-29,Aircraft/NNP-27)
+				nn(Directorate/NNP-29,Test/NNP-28)
+				dep(Strike/NN-26,Directorate/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He reported next for A-7 refresher training, and was assigned to Attack Squadron 94 (VA-94) when he was selected as an astronaut candidate by NASA.	</value>
+
+		<annotated-sentence>	He reported next for A-7 [[refresher training|Refresher_training_(military)]], and was assigned to Attack Squadron 94 ([[VA-94|Virginia_State_Route_94]]) when he was selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He reported next for A-7 refresher training, and was assigned to Attack Squadron 94 (VA-94) when he was selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reported/VBD-2,He/PRP-1)
+				nsubjpass(assigned/VBN-11,He/PRP-1)
+				advmod(reported/VBD-2,next/JJ-3)
+				nn(training/NN-7,A-7/NN-5)
+				nn(training/NN-7,refresher/NN-6)
+				prep_for(reported/VBD-2,training/NN-7)
+				auxpass(assigned/VBN-11,was/VBD-10)
+				conj_and(reported/VBD-2,assigned/VBN-11)
+				aux(Attack/VB-13,to/TO-12)
+				xcomp(assigned/VBN-11,Attack/VB-13)
+				dobj(Attack/VB-13,Squadron/NNP-14)
+				num(Squadron/NNP-14,94/CD-15)
+				appos(Squadron/NNP-14,VA-94/NN-17)
+				advmod(selected/VBN-22,when/WRB-19)
+				nsubjpass(selected/VBN-22,he/PRP-20)
+				auxpass(selected/VBN-22,was/VBD-21)
+				rcmod(Squadron/NNP-14,selected/VBN-22)
+				det(candidate/NN-26,an/DT-24)
+				nn(candidate/NN-26,astronaut/NN-25)
+				prep_as(selected/VBN-22,candidate/NN-26)
+				agent(selected/VBN-22,NASA/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>refresher training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Refresher_training_(military)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VA-94</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia_State_Route_94</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged more than 6,000 hours flying time, which includes 5,700 hours in jets and 745 carrier landings.	</value>
+
+		<annotated-sentence>	He has logged more than 6,000 [[hours|Hour]] flying time, which includes 5,700 [[hours|Hour]] in jets and 745 carrier [[landings|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged more than 6,000 hours flying time, which includes 5,700 hours in jets and 745 carrier landings.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				mwe(than/IN-5,more/JJR-4)
+				quantmod(6,000/CD-6,than/IN-5)
+				num(hours/NNS-7,6,000/CD-6)
+				dobj(logged/VBN-3,hours/NNS-7)
+				partmod(hours/NNS-7,flying/VBG-8)
+				dobj(flying/VBG-8,time/NN-9)
+				nsubj(includes/VBZ-12,which/WDT-11)
+				rcmod(time/NN-9,includes/VBZ-12)
+				num(hours/NNS-14,5,700/CD-13)
+				dobj(includes/VBZ-12,hours/NNS-14)
+				prep_in(hours/NNS-14,jets/NNS-16)
+				num(landings/NNS-20,745/CD-18)
+				nn(landings/NNS-20,carrier/NN-19)
+				prep_in(hours/NNS-14,landings/NNS-20)
+				conj_and(jets/NNS-16,landings/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in January 1978, Williams became an astronaut in August 1979, qualified for assignment as a pilot on future Space Shuttle flight crews.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[January|January]] [[1978|Tsubasa_Otomiya]], Williams became [[an astronaut|Astronaut]] in [[August 1979|1979]], qualified for assignment as a pilot on future [[Space Shuttle|SpaceShuttle]] [[flight|Flight]] crews.	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in January 1978, Williams became [[an astronaut|Astronaut]] in August 1979, qualified for assignment as a pilot on future Space Shuttle flight crews.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-11,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,January/NNP-5)
+				num(January/NNP-5,1978/CD-6)
+				nsubj(astronaut/NN-11,Williams/NNP-8)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				prep_in(astronaut/NN-11,August/NNP-13)
+				num(August/NNP-13,1979/CD-14)
+				amod(crews/NNS-27,qualified/VBN-16)
+				prep_for(qualified/VBN-16,assignment/NN-18)
+				det(pilot/NN-21,a/DT-20)
+				prep_as(assignment/NN-18,pilot/NN-21)
+				amod(Shuttle/NNP-25,future/JJ-23)
+				nn(Shuttle/NNP-25,Space/NN-24)
+				prep_on(pilot/NN-21,Shuttle/NNP-25)
+				nn(crews/NNS-27,flight/NN-26)
+				appos(astronaut/NN-11,crews/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since then he has had various support assignments, including working at the Shuttle Avionics Integration Laboratory (SAIL) as a test pilot, and at the Kennedy Space Center participating in Orbiter test, checkout, launch and landing operations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep(had/VBN-5,Since/IN-1)
+				pobj(Since/IN-1,then/RB-2)
+				nsubj(had/VBN-5,he/PRP-3)
+				aux(had/VBN-5,has/VBZ-4)
+				amod(assignments/NNS-8,various/JJ-6)
+				nn(assignments/NNS-8,support/NN-7)
+				dobj(had/VBN-5,assignments/NNS-8)
+				prepc_including(assignments/NNS-8,working/VBG-11)
+				prepc_including(assignments/NNS-8,working/VBG-11)
+				conj_and(working/VBG-11,working/VBG-11)
+				det(Laboratory/NN-17,the/DT-13)
+				nn(Laboratory/NN-17,Shuttle/NNP-14)
+				nn(Laboratory/NN-17,Avionics/NNP-15)
+				nn(Laboratory/NN-17,Integration/NN-16)
+				prep_at(working/VBG-11,Laboratory/NN-17)
+				appos(Laboratory/NN-17,SAIL/NN-19)
+				det(pilot/NN-24,a/DT-22)
+				nn(pilot/NN-24,test/NN-23)
+				prep_as(working/VBG-11,pilot/NN-24)
+				det(Center/NNP-31,the/DT-28)
+				nn(Center/NNP-31,Kennedy/NNP-29)
+				nn(Center/NNP-31,Space/NNP-30)
+				prep_at(working/VBG-11,Center/NNP-31)
+				partmod(Center/NNP-31,participating/VBG-32)
+				nn(operations/NNS-42,Orbiter/NNP-34)
+				nn(operations/NNS-42,test/NN-35)
+				conj_and(test/NN-35,checkout/NN-37)
+				nn(operations/NNS-42,checkout/NN-37)
+				conj_and(test/NN-35,launch/NN-39)
+				nn(operations/NNS-42,launch/NN-39)
+				conj_and(test/NN-35,landing/NN-41)
+				nn(operations/NNS-42,landing/NN-41)
+				prep_in(participating/VBG-32,operations/NNS-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From September 1982 through July 1983, he was assigned as the Deputy Manager, Operations Integration, National Space Transportation System Program Office at the Johnson Space Center.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(assigned/VBN-10,September/NNP-2)
+				num(September/NNP-2,1982/CD-3)
+				prep_through(September/NNP-2,July/NNP-5)
+				num(July/NNP-5,1983/CD-6)
+				nsubjpass(assigned/VBN-10,he/PRP-8)
+				auxpass(assigned/VBN-10,was/VBD-9)
+				det(Manager/NNP-14,the/DT-12)
+				nn(Manager/NNP-14,Deputy/NNP-13)
+				prep_as(assigned/VBN-10,Manager/NNP-14)
+				nn(Integration/NN-17,Operations/NNP-16)
+				appos(Manager/NNP-14,Integration/NN-17)
+				nn(Office/NNP-24,National/NNP-19)
+				nn(Office/NNP-24,Space/NNP-20)
+				nn(Office/NNP-24,Transportation/NNP-21)
+				nn(Office/NNP-24,System/NNP-22)
+				nn(Office/NNP-24,Program/NNP-23)
+				appos(Manager/NNP-14,Office/NNP-24)
+				det(Center/NNP-29,the/DT-26)
+				nn(Center/NNP-29,Johnson/NNP-27)
+				nn(Center/NNP-29,Space/NNP-28)
+				prep_at(Office/NNP-24,Center/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From July 1985 through August 1986, Williams was the Deputy Chief of the Aircraft Operations Division at the Johnson Space Center, and from September 1986 through December 1988, he served as Chief of the Mission Support Branch within the Astronaut Office.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Chief/NNP-12,July/NNP-2)
+				num(July/NNP-2,1985/CD-3)
+				prep_through(July/NNP-2,August/NNP-5)
+				num(August/NNP-5,1986/CD-6)
+				nsubj(Chief/NNP-12,Williams/NNP-8)
+				cop(Chief/NNP-12,was/VBD-9)
+				det(Chief/NNP-12,the/DT-10)
+				nn(Chief/NNP-12,Deputy/NNP-11)
+				det(Division/NNP-17,the/DT-14)
+				nn(Division/NNP-17,Aircraft/NNP-15)
+				nn(Division/NNP-17,Operations/NNP-16)
+				prep_of(Chief/NNP-12,Division/NNP-17)
+				det(Center/NNP-22,the/DT-19)
+				nn(Center/NNP-22,Johnson/NNP-20)
+				nn(Center/NNP-22,Space/NNP-21)
+				prep_at(Chief/NNP-12,Center/NNP-22)
+				prep_from(served/VBD-33,September/NNP-26)
+				num(September/NNP-26,1986/CD-27)
+				prep_through(served/VBD-33,December/NNP-29)
+				num(December/NNP-29,1988/CD-30)
+				nsubj(served/VBD-33,he/PRP-32)
+				conj_and(Chief/NNP-12,served/VBD-33)
+				dep(Branch/NNP-40,Chief/NNP-35)
+				det(Support/NN-39,the/DT-37)
+				nn(Support/NN-39,Mission/NNP-38)
+				prep_of(Chief/NNP-35,Support/NN-39)
+				prep_as(served/VBD-33,Branch/NNP-40)
+				det(Office/NNP-44,the/DT-42)
+				nn(Office/NNP-44,Astronaut/NNP-43)
+				prep_within(served/VBD-33,Office/NNP-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Williams served as pilot on STS-51-D in 1985, and was the spacecraft commander on STS-34 in 1989.	</value>
+
+		<annotated-sentence>	Williams served as pilot on [[STS-51-D|STS-51-D]] in [[1985|1985]], and was the [[spacecraft|Spacecraft]] [[commander|Commander]] on [[STS-34|STS-34]] in [[1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Williams served as pilot on [[STS-51-D|STS-51-D]] in 1985, and was the spacecraft commander on [[STS-34|STS-34]] in 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Williams/NNP-1)
+				prep_as(served/VBD-2,pilot/NN-4)
+				prep_on(served/VBD-2,STS-51-D/NN-6)
+				prep_in(STS-51-D/NN-6,1985/CD-8)
+				cop(commander/NN-14,was/VBD-11)
+				det(commander/NN-14,the/DT-12)
+				nn(commander/NN-14,spacecraft/NN-13)
+				conj_and(served/VBD-2,commander/NN-14)
+				prep_on(commander/NN-14,STS-34/NN-16)
+				prep_in(commander/NN-14,1989/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-51-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-D</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-34</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-34</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-D
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-34
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-34 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-34 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1990, Williams retired from the U.S. Navy and left NASA.	</value>
+
+		<annotated-sentence>	In [[March 1990|1990]], Williams retired from [[the U.S. Navy|United_States_Navy]] and left [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In March 1990, Williams retired from [[the U.S. Navy|United_States_Navy]] and left [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(retired/VBD-6,March/NNP-2)
+				num(March/NNP-2,1990/CD-3)
+				nsubj(retired/VBD-6,Williams/NNP-5)
+				nsubj(left/VBD-12,Williams/NNP-5)
+				det(Navy/NNP-10,the/DT-8)
+				nn(Navy/NNP-10,U.S./NNP-9)
+				prep_from(retired/VBD-6,Navy/NNP-10)
+				conj_and(retired/VBD-6,left/VBD-12)
+				dobj(left/VBD-12,NASA/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently a Division Manager with Science Applications International Corporation (SAIC), working on several projects in the Houston area, nationally, and internationally.	</value>
+
+		<annotated-sentence>	He is currently a Division Manager with [[Science Applications|SAIC_(U.S._company)]] [[International Corporation|SAIC_(U.S._company)]] ([[SAIC|SAIC_(U.S._company)]]), working on [[several projects|Project]] in [[the Houston area|Greater_Houston]], nationally, and internationally.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently a Division Manager with Science Applications International Corporation (SAIC), working on several projects in the Houston area, nationally, and internationally.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Division/NN-5,He/PRP-1)
+				cop(Division/NN-5,is/VBZ-2)
+				advmod(Division/NN-5,currently/RB-3)
+				det(Division/NN-5,a/DT-4)
+				dep(working/VBG-16,Manager/NN-6)
+				nn(Applications/NNS-9,Science/NNP-8)
+				prep_with(Manager/NN-6,Applications/NNS-9)
+				nn(Corporation/NNP-11,International/NNP-10)
+				dep(working/VBG-16,Corporation/NNP-11)
+				appos(Corporation/NNP-11,SAIC/NNP-13)
+				dep(Division/NN-5,working/VBG-16)
+				amod(projects/NNS-19,several/JJ-18)
+				prep_on(working/VBG-16,projects/NNS-19)
+				det(area/NN-23,the/DT-21)
+				nn(area/NN-23,Houston/NNP-22)
+				prep_in(projects/NNS-19,area/NN-23)
+				advmod(Division/NN-5,nationally/RB-25)
+				advmod(Division/NN-5,internationally/RB-28)
+				conj_and(nationally/RB-25,internationally/RB-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Science Applications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SAIC_(U.S._company)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SAIC_(U.S._company)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SAIC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SAIC_(U.S._company)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several projects</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Houston area</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Greater_Houston</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-51-D Discovery (April 12–19, 1985) was launched from and returned to land at the Kennedy Space Center, Florida.	</value>
+
+		<annotated-sentence>	[[STS-51-D|STS-51-D]] Discovery ([[April 12|April_12]]–19, [[1985|1985]]) was launched from and returned to land at [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-51-D|STS-51-D]] Discovery (April 12–19, 1985) was launched from and returned to land at [[the Kennedy Space Center|Kennedy_Space_Center]], Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Discovery/NNP-2,STS-51-D/NN-1)
+				nsubjpass(launched/VBN-12,Discovery/NNP-2)
+				nsubjpass(returned/VBD-15,Discovery/NNP-2)
+				dep(Discovery/NNP-2,April/NNP-4)
+				num(April/NNP-4,12/CD-5)
+				dep(April/NNP-4,19/CD-7)
+				amod(19/CD-7,1985/CD-9)
+				auxpass(launched/VBN-12,was/VBD-11)
+				prep(launched/VBN-12,from/IN-13)
+				conj_and(launched/VBN-12,returned/VBD-15)
+				aux(land/VB-17,to/TO-16)
+				xcomp(returned/VBD-15,land/VB-17)
+				det(Center/NNP-22,the/DT-19)
+				nn(Center/NNP-22,Kennedy/NNP-20)
+				nn(Center/NNP-22,Space/NNP-21)
+				prep_at(land/VB-17,Center/NNP-22)
+				appos(Center/NNP-22,Florida/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-51-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-D</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-D
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/landingSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission, the crew deployed ANIK-C for Telesat Canada, and Syncom IV-3 for the U.S. Navy.	</value>
+
+		<annotated-sentence>	During the mission, the crew deployed ANIK-C for [[Telesat Canada|Telesat]], and [[Syncom|Syncom]] IV-3 for [[the U.S. Navy|United_States_Navy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission, the crew deployed ANIK-C for Telesat Canada, and Syncom IV-3 for [[the U.S. Navy|United_States_Navy]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(deployed/VBN-7,mission/NN-3)
+				det(crew/NN-6,the/DT-5)
+				nsubj(deployed/VBN-7,crew/NN-6)
+				dobj(deployed/VBN-7,ANIK-C/NN-8)
+				nn(Canada/NNP-11,Telesat/NNP-10)
+				prep_for(ANIK-C/NN-8,Canada/NNP-11)
+				nn(IV-3/NN-15,Syncom/NNP-14)
+				dobj(deployed/VBN-7,IV-3/NN-15)
+				conj_and(ANIK-C/NN-8,IV-3/NN-15)
+				det(Navy/NNP-19,the/DT-17)
+				nn(Navy/NNP-19,U.S./NNP-18)
+				prep_for(IV-3/NN-15,Navy/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Telesat Canada</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Telesat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Syncom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Syncom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A malfunction in the Syncom spacecraft resulted in the first unscheduled EVA, rendezvous and proximity operations for the Space Shuttle in an attempt to activate the satellite.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(malfunction/NN-2,A/DT-1)
+				nsubj(resulted/VBD-7,malfunction/NN-2)
+				det(spacecraft/NN-6,the/DT-4)
+				nn(spacecraft/NN-6,Syncom/NNP-5)
+				prep_in(malfunction/NN-2,spacecraft/NN-6)
+				det(operations/NNS-17,the/DT-9)
+				amod(operations/NNS-17,first/JJ-10)
+				amod(operations/NNS-17,unscheduled/JJ-11)
+				nn(operations/NNS-17,EVA/NNP-12)
+				conj_and(EVA/NNP-12,rendezvous/NN-14)
+				nn(operations/NNS-17,rendezvous/NN-14)
+				conj_and(EVA/NNP-12,proximity/NN-16)
+				nn(operations/NNS-17,proximity/NN-16)
+				prep_in(resulted/VBD-7,operations/NNS-17)
+				det(Space/NN-20,the/DT-19)
+				prep_for(resulted/VBD-7,Space/NN-20)
+				dobj(resulted/VBD-7,Shuttle/NNP-21)
+				det(attempt/NN-24,an/DT-23)
+				prep_in(Shuttle/NNP-21,attempt/NN-24)
+				aux(activate/VB-26,to/TO-25)
+				infmod(attempt/NN-24,activate/VB-26)
+				det(satellite/NN-28,the/DT-27)
+				dobj(activate/VB-26,satellite/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Additionally, the crew also conducted several medical experiments, two student experiments, activated two Getaway Specials, and filmed experiments with toys in space.	</value>
+
+		<annotated-sentence>	Additionally, the crew also conducted [[several medical experiments|Nazi_human_experimentation]], two [[student|Student]] [[experiments|Experiment]], activated two [[Getaway|Getaway]] [[Specials|Television_special]], and filmed [[experiments|Experiment]] with toys in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Additionally, the crew also conducted several medical experiments, two student experiments, activated two Getaway Specials, and filmed experiments with toys in space.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(conducted/VBD-6,Additionally/RB-1)
+				det(crew/NN-4,the/DT-3)
+				nsubj(conducted/VBD-6,crew/NN-4)
+				advmod(conducted/VBD-6,also/RB-5)
+				amod(experiments/NNS-9,several/JJ-7)
+				amod(experiments/NNS-9,medical/JJ-8)
+				nsubj(activated/VBD-15,experiments/NNS-9)
+				nsubj(filmed/VBD-21,experiments/NNS-9)
+				num(experiments/NNS-13,two/CD-11)
+				nn(experiments/NNS-13,student/NN-12)
+				appos(experiments/NNS-9,experiments/NNS-13)
+				ccomp(conducted/VBD-6,activated/VBD-15)
+				num(Specials/NNS-18,two/CD-16)
+				nn(Specials/NNS-18,Getaway/NNP-17)
+				dobj(activated/VBD-15,Specials/NNS-18)
+				ccomp(conducted/VBD-6,filmed/VBD-21)
+				conj_and(activated/VBD-15,filmed/VBD-21)
+				dobj(filmed/VBD-21,experiments/NNS-22)
+				prep_with(filmed/VBD-21,toys/NNS-24)
+				prep_in(toys/NNS-24,space/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>several medical experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nazi_human_experimentation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Getaway</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Getaway</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Specials</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Television_special</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was accomplished in 109 orbits of the Earth in 167 hours, 54 minutes.	</value>
+
+		<annotated-sentence>	The mission was accomplished in 109 orbits of [[the Earth|Earth]] in 167 [[hours|Hour]], 54 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission was accomplished in 109 orbits of the Earth in 167 hours, 54 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(accomplished/VBN-4,mission/NN-2)
+				auxpass(accomplished/VBN-4,was/VBD-3)
+				num(orbits/NNS-7,109/CD-6)
+				prep_in(accomplished/VBN-4,orbits/NNS-7)
+				det(Earth/NNP-10,the/DT-9)
+				prep_of(orbits/NNS-7,Earth/NNP-10)
+				num(hours/NNS-13,167/CD-12)
+				prep_in(accomplished/VBN-4,hours/NNS-13)
+				num(minutes/NNS-16,54/CD-15)
+				appos(hours/NNS-13,minutes/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-34 Atlantis (October 18–23, 1989) was launched from Kennedy Space Center, Florida and returned to land at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	[[STS-34|STS-34]] [[Atlantis|Atlantis]] ([[October 18|October_18]]–23, [[1989|1989]]) was launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]] and returned to land at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-34|STS-34]] Atlantis (October 18–23, 1989) was launched from [[Kennedy Space Center|Kennedy_Space_Center]], Florida and returned to land at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-34/NN-1)
+				nsubjpass(launched/VBN-12,Atlantis/NNP-2)
+				nsubjpass(returned/VBD-20,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,October/NNP-4)
+				num(October/NNP-4,18/CD-5)
+				dep(October/NNP-4,23/CD-7)
+				amod(23/CD-7,1989/CD-9)
+				auxpass(launched/VBN-12,was/VBD-11)
+				nn(Center/NNP-16,Kennedy/NNP-14)
+				nn(Center/NNP-16,Space/NNP-15)
+				prep_from(launched/VBN-12,Center/NNP-16)
+				appos(Center/NNP-16,Florida/NNP-18)
+				conj_and(launched/VBN-12,returned/VBD-20)
+				aux(land/VB-22,to/TO-21)
+				xcomp(returned/VBD-20,land/VB-22)
+				nn(Base/NNP-27,Edwards/NNP-24)
+				nn(Base/NNP-27,Air/NNP-25)
+				nn(Base/NNP-27,Force/NNP-26)
+				prep_at(land/VB-22,Base/NNP-27)
+				appos(Base/NNP-27,California/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-34</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-34</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 18</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_18</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_E._Williams http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-34
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-34 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-34 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_E._Williams
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-34 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission the crew successfully deployed the Galileo spacecraft, starting its journey to explore Jupiter, operated the Shuttle Solar Backscatter Ultraviolet Instrument (SSBUV) to map atmospheric ozone, and performed numerous secondary experiments involving radiation measurements, polymer morphology, lightning research, microgravity effects on plants, and a student experiment on ice crystal growth in space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(deployed/VBD-7,mission/NN-3)
+				det(crew/NN-5,the/DT-4)
+				nsubj(deployed/VBD-7,crew/NN-5)
+				advmod(deployed/VBD-7,successfully/RB-6)
+				det(spacecraft/NN-10,the/DT-8)
+				nn(spacecraft/NN-10,Galileo/NNP-9)
+				nsubj(operated/VBD-19,spacecraft/NN-10)
+				nsubj(performed/VBN-35,spacecraft/NN-10)
+				partmod(operated/VBD-19,starting/VBG-12)
+				poss(journey/NN-14,its/PRP$-13)
+				dobj(starting/VBG-12,journey/NN-14)
+				aux(explore/VB-16,to/TO-15)
+				infmod(journey/NN-14,explore/VB-16)
+				dobj(explore/VB-16,Jupiter/NNP-17)
+				ccomp(deployed/VBD-7,operated/VBD-19)
+				det(Instrument/NNP-25,the/DT-20)
+				nn(Instrument/NNP-25,Shuttle/NNP-21)
+				nn(Instrument/NNP-25,Solar/NNP-22)
+				nn(Instrument/NNP-25,Backscatter/NNP-23)
+				nn(Instrument/NNP-25,Ultraviolet/NNP-24)
+				nsubj(map/VB-30,Instrument/NNP-25)
+				appos(Instrument/NNP-25,SSBUV/NNP-27)
+				aux(map/VB-30,to/TO-29)
+				xcomp(operated/VBD-19,map/VB-30)
+				amod(ozone/NN-32,atmospheric/JJ-31)
+				dobj(map/VB-30,ozone/NN-32)
+				ccomp(deployed/VBD-7,performed/VBN-35)
+				conj_and(operated/VBD-19,performed/VBN-35)
+				amod(experiments/NNS-38,numerous/JJ-36)
+				amod(experiments/NNS-38,secondary/JJ-37)
+				dobj(performed/VBN-35,experiments/NNS-38)
+				nn(measurements/NNS-41,radiation/NN-40)
+				prep_involving(experiments/NNS-38,measurements/NNS-41)
+				nn(morphology/NN-44,polymer/NN-43)
+				prep_involving(experiments/NNS-38,morphology/NN-44)
+				conj_and(measurements/NNS-41,morphology/NN-44)
+				nn(research/NN-47,lightning/NN-46)
+				prep_involving(experiments/NNS-38,research/NN-47)
+				conj_and(measurements/NNS-41,research/NN-47)
+				nn(effects/NNS-50,microgravity/NN-49)
+				prep_involving(experiments/NNS-38,effects/NNS-50)
+				conj_and(measurements/NNS-41,effects/NNS-50)
+				prep_on(effects/NNS-50,plants/NNS-52)
+				det(experiment/NN-57,a/DT-55)
+				nn(experiment/NN-57,student/NN-56)
+				prep_involving(experiments/NNS-38,experiment/NN-57)
+				conj_and(measurements/NNS-41,experiment/NN-57)
+				nn(growth/NN-61,ice/NN-59)
+				nn(growth/NN-61,crystal/NN-60)
+				prep_on(experiment/NN-57,growth/NN-61)
+				prep_in(growth/NN-61,space/NN-63)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was accomplished in 79 orbits of the Earth in 119 hours, 41 minutes.	</value>
+
+		<annotated-sentence>	The mission was accomplished in 79 orbits of [[the Earth|Earth]] in 119 [[hours|Hour]], 41 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission was accomplished in 79 orbits of the Earth in 119 hours, 41 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(accomplished/VBN-4,mission/NN-2)
+				auxpass(accomplished/VBN-4,was/VBD-3)
+				num(orbits/NNS-7,79/CD-6)
+				prep_in(accomplished/VBN-4,orbits/NNS-7)
+				det(Earth/NNP-10,the/DT-9)
+				prep_of(orbits/NNS-7,Earth/NNP-10)
+				num(hours/NNS-13,119/CD-12)
+				prep_in(accomplished/VBN-4,hours/NNS-13)
+				num(minutes/NNS-16,41/CD-15)
+				appos(hours/NNS-13,minutes/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

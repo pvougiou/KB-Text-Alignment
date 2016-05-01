@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Aleksandr Stepanovich Viktorenko (????????? ?????????? ??????????) is a Soviet cosmonaut.	</value>
+
+		<annotated-sentence>	[[Aleksandr Stepanovich Viktorenko|Aleksandr_Viktorenko]] (????????? ?????????? ??????????) is a [[Soviet|Soviet_Union]] cosmonaut.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aleksandr Stepanovich Viktorenko|Aleksandr_Viktorenko]] (????????? ?????????? ??????????) is a [[Soviet|Soviet_Union]] cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Viktorenko/NNP-3,Aleksandr/NNP-1)
+				nn(Viktorenko/NNP-3,Stepanovich/NNP-2)
+				nsubj(cosmonaut/NN-12,Viktorenko/NNP-3)
+				nn(??????????/NNP-7,?????????/NNP-5)
+				nn(??????????/NNP-7,??????????/NNP-6)
+				appos(Viktorenko/NNP-3,??????????/NNP-7)
+				cop(cosmonaut/NN-12,is/VBZ-9)
+				det(cosmonaut/NN-12,a/DT-10)
+				amod(cosmonaut/NN-12,Soviet/JJ-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aleksandr Stepanovich Viktorenko</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aleksandr_Viktorenko</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Aleksandr_Viktorenko http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born in Olginka, North-Kazakhstan Oblast, Kazakh SSR on March 29, 1947.	</value>
+
+		<annotated-sentence>	He was born in [[Olginka|Olginka]], [[North-Kazakhstan|North_Kazakhstan_Province]] [[Oblast|Oblast]], [[Kazakh SSR|Kazakh_Soviet_Socialist_Republic]] on March 29, 1947.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born in [[Olginka|Olginka]], North-Kazakhstan Oblast, Kazakh SSR on March 29, 1947.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Oblast/NNP-8,Olginka/NNP-5)
+				appos(Oblast/NNP-8,North-Kazakhstan/NNP-7)
+				prep_in(born/VBN-3,Oblast/NNP-8)
+				nn(SSR/NNP-11,Kazakh/NNP-10)
+				appos(Oblast/NNP-8,SSR/NNP-11)
+				prep_on(SSR/NNP-11,March/NNP-13)
+				num(March/NNP-13,29/CD-14)
+				num(March/NNP-13,1947/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Olginka</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Olginka</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North-Kazakhstan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Kazakhstan_Province</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kazakh SSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kazakh_Soviet_Socialist_Republic</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Aleksandr_Viktorenko http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Olginka
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married with two children.	</value>
+
+		<annotated-sentence>	He is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as a cosmonaut on March 23, 1978, and retired on May 30, 1997.	</value>
+
+		<annotated-sentence>	He was selected as a cosmonaut on March 23, 1978, and retired on May 30, 1997.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected as a cosmonaut on March 23, 1978, and retired on May 30, 1997.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				nsubjpass(retired/VBN-14,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,cosmonaut/NN-6)
+				prep_on(cosmonaut/NN-6,March/NNP-8)
+				num(March/NNP-8,23/CD-9)
+				num(March/NNP-8,1978/CD-11)
+				conj_and(selected/VBN-3,retired/VBN-14)
+				prep_on(retired/VBN-14,May/NNP-16)
+				num(May/NNP-16,30/CD-17)
+				num(May/NNP-16,1997/CD-19)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his active career he had been Commander of Soyuz TM-3, Soyuz TM-8, Soyuz TM-14 and Soyuz TM-20.	</value>
+
+		<annotated-sentence>	During his active [[career|Career]] he had been [[Commander|Commander]] of [[Soyuz TM-3|Soyuz_TM-3]], [[Soyuz TM-8|Soyuz_TM-8]], [[Soyuz TM-14|Soyuz_TM-14]] and [[Soyuz TM-20|Soyuz_TM-20]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During his active career he had been Commander of Soyuz TM-3, [[Soyuz TM-8|Soyuz_TM-8]], [[Soyuz TM-14|Soyuz_TM-14]] and [[Soyuz TM-20|Soyuz_TM-20]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-4,his/PRP$-2)
+				amod(career/NN-4,active/JJ-3)
+				prep_during(Commander/NNP-8,career/NN-4)
+				nsubj(Commander/NNP-8,he/PRP-5)
+				aux(Commander/NNP-8,had/VBD-6)
+				cop(Commander/NNP-8,been/VBN-7)
+				nn(TM-3/NN-11,Soyuz/NNP-10)
+				prep_of(Commander/NNP-8,TM-3/NN-11)
+				nn(TM-8/NNP-14,Soyuz/NNP-13)
+				prep_of(Commander/NNP-8,TM-8/NNP-14)
+				conj_and(TM-3/NN-11,TM-8/NNP-14)
+				nn(TM-14/NNP-17,Soyuz/NNP-16)
+				prep_of(Commander/NNP-8,TM-14/NNP-17)
+				conj_and(TM-3/NN-11,TM-14/NNP-17)
+				nn(TM-20/NNP-20,Soyuz/NNP-19)
+				prep_of(Commander/NNP-8,TM-20/NNP-20)
+				conj_and(TM-3/NN-11,TM-20/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-3</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-8</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-20</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Aleksandr_Viktorenko http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-8
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Aleksandr_Viktorenko http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Aleksandr_Viktorenko http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-20
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has spent a total of 489 days in space.	</value>
+
+		<annotated-sentence>	He has spent a total of 489 days in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has spent a total of 489 days in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBN-3,He/PRP-1)
+				aux(spent/VBN-3,has/VBZ-2)
+				det(total/NN-5,a/DT-4)
+				dobj(spent/VBN-3,total/NN-5)
+				num(days/NNS-8,489/CD-7)
+				prep_of(total/NN-5,days/NNS-8)
+				prep_in(days/NNS-8,space/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

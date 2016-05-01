@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This test is done in a hospital radiology department.</value>
+		<pattern_crowdsource> This [[test|C0039593]] is done in a [[hospital radiology department|C0034600]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital radiology department</surface-form>
+				<RDF-ID>C0034600</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034600 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some of these include:  - Inflammation of the small bowel (such as Crohn disease)  - Malabsorption  - Narrowing or stricture of the intestine  - Small bowel blockage  - Tumors of the small intestine</value>
+		<pattern_crowdsource> Some of these include:  - [[Inflammation|C0021368]] of the [[small bowel|C0021852]] (such as Crohn disease)  - Malabsorption  - Narrowing or [[stricture|C0333187]] of the intestine  - [[Small bowel blockage  - Tumors|C0345832]] of the [[small intestine|C0021852]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small bowel</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Crohn disease</surface-form>
+				<RDF-ID>C0010346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Narrowing</surface-form>
+				<RDF-ID>C0332463</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stricture</surface-form>
+				<RDF-ID>C0333187</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Small bowel blockage  - Tumors</surface-form>
+				<RDF-ID>C0345832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021852 LOCATION_OF C0021368</triple>
+			<triple>C0333187 PART_OF C0345832</triple>
+			<triple>C0345832 PART_OF C0021852</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Rare complications include:   - Allergic reactions to medications prescribed for the examination (ask your health care provider about any known drug sensitivities)  - Possible injury to bowel structures during the study    Barium may cause constipation.</value>
+		<pattern_crowdsource> Rare complications include:   - Allergic reactions to medications prescribed for the examination (ask your health care provider about any known drug sensitivities)  - Possible injury to bowel structures during the study    [[Barium|C0004749]] may cause [[constipation|C0009806]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>complications</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Allergic reactions</surface-form>
+				<RDF-ID>C1527304</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medications</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>known</surface-form>
+				<RDF-ID>C0205309</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drug sensitivities</surface-form>
+				<RDF-ID>C0237865</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Possible</surface-form>
+				<RDF-ID>C0332149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>study</surface-form>
+				<RDF-ID>C0008972</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Barium</surface-form>
+				<RDF-ID>C0004749</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>constipation</surface-form>
+				<RDF-ID>C0009806</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004749 CAUSES C0009806</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

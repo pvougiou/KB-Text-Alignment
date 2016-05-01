@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your doctor may order this test if you have signs of a heart sac infection or if you have pericardial effusion.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have [[signs|C0311392]] of a heart sac infection or if you have pericardial effusion.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pericardial effusion</surface-form>
+				<RDF-ID>C0031039</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0311392 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal results may be due to an infection of the pericardium.</value>
+		<pattern_crowdsource> Abnormal results may be due to an [[infection|C0009450]] of the [[pericardium|C0031050]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal results</surface-form>
+				<RDF-ID>C0459424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pericardium</surface-form>
+				<RDF-ID>C0031050</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031050 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

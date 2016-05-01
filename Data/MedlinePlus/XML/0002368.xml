@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A leiomyosarcoma is a rare cancerous tumor of the smooth muscle cells.</value>
+		<pattern_crowdsource> A [[leiomyosarcoma|C0023269]] is a rare [[cancerous|C0006826]] [[tumor|C0027651]] of the [[smooth muscle cells|C1135918]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>leiomyosarcoma</surface-form>
+				<RDF-ID>C0023269</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancerous</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>smooth muscle cells</surface-form>
+				<RDF-ID>C1135918</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0027651</triple>
+			<triple>C0023269 ISA C0027651</triple>
+			<triple>C1135918 LOCATION_OF C0027651</triple>
+			<triple>C1135918 LOCATION_OF C0006826</triple>
+			<triple>C1135918 LOCATION_OF C0023269</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>During surgery, your doctor made a surgical cut (incision) in your scalp.</value>
+		<pattern_crowdsource> During surgery, your doctor made a surgical [[cut|C0000925]] (incision) in your [[scalp|C1278997]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>incision</surface-form>
+				<RDF-ID>C0184898</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scalp</surface-form>
+				<RDF-ID>C1278997</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1278997 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If a piece of skull bone was removed, at the end of surgery it is usually put back in place and attached with small metal plates.</value>
+		<pattern_crowdsource> If a piece of skull bone was removed, at the end of [[surgery|C0543467]] it is usually put back in place and attached with small metal [[plates|C1139930]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>skull bone</surface-form>
+				<RDF-ID>C0037303</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>end</surface-form>
+				<RDF-ID>C0444930</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>place</surface-form>
+				<RDF-ID>C0442504</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>metal</surface-form>
+				<RDF-ID>C0025552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plates</surface-form>
+				<RDF-ID>C1139930</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 USES C1139930</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Remove a tumor or other abnormality along the surface of the brain or in the brain tissue itself.</value>
+		<pattern_crowdsource> - Remove a [[tumor|C0027651]] or other abnormality along the surface of the [[brain|C0006104]] or in the [[brain tissue|C0459385]] itself.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surface</surface-form>
+				<RDF-ID>C0205148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain tissue</surface-form>
+				<RDF-ID>C0459385</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0459385 LOCATION_OF C0027651</triple>
+			<triple>C0006104 LOCATION_OF C0027651</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

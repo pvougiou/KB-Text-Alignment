@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You may need to take antibiotics to help prevent infection.</value>
+		<pattern_crowdsource> You may need to take [[antibiotics|C0003232]] to help prevent [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 PREVENTS C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Check with your provider before taking aspirin or other over-the-counter pain relievers such as ibuprofen (Advil, Motrin) or acetaminophen (Tylenol).</value>
+		<pattern_crowdsource> Check with your provider before taking aspirin or other over-the-counter pain relievers such as [[ibuprofen|C0020740]] ([[Advil|C0593507]], [[Motrin|C0699203]]) or [[acetaminophen|C0000970]] ([[Tylenol|C0699142]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over-the</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain relievers</surface-form>
+				<RDF-ID>C0722425</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+			<triple>C0699142 ISA C0000970</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

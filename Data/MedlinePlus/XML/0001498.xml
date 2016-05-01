@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The test may help diagnose retinal detachment, tumors, or other disorders.</value>
+		<pattern_crowdsource> The test may help diagnose [[retinal detachment|C0035305]], [[tumors|C0027651]], or other [[disorders|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retinal detachment</surface-form>
+				<RDF-ID>C0035305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumors</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorders</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027651 ISA C0012634</triple>
+			<triple>C0012634 ISA C0027651</triple>
+			<triple>C0012634 ISA C0035305</triple>
+			<triple>C0035305 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A B-scan may show:  - Bleeding into the clear gel (vitreous) that fills the back of the eye (vitreous hemorrhage)  - Cancer of the retina (retinoblastoma), under the retina, or in other parts of the eye (such as melanoma)  - Damaged tissue or injuries in the bony socket (orbit) that surrounds and protects the eye  - Foreign bodies  - Pulling away of the retina from the back of the eye (retinal detachment)  - Swelling (inflammation)</value>
+		<pattern_crowdsource> A B-scan may show:  - Bleeding into the clear gel (vitreous) that fills the back of the eye (vitreous hemorrhage)  - [[Cancer|C0006826]] of the [[retina|C0035298]] (retinoblastoma), under the [[retina|C0035298]], or in other parts of the [[eye|C0015392]] (such as [[melanoma|C0025202]])  - Damaged tissue or [[injuries|C0175677]] in the bony [[socket|C0224517]] (orbit) that surrounds and protects the eye  - Foreign bodies  - [[Pulling|C0580846]] away of the retina from the back of the [[eye|C0015392]] (retinal detachment)  - Swelling (inflammation)		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>scan</surface-form>
+				<RDF-ID>C0441633</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clear</surface-form>
+				<RDF-ID>C0522503</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gel</surface-form>
+				<RDF-ID>C0017243</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitreous hemorrhage</surface-form>
+				<RDF-ID>C0042909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retinoblastoma</surface-form>
+				<RDF-ID>C0035335</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parts</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>melanoma</surface-form>
+				<RDF-ID>C0025202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injuries</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bony</surface-form>
+				<RDF-ID>C0443157</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>socket</surface-form>
+				<RDF-ID>C0224517</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>orbit</surface-form>
+				<RDF-ID>C1278884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye  - Foreign bodies</surface-form>
+				<RDF-ID>C0015401</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pulling</surface-form>
+				<RDF-ID>C0580846</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back of</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retinal detachment</surface-form>
+				<RDF-ID>C0035305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 PART_OF C0035298</triple>
+			<triple>C0035298 PART_OF C0015392</triple>
+			<triple>C0224517 LOCATION_OF C0175677</triple>
+			<triple>C0224517 LOCATION_OF C0025202</triple>
+			<triple>C0015392 LOCATION_OF C0580846</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

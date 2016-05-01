@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Gestational diabetes is high blood sugar (glucose) that starts during pregnancy.</value>
+		<pattern_crowdsource> Gestational diabetes is high [[blood sugar|C0005802]] ([[glucose|C0017725]]) that starts during pregnancy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Gestational diabetes</surface-form>
+				<RDF-ID>C0085207</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pregnancy</surface-form>
+				<RDF-ID>C0032961</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0017725</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Eating a balanced, healthy diet can help you manage gestational diabetes.</value>
+		<pattern_crowdsource> Eating a balanced, [[healthy diet|C0452415]] can help you manage [[gestational diabetes|C0085207]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Eating</surface-form>
+				<RDF-ID>C0013470</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>healthy diet</surface-form>
+				<RDF-ID>C0452415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gestational diabetes</surface-form>
+				<RDF-ID>C0085207</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0452415 TREATS C0085207</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The diet recommendations that follow are for women with gestational diabetes who do NOT take insulin.</value>
+		<pattern_crowdsource> The diet recommendations that follow are for [[women|C0043210]] with [[gestational diabetes|C0085207]] who do NOT take [[insulin|C0021641]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>diet</surface-form>
+				<RDF-ID>C0012155</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>recommendations</surface-form>
+				<RDF-ID>C0034866</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gestational diabetes</surface-form>
+				<RDF-ID>C0085207</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0085207 PROCESS_OF C0043210</triple>
+			<triple>C0021641 NEG_ADMINISTERED_TO C0043210</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

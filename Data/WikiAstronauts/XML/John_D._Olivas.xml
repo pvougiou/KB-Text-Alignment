@@ -1,0 +1,1387 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Daniel "Danny" Olivas (born May 25, 1965 in North Hollywood, California) is an American engineer of Mexican descent and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[John Daniel|John_Daniel]] "[[Danny|John_D._Olivas]]" [[Olivas|John_D._Olivas]] (born May 25, 1965 in [[North Hollywood|North_Hollywood,_Los_Angeles]], [[California|California]]) is an [[American|United_States]] [[engineer|Engineer]] of Mexican descent and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	John Daniel "[[Danny|John_D._Olivas]]" [[Olivas|John_D._Olivas]] (born May 25, 1965 in [[North Hollywood|North_Hollywood,_Los_Angeles]], [[California|California]]) is an [[American|United_States]] engineer of Mexican descent and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Olivas/NNP-6,John/NNP-1)
+				nn(Olivas/NNP-6,Daniel/NNP-2)
+				nn(Olivas/NNP-6,Danny/NNP-4)
+				nsubj(engineer/NN-22,Olivas/NNP-6)
+				dep(Olivas/NNP-6,born/VBN-8)
+				tmod(born/VBN-8,May/NNP-9)
+				num(May/NNP-9,25/CD-10)
+				num(May/NNP-9,1965/CD-12)
+				nn(Hollywood/NNP-15,North/NNP-14)
+				prep_in(born/VBN-8,Hollywood/NNP-15)
+				appos(Hollywood/NNP-15,California/NNP-17)
+				cop(engineer/NN-22,is/VBZ-19)
+				det(engineer/NN-22,an/DT-20)
+				amod(engineer/NN-22,American/JJ-21)
+				amod(descent/NN-25,Mexican/JJ-24)
+				prep_of(engineer/NN-22,descent/NN-25)
+				det(astronaut/NN-30,a/DT-27)
+				amod(astronaut/NN-30,former/JJ-28)
+				nn(astronaut/NN-30,NASA/NNP-29)
+				prep_of(engineer/NN-22,astronaut/NN-30)
+				conj_and(descent/NN-25,astronaut/NN-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>John Daniel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Daniel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Danny</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_D._Olivas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Olivas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_D._Olivas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North Hollywood</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Hollywood,_Los_Angeles</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/North_Hollywood,_Los_Angeles http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/California http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Olivas has flown on two space shuttle missions, STS-117 and STS-128.	</value>
+
+		<annotated-sentence>	[[Olivas|John_D._Olivas]] has flown on [[two space shuttle missions|List_of_space_shuttle_missions]], [[STS-117|STS-117]] and [[STS-128|STS-128]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Olivas|John_D._Olivas]] has flown on two space shuttle missions, [[STS-117|STS-117]] and [[STS-128|STS-128]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,Olivas/NNP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(missions/NNS-8,two/CD-5)
+				nn(missions/NNS-8,space/NN-6)
+				nn(missions/NNS-8,shuttle/NN-7)
+				prep_on(flown/VBN-3,missions/NNS-8)
+				prep_on(flown/VBN-3,STS-117/NN-10)
+				conj_and(missions/NNS-8,STS-117/NN-10)
+				prep_on(flown/VBN-3,STS-128/NN-12)
+				conj_and(missions/NNS-8,STS-128/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Olivas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_D._Olivas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two space shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-117</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-117</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-128</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-117
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He performed EVAs on both missions, totaling 34hrs 28min.	</value>
+
+		<annotated-sentence>	He performed EVAs on both missions, totaling 34hrs 28min.	</annotated-sentence>
+
+		<pattern_crowdsource>	He performed EVAs on both missions, totaling 34hrs 28min.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,He/PRP-1)
+				dobj(performed/VBD-2,EVAs/NNS-3)
+				det(missions/NNS-6,both/DT-5)
+				prep_on(performed/VBD-2,missions/NNS-6)
+				partmod(performed/VBD-2,totaling/VBG-8)
+				nsubj(28min/JJ-10,34hrs/NNS-9)
+				xcomp(totaling/VBG-8,28min/JJ-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in North Hollywood, California, raised in El Paso, Texas, he received a Bachelor of Science degree in mechanical engineering from the University of Texas at El Paso in 1989, a Master of Science degree in mechanical engineering from the University of Houston in 1993 and a doctorate in mechanical engineering and materials science from Rice University in 1996.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-16,Born/VBN-1)
+				nn(Hollywood/NNP-4,North/NNP-3)
+				prep_in(Born/VBN-1,Hollywood/NNP-4)
+				appos(Hollywood/NNP-4,California/NNP-6)
+				partmod(Hollywood/NNP-4,raised/VBN-8)
+				nn(Paso/NNP-11,El/NNP-10)
+				prep_in(raised/VBN-8,Paso/NNP-11)
+				appos(Paso/NNP-11,Texas/NNP-13)
+				nsubj(received/VBD-16,he/PRP-15)
+				det(Bachelor/NN-18,a/DT-17)
+				dobj(received/VBD-16,Bachelor/NN-18)
+				nn(degree/NN-21,Science/NNP-20)
+				prep_of(Bachelor/NN-18,degree/NN-21)
+				amod(engineering/NN-24,mechanical/JJ-23)
+				prep_in(Bachelor/NN-18,engineering/NN-24)
+				det(University/NNP-27,the/DT-26)
+				prep_from(received/VBD-16,University/NNP-27)
+				prep_of(University/NNP-27,Texas/NNP-29)
+				nn(Paso/NNP-32,El/NNP-31)
+				prep_at(received/VBD-16,Paso/NNP-32)
+				prep_in(Paso/NNP-32,1989/CD-34)
+				det(Master/NN-37,a/DT-36)
+				prep_at(received/VBD-16,Master/NN-37)
+				conj_and(Paso/NNP-32,Master/NN-37)
+				nn(degree/NN-40,Science/NNP-39)
+				prep_of(Master/NN-37,degree/NN-40)
+				amod(engineering/NN-43,mechanical/JJ-42)
+				prep_in(Master/NN-37,engineering/NN-43)
+				det(University/NNP-46,the/DT-45)
+				prep_from(engineering/NN-43,University/NNP-46)
+				prep_of(University/NNP-46,Houston/NNP-48)
+				prep_in(Houston/NNP-48,1993/CD-50)
+				det(doctorate/NN-53,a/DT-52)
+				prep_at(received/VBD-16,doctorate/NN-53)
+				conj_and(Paso/NNP-32,doctorate/NN-53)
+				amod(engineering/NN-56,mechanical/JJ-55)
+				prep_in(doctorate/NN-53,engineering/NN-56)
+				nn(science/NN-59,materials/NNS-58)
+				prep_in(doctorate/NN-53,science/NN-59)
+				conj_and(engineering/NN-56,science/NN-59)
+				nn(University/NNP-62,Rice/NNP-61)
+				prep_from(received/VBD-16,University/NNP-62)
+				prep_in(University/NNP-62,1996/CD-64)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	in 2013 Olivas joined the University of Texas at El Paso as Director of the Center for the Advancement of Space Safety and Mission Assurance Research (CASSMAR) and will oversee space initiatives on campus.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-4,2013/CD-2)
+				nsubj(joined/VBD-4,Olivas/NNP-3)
+				nsubj(oversee/VB-32,Olivas/NNP-3)
+				det(University/NNP-6,the/DT-5)
+				dobj(joined/VBD-4,University/NNP-6)
+				prep_of(University/NNP-6,Texas/NNP-8)
+				dep(Research/NNP-26,El/NNP-10)
+				dep(El/NNP-10,Paso/NNP-11)
+				prep_as(El/NNP-10,Director/NNP-13)
+				det(Center/NNP-16,the/DT-15)
+				prep_of(Director/NNP-13,Center/NNP-16)
+				det(Advancement/NNP-19,the/DT-18)
+				prep_for(Center/NNP-16,Advancement/NNP-19)
+				nn(Safety/NNP-22,Space/NNP-21)
+				prep_of(Advancement/NNP-19,Safety/NNP-22)
+				prep_of(Advancement/NNP-19,Mission/NNP-24)
+				conj_and(Safety/NNP-22,Mission/NNP-24)
+				nn(Research/NNP-26,Assurance/NNP-25)
+				prep_at(joined/VBD-4,Research/NNP-26)
+				appos(Research/NNP-26,CASSMAR/NNP-28)
+				aux(oversee/VB-32,will/MD-31)
+				conj_and(joined/VBD-4,oversee/VB-32)
+				nn(initiatives/NNS-34,space/NN-33)
+				dobj(oversee/VB-32,initiatives/NNS-34)
+				prep_on(oversee/VB-32,campus/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	NASA selected Olivas as an astronaut candidate in 1998.	</value>
+
+		<annotated-sentence>	[[NASA|NASA]] selected [[Olivas|John_D._Olivas]] as an [[astronaut|Astronaut]] [[candidate|Candidate]] in [[1998|1998]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[NASA|NASA]] selected [[Olivas|John_D._Olivas]] as an [[astronaut|Astronaut]] candidate in 1998.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(selected/VBD-2,NASA/NNP-1)
+				dobj(selected/VBD-2,Olivas/NNP-3)
+				det(candidate/NN-7,an/DT-5)
+				nn(candidate/NN-7,astronaut/NN-6)
+				prep_as(selected/VBD-2,candidate/NN-7)
+				prep_in(selected/VBD-2,1998/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Olivas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_D._Olivas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His astronaut training included orientation briefings and tours, numerous scientific and technical briefings, intensive instruction in Shuttle and International Space Station systems, physiological training and ground school to prepare for T-38 flight training, as well as learning water and wilderness survival techniques.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(training/NN-3,His/PRP$-1)
+				nn(training/NN-3,astronaut/NN-2)
+				nsubj(included/VBD-4,training/NN-3)
+				nn(briefings/NNS-6,orientation/NN-5)
+				dobj(included/VBD-4,briefings/NNS-6)
+				dobj(included/VBD-4,tours/NNS-8)
+				conj_and(briefings/NNS-6,tours/NNS-8)
+				amod(briefings/NNS-14,numerous/JJ-10)
+				amod(briefings/NNS-14,scientific/JJ-11)
+				conj_and(scientific/JJ-11,technical/JJ-13)
+				amod(briefings/NNS-14,technical/JJ-13)
+				appos(briefings/NNS-6,briefings/NNS-14)
+				amod(instruction/NN-17,intensive/JJ-16)
+				appos(briefings/NNS-6,instruction/NN-17)
+				nn(systems/NNS-24,Shuttle/NNP-19)
+				conj_and(Shuttle/NNP-19,International/NNP-21)
+				nn(systems/NNS-24,International/NNP-21)
+				nn(systems/NNS-24,Space/NNP-22)
+				nn(systems/NNS-24,Station/NNP-23)
+				prep_in(included/VBD-4,systems/NNS-24)
+				amod(training/NN-27,physiological/JJ-26)
+				appos(systems/NNS-24,training/NN-27)
+				nn(school/NN-30,ground/NN-29)
+				appos(systems/NNS-24,school/NN-30)
+				conj_and(training/NN-27,school/NN-30)
+				aux(prepare/VB-32,to/TO-31)
+				infmod(training/NN-27,prepare/VB-32)
+				amod(training/NN-36,T-38/JJ-34)
+				nn(training/NN-36,flight/NN-35)
+				prep_for(prepare/VB-32,training/NN-36)
+				prep_in(included/VBD-4,learning/VBG-41)
+				conj_and(systems/NNS-24,learning/VBG-41)
+				nn(techniques/NNS-46,water/NN-42)
+				conj_and(water/NN-42,wilderness/NN-44)
+				nn(techniques/NNS-46,wilderness/NN-44)
+				nn(techniques/NNS-46,survival/NN-45)
+				dobj(learning/VBG-41,techniques/NNS-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1999 to 2002, he was assigned technical responsibilities within the Robotics Branch as lead for the Special Purpose Dexterous Manipulator Robot and the Mobile Transporter.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(2002/CD-4,1999/CD-2)
+				dep(2002/CD-4,to/TO-3)
+				prep_from(assigned/VBN-8,2002/CD-4)
+				nsubjpass(assigned/VBN-8,he/PRP-6)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				amod(responsibilities/NNS-10,technical/JJ-9)
+				dobj(assigned/VBN-8,responsibilities/NNS-10)
+				det(Branch/NNP-14,the/DT-12)
+				nn(Branch/NNP-14,Robotics/NNP-13)
+				prep_within(assigned/VBN-8,Branch/NNP-14)
+				prep_as(assigned/VBN-8,lead/NN-16)
+				det(Robot/NNP-23,the/DT-18)
+				amod(Robot/NNP-23,Special/JJ-19)
+				nn(Robot/NNP-23,Purpose/NN-20)
+				amod(Robot/NNP-23,Dexterous/JJ-21)
+				nn(Robot/NNP-23,Manipulator/NNP-22)
+				prep_for(lead/NN-16,Robot/NNP-23)
+				det(Transporter/NNP-27,the/DT-25)
+				nn(Transporter/NNP-27,Mobile/NNP-26)
+				prep_as(assigned/VBN-8,Transporter/NNP-27)
+				conj_and(lead/NN-16,Transporter/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 2002 to 2005 he was assigned to the EVA Branch and supported the research effort focused on developing materials, tools and techniques to perform on-orbit shuttle repair.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(2005/CD-4,2002/CD-2)
+				dep(2005/CD-4,to/TO-3)
+				prep_from(assigned/VBN-7,2005/CD-4)
+				nsubjpass(assigned/VBN-7,he/PRP-5)
+				nsubjpass(supported/VBD-13,he/PRP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				det(Branch/NNP-11,the/DT-9)
+				nn(Branch/NNP-11,EVA/NNP-10)
+				prep_to(assigned/VBN-7,Branch/NNP-11)
+				conj_and(assigned/VBN-7,supported/VBD-13)
+				det(effort/NN-16,the/DT-14)
+				nn(effort/NN-16,research/NN-15)
+				nsubj(focused/VBD-17,effort/NN-16)
+				ccomp(supported/VBD-13,focused/VBD-17)
+				prepc_on(focused/VBD-17,developing/VBG-19)
+				dobj(developing/VBG-19,materials/NNS-20)
+				dobj(developing/VBG-19,tools/NNS-22)
+				conj_and(materials/NNS-20,tools/NNS-22)
+				dobj(developing/VBG-19,techniques/NNS-24)
+				conj_and(materials/NNS-20,techniques/NNS-24)
+				aux(perform/VB-26,to/TO-25)
+				xcomp(developing/VBG-19,perform/VB-26)
+				amod(repair/NN-29,on-orbit/JJ-27)
+				nn(repair/NN-29,shuttle/NN-28)
+				dobj(perform/VB-26,repair/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 2002, Olivas served as an aquanaut during the NEEMO 3 mission aboard the Aquarius underwater laboratory.	</value>
+
+		<annotated-sentence>	In [[July 2002|July_2002]], Olivas served as [[an aquanaut|Aquanaut]] during the [[NEEMO|NEEMO]] 3 mission aboard [[the Aquarius underwater laboratory|Aquarius_(laboratory)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In July 2002, Olivas served as an aquanaut during the [[NEEMO|NEEMO]] 3 mission aboard [[the Aquarius underwater laboratory|Aquarius_(laboratory)]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-6,July/NNP-2)
+				num(July/NNP-2,2002/CD-3)
+				nsubj(served/VBD-6,Olivas/NNP-5)
+				det(aquanaut/NN-9,an/DT-8)
+				prep_as(served/VBD-6,aquanaut/NN-9)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,NEEMO/NN-12)
+				num(mission/NN-14,3/CD-13)
+				prep_during(served/VBD-6,mission/NN-14)
+				det(laboratory/NN-19,the/DT-16)
+				nn(laboratory/NN-19,Aquarius/NNP-17)
+				amod(laboratory/NN-19,underwater/JJ-18)
+				prep_aboard(mission/NN-14,laboratory/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an aquanaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aquanaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NEEMO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NEEMO</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Aquarius underwater laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aquarius_(laboratory)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/NEEMO http://dbpedia.org/property/data http://dbpedia.org/resource/Aquarius_(laboratory)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 2005, he was a crew member on the NEEMO 8 mission.	</value>
+
+		<annotated-sentence>	In [[April 2005|April_2005]], he was [[a crew member|Crewman]] on the [[NEEMO|NEEMO]] 8 mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In April 2005, he was a crew member on the NEEMO 8 mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(member/NN-9,April/NNP-2)
+				num(April/NNP-2,2005/CD-3)
+				nsubj(member/NN-9,he/PRP-5)
+				cop(member/NN-9,was/VBD-6)
+				det(member/NN-9,a/DT-7)
+				nn(member/NN-9,crew/NN-8)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,NEEMO/NN-12)
+				num(mission/NN-14,8/CD-13)
+				prep_on(member/NN-9,mission/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>April 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NEEMO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NEEMO</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2006, Olivas served as lead of the Hardware Integration Section of the Space Station Branch, responsible for ensuring proper configuration and integration of future station modules and visiting vehicles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-5,2006/CD-2)
+				nsubj(served/VBD-5,Olivas/NNP-4)
+				prep_as(served/VBD-5,lead/NN-7)
+				det(Section/NN-12,the/DT-9)
+				nn(Section/NN-12,Hardware/NNP-10)
+				nn(Section/NN-12,Integration/NN-11)
+				prep_of(lead/NN-7,Section/NN-12)
+				det(Space/NN-15,the/DT-14)
+				prep_of(Section/NN-12,Space/NN-15)
+				nn(Branch/NNP-17,Station/NNP-16)
+				dobj(served/VBD-5,Branch/NNP-17)
+				amod(Branch/NNP-17,responsible/JJ-19)
+				prepc_for(responsible/JJ-19,ensuring/VBG-21)
+				amod(configuration/NN-23,proper/JJ-22)
+				dobj(ensuring/VBG-21,configuration/NN-23)
+				dobj(ensuring/VBG-21,integration/NN-25)
+				conj_and(configuration/NN-23,integration/NN-25)
+				amod(modules/NNS-29,future/JJ-27)
+				nn(modules/NNS-29,station/NN-28)
+				prep_of(configuration/NN-23,modules/NNS-29)
+				prepc_for(responsible/JJ-19,visiting/VBG-31)
+				conj_and(ensuring/VBG-21,visiting/VBG-31)
+				dobj(visiting/VBG-31,vehicles/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-117 Atlantis (June 8–22, 2007) was the 118th Shuttle mission and the 21st mission to visit the International Space Station, delivering the second starboard truss segment, the third set of U.S. solar arrays, batteries and associated equipment.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-117/NN-1)
+				nsubj(mission/NN-15,Atlantis/NNP-2)
+				nsubj(delivering/VBG-27,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,June/NNP-4)
+				num(June/NNP-4,8/CD-5)
+				dep(June/NNP-4,22/CD-7)
+				amod(22/CD-7,2007/CD-9)
+				cop(mission/NN-15,was/VBD-11)
+				det(mission/NN-15,the/DT-12)
+				amod(mission/NN-15,118th/JJ-13)
+				nn(mission/NN-15,Shuttle/NNP-14)
+				det(mission/NN-19,the/DT-17)
+				amod(mission/NN-19,21st/JJ-18)
+				conj_and(mission/NN-15,mission/NN-19)
+				aux(visit/VB-21,to/TO-20)
+				infmod(mission/NN-19,visit/VB-21)
+				det(Station/NNP-25,the/DT-22)
+				nn(Station/NNP-25,International/NNP-23)
+				nn(Station/NNP-25,Space/NNP-24)
+				dobj(visit/VB-21,Station/NNP-25)
+				conj_and(mission/NN-15,delivering/VBG-27)
+				det(segment/NN-32,the/DT-28)
+				amod(segment/NN-32,second/JJ-29)
+				amod(segment/NN-32,starboard/JJ-30)
+				nn(segment/NN-32,truss/NN-31)
+				dobj(delivering/VBG-27,segment/NN-32)
+				det(set/NN-36,the/DT-34)
+				amod(set/NN-36,third/JJ-35)
+				dobj(delivering/VBG-27,set/NN-36)
+				conj_and(segment/NN-32,set/NN-36)
+				nn(arrays/NNS-40,U.S./NNP-38)
+				amod(arrays/NNS-40,solar/JJ-39)
+				prep_of(set/NN-36,arrays/NNS-40)
+				dobj(delivering/VBG-27,batteries/NNS-42)
+				conj_and(segment/NN-32,batteries/NNS-42)
+				amod(equipment/NN-45,associated/JJ-44)
+				dobj(delivering/VBG-27,equipment/NN-45)
+				conj_and(segment/NN-32,equipment/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission also entailed the first ever on-orbit EVA repair to the Space Shuttle, Atlantis.	</value>
+
+		<annotated-sentence>	The mission also entailed the first ever on-orbit EVA repair to [[the Space|Space]] [[Shuttle , Atlantis|Space_Shuttle_Atlantis]]	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission also entailed the first ever on-orbit EVA repair to the Space Shuttle, Atlantis.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(entailed/VBD-4,mission/NN-2)
+				advmod(entailed/VBD-4,also/RB-3)
+				det(repair/NN-10,the/DT-5)
+				amod(repair/NN-10,first/JJ-6)
+				advmod(on-orbit/JJ-8,ever/RB-7)
+				amod(repair/NN-10,on-orbit/JJ-8)
+				nn(repair/NN-10,EVA/NNP-9)
+				dobj(entailed/VBD-4,repair/NN-10)
+				det(Space/NN-13,the/DT-12)
+				prep_to(entailed/VBD-4,Space/NN-13)
+				nn(Atlantis/NNP-16,Shuttle/NNP-14)
+				dep(Space/NN-13,Atlantis/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle , Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During two spacewalks, Olivas accumulated 14 hours and 13 mins of EVA experience.	</value>
+
+		<annotated-sentence>	During [[two spacewalks|Spacewalk_(software)]], Olivas accumulated 14 hours and 13 mins of EVA [[experience|Experience]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During two spacewalks, Olivas accumulated 14 hours and 13 mins of EVA experience.	</pattern_crowdsource>
+
+
+		<tree>
+				num(spacewalks/NNS-3,two/CD-2)
+				prep_during(accumulated/VBD-6,spacewalks/NNS-3)
+				nsubj(accumulated/VBD-6,Olivas/NNP-5)
+				num(hours/NNS-8,14/CD-7)
+				dobj(accumulated/VBD-6,hours/NNS-8)
+				num(mins/NNS-11,13/CD-10)
+				dobj(accumulated/VBD-6,mins/NNS-11)
+				conj_and(hours/NNS-8,mins/NNS-11)
+				nn(experience/NN-14,EVA/NNP-13)
+				prep_of(mins/NNS-11,experience/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission also delivered and returned with an ISS expedition crew member.	</value>
+
+		<annotated-sentence>	The mission also delivered and returned with an [[ISS|S]] [[expedition|Exploration]] [[crew member|Crewman]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission also delivered and returned with an ISS expedition crew member.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(delivered/VBN-4,mission/NN-2)
+				nsubj(returned/VBN-6,mission/NN-2)
+				advmod(delivered/VBN-4,also/RB-3)
+				conj_and(delivered/VBN-4,returned/VBN-6)
+				det(member/NN-12,an/DT-8)
+				nn(member/NN-12,ISS/NN-9)
+				nn(member/NN-12,expedition/NN-10)
+				nn(member/NN-12,crew/NN-11)
+				prep_with(delivered/VBN-4,member/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-117 returned to land at Edwards Air Force Base, California, having traveled more than 5.8 million miles in 13 days, 20 hours and 20 minutes.	</value>
+
+		<annotated-sentence>	[[STS-117|STS-117]] returned to land at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], having traveled more than 5.8 [[million|Million_(band)]] [[miles|Mile]] in 13 days, 20 [[hours|Hour]] and 20 minutes.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-117|STS-117]] returned to land at Edwards Air Force Base, California, having traveled more than 5.8 million miles in 13 days, 20 hours and 20 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,STS-117/NN-1)
+				aux(land/VB-4,to/TO-3)
+				xcomp(returned/VBD-2,land/VB-4)
+				nn(Base/NNP-9,Edwards/NNP-6)
+				nn(Base/NNP-9,Air/NNP-7)
+				nn(Base/NNP-9,Force/NNP-8)
+				prep_at(land/VB-4,Base/NNP-9)
+				appos(Base/NNP-9,California/NNP-11)
+				aux(traveled/VBN-14,having/VBG-13)
+				xcomp(returned/VBD-2,traveled/VBN-14)
+				mwe(than/IN-16,more/JJR-15)
+				quantmod(million/CD-18,than/IN-16)
+				number(million/CD-18,5.8/CD-17)
+				num(miles/NNS-19,million/CD-18)
+				dobj(traveled/VBN-14,miles/NNS-19)
+				num(days/NNS-22,13/CD-21)
+				prep_in(traveled/VBN-14,days/NNS-22)
+				num(hours/NNS-25,20/CD-24)
+				prep_in(traveled/VBN-14,hours/NNS-25)
+				conj_and(days/NNS-22,hours/NNS-25)
+				num(minutes/NNS-28,20/CD-27)
+				prep_in(traveled/VBN-14,minutes/NNS-28)
+				conj_and(days/NNS-22,minutes/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-117</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-117</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-117
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-117 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Olivas served as a mission specialist on space shuttle Discovery on the STS-128 mission, which launched on August 28, 2009.	</value>
+
+		<annotated-sentence>	[[Olivas|John_D._Olivas]] served as [[a mission specialist|Mission_Specialist]] on [[space shuttle Discovery|Space_Shuttle_Discovery]] on the [[STS-128|STS-128]] [[mission|Mission_Specialist]], which launched on August 28, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Olivas|John_D._Olivas]] served as a mission specialist on space shuttle Discovery on the [[STS-128|STS-128]] mission, which launched on August 28, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Olivas/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(served/VBD-2,specialist/NN-6)
+				nn(Discovery/NNP-10,space/NN-8)
+				nn(Discovery/NNP-10,shuttle/NN-9)
+				prep_on(served/VBD-2,Discovery/NNP-10)
+				det(mission/NN-14,the/DT-12)
+				nn(mission/NN-14,STS-128/NN-13)
+				prep_on(served/VBD-2,mission/NN-14)
+				nsubj(launched/VBD-17,which/WDT-16)
+				rcmod(mission/NN-14,launched/VBD-17)
+				prep_on(launched/VBD-17,August/NNP-19)
+				num(August/NNP-19,28/CD-20)
+				num(August/NNP-19,2009/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Olivas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_D._Olivas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-128</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_D._Olivas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_D._Olivas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Discovery carried the Multi-Purpose Logistics Module filled with science and storage racks to the ISS.	</value>
+
+		<annotated-sentence>	Discovery carried [[the Multi-Purpose Logistics Module|Multi-Purpose_Logistics_Module]] filled with [[science and storage|Data_storage_device]] racks to [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Discovery carried the Multi-Purpose Logistics Module filled with science and storage racks to the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(carried/VBD-2,Discovery/NNP-1)
+				det(Module/NNP-6,the/DT-3)
+				nn(Module/NNP-6,Multi-Purpose/NNP-4)
+				nn(Module/NNP-6,Logistics/NNP-5)
+				dobj(carried/VBD-2,Module/NNP-6)
+				partmod(Module/NNP-6,filled/VBN-7)
+				nn(racks/NNS-12,science/NN-9)
+				conj_and(science/NN-9,storage/NN-11)
+				nn(racks/NNS-12,storage/NN-11)
+				prep_with(filled/VBN-7,racks/NNS-12)
+				det(ISS/NN-15,the/DT-14)
+				prep_to(filled/VBN-7,ISS/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Multi-Purpose Logistics Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multi-Purpose_Logistics_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science and storage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Data_storage_device</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission included three spacewalks to remove and replace a materials processing experiment outside ESA’s Columbus module and return an empty ammonia tank assembly.	</value>
+
+		<annotated-sentence>	[[The mission|Mission_District,_San_Francisco]] included three [[spacewalks|Spacewalk_(software)]] to remove and replace [[a materials|Material]] processing [[experiment|Experiment]] outside ESA’s Columbus module and return an empty [[ammonia|Ammonia]] [[tank|Tank]] [[assembly|California_State_Assembly]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission included three spacewalks to remove and replace a materials processing experiment outside ESA’s Columbus module and return an empty ammonia tank assembly.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(included/VBD-3,mission/NN-2)
+				num(spacewalks/NNS-5,three/CD-4)
+				dobj(included/VBD-3,spacewalks/NNS-5)
+				aux(remove/VB-7,to/TO-6)
+				xcomp(included/VBD-3,remove/VB-7)
+				xcomp(included/VBD-3,replace/VB-9)
+				conj_and(remove/VB-7,replace/VB-9)
+				det(materials/NNS-11,a/DT-10)
+				dobj(remove/VB-7,materials/NNS-11)
+				xcomp(remove/VB-7,processing/VBG-12)
+				dobj(processing/VBG-12,experiment/NN-13)
+				poss(module/NN-18,ESA/NNP-15)
+				nn(module/NN-18,Columbus/NNP-17)
+				prep_outside(processing/VBG-12,module/NN-18)
+				xcomp(included/VBD-3,return/VB-20)
+				conj_and(remove/VB-7,return/VB-20)
+				det(assembly/NN-25,an/DT-21)
+				amod(assembly/NN-25,empty/JJ-22)
+				nn(assembly/NN-25,ammonia/NN-23)
+				nn(assembly/NN-25,tank/NN-24)
+				dobj(return/VB-20,assembly/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_District,_San_Francisco</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a materials</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ammonia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ammonia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tank</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>assembly</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California_State_Assembly</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

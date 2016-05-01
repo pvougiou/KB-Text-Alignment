@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>To perform the procedure:  - Your doctor inserted a catheter (flexible tube) into your blocked artery through a cut in your groin.</value>
+		<pattern_crowdsource> To perform the procedure:  - Your doctor inserted a catheter (flexible tube) into your blocked artery through a [[cut|C0000925]] in your [[groin|C0018246]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flexible</surface-form>
+				<RDF-ID>C0443220</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tube</surface-form>
+				<RDF-ID>C1561954</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blocked artery</surface-form>
+				<RDF-ID>C0264995</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018246 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The cut in your groin may be sore for several days.</value>
+		<pattern_crowdsource> The [[cut|C0000925]] in your [[groin|C0018246]] may be sore for several days.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>several</surface-form>
+				<RDF-ID>C0443302</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018246 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>To lower your chances of this happening:  - Eat a heart-healthy diet, exercise, stop smoking (if you smoke), and reduce your stress level.</value>
+		<pattern_crowdsource> To lower your chances of this happening:  - Eat a heart-healthy diet, [[exercise|C0015259]], stop smoking (if you smoke), and reduce your [[stress|C0038435]] level.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>chances</surface-form>
+				<RDF-ID>C0237506</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>healthy diet</surface-form>
+				<RDF-ID>C0452415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stress</surface-form>
+				<RDF-ID>C0038435</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015259 PREVENTS C0038435</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- If you are taking medicines for blood pressure or diabetes, take them the way your doctor has asked you to.</value>
+		<pattern_crowdsource> - If you are taking [[medicines|C0013227]] for [[blood pressure|C1272641]] or [[diabetes|C0011847]], take them the way your doctor has asked you to.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C1272641</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may recommend that you take aspirin or another medicine, called clopidogrel (Plavix), when you go home.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may recommend that you take [[aspirin|C0004057]] or another [[medicine|C0013227]], called [[clopidogrel|C0070166]] ([[Plavix|C0633084]]), when you go home.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clopidogrel</surface-form>
+				<RDF-ID>C0070166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Plavix</surface-form>
+				<RDF-ID>C0633084</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0633084 ISA C0070166</triple>
+			<triple>C0004057 ADMINISTERED_TO C0031831</triple>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines keep blood clots from forming in your arteries and in the stent.</value>
+		<pattern_crowdsource> These medicines keep [[blood clots|C0302148]] from forming in your [[arteries|C0003842]] and in the stent.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>forming</surface-form>
+				<RDF-ID>C0205431</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stent</surface-form>
+				<RDF-ID>C0038257</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003842 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

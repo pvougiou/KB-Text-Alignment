@@ -1,0 +1,1555 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Richard Earl "Dick" Lawyer (November 8, 1932 – November 12, 2005) was a USAF astronaut, test pilot, and combat veteran.	</value>
+
+		<annotated-sentence>	[[Richard|Richard_E._Lawyer]] [[Earl|Earl]] "[[Dick|Richard_E._Lawyer]]" [[Lawyer|Lawyer]] ([[November|November]] 8, 1932 – [[November|November]] 12, 2005) was a USAF [[astronaut|Astronaut]], [[test pilot|Test_pilot]], and combat [[veteran|Veteran]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Richard|Richard_E._Lawyer]] Earl "[[Dick|Richard_E._Lawyer]]" Lawyer (November 8, 1932 – November 12, 2005) was a USAF [[astronaut|Astronaut]], [[test pilot|Test_pilot]], and combat veteran.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Lawyer/NNP-6,Richard/NNP-1)
+				nn(Lawyer/NNP-6,Earl/NNP-2)
+				nn(Lawyer/NNP-6,Dick/NNP-4)
+				nsubj(astronaut/NN-21,Lawyer/NNP-6)
+				dep(Lawyer/NNP-6,November/NNP-8)
+				num(November/NNP-8,8/CD-9)
+				num(November/NNP-8,1932/CD-11)
+				dep(November/NNP-8,November/NNP-13)
+				num(November/NNP-13,12/CD-14)
+				num(November/NNP-13,2005/CD-16)
+				cop(astronaut/NN-21,was/VBD-18)
+				det(astronaut/NN-21,a/DT-19)
+				nn(astronaut/NN-21,USAF/NN-20)
+				nn(pilot/NN-24,test/NN-23)
+				conj_and(astronaut/NN-21,pilot/NN-24)
+				nn(veteran/NN-28,combat/NN-27)
+				conj_and(astronaut/NN-21,veteran/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Richard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Richard_E._Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earl</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earl</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Richard_E._Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Richard_E._Lawyer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Richard_E._Lawyer http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Although he trained for the USAF Manned Orbital Laboratory (MOL), the program was cancelled before any of the MOL crews reached space.	</value>
+
+		<annotated-sentence>	Although he trained for the USAF [[Manned Orbital Laboratory|Manned_Orbital_Laboratory]] (MOL), the program was cancelled before any of the MOL crews reached [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Although he trained for the USAF Manned Orbital Laboratory (MOL), the program was cancelled before any of the MOL crews reached space.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(trained/VBD-3,Although/IN-1)
+				nsubj(trained/VBD-3,he/PRP-2)
+				advcl(cancelled/VBN-17,trained/VBD-3)
+				det(Laboratory/NNP-9,the/DT-5)
+				nn(Laboratory/NNP-9,USAF/NNP-6)
+				nn(Laboratory/NNP-9,Manned/NNP-7)
+				nn(Laboratory/NNP-9,Orbital/NNP-8)
+				prep_for(trained/VBD-3,Laboratory/NNP-9)
+				appos(Laboratory/NNP-9,MOL/NNP-11)
+				det(program/NN-15,the/DT-14)
+				nsubjpass(cancelled/VBN-17,program/NN-15)
+				auxpass(cancelled/VBN-17,was/VBD-16)
+				mark(reached/VBD-24,before/IN-18)
+				nsubj(reached/VBD-24,any/DT-19)
+				det(crews/NNS-23,the/DT-21)
+				nn(crews/NNS-23,MOL/NN-22)
+				prep_of(any/DT-19,crews/NNS-23)
+				advcl(cancelled/VBN-17,reached/VBD-24)
+				dobj(reached/VBD-24,space/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Manned Orbital Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Orbital_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lawyer was born in Los Angeles, California.	</value>
+
+		<annotated-sentence>	[[Lawyer|Lawyer]] was born in [[Los Angeles|Los_Angeles]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lawyer was born in [[Los Angeles|Los_Angeles]], [[California|California]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Lawyer/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Angeles/NNP-6,Los/NNP-5)
+				prep_in(born/VBN-3,Angeles/NNP-6)
+				appos(Angeles/NNP-6,California/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Los Angeles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Los_Angeles</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Los_Angeles http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/California http://dbpedia.org/ontology/largestCity http://dbpedia.org/resource/Los_Angeles
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended the University of California, Berkeley and received a bachelor of science degree in aeronautical engineering in 1955.	</value>
+
+		<annotated-sentence>	He attended [[the University|University]] of California, Berkeley and received [[a bachelor of science degree|Bachelor_of_Science]] in [[aeronautical engineering|Aerospace_engineering]] in [[1955|1955]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended the University of California, Berkeley and received a bachelor of science degree in aeronautical engineering in 1955.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				nsubj(received/VBD-10,He/PRP-1)
+				det(University/NNP-4,the/DT-3)
+				dobj(attended/VBD-2,University/NNP-4)
+				nn(Berkeley/NNP-8,California/NNP-6)
+				prep_of(University/NNP-4,Berkeley/NNP-8)
+				conj_and(attended/VBD-2,received/VBD-10)
+				det(bachelor/NN-12,a/DT-11)
+				dobj(received/VBD-10,bachelor/NN-12)
+				nn(degree/NN-15,science/NN-14)
+				prep_of(bachelor/NN-12,degree/NN-15)
+				amod(engineering/NN-18,aeronautical/JJ-17)
+				prep_in(received/VBD-10,engineering/NN-18)
+				prep_in(engineering/NN-18,1955/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a bachelor of science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aeronautical engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1955</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1955</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from college, Lawyer joined the U.S. Air Force and trained as a fighter pilot.	</value>
+
+		<annotated-sentence>	After graduating from [[college|College]], [[Lawyer|Lawyer]] joined the U.S. Air Force and trained as [[a fighter pilot|Fighter_pilot]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating from college, Lawyer joined the U.S. Air Force and trained as a fighter pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(joined/VBD-7,graduating/VBG-2)
+				prep_from(graduating/VBG-2,college/NN-4)
+				nsubj(joined/VBD-7,Lawyer/NNP-6)
+				nsubj(trained/VBN-13,Lawyer/NNP-6)
+				det(Force/NNP-11,the/DT-8)
+				nn(Force/NNP-11,U.S./NNP-9)
+				nn(Force/NNP-11,Air/NNP-10)
+				dobj(joined/VBD-7,Force/NNP-11)
+				conj_and(joined/VBD-7,trained/VBN-13)
+				det(pilot/NN-17,a/DT-15)
+				nn(pilot/NN-17,fighter/NN-16)
+				prep_as(trained/VBN-13,pilot/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>college</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/College</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a distinguished graduate of the Air Force Fighter Weapons School and served two combat tours during the Vietnam War.	</value>
+
+		<annotated-sentence>	He was a distinguished graduate of the Air Force Fighter Weapons School and served two combat tours during [[the Vietnam War|Vietnam_War]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a distinguished graduate of the Air Force Fighter Weapons School and served two combat tours during the Vietnam War.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,He/PRP-1)
+				nsubj(served/VBD-14,He/PRP-1)
+				cop(graduate/NN-5,was/VBD-2)
+				det(graduate/NN-5,a/DT-3)
+				amod(graduate/NN-5,distinguished/JJ-4)
+				det(School/NNP-12,the/DT-7)
+				nn(School/NNP-12,Air/NNP-8)
+				nn(School/NNP-12,Force/NNP-9)
+				nn(School/NNP-12,Fighter/NNP-10)
+				nn(School/NNP-12,Weapons/NNP-11)
+				prep_of(graduate/NN-5,School/NNP-12)
+				conj_and(graduate/NN-5,served/VBD-14)
+				num(tours/NNS-17,two/CD-15)
+				nn(tours/NNS-17,combat/NN-16)
+				dobj(served/VBD-14,tours/NNS-17)
+				det(War/NNP-21,the/DT-19)
+				nn(War/NNP-21,Vietnam/NNP-20)
+				prep_during(served/VBD-14,War/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Vietnam War</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vietnam_War</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On his first tour early in the conflict, Lawyer served as a forward air controller directing air strikes against enemy troops.	</value>
+
+		<annotated-sentence>	On his first tour early in the conflict, [[Lawyer|Lawyer]] served as [[a forward air controller|Forward_air_control]] directing [[air strikes|Airstrike]] against enemy [[troops|Troops_(film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On his first tour early in the conflict, Lawyer served as a forward air controller directing air strikes against enemy troops.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(tour/NN-4,his/PRP$-2)
+				amod(tour/NN-4,first/JJ-3)
+				prep_on(served/VBD-11,tour/NN-4)
+				advmod(tour/NN-4,early/RB-5)
+				det(conflict/NN-8,the/DT-7)
+				prep_in(early/RB-5,conflict/NN-8)
+				nsubj(served/VBD-11,Lawyer/NNP-10)
+				det(controller/NN-16,a/DT-13)
+				advmod(controller/NN-16,forward/RB-14)
+				nn(controller/NN-16,air/NN-15)
+				prep_as(served/VBD-11,controller/NN-16)
+				xcomp(served/VBD-11,directing/VBG-17)
+				nn(strikes/NNS-19,air/NN-18)
+				dobj(directing/VBG-17,strikes/NNS-19)
+				nn(troops/NNS-22,enemy/NN-21)
+				prep_against(directing/VBG-17,troops/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a forward air controller</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Forward_air_control</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>air strikes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airstrike</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>troops</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Troops_(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served his second tour later in the war as an F-4 pilot and fought in Operation Linebacker.	</value>
+
+		<annotated-sentence>	He served his second tour later in the war as an F-4 pilot and fought in [[Operation Linebacker|Operation_Linebacker]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served his second tour later in the war as an F-4 pilot and fought in Operation Linebacker.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nsubj(fought/VBN-15,He/PRP-1)
+				poss(tour/NN-5,his/PRP$-3)
+				amod(tour/NN-5,second/JJ-4)
+				dobj(served/VBD-2,tour/NN-5)
+				advmod(served/VBD-2,later/RB-6)
+				det(war/NN-9,the/DT-8)
+				prep_in(served/VBD-2,war/NN-9)
+				det(pilot/NN-13,an/DT-11)
+				nn(pilot/NN-13,F-4/NN-12)
+				prep_as(war/NN-9,pilot/NN-13)
+				conj_and(served/VBD-2,fought/VBN-15)
+				nn(Linebacker/NNP-18,Operation/NNP-17)
+				prep_in(fought/VBN-15,Linebacker/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Operation Linebacker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Linebacker</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lawyer became involved in flight test in 1958 when his squadron was selected to test the F-105B.	</value>
+
+		<annotated-sentence>	[[Lawyer|Lawyer]] became involved in [[flight test|Flight_test]] in [[1958|1958]] when his squadron was selected to test [[the F-105B|Republic_Aviation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lawyer became involved in flight test in 1958 when his squadron was selected to test the F-105B.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(involved/VBN-3,Lawyer/NNP-1)
+				auxpass(involved/VBN-3,became/VBD-2)
+				nn(test/NN-6,flight/NN-5)
+				prep_in(involved/VBN-3,test/NN-6)
+				prep_in(test/NN-6,1958/CD-8)
+				advmod(selected/VBN-13,when/WRB-9)
+				poss(squadron/NN-11,his/PRP$-10)
+				nsubjpass(selected/VBN-13,squadron/NN-11)
+				auxpass(selected/VBN-13,was/VBD-12)
+				advcl(involved/VBN-3,selected/VBN-13)
+				aux(test/VB-15,to/TO-14)
+				xcomp(selected/VBN-13,test/VB-15)
+				det(F-105B/NN-17,the/DT-16)
+				dobj(test/VB-15,F-105B/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1958</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1958</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-105B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republic_Aviation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended the Air Force Aerospace Research Pilot School (now the USAF Test Pilot School) at Edwards AFB and graduated with class 63A receiving the school's A.B. Honts Award as the outstanding member of his class for academic achievement and flying excellence.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				nsubj(graduated/VBN-22,He/PRP-1)
+				det(School/NNP-9,the/DT-3)
+				nn(School/NNP-9,Air/NNP-4)
+				nn(School/NNP-9,Force/NNP-5)
+				nn(School/NNP-9,Aerospace/NNP-6)
+				nn(School/NNP-9,Research/NNP-7)
+				nn(School/NNP-9,Pilot/NN-8)
+				dobj(attended/VBD-2,School/NNP-9)
+				dep(School/NNP-16,now/RB-11)
+				det(School/NNP-16,the/DT-12)
+				nn(School/NNP-16,USAF/NNP-13)
+				nn(School/NNP-16,Test/NNP-14)
+				nn(School/NNP-16,Pilot/NN-15)
+				appos(School/NNP-9,School/NNP-16)
+				nn(AFB/NNP-20,Edwards/NNP-19)
+				prep_at(attended/VBD-2,AFB/NNP-20)
+				conj_and(attended/VBD-2,graduated/VBN-22)
+				prep_with(graduated/VBN-22,class/NN-24)
+				num(class/NN-24,63A/CD-25)
+				ccomp(graduated/VBN-22,receiving/VBG-26)
+				det(school/NN-28,the/DT-27)
+				poss(Award/NN-32,school/NN-28)
+				nn(Award/NN-32,A.B./NNP-30)
+				nn(Award/NN-32,Honts/NNP-31)
+				dobj(receiving/VBG-26,Award/NN-32)
+				det(member/NN-36,the/DT-34)
+				amod(member/NN-36,outstanding/JJ-35)
+				prep_as(Award/NN-32,member/NN-36)
+				poss(class/NN-39,his/PRP$-38)
+				prep_of(member/NN-36,class/NN-39)
+				amod(achievement/NN-42,academic/JJ-41)
+				prep_for(class/NN-39,achievement/NN-42)
+				ccomp(graduated/VBN-22,flying/VBG-44)
+				conj_and(receiving/VBG-26,flying/VBG-44)
+				dobj(flying/VBG-44,excellence/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1965, Lawyer was selected as one of the first astronauts to the Air Force's classified Manned Orbital Laboratory.	</value>
+
+		<annotated-sentence>	In [[1965|1965_(album)]], [[Lawyer|Lawyer]] was selected as one of [[the first astronauts|Astronaut]] to the [[Air Force|Air_force]]'s classified Manned Orbital [[Laboratory|Laboratory]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1965, Lawyer was selected as one of [[the first astronauts|Astronaut]] to the Air Force's classified Manned Orbital Laboratory.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1965/CD-2)
+				nsubjpass(selected/VBN-6,Lawyer/NNP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				prep_as(selected/VBN-6,one/CD-8)
+				det(astronauts/NNS-12,the/DT-10)
+				amod(astronauts/NNS-12,first/JJ-11)
+				prep_of(one/CD-8,astronauts/NNS-12)
+				det(Force/NNP-16,the/DT-14)
+				nn(Force/NNP-16,Air/NNP-15)
+				poss(Laboratory/NNP-21,Force/NNP-16)
+				amod(Laboratory/NNP-21,classified/VBN-18)
+				nn(Laboratory/NNP-21,Manned/NNP-19)
+				nn(Laboratory/NNP-21,Orbital/NNP-20)
+				prep_to(selected/VBN-6,Laboratory/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1965</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1965_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Richard_E._Lawyer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The MOL program, canceled in 1969 before sending any astronauts into space, was to man a military space station with Air Force astronauts using a modified Gemini spacecraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(program/NN-3,The/DT-1)
+				nn(program/NN-3,MOL/NNP-2)
+				nsubj(was/VBD-15,program/NN-3)
+				partmod(program/NN-3,canceled/VBN-5)
+				prep_in(canceled/VBN-5,1969/CD-7)
+				prepc_before(canceled/VBN-5,sending/VBG-9)
+				det(astronauts/NNS-11,any/DT-10)
+				dobj(sending/VBG-9,astronauts/NNS-11)
+				prep_into(sending/VBG-9,space/NN-13)
+				aux(man/VB-17,to/TO-16)
+				xcomp(was/VBD-15,man/VB-17)
+				det(station/NN-21,a/DT-18)
+				amod(station/NN-21,military/JJ-19)
+				nn(station/NN-21,space/NN-20)
+				dobj(man/VB-17,station/NN-21)
+				nn(astronauts/NNS-25,Air/NNP-23)
+				nn(astronauts/NNS-25,Force/NNP-24)
+				prep_with(man/VB-17,astronauts/NNS-25)
+				det(spacecraft/NN-30,a/DT-27)
+				amod(spacecraft/NN-30,modified/VBN-28)
+				nn(spacecraft/NN-30,Gemini/NNP-29)
+				prep_using(astronauts/NNS-25,spacecraft/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Unable to transfer to NASA due to age restrictions, Lawyer did not achieve his goal of space flight, but continued flying for the Air Force.	</value>
+
+		<annotated-sentence>	Unable to transfer to [[NASA|NASA]] due to age restrictions, [[Lawyer|Lawyer]] did not achieve [[his goal|Goal]] of space flight, but continued flying for [[the Air Force|Air_force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Unable to transfer to NASA due to age restrictions, Lawyer did not achieve his goal of space flight, but continued flying for the Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				ccomp(achieve/VB-14,Unable/JJ-1)
+				aux(transfer/VB-3,to/TO-2)
+				xcomp(Unable/JJ-1,transfer/VB-3)
+				prep_to(transfer/VB-3,NASA/NNP-5)
+				nn(restrictions/NNS-9,age/NN-8)
+				prep_due_to(NASA/NNP-5,restrictions/NNS-9)
+				nsubj(achieve/VB-14,Lawyer/NNP-11)
+				nsubj(continued/VBD-22,Lawyer/NNP-11)
+				aux(achieve/VB-14,did/VBD-12)
+				neg(achieve/VB-14,not/RB-13)
+				poss(goal/NN-16,his/PRP$-15)
+				dobj(achieve/VB-14,goal/NN-16)
+				nn(flight/NN-19,space/NN-18)
+				prep_of(goal/NN-16,flight/NN-19)
+				conj_but(achieve/VB-14,continued/VBD-22)
+				xcomp(continued/VBD-22,flying/VBG-23)
+				det(Force/NNP-27,the/DT-25)
+				nn(Force/NNP-27,Air/NNP-26)
+				prep_for(flying/VBG-23,Force/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his goal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Goal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from USAF service in 1982 as a Colonel.	</value>
+
+		<annotated-sentence>	He retired from USAF service in [[1982|1982]] as [[a Colonel|Colonel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from USAF service in 1982 as [[a Colonel|Colonel]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				nn(service/NN-5,USAF/NNP-4)
+				prep_from(retired/VBD-2,service/NN-5)
+				prep_in(retired/VBD-2,1982/CD-7)
+				det(Colonel/NNP-10,a/DT-9)
+				prep_as(retired/VBD-2,Colonel/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Richard_E._Lawyer http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2005, security officers examining a long-unused room at the Cape Canaveral Air Force Station Launch Complex 5/6 museum discovered two spacesuits.	</value>
+
+		<annotated-sentence>	In [[June 2005|June_2005]], [[security officers|Security_guard]] examining a long-unused [[room|Room]] at [[the Cape Canaveral Air Force Station|Cape_Canaveral_Air_Force_Station]] Launch Complex 5/6 [[museum|Museum]] discovered [[two spacesuits|Space_suit]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In June 2005, security officers examining a long-unused room at the Cape Canaveral Air Force Station Launch Complex 5/6 museum discovered two spacesuits.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(discovered/VBD-22,June/NNP-2)
+				num(June/NNP-2,2005/CD-3)
+				nn(officers/NNS-6,security/NN-5)
+				nsubj(discovered/VBD-22,officers/NNS-6)
+				partmod(officers/NNS-6,examining/VBG-7)
+				det(room/NN-10,a/DT-8)
+				amod(room/NN-10,long-unused/JJ-9)
+				nsubj(Launch/VB-18,room/NN-10)
+				det(Station/NNP-17,the/DT-12)
+				nn(Station/NNP-17,Cape/NNP-13)
+				nn(Station/NNP-17,Canaveral/NNP-14)
+				nn(Station/NNP-17,Air/NNP-15)
+				nn(Station/NNP-17,Force/NNP-16)
+				prep_at(room/NN-10,Station/NNP-17)
+				ccomp(examining/VBG-7,Launch/VB-18)
+				nn(museum/NN-21,Complex/NN-19)
+				num(museum/NN-21,5/6/CD-20)
+				dobj(Launch/VB-18,museum/NN-21)
+				num(spacesuits/NNS-24,two/CD-23)
+				dobj(discovered/VBD-22,spacesuits/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>security officers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Security_guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>room</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Room</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Cape Canaveral Air Force Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>museum</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Museum</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two spacesuits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_suit</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The suits were not the usual NASA white but were instead a pale blue color used by the short-lived U.S. Air Force space program.	</value>
+
+		<annotated-sentence>	The suits were not the usual [[NASA|NASA]] white but were instead a [[pale blue|Blue]] color used by the short-lived [[U.S.|United_States_Navy]] [[Air Force|Air_force]] [[space program|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The suits were not the usual NASA white but were instead a pale blue color used by the short-lived U.S. Air Force space program.	</pattern_crowdsource>
+
+
+		<tree>
+				det(suits/NNS-2,The/DT-1)
+				nsubj(NASA/NNP-7,suits/NNS-2)
+				cop(NASA/NNP-7,were/VBD-3)
+				neg(NASA/NNP-7,not/RB-4)
+				det(NASA/NNP-7,the/DT-5)
+				amod(NASA/NNP-7,usual/JJ-6)
+				dep(NASA/NNP-7,white/JJ-8)
+				cop(color/NN-15,were/VBD-10)
+				advmod(color/NN-15,instead/RB-11)
+				det(color/NN-15,a/DT-12)
+				amod(color/NN-15,pale/JJ-13)
+				amod(color/NN-15,blue/JJ-14)
+				dep(NASA/NNP-7,color/NN-15)
+				conj_but(white/JJ-8,color/NN-15)
+				partmod(color/NN-15,used/VBN-16)
+				det(program/NN-24,the/DT-18)
+				amod(program/NN-24,short-lived/JJ-19)
+				nn(program/NN-24,U.S./NNP-20)
+				nn(program/NN-24,Air/NNP-21)
+				nn(program/NN-24,Force/NNP-22)
+				nn(program/NN-24,space/NN-23)
+				agent(used/VBN-16,program/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pale blue</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Blue</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The first suit was labeled 007, and the second had both a label, 008, and a name, "Lawyer".	</value>
+
+		<annotated-sentence>	The first suit was labeled 007, and the second had both [[a label|Label]], 008, and a name, "[[Lawyer|Lawyer]]".	</annotated-sentence>
+
+		<pattern_crowdsource>	The first suit was labeled 007, and the second had both a label, 008, and a name, "Lawyer".	</pattern_crowdsource>
+
+
+		<tree>
+				det(suit/NN-3,The/DT-1)
+				amod(suit/NN-3,first/JJ-2)
+				nsubjpass(labeled/VBN-5,suit/NN-3)
+				auxpass(labeled/VBN-5,was/VBD-4)
+				dobj(labeled/VBN-5,007/CD-6)
+				det(second/NN-10,the/DT-9)
+				nsubj(had/VBD-11,second/NN-10)
+				conj_and(labeled/VBN-5,had/VBD-11)
+				preconj(label/NN-14,both/CC-12)
+				det(label/NN-14,a/DT-13)
+				dobj(had/VBD-11,label/NN-14)
+				amod(label/NN-14,008/CD-16)
+				det(name/NN-20,a/DT-19)
+				dobj(had/VBD-11,name/NN-20)
+				conj_and(label/NN-14,name/NN-20)
+				appos(name/NN-20,Lawyer/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a label</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Label</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Investigators determined the second spacesuit was one used by Lawyer who had been assigned to evaluate spacesuits for the MOL program.	</value>
+
+		<annotated-sentence>	[[Investigators|Detective]] determined [[the second spacesuit|Space_suit]] was one used by [[Lawyer|Lawyer]] who had been assigned to evaluate [[spacesuits|Space_suit]] for the MOL program.	</annotated-sentence>
+
+		<pattern_crowdsource>	Investigators determined the second spacesuit was one used by Lawyer who had been assigned to evaluate spacesuits for the MOL program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(determined/VBD-2,Investigators/NNS-1)
+				det(spacesuit/NN-5,the/DT-3)
+				amod(spacesuit/NN-5,second/JJ-4)
+				nsubj(one/CD-7,spacesuit/NN-5)
+				cop(one/CD-7,was/VBD-6)
+				ccomp(determined/VBD-2,one/CD-7)
+				partmod(one/CD-7,used/VBN-8)
+				agent(used/VBN-8,Lawyer/NNP-10)
+				nsubjpass(assigned/VBN-14,who/WP-11)
+				aux(assigned/VBN-14,had/VBD-12)
+				auxpass(assigned/VBN-14,been/VBN-13)
+				rcmod(one/CD-7,assigned/VBN-14)
+				aux(evaluate/VB-16,to/TO-15)
+				xcomp(assigned/VBN-14,evaluate/VB-16)
+				dobj(evaluate/VB-16,spacesuits/NNS-17)
+				det(program/NN-21,the/DT-19)
+				nn(program/NN-21,MOL/NNP-20)
+				prep_for(spacesuits/NNS-17,program/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Investigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Detective</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the second spacesuit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_suit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacesuits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_suit</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The story of the recovered spacesuits and the history of the MOL program was presented in the Public Television series NOVA episode called Astrospies which aired February 12, 2008.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(story/NN-2,The/DT-1)
+				nsubjpass(presented/VBN-15,story/NN-2)
+				det(spacesuits/NNS-6,the/DT-4)
+				amod(spacesuits/NNS-6,recovered/VBN-5)
+				prep_of(story/NN-2,spacesuits/NNS-6)
+				det(history/NN-9,the/DT-8)
+				prep_of(story/NN-2,history/NN-9)
+				conj_and(spacesuits/NNS-6,history/NN-9)
+				det(program/NN-13,the/DT-11)
+				nn(program/NN-13,MOL/NNP-12)
+				prep_of(history/NN-9,program/NN-13)
+				auxpass(presented/VBN-15,was/VBD-14)
+				det(series/NN-20,the/DT-17)
+				nn(series/NN-20,Public/NNP-18)
+				nn(series/NN-20,Television/NNP-19)
+				prep_in(presented/VBN-15,series/NN-20)
+				nn(episode/NN-22,NOVA/NNP-21)
+				nsubj(called/VBD-23,episode/NN-22)
+				rcmod(series/NN-20,called/VBD-23)
+				dobj(called/VBD-23,Astrospies/NNS-24)
+				nsubj(aired/VBD-26,which/WDT-25)
+				rcmod(Astrospies/NNS-24,aired/VBD-26)
+				tmod(aired/VBD-26,February/NNP-27)
+				num(February/NNP-27,12/CD-28)
+				num(February/NNP-27,2008/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	One spacesuit was sent to the Smithsonian Institution's National Air and Space Museum and the other to Florida for exhibition at the Astronaut Hall of Fame.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(spacesuit/NN-2,One/CD-1)
+				nsubjpass(sent/VBN-4,spacesuit/NN-2)
+				auxpass(sent/VBN-4,was/VBD-3)
+				det(Institution/NNP-8,the/DT-6)
+				nn(Institution/NNP-8,Smithsonian/NNP-7)
+				poss(Air/NNP-11,Institution/NNP-8)
+				nn(Air/NNP-11,National/NNP-10)
+				prep_to(sent/VBN-4,Air/NNP-11)
+				nn(Museum/NNP-14,Space/NNP-13)
+				prep_to(sent/VBN-4,Museum/NNP-14)
+				conj_and(Air/NNP-11,Museum/NNP-14)
+				det(other/JJ-17,the/DT-16)
+				conj_and(Air/NNP-11,other/JJ-17)
+				conj_and(Museum/NNP-14,other/JJ-17)
+				prep_to(sent/VBN-4,Florida/NNP-19)
+				prep_for(Florida/NNP-19,exhibition/NN-21)
+				det(Hall/NNP-25,the/DT-23)
+				nn(Hall/NNP-25,Astronaut/NNP-24)
+				prep_at(sent/VBN-4,Hall/NNP-25)
+				prep_of(Hall/NNP-25,Fame/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After retiring from the Air Force, Lawyer worked as a commercial test pilot for a number of firms at the Mojave Airport & Spaceport including the National Test Pilot School.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(worked/VBD-9,retiring/VBG-2)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_from(retiring/VBG-2,Force/NNP-6)
+				nsubj(worked/VBD-9,Lawyer/NNP-8)
+				det(pilot/NN-14,a/DT-11)
+				amod(pilot/NN-14,commercial/JJ-12)
+				nn(pilot/NN-14,test/NN-13)
+				prep_as(worked/VBD-9,pilot/NN-14)
+				det(number/NN-17,a/DT-16)
+				prep_for(pilot/NN-14,number/NN-17)
+				prep_of(number/NN-17,firms/NNS-19)
+				det(Airport/NNP-23,the/DT-21)
+				nn(Airport/NNP-23,Mojave/NNP-22)
+				prep_at(worked/VBD-9,Airport/NNP-23)
+				prep_at(worked/VBD-9,Spaceport/NNP-25)
+				conj_and(Airport/NNP-23,Spaceport/NNP-25)
+				det(School/NNP-31,the/DT-27)
+				nn(School/NNP-31,National/NNP-28)
+				nn(School/NNP-31,Test/NNP-29)
+				nn(School/NNP-31,Pilot/NN-30)
+				prep_including(worked/VBD-9,School/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained an active pilot up to the time of his death on November 12, 2005.	</value>
+
+		<annotated-sentence>	He remained an active pilot up to the time of [[his death|Death]] on [[November|November]] 12, 2005.	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained an active pilot up to the time of his death on November 12, 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,He/PRP-1)
+				cop(pilot/NN-5,remained/VBD-2)
+				det(pilot/NN-5,an/DT-3)
+				amod(pilot/NN-5,active/JJ-4)
+				advmod(pilot/NN-5,up/IN-6)
+				det(time/NN-9,the/DT-8)
+				prep_to(up/IN-6,time/NN-9)
+				poss(death/NN-12,his/PRP$-11)
+				prep_of(time/NN-9,death/NN-12)
+				prep_on(pilot/NN-5,November/NNP-14)
+				num(November/NNP-14,12/CD-15)
+				num(November/NNP-14,2005/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his death</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Death</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lawyer had just returned from a hunting trip when he died unexpectedly in his Palmdale, California home of a suspected blood clot.	</value>
+
+		<annotated-sentence>	[[Lawyer|Lawyer]] had just returned from [[a hunting trip|Hunting_Trip]] when he died unexpectedly in his Palmdale, [[California|California]] home of a suspected blood clot.	</annotated-sentence>
+
+		<pattern_crowdsource>	Lawyer had just returned from a hunting trip when he died unexpectedly in his Palmdale, California home of a suspected blood clot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBN-4,Lawyer/NNP-1)
+				aux(returned/VBN-4,had/VBD-2)
+				advmod(returned/VBN-4,just/RB-3)
+				det(trip/NN-8,a/DT-6)
+				nn(trip/NN-8,hunting/NN-7)
+				prep_from(returned/VBN-4,trip/NN-8)
+				advmod(died/VBD-11,when/WRB-9)
+				nsubj(died/VBD-11,he/PRP-10)
+				advcl(returned/VBN-4,died/VBD-11)
+				advmod(died/VBD-11,unexpectedly/RB-12)
+				poss(Palmdale/NNP-15,his/PRP$-14)
+				prep_in(died/VBD-11,Palmdale/NNP-15)
+				nn(home/NN-18,California/NNP-17)
+				appos(Palmdale/NNP-15,home/NN-18)
+				det(clot/NNS-23,a/DT-20)
+				amod(clot/NNS-23,suspected/VBN-21)
+				nn(clot/NNS-23,blood/NN-22)
+				prep_of(home/NN-18,clot/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a hunting trip</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hunting_Trip</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was buried with full military honors at Arlington National Cemetery on January 5, 2006.	</value>
+
+		<annotated-sentence>	He was buried with [[full military honors|Military_funeral]] at [[Arlington National Cemetery|Arlington_National_Cemetery]] on [[January|January]] 5, 2006.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was buried with full military honors at Arlington National Cemetery on January 5, 2006.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(buried/VBN-3,He/PRP-1)
+				auxpass(buried/VBN-3,was/VBD-2)
+				amod(honors/NNS-7,full/JJ-5)
+				amod(honors/NNS-7,military/JJ-6)
+				prep_with(buried/VBN-3,honors/NNS-7)
+				nn(Cemetery/NNP-11,Arlington/NNP-9)
+				nn(Cemetery/NNP-11,National/NNP-10)
+				prep_at(buried/VBN-3,Cemetery/NNP-11)
+				prep_on(Cemetery/NNP-11,January/NNP-13)
+				num(January/NNP-13,5/CD-14)
+				num(January/NNP-13,2006/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>full military honors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_funeral</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Arlington National Cemetery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Arlington_National_Cemetery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lawyer is survived by his wife, Gayle, five children, and nine grandchildren.	</value>
+
+		<annotated-sentence>	[[Lawyer|Lawyer]] is survived by [[his wife|Wife]], Gayle, [[five children|Child]], and [[nine grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lawyer is survived by his wife, Gayle, five children, and nine grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(survived/VBN-3,Lawyer/NNP-1)
+				auxpass(survived/VBN-3,is/VBZ-2)
+				poss(wife/NN-6,his/PRP$-5)
+				agent(survived/VBN-3,wife/NN-6)
+				agent(survived/VBN-3,Gayle/NNP-8)
+				conj_and(wife/NN-6,Gayle/NNP-8)
+				num(children/NNS-11,five/CD-10)
+				agent(survived/VBN-3,children/NNS-11)
+				conj_and(wife/NN-6,children/NNS-11)
+				num(grandchildren/NNS-15,nine/CD-14)
+				agent(survived/VBN-3,grandchildren/NNS-15)
+				conj_and(wife/NN-6,grandchildren/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lawyer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawyer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>five children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>nine grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

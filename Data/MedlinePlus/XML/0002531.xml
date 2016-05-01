@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A mastoidectomy is surgery to remove cells in the hollow, air-filled spaces in the skull behind the ear.</value>
+		<pattern_crowdsource> A [[mastoidectomy|C0198154]] is [[surgery|C0543467]] to remove cells in the hollow, air-filled spaces in the skull behind the ear.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>mastoidectomy</surface-form>
+				<RDF-ID>C0198154</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>air</surface-form>
+				<RDF-ID>C0001861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skull</surface-form>
+				<RDF-ID>C0037303</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ear</surface-form>
+				<RDF-ID>C0521421</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0198154 ISA C0543467</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This surgery used to be a common way to treat an infection in mastoid air cells.</value>
+		<pattern_crowdsource> This [[surgery|C0543467]] used to be a common way to treat an [[infection|C0009450]] in [[mastoid air cells|C0229427]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mastoid air cells</surface-form>
+				<RDF-ID>C0229427</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0009450</triple>
+			<triple>C0229427 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In most cases, the condition was caused by an ear infection that spread to the bone in the skull.</value>
+		<pattern_crowdsource> In most cases, the condition was caused by an [[ear|C0521421]] [[infection|C0009450]] that spread to the bone in the [[skull|C0037303]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cases</surface-form>
+				<RDF-ID>C0868928</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>condition</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ear</surface-form>
+				<RDF-ID>C0521421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone</surface-form>
+				<RDF-ID>C1266909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skull</surface-form>
+				<RDF-ID>C0037303</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0521421 LOCATION_OF C0009450</triple>
+			<triple>C0037303 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Mastoidectomy may be used to treat:  - Cholesteatoma  - Complications of an ear infection (otitis media)  - Infections of the mastoid bone that do not get better with antibiotics  - To place a cochlear implant</value>
+		<pattern_crowdsource> [[Mastoidectomy|C0198154]] may be used to treat:  - Cholesteatoma  - Complications of an [[ear|C0521421]] [[infection|C0009450]] ([[otitis media|C0029882]])  - [[Infections|C0021311]] of the [[mastoid bone|C0446908]] that do not get better with [[antibiotics|C0003232]]  - To place a cochlear implant		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mastoidectomy</surface-form>
+				<RDF-ID>C0198154</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cholesteatoma</surface-form>
+				<RDF-ID>C0008373</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Complications</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ear</surface-form>
+				<RDF-ID>C0521421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>otitis media</surface-form>
+				<RDF-ID>C0029882</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mastoid bone</surface-form>
+				<RDF-ID>C0446908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>better</surface-form>
+				<RDF-ID>C0332272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cochlear implant</surface-form>
+				<RDF-ID>C0302559</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0029882 ISA C0009450</triple>
+			<triple>C0521421 LOCATION_OF C0009450</triple>
+			<triple>C0446908 LOCATION_OF C0021311</triple>
+			<triple>C0198154 USES C0003232</triple>
+			<triple>C0521421 LOCATION_OF C0029882</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

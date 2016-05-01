@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>However, it may be done soon after the person swallowed the medication, using stomach contents taken through gastric lavage (stomach pumping) or after vomiting.</value>
+		<pattern_crowdsource> However, it may be done soon after the [[person|C0027361]] swallowed the medication, using stomach contents taken through [[gastric lavage|C0017134]] (stomach pumping) or after vomiting.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medication</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach contents</surface-form>
+				<RDF-ID>C0038352</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gastric lavage</surface-form>
+				<RDF-ID>C0017134</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach pumping</surface-form>
+				<RDF-ID>C0017134</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017134 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The presence of illegal drugs or drugs not prescribed for the person indicates illicit drug use.</value>
+		<pattern_crowdsource> The presence of [[illegal drugs|C0086190]] or [[drugs|C0013227]] not prescribed for the [[person|C0027361]] indicates illicit drug use.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>illegal drugs</surface-form>
+				<RDF-ID>C0086190</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>illicit drug use</surface-form>
+				<RDF-ID>C0281875</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 NEG_TREATS C0027361</triple>
+			<triple>C0086190 NEG_TREATS C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

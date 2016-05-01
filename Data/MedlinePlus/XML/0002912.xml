@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Narcotics work by binding to receptors in the brain, which blocks the feeling of pain.</value>
+		<pattern_crowdsource> [[Narcotics|C0027415]] work by binding to [[receptors|C0597357]] in the [[brain|C0006104]], which blocks the feeling of pain.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Narcotics</surface-form>
+				<RDF-ID>C0027415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>receptors</surface-form>
+				<RDF-ID>C0597357</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feeling</surface-form>
+				<RDF-ID>C1527305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027415 INTERACTS_WITH C0597357</triple>
+			<triple>C0006104 LOCATION_OF C0597357</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking narcotics to control the pain of cancer or other medical problems does not itself lead to dependence.</value>
+		<pattern_crowdsource> Taking [[narcotics|C0027415]] to control the [[pain|C0030193]] of [[cancer|C0006826]] or other medical problems does not itself lead to [[dependence|C0439857]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>narcotics</surface-form>
+				<RDF-ID>C0027415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medical</surface-form>
+				<RDF-ID>C0205476</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dependence</surface-form>
+				<RDF-ID>C0439857</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027415 TREATS C0030193</triple>
+			<triple>C0006826 AFFECTS C0439857</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

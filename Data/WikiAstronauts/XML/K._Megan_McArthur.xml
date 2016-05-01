@@ -1,0 +1,1625 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Katherine Megan McArthur is an American oceanographer and a NASA astronaut.	</value>
+
+		<annotated-sentence>	Katherine Megan McArthur is an [[American|United_States]] [[oceanographer|Oceanography]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Katherine Megan McArthur is an [[American|United_States]] [[oceanographer|Oceanography]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McArthur/NNP-3,Katherine/NNP-1)
+				nn(McArthur/NNP-3,Megan/NNP-2)
+				nsubj(oceanographer/NN-7,McArthur/NNP-3)
+				cop(oceanographer/NN-7,is/VBZ-4)
+				det(oceanographer/NN-7,an/DT-5)
+				amod(oceanographer/NN-7,American/JJ-6)
+				det(astronaut/NN-11,a/DT-9)
+				nn(astronaut/NN-11,NASA/NNP-10)
+				conj_and(oceanographer/NN-7,astronaut/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>oceanographer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oceanography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Oceanography
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She has served as a CAPCOM for both the space shuttle and space station.	</value>
+
+		<annotated-sentence>	She has served as [[a CAPCOM|Capcom]] for both [[the space shuttle|SpaceShuttle]] and [[space station|SpaceStation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She has served as a CAPCOM for both the space shuttle and space station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-3,She/PRP-1)
+				aux(served/VBN-3,has/VBZ-2)
+				det(CAPCOM/NNP-6,a/DT-5)
+				prep_as(served/VBN-3,CAPCOM/NNP-6)
+				preconj(shuttle/NN-11,both/DT-8)
+				det(shuttle/NN-11,the/DT-9)
+				nn(shuttle/NN-11,space/NN-10)
+				prep_for(served/VBN-3,shuttle/NN-11)
+				nn(station/NN-14,space/NN-13)
+				prep_for(served/VBN-3,station/NN-14)
+				conj_and(shuttle/NN-11,station/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Megan McArthur has flown one space shuttle mission, STS-125.	</value>
+
+		<annotated-sentence>	Megan McArthur has flown one [[space shuttle|SpaceShuttle]] [[mission|SpaceMission]], [[STS-125|STS-125]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Megan McArthur has flown one space shuttle mission, [[STS-125|STS-125]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McArthur/NNP-2,Megan/NNP-1)
+				nsubj(flown/VBN-4,McArthur/NNP-2)
+				aux(flown/VBN-4,has/VBZ-3)
+				num(mission/NN-8,one/CD-5)
+				nn(mission/NN-8,space/NN-6)
+				nn(mission/NN-8,shuttle/NN-7)
+				dobj(flown/VBN-4,mission/NN-8)
+				appos(mission/NN-8,STS-125/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-125</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-125</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-125
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is known as the last person to be hands on with the Hubble Space Telescope.	</value>
+
+		<annotated-sentence>	She is known as [[the last person|Person]] to be [[hands|Hand]] on with [[the Hubble Space Telescope|Hubble_Space_Telescope]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is known as [[the last person|Person]] to be hands on with the Hubble Space Telescope.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(known/VBN-3,She/PRP-1)
+				auxpass(known/VBN-3,is/VBZ-2)
+				det(person/NN-7,the/DT-5)
+				amod(person/NN-7,last/JJ-6)
+				prep_as(known/VBN-3,person/NN-7)
+				aux(hands/NNS-10,to/TO-8)
+				cop(hands/NNS-10,be/VB-9)
+				xcomp(known/VBN-3,hands/NNS-10)
+				prep(hands/NNS-10,on/IN-11)
+				pcomp(on/IN-11,with/IN-12)
+				det(Telescope/NNP-16,the/DT-13)
+				nn(Telescope/NNP-16,Hubble/NNP-14)
+				nn(Telescope/NNP-16,Space/NNP-15)
+				pobj(with/IN-12,Telescope/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the last person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McArthur has served in a number of positions including working in the Shuttle Avionics Laboratory (SAIL).	</value>
+
+		<annotated-sentence>	McArthur has served in a number of positions including working in the Shuttle [[Avionics|Avionics]] [[Laboratory|Laboratory]] ([[SAIL|Sail]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	McArthur has served in a number of positions including working in the Shuttle Avionics Laboratory (SAIL).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-3,McArthur/NNP-1)
+				aux(served/VBN-3,has/VBZ-2)
+				det(number/NN-6,a/DT-5)
+				prep_in(served/VBN-3,number/NN-6)
+				prep_of(number/NN-6,positions/NNS-8)
+				prepc_including(positions/NNS-8,working/VBG-10)
+				det(Laboratory/NNP-15,the/DT-12)
+				nn(Laboratory/NNP-15,Shuttle/NNP-13)
+				nn(Laboratory/NNP-15,Avionics/NNP-14)
+				prep_in(working/VBG-10,Laboratory/NNP-15)
+				appos(Laboratory/NNP-15,SAIL/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Avionics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Avionics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SAIL</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sail</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is married to fellow astronaut Robert L. Behnken.	</value>
+
+		<annotated-sentence>	She is married to fellow [[astronaut|Astronaut]] [[Robert L. Behnken|Robert_L._Behnken]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is married to fellow [[astronaut|Astronaut]] [[Robert L. Behnken|Robert_L._Behnken]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,She/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Behnken/NNP-9,fellow/JJ-5)
+				nn(Behnken/NNP-9,astronaut/NN-6)
+				nn(Behnken/NNP-9,Robert/NNP-7)
+				nn(Behnken/NNP-9,L./NNP-8)
+				prep_to(married/VBN-3,Behnken/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robert L. Behnken</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_L._Behnken</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_L._Behnken http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was born in 1971 in Honolulu, Hawaii but grew up in Northern California.	</value>
+
+		<annotated-sentence>	She was born in [[1971|1971_(film)]] in [[Honolulu , Hawaii|Honolulu_County,_Hawaii]]but grew up in [[Northern California|Northern_California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She was born in 1971 in Honolulu, Hawaii but grew up in Northern California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,She/PRP-1)
+				nsubjpass(grew/VBD-11,She/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,1971/CD-5)
+				nn(Hawaii/NNP-9,Honolulu/NNP-7)
+				prep_in(born/VBN-3,Hawaii/NNP-9)
+				conj_but(born/VBN-3,grew/VBD-11)
+				prt(grew/VBD-11,up/RP-12)
+				nn(California/NNP-15,Northern/NNP-14)
+				prep_in(grew/VBD-11,California/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1971</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1971_(film)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Honolulu , Hawaii</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honolulu_County,_Hawaii</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Northern California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northern_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She dreamed of being an astronaut when she was a teenager.	</value>
+
+		<annotated-sentence>	She dreamed of being [[an astronaut|Astronaut]] when she was a teenager.	</annotated-sentence>
+
+		<pattern_crowdsource>	She dreamed of being [[an astronaut|Astronaut]] when she was a teenager.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(dreamed/VBD-2,She/PRP-1)
+				cop(astronaut/NN-6,being/VBG-4)
+				det(astronaut/NN-6,an/DT-5)
+				prepc_of(dreamed/VBD-2,astronaut/NN-6)
+				advmod(teenager/NN-11,when/WRB-7)
+				nsubj(teenager/NN-11,she/PRP-8)
+				cop(teenager/NN-11,was/VBD-9)
+				det(teenager/NN-11,a/DT-10)
+				rcmod(astronaut/NN-6,teenager/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She graduated from St. Francis High School in Mountain View, California, then later earned a B.S. degree in Aerospace Engineering from UCLA in 1993.	</value>
+
+		<annotated-sentence>	She graduated from St. Francis High School in Mountain View, [[California|California]], then later earned [[a B.S. degree|Bachelor_of_Science]] in [[Aerospace Engineering|Aerospace_engineering]] from UCLA in [[1993|1993]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She graduated from St. Francis High School in Mountain View, California, then later earned a B.S. degree in Aerospace Engineering from UCLA in 1993.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,She/PRP-1)
+				ccomp(earned/VBD-16,graduated/VBD-2)
+				nn(School/NNP-7,St./NNP-4)
+				nn(School/NNP-7,Francis/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(View/NNP-10,Mountain/NNP-9)
+				prep_in(graduated/VBD-2,View/NNP-10)
+				appos(View/NNP-10,California/NNP-12)
+				nsubj(earned/VBD-16,then/RB-14)
+				advmod(earned/VBD-16,later/RB-15)
+				det(degree/NN-19,a/DT-17)
+				nn(degree/NN-19,B.S./NNP-18)
+				dobj(earned/VBD-16,degree/NN-19)
+				nn(Engineering/NNP-22,Aerospace/NNP-21)
+				prep_in(earned/VBD-16,Engineering/NNP-22)
+				prep_from(Engineering/NNP-22,UCLA/NNP-24)
+				prep_in(earned/VBD-16,1993/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a B.S. degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2002, she was awarded a Ph.D. in oceanography from Scripps Institution of Oceanography at UC San Diego.	</value>
+
+		<annotated-sentence>	In [[2002|2002]], she was awarded a Ph.D. in [[oceanography|Oceanography]] from [[Scripps Institution of Oceanography|Scripps_Institution_of_Oceanography]] at [[UC San Diego|University_of_California,_San_Diego]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2002, she was awarded a Ph.D. in [[oceanography|Oceanography]] from [[Scripps Institution of Oceanography|Scripps_Institution_of_Oceanography]] at [[UC San Diego|University_of_California,_San_Diego]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(awarded/VBN-6,2002/CD-2)
+				nsubjpass(awarded/VBN-6,she/PRP-4)
+				auxpass(awarded/VBN-6,was/VBD-5)
+				det(Ph.D./NNP-8,a/DT-7)
+				dobj(awarded/VBN-6,Ph.D./NNP-8)
+				prep_in(Ph.D./NNP-8,oceanography/NN-10)
+				nn(Institution/NNP-13,Scripps/NNP-12)
+				prep_from(awarded/VBN-6,Institution/NNP-13)
+				prep_of(Institution/NNP-13,Oceanography/NNP-15)
+				nn(Diego/NNP-19,UC/NN-17)
+				nn(Diego/NNP-19,San/NNP-18)
+				prep_at(awarded/VBN-6,Diego/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>oceanography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oceanography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scripps Institution of Oceanography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scripps_Institution_of_Oceanography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UC San Diego</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_California,_San_Diego</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Oceanography
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Scripps_Institution_of_Oceanography http://dbpedia.org/property/parent http://dbpedia.org/resource/University_of_California,_San_Diego
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the Scripps Institution of Oceanography, McArthur conducted graduate research in nearshore underwater acoustic propagation and digital signal processing.	</value>
+
+		<annotated-sentence>	At [[the Scripps Institution of Oceanography|Scripps_Institution_of_Oceanography]], McArthur conducted graduate [[research|Research]] in [[nearshore|Littoral_zone]] [[underwater acoustic|Underwater_acoustic_positioning_system]] propagation and [[digital signal processing|Digital_signal_processing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At the Scripps Institution of Oceanography, McArthur conducted graduate research in nearshore underwater acoustic propagation and digital signal processing.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Institution/NNP-4,the/DT-2)
+				nn(Institution/NNP-4,Scripps/NNP-3)
+				prep_at(conducted/VBD-9,Institution/NNP-4)
+				prep_of(Institution/NNP-4,Oceanography/NNP-6)
+				nsubj(conducted/VBD-9,McArthur/NNP-8)
+				amod(research/NN-11,graduate/JJ-10)
+				dobj(conducted/VBD-9,research/NN-11)
+				nn(propagation/NN-16,nearshore/NN-13)
+				amod(propagation/NN-16,underwater/JJ-14)
+				amod(propagation/NN-16,acoustic/JJ-15)
+				prep_in(conducted/VBD-9,propagation/NN-16)
+				amod(processing/NN-20,digital/JJ-18)
+				nn(processing/NN-20,signal/NN-19)
+				prep_in(conducted/VBD-9,processing/NN-20)
+				conj_and(propagation/NN-16,processing/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Scripps Institution of Oceanography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scripps_Institution_of_Oceanography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>nearshore</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Littoral_zone</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>underwater acoustic</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Underwater_acoustic_positioning_system</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>digital signal processing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Digital_signal_processing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her research focused on determining geoacoustic models to describe very shallow water waveguides using measured transmission loss data in a genetic algorithm inversion technique.	</value>
+
+		<annotated-sentence>	Her [[research|Research]] focused on determining geoacoustic [[models|Model]] to describe very [[shallow water|Water]] [[waveguides|Waveguide]] using measured transmission loss data in a [[genetic algorithm|Genetic_algorithm]] inversion technique.	</annotated-sentence>
+
+		<pattern_crowdsource>	Her research focused on determining geoacoustic models to describe very shallow water waveguides using measured transmission loss data in a genetic algorithm inversion technique.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(research/NN-2,Her/PRP$-1)
+				nsubj(focused/VBD-3,research/NN-2)
+				prepc_on(focused/VBD-3,determining/VBG-5)
+				amod(models/NNS-7,geoacoustic/JJ-6)
+				dobj(determining/VBG-5,models/NNS-7)
+				aux(describe/VB-9,to/TO-8)
+				xcomp(determining/VBG-5,describe/VB-9)
+				advmod(waveguides/NNS-13,very/RB-10)
+				amod(waveguides/NNS-13,shallow/JJ-11)
+				nn(waveguides/NNS-13,water/NN-12)
+				dobj(describe/VB-9,waveguides/NNS-13)
+				xcomp(describe/VB-9,using/VBG-14)
+				dep(using/VBG-14,measured/VBN-15)
+				nn(data/NNS-18,transmission/NN-16)
+				nn(data/NNS-18,loss/NN-17)
+				dobj(measured/VBN-15,data/NNS-18)
+				det(technique/NN-24,a/DT-20)
+				amod(technique/NN-24,genetic/JJ-21)
+				nn(technique/NN-24,algorithm/NN-22)
+				nn(technique/NN-24,inversion/NN-23)
+				prep_in(measured/VBN-15,technique/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>models</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shallow water</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Water</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>waveguides</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Waveguide</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>genetic algorithm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Genetic_algorithm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She served as Chief Scientist during at-sea data collection operations, and has planned and led diving operations during sea-floor instrument deployments and sediment-sample collections.	</value>
+
+		<annotated-sentence>	She served as [[Chief Scientist|Chief_technology_officer]] during at-sea data collection operations, and has planned and led [[diving|Diving]] operations during sea-floor instrument deployments and sediment-sample collections.	</annotated-sentence>
+
+		<pattern_crowdsource>	She served as Chief Scientist during at-sea data collection operations, and has planned and led diving operations during sea-floor instrument deployments and sediment-sample collections.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,She/PRP-1)
+				nsubj(planned/VBN-14,She/PRP-1)
+				nn(Scientist/NNP-5,Chief/NNP-4)
+				prep_as(served/VBD-2,Scientist/NNP-5)
+				amod(operations/NNS-10,at-sea/JJ-7)
+				nn(operations/NNS-10,data/NNS-8)
+				nn(operations/NNS-10,collection/NN-9)
+				prep_during(served/VBD-2,operations/NNS-10)
+				aux(planned/VBN-14,has/VBZ-13)
+				conj_and(served/VBD-2,planned/VBN-14)
+				conj_and(served/VBD-2,led/VBN-16)
+				conj_and(planned/VBN-14,led/VBN-16)
+				nn(operations/NNS-18,diving/NN-17)
+				dobj(planned/VBN-14,operations/NNS-18)
+				amod(deployments/NNS-22,sea-floor/JJ-20)
+				nn(deployments/NNS-22,instrument/NN-21)
+				prep_during(planned/VBN-14,deployments/NNS-22)
+				amod(collections/NNS-25,sediment-sample/JJ-24)
+				prep_during(planned/VBN-14,collections/NNS-25)
+				conj_and(deployments/NNS-22,collections/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chief Scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chief_technology_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diving</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at Scripps, she participated in a range of in-water instrument testing, deployment, maintenance, and recovery, and collection of marine plants, animals, and sediment.	</value>
+
+		<annotated-sentence>	While at Scripps, she participated in a range of in-water instrument testing, deployment, maintenance, and recovery, and collection of [[marine plants|Marine_botany]], [[animals|Animal]], and [[sediment|Sediment_(wine)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at Scripps, she participated in a range of in-water instrument testing, deployment, maintenance, and recovery, and collection of marine plants, animals, and sediment.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(participated/VBD-6,at/IN-2)
+				pobj(at/IN-2,Scripps/NNP-3)
+				nsubj(participated/VBD-6,she/PRP-5)
+				det(range/NN-9,a/DT-8)
+				prep_in(participated/VBD-6,range/NN-9)
+				amod(testing/NN-13,in-water/JJ-11)
+				nn(testing/NN-13,instrument/NN-12)
+				prep_of(range/NN-9,testing/NN-13)
+				nn(maintenance/NN-17,deployment/NN-15)
+				prep_of(range/NN-9,maintenance/NN-17)
+				conj_and(testing/NN-13,maintenance/NN-17)
+				conj_and(testing/NN-13,recovery/NN-20)
+				conj_and(maintenance/NN-17,recovery/NN-20)
+				prep_of(range/NN-9,collection/NN-23)
+				conj_and(testing/NN-13,collection/NN-23)
+				amod(plants/NNS-26,marine/JJ-25)
+				prep_of(collection/NN-23,plants/NNS-26)
+				prep_of(collection/NN-23,animals/NNS-28)
+				conj_and(plants/NNS-26,animals/NNS-28)
+				prep_of(collection/NN-23,sediment/NN-31)
+				conj_and(plants/NNS-26,sediment/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>marine plants</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marine_botany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>animals</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Animal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sediment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sediment_(wine)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this time, McArthur also volunteered at the Birch Aquarium at Scripps, conducting educational demonstrations for the public from inside a 70,000 gallon exhibit tank of the California Kelp Forest.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,this/DT-2)
+				prep_during(volunteered/VBD-7,time/NN-3)
+				nsubj(volunteered/VBD-7,McArthur/NNP-5)
+				advmod(volunteered/VBD-7,also/RB-6)
+				det(Aquarium/NNP-11,the/DT-9)
+				nn(Aquarium/NNP-11,Birch/NNP-10)
+				prep_at(volunteered/VBD-7,Aquarium/NNP-11)
+				prep_at(volunteered/VBD-7,Scripps/NNP-13)
+				xcomp(volunteered/VBD-7,conducting/VBG-15)
+				amod(demonstrations/NNS-17,educational/JJ-16)
+				dobj(conducting/VBG-15,demonstrations/NNS-17)
+				det(tank/NN-27,the/DT-19)
+				amod(tank/NN-27,public/NN-20)
+				prep(public/NN-20,from/IN-21)
+				pcomp(from/IN-21,inside/IN-22)
+				det(exhibit/NN-26,a/DT-23)
+				num(exhibit/NN-26,70,000/CD-24)
+				nn(exhibit/NN-26,gallon/NN-25)
+				pobj(inside/IN-22,exhibit/NN-26)
+				prep_for(conducting/VBG-15,tank/NN-27)
+				det(Forest/NNP-32,the/DT-29)
+				nn(Forest/NNP-32,California/NNP-30)
+				nn(Forest/NNP-32,Kelp/NNP-31)
+				prep_of(tank/NN-27,Forest/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as a mission specialist by NASA in July 2000, McArthur reported for training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as [[a mission specialist|Mission_Specialist]] by [[NASA|NASA]] in [[July 2000|July_2000]], McArthur reported for [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as a mission specialist by [[NASA|NASA]] in July 2000, McArthur reported for training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-13,Selected/VBN-1)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_as(Selected/VBN-1,specialist/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,July/NNP-9)
+				num(July/NNP-9,2000/CD-10)
+				nsubj(reported/VBD-13,McArthur/NNP-12)
+				prep_for(reported/VBD-13,training/NN-15)
+				prep_in(reported/VBD-13,August/NNP-17)
+				num(August/NNP-17,2000/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She trained at the Carter training facility.	</value>
+
+		<annotated-sentence>	She trained at the Carter [[training|Training]] facility.	</annotated-sentence>
+
+		<pattern_crowdsource>	She trained at the Carter training facility.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(trained/VBD-2,She/PRP-1)
+				det(facility/NN-7,the/DT-4)
+				nn(facility/NN-7,Carter/NNP-5)
+				nn(facility/NN-7,training/NN-6)
+				prep_at(trained/VBD-2,facility/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the completion of two years of training and evaluation, she was assigned to the Astronaut Office Shuttle Operations Branch working technical issues on shuttle systems in the Shuttle Avionics Integration Laboratory (SAIL).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_following(assigned/VBN-14,completion/NN-3)
+				num(years/NNS-6,two/CD-5)
+				prep_of(completion/NN-3,years/NNS-6)
+				prep_of(years/NNS-6,training/NN-8)
+				prep_of(years/NNS-6,evaluation/NN-10)
+				conj_and(training/NN-8,evaluation/NN-10)
+				nsubjpass(assigned/VBN-14,she/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				det(Branch/NNP-21,the/DT-16)
+				nn(Branch/NNP-21,Astronaut/NNP-17)
+				nn(Branch/NNP-21,Office/NNP-18)
+				nn(Branch/NNP-21,Shuttle/NNP-19)
+				nn(Branch/NNP-21,Operations/NNP-20)
+				prep_to(assigned/VBN-14,Branch/NNP-21)
+				xcomp(assigned/VBN-14,working/VBG-22)
+				amod(issues/NNS-24,technical/JJ-23)
+				dobj(working/VBG-22,issues/NNS-24)
+				nn(systems/NNS-27,shuttle/NN-26)
+				prep_on(working/VBG-22,systems/NNS-27)
+				det(Laboratory/NN-33,the/DT-29)
+				nn(Laboratory/NN-33,Shuttle/NNP-30)
+				nn(Laboratory/NN-33,Avionics/NNP-31)
+				nn(Laboratory/NN-33,Integration/NN-32)
+				prep_in(systems/NNS-27,Laboratory/NN-33)
+				appos(Laboratory/NN-33,SAIL/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McArthur then served as the Crew Support Astronaut for the Expedition 9 Crew during their six-month mission aboard the International Space Station.	</value>
+
+		<annotated-sentence>	McArthur then served as the Crew Support [[Astronaut|Astronaut]] for the [[Expedition 9|Expedition_9]] Crew during their six-month mission aboard [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McArthur then served as the Crew Support [[Astronaut|Astronaut]] for the [[Expedition 9|Expedition_9]] Crew during their six-month mission aboard [[the International Space Station|International_Space_Station]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,McArthur/NNP-1)
+				advmod(served/VBD-3,then/RB-2)
+				det(Astronaut/NN-8,the/DT-5)
+				nn(Astronaut/NN-8,Crew/NNP-6)
+				nn(Astronaut/NN-8,Support/NN-7)
+				prep_as(served/VBD-3,Astronaut/NN-8)
+				det(Crew/NNP-13,the/DT-10)
+				nn(Crew/NNP-13,Expedition/NNP-11)
+				num(Crew/NNP-13,9/CD-12)
+				prep_for(Astronaut/NN-8,Crew/NNP-13)
+				poss(mission/NN-17,their/PRP$-15)
+				amod(mission/NN-17,six-month/JJ-16)
+				prep_during(Crew/NNP-13,mission/NN-17)
+				det(Station/NNP-22,the/DT-19)
+				nn(Station/NNP-22,International/NNP-20)
+				nn(Station/NNP-22,Space/NNP-21)
+				prep_aboard(served/VBD-3,Station/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_9 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_9 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She also worked in the Space Station and Space Shuttle Mission Control Centers as a Capsule Communicator (CAPCOM).	</value>
+
+		<annotated-sentence>	She also worked in [[the Space Station|SpaceStation]] and [[Space Shuttle|SpaceShuttle]] Mission Control [[Centers|Centers_(Fourth_Way)]] as [[a Capsule Communicator|Flight_controller]] ([[CAPCOM|Capcom]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	She also worked in the Space Station and Space Shuttle Mission Control Centers as a Capsule Communicator (CAPCOM).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,She/PRP-1)
+				advmod(worked/VBD-3,also/RB-2)
+				det(Station/NNP-7,the/DT-5)
+				nn(Station/NNP-7,Space/NN-6)
+				prep_in(worked/VBD-3,Station/NNP-7)
+				nn(Centers/NNPS-13,Space/NNP-9)
+				nn(Centers/NNPS-13,Shuttle/NNP-10)
+				nn(Centers/NNPS-13,Mission/NNP-11)
+				nn(Centers/NNPS-13,Control/NNP-12)
+				prep_in(worked/VBD-3,Centers/NNPS-13)
+				conj_and(Station/NNP-7,Centers/NNPS-13)
+				det(Communicator/NNP-17,a/DT-15)
+				nn(Communicator/NNP-17,Capsule/NNP-16)
+				prep_as(worked/VBD-3,Communicator/NNP-17)
+				appos(Communicator/NNP-17,CAPCOM/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Centers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Centers_(Fourth_Way)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Capsule Communicator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2006, McArthur was the capsule communicator (capcom) for STS-116.	</value>
+
+		<annotated-sentence>	In [[2006|2006]], McArthur was [[the capsule communicator|Flight_controller]] ([[capcom|Capcom]]) for [[STS-116|STS-116]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2006, McArthur was the capsule communicator (capcom) for STS-116.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(communicator/NN-8,2006/CD-2)
+				nsubj(communicator/NN-8,McArthur/NNP-4)
+				cop(communicator/NN-8,was/VBD-5)
+				det(communicator/NN-8,the/DT-6)
+				nn(communicator/NN-8,capsule/NN-7)
+				appos(communicator/NN-8,capcom/NN-10)
+				prep_for(communicator/NN-8,STS-116/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the capsule communicator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>capcom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-116</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-116</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was also the EVA capcom for the STS-117 mission in 2007.	</value>
+
+		<annotated-sentence>	She was also the EVA [[capcom|Capcom]] for the [[STS-117|STS-117]] mission in [[2007|2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She was also the EVA capcom for the STS-117 mission in 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(capcom/NNP-6,She/PRP-1)
+				cop(capcom/NNP-6,was/VBD-2)
+				advmod(capcom/NNP-6,also/RB-3)
+				det(capcom/NNP-6,the/DT-4)
+				nn(capcom/NNP-6,EVA/NNP-5)
+				det(mission/NN-10,the/DT-8)
+				nn(mission/NN-10,STS-117/NN-9)
+				prep_for(capcom/NNP-6,mission/NN-10)
+				prep_in(mission/NN-10,2007/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>capcom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-117</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-117</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Megan McArthur was a member of the STS-125 mission to service the Hubble Space Telescope.	</value>
+
+		<annotated-sentence>	Megan McArthur was a member of the [[STS-125|STS-125]] mission to service [[the Hubble Space Telescope|Hubble_Space_Telescope]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Megan McArthur was a member of the [[STS-125|STS-125]] mission to service the Hubble Space Telescope.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McArthur/NNP-2,Megan/NNP-1)
+				nsubj(member/NN-5,McArthur/NNP-2)
+				cop(member/NN-5,was/VBD-3)
+				det(member/NN-5,a/DT-4)
+				det(mission/NN-9,the/DT-7)
+				nn(mission/NN-9,STS-125/NN-8)
+				prep_of(member/NN-5,mission/NN-9)
+				aux(service/VB-11,to/TO-10)
+				infmod(member/NN-5,service/VB-11)
+				det(Telescope/NNP-15,the/DT-12)
+				nn(Telescope/NNP-15,Hubble/NNP-13)
+				nn(Telescope/NNP-15,Space/NNP-14)
+				dobj(service/VB-11,Telescope/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-125</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-125</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/K._Megan_McArthur http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-125
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McArthur was the ascent and entry flight engineer and was the lead robotics crew member for the mission.	</value>
+
+		<annotated-sentence>	McArthur was the ascent and entry [[flight engineer|Flight_engineer]] and was the [[lead|Lead]] robotics [[crew member|Crewman]] for the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	McArthur was the ascent and entry flight engineer and was the lead robotics crew member for the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(ascent/NN-4,McArthur/NNP-1)
+				cop(ascent/NN-4,was/VBD-2)
+				det(ascent/NN-4,the/DT-3)
+				nn(engineer/NN-8,entry/NN-6)
+				nn(engineer/NN-8,flight/NN-7)
+				conj_and(ascent/NN-4,engineer/NN-8)
+				cop(member/NN-15,was/VBD-10)
+				det(member/NN-15,the/DT-11)
+				nn(member/NN-15,lead/NN-12)
+				nn(member/NN-15,robotics/NNS-13)
+				nn(member/NN-15,crew/NN-14)
+				conj_and(ascent/NN-4,member/NN-15)
+				det(mission/NN-18,the/DT-17)
+				prep_for(member/NN-15,mission/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission which lasted almost 13 days was McArthur's first trip into space.	</value>
+
+		<annotated-sentence>	The mission which lasted almost 13 days was McArthur's first trip into [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission which lasted almost 13 days was McArthur's first trip into space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(trip/NN-12,mission/NN-2)
+				nsubj(lasted/VBD-4,which/WDT-3)
+				rcmod(mission/NN-2,lasted/VBD-4)
+				quantmod(13/CD-6,almost/RB-5)
+				num(days/NNS-7,13/CD-6)
+				tmod(lasted/VBD-4,days/NNS-7)
+				cop(trip/NN-12,was/VBD-8)
+				poss(trip/NN-12,McArthur/NNP-9)
+				amod(trip/NN-12,first/JJ-11)
+				prep_into(trip/NN-12,space/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In a pre-flight interview, she put it as: "I'll be the last one with hands on it."	</value>
+
+		<annotated-sentence>	In a pre-flight [[interview|Interview]], she put it as: "I'll be the last one with [[hands|Hand]] on it."	</annotated-sentence>
+
+		<pattern_crowdsource>	In a pre-flight interview, she put it as: "I'll be the last one with hands on it."	</pattern_crowdsource>
+
+
+		<tree>
+				det(interview/NN-4,a/DT-2)
+				amod(interview/NN-4,pre-flight/JJ-3)
+				prep_in(put/VBD-7,interview/NN-4)
+				nsubj(put/VBD-7,she/PRP-6)
+				dobj(put/VBD-7,it/PRP-8)
+				prep(put/VBD-7,as/IN-9)
+				nsubj(one/CD-17,I/PRP-12)
+				aux(one/CD-17,'ll/MD-13)
+				cop(one/CD-17,be/VB-14)
+				det(one/CD-17,the/DT-15)
+				amod(one/CD-17,last/JJ-16)
+				ccomp(put/VBD-7,one/CD-17)
+				prep_with(one/CD-17,hands/NNS-19)
+				prep_on(hands/NNS-19,it/PRP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interview</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interview</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hand</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Joint swelling can cause pain or stiffness.</value>
+		<pattern_crowdsource> [[Joint swelling|C0152031]] can cause [[pain|C0030193]] or [[stiffness|C0427008]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Joint swelling</surface-form>
+				<RDF-ID>C0152031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stiffness</surface-form>
+				<RDF-ID>C0427008</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0152031 CAUSES C0030193</triple>
+			<triple>C0152031 CAUSES C0427008</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>After an injury, swelling of the joint may mean you have a broken bone or a tear in the muscle tendon or ligament.</value>
+		<pattern_crowdsource> After an injury, swelling of the joint may mean you have a [[broken bone|C0016658]] or a [[tear|C0043246]] in the muscle [[tendon|C1280538]] or [[ligament|C0023685]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0038999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint</surface-form>
+				<RDF-ID>C0022417</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>broken bone</surface-form>
+				<RDF-ID>C0016658</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tear</surface-form>
+				<RDF-ID>C0043246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle</surface-form>
+				<RDF-ID>C0026845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tendon</surface-form>
+				<RDF-ID>C1280538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1280538 LOCATION_OF C0043246</triple>
+			<triple>C1280538 LOCATION_OF C0016658</triple>
+			<triple>C0023685 LOCATION_OF C0043246</triple>
+			<triple>C0023685 LOCATION_OF C0016658</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

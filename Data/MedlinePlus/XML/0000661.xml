@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Quitting smoking has a direct affect on your risk of cancer.</value>
+		<pattern_crowdsource> Quitting [[smoking|C0037369]] has a direct affect on your risk of [[cancer|C0006826]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037369 PREDISPOSES C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The sun's rays (UVA and UVB) damage skin cells.</value>
+		<pattern_crowdsource> The [[sun's|C0038817]] [[rays|C0851346]] (UVA and UVB) damage skin cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sun's</surface-form>
+				<RDF-ID>C0038817</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rays</surface-form>
+				<RDF-ID>C0851346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>UVB</surface-form>
+				<RDF-ID>C1519755</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin cells</surface-form>
+				<RDF-ID>C0814995</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038817 ISA C0851346</triple>
+			<triple>C0038817 PROCESS_OF C0851346</triple>
+			<triple>C0038817 PROCESS_OF C0038817</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is unclear whether avoiding the sun or using sunscreen can prevent all skin cancers.</value>
+		<pattern_crowdsource> It is unclear whether avoiding the sun or using [[sunscreen|C0038818]] can prevent all [[skin cancers|C0007114]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sun</surface-form>
+				<RDF-ID>C0038817</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sunscreen</surface-form>
+				<RDF-ID>C0038818</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin cancers</surface-form>
+				<RDF-ID>C0007114</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038818 PREVENTS C0007114</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Being overweight (obese) puts you at higher risk for:  - Breast cancer (after menopause)  - Colon cancer  - Endometrial cancer  - Kidney cancer  - Pancreatic cancer    Your risk is higher if your body mass index (BMI) is high enough to be considered obese.</value>
+		<pattern_crowdsource> Being [[overweight|C0497406]] ([[obese|C0028754]]) puts you at higher risk for:  - Breast cancer (after menopause)  - Colon cancer  - Endometrial cancer  - Kidney cancer  - Pancreatic cancer    Your risk is higher if your body mass index (BMI) is high enough to be considered obese.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>overweight</surface-form>
+				<RDF-ID>C0497406</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Breast cancer</surface-form>
+				<RDF-ID>C0006142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>menopause</surface-form>
+				<RDF-ID>C0025320</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Colon cancer</surface-form>
+				<RDF-ID>C0007102</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Endometrial cancer</surface-form>
+				<RDF-ID>C0007103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Kidney cancer</surface-form>
+				<RDF-ID>C0740457</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pancreatic cancer</surface-form>
+				<RDF-ID>C0235974</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>body mass index</surface-form>
+				<RDF-ID>C0005893</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0028754 ISA C0497406</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Drinking too much alcohol is linked to the following cancers:  - Oral cancer  - Esophageal cancer  - Breast cancer  - Colorectal cancer (in men)   Limit your alcohol to 2 drinks per day for men and 1 drink per day for women or none at all.</value>
+		<pattern_crowdsource> Drinking too much [[alcohol|C0001962]] is linked to the following cancers:  - Oral cancer  - Esophageal cancer  - Breast cancer  - Colorectal cancer (in men)   Limit your [[alcohol|C0001962]] to 2 drinks per day for [[men|C0025266]] and 1 drink per day for [[women|C0043210]] or none at all.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Drinking</surface-form>
+				<RDF-ID>C0013123</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancers</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Oral cancer</surface-form>
+				<RDF-ID>C0153381</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Esophageal cancer</surface-form>
+				<RDF-ID>C0152018</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Breast cancer</surface-form>
+				<RDF-ID>C0006142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Colorectal cancer</surface-form>
+				<RDF-ID>C0009402</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drinks</surface-form>
+				<RDF-ID>C0452428</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drink</surface-form>
+				<RDF-ID>C0452428</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001962 TREATS C0025266</triple>
+			<triple>C0001962 TREATS C0043210</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The virus increases the risk for cancers of the cervix, penis, vagina, anus, and throat.</value>
+		<pattern_crowdsource> The [[virus|C0042769]] increases the risk for [[cancers|C0006826]] of the cervix, penis, vagina, anus, and throat.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancers</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>penis</surface-form>
+				<RDF-ID>C0030851</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vagina</surface-form>
+				<RDF-ID>C0042232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anus</surface-form>
+				<RDF-ID>C0003461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>throat</surface-form>
+				<RDF-ID>C0230069</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042769 PREDISPOSES C0006826</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

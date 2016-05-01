@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The urethra is the tube that carries urine from the bladder to outside the body.</value>
+		<pattern_crowdsource> The [[urethra|C0041967]] is the tube that carries [[urine|C0042036]] from the bladder to outside the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>urethra</surface-form>
+				<RDF-ID>C0041967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tube</surface-form>
+				<RDF-ID>C1561954</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>outside</surface-form>
+				<RDF-ID>C0205101</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042036 PART_OF C0041967</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your child received general anesthesia before surgery to make him unconscious and unable to feel pain.</value>
+		<pattern_crowdsource> Your [[child|C0008059]] received [[general anesthesia|C0002915]] before surgery to make him unconscious and unable to feel pain.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>general anesthesia</surface-form>
+				<RDF-ID>C0002915</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>unable</surface-form>
+				<RDF-ID>C1299582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002915 ADMINISTERED_TO C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your child has a catheter, he may have bladder spasms.</value>
+		<pattern_crowdsource> If your [[child|C0008059]] has a catheter, he may have [[bladder spasms|C0426390]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder spasms</surface-form>
+				<RDF-ID>C0426390</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0426390 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You can also give your child acetaminophen (Tylenol) for pain.</value>
+		<pattern_crowdsource> You can also give your child [[acetaminophen|C0000970]] ([[Tylenol|C0699142]]) for [[pain|C0030193]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699142 ISA C0000970</triple>
+			<triple>C0000970 TREATS C0030193</triple>
+			<triple>C0699142 TREATS C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

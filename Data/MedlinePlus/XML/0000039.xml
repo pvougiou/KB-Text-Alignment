@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Acetaminophen (Tylenol) and codeine is a prescription pain medicine.</value>
+		<pattern_crowdsource> [[Acetaminophen|C0000970]] ([[Tylenol|C0699142]]) and [[codeine|C0009214]] is a prescription pain [[medicine|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>codeine</surface-form>
+				<RDF-ID>C0009214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prescription</surface-form>
+				<RDF-ID>C0033080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699142 ISA C0000970</triple>
+			<triple>C0699142 ISA C0013227</triple>
+			<triple>C0009214 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Acetaminophen combined with codeine</value>
+		<pattern_crowdsource> [[Acetaminophen|C0000970]] combined with [[codeine|C0009214]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>codeine</surface-form>
+				<RDF-ID>C0009214</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009214 COEXISTS_WITH C0000970</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Below are symptoms of an overdose of acetaminophen combined with codeine in different parts of the body.</value>
+		<pattern_crowdsource> Below are symptoms of an overdose of [[acetaminophen|C0000970]] combined with [[codeine|C0009214]] in different parts of the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Below</surface-form>
+				<RDF-ID>C0542339</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>overdose</surface-form>
+				<RDF-ID>C0029944</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>codeine</surface-form>
+				<RDF-ID>C0009214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parts</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009214 COEXISTS_WITH C0000970</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

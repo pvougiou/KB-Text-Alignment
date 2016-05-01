@@ -1,0 +1,1851 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Joe Frank Edwards, Jr. (born February 3, 1958), is a former United States Navy officer and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Joe Frank Edwards|Joe_F._Edwards,_Jr.]], Jr. (born [[February|February]] 3, 1958), is a former [[United States Navy|United_States_Navy]] officer and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Joe Frank Edwards|Joe_F._Edwards,_Jr.]], Jr. (born February 3, 1958), is a former [[United States Navy|United_States_Navy]] officer and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Edwards/NNP-3,Joe/NNP-1)
+				nn(Edwards/NNP-3,Frank/NNP-2)
+				nsubj(officer/NN-20,Edwards/NNP-3)
+				appos(Edwards/NNP-3,Jr./NNP-5)
+				dep(Edwards/NNP-3,born/VBN-7)
+				tmod(born/VBN-7,February/NNP-8)
+				num(February/NNP-8,3/CD-9)
+				num(February/NNP-8,1958/CD-11)
+				cop(officer/NN-20,is/VBZ-14)
+				det(officer/NN-20,a/DT-15)
+				amod(officer/NN-20,former/JJ-16)
+				nn(officer/NN-20,United/NNP-17)
+				nn(officer/NN-20,States/NNPS-18)
+				nn(officer/NN-20,Navy/NNP-19)
+				nn(astronaut/NN-23,NASA/NNP-22)
+				conj_and(officer/NN-20,astronaut/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Joe Frank Edwards</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joe_F._Edwards,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Joe_F._Edwards,_Jr. http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Joe_F._Edwards,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Joe_F._Edwards,_Jr. http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards was born in Richmond, Virginia, but considers Lineville, Alabama to be his hometown.	</value>
+
+		<annotated-sentence>	Edwards was born in Richmond, Virginia, but considers Lineville, Alabama to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards was born in Richmond, Virginia, but considers Lineville, Alabama to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Edwards/NNP-1)
+				nsubj(considers/VBZ-10,Edwards/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Virginia/NNP-7,Richmond/NNP-5)
+				prep_in(born/VBN-3,Virginia/NNP-7)
+				conj_but(born/VBN-3,considers/VBZ-10)
+				nn(Alabama/NNP-13,Lineville/NNP-11)
+				nsubj(hometown/NN-17,Alabama/NNP-13)
+				aux(hometown/NN-17,to/TO-14)
+				cop(hometown/NN-17,be/VB-15)
+				poss(hometown/NN-17,his/PRP$-16)
+				xcomp(considers/VBZ-10,hometown/NN-17)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Lineville High School in 1976 and earned a Bachelor of Science degree in Aerospace Engineering from the United States Naval Academy in 1980.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubj(earned/VBD-10,He/PRP-1)
+				nn(School/NNP-6,Lineville/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				prep_in(School/NNP-6,1976/CD-8)
+				conj_and(graduated/VBD-2,earned/VBD-10)
+				det(Bachelor/NN-12,a/DT-11)
+				dobj(earned/VBD-10,Bachelor/NN-12)
+				nn(degree/NN-15,Science/NNP-14)
+				prep_of(Bachelor/NN-12,degree/NN-15)
+				nn(Engineering/NNP-18,Aerospace/NNP-17)
+				prep_in(earned/VBD-10,Engineering/NNP-18)
+				det(Academy/NNP-24,the/DT-20)
+				nn(Academy/NNP-24,United/NNP-21)
+				nn(Academy/NNP-24,States/NNPS-22)
+				nn(Academy/NNP-24,Naval/NNP-23)
+				prep_from(Engineering/NNP-18,Academy/NNP-24)
+				prep_in(earned/VBD-10,1980/CD-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994, he received a Master of Science degree in Aviation Systems from University of Tennessee in Knoxville.	</value>
+
+		<annotated-sentence>	In [[1994|1994]], he received [[a Master of Science degree|Master%27s_degree]] in [[Aviation|Aviation]] Systems from [[University of Tennessee|University_of_Tennessee]] in [[Knoxville|Knoxville,_Tennessee]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1994, he received a Master of Science degree in Aviation Systems from [[University of Tennessee|University_of_Tennessee]] in [[Knoxville|Knoxville,_Tennessee]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-5,1994/CD-2)
+				nsubj(received/VBD-5,he/PRP-4)
+				det(Master/NN-7,a/DT-6)
+				dobj(received/VBD-5,Master/NN-7)
+				nn(degree/NN-10,Science/NNP-9)
+				prep_of(Master/NN-7,degree/NN-10)
+				nn(Systems/NNPS-13,Aviation/NNP-12)
+				prep_in(received/VBD-5,Systems/NNPS-13)
+				prep_from(received/VBD-5,University/NNP-15)
+				prep_of(University/NNP-15,Tennessee/NNP-17)
+				prep_in(received/VBD-5,Knoxville/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Tennessee</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Tennessee</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Knoxville</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Knoxville,_Tennessee</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/University_of_Tennessee http://dbpedia.org/ontology/city http://dbpedia.org/resource/Knoxville,_Tennessee
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards was designated a Naval Aviator in February 1982.	</value>
+
+		<annotated-sentence>	Edwards was designated [[a Naval Aviator|United_States_Naval_Aviator]] in February 1982.	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards was designated a Naval Aviator in February 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(designated/VBN-3,Edwards/NNP-1)
+				auxpass(designated/VBN-3,was/VBD-2)
+				det(Aviator/NNP-6,a/DT-4)
+				nn(Aviator/NNP-6,Naval/NNP-5)
+				dobj(designated/VBN-3,Aviator/NNP-6)
+				prep_in(Aviator/NNP-6,February/NNP-8)
+				num(February/NNP-8,1982/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Naval Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned to Fighter Squadron 143 (VF-143) in 1983, after completion of F-14 Tomcat training, and flew fighter escort and reconnaissance combat missions over Lebanon in 1983.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBD-22,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				nn(Squadron/NNP-6,Fighter/NNP-5)
+				prep_to(assigned/VBN-3,Squadron/NNP-6)
+				num(Squadron/NNP-6,143/CD-7)
+				appos(Squadron/NNP-6,VF-143/NN-9)
+				prep_in(assigned/VBN-3,1983/CD-12)
+				prep_after(assigned/VBN-3,completion/NN-15)
+				nn(training/NN-19,F-14/NN-17)
+				nn(training/NN-19,Tomcat/NN-18)
+				prep_of(completion/NN-15,training/NN-19)
+				conj_and(assigned/VBN-3,flew/VBD-22)
+				nn(escort/NN-24,fighter/NN-23)
+				dobj(flew/VBD-22,escort/NN-24)
+				nn(missions/NNS-28,reconnaissance/NN-26)
+				nn(missions/NNS-28,combat/NN-27)
+				dobj(flew/VBD-22,missions/NNS-28)
+				conj_and(escort/NN-24,missions/NNS-28)
+				prep_over(flew/VBD-22,Lebanon/NNP-30)
+				prep_in(flew/VBD-22,1983/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Navy Fighter Weapons School (TOPGUN) in 1984 and from U.S. Naval Test Pilot School in 1986.	</value>
+
+		<annotated-sentence>	He graduated from [[the Navy Fighter Weapons School|United_States_Navy_Strike_Fighter_Tactics_Instructor_program]] ([[TOPGUN|United_States_Navy_Strike_Fighter_Tactics_Instructor_program]]) in [[1984|1984]] and from [[U.S. Naval Test Pilot School|United_States_Naval_Test_Pilot_School]] in [[1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the Navy Fighter Weapons School (TOPGUN) in 1984 and from U.S. Naval Test Pilot School in 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubj(graduated/VBD-2,He/PRP-1)
+				conj_and(graduated/VBD-2,graduated/VBD-2)
+				det(School/NNP-8,the/DT-4)
+				nn(School/NNP-8,Navy/NNP-5)
+				nn(School/NNP-8,Fighter/NNP-6)
+				nn(School/NNP-8,Weapons/NNP-7)
+				prep_from(graduated/VBD-2,School/NNP-8)
+				appos(School/NNP-8,TOPGUN/NNP-10)
+				prep_in(graduated/VBD-2,1984/CD-13)
+				nn(School/NNP-20,U.S./NNP-16)
+				nn(School/NNP-20,Naval/NNP-17)
+				nn(School/NNP-20,Test/NNP-18)
+				nn(School/NNP-20,Pilot/NN-19)
+				prep_from(graduated/VBD-2,School/NNP-20)
+				prep_in(School/NNP-20,1986/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Navy Fighter Weapons School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Strike_Fighter_Tactics_Instructor_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TOPGUN</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Strike_Fighter_Tactics_Instructor_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S. Naval Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He subsequently worked as project flight test officer and pilot for F-14A (PLUS) and F-14D Full Scale Development.	</value>
+
+		<annotated-sentence>	He subsequently worked as [[project|Project]] [[flight|Flight]] test [[officer|Officer]] and pilot for [[F-14A|Grumman_F-14_Tomcat]] (PLUS) and [[F-14D|Grumman_F-14_Tomcat]] [[Full Scale|Full_scale]] Development.	</annotated-sentence>
+
+		<pattern_crowdsource>	He subsequently worked as project flight test officer and pilot for F-14A (PLUS) and F-14D Full Scale Development.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,He/PRP-1)
+				advmod(worked/VBD-3,subsequently/RB-2)
+				dep(officer/NN-8,project/NN-5)
+				nn(officer/NN-8,flight/NN-6)
+				nn(officer/NN-8,test/NN-7)
+				prep_as(worked/VBD-3,officer/NN-8)
+				prep_as(worked/VBD-3,pilot/NN-10)
+				conj_and(officer/NN-8,pilot/NN-10)
+				prep_for(worked/VBD-3,F-14A/NN-12)
+				appos(F-14A/NN-12,PLUS/NN-14)
+				prep_for(worked/VBD-3,F-14D/NN-17)
+				conj_and(F-14A/NN-12,F-14D/NN-17)
+				amod(Development/NNP-20,Full/JJ-18)
+				nn(Development/NNP-20,Scale/NNP-19)
+				dep(F-14D/NN-17,Development/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-14A</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grumman_F-14_Tomcat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-14D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grumman_F-14_Tomcat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Full Scale</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Full_scale</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew the first Navy flight of the F-14D and a high angle of attack/departure from controlled flight test program for the F-14 airframe/F110 engine integration.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				det(flight/NN-6,the/DT-3)
+				amod(flight/NN-6,first/JJ-4)
+				nn(flight/NN-6,Navy/NNP-5)
+				dobj(flew/VBD-2,flight/NN-6)
+				det(F-14D/NN-9,the/DT-8)
+				prep_of(flight/NN-6,F-14D/NN-9)
+				det(angle/NN-13,a/DT-11)
+				amod(angle/NN-13,high/JJ-12)
+				dobj(flew/VBD-2,angle/NN-13)
+				conj_and(flight/NN-6,angle/NN-13)
+				prep_of(angle/NN-13,attack/departure/NN-15)
+				amod(program/NN-20,controlled/JJ-17)
+				nn(program/NN-20,flight/NN-18)
+				nn(program/NN-20,test/NN-19)
+				prep_from(flew/VBD-2,program/NN-20)
+				det(integration/NN-26,the/DT-22)
+				nn(integration/NN-26,F-14/NN-23)
+				nn(integration/NN-26,airframe/F110/NN-24)
+				nn(integration/NN-26,engine/NN-25)
+				prep_for(program/NN-20,integration/NN-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Operations and Maintenance Officer in Fighter Squadron 142 (VF-142) from 1989 to 1992.	</value>
+
+		<annotated-sentence>	He served as [[Operations and Maintenance|Operations_and_Maintenance_Centre]] [[Officer|Officer]] in [[Fighter Squadron|Fighter_Squadron]] 142 ([[VF-142|VF-142]]) from [[1989|1989]] to [[1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as Operations and Maintenance Officer in Fighter Squadron 142 (VF-142) from 1989 to 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nn(Officer/NNP-7,Operations/NNP-4)
+				conj_and(Operations/NNP-4,Maintenance/NNP-6)
+				nn(Officer/NNP-7,Maintenance/NNP-6)
+				prep_as(served/VBD-2,Officer/NNP-7)
+				nn(Squadron/NNP-10,Fighter/NNP-9)
+				prep_in(served/VBD-2,Squadron/NNP-10)
+				num(VF-142/NN-13,142/CD-11)
+				dobj(served/VBD-2,VF-142/NN-13)
+				num(1992/CD-18,1989/CD-16)
+				dep(1992/CD-18,to/TO-17)
+				prep_from(VF-142/NN-13,1992/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Operations and Maintenance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_and_Maintenance_Centre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-142</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-142</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He worked as Operations Officer in the Operations Directorate of the Joint Chiefs of Staff, Washington, D.C. from 1992 to 1994.	</value>
+
+		<annotated-sentence>	He worked as [[Operations Officer|Operations_(military_staff)]] in [[the Operations Directorate|Operations_Directorate]] of [[the Joint Chiefs|Joint_Chiefs_of_Staff]] of Staff, Washington, D.C. from [[1992|1992]] to [[1994|1994]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He worked as Operations Officer in the Operations Directorate of the Joint Chiefs of Staff, Washington, D.C. from 1992 to 1994.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,He/PRP-1)
+				nn(Officer/NNP-5,Operations/NNP-4)
+				prep_as(worked/VBD-2,Officer/NNP-5)
+				det(Directorate/NNP-9,the/DT-7)
+				nn(Directorate/NNP-9,Operations/NNP-8)
+				prep_in(Officer/NNP-5,Directorate/NNP-9)
+				det(Chiefs/NNPS-13,the/DT-11)
+				nn(Chiefs/NNPS-13,Joint/NNP-12)
+				prep_of(Directorate/NNP-9,Chiefs/NNPS-13)
+				nn(D.C./NNP-19,Staff/NNP-15)
+				appos(D.C./NNP-19,Washington/NNP-17)
+				prep_of(Chiefs/NNPS-13,D.C./NNP-19)
+				prep_from(D.C./NNP-19,1992/CD-21)
+				prep_to(worked/VBD-2,1994/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Operations Directorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_Directorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Joint Chiefs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Chiefs_of_Staff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has flown 4,000 hours in over 25 different aircraft and logged over 650 carrier-arrested landings.	</value>
+
+		<annotated-sentence>	He has flown 4,000 [[hours|Hour]] in over 25 different [[aircraft|Aircraft]] and logged over 650 carrier-arrested [[landings|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has flown 4,000 hours in over 25 different aircraft and logged over 650 carrier-arrested landings.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,He/PRP-1)
+				nsubj(logged/VBD-12,He/PRP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(hours/NNS-5,4,000/CD-4)
+				npadvmod(in/IN-6,hours/NNS-5)
+				advmod(flown/VBN-3,in/IN-6)
+				num(aircraft/NN-10,25/CD-8)
+				amod(aircraft/NN-10,different/JJ-9)
+				prep_over(flown/VBN-3,aircraft/NN-10)
+				conj_and(flown/VBN-3,logged/VBD-12)
+				num(landings/NNS-16,650/CD-14)
+				amod(landings/NNS-16,carrier-arrested/JJ-15)
+				prep_over(logged/VBD-12,landings/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On October 13, 1991, while serving as maintenance officer of VF-142, he was flying in the Persian Gulf at Mach 0.9 at 29,000 feet (8,800 m) when the radome separated from his airplane, impacted, and destroyed his canopy.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(flying/VBG-17,October/NNP-2)
+				num(October/NNP-2,13/CD-3)
+				num(October/NNP-2,1991/CD-5)
+				mark(serving/VBG-8,while/IN-7)
+				advcl(flying/VBG-17,serving/VBG-8)
+				nn(officer/NN-11,maintenance/NN-10)
+				prep_as(serving/VBG-8,officer/NN-11)
+				prep_of(officer/NN-11,VF-142/NN-13)
+				nsubj(flying/VBG-17,he/PRP-15)
+				nsubj(destroyed/VBD-43,he/PRP-15)
+				aux(flying/VBG-17,was/VBD-16)
+				det(Gulf/NNP-21,the/DT-19)
+				nn(Gulf/NNP-21,Persian/NNP-20)
+				prep_in(flying/VBG-17,Gulf/NNP-21)
+				prep_at(flying/VBG-17,Mach/NNP-23)
+				num(Mach/NNP-23,0.9/CD-24)
+				num(feet/NNS-27,29,000/CD-26)
+				prep_at(flying/VBG-17,feet/NNS-27)
+				num(m/NN-30,8,800/CD-29)
+				appos(feet/NNS-27,m/NN-30)
+				advmod(separated/VBN-35,when/WRB-32)
+				det(radome/NN-34,the/DT-33)
+				nsubj(separated/VBN-35,radome/NN-34)
+				rcmod(feet/NNS-27,separated/VBN-35)
+				poss(airplane/NN-38,his/PRP$-37)
+				prep_from(separated/VBN-35,airplane/NN-38)
+				partmod(airplane/NN-38,impacted/VBN-40)
+				conj_and(flying/VBG-17,destroyed/VBD-43)
+				poss(canopy/NN-45,his/PRP$-44)
+				dobj(destroyed/VBD-43,canopy/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	With a blinded eye, collapsed lung, broken arm and no communications or flight instruments, he recovered his "convertible" Tomcat with his Radar Intercept Officer LCDR Scott Grundmeier hunkered down in the rear cockpit and landed aboard the USS Dwight D. Eisenhower.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(eye/NN-4,a/DT-2)
+				amod(eye/NN-4,blinded/JJ-3)
+				prep_with(recovered/VBD-19,eye/NN-4)
+				parataxis(recovered/VBD-19,collapsed/VBD-6)
+				nsubj(collapsed/VBD-6,lung/NN-7)
+				amod(arm/NN-10,broken/JJ-9)
+				nsubj(collapsed/VBD-6,arm/NN-10)
+				conj_and(lung/NN-7,arm/NN-10)
+				det(communications/NNS-13,no/DT-12)
+				nsubj(collapsed/VBD-6,communications/NNS-13)
+				conj_and(lung/NN-7,communications/NNS-13)
+				nn(instruments/NNS-16,flight/NN-15)
+				conj_and(lung/NN-7,instruments/NNS-16)
+				conj_or(communications/NNS-13,instruments/NNS-16)
+				nsubj(recovered/VBD-19,he/PRP-18)
+				poss(Tomcat/NN-24,his/PRP$-20)
+				amod(Tomcat/NN-24,convertible/JJ-22)
+				nsubj(hunkered/VBD-33,Tomcat/NN-24)
+				nsubj(landed/VBD-40,Tomcat/NN-24)
+				poss(Grundmeier/NNP-32,his/PRP$-26)
+				nn(Grundmeier/NNP-32,Radar/NNP-27)
+				nn(Grundmeier/NNP-32,Intercept/NNP-28)
+				nn(Grundmeier/NNP-32,Officer/NNP-29)
+				nn(Grundmeier/NNP-32,LCDR/NNP-30)
+				nn(Grundmeier/NNP-32,Scott/NNP-31)
+				prep_with(Tomcat/NN-24,Grundmeier/NNP-32)
+				ccomp(recovered/VBD-19,hunkered/VBD-33)
+				prt(hunkered/VBD-33,down/RP-34)
+				det(cockpit/NN-38,the/DT-36)
+				amod(cockpit/NN-38,rear/JJ-37)
+				prep_in(hunkered/VBD-33,cockpit/NN-38)
+				ccomp(recovered/VBD-19,landed/VBD-40)
+				conj_and(hunkered/VBD-33,landed/VBD-40)
+				det(Eisenhower/NNP-46,the/DT-42)
+				nn(Eisenhower/NNP-46,USS/NNP-43)
+				nn(Eisenhower/NNP-46,Dwight/NNP-44)
+				nn(Eisenhower/NNP-46,D./NNP-45)
+				prep_aboard(landed/VBD-40,Eisenhower/NNP-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded the Distinguished Flying Cross for this superior display of airmanship under grave circumstances.	</value>
+
+		<annotated-sentence>	He was awarded the Distinguished Flying Cross for this superior display of [[airmanship|Airmanship]] under grave circumstances.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded the Distinguished Flying Cross for this superior display of airmanship under grave circumstances.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(Cross/NNP-7,the/DT-4)
+				nn(Cross/NNP-7,Distinguished/NNP-5)
+				nn(Cross/NNP-7,Flying/NNP-6)
+				dobj(awarded/VBN-3,Cross/NNP-7)
+				det(display/NN-11,this/DT-9)
+				amod(display/NN-11,superior/JJ-10)
+				prep_for(Cross/NNP-7,display/NN-11)
+				prep_of(display/NN-11,airmanship/NN-13)
+				amod(circumstances/NNS-16,grave/JJ-15)
+				prep_under(awarded/VBN-3,circumstances/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>airmanship</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airmanship</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards is a member of the Society of Experimental Test Pilots, Association of Naval Aviation, and the U.S. Naval Institute.	</value>
+
+		<annotated-sentence>	Edwards is a member of [[the Society of Experimental Test Pilots|Society_of_Experimental_Test_Pilots]], Association of [[Naval Aviation|Naval_aviation]], and [[the U.S. Naval Institute|United_States_Naval_Institute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards is a member of the Society of Experimental Test Pilots, Association of Naval Aviation, and the U.S. Naval Institute.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Edwards/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Society/NNP-7,the/DT-6)
+				prep_of(member/NN-4,Society/NNP-7)
+				amod(Pilots/NNS-11,Experimental/JJ-9)
+				nn(Pilots/NNS-11,Test/NN-10)
+				prep_of(Society/NNP-7,Pilots/NNS-11)
+				conj_and(member/NN-4,Association/NNP-13)
+				nn(Aviation/NNP-16,Naval/NNP-15)
+				prep_of(Association/NNP-13,Aviation/NNP-16)
+				det(Institute/NNP-22,the/DT-19)
+				nn(Institute/NNP-22,U.S./NNP-20)
+				nn(Institute/NNP-22,Naval/NNP-21)
+				conj_and(member/NN-4,Institute/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Society of Experimental Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society_of_Experimental_Test_Pilots</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Institute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has received the Defense Superior Service Medal, Distinguished Flying Cross, Defense Meritorious Service Medal, Air Medal, Navy Commendation Medal, Navy Achievement Medal, Daedalian Superior Airmanship Award 1992, Fighter Squadron 143 Fighter Pilot of the Year, 1984, 1985, Fighter Squadron 142 Fighter Pilot of the Year, 1990, 1991, 1992.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBN-3,He/PRP-1)
+				aux(received/VBN-3,has/VBZ-2)
+				det(Medal/NN-8,the/DT-4)
+				nn(Medal/NN-8,Defense/NNP-5)
+				nn(Medal/NN-8,Superior/NNP-6)
+				nn(Medal/NN-8,Service/NNP-7)
+				dobj(received/VBN-3,Medal/NN-8)
+				partmod(Medal/NN-8,Distinguished/VBN-10)
+				nn(Cross/NNP-12,Flying/NNP-11)
+				nsubj(1992/CD-62,Cross/NNP-12)
+				nn(Medal/NN-17,Defense/NNP-14)
+				nn(Medal/NN-17,Meritorious/NNP-15)
+				nn(Medal/NN-17,Service/NNP-16)
+				appos(Cross/NNP-12,Medal/NN-17)
+				nn(Medal/NN-20,Air/NNP-19)
+				appos(Cross/NNP-12,Medal/NN-20)
+				nn(Commendation/NNP-23,Navy/NNP-22)
+				appos(Cross/NNP-12,Commendation/NNP-23)
+				dep(Commendation/NNP-23,Medal/NN-24)
+				nn(Medal/NN-28,Navy/NNP-26)
+				nn(Medal/NN-28,Achievement/NNP-27)
+				appos(Cross/NNP-12,Medal/NN-28)
+				nn(Award/NN-33,Daedalian/NNP-30)
+				nn(Award/NN-33,Superior/NNP-31)
+				nn(Award/NN-33,Airmanship/NNP-32)
+				appos(Cross/NNP-12,Award/NN-33)
+				num(Award/NN-33,1992/CD-34)
+				nn(Squadron/NNP-37,Fighter/NNP-36)
+				appos(Cross/NNP-12,Squadron/NNP-37)
+				num(Pilot/NN-40,143/CD-38)
+				nn(Pilot/NN-40,Fighter/NNP-39)
+				dep(Squadron/NNP-37,Pilot/NN-40)
+				det(Year/NN-43,the/DT-42)
+				prep_of(Pilot/NN-40,Year/NN-43)
+				amod(Cross/NNP-12,1984/CD-45)
+				amod(Cross/NNP-12,1985/CD-47)
+				nn(Squadron/NNP-50,Fighter/NNP-49)
+				appos(Cross/NNP-12,Squadron/NNP-50)
+				num(Pilot/NN-53,142/CD-51)
+				nn(Pilot/NN-53,Fighter/NNP-52)
+				dep(Squadron/NNP-50,Pilot/NN-53)
+				det(Year/NN-56,the/DT-55)
+				prep_of(Pilot/NN-53,Year/NN-56)
+				amod(Cross/NNP-12,1990/CD-58)
+				amod(Cross/NNP-12,1991/CD-60)
+				xcomp(Distinguished/VBN-10,1992/CD-62)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Carrier Air Wing 7 Pilot of the Year, 1985, 1990, 1991.	</value>
+
+		<annotated-sentence>	Carrier Air Wing 7 Pilot of [[the Year|Year]], [[1985|1985]], [[1990|1990]], [[1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Carrier Air Wing 7 Pilot of [[the Year|Year]], [[1985|1985]], [[1990|1990]], [[1991|1991]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Wing/NN-3,Carrier/NN-1)
+				nn(Wing/NN-3,Air/NN-2)
+				num(Pilot/NN-5,7/CD-4)
+				dep(Wing/NN-3,Pilot/NN-5)
+				det(Year/NN-8,the/DT-7)
+				prep_of(Pilot/NN-5,Year/NN-8)
+				amod(Year/NN-8,1985/CD-10)
+				amod(Year/NN-8,1990/CD-12)
+				amod(Year/NN-8,1991/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1985 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/1990 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/1991 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards was selected as an astronaut by NASA in December 1994.	</value>
+
+		<annotated-sentence>	Edwards was selected as [[an astronaut|Astronaut]] by [[NASA|NASA]] in [[December 1994|1994]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards was selected as an astronaut by NASA in December 1994.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Edwards/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(selected/VBN-3,astronaut/NN-6)
+				agent(selected/VBN-3,NASA/NNP-8)
+				prep_in(NASA/NNP-8,December/NNP-10)
+				num(December/NNP-10,1994/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards reported to the Johnson Space Center in March 1995.	</value>
+
+		<annotated-sentence>	Edwards reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[March 1995|1995]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards reported to the Johnson Space Center in March 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reported/VBD-2,Edwards/NNP-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Johnson/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_to(reported/VBD-2,Center/NNP-7)
+				prep_in(reported/VBD-2,March/NNP-9)
+				num(March/NNP-9,1995/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He worked on technical issues for the Space Shuttle and International Space Station in the Safety Department of the Astronaut Office.	</value>
+
+		<annotated-sentence>	He worked on technical issues for [[the Space Shuttle|SpaceShuttle]] and [[International Space Station|International_Space_Station]] in the Safety Department of [[the Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He worked on technical issues for the Space Shuttle and International Space Station in the Safety Department of the Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,He/PRP-1)
+				amod(issues/NNS-5,technical/JJ-4)
+				prep_on(worked/VBD-2,issues/NNS-5)
+				det(Space/NN-8,the/DT-7)
+				prep_for(worked/VBD-2,Space/NN-8)
+				appos(Space/NN-8,Shuttle/NNP-9)
+				nn(Station/NNP-13,International/NNP-11)
+				nn(Station/NNP-13,Space/NNP-12)
+				prep_for(worked/VBD-2,Station/NNP-13)
+				conj_and(Space/NN-8,Station/NNP-13)
+				det(Department/NNP-17,the/DT-15)
+				nn(Department/NNP-17,Safety/NNP-16)
+				prep_in(Station/NNP-13,Department/NNP-17)
+				det(Office/NNP-21,the/DT-19)
+				nn(Office/NNP-21,Astronaut/NNP-20)
+				prep_of(Department/NNP-17,Office/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as Technical Assistant to the Director, Flight Crew Operations Directorate, NASA Director of Operations (DOR), Russia, and Astronaut CAPCOM representative in Mission Control for Shuttle ascent and entry.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				nn(Assistant/NNP-6,Technical/NNP-5)
+				prep_as(served/VBD-3,Assistant/NNP-6)
+				det(Director/NNP-9,the/DT-8)
+				prep_to(served/VBD-3,Director/NNP-9)
+				nn(Directorate/NNP-14,Flight/NNP-11)
+				nn(Directorate/NNP-14,Crew/NNP-12)
+				nn(Directorate/NNP-14,Operations/NNP-13)
+				appos(Director/NNP-9,Directorate/NNP-14)
+				nn(Director/NNP-17,NASA/NNP-16)
+				appos(Director/NNP-9,Director/NNP-17)
+				prep_of(Director/NNP-17,Operations/NNP-19)
+				appos(Operations/NNP-19,DOR/NNP-21)
+				appos(Director/NNP-9,Russia/NNP-24)
+				nn(representative/NN-29,Astronaut/NNP-27)
+				nn(representative/NN-29,CAPCOM/NNP-28)
+				prep_to(served/VBD-3,representative/NN-29)
+				conj_and(Director/NNP-9,representative/NN-29)
+				nn(Control/NNP-32,Mission/NNP-31)
+				prep_in(representative/NN-29,Control/NNP-32)
+				nn(ascent/NN-35,Shuttle/NNP-34)
+				prep_for(Control/NNP-32,ascent/NN-35)
+				prep_for(Control/NNP-32,entry/NN-37)
+				conj_and(ascent/NN-35,entry/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards flew on STS-89 (January 22–31, 1998), the eighth Shuttle-Mir docking mission, during which the crew transferred more than 9,000 pounds (4,100 kg) of scientific equipment, logistical hardware and water from Space Shuttle Endeavour to Mir.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Edwards/NNP-1)
+				prep_on(flew/VBD-2,STS-89/NN-4)
+				dep(STS-89/NN-4,January/NNP-6)
+				num(January/NNP-6,22/CD-7)
+				dep(January/NNP-6,31/CD-9)
+				amod(31/CD-9,1998/CD-11)
+				det(mission/NN-18,the/DT-14)
+				amod(mission/NN-18,eighth/JJ-15)
+				amod(mission/NN-18,Shuttle-Mir/JJ-16)
+				nn(mission/NN-18,docking/NN-17)
+				appos(STS-89/NN-4,mission/NN-18)
+				prep_during(transferred/VBD-24,which/WDT-21)
+				det(crew/NN-23,the/DT-22)
+				nsubj(transferred/VBD-24,crew/NN-23)
+				rcmod(STS-89/NN-4,transferred/VBD-24)
+				mwe(than/IN-26,more/JJR-25)
+				quantmod(9,000/CD-27,than/IN-26)
+				num(pounds/NNS-28,9,000/CD-27)
+				dobj(transferred/VBD-24,pounds/NNS-28)
+				num(kg/NN-31,4,100/CD-30)
+				appos(pounds/NNS-28,kg/NN-31)
+				amod(equipment/NN-35,scientific/JJ-34)
+				prep_of(pounds/NNS-28,equipment/NN-35)
+				amod(hardware/NN-38,logistical/JJ-37)
+				prep_of(pounds/NNS-28,hardware/NN-38)
+				conj_and(equipment/NN-35,hardware/NN-38)
+				prep_of(pounds/NNS-28,water/NN-40)
+				conj_and(equipment/NN-35,water/NN-40)
+				nn(Endeavour/NNP-44,Space/NN-42)
+				nn(Endeavour/NNP-44,Shuttle/NNP-43)
+				prep_from(transferred/VBD-24,Endeavour/NNP-44)
+				prep_to(transferred/VBD-24,Mir/NNS-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the fifth and last exchange of a U.S. astronaut, STS-89 delivered Andy Thomas to Mir and returned with David Wolf.	</value>
+
+		<annotated-sentence>	In [[the fifth and last exchange|Montour_County,_Pennsylvania]] of a [[U.S.|United_States]] [[astronaut|Astronaut]], [[STS-89|STS-89]] delivered [[Andy Thomas|Andy_Thomas]] to Mir and returned with [[David Wolf|David_Wolf_(astronaut)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In the fifth and last exchange of a [[U.S.|United_States]] [[astronaut|Astronaut]], [[STS-89|STS-89]] delivered [[Andy Thomas|Andy_Thomas]] to Mir and returned with [[David Wolf|David_Wolf_(astronaut)]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(exchange/NN-6,the/DT-2)
+				amod(exchange/NN-6,fifth/JJ-3)
+				conj_and(fifth/JJ-3,last/JJ-5)
+				amod(exchange/NN-6,last/JJ-5)
+				prep_in(delivered/VBN-13,exchange/NN-6)
+				det(astronaut/NN-10,a/DT-8)
+				nn(astronaut/NN-10,U.S./NNP-9)
+				prep_of(exchange/NN-6,astronaut/NN-10)
+				nsubj(delivered/VBN-13,STS-89/NN-12)
+				nsubj(returned/VBD-19,STS-89/NN-12)
+				nn(Thomas/NNP-15,Andy/NNP-14)
+				dobj(delivered/VBN-13,Thomas/NNP-15)
+				prep_to(Thomas/NNP-15,Mir/NNS-17)
+				conj_and(delivered/VBN-13,returned/VBD-19)
+				nn(Wolf/NNP-22,David/NNP-21)
+				prep_with(returned/VBD-19,Wolf/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the fifth and last exchange</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Montour_County,_Pennsylvania</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-89</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-89</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Andy Thomas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andy_Thomas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Wolf</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Wolf_(astronaut)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andy_Thomas http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Wolf_(astronaut) http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andy_Thomas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Wolf_(astronaut) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Andy_Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-89
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-89 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/David_Wolf_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-89 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/David_Wolf_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Wolf_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-89
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 8 days, 19 hours and 47 seconds, traveling 3.6 million miles (5.8 million km) in 138 orbits of the Earth.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was [[8 days|8_Days_(magazine)]], 19 [[hours|Hour]] and 47 seconds, traveling 3.6 [[million|Million_(band)]] [[miles|Mile]] (5.8 million km) in 138 orbits of [[the Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 8 days, 19 hours and 47 seconds, traveling 3.6 million miles (5.8 million km) in 138 orbits of the Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(days/NNS-5,duration/NN-2)
+				cop(days/NNS-5,was/VBD-3)
+				num(days/NNS-5,8/CD-4)
+				num(hours/NNS-8,19/CD-7)
+				conj_and(days/NNS-5,hours/NNS-8)
+				num(seconds/NNS-11,47/CD-10)
+				conj_and(days/NNS-5,seconds/NNS-11)
+				partmod(days/NNS-5,traveling/VBG-13)
+				number(million/CD-15,3.6/CD-14)
+				num(miles/NNS-16,million/CD-15)
+				dobj(traveling/VBG-13,miles/NNS-16)
+				dep(miles/NNS-16,5.8/CD-18)
+				num(km/NN-20,million/CD-19)
+				dep(5.8/CD-18,km/NN-20)
+				num(orbits/NNS-24,138/CD-23)
+				prep_in(traveling/VBG-13,orbits/NNS-24)
+				det(Earth/NNP-27,the/DT-26)
+				prep_of(orbits/NNS-24,Earth/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>8 days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/8_Days_(magazine)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edwards retired from NASA and the U.S. Navy on April 30, 2000.	</value>
+
+		<annotated-sentence>	Edwards retired from [[NASA|NASA]] and [[the U.S. Navy|United_States_Navy]] on April 30, 2000.	</annotated-sentence>
+
+		<pattern_crowdsource>	Edwards retired from NASA and the U.S. Navy on April 30, 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Edwards/NNP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				det(Navy/NNP-8,the/DT-6)
+				nn(Navy/NNP-8,U.S./NNP-7)
+				prep_from(retired/VBD-2,Navy/NNP-8)
+				conj_and(NASA/NNP-4,Navy/NNP-8)
+				prep_on(retired/VBD-2,April/NNP-10)
+				num(April/NNP-10,30/CD-11)
+				num(April/NNP-10,2000/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently involved with several companies around the country in the areas of technology, aviation, and business development.	</value>
+
+		<annotated-sentence>	He is currently involved with [[several companies|Company]] around [[the country|United_States]] in [[the areas|Electric_Area]] of technology, aviation, and [[business development|Business_development]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently involved with several companies around [[the country|United_States]] in [[the areas|Electric_Area]] of technology, aviation, and business development.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(involved/VBN-4,He/PRP-1)
+				auxpass(involved/VBN-4,is/VBZ-2)
+				advmod(involved/VBN-4,currently/RB-3)
+				amod(companies/NNS-7,several/JJ-6)
+				prep_with(involved/VBN-4,companies/NNS-7)
+				det(country/NN-10,the/DT-9)
+				prep_around(involved/VBN-4,country/NN-10)
+				det(areas/NNS-13,the/DT-12)
+				prep_in(country/NN-10,areas/NNS-13)
+				nn(aviation/NN-17,technology/NN-15)
+				prep_of(areas/NNS-13,aviation/NN-17)
+				nn(development/NN-21,business/NN-20)
+				prep_of(areas/NNS-13,development/NN-21)
+				conj_and(aviation/NN-17,development/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>several companies</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the country</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the areas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electric_Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>business development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business_development</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Electric_Area http://dbpedia.org/property/area http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to the former Janet Leigh Ragan of Leonardtown, Maryland.	</value>
+
+		<annotated-sentence>	He is married to the former [[Janet Leigh|Janet_Leigh]] Ragan of [[Leonardtown , Maryland|Leonardtown,_Maryland]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married to the former Janet Leigh Ragan of Leonardtown, Maryland.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Ragan/NNP-9,the/DT-5)
+				amod(Ragan/NNP-9,former/JJ-6)
+				nn(Ragan/NNP-9,Janet/NNP-7)
+				nn(Ragan/NNP-9,Leigh/NNP-8)
+				prep_to(married/VBN-3,Ragan/NNP-9)
+				nn(Maryland/NNP-13,Leonardtown/NNP-11)
+				prep_of(Ragan/NNP-9,Maryland/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Janet Leigh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Janet_Leigh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Leonardtown , Maryland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leonardtown,_Maryland</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He enjoys basketball, running, football and softball.	</value>
+
+		<annotated-sentence>	He enjoys [[basketball|Basketball]], running, football and [[softball|Softball]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He enjoys basketball, running, football and softball.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-2,He/PRP-1)
+				dobj(enjoys/VBZ-2,basketball/NN-3)
+				appos(basketball/NN-3,running/VBG-5)
+				appos(basketball/NN-3,football/NN-7)
+				conj_and(running/VBG-5,football/NN-7)
+				appos(basketball/NN-3,softball/NN-9)
+				conj_and(running/VBG-5,softball/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>basketball</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Basketball</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>softball</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Softball</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His parents, Joe Frank and Jane McMurray Edwards, reside in Roanoke, Alabama.	</value>
+
+		<annotated-sentence>	His [[parents|Parent]], [[Joe Frank|Joe_Frank]] and Jane McMurray Edwards, reside in [[Roanoke , Alabama|Roanoke,_Alabama]]	</annotated-sentence>
+
+		<pattern_crowdsource>	His parents, Joe Frank and Jane McMurray Edwards, reside in Roanoke, Alabama.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(parents/NNS-2,His/PRP$-1)
+				nsubj(reside/VBP-11,parents/NNS-2)
+				nn(Frank/NNP-5,Joe/NNP-4)
+				appos(parents/NNS-2,Frank/NNP-5)
+				nn(Edwards/NNP-9,Jane/NNP-7)
+				nn(Edwards/NNP-9,McMurray/NNP-8)
+				appos(parents/NNS-2,Edwards/NNP-9)
+				conj_and(Frank/NNP-5,Edwards/NNP-9)
+				nn(Alabama/NNP-15,Roanoke/NNP-13)
+				prep_in(reside/VBP-11,Alabama/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Joe Frank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joe_Frank</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roanoke , Alabama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Roanoke,_Alabama</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

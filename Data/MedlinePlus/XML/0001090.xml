@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cytochrome b5 reductase is an enzyme in the blood.</value>
+		<pattern_crowdsource> [[Cytochrome b5 reductase|C0056921]] is an [[enzyme|C0014442]] in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cytochrome b5 reductase</surface-form>
+				<RDF-ID>C0056921</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>enzyme</surface-form>
+				<RDF-ID>C0014442</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0056921 ISA C0014442</triple>
+			<triple>C0005767 LOCATION_OF C0014442</triple>
+			<triple>C0005767 LOCATION_OF C0056921</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It controls the amount of iron in your red blood cells, and helps the cells carry the normal amount of oxygen.</value>
+		<pattern_crowdsource> It controls the amount of iron in your red blood cells, and helps the [[cells|C0007634]] carry the normal amount of [[oxygen|C0030054]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>iron</surface-form>
+				<RDF-ID>C0302583</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030054 PART_OF C0007634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

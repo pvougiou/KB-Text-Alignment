@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The CSF-VDRL test is used to help diagnose neurosyphilis.</value>
+		<pattern_crowdsource> The [[CSF-VDRL test|C1254643]] is used to help diagnose [[neurosyphilis|C0027927]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>CSF-VDRL test</surface-form>
+				<RDF-ID>C1254643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neurosyphilis</surface-form>
+				<RDF-ID>C0027927</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1254643 DIAGNOSES C0027927</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The CSF-VDRL test is done to diagnose syphilis in the brain or spinal cord.</value>
+		<pattern_crowdsource> The [[CSF-VDRL test|C1254643]] is done to diagnose [[syphilis|C0039128]] in the [[brain|C0006104]] or [[spinal cord|C0037925]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>CSF-VDRL test</surface-form>
+				<RDF-ID>C1254643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>spinal cord</surface-form>
+				<RDF-ID>C0037925</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1254643 DIAGNOSES C0039128</triple>
+			<triple>C0006104 LOCATION_OF C0039128</triple>
+			<triple>C0037925 LOCATION_OF C0039128</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

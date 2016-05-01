@@ -1,0 +1,2017 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Douglas Gerald Hurley (born October 21, 1966) is an engineer and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Douglas Gerald Hurley|Douglas_G._Hurley]] (born October 21, 1966) is [[an engineer|Engineer]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Douglas Gerald Hurley|Douglas_G._Hurley]] (born October 21, 1966) is an engineer and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hurley/NNP-3,Douglas/NNP-1)
+				nn(Hurley/NNP-3,Gerald/NNP-2)
+				nsubj(engineer/NN-13,Hurley/NNP-3)
+				dep(Hurley/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,October/NNP-6)
+				num(October/NNP-6,21/CD-7)
+				num(October/NNP-6,1966/CD-9)
+				cop(engineer/NN-13,is/VBZ-11)
+				det(engineer/NN-13,an/DT-12)
+				nn(astronaut/NN-16,NASA/NNP-15)
+				conj_and(engineer/NN-13,astronaut/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Douglas Gerald Hurley</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_G._Hurley</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He piloted Space Shuttle mission STS-127, which launched July 15, 2009.	</value>
+
+		<annotated-sentence>	He piloted [[Space Shuttle|SpaceShuttle]] mission [[STS-127|STS-127]], which launched [[July|July]] 15, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	He piloted Space Shuttle mission [[STS-127|STS-127]], which launched July 15, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(piloted/VBD-2,He/PRP-1)
+				nn(STS-127/NN-6,Space/NNP-3)
+				nn(STS-127/NN-6,Shuttle/NNP-4)
+				nn(STS-127/NN-6,mission/NN-5)
+				dobj(piloted/VBD-2,STS-127/NN-6)
+				nsubj(launched/VBD-9,which/WDT-8)
+				rcmod(STS-127/NN-6,launched/VBD-9)
+				tmod(launched/VBD-9,July/NNP-10)
+				num(July/NNP-10,15/CD-11)
+				num(July/NNP-10,2009/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-127</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-127</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-127
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-127 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Douglas_G._Hurley
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-127 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Douglas_G._Hurley
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned and flew as pilot for STS-135, the final flight of the Space Shuttle program, in July 2011.	</value>
+
+		<annotated-sentence>	He was assigned and flew as pilot for [[STS-135|STS-135]], [[the final flight|Flight]] of [[the Space Shuttle program|Space_Shuttle_program]], in [[July 2011|July_2011]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was assigned and flew as pilot for [[STS-135|STS-135]], the final flight of [[the Space Shuttle program|Space_Shuttle_program]], in July 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBN-5,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				conj_and(assigned/VBN-3,flew/VBN-5)
+				prep_as(assigned/VBN-3,pilot/NN-7)
+				prep_for(pilot/NN-7,STS-135/NN-9)
+				det(flight/NN-13,the/DT-11)
+				amod(flight/NN-13,final/JJ-12)
+				appos(STS-135/NN-9,flight/NN-13)
+				det(program/NN-18,the/DT-15)
+				nn(program/NN-18,Space/NN-16)
+				nn(program/NN-18,Shuttle/NN-17)
+				prep_of(flight/NN-13,program/NN-18)
+				prep_in(STS-135/NN-9,July/NNP-21)
+				num(July/NNP-21,2011/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-135</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-135</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the final flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2011</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-135
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-135 http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also the first Marine to fly the F/A-18 E/F Super Hornet.	</value>
+
+		<annotated-sentence>	He is also the first Marine to fly the F/A-18 E/F Super Hornet.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also the first Marine to fly the F/A-18 E/F Super Hornet.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Marine/NNP-6,He/PRP-1)
+				cop(Marine/NNP-6,is/VBZ-2)
+				advmod(Marine/NNP-6,also/RB-3)
+				det(Marine/NNP-6,the/DT-4)
+				amod(Marine/NNP-6,first/JJ-5)
+				aux(fly/VB-8,to/TO-7)
+				infmod(Marine/NNP-6,fly/VB-8)
+				det(E/F/NN-12,the/DT-9)
+				nn(E/F/NN-12,F/A/NN-10)
+				num(E/F/NN-12,-18/CD-11)
+				nsubj(Hornet/NNP-14,E/F/NN-12)
+				nn(Hornet/NNP-14,Super/NNP-13)
+				xcomp(fly/VB-8,Hornet/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley was born on October 21, 1966 in Endicott, New York.	</value>
+
+		<annotated-sentence>	Hurley was born on October 21, 1966 in [[Endicott|Endicott,_New_York]], [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hurley was born on October 21, 1966 in [[Endicott|Endicott,_New_York]], [[New York|New_York]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Hurley/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,October/NNP-5)
+				num(October/NNP-5,21/CD-6)
+				num(October/NNP-5,1966/CD-8)
+				prep_in(born/VBN-3,Endicott/NNP-10)
+				nn(York/NNP-13,New/NNP-12)
+				appos(Endicott/NNP-10,York/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Endicott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endicott,_New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Endicott,_New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Endicott,_New_York http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Owego Free Academy in Owego, New York in 1984.	</value>
+
+		<annotated-sentence>	He graduated from the Owego [[Free Academy|Elmira_Free_Academy]] in Owego, [[New York|New_York]] in [[1984|1984]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the Owego [[Free Academy|Elmira_Free_Academy]] in Owego, [[New York|New_York]] in 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				det(Academy/NNP-7,the/DT-4)
+				nn(Academy/NNP-7,Owego/NNP-5)
+				nn(Academy/NNP-7,Free/NNP-6)
+				prep_from(graduated/VBD-2,Academy/NNP-7)
+				prep_in(graduated/VBD-2,Owego/NNP-9)
+				nn(York/NNP-12,New/NNP-11)
+				appos(Owego/NNP-9,York/NNP-12)
+				prep_in(York/NNP-12,1984/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Free Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Elmira_Free_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Elmira_Free_Academy http://dbpedia.org/ontology/state http://dbpedia.org/resource/New_York
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated magna cum laude with honors from Tulane University, earning his B.S.E. in civil engineering in 1988.	</value>
+
+		<annotated-sentence>	He graduated [[magna cum laude|Latin_honors]] with [[honors|Latin_honors]] from [[Tulane University|Tulane_University]], earning [[his B.S.E.|Bachelor_of_Engineering]] in [[civil engineering|Civil_engineering]] in [[1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated magna cum laude with honors from Tulane University, earning his B.S.E. in civil engineering in 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(laude/NN-5,magna/NN-3)
+				nn(laude/NN-5,cum/NN-4)
+				dobj(graduated/VBD-2,laude/NN-5)
+				prep_with(laude/NN-5,honors/NNS-7)
+				nn(University/NNP-10,Tulane/NNP-9)
+				prep_from(graduated/VBD-2,University/NNP-10)
+				partmod(graduated/VBD-2,earning/VBG-12)
+				poss(B.S.E./NNP-14,his/PRP$-13)
+				dobj(earning/VBG-12,B.S.E./NNP-14)
+				amod(engineering/NN-17,civil/JJ-16)
+				prep_in(earning/VBG-12,engineering/NN-17)
+				prep_in(engineering/NN-17,1988/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>magna cum laude</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Latin_honors</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>honors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Latin_honors</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tulane University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tulane_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his B.S.E.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>civil engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Civil_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a distinguished graduate from both Tulane's NROTC program and from USMC Officer Candidates School.	</value>
+
+		<annotated-sentence>	He was also a distinguished graduate from both Tulane's NROTC program and from [[USMC|United_States_Marine_Corps]] [[Officer Candidates School|Officer_candidate]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a distinguished graduate from both Tulane's NROTC program and from [[USMC|United_States_Marine_Corps]] Officer Candidates School.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-6,He/PRP-1)
+				cop(graduate/NN-6,was/VBD-2)
+				advmod(graduate/NN-6,also/RB-3)
+				det(graduate/NN-6,a/DT-4)
+				amod(graduate/NN-6,distinguished/JJ-5)
+				det(Tulane/NNP-9,both/DT-8)
+				poss(program/NN-12,Tulane/NNP-9)
+				nn(program/NN-12,NROTC/NNP-11)
+				prep_from(graduate/NN-6,program/NN-12)
+				nn(School/NNP-18,USMC/NNP-15)
+				nn(School/NNP-18,Officer/NNP-16)
+				nn(School/NNP-18,Candidates/NNP-17)
+				prep_from(graduate/NN-6,School/NNP-18)
+				conj_and(program/NN-12,School/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>USMC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer Candidates School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_candidate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Marine_Corps
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley received his commission as a Second Lieutenant in the United States Marine Corps from the Naval Reserve Officer Training Corps at Tulane University, New Orleans, Louisiana, in 1988.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Hurley/NNP-1)
+				poss(commission/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,commission/NN-4)
+				det(Lieutenant/NN-8,a/DT-6)
+				amod(Lieutenant/NN-8,Second/JJ-7)
+				prep_as(received/VBD-2,Lieutenant/NN-8)
+				det(Corps/NNP-14,the/DT-10)
+				nn(Corps/NNP-14,United/NNP-11)
+				nn(Corps/NNP-14,States/NNPS-12)
+				nn(Corps/NNP-14,Marine/NNP-13)
+				prep_in(Lieutenant/NN-8,Corps/NNP-14)
+				det(Corps/NNP-21,the/DT-16)
+				nn(Corps/NNP-21,Naval/NNP-17)
+				nn(Corps/NNP-21,Reserve/NNP-18)
+				nn(Corps/NNP-21,Officer/NNP-19)
+				nn(Corps/NNP-21,Training/NNP-20)
+				prep_from(received/VBD-2,Corps/NNP-21)
+				nn(University/NNP-24,Tulane/NNP-23)
+				prep_at(received/VBD-2,University/NNP-24)
+				nn(Orleans/NNP-27,New/NNP-26)
+				appos(University/NNP-24,Orleans/NNP-27)
+				appos(University/NNP-24,Louisiana/NNP-29)
+				prep_in(University/NNP-24,1988/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation, he attended The Basic School at Marine Corps Base Quantico, Virginia, and later the Infantry Officers Course.	</value>
+
+		<annotated-sentence>	After [[graduation|Graduation]], he attended [[The Basic School|The_Basic_School]] at [[Marine Corps Base Quantico|Marine_Corps_Base_Quantico]], [[Virginia|Virginia]], and later the [[Infantry|Infantry]] [[Officers|Officers_(video_game)]] Course.	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduation, he attended [[The Basic School|The_Basic_School]] at [[Marine Corps Base Quantico|Marine_Corps_Base_Quantico]], [[Virginia|Virginia]], and later the Infantry Officers Course.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(attended/VBD-5,graduation/NN-2)
+				nsubj(attended/VBD-5,he/PRP-4)
+				det(School/NNP-8,The/DT-6)
+				nn(School/NNP-8,Basic/NNP-7)
+				dobj(attended/VBD-5,School/NNP-8)
+				nn(Quantico/NNP-13,Marine/NNP-10)
+				nn(Quantico/NNP-13,Corps/NNP-11)
+				nn(Quantico/NNP-13,Base/NNP-12)
+				prep_at(attended/VBD-5,Quantico/NNP-13)
+				prep_at(attended/VBD-5,Virginia/NNP-15)
+				conj_and(Quantico/NNP-13,Virginia/NNP-15)
+				advmod(Quantico/NNP-13,later/RB-18)
+				det(Course/NNP-22,the/DT-19)
+				nn(Course/NNP-22,Infantry/NNP-20)
+				nn(Course/NNP-22,Officers/NNP-21)
+				prep_at(attended/VBD-5,Course/NNP-22)
+				conj_and(Quantico/NNP-13,Course/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>The Basic School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Basic_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marine Corps Base Quantico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marine_Corps_Base_Quantico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Infantry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infantry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officers_(video_game)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Basic_School http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Virginia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marine_Corps_Base_Quantico http://dbpedia.org/property/subdivisionName http://dbpedia.org/resource/Virginia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following aviation indoctrination at Naval Air Station Pensacola, Florida, he entered flight training in Texas in 1989; he was a distinguished graduate of the U.S. Navy Pilot Training program and was designated a Naval Aviator in August 1991.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(indoctrination/NN-3,aviation/NN-2)
+				prep_following(entered/VBD-13,indoctrination/NN-3)
+				nn(Pensacola/NNP-8,Naval/NNP-5)
+				nn(Pensacola/NNP-8,Air/NNP-6)
+				nn(Pensacola/NNP-8,Station/NNP-7)
+				prep_at(indoctrination/NN-3,Pensacola/NNP-8)
+				appos(Pensacola/NNP-8,Florida/NNP-10)
+				nsubj(entered/VBD-13,he/PRP-12)
+				nn(training/NN-15,flight/NN-14)
+				dobj(entered/VBD-13,training/NN-15)
+				prep_in(entered/VBD-13,Texas/NNP-17)
+				prep_in(entered/VBD-13,1989/CD-19)
+				nsubj(graduate/NN-25,he/PRP-21)
+				nsubjpass(designated/VBN-35,he/PRP-21)
+				cop(graduate/NN-25,was/VBD-22)
+				det(graduate/NN-25,a/DT-23)
+				amod(graduate/NN-25,distinguished/JJ-24)
+				parataxis(entered/VBD-13,graduate/NN-25)
+				det(program/NN-32,the/DT-27)
+				nn(program/NN-32,U.S./NNP-28)
+				nn(program/NN-32,Navy/NNP-29)
+				nn(program/NN-32,Pilot/NN-30)
+				nn(program/NN-32,Training/NN-31)
+				prep_of(graduate/NN-25,program/NN-32)
+				auxpass(designated/VBN-35,was/VBD-34)
+				parataxis(entered/VBD-13,designated/VBN-35)
+				conj_and(graduate/NN-25,designated/VBN-35)
+				det(Aviator/NNP-38,a/DT-36)
+				nn(Aviator/NNP-38,Naval/NNP-37)
+				dobj(designated/VBN-35,Aviator/NNP-38)
+				prep_in(Aviator/NNP-38,August/NNP-40)
+				num(August/NNP-40,1991/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley then reported to VMFAT-101 at Marine Corps Air Station El Toro, California, for initial F/A-18 Hornet training.	</value>
+
+		<annotated-sentence>	Hurley then reported to [[VMFAT-101|VMFAT-101]] at Marine Corps Air Station El Toro, [[California|California]], for initial F/A-18 [[Hornet|Hornet]] [[training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hurley then reported to VMFAT-101 at Marine Corps Air Station El Toro, California, for initial F/A-18 Hornet training.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reported/VBD-3,Hurley/NNP-1)
+				advmod(reported/VBD-3,then/RB-2)
+				prep_to(reported/VBD-3,VMFAT-101/NN-5)
+				nn(Toro/NNP-12,Marine/NNP-7)
+				nn(Toro/NNP-12,Corps/NNP-8)
+				nn(Toro/NNP-12,Air/NNP-9)
+				nn(Toro/NNP-12,Station/NNP-10)
+				nn(Toro/NNP-12,El/NNP-11)
+				prep_at(reported/VBD-3,Toro/NNP-12)
+				appos(Toro/NNP-12,California/NNP-14)
+				amod(F/A/NN-18,initial/JJ-17)
+				prep_for(reported/VBD-3,F/A/NN-18)
+				num(training/NN-21,-18/CD-19)
+				nn(training/NN-21,Hornet/NNP-20)
+				dep(F/A/NN-18,training/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>VMFAT-101</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VMFAT-101</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hornet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hornet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon completion of training, he was assigned to VMFA(AW)-225 where he made three overseas deployments to the Western Pacific.	</value>
+
+		<annotated-sentence>	Upon completion of [[training|Training]], he was assigned to [[VMFA|Virginia_Museum_of_Fine_Arts]](AW)-225 where he made three overseas deployments to the Western Pacific.	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon completion of training, he was assigned to VMFA(AW)-225 where he made three overseas deployments to the Western Pacific.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_upon(assigned/VBN-8,completion/NN-2)
+				prep_of(completion/NN-2,training/NN-4)
+				nsubjpass(assigned/VBN-8,he/PRP-6)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				prep_to(assigned/VBN-8,VMFA/NN-10)
+				appos(VMFA/NN-10,AW/NN-12)
+				tmod(assigned/VBN-8,-225/CD-14)
+				advmod(made/VBD-17,where/WRB-15)
+				nsubj(made/VBD-17,he/PRP-16)
+				advcl(assigned/VBN-8,made/VBD-17)
+				num(deployments/NNS-20,three/CD-18)
+				amod(deployments/NNS-20,overseas/JJ-19)
+				dobj(made/VBD-17,deployments/NNS-20)
+				det(Pacific/NNP-24,the/DT-22)
+				nn(Pacific/NNP-24,Western/NNP-23)
+				prep_to(made/VBD-17,Pacific/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VMFA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia_Museum_of_Fine_Arts</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While assigned to VMFA(AW)-225, he attended the United States Marine Aviation Weapons and Tactics Instructor Course, the Marine Division Tactics Course, and the Aviation Safety Officers Course at the Naval Postgraduate School in Monterey, California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(assigned/VBN-2,While/IN-1)
+				advcl(attended/VBD-11,assigned/VBN-2)
+				prep_to(assigned/VBN-2,VMFA/NN-4)
+				appos(VMFA/NN-4,AW/NN-6)
+				tmod(assigned/VBN-2,-225/CD-8)
+				nsubj(attended/VBD-11,he/PRP-10)
+				det(Weapons/NNP-17,the/DT-12)
+				nn(Weapons/NNP-17,United/NNP-13)
+				nn(Weapons/NNP-17,States/NNPS-14)
+				nn(Weapons/NNP-17,Marine/NNP-15)
+				nn(Weapons/NNP-17,Aviation/NNP-16)
+				dobj(attended/VBD-11,Weapons/NNP-17)
+				nn(Course/NNP-21,Tactics/NNP-19)
+				nn(Course/NNP-21,Instructor/NNP-20)
+				dobj(attended/VBD-11,Course/NNP-21)
+				conj_and(Weapons/NNP-17,Course/NNP-21)
+				det(Course/NNP-27,the/DT-23)
+				nn(Course/NNP-27,Marine/NNP-24)
+				nn(Course/NNP-27,Division/NNP-25)
+				nn(Course/NNP-27,Tactics/NNPS-26)
+				dobj(attended/VBD-11,Course/NNP-27)
+				conj_and(Weapons/NNP-17,Course/NNP-27)
+				det(Course/NNP-34,the/DT-30)
+				nn(Course/NNP-34,Aviation/NNP-31)
+				nn(Course/NNP-34,Safety/NNP-32)
+				nn(Course/NNP-34,Officers/NNP-33)
+				dobj(attended/VBD-11,Course/NNP-34)
+				conj_and(Weapons/NNP-17,Course/NNP-34)
+				det(School/NNP-39,the/DT-36)
+				nn(School/NNP-39,Naval/NNP-37)
+				nn(School/NNP-39,Postgraduate/NNP-38)
+				prep_at(attended/VBD-11,School/NNP-39)
+				nn(California/NNP-43,Monterey/NNP-41)
+				prep_in(attended/VBD-11,California/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Over his four and a half years with the “Vikings”, he served as the aviation safety officer and the pilot training officer.	</value>
+
+		<annotated-sentence>	Over his four and a half [[years|Year]] with the “[[Vikings|Vikings]]”, he served as the [[aviation safety|Aviation_safety]] [[officer|Officer]] and the [[pilot training|Flight_training]] [[officer|Officer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Over his four and a half years with the “Vikings”, he served as the aviation safety officer and the pilot training officer.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(years/NNS-7,his/PRP$-2)
+				num(years/NNS-7,four/CD-3)
+				det(half/NN-6,a/DT-5)
+				conj_and(four/CD-3,half/NN-6)
+				num(years/NNS-7,half/NN-6)
+				prep_over(served/VBD-15,years/NNS-7)
+				prep_with(years/NNS-7,the/DT-9)
+				dep(the/DT-9,Vikings/NNPS-11)
+				nsubj(served/VBD-15,he/PRP-14)
+				det(officer/NN-20,the/DT-17)
+				nn(officer/NN-20,aviation/NN-18)
+				nn(officer/NN-20,safety/NN-19)
+				prep_as(served/VBD-15,officer/NN-20)
+				det(officer/NN-25,the/DT-22)
+				nn(officer/NN-25,pilot/NN-23)
+				nn(officer/NN-25,training/NN-24)
+				prep_as(served/VBD-15,officer/NN-25)
+				conj_and(officer/NN-20,officer/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vikings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vikings</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aviation safety</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation_safety</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley was then selected to attend the United States Naval Test Pilot School at Naval Air Station Patuxent River, Maryland, and began the course in January 1997.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-4,Hurley/NNP-1)
+				nsubjpass(began/VBD-24,Hurley/NNP-1)
+				auxpass(selected/VBN-4,was/VBD-2)
+				advmod(selected/VBN-4,then/RB-3)
+				aux(attend/VB-6,to/TO-5)
+				xcomp(selected/VBN-4,attend/VB-6)
+				det(School/NNP-13,the/DT-7)
+				nn(School/NNP-13,United/NNP-8)
+				nn(School/NNP-13,States/NNPS-9)
+				nn(School/NNP-13,Naval/NNP-10)
+				nn(School/NNP-13,Test/NNP-11)
+				nn(School/NNP-13,Pilot/NN-12)
+				dobj(attend/VB-6,School/NNP-13)
+				nn(River/NNP-19,Naval/NNP-15)
+				nn(River/NNP-19,Air/NNP-16)
+				nn(River/NNP-19,Station/NNP-17)
+				nn(River/NNP-19,Patuxent/NNP-18)
+				prep_at(School/NNP-13,River/NNP-19)
+				appos(River/NNP-19,Maryland/NNP-21)
+				conj_and(selected/VBN-4,began/VBD-24)
+				det(course/NN-26,the/DT-25)
+				dobj(began/VBD-24,course/NN-26)
+				prep_in(began/VBD-24,January/NNP-28)
+				num(January/NNP-28,1997/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation in December 1997, he was assigned to the Naval Strike Aircraft Test Squadron (VX-23) as an F/A-18 project officer and test pilot.	</value>
+
+		<annotated-sentence>	After [[graduation|Graduation]] in [[December 1997|1997]], he was assigned to the [[Naval|United_States_Navy]] [[Strike Aircraft|Attack_aircraft]] [[Test|Test_pilot]] Squadron ([[VX-23|VX-23]]) as an F/A-18 [[project|Project]] [[officer|Officer]] and [[test pilot|Test_pilot]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduation in December 1997, he was assigned to the [[Naval|United_States_Navy]] Strike Aircraft [[Test|Test_pilot]] Squadron ([[VX-23|VX-23]]) as an F/A-18 project officer and [[test pilot|Test_pilot]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(assigned/VBN-9,graduation/NN-2)
+				prep_in(graduation/NN-2,December/NNP-4)
+				num(December/NNP-4,1997/CD-5)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(Squadron/NNP-16,the/DT-11)
+				nn(Squadron/NNP-16,Naval/NNP-12)
+				nn(Squadron/NNP-16,Strike/NN-13)
+				nn(Squadron/NNP-16,Aircraft/NNP-14)
+				nn(Squadron/NNP-16,Test/NNP-15)
+				prep_to(assigned/VBN-9,Squadron/NNP-16)
+				appos(Squadron/NNP-16,VX-23/NN-18)
+				det(officer/NN-25,an/DT-21)
+				nn(officer/NN-25,F/A/NN-22)
+				num(officer/NN-25,-18/CD-23)
+				nn(officer/NN-25,project/NN-24)
+				prep_as(assigned/VBN-9,officer/NN-25)
+				nn(pilot/NN-28,test/NN-27)
+				prep_as(assigned/VBN-9,pilot/NN-28)
+				conj_and(officer/NN-25,pilot/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Strike Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Attack_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VX-23</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VX-23</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/VX-23 http://dbpedia.org/ontology/militaryBranch http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At “Strike”, he participated in a variety of flight testing including flying qualities, ordnance separation, and systems testing and became the first Marine pilot to fly the F/A-18 E/F Super Hornet.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_at(participated/VBD-7,Strike/NN-3)
+				nsubj(participated/VBD-7,he/PRP-6)
+				det(variety/NN-10,a/DT-9)
+				prep_in(participated/VBD-7,variety/NN-10)
+				nn(testing/NN-13,flight/NN-12)
+				prep_of(variety/NN-10,testing/NN-13)
+				prepc_including(participated/VBD-7,flying/VBG-15)
+				dobj(flying/VBG-15,qualities/NNS-16)
+				nn(separation/NN-19,ordnance/NN-18)
+				dobj(flying/VBG-15,separation/NN-19)
+				conj_and(qualities/NNS-16,separation/NN-19)
+				nn(testing/NN-23,systems/NNS-22)
+				dobj(flying/VBG-15,testing/NN-23)
+				conj_and(qualities/NNS-16,testing/NN-23)
+				cop(pilot/NN-29,became/VBD-25)
+				det(pilot/NN-29,the/DT-26)
+				amod(pilot/NN-29,first/JJ-27)
+				nn(pilot/NN-29,Marine/NNP-28)
+				conj_and(participated/VBD-7,pilot/NN-29)
+				aux(fly/VB-31,to/TO-30)
+				xcomp(pilot/NN-29,fly/VB-31)
+				det(E/F/NN-35,the/DT-32)
+				nn(E/F/NN-35,F/A/NN-33)
+				num(E/F/NN-35,-18/CD-34)
+				nsubj(Hornet/NNP-37,E/F/NN-35)
+				nn(Hornet/NNP-37,Super/NNP-36)
+				xcomp(fly/VB-31,Hornet/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was serving as the operations officer when selected for the astronaut program.	</value>
+
+		<annotated-sentence>	He was serving as [[the operations officer|Operations_(military_staff)]] when selected for [[the astronaut program|Human_spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was serving as the operations officer when selected for the astronaut program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(serving/VBG-3,He/PRP-1)
+				aux(serving/VBG-3,was/VBD-2)
+				det(officer/NN-7,the/DT-5)
+				nn(officer/NN-7,operations/NNS-6)
+				prep_as(serving/VBG-3,officer/NN-7)
+				advmod(selected/VBN-9,when/WRB-8)
+				advcl(serving/VBG-3,selected/VBN-9)
+				det(program/NN-13,the/DT-11)
+				nn(program/NN-13,astronaut/NN-12)
+				prep_for(selected/VBN-9,program/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the operations officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the astronaut program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley has logged over 3,200 hours in more than 22 aircraft.	</value>
+
+		<annotated-sentence>	Hurley has logged over 3,200 [[hours|Hour]] in more than 22 [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hurley has logged over 3,200 hours in more than 22 aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,Hurley/NNP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,3,200/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				mwe(than/IN-9,more/JJR-8)
+				quantmod(22/CD-10,than/IN-9)
+				num(aircraft/NN-11,22/CD-10)
+				prep_in(hours/NNS-6,aircraft/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as a pilot by NASA in July 2000, Hurley reported for training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as a pilot by [[NASA|NASA]] in [[July 2000|July_2000]], Hurley reported for [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as a pilot by [[NASA|NASA]] in July 2000, Hurley reported for training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-12,Selected/VBN-1)
+				det(pilot/NN-4,a/DT-3)
+				prep_as(Selected/VBN-1,pilot/NN-4)
+				agent(Selected/VBN-1,NASA/NNP-6)
+				prep_in(Selected/VBN-1,July/NNP-8)
+				num(July/NNP-8,2000/CD-9)
+				nsubj(reported/VBD-12,Hurley/NNP-11)
+				prep_for(reported/VBD-12,training/NN-14)
+				prep_in(reported/VBD-12,August/NNP-16)
+				num(August/NNP-16,2000/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the completion of two years of training and evaluation, he was assigned technical duties in the Astronaut Office which have included Kennedy Operations Support as a “Cape Crusader” where he was the lead ASP (Astronaut Support Personnel) for Shuttle missions STS-107 and STS-121.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_following(assigned/VBN-14,completion/NN-3)
+				num(years/NNS-6,two/CD-5)
+				prep_of(completion/NN-3,years/NNS-6)
+				prep_of(years/NNS-6,training/NN-8)
+				prep_of(years/NNS-6,evaluation/NN-10)
+				conj_and(training/NN-8,evaluation/NN-10)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				amod(duties/NNS-16,technical/JJ-15)
+				dobj(assigned/VBN-14,duties/NNS-16)
+				det(Office/NNP-20,the/DT-18)
+				nn(Office/NNP-20,Astronaut/NNP-19)
+				prep_in(assigned/VBN-14,Office/NNP-20)
+				nsubj(included/VBN-23,which/WDT-21)
+				aux(included/VBN-23,have/VBP-22)
+				rcmod(Office/NNP-20,included/VBN-23)
+				nn(Support/NN-26,Kennedy/NNP-24)
+				nn(Support/NN-26,Operations/NNP-25)
+				dobj(included/VBN-23,Support/NN-26)
+				det(Crusader/NNP-31,a/DT-28)
+				nn(Crusader/NNP-31,Cape/NNP-30)
+				prep_as(Support/NN-26,Crusader/NNP-31)
+				advmod(ASP/NN-38,where/WRB-33)
+				nsubj(ASP/NN-38,he/PRP-34)
+				cop(ASP/NN-38,was/VBD-35)
+				det(ASP/NN-38,the/DT-36)
+				nn(ASP/NN-38,lead/NN-37)
+				advcl(included/VBN-23,ASP/NN-38)
+				nn(Personnel/NNS-42,Astronaut/NN-40)
+				nn(Personnel/NNS-42,Support/NN-41)
+				appos(ASP/NN-38,Personnel/NNS-42)
+				nn(STS-107/NN-47,Shuttle/NNP-45)
+				nn(STS-107/NN-47,missions/NNS-46)
+				prep_for(ASP/NN-38,STS-107/NN-47)
+				prep_for(ASP/NN-38,STS-121/NN-49)
+				conj_and(STS-107/NN-47,STS-121/NN-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also worked Shuttle landing and rollout, served on the Columbia Reconstruction Team at Kennedy Space Center and in the Exploration Branch in support of the selection of the Orion Crew Exploration Vehicle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBN-4,He/PRP-1)
+				aux(worked/VBN-4,has/VBZ-2)
+				advmod(worked/VBN-4,also/RB-3)
+				ccomp(served/VBD-10,worked/VBN-4)
+				nn(landing/NN-6,Shuttle/NNP-5)
+				xcomp(worked/VBN-4,landing/NN-6)
+				xcomp(worked/VBN-4,rollout/NN-8)
+				conj_and(landing/NN-6,rollout/NN-8)
+				conj_and(served/VBD-10,served/VBD-10)
+				det(Team/NNP-15,the/DT-12)
+				nn(Team/NNP-15,Columbia/NNP-13)
+				nn(Team/NNP-15,Reconstruction/NNP-14)
+				prep_on(served/VBD-10,Team/NNP-15)
+				nn(Center/NNP-19,Kennedy/NNP-17)
+				nn(Center/NNP-19,Space/NNP-18)
+				prep_at(served/VBD-10,Center/NNP-19)
+				det(Exploration/NN-23,the/DT-22)
+				prep_in(served/VBD-10,Exploration/NN-23)
+				nsubj(served/VBD-10,Branch/NNP-24)
+				nsubj(served/VBD-10,Branch/NNP-24)
+				prep_in(Branch/NNP-24,support/NN-26)
+				det(selection/NN-29,the/DT-28)
+				prep_of(support/NN-26,selection/NN-29)
+				det(Vehicle/NNP-35,the/DT-31)
+				nn(Vehicle/NNP-35,Orion/NNP-32)
+				nn(Vehicle/NNP-35,Crew/NNP-33)
+				nn(Vehicle/NNP-35,Exploration/NNP-34)
+				prep_of(selection/NN-29,Vehicle/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	More recently he served as the NASA director of operations at the Gagarin Cosmonaut Training Center in Star City, Russia.	</value>
+
+		<annotated-sentence>	More recently he served as the [[NASA|NASA]] director of operations at the Gagarin Cosmonaut Training Center in Star City, [[Russia|Russia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	More recently he served as the [[NASA|NASA]] director of operations at the Gagarin Cosmonaut Training Center in Star City, Russia.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(recently/RB-2,More/RBR-1)
+				advmod(served/VBD-4,recently/RB-2)
+				nsubj(served/VBD-4,he/PRP-3)
+				det(director/NN-8,the/DT-6)
+				nn(director/NN-8,NASA/NNP-7)
+				prep_as(served/VBD-4,director/NN-8)
+				prep_of(director/NN-8,operations/NNS-10)
+				det(Center/NNP-16,the/DT-12)
+				nn(Center/NNP-16,Gagarin/NNP-13)
+				nn(Center/NNP-16,Cosmonaut/NNP-14)
+				nn(Center/NNP-16,Training/NNP-15)
+				prep_at(operations/NNS-10,Center/NNP-16)
+				nn(City/NNP-19,Star/NNP-18)
+				prep_in(served/VBD-4,City/NNP-19)
+				appos(City/NNP-19,Russia/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as the pilot on STS-127, ISS Assembly Mission 2J/A, which delivered the Japanese-built Exposed Facility (JEM-EF) and the Experiment Logistics Module Exposed Section (ELM-ES) to the International Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(pilot/NN-5,the/DT-4)
+				prep_as(served/VBD-2,pilot/NN-5)
+				nn(2J/A/NN-12,STS-127/NN-7)
+				dep(2J/A/NN-12,ISS/NNP-9)
+				nn(2J/A/NN-12,Assembly/NNP-10)
+				nn(2J/A/NN-12,Mission/NNP-11)
+				prep_on(pilot/NN-5,2J/A/NN-12)
+				nsubj(delivered/VBD-15,which/WDT-14)
+				rcmod(pilot/NN-5,delivered/VBD-15)
+				det(Japanese-built/JJ-17,the/DT-16)
+				dobj(delivered/VBD-15,Japanese-built/JJ-17)
+				partmod(Japanese-built/JJ-17,Exposed/VBN-18)
+				dobj(Exposed/VBN-18,Facility/NN-19)
+				appos(Facility/NN-19,JEM-EF/NN-21)
+				det(Section/NNP-29,the/DT-24)
+				nn(Section/NNP-29,Experiment/NNP-25)
+				nn(Section/NNP-29,Logistics/NNP-26)
+				nn(Section/NNP-29,Module/NNP-27)
+				nn(Section/NNP-29,Exposed/NNP-28)
+				dobj(Exposed/VBN-18,Section/NNP-29)
+				conj_and(Facility/NN-19,Section/NNP-29)
+				appos(Section/NNP-29,ELM-ES/NN-31)
+				det(Station/NNP-37,the/DT-34)
+				nn(Station/NNP-37,International/NNP-35)
+				nn(Station/NNP-37,Space/NNP-36)
+				prep_to(Exposed/VBN-18,Station/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley is a recipient of the Stephen A. Hazelrigg Memorial Award for best Test Pilot/Engineer Team, Naval Strike Aircraft Test Squadron.	</value>
+
+		<annotated-sentence>	Hurley is a recipient of the [[Stephen A.|Stephen_A._Smith]] Hazelrigg [[Memorial|Memorial]] [[Award|Award]] for best Test Pilot/Engineer [[Team|Team]], Naval [[Strike Aircraft|Attack_aircraft]] Test Squadron.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hurley is a recipient of the Stephen A. Hazelrigg Memorial Award for best Test Pilot/Engineer Team, Naval Strike Aircraft Test Squadron.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(recipient/JJ-4,Hurley/NNP-1)
+				cop(recipient/JJ-4,is/VBZ-2)
+				det(recipient/JJ-4,a/DT-3)
+				det(Award/NN-11,the/DT-6)
+				nn(Award/NN-11,Stephen/NNP-7)
+				nn(Award/NN-11,A./NN-8)
+				nn(Award/NN-11,Hazelrigg/NNP-9)
+				nn(Award/NN-11,Memorial/NNP-10)
+				prep_of(recipient/JJ-4,Award/NN-11)
+				dep(Test/NN-14,best/JJS-13)
+				amod(Pilot/Engineer/NN-15,Test/NN-14)
+				prep_for(recipient/JJ-4,Pilot/Engineer/NN-15)
+				tmod(Pilot/Engineer/NN-15,Team/NNP-16)
+				nn(Squadron/NNP-22,Naval/NNP-18)
+				nn(Squadron/NNP-22,Strike/NN-19)
+				nn(Squadron/NNP-22,Aircraft/NNP-20)
+				nn(Squadron/NNP-22,Test/NNP-21)
+				appos(Team/NNP-16,Squadron/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stephen A.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stephen_A._Smith</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Memorial</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Memorial</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Strike Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Attack_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded the Meritorious Service Medal, two Navy and Marine Corps Commendation Medals, and various other service awards.	</value>
+
+		<annotated-sentence>	He was awarded [[the Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], [[two Navy|Navy]] and [[Marine Corps|Commendation_Medal]] [[Commendation|Commendation_Medal]] [[Medals|Air_Medal]], and [[various other service awards|Service_award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded [[the Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], two Navy and [[Marine Corps|Commendation_Medal]] [[Commendation|Commendation_Medal]] [[Medals|Air_Medal]], and various other service awards.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(Medal/NN-7,the/DT-4)
+				nn(Medal/NN-7,Meritorious/NNP-5)
+				nn(Medal/NN-7,Service/NNP-6)
+				dobj(awarded/VBN-3,Medal/NN-7)
+				num(Navy/NNP-10,two/CD-9)
+				dobj(awarded/VBN-3,Navy/NNP-10)
+				conj_and(Medal/NN-7,Navy/NNP-10)
+				nn(Medals/NNPS-15,Marine/NNP-12)
+				nn(Medals/NNPS-15,Corps/NNP-13)
+				nn(Medals/NNPS-15,Commendation/NNP-14)
+				conj_and(Medal/NN-7,Medals/NNPS-15)
+				conj_and(Navy/NNP-10,Medals/NNPS-15)
+				amod(awards/NNS-21,various/JJ-18)
+				amod(awards/NNS-21,other/JJ-19)
+				nn(awards/NNS-21,service/NN-20)
+				dobj(awarded/VBN-3,awards/NNS-21)
+				conj_and(Medal/NN-7,awards/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Meritorious Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commendation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>various other service awards</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States) http://dbpedia.org/property/lower http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Air_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Commendation_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Commendation_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received the NASA Superior Accomplishment Award in 2004, 2005, 2006 and 2007.	</value>
+
+		<annotated-sentence>	He received the [[NASA|NASA]] Superior [[Accomplishment|Accomplishment]] [[Award|Award]] in [[2004|2004]], 2005, 2006 and 2007.	</annotated-sentence>
+
+		<pattern_crowdsource>	He received the [[NASA|NASA]] Superior Accomplishment Award in 2004, 2005, 2006 and 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Award/NN-7,the/DT-3)
+				nn(Award/NN-7,NASA/NNP-4)
+				nn(Award/NN-7,Superior/NNP-5)
+				nn(Award/NN-7,Accomplishment/NNP-6)
+				dobj(received/VBD-2,Award/NN-7)
+				prep_in(Award/NN-7,2004/CD-9)
+				tmod(received/VBD-2,2005/CD-11)
+				num(2005/CD-11,2006/CD-13)
+				tmod(received/VBD-2,2007/CD-15)
+				conj_and(2005/CD-11,2007/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Accomplishment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Accomplishment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hurley is married to fellow NASA astronaut Karen Nyberg.	</value>
+
+		<annotated-sentence>	Hurley is married to fellow [[NASA|NASA]] [[astronaut|Astronaut]] [[Karen Nyberg|Karen_L._Nyberg]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hurley is married to fellow [[NASA|NASA]] [[astronaut|Astronaut]] [[Karen Nyberg|Karen_L._Nyberg]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Hurley/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Nyberg/NNP-9,fellow/JJ-5)
+				nn(Nyberg/NNP-9,NASA/NNP-6)
+				nn(Nyberg/NNP-9,astronaut/NN-7)
+				nn(Nyberg/NNP-9,Karen/NNP-8)
+				prep_to(married/VBN-3,Nyberg/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Karen Nyberg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Karen_L._Nyberg</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Karen_L._Nyberg http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Douglas_G._Hurley http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Karen_L._Nyberg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have one son.	</value>
+
+		<annotated-sentence>	[[They|They]] have one son.	</annotated-sentence>
+
+		<pattern_crowdsource>	They have one son.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(son/NN-4,one/CD-3)
+				dobj(have/VBP-2,son/NN-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They are in a Shared Earning/Shared Parenting Marriage.	</value>
+
+		<annotated-sentence>	[[They|They]] are in a Shared Earning/Shared [[Parenting|Parenting,_Inc.]] [[Marriage|Marriage]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They are in a Shared Earning/Shared Parenting Marriage.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(are/VBP-2,They/PRP-1)
+				det(Marriage/NNP-8,a/DT-4)
+				amod(Marriage/NNP-8,Shared/VBN-5)
+				nn(Marriage/NNP-8,Earning/Shared/NNP-6)
+				nn(Marriage/NNP-8,Parenting/NNP-7)
+				prep_in(are/VBP-2,Marriage/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Parenting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parenting,_Inc.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marriage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marriage</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	List of married couples among space travelers	</value>
+
+		<annotated-sentence>	List of married couples among space travelers	</annotated-sentence>
+
+		<pattern_crowdsource>	List of married couples among space travelers	</pattern_crowdsource>
+
+
+		<tree>
+				amod(couples/NNS-4,married/JJ-3)
+				prep_of(List/NN-1,couples/NNS-4)
+				nn(travelers/NNS-7,space/NN-6)
+				prep_among(List/NN-1,travelers/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Angiotensin-converting enzyme (ACE) inhibitors are medicines.</value>
+		<pattern_crowdsource> [[Angiotensin-converting enzyme (ACE) inhibitors|C0003015]] are [[medicines|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Angiotensin-converting enzyme (ACE) inhibitors</surface-form>
+				<RDF-ID>C0003015</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003015 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>ACE inhibitors are used to treat heart disease.</value>
+		<pattern_crowdsource> [[ACE inhibitors|C0003015]] are used to treat [[heart disease|C0018799]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACE inhibitors</surface-form>
+				<RDF-ID>C0003015</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003015 TREATS C0018799</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most people who have heart failure take these medicines.</value>
+		<pattern_crowdsource> Most [[people|C0027361]] who have [[heart failure|C0018801]] take these [[medicines|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018801 PROCESS_OF C0027361</triple>
+			<triple>C0013227 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines treat high blood pressure, strokes, or heart attacks.</value>
+		<pattern_crowdsource> These [[medicines|C0013227]] treat [[high blood pressure|C0020538]], [[strokes|C0038454]], or [[heart attacks|C0027051]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>strokes</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attacks</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0020538</triple>
+			<triple>C0013227 TREATS C0027051</triple>
+			<triple>C0013227 TREATS C0038454</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Before taking ibuprofen (Advil, Motrin) or aspirin, talk to your doctor.</value>
+		<pattern_crowdsource> - Before taking [[ibuprofen|C0020740]] ([[Advil|C0593507]], [[Motrin|C0699203]]) or aspirin, talk to your doctor.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>talk</surface-form>
+				<RDF-ID>C0600118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

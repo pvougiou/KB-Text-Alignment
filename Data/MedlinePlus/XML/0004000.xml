@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A person will have stroke-like symptoms for up to 24 hours.</value>
+		<pattern_crowdsource> A [[person|C0027361]] will have stroke-like [[symptoms|C1457887]] for up to 24 hours.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke-</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>like</surface-form>
+				<RDF-ID>C0870814</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>24 hours</surface-form>
+				<RDF-ID>C0439584</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A TIA is different than a stroke.</value>
+		<pattern_crowdsource> A [[TIA|C0007787]] is different than a [[stroke|C0038454]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>TIA</surface-form>
+				<RDF-ID>C0007787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007787 ISA C0038454</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The loss of blood flow to an area of the brain can be caused by:  - A blood clot in an artery of the brain  - A blood clot that travels to the brain from somewhere else in the body (for example, from the heart)  - An injury to blood vessels  - Narrowing of a blood vessel in the brain or leading to the brain    High blood pressure is the main risk for TIAs and stroke.</value>
+		<pattern_crowdsource> The loss of blood flow to an area of the brain can be caused by:  - A [[blood clot|C0302148]] in an [[artery|C0003842]] of the [[brain|C0006104]]  - A blood clot that travels to the brain from somewhere else in the body (for example, from the heart)  - An [[injury|C0175677]] to blood vessels  - Narrowing of a blood vessel in the [[brain|C0006104]] or leading to the [[brain|C0006104]]    [[High blood pressure|C0020538]] is the main risk for [[TIAs|C0007787]] and [[stroke|C0038454]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>loss</surface-form>
+				<RDF-ID>C1517945</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood flow</surface-form>
+				<RDF-ID>C0232338</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>area</surface-form>
+				<RDF-ID>C0205146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>artery</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>travels</surface-form>
+				<RDF-ID>C0040802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessel</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>TIAs</surface-form>
+				<RDF-ID>C0007787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003842 LOCATION_OF C0302148</triple>
+			<triple>C0003842 PART_OF C0006104</triple>
+			<triple>C0006104 LOCATION_OF C0175677</triple>
+			<triple>C0006104 LOCATION_OF C0020538</triple>
+			<triple>C0020538 PREDISPOSES C0007787</triple>
+			<triple>C0020538 PREDISPOSES C0038454</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other major risk factors are:  - Irregular heartbeat called atrial fibrillation  - Diabetes  - Family history of stroke  - High cholesterol  - Increasing age, especially after age 55  - Ethnicity (African Americans are more likely to die of stroke)  - Smoking    People who have heart disease or poor blood flow in their legs caused by narrowed arteries are also more likely to have a TIA or stroke.</value>
+		<pattern_crowdsource> Other major risk factors are:  - [[Irregular heartbeat|C0237314]] called atrial fibrillation  - Diabetes  - Family history of stroke  - High cholesterol  - Increasing age, especially after age 55  - Ethnicity (African Americans are more likely to die of stroke)  - [[Smoking|C0037369]]    [[People|C0027361]] who have [[heart disease|C0018799]] or poor [[blood flow|C0232338]] in their [[legs|C1140621]] caused by narrowed arteries are also more likely to have a TIA or stroke.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>major</surface-form>
+				<RDF-ID>C0205164</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk factors</surface-form>
+				<RDF-ID>C0035648</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Irregular heartbeat</surface-form>
+				<RDF-ID>C0237314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>atrial fibrillation</surface-form>
+				<RDF-ID>C0004238</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Family</surface-form>
+				<RDF-ID>C0015576</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>C0019665</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High cholesterol</surface-form>
+				<RDF-ID>C0848569</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Increasing</surface-form>
+				<RDF-ID>C0442808</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>age</surface-form>
+				<RDF-ID>C0001779</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>age</surface-form>
+				<RDF-ID>C0001779</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ethnicity</surface-form>
+				<RDF-ID>C0015031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>African Americans</surface-form>
+				<RDF-ID>C0085756</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poor</surface-form>
+				<RDF-ID>C0032854</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood flow</surface-form>
+				<RDF-ID>C0232338</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>legs</surface-form>
+				<RDF-ID>C1140621</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>narrowed</surface-form>
+				<RDF-ID>C0333164</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>TIA</surface-form>
+				<RDF-ID>C0007787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037369 PROCESS_OF C0027361</triple>
+			<triple>C0018799 PROCESS_OF C0027361</triple>
+			<triple>C0232338 PROCESS_OF C0027361</triple>
+			<triple>C1140621 LOCATION_OF C0237314</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The symptoms of TIA are the same as the symptoms of a stroke, and include:  - Change in alertness (including sleepiness or unconsciousness)  - Changes in the senses (such as hearing, vision, taste, and touch)  - Mental changes (such as confusion, memory loss, difficulty writing or reading, trouble speaking or understanding others)  - Muscle problems (such as weakness, trouble swallowing, trouble walking)  - Dizziness or loss of balance and coordination  - Lack of control over the bladder or bowels  - Nerve problems (such as numbness or tingling on one side of the body)</value>
+		<pattern_crowdsource> The [[symptoms|C1457887]] of TIA are the same as the symptoms of a [[stroke|C0038454]], and include:  - Change in alertness (including sleepiness or unconsciousness)  - Changes in the senses (such as hearing, vision, taste, and touch)  - Mental changes (such as confusion, memory loss, difficulty writing or reading, trouble speaking or understanding others)  - Muscle problems (such as weakness, trouble swallowing, trouble walking)  - Dizziness or loss of balance and coordination  - Lack of control over the bladder or bowels  - Nerve problems (such as numbness or tingling on one side of the body)		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>TIA</surface-form>
+				<RDF-ID>C0007787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Change</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alertness</surface-form>
+				<RDF-ID>C1443086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sleepiness</surface-form>
+				<RDF-ID>C0013144</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>unconsciousness</surface-form>
+				<RDF-ID>C0041657</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Changes</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hearing</surface-form>
+				<RDF-ID>C0600055</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision</surface-form>
+				<RDF-ID>C0042789</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>touch</surface-form>
+				<RDF-ID>C0439815</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Mental</surface-form>
+				<RDF-ID>C0229992</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>changes</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>confusion</surface-form>
+				<RDF-ID>C0009676</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>memory loss</surface-form>
+				<RDF-ID>C0751295</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>difficulty writing</surface-form>
+				<RDF-ID>C0584995</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>reading</surface-form>
+				<RDF-ID>C0034754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>speaking</surface-form>
+				<RDF-ID>C0234856</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Muscle</surface-form>
+				<RDF-ID>C0026845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weakness</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swallowing</surface-form>
+				<RDF-ID>C0740170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>walking</surface-form>
+				<RDF-ID>C0080331</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Dizziness</surface-form>
+				<RDF-ID>C0012833</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>loss</surface-form>
+				<RDF-ID>C1517945</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>balance</surface-form>
+				<RDF-ID>C0205415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coordination  - Lack</surface-form>
+				<RDF-ID>C0520966</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>control</surface-form>
+				<RDF-ID>C0243148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowels</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Nerve problems</surface-form>
+				<RDF-ID>C0746848</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>numbness</surface-form>
+				<RDF-ID>C0028643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tingling</surface-form>
+				<RDF-ID>C0423572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one side</surface-form>
+				<RDF-ID>C0205092</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038454 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The doctor will use a stethoscope to listen to your heart and arteries.</value>
+		<pattern_crowdsource> The [[doctor|C0031831]] will use a [[stethoscope|C0183559]] to listen to your heart and arteries.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stethoscope</surface-form>
+				<RDF-ID>C0183559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031831 USES C0183559</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An abnormal sound called a bruit may be heard when listening to the carotid artery in the neck or other artery.</value>
+		<pattern_crowdsource> An abnormal sound called a bruit may be heard when listening to the [[carotid artery|C0007272]] in the [[neck|C0027530]] or other [[artery|C0003842]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sound</surface-form>
+				<RDF-ID>C0175663</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bruit</surface-form>
+				<RDF-ID>C0006318</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>listening</surface-form>
+				<RDF-ID>C0004339</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>carotid artery</surface-form>
+				<RDF-ID>C0007272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>artery</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027530 LOCATION_OF C0007272</triple>
+			<triple>C0027530 LOCATION_OF C0003842</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tests will be done to rule out a stroke or other disorders that may cause the symptoms:  - You will likely have a head CT scan or brain MRI.</value>
+		<pattern_crowdsource> Tests will be done to rule out a [[stroke|C0038454]] or other [[disorders|C0012634]] that may cause the [[symptoms|C1457887]]:  - You will likely have a head CT scan or brain MRI.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>out</surface-form>
+				<RDF-ID>C0439787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorders</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head CT scan</surface-form>
+				<RDF-ID>C0202691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain MRI</surface-form>
+				<RDF-ID>C0412675</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038454 ISA C0012634</triple>
+			<triple>C0012634 ISA C0038454</triple>
+			<triple>C0012634 CAUSES C1457887</triple>
+			<triple>C0038454 CAUSES C1457887</triple>
+			<triple>C0038454 CAUSES C1457887</triple>
+			<triple>C0012634 CAUSES C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- You may have an echocardiogram if your doctor thinks you may have a blood clot from the heart.</value>
+		<pattern_crowdsource> - You may have an echocardiogram if your doctor thinks you may have a [[blood clot|C0302148]] from the [[heart|C0018787]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>echocardiogram</surface-form>
+				<RDF-ID>C0013516</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018787 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Carotid duplex (ultrasound) can show if the carotid arteries in your neck have narrowed.</value>
+		<pattern_crowdsource> - Carotid duplex (ultrasound) can show if the [[carotid arteries|C0007272]] in your [[neck|C0027530]] have narrowed.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Carotid</surface-form>
+				<RDF-ID>C0741968</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>duplex</surface-form>
+				<RDF-ID>C0444916</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ultrasound</surface-form>
+				<RDF-ID>C0220934</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>carotid arteries</surface-form>
+				<RDF-ID>C0007272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027530 LOCATION_OF C0007272</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

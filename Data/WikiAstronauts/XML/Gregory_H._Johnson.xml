@@ -1,0 +1,2811 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Gregory Harold "Box" Johnson is a NASA astronaut and a retired colonel in the United States Air Force.	</value>
+
+		<annotated-sentence>	Gregory Harold "Box" [[Johnson|Gregory_H._Johnson]] is a [[NASA|NASA]] [[astronaut|Astronaut]] and a retired [[colonel|Colonel]] in [[the United States Air Force|United_States_Air_Force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Gregory Harold "Box" [[Johnson|Gregory_H._Johnson]] is a [[NASA|NASA]] [[astronaut|Astronaut]] and a retired colonel in the United States Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Johnson/NNP-6,Gregory/NNP-1)
+				nn(Johnson/NNP-6,Harold/NNP-2)
+				nn(Johnson/NNP-6,Box/NNP-4)
+				nsubj(astronaut/NN-10,Johnson/NNP-6)
+				cop(astronaut/NN-10,is/VBZ-7)
+				det(astronaut/NN-10,a/DT-8)
+				nn(astronaut/NN-10,NASA/NNP-9)
+				det(colonel/NN-14,a/DT-12)
+				amod(colonel/NN-14,retired/JJ-13)
+				conj_and(astronaut/NN-10,colonel/NN-14)
+				det(Force/NNP-20,the/DT-16)
+				nn(Force/NNP-20,United/NNP-17)
+				nn(Force/NNP-20,States/NNP-18)
+				nn(Force/NNP-20,Air/NNP-19)
+				prep_in(colonel/NN-14,Force/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Johnson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_H._Johnson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson is a veteran of two space flights, STS-123 and STS-134.	</value>
+
+		<annotated-sentence>	Johnson is [[a veteran|Veteran]] of two [[space|Space]] [[flights|Flight]], [[STS-123|STS-123]] and [[STS-134|STS-134]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson is a veteran of two space flights, [[STS-123|STS-123]] and [[STS-134|STS-134]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(veteran/NN-4,Johnson/NNP-1)
+				cop(veteran/NN-4,is/VBZ-2)
+				det(veteran/NN-4,a/DT-3)
+				num(flights/NNS-8,two/CD-6)
+				nn(flights/NNS-8,space/NN-7)
+				prep_of(veteran/NN-4,flights/NNS-8)
+				prep_of(veteran/NN-4,STS-123/NN-10)
+				conj_and(flights/NNS-8,STS-123/NN-10)
+				prep_of(veteran/NN-4,STS-134/NN-12)
+				conj_and(flights/NNS-8,STS-134/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-134</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-134</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-134
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as pilot on his first mission, which delivered the Kibo logistics module and the Dextre robot arm to the International Space Station.	</value>
+
+		<annotated-sentence>	He served as pilot on his first mission, which delivered the Kibo [[logistics|Logistics]] module and the [[Dextre|Dextre]] [[robot arm|Robotic_arm]] to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as pilot on his first mission, which delivered the Kibo logistics module and the Dextre robot arm to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				prep_as(served/VBD-2,pilot/NN-4)
+				poss(mission/NN-8,his/PRP$-6)
+				amod(mission/NN-8,first/JJ-7)
+				prep_on(served/VBD-2,mission/NN-8)
+				nsubj(delivered/VBD-11,which/WDT-10)
+				rcmod(mission/NN-8,delivered/VBD-11)
+				det(module/NN-15,the/DT-12)
+				nn(module/NN-15,Kibo/NNP-13)
+				nn(module/NN-15,logistics/NNS-14)
+				dobj(delivered/VBD-11,module/NN-15)
+				det(arm/NN-20,the/DT-17)
+				nn(arm/NN-20,Dextre/NNP-18)
+				nn(arm/NN-20,robot/NN-19)
+				dobj(delivered/VBD-11,arm/NN-20)
+				conj_and(module/NN-15,arm/NN-20)
+				det(Station/NNP-25,the/DT-22)
+				nn(Station/NNP-25,International/NNP-23)
+				nn(Station/NNP-25,Space/NNP-24)
+				prep_to(delivered/VBD-11,Station/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>logistics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Logistics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dextre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dextre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>robot arm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robotic_arm</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was also assigned as the pilot to the STS-134 mission, which launched on May 16, 2011 and landed on June 1, 2011.	</value>
+
+		<annotated-sentence>	Johnson was also assigned as the pilot to the [[STS-134|STS-134]] mission, which launched on May 16, 2011 and landed on June 1, 2011.	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was also assigned as the pilot to the [[STS-134|STS-134]] mission, which launched on May 16, 2011 and landed on June 1, 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,Johnson/NNP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,also/RB-3)
+				det(pilot/NN-7,the/DT-6)
+				prep_as(assigned/VBN-4,pilot/NN-7)
+				det(mission/NN-11,the/DT-9)
+				nn(mission/NN-11,STS-134/NN-10)
+				prep_to(assigned/VBN-4,mission/NN-11)
+				nsubj(launched/VBD-14,which/WDT-13)
+				nsubj(landed/VBD-21,which/WDT-13)
+				rcmod(mission/NN-11,launched/VBD-14)
+				prep_on(launched/VBD-14,May/NNP-16)
+				num(May/NNP-16,16/CD-17)
+				num(May/NNP-16,2011/CD-19)
+				rcmod(mission/NN-11,landed/VBD-21)
+				conj_and(launched/VBD-14,landed/VBD-21)
+				prep_on(landed/VBD-21,June/NNP-23)
+				num(June/NNP-23,1/CD-24)
+				num(June/NNP-23,2011/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-134</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-134</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-134
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Greg Johnson has also served in numerous roles for NASA including as a Capcom for several missions.	</value>
+
+		<annotated-sentence>	Greg Johnson has also served in numerous [[roles|Role]] for [[NASA|NASA]] including as [[a Capcom|Capcom]] for several missions.	</annotated-sentence>
+
+		<pattern_crowdsource>	Greg Johnson has also served in numerous roles for [[NASA|NASA]] including as a Capcom for several missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Johnson/NNP-2,Greg/NNP-1)
+				nsubj(served/VBN-5,Johnson/NNP-2)
+				aux(served/VBN-5,has/VBZ-3)
+				advmod(served/VBN-5,also/RB-4)
+				amod(roles/NNS-8,numerous/JJ-7)
+				prep_in(served/VBN-5,roles/NNS-8)
+				prep_for(roles/NNS-8,NASA/NNP-10)
+				prep(served/VBN-5,including/VBG-11)
+				pcomp(including/VBG-11,as/IN-12)
+				det(Capcom/NNP-14,a/DT-13)
+				pobj(as/IN-12,Capcom/NNP-14)
+				amod(missions/NNS-17,several/JJ-16)
+				prep_for(Capcom/NNP-14,missions/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>roles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Role</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Capcom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was born in 1962 in South Ruislip, Middlesex, United Kingdom.	</value>
+
+		<annotated-sentence>	Johnson was born in [[1962|1962]] in [[South Ruislip|South_Ruislip]], [[Middlesex|Middlesex]], [[United Kingdom|United_Kingdom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was born in 1962 in [[South Ruislip|South_Ruislip]], [[Middlesex|Middlesex]], [[United Kingdom|United_Kingdom]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Johnson/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,1962/CD-5)
+				nn(Kingdom/NNP-13,South/NNP-7)
+				nn(Kingdom/NNP-13,Ruislip/NNP-8)
+				appos(Kingdom/NNP-13,Middlesex/NNP-10)
+				appos(Kingdom/NNP-13,United/NNP-12)
+				prep_in(born/VBN-3,Kingdom/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>South Ruislip</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/South_Ruislip</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Middlesex</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Middlesex</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United Kingdom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/South_Ruislip
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/South_Ruislip http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Middlesex
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Park Hills High School (now Fairborn High School), Fairborn, Ohio in 1980.	</value>
+
+		<annotated-sentence>	He graduated from [[Park Hills High School|Fairborn_High_School]] (now [[Fairborn High School|Fairborn_High_School]]), [[Fairborn , Ohio|Fairborn,_Ohio]]in [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from [[Park Hills High School|Fairborn_High_School]] (now [[Fairborn High School|Fairborn_High_School]]), Fairborn, Ohio in 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-7,Park/NNP-4)
+				nn(School/NNP-7,Hills/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				dep(School/NNP-12,now/RB-9)
+				nn(School/NNP-12,Fairborn/NNP-10)
+				nn(School/NNP-12,High/NNP-11)
+				appos(School/NNP-7,School/NNP-12)
+				nn(Ohio/NNP-17,Fairborn/NNP-15)
+				appos(School/NNP-7,Ohio/NNP-17)
+				prep_in(graduated/VBD-2,1980/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Park Hills High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fairborn_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fairborn High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fairborn_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fairborn , Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fairborn,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Fairborn_High_School http://dbpedia.org/ontology/city http://dbpedia.org/resource/Fairborn,_Ohio
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Fairborn_High_School http://dbpedia.org/ontology/city http://dbpedia.org/resource/Fairborn,_Ohio
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an Eagle Scout in the Boy Scouts of America.	</value>
+
+		<annotated-sentence>	He is [[an Eagle Scout|Eagle_Scout_(Boy_Scouts_of_America)]] in [[the Boy Scouts|Boy_Scouts]] of [[America|United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is [[an Eagle Scout|Eagle_Scout_(Boy_Scouts_of_America)]] in the Boy Scouts of [[America|United_States]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scout/NNP-5,He/PRP-1)
+				cop(Scout/NNP-5,is/VBZ-2)
+				det(Scout/NNP-5,an/DT-3)
+				nn(Scout/NNP-5,Eagle/NNP-4)
+				det(Scouts/NNS-9,the/DT-7)
+				nn(Scouts/NNS-9,Boy/NNP-8)
+				prep_in(Scout/NNP-5,Scouts/NNS-9)
+				prep_of(Scout/NNP-5,America/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an Eagle Scout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eagle_Scout_(Boy_Scouts_of_America)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Boy Scouts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boy_Scouts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>America</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Eagle_Scout_(Boy_Scouts_of_America) http://dbpedia.org/property/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He earned a Bachelor of Science degree in aeronautical engineering from the United States Air Force Academy in 1984, a Master of Science in flight structures engineering from Columbia University in 1985, and a Master of Business Administration from the University of Texas at Austin in 2005.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(earned/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(engineering/NN-10,aeronautical/JJ-9)
+				prep_in(earned/VBD-2,engineering/NN-10)
+				det(Academy/NNP-17,the/DT-12)
+				nn(Academy/NNP-17,United/NNP-13)
+				nn(Academy/NNP-17,States/NNP-14)
+				nn(Academy/NNP-17,Air/NNP-15)
+				nn(Academy/NNP-17,Force/NNP-16)
+				prep_from(earned/VBD-2,Academy/NNP-17)
+				prep_in(Academy/NNP-17,1984/CD-19)
+				det(Master/NN-22,a/DT-21)
+				prep_from(earned/VBD-2,Master/NN-22)
+				conj_and(Academy/NNP-17,Master/NN-22)
+				prep_of(Master/NN-22,Science/NN-24)
+				nn(engineering/NN-28,flight/NN-26)
+				nn(engineering/NN-28,structures/NNS-27)
+				prep_in(Science/NN-24,engineering/NN-28)
+				nn(University/NNP-31,Columbia/NNP-30)
+				prep_from(engineering/NN-28,University/NNP-31)
+				prep_in(University/NNP-31,1985/CD-33)
+				det(Master/NN-37,a/DT-36)
+				prep_from(earned/VBD-2,Master/NN-37)
+				conj_and(Academy/NNP-17,Master/NN-37)
+				nn(Administration/NNP-40,Business/NNP-39)
+				prep_of(Master/NN-37,Administration/NNP-40)
+				det(University/NNP-43,the/DT-42)
+				prep_from(Administration/NNP-40,University/NNP-43)
+				prep_of(University/NNP-43,Texas/NNP-45)
+				prep_at(earned/VBD-2,Austin/NNP-47)
+				prep_in(Austin/NNP-47,2005/CD-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson is married to the former Cari M. Harbaugh.	</value>
+
+		<annotated-sentence>	Johnson is married to the former Cari M. Harbaugh.	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson is married to the former Cari M. Harbaugh.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Johnson/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Harbaugh/NNP-9,the/DT-5)
+				amod(Harbaugh/NNP-9,former/JJ-6)
+				nn(Harbaugh/NNP-9,Cari/NNP-7)
+				nn(Harbaugh/NNP-9,M./NNP-8)
+				prep_to(married/VBN-3,Harbaugh/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have three children, Matthew, Joseph, and Rachel.	</value>
+
+		<annotated-sentence>	[[They|They]] have three [[children|Child]], Matthew, Joseph, and [[Rachel|Rachel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have three children, Matthew, Joseph, and Rachel.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,three/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+				dobj(have/VBP-2,Matthew/NNP-6)
+				conj_and(children/NNS-4,Matthew/NNP-6)
+				dobj(have/VBP-2,Joseph/NNP-8)
+				conj_and(children/NNS-4,Joseph/NNP-8)
+				dobj(have/VBP-2,Rachel/NNP-11)
+				conj_and(children/NNS-4,Rachel/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rachel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rachel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson received his commission from the United States Air Force Academy in May 1984 and attended pilot training at Reese Air Force Base, Texas.	</value>
+
+		<annotated-sentence>	Johnson received his commission from [[the United States Air Force Academy|United_States_Air_Force_Academy]] in [[May 1984|1984]] and attended [[pilot training|Flight_training]] at [[Reese Air Force Base|Reese_Air_Force_Base]], [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson received his commission from the United States Air Force Academy in May 1984 and attended pilot training at Reese Air Force Base, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Johnson/NNP-1)
+				nsubj(attended/VBD-16,Johnson/NNP-1)
+				poss(commission/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,commission/NN-4)
+				det(Academy/NNP-11,the/DT-6)
+				nn(Academy/NNP-11,United/NNP-7)
+				nn(Academy/NNP-11,States/NNP-8)
+				nn(Academy/NNP-11,Air/NNP-9)
+				nn(Academy/NNP-11,Force/NNP-10)
+				prep_from(received/VBD-2,Academy/NNP-11)
+				prep_in(received/VBD-2,May/NNP-13)
+				num(May/NNP-13,1984/CD-14)
+				conj_and(received/VBD-2,attended/VBD-16)
+				nn(training/NN-18,pilot/NN-17)
+				dobj(attended/VBD-16,training/NN-18)
+				nn(Base/NNP-23,Reese/NNP-20)
+				nn(Base/NNP-23,Air/NNP-21)
+				nn(Base/NNP-23,Force/NNP-22)
+				prep_at(attended/VBD-16,Base/NNP-23)
+				appos(Base/NNP-23,Texas/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reese Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reese_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was retained as a T-38A instructor pilot until 1989, when he was selected for an F-15E Eagle assignment.	</value>
+
+		<annotated-sentence>	He was retained as a [[T-38A|Northrop_T-38_Talon]] instructor pilot until [[1989|1989]], when he was selected for an [[F-15E|McDonnell_Douglas_F-15E_Strike_Eagle]] [[Eagle|Eagle]] assignment.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was retained as a T-38A instructor pilot until 1989, when he was selected for an F-15E Eagle assignment.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(retained/VBN-3,He/PRP-1)
+				auxpass(retained/VBN-3,was/VBD-2)
+				det(pilot/NN-8,a/DT-5)
+				nn(pilot/NN-8,T-38A/NN-6)
+				nn(pilot/NN-8,instructor/NN-7)
+				prep_as(retained/VBN-3,pilot/NN-8)
+				prep_until(retained/VBN-3,1989/CD-10)
+				advmod(selected/VBN-15,when/WRB-12)
+				nsubjpass(selected/VBN-15,he/PRP-13)
+				auxpass(selected/VBN-15,was/VBD-14)
+				advcl(retained/VBN-3,selected/VBN-15)
+				det(assignment/NN-20,an/DT-17)
+				nn(assignment/NN-20,F-15E/NN-18)
+				nn(assignment/NN-20,Eagle/NNP-19)
+				prep_for(selected/VBN-15,assignment/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>T-38A</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_T-38_Talon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-15E</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-15E_Strike_Eagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Eagle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eagle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing initial F-15E training, Johnson was assigned to the 335th Fighter Squadron, at Seymour Johnson Air Force Base, North Carolina.	</value>
+
+		<annotated-sentence>	After completing initial [[F-15E|McDonnell_Douglas_F-15E_Strike_Eagle]] [[training|Training]], Johnson was assigned to [[the 335th Fighter Squadron|335th_Fighter_Squadron]], at [[Seymour Johnson Air Force Base|Seymour_Johnson_Air_Force_Base]], [[North Carolina|North_Carolina]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After completing initial F-15E training, Johnson was assigned to [[the 335th Fighter Squadron|335th_Fighter_Squadron]], at [[Seymour Johnson Air Force Base|Seymour_Johnson_Air_Force_Base]], North Carolina.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(assigned/VBN-9,completing/VBG-2)
+				amod(training/NN-5,initial/JJ-3)
+				nn(training/NN-5,F-15E/NN-4)
+				dobj(completing/VBG-2,training/NN-5)
+				nsubjpass(assigned/VBN-9,Johnson/NNP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(Squadron/NNP-14,the/DT-11)
+				amod(Squadron/NNP-14,335th/JJ-12)
+				nn(Squadron/NNP-14,Fighter/NNP-13)
+				prep_to(assigned/VBN-9,Squadron/NNP-14)
+				nn(Base/NNP-21,Seymour/NNP-17)
+				nn(Base/NNP-21,Johnson/NNP-18)
+				nn(Base/NNP-21,Air/NNP-19)
+				nn(Base/NNP-21,Force/NNP-20)
+				prep_at(assigned/VBN-9,Base/NNP-21)
+				nn(Carolina/NNP-24,North/NNP-23)
+				appos(Base/NNP-21,Carolina/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>F-15E</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-15E_Strike_Eagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 335th Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/335th_Fighter_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Seymour Johnson Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Seymour_Johnson_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>North Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Carolina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/335th_Fighter_Squadron http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Seymour_Johnson_Air_Force_Base
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In December 1990, Johnson deployed to Al Kharj, Saudi Arabia, flying 34 combat missions in support of Operation Desert Storm.	</value>
+
+		<annotated-sentence>	In [[December 1990|1990]], Johnson deployed to [[Al Kharj|Al-Kharj]], [[Saudi Arabia|Saudi_Arabia]], flying 34 [[combat missions|Combat_Missions]] in support of [[Operation Desert Storm|Operation:_Desert_Storm_(video_game)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In December 1990, Johnson deployed to Al Kharj, Saudi Arabia, flying 34 combat missions in support of Operation Desert Storm.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(deployed/VBD-6,December/NNP-2)
+				num(December/NNP-2,1990/CD-3)
+				nsubj(deployed/VBD-6,Johnson/NNP-5)
+				nn(Kharj/NNP-9,Al/NNP-8)
+				prep_to(deployed/VBD-6,Kharj/NNP-9)
+				nn(Arabia/NNP-12,Saudi/NNP-11)
+				appos(Kharj/NNP-9,Arabia/NNP-12)
+				xcomp(deployed/VBD-6,flying/VBG-14)
+				num(missions/NNS-17,34/CD-15)
+				nn(missions/NNS-17,combat/NN-16)
+				dobj(flying/VBG-14,missions/NNS-17)
+				prep_in(flying/VBG-14,support/NN-19)
+				nn(Storm/NN-23,Operation/NNP-21)
+				nn(Storm/NN-23,Desert/NNP-22)
+				prep_of(support/NN-19,Storm/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Al Kharj</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Al-Kharj</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saudi Arabia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saudi_Arabia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation Desert Storm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation:_Desert_Storm_(video_game)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In December 1992, he was again deployed to Saudi Arabia for three months, flying an additional 27 combat missions in support of Operation Southern Watch.	</value>
+
+		<annotated-sentence>	In [[December 1992|1992]], he was again deployed to [[Saudi Arabia|Saudi_Arabia]] for three [[months|Month]], flying an additional 27 [[combat missions|Combat_Missions]] in support of [[Operation Southern Watch|Operation_Southern_Watch]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In December 1992, he was again deployed to Saudi Arabia for three months, flying an additional 27 combat missions in support of Operation Southern Watch.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(deployed/VBN-8,December/NNP-2)
+				num(December/NNP-2,1992/CD-3)
+				nsubjpass(deployed/VBN-8,he/PRP-5)
+				auxpass(deployed/VBN-8,was/VBD-6)
+				advmod(deployed/VBN-8,again/RB-7)
+				nn(Arabia/NNP-11,Saudi/NNP-10)
+				prep_to(deployed/VBN-8,Arabia/NNP-11)
+				num(months/NNS-14,three/CD-13)
+				prep_for(Arabia/NNP-11,months/NNS-14)
+				xcomp(deployed/VBN-8,flying/VBG-16)
+				det(missions/NNS-21,an/DT-17)
+				amod(missions/NNS-21,additional/JJ-18)
+				num(missions/NNS-21,27/CD-19)
+				nn(missions/NNS-21,combat/NN-20)
+				dobj(flying/VBG-16,missions/NNS-21)
+				prep_in(missions/NNS-21,support/NN-23)
+				nn(Watch/NNP-27,Operation/NNP-25)
+				nn(Watch/NNP-27,Southern/NNP-26)
+				prep_of(support/NN-23,Watch/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saudi Arabia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saudi_Arabia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation Southern Watch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Southern_Watch</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1993, he was selected for Air Force Test Pilot School at Edwards Air Force Base.	</value>
+
+		<annotated-sentence>	In [[1993|1993]], he was selected for [[Air Force|Air_force]] [[Test Pilot School|U.S._Air_Force_Test_Pilot_School]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1993, he was selected for Air Force [[Test Pilot School|U.S._Air_Force_Test_Pilot_School]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1993/CD-2)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				nn(School/NNP-12,Air/NNP-8)
+				nn(School/NNP-12,Force/NNP-9)
+				nn(School/NNP-12,Test/NNP-10)
+				nn(School/NNP-12,Pilot/NN-11)
+				prep_for(selected/VBN-6,School/NNP-12)
+				nn(Base/NNP-17,Edwards/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(School/NNP-12,Base/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Edwards_Air_Force_Base
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation, he was assigned to the 445th Flight Test Squadron at Edwards, where he flew and tested F-15C/E, NF-15B, and T-38A/B aircraft.	</value>
+
+		<annotated-sentence>	After [[graduation|Graduation]], he was assigned to [[the 445th Flight Test Squadron|445th_Flight_Test_Squadron]] at [[Edwards|Edwards_Air_Force_Base]], where he flew and tested [[F-15C|McDonnell_Douglas_F-15_Eagle]]/E, NF-15B, and T-38A/B [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduation, he was assigned to [[the 445th Flight Test Squadron|445th_Flight_Test_Squadron]] at [[Edwards|Edwards_Air_Force_Base]], where he flew and tested [[F-15C|McDonnell_Douglas_F-15_Eagle]]/E, NF-15B, and T-38A/B [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(assigned/VBN-6,graduation/NN-2)
+				nsubjpass(assigned/VBN-6,he/PRP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(Squadron/NN-12,the/DT-8)
+				amod(Squadron/NN-12,445th/JJ-9)
+				nn(Squadron/NN-12,Flight/NN-10)
+				nn(Squadron/NN-12,Test/NN-11)
+				prep_to(assigned/VBN-6,Squadron/NN-12)
+				prep_at(assigned/VBN-6,Edwards/NNP-14)
+				advmod(flew/VBD-18,where/WRB-16)
+				nsubj(flew/VBD-18,he/PRP-17)
+				nsubj(tested/VBD-20,he/PRP-17)
+				rcmod(Edwards/NNP-14,flew/VBD-18)
+				rcmod(Edwards/NNP-14,tested/VBD-20)
+				conj_and(flew/VBD-18,tested/VBD-20)
+				dobj(tested/VBD-20,F-15C/NN-21)
+				punct(F-15C/NN-21,//:-22)
+				dobj(tested/VBD-20,E/NN-23)
+				conj_and(F-15C/NN-21,E/NN-23)
+				dobj(tested/VBD-20,NF-15B/NN-25)
+				conj_and(F-15C/NN-21,NF-15B/NN-25)
+				dobj(tested/VBD-20,T-38A/NN-28)
+				conj_and(F-15C/NN-21,T-38A/NN-28)
+				punct(aircraft/NN-31,//:-29)
+				nn(aircraft/NN-31,B/NN-30)
+				prep(F-15C/NN-21,aircraft/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 445th Flight Test Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/445th_Flight_Test_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-15C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_Douglas_F-15_Eagle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/445th_Flight_Test_Squadron http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Edwards_Air_Force_Base
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/McDonnell_Douglas_F-15_Eagle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 3,500 flight hours in more than 40 different aircraft.	</value>
+
+		<annotated-sentence>	He has logged over 3,500 [[flight|Flight]] [[hours|Hour]] in more than 40 different [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 3,500 flight hours in more than 40 different aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,3,500/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				mwe(than/IN-10,more/JJR-9)
+				quantmod(40/CD-11,than/IN-10)
+				num(aircraft/NN-13,40/CD-11)
+				amod(aircraft/NN-13,different/JJ-12)
+				prep_in(hours/NNS-7,aircraft/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The story of the name "Box" has been a mystery.	</value>
+
+		<annotated-sentence>	The story of the name "Box" has been a mystery.	</annotated-sentence>
+
+		<pattern_crowdsource>	The story of the name "Box" has been a mystery.	</pattern_crowdsource>
+
+
+		<tree>
+				det(story/NN-2,The/DT-1)
+				nsubj(mystery/NN-12,story/NN-2)
+				det(Box/NNP-7,the/DT-4)
+				nn(Box/NNP-7,name/NN-5)
+				prep_of(story/NN-2,Box/NNP-7)
+				aux(mystery/NN-12,has/VBZ-9)
+				cop(mystery/NN-12,been/VBN-10)
+				det(mystery/NN-12,a/DT-11)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During a recent interview with a group of Executive Management students at the University of Texas, Mr. Johnson stated that the origination of the name "Box Johnson" came from his tour in Desert Storm.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(interview/NN-4,a/DT-2)
+				amod(interview/NN-4,recent/JJ-3)
+				prep_during(stated/VBD-20,interview/NN-4)
+				det(group/NN-7,a/DT-6)
+				prep_with(interview/NN-4,group/NN-7)
+				nn(students/NNS-11,Executive/NNP-9)
+				nn(students/NNS-11,Management/NNP-10)
+				prep_of(group/NN-7,students/NNS-11)
+				det(University/NNP-14,the/DT-13)
+				prep_at(students/NNS-11,University/NNP-14)
+				prep_of(University/NNP-14,Texas/NNP-16)
+				nn(Johnson/NNP-19,Mr./NNP-18)
+				nsubj(stated/VBD-20,Johnson/NNP-19)
+				mark(came/VBD-31,that/IN-21)
+				det(origination/NN-23,the/DT-22)
+				nsubj(came/VBD-31,origination/NN-23)
+				det(Johnson/NNP-29,the/DT-25)
+				nn(Johnson/NNP-29,name/NN-26)
+				nn(Johnson/NNP-29,Box/NNP-28)
+				prep_of(origination/NN-23,Johnson/NNP-29)
+				ccomp(stated/VBD-20,came/VBD-31)
+				poss(tour/NN-34,his/PRP$-33)
+				prep_from(came/VBD-31,tour/NN-34)
+				nn(Storm/NN-37,Desert/NNP-36)
+				prep_in(came/VBD-31,Storm/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mr. Johnson incurred a back injury that lead him to being sent home early.	</value>
+
+		<annotated-sentence>	[[Mr. Johnson|Mr._Johnson_(Sesame_Street)]] incurred [[a back injury|Injury]] that lead him to being sent home early.	</annotated-sentence>
+
+		<pattern_crowdsource>	Mr. Johnson incurred a back injury that lead him to being sent home early.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Johnson/NNP-2,Mr./NNP-1)
+				nsubj(incurred/VBD-3,Johnson/NNP-2)
+				det(injury/NN-6,a/DT-4)
+				advmod(injury/NN-6,back/RB-5)
+				dobj(incurred/VBD-3,injury/NN-6)
+				nsubj(lead/VBP-8,that/WDT-7)
+				rcmod(injury/NN-6,lead/VBP-8)
+				dobj(lead/VBP-8,him/PRP-9)
+				auxpass(sent/VBN-12,being/VBG-11)
+				prepc_to(lead/VBP-8,sent/VBN-12)
+				advmod(sent/VBN-12,home/RB-13)
+				advmod(sent/VBN-12,early/RB-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mr. Johnson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mr._Johnson_(Sesame_Street)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a back injury</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Injury</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He put all of his belongings in a box and then he was taken back to the states.	</value>
+
+		<annotated-sentence>	He put all of his belongings in a box and then he was taken back to the states.	</annotated-sentence>
+
+		<pattern_crowdsource>	He put all of his belongings in a box and then he was taken back to the states.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(put/VBD-2,He/PRP-1)
+				dobj(put/VBD-2,all/DT-3)
+				poss(belongings/NNS-6,his/PRP$-5)
+				prep_of(all/DT-3,belongings/NNS-6)
+				det(box/NN-9,a/DT-8)
+				prep_in(put/VBD-2,box/NN-9)
+				cc(put/VBD-2,and/CC-10)
+				advmod(put/VBD-2,then/RB-11)
+				nsubjpass(taken/VBN-14,he/PRP-12)
+				auxpass(taken/VBN-14,was/VBD-13)
+				ccomp(put/VBD-2,taken/VBN-14)
+				advmod(taken/VBN-14,back/RB-15)
+				det(states/NNS-18,the/DT-17)
+				prep_to(taken/VBN-14,states/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The box was left in the barracks as a reminder to all his fellow soldiers to stare at thinking about how he was at home.	</value>
+
+		<annotated-sentence>	The box was left in [[the barracks|Barracks]] as a reminder to [[all his fellow soldiers|Soldier]] to stare at thinking about how he was at home.	</annotated-sentence>
+
+		<pattern_crowdsource>	The box was left in the barracks as a reminder to all his fellow soldiers to stare at thinking about how he was at home.	</pattern_crowdsource>
+
+
+		<tree>
+				det(box/NN-2,The/DT-1)
+				nsubjpass(left/VBN-4,box/NN-2)
+				auxpass(left/VBN-4,was/VBD-3)
+				det(barracks/NNS-7,the/DT-6)
+				prep_in(left/VBN-4,barracks/NNS-7)
+				det(reminder/NN-10,a/DT-9)
+				prep_as(barracks/NNS-7,reminder/NN-10)
+				predet(soldiers/NNS-15,all/DT-12)
+				poss(soldiers/NNS-15,his/PRP$-13)
+				nn(soldiers/NNS-15,fellow/NN-14)
+				prep_to(left/VBN-4,soldiers/NNS-15)
+				aux(stare/VB-17,to/TO-16)
+				infmod(soldiers/NNS-15,stare/VB-17)
+				prepc_at(stare/VB-17,thinking/VBG-19)
+				advmod(was/VBD-23,how/WRB-21)
+				nsubj(was/VBD-23,he/PRP-22)
+				prepc_about(thinking/VBG-19,was/VBD-23)
+				prep_at(was/VBD-23,home/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the barracks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Barracks</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>all his fellow soldiers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soldier</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	So after a while they wrote "Box Johnson" on the box and the name stuck!	</value>
+
+		<annotated-sentence>	So after a while they wrote "[[Box Johnson|Gregory_H._Johnson]]" on the box and the name stuck!	</annotated-sentence>
+
+		<pattern_crowdsource>	So after a while they wrote "Box Johnson" on the box and the name stuck!	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(after/IN-2,So/RB-1)
+				dep(after/IN-2,a/DT-3)
+				mark(wrote/VBD-6,while/IN-4)
+				nsubj(wrote/VBD-6,they/PRP-5)
+				dep(after/IN-2,wrote/VBD-6)
+				nn(Johnson/NNP-9,Box/NNP-8)
+				dobj(wrote/VBD-6,Johnson/NNP-9)
+				det(box/NN-13,the/DT-12)
+				prep_on(Johnson/NNP-9,box/NN-13)
+				det(name/NN-16,the/DT-15)
+				nsubj(stuck/VBD-17,name/NN-16)
+				dep(after/IN-2,stuck/VBD-17)
+				conj_and(wrote/VBD-6,stuck/VBD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Box Johnson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_H._Johnson</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in June 1998, he reported for training in August 1998.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[June 1998|1998]], he reported for [[training|Training]] in [[August 1998|1998]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in June 1998, he reported for training in August 1998.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-9,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,June/NNP-5)
+				num(June/NNP-5,1998/CD-6)
+				nsubj(reported/VBD-9,he/PRP-8)
+				prep_for(reported/VBD-9,training/NN-11)
+				prep_in(reported/VBD-9,August/NNP-13)
+				num(August/NNP-13,1998/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed Astronaut Candidate Training in 2000.	</value>
+
+		<annotated-sentence>	He completed [[Astronaut|Astronaut]] [[Candidate|Candidate]] [[Training|Training]] in [[2000|2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed [[Astronaut|Astronaut]] Candidate Training in 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				nn(Training/NN-5,Astronaut/NNP-3)
+				nn(Training/NN-5,Candidate/NNP-4)
+				dobj(completed/VBD-2,Training/NN-5)
+				prep_in(Training/NN-5,2000/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following initial training and evaluation, astronaut candidates receive technical assignments within the Flight Crew Operations Directorate before being assigned to a space flight.	</value>
+
+		<annotated-sentence>	Following initial [[training|Training]] and evaluation, [[astronaut|Astronaut]] [[candidates|Candidate]] receive technical assignments within the [[Flight Crew|Aircrew]] [[Operations Directorate|Operations_Directorate]] before being assigned to a space flight.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following initial training and evaluation, [[astronaut|Astronaut]] candidates receive technical assignments within the Flight Crew Operations Directorate before being assigned to a space flight.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(training/NN-3,initial/JJ-2)
+				prep_following(receive/VBP-9,training/NN-3)
+				conj_and(training/NN-3,evaluation/NN-5)
+				prep_following(receive/VBP-9,evaluation/NN-5)
+				nn(candidates/NNS-8,astronaut/NN-7)
+				nsubj(receive/VBP-9,candidates/NNS-8)
+				amod(assignments/NNS-11,technical/JJ-10)
+				dobj(receive/VBP-9,assignments/NNS-11)
+				det(Directorate/NNP-17,the/DT-13)
+				nn(Directorate/NNP-17,Flight/NNP-14)
+				nn(Directorate/NNP-17,Crew/NNP-15)
+				nn(Directorate/NNP-17,Operations/NNP-16)
+				prep_within(assignments/NNS-11,Directorate/NNP-17)
+				auxpass(assigned/VBN-20,being/VBG-19)
+				prepc_before(receive/VBP-9,assigned/VBN-20)
+				det(flight/NN-24,a/DT-22)
+				nn(flight/NN-24,space/NN-23)
+				prep_to(assigned/VBN-20,flight/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations Directorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_Directorate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2000, Johnson was assigned as a Technical Assistant to the Director, Flight Crew Operations Directorate (FCOD).	</value>
+
+		<annotated-sentence>	In [[2000|2000]], Johnson was assigned as a Technical Assistant to the Director, [[Flight Crew|Aircrew]] [[Operations Directorate|Operations_Directorate]] (FCOD).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2000, Johnson was assigned as a Technical Assistant to the Director, Flight Crew Operations Directorate (FCOD).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,2000/CD-2)
+				nsubjpass(assigned/VBN-6,Johnson/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(Assistant/NNP-10,a/DT-8)
+				nn(Assistant/NNP-10,Technical/NNP-9)
+				prep_as(assigned/VBN-6,Assistant/NNP-10)
+				det(Director/NNP-13,the/DT-12)
+				prep_to(assigned/VBN-6,Director/NNP-13)
+				nn(Directorate/NNP-18,Flight/NNP-15)
+				nn(Directorate/NNP-18,Crew/NNP-16)
+				nn(Directorate/NNP-18,Operations/NNP-17)
+				appos(Director/NNP-13,Directorate/NNP-18)
+				appos(Directorate/NNP-18,FCOD/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations Directorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_Directorate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In conjunction with that position, Johnson was assigned to the Shuttle Cockpit Avionics Upgrade (CAU) council – redesigning cockpit displays for future Space Shuttle missions.	</value>
+
+		<annotated-sentence>	In conjunction with that position, Johnson was assigned to the [[Shuttle|Space_Shuttle]] [[Cockpit|Cockpit]] [[Avionics|Avionics]] [[Upgrade|Upgrade]] (CAU) council – redesigning [[cockpit|Cockpit]] displays for future [[Space Shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In conjunction with that position, Johnson was assigned to the Shuttle Cockpit Avionics Upgrade (CAU) council – redesigning cockpit displays for future Space Shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-9,conjunction/NN-2)
+				det(position/NN-5,that/DT-4)
+				prep_with(conjunction/NN-2,position/NN-5)
+				nsubjpass(assigned/VBN-9,Johnson/NNP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(Upgrade/NNP-15,the/DT-11)
+				nn(Upgrade/NNP-15,Shuttle/NNP-12)
+				nn(Upgrade/NNP-15,Cockpit/NNP-13)
+				nn(Upgrade/NNP-15,Avionics/NNP-14)
+				nsubj(redesigning/VBG-21,Upgrade/NNP-15)
+				appos(Upgrade/NNP-15,CAU/NNP-17)
+				dep(Upgrade/NNP-15,council/NN-19)
+				prepc_to(assigned/VBN-9,redesigning/VBG-21)
+				nn(displays/NNS-23,cockpit/NN-22)
+				dobj(redesigning/VBG-21,displays/NNS-23)
+				amod(missions/NNS-28,future/JJ-25)
+				nn(missions/NNS-28,Space/NN-26)
+				nn(missions/NNS-28,Shuttle/NNP-27)
+				prep_for(redesigning/VBG-21,missions/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cockpit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cockpit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Avionics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Avionics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Upgrade</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Upgrade</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cockpit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cockpit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His design and evaluation work with CAU has continued to the present.	</value>
+
+		<annotated-sentence>	His [[design|Design]] and [[evaluation|Evaluation]] [[work|Work]] with CAU has continued to the present.	</annotated-sentence>
+
+		<pattern_crowdsource>	His design and evaluation work with CAU has continued to the present.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(design/NN-2,His/PRP$-1)
+				nsubj(continued/VBN-9,design/NN-2)
+				nn(work/NN-5,evaluation/NN-4)
+				conj_and(design/NN-2,work/NN-5)
+				nsubj(continued/VBN-9,work/NN-5)
+				prep_with(design/NN-2,CAU/NNP-7)
+				aux(continued/VBN-9,has/VBZ-8)
+				det(present/JJ-12,the/DT-11)
+				prep_to(continued/VBN-9,present/JJ-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Design</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>evaluation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2001, Johnson was reassigned from FCOD to the Space Shuttle Branch, where he has held various positions including direct support to the crews of STS-100 and STS-108, chief of shuttle abort planning and procedures for contingency scenarios, and ascent procedure development.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(abort/VBP-35,2001/CD-2)
+				nsubjpass(reassigned/VBN-6,Johnson/NNP-4)
+				auxpass(reassigned/VBN-6,was/VBD-5)
+				parataxis(abort/VBP-35,reassigned/VBN-6)
+				prep_from(reassigned/VBN-6,FCOD/NN-8)
+				det(Space/NN-11,the/DT-10)
+				prep_to(reassigned/VBN-6,Space/NN-11)
+				nn(Branch/NNP-13,Shuttle/NNP-12)
+				tmod(Space/NN-11,Branch/NNP-13)
+				advmod(held/VBN-18,where/WRB-15)
+				nsubj(held/VBN-18,he/PRP-16)
+				aux(held/VBN-18,has/VBZ-17)
+				rcmod(Branch/NNP-13,held/VBN-18)
+				amod(positions/NNS-20,various/JJ-19)
+				dobj(held/VBN-18,positions/NNS-20)
+				amod(support/NN-23,direct/JJ-22)
+				prep_including(positions/NNS-20,support/NN-23)
+				det(crews/NNS-26,the/DT-25)
+				prep_to(support/NN-23,crews/NNS-26)
+				prep_of(crews/NNS-26,STS-100/NN-28)
+				prep_of(crews/NNS-26,STS-108/NN-30)
+				conj_and(STS-100/NN-28,STS-108/NN-30)
+				nsubj(abort/VBP-35,chief/NN-32)
+				prep_of(chief/NN-32,shuttle/NN-34)
+				dobj(abort/VBP-35,planning/NN-36)
+				dobj(abort/VBP-35,procedures/NNS-38)
+				conj_and(planning/NN-36,procedures/NNS-38)
+				nn(scenarios/NNS-41,contingency/NN-40)
+				prep_for(abort/VBP-35,scenarios/NNS-41)
+				nn(development/NN-46,ascent/NN-44)
+				nn(development/NN-46,procedure/NN-45)
+				prep_for(abort/VBP-35,development/NN-46)
+				conj_and(scenarios/NNS-41,development/NN-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also was a key player on several “tiger teams” during the investigation into the cause of the Columbia accident in 2003.	</value>
+
+		<annotated-sentence>	He also was a key [[player|Association_football]] on several “[[tiger|Tiger]] [[teams|Team_sport]]” during the investigation into the cause of [[the Columbia accident|Space_Shuttle_Columbia_disaster]] in [[2003|2003]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also was a key [[player|Association_football]] on several “tiger [[teams|Team_sport]]” during the investigation into the cause of the Columbia accident in 2003.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(player/NN-6,He/PRP-1)
+				advmod(player/NN-6,also/RB-2)
+				cop(player/NN-6,was/VBD-3)
+				det(player/NN-6,a/DT-4)
+				amod(player/NN-6,key/JJ-5)
+				amod(teams/NNS-11,several/JJ-8)
+				nn(teams/NNS-11,tiger/NN-10)
+				prep_on(player/NN-6,teams/NNS-11)
+				det(investigation/NN-15,the/DT-14)
+				prep_during(player/NN-6,investigation/NN-15)
+				det(cause/NN-18,the/DT-17)
+				prep_into(player/NN-6,cause/NN-18)
+				det(accident/NN-22,the/DT-20)
+				nn(accident/NN-22,Columbia/NNP-21)
+				prep_of(cause/NN-18,accident/NN-22)
+				prep_in(accident/NN-22,2003/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>player</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Association_football</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tiger</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tiger</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>teams</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team_sport</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Columbia accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia_disaster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2003</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Association_football http://dbpedia.org/ontology/category http://dbpedia.org/resource/Team_sport
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was the astronaut representative to the External Tank (ET) foam impact test team that eventually proved that ET foam debris on ascent could critically damage the shuttle’s leading edge thermal protection system.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(representative/NN-5,Johnson/NNP-1)
+				cop(representative/NN-5,was/VBD-2)
+				det(representative/NN-5,the/DT-3)
+				nn(representative/NN-5,astronaut/NN-4)
+				det(Tank/NNP-9,the/DT-7)
+				nn(Tank/NNP-9,External/NNP-8)
+				prep_to(representative/NN-5,Tank/NNP-9)
+				appos(representative/NN-5,ET/NNP-11)
+				nn(team/NN-16,foam/NN-13)
+				nn(team/NN-16,impact/NN-14)
+				nn(team/NN-16,test/NN-15)
+				dep(representative/NN-5,team/NN-16)
+				nsubj(proved/VBD-19,that/WDT-17)
+				advmod(proved/VBD-19,eventually/RB-18)
+				rcmod(team/NN-16,proved/VBD-19)
+				mark(damage/VB-28,that/IN-20)
+				nn(debris/NN-23,ET/NNP-21)
+				nn(debris/NN-23,foam/NN-22)
+				nsubj(damage/VB-28,debris/NN-23)
+				prep_on(debris/NN-23,ascent/NN-25)
+				aux(damage/VB-28,could/MD-26)
+				advmod(damage/VB-28,critically/RB-27)
+				ccomp(proved/VBD-19,damage/VB-28)
+				det(shuttle/NN-30,the/DT-29)
+				poss(edge/NN-33,shuttle/NN-30)
+				amod(edge/NN-33,leading/VBG-32)
+				nsubj(system/NN-36,edge/NN-33)
+				amod(system/NN-36,thermal/JJ-34)
+				nn(system/NN-36,protection/NN-35)
+				xcomp(damage/VB-28,system/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2004, Johnson was designated as the Deputy Chief of the Astronaut Safety Branch, focusing on all aspects of Space Shuttle, ISS, and T-38 safety, with special emphasis on improving specific operational procedures and techniques to make astronauts safer in all three vehicles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(designated/VBN-6,2004/CD-2)
+				nsubjpass(designated/VBN-6,Johnson/NNP-4)
+				auxpass(designated/VBN-6,was/VBD-5)
+				det(Chief/NNP-10,the/DT-8)
+				nn(Chief/NNP-10,Deputy/NNP-9)
+				prep_as(designated/VBN-6,Chief/NNP-10)
+				det(Branch/NNP-15,the/DT-12)
+				nn(Branch/NNP-15,Astronaut/NNP-13)
+				nn(Branch/NNP-15,Safety/NNP-14)
+				prep_of(Chief/NNP-10,Branch/NNP-15)
+				partmod(Chief/NNP-10,focusing/VBG-17)
+				det(aspects/NNS-20,all/DT-19)
+				prep_on(focusing/VBG-17,aspects/NNS-20)
+				prep_of(aspects/NNS-20,Space/NN-22)
+				nn(ISS/NNP-25,Shuttle/NNP-23)
+				dobj(focusing/VBG-17,ISS/NNP-25)
+				nn(safety/NN-29,T-38/NN-28)
+				dobj(focusing/VBG-17,safety/NN-29)
+				conj_and(ISS/NNP-25,safety/NN-29)
+				amod(emphasis/NN-33,special/JJ-32)
+				prep_with(focusing/VBG-17,emphasis/NN-33)
+				prepc_on(focusing/VBG-17,improving/VBG-35)
+				amod(procedures/NNS-38,specific/JJ-36)
+				amod(procedures/NNS-38,operational/JJ-37)
+				dobj(improving/VBG-35,procedures/NNS-38)
+				dobj(improving/VBG-35,techniques/NNS-40)
+				conj_and(procedures/NNS-38,techniques/NNS-40)
+				aux(make/VB-42,to/TO-41)
+				xcomp(improving/VBG-35,make/VB-42)
+				nsubj(safer/JJR-44,astronauts/NNS-43)
+				xcomp(make/VB-42,safer/JJR-44)
+				det(vehicles/NNS-48,all/DT-46)
+				num(vehicles/NNS-48,three/CD-47)
+				prep_in(make/VB-42,vehicles/NNS-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2005, Johnson was appointed as a crew representative supporting the design and testing of NASA’s newest spacecraft, the Crew Exploration Vehicle.	</value>
+
+		<annotated-sentence>	In [[2005|2005]], Johnson was appointed as a crew representative supporting the [[design|Design]] and testing of [[NASA|NASA]]’s newest [[spacecraft|Spacecraft]], [[the Crew Exploration Vehicle|Crew_Exploration_Vehicle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2005, Johnson was appointed as a crew representative supporting the design and testing of [[NASA|NASA]]’s newest spacecraft, the Crew Exploration Vehicle.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appointed/VBN-6,2005/CD-2)
+				nsubjpass(appointed/VBN-6,Johnson/NNP-4)
+				auxpass(appointed/VBN-6,was/VBD-5)
+				det(representative/NN-10,a/DT-8)
+				nn(representative/NN-10,crew/NN-9)
+				prep_as(appointed/VBN-6,representative/NN-10)
+				partmod(representative/NN-10,supporting/VBG-11)
+				det(design/NN-13,the/DT-12)
+				dobj(supporting/VBG-11,design/NN-13)
+				dobj(supporting/VBG-11,testing/NN-15)
+				conj_and(design/NN-13,testing/NN-15)
+				poss(spacecraft/NN-20,NASA/NNP-17)
+				amod(spacecraft/NN-20,newest/JJS-19)
+				prep_of(design/NN-13,spacecraft/NN-20)
+				det(Vehicle/NNP-25,the/DT-22)
+				nn(Vehicle/NNP-25,Crew/NNP-23)
+				nn(Vehicle/NNP-25,Exploration/NNP-24)
+				appos(spacecraft/NN-20,Vehicle/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Design</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Crew Exploration Vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crew_Exploration_Vehicle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was the pilot on STS-123.	</value>
+
+		<annotated-sentence>	Johnson was the pilot on [[STS-123|STS-123]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was the pilot on [[STS-123|STS-123]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-4,Johnson/NNP-1)
+				cop(pilot/NN-4,was/VBD-2)
+				det(pilot/NN-4,the/DT-3)
+				prep_on(pilot/NN-4,STS-123/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The launch of STS-123 was March 11, 2008.	</value>
+
+		<annotated-sentence>	[[The launch|The_Launch]] of [[STS-123|STS-123]] was March 11, 2008.	</annotated-sentence>
+
+		<pattern_crowdsource>	The launch of [[STS-123|STS-123]] was March 11, 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				det(launch/NN-2,The/DT-1)
+				nsubj(was/VBD-5,launch/NN-2)
+				prep_of(launch/NN-2,STS-123/NN-4)
+				tmod(was/VBD-5,March/NNP-6)
+				num(March/NNP-6,11/CD-7)
+				num(March/NNP-6,2008/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was picked to be the mission's primary robotic arm operator.	</value>
+
+		<annotated-sentence>	Johnson was picked to be the mission's primary robotic arm operator.	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was picked to be the mission's primary robotic arm operator.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(picked/VBN-3,Johnson/NNP-1)
+				auxpass(picked/VBN-3,was/VBD-2)
+				aux(operator/NN-12,to/TO-4)
+				cop(operator/NN-12,be/VB-5)
+				det(mission/NN-7,the/DT-6)
+				poss(operator/NN-12,mission/NN-7)
+				amod(operator/NN-12,primary/JJ-9)
+				amod(operator/NN-12,robotic/JJ-10)
+				nn(operator/NN-12,arm/NN-11)
+				xcomp(picked/VBN-3,operator/NN-12)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from the Air Force on February 1, 2009 and continued to serve NASA as a civilian.	</value>
+
+		<annotated-sentence>	He retired from [[the Air Force|Air_force]] on [[February|February]] 1, 2009 and continued to serve [[NASA|NASA]] as a civilian.	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from the Air Force on February 1, 2009 and continued to serve [[NASA|NASA]] as a civilian.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				nsubj(continued/VBD-13,He/PRP-1)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_from(retired/VBD-2,Force/NNP-6)
+				prep_on(retired/VBD-2,February/NNP-8)
+				num(February/NNP-8,1/CD-9)
+				num(February/NNP-8,2009/CD-11)
+				conj_and(retired/VBD-2,continued/VBD-13)
+				aux(serve/VB-15,to/TO-14)
+				xcomp(continued/VBD-13,serve/VB-15)
+				dobj(serve/VB-15,NASA/NNP-16)
+				det(civilian/JJ-19,a/DT-18)
+				prep_as(NASA/NNP-16,civilian/JJ-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was the pilot of STS-134, the final flight of Space Shuttle Endeavour and the penultimate flight of the Space Shuttle Program.	</value>
+
+		<annotated-sentence>	Johnson was the pilot of [[STS-134|STS-134]], [[the final flight|Flight]] of [[Space Shuttle Endeavour|Space_Shuttle_Endeavour]] and the [[penultimate|Penultimate_Hop_Popping]] [[flight|Flight]] of [[the Space Shuttle Program|Space_Shuttle_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was the pilot of [[STS-134|STS-134]], the final flight of Space Shuttle Endeavour and the penultimate flight of [[the Space Shuttle Program|Space_Shuttle_program]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-4,Johnson/NNP-1)
+				cop(pilot/NN-4,was/VBD-2)
+				det(pilot/NN-4,the/DT-3)
+				prep_of(pilot/NN-4,STS-134/NN-6)
+				det(flight/NN-10,the/DT-8)
+				amod(flight/NN-10,final/JJ-9)
+				conj_and(pilot/NN-4,flight/NN-10)
+				nn(Endeavour/NNP-14,Space/NN-12)
+				nn(Endeavour/NNP-14,Shuttle/NNP-13)
+				prep_of(flight/NN-10,Endeavour/NNP-14)
+				det(flight/NN-18,the/DT-16)
+				nn(flight/NN-18,penultimate/NN-17)
+				conj_and(pilot/NN-4,flight/NN-18)
+				det(Program/NNP-23,the/DT-20)
+				nn(Program/NNP-23,Space/NN-21)
+				nn(Program/NNP-23,Shuttle/NNP-22)
+				prep_of(flight/NN-18,Program/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-134</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-134</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the final flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>penultimate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Penultimate_Hop_Popping</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_H._Johnson http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-134
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_H._Johnson
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-134 http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson has been awarded the 2005 Stephen D. Thorne Top Fox Safety Award, the 2005 Dean’s Award for Academic Excellence, McCombs School of Business, NASA Superior Performance Award, and the 1996 Lieutenant General Bobby Bond Award for the top Air Force test pilot.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-4,Johnson/NNP-1)
+				aux(awarded/VBN-4,has/VBZ-2)
+				auxpass(awarded/VBN-4,been/VBN-3)
+				det(Award/NN-13,the/DT-5)
+				num(Award/NN-13,2005/CD-6)
+				nn(Award/NN-13,Stephen/NNP-7)
+				nn(Award/NN-13,D./NNP-8)
+				nn(Award/NN-13,Thorne/NNP-9)
+				nn(Award/NN-13,Top/NNP-10)
+				nn(Award/NN-13,Fox/NNP-11)
+				nn(Award/NN-13,Safety/NNP-12)
+				dobj(awarded/VBN-4,Award/NN-13)
+				det(Award/NN-19,the/DT-15)
+				num(Award/NN-19,2005/CD-16)
+				poss(Award/NN-19,Dean/NNP-17)
+				appos(Award/NN-13,Award/NN-19)
+				nn(Excellence/NNP-22,Academic/NNP-21)
+				prep_for(Award/NN-19,Excellence/NNP-22)
+				nn(School/NNP-25,McCombs/NNP-24)
+				dobj(awarded/VBN-4,School/NNP-25)
+				conj_and(Award/NN-13,School/NNP-25)
+				prep_of(School/NNP-25,Business/NNP-27)
+				nn(Performance/NNP-31,NASA/NNP-29)
+				nn(Performance/NNP-31,Superior/NNP-30)
+				dobj(awarded/VBN-4,Performance/NNP-31)
+				conj_and(Award/NN-13,Performance/NNP-31)
+				dep(Performance/NNP-31,Award/NN-32)
+				det(Award/NN-41,the/DT-35)
+				num(Award/NN-41,1996/CD-36)
+				nn(Award/NN-41,Lieutenant/NNP-37)
+				nn(Award/NN-41,General/NNP-38)
+				nn(Award/NN-41,Bobby/NNP-39)
+				nn(Award/NN-41,Bond/NNP-40)
+				dobj(awarded/VBN-4,Award/NN-41)
+				conj_and(Award/NN-13,Award/NN-41)
+				det(pilot/NN-48,the/DT-43)
+				amod(pilot/NN-48,top/JJ-44)
+				nn(pilot/NN-48,Air/NNP-45)
+				nn(pilot/NN-48,Force/NNP-46)
+				nn(pilot/NN-48,test/NN-47)
+				prep_for(Award/NN-41,pilot/NN-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Johnson was a distinguished graduate of U.S. Air Force Test Pilot School and the U.S. Air Force Academy.	</value>
+
+		<annotated-sentence>	Johnson was a distinguished graduate of U.S. Air Force Test Pilot School and [[the U.S. Air Force Academy|United_States_Air_Force_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Johnson was a distinguished graduate of U.S. Air Force Test Pilot School and the U.S. Air Force Academy.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,Johnson/NNP-1)
+				cop(graduate/NN-5,was/VBD-2)
+				det(graduate/NN-5,a/DT-3)
+				amod(graduate/NN-5,distinguished/JJ-4)
+				nn(School/NNP-12,U.S./NNP-7)
+				nn(School/NNP-12,Air/NNP-8)
+				nn(School/NNP-12,Force/NNP-9)
+				nn(School/NNP-12,Test/NNP-10)
+				nn(School/NNP-12,Pilot/NN-11)
+				prep_of(graduate/NN-5,School/NNP-12)
+				det(Academy/NNP-18,the/DT-14)
+				nn(Academy/NNP-18,U.S./NNP-15)
+				nn(Academy/NNP-18,Air/NNP-16)
+				nn(Academy/NNP-18,Force/NNP-17)
+				prep_of(graduate/NN-5,Academy/NNP-18)
+				conj_and(School/NNP-12,Academy/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the U.S. Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His military decorations include the Distinguished Flying Cross, Meritorious Service Medal (2), Air Medal (4), Aerial Achievement Medal (3), Air Force Commendation Medal, and the Air Force Achievement Medal (2).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(decorations/NNS-3,His/PRP$-1)
+				amod(decorations/NNS-3,military/JJ-2)
+				nsubj(include/VBP-4,decorations/NNS-3)
+				det(Cross/NNP-8,the/DT-5)
+				nn(Cross/NNP-8,Distinguished/NNP-6)
+				nn(Cross/NNP-8,Flying/NNP-7)
+				dobj(include/VBP-4,Cross/NNP-8)
+				nn(Medal/NN-12,Meritorious/NNP-10)
+				nn(Medal/NN-12,Service/NNP-11)
+				appos(Cross/NNP-8,Medal/NN-12)
+				appos(Medal/NN-12,2/CD-14)
+				nn(Medal/NN-18,Air/NNP-17)
+				appos(Cross/NNP-8,Medal/NN-18)
+				conj_and(Medal/NN-12,Medal/NN-18)
+				appos(Medal/NN-18,4/CD-20)
+				amod(Medal/NN-25,Aerial/JJ-23)
+				nn(Medal/NN-25,Achievement/NNP-24)
+				appos(Cross/NNP-8,Medal/NN-25)
+				conj_and(Medal/NN-12,Medal/NN-25)
+				appos(Medal/NN-25,3/CD-27)
+				nn(Commendation/NNP-32,Air/NNP-30)
+				nn(Commendation/NNP-32,Force/NNP-31)
+				appos(Cross/NNP-8,Commendation/NNP-32)
+				conj_and(Medal/NN-12,Commendation/NNP-32)
+				dep(Commendation/NNP-32,Medal/NN-33)
+				det(Medal/NN-40,the/DT-36)
+				nn(Medal/NN-40,Air/NNP-37)
+				nn(Medal/NN-40,Force/NNP-38)
+				nn(Medal/NN-40,Achievement/NNP-39)
+				appos(Cross/NNP-8,Medal/NN-40)
+				conj_and(Medal/NN-12,Medal/NN-40)
+				appos(Medal/NN-40,2/CD-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

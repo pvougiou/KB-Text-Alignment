@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Echinococcus is an infection caused by the Echinococcus granulosus or Echinococcus multilocularis tapeworm.</value>
+		<pattern_crowdsource> [[Echinococcus|C0013502]] is an [[infection|C0009450]] caused by the [[Echinococcus granulosus|C0322177]] or [[Echinococcus multilocularis|C0322178]] [[tapeworm|C0007892]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Echinococcus</surface-form>
+				<RDF-ID>C0013502</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Echinococcus granulosus</surface-form>
+				<RDF-ID>C0322177</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Echinococcus multilocularis</surface-form>
+				<RDF-ID>C0322178</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tapeworm</surface-form>
+				<RDF-ID>C0007892</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0322178 ISA C0007892</triple>
+			<triple>C0013502 ISA C0009450</triple>
+			<triple>C0322177 CAUSES C0009450</triple>
+			<triple>C0007892 CAUSES C0009450</triple>
+			<triple>C0322178 CAUSES C0009450</triple>
+			<triple>C0322177 CAUSES C0013502</triple>
+			<triple>C0007892 CAUSES C0013502</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The infection is also called hydatid disease.</value>
+		<pattern_crowdsource> The [[infection|C0009450]] is also called [[hydatid disease|C0013502]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydatid disease</surface-form>
+				<RDF-ID>C0013502</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013502 ISA C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>These infections are spread by direct contact with a sore on the genitals or mouth, body fluids, or sometimes the skin around the genital area.</value>
+		<pattern_crowdsource> These [[infections|C0021311]] are spread by direct contact with a sore on the [[genitals|C0017420]] or [[mouth|C1278910]], body fluids, or sometimes the skin around the genital area.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>genitals</surface-form>
+				<RDF-ID>C0017420</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>body fluids</surface-form>
+				<RDF-ID>C0005889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>area</surface-form>
+				<RDF-ID>C0205146</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017420 LOCATION_OF C0021311</triple>
+			<triple>C1278910 LOCATION_OF C0021311</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Before having sex:  - Get to know your partner and discuss your sexual histories  - Don't feel forced into having sex  - Don't have sexual contact with anyone but your partner    Your sexual partner should be someone who you know does not have any STI.</value>
+		<pattern_crowdsource> Before having sex:  - Get to know your partner and discuss your sexual histories  - Don't feel forced into having sex  - Don't have sexual contact with anyone but your partner    Your [[sexual partner|C0036911]] should be someone who you know does not have any [[STI|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>histories</surface-form>
+				<RDF-ID>C0019664</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sexual partner</surface-form>
+				<RDF-ID>C0036911</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>STI</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 NEG_PROCESS_OF C0036911</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Alcohol and drugs impair your judgment.</value>
+		<pattern_crowdsource> [[Alcohol|C0001962]] and drugs impair your [[judgment|C0022423]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>judgment</surface-form>
+				<RDF-ID>C0022423</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001962 DISRUPTS C0022423</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

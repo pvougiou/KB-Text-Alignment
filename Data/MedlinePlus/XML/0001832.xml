@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>DIABETES SCREENING  - If your blood pressure is above 135/80 mm Hg, your provider may test your blood sugar level for diabetes.</value>
+		<pattern_crowdsource> DIABETES SCREENING  - If your blood pressure is above 135/80 mm Hg, your provider may test your [[blood sugar level|C0392201]] for [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>DIABETES</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>SCREENING</surface-form>
+				<RDF-ID>C0220908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mm Hg</surface-form>
+				<RDF-ID>C0439475</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar level</surface-form>
+				<RDF-ID>C0392201</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0392201 DIAGNOSES C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>INFECTIOUS DISEASE SCREENING  - Depending on your lifestyle and medical history, you may need to be screened for infections such as syphilis, chlamydia, and HIV, as well as other infections.</value>
+		<pattern_crowdsource> INFECTIOUS DISEASE [[SCREENING|C0220908]]  - Depending on your lifestyle and medical history, you may need to be screened for [[infections|C0021311]] such as [[syphilis|C0039128]], chlamydia, and [[HIV|C0001175]], as well as other [[infections|C0021311]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>INFECTIOUS DISEASE</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>SCREENING</surface-form>
+				<RDF-ID>C0220908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lifestyle</surface-form>
+				<RDF-ID>C0023676</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medical history</surface-form>
+				<RDF-ID>C0262926</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>syphilis</surface-form>
+				<RDF-ID>C0039128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlamydia</surface-form>
+				<RDF-ID>C0008148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0001175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0039128 ISA C0021311</triple>
+			<triple>C0001175 ISA C0021311</triple>
+			<triple>C0001175 ISA C0021311</triple>
+			<triple>C0039128 ISA C0021311</triple>
+			<triple>C0220908 TREATS C0021311</triple>
+			<triple>C0220908 TREATS C0039128</triple>
+			<triple>C0220908 TREATS C0001175</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

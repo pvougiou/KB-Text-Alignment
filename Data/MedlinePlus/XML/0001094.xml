@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cytomegalovirus (CMV) retinitis is a viral inflammation of the retina of the eye.</value>
+		<pattern_crowdsource> [[Cytomegalovirus (CMV) retinitis|C0206178]] is a viral [[inflammation|C0021368]] of the [[retina|C0035298]] of the [[eye|C0015392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cytomegalovirus (CMV) retinitis</surface-form>
+				<RDF-ID>C0206178</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>viral</surface-form>
+				<RDF-ID>C0521026</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0206178 ISA C0021368</triple>
+			<triple>C0035298 LOCATION_OF C0021368</triple>
+			<triple>C0035298 PART_OF C0015392</triple>
+			<triple>C0035298 LOCATION_OF C0206178</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

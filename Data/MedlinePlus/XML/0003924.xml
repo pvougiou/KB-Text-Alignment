@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A thyroid nodule is a growth (lump) in the thyroid gland.</value>
+		<pattern_crowdsource> A [[thyroid nodule|C0040137]] is a growth ([[lump|C0577559]]) in the [[thyroid gland|C0040132]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>thyroid nodule</surface-form>
+				<RDF-ID>C0040137</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>growth</surface-form>
+				<RDF-ID>C0018270</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lump</surface-form>
+				<RDF-ID>C0577559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid gland</surface-form>
+				<RDF-ID>C0040132</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040137 ISA C0577559</triple>
+			<triple>C0040132 LOCATION_OF C0040137</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

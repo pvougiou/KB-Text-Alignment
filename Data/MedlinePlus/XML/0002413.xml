@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>- A person with asthma may need to carry an inhaler and avoid things that may cause an asthma attack.</value>
+		<pattern_crowdsource> - A [[person|C0027361]] with [[asthma|C0004096]] may need to carry an [[inhaler|C0021461]] and avoid things that may cause an [[asthma attack|C0347950]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inhaler</surface-form>
+				<RDF-ID>C0021461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma attack</surface-form>
+				<RDF-ID>C0347950</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004096 PROCESS_OF C0027361</triple>
+			<triple>C0021461 CAUSES C0347950</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

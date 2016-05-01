@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A prolactinoma is a noncancerous (benign) pituitary tumor that produces a hormone called prolactin.</value>
+		<pattern_crowdsource> A [[prolactinoma|C0033375]] is a noncancerous (benign) [[pituitary tumor|C0032019]] that produces a [[hormone|C0019932]] called prolactin.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>prolactinoma</surface-form>
+				<RDF-ID>C0033375</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>benign</surface-form>
+				<RDF-ID>C0205183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary tumor</surface-form>
+				<RDF-ID>C0032019</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prolactin</surface-form>
+				<RDF-ID>C0033371</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033375 ISA C0032019</triple>
+			<triple>C0032019 PRODUCES C0019932</triple>
+			<triple>C0033375 PRODUCES C0019932</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This results in too much prolactin in the blood.</value>
+		<pattern_crowdsource> This results in too much [[prolactin|C0033371]] in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>results</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prolactin</surface-form>
+				<RDF-ID>C0033371</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0033371</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

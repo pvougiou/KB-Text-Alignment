@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Lipoproteins are molecules made of proteins and fat.</value>
+		<pattern_crowdsource> [[Lipoproteins|C0023820]] are molecules made of [[proteins|C0033684]] and fat.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Lipoproteins</surface-form>
+				<RDF-ID>C0023820</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>molecules</surface-form>
+				<RDF-ID>C0567416</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>proteins</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fat</surface-form>
+				<RDF-ID>C0424612</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023820 ISA C0033684</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>High levels of lipoproteins can increase the risk of heart disease.</value>
+		<pattern_crowdsource> High levels of [[lipoproteins|C0023820]] can increase the risk of [[heart disease|C0018799]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>High</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lipoproteins</surface-form>
+				<RDF-ID>C0023820</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023820 PREDISPOSES C0018799</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The American Heart Association and American College of Cardiology do not recommend the test for most adults who do not have symptoms.</value>
+		<pattern_crowdsource> The American Heart Association and American College of Cardiology do not recommend the test for most [[adults|C0001675]] who do not have [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>American Heart Association</surface-form>
+				<RDF-ID>C0002458</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>C0596070</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>College</surface-form>
+				<RDF-ID>C0557806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adults</surface-form>
+				<RDF-ID>C0001675</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 NEG_PROCESS_OF C0001675</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

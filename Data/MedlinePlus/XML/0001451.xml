@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your doctor may order this test if you have signs or symptoms of an esophageal infection or disease.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have [[signs|C0311392]] or [[symptoms|C1457887]] of an esophageal infection or disease.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophageal infection</surface-form>
+				<RDF-ID>C0851979</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0311392 PROCESS_OF C0031831</triple>
+			<triple>C1457887 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is a sign of an infection of the esophagus, which may be due to bacteria, a virus, or a fungus.</value>
+		<pattern_crowdsource> This is a sign of an [[infection|C0009450]] of the [[esophagus|C0014876]], which may be due to [[bacteria|C0004611]], a [[virus|C0042769]], or a [[fungus|C0016832]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sign</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagus</surface-form>
+				<RDF-ID>C0014876</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014876 LOCATION_OF C0009450</triple>
+			<triple>C0004611 CAUSES C0009450</triple>
+			<triple>C0016832 CAUSES C0009450</triple>
+			<triple>C0042769 CAUSES C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

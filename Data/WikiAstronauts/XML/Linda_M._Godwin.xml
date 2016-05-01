@@ -1,0 +1,3082 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Linda Maxine Godwin (Ph.D.) is an American scientist and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Linda Maxine Godwin|Linda_M._Godwin]] (Ph.D.) is [[an American scientist|American_Scientist]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Linda Maxine Godwin|Linda_M._Godwin]] (Ph.D.) is an American scientist and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Godwin/NNP-3,Linda/NNP-1)
+				nn(Godwin/NNP-3,Maxine/NNP-2)
+				nsubj(scientist/NN-10,Godwin/NNP-3)
+				appos(Godwin/NNP-3,Ph.D./NNP-5)
+				cop(scientist/NN-10,is/VBZ-7)
+				det(scientist/NN-10,an/DT-8)
+				amod(scientist/NN-10,American/JJ-9)
+				det(astronaut/NN-14,a/DT-12)
+				nn(astronaut/NN-14,NASA/NNP-13)
+				conj_and(scientist/NN-10,astronaut/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Linda Maxine Godwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Linda_M._Godwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an American scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin is the Assistant to the Director for Exploration, Flight Crew Operations Directorate at the Johnson Space Center.	</value>
+
+		<annotated-sentence>	Godwin is the Assistant to the Director for [[Exploration|Exploration]], [[Flight Crew|Aircrew]] Operations Directorate at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Godwin is the Assistant to the Director for Exploration, Flight Crew Operations Directorate at the Johnson Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Directorate/NNP-14,Godwin/NNP-1)
+				cop(Directorate/NNP-14,is/VBZ-2)
+				det(Directorate/NNP-14,the/DT-3)
+				dep(Directorate/NNP-14,Assistant/NNP-4)
+				det(Director/NN-7,the/DT-6)
+				prep_to(Assistant/NNP-4,Director/NN-7)
+				prep_for(Director/NN-7,Exploration/NN-9)
+				nn(Crew/NNP-12,Flight/NNP-11)
+				appos(Exploration/NN-9,Crew/NNP-12)
+				nn(Directorate/NNP-14,Operations/NNP-13)
+				det(Center/NNP-19,the/DT-16)
+				nn(Center/NNP-19,Johnson/NNP-17)
+				nn(Center/NNP-19,Space/NNP-18)
+				prep_at(Directorate/NNP-14,Center/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is currently a Professor in the Department of Physics and Astronomy of the University of Missouri.	</value>
+
+		<annotated-sentence>	She is currently [[a Professor|Professor_Farnsworth]] in [[the Department of Physics and Astronomy|Department_of_Physics_and_Astronomy]] of [[the University of Missouri|University_of_Missouri]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is currently a Professor in the Department of Physics and Astronomy of the University of Missouri.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Professor/NNP-5,She/PRP-1)
+				cop(Professor/NNP-5,is/VBZ-2)
+				advmod(Professor/NNP-5,currently/RB-3)
+				det(Professor/NNP-5,a/DT-4)
+				det(Department/NNP-8,the/DT-7)
+				prep_in(Professor/NNP-5,Department/NNP-8)
+				prep_of(Department/NNP-8,Physics/NN-10)
+				prep_of(Department/NNP-8,Astronomy/NN-12)
+				conj_and(Physics/NN-10,Astronomy/NN-12)
+				det(University/NNP-15,the/DT-14)
+				prep_of(Professor/NNP-5,University/NNP-15)
+				prep_of(University/NNP-15,Missouri/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Department of Physics and Astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Department_of_Physics_and_Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Missouri</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin was born July 2, 1952, in Cape Girardeau, Missouri, but her hometown is Jackson, Missouri.	</value>
+
+		<annotated-sentence>	Godwin was born [[July|July]] 2, 1952, in Cape Girardeau, [[Missouri|Missouri]], but her hometown is Jackson, [[Missouri|Missouri]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Godwin was born July 2, 1952, in Cape Girardeau, [[Missouri|Missouri]], but her hometown is Jackson, [[Missouri|Missouri]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Godwin/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				tmod(born/VBN-3,July/NNP-4)
+				num(July/NNP-4,2/CD-5)
+				num(July/NNP-4,1952/CD-7)
+				nn(Girardeau/NNP-11,Cape/NNP-10)
+				prep_in(born/VBN-3,Girardeau/NNP-11)
+				appos(Girardeau/NNP-11,Missouri/NNP-13)
+				poss(hometown/NN-17,her/PRP$-16)
+				nsubj(Jackson/NNP-19,hometown/NN-17)
+				cop(Jackson/NNP-19,is/VBZ-18)
+				conj_but(born/VBN-3,Jackson/NNP-19)
+				appos(Jackson/NNP-19,Missouri/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Missouri</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Missouri</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Missouri http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Missouri
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Missouri http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Missouri
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She graduated from Jackson High School in Jackson, Missouri, in 1970, then received a Bachelor of Science degree in mathematics and physics from Southeast Missouri State University in 1974, and a Master of Science degree and a Doctorate in physics from the University of Missouri in 1976 and 1980.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,She/PRP-1)
+				ccomp(received/VBD-16,graduated/VBD-2)
+				nn(School/NNP-6,Jackson/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Missouri/NNP-10,Jackson/NNP-8)
+				prep_in(School/NNP-6,Missouri/NNP-10)
+				prep_in(graduated/VBD-2,1970/CD-13)
+				advmod(received/VBD-16,then/RB-15)
+				det(Bachelor/NN-18,a/DT-17)
+				dobj(received/VBD-16,Bachelor/NN-18)
+				prep_of(Bachelor/NN-18,Science/NNP-20)
+				nsubj(received/VBD-16,degree/NN-21)
+				prep_in(degree/NN-21,mathematics/NNS-23)
+				prep_in(degree/NN-21,physics/NNS-25)
+				conj_and(mathematics/NNS-23,physics/NNS-25)
+				nn(University/NNP-30,Southeast/NNP-27)
+				nn(University/NNP-30,Missouri/NNP-28)
+				nn(University/NNP-30,State/NNP-29)
+				prep_from(degree/NN-21,University/NNP-30)
+				prep_in(University/NNP-30,1974/CD-32)
+				det(Master/NN-36,a/DT-35)
+				nsubj(received/VBD-16,Master/NN-36)
+				conj_and(degree/NN-21,Master/NN-36)
+				nn(degree/NN-39,Science/NNP-38)
+				prep_of(Master/NN-36,degree/NN-39)
+				det(Doctorate/NN-42,a/DT-41)
+				conj_and(degree/NN-21,Doctorate/NN-42)
+				conj_and(Master/NN-36,Doctorate/NN-42)
+				prep_in(Doctorate/NN-42,physics/NNS-44)
+				det(University/NNP-47,the/DT-46)
+				prep_from(physics/NNS-44,University/NNP-47)
+				prep_of(University/NNP-47,Missouri/NNP-49)
+				prep_in(Missouri/NNP-49,1976/CD-51)
+				prep_in(Missouri/NNP-49,1980/CD-53)
+				conj_and(1976/CD-51,1980/CD-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin is a member of the American Physical Society, the Ninety-Nines, Inc., Association of Space Explorers, Aircraft Owners and Pilots Association.	</value>
+
+		<annotated-sentence>	Godwin is a member of [[the American Physical Society|American_Physical_Society]], [[the Ninety-Nines|Ninety-Nines]], Inc., [[Association of Space Explorers|Association_of_Space_Explorers]], [[Aircraft|Aircraft]] [[Owners|Ownership]] and Pilots Association.	</annotated-sentence>
+
+		<pattern_crowdsource>	Godwin is a member of the American Physical Society, the Ninety-Nines, Inc., Association of Space Explorers, Aircraft Owners and Pilots Association.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Godwin/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Society/NNP-9,the/DT-6)
+				amod(Society/NNP-9,American/JJ-7)
+				nn(Society/NNP-9,Physical/NNP-8)
+				prep_of(member/NN-4,Society/NNP-9)
+				det(Ninety-Nines/NNPS-12,the/DT-11)
+				prep_of(member/NN-4,Ninety-Nines/NNPS-12)
+				conj_and(Society/NNP-9,Ninety-Nines/NNPS-12)
+				prep_of(member/NN-4,Inc./NNP-14)
+				conj_and(Society/NNP-9,Inc./NNP-14)
+				prep_of(member/NN-4,Association/NNP-16)
+				conj_and(Society/NNP-9,Association/NNP-16)
+				nn(Explorers/NNPS-19,Space/NNP-18)
+				prep_of(Association/NNP-16,Explorers/NNPS-19)
+				nn(Owners/NNP-22,Aircraft/NNP-21)
+				prep_of(member/NN-4,Owners/NNP-22)
+				conj_and(Society/NNP-9,Owners/NNP-22)
+				nn(Association/NNP-25,Pilots/NNP-24)
+				prep_of(member/NN-4,Association/NNP-25)
+				conj_and(Society/NNP-9,Association/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the American Physical Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Physical_Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Ninety-Nines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ninety-Nines</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Association of Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Association_of_Space_Explorers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Owners</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ownership</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is married to fellow astronaut Steven Nagel.	</value>
+
+		<annotated-sentence>	She is married to fellow [[astronaut|Astronaut]] [[Steven Nagel|Steven_R._Nagel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is married to fellow [[astronaut|Astronaut]] [[Steven Nagel|Steven_R._Nagel]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,She/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Nagel/NNP-8,fellow/JJ-5)
+				nn(Nagel/NNP-8,astronaut/NN-6)
+				nn(Nagel/NNP-8,Steven/NNP-7)
+				prep_to(married/VBN-3,Nagel/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Steven Nagel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Steven_R._Nagel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Steven_R._Nagel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing undergraduate studies in physics and mathematics at Southeast Missouri State University, Godwin attended graduate school at the University of Missouri in Columbia, Missouri.	</value>
+
+		<annotated-sentence>	After completing [[undergraduate studies|Undergraduate_education]] in [[physics and mathematics|Institute_for_the_Physics_and_Mathematics_of_the_Universe]] at [[Southeast Missouri State University|Southeast_Missouri_State_University]], Godwin attended graduate school at [[the University of Missouri|University_of_Missouri]] in Columbia, Missouri.	</annotated-sentence>
+
+		<pattern_crowdsource>	After completing undergraduate studies in physics and mathematics at Southeast Missouri State University, Godwin attended graduate school at the University of Missouri in Columbia, Missouri.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(attended/VBD-16,completing/VBG-2)
+				amod(studies/NNS-4,undergraduate/JJ-3)
+				dobj(completing/VBG-2,studies/NNS-4)
+				prep_in(completing/VBG-2,physics/NNS-6)
+				prep_in(completing/VBG-2,mathematics/NNS-8)
+				conj_and(physics/NNS-6,mathematics/NNS-8)
+				nn(University/NNP-13,Southeast/NNP-10)
+				nn(University/NNP-13,Missouri/NNP-11)
+				nn(University/NNP-13,State/NNP-12)
+				prep_at(completing/VBG-2,University/NNP-13)
+				nsubj(attended/VBD-16,Godwin/NNP-15)
+				amod(school/NN-18,graduate/JJ-17)
+				dobj(attended/VBD-16,school/NN-18)
+				det(University/NNP-21,the/DT-20)
+				prep_at(attended/VBD-16,University/NNP-21)
+				prep_of(University/NNP-21,Missouri/NNP-23)
+				nn(Missouri/NNP-27,Columbia/NNP-25)
+				prep_in(attended/VBD-16,Missouri/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>undergraduate studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Undergraduate_education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics and mathematics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute_for_the_Physics_and_Mathematics_of_the_Universe</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Southeast Missouri State University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southeast_Missouri_State_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Missouri</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During that time she taught undergraduate physics labs and was the recipient of several research assistantships.	</value>
+
+		<annotated-sentence>	During that time she taught undergraduate [[physics|Physics]] labs and was the recipient of several research assistantships.	</annotated-sentence>
+
+		<pattern_crowdsource>	During that time she taught undergraduate physics labs and was the recipient of several research assistantships.	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,that/DT-2)
+				prep_during(taught/VBD-5,time/NN-3)
+				nsubj(taught/VBD-5,she/PRP-4)
+				nsubj(recipient/JJ-12,she/PRP-4)
+				amod(labs/NNS-8,undergraduate/JJ-6)
+				nn(labs/NNS-8,physics/NNS-7)
+				dobj(taught/VBD-5,labs/NNS-8)
+				cop(recipient/JJ-12,was/VBD-10)
+				det(recipient/JJ-12,the/DT-11)
+				conj_and(taught/VBD-5,recipient/JJ-12)
+				amod(assistantships/NNS-16,several/JJ-14)
+				nn(assistantships/NNS-16,research/NN-15)
+				prep_of(recipient/JJ-12,assistantships/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She conducted research in low temperature solid state physics, including studies in electron tunneling and vibrational modes of absorbed molecular species on metallic substrates (surfaces) at liquid helium temperatures.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(conducted/VBD-2,She/PRP-1)
+				dobj(conducted/VBD-2,research/NN-3)
+				amod(physics/NNS-9,low/JJ-5)
+				nn(physics/NNS-9,temperature/NN-6)
+				amod(physics/NNS-9,solid/JJ-7)
+				nn(physics/NNS-9,state/NN-8)
+				prep_in(conducted/VBD-2,physics/NNS-9)
+				prep_including(conducted/VBD-2,studies/NNS-12)
+				nn(tunneling/NN-15,electron/NN-14)
+				prep_in(studies/NNS-12,tunneling/NN-15)
+				amod(modes/NNS-18,vibrational/JJ-17)
+				prep_including(conducted/VBD-2,modes/NNS-18)
+				conj_and(studies/NNS-12,modes/NNS-18)
+				prepc_of(modes/NNS-18,absorbed/VBN-20)
+				amod(species/NNS-22,molecular/JJ-21)
+				dobj(absorbed/VBN-20,species/NNS-22)
+				amod(substrates/NNS-25,metallic/JJ-24)
+				prep_on(absorbed/VBN-20,substrates/NNS-25)
+				appos(substrates/NNS-25,surfaces/NNS-27)
+				amod(temperatures/NNS-32,liquid/JJ-30)
+				nn(temperatures/NNS-32,helium/NNP-31)
+				prep_at(absorbed/VBN-20,temperatures/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Results of her research have been published in several journals.	</value>
+
+		<annotated-sentence>	[[Results|Results]] of her research have been published in [[several journals|Journal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Results of her research have been published in several journals.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(published/VBN-7,Results/NNS-1)
+				poss(research/NN-4,her/PRP$-3)
+				prep_of(Results/NNS-1,research/NN-4)
+				aux(published/VBN-7,have/VBP-5)
+				auxpass(published/VBN-7,been/VBN-6)
+				amod(journals/NNS-10,several/JJ-9)
+				prep_in(published/VBN-7,journals/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Results</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Results</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several journals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Journal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin is an instrument rated private pilot.	</value>
+
+		<annotated-sentence>	Godwin is an instrument rated private pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	Godwin is an instrument rated private pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(instrument/NN-4,Godwin/NNP-1)
+				cop(instrument/NN-4,is/VBZ-2)
+				det(instrument/NN-4,an/DT-3)
+				partmod(instrument/NN-4,rated/VBN-5)
+				amod(pilot/NN-7,private/JJ-6)
+				dobj(rated/VBN-5,pilot/NN-7)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin joined NASA in 1980, in the Payload Operations Division, Mission Operations Directorate, where she worked in payload integration (attached payloads and Spacelabs), and as a flight controller and payloads officer on several Space Shuttle missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,Godwin/NNP-1)
+				dobj(joined/VBD-2,NASA/NNP-3)
+				prep_in(NASA/NNP-3,1980/CD-5)
+				det(Division/NNP-11,the/DT-8)
+				nn(Division/NNP-11,Payload/NNP-9)
+				nn(Division/NNP-11,Operations/NNP-10)
+				prep_in(joined/VBD-2,Division/NNP-11)
+				nn(Directorate/NNP-15,Mission/NNP-13)
+				nn(Directorate/NNP-15,Operations/NNP-14)
+				appos(Division/NNP-11,Directorate/NNP-15)
+				advmod(worked/VBD-19,where/WRB-17)
+				nsubj(worked/VBD-19,she/PRP-18)
+				nsubj(worked/VBD-19,she/PRP-18)
+				rcmod(Division/NNP-11,worked/VBD-19)
+				rcmod(Division/NNP-11,worked/VBD-19)
+				conj_and(worked/VBD-19,worked/VBD-19)
+				nn(integration/NN-22,payload/NN-21)
+				prep_in(worked/VBD-19,integration/NN-22)
+				dep(integration/NN-22,attached/VBN-24)
+				dobj(attached/VBN-24,payloads/NNS-25)
+				dobj(attached/VBN-24,Spacelabs/NNS-27)
+				conj_and(payloads/NNS-25,Spacelabs/NNS-27)
+				det(controller/NN-34,a/DT-32)
+				nn(controller/NN-34,flight/NN-33)
+				prep_as(worked/VBD-19,controller/NN-34)
+				nn(officer/NN-37,payloads/NNS-36)
+				prep_as(worked/VBD-19,officer/NN-37)
+				conj_and(controller/NN-34,officer/NN-37)
+				amod(missions/NNS-42,several/JJ-39)
+				nn(missions/NNS-42,Space/NN-40)
+				nn(missions/NNS-42,Shuttle/NNP-41)
+				prep_on(controller/NN-34,missions/NNS-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA as an astronaut candidate in June 1985, Godwin became an astronaut in July 1986.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] as an [[astronaut|Astronaut]] [[candidate|Candidate]] in [[June 1985|1985]], [[Godwin|Linda_M._Godwin]] became [[an astronaut|Astronaut]] in [[July 1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] as an [[astronaut|Astronaut]] candidate in June 1985, [[Godwin|Linda_M._Godwin]] became an [[astronaut|Astronaut]] in July 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-15,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				det(candidate/NN-7,an/DT-5)
+				nn(candidate/NN-7,astronaut/NN-6)
+				prep_as(Selected/VBN-1,candidate/NN-7)
+				prep_in(Selected/VBN-1,June/NNP-9)
+				num(June/NNP-9,1985/CD-10)
+				nsubj(astronaut/NN-15,Godwin/NNP-12)
+				cop(astronaut/NN-15,became/VBD-13)
+				det(astronaut/NN-15,an/DT-14)
+				prep_in(astronaut/NN-15,July/NNP-17)
+				num(July/NNP-17,1986/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Godwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Linda_M._Godwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her technical assignments have included working with flight software verification in the Shuttle Avionics Integration Laboratory (SAIL), and coordinating mission development activities for the Inertial Upper Stage (IUS), deployable payloads, and Spacelab missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,Her/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBN-5,assignments/NNS-3)
+				aux(included/VBN-5,have/VBP-4)
+				ccomp(included/VBN-5,working/VBG-6)
+				nn(verification/NN-10,flight/NN-8)
+				nn(verification/NN-10,software/NN-9)
+				prep_with(working/VBG-6,verification/NN-10)
+				det(Laboratory/NN-16,the/DT-12)
+				nn(Laboratory/NN-16,Shuttle/NNP-13)
+				nn(Laboratory/NN-16,Avionics/NNP-14)
+				nn(Laboratory/NN-16,Integration/NN-15)
+				prep_in(verification/NN-10,Laboratory/NN-16)
+				appos(Laboratory/NN-16,SAIL/NN-18)
+				ccomp(included/VBN-5,coordinating/VBG-22)
+				conj_and(working/VBG-6,coordinating/VBG-22)
+				nn(activities/NNS-25,mission/NN-23)
+				nn(activities/NNS-25,development/NN-24)
+				dobj(coordinating/VBG-22,activities/NNS-25)
+				det(Stage/NNP-30,the/DT-27)
+				nn(Stage/NNP-30,Inertial/NNP-28)
+				nn(Stage/NNP-30,Upper/NNP-29)
+				prep_for(coordinating/VBG-22,Stage/NNP-30)
+				appos(Stage/NNP-30,IUS/NNS-32)
+				amod(payloads/NNS-36,deployable/JJ-35)
+				prep_for(coordinating/VBG-22,payloads/NNS-36)
+				conj_and(Stage/NNP-30,payloads/NNS-36)
+				nn(missions/NNS-40,Spacelab/NNP-39)
+				prep_for(coordinating/VBG-22,missions/NNS-40)
+				conj_and(Stage/NNP-30,missions/NNS-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She also has served as Chief of Astronaut Appearances, Chief of the Mission Development Branch of the Astronaut Office and as the astronaut liaison to its Educational Working Group, Deputy Chief of the Astronaut Office, and Deputy Director, Flight Crew Operations Directorate.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-4,She/PRP-1)
+				advmod(served/VBN-4,also/RB-2)
+				aux(served/VBN-4,has/VBZ-3)
+				prep_as(served/VBN-4,Chief/NNP-6)
+				nn(Appearances/NNPS-9,Astronaut/NNP-8)
+				prep_of(Chief/NNP-6,Appearances/NNPS-9)
+				appos(Appearances/NNPS-9,Chief/NNP-11)
+				det(Branch/NNP-16,the/DT-13)
+				nn(Branch/NNP-16,Mission/NNP-14)
+				nn(Branch/NNP-16,Development/NNP-15)
+				prep_of(Chief/NNP-11,Branch/NNP-16)
+				det(Office/NNP-20,the/DT-18)
+				nn(Office/NNP-20,Astronaut/NNP-19)
+				prep_of(Branch/NNP-16,Office/NNP-20)
+				det(liaison/NN-25,the/DT-23)
+				nn(liaison/NN-25,astronaut/NN-24)
+				prep_as(served/VBN-4,liaison/NN-25)
+				conj_and(Chief/NNP-6,liaison/NN-25)
+				poss(Group/NNP-30,its/PRP$-27)
+				nn(Group/NNP-30,Educational/NNP-28)
+				nn(Group/NNP-30,Working/NNP-29)
+				prep_to(liaison/NN-25,Group/NNP-30)
+				nn(Chief/NNP-33,Deputy/NNP-32)
+				conj_and(Chief/NNP-6,Chief/NNP-33)
+				conj_and(liaison/NN-25,Chief/NNP-33)
+				det(Office/NNP-37,the/DT-35)
+				nn(Office/NNP-37,Astronaut/NNP-36)
+				prep_of(Chief/NNP-33,Office/NNP-37)
+				nn(Director/NNP-41,Deputy/NNP-40)
+				conj_and(Chief/NNP-6,Director/NNP-41)
+				conj_and(liaison/NN-25,Director/NNP-41)
+				nn(Directorate/NNP-46,Flight/NNP-43)
+				nn(Directorate/NNP-46,Crew/NNP-44)
+				nn(Directorate/NNP-46,Operations/NNP-45)
+				appos(Director/NNP-41,Directorate/NNP-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin is currently the Assistant to the Director for Exploration, Flight Crew Operations Directorate at the Johnson Space Center.	</value>
+
+		<annotated-sentence>	Godwin is currently the Assistant to the Director for [[Exploration|Exploration]], [[Flight Crew|Aircrew]] [[Operations Directorate|Operations_Directorate]] at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Godwin is currently the Assistant to the Director for Exploration, Flight Crew Operations Directorate at the Johnson Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Assistant/NNP-5,Godwin/NNP-1)
+				cop(Assistant/NNP-5,is/VBZ-2)
+				advmod(Assistant/NNP-5,currently/RB-3)
+				det(Assistant/NNP-5,the/DT-4)
+				det(Director/NN-8,the/DT-7)
+				prep_to(Assistant/NNP-5,Director/NN-8)
+				prep_for(Director/NN-8,Exploration/NN-10)
+				nn(Directorate/NNP-15,Flight/NNP-12)
+				nn(Directorate/NNP-15,Crew/NNP-13)
+				nn(Directorate/NNP-15,Operations/NNP-14)
+				dep(Assistant/NNP-5,Directorate/NNP-15)
+				det(Center/NNP-20,the/DT-17)
+				nn(Center/NNP-20,Johnson/NNP-18)
+				nn(Center/NNP-20,Space/NNP-19)
+				prep_at(Directorate/NNP-15,Center/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations Directorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_Directorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, Godwin has logged over 38 days in space, including over ten EVA hours in two spacewalks .	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], Godwin has logged over 38 days in [[space|Space]], including over ten EVA [[hours|Hour]] in [[two spacewalks|Spacewalk_(software)]] .	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, Godwin has logged over 38 days in space, including over ten EVA hours in two spacewalks .	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(logged/VBN-10,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				appos(flights/NNS-6,Godwin/NNP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				num(days/NNS-13,38/CD-12)
+				prep_over(logged/VBN-10,days/NNS-13)
+				prep_in(days/NNS-13,space/NN-15)
+				prep(logged/VBN-10,including/VBG-17)
+				pcomp(including/VBG-17,over/IN-18)
+				num(hours/NNS-21,ten/CD-19)
+				nn(hours/NNS-21,EVA/NNP-20)
+				pobj(over/IN-18,hours/NNS-21)
+				num(spacewalks/NNS-24,two/CD-23)
+				prep_in(hours/NNS-21,spacewalks/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1991 she served as a Mission Specialist on STS-37, was the Payload Commander on STS-59 in 1994, flew on STS-76 in 1996, a Mir docking mission, and served on STS-108/International Space Station Flight UF-1 in 2001.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-4,1991/CD-2)
+				nsubj(served/VBD-4,she/PRP-3)
+				nsubj(flew/VBD-21,she/PRP-3)
+				nsubj(served/VBD-33,she/PRP-3)
+				det(Specialist/NN-8,a/DT-6)
+				nn(Specialist/NN-8,Mission/NNP-7)
+				prep_as(served/VBD-4,Specialist/NN-8)
+				prep_on(served/VBD-4,STS-37/NN-10)
+				cop(Commander/NNP-15,was/VBD-12)
+				det(Commander/NNP-15,the/DT-13)
+				nn(Commander/NNP-15,Payload/NNP-14)
+				conj_and(served/VBD-4,Commander/NNP-15)
+				prep_on(Commander/NNP-15,STS-59/NN-17)
+				prep_in(Commander/NNP-15,1994/CD-19)
+				conj_and(served/VBD-4,flew/VBD-21)
+				prep_on(flew/VBD-21,STS-76/NN-23)
+				prep_in(flew/VBD-21,1996/CD-25)
+				det(mission/NN-30,a/DT-27)
+				nn(mission/NN-30,Mir/NNS-28)
+				nn(mission/NN-30,docking/NN-29)
+				appos(1996/CD-25,mission/NN-30)
+				conj_and(served/VBD-4,served/VBD-33)
+				prep_on(served/VBD-33,STS-108/NN-35)
+				punct(UF-1/NN-41,//:-36)
+				nn(UF-1/NN-41,International/NNP-37)
+				nn(UF-1/NN-41,Space/NNP-38)
+				nn(UF-1/NN-41,Station/NNP-39)
+				nn(UF-1/NN-41,Flight/NNP-40)
+				prep(STS-108/NN-35,UF-1/NN-41)
+				prep_in(served/VBD-33,2001/CD-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-37 Atlantis (April 5-April 11, 1991) was launched from the Kennedy Space Center, Florida, and returned to land at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	[[STS-37|STS-37]] [[Atlantis|Atlantis]] (April [[5-April|April_5]] 11, [[1991|1991]]) was launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], and returned to land at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-37|STS-37]] Atlantis (April 5-April 11, 1991) was launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, and returned to land at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Atlantis/NNP-2,STS-37/JJ-1)
+				nsubjpass(launched/VBN-11,Atlantis/NNP-2)
+				nsubjpass(returned/VBD-21,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,April/NNP-4)
+				dep(April/NNP-4,5-April/NN-5)
+				num(5-April/NN-5,11/CD-6)
+				amod(5-April/NN-5,1991/CD-8)
+				auxpass(launched/VBN-11,was/VBD-10)
+				det(Center/NNP-16,the/DT-13)
+				nn(Center/NNP-16,Kennedy/NNP-14)
+				nn(Center/NNP-16,Space/NNP-15)
+				prep_from(launched/VBN-11,Center/NNP-16)
+				appos(Center/NNP-16,Florida/NNP-18)
+				conj_and(launched/VBN-11,returned/VBD-21)
+				aux(land/VB-23,to/TO-22)
+				xcomp(returned/VBD-21,land/VB-23)
+				nn(Base/NNP-28,Edwards/NNP-25)
+				nn(Base/NNP-28,Air/NNP-26)
+				nn(Base/NNP-28,Force/NNP-27)
+				prep_at(land/VB-23,Base/NNP-28)
+				appos(Base/NNP-28,California/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-37</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-37</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5-April</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-37
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 93 orbits of the mission, the crew deployed the Gamma Ray Observatory (GRO) to study gamma ray sources in the universe.	</value>
+
+		<annotated-sentence>	During the 93 orbits of the mission, the crew deployed [[the Gamma Ray Observatory|Compton_Gamma_Ray_Observatory]] ([[GRO|Compton_Gamma_Ray_Observatory]]) to study [[gamma ray|Gamma_ray]] sources in the universe.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the 93 orbits of the mission, the crew deployed the Gamma Ray Observatory (GRO) to study gamma ray sources in the universe.	</pattern_crowdsource>
+
+
+		<tree>
+				det(orbits/NNS-4,the/DT-2)
+				num(orbits/NNS-4,93/CD-3)
+				prep_during(deployed/VBD-11,orbits/NNS-4)
+				det(mission/NN-7,the/DT-6)
+				prep_of(orbits/NNS-4,mission/NN-7)
+				det(crew/NN-10,the/DT-9)
+				nsubj(deployed/VBD-11,crew/NN-10)
+				det(Observatory/NNP-15,the/DT-12)
+				nn(Observatory/NNP-15,Gamma/NNP-13)
+				nn(Observatory/NNP-15,Ray/NNP-14)
+				dobj(deployed/VBD-11,Observatory/NNP-15)
+				appos(Observatory/NNP-15,GRO/NNP-17)
+				nn(sources/NNS-23,study/NN-20)
+				nn(sources/NNS-23,gamma/NN-21)
+				nn(sources/NNS-23,ray/NN-22)
+				prep_to(deployed/VBD-11,sources/NNS-23)
+				det(universe/NN-26,the/DT-25)
+				prep_in(deployed/VBD-11,universe/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Gamma Ray Observatory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Compton_Gamma_Ray_Observatory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>GRO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Compton_Gamma_Ray_Observatory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>gamma ray</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gamma_ray</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	GRO, at almost 35,000 pounds (16 Mg), was the heaviest payload deployed to date by the Shuttle Remote Manipulator System (RMS).	</value>
+
+		<annotated-sentence>	GRO, at almost 35,000 pounds (16 Mg), was the heaviest payload deployed to date by [[the Shuttle Remote Manipulator System|Canadarm]] ([[RMS|Canadarm]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	GRO, at almost 35,000 pounds (16 Mg), was the heaviest payload deployed to date by the Shuttle Remote Manipulator System (RMS).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(payload/NN-15,GRO/NNP-1)
+				quantmod(35,000/CD-5,almost/RB-4)
+				num(pounds/NNS-6,35,000/CD-5)
+				prep_at(GRO/NNP-1,pounds/NNS-6)
+				num(Mg/NN-9,16/CD-8)
+				appos(pounds/NNS-6,Mg/NN-9)
+				cop(payload/NN-15,was/VBD-12)
+				det(payload/NN-15,the/DT-13)
+				amod(payload/NN-15,heaviest/JJS-14)
+				partmod(payload/NN-15,deployed/VBN-16)
+				prep_to(deployed/VBN-16,date/NN-18)
+				det(System/NNP-24,the/DT-20)
+				nn(System/NNP-24,Shuttle/NNP-21)
+				nn(System/NNP-24,Remote/NNP-22)
+				nn(System/NNP-24,Manipulator/NNP-23)
+				agent(deployed/VBN-16,System/NNP-24)
+				appos(payload/NN-15,RMS/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Shuttle Remote Manipulator System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadarm</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>RMS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadarm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also conducted an unscheduled space walk to free the GRO high gain antenna, and conducted the first scheduled extravehicular activity in 5½ years to test concepts for moving about large space structures.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(conducted/VBD-4,crew/NN-2)
+				nsubj(conducted/VBD-18,crew/NN-2)
+				advmod(conducted/VBD-4,also/RB-3)
+				det(walk/NN-8,an/DT-5)
+				amod(walk/NN-8,unscheduled/JJ-6)
+				nn(walk/NN-8,space/NN-7)
+				dobj(conducted/VBD-4,walk/NN-8)
+				aux(free/VB-10,to/TO-9)
+				xcomp(conducted/VBD-4,free/VB-10)
+				det(antenna/NN-15,the/DT-11)
+				nn(antenna/NN-15,GRO/NNP-12)
+				amod(antenna/NN-15,high/JJ-13)
+				nn(antenna/NN-15,gain/NN-14)
+				dobj(free/VB-10,antenna/NN-15)
+				conj_and(conducted/VBD-4,conducted/VBD-18)
+				det(activity/NN-23,the/DT-19)
+				amod(activity/NN-23,first/JJ-20)
+				amod(activity/NN-23,scheduled/VBN-21)
+				amod(activity/NN-23,extravehicular/JJ-22)
+				dobj(conducted/VBD-18,activity/NN-23)
+				number(1/2/CD-26,5/CD-25)
+				num(years/NNS-27,1/2/CD-26)
+				prep_in(conducted/VBD-18,years/NNS-27)
+				aux(test/VB-29,to/TO-28)
+				xcomp(conducted/VBD-4,test/VB-29)
+				dobj(test/VB-29,concepts/NNS-30)
+				prepc_for(test/VB-29,moving/VBG-32)
+				advmod(structures/NNS-36,about/RB-33)
+				amod(structures/NNS-36,large/JJ-34)
+				nn(structures/NNS-36,space/NN-35)
+				dobj(moving/VBG-32,structures/NNS-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Several middeck experiments and activities were conducted including test of elements of a heat pipe to study fluid transfer processed in microgravity environments (SHARE), a chemical processing apparatus to characterize the structure of biological materials (BIMDA), and an experiment to grow larger and more perfect protein crystals than can be grown on the ground (PCG II).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(experiments/NNS-3,Several/JJ-1)
+				nn(experiments/NNS-3,middeck/NN-2)
+				nsubjpass(conducted/VBN-7,experiments/NNS-3)
+				conj_and(experiments/NNS-3,activities/NNS-5)
+				nsubjpass(conducted/VBN-7,activities/NNS-5)
+				auxpass(conducted/VBN-7,were/VBD-6)
+				prep_including(conducted/VBN-7,test/NN-9)
+				prep_of(test/NN-9,elements/NNS-11)
+				det(pipe/NN-15,a/DT-13)
+				nn(pipe/NN-15,heat/NN-14)
+				prep_of(elements/NNS-11,pipe/NN-15)
+				aux(study/VB-17,to/TO-16)
+				infmod(pipe/NN-15,study/VB-17)
+				nn(transfer/NN-19,fluid/NN-18)
+				dobj(study/VB-17,transfer/NN-19)
+				partmod(transfer/NN-19,processed/VBN-20)
+				nn(environments/NNS-23,microgravity/NN-22)
+				prep_in(processed/VBN-20,environments/NNS-23)
+				appos(pipe/NN-15,SHARE/NN-25)
+				det(apparatus/NN-31,a/DT-28)
+				nn(apparatus/NN-31,chemical/NN-29)
+				nn(apparatus/NN-31,processing/NN-30)
+				prep_of(elements/NNS-11,apparatus/NN-31)
+				conj_and(pipe/NN-15,apparatus/NN-31)
+				aux(characterize/VB-33,to/TO-32)
+				infmod(apparatus/NN-31,characterize/VB-33)
+				det(structure/NN-35,the/DT-34)
+				dobj(characterize/VB-33,structure/NN-35)
+				amod(materials/NNS-38,biological/JJ-37)
+				prep_of(structure/NN-35,materials/NNS-38)
+				appos(apparatus/NN-31,BIMDA/NN-40)
+				det(experiment/NN-45,an/DT-44)
+				prep_of(elements/NNS-11,experiment/NN-45)
+				conj_and(pipe/NN-15,experiment/NN-45)
+				aux(grow/VB-47,to/TO-46)
+				infmod(experiment/NN-45,grow/VB-47)
+				amod(crystals/NNS-53,larger/JJR-48)
+				advmod(perfect/JJ-51,more/RBR-50)
+				conj_and(larger/JJR-48,perfect/JJ-51)
+				amod(crystals/NNS-53,perfect/JJ-51)
+				nn(crystals/NNS-53,protein/NN-52)
+				dobj(grow/VB-47,crystals/NNS-53)
+				mark(grown/VBN-57,than/IN-54)
+				aux(grown/VBN-57,can/MD-55)
+				auxpass(grown/VBN-57,be/VB-56)
+				advcl(grow/VB-47,grown/VBN-57)
+				det(ground/NN-60,the/DT-59)
+				prep_on(grown/VBN-57,ground/NN-60)
+				appos(experiment/NN-45,PCG/NN-62)
+				num(PCG/NN-62,II/CD-63)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Atlantis carried amateur radio equipment for voice contact, fast scan and slow scan TV, and packet radio.	</value>
+
+		<annotated-sentence>	[[Atlantis|Atlantis]] carried amateur [[radio equipment|Radio_equipment]] for voice contact, fast scan and slow scan TV, and [[packet radio|Packet_radio]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Atlantis carried amateur radio equipment for voice contact, fast scan and slow scan TV, and packet radio.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(carried/VBD-2,Atlantis/NNP-1)
+				amod(equipment/NN-5,amateur/JJ-3)
+				nn(equipment/NN-5,radio/NN-4)
+				dobj(carried/VBD-2,equipment/NN-5)
+				nn(contact/NN-8,voice/NN-7)
+				prep_for(equipment/NN-5,contact/NN-8)
+				advmod(scan/VB-11,fast/JJ-10)
+				dep(carried/VBD-2,scan/VB-11)
+				dep(carried/VBD-2,slow/VB-13)
+				conj_and(scan/VB-11,slow/VB-13)
+				xcomp(slow/VB-13,scan/VB-14)
+				dobj(scan/VB-14,TV/NN-15)
+				nn(radio/NN-19,packet/NN-18)
+				dobj(scan/VB-14,radio/NN-19)
+				conj_and(TV/NN-15,radio/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>radio equipment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radio_equipment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>packet radio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Packet_radio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Several hundred contacts were made with amateur radio operators around the world.	</value>
+
+		<annotated-sentence>	[[Several|Several]] hundred contacts were made with [[amateur radio operators|Amateur_radio_operator]] around [[the world|World]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Several hundred contacts were made with amateur radio operators around the world.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(contacts/NNS-3,Several/JJ-1)
+				num(contacts/NNS-3,hundred/CD-2)
+				nsubjpass(made/VBN-5,contacts/NNS-3)
+				auxpass(made/VBN-5,were/VBD-4)
+				amod(operators/NNS-9,amateur/JJ-7)
+				nn(operators/NNS-9,radio/NN-8)
+				prep_with(made/VBN-5,operators/NNS-9)
+				det(world/NN-12,the/DT-11)
+				prep_around(made/VBN-5,world/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Several</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Several</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>amateur radio operators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amateur_radio_operator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the world</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 143 hours, 32 minutes, 44 seconds.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 143 [[hours|Hour]], 32 [[minutes|Minute]], 44 seconds.	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 143 hours, 32 minutes, 44 seconds.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,143/CD-4)
+				num(minutes/NNS-8,32/CD-7)
+				appos(hours/NNS-5,minutes/NNS-8)
+				num(seconds/NNS-11,44/CD-10)
+				appos(minutes/NNS-8,seconds/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-59 Endeavour (April 9-April 20, 1994) was the Space Radar Laboratory (SRL) mission.	</value>
+
+		<annotated-sentence>	[[STS-59|STS-59]] [[Endeavour|Endeavour]] (April [[9-April|April_9]] 20, 1994) was [[the Space|Space]] [[Radar|Radar]] [[Laboratory|Laboratory]] (SRL) mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-59|STS-59]] Endeavour (April 9-April 20, 1994) was the Space Radar Laboratory (SRL) mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Endeavour/NN-2,STS-59/NN-1)
+				nsubj(mission/NN-18,Endeavour/NN-2)
+				dep(Endeavour/NN-2,April/NNP-4)
+				dep(April/NNP-4,9-April/NNP-5)
+				num(9-April/NNP-5,20/CD-6)
+				num(9-April/NNP-5,1994/CD-8)
+				cop(mission/NN-18,was/VBD-10)
+				det(Space/NN-12,the/DT-11)
+				nn(mission/NN-18,Space/NN-12)
+				nn(Laboratory/NNP-14,Radar/NNP-13)
+				dep(Space/NN-12,Laboratory/NNP-14)
+				appos(Laboratory/NNP-14,SRL/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-59</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-59</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>9-April</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Radar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-59
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-59 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-59 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	SRL consisted of three large radars, SIR-C/X-SAR (Shuttle Imaging Radar C/X-Band Synthetic Aperture Radar), and a carbon monoxide sensor that were used to enhance studies of the Earth's surface and atmosphere.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(consisted/VBD-2,SRL/NN-1)
+				num(radars/NNS-6,three/CD-4)
+				amod(radars/NNS-6,large/JJ-5)
+				prep_of(consisted/VBD-2,radars/NNS-6)
+				prep_of(consisted/VBD-2,SIR-C/X-SAR/NN-8)
+				conj_and(radars/NNS-6,SIR-C/X-SAR/NN-8)
+				nn(Radar/NNP-16,Shuttle/NNP-10)
+				nn(Radar/NNP-16,Imaging/NNP-11)
+				nn(Radar/NNP-16,Radar/NNP-12)
+				nn(Radar/NNP-16,C/X-Band/NNP-13)
+				nn(Radar/NNP-16,Synthetic/NNP-14)
+				nn(Radar/NNP-16,Aperture/NNP-15)
+				appos(SIR-C/X-SAR/NN-8,Radar/NNP-16)
+				det(sensor/NN-23,a/DT-20)
+				nn(sensor/NN-23,carbon/NN-21)
+				nn(sensor/NN-23,monoxide/NN-22)
+				prep_of(consisted/VBD-2,sensor/NN-23)
+				conj_and(radars/NNS-6,sensor/NN-23)
+				nsubjpass(used/VBN-26,that/WDT-24)
+				auxpass(used/VBN-26,were/VBD-25)
+				rcmod(sensor/NN-23,used/VBN-26)
+				aux(enhance/VB-28,to/TO-27)
+				xcomp(used/VBN-26,enhance/VB-28)
+				dobj(enhance/VB-28,studies/NNS-29)
+				det(Earth/NNP-32,the/DT-31)
+				poss(surface/NN-34,Earth/NNP-32)
+				prep_of(studies/NNS-29,surface/NN-34)
+				prep_of(studies/NNS-29,atmosphere/NN-36)
+				conj_and(surface/NN-34,atmosphere/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The imaging radars operated in three frequencies and four polarizations.	</value>
+
+		<annotated-sentence>	The imaging [[radars|Radar]] operated in three [[frequencies|Frequency]] and four polarizations.	</annotated-sentence>
+
+		<pattern_crowdsource>	The imaging radars operated in three frequencies and four polarizations.	</pattern_crowdsource>
+
+
+		<tree>
+				det(radars/NNS-3,The/DT-1)
+				nn(radars/NNS-3,imaging/NN-2)
+				nsubj(operated/VBN-4,radars/NNS-3)
+				num(frequencies/NNS-7,three/CD-6)
+				prep_in(operated/VBN-4,frequencies/NNS-7)
+				num(polarizations/NNS-10,four/CD-9)
+				prep_in(operated/VBN-4,polarizations/NNS-10)
+				conj_and(frequencies/NNS-7,polarizations/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>radars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>frequencies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Frequency</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This multispectral capability of the radars provided information about the Earth's surface over a wide range of scales not discernible with previous single-frequency experiments.	</value>
+
+		<annotated-sentence>	This multispectral capability of [[the radars|Radar]] provided [[information|Information]] about the [[Earth|Earth]]'s [[surface|Surface]] over a wide range of scales not discernible with previous single-frequency [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This multispectral capability of the radars provided information about the Earth's surface over a wide range of scales not discernible with previous single-frequency experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(capability/NN-3,This/DT-1)
+				amod(capability/NN-3,multispectral/JJ-2)
+				nsubj(provided/VBN-7,capability/NN-3)
+				det(radars/NNS-6,the/DT-5)
+				prep_of(capability/NN-3,radars/NNS-6)
+				dobj(provided/VBN-7,information/NN-8)
+				det(Earth/NNP-11,the/DT-10)
+				poss(surface/NN-13,Earth/NNP-11)
+				prep_about(provided/VBN-7,surface/NN-13)
+				det(range/NN-17,a/DT-15)
+				amod(range/NN-17,wide/JJ-16)
+				prep_over(surface/NN-13,range/NN-17)
+				prep_of(range/NN-17,scales/NNS-19)
+				neg(discernible/JJ-21,not/RB-20)
+				amod(scales/NNS-19,discernible/JJ-21)
+				amod(experiments/NNS-25,previous/JJ-23)
+				nn(experiments/NNS-25,single-frequency/NN-24)
+				prep_with(provided/VBN-7,experiments/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the radars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>information</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Information</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>surface</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Surface</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The carbon monoxide sensor MAPS (Measurement of Air Pollution by Satellite) used gas filter radiometry to measure the global distribution of CO in the troposphere.	</value>
+
+		<annotated-sentence>	The [[carbon monoxide sensor|Carbon_monoxide_detector]] MAPS ([[Measurement|Measurement]] of [[Air Pollution|Air_pollution]] by [[Satellite|Satellite]]) used gas filter [[radiometry|Radiometry]] to measure the global distribution of CO in [[the troposphere|Troposphere_(rocket_family)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The carbon monoxide sensor MAPS (Measurement of Air Pollution by Satellite) used gas filter radiometry to measure the global distribution of CO in the troposphere.	</pattern_crowdsource>
+
+
+		<tree>
+				det(MAPS/NNS-5,The/DT-1)
+				nn(MAPS/NNS-5,carbon/NN-2)
+				nn(MAPS/NNS-5,monoxide/NN-3)
+				nn(MAPS/NNS-5,sensor/NN-4)
+				nsubj(used/VBN-14,MAPS/NNS-5)
+				dep(MAPS/NNS-5,Measurement/NN-7)
+				nn(Pollution/NNP-10,Air/NNP-9)
+				prep_of(Measurement/NN-7,Pollution/NNP-10)
+				prep_by(Pollution/NNP-10,Satellite/NNP-12)
+				nn(radiometry/NN-17,gas/NN-15)
+				nn(radiometry/NN-17,filter/NN-16)
+				nsubj(measure/VB-19,radiometry/NN-17)
+				aux(measure/VB-19,to/TO-18)
+				xcomp(used/VBN-14,measure/VB-19)
+				det(distribution/NN-22,the/DT-20)
+				amod(distribution/NN-22,global/JJ-21)
+				dobj(measure/VB-19,distribution/NN-22)
+				prep_of(distribution/NN-22,CO/NNP-24)
+				det(troposphere/NNP-27,the/DT-26)
+				prep_in(measure/VB-19,troposphere/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>carbon monoxide sensor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carbon_monoxide_detector</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Measurement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Measurement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Pollution</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_pollution</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>radiometry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radiometry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the troposphere</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Troposphere_(rocket_family)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Real-time crew observations of surface phenomena and climatic conditions augmented with over 14,000 photographs aided investigators in interpretation and calibration of the data.	</value>
+
+		<annotated-sentence>	Real-time crew [[observations|Observation]] of [[surface|Surface]] [[phenomena|Phenomenon]] and climatic conditions augmented with over 14,000 [[photographs|Photograph]] aided [[investigators|Detective]] in interpretation and calibration of the data.	</annotated-sentence>
+
+		<pattern_crowdsource>	Real-time crew observations of surface phenomena and climatic conditions augmented with over 14,000 photographs aided investigators in interpretation and calibration of the data.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(observations/NNS-3,Real-time/JJ-1)
+				nn(observations/NNS-3,crew/NN-2)
+				nsubj(augmented/VBD-10,observations/NNS-3)
+				nn(phenomena/NNS-6,surface/NN-5)
+				prep_of(observations/NNS-3,phenomena/NNS-6)
+				amod(conditions/NNS-9,climatic/JJ-8)
+				prep_of(observations/NNS-3,conditions/NNS-9)
+				conj_and(phenomena/NNS-6,conditions/NNS-9)
+				dep(augmented/VBD-10,with/IN-11)
+				num(photographs/NNS-14,14,000/CD-13)
+				prep_over(augmented/VBD-10,photographs/NNS-14)
+				partmod(photographs/NNS-14,aided/VBN-15)
+				dobj(aided/VBN-15,investigators/NNS-16)
+				prep_in(aided/VBN-15,interpretation/NN-18)
+				prep_in(aided/VBN-15,calibration/NN-20)
+				conj_and(interpretation/NN-18,calibration/NN-20)
+				det(data/NNS-23,the/DT-22)
+				prep_of(interpretation/NN-18,data/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>observations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Observation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>surface</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Surface</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>phenomena</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phenomenon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>photographs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photograph</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>investigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Detective</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission concluded with a landing at Edwards AFB after orbiting the Earth 183 times in 269 hours, 29 minutes.	</value>
+
+		<annotated-sentence>	The mission concluded with [[a landing|Amphibious_warfare]] at [[Edwards AFB|Edwards_Air_Force_Base]] after orbiting the [[Earth|Earth]] 183 times in 269 [[hours|Hour]], 29 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission concluded with a landing at Edwards AFB after orbiting the Earth 183 times in 269 hours, 29 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(concluded/VBD-3,mission/NN-2)
+				det(landing/NN-6,a/DT-5)
+				prep_with(concluded/VBD-3,landing/NN-6)
+				nn(AFB/NNP-9,Edwards/NNP-8)
+				prep_at(landing/NN-6,AFB/NNP-9)
+				prepc_after(concluded/VBD-3,orbiting/VBG-11)
+				det(times/NNS-15,the/DT-12)
+				nn(times/NNS-15,Earth/NNP-13)
+				num(times/NNS-15,183/CD-14)
+				dobj(orbiting/VBG-11,times/NNS-15)
+				num(hours/NNS-18,269/CD-17)
+				prep_in(orbiting/VBG-11,hours/NNS-18)
+				num(minutes/NNS-21,29/CD-20)
+				appos(hours/NNS-18,minutes/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-76 Atlantis (March 22-March 31, 1996) was the third docking mission to the Russian space station Mir.	</value>
+
+		<annotated-sentence>	[[STS-76|STS-76]] [[Atlantis|Atlantis]] (March [[22-March|March_22]] 31, 1996) was the third docking mission to the Russian [[space station Mir|Mir]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-76|STS-76]] Atlantis (March 22-March 31, 1996) was the third docking mission to the Russian space station Mir.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-76/NNP-1)
+				nsubj(mission/NN-14,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,March/NNP-4)
+				dep(March/NNP-4,22-March/NNP-5)
+				num(22-March/NNP-5,31/CD-6)
+				num(22-March/NNP-5,1996/CD-8)
+				cop(mission/NN-14,was/VBD-10)
+				det(mission/NN-14,the/DT-11)
+				amod(mission/NN-14,third/JJ-12)
+				nn(mission/NN-14,docking/NN-13)
+				det(Mir/NNS-20,the/DT-16)
+				amod(Mir/NNS-20,Russian/JJ-17)
+				nn(Mir/NNS-20,space/NN-18)
+				nn(Mir/NNS-20,station/NN-19)
+				prep_to(mission/NN-14,Mir/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-76</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-76</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>22-March</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_22</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space station Mir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-76
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-76 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-76 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following rendezvous and docking with Mir, transfer of a NASA astronaut to Mir for a 5-month stay was accomplished to begin a continuous presence of U.S. astronauts aboard Mir for the next two-year period.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(accomplished/VBN-20,rendezvous/NN-2)
+				conj_and(rendezvous/NN-2,docking/NN-4)
+				prep_following(accomplished/VBN-20,docking/NN-4)
+				prep_with(rendezvous/NN-2,Mir/NNS-6)
+				nsubjpass(accomplished/VBN-20,transfer/NN-8)
+				det(astronaut/NN-12,a/DT-10)
+				nn(astronaut/NN-12,NASA/NNP-11)
+				prep_of(transfer/NN-8,astronaut/NN-12)
+				prep_to(astronaut/NN-12,Mir/NNS-14)
+				det(stay/NN-18,a/DT-16)
+				amod(stay/NN-18,5-month/JJ-17)
+				prep_for(Mir/NNS-14,stay/NN-18)
+				auxpass(accomplished/VBN-20,was/VBD-19)
+				aux(begin/VB-22,to/TO-21)
+				xcomp(accomplished/VBN-20,begin/VB-22)
+				det(presence/NN-25,a/DT-23)
+				amod(presence/NN-25,continuous/JJ-24)
+				dobj(begin/VB-22,presence/NN-25)
+				nn(astronauts/NNS-28,U.S./NNP-27)
+				prep_of(presence/NN-25,astronauts/NNS-28)
+				prep_aboard(begin/VB-22,Mir/NNS-30)
+				det(period/NN-35,the/DT-32)
+				amod(period/NN-35,next/JJ-33)
+				amod(period/NN-35,two-year/JJ-34)
+				prep_for(Mir/NNS-30,period/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also transferred 4800 pounds (2,200 kg) of science and mission hardware, food, water and air to Mir and returned over 1100 pounds (500 kg) of U.S. and ESA science and Russian hardware.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(transferred/VBD-4,crew/NN-2)
+				nsubj(returned/VBD-25,crew/NN-2)
+				advmod(transferred/VBD-4,also/RB-3)
+				num(pounds/NNS-6,4800/CD-5)
+				dobj(transferred/VBD-4,pounds/NNS-6)
+				num(kg/NN-9,2,200/CD-8)
+				appos(pounds/NNS-6,kg/NN-9)
+				nn(hardware/NN-15,science/NN-12)
+				conj_and(science/NN-12,mission/NN-14)
+				nn(hardware/NN-15,mission/NN-14)
+				prep_of(pounds/NNS-6,hardware/NN-15)
+				appos(hardware/NN-15,food/NN-17)
+				appos(hardware/NN-15,water/NN-19)
+				conj_and(food/NN-17,water/NN-19)
+				appos(hardware/NN-15,air/NN-21)
+				conj_and(food/NN-17,air/NN-21)
+				prep_to(transferred/VBD-4,Mir/NNS-23)
+				conj_and(transferred/VBD-4,returned/VBD-25)
+				num(pounds/NNS-28,1100/CD-27)
+				prep_over(returned/VBD-25,pounds/NNS-28)
+				num(kg/NN-31,500/CD-30)
+				appos(pounds/NNS-28,kg/NN-31)
+				prep_of(pounds/NNS-28,U.S./NNP-34)
+				prep_of(pounds/NNS-28,ESA/NNP-36)
+				conj_and(U.S./NNP-34,ESA/NNP-36)
+				tmod(returned/VBD-25,science/NN-37)
+				amod(hardware/NN-40,Russian/JJ-39)
+				tmod(returned/VBD-25,hardware/NN-40)
+				conj_and(science/NN-37,hardware/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin performed a six-hour spacewalk, the first while docked to an orbiting space station, to mount experiment packages on the Mir docking module to detect and assess debris and contamination in a space station environment.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Godwin/NNP-1)
+				det(spacewalk/NN-5,a/DT-3)
+				amod(spacewalk/NN-5,six-hour/JJ-4)
+				dobj(performed/VBD-2,spacewalk/NN-5)
+				det(first/JJ-8,the/DT-7)
+				appos(spacewalk/NN-5,first/JJ-8)
+				mark(docked/VBN-10,while/IN-9)
+				dep(first/JJ-8,docked/VBN-10)
+				det(station/NN-15,an/DT-12)
+				amod(station/NN-15,orbiting/VBG-13)
+				nn(station/NN-15,space/NN-14)
+				prep_to(docked/VBN-10,station/NN-15)
+				aux(mount/VB-18,to/TO-17)
+				xcomp(performed/VBD-2,mount/VB-18)
+				nn(packages/NNS-20,experiment/NN-19)
+				dobj(mount/VB-18,packages/NNS-20)
+				det(module/NN-25,the/DT-22)
+				nn(module/NN-25,Mir/NNS-23)
+				nn(module/NN-25,docking/NN-24)
+				prep_on(mount/VB-18,module/NN-25)
+				aux(detect/VB-27,to/TO-26)
+				xcomp(mount/VB-18,detect/VB-27)
+				xcomp(mount/VB-18,assess/VB-29)
+				conj_and(detect/VB-27,assess/VB-29)
+				dobj(detect/VB-27,debris/NN-30)
+				dobj(detect/VB-27,contamination/NN-32)
+				conj_and(debris/NN-30,contamination/NN-32)
+				det(environment/NN-37,a/DT-34)
+				nn(environment/NN-37,space/NN-35)
+				nn(environment/NN-37,station/NN-36)
+				prep_in(debris/NN-30,environment/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The packages will be retrieved by a future shuttle mission.	</value>
+
+		<annotated-sentence>	The packages will be retrieved by a future shuttle mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	The packages will be retrieved by a future shuttle mission.	</pattern_crowdsource>
+
+
+		<tree>
+				det(packages/NNS-2,The/DT-1)
+				nsubjpass(retrieved/VBN-5,packages/NNS-2)
+				aux(retrieved/VBN-5,will/MD-3)
+				auxpass(retrieved/VBN-5,be/VB-4)
+				det(mission/NN-10,a/DT-7)
+				amod(mission/NN-10,future/JJ-8)
+				nn(mission/NN-10,shuttle/NN-9)
+				agent(retrieved/VBN-5,mission/NN-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Spacehab module carried in the Shuttle payload bay was utilized extensively for transfer and return stowage of logistics and science and also carried Biorack, a small multipurpose laboratory used during this mission for research of plant and animal cellular function.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(module/NN-3,The/DT-1)
+				nn(module/NN-3,Spacehab/NNP-2)
+				nsubj(carried/VBD-4,module/NN-3)
+				nsubj(carried/VBD-24,module/NN-3)
+				mark(utilized/VBN-11,in/IN-5)
+				det(bay/NN-9,the/DT-6)
+				nn(bay/NN-9,Shuttle/NNP-7)
+				nn(bay/NN-9,payload/NN-8)
+				nsubjpass(utilized/VBN-11,bay/NN-9)
+				auxpass(utilized/VBN-11,was/VBD-10)
+				advcl(carried/VBD-4,utilized/VBN-11)
+				advmod(utilized/VBN-11,extensively/RB-12)
+				nn(stowage/NN-17,transfer/NN-14)
+				conj_and(transfer/NN-14,return/NN-16)
+				nn(stowage/NN-17,return/NN-16)
+				prep_for(utilized/VBN-11,stowage/NN-17)
+				prep_of(stowage/NN-17,logistics/NNS-19)
+				prep_of(stowage/NN-17,science/NN-21)
+				conj_and(logistics/NNS-19,science/NN-21)
+				advmod(carried/VBD-24,also/RB-23)
+				conj_and(carried/VBD-4,carried/VBD-24)
+				dobj(carried/VBD-24,Biorack/NNP-25)
+				det(laboratory/NN-30,a/DT-27)
+				amod(laboratory/NN-30,small/JJ-28)
+				amod(laboratory/NN-30,multipurpose/JJ-29)
+				appos(Biorack/NNP-25,laboratory/NN-30)
+				partmod(laboratory/NN-30,used/VBN-31)
+				det(mission/NN-34,this/DT-33)
+				prep_during(used/VBN-31,mission/NN-34)
+				prep_for(mission/NN-34,research/NN-36)
+				nn(function/NN-42,plant/NN-38)
+				conj_and(plant/NN-38,animal/NN-40)
+				nn(function/NN-42,animal/NN-40)
+				amod(function/NN-42,cellular/JJ-41)
+				prep_of(research/NN-36,function/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission was also the first flight of Kidsat, an electronic camera controlled by classroom students via a Ku-band link between JSC Mission Control and the Shuttle, which uses digital photography from the Shuttle for science and education.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(flight/NN-7,mission/NN-2)
+				cop(flight/NN-7,was/VBD-3)
+				advmod(flight/NN-7,also/RB-4)
+				det(flight/NN-7,the/DT-5)
+				amod(flight/NN-7,first/JJ-6)
+				prep_of(flight/NN-7,Kidsat/NNP-9)
+				det(camera/NN-13,an/DT-11)
+				amod(camera/NN-13,electronic/JJ-12)
+				appos(Kidsat/NNP-9,camera/NN-13)
+				partmod(camera/NN-13,controlled/VBN-14)
+				nn(students/NNS-17,classroom/NN-16)
+				agent(controlled/VBN-14,students/NNS-17)
+				det(link/NN-21,a/DT-19)
+				amod(link/NN-21,Ku-band/JJ-20)
+				prep_via(students/NNS-17,link/NN-21)
+				nn(Control/NNP-25,JSC/NNP-23)
+				nn(Control/NNP-25,Mission/NNP-24)
+				prep_between(link/NN-21,Control/NNP-25)
+				det(Shuttle/NNP-28,the/DT-27)
+				prep_between(link/NN-21,Shuttle/NNP-28)
+				conj_and(Control/NNP-25,Shuttle/NNP-28)
+				nsubj(uses/VBZ-31,which/WDT-30)
+				rcmod(students/NNS-17,uses/VBZ-31)
+				amod(photography/NN-33,digital/JJ-32)
+				dobj(uses/VBZ-31,photography/NN-33)
+				det(Shuttle/NNP-36,the/DT-35)
+				prep_from(uses/VBZ-31,Shuttle/NNP-36)
+				prep_for(Shuttle/NNP-36,science/NN-38)
+				prep_for(Shuttle/NNP-36,education/NN-40)
+				conj_and(science/NN-38,education/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-76 mission was accomplished in 145 orbits of the Earth, traveling 3.8 million miles (6.1 Gm) in 221 hours and 15 minutes.	</value>
+
+		<annotated-sentence>	The [[STS-76|STS-76]] mission was accomplished in 145 orbits of [[the Earth|Earth]], traveling 3.8 [[million|Million_(band)]] [[miles|Mile]] (6.1 Gm) in 221 [[hours|Hour]] and [[15 minutes|15_Minutes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[STS-76|STS-76]] mission was accomplished in 145 orbits of the Earth, traveling 3.8 million miles (6.1 Gm) in 221 hours and 15 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,The/DT-1)
+				nn(mission/NN-3,STS-76/NN-2)
+				nsubjpass(accomplished/VBN-5,mission/NN-3)
+				auxpass(accomplished/VBN-5,was/VBD-4)
+				num(orbits/NNS-8,145/CD-7)
+				prep_in(accomplished/VBN-5,orbits/NNS-8)
+				det(Earth/NNP-11,the/DT-10)
+				prep_of(orbits/NNS-8,Earth/NNP-11)
+				xcomp(accomplished/VBN-5,traveling/VBG-13)
+				number(million/CD-15,3.8/CD-14)
+				num(miles/NNS-16,million/CD-15)
+				dobj(traveling/VBG-13,miles/NNS-16)
+				num(Gm/NN-19,6.1/CD-18)
+				appos(miles/NNS-16,Gm/NN-19)
+				num(hours/NNS-23,221/CD-22)
+				prep_in(traveling/VBG-13,hours/NNS-23)
+				num(minutes/NNS-26,15/CD-25)
+				prep_in(traveling/VBG-13,minutes/NNS-26)
+				conj_and(hours/NNS-23,minutes/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-76</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-76</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>15 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/15_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-76
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-76 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-76 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-108 Endeavour (December 5-December 17, 2001) was the 12th shuttle flight to visit the International Space Station.	</value>
+
+		<annotated-sentence>	[[STS-108|STS-108]] [[Endeavour|Endeavour]] (December [[5-December|December_5]] 17, [[2001|2001]]) was the 12th [[shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] to visit [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-108|STS-108]] Endeavour (December 5-December 17, 2001) was the 12th [[shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] to visit the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Endeavour/NN-2,STS-108/NN-1)
+				nsubj(flight/NN-14,Endeavour/NN-2)
+				dep(Endeavour/NN-2,December/NNP-4)
+				dep(December/NNP-4,5-December/NN-5)
+				num(5-December/NN-5,17/CD-6)
+				amod(5-December/NN-5,2001/CD-8)
+				cop(flight/NN-14,was/VBD-10)
+				det(flight/NN-14,the/DT-11)
+				amod(flight/NN-14,12th/JJ-12)
+				nn(flight/NN-14,shuttle/NN-13)
+				aux(visit/VB-16,to/TO-15)
+				infmod(flight/NN-14,visit/VB-16)
+				det(Station/NNP-20,the/DT-17)
+				nn(Station/NNP-20,International/NNP-18)
+				nn(Station/NNP-20,Space/NNP-19)
+				dobj(visit/VB-16,Station/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-108</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-108</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5-December</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-108
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-108 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-108 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Endeavour’s crew delivered the Expedition-4 crew and returned the Expedition-3 crew.	</value>
+
+		<annotated-sentence>	[[Endeavour|Space_Shuttle_Endeavour]]’s crew delivered the [[Expedition-4|Expedition_4]] crew and returned the [[Expedition-3|Expedition_3]] crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	Endeavour’s crew delivered the [[Expedition-4|Expedition_4]] crew and returned the [[Expedition-3|Expedition_3]] crew.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(crew/NN-3,Endeavour/NNP-1)
+				nsubj(delivered/VBD-4,crew/NN-3)
+				nsubj(returned/VBD-9,crew/NN-3)
+				det(crew/NN-7,the/DT-5)
+				nn(crew/NN-7,Expedition-4/NN-6)
+				dobj(delivered/VBD-4,crew/NN-7)
+				conj_and(delivered/VBD-4,returned/VBD-9)
+				det(crew/NN-12,the/DT-10)
+				nn(crew/NN-12,Expedition-3/NN-11)
+				dobj(returned/VBD-9,crew/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition-4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition-3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_3</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_4 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Expedition_3
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_3 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Expedition_4
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew unloaded over 3 short tons (2.7 Mg) of supplies, logistics and science experiments from the Raffaello Multi-Purpose Logistics Module and repacked over 2 short tons (1.8 Mg) of items no longer needed on the station for return to Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				dep(crew/NN-2,unloaded/JJ-3)
+				num(tons/NNS-7,3/CD-5)
+				amod(tons/NNS-7,short/JJ-6)
+				prep_over(unloaded/JJ-3,tons/NNS-7)
+				num(Mg/NN-10,2.7/CD-9)
+				appos(tons/NNS-7,Mg/NN-10)
+				nn(logistics/NNS-15,supplies/NNS-13)
+				prep_of(tons/NNS-7,logistics/NNS-15)
+				nn(experiments/NNS-18,science/NN-17)
+				prep_of(tons/NNS-7,experiments/NNS-18)
+				conj_and(logistics/NNS-15,experiments/NNS-18)
+				det(Module/NNP-24,the/DT-20)
+				nn(Module/NNP-24,Raffaello/NNP-21)
+				nn(Module/NNP-24,Multi-Purpose/NNP-22)
+				nn(Module/NNP-24,Logistics/NNP-23)
+				prep_from(unloaded/JJ-3,Module/NNP-24)
+				dep(crew/NN-2,repacked/VBN-26)
+				conj_and(unloaded/JJ-3,repacked/VBN-26)
+				num(tons/NNS-30,2/CD-28)
+				amod(tons/NNS-30,short/JJ-29)
+				prep_over(repacked/VBN-26,tons/NNS-30)
+				num(Mg/NN-33,1.8/CD-32)
+				appos(tons/NNS-30,Mg/NN-33)
+				prep_of(tons/NNS-30,items/NNS-36)
+				advmod(longer/RB-38,no/RB-37)
+				advmod(needed/VBN-39,longer/RB-38)
+				partmod(items/NNS-36,needed/VBN-39)
+				det(station/NN-42,the/DT-41)
+				prep_on(needed/VBN-39,station/NN-42)
+				prep_for(station/NN-42,return/NN-44)
+				prep_to(needed/VBN-39,Earth/NNP-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Godwin used the Shuttle’s robotic arm to install the MPLM onto the Station Node, and participated in a space walk to wrap thermal blankets around ISS Solar Array Beta Gimbal Assemblies.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(used/VBD-2,Godwin/NNP-1)
+				nsubj(participated/VBD-18,Godwin/NNP-1)
+				det(Shuttle/NNP-4,the/DT-3)
+				poss(arm/NN-7,Shuttle/NNP-4)
+				amod(arm/NN-7,robotic/JJ-6)
+				dobj(used/VBD-2,arm/NN-7)
+				aux(install/VB-9,to/TO-8)
+				xcomp(used/VBD-2,install/VB-9)
+				det(MPLM/NNP-11,the/DT-10)
+				dobj(install/VB-9,MPLM/NNP-11)
+				det(Node/NNP-15,the/DT-13)
+				nn(Node/NNP-15,Station/NNP-14)
+				prep_onto(install/VB-9,Node/NNP-15)
+				conj_and(used/VBD-2,participated/VBD-18)
+				det(walk/NN-22,a/DT-20)
+				nn(walk/NN-22,space/NN-21)
+				prep_in(participated/VBD-18,walk/NN-22)
+				aux(wrap/VB-24,to/TO-23)
+				xcomp(participated/VBD-18,wrap/VB-24)
+				amod(blankets/NNS-26,thermal/JJ-25)
+				dobj(wrap/VB-24,blankets/NNS-26)
+				nn(Assemblies/NNPS-33,ISS/NNP-28)
+				nn(Assemblies/NNPS-33,Solar/NNP-29)
+				nn(Assemblies/NNPS-33,Array/NNP-30)
+				nn(Assemblies/NNPS-33,Beta/NNP-31)
+				nn(Assemblies/NNPS-33,Gimbal/NNP-32)
+				prep_around(wrap/VB-24,Assemblies/NNPS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-108 was accomplished in 185 Earth orbits, traveling 4.8 million miles (7.7 Gm) in 283 hours and 36 minutes.	</value>
+
+		<annotated-sentence>	[[STS-108|STS-108]] was accomplished in 185 [[Earth orbits|Geocentric_orbit]], traveling 4.8 [[million|Million_(band)]] [[miles|Mile]] (7.7 Gm) in 283 [[hours|Hour]] and 36 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-108|STS-108]] was accomplished in 185 [[Earth orbits|Geocentric_orbit]], traveling 4.8 million miles (7.7 Gm) in 283 hours and 36 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(accomplished/VBN-3,STS-108/NN-1)
+				auxpass(accomplished/VBN-3,was/VBD-2)
+				num(orbits/NNS-7,185/CD-5)
+				nn(orbits/NNS-7,Earth/NNP-6)
+				prep_in(accomplished/VBN-3,orbits/NNS-7)
+				xcomp(accomplished/VBN-3,traveling/VBG-9)
+				number(million/CD-11,4.8/CD-10)
+				num(miles/NNS-12,million/CD-11)
+				dobj(traveling/VBG-9,miles/NNS-12)
+				num(Gm/NN-15,7.7/CD-14)
+				appos(miles/NNS-12,Gm/NN-15)
+				num(hours/NNS-19,283/CD-18)
+				prep_in(traveling/VBG-9,hours/NNS-19)
+				num(minutes/NNS-22,36/CD-21)
+				prep_in(traveling/VBG-9,minutes/NNS-22)
+				conj_and(hours/NNS-19,minutes/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-108</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-108</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Linda_M._Godwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-108
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-108 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-108 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Linda_M._Godwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-108 http://dbpedia.org/property/orbitReference http://dbpedia.org/resource/Geocentric_orbit
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

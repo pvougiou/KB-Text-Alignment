@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cholera is an infection of the small intestine that causes a large amount of watery diarrhea.</value>
+		<pattern_crowdsource> [[Cholera|C0008354]] is an [[infection|C0009450]] of the [[small intestine|C0021852]] that causes a large amount of [[watery diarrhea|C0239182]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cholera</surface-form>
+				<RDF-ID>C0008354</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large</surface-form>
+				<RDF-ID>C0549177</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>watery diarrhea</surface-form>
+				<RDF-ID>C0239182</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008354 ISA C0009450</triple>
+			<triple>C0021852 LOCATION_OF C0009450</triple>
+			<triple>C0009450 CAUSES C0239182</triple>
+			<triple>C0008354 CAUSES C0239182</triple>
+			<triple>C0021852 LOCATION_OF C0008354</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cholera is caused by the bacterium Vibrio cholerae.</value>
+		<pattern_crowdsource> [[Cholera|C0008354]] is caused by the [[bacterium|C0004611]] [[Vibrio cholerae|C0042629]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cholera</surface-form>
+				<RDF-ID>C0008354</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacterium</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Vibrio cholerae</surface-form>
+				<RDF-ID>C0042629</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042629 ISA C0004611</triple>
+			<triple>C0042629 CAUSES C0008354</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These bacteria release a toxin that causes an increased amount of water to be released from cells that line the intestines.</value>
+		<pattern_crowdsource> These [[bacteria|C0004611]] release a [[toxin|C0040549]] that causes an increased amount of [[water|C0043047]] to be released from [[cells|C0007634]] that line the intestines.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>toxin</surface-form>
+				<RDF-ID>C0040549</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>increased</surface-form>
+				<RDF-ID>C0205217</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0043047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 PRODUCES C0040549</triple>
+			<triple>C0007634 LOCATION_OF C0043047</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The increase in water produces severe diarrhea.</value>
+		<pattern_crowdsource> The increase in [[water|C0043047]] produces [[severe diarrhea|C1443924]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>increase</surface-form>
+				<RDF-ID>C0442805</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0043047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe diarrhea</surface-form>
+				<RDF-ID>C1443924</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043047 CAUSES C1443924</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

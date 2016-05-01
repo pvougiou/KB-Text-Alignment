@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Tamara Elizabeth "Tammy" Jernigan, Ph.D. (born May 7, 1959, in Chattanooga, Tennessee) is an American scientist and former NASA astronaut and a veteran of five shuttle missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jernigan/NNP-6,Tamara/NNP-1)
+				nn(Jernigan/NNP-6,Elizabeth/NNP-2)
+				nn(Jernigan/NNP-6,Tammy/NNP-4)
+				nsubj(scientist/NN-24,Jernigan/NNP-6)
+				appos(Jernigan/NNP-6,Ph.D./NNP-8)
+				dep(Jernigan/NNP-6,born/VBN-10)
+				tmod(born/VBN-10,May/NNP-11)
+				num(May/NNP-11,7/CD-12)
+				num(May/NNP-11,1959/CD-14)
+				nn(Tennessee/NNP-19,Chattanooga/NNP-17)
+				prep_in(born/VBN-10,Tennessee/NNP-19)
+				cop(scientist/NN-24,is/VBZ-21)
+				det(scientist/NN-24,an/DT-22)
+				amod(scientist/NN-24,American/JJ-23)
+				amod(astronaut/NN-28,former/JJ-26)
+				nn(astronaut/NN-28,NASA/NNP-27)
+				conj_and(scientist/NN-24,astronaut/NN-28)
+				det(veteran/NN-31,a/DT-30)
+				conj_and(scientist/NN-24,veteran/NN-31)
+				num(missions/NNS-35,five/CD-33)
+				nn(missions/NNS-35,shuttle/NN-34)
+				prep_of(veteran/NN-31,missions/NNS-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jernigan attended Santa Fe High School in Santa Fe Springs, CA.	</value>
+
+		<annotated-sentence>	Jernigan attended [[Santa Fe High School|Santa_Fe_High_School_(California)]] in [[Santa Fe Springs|Santa_Fe_Springs,_California]], [[CA|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jernigan attended [[Santa Fe High School|Santa_Fe_High_School_(California)]] in [[Santa Fe Springs|Santa_Fe_Springs,_California]], [[CA|California]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Jernigan/NNP-1)
+				nn(School/NNP-6,Santa/NNP-3)
+				nn(School/NNP-6,Fe/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				dobj(attended/VBD-2,School/NNP-6)
+				nn(Springs/NNP-10,Santa/NNP-8)
+				nn(Springs/NNP-10,Fe/NNP-9)
+				prep_in(School/NNP-6,Springs/NNP-10)
+				appos(Springs/NNP-10,CA/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Santa Fe High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Santa_Fe_High_School_(California)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Santa Fe Springs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Santa_Fe_Springs,_California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Santa_Fe_High_School_(California) http://dbpedia.org/ontology/city http://dbpedia.org/resource/Santa_Fe_Springs,_California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Santa_Fe_High_School_(California) http://dbpedia.org/ontology/state http://dbpedia.org/resource/California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Santa_Fe_Springs,_California http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She graduated in 1977.	</value>
+
+		<annotated-sentence>	She graduated in [[1977|1977]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She graduated in 1977.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,She/PRP-1)
+				prep_in(graduated/VBD-2,1977/CD-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jernigan attended Stanford University, where she earned a B.S. degree in physics in 1981, an M.S. in engineering science in 1983.	</value>
+
+		<annotated-sentence>	Jernigan attended [[Stanford University|Stanford_University]], where she earned [[a B.S. degree|Bachelor_of_Science]] in [[physics|Physics]] in [[1981|1981]], [[an M.S.|M.S._(rapper)]] in [[engineering science|Engineering_Science]] in [[1983|1983]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jernigan attended Stanford University, where she earned a B.S. degree in physics in 1981, an M.S. in engineering science in 1983.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Jernigan/NNP-1)
+				nn(University/NNP-4,Stanford/NNP-3)
+				dobj(attended/VBD-2,University/NNP-4)
+				advmod(earned/VBD-8,where/WRB-6)
+				nsubj(earned/VBD-8,she/PRP-7)
+				rcmod(University/NNP-4,earned/VBD-8)
+				det(degree/NN-11,a/DT-9)
+				nn(degree/NN-11,B.S./NNP-10)
+				dobj(earned/VBD-8,degree/NN-11)
+				prep_in(earned/VBD-8,physics/NN-13)
+				prep_in(physics/NN-13,1981/CD-15)
+				det(M.S./NNP-18,an/DT-17)
+				dobj(earned/VBD-8,M.S./NNP-18)
+				nn(science/NN-21,engineering/NN-20)
+				prep_in(M.S./NNP-18,science/NN-21)
+				prep_in(science/NN-21,1983/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stanford University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stanford_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a B.S. degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an M.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/M.S._(rapper)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the University of California, Berkeley, she received an M.A. in astronomy in 1985.	</value>
+
+		<annotated-sentence>	At [[the University|University]] of California, Berkeley, she received an M.A. in [[astronomy|Astronomy]] in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At the University of California, Berkeley, she received an M.A. in astronomy in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				det(University/NNP-3,the/DT-2)
+				prep_at(received/VBD-10,University/NNP-3)
+				nn(Berkeley/NNP-7,California/NNP-5)
+				prep_of(University/NNP-3,Berkeley/NNP-7)
+				nsubj(received/VBD-10,she/PRP-9)
+				det(M.A./NNP-12,an/DT-11)
+				dobj(received/VBD-10,M.A./NNP-12)
+				prep_in(received/VBD-10,astronomy/NNP-14)
+				prep_in(received/VBD-10,1985/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1988 she was awarded a Ph.D. in space physics and astronomy from Rice University.	</value>
+
+		<annotated-sentence>	In [[1988|1988]] she was awarded a Ph.D. in [[space physics|Space_physics]] and [[astronomy|Astronomy]] from [[Rice University|Rice_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1988 she was awarded a Ph.D. in space physics and astronomy from Rice University.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(awarded/VBN-5,1988/CD-2)
+				nsubjpass(awarded/VBN-5,she/PRP-3)
+				auxpass(awarded/VBN-5,was/VBD-4)
+				det(Ph.D./NNP-7,a/DT-6)
+				dobj(awarded/VBN-5,Ph.D./NNP-7)
+				nn(physics/NNS-10,space/NN-9)
+				prep_in(Ph.D./NNP-7,physics/NNS-10)
+				prep_in(Ph.D./NNP-7,astronomy/NN-12)
+				conj_and(physics/NNS-10,astronomy/NN-12)
+				nn(University/NNP-15,Rice/NNP-14)
+				prep_from(awarded/VBN-5,University/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rice University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rice_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She entered the NASA Astronaut Corps in 1986 and retired in 2001.	</value>
+
+		<annotated-sentence>	She entered [[the NASA Astronaut Corps|NASA_Astronaut_Corps]] in [[1986|1986]] and retired in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She entered the NASA Astronaut Corps in 1986 and retired in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-2,She/PRP-1)
+				nsubj(retired/VBN-10,She/PRP-1)
+				det(Corps/NNP-6,the/DT-3)
+				nn(Corps/NNP-6,NASA/NNP-4)
+				nn(Corps/NNP-6,Astronaut/NNP-5)
+				dobj(entered/VBD-2,Corps/NNP-6)
+				prep_in(Corps/NNP-6,1986/CD-8)
+				conj_and(entered/VBD-2,retired/VBN-10)
+				prep_in(retired/VBN-10,2001/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She flew on five Space Shuttle program missions (three on Columbia and one each on Endeavour and Discovery) and logged 1512 hours in space.	</value>
+
+		<annotated-sentence>	She flew on [[five Space Shuttle|SpaceShuttle]] program missions (three on [[Columbia|Space_Shuttle_Columbia]] and one each on Endeavour and Discovery) and logged [[1512|1512]] [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She flew on [[five Space Shuttle|SpaceShuttle]] program missions (three on [[Columbia|Space_Shuttle_Columbia]] and one each on Endeavour and Discovery) and logged 1512 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,She/PRP-1)
+				nsubj(logged/VBD-22,She/PRP-1)
+				num(Shuttle/NNP-6,five/CD-4)
+				nn(Shuttle/NNP-6,Space/NN-5)
+				nn(missions/NNS-8,Shuttle/NNP-6)
+				nn(missions/NNS-8,program/NN-7)
+				prep_on(flew/VBD-2,missions/NNS-8)
+				dep(missions/NNS-8,three/CD-10)
+				prep_on(three/CD-10,Columbia/NNP-12)
+				prep_on(three/CD-10,one/CD-14)
+				conj_and(Columbia/NNP-12,one/CD-14)
+				dep(one/CD-14,each/DT-15)
+				prep_on(three/CD-10,Endeavour/NNP-17)
+				prep_on(three/CD-10,Discovery/NNP-19)
+				conj_and(Endeavour/NNP-17,Discovery/NNP-19)
+				conj_and(flew/VBD-2,logged/VBD-22)
+				num(hours/NNS-24,1512/CD-23)
+				dobj(logged/VBD-22,hours/NNS-24)
+				prep_in(logged/VBD-22,space/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>five Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1512</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1512</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle_Columbia http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SpaceShuttle
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In her last mission on Discovery in 1999, she performed an extra-vehicular activity for about eight hours.	</value>
+
+		<annotated-sentence>	In her last mission on Discovery in [[1999|1999]], she performed [[an extra-vehicular activity|Extra-vehicular_activity]] for about [[eight hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In her last mission on Discovery in 1999, she performed an extra-vehicular activity for about eight hours.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mission/NN-4,her/PRP$-2)
+				amod(mission/NN-4,last/JJ-3)
+				prep_in(performed/VBD-11,mission/NN-4)
+				prep_on(mission/NN-4,Discovery/NNP-6)
+				prep_in(Discovery/NNP-6,1999/CD-8)
+				nsubj(performed/VBD-11,she/PRP-10)
+				det(activity/NN-14,an/DT-12)
+				amod(activity/NN-14,extra-vehicular/JJ-13)
+				dobj(performed/VBD-11,activity/NN-14)
+				prep(performed/VBD-11,for/IN-15)
+				pcomp(for/IN-15,about/IN-16)
+				num(hours/NNS-18,eight/CD-17)
+				pobj(about/IN-16,hours/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an extra-vehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>eight hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is married to former astronaut Peter Wisoff.	</value>
+
+		<annotated-sentence>	She is married to former [[astronaut|Astronaut]] [[Peter Wisoff|Peter_Wisoff]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is married to former [[astronaut|Astronaut]] [[Peter Wisoff|Peter_Wisoff]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,She/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Wisoff/NNP-8,former/JJ-5)
+				nn(Wisoff/NNP-8,astronaut/NN-6)
+				nn(Wisoff/NNP-8,Peter/NNP-7)
+				prep_to(married/VBN-3,Wisoff/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Peter Wisoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Peter_Wisoff</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Tamara_E._Jernigan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Peter_Wisoff http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

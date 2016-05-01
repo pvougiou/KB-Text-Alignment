@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Drug-induced hypoglycemia is low blood sugar that results from medication.</value>
+		<pattern_crowdsource> [[Drug-induced hypoglycemia|C0342321]] is [[low blood sugar|C0020615]] that results from medication.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Drug-induced hypoglycemia</surface-form>
+				<RDF-ID>C0342321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>results</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medication</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0342321 ISA C0020615</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Low blood sugar is common in people with diabetes who are taking insulin or other medicines to control their diabetes.</value>
+		<pattern_crowdsource> [[Low blood sugar|C0020615]] is common in [[people|C0027361]] with [[diabetes|C0011847]] who are taking [[insulin|C0021641]] or other [[medicines|C0013227]] to control their [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021641 ISA C0013227</triple>
+			<triple>C0013227 ISA C0021641</triple>
+			<triple>C0020615 PROCESS_OF C0027361</triple>
+			<triple>C0011847 PROCESS_OF C0027361</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+			<triple>C0021641 TREATS C0011847</triple>
+			<triple>C0021641 TREATS C0011847</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>All of the following can cause blood sugar (glucose) levels to drop:  - Drinking alcohol  - Getting too much activity  - Intentionally or unintentionally overdosing on the medications used to treat diabetes  - Missing meals    Even when diabetes is managed very carefully, the medications used to treat diabetes can result in drug-induced hypoglycemia.</value>
+		<pattern_crowdsource> All of the following can cause [[blood sugar|C0005802]] ([[glucose|C0017725]]) levels to drop:  - Drinking alcohol  - Getting too much activity  - Intentionally or unintentionally overdosing on the medications used to treat diabetes  - Missing meals    Even when [[diabetes|C0011847]] is managed very carefully, the [[medications|C0013227]] used to treat [[diabetes|C0011847]] can result in [[drug-induced hypoglycemia|C0342321]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Drinking alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activity</surface-form>
+				<RDF-ID>C0439167</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medications</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Missing</surface-form>
+				<RDF-ID>C1551393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very</surface-form>
+				<RDF-ID>C0442824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medications</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drug-induced hypoglycemia</surface-form>
+				<RDF-ID>C0342321</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0017725</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+			<triple>C0011847 CAUSES C0342321</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The flu is an easily spread disease.</value>
+		<pattern_crowdsource> The [[flu|C0021400]] is an easily spread [[disease|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>flu</surface-form>
+				<RDF-ID>C0021400</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>easily</surface-form>
+				<RDF-ID>C0332219</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>spread</surface-form>
+				<RDF-ID>C0332261</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021400 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you think your baby may have the flu, you should contact a health care provider right away.</value>
+		<pattern_crowdsource> If you think your [[baby|C0021270]] may have the [[flu|C0021400]], you should contact a health care provider right away.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>baby</surface-form>
+				<RDF-ID>C0021270</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flu</surface-form>
+				<RDF-ID>C0021400</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021400 PROCESS_OF C0021270</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

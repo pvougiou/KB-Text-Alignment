@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Oleg Viktorovich Novitskiy (Russian: ???? ?????????? ????????) born on October 12, 1971 in ?ervie?, Belarus, lieutenant colonel in the Russian Air Force, is a Russian cosmonaut, selected in 2006.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Novitskiy/NNP-3,Oleg/NNP-1)
+				nn(Novitskiy/NNP-3,Viktorovich/NNP-2)
+				nsubj(born/VBN-11,Novitskiy/NNP-3)
+				dep(Novitskiy/NNP-3,Russian/NNP-5)
+				nn(????????/NNP-9,????/NNP-7)
+				nn(????????/NNP-9,??????????/NNP-8)
+				dep(Russian/NNP-5,????????/NNP-9)
+				partmod(cosmonaut/NN-33,born/VBN-11)
+				prep_on(born/VBN-11,October/NNP-13)
+				num(October/NNP-13,12/CD-14)
+				num(October/NNP-13,1971/CD-16)
+				prep_in(born/VBN-11,?ervie?/NNP-18)
+				nsubj(cosmonaut/NN-33,Belarus/NNP-20)
+				nn(colonel/NN-23,lieutenant/NN-22)
+				appos(Belarus/NNP-20,colonel/NN-23)
+				det(Force/NNP-28,the/DT-25)
+				nn(Force/NNP-28,Russian/NNP-26)
+				nn(Force/NNP-28,Air/NNP-27)
+				prep_in(colonel/NN-23,Force/NNP-28)
+				cop(cosmonaut/NN-33,is/VBZ-30)
+				det(cosmonaut/NN-33,a/DT-31)
+				amod(cosmonaut/NN-33,Russian/JJ-32)
+				partmod(cosmonaut/NN-33,selected/VBN-35)
+				prep_in(selected/VBN-35,2006/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Novitskiy launched as part of the Soyuz TMA-06M crew on October 23, 2012 and returned on March 16, 2013.	</value>
+
+		<annotated-sentence>	[[Novitskiy|Oleg_Novitskiy]] launched as part of the [[Soyuz TMA-06M|Soyuz_TMA-06M]] crew on October 23, 2012 and returned on March 16, 2013.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Novitskiy|Oleg_Novitskiy]] launched as part of the [[Soyuz TMA-06M|Soyuz_TMA-06M]] crew on October 23, 2012 and returned on March 16, 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,Novitskiy/NNP-1)
+				nsubj(returned/VBD-16,Novitskiy/NNP-1)
+				prep_as(launched/VBD-2,part/NN-4)
+				det(crew/NN-9,the/DT-6)
+				nn(crew/NN-9,Soyuz/NNP-7)
+				nn(crew/NN-9,TMA-06M/NN-8)
+				prep_of(part/NN-4,crew/NN-9)
+				prep_on(launched/VBD-2,October/NNP-11)
+				num(October/NNP-11,23/CD-12)
+				num(October/NNP-11,2012/CD-14)
+				conj_and(launched/VBD-2,returned/VBD-16)
+				prep_on(returned/VBD-16,March/NNP-18)
+				num(March/NNP-18,16/CD-19)
+				num(March/NNP-18,2013/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Novitskiy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oleg_Novitskiy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-06M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-06M</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Oleg_Novitskiy http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Oleg_Novitskiy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Oleg_Novitskiy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

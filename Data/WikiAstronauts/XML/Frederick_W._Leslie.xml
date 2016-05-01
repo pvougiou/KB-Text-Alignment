@@ -1,0 +1,1334 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Fred Weldon Leslie is an American scientist who flew on the NASA STS-73 Space Shuttle mission as a payload specialist.	</value>
+
+		<annotated-sentence>	[[Fred Weldon Leslie|Frederick_W._Leslie]] is [[an American scientist|American_Scientist]] who flew on the [[NASA|NASA]] [[STS-73|STS-73]] [[Space Shuttle|SpaceShuttle]] mission as [[a payload specialist|Payload_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Fred Weldon Leslie|Frederick_W._Leslie]] is an American scientist who flew on the [[NASA|NASA]] [[STS-73|STS-73]] Space Shuttle mission as a payload specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Leslie/NNP-3,Fred/NNP-1)
+				nn(Leslie/NNP-3,Weldon/NNP-2)
+				nsubj(scientist/NN-7,Leslie/NNP-3)
+				cop(scientist/NN-7,is/VBZ-4)
+				det(scientist/NN-7,an/DT-5)
+				amod(scientist/NN-7,American/JJ-6)
+				nsubj(flew/VBD-9,who/WP-8)
+				rcmod(scientist/NN-7,flew/VBD-9)
+				det(mission/NN-16,the/DT-11)
+				nn(mission/NN-16,NASA/NNP-12)
+				nn(mission/NN-16,STS-73/NNP-13)
+				nn(mission/NN-16,Space/NNP-14)
+				nn(mission/NN-16,Shuttle/NNP-15)
+				prep_on(flew/VBD-9,mission/NN-16)
+				det(specialist/NN-20,a/DT-18)
+				nn(specialist/NN-20,payload/NN-19)
+				prep_as(flew/VBD-9,specialist/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fred Weldon Leslie</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Frederick_W._Leslie</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an American scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-73</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-73</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-73 http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Frederick_W._Leslie http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-73
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie was born December 19, 1951, in Ancón, Panama.	</value>
+
+		<annotated-sentence>	Leslie was born December 19, 1951, in Ancón, Panama.	</annotated-sentence>
+
+		<pattern_crowdsource>	Leslie was born December 19, 1951, in Ancón, Panama.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Leslie/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				tmod(born/VBN-3,December/NNP-4)
+				num(December/NNP-4,19/CD-5)
+				num(December/NNP-4,1951/CD-7)
+				nn(Panama/NNP-12,Ancón/NNP-10)
+				prep_in(born/VBN-3,Panama/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an instrument rated commercial pilot with more than 900 hours in various aircraft.	</value>
+
+		<annotated-sentence>	He is an instrument rated commercial pilot with more than 900 [[hours|Hour]] in [[various aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is an instrument rated commercial pilot with more than 900 hours in various aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(instrument/NN-4,He/PRP-1)
+				cop(instrument/NN-4,is/VBZ-2)
+				det(instrument/NN-4,an/DT-3)
+				partmod(instrument/NN-4,rated/VBN-5)
+				amod(pilot/NN-7,commercial/JJ-6)
+				dobj(rated/VBN-5,pilot/NN-7)
+				mwe(than/IN-10,more/JJR-9)
+				quantmod(900/CD-11,than/IN-10)
+				num(hours/NNS-12,900/CD-11)
+				prep_with(rated/VBN-5,hours/NNS-12)
+				amod(aircraft/NN-15,various/JJ-14)
+				prep_in(hours/NNS-12,aircraft/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>various aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie graduated from Irving High School, Irving, Texas, in 1970, then received a Bachelor of Science degree in engineering science from The University of Texas in 1974, and a Masters Degree and Doctor of Philosophy degrees in meteorology with a minor in fluid mechanics from the University of Oklahoma in 1977 and 1979, respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Leslie/NNP-1)
+				nn(School/NNP-6,Irving/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Texas/NNP-10,Irving/NNP-8)
+				appos(School/NNP-6,Texas/NNP-10)
+				prep_in(School/NNP-6,1970/CD-13)
+				advmod(received/VBD-16,then/RB-15)
+				partmod(School/NNP-6,received/VBD-16)
+				det(Bachelor/NN-18,a/DT-17)
+				dobj(received/VBD-16,Bachelor/NN-18)
+				nn(degree/NN-21,Science/NNP-20)
+				prep_of(Bachelor/NN-18,degree/NN-21)
+				nn(science/NN-24,engineering/NN-23)
+				prep_in(Bachelor/NN-18,science/NN-24)
+				det(University/NNP-27,The/DT-26)
+				prep_from(received/VBD-16,University/NNP-27)
+				prep_of(University/NNP-27,Texas/NNP-29)
+				prep_in(Texas/NNP-29,1974/CD-31)
+				det(Degree/NN-36,a/DT-34)
+				nn(Degree/NN-36,Masters/NN-35)
+				prep_from(graduated/VBD-2,Degree/NN-36)
+				conj_and(School/NNP-6,Degree/NN-36)
+				conj_and(School/NNP-6,Doctor/NN-38)
+				conj_and(Degree/NN-36,Doctor/NN-38)
+				nn(degrees/NNS-41,Philosophy/NN-40)
+				prep_of(Degree/NN-36,degrees/NNS-41)
+				prep_in(degrees/NNS-41,meteorology/NN-43)
+				det(mechanics/NNS-49,a/DT-45)
+				amod(mechanics/NNS-49,minor/JJ-46)
+				prep_in(minor/JJ-46,fluid/NN-48)
+				prep_with(graduated/VBD-2,mechanics/NNS-49)
+				det(University/NNP-52,the/DT-51)
+				prep_from(mechanics/NNS-49,University/NNP-52)
+				prep_of(University/NNP-52,Oklahoma/NNP-54)
+				prep_in(graduated/VBD-2,1977/CD-56)
+				prep_in(graduated/VBD-2,1979/CD-58)
+				conj_and(1977/CD-56,1979/CD-58)
+				advmod(graduated/VBD-2,respectively/RB-60)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie served on the American Institute of Aeronautics and Astronautics Fluid Dynamics Technical Committee, he is a member of the American Meteorological Society, Tau Beta Pi, Chi Epsilon Pi, and the United States Parachute Association.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Leslie/NNP-1)
+				ccomp(member/NN-19,served/VBD-2)
+				det(Institute/NNP-6,the/DT-4)
+				nn(Institute/NNP-6,American/NNP-5)
+				prep_on(served/VBD-2,Institute/NNP-6)
+				prep_of(Institute/NNP-6,Aeronautics/NNP-8)
+				nn(Committee/NNP-14,Astronautics/NNP-10)
+				nn(Committee/NNP-14,Fluid/NNP-11)
+				nn(Committee/NNP-14,Dynamics/NNP-12)
+				nn(Committee/NNP-14,Technical/NNP-13)
+				prep_of(Institute/NNP-6,Committee/NNP-14)
+				conj_and(Aeronautics/NNP-8,Committee/NNP-14)
+				nsubj(member/NN-19,he/PRP-16)
+				cop(member/NN-19,is/VBZ-17)
+				det(member/NN-19,a/DT-18)
+				det(Society/NNP-24,the/DT-21)
+				amod(Society/NNP-24,American/JJ-22)
+				nn(Society/NNP-24,Meteorological/NNP-23)
+				prep_of(member/NN-19,Society/NNP-24)
+				nn(Pi/NNP-28,Tau/NNP-26)
+				nn(Pi/NNP-28,Beta/NNP-27)
+				prep_of(member/NN-19,Pi/NNP-28)
+				conj_and(Society/NNP-24,Pi/NNP-28)
+				nn(Pi/NNP-32,Chi/NNP-30)
+				nn(Pi/NNP-32,Epsilon/NNP-31)
+				prep_of(member/NN-19,Pi/NNP-32)
+				conj_and(Society/NNP-24,Pi/NNP-32)
+				det(Association/NNP-39,the/DT-35)
+				nn(Association/NNP-39,United/NNP-36)
+				nn(Association/NNP-39,States/NNPS-37)
+				nn(Association/NNP-39,Parachute/NNP-38)
+				prep_of(member/NN-19,Association/NNP-39)
+				conj_and(Society/NNP-24,Association/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds a World Record as a participant in the 200 person freefall formation set October 1992.	</value>
+
+		<annotated-sentence>	He holds [[a World Record|World_record]] as [[a participant|Covert_participant_observation]] in the 200 [[person|Person]] [[freefall formation|Formation_skydiving]] set [[October 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He holds a World Record as a participant in the 200 [[person|Person]] freefall formation set October 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				det(Record/NNP-5,a/DT-3)
+				nn(Record/NNP-5,World/NNP-4)
+				dobj(holds/VBZ-2,Record/NNP-5)
+				det(participant/NN-8,a/DT-7)
+				prep_as(holds/VBZ-2,participant/NN-8)
+				det(formation/NN-14,the/DT-10)
+				num(formation/NN-14,200/CD-11)
+				nn(formation/NN-14,person/NN-12)
+				nn(formation/NN-14,freefall/NN-13)
+				prep_in(participant/NN-8,formation/NN-14)
+				partmod(participant/NN-8,set/VBN-15)
+				tmod(set/VBN-15,October/NNP-16)
+				num(October/NNP-16,1992/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a World Record</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World_record</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a participant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Covert_participant_observation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>freefall formation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Formation_skydiving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Frederick_W._Leslie http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After Leslie earned his Ph.D. in 1979, he served as a post doctoral research associate at Purdue University studying fluid vortex dynamics.	</value>
+
+		<annotated-sentence>	After Leslie earned his Ph.D. in [[1979|1979]], he served as a post doctoral [[research|Research]] associate at [[Purdue University|Purdue_University]] studying fluid [[vortex dynamics|Vorticity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After Leslie earned his Ph.D. in 1979, he served as a post doctoral research associate at Purdue University studying fluid vortex dynamics.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(earned/VBD-3,After/IN-1)
+				nsubj(earned/VBD-3,Leslie/NNP-2)
+				advcl(served/VBD-10,earned/VBD-3)
+				poss(Ph.D./NNP-5,his/PRP$-4)
+				dobj(earned/VBD-3,Ph.D./NNP-5)
+				prep_in(earned/VBD-3,1979/CD-7)
+				nsubj(served/VBD-10,he/PRP-9)
+				det(associate/NN-16,a/DT-12)
+				nn(associate/NN-16,post/NN-13)
+				amod(associate/NN-16,doctoral/JJ-14)
+				nn(associate/NN-16,research/NN-15)
+				prep_as(served/VBD-10,associate/NN-16)
+				nn(University/NNP-19,Purdue/NNP-18)
+				prep_at(served/VBD-10,University/NNP-19)
+				partmod(University/NNP-19,studying/VBG-20)
+				nn(dynamics/NNS-23,fluid/NN-21)
+				nn(dynamics/NNS-23,vortex/NN-22)
+				dobj(studying/VBG-20,dynamics/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>vortex dynamics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vorticity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1980, he worked for the Universities Space Research Association as a visiting scientist at the Marshall Space Flight Center (MSFC).	</value>
+
+		<annotated-sentence>	In [[1980|1980]], he worked for the Universities [[Space Research|Space_research]] Association as a visiting scientist at [[the Marshall Space Flight Center|Marshall_Space_Flight_Center]] ([[MSFC|Marshall_Space_Flight_Center]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1980, he worked for the Universities Space Research Association as a visiting scientist at the Marshall Space Flight Center (MSFC).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(worked/VBD-5,1980/CD-2)
+				nsubj(worked/VBD-5,he/PRP-4)
+				det(Universities/NNS-8,the/DT-7)
+				prep_for(worked/VBD-5,Universities/NNS-8)
+				nn(Association/NNP-11,Space/NNP-9)
+				nn(Association/NNP-11,Research/NNP-10)
+				dobj(worked/VBD-5,Association/NNP-11)
+				det(scientist/NN-15,a/DT-13)
+				amod(scientist/NN-15,visiting/VBG-14)
+				prep_as(Association/NNP-11,scientist/NN-15)
+				det(Center/NNP-21,the/DT-17)
+				nn(Center/NNP-21,Marshall/NNP-18)
+				nn(Center/NNP-21,Space/NNP-19)
+				nn(Center/NNP-21,Flight/NNP-20)
+				prep_at(scientist/NN-15,Center/NNP-21)
+				appos(Center/NNP-21,MSFC/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Marshall Space Flight Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MSFC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie began work for NASA in 1980 as a research scientist in the Space Science Laboratory at the Marshall Space Flight Center.	</value>
+
+		<annotated-sentence>	Leslie began [[work|Work]] for [[NASA|NASA]] in [[1980|1980]] as [[a research scientist|Scientist]] in the [[Space Science|Space_science]] [[Laboratory|Laboratory]] at [[the Marshall Space Flight Center|Marshall_Space_Flight_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Leslie began work for [[NASA|NASA]] in 1980 as a research scientist in the Space Science Laboratory at [[the Marshall Space Flight Center|Marshall_Space_Flight_Center]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(began/VBD-2,Leslie/NNP-1)
+				dobj(began/VBD-2,work/NN-3)
+				prep_for(began/VBD-2,NASA/NNP-5)
+				prep_in(NASA/NNP-5,1980/CD-7)
+				det(scientist/NN-11,a/DT-9)
+				nn(scientist/NN-11,research/NN-10)
+				prep_as(began/VBD-2,scientist/NN-11)
+				det(Laboratory/NN-16,the/DT-13)
+				nn(Laboratory/NN-16,Space/NN-14)
+				nn(Laboratory/NN-16,Science/NN-15)
+				prep_in(scientist/NN-11,Laboratory/NN-16)
+				det(Center/NNP-22,the/DT-18)
+				nn(Center/NNP-22,Marshall/NNP-19)
+				nn(Center/NNP-22,Space/NNP-20)
+				nn(Center/NNP-22,Flight/NNP-21)
+				prep_at(Laboratory/NN-16,Center/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a research scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Marshall Space Flight Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Marshall_Space_Flight_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since 1983, he has served as a co-investigator for the Geophysical Fluid Flow Cell experiment which examines spherical rotating convection relevant to the atmospheres of stars and planets.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_since(served/VBN-6,1983/CD-2)
+				nsubj(served/VBN-6,he/PRP-4)
+				aux(served/VBN-6,has/VBZ-5)
+				det(co-investigator/NN-9,a/DT-8)
+				prep_as(served/VBN-6,co-investigator/NN-9)
+				det(experiment/NN-16,the/DT-11)
+				amod(experiment/NN-16,Geophysical/JJ-12)
+				nn(experiment/NN-16,Fluid/NN-13)
+				nn(experiment/NN-16,Flow/NN-14)
+				nn(experiment/NN-16,Cell/NN-15)
+				prep_for(co-investigator/NN-9,experiment/NN-16)
+				nsubj(examines/VBZ-18,which/WDT-17)
+				rcmod(experiment/NN-16,examines/VBZ-18)
+				amod(convection/NN-21,spherical/JJ-19)
+				amod(convection/NN-21,rotating/VBG-20)
+				dobj(examines/VBZ-18,convection/NN-21)
+				amod(convection/NN-21,relevant/JJ-22)
+				det(atmospheres/NNS-25,the/DT-24)
+				prep_to(relevant/JJ-22,atmospheres/NNS-25)
+				prep_of(atmospheres/NNS-25,stars/NNS-27)
+				prep_of(atmospheres/NNS-25,planets/NNS-29)
+				conj_and(stars/NNS-27,planets/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The experiment flew on Spacelab 3 and is also a part of the United States Microgravity Laboratory-2 (USML-2) payload.	</value>
+
+		<annotated-sentence>	[[The experiment|The_Experiment]] flew on [[Spacelab 3|STS-51-B]] and is also a part of the [[United States|United_States]] [[Microgravity|Microgravity_(album)]] Laboratory-2 (USML-2) [[payload|HMH-362]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The experiment flew on Spacelab 3 and is also a part of the [[United States|United_States]] Microgravity Laboratory-2 (USML-2) payload.	</pattern_crowdsource>
+
+
+		<tree>
+				det(experiment/NN-2,The/DT-1)
+				nsubj(flew/VBD-3,experiment/NN-2)
+				prep_on(flew/VBD-3,Spacelab/NNP-5)
+				num(Spacelab/NNP-5,3/CD-6)
+				cop(part/NN-11,is/VBZ-8)
+				advmod(part/NN-11,also/RB-9)
+				det(part/NN-11,a/DT-10)
+				conj_and(flew/VBD-3,part/NN-11)
+				det(Laboratory-2/NN-17,the/DT-13)
+				nn(Laboratory-2/NN-17,United/NNP-14)
+				nn(Laboratory-2/NN-17,States/NNPS-15)
+				nn(Laboratory-2/NN-17,Microgravity/NNP-16)
+				prep_of(part/NN-11,Laboratory-2/NN-17)
+				appos(Laboratory-2/NN-17,USML-2/NN-19)
+				dobj(flew/VBD-3,payload/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab 3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payload</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HMH-362</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Frederick_W._Leslie http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie was a principal investigator for the Fluid Interface and Bubble Experiment examining the behavior of a rotating free surface aboard NASA's KC-135 aircraft flying low-gravity trajectories.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(investigator/NN-5,Leslie/NNP-1)
+				cop(investigator/NN-5,was/VBD-2)
+				det(investigator/NN-5,a/DT-3)
+				amod(investigator/NN-5,principal/JJ-4)
+				det(Interface/NNP-9,the/DT-7)
+				nn(Interface/NNP-9,Fluid/NNP-8)
+				prep_for(investigator/NN-5,Interface/NNP-9)
+				nn(Experiment/NNP-12,Bubble/NNP-11)
+				prep_for(investigator/NN-5,Experiment/NNP-12)
+				conj_and(Interface/NNP-9,Experiment/NNP-12)
+				partmod(investigator/NN-5,examining/VBG-13)
+				det(behavior/NN-15,the/DT-14)
+				dobj(examining/VBG-13,behavior/NN-15)
+				det(surface/NN-20,a/DT-17)
+				amod(surface/NN-20,rotating/VBG-18)
+				amod(surface/NN-20,free/JJ-19)
+				prep_of(behavior/NN-15,surface/NN-20)
+				poss(aircraft/NN-25,NASA/NNP-22)
+				nn(aircraft/NN-25,KC-135/NNP-24)
+				prep_aboard(surface/NN-20,aircraft/NN-25)
+				partmod(examining/VBG-13,flying/VBG-26)
+				amod(trajectories/NNS-28,low-gravity/JJ-27)
+				dobj(flying/VBG-26,trajectories/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an author on 27 journal papers, 45 conference papers, and nine NASA reports involving atmospheric and fluid dynamic phenomena.	</value>
+
+		<annotated-sentence>	He is [[an author|Author]] on 27 journal [[papers|Academic_publishing]], 45 [[conference papers|Academic_publishing]], and nine [[NASA|NASA]] [[reports|Report]] involving atmospheric and [[fluid dynamic|Fluid_dynamics]] [[phenomena|Phenomenon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is an author on 27 journal papers, 45 conference papers, and nine NASA reports involving atmospheric and fluid dynamic phenomena.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(author/NN-4,He/PRP-1)
+				cop(author/NN-4,is/VBZ-2)
+				det(author/NN-4,an/DT-3)
+				num(papers/NNS-8,27/CD-6)
+				nn(papers/NNS-8,journal/NN-7)
+				prep_on(author/NN-4,papers/NNS-8)
+				num(papers/NNS-12,45/CD-10)
+				nn(papers/NNS-12,conference/NN-11)
+				conj_and(author/NN-4,papers/NNS-12)
+				num(reports/NNS-17,nine/CD-15)
+				nn(reports/NNS-17,NASA/NNP-16)
+				conj_and(author/NN-4,reports/NNS-17)
+				prep_involving(reports/NNS-17,atmospheric/JJ-19)
+				amod(phenomena/NNS-23,fluid/JJ-21)
+				amod(phenomena/NNS-23,dynamic/JJ-22)
+				prep_involving(reports/NNS-17,phenomena/NNS-23)
+				conj_and(atmospheric/JJ-19,phenomena/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>papers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academic_publishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>conference papers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academic_publishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>reports</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Report</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fluid dynamic</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_dynamics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>phenomena</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phenomenon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie also worked in the MSFC Neutral Buoyancy Simulator as a suited subject and safety diver supporting procedure tests for extra-vehicular activity.	</value>
+
+		<annotated-sentence>	Leslie also worked in the MSFC [[Neutral Buoyancy Simulator|Neutral_Buoyancy_Simulator]] as a suited subject and safety diver supporting [[procedure|Extra-vehicular_activity]] tests for [[extra-vehicular activity|Extra-vehicular_activity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Leslie also worked in the MSFC Neutral Buoyancy Simulator as a suited subject and safety diver supporting procedure tests for extra-vehicular activity.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,Leslie/NNP-1)
+				advmod(worked/VBD-3,also/RB-2)
+				det(Simulator/NNP-9,the/DT-5)
+				nn(Simulator/NNP-9,MSFC/NNP-6)
+				nn(Simulator/NNP-9,Neutral/NNP-7)
+				nn(Simulator/NNP-9,Buoyancy/NNP-8)
+				prep_in(worked/VBD-3,Simulator/NNP-9)
+				det(diver/NN-16,a/DT-11)
+				amod(diver/NN-16,suited/VBN-12)
+				amod(diver/NN-16,subject/NN-13)
+				conj_and(subject/NN-13,safety/NN-15)
+				amod(diver/NN-16,safety/NN-15)
+				prep_as(worked/VBD-3,diver/NN-16)
+				partmod(diver/NN-16,supporting/VBG-17)
+				nn(tests/NNS-19,procedure/NN-18)
+				dobj(supporting/VBG-17,tests/NNS-19)
+				amod(activity/NN-22,extra-vehicular/JJ-21)
+				prep_for(supporting/VBG-17,activity/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Neutral Buoyancy Simulator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Neutral_Buoyancy_Simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>extra-vehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1987, he became chief of the Fluid Dynamics Branch where he directed and conducted research in both laboratory and theoretical investigations along with more than a dozen scientists in the Branch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(chief/NN-6,1987/CD-2)
+				nsubj(chief/NN-6,he/PRP-4)
+				cop(chief/NN-6,became/VBD-5)
+				det(Branch/NNP-11,the/DT-8)
+				nn(Branch/NNP-11,Fluid/NNP-9)
+				nn(Branch/NNP-11,Dynamics/NNP-10)
+				prep_of(chief/NN-6,Branch/NNP-11)
+				advmod(directed/VBD-14,where/WRB-12)
+				nsubj(directed/VBD-14,he/PRP-13)
+				nsubj(conducted/VBD-16,he/PRP-13)
+				advcl(chief/NN-6,directed/VBD-14)
+				advcl(chief/NN-6,conducted/VBD-16)
+				conj_and(directed/VBD-14,conducted/VBD-16)
+				dobj(directed/VBD-14,research/NN-17)
+				preconj(laboratory/NN-20,both/CC-19)
+				prep_in(directed/VBD-14,laboratory/NN-20)
+				amod(investigations/NNS-23,theoretical/JJ-22)
+				prep_in(directed/VBD-14,investigations/NNS-23)
+				conj_and(laboratory/NN-20,investigations/NNS-23)
+				mwe(than/IN-27,more/JJR-26)
+				quantmod(dozen/NN-29,than/IN-27)
+				quantmod(dozen/NN-29,a/DT-28)
+				num(scientists/NNS-30,dozen/NN-29)
+				prep_along_with(directed/VBD-14,scientists/NNS-30)
+				det(Branch/NNP-33,the/DT-32)
+				prep_in(directed/VBD-14,Branch/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also the mission scientist for Spacelab J (STS-47) coordinating more than 40 domestic and Japanese experiments in fluid dynamics, crystal growth, and life science during the 8-day mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(scientist/NN-6,He/PRP-1)
+				cop(scientist/NN-6,was/VBD-2)
+				advmod(scientist/NN-6,also/RB-3)
+				det(scientist/NN-6,the/DT-4)
+				nn(scientist/NN-6,mission/NN-5)
+				amod(J/NN-9,Spacelab/JJ-8)
+				nsubj(coordinating/VBG-13,J/NN-9)
+				appos(J/NN-9,STS-47/NN-11)
+				prepc_for(scientist/NN-6,coordinating/VBG-13)
+				mwe(than/IN-15,more/JJR-14)
+				quantmod(40/CD-16,than/IN-15)
+				dep(domestic/JJ-17,40/CD-16)
+				dobj(coordinating/VBG-13,domestic/JJ-17)
+				amod(experiments/NNS-20,Japanese/JJ-19)
+				dobj(coordinating/VBG-13,experiments/NNS-20)
+				conj_and(domestic/JJ-17,experiments/NNS-20)
+				nn(dynamics/NNS-23,fluid/NN-22)
+				prep_in(coordinating/VBG-13,dynamics/NNS-23)
+				nn(growth/NN-26,crystal/NN-25)
+				prep_in(coordinating/VBG-13,growth/NN-26)
+				conj_and(dynamics/NNS-23,growth/NN-26)
+				nn(science/NN-30,life/NN-29)
+				prep_in(coordinating/VBG-13,science/NN-30)
+				conj_and(dynamics/NNS-23,science/NN-30)
+				det(mission/NN-34,the/DT-32)
+				amod(mission/NN-34,8-day/JJ-33)
+				prep_during(coordinating/VBG-13,mission/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie is a researcher at the Marshall Space Flight Center.	</value>
+
+		<annotated-sentence>	Leslie is [[a researcher|Researcher]] at [[the Marshall Space Flight Center|Marshall_Space_Flight_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Leslie is a researcher at the Marshall Space Flight Center.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(researcher/NN-4,Leslie/NNP-1)
+				cop(researcher/NN-4,is/VBZ-2)
+				det(researcher/NN-4,a/DT-3)
+				det(Center/NNP-10,the/DT-6)
+				nn(Center/NNP-10,Marshall/NNP-7)
+				nn(Center/NNP-10,Space/NNP-8)
+				nn(Center/NNP-10,Flight/NNP-9)
+				prep_at(researcher/NN-4,Center/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a researcher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Researcher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Marshall Space Flight Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a member of the research team analyzing data from the Geophysical Fluid Flow Cell experiment that flew on STS-73/USML-2.	</value>
+
+		<annotated-sentence>	He is a member of [[the research team|Team]] analyzing data from the [[Geophysical|Geophysics]] [[Fluid Flow|Fluid_dynamics]] Cell [[experiment|Experiment]] that flew on [[STS-73|STS-73]]/USML-2.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a member of the research team analyzing data from the Geophysical Fluid Flow Cell experiment that flew on [[STS-73|STS-73]]/USML-2.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(team/NN-8,the/DT-6)
+				nn(team/NN-8,research/NN-7)
+				prep_of(member/NN-4,team/NN-8)
+				partmod(team/NN-8,analyzing/VBG-9)
+				dobj(analyzing/VBG-9,data/NNS-10)
+				det(experiment/NN-17,the/DT-12)
+				amod(experiment/NN-17,Geophysical/JJ-13)
+				nn(experiment/NN-17,Fluid/NN-14)
+				nn(experiment/NN-17,Flow/NN-15)
+				nn(experiment/NN-17,Cell/NN-16)
+				prep_from(analyzing/VBG-9,experiment/NN-17)
+				nsubj(flew/VBD-19,that/WDT-18)
+				rcmod(experiment/NN-17,flew/VBD-19)
+				nn(USML-2/NN-23,STS-73/NN-21)
+				punct(USML-2/NN-23,//:-22)
+				prep_on(flew/VBD-19,USML-2/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the research team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Geophysical</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geophysics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fluid Flow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_dynamics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-73</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-73</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Frederick_W._Leslie http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-73
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Leslie flew as a payload specialist on STS-73 launched on October 20, 1995 and landed at the Kennedy Space Center on November 5, 1995.	</value>
+
+		<annotated-sentence>	Leslie flew as [[a payload specialist|Payload_Specialist]] on [[STS-73|STS-73]] launched on October 20, 1995 and landed at [[the Kennedy Space Center|Kennedy_Space_Center]] on [[November|November]] 5, 1995.	</annotated-sentence>
+
+		<pattern_crowdsource>	Leslie flew as a payload specialist on [[STS-73|STS-73]] launched on October 20, 1995 and landed at [[the Kennedy Space Center|Kennedy_Space_Center]] on November 5, 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Leslie/NNP-1)
+				nsubj(landed/VBD-16,Leslie/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,payload/NN-5)
+				prep_as(flew/VBD-2,specialist/NN-6)
+				prep_on(flew/VBD-2,STS-73/NN-8)
+				partmod(STS-73/NN-8,launched/VBN-9)
+				prep_on(launched/VBN-9,October/NNP-11)
+				num(October/NNP-11,20/CD-12)
+				num(October/NNP-11,1995/CD-14)
+				conj_and(flew/VBD-2,landed/VBD-16)
+				det(Center/NNP-21,the/DT-18)
+				nn(Center/NNP-21,Kennedy/NNP-19)
+				nn(Center/NNP-21,Space/NNP-20)
+				prep_at(landed/VBD-16,Center/NNP-21)
+				prep_on(landed/VBD-16,November/NNP-23)
+				num(November/NNP-23,5/CD-24)
+				num(November/NNP-23,1995/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-73</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-73</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Frederick_W._Leslie http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-73
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-73 http://dbpedia.org/property/landingSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-73 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 16 day mission aboard Space Shuttle Columbia focused on materials science, biotechnology, combustion science, and fluid physics contained within the pressurized Spacelab module.	</value>
+
+		<annotated-sentence>	The 16 day mission aboard [[Space Shuttle Columbia|Space_Shuttle_Columbia]] focused on [[materials|Material]] [[science|Science]], [[biotechnology|Biotechnology]], [[combustion|Combustion]] [[science|Science]], and [[fluid physics|Fluid_mechanics]] contained within the pressurized [[Spacelab|Spacelab]] module.	</annotated-sentence>
+
+		<pattern_crowdsource>	The 16 day mission aboard Space Shuttle Columbia focused on materials science, biotechnology, combustion science, and fluid physics contained within the pressurized Spacelab module.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,The/DT-1)
+				num(mission/NN-4,16/CD-2)
+				nn(mission/NN-4,day/NN-3)
+				nsubj(focused/VBD-9,mission/NN-4)
+				nn(Columbia/NNP-8,Space/NN-6)
+				nn(Columbia/NNP-8,Shuttle/NNP-7)
+				prep_aboard(mission/NN-4,Columbia/NNP-8)
+				prep_on(focused/VBD-9,materials/NNS-11)
+				nn(science/NN-17,science/NN-12)
+				dep(science/NN-17,biotechnology/NN-14)
+				dep(science/NN-17,combustion/NN-16)
+				dobj(focused/VBD-9,science/NN-17)
+				nn(physics/NN-21,fluid/NN-20)
+				nsubj(contained/VBD-22,physics/NN-21)
+				conj_and(focused/VBD-9,contained/VBD-22)
+				det(module/NN-27,the/DT-24)
+				amod(module/NN-27,pressurized/JJ-25)
+				nn(module/NN-27,Spacelab/NNP-26)
+				prep_within(contained/VBD-22,module/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space Shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>biotechnology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biotechnology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>combustion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combustion</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fluid physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_mechanics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

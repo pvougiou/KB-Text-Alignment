@@ -1,0 +1,2648 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	David Carl Hilmers (born January 28, 1950) is a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[David Carl Hilmers|David_C._Hilmers]] (born [[January|January]] 28, 1950) is a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[David Carl Hilmers|David_C._Hilmers]] (born January 28, 1950) is a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hilmers/NNP-3,David/NNP-1)
+				nn(Hilmers/NNP-3,Carl/NNP-2)
+				nsubj(astronaut/NN-15,Hilmers/NNP-3)
+				dep(Hilmers/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,January/NNP-6)
+				num(January/NNP-6,28/CD-7)
+				num(January/NNP-6,1950/CD-9)
+				cop(astronaut/NN-15,is/VBZ-11)
+				det(astronaut/NN-15,a/DT-12)
+				amod(astronaut/NN-15,former/JJ-13)
+				nn(astronaut/NN-15,NASA/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>David Carl Hilmers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_C._Hilmers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born in Clinton, Iowa, but considers DeWitt, Iowa, to be his hometown.	</value>
+
+		<annotated-sentence>	He was born in [[Clinton , Iowa|Clinton,_Iowa]] but considers DeWitt, [[Iowa|Iowa]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born in Clinton, [[Iowa|Iowa]], but considers DeWitt, [[Iowa|Iowa]], to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				nsubj(considers/VBZ-10,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Iowa/NNP-7,Clinton/NNP-5)
+				prep_in(born/VBN-3,Iowa/NNP-7)
+				conj_but(born/VBN-3,considers/VBZ-10)
+				nsubj(hometown/NN-18,DeWitt/NNP-11)
+				appos(DeWitt/NNP-11,Iowa/NNP-13)
+				aux(hometown/NN-18,to/TO-15)
+				cop(hometown/NN-18,be/VB-16)
+				poss(hometown/NN-18,his/PRP$-17)
+				xcomp(considers/VBZ-10,hometown/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Clinton , Iowa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clinton,_Iowa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Iowa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Iowa</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Clinton,_Iowa
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Clinton,_Iowa http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Iowa
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has two grown sons.	</value>
+
+		<annotated-sentence>	He has two grown sons.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has two grown sons.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				num(sons/NNS-5,two/CD-3)
+				amod(sons/NNS-5,grown/JJ-4)
+				dobj(has/VBZ-2,sons/NNS-5)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His recreational interests include playing the piano, gardening, electronics, spending time with his family, and all types of sports.	</value>
+
+		<annotated-sentence>	His recreational [[interests|Interest]] include playing the [[piano|Piano]], [[gardening|Gardening]], [[electronics|Electronics]], [[spending|Consumption_(economics)]] time with [[his family|Family]], and all types of [[sports|Sport]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His recreational interests include playing the piano, gardening, electronics, spending time with his family, and all types of sports.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				amod(interests/NNS-3,recreational/JJ-2)
+				nsubj(include/VBP-4,interests/NNS-3)
+				xcomp(include/VBP-4,playing/VBG-5)
+				det(time/NN-14,the/DT-6)
+				nn(time/NN-14,piano/NN-7)
+				dep(time/NN-14,gardening/NN-9)
+				dep(time/NN-14,electronics/NNS-11)
+				dep(time/NN-14,spending/NN-13)
+				dobj(playing/VBG-5,time/NN-14)
+				poss(family/NN-17,his/PRP$-16)
+				prep_with(playing/VBG-5,family/NN-17)
+				det(types/NNS-21,all/DT-20)
+				prep_with(playing/VBG-5,types/NNS-21)
+				conj_and(family/NN-17,types/NNS-21)
+				prep_of(types/NNS-21,sports/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>piano</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Piano</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>gardening</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gardening</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>electronics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electronics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spending</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consumption_(economics)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his family</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sports</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sport</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His parents are deceased.	</value>
+
+		<annotated-sentence>	His [[parents|Parent]] are deceased.	</annotated-sentence>
+
+		<pattern_crowdsource>	His parents are deceased.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(parents/NNS-2,His/PRP$-1)
+				nsubjpass(deceased/VBN-4,parents/NNS-2)
+				auxpass(deceased/VBN-4,are/VBP-3)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Central Community High School in DeWitt, Iowa, in 1968; received a bachelor of arts degree in mathematics (Summa Cum Laude) from Cornell College in 1972, a master of science degree in electrical engineering (with distinction) in 1977, and the degree of Electrical Engineer from the U.S. Naval Postgraduate School in 1978.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(School/NNP-6,Central/NNP-3)
+				nn(School/NNP-6,Community/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(Graduated/VBN-1,School/NNP-6)
+				nn(Iowa/NNP-10,DeWitt/NNP-8)
+				prep_in(School/NNP-6,Iowa/NNP-10)
+				prep_in(School/NNP-6,1968/CD-13)
+				dep(Graduated/VBN-1,received/VBD-15)
+				det(bachelor/NN-17,a/DT-16)
+				dobj(received/VBD-15,bachelor/NN-17)
+				prep_of(bachelor/NN-17,arts/NNS-19)
+				nsubj(Graduated/VBN-1,degree/NN-20)
+				prep_in(degree/NN-20,mathematics/NNS-22)
+				nn(Laude/NNP-26,Summa/NNP-24)
+				nn(Laude/NNP-26,Cum/NNP-25)
+				appos(mathematics/NNS-22,Laude/NNP-26)
+				nn(College/NNP-30,Cornell/NNP-29)
+				prep_from(degree/NN-20,College/NNP-30)
+				prep_in(College/NNP-30,1972/CD-32)
+				det(master/NN-35,a/DT-34)
+				nsubj(Graduated/VBN-1,master/NN-35)
+				conj_and(degree/NN-20,master/NN-35)
+				nn(degree/NN-38,science/NN-37)
+				prep_of(master/NN-35,degree/NN-38)
+				amod(engineering/NN-41,electrical/JJ-40)
+				prep_in(degree/NN-38,engineering/NN-41)
+				prep_with(engineering/NN-41,distinction/NN-44)
+				prep_in(engineering/NN-41,1977/CD-47)
+				det(degree/NN-51,the/DT-50)
+				nsubj(Graduated/VBN-1,degree/NN-51)
+				conj_and(degree/NN-20,degree/NN-51)
+				amod(Engineer/NN-54,Electrical/JJ-53)
+				prep_of(degree/NN-51,Engineer/NN-54)
+				det(School/NNP-60,the/DT-56)
+				nn(School/NNP-60,U.S./NNP-57)
+				nn(School/NNP-60,Naval/NNP-58)
+				nn(School/NNP-60,Postgraduate/NNP-59)
+				prep_from(Engineer/NN-54,School/NNP-60)
+				prep_in(degree/NN-51,1978/CD-62)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a Doctor of Medicine (M.D.) degree from the Baylor College of Medicine in 1995 and a master of science degree in public health (MPH) from the University of Texas-Houston Health Science Center in 2002.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Doctor/NN-4,a/DT-3)
+				nn(degree/NN-10,Doctor/NN-4)
+				prep_of(Doctor/NN-4,Medicine/NN-6)
+				appos(Medicine/NN-6,M.D./NNP-8)
+				dobj(received/VBD-2,degree/NN-10)
+				det(College/NNP-14,the/DT-12)
+				nn(College/NNP-14,Baylor/NNP-13)
+				prep_from(received/VBD-2,College/NNP-14)
+				prep_of(College/NNP-14,Medicine/NNP-16)
+				prep_in(Medicine/NNP-16,1995/CD-18)
+				det(master/NN-21,a/DT-20)
+				prep_of(College/NNP-14,master/NN-21)
+				conj_and(Medicine/NNP-16,master/NN-21)
+				nn(degree/NN-24,science/NN-23)
+				prep_of(master/NN-21,degree/NN-24)
+				amod(health/NN-27,public/JJ-26)
+				prep_in(degree/NN-24,health/NN-27)
+				appos(health/NN-27,MPH/NN-29)
+				det(University/NNP-33,the/DT-32)
+				prep_from(received/VBD-2,University/NNP-33)
+				nn(Center/NNP-38,Texas-Houston/NNP-35)
+				nn(Center/NNP-38,Health/NNP-36)
+				nn(Center/NNP-38,Science/NNP-37)
+				prep_of(University/NNP-33,Center/NNP-38)
+				prep_in(Center/NNP-38,2002/CD-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hilmers entered active duty with the United States Marine Corps in July 1972.	</value>
+
+		<annotated-sentence>	[[Hilmers|David_C._Hilmers]] entered [[active duty|Active_duty]] with [[the United States Marine Corps|United_States_Marine_Corps]] in [[July 1972|July_1972]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Hilmers|David_C._Hilmers]] entered active duty with [[the United States Marine Corps|United_States_Marine_Corps]] in July 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-2,Hilmers/NNP-1)
+				amod(duty/NN-4,active/JJ-3)
+				dobj(entered/VBD-2,duty/NN-4)
+				det(Corps/NNP-10,the/DT-6)
+				nn(Corps/NNP-10,United/NNP-7)
+				nn(Corps/NNP-10,States/NNPS-8)
+				nn(Corps/NNP-10,Marine/NNP-9)
+				prep_with(entered/VBD-2,Corps/NNP-10)
+				prep_in(entered/VBD-2,July/NNP-12)
+				num(July/NNP-12,1972/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hilmers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_C._Hilmers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_1972</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Marine_Corps
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On completing The Basic School and Naval Flight Officer School, he was assigned to VMA(AW)-121 at Marine Corps Air Station Cherry Point, North Carolina, flying the A-6 Intruder as a bombardier-navigator.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_on(assigned/VBN-14,completing/VBG-2)
+				det(School/NNP-5,The/DT-3)
+				nn(School/NNP-5,Basic/NNP-4)
+				dobj(completing/VBG-2,School/NNP-5)
+				nn(School/NNP-10,Naval/NNP-7)
+				nn(School/NNP-10,Flight/NNP-8)
+				nn(School/NNP-10,Officer/NNP-9)
+				dobj(completing/VBG-2,School/NNP-10)
+				conj_and(School/NNP-5,School/NNP-10)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				prep_to(assigned/VBN-14,VMA/NNP-16)
+				appos(VMA/NNP-16,AW/NNP-18)
+				tmod(assigned/VBN-14,-121/CD-20)
+				nn(Point/NNP-27,Marine/NNP-22)
+				nn(Point/NNP-27,Corps/NNP-23)
+				nn(Point/NNP-27,Air/NNP-24)
+				nn(Point/NNP-27,Station/NNP-25)
+				nn(Point/NNP-27,Cherry/NNP-26)
+				prep_at(-121/CD-20,Point/NNP-27)
+				nn(Carolina/NNP-30,North/NNP-29)
+				appos(Point/NNP-27,Carolina/NNP-30)
+				xcomp(assigned/VBN-14,flying/VBG-32)
+				det(Intruder/NN-35,the/DT-33)
+				nn(Intruder/NN-35,A-6/NN-34)
+				dobj(flying/VBG-32,Intruder/NN-35)
+				det(bombardier-navigator/NN-38,a/DT-37)
+				prep_as(flying/VBG-32,bombardier-navigator/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1975, he became an air liaison officer with the 1st Battalion, 2nd Marines, stationed with the Sixth Fleet in the Mediterranean.	</value>
+
+		<annotated-sentence>	In [[1975|1975]], he became an air [[liaison officer|Liaison_officer]] with [[the 1st Battalion|1st_Battalion_2nd_Marines]], [[2nd Marines|2nd_Marine_Regiment_(United_States)]], stationed with [[the Sixth Fleet|Sixth_Fleet]] in the Mediterranean.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1975, he became an air liaison officer with [[the 1st Battalion|1st_Battalion_2nd_Marines]], [[2nd Marines|2nd_Marine_Regiment_(United_States)]], stationed with the Sixth Fleet in the Mediterranean.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(officer/NN-9,1975/CD-2)
+				nsubj(officer/NN-9,he/PRP-4)
+				cop(officer/NN-9,became/VBD-5)
+				det(officer/NN-9,an/DT-6)
+				nn(officer/NN-9,air/NN-7)
+				nn(officer/NN-9,liaison/NN-8)
+				det(Battalion/NN-13,the/DT-11)
+				num(Battalion/NN-13,1st/CD-12)
+				prep_with(officer/NN-9,Battalion/NN-13)
+				amod(Marines/NNPS-16,2nd/JJ-15)
+				appos(Battalion/NN-13,Marines/NNPS-16)
+				partmod(Battalion/NN-13,stationed/VBN-18)
+				det(Fleet/NNP-22,the/DT-20)
+				nn(Fleet/NNP-22,Sixth/NNP-21)
+				prep_with(stationed/VBN-18,Fleet/NNP-22)
+				det(Mediterranean/NNP-25,the/DT-24)
+				prep_in(Fleet/NNP-22,Mediterranean/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>liaison officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Liaison_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 1st Battalion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1st_Battalion_2nd_Marines</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2nd Marines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2nd_Marine_Regiment_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Sixth Fleet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sixth_Fleet</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1st_Battalion_2nd_Marines http://dbpedia.org/ontology/commandStructure http://dbpedia.org/resource/2nd_Marine_Regiment_(United_States)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Naval Postgraduate School in 1978 and was later assigned to the 1st Marine Aircraft Wing at Marine Corps Air Station Iwakuni, Japan.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubjpass(assigned/VBN-13,He/PRP-1)
+				det(School/NNP-7,the/DT-4)
+				nn(School/NNP-7,Naval/NNP-5)
+				nn(School/NNP-7,Postgraduate/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				prep_in(graduated/VBD-2,1978/CD-9)
+				auxpass(assigned/VBN-13,was/VBD-11)
+				advmod(assigned/VBN-13,later/RB-12)
+				conj_and(graduated/VBD-2,assigned/VBN-13)
+				det(Wing/NN-19,the/DT-15)
+				num(Wing/NN-19,1st/CD-16)
+				nn(Wing/NN-19,Marine/NNP-17)
+				nn(Wing/NN-19,Aircraft/NNP-18)
+				prep_to(assigned/VBN-13,Wing/NN-19)
+				nn(Iwakuni/NNP-25,Marine/NNP-21)
+				nn(Iwakuni/NNP-25,Corps/NNP-22)
+				nn(Iwakuni/NNP-25,Air/NNP-23)
+				nn(Iwakuni/NNP-25,Station/NNP-24)
+				prep_at(Wing/NN-19,Iwakuni/NNP-25)
+				appos(Iwakuni/NNP-25,Japan/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was stationed with the 3rd Marine Aircraft Wing at Marine Corps Air Station El Toro, California, at the time of his selection by NASA.	</value>
+
+		<annotated-sentence>	He was stationed with [[the 3rd Marine Aircraft Wing|3rd_Marine_Aircraft_Wing]] at Marine Corps Air Station El Toro, [[California|California]], at the time of [[his selection|Selection]] by [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was stationed with the 3rd Marine Aircraft Wing at Marine Corps Air Station El Toro, California, at the time of his selection by [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(stationed/VBN-3,He/PRP-1)
+				auxpass(stationed/VBN-3,was/VBD-2)
+				det(Wing/NN-9,the/DT-5)
+				amod(Wing/NN-9,3rd/JJ-6)
+				nn(Wing/NN-9,Marine/NNP-7)
+				nn(Wing/NN-9,Aircraft/NNP-8)
+				prep_with(stationed/VBN-3,Wing/NN-9)
+				nn(Toro/NNP-16,Marine/NNP-11)
+				nn(Toro/NNP-16,Corps/NNP-12)
+				nn(Toro/NNP-16,Air/NNP-13)
+				nn(Toro/NNP-16,Station/NNP-14)
+				nn(Toro/NNP-16,El/NNP-15)
+				prep_at(Wing/NN-9,Toro/NNP-16)
+				appos(Toro/NNP-16,California/NNP-18)
+				det(time/NN-22,the/DT-21)
+				prep_at(stationed/VBN-3,time/NN-22)
+				poss(selection/NN-25,his/PRP$-24)
+				prep_of(time/NN-22,selection/NN-25)
+				agent(stationed/VBN-3,NASA/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the 3rd Marine Aircraft Wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3rd_Marine_Aircraft_Wing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hilmers was selected a NASA astronaut in July 1980, and completed the initial training period in August 1981.	</value>
+
+		<annotated-sentence>	[[Hilmers|David_C._Hilmers]] was selected a [[NASA|NASA]] [[astronaut|Astronaut]] in [[July 1980|1980]], and completed the initial [[training|Training]] period in [[August 1981|August_1981]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Hilmers|David_C._Hilmers]] was selected a [[NASA|NASA]] [[astronaut|Astronaut]] in July 1980, and completed the initial training period in August 1981.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Hilmers/NNP-1)
+				nsubjpass(completed/VBD-12,Hilmers/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(astronaut/NN-6,a/DT-4)
+				nn(astronaut/NN-6,NASA/NNP-5)
+				dobj(selected/VBN-3,astronaut/NN-6)
+				prep_in(selected/VBN-3,July/NNP-8)
+				num(July/NNP-8,1980/CD-9)
+				conj_and(selected/VBN-3,completed/VBD-12)
+				det(period/NN-16,the/DT-13)
+				amod(period/NN-16,initial/JJ-14)
+				nn(period/NN-16,training/NN-15)
+				dobj(completed/VBD-12,period/NN-16)
+				prep_in(completed/VBD-12,August/NNP-18)
+				num(August/NNP-18,1981/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hilmers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_C._Hilmers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_1981</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1983 he was selected as a member of the launch-ready standby crew.	</value>
+
+		<annotated-sentence>	In [[1983|1983]] he was selected as a member of the launch-ready standby crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1983 he was selected as a member of the launch-ready standby crew.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,1983/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(member/NN-8,a/DT-7)
+				prep_as(selected/VBN-5,member/NN-8)
+				det(crew/NN-13,the/DT-10)
+				amod(crew/NN-13,launch-ready/JJ-11)
+				nn(crew/NN-13,standby/NN-12)
+				prep_of(member/NN-8,crew/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His early NASA assignments have included work on rocket upper stages such as PAM, IUS, and Centaur, as well as Shuttle software verification at the Shuttle Avionics Integration Laboratory (SAIL).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-4,His/PRP$-1)
+				amod(assignments/NNS-4,early/JJ-2)
+				nn(assignments/NNS-4,NASA/NNP-3)
+				nsubj(included/VBN-6,assignments/NNS-4)
+				aux(included/VBN-6,have/VBP-5)
+				dobj(included/VBN-6,work/NN-7)
+				nn(stages/NNS-11,rocket/NN-9)
+				amod(stages/NNS-11,upper/JJ-10)
+				prep_on(included/VBN-6,stages/NNS-11)
+				prep_such_as(stages/NNS-11,PAM/NNS-14)
+				prep_such_as(stages/NNS-11,IUS/NNS-16)
+				conj_and(PAM/NNS-14,IUS/NNS-16)
+				prep_such_as(stages/NNS-11,Centaur/NNP-19)
+				conj_and(PAM/NNS-14,Centaur/NNP-19)
+				nn(verification/NN-26,Shuttle/NNP-24)
+				nn(verification/NN-26,software/NN-25)
+				prep_on(included/VBN-6,verification/NN-26)
+				conj_and(stages/NNS-11,verification/NN-26)
+				det(Laboratory/NN-32,the/DT-28)
+				nn(Laboratory/NN-32,Shuttle/NNP-29)
+				nn(Laboratory/NN-32,Avionics/NNP-30)
+				nn(Laboratory/NN-32,Integration/NN-31)
+				prep_at(verification/NN-26,Laboratory/NN-32)
+				appos(Laboratory/NN-32,SAIL/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition, he was the Astronaut Office training coordinator, worked on various Department of Defense payloads, served as a spacecraft communicator (CAPCOM) at Mission Control for STS-41-D, STS-41-G, STS-51-A, STS-51-C and STS-51-D, worked Space Station issues for the Astronaut Office, and served as head of the Mission Development Branch within the Astronaut Office.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(coordinator/NN-10,addition/NN-2)
+				nsubj(coordinator/NN-10,he/PRP-4)
+				nsubj(worked/VBD-12,he/PRP-4)
+				nsubj(served/VBD-20,he/PRP-4)
+				nsubj(worked/VBD-42,he/PRP-4)
+				nsubj(served/VBD-52,he/PRP-4)
+				cop(coordinator/NN-10,was/VBD-5)
+				det(coordinator/NN-10,the/DT-6)
+				nn(coordinator/NN-10,Astronaut/NNP-7)
+				nn(coordinator/NN-10,Office/NNP-8)
+				nn(coordinator/NN-10,training/NN-9)
+				conj_and(coordinator/NN-10,worked/VBD-12)
+				amod(Department/NNP-15,various/JJ-14)
+				prep_on(worked/VBD-12,Department/NNP-15)
+				nn(payloads/NNS-18,Defense/NNP-17)
+				prep_of(Department/NNP-15,payloads/NNS-18)
+				conj_and(coordinator/NN-10,served/VBD-20)
+				det(communicator/NN-24,a/DT-22)
+				nn(communicator/NN-24,spacecraft/NN-23)
+				prep_as(served/VBD-20,communicator/NN-24)
+				appos(communicator/NN-24,CAPCOM/NN-26)
+				nn(Control/NNP-30,Mission/NNP-29)
+				prep_at(served/VBD-20,Control/NNP-30)
+				prep_for(Control/NNP-30,STS-41-D/NN-32)
+				prep_for(Control/NNP-30,STS-41-G/NN-34)
+				conj_and(STS-41-D/NN-32,STS-41-G/NN-34)
+				prep_for(Control/NNP-30,STS-51-A/NN-36)
+				conj_and(STS-41-D/NN-32,STS-51-A/NN-36)
+				prep_for(Control/NNP-30,STS-51-C/NN-38)
+				conj_and(STS-41-D/NN-32,STS-51-C/NN-38)
+				prep_for(Control/NNP-30,STS-51-D/NN-40)
+				conj_and(STS-41-D/NN-32,STS-51-D/NN-40)
+				conj_and(coordinator/NN-10,worked/VBD-42)
+				nn(issues/NNS-45,Space/NN-43)
+				nn(issues/NNS-45,Station/NNP-44)
+				dobj(worked/VBD-42,issues/NNS-45)
+				det(Office/NNP-49,the/DT-47)
+				nn(Office/NNP-49,Astronaut/NNP-48)
+				prep_for(issues/NNS-45,Office/NNP-49)
+				conj_and(coordinator/NN-10,served/VBD-52)
+				prep_as(served/VBD-52,head/NN-54)
+				det(Branch/NNP-59,the/DT-56)
+				nn(Branch/NNP-59,Mission/NNP-57)
+				nn(Branch/NNP-59,Development/NNP-58)
+				prep_of(head/NN-54,Branch/NNP-59)
+				det(Office/NNP-63,the/DT-61)
+				nn(Office/NNP-63,Astronaut/NNP-62)
+				prep_within(served/VBD-52,Office/NNP-63)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In May 1985 he was named to the crew of STS-61-F, which was to deploy the Ulysses spacecraft on an interplanetary trajectory using a Centaur upper stage.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(named/VBN-6,May/NNP-2)
+				num(May/NNP-2,1985/CD-3)
+				nsubjpass(named/VBN-6,he/PRP-4)
+				auxpass(named/VBN-6,was/VBD-5)
+				det(crew/NN-9,the/DT-8)
+				prep_to(named/VBN-6,crew/NN-9)
+				prep_of(crew/NN-9,STS-61-F/NN-11)
+				nsubj(was/VBD-14,which/WDT-13)
+				rcmod(STS-61-F/NN-11,was/VBD-14)
+				aux(deploy/VB-16,to/TO-15)
+				xcomp(was/VBD-14,deploy/VB-16)
+				det(spacecraft/NN-19,the/DT-17)
+				nn(spacecraft/NN-19,Ulysses/NNP-18)
+				dobj(deploy/VB-16,spacecraft/NN-19)
+				det(trajectory/NN-23,an/DT-21)
+				amod(trajectory/NN-23,interplanetary/JJ-22)
+				prep_on(deploy/VB-16,trajectory/NN-23)
+				partmod(trajectory/NN-23,using/VBG-24)
+				det(stage/NN-28,a/DT-25)
+				nn(stage/NN-28,Centaur/NNP-26)
+				amod(stage/NN-28,upper/JJ-27)
+				dobj(using/VBG-24,stage/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission was to have flown in May 1986, but the Shuttle Centaur project was terminated in July 1986, and Hilmers then worked in the areas of ascent abort development, payload safety, and Shuttle on-board software.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(was/VBD-3,mission/NN-2)
+				aux(flown/VBN-6,to/TO-4)
+				aux(flown/VBN-6,have/VB-5)
+				xcomp(was/VBD-3,flown/VBN-6)
+				prep_in(flown/VBN-6,May/NNP-8)
+				num(May/NNP-8,1986/CD-9)
+				det(project/NN-15,the/DT-12)
+				nn(project/NN-15,Shuttle/NNP-13)
+				nn(project/NN-15,Centaur/NNP-14)
+				nsubjpass(terminated/VBN-17,project/NN-15)
+				auxpass(terminated/VBN-17,was/VBD-16)
+				conj_but(was/VBD-3,terminated/VBN-17)
+				prep_in(terminated/VBN-17,July/NNP-19)
+				num(July/NNP-19,1986/CD-20)
+				nsubj(worked/VBD-25,Hilmers/NNP-23)
+				advmod(worked/VBD-25,then/RB-24)
+				conj_but(was/VBD-3,worked/VBD-25)
+				conj_and(terminated/VBN-17,worked/VBD-25)
+				mark(abort/VBP-31,in/IN-26)
+				det(areas/NNS-28,the/DT-27)
+				nsubj(abort/VBP-31,areas/NNS-28)
+				prep_of(areas/NNS-28,ascent/NN-30)
+				advcl(worked/VBD-25,abort/VBP-31)
+				dobj(abort/VBP-31,development/NN-32)
+				nn(safety/NN-35,payload/NN-34)
+				dobj(abort/VBP-31,safety/NN-35)
+				conj_and(development/NN-32,safety/NN-35)
+				nn(software/NN-40,Shuttle/NNP-38)
+				amod(software/NN-40,on-board/JJ-39)
+				dobj(abort/VBP-31,software/NN-40)
+				conj_and(development/NN-32,software/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 1987 he was involved in training for STS-26 and in flight software development.	</value>
+
+		<annotated-sentence>	During [[1987|1987]] he was involved in [[training|Training]] for [[STS-26|STS-26]] and in [[flight|Flight]] [[software development|Software_development]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During 1987 he was involved in training for [[STS-26|STS-26]] and in flight software development.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(involved/VBN-5,1987/CD-2)
+				nsubjpass(involved/VBN-5,he/PRP-3)
+				auxpass(involved/VBN-5,was/VBD-4)
+				prep_in(involved/VBN-5,training/NN-7)
+				prep_for(training/NN-7,STS-26/NN-9)
+				nn(development/NN-14,flight/NN-12)
+				nn(development/NN-14,software/NN-13)
+				prep_in(involved/VBN-5,development/NN-14)
+				conj_and(training/NN-7,development/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-26</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>software development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Software_development</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-26
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-26 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-26 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, he has logged over 493 hours in space.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], he has logged over 493 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, he has logged over 493 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				ccomp(logged/VBN-10,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				nsubj(logged/VBN-10,he/PRP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				num(hours/NNS-13,493/CD-12)
+				prep_over(logged/VBN-10,hours/NNS-13)
+				prep_in(hours/NNS-13,space/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a mission specialist on STS-51-J (October 3–7, 1985), STS-26 (September 29 to October 3, 1988), STS-36 (February 28 to March 4, 1990), and STS-42 (January 22–30, 1992).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(served/VBD-2,specialist/NN-6)
+				prep_on(served/VBD-2,STS-51-J/NN-8)
+				dep(STS-51-J/NN-8,October/NNP-10)
+				num(October/NNP-10,3/CD-11)
+				dep(October/NNP-10,7/CD-13)
+				amod(7/CD-13,1985/CD-15)
+				prep_on(served/VBD-2,STS-26/NN-18)
+				conj_and(STS-51-J/NN-8,STS-26/NN-18)
+				dep(STS-26/NN-18,September/NNP-20)
+				num(September/NNP-20,29/CD-21)
+				prep_to(September/NNP-20,October/NNP-23)
+				num(October/NNP-23,3/CD-24)
+				num(October/NNP-23,1988/CD-26)
+				prep_on(served/VBD-2,STS-36/NN-29)
+				conj_and(STS-51-J/NN-8,STS-36/NN-29)
+				dep(STS-36/NN-29,February/NNP-31)
+				num(February/NNP-31,28/CD-32)
+				prep_to(February/NNP-31,March/NNP-34)
+				num(March/NNP-34,4/CD-35)
+				num(March/NNP-34,1990/CD-37)
+				prep_on(served/VBD-2,STS-42/NN-41)
+				conj_and(STS-51-J/NN-8,STS-42/NN-41)
+				dep(STS-42/NN-41,January/NNP-43)
+				num(January/NNP-43,22/CD-44)
+				dep(January/NNP-43,30/CD-46)
+				amod(30/CD-46,1992/CD-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hilmers retired from NASA and the United States Marine Corps in October 1992, and went on to complete medical school and residency in the combined Internal Medicine/Pediatrics program at Baylor College of Medicine.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Hilmers/NNP-1)
+				nsubj(went/VBD-16,Hilmers/NNP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				det(Corps/NNP-10,the/DT-6)
+				nn(Corps/NNP-10,United/NNP-7)
+				nn(Corps/NNP-10,States/NNPS-8)
+				nn(Corps/NNP-10,Marine/NNP-9)
+				prep_from(retired/VBD-2,Corps/NNP-10)
+				conj_and(NASA/NNP-4,Corps/NNP-10)
+				prep_in(retired/VBD-2,October/NNP-12)
+				num(October/NNP-12,1992/CD-13)
+				conj_and(retired/VBD-2,went/VBD-16)
+				prep(went/VBD-16,on/IN-17)
+				pcomp(on/IN-17,to/TO-18)
+				amod(school/NN-21,complete/JJ-19)
+				amod(school/NN-21,medical/JJ-20)
+				pobj(to/TO-18,school/NN-21)
+				pobj(to/TO-18,residency/NN-23)
+				conj_and(school/NN-21,residency/NN-23)
+				det(program/NN-29,the/DT-25)
+				amod(program/NN-29,combined/JJ-26)
+				amod(program/NN-29,Internal/JJ-27)
+				nn(program/NN-29,Medicine/Pediatrics/NNS-28)
+				prep_in(went/VBD-16,program/NN-29)
+				nn(College/NNP-32,Baylor/NNP-31)
+				prep_at(program/NN-29,College/NNP-32)
+				prep_of(College/NNP-32,Medicine/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently an Associate Professor in the departments of Internal Medicine and Pediatrics and the Center for Space Medicine at the Baylor College of Medicine in Houston, Texas.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Professor/NNP-6,He/PRP-1)
+				cop(Professor/NNP-6,is/VBZ-2)
+				advmod(Professor/NNP-6,currently/RB-3)
+				det(Professor/NNP-6,an/DT-4)
+				nn(Professor/NNP-6,Associate/NNP-5)
+				det(departments/NNS-9,the/DT-8)
+				prep_in(Professor/NNP-6,departments/NNS-9)
+				amod(Medicine/NN-12,Internal/JJ-11)
+				prep_of(departments/NNS-9,Medicine/NN-12)
+				prep_of(departments/NNS-9,Pediatrics/NNS-14)
+				conj_and(Medicine/NN-12,Pediatrics/NNS-14)
+				det(Center/NNP-17,the/DT-16)
+				prep_in(Professor/NNP-6,Center/NNP-17)
+				conj_and(departments/NNS-9,Center/NNP-17)
+				nn(Medicine/NNP-20,Space/NNP-19)
+				prep_for(Center/NNP-17,Medicine/NNP-20)
+				det(College/NNP-24,the/DT-22)
+				nn(College/NNP-24,Baylor/NNP-23)
+				prep_at(Medicine/NNP-20,College/NNP-24)
+				prep_of(College/NNP-24,Medicine/NNP-26)
+				nn(Texas/NNP-30,Houston/NNP-28)
+				prep_in(Medicine/NNP-26,Texas/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to his teaching and clinical duties, he is involved in research in global health and malnutrition in many countries.	</value>
+
+		<annotated-sentence>	In [[addition|Addition]] to his teaching and clinical [[duties|Duty]], he is involved in [[research|Research]] in global [[health|Health]] and malnutrition in [[many countries|Country]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In addition to his teaching and clinical duties, he is involved in research in global health and malnutrition in many countries.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(teaching/NN-5,his/PRP$-4)
+				prep_in_addition_to(involved/VBN-12,teaching/NN-5)
+				amod(duties/NNS-8,clinical/JJ-7)
+				conj_and(teaching/NN-5,duties/NNS-8)
+				prep_in_addition_to(involved/VBN-12,duties/NNS-8)
+				nsubjpass(involved/VBN-12,he/PRP-10)
+				auxpass(involved/VBN-12,is/VBZ-11)
+				prep_in(involved/VBN-12,research/NN-14)
+				amod(health/NN-17,global/JJ-16)
+				prep_in(research/NN-14,health/NN-17)
+				prep_in(research/NN-14,malnutrition/NN-19)
+				conj_and(health/NN-17,malnutrition/NN-19)
+				amod(countries/NNS-22,many/JJ-21)
+				prep_in(involved/VBN-12,countries/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>addition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Addition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>health</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Health</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>many countries</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Country</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-51-J Atlantis, a classified Department of Defense mission, launched from Kennedy Space Center, Florida, on October 3, 1985.	</value>
+
+		<annotated-sentence>	[[STS-51-J|STS-51-J]] [[Atlantis|Atlantis]], a classified Department of Defense mission, launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on October 3, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-51-J|STS-51-J]] Atlantis, a classified Department of Defense mission, launched from [[Kennedy Space Center|Kennedy_Space_Center]], Florida, on October 3, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-51-J/NN-1)
+				nsubj(launched/VBN-11,Atlantis/NNP-2)
+				det(Department/NNP-6,a/DT-4)
+				amod(Department/NNP-6,classified/JJ-5)
+				appos(Atlantis/NNP-2,Department/NNP-6)
+				nn(mission/NN-9,Defense/NNP-8)
+				prep_of(Department/NNP-6,mission/NN-9)
+				nn(Center/NNP-15,Kennedy/NNP-13)
+				nn(Center/NNP-15,Space/NNP-14)
+				prep_from(launched/VBN-11,Center/NNP-15)
+				appos(Center/NNP-15,Florida/NNP-17)
+				prep_on(launched/VBN-11,October/NNP-20)
+				num(October/NNP-20,3/CD-21)
+				num(October/NNP-20,1985/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-51-J</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-J</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-J
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-J http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-J http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-J http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This was the maiden voyage of the Orbiter Atlantis.	</value>
+
+		<annotated-sentence>	This was the maiden voyage of the [[Orbiter|Orbiter]] [[Atlantis|Atlantis]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This was the maiden voyage of the Orbiter Atlantis.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(voyage/NN-5,This/DT-1)
+				cop(voyage/NN-5,was/VBD-2)
+				det(voyage/NN-5,the/DT-3)
+				amod(voyage/NN-5,maiden/JJ-4)
+				det(Atlantis/NNP-9,the/DT-7)
+				nn(Atlantis/NNP-9,Orbiter/NNP-8)
+				prep_of(voyage/NN-5,Atlantis/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Orbiter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hilmers had prime responsibility for a number of on-orbit activities during the mission.	</value>
+
+		<annotated-sentence>	[[Hilmers|David_C._Hilmers]] had prime responsibility for a number of on-orbit [[activities|Activity]] during the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hilmers had prime responsibility for a number of on-orbit activities during the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(had/VBD-2,Hilmers/NNP-1)
+				amod(responsibility/NN-4,prime/JJ-3)
+				dobj(had/VBD-2,responsibility/NN-4)
+				det(number/NN-7,a/DT-6)
+				prep_for(responsibility/NN-4,number/NN-7)
+				amod(activities/NNS-10,on-orbit/JJ-9)
+				prep_of(number/NN-7,activities/NNS-10)
+				det(mission/NN-13,the/DT-12)
+				prep_during(had/VBD-2,mission/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hilmers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_C._Hilmers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 98 hours of orbital operations, Atlantis landed at Edwards Air Force Base, California, on October 7, 1985.	</value>
+
+		<annotated-sentence>	After 98 [[hours|Hour]] of orbital operations, [[Atlantis|Atlantis]] landed at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on October 7, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	After 98 hours of orbital operations, Atlantis landed at Edwards Air Force Base, California, on October 7, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				num(hours/NNS-3,98/CD-2)
+				prep_after(landed/VBD-9,hours/NNS-3)
+				amod(operations/NNS-6,orbital/JJ-5)
+				prep_of(hours/NNS-3,operations/NNS-6)
+				nsubj(landed/VBD-9,Atlantis/NNP-8)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_at(landed/VBD-9,Base/NNP-14)
+				appos(Base/NNP-14,California/NNP-16)
+				prep_on(landed/VBD-9,October/NNP-19)
+				num(October/NNP-19,7/CD-20)
+				num(October/NNP-19,1985/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-26 Discovery, the first mission to be flown after the Challenger accident, was launched from the Kennedy Space Center, Florida, on September 29, 1988.	</value>
+
+		<annotated-sentence>	[[STS-26|STS-26]] Discovery, the first mission to be flown after [[the Challenger accident|Space_Shuttle_Challenger_disaster]], was launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[September|September]] 29, 1988.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-26|STS-26]] Discovery, the first mission to be flown after the Challenger accident, was launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on September 29, 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Discovery/NNP-2,STS-26/NN-1)
+				nsubjpass(launched/VBN-16,Discovery/NNP-2)
+				det(mission/NN-6,the/DT-4)
+				amod(mission/NN-6,first/JJ-5)
+				appos(Discovery/NNP-2,mission/NN-6)
+				aux(flown/VBN-9,to/TO-7)
+				auxpass(flown/VBN-9,be/VB-8)
+				infmod(mission/NN-6,flown/VBN-9)
+				det(accident/NN-13,the/DT-11)
+				nn(accident/NN-13,Challenger/NNP-12)
+				prep_after(flown/VBN-9,accident/NN-13)
+				auxpass(launched/VBN-16,was/VBD-15)
+				det(Center/NNP-21,the/DT-18)
+				nn(Center/NNP-21,Kennedy/NNP-19)
+				nn(Center/NNP-21,Space/NNP-20)
+				prep_from(launched/VBN-16,Center/NNP-21)
+				appos(Center/NNP-21,Florida/NNP-23)
+				prep_on(launched/VBN-16,September/NNP-26)
+				num(September/NNP-26,29/CD-27)
+				num(September/NNP-26,1988/CD-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-26</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Challenger accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-26
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-26 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-26 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-26 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the four-day mission, the crew successfully deployed the Tracking and Data Relay Satellite (TDRS-C), which was subsequently carried to orbit by the Inertial Upper Stage (IUS) rocket.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,four-day/JJ-3)
+				prep_during(deployed/VBD-9,mission/NN-4)
+				det(crew/NN-7,the/DT-6)
+				nsubj(deployed/VBD-9,crew/NN-7)
+				advmod(deployed/VBD-9,successfully/RB-8)
+				det(Tracking/NNP-11,the/DT-10)
+				dobj(deployed/VBD-9,Tracking/NNP-11)
+				nn(Satellite/NNP-15,Data/NNP-13)
+				nn(Satellite/NNP-15,Relay/NNP-14)
+				dobj(deployed/VBD-9,Satellite/NNP-15)
+				conj_and(Tracking/NNP-11,Satellite/NNP-15)
+				appos(Tracking/NNP-11,TDRS-C/NN-17)
+				nsubjpass(carried/VBN-23,which/WDT-20)
+				auxpass(carried/VBN-23,was/VBD-21)
+				advmod(carried/VBN-23,subsequently/RB-22)
+				rcmod(Tracking/NNP-11,carried/VBN-23)
+				aux(orbit/VB-25,to/TO-24)
+				xcomp(carried/VBN-23,orbit/VB-25)
+				det(rocket/NN-34,the/DT-27)
+				nn(Stage/NNP-30,Inertial/NNP-28)
+				nn(Stage/NNP-30,Upper/NNP-29)
+				nn(rocket/NN-34,Stage/NNP-30)
+				appos(Stage/NNP-30,IUS/NNS-32)
+				prep_by(orbit/VB-25,rocket/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They also operated eleven mid-deck experiments.	</value>
+
+		<annotated-sentence>	[[They|They]] also operated eleven mid-deck [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They also operated eleven mid-deck experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(operated/VBD-3,They/PRP-1)
+				advmod(operated/VBD-3,also/RB-2)
+				nsubj(experiments/NNS-6,eleven/NNS-4)
+				amod(experiments/NNS-6,mid-deck/JJ-5)
+				xcomp(operated/VBD-3,experiments/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Discovery completed 64 orbits of the Earth before landing at Edwards Air Force Base, California, on October 3, 1988.	</value>
+
+		<annotated-sentence>	Discovery completed 64 orbits of [[the Earth|Earth]] before [[landing|Amphibious_warfare]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on October 3, 1988.	</annotated-sentence>
+
+		<pattern_crowdsource>	Discovery completed 64 orbits of the Earth before landing at Edwards Air Force Base, California, on October 3, 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Discovery/NNP-1)
+				num(orbits/NNS-4,64/CD-3)
+				dobj(completed/VBD-2,orbits/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_of(orbits/NNS-4,Earth/NNP-7)
+				prep_before(completed/VBD-2,landing/NN-9)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_at(landing/NN-9,Base/NNP-14)
+				appos(Base/NNP-14,California/NNP-16)
+				prep_on(completed/VBD-2,October/NNP-19)
+				num(October/NNP-19,3/CD-20)
+				num(October/NNP-19,1988/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-36 Atlantis launched from the Kennedy Space Center, Florida, on February 28, 1990.	</value>
+
+		<annotated-sentence>	[[STS-36|STS-36]] [[Atlantis|Atlantis]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[February|February]] 28, 1990.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-36|STS-36]] Atlantis launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on February 28, 1990.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-36/NNP-1)
+				nsubj(launched/VBD-3,Atlantis/NNP-2)
+				det(Center/NNP-8,the/DT-5)
+				nn(Center/NNP-8,Kennedy/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_from(launched/VBD-3,Center/NNP-8)
+				appos(Center/NNP-8,Florida/NNP-10)
+				prep_on(launched/VBD-3,February/NNP-13)
+				num(February/NNP-13,28/CD-14)
+				num(February/NNP-13,1990/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-36</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-36</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-36
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-36 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-36 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-36 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission carried Department of Defense payloads and a number of secondary payloads.	</value>
+
+		<annotated-sentence>	This mission carried Department of Defense payloads and a number of secondary payloads.	</annotated-sentence>
+
+		<pattern_crowdsource>	This mission carried Department of Defense payloads and a number of secondary payloads.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(carried/VBD-3,mission/NN-2)
+				dobj(carried/VBD-3,Department/NNP-4)
+				nn(payloads/NNS-7,Defense/NNP-6)
+				prep_of(Department/NNP-4,payloads/NNS-7)
+				det(number/NN-10,a/DT-9)
+				dobj(carried/VBD-3,number/NN-10)
+				conj_and(Department/NNP-4,number/NN-10)
+				amod(payloads/NNS-13,secondary/JJ-12)
+				prep_of(number/NN-10,payloads/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 72 orbits of the Earth, the STS-36 mission concluded with a lakebed landing at Edwards Air Force Base, California, on March 4, 1990, after traveling 1.87 million miles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,72/CD-2)
+				prep_after(concluded/VBD-11,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				det(mission/NN-10,the/DT-8)
+				nn(mission/NN-10,STS-36/NN-9)
+				nsubj(concluded/VBD-11,mission/NN-10)
+				det(landing/NN-15,a/DT-13)
+				amod(landing/NN-15,lakebed/JJ-14)
+				prep_with(concluded/VBD-11,landing/NN-15)
+				nn(Base/NNP-20,Edwards/NNP-17)
+				nn(Base/NNP-20,Air/NNP-18)
+				nn(Base/NNP-20,Force/NNP-19)
+				prep_at(landing/NN-15,Base/NNP-20)
+				appos(Base/NNP-20,California/NNP-22)
+				prep_on(concluded/VBD-11,March/NNP-25)
+				num(March/NNP-25,4/CD-26)
+				num(March/NNP-25,1990/CD-28)
+				prepc_after(concluded/VBD-11,traveling/VBG-31)
+				number(million/CD-33,1.87/CD-32)
+				num(miles/NNS-34,million/CD-33)
+				dobj(traveling/VBG-31,miles/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-42 Discovery launched from the Kennedy Space Center, Florida, on January 22, 1992.	</value>
+
+		<annotated-sentence>	[[STS-42|STS-42]] Discovery launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[January|January]] 22, 1992.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-42|STS-42]] Discovery launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on January 22, 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Discovery/NNP-2,STS-42/NN-1)
+				nsubj(launched/VBD-3,Discovery/NNP-2)
+				det(Center/NNP-8,the/DT-5)
+				nn(Center/NNP-8,Kennedy/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_from(launched/VBD-3,Center/NNP-8)
+				appos(Center/NNP-8,Florida/NNP-10)
+				prep_on(launched/VBD-3,January/NNP-13)
+				num(January/NNP-13,22/CD-14)
+				num(January/NNP-13,1992/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-42</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-42</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-42
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-42 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-42 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/David_C._Hilmers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-42 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fifty-five major experiments conducted in the International Microgravity Laboratory-1 module were provided by investigators from eleven countries, and represented a broad spectrum of scientific disciplines.	</value>
+
+		<annotated-sentence>	[[Fifty-five|55_(number)]] major [[experiments|Experiment]] conducted in the [[International|International]] [[Microgravity|Microgravity_(album)]] Laboratory-1 module were provided by [[investigators|Detective]] from [[eleven|Eleven_(band)]] [[countries|United_States]], and represented [[a broad spectrum|Broad-spectrum_antibiotic]] of scientific [[disciplines|Discipline]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fifty-five major experiments conducted in the International Microgravity Laboratory-1 module were provided by investigators from [[eleven|Eleven_(band)]] [[countries|United_States]], and represented a broad spectrum of scientific disciplines.	</pattern_crowdsource>
+
+
+		<tree>
+				num(experiments/NNS-3,Fifty-five/CD-1)
+				amod(experiments/NNS-3,major/JJ-2)
+				nsubjpass(provided/VBN-12,experiments/NNS-3)
+				nsubjpass(represented/VBD-20,experiments/NNS-3)
+				partmod(experiments/NNS-3,conducted/VBN-4)
+				det(module/NN-10,the/DT-6)
+				nn(module/NN-10,International/NNP-7)
+				nn(module/NN-10,Microgravity/NNP-8)
+				nn(module/NN-10,Laboratory-1/NN-9)
+				prep_in(conducted/VBN-4,module/NN-10)
+				auxpass(provided/VBN-12,were/VBD-11)
+				agent(provided/VBN-12,investigators/NNS-14)
+				nn(countries/NNS-17,eleven/NNS-16)
+				prep_from(investigators/NNS-14,countries/NNS-17)
+				conj_and(provided/VBN-12,represented/VBD-20)
+				det(spectrum/NN-23,a/DT-21)
+				amod(spectrum/NN-23,broad/JJ-22)
+				dobj(represented/VBD-20,spectrum/NN-23)
+				amod(disciplines/NNS-26,scientific/JJ-25)
+				prep_of(spectrum/NN-23,disciplines/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fifty-five</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/55_(number)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>investigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Detective</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>eleven</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eleven_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>countries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a broad spectrum</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broad-spectrum_antibiotic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>disciplines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Discipline</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Eleven_(band) http://dbpedia.org/ontology/hometown http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_C._Hilmers http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 128 orbits of the Earth, the STS-42 crew accomplished the mission's primary objective of investigating the effects of microgravity on materials processing and life sciences.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,128/CD-2)
+				prep_during(accomplished/VBD-11,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				det(crew/NN-10,the/DT-8)
+				nn(crew/NN-10,STS-42/NN-9)
+				nsubj(accomplished/VBD-11,crew/NN-10)
+				det(mission/NN-13,the/DT-12)
+				poss(objective/NN-16,mission/NN-13)
+				amod(objective/NN-16,primary/JJ-15)
+				dobj(accomplished/VBD-11,objective/NN-16)
+				prepc_of(objective/NN-16,investigating/VBG-18)
+				det(effects/NNS-20,the/DT-19)
+				dobj(investigating/VBG-18,effects/NNS-20)
+				prep_of(effects/NNS-20,microgravity/NN-22)
+				nn(processing/NN-25,materials/NNS-24)
+				prep_on(investigating/VBG-18,processing/NN-25)
+				nn(sciences/NNS-28,life/NN-27)
+				prep_on(investigating/VBG-18,sciences/NNS-28)
+				conj_and(processing/NN-25,sciences/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In this unique laboratory in space, crew members worked around-the-clock in two shifts.	</value>
+
+		<annotated-sentence>	In this unique [[laboratory|Laboratory]] in [[space|Space]], [[crew members|Crewman]] worked around-the-clock in two shifts.	</annotated-sentence>
+
+		<pattern_crowdsource>	In this unique laboratory in space, crew members worked around-the-clock in two shifts.	</pattern_crowdsource>
+
+
+		<tree>
+				det(laboratory/NN-4,this/DT-2)
+				amod(laboratory/NN-4,unique/JJ-3)
+				prep_in(worked/VBD-10,laboratory/NN-4)
+				prep_in(laboratory/NN-4,space/NN-6)
+				nn(members/NNS-9,crew/NN-8)
+				nsubj(worked/VBD-10,members/NNS-9)
+				dobj(worked/VBD-10,around-the-clock/JJ-11)
+				num(shifts/NNS-14,two/CD-13)
+				prep_in(around-the-clock/JJ-11,shifts/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew members</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Experiments investigated the microgravity effects on the growth of protein and semiconductor crystals.	</value>
+
+		<annotated-sentence>	[[Experiments|Experiment]] investigated the [[microgravity|Microgravity_(album)]] effects on the growth of protein and semiconductor crystals.	</annotated-sentence>
+
+		<pattern_crowdsource>	Experiments investigated the microgravity effects on the growth of protein and semiconductor crystals.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(investigated/VBD-2,Experiments/NNS-1)
+				det(effects/NNS-5,the/DT-3)
+				nn(effects/NNS-5,microgravity/NN-4)
+				dobj(investigated/VBD-2,effects/NNS-5)
+				det(growth/NN-8,the/DT-7)
+				prep_on(investigated/VBD-2,growth/NN-8)
+				nn(crystals/NNS-13,protein/NN-10)
+				conj_and(protein/NN-10,semiconductor/NN-12)
+				nn(crystals/NNS-13,semiconductor/NN-12)
+				prep_of(growth/NN-8,crystals/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Biological experiments on the effects of zero gravity on plants, tissues, bacteria, insects and human vestibular response were also conducted.	</value>
+
+		<annotated-sentence>	Biological [[experiments|Experiment]] on the effects of zero gravity on [[plants|Plant]], tissues, [[bacteria|Bacteria]], [[insects|Insect]] and human vestibular response were also conducted.	</annotated-sentence>
+
+		<pattern_crowdsource>	Biological experiments on the effects of zero gravity on plants, tissues, bacteria, insects and human vestibular response were also conducted.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(experiments/NNS-2,Biological/JJ-1)
+				nsubjpass(conducted/VBN-23,experiments/NNS-2)
+				det(effects/NNS-5,the/DT-4)
+				prep_on(experiments/NNS-2,effects/NNS-5)
+				num(gravity/NN-8,zero/CD-7)
+				prep_of(effects/NNS-5,gravity/NN-8)
+				prep_on(gravity/NN-8,plants/NNS-10)
+				prep_on(gravity/NN-8,tissues/NNS-12)
+				conj_and(plants/NNS-10,tissues/NNS-12)
+				prep_on(gravity/NN-8,bacteria/NNS-14)
+				conj_and(plants/NNS-10,bacteria/NNS-14)
+				prep_on(gravity/NN-8,insects/NNS-16)
+				conj_and(plants/NNS-10,insects/NNS-16)
+				amod(response/NN-20,human/JJ-18)
+				amod(response/NN-20,vestibular/JJ-19)
+				prep_on(gravity/NN-8,response/NN-20)
+				conj_and(plants/NNS-10,response/NN-20)
+				auxpass(conducted/VBN-23,were/VBD-21)
+				advmod(conducted/VBN-23,also/RB-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>plants</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Plant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bacteria</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>insects</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Insect</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This eight-day mission culminated in a landing at Edwards Air Force Base, California, on January 30, 1992.	</value>
+
+		<annotated-sentence>	This eight-day mission culminated in [[a landing|Amphibious_warfare]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], on [[January|January]] 30, 1992.	</annotated-sentence>
+
+		<pattern_crowdsource>	This eight-day mission culminated in a landing at Edwards Air Force Base, California, on January 30, 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,This/DT-1)
+				amod(mission/NN-3,eight-day/JJ-2)
+				nsubj(culminated/VBD-4,mission/NN-3)
+				det(landing/NN-7,a/DT-6)
+				prep_in(culminated/VBD-4,landing/NN-7)
+				nn(Base/NNP-12,Edwards/NNP-9)
+				nn(Base/NNP-12,Air/NNP-10)
+				nn(Base/NNP-12,Force/NNP-11)
+				prep_at(landing/NN-7,Base/NNP-12)
+				appos(Base/NNP-12,California/NNP-14)
+				prep_on(culminated/VBD-4,January/NNP-17)
+				num(January/NNP-17,30/CD-18)
+				num(January/NNP-17,1992/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	[1]	</value>
+
+		<annotated-sentence>	[1]	</annotated-sentence>
+
+		<pattern_crowdsource>	[1]	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(1/LS-2,-LSB-/-LRB--1)
+				punct(1/LS-2,-RSB-/-RRB--3)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

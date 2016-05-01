@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A leiomyoma is a noncancerous (benign) tumor made up mostly of smooth muscle cells.</value>
+		<pattern_crowdsource> A [[leiomyoma|C0023267]] is a noncancerous ([[benign) tumor|C0086692]] made up mostly of smooth muscle cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>leiomyoma</surface-form>
+				<RDF-ID>C0023267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>benign) tumor</surface-form>
+				<RDF-ID>C0086692</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mostly</surface-form>
+				<RDF-ID>C0750554</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>smooth muscle cells</surface-form>
+				<RDF-ID>C1135918</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023267 ISA C0086692</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is called an intestinal leiomyoma when the tumor is located in the intestinal tract.</value>
+		<pattern_crowdsource> It is called an [[intestinal|C0021853]] [[leiomyoma|C0023267]] when the [[tumor|C0027651]] is located in the [[intestinal tract|C0021853]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>intestinal</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leiomyoma</surface-form>
+				<RDF-ID>C0023267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestinal tract</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023267 PART_OF C0021853</triple>
+			<triple>C0021853 LOCATION_OF C0027651</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

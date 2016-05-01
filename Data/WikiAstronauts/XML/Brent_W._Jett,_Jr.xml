@@ -1,0 +1,1800 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Brent Ward Jett, Jr. is a Captain in the United States Navy and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Brent Ward|Brent_Ward]] [[Jett|Brent_W._Jett,_Jr.]], Jr. is a Captain in [[the United States Navy|United_States_Navy]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Brent Ward [[Jett|Brent_W._Jett,_Jr.]], Jr. is a Captain in [[the United States Navy|United_States_Navy]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jr./NNP-5,Brent/NNP-1)
+				nn(Jr./NNP-5,Ward/NNP-2)
+				nn(Jr./NNP-5,Jett/NNP-3)
+				nsubj(Captain/NNP-8,Jr./NNP-5)
+				cop(Captain/NNP-8,is/VBZ-6)
+				det(Captain/NNP-8,a/DT-7)
+				det(Navy/NNP-13,the/DT-10)
+				nn(Navy/NNP-13,United/NNP-11)
+				nn(Navy/NNP-13,States/NNPS-12)
+				prep_in(Captain/NNP-8,Navy/NNP-13)
+				det(astronaut/NN-17,a/DT-15)
+				nn(astronaut/NN-17,NASA/NNP-16)
+				prep_in(Captain/NNP-8,astronaut/NN-17)
+				conj_and(Navy/NNP-13,astronaut/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brent Ward</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brent_Ward</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jett</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brent_W._Jett,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born October 5, 1958, in Pontiac, Michigan, but considers Fort Lauderdale, Florida, to be his hometown.	</value>
+
+		<annotated-sentence>	Born October 5, 1958, in [[Pontiac , Michigan ,|Akron,_Ohio]]ut considers Fort Lauderdale, [[Florida|Florida]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Born October 5, 1958, in Pontiac, Michigan, but considers Fort Lauderdale, Florida, to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,October/NNP-2)
+				num(October/NNP-2,5/CD-3)
+				num(October/NNP-2,1958/CD-5)
+				nn(Michigan/NNP-10,Pontiac/NNP-8)
+				prep_in(Born/VBN-1,Michigan/NNP-10)
+				conj_but(Born/VBN-1,considers/VBZ-13)
+				nn(Lauderdale/NNP-15,Fort/NNP-14)
+				nsubj(hometown/NN-22,Lauderdale/NNP-15)
+				appos(Lauderdale/NNP-15,Florida/NNP-17)
+				aux(hometown/NN-22,to/TO-19)
+				cop(hometown/NN-22,be/VB-20)
+				poss(hometown/NN-22,his/PRP$-21)
+				xcomp(considers/VBZ-13,hometown/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Pontiac , Michigan ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to Janet Leigh Lyon of Patuxent River, Maryland.	</value>
+
+		<annotated-sentence>	Married to [[Janet Leigh|Janet_Leigh]] [[Lyon|Lyon]] of [[Patuxent River|Patuxent_River]], [[Maryland|Maryland]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to Janet Leigh Lyon of [[Patuxent River|Patuxent_River]], [[Maryland|Maryland]].	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Maryland/NNP-10,Married/JJ-1)
+				nn(Lyon/NNP-5,Janet/NNP-3)
+				nn(Lyon/NNP-5,Leigh/NNP-4)
+				prep_to(Married/JJ-1,Lyon/NNP-5)
+				nn(River/NNP-8,Patuxent/NNP-7)
+				prep_of(Lyon/NNP-5,River/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Janet Leigh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Janet_Leigh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lyon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Patuxent River</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patuxent_River</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Maryland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maryland</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Patuxent_River http://dbpedia.org/ontology/state http://dbpedia.org/resource/Maryland
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jett was designated a Naval Aviator in March 1983, and reported to VF-101 at Naval Air Station Oceana, Virginia for initial F-14 Tomcat training.	</value>
+
+		<annotated-sentence>	Jett was designated [[a Naval Aviator|United_States_Naval_Aviator]] in [[March 1983|1983]], and reported to [[VF-101|VF-101]] at [[Naval Air Station Oceana|Naval_Air_Station_Oceana]], [[Virginia|Virginia]] for initial [[F-14 Tomcat|Grumman_F-14_Tomcat]] [[training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jett was designated a Naval Aviator in March 1983, and reported to VF-101 at [[Naval Air Station Oceana|Naval_Air_Station_Oceana]], [[Virginia|Virginia]] for initial F-14 Tomcat training.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(designated/VBN-3,Jett/NNP-1)
+				nsubjpass(reported/VBD-12,Jett/NNP-1)
+				auxpass(designated/VBN-3,was/VBD-2)
+				det(Aviator/NNP-6,a/DT-4)
+				nn(Aviator/NNP-6,Naval/NNP-5)
+				dobj(designated/VBN-3,Aviator/NNP-6)
+				prep_in(Aviator/NNP-6,March/NNP-8)
+				num(March/NNP-8,1983/CD-9)
+				conj_and(designated/VBN-3,reported/VBD-12)
+				prep_to(reported/VBD-12,VF-101/NN-14)
+				nn(Oceana/NNP-19,Naval/NNP-16)
+				nn(Oceana/NNP-19,Air/NNP-17)
+				nn(Oceana/NNP-19,Station/NNP-18)
+				prep_at(reported/VBD-12,Oceana/NNP-19)
+				appos(Oceana/NNP-19,Virginia/NNP-21)
+				amod(training/NN-26,initial/JJ-23)
+				nn(training/NN-26,F-14/NN-24)
+				nn(training/NN-26,Tomcat/NN-25)
+				prep_for(Virginia/NNP-21,training/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Naval Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-101</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-101</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval Air Station Oceana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_Oceana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-14 Tomcat</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grumman_F-14_Tomcat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Naval_Air_Station_Oceana http://dbpedia.org/ontology/location http://dbpedia.org/resource/Virginia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon completion of this training, he was assigned to VF-74 and made overseas deployments to the Mediterranean Sea and Indian Ocean aboard the USS Saratoga.	</value>
+
+		<annotated-sentence>	Upon completion of [[this training|Training]], he was assigned to [[VF-74|VF-74]] and made overseas deployments to [[the Mediterranean Sea|Mediterranean_Sea]] and [[Indian Ocean|Indian_Ocean]] aboard [[the USS Saratoga|USS_Saratoga]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon completion of this training, he was assigned to VF-74 and made overseas deployments to the Mediterranean Sea and Indian Ocean aboard the USS Saratoga.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_upon(assigned/VBN-9,completion/NN-2)
+				det(training/NN-5,this/DT-4)
+				prep_of(completion/NN-2,training/NN-5)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				nsubjpass(made/VBD-13,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				prep_to(assigned/VBN-9,VF-74/NN-11)
+				conj_and(assigned/VBN-9,made/VBD-13)
+				amod(deployments/NNS-15,overseas/JJ-14)
+				dobj(made/VBD-13,deployments/NNS-15)
+				det(Sea/NNP-19,the/DT-17)
+				nn(Sea/NNP-19,Mediterranean/NNP-18)
+				prep_to(made/VBD-13,Sea/NNP-19)
+				nn(Ocean/NNP-22,Indian/NNP-21)
+				prep_to(made/VBD-13,Ocean/NNP-22)
+				conj_and(Sea/NNP-19,Ocean/NNP-22)
+				det(Saratoga/NNP-26,the/DT-24)
+				nn(Saratoga/NNP-26,USS/NNP-25)
+				prep_aboard(made/VBD-13,Saratoga/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-74</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-74</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mediterranean Sea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mediterranean_Sea</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Indian Ocean</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indian_Ocean</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USS Saratoga</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Saratoga</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While assigned to VF-74, he was designated as an airwing qualified Landing Signal Officer (LSO) and also attended the Navy Fighter Weapons School (TOPGUN).	</value>
+
+		<annotated-sentence>	While assigned to [[VF-74|VF-74]], he was designated as [[an airwing|Airwing]] qualified [[Landing Signal Officer|Landing_Signal_Officer]] ([[LSO|Landing_Signal_Officer]]) and also attended [[the Navy Fighter Weapons School|United_States_Navy_Strike_Fighter_Tactics_Instructor_program]] ([[TOPGUN|United_States_Navy_Strike_Fighter_Tactics_Instructor_program]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	While assigned to VF-74, he was designated as an airwing qualified Landing Signal Officer (LSO) and also attended the Navy Fighter Weapons School (TOPGUN).	</pattern_crowdsource>
+
+
+		<tree>
+				mark(assigned/VBN-2,While/IN-1)
+				advcl(designated/VBN-8,assigned/VBN-2)
+				prep_to(assigned/VBN-2,VF-74/NN-4)
+				nsubjpass(designated/VBN-8,he/PRP-6)
+				auxpass(designated/VBN-8,was/VBD-7)
+				mark(qualified/VBD-12,as/IN-9)
+				det(airwing/NN-11,an/DT-10)
+				nsubj(qualified/VBD-12,airwing/NN-11)
+				nsubj(attended/VBD-21,airwing/NN-11)
+				advcl(designated/VBN-8,qualified/VBD-12)
+				nn(Officer/NNP-15,Landing/NN-13)
+				nn(Officer/NNP-15,Signal/NN-14)
+				dobj(qualified/VBD-12,Officer/NNP-15)
+				appos(Officer/NNP-15,LSO/NNP-17)
+				advmod(attended/VBD-21,also/RB-20)
+				advcl(designated/VBN-8,attended/VBD-21)
+				conj_and(qualified/VBD-12,attended/VBD-21)
+				det(School/NNP-26,the/DT-22)
+				nn(School/NNP-26,Navy/NNP-23)
+				nn(School/NNP-26,Fighter/NNP-24)
+				nn(School/NNP-26,Weapons/NNP-25)
+				dobj(attended/VBD-21,School/NNP-26)
+				appos(School/NNP-26,TOPGUN/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>VF-74</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-74</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an airwing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airwing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Landing Signal Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Landing_Signal_Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>LSO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Landing_Signal_Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Navy Fighter Weapons School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Strike_Fighter_Tactics_Instructor_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TOPGUN</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Strike_Fighter_Tactics_Instructor_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jett was selected for the Naval Postgraduate School - Test Pilot School Cooperative Education Program in July 1986, and completed 15 months of graduate work at Monterey, California, before attending the U.S. Naval Test Pilot School in June 1989.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Jett/NNP-1)
+				nsubjpass(completed/VBN-21,Jett/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(School/NNP-8,the/DT-5)
+				nn(School/NNP-8,Naval/NNP-6)
+				nn(School/NNP-8,Postgraduate/NNP-7)
+				prep_for(selected/VBN-3,School/NNP-8)
+				nn(Program/NNP-15,Test/NNP-10)
+				nn(Program/NNP-15,Pilot/NN-11)
+				nn(Program/NNP-15,School/NNP-12)
+				nn(Program/NNP-15,Cooperative/NNP-13)
+				nn(Program/NNP-15,Education/NNP-14)
+				dep(School/NNP-8,Program/NNP-15)
+				prep_in(Program/NNP-15,July/NNP-17)
+				num(July/NNP-17,1986/CD-18)
+				conj_and(selected/VBN-3,completed/VBN-21)
+				num(months/NNS-23,15/CD-22)
+				dobj(completed/VBN-21,months/NNS-23)
+				amod(work/NN-26,graduate/JJ-25)
+				prep_of(months/NNS-23,work/NN-26)
+				nn(California/NNP-30,Monterey/NNP-28)
+				prep_at(completed/VBN-21,California/NNP-30)
+				prepc_before(completed/VBN-21,attending/VBG-33)
+				det(School/NNP-39,the/DT-34)
+				nn(School/NNP-39,U.S./NNP-35)
+				nn(School/NNP-39,Naval/NNP-36)
+				nn(School/NNP-39,Test/NNP-37)
+				nn(School/NNP-39,Pilot/NN-38)
+				dobj(attending/VBG-33,School/NNP-39)
+				prep_in(School/NNP-39,June/NNP-41)
+				num(June/NNP-41,1989/CD-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation in June 1990, he worked as a project test pilot at the Carrier Stability Department of the Strike Aircraft Test Directorate, Naval Air Test Center, flying the F-14A/B/D, T-45A, and A-7E.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(worked/VBD-8,graduation/NN-2)
+				prep_in(graduation/NN-2,June/NNP-4)
+				num(June/NNP-4,1990/CD-5)
+				nsubj(worked/VBD-8,he/PRP-7)
+				det(pilot/NN-13,a/DT-10)
+				nn(pilot/NN-13,project/NN-11)
+				nn(pilot/NN-13,test/NN-12)
+				prep_as(worked/VBD-8,pilot/NN-13)
+				det(Department/NNP-18,the/DT-15)
+				nn(Department/NNP-18,Carrier/NN-16)
+				nn(Department/NNP-18,Stability/NN-17)
+				prep_at(pilot/NN-13,Department/NNP-18)
+				det(Strike/NN-21,the/DT-20)
+				prep_of(pilot/NN-13,Strike/NN-21)
+				nn(Directorate/NNP-24,Aircraft/NNP-22)
+				nn(Directorate/NNP-24,Test/NNP-23)
+				tmod(worked/VBD-8,Directorate/NNP-24)
+				nn(Center/NNP-29,Naval/NNP-26)
+				nn(Center/NNP-29,Air/NNP-27)
+				nn(Center/NNP-29,Test/NNP-28)
+				appos(Directorate/NNP-24,Center/NNP-29)
+				partmod(worked/VBD-8,flying/VBG-31)
+				det(F-14A/NN-33,the/DT-32)
+				dobj(flying/VBG-31,F-14A/NN-33)
+				punct(F-14A/NN-33,//:-34)
+				dep(F-14A/NN-33,B/D/NN-35)
+				dep(F-14A/NN-33,T-45A/NN-37)
+				conj_and(B/D/NN-35,T-45A/NN-37)
+				dep(F-14A/NN-33,A-7E/NN-40)
+				conj_and(B/D/NN-35,A-7E/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jett returned to the operational Navy in September 1991 and was again assigned to VF-74, flying the F-14B aboard the USS Saratoga.	</value>
+
+		<annotated-sentence>	Jett returned to the operational [[Navy|United_States_Navy]] in [[September 1991|1991]] and was again assigned to [[VF-74|VF-74]], flying [[the F-14B|Grumman_F-14_Tomcat]] aboard [[the USS Saratoga|USS_Saratoga]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jett returned to the operational [[Navy|United_States_Navy]] in September 1991 and was again assigned to [[VF-74|VF-74]], flying the F-14B aboard the USS Saratoga.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,Jett/NNP-1)
+				nsubjpass(assigned/VBN-13,Jett/NNP-1)
+				det(Navy/NNP-6,the/DT-4)
+				amod(Navy/NNP-6,operational/JJ-5)
+				prep_to(returned/VBD-2,Navy/NNP-6)
+				prep_in(returned/VBD-2,September/NNP-8)
+				num(September/NNP-8,1991/CD-9)
+				auxpass(assigned/VBN-13,was/VBD-11)
+				advmod(assigned/VBN-13,again/RB-12)
+				conj_and(returned/VBD-2,assigned/VBN-13)
+				prep_to(assigned/VBN-13,VF-74/NN-15)
+				xcomp(assigned/VBN-13,flying/VBG-17)
+				det(F-14B/NN-19,the/DT-18)
+				dobj(flying/VBG-17,F-14B/NN-19)
+				det(Saratoga/NNP-23,the/DT-21)
+				nn(Saratoga/NNP-23,USS/NNP-22)
+				prep_aboard(flying/VBG-17,Saratoga/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-74</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VF-74</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-14B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grumman_F-14_Tomcat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USS Saratoga</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Saratoga</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/VF-74 http://dbpedia.org/ontology/militaryBranch http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 4,000 flight hours in more than 30 different aircraft and has over 450 carrier landings.	</value>
+
+		<annotated-sentence>	He has logged over 4,000 [[flight|Flight]] [[hours|Hour]] in more than 30 different [[aircraft|Aircraft]] and has over 450 carrier [[landings|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 4,000 flight hours in more than 30 different aircraft and has over 450 carrier landings.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-15,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,4,000/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				mwe(than/IN-10,more/JJR-9)
+				quantmod(30/CD-11,than/IN-10)
+				num(aircraft/NN-13,30/CD-11)
+				amod(aircraft/NN-13,different/JJ-12)
+				prep_in(hours/NNS-7,aircraft/NN-13)
+				conj_and(logged/VBN-3,has/VBZ-15)
+				advmod(has/VBZ-15,over/RP-16)
+				num(landings/NNS-19,450/CD-17)
+				nn(landings/NNS-19,carrier/NN-18)
+				dobj(has/VBZ-15,landings/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in March 1992, Jett reported to the Johnson Space Center in August 1992.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[March 1992|1992]], [[Jett|Brent_W._Jett,_Jr.]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[August 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in March 1992, [[Jett|Brent_W._Jett,_Jr.]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in August 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-9,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,March/NNP-5)
+				num(March/NNP-5,1992/CD-6)
+				nsubj(reported/VBD-9,Jett/NNP-8)
+				det(Center/NNP-14,the/DT-11)
+				nn(Center/NNP-14,Johnson/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_to(reported/VBD-9,Center/NNP-14)
+				prep_in(reported/VBD-9,August/NNP-16)
+				num(August/NNP-16,1992/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jett</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brent_W._Jett,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After two years of various technical assignments in the Astronaut Office, Jett was assigned to his first mission as the pilot of STS-72.	</value>
+
+		<annotated-sentence>	After [[two years|Year]] of various technical assignments in [[the Astronaut Office|NASA_Astronaut_Corps]], Jett was assigned to his first mission as the pilot of [[STS-72|STS-72]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After two years of various technical assignments in the Astronaut Office, Jett was assigned to his first mission as the pilot of STS-72.	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-3,two/CD-2)
+				prep_after(assigned/VBN-15,years/NNS-3)
+				amod(assignments/NNS-7,various/JJ-5)
+				amod(assignments/NNS-7,technical/JJ-6)
+				prep_of(years/NNS-3,assignments/NNS-7)
+				det(Office/NNP-11,the/DT-9)
+				nn(Office/NNP-11,Astronaut/NNP-10)
+				prep_in(assignments/NNS-7,Office/NNP-11)
+				nsubjpass(assigned/VBN-15,Jett/NNP-13)
+				auxpass(assigned/VBN-15,was/VBD-14)
+				poss(mission/NN-19,his/PRP$-17)
+				amod(mission/NN-19,first/JJ-18)
+				prep_to(assigned/VBN-15,mission/NN-19)
+				det(pilot/NN-22,the/DT-21)
+				prep_as(assigned/VBN-15,pilot/NN-22)
+				prep_of(pilot/NN-22,STS-72/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-72</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-72</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A year later he again served as pilot on STS-81.	</value>
+
+		<annotated-sentence>	[[A year|Year]] later he again served as pilot on [[STS-81|STS-81]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A year later he again served as pilot on STS-81.	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-2,A/DT-1)
+				npadvmod(later/RB-3,year/NN-2)
+				advmod(served/VBD-6,later/RB-3)
+				nsubj(served/VBD-6,he/PRP-4)
+				advmod(served/VBD-6,again/RB-5)
+				prep_as(served/VBD-6,pilot/NN-8)
+				prep_on(served/VBD-6,STS-81/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>A year</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-81</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-81</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From June 1997 to February 1998, he served as NASA Director of Operations at the Yuri Gagarin Cosmonaut Training Center, Star City, Russia.	</value>
+
+		<annotated-sentence>	From [[June 1997|1997]] to [[February 1998|1998]], he served as [[NASA|NASA]] Director of Operations at [[the Yuri Gagarin Cosmonaut Training Center|Yuri_Gagarin_Cosmonaut_Training_Center]], Star City, [[Russia|Russia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From June 1997 to February 1998, he served as NASA Director of Operations at the Yuri Gagarin Cosmonaut Training Center, Star City, Russia.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(served/VBD-9,June/NNP-2)
+				num(June/NNP-2,1997/CD-3)
+				prep_to(June/NNP-2,February/NNP-5)
+				num(February/NNP-5,1998/CD-6)
+				nsubj(served/VBD-9,he/PRP-8)
+				nn(Director/NNP-12,NASA/NNP-11)
+				prep_as(served/VBD-9,Director/NNP-12)
+				prep_of(Director/NNP-12,Operations/NNP-14)
+				det(Center/NNP-21,the/DT-16)
+				nn(Center/NNP-21,Yuri/NNP-17)
+				nn(Center/NNP-21,Gagarin/NNP-18)
+				nn(Center/NNP-21,Cosmonaut/NNP-19)
+				nn(Center/NNP-21,Training/NNP-20)
+				prep_at(served/VBD-9,Center/NNP-21)
+				nn(City/NNP-24,Star/NNP-23)
+				appos(Center/NNP-21,City/NNP-24)
+				appos(City/NNP-24,Russia/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Yuri Gagarin Cosmonaut Training Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Gagarin_Cosmonaut_Training_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Two years later he was the Commander on STS-97.	</value>
+
+		<annotated-sentence>	Two [[years|Year]] later he was [[the Commander|Commander]] on [[STS-97|STS-97]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Two years later he was the Commander on STS-97.	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-2,Two/CD-1)
+				npadvmod(later/RB-3,years/NNS-2)
+				advmod(Commander/NNP-7,later/RB-3)
+				nsubj(Commander/NNP-7,he/PRP-4)
+				cop(Commander/NNP-7,was/VBD-5)
+				det(Commander/NNP-7,the/DT-6)
+				prep_on(Commander/NNP-7,STS-97/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-97</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-97</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Finally, he served as the Commander of Space Shuttle Atlantis on STS-115.	</value>
+
+		<annotated-sentence>	Finally, he served as [[the Commander|Commander]] of [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] on [[STS-115|STS-115]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Finally, he served as the Commander of Space Shuttle Atlantis on STS-115.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(served/VBD-4,Finally/RB-1)
+				nsubj(served/VBD-4,he/PRP-3)
+				det(Commander/NNP-7,the/DT-6)
+				prep_as(served/VBD-4,Commander/NNP-7)
+				nn(Atlantis/NNP-11,Space/NNP-9)
+				nn(Atlantis/NNP-11,Shuttle/NNP-10)
+				prep_of(Commander/NNP-7,Atlantis/NNP-11)
+				prep_on(served/VBD-4,STS-115/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-115</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-115</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space missions, he has traveled over 12.1 million miles, and logged a total of 41 days, 18 hours, and 1 minute in space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				ccomp(traveled/VBN-10,veteran/NN-2)
+				num(missions/NNS-6,four/CD-4)
+				nn(missions/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,missions/NNS-6)
+				nsubj(traveled/VBN-10,he/PRP-8)
+				nsubj(logged/VBD-17,he/PRP-8)
+				aux(traveled/VBN-10,has/VBZ-9)
+				number(million/CD-13,12.1/CD-12)
+				num(miles/NNS-14,million/CD-13)
+				prep_over(traveled/VBN-10,miles/NNS-14)
+				conj_and(traveled/VBN-10,logged/VBD-17)
+				det(total/NN-19,a/DT-18)
+				dobj(logged/VBD-17,total/NN-19)
+				num(days/NNS-22,41/CD-21)
+				prep_of(total/NN-19,days/NNS-22)
+				num(hours/NNS-25,18/CD-24)
+				prep_of(total/NN-19,hours/NNS-25)
+				conj_and(days/NNS-22,hours/NNS-25)
+				num(minute/NN-29,1/CD-28)
+				prep_of(total/NN-19,minute/NN-29)
+				conj_and(days/NNS-22,minute/NN-29)
+				prep_in(logged/VBD-17,space/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jett retired from the U.S. Navy in July 2007, but remained with NASA.	</value>
+
+		<annotated-sentence>	[[Jett|Brent_W._Jett,_Jr.]] retired from [[the U.S. Navy|United_States_Navy]] in [[July 2007|July_2007]], but remained with [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Jett|Brent_W._Jett,_Jr.]] retired from [[the U.S. Navy|United_States_Navy]] in July 2007, but remained with [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Jett/NNP-1)
+				nsubj(remained/VBD-12,Jett/NNP-1)
+				det(Navy/NNP-6,the/DT-4)
+				nn(Navy/NNP-6,U.S./NNP-5)
+				prep_from(retired/VBD-2,Navy/NNP-6)
+				prep_in(retired/VBD-2,July/NNP-8)
+				num(July/NNP-8,2007/CD-9)
+				conj_but(retired/VBD-2,remained/VBD-12)
+				prep_with(remained/VBD-12,NASA/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jett</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brent_W._Jett,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Brent_W._Jett,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In November 2007, he was appointed as Director of Flight Crew Operations, a position he currently holds.	</value>
+
+		<annotated-sentence>	In [[November 2007|November_2007]], he was appointed as Director of [[Flight Crew|Aircrew]] Operations, a position he currently holds.	</annotated-sentence>
+
+		<pattern_crowdsource>	In November 2007, he was appointed as Director of Flight Crew Operations, a position he currently holds.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appointed/VBN-7,November/NNP-2)
+				num(November/NNP-2,2007/CD-3)
+				nsubjpass(appointed/VBN-7,he/PRP-5)
+				auxpass(appointed/VBN-7,was/VBD-6)
+				prep_as(appointed/VBN-7,Director/NN-9)
+				nn(Operations/NNP-13,Flight/NNP-11)
+				nn(Operations/NNP-13,Crew/NNP-12)
+				prep_of(Director/NN-9,Operations/NNP-13)
+				det(position/NN-16,a/DT-15)
+				appos(Operations/NNP-13,position/NN-16)
+				nsubj(holds/VBZ-19,he/PRP-17)
+				advmod(holds/VBZ-19,currently/RB-18)
+				rcmod(position/NN-16,holds/VBZ-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>November 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-72: Endeavour (January 11–20, 1996) was a 9-day flight during which the crew retrieved the Space Flyer Unit (launched from Japan 10-months earlier), deployed and retrieved the OAST-Flyer, and conducted two spacewalks to demonstrate and evaluate techniques to be used in the assembly of the International Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flight/NN-15,Endeavour/NNP-3)
+				dep(Endeavour/NNP-3,January/NNP-5)
+				num(January/NNP-5,11/CD-6)
+				dep(January/NNP-5,20/CD-8)
+				amod(20/CD-8,1996/CD-10)
+				cop(flight/NN-15,was/VBD-12)
+				det(flight/NN-15,a/DT-13)
+				amod(flight/NN-15,9-day/JJ-14)
+				dep(STS-72/NN-1,flight/NN-15)
+				prep_during(retrieved/VBD-20,which/WDT-17)
+				det(crew/NN-19,the/DT-18)
+				nsubj(retrieved/VBD-20,crew/NN-19)
+				rcmod(flight/NN-15,retrieved/VBD-20)
+				det(Space/NN-22,the/DT-21)
+				dobj(retrieved/VBD-20,Space/NN-22)
+				nn(Unit/NNP-24,Flyer/NNP-23)
+				dep(Space/NN-22,Unit/NNP-24)
+				dep(Space/NN-22,launched/VBN-26)
+				prep_from(launched/VBN-26,Japan/NNP-28)
+				npadvmod(earlier/RBR-30,10-months/NNS-29)
+				advmod(launched/VBN-26,earlier/RBR-30)
+				dep(Space/NN-22,deployed/VBN-33)
+				dep(Space/NN-22,retrieved/VBN-35)
+				conj_and(deployed/VBN-33,retrieved/VBN-35)
+				det(OAST-Flyer/NN-37,the/DT-36)
+				dobj(deployed/VBN-33,OAST-Flyer/NN-37)
+				dep(Space/NN-22,conducted/VBN-40)
+				conj_and(deployed/VBN-33,conducted/VBN-40)
+				num(spacewalks/NNS-42,two/CD-41)
+				dobj(conducted/VBN-40,spacewalks/NNS-42)
+				aux(demonstrate/VB-44,to/TO-43)
+				xcomp(conducted/VBN-40,demonstrate/VB-44)
+				xcomp(conducted/VBN-40,evaluate/VB-46)
+				conj_and(demonstrate/VB-44,evaluate/VB-46)
+				dobj(demonstrate/VB-44,techniques/NNS-47)
+				aux(used/VBN-50,to/TO-48)
+				auxpass(used/VBN-50,be/VB-49)
+				xcomp(demonstrate/VB-44,used/VBN-50)
+				det(assembly/NN-53,the/DT-52)
+				prep_in(used/VBN-50,assembly/NN-53)
+				det(Station/NNP-58,the/DT-55)
+				nn(Station/NNP-58,International/NNP-56)
+				nn(Station/NNP-58,Space/NNP-57)
+				prep_of(assembly/NN-53,Station/NNP-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-81: Atlantis (January 12–22, 1997) was the fifth in a series of joint missions between the U.S. Space Shuttle and the Russian Space Station Mir and the second one involving an exchange of U.S. astronauts.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Mir/NNS-31,Atlantis/NNP-3)
+				dep(Atlantis/NNP-3,January/NNP-5)
+				num(January/NNP-5,12/CD-6)
+				dep(January/NNP-5,22/CD-8)
+				amod(22/CD-8,1997/CD-10)
+				cop(Mir/NNS-31,was/VBD-12)
+				det(Mir/NNS-31,the/DT-13)
+				amod(Mir/NNS-31,fifth/JJ-14)
+				det(series/NN-17,a/DT-16)
+				prep_in(fifth/JJ-14,series/NN-17)
+				amod(missions/NNS-20,joint/JJ-19)
+				prep_of(series/NN-17,missions/NNS-20)
+				dep(Shuttle/NNP-25,the/DT-22)
+				nn(Shuttle/NNP-25,U.S./NNP-23)
+				nn(Shuttle/NNP-25,Space/NN-24)
+				prep_between(missions/NNS-20,Shuttle/NNP-25)
+				det(Space/NN-29,the/DT-27)
+				amod(Space/NN-29,Russian/JJ-28)
+				prep_between(missions/NNS-20,Space/NN-29)
+				conj_and(Shuttle/NNP-25,Space/NN-29)
+				nn(Mir/NNS-31,Station/NNP-30)
+				dep(STS-81/NN-1,Mir/NNS-31)
+				det(one/CD-35,the/DT-33)
+				amod(one/CD-35,second/JJ-34)
+				dep(STS-81/NN-1,one/CD-35)
+				conj_and(Mir/NNS-31,one/CD-35)
+				det(exchange/NN-38,an/DT-37)
+				prep_involving(one/CD-35,exchange/NN-38)
+				nn(astronauts/NNS-41,U.S./NNP-40)
+				prep_of(exchange/NN-38,astronauts/NNS-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In five days of docked operations more than three tons of food, water, experiment equipment and samples were moved back and forth between the two spacecraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(days/NNS-3,five/CD-2)
+				prep_in(moved/VBN-21,days/NNS-3)
+				prepc_of(days/NNS-3,docked/VBN-5)
+				dobj(docked/VBN-5,operations/NNS-6)
+				advmod(than/IN-8,more/RBR-7)
+				quantmod(three/CD-9,than/IN-8)
+				num(tons/NNS-10,three/CD-9)
+				nsubjpass(moved/VBN-21,tons/NNS-10)
+				nn(equipment/NN-17,food/NN-12)
+				prep_of(tons/NNS-10,water/NN-14)
+				conj_and(equipment/NN-17,water/NN-14)
+				prep_of(tons/NNS-10,experiment/NN-16)
+				conj_and(equipment/NN-17,experiment/NN-16)
+				prep_of(tons/NNS-10,equipment/NN-17)
+				prep_of(tons/NNS-10,samples/NNS-19)
+				conj_and(equipment/NN-17,samples/NNS-19)
+				auxpass(moved/VBN-21,were/VBD-20)
+				advmod(moved/VBN-21,back/RB-22)
+				advmod(moved/VBN-21,forth/RB-24)
+				conj_and(back/RB-22,forth/RB-24)
+				det(spacecraft/NN-28,the/DT-26)
+				num(spacecraft/NN-28,two/CD-27)
+				prep_between(moved/VBN-21,spacecraft/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-97: Endeavour (November 30 to December 11, 2000) was the fifth American mission to build and enhance the capabilities of the International Space Station.	</value>
+
+		<annotated-sentence>	[[STS-97|STS-97]]: [[Endeavour|Endeavour]] ([[November 30|November_30]] to December 11, 2000) was the fifth American mission to build and enhance the capabilities of [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	STS-97: Endeavour (November 30 to December 11, 2000) was the fifth American mission to build and enhance the capabilities of the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-17,Endeavour/NNP-3)
+				dep(Endeavour/NNP-3,November/NNP-5)
+				num(November/NNP-5,30/CD-6)
+				prep_to(November/NNP-5,December/NNP-8)
+				num(December/NNP-8,11/CD-9)
+				num(December/NNP-8,2000/CD-11)
+				cop(mission/NN-17,was/VBD-13)
+				det(mission/NN-17,the/DT-14)
+				amod(mission/NN-17,fifth/JJ-15)
+				amod(mission/NN-17,American/JJ-16)
+				dep(STS-97/NN-1,mission/NN-17)
+				aux(build/VB-19,to/TO-18)
+				infmod(mission/NN-17,build/VB-19)
+				infmod(mission/NN-17,enhance/VB-21)
+				conj_and(build/VB-19,enhance/VB-21)
+				det(capabilities/NNS-23,the/DT-22)
+				dobj(build/VB-19,capabilities/NNS-23)
+				det(Station/NNP-28,the/DT-25)
+				nn(Station/NNP-28,International/NNP-26)
+				nn(Station/NNP-28,Space/NNP-27)
+				prep_of(capabilities/NNS-23,Station/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-97</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-97</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 30</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_30</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-97 delivered the first set of U.S.-provided solar arrays and batteries as well as radiators to provide cooling.	</value>
+
+		<annotated-sentence>	[[STS-97|STS-97]] delivered the first set of U.S.-provided solar arrays and batteries as well as [[radiators|Radiator]] to provide cooling.	</annotated-sentence>
+
+		<pattern_crowdsource>	STS-97 delivered the first set of U.S.-provided solar arrays and batteries as well as radiators to provide cooling.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-2,STS-97/NN-1)
+				det(set/NN-5,the/DT-3)
+				amod(set/NN-5,first/JJ-4)
+				dobj(delivered/VBD-2,set/NN-5)
+				amod(arrays/NNS-9,U.S.-provided/JJ-7)
+				amod(arrays/NNS-9,solar/JJ-8)
+				prep_of(set/NN-5,arrays/NNS-9)
+				prep_of(set/NN-5,batteries/NNS-11)
+				conj_and(arrays/NNS-9,batteries/NNS-11)
+				conj_and(arrays/NNS-9,radiators/NNS-15)
+				conj_and(batteries/NNS-11,radiators/NNS-15)
+				aux(provide/VB-17,to/TO-16)
+				xcomp(delivered/VBD-2,provide/VB-17)
+				dobj(provide/VB-17,cooling/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-97</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-97</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>radiators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radiator</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Three spacewalks were conducted to complete assembly operations while the arrays were attached and unfurled.	</value>
+
+		<annotated-sentence>	[[Three|Lexie_Grey]] [[spacewalks|Spacewalk_(software)]] were conducted to complete assembly [[operations|Surgery]] while the arrays were attached and unfurled.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Three|Lexie_Grey]] spacewalks were conducted to complete assembly [[operations|Surgery]] while the arrays were attached and unfurled.	</pattern_crowdsource>
+
+
+		<tree>
+				num(spacewalks/NNS-2,Three/CD-1)
+				nsubjpass(conducted/VBN-4,spacewalks/NNS-2)
+				auxpass(conducted/VBN-4,were/VBD-3)
+				aux(complete/VB-6,to/TO-5)
+				xcomp(conducted/VBN-4,complete/VB-6)
+				nn(operations/NNS-8,assembly/NN-7)
+				dobj(complete/VB-6,operations/NNS-8)
+				mark(attached/VBN-13,while/IN-9)
+				det(arrays/NNS-11,the/DT-10)
+				nsubjpass(attached/VBN-13,arrays/NNS-11)
+				nsubjpass(unfurled/VBN-15,arrays/NNS-11)
+				auxpass(attached/VBN-13,were/VBD-12)
+				advcl(complete/VB-6,attached/VBN-13)
+				advcl(complete/VB-6,unfurled/VBN-15)
+				conj_and(attached/VBN-13,unfurled/VBN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Three</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lexie_Grey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Surgery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lexie_Grey http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Surgery
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A communications system for voice and telemetry was also installed.	</value>
+
+		<annotated-sentence>	A [[communications system|Communications_system]] for [[voice and telemetry|Telemetry]] was also installed.	</annotated-sentence>
+
+		<pattern_crowdsource>	A communications system for voice and telemetry was also installed.	</pattern_crowdsource>
+
+
+		<tree>
+				det(system/NN-3,A/DT-1)
+				nn(system/NN-3,communications/NNS-2)
+				nsubjpass(installed/VBN-10,system/NN-3)
+				prep_for(system/NN-3,voice/NN-5)
+				prep_for(system/NN-3,telemetry/NN-7)
+				conj_and(voice/NN-5,telemetry/NN-7)
+				auxpass(installed/VBN-10,was/VBD-8)
+				advmod(installed/VBN-10,also/RB-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>communications system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_system</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>voice and telemetry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Telemetry</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-115: Atlantis (September 9, 2006 - September 21, 2006) was the first assembly mission to the International Space Station after the Columbia disaster.	</value>
+
+		<annotated-sentence>	[[STS-115|STS-115]]: [[Atlantis|Atlantis]] ([[September|September]] 9, 2006 - [[September|September]] 21, 2006) was the first assembly mission to [[the International Space Station|International_Space_Station]] after [[the Columbia disaster|Space_Shuttle_Columbia_disaster]].	</annotated-sentence>
+
+		<pattern_crowdsource>	STS-115: Atlantis (September 9, 2006 - September 21, 2006) was the first assembly mission to the International Space Station after the Columbia disaster.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-19,Atlantis/NNP-3)
+				dep(Atlantis/NNP-3,September/NNP-5)
+				num(September/NNP-5,9/CD-6)
+				num(September/NNP-5,2006/CD-8)
+				dep(September/NNP-5,September/NNP-10)
+				num(September/NNP-10,21/CD-11)
+				num(September/NNP-10,2006/CD-13)
+				cop(mission/NN-19,was/VBD-15)
+				det(mission/NN-19,the/DT-16)
+				amod(mission/NN-19,first/JJ-17)
+				nn(mission/NN-19,assembly/NN-18)
+				dep(STS-115/NNP-1,mission/NN-19)
+				det(Station/NNP-24,the/DT-21)
+				nn(Station/NNP-24,International/NNP-22)
+				nn(Station/NNP-24,Space/NNP-23)
+				prep_to(mission/NN-19,Station/NNP-24)
+				det(disaster/NN-28,the/DT-26)
+				nn(disaster/NN-28,Columbia/NNP-27)
+				prep_after(mission/NN-19,disaster/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-115</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-115</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Columbia disaster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia_disaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-115 delivered a new truss segment, including solar panels, to the station.	</value>
+
+		<annotated-sentence>	[[STS-115|STS-115]] delivered a new [[truss|Truss]] [[segment|Transmission_Control_Protocol]], including solar panels, to [[the station|Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	STS-115 delivered a new truss segment, including solar panels, to the station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-2,STS-115/NN-1)
+				det(segment/NN-6,a/DT-3)
+				amod(segment/NN-6,new/JJ-4)
+				nn(segment/NN-6,truss/NN-5)
+				dobj(delivered/VBD-2,segment/NN-6)
+				amod(panels/NNS-10,solar/JJ-9)
+				prep_including(segment/NN-6,panels/NNS-10)
+				det(station/NN-14,the/DT-13)
+				prep_to(delivered/VBD-2,station/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-115</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-115</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>truss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Truss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>segment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transmission_Control_Protocol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

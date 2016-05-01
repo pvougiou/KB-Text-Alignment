@@ -1,0 +1,6350 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Edwin Eugene "Buzz" Aldrin, Jr. (born January 20, 1930) is a former American astronaut, and the second person to walk on the Moon.	</value>
+
+		<annotated-sentence>	[[Edwin|Buzz_Aldrin]] Eugene "[[Buzz|Buzz_Aldrin]]" [[Aldrin|Buzz_Aldrin]], Jr. (born [[January|January]] 20, 1930) is [[a former American astronaut|The_American_Astronaut]], and the second [[person|Person]] to walk on [[the Moon|Moon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Edwin|Buzz_Aldrin]] Eugene "[[Buzz|Buzz_Aldrin]]" [[Aldrin|Buzz_Aldrin]], Jr. (born January 20, 1930) is a former American astronaut, and the second [[person|Person]] to walk on the Moon.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Aldrin/NNP-6,Edwin/NNP-1)
+				nn(Aldrin/NNP-6,Eugene/NNP-2)
+				nn(Aldrin/NNP-6,Buzz/NNP-4)
+				nsubj(astronaut/NN-20,Aldrin/NNP-6)
+				appos(Aldrin/NNP-6,Jr./NNP-8)
+				dep(Aldrin/NNP-6,born/VBN-10)
+				tmod(born/VBN-10,January/NNP-11)
+				num(January/NNP-11,20/CD-12)
+				num(January/NNP-11,1930/CD-14)
+				cop(astronaut/NN-20,is/VBZ-16)
+				det(astronaut/NN-20,a/DT-17)
+				amod(astronaut/NN-20,former/JJ-18)
+				nn(astronaut/NN-20,American/NNP-19)
+				det(person/NN-25,the/DT-23)
+				amod(person/NN-25,second/JJ-24)
+				conj_and(astronaut/NN-20,person/NN-25)
+				aux(walk/VB-27,to/TO-26)
+				infmod(person/NN-25,walk/VB-27)
+				det(Moon/NNP-30,the/DT-29)
+				prep_on(walk/VB-27,Moon/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Buzz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the lunar module pilot on Apollo 11, the first manned lunar landing in history.	</value>
+
+		<annotated-sentence>	He was the [[lunar module|Apollo_Lunar_Module]] pilot on [[Apollo 11|Apollo_11]], [[the first manned lunar landing|Moon_landing]] in [[history|History]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the lunar module pilot on [[Apollo 11|Apollo_11]], the first manned lunar landing in history.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-6,He/PRP-1)
+				cop(pilot/NN-6,was/VBD-2)
+				det(pilot/NN-6,the/DT-3)
+				amod(pilot/NN-6,lunar/JJ-4)
+				nn(pilot/NN-6,module/NN-5)
+				prep_on(pilot/NN-6,Apollo/NNP-8)
+				num(Apollo/NNP-8,11/CD-9)
+				det(landing/NN-15,the/DT-11)
+				amod(landing/NN-15,first/JJ-12)
+				amod(landing/NN-15,manned/JJ-13)
+				amod(landing/NN-15,lunar/JJ-14)
+				dep(pilot/NN-6,landing/NN-15)
+				prep_in(landing/NN-15,history/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>lunar module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Lunar_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first manned lunar landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/History</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He set foot on the Moon at 03:15:16 (UTC) on July 21, 1969, following mission commander Neil Armstrong.	</value>
+
+		<annotated-sentence>	He set [[foot|Foot]] on [[the Moon|Moon]] at 03:15:16 ([[UTC|Westfield_UTC]]) on [[July|July]] 21, 1969, following mission [[commander|Commander]] [[Neil Armstrong|Neil_Armstrong]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He set foot on the Moon at 03:15:16 (UTC) on July 21, 1969, following mission commander Neil Armstrong.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(set/VBD-2,He/PRP-1)
+				dobj(set/VBD-2,foot/NN-3)
+				det(Moon/NNP-6,the/DT-5)
+				prep_on(set/VBD-2,Moon/NNP-6)
+				num(UTC/NN-10,03:15:16/CD-8)
+				prep_at(set/VBD-2,UTC/NN-10)
+				prep_on(UTC/NN-10,July/NNP-13)
+				num(July/NNP-13,21/CD-14)
+				num(July/NNP-13,1969/CD-16)
+				nn(Armstrong/NNP-22,mission/NN-19)
+				nn(Armstrong/NNP-22,commander/NN-20)
+				nn(Armstrong/NNP-22,Neil/NNP-21)
+				prep_following(set/VBD-2,Armstrong/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>foot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UTC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Westfield_UTC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Neil Armstrong</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Neil_Armstrong</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also a retired United States Air Force pilot.	</value>
+
+		<annotated-sentence>	He is also a retired [[United States Air Force|United_States_Air_Force]] pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also a retired United States Air Force pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(is/VBZ-2,He/PRP-1)
+				prep(is/VBZ-2,also/RB-3)
+				det(pilot/NN-10,a/DT-4)
+				amod(pilot/NN-10,retired/VBN-5)
+				nn(pilot/NN-10,United/NNP-6)
+				nn(pilot/NN-10,States/NNP-7)
+				nn(pilot/NN-10,Air/NNP-8)
+				nn(pilot/NN-10,Force/NNP-9)
+				pobj(also/RB-3,pilot/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin was born in Glen Ridge, New Jersey, to Edwin Eugene Aldrin, Sr., a career military man, and his wife Marion (née Moon).	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] was born in Glen Ridge, [[New Jersey|New_Jersey]], to [[Edwin Eugene Aldrin|Buzz_Aldrin]], Sr., a [[career|Soldier]] [[military man|Military_man]], and his [[wife|Wife]] Marion (née [[Moon|Moon]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin was born in Glen Ridge, New Jersey, to Edwin Eugene Aldrin, Sr., a career military man, and his wife Marion (née Moon).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Aldrin/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Ridge/NNP-6,Glen/NNP-5)
+				prep_in(born/VBN-3,Ridge/NNP-6)
+				nn(Jersey/NNP-9,New/NNP-8)
+				appos(Ridge/NNP-6,Jersey/NNP-9)
+				nn(Aldrin/NNP-14,Edwin/NNP-12)
+				nn(Aldrin/NNP-14,Eugene/NNP-13)
+				prep_to(born/VBN-3,Aldrin/NNP-14)
+				prep_to(born/VBN-3,Sr./NNP-16)
+				conj_and(Aldrin/NNP-14,Sr./NNP-16)
+				det(man/NN-21,a/DT-18)
+				nn(man/NN-21,career/NN-19)
+				amod(man/NN-21,military/JJ-20)
+				prep_to(born/VBN-3,man/NN-21)
+				conj_and(Aldrin/NNP-14,man/NN-21)
+				poss(Marion/NNP-26,his/PRP$-24)
+				nn(Marion/NNP-26,wife/NN-25)
+				prep_to(born/VBN-3,Marion/NNP-26)
+				conj_and(Aldrin/NNP-14,Marion/NNP-26)
+				advmod(Moon/NNP-29,née/RB-28)
+				appos(Marion/NNP-26,Moon/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Jersey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Jersey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwin Eugene Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soldier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>military man</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_man</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is of Scottish, Swedish, and German ancestry.	</value>
+
+		<annotated-sentence>	He is of Scottish, [[Swedish|Swedes]], and [[German ancestry|Germans]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is of Scottish, [[Swedish|Swedes]], and [[German ancestry|Germans]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(is/VBZ-2,He/PRP-1)
+				prep_of(is/VBZ-2,Scottish/NNP-4)
+				prep_of(is/VBZ-2,Swedish/NNP-6)
+				conj_and(Scottish/NNP-4,Swedish/NNP-6)
+				amod(ancestry/NN-10,German/JJ-9)
+				prep_of(is/VBZ-2,ancestry/NN-10)
+				conj_and(Scottish/NNP-4,ancestry/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Swedish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Swedes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>German ancestry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germans</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Germans http://dbpedia.org/ontology/related http://dbpedia.org/resource/Swedes
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from Montclair High School in 1946, Aldrin turned down a full scholarship offer from the Massachusetts Institute of Technology, and went to the United States Military Academy at West Point, New York.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(turned/VBD-11,graduating/VBG-2)
+				nn(School/NNP-6,Montclair/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduating/VBG-2,School/NNP-6)
+				prep_in(School/NNP-6,1946/CD-8)
+				nsubj(turned/VBD-11,Aldrin/NNP-10)
+				nsubj(went/VBD-25,Aldrin/NNP-10)
+				prt(turned/VBD-11,down/RP-12)
+				det(offer/NN-16,a/DT-13)
+				amod(offer/NN-16,full/JJ-14)
+				nn(offer/NN-16,scholarship/NN-15)
+				dobj(turned/VBD-11,offer/NN-16)
+				det(Institute/NNP-20,the/DT-18)
+				nn(Institute/NNP-20,Massachusetts/NNP-19)
+				prep_from(turned/VBD-11,Institute/NNP-20)
+				prep_of(Institute/NNP-20,Technology/NNP-22)
+				conj_and(turned/VBD-11,went/VBD-25)
+				det(Academy/NNP-31,the/DT-27)
+				nn(Academy/NNP-31,United/NNP-28)
+				nn(Academy/NNP-31,States/NNPS-29)
+				nn(Academy/NNP-31,Military/NNP-30)
+				prep_to(went/VBD-25,Academy/NNP-31)
+				nn(Point/NNP-34,West/NNP-33)
+				prep_at(went/VBD-25,Point/NNP-34)
+				nn(York/NNP-37,New/NNP-36)
+				appos(Point/NNP-34,York/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The nickname "Buzz" originated in childhood: the younger of his two elder sisters mispronounced "brother" as "buzzer", and this was shortened to Buzz.	</value>
+
+		<annotated-sentence>	The [[nickname|Nickname]] "Buzz" originated in [[childhood|Childhood]]: the younger of his two elder sisters mispronounced "brother" as "[[buzzer|Buzzer]]", and this was shortened to Buzz.	</annotated-sentence>
+
+		<pattern_crowdsource>	The nickname "Buzz" originated in childhood: the younger of his two elder sisters mispronounced "brother" as "buzzer", and this was shortened to Buzz.	</pattern_crowdsource>
+
+
+		<tree>
+				det(nickname/NN-2,The/DT-1)
+				nsubj(originated/VBN-6,nickname/NN-2)
+				dep(nickname/NN-2,Buzz/NNP-4)
+				prep_in(originated/VBN-6,childhood/NN-8)
+				det(younger/JJR-11,the/DT-10)
+				dep(childhood/NN-8,younger/JJR-11)
+				poss(sisters/NNS-16,his/PRP$-13)
+				num(sisters/NNS-16,two/CD-14)
+				amod(sisters/NNS-16,elder/JJR-15)
+				prep_of(younger/JJR-11,sisters/NNS-16)
+				partmod(sisters/NNS-16,mispronounced/VBN-17)
+				dobj(mispronounced/VBN-17,brother/NN-19)
+				prep_as(mispronounced/VBN-17,buzzer/NN-23)
+				nsubjpass(shortened/VBN-29,this/DT-27)
+				auxpass(shortened/VBN-29,was/VBD-28)
+				conj_and(originated/VBN-6,shortened/VBN-29)
+				prep_to(shortened/VBN-29,Buzz/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>nickname</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nickname</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>childhood</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Childhood</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>buzzer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzzer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin made it his legal first name in 1988.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] made it his legal first name in [[1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin made it his legal first name in 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,Aldrin/NNP-1)
+				nsubj(name/NN-7,it/PRP-3)
+				poss(name/NN-7,his/PRP$-4)
+				amod(name/NN-7,legal/JJ-5)
+				amod(name/NN-7,first/JJ-6)
+				xcomp(made/VBD-2,name/NN-7)
+				prep_in(name/NN-7,1988/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Buzz Aldrin graduated third in his class at West Point in 1951, with a Bachelor of Science degree in mechanical engineering.	</value>
+
+		<annotated-sentence>	[[Buzz Aldrin|Buzz_Aldrin]] graduated third in his class at West Point in [[1951|1951]], with [[a Bachelor of Science degree|Bachelor_of_Science]] in [[mechanical engineering|Mechanical_engineering]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Buzz Aldrin graduated third in his class at West Point in 1951, with a Bachelor of Science degree in mechanical engineering.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Aldrin/NNP-2,Buzz/NNP-1)
+				nsubj(graduated/VBD-3,Aldrin/NNP-2)
+				dobj(graduated/VBD-3,third/JJ-4)
+				poss(class/NN-7,his/PRP$-6)
+				prep_in(graduated/VBD-3,class/NN-7)
+				nn(Point/NNP-10,West/NNP-9)
+				prep_at(graduated/VBD-3,Point/NNP-10)
+				prep_in(Point/NNP-10,1951/CD-12)
+				det(Bachelor/NN-16,a/DT-15)
+				prep_with(graduated/VBD-3,Bachelor/NN-16)
+				nn(degree/NN-19,Science/NNP-18)
+				prep_of(Bachelor/NN-16,degree/NN-19)
+				amod(engineering/NN-22,mechanical/JJ-21)
+				prep_in(graduated/VBD-3,engineering/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Buzz Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1951</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1951</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mechanical engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanical_engineering</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was commissioned as a Second Lieutenant in the U.S. Air Force and served as a jet fighter pilot during the Korean War.	</value>
+
+		<annotated-sentence>	He was commissioned as a Second Lieutenant in [[the U.S. Air Force|United_States_Air_Force]] and served as a [[jet fighter|Fighter_aircraft]] pilot during [[the Korean War|Korean_War]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was commissioned as a Second Lieutenant in [[the U.S. Air Force|United_States_Air_Force]] and served as a jet fighter pilot during [[the Korean War|Korean_War]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(commissioned/VBN-3,He/PRP-1)
+				nsubjpass(served/VBD-14,He/PRP-1)
+				auxpass(commissioned/VBN-3,was/VBD-2)
+				det(Lieutenant/NN-7,a/DT-5)
+				amod(Lieutenant/NN-7,Second/JJ-6)
+				prep_as(commissioned/VBN-3,Lieutenant/NN-7)
+				det(Force/NNP-12,the/DT-9)
+				nn(Force/NNP-12,U.S./NNP-10)
+				nn(Force/NNP-12,Air/NNP-11)
+				prep_in(Lieutenant/NN-7,Force/NNP-12)
+				conj_and(commissioned/VBN-3,served/VBD-14)
+				det(pilot/NN-19,a/DT-16)
+				nn(pilot/NN-19,jet/NN-17)
+				nn(pilot/NN-19,fighter/NN-18)
+				prep_as(served/VBD-14,pilot/NN-19)
+				det(War/NN-23,the/DT-21)
+				amod(War/NN-23,Korean/JJ-22)
+				prep_during(served/VBD-14,War/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the U.S. Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet fighter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Korean War</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Korean_War</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_Air_Force http://dbpedia.org/ontology/battle http://dbpedia.org/resource/Korean_War
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew 66 combat missions in F-86 Sabres and shot down two Mikoyan-Gurevich MiG-15 aircraft.	</value>
+
+		<annotated-sentence>	He flew 66 [[combat missions|Combat_Missions]] in [[F-86 Sabres|North_American_F-86_Sabre]] and shot down two [[Mikoyan-Gurevich|Mikoyan]] MiG-15 [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew 66 combat missions in [[F-86 Sabres|North_American_F-86_Sabre]] and shot down two Mikoyan-Gurevich MiG-15 [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nsubj(shot/VBN-10,He/PRP-1)
+				num(missions/NNS-5,66/CD-3)
+				nn(missions/NNS-5,combat/NN-4)
+				dobj(flew/VBD-2,missions/NNS-5)
+				nn(Sabres/NNP-8,F-86/NNP-7)
+				prep_in(flew/VBD-2,Sabres/NNP-8)
+				conj_and(flew/VBD-2,shot/VBN-10)
+				prt(shot/VBN-10,down/RB-11)
+				num(aircraft/NN-15,two/CD-12)
+				amod(aircraft/NN-15,Mikoyan-Gurevich/JJ-13)
+				nn(aircraft/NN-15,MiG-15/NN-14)
+				dobj(shot/VBN-10,aircraft/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-86 Sabres</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_American_F-86_Sabre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mikoyan-Gurevich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mikoyan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_F-86_Sabre http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The June 8, 1953, issue of Life magazine featured gun camera photos taken by Aldrin of one of the Russian pilots ejecting from his damaged aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(issue/NN-7,The/DT-1)
+				nn(issue/NN-7,June/NNP-2)
+				num(June/NNP-2,8/CD-3)
+				num(June/NNP-2,1953/CD-5)
+				nsubj(featured/VBD-11,issue/NN-7)
+				nn(magazine/NN-10,Life/NNP-9)
+				prep_of(issue/NN-7,magazine/NN-10)
+				nn(photos/NNS-14,gun/NN-12)
+				nn(photos/NNS-14,camera/NN-13)
+				dobj(featured/VBD-11,photos/NNS-14)
+				partmod(photos/NNS-14,taken/VBN-15)
+				agent(taken/VBN-15,Aldrin/NNP-17)
+				prep_of(Aldrin/NNP-17,one/CD-19)
+				det(pilots/NNS-23,the/DT-21)
+				amod(pilots/NNS-23,Russian/JJ-22)
+				prep_of(one/CD-19,pilots/NNS-23)
+				partmod(pilots/NNS-23,ejecting/VBG-24)
+				poss(aircraft/NN-28,his/PRP$-26)
+				amod(aircraft/NN-28,damaged/JJ-27)
+				prep_from(ejecting/VBG-24,aircraft/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Subsequent to the war, Aldrin was assigned as an aerial gunnery instructor at Nellis Air Force Base in Nevada, and next was an aide to the dean of faculty at the United States Air Force Academy, which had recently begun operations in 1955.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-8,Subsequent/JJ-1)
+				det(war/NN-4,the/DT-3)
+				prep_to(Subsequent/JJ-1,war/NN-4)
+				appos(war/NN-4,Aldrin/NNP-6)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				det(instructor/NN-13,an/DT-10)
+				amod(instructor/NN-13,aerial/JJ-11)
+				nn(instructor/NN-13,gunnery/NN-12)
+				prep_as(assigned/VBN-8,instructor/NN-13)
+				nn(Base/NNP-18,Nellis/NNP-15)
+				nn(Base/NNP-18,Air/NNP-16)
+				nn(Base/NNP-18,Force/NNP-17)
+				prep_at(assigned/VBN-8,Base/NNP-18)
+				prep_in(Base/NNP-18,Nevada/NNP-20)
+				nsubj(aide/NN-26,next/JJ-23)
+				cop(aide/NN-26,was/VBD-24)
+				det(aide/NN-26,an/DT-25)
+				conj_and(assigned/VBN-8,aide/NN-26)
+				det(dean/NN-29,the/DT-28)
+				prep_to(aide/NN-26,dean/NN-29)
+				prep_of(dean/NN-29,faculty/NN-31)
+				det(Academy/NNP-38,the/DT-33)
+				nn(Academy/NNP-38,United/NNP-34)
+				nn(Academy/NNP-38,States/NNP-35)
+				nn(Academy/NNP-38,Air/NNP-36)
+				nn(Academy/NNP-38,Force/NNP-37)
+				prep_at(faculty/NN-31,Academy/NNP-38)
+				nsubj(begun/VBN-43,which/WDT-40)
+				aux(begun/VBN-43,had/VBD-41)
+				advmod(begun/VBN-43,recently/RB-42)
+				rcmod(dean/NN-29,begun/VBN-43)
+				dobj(begun/VBN-43,operations/NNS-44)
+				prep_in(operations/NNS-44,1955/CD-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew F-100 Super Sabres as a flight commander at Bitburg Air Base, Germany, in the 22d Fighter Squadron.	</value>
+
+		<annotated-sentence>	He flew F-100 Super [[Sabres|Somerset_County_Cricket_Club]] as a flight commander at [[Bitburg Air Base|Bitburg_Air_Base]], [[Germany|Germany]], in [[the 22d Fighter Squadron|22d_Fighter_Squadron]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew F-100 Super Sabres as a flight commander at Bitburg Air Base, Germany, in the 22d Fighter Squadron.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nn(Sabres/NNP-5,F-100/NN-3)
+				nn(Sabres/NNP-5,Super/NNP-4)
+				dobj(flew/VBD-2,Sabres/NNP-5)
+				det(commander/NN-9,a/DT-7)
+				nn(commander/NN-9,flight/NN-8)
+				prep_as(flew/VBD-2,commander/NN-9)
+				nn(Base/NNP-13,Bitburg/NNP-11)
+				nn(Base/NNP-13,Air/NNP-12)
+				prep_at(commander/NN-9,Base/NNP-13)
+				appos(Base/NNP-13,Germany/NNP-15)
+				det(Squadron/NNP-21,the/DT-18)
+				amod(Squadron/NNP-21,22d/JJ-19)
+				nn(Squadron/NNP-21,Fighter/NNP-20)
+				prep_in(flew/VBD-2,Squadron/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sabres</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Somerset_County_Cricket_Club</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bitburg Air Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bitburg_Air_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 22d Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/22d_Fighter_Squadron</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1963 Aldrin earned a Doctor of Science degree in astronautics from Massachusetts Institute of Technology.	</value>
+
+		<annotated-sentence>	In [[1963|1963]] [[Aldrin|Aldrin]] earned [[a Doctor of Science degree|Doctor_of_Science]] in [[astronautics|Astronautics]] from [[Massachusetts Institute of Technology|Massachusetts_Institute_of_Technology]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1963 Aldrin earned a Doctor of Science degree in astronautics from Massachusetts Institute of Technology.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(earned/VBD-4,1963/CD-2)
+				nsubj(earned/VBD-4,Aldrin/NNP-3)
+				det(Doctor/NN-6,a/DT-5)
+				dobj(earned/VBD-4,Doctor/NN-6)
+				nn(degree/NN-9,Science/NNP-8)
+				prep_of(Doctor/NN-6,degree/NN-9)
+				prep_in(earned/VBD-4,astronautics/NNS-11)
+				nn(Institute/NNP-14,Massachusetts/NNP-13)
+				prep_from(earned/VBD-4,Institute/NNP-14)
+				prep_of(Institute/NNP-14,Technology/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1963</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1963</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Doctor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronautics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronautics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Massachusetts Institute of Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His graduate thesis was "Line-of-sight guidance techniques for manned orbital rendezvous", the dedication of which read, "In the hopes that this work may in some way contribute to their exploration of space, this is dedicated to the crew members of this country’s present and future manned space programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(thesis/NN-3,His/PRP$-1)
+				amod(thesis/NN-3,graduate/JJ-2)
+				nsubj(techniques/NNS-8,thesis/NN-3)
+				cop(techniques/NNS-8,was/VBD-4)
+				amod(techniques/NNS-8,Line-of-sight/JJ-6)
+				nn(techniques/NNS-8,guidance/NN-7)
+				ccomp(dedicated/VBN-41,techniques/NNS-8)
+				prep(techniques/NNS-8,for/IN-9)
+				dep(for/IN-9,manned/VBN-10)
+				amod(rendezvous/NN-12,orbital/JJ-11)
+				dep(manned/VBN-10,rendezvous/NN-12)
+				det(dedication/NN-16,the/DT-15)
+				appos(rendezvous/NN-12,dedication/NN-16)
+				det(read/NN-19,which/WDT-18)
+				prep_of(dedication/NN-16,read/NN-19)
+				dep(rendezvous/NN-12,In/IN-22)
+				det(hopes/NNS-24,the/DT-23)
+				pobj(In/IN-22,hopes/NNS-24)
+				mark(contribute/VBP-32,that/IN-25)
+				det(work/NN-27,this/DT-26)
+				nsubj(contribute/VBP-32,work/NN-27)
+				aux(contribute/VBP-32,may/MD-28)
+				advmod(contribute/VBP-32,in/IN-29)
+				det(way/NN-31,some/DT-30)
+				pobj(in/IN-29,way/NN-31)
+				ccomp(manned/VBN-10,contribute/VBP-32)
+				poss(exploration/NN-35,their/PRP$-34)
+				prep_to(contribute/VBP-32,exploration/NN-35)
+				prep_of(exploration/NN-35,space/NN-37)
+				nsubjpass(dedicated/VBN-41,this/DT-39)
+				auxpass(dedicated/VBN-41,is/VBZ-40)
+				det(members/NNS-45,the/DT-43)
+				nn(members/NNS-45,crew/NN-44)
+				prep_to(dedicated/VBN-41,members/NNS-45)
+				det(country/NN-48,this/DT-47)
+				prep_of(members/NNS-45,country/NN-48)
+				possessive(country/NN-48,'s/POS-49)
+				amod(country/NN-48,present/JJ-50)
+				amod(programs/NNS-55,future/JJ-52)
+				amod(programs/NNS-55,manned/JJ-53)
+				nn(programs/NNS-55,space/NN-54)
+				prep_of(members/NNS-45,programs/NNS-55)
+				conj_and(country/NN-48,programs/NNS-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	If only I could join them in their exciting endeavors!"	</value>
+
+		<annotated-sentence>	If only I could join them in their exciting endeavors!"	</annotated-sentence>
+
+		<pattern_crowdsource>	If only I could join them in their exciting endeavors!"	</pattern_crowdsource>
+
+
+		<tree>
+				prep(join/VB-5,If/IN-1)
+				pcomp(If/IN-1,only/RB-2)
+				nsubj(join/VB-5,I/PRP-3)
+				aux(join/VB-5,could/MD-4)
+				dobj(join/VB-5,them/PRP-6)
+				poss(endeavors/NNS-10,their/PRP$-8)
+				amod(endeavors/NNS-10,exciting/JJ-9)
+				prep_in(join/VB-5,endeavors/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On completion of his doctorate, he was assigned to the Gemini Target Office of the Air Force Space Systems Division in Los Angeles before his selection as an astronaut.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(assigned/VBN-9,completion/NN-2)
+				poss(doctorate/NN-5,his/PRP$-4)
+				prep_of(completion/NN-2,doctorate/NN-5)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(Office/NNP-14,the/DT-11)
+				nn(Office/NNP-14,Gemini/NNP-12)
+				nn(Office/NNP-14,Target/NN-13)
+				prep_to(assigned/VBN-9,Office/NNP-14)
+				det(Division/NNP-21,the/DT-16)
+				nn(Division/NNP-21,Air/NNP-17)
+				nn(Division/NNP-21,Force/NNP-18)
+				nn(Division/NNP-21,Space/NNP-19)
+				nn(Division/NNP-21,Systems/NNPS-20)
+				prep_of(Office/NNP-14,Division/NNP-21)
+				nn(Angeles/NNP-24,Los/NNP-23)
+				prep_in(assigned/VBN-9,Angeles/NNP-24)
+				poss(selection/NN-27,his/PRP$-26)
+				prep_before(assigned/VBN-9,selection/NN-27)
+				det(astronaut/NN-30,an/DT-29)
+				prep_as(selection/NN-27,astronaut/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His initial application to join the astronaut corps was rejected on the basis of having never been a test pilot; that prerequisite was lifted when he re-applied and was accepted into the third astronaut class.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(application/NN-3,His/PRP$-1)
+				amod(application/NN-3,initial/JJ-2)
+				nsubjpass(rejected/VBN-10,application/NN-3)
+				aux(join/VB-5,to/TO-4)
+				infmod(application/NN-3,join/VB-5)
+				det(corps/NN-8,the/DT-6)
+				nn(corps/NN-8,astronaut/NN-7)
+				dobj(join/VB-5,corps/NN-8)
+				auxpass(rejected/VBN-10,was/VBD-9)
+				det(basis/NN-13,the/DT-12)
+				prep_on(rejected/VBN-10,basis/NN-13)
+				aux(pilot/NN-20,having/VBG-15)
+				neg(pilot/NN-20,never/RB-16)
+				cop(pilot/NN-20,been/VBN-17)
+				det(pilot/NN-20,a/DT-18)
+				nn(pilot/NN-20,test/NN-19)
+				prepc_of(basis/NN-13,pilot/NN-20)
+				det(prerequisite/NN-23,that/DT-22)
+				nsubjpass(lifted/VBN-25,prerequisite/NN-23)
+				auxpass(lifted/VBN-25,was/VBD-24)
+				parataxis(rejected/VBN-10,lifted/VBN-25)
+				advmod(re-applied/VBD-28,when/WRB-26)
+				nsubj(re-applied/VBD-28,he/PRP-27)
+				nsubjpass(accepted/VBN-31,he/PRP-27)
+				advcl(lifted/VBN-25,re-applied/VBD-28)
+				auxpass(accepted/VBN-31,was/VBD-30)
+				advcl(lifted/VBN-25,accepted/VBN-31)
+				conj_and(re-applied/VBD-28,accepted/VBN-31)
+				det(class/NN-36,the/DT-33)
+				amod(class/NN-36,third/JJ-34)
+				nn(class/NN-36,astronaut/NN-35)
+				prep_into(accepted/VBN-31,class/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin was selected as part of the third group of NASA astronauts selected in October 1963.	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] was selected as part of the third group of [[NASA|NASA]] [[astronauts|Astronaut]] selected in [[October 1963|October_1963]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aldrin|Buzz_Aldrin]] was selected as part of the third group of [[NASA|NASA]] [[astronauts|Astronaut]] selected in October 1963.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Aldrin/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_as(selected/VBN-3,part/NN-5)
+				det(group/NN-9,the/DT-7)
+				amod(group/NN-9,third/JJ-8)
+				prep_of(part/NN-5,group/NN-9)
+				nn(astronauts/NNS-12,NASA/NNP-11)
+				prep_of(group/NN-9,astronauts/NNS-12)
+				partmod(astronauts/NNS-12,selected/VBN-13)
+				prep_in(selected/VBN-13,October/NNP-15)
+				num(October/NNP-15,1963/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1963</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_1963</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Because test pilot experience was no longer a requirement, this was the first selection for which he was eligible.	</value>
+
+		<annotated-sentence>	Because [[test pilot|Test_pilot]] [[experience|Experience]] was no longer [[a requirement|Requirement]], this was [[the first selection|Selection]] for which he was eligible.	</annotated-sentence>
+
+		<pattern_crowdsource>	Because test pilot experience was no longer a requirement, this was the first selection for which he was eligible.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(requirement/NN-9,Because/IN-1)
+				nn(experience/NN-4,test/NN-2)
+				nn(experience/NN-4,pilot/NN-3)
+				nsubj(requirement/NN-9,experience/NN-4)
+				cop(requirement/NN-9,was/VBD-5)
+				advmod(longer/RB-7,no/RB-6)
+				advmod(requirement/NN-9,longer/RB-7)
+				det(requirement/NN-9,a/DT-8)
+				advcl(selection/NN-15,requirement/NN-9)
+				nsubj(selection/NN-15,this/DT-11)
+				cop(selection/NN-15,was/VBD-12)
+				det(selection/NN-15,the/DT-13)
+				amod(selection/NN-15,first/JJ-14)
+				prep_for(eligible/JJ-20,which/WDT-17)
+				nsubj(eligible/JJ-20,he/PRP-18)
+				cop(eligible/JJ-20,was/VBD-19)
+				rcmod(selection/NN-15,eligible/JJ-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a requirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Requirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the deaths of the original Gemini 9 prime crew, Elliot See and Charles Bassett, Aldrin and Jim Lovell were promoted to back-up crew for the mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(deaths/NNS-3,the/DT-2)
+				prep_after(promoted/VBN-23,deaths/NNS-3)
+				det(crew/NN-10,the/DT-5)
+				amod(crew/NN-10,original/JJ-6)
+				nn(crew/NN-10,Gemini/NNP-7)
+				num(crew/NN-10,9/CD-8)
+				amod(crew/NN-10,prime/JJ-9)
+				prep_of(deaths/NNS-3,crew/NN-10)
+				nn(See/NNP-13,Elliot/NNP-12)
+				prep_of(deaths/NNS-3,See/NNP-13)
+				conj_and(crew/NN-10,See/NNP-13)
+				nn(Bassett/NNP-16,Charles/NNP-15)
+				prep_of(deaths/NNS-3,Bassett/NNP-16)
+				conj_and(crew/NN-10,Bassett/NNP-16)
+				nn(Lovell/NNP-21,Aldrin/NNP-18)
+				conj_and(Aldrin/NNP-18,Jim/NNP-20)
+				nn(Lovell/NNP-21,Jim/NNP-20)
+				nsubjpass(promoted/VBN-23,Lovell/NNP-21)
+				auxpass(promoted/VBN-23,were/VBD-22)
+				aux(back-up/VB-25,to/TO-24)
+				xcomp(promoted/VBN-23,back-up/VB-25)
+				dobj(back-up/VB-25,crew/NN-26)
+				det(mission/NN-29,the/DT-28)
+				prep_for(back-up/VB-25,mission/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The main objective of the revised mission (Gemini 9A) was to rendezvous and dock with a target vehicle, but when this failed, Aldrin improvised an effective exercise for the craft to rendezvous with a co-ordinate in space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(objective/NN-3,The/DT-1)
+				amod(objective/NN-3,main/JJ-2)
+				nsubj(was/VBD-12,objective/NN-3)
+				det(mission/NN-7,the/DT-5)
+				amod(mission/NN-7,revised/VBN-6)
+				prep_of(objective/NN-3,mission/NN-7)
+				nn(9A/NN-10,Gemini/NNP-9)
+				appos(mission/NN-7,9A/NN-10)
+				prep_to(was/VBD-12,rendezvous/NN-14)
+				prep_to(was/VBD-12,dock/NN-16)
+				conj_and(rendezvous/NN-14,dock/NN-16)
+				det(vehicle/NN-20,a/DT-18)
+				nn(vehicle/NN-20,target/NN-19)
+				prep_with(was/VBD-12,vehicle/NN-20)
+				advmod(failed/VBD-25,when/WRB-23)
+				nsubj(failed/VBD-25,this/DT-24)
+				advcl(improvised/VBD-28,failed/VBD-25)
+				nsubj(improvised/VBD-28,Aldrin/NNP-27)
+				conj_but(was/VBD-12,improvised/VBD-28)
+				det(exercise/NN-31,an/DT-29)
+				amod(exercise/NN-31,effective/JJ-30)
+				dobj(improvised/VBD-28,exercise/NN-31)
+				det(craft/NN-34,the/DT-33)
+				prep_for(improvised/VBD-28,craft/NN-34)
+				prep_to(craft/NN-34,rendezvous/NN-36)
+				det(co-ordinate/JJ-39,a/DT-38)
+				prep_with(improvised/VBD-28,co-ordinate/JJ-39)
+				prep_in(co-ordinate/JJ-39,space/NN-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was confirmed as pilot on Gemini 12, the last Gemini mission and the last chance to prove methods for extra-vehicular activity (EVA).	</value>
+
+		<annotated-sentence>	He was confirmed as pilot on [[Gemini 12|Gemini_12]], [[the last Gemini mission|Project_Gemini]] and the last chance to prove methods for [[extra-vehicular activity|Extra-vehicular_activity]] ([[EVA|Extra-vehicular_activity]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was confirmed as pilot on [[Gemini 12|Gemini_12]], [[the last Gemini mission|Project_Gemini]] and the last chance to prove methods for extra-vehicular activity (EVA).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(confirmed/VBN-3,He/PRP-1)
+				auxpass(confirmed/VBN-3,was/VBD-2)
+				prep_as(confirmed/VBN-3,pilot/NN-5)
+				prep_on(pilot/NN-5,Gemini/NNP-7)
+				num(Gemini/NNP-7,12/CD-8)
+				det(mission/NN-13,the/DT-10)
+				amod(mission/NN-13,last/JJ-11)
+				nn(mission/NN-13,Gemini/NNP-12)
+				prep_as(confirmed/VBN-3,mission/NN-13)
+				conj_and(pilot/NN-5,mission/NN-13)
+				det(chance/NN-17,the/DT-15)
+				amod(chance/NN-17,last/JJ-16)
+				prep_as(confirmed/VBN-3,chance/NN-17)
+				conj_and(pilot/NN-5,chance/NN-17)
+				aux(prove/VB-19,to/TO-18)
+				infmod(chance/NN-17,prove/VB-19)
+				dobj(prove/VB-19,methods/NNS-20)
+				amod(activity/NN-23,extra-vehicular/JJ-22)
+				prep_for(methods/NNS-20,activity/NN-23)
+				appos(chance/NN-17,EVA/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gemini 12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gemini_12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the last Gemini mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Project_Gemini</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>extra-vehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EVA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Gemini_12
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_12 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_12 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_12 http://dbpedia.org/property/programme http://dbpedia.org/resource/Project_Gemini
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin set a record for EVA, demonstrating that astronauts could work outside spacecraft.	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] set a record for EVA, demonstrating that [[astronauts|Astronaut]] could work [[outside spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aldrin|Buzz_Aldrin]] set a record for EVA, demonstrating that [[astronauts|Astronaut]] could work outside spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(set/VBD-2,Aldrin/NNP-1)
+				det(record/NN-4,a/DT-3)
+				dobj(set/VBD-2,record/NN-4)
+				prep_for(record/NN-4,EVA/NNP-6)
+				partmod(set/VBD-2,demonstrating/VBG-8)
+				mark(work/VB-12,that/IN-9)
+				nsubj(work/VB-12,astronauts/NNS-10)
+				aux(work/VB-12,could/MD-11)
+				ccomp(demonstrating/VBG-8,work/VB-12)
+				amod(spacecraft/NN-14,outside/JJ-13)
+				dobj(work/VB-12,spacecraft/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>outside spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 21, 1969, he became the second astronaut to walk on the Moon, keeping his record total EVA time until that was surpassed on Apollo 14.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(astronaut/NN-11,July/NNP-2)
+				num(July/NNP-2,21/CD-3)
+				num(July/NNP-2,1969/CD-5)
+				nsubj(astronaut/NN-11,he/PRP-7)
+				cop(astronaut/NN-11,became/VBD-8)
+				det(astronaut/NN-11,the/DT-9)
+				amod(astronaut/NN-11,second/JJ-10)
+				aux(walk/VB-13,to/TO-12)
+				infmod(astronaut/NN-11,walk/VB-13)
+				det(Moon/NNP-16,the/DT-15)
+				prep_on(walk/VB-13,Moon/NNP-16)
+				partmod(astronaut/NN-11,keeping/VBG-18)
+				poss(total/NN-21,his/PRP$-19)
+				nn(total/NN-21,record/NN-20)
+				dobj(keeping/VBG-18,total/NN-21)
+				nn(time/NN-23,EVA/NNP-22)
+				tmod(keeping/VBG-18,time/NN-23)
+				mark(surpassed/VBN-27,until/IN-24)
+				nsubjpass(surpassed/VBN-27,that/DT-25)
+				auxpass(surpassed/VBN-27,was/VBD-26)
+				advcl(keeping/VBG-18,surpassed/VBN-27)
+				prep_on(surpassed/VBN-27,Apollo/NNP-29)
+				num(Apollo/NNP-29,14/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There has been much speculation about Aldrin's desire at the time to be the first astronaut to walk on the Moon.	</value>
+
+		<annotated-sentence>	There has been [[much speculation|Speculation]] about [[Aldrin|Buzz_Aldrin]]'s desire at the time to be the first [[astronaut|Astronaut]] to walk on [[the Moon|Moon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	There has been much speculation about [[Aldrin|Buzz_Aldrin]]'s desire at the time to be the first [[astronaut|Astronaut]] to walk on the Moon.	</pattern_crowdsource>
+
+
+		<tree>
+				expl(speculation/NN-5,There/EX-1)
+				aux(speculation/NN-5,has/VBZ-2)
+				cop(speculation/NN-5,been/VBN-3)
+				amod(speculation/NN-5,much/JJ-4)
+				poss(desire/NN-9,Aldrin/NNP-7)
+				prep_about(speculation/NN-5,desire/NN-9)
+				det(time/NN-12,the/DT-11)
+				prep_at(speculation/NN-5,time/NN-12)
+				aux(astronaut/NN-17,to/TO-13)
+				cop(astronaut/NN-17,be/VB-14)
+				det(astronaut/NN-17,the/DT-15)
+				amod(astronaut/NN-17,first/JJ-16)
+				infmod(time/NN-12,astronaut/NN-17)
+				aux(walk/VB-19,to/TO-18)
+				infmod(astronaut/NN-17,walk/VB-19)
+				det(Moon/NNP-22,the/DT-21)
+				prep_on(walk/VB-19,Moon/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>much speculation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Speculation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	According to different NASA accounts, he had originally been proposed as the first to step onto the Moon's surface, but due to the physical positioning of the astronauts inside the compact lunar landing module, it was easier for the commander, Neil Armstrong, to be the first to exit the spacecraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_according_to(proposed/VBN-11,to/TO-2)
+				amod(accounts/NNS-5,different/JJ-3)
+				nn(accounts/NNS-5,NASA/NNP-4)
+				pobj(proposed/VBN-11,accounts/NNS-5)
+				nsubjpass(proposed/VBN-11,he/PRP-7)
+				aux(proposed/VBN-11,had/VBD-8)
+				advmod(proposed/VBN-11,originally/RB-9)
+				auxpass(proposed/VBN-11,been/VBN-10)
+				det(first/JJ-14,the/DT-13)
+				prep_as(proposed/VBN-11,first/JJ-14)
+				aux(step/VB-16,to/TO-15)
+				xcomp(proposed/VBN-11,step/VB-16)
+				det(Moon/NNP-19,the/DT-18)
+				poss(surface/NN-21,Moon/NNP-19)
+				prep_onto(step/VB-16,surface/NN-21)
+				det(positioning/NN-28,the/DT-26)
+				amod(positioning/NN-28,physical/JJ-27)
+				prep_due_to(easier/JJR-41,positioning/NN-28)
+				det(astronauts/NNS-31,the/DT-30)
+				prep_of(positioning/NN-28,astronauts/NNS-31)
+				det(module/NN-37,the/DT-33)
+				amod(module/NN-37,compact/JJ-34)
+				amod(module/NN-37,lunar/JJ-35)
+				nn(module/NN-37,landing/NN-36)
+				prep_inside(astronauts/NNS-31,module/NN-37)
+				nsubj(easier/JJR-41,it/PRP-39)
+				cop(easier/JJR-41,was/VBD-40)
+				conj_but(proposed/VBN-11,easier/JJR-41)
+				det(commander/NN-44,the/DT-43)
+				prep_for(easier/JJR-41,commander/NN-44)
+				nn(Armstrong/NNP-47,Neil/NNP-46)
+				appos(commander/NN-44,Armstrong/NNP-47)
+				aux(first/JJ-52,to/TO-49)
+				cop(first/JJ-52,be/VB-50)
+				det(first/JJ-52,the/DT-51)
+				xcomp(easier/JJR-41,first/JJ-52)
+				aux(exit/VB-54,to/TO-53)
+				dep(first/JJ-52,exit/VB-54)
+				det(spacecraft/NN-56,the/DT-55)
+				dobj(exit/VB-54,spacecraft/NN-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin, a Presbyterian, was the first person to hold a religious ceremony on the Moon.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]], a Presbyterian, was the first [[person|Person]] to hold a religious [[ceremony|Ceremony]] on [[the Moon|Moon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin, a Presbyterian, was the first [[person|Person]] to hold a religious ceremony on the Moon.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(person/NN-9,Aldrin/NNP-1)
+				det(Presbyterian/NNP-4,a/DT-3)
+				appos(Aldrin/NNP-1,Presbyterian/NNP-4)
+				cop(person/NN-9,was/VBD-6)
+				det(person/NN-9,the/DT-7)
+				amod(person/NN-9,first/JJ-8)
+				aux(hold/VB-11,to/TO-10)
+				infmod(person/NN-9,hold/VB-11)
+				det(ceremony/NN-14,a/DT-12)
+				amod(ceremony/NN-14,religious/JJ-13)
+				dobj(hold/VB-11,ceremony/NN-14)
+				det(Moon/NNP-17,the/DT-16)
+				prep_on(hold/VB-11,Moon/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ceremony</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ceremony</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After landing on the Moon, he radioed Earth: "I'd like to take this opportunity to ask every person listening in, whoever and wherever they may be, to pause for a moment and contemplate the events of the past few hours, and to give thanks in his or her own way."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(radioed/VBD-8,landing/NN-2)
+				det(Moon/NNP-5,the/DT-4)
+				prep_on(landing/NN-2,Moon/NNP-5)
+				nsubj(radioed/VBD-8,he/PRP-7)
+				dobj(radioed/VBD-8,Earth/NNP-9)
+				nsubj(like/VB-14,I/PRP-12)
+				aux(like/VB-14,'d/MD-13)
+				dep(radioed/VBD-8,like/VB-14)
+				aux(take/VB-16,to/TO-15)
+				xcomp(like/VB-14,take/VB-16)
+				det(opportunity/NN-18,this/DT-17)
+				dobj(take/VB-16,opportunity/NN-18)
+				aux(ask/VB-20,to/TO-19)
+				dep(opportunity/NN-18,ask/VB-20)
+				det(person/NN-22,every/DT-21)
+				dobj(ask/VB-20,person/NN-22)
+				partmod(person/NN-22,listening/VBG-23)
+				advmod(listening/VBG-23,in/IN-24)
+				dep(listening/VBG-23,whoever/WP-26)
+				advmod(be/VB-31,wherever/WRB-28)
+				nsubj(be/VB-31,they/PRP-29)
+				aux(be/VB-31,may/MD-30)
+				dep(listening/VBG-23,be/VB-31)
+				conj_and(whoever/WP-26,be/VB-31)
+				aux(pause/VB-34,to/TO-33)
+				dep(opportunity/NN-18,pause/VB-34)
+				conj_and(ask/VB-20,pause/VB-34)
+				det(moment/NN-37,a/DT-36)
+				prep_for(pause/VB-34,moment/NN-37)
+				conj_and(ask/VB-20,contemplate/VB-39)
+				conj_and(pause/VB-34,contemplate/VB-39)
+				det(events/NNS-41,the/DT-40)
+				dobj(contemplate/VB-39,events/NNS-41)
+				det(hours/NNS-46,the/DT-43)
+				amod(hours/NNS-46,past/JJ-44)
+				amod(hours/NNS-46,few/JJ-45)
+				prep_of(events/NNS-41,hours/NNS-46)
+				aux(give/VB-50,to/TO-49)
+				dep(opportunity/NN-18,give/VB-50)
+				conj_and(ask/VB-20,give/VB-50)
+				advmod(give/VB-50,thanks/NNS-51)
+				nn(way/NN-57,his/PRP$-53)
+				conj_or(his/PRP$-53,her/PRP$-55)
+				nn(way/NN-57,her/PRP$-55)
+				amod(way/NN-57,own/JJ-56)
+				prep_in(thanks/NNS-51,way/NN-57)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He took communion on the surface of the Moon, but he kept it secret because of a lawsuit brought by atheist activist Madalyn Murray O'Hair over the reading of Genesis on Apollo 8.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(took/VBD-2,He/PRP-1)
+				dobj(took/VBD-2,communion/NN-3)
+				det(surface/NN-6,the/DT-5)
+				prep_on(took/VBD-2,surface/NN-6)
+				det(Moon/NNP-9,the/DT-8)
+				prep_of(surface/NN-6,Moon/NNP-9)
+				nsubj(kept/VBD-13,he/PRP-12)
+				conj_but(took/VBD-2,kept/VBD-13)
+				nsubj(brought/VBN-20,it/PRP-14)
+				dep(brought/VBN-20,secret/JJ-15)
+				prepc_because_of(secret/JJ-15,of/IN-17)
+				det(lawsuit/NN-19,a/DT-18)
+				pobj(secret/JJ-15,lawsuit/NN-19)
+				xcomp(kept/VBD-13,brought/VBN-20)
+				nn(O'Hair/NNP-26,atheist/NN-22)
+				nn(O'Hair/NNP-26,activist/NN-23)
+				nn(O'Hair/NNP-26,Madalyn/NNP-24)
+				nn(O'Hair/NNP-26,Murray/NNP-25)
+				prep_by(brought/VBN-20,O'Hair/NNP-26)
+				det(reading/NN-29,the/DT-28)
+				prep_over(brought/VBN-20,reading/NN-29)
+				prep_of(reading/NN-29,Genesis/NNP-31)
+				prep_on(brought/VBN-20,Apollo/NNP-33)
+				num(Apollo/NNP-33,8/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin, a church elder, used a home communion kit given to him, and recited words used by, his pastor at Webster Presbyterian Church, the Rev. Dean Woodruff.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(used/VBD-7,Aldrin/NNP-1)
+				nsubj(recited/VBD-17,Aldrin/NNP-1)
+				det(elder/JJR-5,a/DT-3)
+				dep(elder/JJR-5,church/NN-4)
+				appos(Aldrin/NNP-1,elder/JJR-5)
+				det(kit/NN-11,a/DT-8)
+				nn(kit/NN-11,home/NN-9)
+				nn(kit/NN-11,communion/NN-10)
+				dobj(used/VBD-7,kit/NN-11)
+				prep(used/VBD-7,given/VBN-12)
+				pcomp(given/VBN-12,to/TO-13)
+				pobj(to/TO-13,him/PRP-14)
+				conj_and(used/VBD-7,recited/VBD-17)
+				dobj(recited/VBD-17,words/NNS-18)
+				partmod(words/NNS-18,used/VBN-19)
+				prep(used/VBN-19,by/IN-20)
+				poss(pastor/NN-23,his/PRP$-22)
+				appos(words/NNS-18,pastor/NN-23)
+				nn(Church/NNP-27,Webster/NNP-25)
+				nn(Church/NNP-27,Presbyterian/NNP-26)
+				prep_at(pastor/NN-23,Church/NNP-27)
+				det(Woodruff/NNP-32,the/DT-29)
+				nn(Woodruff/NNP-32,Rev./NNP-30)
+				nn(Woodruff/NNP-32,Dean/NNP-31)
+				appos(Church/NNP-27,Woodruff/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The communion elements were the first food and liquid consumed on the Moon: in Guideposts, Aldrin stated: “It was interesting to think that the very first liquid ever poured on the moon, and the first food eaten there, were communion elements.”	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(elements/NNS-3,The/DT-1)
+				amod(elements/NNS-3,communion/JJ-2)
+				nsubj(food/NN-7,elements/NNS-3)
+				nsubj(liquid/JJ-9,elements/NNS-3)
+				cop(food/NN-7,were/VBD-4)
+				det(food/NN-7,the/DT-5)
+				amod(food/NN-7,first/JJ-6)
+				conj_and(food/NN-7,liquid/JJ-9)
+				partmod(liquid/JJ-9,consumed/VBN-10)
+				det(Moon/NN-13,the/DT-12)
+				prep_on(consumed/VBN-10,Moon/NN-13)
+				prep_in(stated/VBD-19,Guideposts/NNS-16)
+				nsubj(stated/VBD-19,Aldrin/NNP-18)
+				conj_and(food/NN-7,stated/VBD-19)
+				nsubj(interesting/JJ-24,It/PRP-22)
+				cop(interesting/JJ-24,was/VBD-23)
+				ccomp(stated/VBD-19,interesting/JJ-24)
+				aux(think/VB-26,to/TO-25)
+				xcomp(interesting/JJ-24,think/VB-26)
+				mark(poured/VBD-33,that/IN-27)
+				det(liquid/NN-31,the/DT-28)
+				advmod(first/JJ-30,very/RB-29)
+				amod(liquid/NN-31,first/JJ-30)
+				nsubj(poured/VBD-33,liquid/NN-31)
+				advmod(poured/VBD-33,ever/RB-32)
+				ccomp(think/VB-26,poured/VBD-33)
+				det(moon/NN-36,the/DT-35)
+				prep_on(poured/VBD-33,moon/NN-36)
+				det(food/NN-41,the/DT-39)
+				amod(food/NN-41,first/JJ-40)
+				nsubj(elements/NNS-47,food/NN-41)
+				partmod(food/NN-41,eaten/VBN-42)
+				advmod(eaten/VBN-42,there/RB-43)
+				cop(elements/NNS-47,were/VBD-45)
+				amod(elements/NNS-47,communion/JJ-46)
+				conj_and(food/NN-7,elements/NNS-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Webster Presbyterian Church, a local congregation in Webster, Texas, (a Houston suburb near the Johnson Space Center) possesses the chalice used for communion on the Moon, and commemorates the event annually on the Sunday closest to July 20.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Church/NNP-3,Webster/NNP-1)
+				nn(Church/NNP-3,Presbyterian/NNP-2)
+				nsubj(possesses/VBZ-23,Church/NNP-3)
+				nsubj(commemorates/VBZ-34,Church/NNP-3)
+				det(congregation/NN-7,a/DT-5)
+				amod(congregation/NN-7,local/JJ-6)
+				appos(Church/NNP-3,congregation/NN-7)
+				nn(Texas/NNP-11,Webster/NNP-9)
+				prep_in(congregation/NN-7,Texas/NNP-11)
+				det(suburb/NN-16,a/DT-14)
+				nn(suburb/NN-16,Houston/NNP-15)
+				dep(possesses/VBZ-23,suburb/NN-16)
+				det(Center/NNP-21,the/DT-18)
+				nn(Center/NNP-21,Johnson/NNP-19)
+				nn(Center/NNP-21,Space/NNP-20)
+				prep_near(suburb/NN-16,Center/NNP-21)
+				det(chalice/NN-25,the/DT-24)
+				dobj(possesses/VBZ-23,chalice/NN-25)
+				partmod(chalice/NN-25,used/VBN-26)
+				prep_for(used/VBN-26,communion/NN-28)
+				det(Moon/NNP-31,the/DT-30)
+				prep_on(communion/NN-28,Moon/NNP-31)
+				conj_and(possesses/VBZ-23,commemorates/VBZ-34)
+				det(event/NN-36,the/DT-35)
+				dobj(commemorates/VBZ-34,event/NN-36)
+				advmod(commemorates/VBZ-34,annually/RB-37)
+				det(Sunday/NNP-40,the/DT-39)
+				prep_on(commemorates/VBZ-34,Sunday/NNP-40)
+				advmod(Sunday/NNP-40,closest/JJS-41)
+				prep_to(closest/JJS-41,July/NNP-43)
+				num(July/NNP-43,20/CD-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving NASA, Aldrin was assigned as the Commandant of the U.S. Air Force Test Pilot School at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	After leaving [[NASA|NASA]], [[Aldrin|Buzz_Aldrin]] was assigned as [[the Commandant|Commandant]] of the U.S. Air Force Test Pilot School at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After leaving [[NASA|NASA]], [[Aldrin|Buzz_Aldrin]] was assigned as the Commandant of the U.S. Air Force Test Pilot School at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(assigned/VBN-7,leaving/VBG-2)
+				dobj(leaving/VBG-2,NASA/NNP-3)
+				nsubjpass(assigned/VBN-7,Aldrin/NNP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				det(Commandant/NN-10,the/DT-9)
+				prep_as(assigned/VBN-7,Commandant/NN-10)
+				det(School/NNP-18,the/DT-12)
+				nn(School/NNP-18,U.S./NNP-13)
+				nn(School/NNP-18,Air/NNP-14)
+				nn(School/NNP-18,Force/NNP-15)
+				nn(School/NNP-18,Test/NNP-16)
+				nn(School/NNP-18,Pilot/NN-17)
+				prep_of(Commandant/NN-10,School/NNP-18)
+				nn(Base/NNP-23,Edwards/NNP-20)
+				nn(Base/NNP-23,Air/NNP-21)
+				nn(Base/NNP-23,Force/NNP-22)
+				prep_at(assigned/VBN-7,Base/NNP-23)
+				appos(Base/NNP-23,California/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Commandant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commandant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1972, Aldrin retired from active duty after 21 years of service, and returned to the Air Force in a managerial role, but his career was blighted by personal problems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(retired/VBD-6,March/NNP-2)
+				num(March/NNP-2,1972/CD-3)
+				nsubj(retired/VBD-6,Aldrin/NNP-5)
+				nsubj(returned/VBD-17,Aldrin/NNP-5)
+				amod(duty/NN-9,active/JJ-8)
+				prep_from(retired/VBD-6,duty/NN-9)
+				num(years/NNS-12,21/CD-11)
+				prep_after(retired/VBD-6,years/NNS-12)
+				prep_of(years/NNS-12,service/NN-14)
+				conj_and(retired/VBD-6,returned/VBD-17)
+				det(Force/NNP-21,the/DT-19)
+				nn(Force/NNP-21,Air/NNP-20)
+				prep_to(returned/VBD-17,Force/NNP-21)
+				det(role/NN-25,a/DT-23)
+				amod(role/NN-25,managerial/JJ-24)
+				prep_in(returned/VBD-17,role/NN-25)
+				poss(career/NN-29,his/PRP$-28)
+				nsubj(blighted/JJ-31,career/NN-29)
+				cop(blighted/JJ-31,was/VBD-30)
+				conj_but(retired/VBD-6,blighted/JJ-31)
+				amod(problems/NNS-34,personal/JJ-33)
+				prep_by(blighted/JJ-31,problems/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His autobiographies Return to Earth, published in 1973, and Magnificent Desolation, published in June 2009, both provide accounts of his struggles with clinical depression and alcoholism in the years following his NASA career.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Return/NN-3,His/PRP$-1)
+				nn(Return/NN-3,autobiographies/NNS-2)
+				nsubj(provide/VBP-21,Return/NN-3)
+				prep_to(Return/NN-3,Earth/NNP-5)
+				partmod(Return/NN-3,published/VBN-7)
+				prep_in(published/VBN-7,1973/CD-9)
+				amod(Desolation/NN-13,Magnificent/JJ-12)
+				prep_in(published/VBN-7,Desolation/NN-13)
+				conj_and(1973/CD-9,Desolation/NN-13)
+				partmod(1973/CD-9,published/VBN-15)
+				prep_in(published/VBN-15,June/NNP-17)
+				num(June/NNP-17,2009/CD-18)
+				advmod(provide/VBP-21,both/CC-20)
+				dobj(provide/VBP-21,accounts/NNS-22)
+				poss(struggles/NNS-25,his/PRP$-24)
+				prep_of(accounts/NNS-22,struggles/NNS-25)
+				amod(depression/NN-28,clinical/JJ-27)
+				prep_with(struggles/NNS-25,depression/NN-28)
+				prep_with(struggles/NNS-25,alcoholism/NN-30)
+				conj_and(depression/NN-28,alcoholism/NN-30)
+				det(years/NNS-33,the/DT-32)
+				prep_in(provide/VBP-21,years/NNS-33)
+				poss(career/NN-37,his/PRP$-35)
+				nn(career/NN-37,NASA/NNP-36)
+				prep_following(years/NNS-33,career/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His life improved considerably when he recognized and sought treatment for his problems, and with his marriage to Lois Driggs Cannon.	</value>
+
+		<annotated-sentence>	His life improved considerably when he recognized and sought treatment for [[his problems|Problem]], and with [[his marriage|Marriage]] to Lois [[Driggs|List_of_Playboy_Playmates_of_1990]] Cannon.	</annotated-sentence>
+
+		<pattern_crowdsource>	His life improved considerably when he recognized and sought treatment for his problems, and with his marriage to Lois Driggs Cannon.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(life/NN-2,His/PRP$-1)
+				nsubj(improved/VBD-3,life/NN-2)
+				advmod(improved/VBD-3,considerably/RB-4)
+				advmod(recognized/VBD-7,when/WRB-5)
+				nsubj(recognized/VBD-7,he/PRP-6)
+				nsubj(sought/VBD-9,he/PRP-6)
+				advcl(improved/VBD-3,recognized/VBD-7)
+				advcl(improved/VBD-3,sought/VBD-9)
+				conj_and(recognized/VBD-7,sought/VBD-9)
+				conj_and(recognized/VBD-7,sought/VBD-9)
+				conj_and(sought/VBD-9,sought/VBD-9)
+				dobj(sought/VBD-9,treatment/NN-10)
+				poss(problems/NNS-13,his/PRP$-12)
+				prep_for(sought/VBD-9,problems/NNS-13)
+				poss(marriage/NN-18,his/PRP$-17)
+				prep_with(sought/VBD-9,marriage/NN-18)
+				nn(Cannon/NNP-22,Lois/NNP-20)
+				nn(Cannon/NNP-22,Driggs/NNP-21)
+				prep_to(sought/VBD-9,Cannon/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his problems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Problem</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his marriage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marriage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Driggs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Playboy_Playmates_of_1990</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since retiring from NASA, he has continued to promote space exploration, including producing a computer strategy game called Buzz Aldrin's Race Into Space (1993).	</value>
+
+		<annotated-sentence>	Since retiring from [[NASA|NASA]], he has continued to promote [[space exploration|Space_exploration]], including producing [[a computer strategy game|Strategy_video_game]] called [[Buzz Aldrin|Buzz_Aldrin]]'s [[Race|Race]] Into [[Space|Space_exploration]] ([[1993|1993]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Since retiring from [[NASA|NASA]], he has continued to promote space exploration, including producing a computer strategy game called [[Buzz Aldrin|Buzz_Aldrin]]'s Race Into Space (1993).	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_since(continued/VBN-8,retiring/VBG-2)
+				prep_from(retiring/VBG-2,NASA/NNP-4)
+				nsubj(continued/VBN-8,he/PRP-6)
+				aux(continued/VBN-8,has/VBZ-7)
+				aux(promote/VB-10,to/TO-9)
+				xcomp(continued/VBN-8,promote/VB-10)
+				nn(exploration/NN-12,space/NN-11)
+				dobj(promote/VB-10,exploration/NN-12)
+				prepc_including(continued/VBN-8,producing/VBG-15)
+				det(game/NN-19,a/DT-16)
+				nn(game/NN-19,computer/NN-17)
+				nn(game/NN-19,strategy/NN-18)
+				dobj(producing/VBG-15,game/NN-19)
+				partmod(game/NN-19,called/VBN-20)
+				nn(Aldrin/NNP-22,Buzz/NNP-21)
+				poss(Space/NNP-26,Aldrin/NNP-22)
+				nn(Space/NNP-26,Race/NNP-24)
+				nn(Space/NNP-26,Into/NNP-25)
+				dobj(called/VBN-20,Space/NNP-26)
+				appos(Space/NNP-26,1993/CD-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a computer strategy game</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Strategy_video_game</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Buzz Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Race</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Race</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	To further promote space exploration, and to commemorate the 40th anniversary of the first lunar landing, Aldrin teamed up with Snoop Dogg, Quincy Jones, Talib Kweli, and Soulja Boy to create the rap single and video, "Rocket Experience", with proceeds from video and song sales to benefit Aldrin's non-profit foundation, ShareSpace.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				aux(promote/VB-3,To/TO-1)
+				advmod(promote/VB-3,further/RB-2)
+				ccomp(teamed/VBD-20,promote/VB-3)
+				nn(exploration/NN-5,space/NN-4)
+				dobj(promote/VB-3,exploration/NN-5)
+				aux(commemorate/VB-9,to/TO-8)
+				conj_and(promote/VB-3,commemorate/VB-9)
+				ccomp(teamed/VBD-20,commemorate/VB-9)
+				det(anniversary/NN-12,the/DT-10)
+				amod(anniversary/NN-12,40th/JJ-11)
+				dobj(commemorate/VB-9,anniversary/NN-12)
+				det(landing/NN-17,the/DT-14)
+				amod(landing/NN-17,first/JJ-15)
+				amod(landing/NN-17,lunar/JJ-16)
+				prep_of(anniversary/NN-12,landing/NN-17)
+				nsubj(teamed/VBD-20,Aldrin/NNP-19)
+				prt(teamed/VBD-20,up/RP-21)
+				nn(Dogg/NNP-24,Snoop/NNP-23)
+				prep_with(teamed/VBD-20,Dogg/NNP-24)
+				nn(Jones/NNP-27,Quincy/NNP-26)
+				prep_with(teamed/VBD-20,Jones/NNP-27)
+				conj_and(Dogg/NNP-24,Jones/NNP-27)
+				nn(Kweli/NNP-30,Talib/NNP-29)
+				prep_with(teamed/VBD-20,Kweli/NNP-30)
+				conj_and(Dogg/NNP-24,Kweli/NNP-30)
+				nn(Boy/NN-34,Soulja/NNP-33)
+				prep_with(teamed/VBD-20,Boy/NN-34)
+				conj_and(Dogg/NNP-24,Boy/NN-34)
+				aux(create/VB-36,to/TO-35)
+				xcomp(teamed/VBD-20,create/VB-36)
+				det(rap/NN-38,the/DT-37)
+				dobj(create/VB-36,rap/NN-38)
+				amod(rap/NN-38,single/JJ-39)
+				amod(rap/NN-38,video/NN-41)
+				conj_and(single/JJ-39,video/NN-41)
+				nn(Experience/NN-45,Rocket/NNP-44)
+				dep(rap/NN-38,Experience/NN-45)
+				prep_with(teamed/VBD-20,proceeds/NNS-49)
+				nn(sales/NNS-54,video/NN-51)
+				conj_and(video/NN-51,song/NN-53)
+				nn(sales/NNS-54,song/NN-53)
+				prep_from(proceeds/NNS-49,sales/NNS-54)
+				aux(benefit/VB-56,to/TO-55)
+				infmod(proceeds/NNS-49,benefit/VB-56)
+				poss(foundation/NN-60,Aldrin/NNP-57)
+				amod(foundation/NN-60,non-profit/JJ-59)
+				dobj(benefit/VB-56,foundation/NN-60)
+				appos(foundation/NN-60,ShareSpace/NNP-62)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1995, he made a featured appearance in the Charlton Heston, Mickey Rooney, and Deborah Winters film America: A Call to Greatness, directed by Warren Chaney.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(made/VBD-5,1995/CD-2)
+				nsubj(made/VBD-5,he/PRP-4)
+				det(appearance/NN-8,a/DT-6)
+				amod(appearance/NN-8,featured/JJ-7)
+				dobj(made/VBD-5,appearance/NN-8)
+				det(Heston/NNP-12,the/DT-10)
+				nn(Heston/NNP-12,Charlton/NNP-11)
+				prep_in(made/VBD-5,Heston/NNP-12)
+				nn(Rooney/NNP-15,Mickey/NNP-14)
+				prep_in(made/VBD-5,Rooney/NNP-15)
+				conj_and(Heston/NNP-12,Rooney/NNP-15)
+				nn(America/NNP-21,Deborah/NNP-18)
+				nn(America/NNP-21,Winters/NNP-19)
+				nn(America/NNP-21,film/NN-20)
+				prep_in(made/VBD-5,America/NNP-21)
+				conj_and(Heston/NNP-12,America/NNP-21)
+				nsubj(Call/VB-24,A/NNP-23)
+				parataxis(made/VBD-5,Call/VB-24)
+				prep_to(Call/VB-24,Greatness/NNP-26)
+				partmod(Greatness/NNP-26,directed/VBN-28)
+				nn(Chaney/NNP-31,Warren/NNP-30)
+				agent(directed/VBN-28,Chaney/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He referred to a "Phobos monolith" in a July 22, 2009, interview with C-SPAN: "We should go boldly where man has not gone before.	</value>
+
+		<annotated-sentence>	He referred to a "[[Phobos monolith|Phobos_monolith]]" in a [[July|July]] 22, 2009, [[interview|Interview]] with [[C-SPAN|C-SPAN]]: "We should go boldly where man has not gone before.	</annotated-sentence>
+
+		<pattern_crowdsource>	He referred to a "Phobos monolith" in a July 22, 2009, interview with C-SPAN: "We should go boldly where man has not gone before.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(referred/VBD-2,He/PRP-1)
+				det(monolith/NNP-7,a/DT-4)
+				nn(monolith/NNP-7,Phobos/NNP-6)
+				prep_to(referred/VBD-2,monolith/NNP-7)
+				det(interview/NN-16,a/DT-10)
+				nn(interview/NN-16,July/NNP-11)
+				num(July/NNP-11,22/CD-12)
+				num(July/NNP-11,2009/CD-14)
+				prep_in(referred/VBD-2,interview/NN-16)
+				prep_with(referred/VBD-2,C-SPAN/NNP-18)
+				nsubj(go/VB-23,We/PRP-21)
+				aux(go/VB-23,should/MD-22)
+				ccomp(referred/VBD-2,go/VB-23)
+				advmod(go/VB-23,boldly/RB-24)
+				advmod(gone/VBN-29,where/WRB-25)
+				nsubj(gone/VBN-29,man/NN-26)
+				aux(gone/VBN-29,has/VBZ-27)
+				neg(gone/VBN-29,not/RB-28)
+				advcl(go/VB-23,gone/VBN-29)
+				advmod(gone/VBN-29,before/RB-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Phobos monolith</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phobos_monolith</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interview</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interview</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>C-SPAN</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/C-SPAN</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fly by the comets, visit asteroids, visit the moon of Mars.	</value>
+
+		<annotated-sentence>	Fly by [[the comets|Comet]], [[visit|VisIt]] [[asteroids|Asteroid]], visit [[the moon|Moon]] of [[Mars|Mars]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fly by the comets, visit asteroids, visit the moon of Mars.	</pattern_crowdsource>
+
+
+		<tree>
+				det(comets/NNS-4,the/DT-3)
+				prep_by(Fly/VB-1,comets/NNS-4)
+				nn(asteroids/NNS-7,visit/NN-6)
+				appos(comets/NNS-4,asteroids/NNS-7)
+				dep(Fly/VB-1,visit/VB-9)
+				det(moon/NN-11,the/DT-10)
+				dobj(visit/VB-9,moon/NN-11)
+				prep_of(moon/NN-11,Mars/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the comets</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Comet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>visit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VisIt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>asteroids</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There's a monolith there.	</value>
+
+		<annotated-sentence>	There's [[a monolith|Monolith]] there.	</annotated-sentence>
+
+		<pattern_crowdsource>	There's a monolith there.	</pattern_crowdsource>
+
+
+		<tree>
+				expl('s/VBZ-2,There/EX-1)
+				det(monolith/NN-4,a/DT-3)
+				nsubj('s/VBZ-2,monolith/NN-4)
+				advmod('s/VBZ-2,there/RB-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a monolith</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Monolith</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A very unusual structure on this potato shaped object that goes around Mars once in seven hours.	</value>
+
+		<annotated-sentence>	A very unusual [[structure|Structure]] on [[this potato|Potato]] shaped object that goes around [[Mars|Mars]] once in [[seven hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A very unusual structure on this potato shaped object that goes around Mars once in seven hours.	</pattern_crowdsource>
+
+
+		<tree>
+				det(structure/NN-4,A/DT-1)
+				advmod(unusual/JJ-3,very/RB-2)
+				amod(structure/NN-4,unusual/JJ-3)
+				nsubj(shaped/JJ-8,structure/NN-4)
+				det(potato/NN-7,this/DT-6)
+				prep_on(structure/NN-4,potato/NN-7)
+				dobj(shaped/JJ-8,object/NN-9)
+				nsubj(goes/VBZ-11,that/WDT-10)
+				rcmod(object/NN-9,goes/VBZ-11)
+				prep_around(goes/VBZ-11,Mars/NNP-13)
+				advmod(goes/VBZ-11,once/RB-14)
+				num(hours/NNS-17,seven/CD-16)
+				prep_in(shaped/JJ-8,hours/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>structure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Structure</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>this potato</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Potato</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>seven hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When people find out about that they're going to say 'Who put that there?	</value>
+
+		<annotated-sentence>	When people find out about that they're going to say 'Who put that there?	</annotated-sentence>
+
+		<pattern_crowdsource>	When people find out about that they're going to say 'Who put that there?	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(find/VBP-3,When/WRB-1)
+				nsubj(find/VBP-3,people/NNS-2)
+				prt(find/VBP-3,out/RP-4)
+				dobj(going/VBG-9,that/DT-6)
+				nsubj(going/VBG-9,they/PRP-7)
+				aux(going/VBG-9,'re/VBP-8)
+				prepc_about(find/VBP-3,going/VBG-9)
+				aux(say/VB-11,to/TO-10)
+				xcomp(going/VBG-9,say/VB-11)
+				nsubj(put/VBD-14,Who/WP-13)
+				ccomp(say/VB-11,put/VBD-14)
+				mark(there/EX-16,that/IN-15)
+				dep(put/VBD-14,there/EX-16)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Who put that there?'	</value>
+
+		<annotated-sentence>	Who put that there?'	</annotated-sentence>
+
+		<pattern_crowdsource>	Who put that there?'	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(put/VBD-2,Who/WP-1)
+				mark(there/EX-4,that/IN-3)
+				dep(put/VBD-2,there/EX-4)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The universe put it there.	</value>
+
+		<annotated-sentence>	The universe put it there.	</annotated-sentence>
+
+		<pattern_crowdsource>	The universe put it there.	</pattern_crowdsource>
+
+
+		<tree>
+				det(universe/NN-2,The/DT-1)
+				nsubj(put/VBD-3,universe/NN-2)
+				dobj(put/VBD-3,it/PRP-4)
+				advmod(put/VBD-3,there/RB-5)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	If you choose, God put it there…" Aldrin has voiced parody versions of himself in two of Matt Groening's animated series: The Simpsons episode "Deep Space Homer"- where he accompanies Homer Simpson on a trip into space as part of NASA's plan to improve its public appearance- and the Futurama episode "Cold Warriors".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(choose/VB-3,If/IN-1)
+				nsubj(choose/VB-3,you/PRP-2)
+				advcl(put/VBD-6,choose/VB-3)
+				nsubj(put/VBD-6,God/NNP-5)
+				nsubj(there/EX-8,it/PRP-7)
+				xcomp(put/VBD-6,there/EX-8)
+				nsubj(voiced/VBN-13,Aldrin/NNP-11)
+				aux(voiced/VBN-13,has/VBZ-12)
+				dep(put/VBD-6,voiced/VBN-13)
+				nn(versions/NNS-15,parody/NN-14)
+				dobj(voiced/VBN-13,versions/NNS-15)
+				prep_of(versions/NNS-15,himself/PRP-17)
+				prep_in(voiced/VBN-13,two/CD-19)
+				nn(Groening/NNP-22,Matt/NNP-21)
+				poss(series/NN-25,Groening/NNP-22)
+				amod(series/NN-25,animated/JJ-24)
+				prep_of(two/CD-19,series/NN-25)
+				det(episode/NN-29,The/DT-27)
+				nn(episode/NN-29,Simpsons/NNP-28)
+				dep(Homer/NNP-33,episode/NN-29)
+				nn(Homer/NNP-33,Deep/NNP-31)
+				nn(Homer/NNP-33,Space/NNP-32)
+				parataxis(voiced/VBN-13,Homer/NNP-33)
+				advmod(accompanies/VBZ-38,where/WRB-36)
+				nsubj(accompanies/VBZ-38,he/PRP-37)
+				rcmod(Homer/NNP-33,accompanies/VBZ-38)
+				nn(Simpson/NNP-40,Homer/NNP-39)
+				dobj(accompanies/VBZ-38,Simpson/NNP-40)
+				det(trip/NN-43,a/DT-42)
+				prep_on(Simpson/NNP-40,trip/NN-43)
+				prep_into(accompanies/VBZ-38,space/NN-45)
+				prep_as(space/NN-45,part/NN-47)
+				poss(plan/NN-51,NASA/NNP-49)
+				prep_of(part/NN-47,plan/NN-51)
+				aux(improve/VB-53,to/TO-52)
+				infmod(plan/NN-51,improve/VB-53)
+				poss(appearance/NN-56,its/PRP$-54)
+				amod(appearance/NN-56,public/JJ-55)
+				dobj(improve/VB-53,appearance/NN-56)
+				det(episode/NN-61,the/DT-59)
+				nn(episode/NN-61,Futurama/NNP-60)
+				dep(Warriors/NNP-64,episode/NN-61)
+				nn(Warriors/NNP-64,Cold/NNP-63)
+				conj_and(put/VBD-6,Warriors/NNP-64)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2011 Aldrin appeared as himself in the film Transformers: Dark of the Moon, where he explains to Optimus Prime and the Autobots that the Apollo 11 mission also discovered a Cybertronian ship on the moon whose existence was concealed from the public.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appeared/VBD-4,2011/CD-2)
+				nsubj(appeared/VBD-4,Aldrin/NNP-3)
+				prep_as(appeared/VBD-4,himself/PRP-6)
+				det(Transformers/NNPS-10,the/DT-8)
+				nn(Transformers/NNPS-10,film/NN-9)
+				prep_in(appeared/VBD-4,Transformers/NNPS-10)
+				dep(Transformers/NNPS-10,Dark/JJ-12)
+				det(Moon/NNP-15,the/DT-14)
+				prep_of(Dark/JJ-12,Moon/NNP-15)
+				advmod(explains/VBZ-19,where/WRB-17)
+				nsubj(explains/VBZ-19,he/PRP-18)
+				advcl(appeared/VBD-4,explains/VBZ-19)
+				nn(Prime/NNP-22,Optimus/NNP-21)
+				prep_to(explains/VBZ-19,Prime/NNP-22)
+				det(Autobots/NNPS-25,the/DT-24)
+				prep_to(explains/VBZ-19,Autobots/NNPS-25)
+				conj_and(Prime/NNP-22,Autobots/NNPS-25)
+				mark(discovered/VBD-32,that/IN-26)
+				det(mission/NN-30,the/DT-27)
+				nn(mission/NN-30,Apollo/NNP-28)
+				num(mission/NN-30,11/CD-29)
+				nsubj(discovered/VBD-32,mission/NN-30)
+				advmod(discovered/VBD-32,also/RB-31)
+				ccomp(explains/VBZ-19,discovered/VBD-32)
+				det(ship/NN-35,a/DT-33)
+				amod(ship/NN-35,Cybertronian/JJ-34)
+				dobj(discovered/VBD-32,ship/NN-35)
+				det(moon/NN-38,the/DT-37)
+				prep_on(discovered/VBD-32,moon/NN-38)
+				poss(existence/NN-40,whose/WP$-39)
+				nsubjpass(concealed/VBN-42,existence/NN-40)
+				auxpass(concealed/VBN-42,was/VBD-41)
+				rcmod(moon/NN-38,concealed/VBN-42)
+				det(public/NN-45,the/DT-44)
+				prep_from(concealed/VBN-42,public/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2012, he made a cameo appearance in Japanese drama film Space Brothers.	</value>
+
+		<annotated-sentence>	In [[2012|2012]], he made [[a cameo appearance|Cameo_appearance]] in [[Japanese drama|Japanese_drama]] film Space Brothers.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2012, he made a cameo appearance in Japanese drama film Space Brothers.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(made/VBD-5,2012/CD-2)
+				nsubj(made/VBD-5,he/PRP-4)
+				det(appearance/NN-8,a/DT-6)
+				nn(appearance/NN-8,cameo/NN-7)
+				dobj(made/VBD-5,appearance/NN-8)
+				amod(film/NN-12,Japanese/JJ-10)
+				nn(film/NN-12,drama/NN-11)
+				prep_in(made/VBD-5,film/NN-12)
+				nn(Brothers/NNPS-14,Space/NNP-13)
+				dep(film/NN-12,Brothers/NNPS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2012</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a cameo appearance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cameo_appearance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Japanese drama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japanese_drama</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin also lent his voice talents to the 2012 video game Mass Effect 3, playing a stargazer who appears in the game's final scene.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] also lent his voice talents to the [[2012|United_States_presidential_election,_2012]] [[video game|VideoGame]] [[Mass|Massachusetts]] Effect 3, playing [[a stargazer|Stargazer]] who appears in the [[game|Game]]'s final scene.	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin also lent his voice talents to the [[2012|United_States_presidential_election,_2012]] video game [[Mass|Massachusetts]] Effect 3, playing a stargazer who appears in the game's final scene.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(lent/VBD-3,Aldrin/NNP-1)
+				advmod(lent/VBD-3,also/RB-2)
+				poss(talents/NNS-6,his/PRP$-4)
+				nn(talents/NNS-6,voice/NN-5)
+				dobj(lent/VBD-3,talents/NNS-6)
+				det(game/NN-11,the/DT-8)
+				num(game/NN-11,2012/CD-9)
+				nn(game/NN-11,video/NN-10)
+				prep_to(lent/VBD-3,game/NN-11)
+				amod(game/NN-11,Mass/JJ-12)
+				dep(Mass/JJ-12,Effect/NN-13)
+				num(Effect/NN-13,3/CD-14)
+				partmod(lent/VBD-3,playing/VBG-16)
+				det(stargazer/NN-18,a/DT-17)
+				dobj(playing/VBG-16,stargazer/NN-18)
+				nsubj(appears/VBZ-20,who/WP-19)
+				rcmod(stargazer/NN-18,appears/VBZ-20)
+				det(game/NN-23,the/DT-22)
+				poss(scene/NN-26,game/NN-23)
+				amod(scene/NN-26,final/JJ-25)
+				prep_in(appears/VBZ-20,scene/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_presidential_election,_2012</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>video game</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/VideoGame</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mass</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massachusetts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a stargazer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargazer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>game</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Game</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_presidential_election,_2012 http://dbpedia.org/property/state http://dbpedia.org/resource/Massachusetts
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_presidential_election,_2012 http://dbpedia.org/property/homeState http://dbpedia.org/resource/Massachusetts
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1985, Aldrin proposed the existence of a special spacecraft trajectory now known as the Aldrin cycler.	</value>
+
+		<annotated-sentence>	In [[1985|1985]], [[Aldrin|Mars_cycler]] proposed [[the existence|Existence]] of a special [[spacecraft|Spacecraft]] [[trajectory|Biblical_hermeneutics]] now known as [[the Aldrin cycler|Mars_cycler]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1985, Aldrin proposed the existence of a special spacecraft trajectory now known as the Aldrin cycler.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(proposed/VBD-5,1985/CD-2)
+				nsubj(proposed/VBD-5,Aldrin/NNP-4)
+				det(existence/NN-7,the/DT-6)
+				dobj(proposed/VBD-5,existence/NN-7)
+				det(trajectory/NN-12,a/DT-9)
+				amod(trajectory/NN-12,special/JJ-10)
+				nn(trajectory/NN-12,spacecraft/NN-11)
+				prep_of(existence/NN-7,trajectory/NN-12)
+				advmod(known/VBN-14,now/RB-13)
+				partmod(trajectory/NN-12,known/VBN-14)
+				det(cycler/NN-18,the/DT-16)
+				nn(cycler/NN-18,Aldrin/NNP-17)
+				prep_as(known/VBN-14,cycler/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars_cycler</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the existence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Existence</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>trajectory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biblical_hermeneutics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Aldrin cycler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars_cycler</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A spacecraft traveling on an Aldrin cycler trajectory would pass near the planets Earth and Mars on a regular (cyclic) basis.	</value>
+
+		<annotated-sentence>	A [[spacecraft|Spacecraft]] traveling on an [[Aldrin cycler|Mars_cycler]] [[trajectory|Biblical_hermeneutics]] would pass near the [[planets|Planet]] [[Earth|Earth]] and Mars on a regular (cyclic) basis.	</annotated-sentence>
+
+		<pattern_crowdsource>	A spacecraft traveling on an Aldrin cycler trajectory would pass near the [[planets|Planet]] [[Earth|Earth]] and Mars on a regular (cyclic) basis.	</pattern_crowdsource>
+
+
+		<tree>
+				det(spacecraft/NN-2,A/DT-1)
+				nsubj(pass/VB-10,spacecraft/NN-2)
+				partmod(spacecraft/NN-2,traveling/VBG-3)
+				det(trajectory/NN-8,an/DT-5)
+				nn(trajectory/NN-8,Aldrin/NNP-6)
+				nn(trajectory/NN-8,cycler/NN-7)
+				prep_on(traveling/VBG-3,trajectory/NN-8)
+				aux(pass/VB-10,would/MD-9)
+				det(Earth/NNP-14,the/DT-12)
+				nn(Earth/NNP-14,planets/NNS-13)
+				prep_near(pass/VB-10,Earth/NNP-14)
+				prep_near(pass/VB-10,Mars/NNP-16)
+				conj_and(Earth/NNP-14,Mars/NNP-16)
+				det(basis/NN-23,a/DT-18)
+				amod(basis/NN-23,regular/JJ-19)
+				dep(basis/NN-23,cyclic/JJ-21)
+				prep_on(pass/VB-10,basis/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin cycler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars_cycler</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>trajectory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biblical_hermeneutics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>planets</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Planet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Earth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Planet
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Aldrin cycler is an example of a Mars cycler.	</value>
+
+		<annotated-sentence>	The [[Aldrin cycler|Mars_cycler]] is an example of [[a Mars cycler|Mars_cycler]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Aldrin cycler is an example of a Mars cycler.	</pattern_crowdsource>
+
+
+		<tree>
+				det(cycler/NN-3,The/DT-1)
+				nn(cycler/NN-3,Aldrin/NNP-2)
+				nsubj(example/NN-6,cycler/NN-3)
+				cop(example/NN-6,is/VBZ-4)
+				det(example/NN-6,an/DT-5)
+				det(cycler/NN-10,a/DT-8)
+				nn(cycler/NN-10,Mars/NNP-9)
+				prep_of(example/NN-6,cycler/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin cycler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars_cycler</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mars cycler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars_cycler</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also instrumental in the idea of training of astronauts underwater in order to better prepare them for the intricate space walks and duties of maintenance while in space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(instrumental/JJ-4,He/PRP-1)
+				cop(instrumental/JJ-4,was/VBD-2)
+				advmod(instrumental/JJ-4,also/RB-3)
+				det(idea/NN-7,the/DT-6)
+				prep_in(instrumental/JJ-4,idea/NN-7)
+				prep_of(idea/NN-7,training/NN-9)
+				prep_of(training/NN-9,astronauts/NNS-11)
+				amod(instrumental/JJ-4,underwater/JJ-12)
+				prep_in(instrumental/JJ-4,order/NN-14)
+				aux(prepare/VB-17,to/TO-15)
+				advmod(prepare/VB-17,better/JJR-16)
+				infmod(order/NN-14,prepare/VB-17)
+				dobj(prepare/VB-17,them/PRP-18)
+				mark(walks/VBZ-23,for/IN-19)
+				det(space/NN-22,the/DT-20)
+				amod(space/NN-22,intricate/JJ-21)
+				nsubj(walks/VBZ-23,space/NN-22)
+				advcl(prepare/VB-17,walks/VBZ-23)
+				prep_in(instrumental/JJ-4,duties/NNS-25)
+				conj_and(order/NN-14,duties/NNS-25)
+				prep_of(duties/NNS-25,maintenance/NN-27)
+				mark(in/IN-29,while/IN-28)
+				dep(instrumental/JJ-4,in/IN-29)
+				pobj(in/IN-29,space/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 9, 2002, Aldrin was lured to a Beverly Hills hotel on the pretext of being interviewed for a Japanese children's television show.	</value>
+
+		<annotated-sentence>	On [[September|September]] 9, 2002, [[Aldrin|Aldrin]] was lured to [[a Beverly Hills hotel|Beverly_Hills_Hotel]] on [[the pretext|Pretext]] of being interviewed for a Japanese [[children|Child]]'s [[television|Television]] show.	</annotated-sentence>
+
+		<pattern_crowdsource>	On September 9, 2002, Aldrin was lured to a Beverly Hills hotel on the pretext of being interviewed for a Japanese children's television show.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(lured/VBN-9,September/NNP-2)
+				num(September/NNP-2,9/CD-3)
+				num(September/NNP-2,2002/CD-5)
+				nsubjpass(lured/VBN-9,Aldrin/NNP-7)
+				auxpass(lured/VBN-9,was/VBD-8)
+				det(hotel/NN-14,a/DT-11)
+				amod(hotel/NN-14,Beverly/NNP-12)
+				amod(Beverly/NNP-12,Hills/NNP-13)
+				prep_to(lured/VBN-9,hotel/NN-14)
+				det(pretext/NN-17,the/DT-16)
+				prep_on(hotel/NN-14,pretext/NN-17)
+				auxpass(interviewed/VBN-20,being/VBG-19)
+				prepc_of(pretext/NN-17,interviewed/VBN-20)
+				det(children/NNS-24,a/DT-22)
+				amod(children/NNS-24,Japanese/JJ-23)
+				poss(show/NN-27,children/NNS-24)
+				nn(show/NN-27,television/NN-26)
+				prep_for(interviewed/VBN-20,show/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Beverly Hills hotel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Beverly_Hills_Hotel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the pretext</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pretext</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>television</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Television</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When he arrived, Apollo Conspiracy proponent Bart Sibrel accosted him with a film crew and demanded he swear on a Bible that the Moon landings were not faked.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(arrived/VBD-3,When/WRB-1)
+				nsubj(arrived/VBD-3,he/PRP-2)
+				advcl(accosted/VBD-10,arrived/VBD-3)
+				nn(Sibrel/NNP-9,Apollo/NNP-5)
+				nn(Sibrel/NNP-9,Conspiracy/NNP-6)
+				nn(Sibrel/NNP-9,proponent/NN-7)
+				nn(Sibrel/NNP-9,Bart/NNP-8)
+				nsubj(accosted/VBD-10,Sibrel/NNP-9)
+				nsubj(demanded/VBD-17,Sibrel/NNP-9)
+				dobj(accosted/VBD-10,him/PRP-11)
+				det(crew/NN-15,a/DT-13)
+				nn(crew/NN-15,film/NN-14)
+				prep_with(accosted/VBD-10,crew/NN-15)
+				conj_and(accosted/VBD-10,demanded/VBD-17)
+				nsubj(swear/VB-19,he/PRP-18)
+				ccomp(demanded/VBD-17,swear/VB-19)
+				det(Bible/NNP-22,a/DT-21)
+				prep_on(swear/VB-19,Bible/NNP-22)
+				mark(faked/VBN-29,that/IN-23)
+				det(landings/NNS-26,the/DT-24)
+				nn(landings/NNS-26,Moon/NNP-25)
+				nsubjpass(faked/VBN-29,landings/NNS-26)
+				auxpass(faked/VBN-29,were/VBD-27)
+				neg(faked/VBN-29,not/RB-28)
+				ccomp(swear/VB-19,faked/VBN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After a brief confrontation Aldrin punched Sibrel in the jaw.	</value>
+
+		<annotated-sentence>	After a brief confrontation [[Aldrin|Aldrin]] punched [[Sibrel|Bart_Sibrel]] in the jaw.	</annotated-sentence>
+
+		<pattern_crowdsource>	After a brief confrontation Aldrin punched Sibrel in the jaw.	</pattern_crowdsource>
+
+
+		<tree>
+				det(confrontation/NN-4,a/DT-2)
+				amod(confrontation/NN-4,brief/JJ-3)
+				prep_after(punched/VBD-6,confrontation/NN-4)
+				nsubj(punched/VBD-6,Aldrin/NNP-5)
+				dobj(punched/VBD-6,Sibrel/NNP-7)
+				det(jaw/NN-10,the/DT-9)
+				prep_in(Sibrel/NNP-7,jaw/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sibrel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bart_Sibrel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The police determined that Aldrin was provoked and no charges were filed.	</value>
+
+		<annotated-sentence>	[[The police|The_Police]] determined that [[Aldrin|Aldrin]] was provoked and no charges were filed.	</annotated-sentence>
+
+		<pattern_crowdsource>	The police determined that Aldrin was provoked and no charges were filed.	</pattern_crowdsource>
+
+
+		<tree>
+				det(police/NN-2,The/DT-1)
+				nsubj(determined/VBD-3,police/NN-2)
+				mark(provoked/VBN-7,that/IN-4)
+				nsubjpass(provoked/VBN-7,Aldrin/NNP-5)
+				auxpass(provoked/VBN-7,was/VBD-6)
+				ccomp(determined/VBD-3,provoked/VBN-7)
+				det(charges/NNS-10,no/DT-9)
+				nsubjpass(filed/VBN-12,charges/NNS-10)
+				auxpass(filed/VBN-12,were/VBD-11)
+				conj_and(determined/VBD-3,filed/VBN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The police</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Police</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin dedicates a chapter to this incident in his autobiography Magnificent Desolation.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] dedicates a chapter to this incident in his [[autobiography|Autobiography]] [[Magnificent Desolation|Desolation_(Llimona)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin dedicates a chapter to this incident in his autobiography Magnificent Desolation.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(dedicates/VBZ-2,Aldrin/NNP-1)
+				det(chapter/NN-4,a/DT-3)
+				dobj(dedicates/VBZ-2,chapter/NN-4)
+				det(incident/NN-7,this/DT-6)
+				prep_to(dedicates/VBZ-2,incident/NN-7)
+				poss(Desolation/NN-12,his/PRP$-9)
+				nn(Desolation/NN-12,autobiography/NN-10)
+				amod(Desolation/NN-12,Magnificent/JJ-11)
+				prep_in(incident/NN-7,Desolation/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>autobiography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Autobiography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Magnificent Desolation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Desolation_(Llimona)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In December 2003, Aldrin published an opinion piece in The New York Times criticizing NASA's objectives.	</value>
+
+		<annotated-sentence>	In [[December 2003|December_2003]], [[Aldrin|Buzz_Aldrin]] published [[an opinion piece|Opinion_piece]] in [[The New York Times|The_New_York_Times]] criticizing [[NASA|NASA]]'s objectives.	</annotated-sentence>
+
+		<pattern_crowdsource>	In December 2003, [[Aldrin|Buzz_Aldrin]] published an opinion piece in The New York Times criticizing [[NASA|NASA]]'s objectives.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(published/VBD-6,December/NNP-2)
+				num(December/NNP-2,2003/CD-3)
+				nsubj(published/VBD-6,Aldrin/NNP-5)
+				det(piece/NN-9,an/DT-7)
+				nn(piece/NN-9,opinion/NN-8)
+				dobj(published/VBD-6,piece/NN-9)
+				det(Times/NNP-14,The/DT-11)
+				nn(Times/NNP-14,New/NNP-12)
+				nn(Times/NNP-14,York/NNP-13)
+				prep_in(published/VBD-6,Times/NNP-14)
+				xcomp(published/VBD-6,criticizing/VBG-15)
+				poss(objectives/NNS-18,NASA/NNP-16)
+				dobj(criticizing/VBG-15,objectives/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2003</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an opinion piece</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Opinion_piece</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>The New York Times</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_New_York_Times</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In it, he voiced concern about NASA's development of a spacecraft "limited to transporting four astronauts at a time with little or no cargo carrying capability" and declared the goal of sending astronauts back to the Moon was "more like reaching for past glory than striving for new triumphs".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(voiced/VBD-5,it/PRP-2)
+				nsubj(voiced/VBD-5,he/PRP-4)
+				nsubj(declared/VBD-32,he/PRP-4)
+				dobj(voiced/VBD-5,concern/NN-6)
+				poss(development/NN-10,NASA/NNP-8)
+				prep_about(concern/NN-6,development/NN-10)
+				det(spacecraft/NN-13,a/DT-12)
+				prep_of(development/NN-10,spacecraft/NN-13)
+				dep(voiced/VBD-5,limited/JJ-15)
+				prepc_to(limited/JJ-15,transporting/VBG-17)
+				num(astronauts/NNS-19,four/CD-18)
+				dobj(transporting/VBG-17,astronauts/NNS-19)
+				det(time/NN-22,a/DT-21)
+				prep_at(astronauts/NNS-19,time/NN-22)
+				prep_with(transporting/VBG-17,little/JJ-24)
+				det(capability/NN-29,no/DT-26)
+				nn(capability/NN-29,cargo/NN-27)
+				amod(capability/NN-29,carrying/VBG-28)
+				prep_with(transporting/VBG-17,capability/NN-29)
+				conj_or(little/JJ-24,capability/NN-29)
+				conj_and(voiced/VBD-5,declared/VBD-32)
+				det(goal/NN-34,the/DT-33)
+				nsubj(was/VBD-42,goal/NN-34)
+				prepc_of(goal/NN-34,sending/VBG-36)
+				dobj(sending/VBG-36,astronauts/NNS-37)
+				advmod(sending/VBG-36,back/RB-38)
+				det(Moon/NN-41,the/DT-40)
+				prep_to(sending/VBG-36,Moon/NN-41)
+				ccomp(declared/VBD-32,was/VBD-42)
+				advmod(was/VBD-42,more/RBR-44)
+				prepc_like(was/VBD-42,reaching/VBG-46)
+				amod(glory/NN-49,past/JJ-48)
+				prep_for(reaching/VBG-46,glory/NN-49)
+				prepc_than(reaching/VBG-46,striving/VBG-51)
+				amod(triumphs/NNS-54,new/JJ-53)
+				prep_for(striving/VBG-51,triumphs/NNS-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2013, Aldrin wrote an opinion published in The New York Times supporting a manned mission to Mars and views the moon "not as a destination but more a point of departure, one that places humankind on a trajectory to homestead Mars and become a two-planet species."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(wrote/VBD-6,June/NNP-2)
+				num(June/NNP-2,2013/CD-3)
+				nsubj(wrote/VBD-6,Aldrin/NNP-5)
+				det(opinion/NN-8,an/DT-7)
+				dobj(wrote/VBD-6,opinion/NN-8)
+				dep(opinion/NN-8,published/VBN-9)
+				det(Times/NNP-14,The/DT-11)
+				nn(Times/NNP-14,New/NNP-12)
+				nn(Times/NNP-14,York/NNP-13)
+				prep_in(published/VBN-9,Times/NNP-14)
+				xcomp(published/VBN-9,supporting/VBG-15)
+				det(mission/NN-18,a/DT-16)
+				amod(mission/NN-18,manned/JJ-17)
+				dobj(supporting/VBG-15,mission/NN-18)
+				prep_to(supporting/VBG-15,Mars/NNP-20)
+				dep(opinion/NN-8,views/VBZ-22)
+				conj_and(published/VBN-9,views/VBZ-22)
+				conj_and(published/VBN-9,views/VBZ-22)
+				conj_but(views/VBZ-22,views/VBZ-22)
+				det(moon/NN-24,the/DT-23)
+				dobj(views/VBZ-22,moon/NN-24)
+				conj(views/VBZ-22,not/RB-26)
+				det(destination/NN-29,a/DT-28)
+				prep_as(views/VBZ-22,destination/NN-29)
+				conj(views/VBZ-22,more/JJR-31)
+				det(point/NN-33,a/DT-32)
+				npadvmod(views/VBZ-22,point/NN-33)
+				prep_of(views/VBZ-22,departure/NN-35)
+				appos(opinion/NN-8,one/CD-37)
+				nsubj(places/VBZ-39,that/WDT-38)
+				rcmod(one/CD-37,places/VBZ-39)
+				dobj(places/VBZ-39,humankind/NN-40)
+				det(trajectory/NN-43,a/DT-42)
+				prep_on(humankind/NN-40,trajectory/NN-43)
+				nn(Mars/NNP-46,homestead/NN-45)
+				prep_to(places/VBZ-39,Mars/NNP-46)
+				cop(species/NNS-51,become/VB-48)
+				det(species/NNS-51,a/DT-49)
+				amod(species/NNS-51,two-planet/JJ-50)
+				rcmod(one/CD-37,species/NNS-51)
+				conj_and(places/VBZ-39,species/NNS-51)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2009, Aldrin said he was skeptical that humans were causing current global climate change: "I think the climate has been changing for billions of years.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(said/VBD-5,2009/CD-2)
+				nsubj(said/VBD-5,Aldrin/NNP-4)
+				nsubj(skeptical/JJ-8,he/PRP-6)
+				cop(skeptical/JJ-8,was/VBD-7)
+				ccomp(said/VBD-5,skeptical/JJ-8)
+				mark(causing/VBG-12,that/IN-9)
+				nsubj(causing/VBG-12,humans/NNS-10)
+				aux(causing/VBG-12,were/VBD-11)
+				ccomp(skeptical/JJ-8,causing/VBG-12)
+				amod(change/NN-16,current/JJ-13)
+				amod(change/NN-16,global/JJ-14)
+				nn(change/NN-16,climate/NN-15)
+				dobj(causing/VBG-12,change/NN-16)
+				nsubj(think/VBP-20,I/PRP-19)
+				ccomp(said/VBD-5,think/VBP-20)
+				det(climate/NN-22,the/DT-21)
+				nsubj(changing/VBG-25,climate/NN-22)
+				aux(changing/VBG-25,has/VBZ-23)
+				aux(changing/VBG-25,been/VBN-24)
+				ccomp(think/VBP-20,changing/VBG-25)
+				prep_for(changing/VBG-25,billions/NNS-27)
+				prep_of(billions/NNS-27,years/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	If it's warming now, it may cool off later.	</value>
+
+		<annotated-sentence>	If it's warming now, it may cool off later.	</annotated-sentence>
+
+		<pattern_crowdsource>	If it's warming now, it may cool off later.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(warming/VBG-4,If/IN-1)
+				nsubj(warming/VBG-4,it/PRP-2)
+				aux(warming/VBG-4,'s/VBZ-3)
+				advcl(cool/VB-9,warming/VBG-4)
+				advmod(warming/VBG-4,now/RB-5)
+				nsubj(cool/VB-9,it/PRP-7)
+				aux(cool/VB-9,may/MD-8)
+				advmod(later/RB-11,off/RB-10)
+				advmod(cool/VB-9,later/RB-11)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I'm not in favor of just taking short-term isolated situations and depleting our resources to keep our climate just the way it is today.	</value>
+
+		<annotated-sentence>	I'm not in favor of just taking short-term isolated situations and depleting [[our resources|Resource]] to keep [[our climate|Climate]] just the way it is today.	</annotated-sentence>
+
+		<pattern_crowdsource>	I'm not in favor of just taking short-term isolated situations and depleting our resources to keep our climate just the way it is today.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj('m/VBP-2,I/PRP-1)
+				neg('m/VBP-2,not/RB-3)
+				prep_in('m/VBP-2,favor/NN-5)
+				advmod(taking/VBG-8,just/RB-7)
+				prepc_of(favor/NN-5,taking/VBG-8)
+				amod(situations/NNS-11,short-term/JJ-9)
+				amod(situations/NNS-11,isolated/VBN-10)
+				dobj(taking/VBG-8,situations/NNS-11)
+				prepc_of(favor/NN-5,depleting/VBG-13)
+				conj_and(taking/VBG-8,depleting/VBG-13)
+				poss(resources/NNS-15,our/PRP$-14)
+				dobj(depleting/VBG-13,resources/NNS-15)
+				aux(keep/VB-17,to/TO-16)
+				xcomp(depleting/VBG-13,keep/VB-17)
+				poss(climate/NN-19,our/PRP$-18)
+				dep(keep/VB-17,climate/NN-19)
+				advmod(way/NN-22,just/RB-20)
+				det(way/NN-22,the/DT-21)
+				dobj(keep/VB-17,way/NN-22)
+				nsubj(is/VBZ-24,it/PRP-23)
+				rcmod(way/NN-22,is/VBZ-24)
+				tmod(is/VBZ-24,today/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>our resources</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Resource</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>our climate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Climate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I'm not necessarily of the school that we are causing it all, I think the world is causing it."	</value>
+
+		<annotated-sentence>	I'm not necessarily of [[the school|School]] that we are causing it all, I think [[the world|World]] is causing it."	</annotated-sentence>
+
+		<pattern_crowdsource>	I'm not necessarily of the school that we are causing it all, I think the world is causing it."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj('m/VBP-2,I/PRP-1)
+				ccomp(think/VBP-16,'m/VBP-2)
+				neg('m/VBP-2,not/RB-3)
+				advmod('m/VBP-2,necessarily/RB-4)
+				det(school/NN-7,the/DT-6)
+				prep_of('m/VBP-2,school/NN-7)
+				mark(causing/VBG-11,that/IN-8)
+				nsubj(causing/VBG-11,we/PRP-9)
+				aux(causing/VBG-11,are/VBP-10)
+				ccomp('m/VBP-2,causing/VBG-11)
+				nsubj(all/DT-13,it/PRP-12)
+				xcomp(causing/VBG-11,all/DT-13)
+				nsubj(think/VBP-16,I/PRP-15)
+				det(world/NN-18,the/DT-17)
+				nsubj(causing/VBG-20,world/NN-18)
+				aux(causing/VBG-20,is/VBZ-19)
+				ccomp(think/VBP-16,causing/VBG-20)
+				dobj(causing/VBG-20,it/PRP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the world</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Books co-authored by Aldrin include Return to Earth (1973), Men From Earth (1989), Reaching for the Moon (2005), Look to the Stars (2009) and Magnificent Desolation (2009).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(include/VBP-5,Books/NNS-1)
+				partmod(Books/NNS-1,co-authored/VBN-2)
+				agent(co-authored/VBN-2,Aldrin/NNP-4)
+				dobj(include/VBP-5,Return/NN-6)
+				nsubj(Reaching/VBG-20,Earth/NNP-8)
+				appos(Earth/NNP-8,1973/CD-10)
+				appos(Earth/NNP-8,Men/NN-13)
+				prep_from(Men/NN-13,Earth/NNP-15)
+				appos(Earth/NNP-15,1989/CD-17)
+				prepc_to(include/VBP-5,Reaching/VBG-20)
+				det(Moon/NNP-23,the/DT-22)
+				prep_for(Reaching/VBG-20,Moon/NNP-23)
+				appos(Moon/NNP-23,2005/CD-25)
+				dep(include/VBP-5,Look/VB-28)
+				det(Stars/NNP-31,the/DT-30)
+				prep_to(Look/VB-28,Stars/NNP-31)
+				appos(Stars/NNP-31,2009/CD-33)
+				amod(Desolation/NN-37,Magnificent/JJ-36)
+				prep_to(Look/VB-28,Desolation/NN-37)
+				conj_and(Stars/NNP-31,Desolation/NN-37)
+				appos(Stars/NNP-31,2009/CD-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also co-authored with John Barnes the science fiction novels Encounter with Tiber (1996) and The Return (2000).	</value>
+
+		<annotated-sentence>	He has also co-authored with John Barnes the [[science fiction novels|Science_fiction]] Encounter with [[Tiber|Tiber]] ([[1996|1996]]) and [[The Return|The_Return_(Star_Trek)]] ([[2000|2000]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He has also co-authored with John Barnes the [[science fiction novels|Science_fiction]] Encounter with Tiber (1996) and [[The Return|The_Return_(Star_Trek)]] (2000).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(co-authored/VBN-4,He/PRP-1)
+				aux(co-authored/VBN-4,has/VBZ-2)
+				advmod(co-authored/VBN-4,also/RB-3)
+				nn(Barnes/NNP-7,John/NNP-6)
+				prep_with(co-authored/VBN-4,Barnes/NNP-7)
+				det(Encounter/NN-12,the/DT-8)
+				nn(Encounter/NN-12,science/NN-9)
+				nn(Encounter/NN-12,fiction/NN-10)
+				nn(Encounter/NN-12,novels/NNS-11)
+				npadvmod(Barnes/NNP-7,Encounter/NN-12)
+				prep_with(Barnes/NNP-7,Tiber/NN-14)
+				appos(Tiber/NN-14,1996/CD-16)
+				det(Return/NN-20,The/DT-19)
+				prep_with(Barnes/NNP-7,Return/NN-20)
+				conj_and(Tiber/NN-14,Return/NN-20)
+				appos(Tiber/NN-14,2000/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>science fiction novels</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science_fiction</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tiber</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tiber</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>The Return</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Return_(Star_Trek)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Return_(Star_Trek) http://dbpedia.org/ontology/literaryGenre http://dbpedia.org/resource/Science_fiction
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His book Mission to Mars was published in May 2013.	</value>
+
+		<annotated-sentence>	His [[book|Book]] Mission to [[Mars|Mars]] was published in [[May 2013|2013]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His book Mission to Mars was published in May 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Mission/NNP-3,His/PRP$-1)
+				nn(Mission/NNP-3,book/NN-2)
+				nsubjpass(published/VBN-7,Mission/NNP-3)
+				prep_to(Mission/NNP-3,Mars/NNP-5)
+				auxpass(published/VBN-7,was/VBD-6)
+				prep_in(published/VBN-7,May/NNP-9)
+				num(May/NNP-9,2013/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2013</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin has been married three times: to Joan Archer, mother of three raising/raised, James, Janice, and Andrew; to Beverly Zile, and to Lois Driggs Cannon who helped him with his recovery and recent divorce.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-4,Aldrin/NNP-1)
+				aux(married/VBN-4,has/VBZ-2)
+				auxpass(married/VBN-4,been/VBN-3)
+				num(times/NNS-6,three/CD-5)
+				dobj(married/VBN-4,times/NNS-6)
+				nn(Archer/NNP-10,Joan/NNP-9)
+				prep_to(married/VBN-4,Archer/NNP-10)
+				appos(Archer/NNP-10,mother/NN-12)
+				prep_of(mother/NN-12,three/CD-14)
+				partmod(mother/NN-12,raising/raised/VBN-15)
+				dobj(raising/raised/VBN-15,James/NNP-17)
+				dobj(raising/raised/VBN-15,Janice/NNP-19)
+				conj_and(James/NNP-17,Janice/NNP-19)
+				dobj(raising/raised/VBN-15,Andrew/NNP-22)
+				conj_and(James/NNP-17,Andrew/NNP-22)
+				nn(Zile/NNP-26,Beverly/NNP-25)
+				prep_to(married/VBN-4,Zile/NNP-26)
+				conj_and(Archer/NNP-10,Zile/NNP-26)
+				nn(Cannon/NNP-32,Lois/NNP-30)
+				nn(Cannon/NNP-32,Driggs/NNP-31)
+				prep_to(married/VBN-4,Cannon/NNP-32)
+				conj_and(Archer/NNP-10,Cannon/NNP-32)
+				nsubj(helped/VBD-34,who/WP-33)
+				rcmod(Cannon/NNP-32,helped/VBD-34)
+				dobj(helped/VBD-34,him/PRP-35)
+				poss(recovery/NN-38,his/PRP$-37)
+				prep_with(helped/VBD-34,recovery/NN-38)
+				amod(divorce/NN-41,recent/JJ-40)
+				prep_with(helped/VBD-34,divorce/NN-41)
+				conj_and(recovery/NN-38,divorce/NN-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He filed for divorce from Lois on June 15, 2011, in Los Angeles, citing "irreconcilable differences", according to his attorney, one day after the couple separated.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(filed/VBD-2,He/PRP-1)
+				prep_for(filed/VBD-2,divorce/NN-4)
+				prep_from(divorce/NN-4,Lois/NNP-6)
+				prep_on(filed/VBD-2,June/NNP-8)
+				num(June/NNP-8,15/CD-9)
+				num(June/NNP-8,2011/CD-11)
+				nn(Angeles/NNP-15,Los/NNP-14)
+				prep_in(June/NNP-8,Angeles/NNP-15)
+				xcomp(filed/VBD-2,citing/VBG-17)
+				amod(differences/NNS-20,irreconcilable/JJ-19)
+				dobj(citing/VBG-17,differences/NNS-20)
+				prepc_according_to(filed/VBD-2,to/TO-24)
+				poss(attorney/NN-26,his/PRP$-25)
+				pobj(filed/VBD-2,attorney/NN-26)
+				num(day/NN-29,one/CD-28)
+				npadvmod(filed/VBD-2,day/NN-29)
+				det(couple/NN-32,the/DT-31)
+				prep_after(filed/VBD-2,couple/NN-32)
+				partmod(couple/NN-32,separated/VBN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The divorce was final on December 28, 2012.	</value>
+
+		<annotated-sentence>	[[The divorce|The_Divorce]] was final on December 28, 2012.	</annotated-sentence>
+
+		<pattern_crowdsource>	The divorce was final on December 28, 2012.	</pattern_crowdsource>
+
+
+		<tree>
+				det(divorce/NN-2,The/DT-1)
+				nsubj(final/JJ-4,divorce/NN-2)
+				cop(final/JJ-4,was/VBD-3)
+				prep_on(final/JJ-4,December/NNP-6)
+				num(December/NNP-6,28/CD-7)
+				num(December/NNP-6,2012/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The divorce</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Divorce</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His battles against depression and alcoholism have been documented, most recently in Magnificent Desolation.	</value>
+
+		<annotated-sentence>	His battles against depression and alcoholism have been documented, most recently in Magnificent Desolation.	</annotated-sentence>
+
+		<pattern_crowdsource>	His battles against depression and alcoholism have been documented, most recently in Magnificent Desolation.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(battles/NNS-2,His/PRP$-1)
+				nsubjpass(documented/VBN-9,battles/NNS-2)
+				prep_against(battles/NNS-2,depression/NN-4)
+				prep_against(battles/NNS-2,alcoholism/NN-6)
+				conj_and(depression/NN-4,alcoholism/NN-6)
+				aux(documented/VBN-9,have/VBP-7)
+				auxpass(documented/VBN-9,been/VBN-8)
+				advmod(recently/RB-12,most/RBS-11)
+				advmod(documented/VBN-9,recently/RB-12)
+				amod(Desolation/NN-15,Magnificent/JJ-14)
+				prep_in(documented/VBN-9,Desolation/NN-15)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin is an active supporter of the Republican Party, headlining fundraisers for GOP members of Congress.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] is an active [[supporter|Fan_(person)]] of [[the Republican Party|Republican_Party_of_Minnesota]], headlining fundraisers for [[GOP|Republican_Party_(United_States)]] members of [[Congress|United_States_House_of_Representatives]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin is an active supporter of [[the Republican Party|Republican_Party_of_Minnesota]], headlining fundraisers for [[GOP|Republican_Party_(United_States)]] members of [[Congress|United_States_House_of_Representatives]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(supporter/NN-5,Aldrin/NNP-1)
+				cop(supporter/NN-5,is/VBZ-2)
+				det(supporter/NN-5,an/DT-3)
+				amod(supporter/NN-5,active/JJ-4)
+				det(Party/NNP-9,the/DT-7)
+				nn(Party/NNP-9,Republican/NNP-8)
+				prep_of(supporter/NN-5,Party/NNP-9)
+				amod(fundraisers/NNS-12,headlining/VBG-11)
+				appos(Party/NNP-9,fundraisers/NNS-12)
+				nn(members/NNS-15,GOP/NNP-14)
+				prep_for(fundraisers/NNS-12,members/NNS-15)
+				prep_of(fundraisers/NNS-12,Congress/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>supporter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fan_(person)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Republican Party</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republican_Party_of_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>GOP</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republican_Party_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Congress</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_House_of_Representatives</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Republican_Party_of_Minnesota http://dbpedia.org/ontology/nationalAffiliation http://dbpedia.org/resource/Republican_Party_(United_States)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Republican_Party_of_Minnesota http://dbpedia.org/property/seats4Title http://dbpedia.org/resource/United_States_House_of_Representatives
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Republican_Party_(United_States) http://dbpedia.org/property/seats2Title http://dbpedia.org/resource/United_States_House_of_Representatives
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_House_of_Representatives http://dbpedia.org/ontology/politicalPartyOfLeader http://dbpedia.org/resource/Republican_Party_(United_States)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2007, Aldrin confirmed to Time magazine that he had recently had a face-lift; he joked that the G-forces he was exposed to in space "caused a sagging jowl that needed some attention."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(confirmed/VBD-5,2007/CD-2)
+				nsubj(confirmed/VBD-5,Aldrin/NNP-4)
+				nn(magazine/NN-8,Time/NNP-7)
+				prep_to(confirmed/VBD-5,magazine/NN-8)
+				mark(had/VBD-11,that/IN-9)
+				nsubj(had/VBD-11,he/PRP-10)
+				ccomp(confirmed/VBD-5,had/VBD-11)
+				dobj(had/VBD-11,recently/RB-12)
+				rcmod(recently/RB-12,had/VBD-13)
+				det(face-lift/NN-15,a/DT-14)
+				dobj(had/VBD-13,face-lift/NN-15)
+				nsubj(joked/VBD-18,he/PRP-17)
+				parataxis(confirmed/VBD-5,joked/VBD-18)
+				mark(caused/VBD-29,that/IN-19)
+				det(G-forces/NNS-21,the/DT-20)
+				nsubj(caused/VBD-29,G-forces/NNS-21)
+				nsubjpass(exposed/VBN-24,he/PRP-22)
+				auxpass(exposed/VBN-24,was/VBD-23)
+				rcmod(G-forces/NNS-21,exposed/VBN-24)
+				xcomp(exposed/VBN-24,to/TO-25)
+				prep_in(exposed/VBN-24,space/NN-27)
+				ccomp(joked/VBD-18,caused/VBD-29)
+				det(jowl/NN-32,a/DT-30)
+				amod(jowl/NN-32,sagging/VBG-31)
+				dobj(caused/VBD-29,jowl/NN-32)
+				nsubj(needed/VBD-34,that/WDT-33)
+				rcmod(jowl/NN-32,needed/VBD-34)
+				det(attention/NN-36,some/DT-35)
+				dobj(needed/VBD-34,attention/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin commented on the passing of his Apollo 11 colleague, Neil Armstrong, by saying that he was "deeply saddened by the passing.	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] commented on the passing of his [[Apollo 11|Apollo_11]] [[colleague|Collegiality]], [[Neil Armstrong|Neil_Armstrong]], by saying that he was "deeply saddened by the passing.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aldrin|Buzz_Aldrin]] commented on the passing of his [[Apollo 11|Apollo_11]] colleague, [[Neil Armstrong|Neil_Armstrong]], by saying that he was "deeply saddened by the passing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commented/VBD-2,Aldrin/NNP-1)
+				det(passing/NN-5,the/DT-4)
+				prep_on(commented/VBD-2,passing/NN-5)
+				poss(colleague/NN-10,his/PRP$-7)
+				nn(colleague/NN-10,Apollo/NNP-8)
+				num(colleague/NN-10,11/CD-9)
+				prep_of(passing/NN-5,colleague/NN-10)
+				nn(Armstrong/NNP-13,Neil/NNP-12)
+				appos(colleague/NN-10,Armstrong/NNP-13)
+				prepc_by(commented/VBD-2,saying/VBG-16)
+				mark(saddened/JJ-22,that/IN-17)
+				nsubj(saddened/JJ-22,he/PRP-18)
+				cop(saddened/JJ-22,was/VBD-19)
+				advmod(saddened/JJ-22,deeply/RB-21)
+				ccomp(saying/VBG-16,saddened/JJ-22)
+				det(passing/NN-25,the/DT-24)
+				prep_by(saddened/JJ-22,passing/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>colleague</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Collegiality</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Neil Armstrong</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Neil_Armstrong</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Buzz_Aldrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Neil_Armstrong
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Neil_Armstrong
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_11 http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Neil_Armstrong
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Neil_Armstrong http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_11
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I know I am joined by millions of others in mourning the passing of a true American hero and the best pilot I ever knew.	</value>
+
+		<annotated-sentence>	I know I am joined by [[millions|Million_(band)]] of [[others|Other]] in mourning the passing of a [[true American|Normal_(New_Girl)]] hero and the best pilot I ever knew.	</annotated-sentence>
+
+		<pattern_crowdsource>	I know I am joined by millions of others in mourning the passing of a true American hero and the best pilot I ever knew.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(know/VBP-2,I/PRP-1)
+				nsubjpass(joined/VBN-5,I/PRP-3)
+				auxpass(joined/VBN-5,am/VBP-4)
+				ccomp(know/VBP-2,joined/VBN-5)
+				agent(joined/VBN-5,millions/NNS-7)
+				prep_of(millions/NNS-7,others/NNS-9)
+				prepc_in(joined/VBN-5,mourning/VBG-11)
+				det(passing/NN-13,the/DT-12)
+				dobj(mourning/VBG-11,passing/NN-13)
+				det(hero/NN-18,a/DT-15)
+				amod(hero/NN-18,true/JJ-16)
+				amod(hero/NN-18,American/JJ-17)
+				prep_of(passing/NN-13,hero/NN-18)
+				det(pilot/NN-22,the/DT-20)
+				amod(pilot/NN-22,best/JJS-21)
+				prep_of(passing/NN-13,pilot/NN-22)
+				conj_and(hero/NN-18,pilot/NN-22)
+				nsubj(knew/VBD-25,I/PRP-23)
+				advmod(knew/VBD-25,ever/RB-24)
+				rcmod(passing/NN-13,knew/VBD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>millions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>others</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Other</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>true American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Normal_(New_Girl)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I had truly hoped that on July 20th, 2019, Neil, Mike and I would be standing together to commemorate the 50th Anniversary of our moon landing...Regrettably, this is not to be."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(hoped/VBN-4,I/PRP-1)
+				aux(hoped/VBN-4,had/VBD-2)
+				advmod(hoped/VBN-4,truly/RB-3)
+				mark(standing/VBG-19,that/IN-5)
+				prep_on(standing/VBG-19,July/NNP-7)
+				amod(July/NNP-7,20th/JJ-8)
+				nsubj(standing/VBG-19,2019/CD-10)
+				conj_and(2019/CD-10,Neil/NNP-12)
+				nsubj(standing/VBG-19,Neil/NNP-12)
+				conj_and(2019/CD-10,Mike/NNP-14)
+				nsubj(standing/VBG-19,Mike/NNP-14)
+				conj_and(2019/CD-10,I/PRP-16)
+				nsubj(standing/VBG-19,I/PRP-16)
+				aux(standing/VBG-19,would/MD-17)
+				aux(standing/VBG-19,be/VB-18)
+				ccomp(hoped/VBN-4,standing/VBG-19)
+				advmod(standing/VBG-19,together/RB-20)
+				aux(commemorate/VB-22,to/TO-21)
+				xcomp(standing/VBG-19,commemorate/VB-22)
+				det(Anniversary/NN-25,the/DT-23)
+				amod(Anniversary/NN-25,50th/JJ-24)
+				dobj(commemorate/VB-22,Anniversary/NN-25)
+				poss(landing/NN-29,our/PRP$-27)
+				nn(landing/NN-29,moon/NN-28)
+				prep_of(Anniversary/NN-25,landing/NN-29)
+				advmod(is/VBZ-34,Regrettably/RB-31)
+				nsubj(is/VBZ-34,this/DT-33)
+				parataxis(hoped/VBN-4,is/VBZ-34)
+				neg(is/VBZ-34,not/RB-35)
+				aux(be/VB-37,to/TO-36)
+				xcomp(is/VBZ-34,be/VB-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2005, while being interviewed for a documentary titled First on the Moon: The Untold Story, Aldrin told an interviewer that they saw an unidentified flying object.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(told/VBD-21,2005/CD-2)
+				mark(interviewed/VBN-6,while/IN-4)
+				auxpass(interviewed/VBN-6,being/VBG-5)
+				advcl(told/VBD-21,interviewed/VBN-6)
+				det(documentary/NN-9,a/DT-8)
+				prep_for(interviewed/VBN-6,documentary/NN-9)
+				partmod(documentary/NN-9,titled/VBN-10)
+				advmod(titled/VBN-10,First/RB-11)
+				det(Moon/NN-14,the/DT-13)
+				prep_on(titled/VBN-10,Moon/NN-14)
+				det(Story/NNP-18,The/DT-16)
+				nn(Story/NNP-18,Untold/NNP-17)
+				dep(Moon/NN-14,Story/NNP-18)
+				nsubj(told/VBD-21,Aldrin/NNP-20)
+				det(interviewer/NN-23,an/DT-22)
+				dobj(told/VBD-21,interviewer/NN-23)
+				mark(saw/VBD-26,that/IN-24)
+				nsubj(saw/VBD-26,they/PRP-25)
+				ccomp(told/VBD-21,saw/VBD-26)
+				det(object/NN-30,an/DT-27)
+				amod(object/NN-30,unidentified/JJ-28)
+				amod(object/NN-30,flying/VBG-29)
+				dobj(saw/VBD-26,object/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin told David Morrison, a NASA Astrobiology Institute Senior Scientist, that the documentary cut the crew's conclusion that they were probably seeing one of four detached spacecraft adapter panels.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(told/VBD-2,Aldrin/NNP-1)
+				nn(Morrison/NNP-4,David/NNP-3)
+				nsubj(detached/VBD-29,Morrison/NNP-4)
+				det(Scientist/NNP-11,a/DT-6)
+				nn(Scientist/NNP-11,NASA/NNP-7)
+				nn(Scientist/NNP-11,Astrobiology/NNP-8)
+				nn(Scientist/NNP-11,Institute/NNP-9)
+				nn(Scientist/NNP-11,Senior/NNP-10)
+				appos(Morrison/NNP-4,Scientist/NNP-11)
+				mark(cut/VBD-16,that/IN-13)
+				det(documentary/NN-15,the/DT-14)
+				nsubj(cut/VBD-16,documentary/NN-15)
+				dep(Morrison/NNP-4,cut/VBD-16)
+				det(crew/NN-18,the/DT-17)
+				poss(conclusion/NN-20,crew/NN-18)
+				dobj(cut/VBD-16,conclusion/NN-20)
+				mark(seeing/VBG-25,that/IN-21)
+				nsubj(seeing/VBG-25,they/PRP-22)
+				aux(seeing/VBG-25,were/VBD-23)
+				advmod(seeing/VBG-25,probably/RB-24)
+				ccomp(cut/VBD-16,seeing/VBG-25)
+				dobj(seeing/VBG-25,one/CD-26)
+				prep_of(one/CD-26,four/CD-28)
+				ccomp(told/VBD-2,detached/VBD-29)
+				nn(panels/NNS-32,spacecraft/NN-30)
+				nn(panels/NNS-32,adapter/NN-31)
+				dobj(detached/VBD-29,panels/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Their S-IVB upper stage was 6,000 miles (9,700 km) away, but the four panels were jettisoned before the S-IVB made its separation maneuver so they would closely follow the Apollo 11 spacecraft until its first midcourse correction.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(stage/NN-4,Their/PRP$-1)
+				nn(stage/NN-4,S-IVB/NN-2)
+				amod(stage/NN-4,upper/JJ-3)
+				nsubj(miles/NNS-7,stage/NN-4)
+				cop(miles/NNS-7,was/VBD-5)
+				num(miles/NNS-7,6,000/CD-6)
+				num(km/NN-10,9,700/CD-9)
+				appos(miles/NNS-7,km/NN-10)
+				advmod(miles/NNS-7,away/RB-12)
+				det(panels/NNS-17,the/DT-15)
+				num(panels/NNS-17,four/CD-16)
+				nsubjpass(jettisoned/VBN-19,panels/NNS-17)
+				auxpass(jettisoned/VBN-19,were/VBD-18)
+				conj_but(miles/NNS-7,jettisoned/VBN-19)
+				mark(made/VBD-23,before/IN-20)
+				det(S-IVB/NN-22,the/DT-21)
+				nsubj(made/VBD-23,S-IVB/NN-22)
+				advcl(jettisoned/VBN-19,made/VBD-23)
+				poss(maneuver/NN-26,its/PRP$-24)
+				nn(maneuver/NN-26,separation/NN-25)
+				dobj(made/VBD-23,maneuver/NN-26)
+				mark(follow/VB-31,so/IN-27)
+				nsubj(follow/VB-31,they/PRP-28)
+				aux(follow/VB-31,would/MD-29)
+				advmod(follow/VB-31,closely/RB-30)
+				advcl(made/VBD-23,follow/VB-31)
+				det(spacecraft/NN-35,the/DT-32)
+				nn(spacecraft/NN-35,Apollo/NNP-33)
+				num(spacecraft/NN-35,11/CD-34)
+				dobj(follow/VB-31,spacecraft/NN-35)
+				poss(correction/NN-40,its/PRP$-37)
+				amod(correction/NN-40,first/JJ-38)
+				amod(correction/NN-40,midcourse/JJ-39)
+				prep_until(follow/VB-31,correction/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When Aldrin appeared on The Howard Stern Show on August 15, 2007, Stern asked him about the supposed UFO sighting.	</value>
+
+		<annotated-sentence>	When [[Aldrin|Aldrin]] appeared on [[The Howard Stern Show|The_Howard_Stern_Show]] on August 15, 2007, [[Stern|Howard_Stern]] asked him about the supposed [[UFO sighting|List_of_reported_UFO_sightings]].	</annotated-sentence>
+
+		<pattern_crowdsource>	When Aldrin appeared on [[The Howard [[Stern|Howard_Stern]] Show|The_Howard_Stern_Show]] on August 15, 2007, [[Stern|Howard_Stern]] asked him about the supposed UFO sighting.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(appeared/VBD-3,When/WRB-1)
+				nsubj(appeared/VBD-3,Aldrin/NNP-2)
+				advcl(asked/VBD-16,appeared/VBD-3)
+				det(Show/NNP-8,The/DT-5)
+				nn(Show/NNP-8,Howard/NNP-6)
+				nn(Show/NNP-8,Stern/NNP-7)
+				prep_on(appeared/VBD-3,Show/NNP-8)
+				prep_on(appeared/VBD-3,August/NNP-10)
+				num(August/NNP-10,15/CD-11)
+				num(August/NNP-10,2007/CD-13)
+				nsubj(asked/VBD-16,Stern/NNP-15)
+				dobj(asked/VBD-16,him/PRP-17)
+				det(sighting/NN-22,the/DT-19)
+				amod(sighting/NN-22,supposed/VBN-20)
+				nn(sighting/NN-22,UFO/NNP-21)
+				prep_about(asked/VBD-16,sighting/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>The Howard Stern Show</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Howard_Stern_Show</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stern</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Howard_Stern</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UFO sighting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_reported_UFO_sightings</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Howard_Stern_Show http://dbpedia.org/property/starring http://dbpedia.org/resource/Howard_Stern
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/The_Howard_Stern_Show http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Howard_Stern
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Howard_Stern http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/The_Howard_Stern_Show
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin confirmed that there was no such sighting of anything deemed extraterrestrial, and said they were and are "99.9 percent" sure that the object was the detached panel.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(confirmed/VBD-2,Aldrin/NNP-1)
+				mark(was/VBD-5,that/IN-3)
+				expl(was/VBD-5,there/EX-4)
+				ccomp(confirmed/VBD-2,was/VBD-5)
+				det(sighting/NN-8,no/DT-6)
+				amod(sighting/NN-8,such/JJ-7)
+				nsubj(was/VBD-5,sighting/NN-8)
+				prep_of(sighting/NN-8,anything/NN-10)
+				rcmod(sighting/NN-8,deemed/VBD-11)
+				dobj(deemed/VBD-11,extraterrestrial/JJ-12)
+				rcmod(sighting/NN-8,said/VBD-15)
+				conj_and(deemed/VBD-11,said/VBD-15)
+				nsubj(were/VBD-17,they/PRP-16)
+				ccomp(said/VBD-15,were/VBD-17)
+				cop(percent/NN-22,are/VBP-19)
+				num(percent/NN-22,99.9/CD-21)
+				ccomp(said/VBD-15,percent/NN-22)
+				conj_and(were/VBD-17,percent/NN-22)
+				amod(percent/NN-22,sure/JJ-24)
+				mark(panel/NN-31,that/IN-25)
+				det(object/NN-27,the/DT-26)
+				nsubj(panel/NN-31,object/NN-27)
+				dep(panel/NN-31,was/VBD-28)
+				det(panel/NN-31,the/DT-29)
+				amod(panel/NN-31,detached/VBN-30)
+				ccomp(was/VBD-5,panel/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Interviewed by the Science Channel, Aldrin mentioned seeing unidentified objects, and according to Aldrin his words were taken out of context; he asked the Science Channel to clarify to viewers he did not see alien spacecraft, but they refused.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(mentioned/VBD-8,Interviewed/VBN-1)
+				det(Channel/NNP-5,the/DT-3)
+				nn(Channel/NNP-5,Science/NNP-4)
+				agent(Interviewed/VBN-1,Channel/NNP-5)
+				nsubj(mentioned/VBD-8,Aldrin/NNP-7)
+				xcomp(mentioned/VBD-8,seeing/VBG-9)
+				amod(objects/NNS-11,unidentified/JJ-10)
+				dobj(seeing/VBG-9,objects/NNS-11)
+				prepc_according_to(taken/VBN-20,to/TO-15)
+				pobj(taken/VBN-20,Aldrin/NNP-16)
+				poss(words/NNS-18,his/PRP$-17)
+				nsubjpass(taken/VBN-20,words/NNS-18)
+				auxpass(taken/VBN-20,were/VBD-19)
+				conj_and(mentioned/VBD-8,taken/VBN-20)
+				prep_out_of(taken/VBN-20,context/NN-23)
+				nsubj(asked/VBD-26,he/PRP-25)
+				parataxis(mentioned/VBD-8,asked/VBD-26)
+				det(Channel/NNP-29,the/DT-27)
+				nn(Channel/NNP-29,Science/NNP-28)
+				nsubj(clarify/VB-31,Channel/NNP-29)
+				aux(clarify/VB-31,to/TO-30)
+				xcomp(asked/VBD-26,clarify/VB-31)
+				prep_to(clarify/VB-31,viewers/NNS-33)
+				nsubj(see/VB-37,he/PRP-34)
+				aux(see/VB-37,did/VBD-35)
+				neg(see/VB-37,not/RB-36)
+				ccomp(clarify/VB-31,see/VB-37)
+				amod(spacecraft/NN-39,alien/JJ-38)
+				dobj(see/VB-37,spacecraft/NN-39)
+				nsubj(refused/VBD-43,they/PRP-42)
+				ccomp(clarify/VB-31,refused/VBD-43)
+				conj_but(see/VB-37,refused/VBD-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin has been portrayed by: Monty Python's Flying Circus series 2, episode 4 (episode 17 overall), was entitled "The Buzz Aldrin Show (or: An Apology)" and aired October 20, 1970.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(portrayed/VBN-4,Aldrin/NNP-1)
+				nsubjpass(aired/VBD-38,Aldrin/NNP-1)
+				aux(portrayed/VBN-4,has/VBZ-2)
+				auxpass(portrayed/VBN-4,been/VBN-3)
+				nn(Python/NNP-8,Monty/NNP-7)
+				poss(series/NN-12,Python/NNP-8)
+				nn(series/NN-12,Flying/NNP-10)
+				nn(series/NN-12,Circus/NNP-11)
+				agent(portrayed/VBN-4,series/NN-12)
+				nsubjpass(entitled/VBN-24,2/CD-13)
+				appos(2/CD-13,episode/NN-15)
+				num(episode/NN-15,4/CD-16)
+				npadvmod(overall/JJ-20,episode/NN-18)
+				num(episode/NN-18,17/CD-19)
+				dep(episode/NN-15,overall/JJ-20)
+				auxpass(entitled/VBN-24,was/VBD-23)
+				rcmod(series/NN-12,entitled/VBN-24)
+				det(Show/NNP-29,The/DT-26)
+				nn(Show/NNP-29,Buzz/NNP-27)
+				nn(Show/NNP-29,Aldrin/NNP-28)
+				dep(entitled/VBN-24,Show/NNP-29)
+				dep(Show/NNP-29,or/CC-31)
+				det(Apology/NN-34,An/DT-33)
+				dep(or/CC-31,Apology/NN-34)
+				conj_and(portrayed/VBN-4,aired/VBD-38)
+				tmod(aired/VBD-38,October/NNP-39)
+				num(October/NNP-39,20/CD-40)
+				num(October/NNP-39,1970/CD-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin is referred to in dialogue, and the closing credits scroll over his NASA portrait.	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] is referred to in [[dialogue|Thavius_Beck]], and [[the closing credits|Closing_credits]] scroll over his [[NASA|NASA]] [[portrait|Portrait]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aldrin|Buzz_Aldrin]] is referred to in dialogue, and the closing credits scroll over his [[NASA|NASA]] portrait.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(referred/VBN-3,Aldrin/NNP-1)
+				auxpass(referred/VBN-3,is/VBZ-2)
+				xcomp(referred/VBN-3,to/TO-4)
+				prep_in(referred/VBN-3,dialogue/NN-6)
+				det(credits/NNS-11,the/DT-9)
+				nn(credits/NNS-11,closing/NN-10)
+				nsubj(scroll/VBP-12,credits/NNS-11)
+				conj_and(referred/VBN-3,scroll/VBP-12)
+				poss(portrait/NN-16,his/PRP$-14)
+				nn(portrait/NN-16,NASA/NNP-15)
+				prep_over(scroll/VBP-12,portrait/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>dialogue</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Thavius_Beck</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the closing credits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Closing_credits</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>portrait</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Portrait</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Pixar character Buzz Lightyear's name was inspired by Aldrin.	</value>
+
+		<annotated-sentence>	[[Pixar|Pixar]] [[character|Buzz_Lightyear_of_Star_Command]] [[Buzz Lightyear|Buzz_Lightyear]]'s [[name|Name]] was inspired by [[Aldrin|Aldrin]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Pixar|Pixar]] [[character|Buzz_Lightyear_of_Star_Command]] Buzz Lightyear's name was inspired by Aldrin.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Lightyear/NNP-4,Pixar/NNP-1)
+				nn(Lightyear/NNP-4,character/NN-2)
+				nn(Lightyear/NNP-4,Buzz/NNP-3)
+				poss(name/NN-6,Lightyear/NNP-4)
+				nsubjpass(inspired/VBN-8,name/NN-6)
+				auxpass(inspired/VBN-8,was/VBD-7)
+				agent(inspired/VBN-8,Aldrin/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Pixar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pixar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>character</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Lightyear_of_Star_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Buzz Lightyear</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Lightyear</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>name</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Name</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Lightyear_of_Star_Command http://dbpedia.org/ontology/company http://dbpedia.org/resource/Pixar
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin acknowledged the tribute when he pulled a Buzz Lightyear doll out during a speech at NASA, to rapturous cheers.	</value>
+
+		<annotated-sentence>	[[Aldrin|Buzz_Aldrin]] acknowledged [[the tribute|Tribute]] when he pulled a [[Buzz Lightyear|Buzz_Lightyear]] [[doll|Doll]] out during [[a speech|Speech]] at [[NASA|NASA]], to rapturous cheers.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Aldrin|Buzz_Aldrin]] acknowledged the tribute when he pulled a Buzz Lightyear doll out during a speech at [[NASA|NASA]], to rapturous cheers.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(acknowledged/VBD-2,Aldrin/NNP-1)
+				det(tribute/NN-4,the/DT-3)
+				dobj(acknowledged/VBD-2,tribute/NN-4)
+				advmod(pulled/VBD-7,when/WRB-5)
+				nsubj(pulled/VBD-7,he/PRP-6)
+				advcl(acknowledged/VBD-2,pulled/VBD-7)
+				det(doll/NN-11,a/DT-8)
+				nn(doll/NN-11,Buzz/NNP-9)
+				nn(doll/NN-11,Lightyear/NNP-10)
+				dobj(pulled/VBD-7,doll/NN-11)
+				dep(pulled/VBD-7,out/IN-12)
+				det(speech/NN-15,a/DT-14)
+				prep_during(pulled/VBD-7,speech/NN-15)
+				prep_at(speech/NN-15,NASA/NNP-17)
+				amod(cheers/NNS-21,rapturous/JJ-20)
+				prep_to(pulled/VBD-7,cheers/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the tribute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tribute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Buzz Lightyear</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Lightyear</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>doll</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doll</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a speech</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Speech</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Buzz_Aldrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin did not receive any endorsement fees for the use of his first name.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] did not receive any [[endorsement|Testimonial]] fees for the use of his first name.	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin did not receive any endorsement fees for the use of his first name.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(receive/VB-4,Aldrin/NNP-1)
+				aux(receive/VB-4,did/VBD-2)
+				neg(receive/VB-4,not/RB-3)
+				det(fees/NNS-7,any/DT-5)
+				nn(fees/NNS-7,endorsement/NN-6)
+				dobj(receive/VB-4,fees/NNS-7)
+				det(use/NN-10,the/DT-9)
+				prep_for(receive/VB-4,use/NN-10)
+				poss(name/NN-14,his/PRP$-12)
+				amod(name/NN-14,first/JJ-13)
+				prep_of(use/NN-10,name/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>endorsement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Testimonial</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Footage of Aldrin punching Apollo conspiracy proponent Bart Sibrel in the jaw on September 9, 2002 became a viral video and internet meme.	</value>
+
+		<annotated-sentence>	[[Footage|Footage]] of [[Aldrin|Aldrin]] punching [[Apollo|Apollo]] conspiracy proponent [[Bart Sibrel|Bart_Sibrel]] in the jaw on [[September|September]] 9, 2002 became [[a viral video|Viral_video]] and [[internet meme|Internet_meme]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Footage of Aldrin punching Apollo conspiracy proponent Bart Sibrel in the jaw on September 9, 2002 became a viral video and internet meme.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(video/NN-21,Footage/NN-1)
+				prep_of(Footage/NN-1,Aldrin/NNP-3)
+				partmod(Aldrin/NNP-3,punching/VBG-4)
+				nn(Sibrel/NNP-9,Apollo/NNP-5)
+				nn(Sibrel/NNP-9,conspiracy/NN-6)
+				nn(Sibrel/NNP-9,proponent/NN-7)
+				nn(Sibrel/NNP-9,Bart/NNP-8)
+				dobj(punching/VBG-4,Sibrel/NNP-9)
+				det(jaw/NN-12,the/DT-11)
+				prep_in(Sibrel/NNP-9,jaw/NN-12)
+				prep_on(jaw/NN-12,September/NNP-14)
+				num(September/NNP-14,9/CD-15)
+				num(September/NNP-14,2002/CD-17)
+				cop(video/NN-21,became/VBD-18)
+				det(video/NN-21,a/DT-19)
+				amod(video/NN-21,viral/JJ-20)
+				nn(meme/NN-24,internet/NN-23)
+				conj_and(video/NN-21,meme/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Footage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Footage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bart Sibrel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bart_Sibrel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a viral video</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Viral_video</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>internet meme</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Internet_meme</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Sibrel had lured Aldrin to a purported interview on space for a Japanese children's television show, whereupon Sibrel accosted him and insisted that Aldrin and others had lied about walking on the Moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(lured/VBN-3,Sibrel/NNP-1)
+				aux(lured/VBN-3,had/VBD-2)
+				ccomp(accosted/VBD-21,lured/VBN-3)
+				dobj(lured/VBN-3,Aldrin/NNP-4)
+				det(interview/NN-8,a/DT-6)
+				amod(interview/NN-8,purported/JJ-7)
+				prep_to(Aldrin/NNP-4,interview/NN-8)
+				prep_on(lured/VBN-3,space/NN-10)
+				det(children/NNS-14,a/DT-12)
+				amod(children/NNS-14,Japanese/JJ-13)
+				poss(show/NN-17,children/NNS-14)
+				nn(show/NN-17,television/NN-16)
+				prep_for(space/NN-10,show/NN-17)
+				nn(Sibrel/NNP-20,whereupon/NN-19)
+				nsubj(accosted/VBD-21,Sibrel/NNP-20)
+				nsubj(insisted/VBD-24,Sibrel/NNP-20)
+				dobj(accosted/VBD-21,him/PRP-22)
+				conj_and(accosted/VBD-21,insisted/VBD-24)
+				mark(lied/VBN-30,that/IN-25)
+				nsubj(lied/VBN-30,Aldrin/NNP-26)
+				conj_and(Aldrin/NNP-26,others/NNS-28)
+				nsubj(lied/VBN-30,others/NNS-28)
+				aux(lied/VBN-30,had/VBD-29)
+				ccomp(insisted/VBD-24,lied/VBN-30)
+				prepc_about(lied/VBN-30,walking/VBG-32)
+				det(Moon/NNP-35,the/DT-34)
+				prep_on(walking/VBG-32,Moon/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The police determined that Aldrin was provoked and no charges were filed.	</value>
+
+		<annotated-sentence>	[[The police|The_Police]] determined that [[Aldrin|Aldrin]] was provoked and no charges were filed.	</annotated-sentence>
+
+		<pattern_crowdsource>	The police determined that Aldrin was provoked and no charges were filed.	</pattern_crowdsource>
+
+
+		<tree>
+				det(police/NN-2,The/DT-1)
+				nsubj(determined/VBD-3,police/NN-2)
+				mark(provoked/VBN-7,that/IN-4)
+				nsubjpass(provoked/VBN-7,Aldrin/NNP-5)
+				auxpass(provoked/VBN-7,was/VBD-6)
+				ccomp(determined/VBD-3,provoked/VBN-7)
+				det(charges/NNS-10,no/DT-9)
+				nsubjpass(filed/VBN-12,charges/NNS-10)
+				auxpass(filed/VBN-12,were/VBD-11)
+				conj_and(determined/VBD-3,filed/VBN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The police</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Police</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The title of the 2005 film, Magnificent Desolation: Walking on the Moon 3D, was derived from Aldrin's description of the lunar landscape upon first stepping onto the surface.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(title/NN-2,The/DT-1)
+				nsubjpass(derived/VBN-18,title/NN-2)
+				det(film/NN-6,the/DT-4)
+				num(film/NN-6,2005/CD-5)
+				prep_of(title/NN-2,film/NN-6)
+				amod(Desolation/NN-9,Magnificent/JJ-8)
+				appos(title/NN-2,Desolation/NN-9)
+				dep(Desolation/NN-9,Walking/VBG-11)
+				det(3D/NN-15,the/DT-13)
+				nn(3D/NN-15,Moon/NNP-14)
+				prep_on(Walking/VBG-11,3D/NN-15)
+				auxpass(derived/VBN-18,was/VBD-17)
+				poss(description/NN-22,Aldrin/NNP-20)
+				prep_from(derived/VBN-18,description/NN-22)
+				det(landscape/NN-26,the/DT-24)
+				amod(landscape/NN-26,lunar/JJ-25)
+				prep_of(description/NN-22,landscape/NN-26)
+				prep_upon(derived/VBN-18,first/JJ-28)
+				partmod(first/JJ-28,stepping/VBG-29)
+				det(surface/NN-32,the/DT-31)
+				prep_onto(stepping/VBG-29,surface/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He subsequently used the expression as the title of his 2008 memoir.	</value>
+
+		<annotated-sentence>	He subsequently used the expression as [[the title|Title]] of his [[2008|2008]] [[memoir|Memoir]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He subsequently used the expression as the title of his 2008 memoir.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(used/VBD-3,He/PRP-1)
+				advmod(used/VBD-3,subsequently/RB-2)
+				det(expression/NN-5,the/DT-4)
+				dobj(used/VBD-3,expression/NN-5)
+				det(title/NN-8,the/DT-7)
+				prep_as(used/VBD-3,title/NN-8)
+				poss(memoir/NN-12,his/PRP$-10)
+				num(memoir/NN-12,2008/CD-11)
+				prep_of(title/NN-8,memoir/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the title</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Title</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>memoir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Memoir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2010, Aldrin was chosen to be a contestant on Season 10 of Dancing with the Stars.	</value>
+
+		<annotated-sentence>	In [[2010|2010]], [[Aldrin|Aldrin]] was chosen to be [[a contestant|Contestant]] on Season 10 of Dancing with the Stars.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2010, Aldrin was chosen to be a contestant on Season 10 of Dancing with the Stars.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(chosen/VBN-6,2010/CD-2)
+				nsubjpass(chosen/VBN-6,Aldrin/NNP-4)
+				auxpass(chosen/VBN-6,was/VBD-5)
+				aux(contestant/NN-10,to/TO-7)
+				cop(contestant/NN-10,be/VB-8)
+				det(contestant/NN-10,a/DT-9)
+				xcomp(chosen/VBN-6,contestant/NN-10)
+				prep_on(contestant/NN-10,Season/NN-12)
+				num(Season/NN-12,10/CD-13)
+				prepc_of(Season/NN-12,Dancing/VBG-15)
+				det(Stars/NNP-18,the/DT-17)
+				prep_with(Dancing/VBG-15,Stars/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a contestant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Contestant</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His professional partner was Ashly Costa who returned to the show for the first time since Season 3.	</value>
+
+		<annotated-sentence>	His professional partner was [[Ashly Costa|Ashly_DelGrosso]] who returned to the show for the first time since Season 3.	</annotated-sentence>
+
+		<pattern_crowdsource>	His professional partner was Ashly Costa who returned to the show for the first time since Season 3.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(partner/NN-3,His/PRP$-1)
+				amod(partner/NN-3,professional/JJ-2)
+				nsubj(Costa/NNP-6,partner/NN-3)
+				cop(Costa/NNP-6,was/VBD-4)
+				nn(Costa/NNP-6,Ashly/NNP-5)
+				nsubj(returned/VBD-8,who/WP-7)
+				rcmod(Costa/NNP-6,returned/VBD-8)
+				det(show/NN-11,the/DT-10)
+				prep_to(returned/VBD-8,show/NN-11)
+				det(time/NN-15,the/DT-13)
+				amod(time/NN-15,first/JJ-14)
+				prep_for(show/NN-11,time/NN-15)
+				prep_since(returned/VBD-8,Season/NN-17)
+				num(Season/NN-17,3/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Ashly Costa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ashly_DelGrosso</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They came in 10th place.	</value>
+
+		<annotated-sentence>	[[They|They]] came in 10th [[place|Place]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They came in 10th place.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(came/VBD-2,They/PRP-1)
+				amod(place/NN-5,10th/JJ-4)
+				prep_in(came/VBD-2,place/NN-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>place</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Place</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Buzz Aldrin voiced a minor character, the Stargazer, in the original epilogue scene of Mass Effect 3.	</value>
+
+		<annotated-sentence>	[[Buzz Aldrin|Buzz_Aldrin]] voiced a minor character, [[the Stargazer|Stargazer]], in the original epilogue scene of [[Mass Effect 3|Mass_Effect_3]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Buzz Aldrin voiced a minor character, the Stargazer, in the original epilogue scene of Mass Effect 3.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Aldrin/NNP-2,Buzz/NNP-1)
+				nsubj(voiced/VBD-3,Aldrin/NNP-2)
+				det(character/NN-6,a/DT-4)
+				amod(character/NN-6,minor/JJ-5)
+				dobj(voiced/VBD-3,character/NN-6)
+				det(Stargazer/NNP-9,the/DT-8)
+				appos(character/NN-6,Stargazer/NNP-9)
+				det(scene/NN-15,the/DT-12)
+				amod(scene/NN-15,original/JJ-13)
+				amod(scene/NN-15,epilogue/JJ-14)
+				prep_in(character/NN-6,scene/NN-15)
+				amod(Effect/NN-18,Mass/JJ-17)
+				prep_of(scene/NN-15,Effect/NN-18)
+				dep(Effect/NN-18,3/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Buzz Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buzz_Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Stargazer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargazer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mass Effect 3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mass_Effect_3</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jarle Bernhoft named a song after Aldrin in his sophomore album, Solidarity Breaks, in 2010.	</value>
+
+		<annotated-sentence>	[[Jarle Bernhoft|Jarle_Bernhoft]] named [[a song|Song]] after [[Aldrin|Aldrin]] in [[his sophomore album|Album]], [[Solidarity|Solidarity]] [[Breaks|Breaks]], in [[2010|2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jarle Bernhoft named a song after Aldrin in his sophomore album, Solidarity Breaks, in 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Bernhoft/NNP-2,Jarle/NNP-1)
+				nsubj(named/VBD-3,Bernhoft/NNP-2)
+				det(song/NN-5,a/DT-4)
+				dobj(named/VBD-3,song/NN-5)
+				prep_after(named/VBD-3,Aldrin/NNP-7)
+				poss(album/NN-11,his/PRP$-9)
+				nn(album/NN-11,sophomore/NN-10)
+				prep_in(Aldrin/NNP-7,album/NN-11)
+				nn(Breaks/NNP-14,Solidarity/NNP-13)
+				appos(album/NN-11,Breaks/NNP-14)
+				prep_in(named/VBD-3,2010/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jarle Bernhoft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jarle_Bernhoft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a song</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Song</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his sophomore album</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Album</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Solidarity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Solidarity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Breaks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Breaks</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the X-Universe video game series the Aldrin star system and planet Aldrin are named for him.	</value>
+
+		<annotated-sentence>	In the [[X-Universe|X_(game_series)]] [[video game series|List_of_video_game_franchises]] the [[Aldrin|Aldrin]] [[star system|Star_system]] and [[planet|Planet]] [[Aldrin|Aldrin]] are named for him.	</annotated-sentence>
+
+		<pattern_crowdsource>	In the X-Universe video game series the Aldrin star system and planet Aldrin are named for him.	</pattern_crowdsource>
+
+
+		<tree>
+				det(series/NN-6,the/DT-2)
+				nn(series/NN-6,X-Universe/NN-3)
+				nn(series/NN-6,video/NN-4)
+				nn(series/NN-6,game/NN-5)
+				prep_in(named/VBN-15,series/NN-6)
+				det(system/NN-10,the/DT-7)
+				nn(system/NN-10,Aldrin/NNP-8)
+				nn(system/NN-10,star/NN-9)
+				nsubjpass(named/VBN-15,system/NN-10)
+				nn(Aldrin/NNP-13,planet/NN-12)
+				conj_and(system/NN-10,Aldrin/NNP-13)
+				nsubjpass(named/VBN-15,Aldrin/NNP-13)
+				auxpass(named/VBN-15,are/VBP-14)
+				prep_for(named/VBN-15,him/PRP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>X-Universe</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/X_(game_series)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>video game series</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_video_game_franchises</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>star system</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Star_system</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>planet</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Planet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

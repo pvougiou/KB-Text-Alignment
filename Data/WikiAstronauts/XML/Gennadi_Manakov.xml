@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Gennadi Mikhailovich Manakov is a former cosmonaut who commanded two Soyuz flights.	</value>
+
+		<annotated-sentence>	[[Gennadi|Gennadi]] [[Mikhailovich Manakov|Gennadi_Manakov]] is a former cosmonaut who commanded two Soyuz [[flights|Flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Gennadi Mikhailovich Manakov is a former cosmonaut who commanded two Soyuz flights.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Manakov/NNP-3,Gennadi/NNP-1)
+				nn(Manakov/NNP-3,Mikhailovich/NNP-2)
+				nsubj(cosmonaut/NN-7,Manakov/NNP-3)
+				cop(cosmonaut/NN-7,is/VBZ-4)
+				det(cosmonaut/NN-7,a/DT-5)
+				amod(cosmonaut/NN-7,former/JJ-6)
+				nsubj(commanded/VBD-9,who/WP-8)
+				rcmod(cosmonaut/NN-7,commanded/VBD-9)
+				num(flights/NNS-12,two/CD-10)
+				nn(flights/NNS-12,Soyuz/NNP-11)
+				dobj(commanded/VBD-9,flights/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gennadi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gennadi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mikhailovich Manakov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gennadi_Manakov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mankov was born in Yefimovka, Orenburg Oblast, Russian SFSR on 1 June 1950.	</value>
+
+		<annotated-sentence>	Mankov was born in [[Yefimovka|Yefimovka]], [[Orenburg Oblast|Orenburg_Oblast]], [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]] on 1 [[June 1950|June_1950]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mankov was born in [[Yefimovka|Yefimovka]], Orenburg Oblast, Russian SFSR on 1 June 1950.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Mankov/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Oblast/NNP-8,Yefimovka/NNP-5)
+				appos(Oblast/NNP-8,Orenburg/NNP-7)
+				prep_in(born/VBN-3,Oblast/NNP-8)
+				nn(SFSR/NNP-11,Russian/NNP-10)
+				appos(Oblast/NNP-8,SFSR/NNP-11)
+				prep_on(SFSR/NNP-11,1/CD-13)
+				tmod(born/VBN-3,June/NNP-14)
+				num(June/NNP-14,1950/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yefimovka</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yefimovka</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orenburg Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orenburg_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian SFSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1950</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_1950</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gennadi_Manakov http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Yefimovka
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected on 2 September 1985 and flew as Commander on Soyuz TM-10 and Soyuz TM-16, retiring on 20 December 1996.	</value>
+
+		<annotated-sentence>	He was selected on 2 [[September 1985|1985]] and flew as [[Commander|Commander]] on [[Soyuz TM-10|Soyuz_TM-10]] and [[Soyuz TM-16|Soyuz_TM-16]], retiring on 20 [[December 1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected on 2 September 1985 and flew as Commander on [[Soyuz TM-10|Soyuz_TM-10]] and [[Soyuz TM-16|Soyuz_TM-16]], retiring on 20 December 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBD-9,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_on(selected/VBN-3,2/CD-5)
+				tmod(selected/VBN-3,September/NNP-6)
+				num(September/NNP-6,1985/CD-7)
+				conj_and(selected/VBN-3,flew/VBD-9)
+				prep(flew/VBD-9,as/RB-10)
+				pobj(as/RB-10,Commander/NNP-11)
+				nn(TM-10/NNP-14,Soyuz/NNP-13)
+				prep_on(flew/VBD-9,TM-10/NNP-14)
+				nn(TM-16/NNP-17,Soyuz/NNP-16)
+				prep_on(flew/VBD-9,TM-16/NNP-17)
+				conj_and(TM-10/NNP-14,TM-16/NNP-17)
+				dep(flew/VBD-9,retiring/VBG-19)
+				prep_on(retiring/VBG-19,20/CD-21)
+				tmod(retiring/VBG-19,December/NNP-22)
+				num(December/NNP-22,1996/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-10</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-16</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-10 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gennadi_Manakov
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-16 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gennadi_Manakov
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married with two children.	</value>
+
+		<annotated-sentence>	He is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his career he was awarded:	</value>
+
+		<annotated-sentence>	During [[his career|Career]] he was awarded:	</annotated-sentence>
+
+		<pattern_crowdsource>	During his career he was awarded:	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-3,his/PRP$-2)
+				pobj(During/IN-1,career/NN-3)
+				dep(career/NN-3,he/PRP-4)
+				auxpass(awarded/VBN-6,was/VBD-5)
+				rcmod(he/PRP-4,awarded/VBN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

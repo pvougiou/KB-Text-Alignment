@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This virus causes AIDS.</value>
+		<pattern_crowdsource> This [[virus|C0042776]] causes [[AIDS|C0001175]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042776</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>AIDS</surface-form>
+				<RDF-ID>C0001175</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042776 CAUSES C0001175</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people develop a long-term infection that leads to liver damage.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] develop a long-term [[infection|C0009450]] that leads to [[liver damage|C0151763]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long-term</surface-form>
+				<RDF-ID>C0443252</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver damage</surface-form>
+				<RDF-ID>C0151763</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 PROCESS_OF C0027361</triple>
+			<triple>C0009450 CAUSES C0151763</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Most people who become infected with hepatitis C develop a long-term infection.</value>
+		<pattern_crowdsource> - Most [[people|C0027361]] who become infected with [[hepatitis C|C0019196]] develop a long-term infection.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hepatitis C</surface-form>
+				<RDF-ID>C0019196</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long-term</surface-form>
+				<RDF-ID>C0443252</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019196 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>HIV  After someone is infected with HIV, the virus stays in the body.</value>
+		<pattern_crowdsource> [[HIV|C0019682]]  After someone is infected with [[HIV|C0019682]], the virus stays in the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042776</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019682 INTERACTS_WITH C0019682</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Hepatitis B can be prevented by a vaccine.</value>
+		<pattern_crowdsource> [[Hepatitis B|C0019163]] can be prevented by a [[vaccine|C0042210]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hepatitis B</surface-form>
+				<RDF-ID>C0019163</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vaccine</surface-form>
+				<RDF-ID>C0042210</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042210 PREVENTS C0019163</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>But there is no vaccine to prevent hepatitis C or HIV.</value>
+		<pattern_crowdsource> But there is no [[vaccine|C0042210]] to prevent [[hepatitis C|C0019196]] or [[HIV|C0019682]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>vaccine</surface-form>
+				<RDF-ID>C0042210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hepatitis C</surface-form>
+				<RDF-ID>C0019196</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019682</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042210 PREVENTS C0019196</triple>
+			<triple>C0042210 PREVENTS C0019682</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

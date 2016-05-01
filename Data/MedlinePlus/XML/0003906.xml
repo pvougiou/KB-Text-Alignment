@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A thoracic spine x-ray is an x-ray of the twelve chest (thoracic) bones (vertebrae).</value>
+		<pattern_crowdsource> A [[thoracic spine x-ray|C0203156]] is an [[x-ray|C0043299]] of the twelve [[chest|C0817096]] (thoracic) bones (vertebrae).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>thoracic spine x-ray</surface-form>
+				<RDF-ID>C0203156</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>twelve</surface-form>
+				<RDF-ID>C0205458</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thoracic</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vertebrae</surface-form>
+				<RDF-ID>C0549207</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0203156 ISA C0043299</triple>
+			<triple>C0817096 LOCATION_OF C0043299</triple>
+			<triple>C0817096 LOCATION_OF C0203156</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The test is done in a hospital radiology department or in the health care provider's office.</value>
+		<pattern_crowdsource> The [[test|C0039593]] is done in a [[hospital radiology department|C0034600]] or in the health care provider's office.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital radiology department</surface-form>
+				<RDF-ID>C0034600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider's</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>office</surface-form>
+				<RDF-ID>C0442603</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034600 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The x-ray machine will be moved over the thoracic area of the spine.</value>
+		<pattern_crowdsource> The x-ray machine will be moved over the [[thoracic area|C0817096]] of the [[spine|C0037949]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>x-ray machine</surface-form>
+				<RDF-ID>C0182605</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thoracic area</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>spine</surface-form>
+				<RDF-ID>C0037949</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037949 LOCATION_OF C0817096</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

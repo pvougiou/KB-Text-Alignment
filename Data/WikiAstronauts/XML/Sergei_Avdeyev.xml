@@ -1,0 +1,914 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Sergei Avdeyev (?????? ?????????? ??????, born 1 January 1956) is a Russian engineer and cosmonaut.	</value>
+
+		<annotated-sentence>	[[Sergei Avdeyev|Sergei_Avdeyev]] (?????? ?????????? ??????, born 1 [[January|January]] [[1956|1956_(album)]]) is a [[Russian|Russia]] [[engineer|Engineer]] and [[cosmonaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Sergei Avdeyev|Sergei_Avdeyev]] (?????? ?????????? ??????, born 1 January 1956) is a [[Russian|Russia]] engineer and cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Avdeyev/NNP-2,Sergei/NNP-1)
+				nsubj(engineer/NN-16,Avdeyev/NNP-2)
+				nn(??????/NNP-6,??????/NNP-4)
+				nn(??????/NNP-6,??????????/NNP-5)
+				dep(Avdeyev/NNP-2,??????/NNP-6)
+				partmod(??????/NNP-6,born/VBN-8)
+				dobj(born/VBN-8,1/CD-9)
+				tmod(born/VBN-8,January/NNP-10)
+				num(January/NNP-10,1956/CD-11)
+				cop(engineer/NN-16,is/VBZ-13)
+				det(engineer/NN-16,a/DT-14)
+				amod(engineer/NN-16,Russian/JJ-15)
+				conj_and(engineer/NN-16,cosmonaut/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sergei Avdeyev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergei_Avdeyev</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1956</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1956_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sergei_Avdeyev http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sergei_Avdeyev http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Avdeyev was born in Chapayevsk, Samara Oblast (formerly Kuybyshev Oblast), Russian SFSR.	</value>
+
+		<annotated-sentence>	[[Avdeyev|Sergei_Avdeyev]] was born in [[Chapayevsk|Chapayevsk]], [[Samara Oblast|Samara_Oblast]] (formerly [[Kuybyshev Oblast|Samara_Oblast]]), [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Avdeyev|Sergei_Avdeyev]] was born in [[Chapayevsk|Chapayevsk]], [[Samara Oblast|Samara_Oblast]] (formerly [[Kuybyshev Oblast|Samara_Oblast]]), Russian SFSR.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Avdeyev/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Chapayevsk/NNP-5)
+				nn(Oblast/NNP-8,Samara/NNP-7)
+				appos(Chapayevsk/NNP-5,Oblast/NNP-8)
+				dep(Oblast/NNP-12,formerly/RB-10)
+				nn(Oblast/NNP-12,Kuybyshev/NNP-11)
+				appos(Chapayevsk/NNP-5,Oblast/NNP-12)
+				amod(SFSR/NN-16,Russian/JJ-15)
+				appos(Chapayevsk/NNP-5,SFSR/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Avdeyev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergei_Avdeyev</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chapayevsk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chapayevsk</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Samara Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Samara_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kuybyshev Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Samara_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian SFSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sergei_Avdeyev http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Chapayevsk
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Chapayevsk http://dbpedia.org/property/federalSubject http://dbpedia.org/resource/Samara_Oblast
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Chapayevsk http://dbpedia.org/property/federalSubject http://dbpedia.org/resource/Samara_Oblast
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Moscow Physics-Engineering Institute in 1979 as an engineer-physicist.	</value>
+
+		<annotated-sentence>	He graduated from [[Moscow|Moscow]] [[Physics-Engineering|Engineering_physics]] [[Institute|Institute]] in [[1979|1979]] as an engineer-physicist.	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Moscow Physics-Engineering Institute in 1979 as an engineer-physicist.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(Institute/NNP-6,Moscow/NNP-4)
+				nn(Institute/NNP-6,Physics-Engineering/NNP-5)
+				prep_from(graduated/VBD-2,Institute/NNP-6)
+				prep_in(Institute/NNP-6,1979/CD-8)
+				det(engineer-physicist/NN-11,an/DT-10)
+				prep_as(graduated/VBD-2,engineer-physicist/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Physics-Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering_physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1979 to 1987 he worked as an engineer for NPO Energiya.	</value>
+
+		<annotated-sentence>	From [[1979|1979]] to [[1987|1987]] he worked as [[an engineer|Engineer]] for [[NPO Energiya|S.P._Korolev_Rocket_and_Space_Corporation_Energia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1979 to 1987 he worked as an engineer for NPO Energiya.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1987/CD-4,1979/CD-2)
+				dep(1987/CD-4,to/TO-3)
+				prep_from(worked/VBD-6,1987/CD-4)
+				nsubj(worked/VBD-6,he/PRP-5)
+				det(engineer/NN-9,an/DT-8)
+				prep_as(worked/VBD-6,engineer/NN-9)
+				nn(Energiya/NNP-12,NPO/NNP-11)
+				prep_for(worked/VBD-6,Energiya/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NPO Energiya</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S.P._Korolev_Rocket_and_Space_Corporation_Energia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as a cosmonaut as part of the Energia Engineer Group 9 on 26 March 1987.	</value>
+
+		<annotated-sentence>	He was selected as a cosmonaut as part of the [[Energia|Energia]] [[Engineer|Engineer]] Group 9 on 26 [[March 1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected as a cosmonaut as part of the Energia Engineer Group 9 on 26 March 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,cosmonaut/NN-6)
+				prep_as(cosmonaut/NN-6,part/NN-8)
+				det(Group/NNP-13,the/DT-10)
+				nn(Group/NNP-13,Energia/NNP-11)
+				nn(Group/NNP-13,Engineer/NNP-12)
+				prep_of(part/NN-8,Group/NNP-13)
+				num(Group/NNP-13,9/CD-14)
+				prep_on(selected/VBN-3,26/CD-16)
+				tmod(selected/VBN-3,March/NNP-17)
+				num(March/NNP-17,1987/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Energia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Energia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His basic cosmonaut training was from December 1987 through to July 1989.	</value>
+
+		<annotated-sentence>	His basic cosmonaut [[training|Training]] was from [[December 1987|1987]] through to [[July 1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His basic cosmonaut training was from December 1987 through to July 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(training/NN-4,His/PRP$-1)
+				amod(training/NN-4,basic/JJ-2)
+				nn(training/NN-4,cosmonaut/NN-3)
+				nsubj(was/VBD-5,training/NN-4)
+				prep_from(was/VBD-5,December/NNP-7)
+				num(December/NNP-7,1987/CD-8)
+				prep(was/VBD-5,through/IN-9)
+				pcomp(through/IN-9,to/TO-10)
+				pobj(to/TO-10,July/NNP-11)
+				num(July/NNP-11,1989/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired as a cosmonaut on 14 February 2003.	</value>
+
+		<annotated-sentence>	He retired as a cosmonaut on 14 [[February 2003|February_2003]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired as a cosmonaut on 14 February 2003.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				det(cosmonaut/NN-5,a/DT-4)
+				prep_as(retired/VBD-2,cosmonaut/NN-5)
+				prep_on(cosmonaut/NN-5,14/CD-7)
+				tmod(retired/VBD-2,February/NNP-8)
+				num(February/NNP-8,2003/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February 2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_2003</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Avdeyev at one point held the record for cumulative time spent in space with 747.59 days in earth orbit, accumulated through three tours of duty aboard the Mir Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-5,Avdeyev/NNP-1)
+				num(point/NN-4,one/CD-3)
+				prep_at(Avdeyev/NNP-1,point/NN-4)
+				det(record/NN-7,the/DT-6)
+				dobj(held/VBD-5,record/NN-7)
+				amod(time/NN-10,cumulative/JJ-9)
+				prep_for(record/NN-7,time/NN-10)
+				partmod(time/NN-10,spent/VBN-11)
+				prep_in(spent/VBN-11,space/NN-13)
+				num(days/NNS-16,747.59/CD-15)
+				prep_with(spent/VBN-11,days/NNS-16)
+				nn(orbit/NN-19,earth/NN-18)
+				prep_in(days/NNS-16,orbit/NN-19)
+				partmod(days/NNS-16,accumulated/VBN-21)
+				num(tours/NNS-24,three/CD-23)
+				prep_through(accumulated/VBN-21,tours/NNS-24)
+				amod(Station/NNP-31,duty/NN-26)
+				det(Space/NN-30,the/DT-28)
+				nn(Space/NN-30,Mir/NNS-29)
+				prep_aboard(duty/NN-26,Space/NN-30)
+				prep_of(tours/NNS-24,Station/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has orbited the earth 11,968 times traveling about 515,000,000 kilometers.	</value>
+
+		<annotated-sentence>	He has orbited [[the earth|Earth]] 11,968 times traveling about 515,000,000 [[kilometers|Kilometre]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has orbited the earth 11,968 times traveling about 515,000,000 kilometers.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(orbited/VBN-3,He/PRP-1)
+				aux(orbited/VBN-3,has/VBZ-2)
+				det(earth/NN-5,the/DT-4)
+				dobj(orbited/VBN-3,earth/NN-5)
+				num(times/NNS-7,11,968/CD-6)
+				tmod(orbited/VBN-3,times/NNS-7)
+				xcomp(orbited/VBN-3,traveling/VBG-8)
+				num(kilometers/NNS-11,515,000,000/CD-10)
+				prep_about(traveling/VBG-8,kilometers/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>kilometers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kilometre</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 2005, this record was taken by another cosmonaut, Sergei K. Krikalev.	</value>
+
+		<annotated-sentence>	In [[August 2005|August_2005]], this record was taken by [[another cosmonaut|Astronaut]], [[Sergei K. Krikalev|Sergei_Krikalev]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 2005, this record was taken by another cosmonaut, Sergei K. Krikalev.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(taken/VBN-8,August/NNP-2)
+				num(August/NNP-2,2005/CD-3)
+				det(record/NN-6,this/DT-5)
+				nsubjpass(taken/VBN-8,record/NN-6)
+				auxpass(taken/VBN-8,was/VBD-7)
+				det(cosmonaut/NN-11,another/DT-10)
+				agent(taken/VBN-8,cosmonaut/NN-11)
+				nn(Krikalev/NNP-15,Sergei/NNP-13)
+				nn(Krikalev/NNP-15,K./NNP-14)
+				appos(cosmonaut/NN-11,Krikalev/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>another cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sergei K. Krikalev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergei_Krikalev</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Avdeyev is married with two children.	</value>
+
+		<annotated-sentence>	Avdeyev is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Avdeyev is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Avdeyev/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is an amateur radio operator, and his call sign is RV3DW.	</value>
+
+		<annotated-sentence>	He is [[an amateur radio operator|Amateur_radio_operator]], and [[his call sign|Call_sign]] is RV3DW.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is an amateur radio operator, and his call sign is RV3DW.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(operator/NN-6,He/PRP-1)
+				cop(operator/NN-6,is/VBZ-2)
+				det(operator/NN-6,an/DT-3)
+				amod(operator/NN-6,amateur/JJ-4)
+				nn(operator/NN-6,radio/NN-5)
+				poss(sign/NN-11,his/PRP$-9)
+				nn(sign/NN-11,call/NN-10)
+				nsubj(RV3DW/NN-13,sign/NN-11)
+				cop(RV3DW/NN-13,is/VBZ-12)
+				conj_and(operator/NN-6,RV3DW/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an amateur radio operator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amateur_radio_operator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his call sign</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Call_sign</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	For a long time, Avdeyev held the record for time dilation experienced by a human being.	</value>
+
+		<annotated-sentence>	For a long time, Avdeyev held the record for [[time dilation|Time_dilation]] experienced by [[a human being|Human_Being_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	For a long time, Avdeyev held the record for time dilation experienced by a human being.	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-4,a/DT-2)
+				amod(time/NN-4,long/JJ-3)
+				prep_for(held/VBD-7,time/NN-4)
+				nsubj(held/VBD-7,Avdeyev/NNP-6)
+				det(record/NN-9,the/DT-8)
+				dobj(held/VBD-7,record/NN-9)
+				nn(dilation/NN-12,time/NN-11)
+				prep_for(record/NN-9,dilation/NN-12)
+				partmod(dilation/NN-12,experienced/VBN-13)
+				det(being/NN-17,a/DT-15)
+				amod(being/NN-17,human/JJ-16)
+				agent(experienced/VBN-13,being/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>time dilation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Time_dilation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a human being</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_Being_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In his 747 days aboard Mir, cumulative across three missions, he went approximately 27,360 km/h and thus aged roughly 0.02 seconds (20 milliseconds) less than an Earthbound person would have, which is considerably more than any other human being, except Sergei Krikalev.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(days/NNS-4,his/PRP$-2)
+				num(days/NNS-4,747/CD-3)
+				prep_in(went/VBD-14,days/NNS-4)
+				prep_aboard(days/NNS-4,Mir/NNS-6)
+				amod(days/NNS-4,cumulative/JJ-8)
+				num(missions/NNS-11,three/CD-10)
+				prep_across(cumulative/JJ-8,missions/NNS-11)
+				nsubj(went/VBD-14,he/PRP-13)
+				nsubj(aged/JJ-20,he/PRP-13)
+				quantmod(27,360/CD-16,approximately/RB-15)
+				num(km/h/NN-17,27,360/CD-16)
+				dobj(went/VBD-14,km/h/NN-17)
+				advmod(aged/JJ-20,thus/RB-19)
+				conj_and(went/VBD-14,aged/JJ-20)
+				advmod(seconds/NNS-23,roughly/RB-21)
+				num(seconds/NNS-23,0.02/CD-22)
+				npadvmod(less/JJR-28,seconds/NNS-23)
+				num(milliseconds/NNS-26,20/CD-25)
+				appos(seconds/NNS-23,milliseconds/NNS-26)
+				advmod(aged/JJ-20,less/JJR-28)
+				det(person/NN-32,an/DT-30)
+				amod(person/NN-32,Earthbound/JJ-31)
+				prep_than(aged/JJ-20,person/NN-32)
+				aux(have/VB-34,would/MD-33)
+				rcmod(person/NN-32,have/VB-34)
+				nsubj(more/JJR-39,which/WDT-36)
+				cop(more/JJR-39,is/VBZ-37)
+				advmod(more/JJR-39,considerably/RB-38)
+				rcmod(person/NN-32,more/JJR-39)
+				det(being/NN-44,any/DT-41)
+				amod(being/NN-44,other/JJ-42)
+				amod(being/NN-44,human/JJ-43)
+				prep_than(more/JJR-39,being/NN-44)
+				nn(Krikalev/NNP-48,Sergei/NNP-47)
+				prep_except(person/NN-32,Krikalev/NNP-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This is due to the special relativistic effect of time dilation and is not properly thought of as time travelling as described by mainstream culture.	</value>
+
+		<annotated-sentence>	This is due to the special [[relativistic effect|Relativistic_quantum_chemistry]] of [[time dilation|Time_dilation]] and is not properly thought of as [[time|Time_dilation]] travelling as described by mainstream [[culture|Hip_hop]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This is due to the special relativistic effect of time dilation and is not properly thought of as time travelling as described by mainstream culture.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(due/JJ-3,This/DT-1)
+				nsubjpass(thought/VBN-16,This/DT-1)
+				cop(due/JJ-3,is/VBZ-2)
+				det(effect/NN-8,the/DT-5)
+				amod(effect/NN-8,special/JJ-6)
+				amod(effect/NN-8,relativistic/JJ-7)
+				prep_to(due/JJ-3,effect/NN-8)
+				nn(dilation/NN-11,time/NN-10)
+				prep_of(effect/NN-8,dilation/NN-11)
+				auxpass(thought/VBN-16,is/VBZ-13)
+				neg(thought/VBN-16,not/RB-14)
+				advmod(thought/VBN-16,properly/RB-15)
+				conj_and(due/JJ-3,thought/VBN-16)
+				prep_as_of(thought/VBN-16,time/NN-19)
+				partmod(time/NN-19,travelling/VBG-20)
+				mark(described/VBN-22,as/IN-21)
+				advcl(travelling/VBG-20,described/VBN-22)
+				amod(culture/NN-25,mainstream/JJ-24)
+				prep_by(described/VBN-22,culture/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>relativistic effect</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relativistic_quantum_chemistry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>time dilation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Time_dilation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Time_dilation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>culture</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hip_hop</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A common misconception is that the Apollo astronauts hold the record—they did go faster than Avdeyev, but they were only in space for a few days.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(misconception/NN-3,A/DT-1)
+				amod(misconception/NN-3,common/JJ-2)
+				nsubj(is/VBZ-4,misconception/NN-3)
+				mark(hold/VBP-9,that/IN-5)
+				det(astronauts/NNS-8,the/DT-6)
+				nn(astronauts/NNS-8,Apollo/NNP-7)
+				nsubj(hold/VBP-9,astronauts/NNS-8)
+				ccomp(is/VBZ-4,hold/VBP-9)
+				det(record/NN-11,the/DT-10)
+				dobj(hold/VBP-9,record/NN-11)
+				nsubj(go/VB-15,they/PRP-13)
+				aux(go/VB-15,did/VBD-14)
+				parataxis(is/VBZ-4,go/VB-15)
+				advmod(go/VB-15,faster/RBR-16)
+				prep_than(go/VB-15,Avdeyev/NNP-18)
+				nsubj(were/VBD-22,they/PRP-21)
+				parataxis(is/VBZ-4,were/VBD-22)
+				conj_but(go/VB-15,were/VBD-22)
+				advmod(were/VBD-22,only/RB-23)
+				prep_in(were/VBD-22,space/NN-25)
+				det(days/NNS-29,a/DT-27)
+				amod(days/NNS-29,few/JJ-28)
+				prep_for(space/NN-25,days/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

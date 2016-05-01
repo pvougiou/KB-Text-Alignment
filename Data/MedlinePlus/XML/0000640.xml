@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Calcium is the most plentiful mineral found in the human body.</value>
+		<pattern_crowdsource> Calcium is the most plentiful [[mineral|C0026162]] found in the [[human body|C0242821]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Calcium</surface-form>
+				<RDF-ID>C0006675</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mineral</surface-form>
+				<RDF-ID>C0026162</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>human body</surface-form>
+				<RDF-ID>C0242821</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0242821 LOCATION_OF C0026162</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The teeth and bones contain the most calcium.</value>
+		<pattern_crowdsource> The [[teeth|C0040426]] and [[bones|C0262950]] contain the most [[calcium|C0006675]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>teeth</surface-form>
+				<RDF-ID>C0040426</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>calcium</surface-form>
+				<RDF-ID>C0006675</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006675 PART_OF C0262950</triple>
+			<triple>C0006675 PART_OF C0040426</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

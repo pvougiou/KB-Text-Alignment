@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>There may be more pain after closed-heart surgery than after open-heart surgery.</value>
+		<pattern_crowdsource> There may be more pain after closed-[[heart surgery|C0018821]] than after [[open-heart surgery|C0189745]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart surgery</surface-form>
+				<RDF-ID>C0018821</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>open-heart surgery</surface-form>
+				<RDF-ID>C0189745</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0189745 PRECEDES C0018821</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The pain will likely decrease after the second day and can sometimes be managed with acetaminophen (Tylenol).</value>
+		<pattern_crowdsource> The [[pain|C0030193]] will likely decrease after the second day and can sometimes be managed with [[acetaminophen|C0000970]] ([[Tylenol|C0699142]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>second</surface-form>
+				<RDF-ID>C0565930</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699142 ISA C0000970</triple>
+			<triple>C0000970 TREATS C0030193</triple>
+			<triple>C0699142 TREATS C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

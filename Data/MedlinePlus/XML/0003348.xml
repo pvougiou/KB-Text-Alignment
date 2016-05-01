@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Most surgical procedures for rectal prolapse are done under general anesthesia.</value>
+		<pattern_crowdsource> Most [[surgical procedures|C0543467]] for [[rectal prolapse|C0034888]] are done under [[general anesthesia|C0002915]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical procedures</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rectal prolapse</surface-form>
+				<RDF-ID>C0034888</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>general anesthesia</surface-form>
+				<RDF-ID>C0002915</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002915 ISA C0543467</triple>
+			<triple>C0543467 TREATS C0034888</triple>
+			<triple>C0002915 TREATS C0034888</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>While you are under general anesthesia, the doctor makes a surgical cut in the abdomen and removes a portion of the colon.</value>
+		<pattern_crowdsource> While you are under general anesthesia, the doctor makes a surgical [[cut|C0000925]] in the [[abdomen|C0000726]] and removes a portion of the colon.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>general anesthesia</surface-form>
+				<RDF-ID>C0002915</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdomen</surface-form>
+				<RDF-ID>C0000726</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>colon</surface-form>
+				<RDF-ID>C0009368</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0000726 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Constipation is very common, although most patients have constipation before the surgery.</value>
+		<pattern_crowdsource> - Constipation is very common, although most [[patients|C0030705]] have [[constipation|C0009806]] before the surgery.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Constipation</surface-form>
+				<RDF-ID>C0009806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very</surface-form>
+				<RDF-ID>C0442824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>constipation</surface-form>
+				<RDF-ID>C0009806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009806 PROCESS_OF C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

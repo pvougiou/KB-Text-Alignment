@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jean-Pierre Haigneré (born 19 May 1948) is a French Air Force officer and a former CNES astronaut.	</value>
+
+		<annotated-sentence>	[[Jean-Pierre|Jean-Pierre_Haigner%C3%A9]] Haigneré (born 19 May [[1948|1948]]) is a French [[Air Force officer|Officer_(armed_forces)]] and a former [[CNES|CNES]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Jean-Pierre|Jean-Pierre_Haigner%C3%A9]] Haigneré (born 19 May 1948) is a French Air Force officer and a former [[CNES|CNES]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Haigneré/NNP-2,Jean-Pierre/NNP-1)
+				nsubj(officer/NN-14,Haigneré/NNP-2)
+				dep(Haigneré/NNP-2,born/VBN-4)
+				dobj(born/VBN-4,19/CD-5)
+				tmod(born/VBN-4,May/NNP-6)
+				num(May/NNP-6,1948/CD-7)
+				cop(officer/NN-14,is/VBZ-9)
+				det(officer/NN-14,a/DT-10)
+				nn(officer/NN-14,French/NNP-11)
+				nn(officer/NN-14,Air/NNP-12)
+				nn(officer/NN-14,Force/NNP-13)
+				det(astronaut/NN-19,a/DT-16)
+				amod(astronaut/NN-19,former/JJ-17)
+				nn(astronaut/NN-19,CNES/NNP-18)
+				conj_and(officer/NN-14,astronaut/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jean-Pierre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1948</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1948</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9 http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Haigneré was born in Paris, France and joined the French Air Force, where he trained as a test pilot.	</value>
+
+		<annotated-sentence>	[[Haigneré|Jean-Pierre_Haigner%C3%A9]] was born in Paris, France and joined [[the French Air Force|French_Air_Force]], where he trained as [[a test pilot|Test_pilot]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Haigneré|Jean-Pierre_Haigner%C3%A9]] was born in Paris, France and joined [[the French Air Force|French_Air_Force]], where he trained as [[a test pilot|Test_pilot]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Haigneré/NNP-1)
+				nsubjpass(joined/VBD-9,Haigneré/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(France/NNP-7,Paris/NNP-5)
+				prep_in(born/VBN-3,France/NNP-7)
+				conj_and(born/VBN-3,joined/VBD-9)
+				det(Force/NNP-13,the/DT-10)
+				nn(Force/NNP-13,French/NNP-11)
+				nn(Force/NNP-13,Air/NNP-12)
+				dobj(joined/VBD-9,Force/NNP-13)
+				advmod(trained/VBD-17,where/WRB-15)
+				nsubj(trained/VBD-17,he/PRP-16)
+				rcmod(Force/NNP-13,trained/VBD-17)
+				det(pilot/NN-21,a/DT-19)
+				nn(pilot/NN-21,test/NN-20)
+				prep_as(trained/VBD-17,pilot/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Haigneré</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the French Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/French_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9 http://dbpedia.org/property/rank http://dbpedia.org/resource/French_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jean-Pierre_Haigner%C3%A9 http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on two missions to the Mir space station in 1993 and 1999.	</value>
+
+		<annotated-sentence>	He flew on two missions to [[the Mir space station|Mir]] in 1993 and 1999.	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on two missions to the Mir space station in 1993 and 1999.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				num(missions/NNS-5,two/CD-4)
+				prep_on(flew/VBD-2,missions/NNS-5)
+				det(station/NN-10,the/DT-7)
+				nn(station/NN-10,Mir/NNS-8)
+				nn(station/NN-10,space/NN-9)
+				prep_to(flew/VBD-2,station/NN-10)
+				prep_in(station/NN-10,1993/CD-12)
+				prep_in(station/NN-10,1999/CD-14)
+				conj_and(1993/CD-12,1999/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Mir space station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Mir Altair long-duration mission (186 days) in 1993 also included an EVA.	</value>
+
+		<annotated-sentence>	The Mir [[Altair|Altair]] long-duration mission (186 days) in [[1993|1993]] also included an EVA.	</annotated-sentence>
+
+		<pattern_crowdsource>	The Mir Altair long-duration mission (186 days) in 1993 also included an EVA.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Mir/NNS-2,The/DT-1)
+				nsubj(included/VBD-13,Mir/NNS-2)
+				nn(mission/NN-5,Altair/NNP-3)
+				amod(mission/NN-5,long-duration/JJ-4)
+				dep(Mir/NNS-2,mission/NN-5)
+				num(days/NNS-8,186/CD-7)
+				appos(Mir/NNS-2,days/NNS-8)
+				prep_in(Mir/NNS-2,1993/CD-11)
+				advmod(included/VBD-13,also/RB-12)
+				det(EVA/NNP-15,an/DT-14)
+				dobj(included/VBD-13,EVA/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Altair</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Altair</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to former French astronaut Claudie Haigneré.	</value>
+
+		<annotated-sentence>	He is married to former [[French|France]] [[astronaut|Astronaut]] [[Claudie Haigneré|Claudie_Haigner%C3%A9]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married to former [[French|France]] [[astronaut|Astronaut]] [[Claudie Haigneré|Claudie_Haigner%C3%A9]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Haigneré/NNP-9,former/JJ-5)
+				amod(Haigneré/NNP-9,French/JJ-6)
+				nn(Haigneré/NNP-9,astronaut/NN-7)
+				nn(Haigneré/NNP-9,Claudie/NNP-8)
+				prep_to(married/VBN-3,Haigneré/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>French</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Claudie Haigneré</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claudie_Haigner%C3%A9</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Claudie_Haigner%C3%A9 http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claudie_Haigner%C3%A9 http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Claudie_Haigner%C3%A9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The asteroid 135268 Haigneré is named in their combined honour.	</value>
+
+		<annotated-sentence>	The [[asteroid|Asteroid]] [[135268 Haigneré|135268_Haigner%C3%A9]] is named in their combined [[honour|Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The asteroid 135268 Haigneré is named in their combined honour.	</pattern_crowdsource>
+
+
+		<tree>
+				det(asteroid/NN-2,The/DT-1)
+				nsubjpass(named/VBN-6,asteroid/NN-2)
+				num(Haigneré/NNP-4,135268/CD-3)
+				dep(asteroid/NN-2,Haigneré/NNP-4)
+				auxpass(named/VBN-6,is/VBZ-5)
+				poss(honour/NN-10,their/PRP$-8)
+				amod(honour/NN-10,combined/JJ-9)
+				prep_in(named/VBN-6,honour/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>asteroid</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>135268 Haigneré</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/135268_Haigner%C3%A9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>honour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has three children, two from a previous marriage and one with Claudie Haigneré.	</value>
+
+		<annotated-sentence>	He has three [[children|Child]], two from a previous [[marriage|Marriage]] and one with [[Claudie Haigneré|Claudie_Haigner%C3%A9]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has three children, two from a previous marriage and one with Claudie Haigneré.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				num(children/NNS-4,three/CD-3)
+				dobj(has/VBZ-2,children/NNS-4)
+				dobj(has/VBZ-2,two/CD-6)
+				conj_and(children/NNS-4,two/CD-6)
+				det(marriage/NN-10,a/DT-8)
+				amod(marriage/NN-10,previous/JJ-9)
+				prep_from(two/CD-6,marriage/NN-10)
+				dobj(has/VBZ-2,one/CD-12)
+				conj_and(children/NNS-4,one/CD-12)
+				nn(Haigneré/NNP-15,Claudie/NNP-14)
+				prep_with(one/CD-12,Haigneré/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>marriage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marriage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Claudie Haigneré</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claudie_Haigner%C3%A9</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to his duties at the European Space Agency, Haigneré is also involved in a European space tourism initiative, the Astronaute Club Européen (ACE), which he co-founded with Alain Dupas and Laurent Gathier.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(duties/NNS-5,his/PRP$-4)
+				prep_in_addition_to(involved/VBN-15,duties/NNS-5)
+				det(Agency/NNP-10,the/DT-7)
+				amod(Agency/NNP-10,European/JJ-8)
+				nn(Agency/NNP-10,Space/NNP-9)
+				prep_at(duties/NNS-5,Agency/NNP-10)
+				nsubjpass(involved/VBN-15,Haigneré/NNP-12)
+				auxpass(involved/VBN-15,is/VBZ-13)
+				advmod(involved/VBN-15,also/RB-14)
+				det(initiative/NN-21,a/DT-17)
+				amod(initiative/NN-21,European/JJ-18)
+				nn(initiative/NN-21,space/NN-19)
+				nn(initiative/NN-21,tourism/NN-20)
+				prep_in(involved/VBN-15,initiative/NN-21)
+				det(Européen/NNP-26,the/DT-23)
+				nn(Européen/NNP-26,Astronaute/NNP-24)
+				nn(Européen/NNP-26,Club/NNP-25)
+				appos(initiative/NN-21,Européen/NNP-26)
+				appos(Européen/NNP-26,ACE/NN-28)
+				dobj(co-founded/VBD-33,which/WDT-31)
+				nsubj(co-founded/VBD-33,he/PRP-32)
+				rcmod(Européen/NNP-26,co-founded/VBD-33)
+				nn(Dupas/NNP-36,Alain/NNP-35)
+				prep_with(co-founded/VBD-33,Dupas/NNP-36)
+				nn(Gathier/NNP-39,Laurent/NNP-38)
+				prep_with(co-founded/VBD-33,Gathier/NNP-39)
+				conj_and(Dupas/NNP-36,Gathier/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

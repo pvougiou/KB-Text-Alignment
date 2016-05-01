@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This can help prevent diseases such as type 2 diabetes, high blood pressure, and obesity.</value>
+		<pattern_crowdsource> This can help prevent [[diseases|C0012634]] such as [[type 2 diabetes|C0011860]], [[high blood pressure|C0020538]], and [[obesity|C0028754]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type 2 diabetes</surface-form>
+				<RDF-ID>C0011860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obesity</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011860 ISA C0012634</triple>
+			<triple>C0028754 ISA C0012634</triple>
+			<triple>C0020538 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

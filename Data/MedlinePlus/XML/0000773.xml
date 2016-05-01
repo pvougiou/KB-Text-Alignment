@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This is treatment that uses medicines to kill cancer cells.</value>
+		<pattern_crowdsource> This is [[treatment|C0087111]] that uses [[medicines|C0013227]] to kill cancer cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer cells</surface-form>
+				<RDF-ID>C0334227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 USES C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What over-the-counter (OTC) medicines can I take for headaches, the common cold, and other illnesses?</value>
+		<pattern_crowdsource> What over-the-counter (OTC) [[medicines|C0013227]] can I take for [[headaches|C0018681]], the [[common cold|C0009443]], and other illnesses?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>over-the</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>OTC</surface-form>
+				<RDF-ID></RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>headaches</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common cold</surface-form>
+				<RDF-ID>C0009443</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>illnesses</surface-form>
+				<RDF-ID>C0221423</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0018681</triple>
+			<triple>C0013227 TREATS C0009443</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

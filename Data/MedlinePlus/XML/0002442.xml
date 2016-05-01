@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A lower esophageal ring is a birth defect of the esophagus that occurs in a small number of people.</value>
+		<pattern_crowdsource> A [[lower esophageal ring|C0341137]] is a [[birth defect|C0000768]] of the [[esophagus|C0014876]] that occurs in a small number of people.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>lower esophageal ring</surface-form>
+				<RDF-ID>C0341137</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>birth defect</surface-form>
+				<RDF-ID>C0000768</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagus</surface-form>
+				<RDF-ID>C0014876</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>number</surface-form>
+				<RDF-ID>C0237753</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0341137 ISA C0000768</triple>
+			<triple>C0014876 LOCATION_OF C0000768</triple>
+			<triple>C0014876 LOCATION_OF C0341137</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>For most people, lower esophageal ring does not cause symptoms.</value>
+		<pattern_crowdsource> For most people, lower [[esophageal ring|C0267081]] does not cause [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophageal ring</surface-form>
+				<RDF-ID>C0267081</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0267081 NEG_CAUSES C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tests that show the lower esophageal ring include:  - EGD (esophagogastroduodenoscopy)  - Upper GI (x-ray with barium)</value>
+		<pattern_crowdsource> Tests that show the lower esophageal ring include:  - EGD (esophagogastroduodenoscopy)  - [[Upper GI|C0203057]] ([[x-ray|C0043299]] with [[barium|C0004749]])		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>lower esophageal ring</surface-form>
+				<RDF-ID>C0341137</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EGD</surface-form>
+				<RDF-ID>C0079304</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagogastroduodenoscopy</surface-form>
+				<RDF-ID>C0079304</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Upper GI</surface-form>
+				<RDF-ID>C0203057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>barium</surface-form>
+				<RDF-ID>C0004749</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0203057 ISA C0043299</triple>
+			<triple>C0043299 USES C0004749</triple>
+			<triple>C0203057 USES C0004749</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your provider may ask you to temporarily stop taking medicines that can affect the test results.</value>
+		<pattern_crowdsource> Your provider may ask you to temporarily stop taking [[medicines|C0013227]] that can affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A result that may need treatment in one person may not need treatment in another person.</value>
+		<pattern_crowdsource> A result that may need [[treatment|C0087111]] in one [[person|C0027361]] may not need [[treatment|C0087111]] in another [[person|C0027361]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>result</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 TREATS C0027361</triple>
+			<triple>C0087111 TREATS C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If there is a bladder outlet obstruction or if the bladder muscle is weak, you may have a decrease in urine flow.</value>
+		<pattern_crowdsource> If there is a [[bladder outlet obstruction|C1562805]] or if the bladder muscle is weak, you may have a decrease in [[urine flow|C0012797]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bladder outlet obstruction</surface-form>
+				<RDF-ID>C1562805</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder muscle</surface-form>
+				<RDF-ID>C0458432</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weak</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>decrease</surface-form>
+				<RDF-ID>C0547047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine flow</surface-form>
+				<RDF-ID>C0012797</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1562805 PROCESS_OF C0012797</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

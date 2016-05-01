@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your doctor may order this test if you have unexplained pain and inflammation of a joint or a suspected joint infection.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have unexplained [[pain|C0030193]] and [[inflammation|C0021368]] of a joint or a suspected joint infection.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint</surface-form>
+				<RDF-ID>C0392905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint infection</surface-form>
+				<RDF-ID>C0860281</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0031831</triple>
+			<triple>C0021368 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The test result is considered normal if no organisms (bacteria, fungi, or viruses) grow in the laboratory dish.</value>
+		<pattern_crowdsource> The [[test result|C0456984]] is considered normal if no [[organisms|C0029235]] ([[bacteria|C0004611]], fungi, or viruses) grow in the laboratory [[dish|C0020498]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test result</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organisms</surface-form>
+				<RDF-ID>C0029235</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungi</surface-form>
+				<RDF-ID>C0521033</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>viruses</surface-form>
+				<RDF-ID>C0521026</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>laboratory</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dish</surface-form>
+				<RDF-ID>C0020498</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 ISA C0029235</triple>
+			<triple>C0456984 COEXISTS_WITH C0020498</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

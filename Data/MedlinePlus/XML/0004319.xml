@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The test is usually done in a skin doctor's (dermatologist) office.</value>
+		<pattern_crowdsource> The test is usually done in a skin [[doctor's|C0031831]] ([[dermatologist|C0259831]]) office.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor's</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dermatologist</surface-form>
+				<RDF-ID>C0259831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>office</surface-form>
+				<RDF-ID>C0442603</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0259831 ISA C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A Wood's lamp exam may help your doctor confirm a fungal infection or bacterial infection.</value>
+		<pattern_crowdsource> A Wood's lamp exam may help your [[doctor|C0031831]] confirm a [[fungal infection|C0026946]] or [[bacterial infection|C0004623]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>lamp</surface-form>
+				<RDF-ID>C0392223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungal infection</surface-form>
+				<RDF-ID>C0026946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacterial infection</surface-form>
+				<RDF-ID>C0004623</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031831 DIAGNOSES C0026946</triple>
+			<triple>C0031831 DIAGNOSES C0004623</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

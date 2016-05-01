@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You have pneumonia, which is an infection in your lungs.</value>
+		<pattern_crowdsource> You have [[pneumonia|C0032285]], which is an [[infection|C0009450]] in your [[lungs|C0024109]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032285 ISA C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>They also gave you medicine to help your body get rid of the germs that cause pneumonia.</value>
+		<pattern_crowdsource> They also gave you medicine to help your body get [[rid|C0073361]] of the germs that cause [[pneumonia|C0032285]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0025118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rid</surface-form>
+				<RDF-ID>C0073361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0073361 CAUSES C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other things that may also help include:  - Placing a warm, wet washcloth loosely over your nose and mouth  - Filling a humidifier with warm water and breathing in the warm mist    Coughing helps clear your airways.</value>
+		<pattern_crowdsource> Other things that may also help include:  - Placing a warm, wet washcloth loosely over your nose and mouth  - Filling a humidifier with warm [[water|C0020311]] and breathing in the warm mist    [[Coughing|C0010200]] helps clear your airways.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>wet</surface-form>
+				<RDF-ID>C0205381</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>washcloth</surface-form>
+				<RDF-ID>C0879141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>humidifier</surface-form>
+				<RDF-ID>C0181232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0020311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breathing</surface-form>
+				<RDF-ID>C0035203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>airways</surface-form>
+				<RDF-ID>C0178987</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020311 TREATS C0010200</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may tell you to take antibiotics.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may tell you to take [[antibiotics|C0003232]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These are medicines that kill the germs that cause pneumonia.</value>
+		<pattern_crowdsource> These are [[medicines|C0013227]] that kill the germs that cause [[pneumonia|C0032285]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pneumonia</surface-form>
+				<RDF-ID>C0032285</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 CAUSES C0032285</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Coughing helps your body get rid of mucus from your lungs.</value>
+		<pattern_crowdsource> Coughing helps your body get [[rid|C0073361]] of mucus from your [[lungs|C0024109]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rid</surface-form>
+				<RDF-ID>C0073361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mucus</surface-form>
+				<RDF-ID>C0026727</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024109 LOCATION_OF C0073361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor or nurse will tell you if it is OK to use acetaminophen (Tylenol) or ibuprofen (Advil or Motrin) for fever or pain.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] or [[nurse|C0028661]] will tell you if it is OK to use [[acetaminophen|C0000970]] ([[Tylenol|C0699142]]) or [[ibuprofen|C0020740]] ([[Advil|C0593507]] or [[Motrin|C0699203]]) for [[fever|C0015967]] or [[pain|C0030193]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nurse</surface-form>
+				<RDF-ID>C0028661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699142 ISA C0000970</triple>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+			<triple>C0000970 ADMINISTERED_TO C0028661</triple>
+			<triple>C0000970 ADMINISTERED_TO C0031831</triple>
+			<triple>C0020740 TREATS C0015967</triple>
+			<triple>C0020740 TREATS C0030193</triple>
+			<triple>C0699142 TREATS C0015967</triple>
+			<triple>C0699142 TREATS C0030193</triple>
+			<triple>C0699142 ADMINISTERED_TO C0028661</triple>
+			<triple>C0699142 ADMINISTERED_TO C0031831</triple>
+			<triple>C0593507 TREATS C0015967</triple>
+			<triple>C0593507 TREATS C0030193</triple>
+			<triple>C0699203 TREATS C0015967</triple>
+			<triple>C0699203 TREATS C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Trachoma is a bacterial infection of the eye.</value>
+		<pattern_crowdsource> [[Trachoma|C0040592]] is a [[bacterial infection|C0004623]] of the [[eye|C0015392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Trachoma</surface-form>
+				<RDF-ID>C0040592</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacterial infection</surface-form>
+				<RDF-ID>C0004623</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040592 ISA C0004623</triple>
+			<triple>C0015392 LOCATION_OF C0004623</triple>
+			<triple>C0015392 LOCATION_OF C0040592</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Trachoma is caused by infection with the bacteria Chlamydia trachomatis.</value>
+		<pattern_crowdsource> [[Trachoma|C0040592]] is caused by [[infection|C0009450]] with the [[bacteria|C0004611]] [[Chlamydia trachomatis|C0008151]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Trachoma</surface-form>
+				<RDF-ID>C0040592</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Chlamydia trachomatis</surface-form>
+				<RDF-ID>C0008151</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008151 ISA C0004611</triple>
+			<triple>C0009450 CAUSES C0040592</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

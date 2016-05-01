@@ -1,0 +1,1959 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Michael James Foreman (born March 29, 1957) is an American astronaut.	</value>
+
+		<annotated-sentence>	[[Michael James Foreman|Michael_Foreman_(astronaut)]] (born March 29, 1957) is [[an American astronaut|The_American_Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Michael James Foreman (born March 29, 1957) is an American astronaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Foreman/NNP-3,Michael/NNP-1)
+				nn(Foreman/NNP-3,James/NNP-2)
+				nsubj(astronaut/NN-14,Foreman/NNP-3)
+				dep(Foreman/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,March/NNP-6)
+				num(March/NNP-6,29/CD-7)
+				num(March/NNP-6,1957/CD-9)
+				cop(astronaut/NN-14,is/VBZ-11)
+				det(astronaut/NN-14,an/DT-12)
+				amod(astronaut/NN-14,American/JJ-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Michael James Foreman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Michael_Foreman_(astronaut)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Foreman was born in Columbus, Ohio, and grew up in Wadsworth, Ohio.	</value>
+
+		<annotated-sentence>	Foreman was born in [[Columbus , Ohio ,|Akron,_Ohio]]nd grew up in [[Wadsworth , Ohio|Wadsworth,_Ohio]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Foreman was born in Columbus, Ohio, and grew up in Wadsworth, Ohio.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Foreman/NN-1)
+				nsubjpass(grew/VBD-10,Foreman/NN-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Ohio/NNP-7,Columbus/NNP-5)
+				prep_in(born/VBN-3,Ohio/NNP-7)
+				conj_and(born/VBN-3,grew/VBD-10)
+				prt(grew/VBD-10,up/RP-11)
+				nn(Ohio/NNP-15,Wadsworth/NNP-13)
+				prep_in(grew/VBD-10,Ohio/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Columbus , Ohio ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wadsworth , Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wadsworth,_Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to Lorrie Dancer of Oklahoma City, Oklahoma.	</value>
+
+		<annotated-sentence>	He is married to Lorrie Dancer of [[Oklahoma City|Oklahoma_City]], [[Oklahoma|Oklahoma]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married to Lorrie Dancer of [[Oklahoma City|Oklahoma_City]], [[Oklahoma|Oklahoma]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				nn(Dancer/NNP-6,Lorrie/NNP-5)
+				prep_to(married/VBN-3,Dancer/NNP-6)
+				nn(City/NNP-9,Oklahoma/NNP-8)
+				prep_of(Dancer/NNP-6,City/NNP-9)
+				appos(City/NNP-9,Oklahoma/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Oklahoma City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oklahoma_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Oklahoma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oklahoma</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Oklahoma_City http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Oklahoma
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Oklahoma http://dbpedia.org/property/capital http://dbpedia.org/resource/Oklahoma_City
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have three children.	</value>
+
+		<annotated-sentence>	[[They|They]] have three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,three/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Wadsworth High School, Wadsworth, Ohio, in 1975; received a bachelor of science degree in aerospace engineering from the U.S. Naval Academy in 1979 and a master of science degree in aeronautical engineering from the U.S. Naval Postgraduate School in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Wadsworth/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Ohio/NNP-10,Wadsworth/NNP-8)
+				nsubj(received/VBD-15,Ohio/NNP-10)
+				prep_in(Ohio/NNP-10,1975/CD-13)
+				ccomp(graduated/VBD-2,received/VBD-15)
+				det(bachelor/NN-17,a/DT-16)
+				dobj(received/VBD-15,bachelor/NN-17)
+				nn(degree/NN-20,science/NN-19)
+				prep_of(bachelor/NN-17,degree/NN-20)
+				nn(engineering/NN-23,aerospace/NN-22)
+				prep_in(degree/NN-20,engineering/NN-23)
+				det(Academy/NNP-28,the/DT-25)
+				nn(Academy/NNP-28,U.S./NNP-26)
+				nn(Academy/NNP-28,Naval/NNP-27)
+				prep_from(received/VBD-15,Academy/NNP-28)
+				prep_in(Academy/NNP-28,1979/CD-30)
+				det(master/NN-33,a/DT-32)
+				prep_from(received/VBD-15,master/NN-33)
+				conj_and(Academy/NNP-28,master/NN-33)
+				nn(degree/NN-36,science/NN-35)
+				prep_of(master/NN-33,degree/NN-36)
+				amod(engineering/NN-39,aeronautical/JJ-38)
+				prep_in(degree/NN-36,engineering/NN-39)
+				det(School/NNP-45,the/DT-41)
+				nn(School/NNP-45,U.S./NNP-42)
+				nn(School/NNP-45,Naval/NNP-43)
+				nn(School/NNP-45,Postgraduate/NNP-44)
+				prep_from(received/VBD-15,School/NNP-45)
+				prep_in(received/VBD-15,1986/CD-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Association of Naval Aviation, United States Naval Academy Alumni Association, Society of Experimental Test Pilots.	</value>
+
+		<annotated-sentence>	Association of [[Naval Aviation|Naval_aviation]], [[United States Naval Academy Alumni|List_of_United_States_Naval_Academy_alumni]] Association, [[Society of Experimental Test Pilots|Society_of_Experimental_Test_Pilots]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Association of Naval Aviation, United States Naval Academy Alumni Association, Society of Experimental Test Pilots.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Aviation/NNP-4,Naval/NNP-3)
+				prep_of(Association/NNP-1,Aviation/NNP-4)
+				nn(Association/NNP-11,United/NNP-6)
+				nn(Association/NNP-11,States/NNPS-7)
+				nn(Association/NNP-11,Naval/NNP-8)
+				nn(Association/NNP-11,Academy/NNP-9)
+				nn(Association/NNP-11,Alumni/NNP-10)
+				appos(Association/NNP-1,Association/NNP-11)
+				appos(Association/NNP-1,Society/NNP-13)
+				amod(Pilots/NNS-17,Experimental/JJ-15)
+				nn(Pilots/NNS-17,Test/NN-16)
+				prep_of(Society/NNP-13,Pilots/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Naval Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Naval Academy Alumni</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_United_States_Naval_Academy_alumni</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Society of Experimental Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society_of_Experimental_Test_Pilots</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Legion of Merit, Defense Meritorious Service Medal, Meritorious Service Medal, Navy Commendation Medal; Navy Achievement Medal and various other service awards.	</value>
+
+		<annotated-sentence>	Legion of Merit, [[Defense Meritorious Service Medal|Defense_Meritorious_Service_Medal]], [[Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], [[Navy Commendation Medal|Commendation_Medal]]; [[Navy Achievement Medal|Achievement_Medal]] and [[various other service awards|Service_award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Legion of Merit, [[Defense [[Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]]|Defense_Meritorious_Service_Medal]], [[Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], Navy Commendation Medal; Navy Achievement Medal and various other service awards.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_of(Legion/NNP-1,Merit/NNP-3)
+				nn(Service/NNP-7,Defense/NNP-5)
+				nn(Service/NNP-7,Meritorious/NNP-6)
+				appos(Legion/NNP-1,Service/NNP-7)
+				dep(Service/NNP-7,Medal/NN-8)
+				nn(Medal/NN-12,Meritorious/NNP-10)
+				nn(Medal/NN-12,Service/NNP-11)
+				appos(Legion/NNP-1,Medal/NN-12)
+				nn(Medal/NN-16,Navy/NNP-14)
+				nn(Medal/NN-16,Commendation/NNP-15)
+				appos(Legion/NNP-1,Medal/NN-16)
+				nn(Medal/NN-20,Navy/NNP-18)
+				nn(Medal/NN-20,Achievement/NNP-19)
+				dep(Legion/NNP-1,Medal/NN-20)
+				amod(awards/NNS-25,various/JJ-22)
+				amod(awards/NNS-25,other/JJ-23)
+				nn(awards/NNS-25,service/NN-24)
+				dep(Legion/NNP-1,awards/NNS-25)
+				conj_and(Medal/NN-20,awards/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Defense Meritorious Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Defense_Meritorious_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Meritorious Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy Commendation Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy Achievement Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Achievement_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>various other service awards</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Defense_Meritorious_Service_Medal http://dbpedia.org/property/lower http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States) http://dbpedia.org/property/higher http://dbpedia.org/resource/Defense_Meritorious_Service_Medal
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated with Distinction, U.S. Naval Postgraduate School; Admiral William Adger Moffett Aeronautics Award, U.S. Naval Postgraduate School; Distinguished Graduate, U.S. Naval Test Pilot School; Empire Test Pilots School-sponsored award for best final report (DT-IIA), U.S. Naval Test Pilot School.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_with(Graduated/VBN-1,Distinction/NN-3)
+				nn(School/NNP-8,U.S./NNP-5)
+				nn(School/NNP-8,Naval/NNP-6)
+				nn(School/NNP-8,Postgraduate/NNP-7)
+				appos(Distinction/NN-3,School/NNP-8)
+				dep(Distinction/NN-3,Admiral/NN-10)
+				nn(Award/NN-15,William/NNP-11)
+				nn(Award/NN-15,Adger/NNP-12)
+				nn(Award/NN-15,Moffett/NNP-13)
+				nn(Award/NN-15,Aeronautics/NNP-14)
+				dep(Admiral/NN-10,Award/NN-15)
+				nn(School/NNP-20,U.S./NNP-17)
+				nn(School/NNP-20,Naval/NNP-18)
+				nn(School/NNP-20,Postgraduate/NNP-19)
+				appos(Award/NN-15,School/NNP-20)
+				nn(Graduate/NNP-23,Distinguished/NNP-22)
+				dep(Distinction/NN-3,Graduate/NNP-23)
+				nn(School/NNP-29,U.S./NNP-25)
+				nn(School/NNP-29,Naval/NNP-26)
+				nn(School/NNP-29,Test/NNP-27)
+				nn(School/NNP-29,Pilot/NN-28)
+				appos(Graduate/NNP-23,School/NNP-29)
+				nn(award/NN-35,Empire/NNP-31)
+				nn(award/NN-35,Test/NNP-32)
+				nn(award/NN-35,Pilots/NNP-33)
+				amod(award/NN-35,School-sponsored/JJ-34)
+				dep(Distinction/NN-3,award/NN-35)
+				amod(report/NN-39,best/JJS-37)
+				amod(report/NN-39,final/JJ-38)
+				prep_for(award/NN-35,report/NN-39)
+				appos(report/NN-39,DT-IIA/NN-41)
+				nn(School/NNP-48,U.S./NNP-44)
+				nn(School/NNP-48,Naval/NNP-45)
+				nn(School/NNP-48,Test/NNP-46)
+				nn(School/NNP-48,Pilot/NN-47)
+				appos(Distinction/NN-3,School/NNP-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Foreman was designated a Naval Aviator in January 1981 and assigned to Patrol Squadron 23 (VP-23) at NAS Brunswick, Maine.	</value>
+
+		<annotated-sentence>	Foreman was designated [[a Naval Aviator|United_States_Naval_Aviator]] in [[January 1981|January_1981]] and assigned to [[Patrol Squadron|Patrol_Squadron]] 23 ([[VP-23|VP-23]]) at [[NAS Brunswick|Naval_Air_Station_Brunswick]], [[Maine|Maine]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Foreman was designated a Naval Aviator in January 1981 and assigned to Patrol Squadron 23 (VP-23) at NAS Brunswick, Maine.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(designated/VBN-3,Foreman/NN-1)
+				nsubjpass(assigned/VBN-11,Foreman/NN-1)
+				auxpass(designated/VBN-3,was/VBD-2)
+				det(Aviator/NNP-6,a/DT-4)
+				nn(Aviator/NNP-6,Naval/NNP-5)
+				dobj(designated/VBN-3,Aviator/NNP-6)
+				prep_in(Aviator/NNP-6,January/NNP-8)
+				num(January/NNP-8,1981/CD-9)
+				conj_and(designated/VBN-3,assigned/VBN-11)
+				nn(Squadron/NNP-14,Patrol/NNP-13)
+				prep_to(assigned/VBN-11,Squadron/NNP-14)
+				num(VP-23/NN-17,23/CD-15)
+				dobj(designated/VBN-3,VP-23/NN-17)
+				nn(Brunswick/NNP-21,NAS/NNP-20)
+				prep_at(VP-23/NN-17,Brunswick/NNP-21)
+				appos(Brunswick/NNP-21,Maine/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Naval Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Patrol Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patrol_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VP-23</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VP-23</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NAS Brunswick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_Brunswick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Maine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maine</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He made deployments to Rota, Spain; Lajes, Azores; Bermuda and Panama.	</value>
+
+		<annotated-sentence>	He made deployments to [[Rota , Spain|Rota,_C%C3%A1diz]] Lajes, Azores; [[Bermuda|Bermuda]] and [[Panama|Panama_City]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He made deployments to Rota, Spain; Lajes, Azores; Bermuda and Panama.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,He/PRP-1)
+				dobj(made/VBD-2,deployments/NNS-3)
+				nn(Spain/NNP-7,Rota/NNP-5)
+				prep_to(made/VBD-2,Spain/NNP-7)
+				nn(Azores/NNP-11,Lajes/NNP-9)
+				prep_to(made/VBD-2,Azores/NNP-11)
+				conj_and(Spain/NNP-7,Azores/NNP-11)
+				prep_to(made/VBD-2,Bermuda/NNP-13)
+				conj_and(Spain/NNP-7,Bermuda/NNP-13)
+				prep_to(made/VBD-2,Panama/NNP-15)
+				conj_and(Spain/NNP-7,Panama/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rota , Spain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rota,_C%C3%A1diz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bermuda</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bermuda</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Panama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Panama_City</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following this tour he attended the U.S. Naval Postgraduate School in Monterey, California where he earned a Master of Science degree in Aeronautical Engineering in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(tour/NN-3,this/DT-2)
+				prep_following(attended/VBD-5,tour/NN-3)
+				nsubj(attended/VBD-5,he/PRP-4)
+				det(School/NNP-10,the/DT-6)
+				nn(School/NNP-10,U.S./NNP-7)
+				nn(School/NNP-10,Naval/NNP-8)
+				nn(School/NNP-10,Postgraduate/NNP-9)
+				dobj(attended/VBD-5,School/NNP-10)
+				nn(California/NNP-14,Monterey/NNP-12)
+				prep_in(attended/VBD-5,California/NNP-14)
+				advmod(earned/VBD-17,where/WRB-15)
+				nsubj(earned/VBD-17,he/PRP-16)
+				advcl(attended/VBD-5,earned/VBD-17)
+				det(Master/NN-19,a/DT-18)
+				dobj(earned/VBD-17,Master/NN-19)
+				nn(degree/NN-22,Science/NNP-21)
+				prep_of(Master/NN-19,degree/NN-22)
+				nn(Engineering/NNP-25,Aeronautical/NNP-24)
+				prep_in(earned/VBD-17,Engineering/NNP-25)
+				prep_in(Engineering/NNP-25,1986/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a graduate student, Foreman conducted thesis research at the NASA Ames Research Center at Moffett Field, California.	</value>
+
+		<annotated-sentence>	As a graduate student, Foreman conducted [[thesis|Thesis]] [[research|Research]] at [[the NASA Ames Research Center|Ames_Research_Center]] at [[Moffett Field|Moffett_Federal_Airfield]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As a graduate student, Foreman conducted thesis research at the NASA Ames Research Center at [[Moffett Field|Moffett_Federal_Airfield]], [[California|California]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(student/NN-4,a/DT-2)
+				amod(student/NN-4,graduate/JJ-3)
+				prep_as(conducted/VBN-7,student/NN-4)
+				nsubj(conducted/VBN-7,Foreman/NN-6)
+				nn(research/NN-9,thesis/NN-8)
+				dobj(conducted/VBN-7,research/NN-9)
+				det(Center/NNP-15,the/DT-11)
+				nn(Center/NNP-15,NASA/NNP-12)
+				nn(Center/NNP-15,Ames/NNP-13)
+				nn(Center/NNP-15,Research/NNP-14)
+				prep_at(conducted/VBN-7,Center/NNP-15)
+				nn(Field/NNP-18,Moffett/NNP-17)
+				prep_at(conducted/VBN-7,Field/NNP-18)
+				appos(Field/NNP-18,California/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>thesis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Thesis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Ames Research Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ames_Research_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moffett Field</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moffett_Federal_Airfield</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Moffett_Federal_Airfield http://dbpedia.org/ontology/location http://dbpedia.org/resource/California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following graduation he was assigned as the Assistant Air Operations Officer in USS Coral Sea (CV-43) homeported in Norfolk, Virginia.	</value>
+
+		<annotated-sentence>	Following [[graduation|Graduation]] he was assigned as the Assistant Air [[Operations Officer|Operations_(military_staff)]] in [[USS Coral Sea|USS_Coral_Sea]] ([[CV-43|USS_Coral_Sea_(CV-43)]]) homeported in Norfolk, Virginia.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following graduation he was assigned as the Assistant Air Operations Officer in USS Coral Sea (CV-43) homeported in Norfolk, Virginia.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(assigned/VBN-5,graduation/NN-2)
+				nsubjpass(assigned/VBN-5,he/PRP-3)
+				auxpass(assigned/VBN-5,was/VBD-4)
+				det(Officer/NNP-11,the/DT-7)
+				nn(Officer/NNP-11,Assistant/NNP-8)
+				nn(Officer/NNP-11,Air/NNP-9)
+				nn(Officer/NNP-11,Operations/NNP-10)
+				prep_as(assigned/VBN-5,Officer/NNP-11)
+				nn(Sea/NNP-15,USS/NNP-13)
+				nn(Sea/NNP-15,Coral/NNP-14)
+				prep_in(assigned/VBN-5,Sea/NNP-15)
+				appos(Sea/NNP-15,CV-43/NN-17)
+				partmod(Sea/NNP-15,homeported/VBN-19)
+				nn(Virginia/NNP-23,Norfolk/NNP-21)
+				prep_in(homeported/VBN-19,Virginia/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Coral Sea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Coral_Sea</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CV-43</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Coral_Sea_(CV-43)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to his Air Operations duties, he flew as an E-2 Hawkeye pilot with VAW-120 and VAW-127.	</value>
+
+		<annotated-sentence>	In [[addition|Addition]] to his Air Operations [[duties|Duty]], he flew as an [[E-2 Hawkeye|Northrop_Grumman_E-2_Hawkeye]] pilot with [[VAW-120 and VAW-127|VAW-127]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In addition to his Air Operations duties, he flew as an E-2 Hawkeye pilot with VAW-120 and VAW-127.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(duties/NNS-7,his/PRP$-4)
+				nn(duties/NNS-7,Air/NNP-5)
+				nn(duties/NNS-7,Operations/NNP-6)
+				prep_in_addition_to(flew/VBD-10,duties/NNS-7)
+				nsubj(flew/VBD-10,he/PRP-9)
+				det(pilot/NN-15,an/DT-12)
+				nn(pilot/NN-15,E-2/NN-13)
+				nn(pilot/NN-15,Hawkeye/NN-14)
+				prep_as(flew/VBD-10,pilot/NN-15)
+				prep_with(flew/VBD-10,VAW-120/NN-17)
+				prep_with(flew/VBD-10,VAW-127/NN-19)
+				conj_and(VAW-120/NN-17,VAW-127/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>addition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Addition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>E-2 Hawkeye</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_Grumman_E-2_Hawkeye</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VAW-120 and VAW-127</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VAW-127</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon selection to the U.S. Naval Test Pilot School in 1989, he moved to NAS Patuxent River, Maryland.	</value>
+
+		<annotated-sentence>	Upon [[selection|Selection]] to [[the U.S. Naval Test Pilot School|United_States_Naval_Test_Pilot_School]] in [[1989|1989]], he moved to [[NAS Patuxent River|Naval_Air_Station_Patuxent_River]], [[Maryland|Maryland]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon selection to [[the U.S. Naval Test Pilot School|United_States_Naval_Test_Pilot_School]] in 1989, he moved to [[NAS Patuxent River|Naval_Air_Station_Patuxent_River]], [[Maryland|Maryland]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_upon(moved/VBD-14,selection/NN-2)
+				det(School/NNP-9,the/DT-4)
+				nn(School/NNP-9,U.S./NNP-5)
+				nn(School/NNP-9,Naval/NNP-6)
+				nn(School/NNP-9,Test/NNP-7)
+				nn(School/NNP-9,Pilot/NN-8)
+				prep_to(selection/NN-2,School/NNP-9)
+				prep_in(School/NNP-9,1989/CD-11)
+				nsubj(moved/VBD-14,he/PRP-13)
+				nn(River/NNP-18,NAS/NNP-16)
+				nn(River/NNP-18,Patuxent/NNP-17)
+				prep_to(moved/VBD-14,River/NNP-18)
+				appos(River/NNP-18,Maryland/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NAS Patuxent River</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Maryland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maryland</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_Naval_Test_Pilot_School http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River http://dbpedia.org/ontology/location http://dbpedia.org/resource/Maryland
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated in June 1990 and was assigned to the Force Warfare Aircraft Test Directorate.	</value>
+
+		<annotated-sentence>	He graduated in [[June 1990|1990]] and was assigned to the Force Warfare [[Aircraft|Aircraft]] Test Directorate.	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated in June 1990 and was assigned to the Force Warfare Aircraft Test Directorate.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubjpass(assigned/VBN-8,He/PRP-1)
+				prep_in(graduated/VBD-2,June/NNP-4)
+				num(June/NNP-4,1990/CD-5)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				conj_and(graduated/VBD-2,assigned/VBN-8)
+				det(Directorate/NNP-15,the/DT-10)
+				nn(Directorate/NNP-15,Force/NNP-11)
+				nn(Directorate/NNP-15,Warfare/NNP-12)
+				nn(Directorate/NNP-15,Aircraft/NNP-13)
+				nn(Directorate/NNP-15,Test/NNP-14)
+				prep_to(assigned/VBN-8,Directorate/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1991 he was reassigned as a flight instructor and the Operations Officer at U.S. Naval Test Pilot School.	</value>
+
+		<annotated-sentence>	In [[1991|1991]] he was reassigned as [[a flight instructor|Flight_instructor]] and [[the Operations Officer|Operations_(military_staff)]] at [[U.S. Naval Test Pilot School|United_States_Naval_Test_Pilot_School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1991 he was reassigned as a flight instructor and the Operations Officer at U.S. Naval Test Pilot School.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-5,1991/CD-2)
+				nsubjpass(reassigned/VBN-5,he/PRP-3)
+				auxpass(reassigned/VBN-5,was/VBD-4)
+				det(instructor/NN-9,a/DT-7)
+				nn(instructor/NN-9,flight/NN-8)
+				prep_as(reassigned/VBN-5,instructor/NN-9)
+				det(Officer/NNP-13,the/DT-11)
+				nn(Officer/NNP-13,Operations/NNP-12)
+				prep_as(reassigned/VBN-5,Officer/NNP-13)
+				conj_and(instructor/NN-9,Officer/NNP-13)
+				nn(School/NNP-19,U.S./NNP-15)
+				nn(School/NNP-19,Naval/NNP-16)
+				nn(School/NNP-19,Test/NNP-17)
+				nn(School/NNP-19,Pilot/NN-18)
+				prep_at(reassigned/VBN-5,School/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a flight instructor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_instructor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S. Naval Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his tenure there he instructed in the F/A-18, P-3 Orion, T-2, T-38 Talon, U-21, DHC-2 and the X-26 Frigate glider.	</value>
+
+		<annotated-sentence>	During [[his tenure|Tenure]] there he instructed in the F/A-18, [[P-3 Orion|Lockheed_P-3_Orion]], T-2, [[T-38 Talon|Northrop_T-38_Talon]], U-21, [[DHC-2|De_Havilland_Canada_DHC-2_Beaver]] and the [[X-26 Frigate|Schweizer_X-26_Frigate]] glider.	</annotated-sentence>
+
+		<pattern_crowdsource>	During his tenure there he instructed in the F/A-18, P-3 Orion, T-2, T-38 Talon, U-21, DHC-2 and the X-26 Frigate glider.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(tenure/NN-3,his/PRP$-2)
+				prep_during(instructed/VBD-6,tenure/NN-3)
+				tmod(instructed/VBD-6,there/RB-4)
+				nsubj(instructed/VBD-6,he/PRP-5)
+				det(F/A/NN-9,the/DT-8)
+				prep_in(instructed/VBD-6,F/A/NN-9)
+				num(F/A/NN-9,-18/CD-10)
+				nn(Orion/NNP-13,P-3/NN-12)
+				prep_in(instructed/VBD-6,Orion/NNP-13)
+				conj_and(F/A/NN-9,Orion/NNP-13)
+				prep_in(instructed/VBD-6,T-2/NN-15)
+				conj_and(F/A/NN-9,T-2/NN-15)
+				nn(Talon/NNP-18,T-38/NNP-17)
+				prep_in(instructed/VBD-6,Talon/NNP-18)
+				conj_and(F/A/NN-9,Talon/NNP-18)
+				prep_in(instructed/VBD-6,U-21/NN-20)
+				conj_and(F/A/NN-9,U-21/NN-20)
+				prep_in(instructed/VBD-6,DHC-2/NN-22)
+				conj_and(F/A/NN-9,DHC-2/NN-22)
+				det(glider/NN-27,the/DT-24)
+				nn(glider/NN-27,X-26/NNP-25)
+				nn(glider/NN-27,Frigate/NNP-26)
+				prep_in(instructed/VBD-6,glider/NN-27)
+				conj_and(F/A/NN-9,glider/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his tenure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tenure</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>P-3 Orion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lockheed_P-3_Orion</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>T-38 Talon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_T-38_Talon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DHC-2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/De_Havilland_Canada_DHC-2_Beaver</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>X-26 Frigate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Schweizer_X-26_Frigate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1993, Foreman was assigned to the Naval Air Systems Command in Crystal City, Virginia, first as the deputy, and then as the Class Desk (Chief Engineer) Officer for the T-45 Goshawk aircraft program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,1993/CD-2)
+				nsubjpass(assigned/VBN-6,Foreman/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(Command/NN-12,the/DT-8)
+				nn(Command/NN-12,Naval/NNP-9)
+				nn(Command/NN-12,Air/NNP-10)
+				nn(Command/NN-12,Systems/NNPS-11)
+				prep_to(assigned/VBN-6,Command/NN-12)
+				nn(City/NNP-15,Crystal/NNP-14)
+				prep_in(Command/NN-12,City/NNP-15)
+				appos(City/NNP-15,Virginia/NNP-17)
+				advmod(assigned/VBN-6,first/RB-19)
+				det(deputy/NN-22,the/DT-21)
+				prep_as(assigned/VBN-6,deputy/NN-22)
+				conj(assigned/VBN-6,then/RB-25)
+				det(program/NN-40,the/DT-27)
+				nn(Officer/NNP-34,Class/NNP-28)
+				nn(Officer/NNP-34,Desk/NNP-29)
+				nn(Engineer/NNP-32,Chief/NNP-31)
+				appos(Officer/NNP-34,Engineer/NNP-32)
+				nn(program/NN-40,Officer/NNP-34)
+				det(aircraft/NN-39,the/DT-36)
+				nn(aircraft/NN-39,T-45/NNP-37)
+				nn(aircraft/NN-39,Goshawk/NNP-38)
+				prep_for(Officer/NNP-34,aircraft/NN-39)
+				prep_as(assigned/VBN-6,program/NN-40)
+				conj_and(deputy/NN-22,program/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following that tour he returned to NAS Patuxent River, this time as the Military Director for the Research and Engineering Group of the Naval Air Warfare Center Aircraft Division.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(tour/NN-3,that/DT-2)
+				prep_following(returned/VBD-5,tour/NN-3)
+				nsubj(returned/VBD-5,he/PRP-4)
+				nn(River/NNP-9,NAS/NNP-7)
+				nn(River/NNP-9,Patuxent/NNP-8)
+				prep_to(returned/VBD-5,River/NNP-9)
+				det(time/NN-12,this/DT-11)
+				appos(River/NNP-9,time/NN-12)
+				det(Director/NNP-16,the/DT-14)
+				nn(Director/NNP-16,Military/NNP-15)
+				prep_as(returned/VBD-5,Director/NNP-16)
+				det(Group/NNP-22,the/DT-18)
+				nn(Group/NNP-22,Research/NNP-19)
+				conj_and(Research/NNP-19,Engineering/NNP-21)
+				nn(Group/NNP-22,Engineering/NNP-21)
+				prep_for(Director/NNP-16,Group/NNP-22)
+				det(Division/NNP-30,the/DT-24)
+				nn(Division/NNP-30,Naval/NNP-25)
+				nn(Division/NNP-30,Air/NNP-26)
+				nn(Division/NNP-30,Warfare/NNP-27)
+				nn(Division/NNP-30,Center/NNP-28)
+				nn(Division/NNP-30,Aircraft/NNP-29)
+				prep_of(Director/NNP-16,Division/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition to his duties at Patuxent River, he was assigned as the Navy liaison to NASA’s Advanced Orbiter Cockpit Project at the Johnson Space Center in Houston, Texas.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(duties/NNS-5,his/PRP$-4)
+				prep_in_addition_to(assigned/VBN-12,duties/NNS-5)
+				nn(River/NNP-8,Patuxent/NNP-7)
+				prep_at(duties/NNS-5,River/NNP-8)
+				nsubjpass(assigned/VBN-12,he/PRP-10)
+				auxpass(assigned/VBN-12,was/VBD-11)
+				det(liaison/NN-16,the/DT-14)
+				nn(liaison/NN-16,Navy/NNP-15)
+				prep_as(assigned/VBN-12,liaison/NN-16)
+				poss(Project/NNP-23,NASA/NNP-18)
+				nn(Project/NNP-23,Advanced/NNP-20)
+				nn(Project/NNP-23,Orbiter/NNP-21)
+				nn(Project/NNP-23,Cockpit/NNP-22)
+				prep_to(assigned/VBN-12,Project/NNP-23)
+				det(Center/NNP-28,the/DT-25)
+				nn(Center/NNP-28,Johnson/NNP-26)
+				nn(Center/NNP-28,Space/NNP-27)
+				prep_at(assigned/VBN-12,Center/NNP-28)
+				nn(Texas/NNP-32,Houston/NNP-30)
+				prep_in(Center/NNP-28,Texas/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Foreman was working as the technical lead for the Advanced Orbiter Cockpit Project team when he was selected for the astronaut program.	</value>
+
+		<annotated-sentence>	Foreman was working as [[the technical lead|Lead_programmer]] for the [[Advanced|Relative_articulation]] [[Orbiter|Orbiter]] [[Cockpit|Cockpit]] [[Project team|Project_team]] when he was selected for [[the astronaut program|Human_spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Foreman was working as the technical lead for the Advanced Orbiter Cockpit Project team when he was selected for the astronaut program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-3,Foreman/NN-1)
+				aux(working/VBG-3,was/VBD-2)
+				det(lead/NN-7,the/DT-5)
+				amod(lead/NN-7,technical/JJ-6)
+				prep_as(working/VBG-3,lead/NN-7)
+				det(team/NN-14,the/DT-9)
+				nn(team/NN-14,Advanced/NNP-10)
+				nn(team/NN-14,Orbiter/NNP-11)
+				nn(team/NN-14,Cockpit/NNP-12)
+				nn(team/NN-14,Project/NNP-13)
+				prep_for(lead/NN-7,team/NN-14)
+				advmod(selected/VBN-18,when/WRB-15)
+				nsubjpass(selected/VBN-18,he/PRP-16)
+				auxpass(selected/VBN-18,was/VBD-17)
+				advcl(working/VBG-3,selected/VBN-18)
+				det(program/NN-22,the/DT-20)
+				nn(program/NN-22,astronaut/NN-21)
+				prep_for(selected/VBN-18,program/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the technical lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead_programmer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orbiter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cockpit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cockpit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Project team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Project_team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the astronaut program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 5,000 hours in more than 50 different aircraft.	</value>
+
+		<annotated-sentence>	He has logged over [[5,000|5,000,000]] [[hours|Hour]] in more than 50 different [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 5,000 hours in more than 50 different aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,5,000/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				mwe(than/IN-9,more/JJR-8)
+				quantmod(50/CD-10,than/IN-9)
+				num(aircraft/NN-12,50/CD-10)
+				amod(aircraft/NN-12,different/JJ-11)
+				prep_in(hours/NNS-6,aircraft/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in June 1998, he reported for training in August 1998.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[June 1998|1998]], he reported for [[training|Training]] in [[August 1998|1998]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in June 1998, he reported for training in August 1998.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-9,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,June/NNP-5)
+				num(June/NNP-5,1998/CD-6)
+				nsubj(reported/VBD-9,he/PRP-8)
+				prep_for(reported/VBD-9,training/NN-11)
+				prep_in(reported/VBD-9,August/NNP-13)
+				num(August/NNP-13,1998/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_Foreman_(astronaut) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Astronaut Candidate Training included orientation briefings and tours, numerous scientific and technical briefings, intensive instruction in Space Shuttle and International Space Station systems, physiological training and ground school to prepare for T-38 flight training, as well as learning water and wilderness survival techniques.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Training/NN-3,Astronaut/NN-1)
+				nn(Training/NN-3,Candidate/NN-2)
+				nsubj(included/VBD-4,Training/NN-3)
+				nn(briefings/NNS-6,orientation/NN-5)
+				dobj(included/VBD-4,briefings/NNS-6)
+				dobj(included/VBD-4,tours/NNS-8)
+				conj_and(briefings/NNS-6,tours/NNS-8)
+				amod(briefings/NNS-14,numerous/JJ-10)
+				amod(briefings/NNS-14,scientific/JJ-11)
+				conj_and(scientific/JJ-11,technical/JJ-13)
+				amod(briefings/NNS-14,technical/JJ-13)
+				appos(briefings/NNS-6,briefings/NNS-14)
+				amod(instruction/NN-17,intensive/JJ-16)
+				appos(briefings/NNS-6,instruction/NN-17)
+				prep_in(included/VBD-4,Space/NN-19)
+				nn(systems/NNS-25,Shuttle/NNP-20)
+				conj_and(Shuttle/NNP-20,International/NNP-22)
+				nn(systems/NNS-25,International/NNP-22)
+				nn(systems/NNS-25,Space/NNP-23)
+				nn(systems/NNS-25,Station/NNP-24)
+				nsubj(school/NN-31,systems/NNS-25)
+				amod(training/NN-28,physiological/JJ-27)
+				conj_and(systems/NNS-25,training/NN-28)
+				nsubj(school/NN-31,training/NN-28)
+				conj_and(systems/NNS-25,ground/NN-30)
+				nsubj(school/NN-31,ground/NN-30)
+				rcmod(Space/NN-19,school/NN-31)
+				aux(prepare/VB-33,to/TO-32)
+				xcomp(school/NN-31,prepare/VB-33)
+				amod(training/NN-37,T-38/JJ-35)
+				nn(training/NN-37,flight/NN-36)
+				prep_for(prepare/VB-33,training/NN-37)
+				prep_in(included/VBD-4,learning/VBG-42)
+				conj_and(Space/NN-19,learning/VBG-42)
+				nn(techniques/NNS-47,water/NN-43)
+				conj_and(water/NN-43,wilderness/NN-45)
+				nn(techniques/NNS-47,wilderness/NN-45)
+				nn(techniques/NNS-47,survival/NN-46)
+				dobj(learning/VBG-42,techniques/NNS-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was initially assigned technical duties in the Astronaut Office Space Station Branch where he represented the Astronaut Office on training issues.	</value>
+
+		<annotated-sentence>	He was initially assigned technical [[duties|Duty]] in the [[Astronaut Office|NASA_Astronaut_Corps]] [[Space Station|SpaceStation]] Branch where he represented [[the Astronaut Office|NASA_Astronaut_Corps]] on [[training|Training]] issues.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was initially assigned technical duties in the Astronaut Office Space Station Branch where he represented the Astronaut Office on training issues.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,initially/RB-3)
+				amod(duties/NNS-6,technical/JJ-5)
+				dobj(assigned/VBN-4,duties/NNS-6)
+				det(Branch/NNP-13,the/DT-8)
+				nn(Branch/NNP-13,Astronaut/NNP-9)
+				nn(Branch/NNP-13,Office/NNP-10)
+				nn(Branch/NNP-13,Space/NNP-11)
+				nn(Branch/NNP-13,Station/NNP-12)
+				prep_in(assigned/VBN-4,Branch/NNP-13)
+				advmod(represented/VBD-16,where/WRB-14)
+				nsubj(represented/VBD-16,he/PRP-15)
+				advcl(assigned/VBN-4,represented/VBD-16)
+				det(Office/NNP-19,the/DT-17)
+				nn(Office/NNP-19,Astronaut/NNP-18)
+				dobj(represented/VBD-16,Office/NNP-19)
+				nn(issues/NNS-22,training/NN-21)
+				prep_on(represented/VBD-16,issues/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was then assigned to the Space Shuttle Branch as a liaison between the Johnson Space Center and the Kennedy Space Center, and also served as the Deputy, Space Shuttle Branch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				nsubjpass(served/VBD-26,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,then/RB-3)
+				det(Branch/NNP-9,the/DT-6)
+				nn(Branch/NNP-9,Space/NN-7)
+				nn(Branch/NNP-9,Shuttle/NNP-8)
+				prep_to(assigned/VBN-4,Branch/NNP-9)
+				det(liaison/NN-12,a/DT-11)
+				prep_as(assigned/VBN-4,liaison/NN-12)
+				det(Center/NNP-17,the/DT-14)
+				nn(Center/NNP-17,Johnson/NNP-15)
+				nn(Center/NNP-17,Space/NNP-16)
+				prep_between(liaison/NN-12,Center/NNP-17)
+				det(Center/NNP-22,the/DT-19)
+				nn(Center/NNP-22,Kennedy/NNP-20)
+				nn(Center/NNP-22,Space/NNP-21)
+				prep_between(liaison/NN-12,Center/NNP-22)
+				conj_and(Center/NNP-17,Center/NNP-22)
+				advmod(served/VBD-26,also/RB-25)
+				conj_and(assigned/VBN-4,served/VBD-26)
+				det(Deputy/NNP-29,the/DT-28)
+				prep_as(served/VBD-26,Deputy/NNP-29)
+				nn(Branch/NNP-33,Space/NNP-31)
+				nn(Branch/NNP-33,Shuttle/NNP-32)
+				appos(Deputy/NNP-29,Branch/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Foreman was part of the STS-123 mission that delivered the Japanese Experiment Module and the Canadian Special Purpose Dexterous Manipulator to the International Space Station.	</value>
+
+		<annotated-sentence>	Foreman was [[part|John_Part]] of the [[STS-123|STS-123]] mission that delivered [[the Japanese Experiment Module|Japanese_Experiment_Module]] and the [[Canadian|Canada]] [[Special Purpose|The_Special_Purpose]] [[Dexterous|Fine_motor_skill]] [[Manipulator|Manipulator]] to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Foreman was [[part|John_Part]] of the [[STS-123|STS-123]] mission that delivered the Japanese Experiment Module and the [[Canadian|Canada]] Special Purpose Dexterous Manipulator to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(part/NN-3,Foreman/NN-1)
+				cop(part/NN-3,was/VBD-2)
+				det(mission/NN-7,the/DT-5)
+				nn(mission/NN-7,STS-123/NN-6)
+				prep_of(part/NN-3,mission/NN-7)
+				nsubj(delivered/VBD-9,that/WDT-8)
+				rcmod(part/NN-3,delivered/VBD-9)
+				det(Module/NN-13,the/DT-10)
+				amod(Module/NN-13,Japanese/JJ-11)
+				nn(Module/NN-13,Experiment/NN-12)
+				iobj(delivered/VBD-9,Module/NN-13)
+				det(Purpose/NN-18,the/DT-15)
+				amod(Purpose/NN-18,Canadian/JJ-16)
+				amod(Purpose/NN-18,Special/JJ-17)
+				iobj(delivered/VBD-9,Purpose/NN-18)
+				conj_and(Module/NN-13,Purpose/NN-18)
+				amod(Manipulator/NN-20,Dexterous/JJ-19)
+				dobj(delivered/VBD-9,Manipulator/NN-20)
+				det(Station/NNP-25,the/DT-22)
+				nn(Station/NNP-25,International/NNP-23)
+				nn(Station/NNP-25,Space/NNP-24)
+				prep_to(Manipulator/NN-20,Station/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Part</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Japanese Experiment Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japanese_Experiment_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Canadian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canada</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Special Purpose</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Special_Purpose</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dexterous</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fine_motor_skill</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Manipulator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manipulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Part http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Canada
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Part http://dbpedia.org/ontology/country http://dbpedia.org/resource/Canada
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_Foreman_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Michael_Foreman_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_Foreman_(astronaut)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Foreman was also a crewmember of the STS-129 mission in November 2009.	</value>
+
+		<annotated-sentence>	Foreman was also [[a crewmember|Crewman]] of the [[STS-129|STS-129]] mission in [[November 2009|November_2009]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Foreman was also a crewmember of the [[STS-129|STS-129]] mission in November 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(crewmember/NN-5,Foreman/NN-1)
+				cop(crewmember/NN-5,was/VBD-2)
+				advmod(crewmember/NN-5,also/RB-3)
+				det(crewmember/NN-5,a/DT-4)
+				det(mission/NN-9,the/DT-7)
+				nn(mission/NN-9,STS-129/NN-8)
+				prep_of(crewmember/NN-5,mission/NN-9)
+				prep_in(mission/NN-9,November/NNP-11)
+				num(November/NNP-11,2009/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a crewmember</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-129</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-129</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2009</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_Foreman_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-129
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-129 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Michael_Foreman_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-129 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_Foreman_(astronaut)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates text in the public domain from the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[text|TEXT]] in [[the public domain|Public_domain]] from the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates text in the public domain from the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				dobj(incorporates/VBZ-3,text/NN-4)
+				det(domain/NN-8,the/DT-6)
+				amod(domain/NN-8,public/JJ-7)
+				prep_in(incorporates/VBZ-3,domain/NN-8)
+				det(Aeronautics/NNP-12,the/DT-10)
+				nn(Aeronautics/NNP-12,National/NNP-11)
+				prep_from(domain/NN-8,Aeronautics/NNP-12)
+				nn(Administration/NNP-15,Space/NNP-14)
+				prep_from(domain/NN-8,Administration/NNP-15)
+				conj_and(Aeronautics/NNP-12,Administration/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>text</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/TEXT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

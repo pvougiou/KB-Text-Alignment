@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Klaus-Dietrich Flade (born August 23, 1952) is a German pilot and former German Aerospace Center astronaut who visited the Mir space station in 1992 aboard the Soyuz TM-14 mission, returning to Earth a week later aboard Soyuz TM-13.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Flade/NN-2,Klaus-Dietrich/JJ-1)
+				nsubj(pilot/NN-13,Flade/NN-2)
+				dep(Flade/NN-2,born/VBN-4)
+				tmod(born/VBN-4,August/NNP-5)
+				num(August/NNP-5,23/CD-6)
+				num(August/NNP-5,1952/CD-8)
+				cop(pilot/NN-13,is/VBZ-10)
+				det(pilot/NN-13,a/DT-11)
+				amod(pilot/NN-13,German/JJ-12)
+				amod(astronaut/NN-19,former/JJ-15)
+				nn(astronaut/NN-19,German/NNP-16)
+				nn(astronaut/NN-19,Aerospace/NNP-17)
+				nn(astronaut/NN-19,Center/NNP-18)
+				conj_and(pilot/NN-13,astronaut/NN-19)
+				nsubj(visited/VBD-21,who/WP-20)
+				rcmod(pilot/NN-13,visited/VBD-21)
+				det(station/NN-25,the/DT-22)
+				nn(station/NN-25,Mir/NNS-23)
+				nn(station/NN-25,space/NN-24)
+				dobj(visited/VBD-21,station/NN-25)
+				prep_in(visited/VBD-21,1992/CD-27)
+				det(mission/NN-32,the/DT-29)
+				nn(mission/NN-32,Soyuz/NNP-30)
+				nn(mission/NN-32,TM-14/NN-31)
+				prep_aboard(visited/VBD-21,mission/NN-32)
+				partmod(visited/VBD-21,returning/VBG-34)
+				prep_to(returning/VBG-34,Earth/NNP-36)
+				det(week/NN-38,a/DT-37)
+				tmod(returning/VBG-34,week/NN-38)
+				advmod(week/NN-38,later/RB-39)
+				nn(TM-13/NNP-42,Soyuz/NNP-41)
+				prep_aboard(returning/VBG-34,TM-13/NNP-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Büdesheim, Germany, he joined the German Air Force after school.	</value>
+
+		<annotated-sentence>	Born in [[Büdesheim , Germany|B%C3%BCdesheim]] he joined [[the German Air Force|German_Air_Force]] after [[school|School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in Büdesheim, Germany, he joined [[the German Air Force|German_Air_Force]] after school.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(joined/VBD-8,Born/VBN-1)
+				nn(Germany/NNP-5,Büdesheim/NNP-3)
+				prep_in(Born/VBN-1,Germany/NNP-5)
+				nsubj(joined/VBD-8,he/PRP-7)
+				det(Force/NNP-12,the/DT-9)
+				nn(Force/NNP-12,German/NNP-10)
+				nn(Force/NNP-12,Air/NNP-11)
+				dobj(joined/VBD-8,Force/NNP-12)
+				prep_after(joined/VBD-8,school/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Büdesheim , Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/B%C3%BCdesheim</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/B%C3%BCdesheim
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/property/rank http://dbpedia.org/resource/German_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Educated initially as an airplane engineer, he studied aerospace engineering at Bundeswehr University Munich from 1976 to 1980.	</value>
+
+		<annotated-sentence>	Educated initially as an [[airplane|Airplane]] [[engineer|Engineer]], he studied [[aerospace engineering|Aerospace_engineering]] at [[Bundeswehr University Munich|Bundeswehr_University_Munich]] from [[1976|1976]] to [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Educated initially as an airplane engineer, he studied aerospace engineering at Bundeswehr University Munich from 1976 to 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(studied/VBD-9,Educated/VBN-1)
+				advmod(Educated/VBN-1,initially/RB-2)
+				det(engineer/NN-6,an/DT-4)
+				nn(engineer/NN-6,airplane/NN-5)
+				prep_as(Educated/VBN-1,engineer/NN-6)
+				nsubj(studied/VBD-9,he/PRP-8)
+				nn(engineering/NN-11,aerospace/NN-10)
+				dobj(studied/VBD-9,engineering/NN-11)
+				nn(Munich/NNP-15,Bundeswehr/NNP-13)
+				nn(Munich/NNP-15,University/NNP-14)
+				prep_at(studied/VBD-9,Munich/NNP-15)
+				prep_from(Munich/NNP-15,1976/CD-17)
+				prep_to(studied/VBD-9,1980/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>airplane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airplane</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bundeswehr University Munich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bundeswehr_University_Munich</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Afterwards he became a pilot.	</value>
+
+		<annotated-sentence>	Afterwards he became a pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	Afterwards he became a pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(pilot/NN-5,Afterwards/RB-1)
+				nsubj(pilot/NN-5,he/PRP-2)
+				cop(pilot/NN-5,became/VBD-3)
+				det(pilot/NN-5,a/DT-4)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He trained as a test pilot from 1988 to 1989.	</value>
+
+		<annotated-sentence>	He trained as [[a test pilot|Test_pilot]] from [[1988|1988]] to [[1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He trained as [[a test pilot|Test_pilot]] from 1988 to 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(trained/VBD-2,He/PRP-1)
+				det(pilot/NN-6,a/DT-4)
+				nn(pilot/NN-6,test/NN-5)
+				prep_as(trained/VBD-2,pilot/NN-6)
+				num(1989/CD-10,1988/CD-8)
+				dep(1989/CD-10,to/TO-9)
+				prep_from(trained/VBD-2,1989/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In October 1990, he was selected as part of the German astronaut team for the Euromir '92 flight.	</value>
+
+		<annotated-sentence>	In [[October 1990|1990]], he was selected as part of [[the German astronaut team|German_astronaut_team]] for the [[Euromir|Euromir]] '92 [[flight|Flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In October 1990, he was selected as part of the German astronaut team for the Euromir '92 flight.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,October/NNP-2)
+				num(October/NNP-2,1990/CD-3)
+				nsubjpass(selected/VBN-7,he/PRP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				prep_as(selected/VBN-7,part/NN-9)
+				det(team/NN-14,the/DT-11)
+				amod(team/NN-14,German/JJ-12)
+				nn(team/NN-14,astronaut/NN-13)
+				prep_of(part/NN-9,team/NN-14)
+				det(flight/NN-19,the/DT-16)
+				nn(flight/NN-19,Euromir/NNP-17)
+				num(flight/NN-19,'92/CD-18)
+				prep_for(team/NN-14,flight/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German astronaut team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_astronaut_team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Euromir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Euromir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After two years of training, he flew as a Research Cosmonaut on Soyuz TM-14 in March 1992.	</value>
+
+		<annotated-sentence>	After [[two years|Year]] of [[training|Training]], he flew as a [[Research|Research]] Cosmonaut on [[Soyuz TM-14|Soyuz_TM-14]] in [[March 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After [[two years|Year]] of training, he flew as a Research Cosmonaut on [[Soyuz TM-14|Soyuz_TM-14]] in [[March 1992|1992]].	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-3,two/CD-2)
+				prep_after(flew/VBD-8,years/NNS-3)
+				prep_of(years/NNS-3,training/NN-5)
+				nsubj(flew/VBD-8,he/PRP-7)
+				det(Cosmonaut/NNP-12,a/DT-10)
+				nn(Cosmonaut/NNP-12,Research/NNP-11)
+				prep_as(flew/VBD-8,Cosmonaut/NNP-12)
+				nn(TM-14/NNP-15,Soyuz/NNP-14)
+				prep_on(flew/VBD-8,TM-14/NNP-15)
+				prep_in(TM-14/NNP-15,March/NNP-17)
+				num(March/NNP-17,1992/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1992 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-14 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Klaus-Dietrich_Flade
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his spaceflight, he returned to the German Air Force.	</value>
+
+		<annotated-sentence>	After [[his spaceflight|Spaceflight]], he returned to [[the German Air Force|German_Air_Force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his spaceflight, he returned to [[the German Air Force|German_Air_Force]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,his/PRP$-2)
+				prep_after(returned/VBD-6,spaceflight/NN-3)
+				nsubj(returned/VBD-6,he/PRP-5)
+				det(Force/NNP-11,the/DT-8)
+				nn(Force/NNP-11,German/NNP-9)
+				nn(Force/NNP-11,Air/NNP-10)
+				prep_to(returned/VBD-6,Force/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/property/rank http://dbpedia.org/resource/German_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is now test pilot at Airbus Industrie.	</value>
+
+		<annotated-sentence>	He is now [[test pilot|Test_pilot]] at [[Airbus Industrie|Airbus]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is now [[test pilot|Test_pilot]] at Airbus Industrie.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,He/PRP-1)
+				cop(pilot/NN-5,is/VBZ-2)
+				advmod(pilot/NN-5,now/RB-3)
+				nn(pilot/NN-5,test/NN-4)
+				nn(Industrie/NNP-8,Airbus/NNP-7)
+				prep_at(pilot/NN-5,Industrie/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Airbus Industrie</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airbus</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus-Dietrich_Flade http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

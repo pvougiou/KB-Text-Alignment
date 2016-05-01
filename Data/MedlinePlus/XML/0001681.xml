@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This test may be done to:  - Remove poisons, harmful materials, or excess medicines from the stomach  - Clean the stomach before an upper endoscopy (EGD) if you have been vomiting blood  - Collect stomach acid  - Relieve pressure if you have a blockage in the intestines</value>
+		<pattern_crowdsource> This test may be done to:  - Remove poisons, harmful materials, or excess medicines from the stomach  - Clean the stomach before an upper [[endoscopy|C0014245]] ([[EGD|C0079304]]) if you have been vomiting blood  - Collect stomach acid  - Relieve pressure if you have a blockage in the [[intestines|C0021853]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poisons</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>materials</surface-form>
+				<RDF-ID>C0520510</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>excess</surface-form>
+				<RDF-ID>C0442802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>upper</surface-form>
+				<RDF-ID>C1282910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>endoscopy</surface-form>
+				<RDF-ID>C0014245</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EGD</surface-form>
+				<RDF-ID>C0079304</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach acid</surface-form>
+				<RDF-ID>C0017119</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0079304 ISA C0014245</triple>
+			<triple>C0021853 LOCATION_OF C0014245</triple>
+			<triple>C0021853 LOCATION_OF C0079304</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

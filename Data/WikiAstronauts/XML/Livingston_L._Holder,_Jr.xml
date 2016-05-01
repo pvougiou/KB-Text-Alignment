@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Livingston L. Holder, Jr. (born 29 September 1956) was a USAF astronaut in the Manned Spaceflight Engineer Program during the mid-1980s.	</value>
+
+		<annotated-sentence>	[[Livingston L. Holder|Livingston_L._Holder,_Jr.]], Jr. (born 29 [[September 1956|1956]]) was a [[USAF|United_States_Air_Force]] [[astronaut|Astronaut]] in [[the Manned Spaceflight Engineer Program|Manned_Spaceflight_Engineer_Program]] during the mid-1980s.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Livingston L. Holder|Livingston_L._Holder,_Jr.]], Jr. (born 29 September 1956) was a USAF [[astronaut|Astronaut]] in the Manned Spaceflight Engineer Program during the mid-1980s.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Holder/NNP-3,Livingston/NNP-1)
+				nn(Holder/NNP-3,L./NNP-2)
+				nsubj(astronaut/NN-15,Holder/NNP-3)
+				appos(Holder/NNP-3,Jr./NNP-5)
+				dep(Holder/NNP-3,born/VBN-7)
+				dobj(born/VBN-7,29/CD-8)
+				tmod(born/VBN-7,September/NNP-9)
+				num(September/NNP-9,1956/CD-10)
+				cop(astronaut/NN-15,was/VBD-12)
+				det(astronaut/NN-15,a/DT-13)
+				nn(astronaut/NN-15,USAF/NN-14)
+				det(Program/NNP-21,the/DT-17)
+				nn(Program/NNP-21,Manned/NNP-18)
+				nn(Program/NNP-21,Spaceflight/NNP-19)
+				nn(Program/NNP-21,Engineer/NNP-20)
+				prep_in(astronaut/NN-15,Program/NNP-21)
+				det(mid-1980s/NNS-24,the/DT-23)
+				prep_during(astronaut/NN-15,mid-1980s/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Livingston L. Holder</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Livingston_L._Holder,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1956</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1956</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USAF</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Manned Spaceflight Engineer Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Spaceflight_Engineer_Program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Livingston_L._Holder,_Jr. http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned to fly as a military payload specialist on the Space Shuttle, but could not fly in space due to the Challenger accident in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				nsubj(fly/VB-19,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				aux(fly/VB-5,to/TO-4)
+				xcomp(assigned/VBN-3,fly/VB-5)
+				det(specialist/NN-10,a/DT-7)
+				amod(specialist/NN-10,military/JJ-8)
+				nn(specialist/NN-10,payload/NN-9)
+				prep_as(fly/VB-5,specialist/NN-10)
+				det(Shuttle/NNP-14,the/DT-12)
+				nn(Shuttle/NNP-14,Space/NN-13)
+				prep_on(specialist/NN-10,Shuttle/NNP-14)
+				aux(fly/VB-19,could/MD-17)
+				neg(fly/VB-19,not/RB-18)
+				conj_but(assigned/VBN-3,fly/VB-19)
+				prep_in(fly/VB-19,space/NN-21)
+				det(accident/NN-26,the/DT-24)
+				nn(accident/NN-26,Challenger/NNP-25)
+				prep_due_to(fly/VB-19,accident/NN-26)
+				prep_in(accident/NN-26,1986/CD-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Holder was born in Detroit, Michigan, USA and now resides in Seattle, Washington.	</value>
+
+		<annotated-sentence>	Holder was born in [[Detroit|Detroit]], Michigan, USA and now resides in Seattle, Washington.	</annotated-sentence>
+
+		<pattern_crowdsource>	Holder was born in Detroit, Michigan, USA and now resides in Seattle, Washington.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Holder/NN-1)
+				nsubj(resides/VBZ-12,Holder/NN-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Detroit/NNP-5)
+				nn(USA/NNP-9,Michigan/NNP-7)
+				appos(Detroit/NNP-5,USA/NNP-9)
+				advmod(resides/VBZ-12,now/RB-11)
+				conj_and(born/VBN-3,resides/VBZ-12)
+				nn(Washington/NNP-16,Seattle/NNP-14)
+				prep_in(resides/VBZ-12,Washington/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Detroit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Detroit</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has three sons (Jonathan, Nathan, and Christopher).	</value>
+
+		<annotated-sentence>	He has three sons (Jonathan, Nathan, and Christopher).	</annotated-sentence>
+
+		<pattern_crowdsource>	He has three sons (Jonathan, Nathan, and Christopher).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,He/PRP-1)
+				num(sons/NNS-4,three/CD-3)
+				dobj(has/VBZ-2,sons/NNS-4)
+				dep(sons/NNS-4,Jonathan/NNP-6)
+				dep(sons/NNS-4,Nathan/NNP-8)
+				conj_and(Jonathan/NNP-6,Nathan/NNP-8)
+				dep(sons/NNS-4,Christopher/NNP-11)
+				conj_and(Jonathan/NNP-6,Christopher/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds a B.S. in Astronautical Engineering from the United States Air Force Academy, and an M.S. in Systems Management from University of Southern California.	</value>
+
+		<annotated-sentence>	He holds a B.S. in [[Astronautical Engineering|Aerospace_engineering]] from [[the United States Air Force Academy|United_States_Air_Force_Academy]], and [[an M.S.|M.S._(rapper)]] in [[Systems Management|Systems_management]] from [[University of Southern California|University_of_Southern_California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He holds a B.S. in Astronautical Engineering from the United States Air Force Academy, and an M.S. in Systems Management from University of Southern California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				det(B.S./NNP-4,a/DT-3)
+				dobj(holds/VBZ-2,B.S./NNP-4)
+				nn(Engineering/NNP-7,Astronautical/NNP-6)
+				prep_in(B.S./NNP-4,Engineering/NNP-7)
+				det(Academy/NNP-14,the/DT-9)
+				nn(Academy/NNP-14,United/NNP-10)
+				nn(Academy/NNP-14,States/NNP-11)
+				nn(Academy/NNP-14,Air/NNP-12)
+				nn(Academy/NNP-14,Force/NNP-13)
+				prep_from(Engineering/NNP-7,Academy/NNP-14)
+				det(M.S./NNP-18,an/DT-17)
+				dobj(holds/VBZ-2,M.S./NNP-18)
+				conj_and(B.S./NNP-4,M.S./NNP-18)
+				nn(Management/NNP-21,Systems/NNP-20)
+				prep_in(M.S./NNP-18,Management/NNP-21)
+				prep_from(holds/VBZ-2,University/NNP-23)
+				nn(California/NNP-26,Southern/NNP-25)
+				prep_of(University/NNP-23,California/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronautical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an M.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/M.S._(rapper)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Systems Management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Systems_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Southern California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Southern_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While serving in the Air Force, Holder was a Titan III launch crew member at Vandenberg AFB, California.	</value>
+
+		<annotated-sentence>	While serving in [[the Air Force|Air_force]], Holder was a [[Titan III|Titan_(rocket_family)]] launch [[crew member|Crewman]] at [[Vandenberg AFB|Vandenberg_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While serving in the Air Force, Holder was a Titan III launch crew member at Vandenberg AFB, California.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(serving/VBG-2,While/IN-1)
+				advcl(member/NN-15,serving/VBG-2)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_in(serving/VBG-2,Force/NNP-6)
+				nsubj(member/NN-15,Holder/NNP-8)
+				cop(member/NN-15,was/VBD-9)
+				det(member/NN-15,a/DT-10)
+				nn(member/NN-15,Titan/NNP-11)
+				nn(member/NN-15,III/NNP-12)
+				nn(member/NN-15,launch/NN-13)
+				nn(member/NN-15,crew/NN-14)
+				nn(AFB/NNP-18,Vandenberg/NNP-17)
+				prep_at(member/NN-15,AFB/NNP-18)
+				appos(AFB/NNP-18,California/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Titan III</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Titan_(rocket_family)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vandenberg AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vandenberg_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served in the Office of the Secretary of the Air Force, Special Projects organization, Los Angeles AFS, California, on a classified satellite program.	</value>
+
+		<annotated-sentence>	He also served in [[the Office|Office]] of the [[Secretary|Secretary]] of [[the Air Force|Air_force]], Special Projects [[organization|Organization]], [[Los Angeles AFS|Los_Angeles_Air_Force_Base]], [[California|California]], on a classified [[satellite|Satellite]] program.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also served in the Office of the Secretary of the Air Force, Special Projects organization, [[Los Angeles AFS|Los_Angeles_Air_Force_Base]], [[California|California]], on a classified satellite program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				det(Office/NNP-6,the/DT-5)
+				prep_in(served/VBD-3,Office/NNP-6)
+				det(organization/NN-17,the/DT-8)
+				dep(organization/NN-17,Secretary/NNP-9)
+				det(Force/NNP-13,the/DT-11)
+				nn(Force/NNP-13,Air/NNP-12)
+				prep_of(Secretary/NNP-9,Force/NNP-13)
+				amod(Projects/NNPS-16,Special/JJ-15)
+				appos(Force/NNP-13,Projects/NNPS-16)
+				prep_of(Office/NNP-6,organization/NN-17)
+				nn(AFS/NNP-21,Los/NNP-19)
+				nn(AFS/NNP-21,Angeles/NNP-20)
+				appos(organization/NN-17,AFS/NNP-21)
+				appos(AFS/NNP-21,California/NNP-23)
+				det(program/NN-29,a/DT-26)
+				amod(program/NN-29,classified/VBN-27)
+				nn(program/NN-29,satellite/NN-28)
+				prep_on(AFS/NNP-21,program/NN-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Secretary</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Secretary</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>organization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Organization</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Los Angeles AFS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Los_Angeles_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Los_Angeles_Air_Force_Base http://dbpedia.org/property/location http://dbpedia.org/resource/California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Holder trained and qualified as a Manned Spaceflight Engineer and Space Shuttle payload specialist from 1982 to 1988.	</value>
+
+		<annotated-sentence>	Holder trained and qualified as [[a Manned Spaceflight Engineer|Manned_Spaceflight_Engineer_Program]] and [[Space Shuttle|SpaceShuttle]] [[payload specialist|Payload_Specialist]] from [[1982|1982]] to [[1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Holder trained and qualified as a Manned Spaceflight Engineer and Space Shuttle payload specialist from 1982 to 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Holder/NN-1,trained/JJ-2)
+				amod(Holder/NN-1,qualified/VBN-4)
+				conj_and(trained/JJ-2,qualified/VBN-4)
+				det(Engineer/NNP-9,a/DT-6)
+				nn(Engineer/NNP-9,Manned/NNP-7)
+				nn(Engineer/NNP-9,Spaceflight/NNP-8)
+				prep_as(qualified/VBN-4,Engineer/NNP-9)
+				nn(specialist/NN-14,Space/NNP-11)
+				nn(specialist/NN-14,Shuttle/NNP-12)
+				nn(specialist/NN-14,payload/NN-13)
+				prep_as(qualified/VBN-4,specialist/NN-14)
+				conj_and(Engineer/NNP-9,specialist/NN-14)
+				num(1988/CD-18,1982/CD-16)
+				dep(1988/CD-18,to/TO-17)
+				prep_from(Engineer/NNP-9,1988/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Manned Spaceflight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Spaceflight_Engineer_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remains active in supporting youth education through the Space Foundation, most recently visiting Alaska schools to share his experiences.	</value>
+
+		<annotated-sentence>	He remains active in supporting [[youth|Youth]] [[education|Education]] through [[the Space Foundation|Space_Foundation]], most recently visiting [[Alaska|Territory_of_Alaska]] [[schools|School]] to share [[his experiences|Experience]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He remains active in supporting youth education through the Space Foundation, most recently visiting Alaska schools to share his experiences.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-3,He/PRP-1)
+				cop(active/JJ-3,remains/VBZ-2)
+				prepc_in(active/JJ-3,supporting/VBG-5)
+				nn(education/NN-7,youth/NN-6)
+				dobj(supporting/VBG-5,education/NN-7)
+				det(Foundation/NNP-11,the/DT-9)
+				nn(Foundation/NNP-11,Space/NN-10)
+				prep_through(supporting/VBG-5,Foundation/NNP-11)
+				advmod(recently/RB-14,most/RBS-13)
+				advmod(visiting/VBG-15,recently/RB-14)
+				partmod(supporting/VBG-5,visiting/VBG-15)
+				nn(schools/NNS-17,Alaska/NNP-16)
+				nsubj(share/VB-19,schools/NNS-17)
+				aux(share/VB-19,to/TO-18)
+				xcomp(visiting/VBG-15,share/VB-19)
+				poss(experiences/NNS-21,his/PRP$-20)
+				dobj(share/VB-19,experiences/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>youth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Youth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>education</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Foundation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Foundation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Alaska</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Territory_of_Alaska</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>schools</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his experiences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Holder joined Boeing in 1988, where he was the manager of the aircraft and spacecraft segments of the RESOURCE21 Program.	</value>
+
+		<annotated-sentence>	Holder joined [[Boeing|Boeing]] in [[1988|1988]], where he was the manager of the aircraft and spacecraft [[segments|Transmission_Control_Protocol]] of the RESOURCE21 Program.	</annotated-sentence>
+
+		<pattern_crowdsource>	Holder joined Boeing in 1988, where he was the manager of the aircraft and spacecraft segments of the RESOURCE21 Program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,Holder/NN-1)
+				dobj(joined/VBD-2,Boeing/NNP-3)
+				prep_in(joined/VBD-2,1988/CD-5)
+				advmod(manager/NN-11,where/WRB-7)
+				nsubj(manager/NN-11,he/PRP-8)
+				cop(manager/NN-11,was/VBD-9)
+				det(manager/NN-11,the/DT-10)
+				advcl(joined/VBD-2,manager/NN-11)
+				det(segments/NNS-17,the/DT-13)
+				nn(segments/NNS-17,aircraft/NN-14)
+				conj_and(aircraft/NN-14,spacecraft/NN-16)
+				nn(segments/NNS-17,spacecraft/NN-16)
+				prep_of(manager/NN-11,segments/NNS-17)
+				det(Program/NN-21,the/DT-19)
+				nn(Program/NN-21,RESOURCE21/NN-20)
+				prep_of(segments/NNS-17,Program/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>segments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transmission_Control_Protocol</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later he managed the International Space Station (ISS) international integration activities with responsibility for the ISS Habitation Module.	</value>
+
+		<annotated-sentence>	Later he managed [[the International Space Station|International_Space_Station]] ([[ISS|International_Space_Station]]) international integration [[activities|Activity]] with responsibility for the [[ISS|International_Space_Station]] [[Habitation Module|Habitation_Module]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Later he managed the International Space Station (ISS) international integration activities with responsibility for the ISS Habitation Module.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(managed/VBD-3,Later/RB-1)
+				nsubj(managed/VBD-3,he/PRP-2)
+				det(Station/NNP-7,the/DT-4)
+				nn(Station/NNP-7,International/NNP-5)
+				nn(Station/NNP-7,Space/NNP-6)
+				dobj(managed/VBD-3,Station/NNP-7)
+				appos(Station/NNP-7,ISS/NNP-9)
+				amod(activities/NNS-13,international/JJ-11)
+				nn(activities/NNS-13,integration/NN-12)
+				npadvmod(managed/VBD-3,activities/NNS-13)
+				prep_with(managed/VBD-3,responsibility/NN-15)
+				det(Module/NNP-20,the/DT-17)
+				nn(Module/NNP-20,ISS/NNP-18)
+				nn(Module/NNP-20,Habitation/NNP-19)
+				prep_for(managed/VBD-3,Module/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Habitation Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Habitation_Module</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994 he became the program manager for the Sea Launch program during initial development.	</value>
+
+		<annotated-sentence>	In [[1994|1994]] he became [[the program manager|Program_Manager]] for the Sea Launch [[program|Program_management]] during initial development.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1994 he became the program manager for the Sea Launch program during initial development.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(became/VBD-4,1994/CD-2)
+				nsubj(became/VBD-4,he/PRP-3)
+				det(manager/NN-7,the/DT-5)
+				nn(manager/NN-7,program/NN-6)
+				nsubj(Launch/VB-11,manager/NN-7)
+				det(Sea/NNP-10,the/DT-9)
+				prep_for(manager/NN-7,Sea/NNP-10)
+				ccomp(became/VBD-4,Launch/VB-11)
+				dobj(Launch/VB-11,program/NN-12)
+				amod(development/NN-15,initial/JJ-14)
+				prep_during(Launch/VB-11,development/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the program manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_Manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_management</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was Chief Engineer and Program Manager of Aviation Information Services (the precursor to Connexion by Boeing).	</value>
+
+		<annotated-sentence>	He was Chief Engineer and [[Program Manager|Program_Manager]] of [[Aviation|Aviation]] [[Information Services|Information_broker]] (the precursor to Connexion by [[Boeing|Boeing]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was Chief Engineer and Program Manager of Aviation Information Services (the precursor to Connexion by Boeing).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Engineer/NNP-4,He/PRP-1)
+				cop(Engineer/NNP-4,was/VBD-2)
+				nn(Engineer/NNP-4,Chief/NNP-3)
+				nn(Manager/NNP-7,Program/NNP-6)
+				conj_and(Engineer/NNP-4,Manager/NNP-7)
+				nn(Services/NNP-11,Aviation/NNP-9)
+				nn(Services/NNP-11,Information/NNP-10)
+				prep_of(Engineer/NNP-4,Services/NNP-11)
+				det(precursor/NN-14,the/DT-13)
+				dep(Services/NNP-11,precursor/NN-14)
+				prep_to(precursor/NN-14,Connexion/NNP-16)
+				prep_by(precursor/NN-14,Boeing/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Program Manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_Manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Information Services</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Information_broker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1995 to 1996, Holder led Boeing's Future Space Transportation organizations, which included Boeing's participation in the X-33/Reusable Launch Vehicle Program.	</value>
+
+		<annotated-sentence>	From [[1995|1995]] to [[1996|1996]], Holder led [[Boeing|Boeing]]'s [[Future|Future]] [[Space|Space]] [[Transportation|Transport]] [[organizations|Organization]], which included [[Boeing|Boeing]]'s participation in [[the X-33|Lockheed_Martin_X-33]]/[[Reusable|Reusability]] Launch [[Vehicle|Automobile]] Program.	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1995 to 1996, Holder led Boeing's Future Space Transportation organizations, which included Boeing's participation in the X-33/Reusable Launch Vehicle Program.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1996/CD-4,1995/CD-2)
+				dep(1996/CD-4,to/TO-3)
+				prep_from(led/VBD-7,1996/CD-4)
+				nsubj(led/VBD-7,Holder/NN-6)
+				poss(Transportation/NNP-12,Boeing/NNP-8)
+				nn(Transportation/NNP-12,Future/NNP-10)
+				nn(Transportation/NNP-12,Space/NNP-11)
+				dobj(led/VBD-7,Transportation/NNP-12)
+				tmod(led/VBD-7,organizations/NNS-13)
+				nsubj(included/VBD-16,which/WDT-15)
+				rcmod(organizations/NNS-13,included/VBD-16)
+				poss(participation/NN-19,Boeing/NNP-17)
+				dobj(included/VBD-16,participation/NN-19)
+				det(X-33/NN-22,the/DT-21)
+				prep_in(included/VBD-16,X-33/NN-22)
+				punct(Reusable/JJ-24,//:-23)
+				nsubj(Launch/VB-25,Reusable/JJ-24)
+				rcmod(X-33/NN-22,Launch/VB-25)
+				nn(Program/NNP-27,Vehicle/NNP-26)
+				dobj(Launch/VB-25,Program/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Future</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Future</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Transportation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transport</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>organizations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Organization</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the X-33</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lockheed_Martin_X-33</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reusable</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reusability</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Automobile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Holder served as the Chairperson for COMSTAC at the US Department of Transportation from May 2000 until October 2003.	</value>
+
+		<annotated-sentence>	Holder served as the Chairperson for [[COMSTAC|COMSTAC]] at [[the US Department of Transportation|United_States_Department_of_Transportation]] from [[May 2000|May_2000]] until [[October 2003|October_2003]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Holder served as the Chairperson for COMSTAC at the US Department of Transportation from May 2000 until October 2003.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Holder/NN-1)
+				det(Chairperson/NNP-5,the/DT-4)
+				prep_as(served/VBD-2,Chairperson/NNP-5)
+				prep_for(Chairperson/NNP-5,COMSTAC/NNP-7)
+				det(Department/NNP-11,the/DT-9)
+				nn(Department/NNP-11,US/NNP-10)
+				prep_at(served/VBD-2,Department/NNP-11)
+				prep_of(Department/NNP-11,Transportation/NNP-13)
+				prep_from(served/VBD-2,May/NNP-15)
+				num(May/NNP-15,2000/CD-16)
+				prep_until(served/VBD-2,October/NNP-18)
+				num(October/NNP-18,2003/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>COMSTAC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/COMSTAC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the US Department of Transportation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Department_of_Transportation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_2003</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2002, he joined Andrews Space as Vice President Space Systems, where he was responsible for the company's space system design, development, and new business activities.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,2002/CD-2)
+				nsubj(joined/VBD-5,he/PRP-4)
+				nn(Space/NNP-7,Andrews/NNP-6)
+				dobj(joined/VBD-5,Space/NNP-7)
+				nn(Systems/NNPS-12,Vice/NNP-9)
+				nn(Systems/NNPS-12,President/NNP-10)
+				nn(Systems/NNPS-12,Space/NNP-11)
+				prep_as(joined/VBD-5,Systems/NNPS-12)
+				advmod(responsible/JJ-17,where/WRB-14)
+				nsubj(responsible/JJ-17,he/PRP-15)
+				cop(responsible/JJ-17,was/VBD-16)
+				advcl(joined/VBD-5,responsible/JJ-17)
+				det(company/NN-20,the/DT-19)
+				poss(design/NN-24,company/NN-20)
+				nn(design/NN-24,space/NN-22)
+				nn(design/NN-24,system/NN-23)
+				prep_for(responsible/JJ-17,design/NN-24)
+				prep_for(responsible/JJ-17,development/NN-26)
+				conj_and(design/NN-24,development/NN-26)
+				amod(activities/NNS-31,new/JJ-29)
+				nn(activities/NNS-31,business/NN-30)
+				prep_for(responsible/JJ-17,activities/NNS-31)
+				conj_and(design/NN-24,activities/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He led the company to its first DoD contracts on the Falcon program, a joint DARPA/USAF effort.	</value>
+
+		<annotated-sentence>	He led [[the company|Company]] to its first DoD [[contracts|Contract]] on the [[Falcon|Falcon]] program, a joint DARPA/USAF [[effort|Effort,_Pennsylvania]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He led the company to its first DoD contracts on the Falcon program, a joint DARPA/USAF effort.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(led/VBD-2,He/PRP-1)
+				det(company/NN-4,the/DT-3)
+				dobj(led/VBD-2,company/NN-4)
+				poss(contracts/NNS-9,its/PRP$-6)
+				amod(contracts/NNS-9,first/JJ-7)
+				nn(contracts/NNS-9,DoD/NN-8)
+				prep_to(led/VBD-2,contracts/NNS-9)
+				det(program/NN-13,the/DT-11)
+				nn(program/NN-13,Falcon/NNP-12)
+				prep_on(led/VBD-2,program/NN-13)
+				det(effort/NN-18,a/DT-15)
+				amod(effort/NN-18,joint/JJ-16)
+				nn(effort/NN-18,DARPA/USAF/NN-17)
+				appos(program/NN-13,effort/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>contracts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Contract</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Falcon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Falcon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>effort</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Effort,_Pennsylvania</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also the manager for a joint effort between Northrop Grumman Corporation (NGC) and Andrews Space in the NASA funded 2nd Generation Reusable Launch Vehicle (RLV) program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(manager/NN-5,He/PRP-1)
+				cop(manager/NN-5,was/VBD-2)
+				advmod(manager/NN-5,also/RB-3)
+				det(manager/NN-5,the/DT-4)
+				det(effort/NN-9,a/DT-7)
+				amod(effort/NN-9,joint/JJ-8)
+				prep_for(manager/NN-5,effort/NN-9)
+				nn(Corporation/NNP-13,Northrop/NNP-11)
+				nn(Corporation/NNP-13,Grumman/NNP-12)
+				prep_between(effort/NN-9,Corporation/NNP-13)
+				appos(Corporation/NNP-13,NGC/NNP-15)
+				nn(Space/NNP-19,Andrews/NNP-18)
+				nsubj(funded/VBD-23,Space/NNP-19)
+				det(NASA/NNP-22,the/DT-21)
+				prep_in(Space/NNP-19,NASA/NNP-22)
+				conj_and(manager/NN-5,funded/VBD-23)
+				amod(Reusable/NNP-26,2nd/JJ-24)
+				nn(Reusable/NNP-26,Generation/NNP-25)
+				nsubj(Launch/VB-27,Reusable/NNP-26)
+				ccomp(funded/VBD-23,Launch/VB-27)
+				nsubj(program/NN-32,Vehicle/NNP-28)
+				appos(Vehicle/NNP-28,RLV/NNP-30)
+				xcomp(Launch/VB-27,program/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2006, Holder joined AirLaunch LLC (founded by space entrepreneur Gary Hudson) as Chief Program Executive.	</value>
+
+		<annotated-sentence>	In [[2006|2006]], Holder joined [[AirLaunch|Air_launch]] [[LLC|LLC_(studio)]] (founded by [[space|Space]] [[entrepreneur|Entrepreneur]] Gary Hudson) as Chief Program Executive.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2006, Holder joined AirLaunch LLC (founded by space entrepreneur Gary Hudson) as Chief Program Executive.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,2006/CD-2)
+				nsubj(joined/VBD-5,Holder/NN-4)
+				nn(LLC/NNP-7,AirLaunch/NNP-6)
+				dobj(joined/VBD-5,LLC/NNP-7)
+				dep(LLC/NNP-7,founded/VBN-9)
+				nn(Hudson/NNP-14,space/NN-11)
+				nn(Hudson/NNP-14,entrepreneur/NN-12)
+				nn(Hudson/NNP-14,Gary/NNP-13)
+				prep_by(founded/VBN-9,Hudson/NNP-14)
+				nn(Executive/NNP-19,Chief/NNP-17)
+				nn(Executive/NNP-19,Program/NNP-18)
+				prep_as(LLC/NNP-7,Executive/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AirLaunch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>LLC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/LLC_(studio)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>entrepreneur</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Entrepreneur</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Under his leadership AirLaunch achieved several technical milestones including the largest and heaviest object ever dropped from a C-17 and the largest and longest Vapor Pressurized rocket engine firings in history.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(leadership/NN-3,his/PRP$-2)
+				prep_under(achieved/VBD-5,leadership/NN-3)
+				nsubj(achieved/VBD-5,AirLaunch/NNP-4)
+				dep(dropped/VBD-16,achieved/VBD-5)
+				amod(milestones/NNS-8,several/JJ-6)
+				amod(milestones/NNS-8,technical/JJ-7)
+				dobj(achieved/VBD-5,milestones/NNS-8)
+				det(object/NN-14,the/DT-10)
+				amod(object/NN-14,largest/JJS-11)
+				conj_and(largest/JJS-11,heaviest/JJS-13)
+				amod(object/NN-14,heaviest/JJS-13)
+				prep_including(milestones/NNS-8,object/NN-14)
+				advmod(dropped/VBD-16,ever/RB-15)
+				det(C-17/NN-19,a/DT-18)
+				prep_from(dropped/VBD-16,C-17/NN-19)
+				det(rocket/NN-27,the/DT-21)
+				amod(rocket/NN-27,largest/JJS-22)
+				conj_and(largest/JJS-22,longest/JJS-24)
+				amod(rocket/NN-27,longest/JJS-24)
+				nn(rocket/NN-27,Vapor/NNP-25)
+				nn(rocket/NN-27,Pressurized/NNP-26)
+				prep_from(dropped/VBD-16,rocket/NN-27)
+				conj_and(C-17/NN-19,rocket/NN-27)
+				nn(firings/NNS-29,engine/NN-28)
+				nsubj(dropped/VBD-16,firings/NNS-29)
+				prep_in(firings/NNS-29,history/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He currently heads Holder Aerospace, an engineering consulting company in partnership with Curtis Gifford, located in Renton, Washington.	</value>
+
+		<annotated-sentence>	He currently heads Holder [[Aerospace|Aerospace]], an [[engineering|Engineering]] consulting company in [[partnership|Partnership]] with [[Curtis|50_Cent]] [[Gifford|Baillie_Gifford]], located in [[Renton , Washington|Renton,_Washington]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He currently heads Holder Aerospace, an engineering consulting company in [[partnership|Partnership]] with Curtis [[Gifford|Baillie_Gifford]], located in Renton, Washington.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(heads/VBZ-3,He/PRP-1)
+				advmod(heads/VBZ-3,currently/RB-2)
+				nn(Aerospace/NNP-5,Holder/NNP-4)
+				dobj(heads/VBZ-3,Aerospace/NNP-5)
+				det(company/NN-10,an/DT-7)
+				nn(company/NN-10,engineering/NN-8)
+				amod(company/NN-10,consulting/VBG-9)
+				appos(Aerospace/NNP-5,company/NN-10)
+				prep_in(company/NN-10,partnership/NN-12)
+				nn(Gifford/NNP-15,Curtis/NNP-14)
+				prep_with(company/NN-10,Gifford/NNP-15)
+				amod(Aerospace/NNP-5,located/JJ-17)
+				nn(Washington/NNP-21,Renton/NNP-19)
+				prep_in(located/JJ-17,Washington/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>partnership</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Partnership</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Curtis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/50_Cent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gifford</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Baillie_Gifford</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Renton , Washington</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Renton,_Washington</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Baillie_Gifford http://dbpedia.org/ontology/type http://dbpedia.org/resource/Partnership
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

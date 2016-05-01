@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Small bowel tissue smear is a lab test that checks for disease in a sample of tissue from the small intestine.</value>
+		<pattern_crowdsource> Small bowel tissue smear is a lab test that checks for [[disease|C0012634]] in a sample of tissue from the [[small intestine|C0021852]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Small bowel</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lab</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021852 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your health care provider may order this test to look for an infection or other disease of the small intestine.</value>
+		<pattern_crowdsource> Your health care provider may order this test to look for an [[infection|C0009450]] or other [[disease|C0012634]] of the [[small intestine|C0021852]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 ISA C0012634</triple>
+			<triple>C0012634 ISA C0009450</triple>
+			<triple>C0021852 LOCATION_OF C0012634</triple>
+			<triple>C0021852 LOCATION_OF C0009450</triple>
+			<triple>C0021852 LOCATION_OF C0009450</triple>
+			<triple>C0021852 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

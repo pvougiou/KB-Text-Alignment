@@ -1,0 +1,2322 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Lee Miller Emile Morin (born September 9, 1952) M.D., Ph.D. is a United States Navy Captain and NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Lee Miller Emile Morin|Lee_Morin]] (born [[September|September]] 9, 1952) M.D., Ph.D. is a [[United States Navy|United_States_Navy]] [[Captain|Captain_(naval)]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Lee Miller Emile Morin|Lee_Morin]] (born September 9, 1952) M.D., Ph.D. is a [[United States Navy|United_States_Navy]] [[Captain|Captain_(naval)]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Morin/NNP-4,Lee/NNP-1)
+				nn(Morin/NNP-4,Miller/NNP-2)
+				nn(Morin/NNP-4,Emile/NNP-3)
+				nsubj(Captain/NNP-20,Morin/NNP-4)
+				dep(Morin/NNP-4,born/VBN-6)
+				tmod(born/VBN-6,September/NNP-7)
+				num(September/NNP-7,9/CD-8)
+				num(September/NNP-7,1952/CD-10)
+				nn(Ph.D./NNP-14,M.D./NNP-12)
+				nsubj(Captain/NNP-20,Ph.D./NNP-14)
+				cop(Captain/NNP-20,is/VBZ-15)
+				det(Captain/NNP-20,a/DT-16)
+				nn(Captain/NNP-20,United/NNP-17)
+				nn(Captain/NNP-20,States/NNPS-18)
+				nn(Captain/NNP-20,Navy/NNP-19)
+				nn(astronaut/NN-23,NASA/NNP-22)
+				conj_and(Captain/NNP-20,astronaut/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lee Miller Emile Morin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lee_Morin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Captain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Captain_(naval)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/property/rank http://dbpedia.org/resource/Captain_(naval)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on STS-110 in 2002.	</value>
+
+		<annotated-sentence>	He flew on [[STS-110|STS-110]] in [[2002|2002]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on [[STS-110|STS-110]] in 2002.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				prep_on(flew/VBD-2,STS-110/NN-4)
+				prep_in(flew/VBD-2,2002/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-110</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-110</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-110
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Manchester, New Hampshire, Morin is married with two children and three grandchildren.	</value>
+
+		<annotated-sentence>	Born in [[Manchester|Manchester]], [[New Hampshire|New_Hampshire]], Morin is married with [[two children|Child]] and three [[grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in Manchester, New Hampshire, Morin is married with two children and three grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(married/VBN-10,Born/VBN-1)
+				prep_in(Born/VBN-1,Manchester/NNP-3)
+				nn(Hampshire/NNP-6,New/NNP-5)
+				appos(Manchester/NNP-3,Hampshire/NNP-6)
+				nsubjpass(married/VBN-10,Morin/NNP-8)
+				auxpass(married/VBN-10,is/VBZ-9)
+				num(children/NNS-13,two/CD-12)
+				prep_with(married/VBN-10,children/NNS-13)
+				num(grandchildren/NNS-16,three/CD-15)
+				prep_with(married/VBN-10,grandchildren/NNS-16)
+				conj_and(children/NNS-13,grandchildren/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Manchester</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manchester</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Hampshire</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Hampshire</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	An amateur machinist, he enjoys math and jogging.	</value>
+
+		<annotated-sentence>	An amateur [[machinist|Machinist]], he enjoys [[math and jogging|Jogging]].	</annotated-sentence>
+
+		<pattern_crowdsource>	An amateur machinist, he enjoys math and jogging.	</pattern_crowdsource>
+
+
+		<tree>
+				det(machinist/NN-3,An/DT-1)
+				amod(machinist/NN-3,amateur/JJ-2)
+				nsubj(enjoys/VBZ-6,machinist/NN-3)
+				nsubj(enjoys/VBZ-6,he/PRP-5)
+				dobj(enjoys/VBZ-6,math/NN-7)
+				dobj(enjoys/VBZ-6,jogging/NN-9)
+				conj_and(math/NN-7,jogging/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>machinist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Machinist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>math and jogging</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jogging</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from the University of New Hampshire in 1974, Morin worked at the Massachusetts Institute of Technology in the laboratory now known as the Media Lab.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(worked/VBD-13,graduating/VBG-2)
+				det(University/NNP-5,the/DT-4)
+				prep_from(graduating/VBG-2,University/NNP-5)
+				nn(Hampshire/NNP-8,New/NNP-7)
+				prep_of(University/NNP-5,Hampshire/NNP-8)
+				prep_in(Hampshire/NNP-8,1974/CD-10)
+				nsubj(worked/VBD-13,Morin/NNP-12)
+				det(Institute/NNP-17,the/DT-15)
+				nn(Institute/NNP-17,Massachusetts/NNP-16)
+				prep_at(worked/VBD-13,Institute/NNP-17)
+				prep_of(Institute/NNP-17,Technology/NNP-19)
+				det(laboratory/NN-22,the/DT-21)
+				prep_in(worked/VBD-13,laboratory/NN-22)
+				advmod(known/VBN-24,now/RB-23)
+				partmod(laboratory/NN-22,known/VBN-24)
+				det(Lab/NNP-28,the/DT-26)
+				nn(Lab/NNP-28,Media/NNP-27)
+				prep_as(known/VBN-24,Lab/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Morin matriculated at NYU School of Medicine in 1974, received a Master of Science in Biochemistry in 1978, an M.D. in 1981, and a Ph.D. in Microbiology in 1982.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(matriculated/VBD-2,Morin/NNP-1)
+				ccomp(received/VBD-11,matriculated/VBD-2)
+				nn(School/NNP-5,NYU/NNP-4)
+				prep_at(matriculated/VBD-2,School/NNP-5)
+				prep_of(School/NNP-5,Medicine/NNP-7)
+				prep_in(matriculated/VBD-2,1974/CD-9)
+				det(Master/NN-13,a/DT-12)
+				nsubj(received/VBD-11,Master/NN-13)
+				prep_of(Master/NN-13,Science/NN-15)
+				prep_in(Science/NN-15,Biochemistry/NNP-17)
+				prep_in(Master/NN-13,1978/CD-19)
+				det(M.D./NNP-22,an/DT-21)
+				nsubj(received/VBD-11,M.D./NNP-22)
+				conj_and(Master/NN-13,M.D./NNP-22)
+				prep_in(M.D./NNP-22,1981/CD-24)
+				det(Ph.D./NNP-28,a/DT-27)
+				nsubj(received/VBD-11,Ph.D./NNP-28)
+				conj_and(Master/NN-13,Ph.D./NNP-28)
+				prep_in(Ph.D./NNP-28,Microbiology/NNP-30)
+				prep_in(Microbiology/NNP-30,1982/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then completed two years of residency training in General Surgery at the Bronx Municipal Hospital Center and at Montefiore Medical Center in The Bronx, New York City.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-3,He/PRP-1)
+				nsubj(completed/VBD-3,He/PRP-1)
+				advmod(completed/VBD-3,then/RB-2)
+				conj_and(completed/VBD-3,completed/VBD-3)
+				num(years/NNS-5,two/CD-4)
+				dobj(completed/VBD-3,years/NNS-5)
+				nn(training/NN-8,residency/NN-7)
+				prep_of(years/NNS-5,training/NN-8)
+				nn(Surgery/NNP-11,General/NNP-10)
+				prep_in(completed/VBD-3,Surgery/NNP-11)
+				det(Center/NNP-17,the/DT-13)
+				nn(Center/NNP-17,Bronx/NNP-14)
+				nn(Center/NNP-17,Municipal/NNP-15)
+				nn(Center/NNP-17,Hospital/NNP-16)
+				prep_at(Surgery/NNP-11,Center/NNP-17)
+				nn(Center/NNP-22,Montefiore/NNP-20)
+				nn(Center/NNP-22,Medical/NNP-21)
+				prep_at(completed/VBD-3,Center/NNP-22)
+				det(City/NNP-29,The/DT-24)
+				dep(City/NNP-29,Bronx/NNP-25)
+				dep(Bronx/NNP-25,New/NNP-27)
+				nn(City/NNP-29,York/NNP-28)
+				prep_in(Center/NNP-22,City/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1982, Morin received a Direct Commission in the U.S. Naval Reserve.	</value>
+
+		<annotated-sentence>	In [[1982|1982]], Morin received [[a Direct Commission|Direct_commission_officer]] in [[the U.S. Naval Reserve|United_States_Navy_Reserve]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1982, Morin received a Direct Commission in the U.S. Naval Reserve.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-5,1982/CD-2)
+				nsubj(received/VBD-5,Morin/NNP-4)
+				det(Commission/NN-8,a/DT-6)
+				amod(Commission/NN-8,Direct/JJ-7)
+				dobj(received/VBD-5,Commission/NN-8)
+				det(Reserve/NNP-13,the/DT-10)
+				nn(Reserve/NNP-13,U.S./NNP-11)
+				nn(Reserve/NNP-13,Naval/NNP-12)
+				prep_in(received/VBD-5,Reserve/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Direct Commission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Direct_commission_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Reserve</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Reserve</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1983, he entered active duty and attended the Naval Undersea Medical Institute in Groton, Connecticut.	</value>
+
+		<annotated-sentence>	In [[1983|1983]], he entered [[active duty|Active_duty]] and attended the Naval [[Undersea|Undersea_(EP)]] [[Medical Institute|Medical_Institute,_Osh_State_University]] in Groton, Connecticut.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1983, he entered active duty and attended the Naval Undersea Medical Institute in Groton, Connecticut.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(entered/VBD-5,1983/CD-2)
+				nsubj(entered/VBD-5,he/PRP-4)
+				nsubj(attended/VBD-9,he/PRP-4)
+				amod(duty/NN-7,active/JJ-6)
+				dobj(entered/VBD-5,duty/NN-7)
+				conj_and(entered/VBD-5,attended/VBD-9)
+				det(Institute/NNP-14,the/DT-10)
+				nn(Institute/NNP-14,Naval/NNP-11)
+				nn(Institute/NNP-14,Undersea/NNP-12)
+				nn(Institute/NNP-14,Medical/NNP-13)
+				dobj(attended/VBD-9,Institute/NNP-14)
+				nn(Connecticut/NNP-18,Groton/NNP-16)
+				prep_in(attended/VBD-9,Connecticut/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Undersea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Undersea_(EP)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_Institute,_Osh_State_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was designated as an Undersea Medical Officer in 1983.	</value>
+
+		<annotated-sentence>	He was designated as an [[Undersea|Undersea_(EP)]] [[Medical Officer|Physician]] in [[1983|1983]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was designated as an Undersea Medical Officer in 1983.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(designated/VBN-3,He/PRP-1)
+				auxpass(designated/VBN-3,was/VBD-2)
+				det(Officer/NNP-8,an/DT-5)
+				nn(Officer/NNP-8,Undersea/NNP-6)
+				nn(Officer/NNP-8,Medical/NNP-7)
+				prep_as(designated/VBN-3,Officer/NNP-8)
+				prep_in(Officer/NNP-8,1983/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Undersea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Undersea_(EP)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He joined the crew of the submarine USS Henry M. Jackson at the Electric Boat Company Shipyards in Groton.	</value>
+
+		<annotated-sentence>	He joined the crew of the [[submarine|Submarine]] [[USS Henry M. Jackson|USS_Henry_M._Jackson_(SSBN-730)]] at the [[Electric Boat Company|General_Dynamics_Electric_Boat]] [[Shipyards|Shipyard]] in [[Groton|Groton,_Connecticut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He joined the crew of the submarine USS Henry M. Jackson at the [[Electric Boat Company|General_Dynamics_Electric_Boat]] Shipyards in [[Groton|Groton,_Connecticut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,He/PRP-1)
+				det(crew/NN-4,the/DT-3)
+				dobj(joined/VBD-2,crew/NN-4)
+				det(Jackson/NNP-11,the/DT-6)
+				nn(Jackson/NNP-11,submarine/NN-7)
+				nn(Jackson/NNP-11,USS/NNP-8)
+				nn(Jackson/NNP-11,Henry/NNP-9)
+				nn(Jackson/NNP-11,M./NNP-10)
+				prep_of(crew/NN-4,Jackson/NNP-11)
+				det(Shipyards/NNPS-17,the/DT-13)
+				nn(Shipyards/NNPS-17,Electric/NNP-14)
+				nn(Shipyards/NNPS-17,Boat/NNP-15)
+				nn(Shipyards/NNPS-17,Company/NNP-16)
+				prep_at(joined/VBD-2,Shipyards/NNPS-17)
+				prep_in(joined/VBD-2,Groton/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>submarine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Submarine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USS Henry M. Jackson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USS_Henry_M._Jackson_(SSBN-730)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Electric Boat Company</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_Electric_Boat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shipyards</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shipyard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Groton</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Groton,_Connecticut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/USS_Henry_M._Jackson_(SSBN-730) http://dbpedia.org/ontology/builder http://dbpedia.org/resource/General_Dynamics_Electric_Boat
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/USS_Henry_M._Jackson_(SSBN-730) http://dbpedia.org/ontology/builder http://dbpedia.org/resource/Groton,_Connecticut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/General_Dynamics_Electric_Boat http://dbpedia.org/ontology/locationCity http://dbpedia.org/resource/Groton,_Connecticut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained aboard as Medical Officer for both Blue and Gold crews until 1985 when the ship arrived at its home port in Bangor, Washington.	</value>
+
+		<annotated-sentence>	He remained aboard as [[Medical Officer|Physician]] for both Blue and Gold crews until [[1985|1985]] when [[the ship|Ship]] arrived at [[its home port|Port]] in Bangor, Washington.	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained aboard as Medical Officer for both Blue and Gold crews until 1985 when the ship arrived at its home port in Bangor, Washington.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remained/VBD-2,He/PRP-1)
+				advmod(remained/VBD-2,aboard/IN-3)
+				amod(Officer/NNP-6,Medical/JJ-5)
+				prep_as(aboard/IN-3,Officer/NNP-6)
+				preconj(crews/NNS-12,both/DT-8)
+				nn(crews/NNS-12,Blue/NNP-9)
+				conj_and(Blue/NNP-9,Gold/NNP-11)
+				nn(crews/NNS-12,Gold/NNP-11)
+				prep_for(remained/VBD-2,crews/NNS-12)
+				prep_until(remained/VBD-2,1985/CD-14)
+				advmod(arrived/VBD-18,when/WRB-15)
+				det(ship/NN-17,the/DT-16)
+				nsubj(arrived/VBD-18,ship/NN-17)
+				advcl(remained/VBD-2,arrived/VBD-18)
+				poss(port/NN-22,its/PRP$-20)
+				nn(port/NN-22,home/NN-21)
+				prep_at(arrived/VBD-18,port/NN-22)
+				nn(Washington/NNP-26,Bangor/NNP-24)
+				prep_in(arrived/VBD-18,Washington/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ship</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Ship</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>its home port</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Port</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his tour aboard Henry M. Jackson, Morin qualified as a Diving Medical Officer, and also received his "Dolphins" as a qualified Submarine Medical Officer.	</value>
+
+		<annotated-sentence>	During his tour aboard [[Henry M. Jackson|Henry_M._Jackson]], Morin qualified as a [[Diving|Diving]] [[Medical Officer|Physician]], and also received his "Dolphins" as a qualified [[Submarine|Submarine]] [[Medical Officer|Physician]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During his tour aboard Henry M. Jackson, Morin qualified as a Diving Medical Officer, and also received his "Dolphins" as a qualified Submarine Medical Officer.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(tour/NN-3,his/PRP$-2)
+				prep_during(qualified/VBD-10,tour/NN-3)
+				nn(Jackson/NNP-7,Henry/NNP-5)
+				nn(Jackson/NNP-7,M./NNP-6)
+				prep_aboard(tour/NN-3,Jackson/NNP-7)
+				nsubj(qualified/VBD-10,Morin/NNP-9)
+				nsubj(received/VBD-19,Morin/NNP-9)
+				det(Officer/NNP-15,a/DT-12)
+				nn(Officer/NNP-15,Diving/NNP-13)
+				nn(Officer/NNP-15,Medical/NNP-14)
+				prep_as(qualified/VBD-10,Officer/NNP-15)
+				advmod(received/VBD-19,also/RB-18)
+				conj_and(qualified/VBD-10,received/VBD-19)
+				dep(Dolphins/NNPS-22,his/PRP$-20)
+				dep(received/VBD-19,Dolphins/NNPS-22)
+				det(Officer/NNP-29,a/DT-25)
+				amod(Officer/NNP-29,qualified/VBN-26)
+				nn(Officer/NNP-29,Submarine/NNP-27)
+				nn(Officer/NNP-29,Medical/NNP-28)
+				prep_as(qualified/VBD-10,Officer/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Henry M. Jackson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Henry_M._Jackson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Submarine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Submarine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physician</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Morin then entered Flight Surgeon training at the Naval Aerospace Medical Institute (NAMI) in Pensacola, Florida.	</value>
+
+		<annotated-sentence>	Morin then entered [[Flight Surgeon|Flight_surgeon]] [[training|Training]] at the Naval [[Aerospace|Aerospace]] [[Medical Institute|Medical_Institute,_Osh_State_University]] (NAMI) in [[Pensacola , Florida|Pensacola,_Florida]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Morin then entered Flight Surgeon training at the Naval Aerospace Medical Institute (NAMI) in Pensacola, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-3,Morin/NNP-1)
+				advmod(entered/VBD-3,then/RB-2)
+				nn(training/NN-6,Flight/NNP-4)
+				nn(training/NN-6,Surgeon/NNP-5)
+				dobj(entered/VBD-3,training/NN-6)
+				det(Institute/NNP-12,the/DT-8)
+				nn(Institute/NNP-12,Naval/NNP-9)
+				nn(Institute/NNP-12,Aerospace/NNP-10)
+				nn(Institute/NNP-12,Medical/NNP-11)
+				prep_at(entered/VBD-3,Institute/NNP-12)
+				appos(Institute/NNP-12,NAMI/NNP-14)
+				nn(Florida/NNP-19,Pensacola/NNP-17)
+				prep_in(entered/VBD-3,Florida/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight Surgeon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_surgeon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_Institute,_Osh_State_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pensacola , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pensacola,_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received his "Wings of Gold" as a Naval Flight Surgeon in 1986, and remained on the staff at NAMI as Flight Surgeon/Diving Medal Officer until 1989.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				nsubj(remained/VBD-18,He/PRP-1)
+				poss(Wings/NNS-5,his/PRP$-3)
+				dobj(received/VBD-2,Wings/NNS-5)
+				prep_of(Wings/NNS-5,Gold/NN-7)
+				det(Surgeon/NNP-13,a/DT-10)
+				nn(Surgeon/NNP-13,Naval/NNP-11)
+				nn(Surgeon/NNP-13,Flight/NNP-12)
+				prep_as(Wings/NNS-5,Surgeon/NNP-13)
+				prep_in(received/VBD-2,1986/CD-15)
+				conj_and(received/VBD-2,remained/VBD-18)
+				det(staff/NN-21,the/DT-20)
+				prep_on(remained/VBD-18,staff/NN-21)
+				prep_at(staff/NN-21,NAMI/NNP-23)
+				nn(Officer/NNP-28,Flight/NNP-25)
+				nn(Officer/NNP-28,Surgeon/Diving/NNP-26)
+				nn(Officer/NNP-28,Medal/NN-27)
+				prep_as(remained/VBD-18,Officer/NNP-28)
+				prep_until(remained/VBD-18,1989/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at NAMI, he received his Masters of Public Health degree from the University of Alabama at Birmingham.	</value>
+
+		<annotated-sentence>	While at NAMI, he received his Masters of [[Public Health|Public_health]] degree from [[the University of Alabama|University_of_Alabama]] at [[Birmingham|Birmingham]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at NAMI, he received his Masters of Public Health degree from the University of Alabama at Birmingham.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(received/VBD-6,at/IN-2)
+				pobj(at/IN-2,NAMI/NNP-3)
+				nsubj(received/VBD-6,he/PRP-5)
+				poss(Masters/NN-8,his/PRP$-7)
+				dobj(received/VBD-6,Masters/NN-8)
+				nn(degree/NN-12,Public/NNP-10)
+				nn(degree/NN-12,Health/NNP-11)
+				prep_of(Masters/NN-8,degree/NN-12)
+				det(University/NNP-15,the/DT-14)
+				prep_from(received/VBD-6,University/NNP-15)
+				prep_of(University/NNP-15,Alabama/NNP-17)
+				prep_at(received/VBD-6,Birmingham/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Public Health</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_health</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Alabama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Alabama</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Birmingham</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Birmingham</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then left active duty and entered private practice in occupational medicine in Jacksonville, Florida.	</value>
+
+		<annotated-sentence>	He then left [[active duty|Active_duty]] and entered private practice in [[occupational medicine|Occupational_medicine]] in [[Jacksonville , Florida|Jacksonville,_Florida]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He then left active duty and entered private practice in occupational medicine in Jacksonville, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-3,He/PRP-1)
+				nsubj(entered/VBD-7,He/PRP-1)
+				advmod(left/VBD-3,then/RB-2)
+				amod(duty/NN-5,active/JJ-4)
+				dobj(left/VBD-3,duty/NN-5)
+				conj_and(left/VBD-3,entered/VBD-7)
+				amod(practice/NN-9,private/JJ-8)
+				dobj(entered/VBD-7,practice/NN-9)
+				amod(medicine/NN-12,occupational/JJ-11)
+				prep_in(entered/VBD-7,medicine/NN-12)
+				nn(Florida/NNP-16,Jacksonville/NNP-14)
+				prep_in(entered/VBD-7,Florida/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>occupational medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Occupational_medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jacksonville , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jacksonville,_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained in the Naval Reserve, and drilled with the United States Marine Corps' 3rd Force Reconnaissance Company in Mobile, Alabama.	</value>
+
+		<annotated-sentence>	He remained in the Naval Reserve, and drilled with the [[United States Marine Corps|United_States_Marine_Corps]]' 3rd Force [[Reconnaissance|Reconnaissance]] [[Company|Company]] in [[Mobile , Alabama|Mobile,_Alabama]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained in the Naval Reserve, and drilled with the United States Marine Corps' 3rd Force Reconnaissance Company in Mobile, Alabama.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remained/VBD-2,He/PRP-1)
+				nsubj(drilled/VBD-9,He/PRP-1)
+				det(Reserve/NNP-6,the/DT-4)
+				nn(Reserve/NNP-6,Naval/NNP-5)
+				prep_in(remained/VBD-2,Reserve/NNP-6)
+				conj_and(remained/VBD-2,drilled/VBD-9)
+				det(Force/NN-18,the/DT-11)
+				nn(Corps/NNP-15,United/NNP-12)
+				nn(Corps/NNP-15,States/NNPS-13)
+				nn(Corps/NNP-15,Marine/NNP-14)
+				poss(Force/NN-18,Corps/NNP-15)
+				amod(Force/NN-18,3rd/JJ-17)
+				prep_with(drilled/VBD-9,Force/NN-18)
+				nn(Company/NNP-20,Reconnaissance/NNP-19)
+				tmod(drilled/VBD-9,Company/NNP-20)
+				nn(Alabama/NNP-24,Mobile/NNP-22)
+				prep_in(Company/NNP-20,Alabama/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>United States Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reconnaissance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reconnaissance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mobile , Alabama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mobile,_Alabama</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1990, he was recalled to active duty during Operation Desert Shield, when he was assigned to Branch Clinic, Naval Air Station Pensacola as a Flight Surgeon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(recalled/VBN-7,August/NNP-2)
+				num(August/NNP-2,1990/CD-3)
+				nsubjpass(recalled/VBN-7,he/PRP-5)
+				auxpass(recalled/VBN-7,was/VBD-6)
+				amod(duty/NN-10,active/JJ-9)
+				prep_to(recalled/VBN-7,duty/NN-10)
+				nn(Shield/NNP-14,Operation/NNP-12)
+				nn(Shield/NNP-14,Desert/NNP-13)
+				prep_during(recalled/VBN-7,Shield/NNP-14)
+				advmod(assigned/VBN-19,when/WRB-16)
+				nsubjpass(assigned/VBN-19,he/PRP-17)
+				auxpass(assigned/VBN-19,was/VBD-18)
+				rcmod(Shield/NNP-14,assigned/VBN-19)
+				nn(Clinic/NNP-22,Branch/NNP-21)
+				prep_to(assigned/VBN-19,Clinic/NNP-22)
+				nn(Pensacola/NNP-27,Naval/NNP-24)
+				nn(Pensacola/NNP-27,Air/NNP-25)
+				nn(Pensacola/NNP-27,Station/NNP-26)
+				appos(Clinic/NNP-22,Pensacola/NNP-27)
+				det(Surgeon/NNP-31,a/DT-29)
+				nn(Surgeon/NNP-31,Flight/NN-30)
+				prep_as(Pensacola/NNP-27,Surgeon/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Morin volunteered to reenter active duty, and was assigned to Administrative Support Unit, Bahrain, as Diving Medical Officer/Flight Surgeon during Operation Desert Storm and during the post-war build-down period.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(volunteered/VBD-2,Morin/NNP-1)
+				nsubjpass(assigned/VBN-10,Morin/NNP-1)
+				aux(reenter/VB-4,to/TO-3)
+				xcomp(volunteered/VBD-2,reenter/VB-4)
+				amod(duty/NN-6,active/JJ-5)
+				dobj(reenter/VB-4,duty/NN-6)
+				auxpass(assigned/VBN-10,was/VBD-9)
+				conj_and(volunteered/VBD-2,assigned/VBN-10)
+				nn(Unit/NN-14,Administrative/NNP-12)
+				nn(Unit/NN-14,Support/NN-13)
+				prep_to(assigned/VBN-10,Unit/NN-14)
+				appos(Unit/NN-14,Bahrain/NNP-16)
+				nn(Surgeon/NNP-22,Diving/NNP-19)
+				nn(Surgeon/NNP-22,Medical/NNP-20)
+				nn(Surgeon/NNP-22,Officer/Flight/NNP-21)
+				prep_as(assigned/VBN-10,Surgeon/NNP-22)
+				nn(Storm/NN-26,Operation/NNP-24)
+				nn(Storm/NN-26,Desert/NNP-25)
+				prep_during(Surgeon/NNP-22,Storm/NN-26)
+				det(period/NN-32,the/DT-29)
+				amod(period/NN-32,post-war/JJ-30)
+				amod(period/NN-32,build-down/JJ-31)
+				prep_during(Surgeon/NNP-22,period/NN-32)
+				conj_and(Storm/NN-26,period/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, Morin rejoined the staff at NAMI, initially as Special Projects Officer.	</value>
+
+		<annotated-sentence>	In [[1992|1992]], Morin rejoined the staff at NAMI, initially as Special Projects [[Officer|Officer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1992, Morin rejoined the staff at NAMI, initially as Special Projects Officer.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(rejoined/VBD-5,1992/CD-2)
+				nsubj(rejoined/VBD-5,Morin/NNP-4)
+				det(staff/NN-7,the/DT-6)
+				dobj(rejoined/VBD-5,staff/NN-7)
+				nn(Officer/NNP-15,NAMI/NNP-9)
+				dep(Officer/NNP-15,initially/RB-11)
+				amod(Projects/NNPS-14,Special/JJ-13)
+				prep_as(Officer/NNP-15,Projects/NNPS-14)
+				prep_at(rejoined/VBD-5,Officer/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was named the Director of Warfare Specialty Programs when NAMI became Naval Aerospace and Operational Medical Institute (NAOMI).	</value>
+
+		<annotated-sentence>	He was named the Director of Warfare Specialty Programs when NAMI became Naval [[Aerospace|Aerospace]] and Operational [[Medical Institute|Medical_Institute,_Osh_State_University]] (NAOMI).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was named the Director of Warfare Specialty Programs when NAMI became Naval Aerospace and Operational Medical Institute (NAOMI).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(named/VBN-3,He/PRP-1)
+				auxpass(named/VBN-3,was/VBD-2)
+				det(Director/NN-5,the/DT-4)
+				dobj(named/VBN-3,Director/NN-5)
+				nn(Programs/NNP-9,Warfare/NNP-7)
+				nn(Programs/NNP-9,Specialty/NNP-8)
+				prep_of(Director/NN-5,Programs/NNP-9)
+				advmod(Aerospace/NNP-14,when/WRB-10)
+				nsubj(Aerospace/NNP-14,NAMI/NNP-11)
+				cop(Aerospace/NNP-14,became/VBD-12)
+				nn(Aerospace/NNP-14,Naval/NNP-13)
+				rcmod(Programs/NNP-9,Aerospace/NNP-14)
+				nn(Institute/NNP-18,Operational/NNP-16)
+				nn(Institute/NNP-18,Medical/NNP-17)
+				rcmod(Programs/NNP-9,Institute/NNP-18)
+				conj_and(Aerospace/NNP-14,Institute/NNP-18)
+				appos(Programs/NNP-9,NAOMI/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_Institute,_Osh_State_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1995, Morin entered the Residency in Aerospace Medicine at the Naval Aerospace and Operational Medical Institute.	</value>
+
+		<annotated-sentence>	In [[1995|1995]], Morin entered [[the Residency|Residency]] in [[Aerospace Medicine|Aviation_medicine]] at the Naval [[Aerospace|Aerospace]] and Operational [[Medical Institute|Medical_Institute,_Osh_State_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1995, Morin entered the Residency in Aerospace Medicine at the Naval Aerospace and Operational Medical Institute.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(entered/VBD-5,1995/CD-2)
+				nsubj(entered/VBD-5,Morin/NNP-4)
+				det(Residency/NNP-7,the/DT-6)
+				dobj(entered/VBD-5,Residency/NNP-7)
+				nn(Medicine/NNP-10,Aerospace/NNP-9)
+				prep_in(entered/VBD-5,Medicine/NNP-10)
+				det(Aerospace/NNP-14,the/DT-12)
+				nn(Aerospace/NNP-14,Naval/NNP-13)
+				prep_at(entered/VBD-5,Aerospace/NNP-14)
+				nn(Institute/NNP-18,Operational/NNP-16)
+				nn(Institute/NNP-18,Medical/NNP-17)
+				prep_at(entered/VBD-5,Institute/NNP-18)
+				conj_and(Aerospace/NNP-14,Institute/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Residency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Residency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation_medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medical Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_Institute,_Osh_State_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed the residency in 1996.	</value>
+
+		<annotated-sentence>	He completed [[the residency|Residency]] in [[1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed the residency in 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				det(residency/NN-4,the/DT-3)
+				dobj(completed/VBD-2,residency/NN-4)
+				prep_in(completed/VBD-2,1996/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the residency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Residency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as an astronaut candidate by NASA in April 1996, Morin reported to the Johnson Space Center in August 1996.	</value>
+
+		<annotated-sentence>	Selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]] in [[April 1996|1996]], [[Morin|Lee_Morin]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[August 1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]] in April 1996, [[Morin|Lee_Morin]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in August 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-13,Selected/VBN-1)
+				det(candidate/NN-5,an/DT-3)
+				nn(candidate/NN-5,astronaut/NN-4)
+				prep_as(Selected/VBN-1,candidate/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,April/NNP-9)
+				num(April/NNP-9,1996/CD-10)
+				nsubj(reported/VBD-13,Morin/NNP-12)
+				det(Center/NNP-18,the/DT-15)
+				nn(Center/NNP-18,Johnson/NNP-16)
+				nn(Center/NNP-18,Space/NNP-17)
+				prep_to(reported/VBD-13,Center/NNP-18)
+				prep_in(reported/VBD-13,August/NNP-20)
+				num(August/NNP-20,1996/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Morin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lee_Morin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Having completed two years of training and evaluation, he is qualified for flight assignment as a mission specialist.	</value>
+
+		<annotated-sentence>	Having completed [[two years|Year]] of [[training and evaluation|Course_evaluation]], he is qualified for [[flight|Flight]] assignment as [[a mission specialist|Mission_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Having completed two years of training and evaluation, he is qualified for flight assignment as a mission specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				aux(completed/VBN-2,Having/VBG-1)
+				partmod(qualified/VBN-12,completed/VBN-2)
+				num(years/NNS-4,two/CD-3)
+				dobj(completed/VBN-2,years/NNS-4)
+				prep_of(years/NNS-4,training/NN-6)
+				prep_of(years/NNS-4,evaluation/NN-8)
+				conj_and(training/NN-6,evaluation/NN-8)
+				nsubjpass(qualified/VBN-12,he/PRP-10)
+				auxpass(qualified/VBN-12,is/VBZ-11)
+				nn(assignment/NN-15,flight/NN-14)
+				prep_for(qualified/VBN-12,assignment/NN-15)
+				det(specialist/NN-19,a/DT-17)
+				nn(specialist/NN-19,mission/NN-18)
+				prep_as(assignment/NN-15,specialist/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training and evaluation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Course_evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Initially assigned technical duties in the Astronaut Office Computer Support Branch, followed by the Astronaut Office Advanced Vehicles Branch.	</value>
+
+		<annotated-sentence>	Initially assigned technical [[duties|Duty]] in the [[Astronaut Office|NASA_Astronaut_Corps]] [[Computer Support|Technical_support]] Branch, followed by the [[Astronaut Office|NASA_Astronaut_Corps]] [[Advanced|Relative_articulation]] [[Vehicles|Vehicles_(album)]] Branch.	</annotated-sentence>
+
+		<pattern_crowdsource>	Initially assigned technical duties in the Astronaut Office Computer Support Branch, followed by the Astronaut Office Advanced Vehicles Branch.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(assigned/VBN-2,Initially/RB-1)
+				amod(duties/NNS-4,technical/JJ-3)
+				dobj(assigned/VBN-2,duties/NNS-4)
+				det(Branch/NNP-11,the/DT-6)
+				nn(Branch/NNP-11,Astronaut/NNP-7)
+				nn(Branch/NNP-11,Office/NNP-8)
+				nn(Branch/NNP-11,Computer/NNP-9)
+				nn(Branch/NNP-11,Support/NN-10)
+				prep_in(duties/NNS-4,Branch/NNP-11)
+				partmod(duties/NNS-4,followed/VBN-13)
+				det(Branch/NNP-20,the/DT-15)
+				nn(Branch/NNP-20,Astronaut/NNP-16)
+				nn(Branch/NNP-20,Office/NNP-17)
+				nn(Branch/NNP-20,Advanced/NNP-18)
+				nn(Branch/NNP-20,Vehicles/NNPS-19)
+				agent(followed/VBN-13,Branch/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Computer Support</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technical_support</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vehicles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicles_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served a one-year tour with the U.S. State Department, where he was Deputy Assistant Secretary for Health, Space, and Science.	</value>
+
+		<annotated-sentence>	He served a one-year tour with [[the U.S. State Department|United_States_Department_of_State]], where he was [[Deputy Assistant|Deputy_assistant_commissioner]] Secretary for Health, Space, and Science.	</annotated-sentence>
+
+		<pattern_crowdsource>	He served a one-year tour with the U.S. State Department, where he was Deputy Assistant Secretary for Health, Space, and Science.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(tour/NN-5,a/DT-3)
+				amod(tour/NN-5,one-year/JJ-4)
+				dobj(served/VBD-2,tour/NN-5)
+				det(Department/NNP-10,the/DT-7)
+				nn(Department/NNP-10,U.S./NNP-8)
+				nn(Department/NNP-10,State/NNP-9)
+				prep_with(served/VBD-2,Department/NNP-10)
+				advmod(Secretary/NNP-17,where/WRB-12)
+				nsubj(Secretary/NNP-17,he/PRP-13)
+				cop(Secretary/NNP-17,was/VBD-14)
+				nn(Secretary/NNP-17,Deputy/NNP-15)
+				nn(Secretary/NNP-17,Assistant/NNP-16)
+				advcl(served/VBD-2,Secretary/NNP-17)
+				prep_for(Secretary/NNP-17,Health/NNP-19)
+				prep_for(Secretary/NNP-17,Space/NNP-21)
+				conj_and(Health/NNP-19,Space/NNP-21)
+				prep_for(Secretary/NNP-17,Science/NNP-24)
+				conj_and(Health/NNP-19,Science/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the U.S. State Department</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Department_of_State</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Deputy Assistant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Deputy_assistant_commissioner</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently assigned to the Exploration Branch of the Astronaut Office.	</value>
+
+		<annotated-sentence>	He is currently assigned to the [[Exploration|Exploration]] Branch of [[the Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently assigned to the Exploration Branch of the Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,is/VBZ-2)
+				advmod(assigned/VBN-4,currently/RB-3)
+				det(Branch/NNP-8,the/DT-6)
+				nn(Branch/NNP-8,Exploration/NN-7)
+				prep_to(assigned/VBN-4,Branch/NNP-8)
+				det(Office/NNP-12,the/DT-10)
+				nn(Office/NNP-12,Astronaut/NNP-11)
+				prep_of(Branch/NNP-8,Office/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is leading the rapid prototyping of the cockpit for the new Orion spacecraft, and is deputy lead of the Orion Cockpit Working Group.	</value>
+
+		<annotated-sentence>	He is leading [[the rapid prototyping|Rapid_prototyping]] of [[the cockpit|Cockpit]] for [[the new Orion spacecraft|Orion_(spacecraft)]], and is deputy [[lead|Lead]] of the [[Orion|Orion_(spacecraft)]] [[Cockpit|Cockpit]] [[Working Group|Working_group]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is leading the rapid prototyping of the cockpit for the new Orion spacecraft, and is deputy lead of the Orion Cockpit Working Group.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(leading/VBG-3,He/PRP-1)
+				aux(leading/VBG-3,is/VBZ-2)
+				det(prototyping/NN-6,the/DT-4)
+				amod(prototyping/NN-6,rapid/JJ-5)
+				dobj(leading/VBG-3,prototyping/NN-6)
+				det(cockpit/NN-9,the/DT-8)
+				prep_of(prototyping/NN-6,cockpit/NN-9)
+				det(spacecraft/NN-14,the/DT-11)
+				amod(spacecraft/NN-14,new/JJ-12)
+				nn(spacecraft/NN-14,Orion/NNP-13)
+				prep_for(cockpit/NN-9,spacecraft/NN-14)
+				cop(lead/NN-19,is/VBZ-17)
+				amod(lead/NN-19,deputy/JJ-18)
+				conj_and(leading/VBG-3,lead/NN-19)
+				det(Group/NNP-25,the/DT-21)
+				nn(Group/NNP-25,Orion/NNP-22)
+				nn(Group/NNP-25,Cockpit/NNP-23)
+				nn(Group/NNP-25,Working/NNP-24)
+				prep_of(lead/NN-19,Group/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the rapid prototyping</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rapid_prototyping</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the cockpit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cockpit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the new Orion spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orion_(spacecraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orion_(spacecraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cockpit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cockpit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Working Group</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Working_group</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Morin served on the EVA crew of STS-110 (2002) and has logged over 259 hours in space, including over 14 EVA hours.	</value>
+
+		<annotated-sentence>	Morin served on the EVA crew of [[STS-110|STS-110]] ([[2002|2002]]) and has logged over 259 [[hours|Hour]] in [[space|Space]], including over 14 EVA [[hours|Hour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Morin served on the EVA crew of [[STS-110|STS-110]] (2002) and has logged over 259 hours in space, including over 14 EVA hours.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Morin/NNP-1)
+				nsubj(logged/VBN-14,Morin/NNP-1)
+				det(crew/NN-6,the/DT-4)
+				nn(crew/NN-6,EVA/NNP-5)
+				prep_on(served/VBD-2,crew/NN-6)
+				prep_of(served/VBD-2,STS-110/NN-8)
+				dep(served/VBD-2,2002/CD-10)
+				aux(logged/VBN-14,has/VBZ-13)
+				conj_and(served/VBD-2,logged/VBN-14)
+				num(hours/NNS-17,259/CD-16)
+				prep_over(logged/VBN-14,hours/NNS-17)
+				prep_in(hours/NNS-17,space/NN-19)
+				prep(served/VBD-2,including/VBG-21)
+				pcomp(including/VBG-21,over/IN-22)
+				num(hours/NNS-25,14/CD-23)
+				nn(hours/NNS-25,EVA/NN-24)
+				pobj(over/IN-22,hours/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-110</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-110</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-110
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-110 Atlantis (April 8–19, 2002) was the 13th Space Shuttle mission to visit the International Space Station.	</value>
+
+		<annotated-sentence>	[[STS-110|STS-110]] [[Atlantis|Space_Shuttle_Atlantis]] ([[April 8|April_8]]–19, [[2002|2002]]) was the 13th [[Space Shuttle|SpaceShuttle]] mission to visit [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-110|STS-110]] [[Atlantis|Space_Shuttle_Atlantis]] (April 8–19, 2002) was the 13th [[Space Shuttle|SpaceShuttle]] mission to visit the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Atlantis/NNP-2,STS-110/JJ-1)
+				nsubj(mission/NN-16,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,April/NNP-4)
+				num(April/NNP-4,8/CD-5)
+				dep(April/NNP-4,19/CD-7)
+				amod(19/CD-7,2002/CD-9)
+				cop(mission/NN-16,was/VBD-11)
+				det(mission/NN-16,the/DT-12)
+				amod(mission/NN-16,13th/JJ-13)
+				nn(mission/NN-16,Space/NN-14)
+				nn(mission/NN-16,Shuttle/NNP-15)
+				aux(visit/VB-18,to/TO-17)
+				infmod(mission/NN-16,visit/VB-18)
+				det(Station/NNP-22,the/DT-19)
+				nn(Station/NNP-22,International/NNP-20)
+				nn(Station/NNP-22,Space/NNP-21)
+				dobj(visit/VB-18,Station/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-110</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-110</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_8</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lee_Morin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-110
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Lee_Morin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle_Atlantis http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SpaceShuttle
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission milestones included: the delivery and installation of the SO (S-Zero) Truss; the first time the station's robotic arm was used to maneuver spacewalkers around the station; and the first time that all of a shuttle crew's spacewalks were based from the station's Quest Airlock.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(milestones/NNS-2,Mission/NNP-1)
+				nsubj(included/VBD-3,milestones/NNS-2)
+				det(delivery/NN-6,the/DT-5)
+				dobj(included/VBD-3,delivery/NN-6)
+				dobj(included/VBD-3,installation/NN-8)
+				conj_and(delivery/NN-6,installation/NN-8)
+				det(SO/NNP-11,the/DT-10)
+				prep_of(delivery/NN-6,SO/NNP-11)
+				appos(delivery/NN-6,S-Zero/NNP-13)
+				dep(delivery/NN-6,Truss/NNPS-15)
+				det(time/NN-19,the/DT-17)
+				amod(time/NN-19,first/JJ-18)
+				dep(Truss/NNPS-15,time/NN-19)
+				det(station/NN-21,the/DT-20)
+				poss(arm/NN-24,station/NN-21)
+				amod(arm/NN-24,robotic/JJ-23)
+				nsubjpass(used/VBN-26,arm/NN-24)
+				auxpass(used/VBN-26,was/VBD-25)
+				rcmod(time/NN-19,used/VBN-26)
+				aux(maneuver/VB-28,to/TO-27)
+				xcomp(used/VBN-26,maneuver/VB-28)
+				dobj(maneuver/VB-28,spacewalkers/NNS-29)
+				det(station/NN-32,the/DT-31)
+				prep_around(maneuver/VB-28,station/NN-32)
+				det(time/NN-37,the/DT-35)
+				amod(time/NN-37,first/JJ-36)
+				dep(Truss/NNPS-15,time/NN-37)
+				conj_and(time/NN-19,time/NN-37)
+				mark(based/VBN-47,that/IN-38)
+				nsubjpass(based/VBN-47,all/DT-39)
+				det(crew/NN-43,a/DT-41)
+				nn(crew/NN-43,shuttle/NN-42)
+				poss(spacewalks/NNS-45,crew/NN-43)
+				prep_of(all/DT-39,spacewalks/NNS-45)
+				auxpass(based/VBN-47,were/VBD-46)
+				dep(time/NN-37,based/VBN-47)
+				det(station/NN-50,the/DT-49)
+				poss(Airlock/NNP-53,station/NN-50)
+				nn(Airlock/NNP-53,Quest/NNP-52)
+				prep_from(based/VBN-47,Airlock/NNP-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Morin performed 2 EVAs totaling 14 hours and 9 minutes.	</value>
+
+		<annotated-sentence>	Morin performed 2 EVAs totaling 14 hours and 9 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Morin performed 2 EVAs totaling 14 hours and 9 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Morin/NNP-1)
+				num(EVAs/NNS-4,2/CD-3)
+				dobj(performed/VBD-2,EVAs/NNS-4)
+				partmod(EVAs/NNS-4,totaling/VBG-5)
+				num(hours/NNS-7,14/CD-6)
+				dobj(totaling/VBG-5,hours/NNS-7)
+				num(minutes/NNS-10,9/CD-9)
+				dobj(totaling/VBG-5,minutes/NNS-10)
+				conj_and(hours/NNS-7,minutes/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew prepared the station for future spacewalks and spent a week in joint operations with the station's Expedition 4 crew.	</value>
+
+		<annotated-sentence>	The crew prepared [[the station|Station]] for future [[spacewalks|Spacewalk_(software)]] and spent a week in [[joint operations|Joint_Operations:_Typhoon_Rising]] with the [[station|Station]]'s [[Expedition|Exploration]] 4 crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew prepared the station for future spacewalks and spent a week in joint operations with the station's Expedition 4 crew.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(prepared/VBD-3,crew/NN-2)
+				nsubj(spent/VBD-10,crew/NN-2)
+				det(station/NN-5,the/DT-4)
+				dobj(prepared/VBD-3,station/NN-5)
+				amod(spacewalks/NNS-8,future/JJ-7)
+				prep_for(prepared/VBD-3,spacewalks/NNS-8)
+				conj_and(prepared/VBD-3,spent/VBD-10)
+				det(week/NN-12,a/DT-11)
+				tmod(spent/VBD-10,week/NN-12)
+				amod(operations/NNS-15,joint/JJ-14)
+				prep_in(spent/VBD-10,operations/NNS-15)
+				det(station/NN-18,the/DT-17)
+				poss(crew/NN-22,station/NN-18)
+				nn(crew/NN-22,Expedition/NN-20)
+				num(crew/NN-22,4/CD-21)
+				prep_with(spent/VBD-10,crew/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>joint operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Operations:_Typhoon_Rising</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 10 days, 19 hours and 42 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 10 days, 19 [[hours|Hour]] and 42 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 10 days, 19 hours and 42 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(days/NNS-5,duration/NN-2)
+				cop(days/NNS-5,was/VBD-3)
+				num(days/NNS-5,10/CD-4)
+				num(hours/NNS-8,19/CD-7)
+				conj_and(days/NNS-5,hours/NNS-8)
+				num(minutes/NNS-11,42/CD-10)
+				conj_and(days/NNS-5,minutes/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This test is an x-ray of a knee, shoulder, hip, wrist, ankle, or other joint.</value>
+		<pattern_crowdsource> This test is an [[x-ray|C0043299]] of a [[knee|C0022742]], [[shoulder|C0037004]], [[hip|C0022122]], [[wrist|C0043262]], [[ankle|C0003086]], or other joint.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shoulder</surface-form>
+				<RDF-ID>C0037004</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hip</surface-form>
+				<RDF-ID>C0022122</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wrist</surface-form>
+				<RDF-ID>C0043262</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ankle</surface-form>
+				<RDF-ID>C0003086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint</surface-form>
+				<RDF-ID>C0392905</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022742 LOCATION_OF C0043299</triple>
+			<triple>C0003086 LOCATION_OF C0043299</triple>
+			<triple>C0043262 LOCATION_OF C0043299</triple>
+			<triple>C0022122 LOCATION_OF C0043299</triple>
+			<triple>C0037004 LOCATION_OF C0043299</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The test is done in a hospital radiology department or in the health care provider's office.</value>
+		<pattern_crowdsource> The [[test|C0039593]] is done in a [[hospital radiology department|C0034600]] or in the health care provider's office.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital radiology department</surface-form>
+				<RDF-ID>C0034600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider's</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>office</surface-form>
+				<RDF-ID>C0442603</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034600 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

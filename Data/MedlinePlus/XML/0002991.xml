@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>If symptoms do occur, they may include stomachache and vomiting, which could reflect the presence of a bowel obstruction (blockage).</value>
+		<pattern_crowdsource> If symptoms do occur, they may include [[stomachache|C0221512]] and [[vomiting|C0042963]], which could reflect the presence of a [[bowel obstruction|C0021843]] (blockage).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomachache</surface-form>
+				<RDF-ID>C0221512</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel obstruction</surface-form>
+				<RDF-ID>C0021843</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042963 COEXISTS_WITH C0021843</triple>
+			<triple>C0221512 COEXISTS_WITH C0021843</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This can cause symptoms such as repeated coughing, chest pain, shortness of breath, or rapid breathing.</value>
+		<pattern_crowdsource> This can cause [[symptoms|C1457887]] such as repeated [[coughing|C0010200]], chest pain, shortness of breath, or rapid breathing.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>repeated</surface-form>
+				<RDF-ID>C0205341</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest pain</surface-form>
+				<RDF-ID>C0008031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shortness</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breath</surface-form>
+				<RDF-ID>C0225386</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rapid breathing</surface-form>
+				<RDF-ID>C0231835</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010200 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>See: Choking  Sometimes, children will place a piece of a pencil in their nose.</value>
+		<pattern_crowdsource> See: [[Choking|C0008301]]  Sometimes, children will place a piece of a pencil in their [[nose|C0028429]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Choking</surface-form>
+				<RDF-ID>C0008301</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pencil</surface-form>
+				<RDF-ID>C0441059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0028429 LOCATION_OF C0008301</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This can cause symptoms such as nose pain and drainage, and breathing problems.</value>
+		<pattern_crowdsource> This can cause [[symptoms|C1457887]] such as [[nose|C0028429]] [[pain|C0030193]] and drainage, and [[breathing problems|C1260922]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drainage</surface-form>
+				<RDF-ID>C0013103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breathing problems</surface-form>
+				<RDF-ID>C1260922</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 ISA C1457887</triple>
+			<triple>C1260922 ISA C1457887</triple>
+			<triple>C0028429 LOCATION_OF C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

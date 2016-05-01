@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your child has epilepsy.</value>
+		<pattern_crowdsource> Your [[child|C0008059]] has [[epilepsy|C0014544]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>epilepsy</surface-form>
+				<RDF-ID>C0014544</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014544 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Children with epilepsy have seizures.</value>
+		<pattern_crowdsource> [[Children|C0008059]] with [[epilepsy|C0014544]] have [[seizures|C0036572]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>epilepsy</surface-form>
+				<RDF-ID>C0014544</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seizures</surface-form>
+				<RDF-ID>C0036572</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014544 PROCESS_OF C0008059</triple>
+			<triple>C0036572 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A seizure is a sudden brief change in the electrical activity in the brain.</value>
+		<pattern_crowdsource> A [[seizure|C0036572]] is a sudden brief change in the electrical activity in the [[brain|C0006104]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>seizure</surface-form>
+				<RDF-ID>C0036572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brief</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>change</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>electrical</surface-form>
+				<RDF-ID>C0442828</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activity</surface-form>
+				<RDF-ID>C0439167</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006104 LOCATION_OF C0036572</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your child may have brief periods of unconsciousness and uncontrollable body movements during seizures.</value>
+		<pattern_crowdsource> Your [[child|C0008059]] may have [[brief periods|C0425946]] of unconsciousness and uncontrollable body movements during seizures.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brief periods</surface-form>
+				<RDF-ID>C0425946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>unconsciousness</surface-form>
+				<RDF-ID>C0041657</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>body movements</surface-form>
+				<RDF-ID>C0026649</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seizures</surface-form>
+				<RDF-ID>C0036572</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0425946 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Will my child need to take medicines during the school day?</value>
+		<pattern_crowdsource> - Will my [[child|C0008059]] need to take [[medicines|C0013227]] during the school day?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Can my child take antibiotics or other medicines also?</value>
+		<pattern_crowdsource> - Can my [[child|C0008059]] take [[antibiotics|C0003232]] or other [[medicines|C0013227]] also?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 ISA C0013227</triple>
+			<triple>C0013227 ISA C0003232</triple>
+			<triple>C0003232 ADMINISTERED_TO C0008059</triple>
+			<triple>C0013227 ADMINISTERED_TO C0008059</triple>
+			<triple>C0003232 ADMINISTERED_TO C0008059</triple>
+			<triple>C0013227 ADMINISTERED_TO C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>How about acetaminophen (Tylenol), vitamins, or herbal remedies?</value>
+		<pattern_crowdsource> How about [[acetaminophen|C0000970]] ([[Tylenol|C0699142]]), vitamins, or herbal remedies?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tylenol</surface-form>
+				<RDF-ID>C0699142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamins</surface-form>
+				<RDF-ID>C0042890</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699142 ISA C0000970</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Will I always be able to tell my child is having a seizure?</value>
+		<pattern_crowdsource> Will I always be able to tell my [[child|C0008059]] is having a [[seizure|C0036572]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>always</surface-form>
+				<RDF-ID>C1549493</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>able</surface-form>
+				<RDF-ID>C1299581</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seizure</surface-form>
+				<RDF-ID>C0036572</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0036572 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What should I do when my child is having a seizure?</value>
+		<pattern_crowdsource> What should I do when my [[child|C0008059]] is having a [[seizure|C0036572]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seizure</surface-form>
+				<RDF-ID>C0036572</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0036572 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

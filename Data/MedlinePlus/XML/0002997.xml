@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Peppermint oil is an oil made from the peppermint plant.</value>
+		<pattern_crowdsource> [[Peppermint oil|C0070325]] is an [[oil|C0028908]] made from the [[peppermint|C0697157]] [[plant|C0032098]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Peppermint oil</surface-form>
+				<RDF-ID>C0070325</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oil</surface-form>
+				<RDF-ID>C0028908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>peppermint</surface-form>
+				<RDF-ID>C0697157</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plant</surface-form>
+				<RDF-ID>C0032098</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0697157 ISA C0032098</triple>
+			<triple>C0070325 ISA C0028908</triple>
+			<triple>C0032098 LOCATION_OF C0028908</triple>
+			<triple>C0697157 LOCATION_OF C0028908</triple>
+			<triple>C0032098 LOCATION_OF C0070325</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

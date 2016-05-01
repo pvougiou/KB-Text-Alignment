@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Anatoly Nikolayevich Berezovoy (???????? ?????????? ?????????) is a former Soviet cosmonaut.	</value>
+
+		<annotated-sentence>	[[Anatoly Nikolayevich Berezovoy|Anatoly_Berezovoy]] (???????? ?????????? ?????????) is a former Soviet [[cosmonaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Anatoly Nikolayevich Berezovoy (???????? ?????????? ?????????) is a former Soviet cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Berezovoy/NNP-3,Anatoly/NNP-1)
+				nn(Berezovoy/NNP-3,Nikolayevich/NNP-2)
+				nsubj(cosmonaut/NN-13,Berezovoy/NNP-3)
+				nn(?????????/NNP-7,????????/NNP-5)
+				nn(?????????/NNP-7,??????????/NNP-6)
+				appos(Berezovoy/NNP-3,?????????/NNP-7)
+				cop(cosmonaut/NN-13,is/VBZ-9)
+				det(cosmonaut/NN-13,a/DT-10)
+				amod(cosmonaut/NN-13,former/JJ-11)
+				amod(cosmonaut/NN-13,Soviet/JJ-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Anatoly Nikolayevich Berezovoy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anatoly_Berezovoy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Berezovoy was born on April 11, 1942 in Enem, Adyghe Autonomous Oblast, Russian SFSR in a Ukrainian family.	</value>
+
+		<annotated-sentence>	[[Berezovoy|Anatoly_Berezovoy]] was born on April 11, 1942 in [[Enem|Exame_Nacional_do_Ensino_M%C3%A9dio]], [[Adyghe Autonomous Oblast|Adyghe_Autonomous_Oblast]], [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]] in a [[Ukrainian|Ukraine]] [[family|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Berezovoy|Anatoly_Berezovoy]] was born on April 11, 1942 in Enem, Adyghe Autonomous Oblast, [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]] in a Ukrainian family.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Berezovoy/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,April/NNP-5)
+				num(April/NNP-5,11/CD-6)
+				num(April/NNP-5,1942/CD-8)
+				nn(Oblast/NNP-14,Enem/NNP-10)
+				appos(Oblast/NNP-14,Adyghe/NNP-12)
+				nn(Oblast/NNP-14,Autonomous/NNP-13)
+				prep_in(April/NNP-5,Oblast/NNP-14)
+				nn(SFSR/NNP-17,Russian/NNP-16)
+				appos(Oblast/NNP-14,SFSR/NNP-17)
+				det(family/NN-21,a/DT-19)
+				amod(family/NN-21,Ukrainian/JJ-20)
+				prep_in(SFSR/NNP-17,family/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Berezovoy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anatoly_Berezovoy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Enem</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exame_Nacional_do_Ensino_M%C3%A9dio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Adyghe Autonomous Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Adyghe_Autonomous_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian SFSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ukrainian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ukraine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anatoly_Berezovoy http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married with two children.	</value>
+
+		<annotated-sentence>	He is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Air Force Academy He was selected as a cosmonaut on April 27, 1970.	</value>
+
+		<annotated-sentence>	He graduated from [[the Air Force Academy|Air_force_academy]] He was selected as a cosmonaut on April 27, 1970.	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the Air Force Academy He was selected as a cosmonaut on April 27, 1970.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				det(Academy/NNP-7,the/DT-4)
+				nn(Academy/NNP-7,Air/NNP-5)
+				nn(Academy/NNP-7,Force/NNP-6)
+				prep_from(graduated/VBD-2,Academy/NNP-7)
+				nsubjpass(selected/VBN-10,He/PRP-8)
+				auxpass(selected/VBN-10,was/VBD-9)
+				ccomp(graduated/VBD-2,selected/VBN-10)
+				det(cosmonaut/NN-13,a/DT-12)
+				prep_as(selected/VBN-10,cosmonaut/NN-13)
+				prep_on(cosmonaut/NN-13,April/NNP-15)
+				num(April/NNP-15,27/CD-16)
+				num(April/NNP-15,1970/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force_academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew as Commander on Soyuz T-5.	</value>
+
+		<annotated-sentence>	He flew as [[Commander|Commander]] on [[Soyuz T-5|Soyuz_T-5]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew as Commander on [[Soyuz T-5|Soyuz_T-5]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				prep(flew/VBD-2,as/RB-3)
+				pobj(as/RB-3,Commander/NNP-4)
+				nn(T-5/NNP-7,Soyuz/NNP-6)
+				prep_on(flew/VBD-2,T-5/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz T-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_T-5</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anatoly_Berezovoy http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_T-5
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired on October 31, 1992 due to medical reasons after injuries he got as a victim of an armed robbery.	</value>
+
+		<annotated-sentence>	He retired on October 31, 1992 due to medical reasons after [[injuries|Injury]] he got as a victim of [[an armed robbery|Robbery]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired on October 31, 1992 due to medical reasons after injuries he got as a victim of an armed robbery.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				prep_on(retired/VBD-2,October/NNP-4)
+				num(October/NNP-4,31/CD-5)
+				num(October/NNP-4,1992/CD-7)
+				acomp(retired/VBD-2,due/JJ-8)
+				amod(reasons/NNS-11,medical/JJ-10)
+				prep_to(retired/VBD-2,reasons/NNS-11)
+				prep_after(retired/VBD-2,injuries/NNS-13)
+				nsubj(got/VBD-15,he/PRP-14)
+				rcmod(injuries/NNS-13,got/VBD-15)
+				det(victim/NN-18,a/DT-17)
+				prep_as(got/VBD-15,victim/NN-18)
+				det(robbery/NN-22,an/DT-20)
+				amod(robbery/NN-22,armed/JJ-21)
+				prep_of(victim/NN-18,robbery/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>injuries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Injury</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an armed robbery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robbery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1992 to 1999, he was a Deputy President Russian Space Federation.	</value>
+
+		<annotated-sentence>	From [[1992|1992]] to [[1999|1999]], he was a [[Deputy President|President]] Russian [[Space|Space]] [[Federation|Federation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1992 to 1999, he was a Deputy President Russian Space Federation.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1999/CD-4,1992/CD-2)
+				dep(1999/CD-4,to/TO-3)
+				prep_from(Federation/NNP-13,1999/CD-4)
+				nsubj(Federation/NNP-13,he/PRP-6)
+				cop(Federation/NNP-13,was/VBD-7)
+				det(Federation/NNP-13,a/DT-8)
+				nn(Federation/NNP-13,Deputy/NNP-9)
+				nn(Federation/NNP-13,President/NNP-10)
+				nn(Federation/NNP-13,Russian/NNP-11)
+				nn(Federation/NNP-13,Space/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Deputy President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Federation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Federation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

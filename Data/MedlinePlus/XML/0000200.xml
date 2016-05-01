@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Amylase is an enzyme that helps digest carbohydrates.</value>
+		<pattern_crowdsource> [[Amylase|C0002712]] is an [[enzyme|C0014442]] that helps digest carbohydrates.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Amylase</surface-form>
+				<RDF-ID>C0002712</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>enzyme</surface-form>
+				<RDF-ID>C0014442</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>carbohydrates</surface-form>
+				<RDF-ID>C0007004</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002712 ISA C0014442</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is done to diagnose pancreatitis and other diseases that affect the pancreas.</value>
+		<pattern_crowdsource> This test is done to diagnose [[pancreatitis|C0030305]] and other [[diseases|C0012634]] that affect the pancreas.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreatitis</surface-form>
+				<RDF-ID>C0030305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030305 ISA C0012634</triple>
+			<triple>C0012634 ISA C0030305</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

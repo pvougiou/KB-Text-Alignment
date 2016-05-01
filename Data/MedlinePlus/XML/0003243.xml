@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Avoid orange juice, grapefruit juice, and other citrus juices if they make the bowel or bladder symptoms worse.</value>
+		<pattern_crowdsource> Avoid [[orange juice|C0452458]], [[grapefruit juice|C0452456]], and other citrus [[juices|C1268568]] if they make the bowel or bladder symptoms worse.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>orange juice</surface-form>
+				<RDF-ID>C0452458</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>grapefruit juice</surface-form>
+				<RDF-ID>C0452456</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>citrus</surface-form>
+				<RDF-ID>C0008865</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>juices</surface-form>
+				<RDF-ID>C1268568</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder symptoms</surface-form>
+				<RDF-ID>C0741548</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>worse</surface-form>
+				<RDF-ID>C1279889</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0452456 ISA C1268568</triple>
+			<triple>C1268568 ISA C0452456</triple>
+			<triple>C1268568 ISA C0452458</triple>
+			<triple>C0452458 ISA C1268568</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You can take over-the-counter diarrhea medicine to treat loose stools.</value>
+		<pattern_crowdsource> You can take over-the-counter diarrhea [[medicine|C0013227]] to treat [[loose stools|C0011991]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>take</surface-form>
+				<RDF-ID>C1515187</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diarrhea</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>loose stools</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0011991</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

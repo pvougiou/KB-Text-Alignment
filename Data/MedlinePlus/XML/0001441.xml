@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Erysipeloid is inflammation of the skin caused by bacteria.</value>
+		<pattern_crowdsource> [[Erysipeloid|C1276801]] is [[inflammation|C0021368]] of the skin caused by [[bacteria|C0004611]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Erysipeloid</surface-form>
+				<RDF-ID>C1276801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1276801 ISA C0021368</triple>
+			<triple>C0004611 CAUSES C0021368</triple>
+			<triple>C0004611 CAUSES C1276801</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

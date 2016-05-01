@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Mark Thomas Vande Hei is a current NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Mark Thomas Vande Hei|Mark_T._Vande_Hei]] is a current [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Mark Thomas Vande Hei|Mark_T._Vande_Hei]] is a current [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-4,Mark/NNP-1)
+				nn(Hei/NNP-4,Thomas/NNP-2)
+				nn(Hei/NNP-4,Vande/NNP-3)
+				nsubj(astronaut/NN-9,Hei/NNP-4)
+				cop(astronaut/NN-9,is/VBZ-5)
+				det(astronaut/NN-9,a/DT-6)
+				amod(astronaut/NN-9,current/JJ-7)
+				nn(astronaut/NN-9,NASA/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mark Thomas Vande Hei</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mark_T._Vande_Hei</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lt. Colonel Vande Hei, U.S. Army, was born in Falls Church, Virginia.	</value>
+
+		<annotated-sentence>	[[Lt. Colonel|Colonel]] [[Vande Hei|Mark_T._Vande_Hei]], U.S. Army, was born in [[Falls Church|Falls_Church,_Virginia]], [[Virginia|Virginia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lt. Colonel [[Vande Hei|Mark_T._Vande_Hei]], U.S. Army, was born in [[Falls Church|Falls_Church,_Virginia]], [[Virginia|Virginia]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-4,Lt./NNP-1)
+				nn(Hei/NNP-4,Colonel/NNP-2)
+				nn(Hei/NNP-4,Vande/NNP-3)
+				nsubjpass(born/VBN-10,Hei/NNP-4)
+				nn(Army/NNP-7,U.S./NNP-6)
+				appos(Hei/NNP-4,Army/NNP-7)
+				auxpass(born/VBN-10,was/VBD-9)
+				nn(Church/NNP-13,Falls/NNP-12)
+				prep_in(born/VBN-10,Church/NNP-13)
+				appos(Church/NNP-13,Virginia/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lt. Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vande Hei</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mark_T._Vande_Hei</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Falls Church</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Falls_Church,_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Falls_Church,_Virginia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Falls_Church,_Virginia http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Virginia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vande Hei graduated from Benilde-St.	</value>
+
+		<annotated-sentence>	Vande Hei graduated from [[Benilde-St|Benilde-St._Margaret's]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Vande Hei graduated from Benilde-St.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-2,Vande/NNP-1)
+				nsubj(graduated/VBD-3,Hei/NNP-2)
+				prep_from(graduated/VBD-3,Benilde-St/JJ-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Benilde-St</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Benilde-St._Margaret's</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Margaret's High School in Saint Louis Park, Minnesota in 1985.	</value>
+
+		<annotated-sentence>	Margaret's High [[School|School]] in [[Saint Louis Park|St._Louis_Park,_Minnesota]], [[Minnesota|Minnesota]] in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Margaret's High School in [[Saint Louis Park|St._Louis_Park,_Minnesota]], [[Minnesota|Minnesota]] in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(School/NNP-4,Margaret/NNP-1)
+				nn(School/NNP-4,High/NNP-3)
+				nn(Park/NNP-8,Saint/NNP-6)
+				nn(Park/NNP-8,Louis/NNP-7)
+				prep_in(School/NNP-4,Park/NNP-8)
+				appos(School/NNP-4,Minnesota/NNP-10)
+				prep_in(Minnesota/NNP-10,1985/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saint Louis Park</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/St._Louis_Park,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Minnesota</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/St._Louis_Park,_Minnesota http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Minnesota
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vande Hei earned a bachelor of arts degree with a major in physics from Saint John's University in 1989 and a master of science in applied physics from Stanford University in 1999.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-2,Vande/NNP-1)
+				nsubj(earned/VBD-3,Hei/NNP-2)
+				det(bachelor/NN-5,a/DT-4)
+				dobj(earned/VBD-3,bachelor/NN-5)
+				nn(degree/NN-8,arts/NNS-7)
+				prep_of(bachelor/NN-5,degree/NN-8)
+				det(major/JJ-11,a/DT-10)
+				prep_with(earned/VBD-3,major/JJ-11)
+				prep_in(major/JJ-11,physics/NNS-13)
+				nn(John/NNP-16,Saint/NNP-15)
+				poss(University/NNP-18,John/NNP-16)
+				prep_from(earned/VBD-3,University/NNP-18)
+				prep_in(University/NNP-18,1989/CD-20)
+				det(master/NN-23,a/DT-22)
+				prep_from(earned/VBD-3,master/NN-23)
+				conj_and(University/NNP-18,master/NN-23)
+				prep_of(master/NN-23,science/NN-25)
+				prepc_in(earned/VBD-3,applied/VBN-27)
+				dobj(applied/VBN-27,physics/NNS-28)
+				nn(University/NNP-31,Stanford/NNP-30)
+				prep_from(applied/VBN-27,University/NNP-31)
+				prep_in(applied/VBN-27,1999/CD-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vande Hei was commissioned in the U.S. Army through the ROTC program in 1989 and became a combat engineer.	</value>
+
+		<annotated-sentence>	Vande Hei was commissioned in the U.S. Army through the ROTC program in [[1989|1989]] and became [[a combat engineer|Combat_engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Vande Hei was commissioned in the U.S. Army through the ROTC program in 1989 and became a combat engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-2,Vande/NNP-1)
+				nsubjpass(commissioned/VBN-4,Hei/NNP-2)
+				auxpass(commissioned/VBN-4,was/VBD-3)
+				det(Army/NNP-8,the/DT-6)
+				nn(Army/NNP-8,U.S./NNP-7)
+				prep_in(commissioned/VBN-4,Army/NNP-8)
+				det(program/NN-12,the/DT-10)
+				nn(program/NN-12,ROTC/NN-11)
+				prep_through(commissioned/VBN-4,program/NN-12)
+				prep_in(program/NN-12,1989/CD-14)
+				cop(engineer/NN-19,became/VBD-16)
+				det(engineer/NN-19,a/DT-17)
+				nn(engineer/NN-19,combat/NN-18)
+				conj_and(commissioned/VBN-4,engineer/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a combat engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After earning his master degree in 1999, he became an assistant professor of physics at the United States Military Academy in West Point.	</value>
+
+		<annotated-sentence>	After earning his master degree in [[1999|1999]], he became an assistant professor of [[physics|Physics]] at [[the United States Military Academy|United_States_Military_Academy]] in [[West Point|United_States_Military_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After earning his master degree in 1999, he became an assistant professor of physics at the United States Military Academy in West Point.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(professor/NN-13,earning/VBG-2)
+				poss(degree/NN-5,his/PRP$-3)
+				nn(degree/NN-5,master/NN-4)
+				dobj(earning/VBG-2,degree/NN-5)
+				prep_in(earning/VBG-2,1999/CD-7)
+				nsubj(professor/NN-13,he/PRP-9)
+				cop(professor/NN-13,became/VBD-10)
+				det(professor/NN-13,an/DT-11)
+				amod(professor/NN-13,assistant/JJ-12)
+				prep_of(professor/NN-13,physics/NNS-15)
+				det(Academy/NNP-21,the/DT-17)
+				nn(Academy/NNP-21,United/NNP-18)
+				nn(Academy/NNP-21,States/NNPS-19)
+				nn(Academy/NNP-21,Military/NNP-20)
+				prep_at(physics/NNS-15,Academy/NNP-21)
+				nn(Point/NNP-24,West/NNP-23)
+				prep_in(professor/NN-13,Point/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Military Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Military_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Military_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2003, he became part of the Army's 1st Space Battalion at Peterson Air Force Base.	</value>
+
+		<annotated-sentence>	In [[2003|2003]], he became part of the [[Army|Army]]'s 1st [[Space|Space]] [[Battalion|Battalion]] at [[Peterson Air Force Base|Peterson_Air_Force_Base]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2003, he became part of the Army's 1st Space Battalion at Peterson Air Force Base.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(part/NN-6,2003/CD-2)
+				nsubj(part/NN-6,he/PRP-4)
+				cop(part/NN-6,became/VBD-5)
+				det(Army/NNP-9,the/DT-8)
+				poss(Battalion/NN-13,Army/NNP-9)
+				num(Battalion/NN-13,1st/CD-11)
+				nn(Battalion/NN-13,Space/NN-12)
+				prep_of(part/NN-6,Battalion/NN-13)
+				nn(Base/NNP-18,Peterson/NNP-15)
+				nn(Base/NNP-18,Air/NNP-16)
+				nn(Base/NNP-18,Force/NNP-17)
+				prep_at(part/NN-6,Base/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2003</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Battalion</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Battalion</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Peterson Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Peterson_Air_Force_Base</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vande Hei served in Iraq in Operation Provide Comfort and Operation Iraqi Freedom.	</value>
+
+		<annotated-sentence>	Vande Hei served in [[Iraq|Iraq]] in [[Operation|Operation_Provide_Comfort]] Provide [[Comfort and Operation|Operation_Provide_Comfort]] [[Iraqi|Iraq]] Freedom.	</annotated-sentence>
+
+		<pattern_crowdsource>	Vande Hei served in [[Iraq|Iraq]] in [[Operation|Operation_Provide_Comfort]] Provide Comfort and [[Operation|Operation_Provide_Comfort]] [[Iraqi|Iraq]] Freedom.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-2,Vande/NNP-1)
+				nsubj(served/VBD-3,Hei/NNP-2)
+				prep_in(served/VBD-3,Iraq/NNP-5)
+				prep_in(served/VBD-3,Operation/NNP-7)
+				ccomp(served/VBD-3,Provide/VB-8)
+				nn(Freedom/NN-13,Comfort/NN-9)
+				conj_and(Comfort/NN-9,Operation/NN-11)
+				nn(Freedom/NN-13,Operation/NN-11)
+				amod(Freedom/NN-13,Iraqi/JJ-12)
+				dobj(Provide/VB-8,Freedom/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Iraq</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Iraq</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Provide_Comfort</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Comfort and Operation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Provide_Comfort</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Iraqi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Iraq</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Operation_Provide_Comfort http://dbpedia.org/ontology/place http://dbpedia.org/resource/Iraq
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Operation_Provide_Comfort http://dbpedia.org/ontology/place http://dbpedia.org/resource/Iraq
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Operation_Provide_Comfort http://dbpedia.org/ontology/place http://dbpedia.org/resource/Iraq
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Operation_Provide_Comfort http://dbpedia.org/ontology/place http://dbpedia.org/resource/Iraq
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Vande Hei began working at Johnson Space Center in 2006 as part of the U.S. Army contingent there.	</value>
+
+		<annotated-sentence>	[[Vande Hei|Mark_T._Vande_Hei]] began working at [[Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[2006|2006]] as part of the [[U.S.|United_States]] [[Army|United_States_Army_Air_Forces]] contingent there.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Vande Hei|Mark_T._Vande_Hei]] began working at Johnson Space Center in 2006 as part of the [[U.S.|United_States]] Army contingent there.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hei/NNP-2,Vande/NNP-1)
+				nsubj(began/VBD-3,Hei/NNP-2)
+				xcomp(began/VBD-3,working/VBG-4)
+				nn(Center/NNP-8,Johnson/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_at(working/VBG-4,Center/NNP-8)
+				prep_in(Center/NNP-8,2006/CD-10)
+				prep_as(working/VBG-4,part/NN-12)
+				det(contingent/NN-17,the/DT-14)
+				nn(contingent/NN-17,U.S./NNP-15)
+				nn(contingent/NN-17,Army/NNP-16)
+				prep_of(part/NN-12,contingent/NN-17)
+				advmod(working/VBG-4,there/RB-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vande Hei</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mark_T._Vande_Hei</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Air_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He works as a communications officer (which is a flight controller responsible for communicating with astronauts in space) for the International Space Station.	</value>
+
+		<annotated-sentence>	He works as [[a communications officer|Central_Communications_Command]] (which is [[a flight controller|Flight_controller]] responsible for communicating with [[astronauts|Astronaut]] in [[space|Space]]) for [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He works as a communications officer (which is a flight controller responsible for communicating with [[astronauts|Astronaut]] in space) for the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(works/VBZ-2,He/PRP-1)
+				det(officer/NN-6,a/DT-4)
+				nn(officer/NN-6,communications/NNS-5)
+				prep_as(works/VBZ-2,officer/NN-6)
+				nsubj(controller/NN-12,which/WDT-8)
+				cop(controller/NN-12,is/VBZ-9)
+				det(controller/NN-12,a/DT-10)
+				nn(controller/NN-12,flight/NN-11)
+				parataxis(works/VBZ-2,controller/NN-12)
+				amod(controller/NN-12,responsible/JJ-13)
+				prepc_for(responsible/JJ-13,communicating/VBG-15)
+				prep_with(communicating/VBG-15,astronauts/NNS-17)
+				prep_in(astronauts/NNS-17,space/NN-19)
+				det(Station/NNP-25,the/DT-22)
+				nn(Station/NNP-25,International/NNP-23)
+				nn(Station/NNP-25,Space/NNP-24)
+				prep_for(works/VBZ-2,Station/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a communications officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Central_Communications_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a flight controller</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2009, Vande Hei was selected as a member of the NASA Astronaut Group 20 and he completed astronaut candidate training in June 2011.	</value>
+
+		<annotated-sentence>	In [[June 2009|June_2009]], [[Vande Hei|Mark_T._Vande_Hei]] was selected as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]] and he completed [[astronaut|Astronaut]] [[candidate|Candidate]] [[training|Training]] in [[June 2011|June_2011]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In June 2009, [[Vande Hei|Mark_T._Vande_Hei]] was selected as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]] and he completed [[astronaut|Astronaut]] candidate training in June 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-8,June/NNP-2)
+				num(June/NNP-2,2009/CD-3)
+				nn(Hei/NNP-6,Vande/NNP-5)
+				nsubjpass(selected/VBN-8,Hei/NNP-6)
+				auxpass(selected/VBN-8,was/VBD-7)
+				det(member/NN-11,a/DT-10)
+				prep_as(selected/VBN-8,member/NN-11)
+				det(Group/NNP-16,the/DT-13)
+				nn(Group/NNP-16,NASA/NNP-14)
+				nn(Group/NNP-16,Astronaut/NNP-15)
+				prep_of(member/NN-11,Group/NNP-16)
+				num(Group/NNP-16,20/CD-17)
+				nsubj(completed/VBD-20,he/PRP-19)
+				conj_and(selected/VBN-8,completed/VBD-20)
+				nn(training/NN-23,astronaut/NN-21)
+				nn(training/NN-23,candidate/NN-22)
+				dobj(completed/VBD-20,training/NN-23)
+				prep_in(training/NN-23,June/NNP-25)
+				num(June/NNP-25,2011/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vande Hei</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mark_T._Vande_Hei</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Group 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_20</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2011</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Mark_T._Vande_Hei http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently eligible for space flight missions, but he has not yet been selected for a mission.	</value>
+
+		<annotated-sentence>	He is currently eligible for space flight missions, but he has not yet been selected for a mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently eligible for space flight missions, but he has not yet been selected for a mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(eligible/JJ-4,He/PRP-1)
+				cop(eligible/JJ-4,is/VBZ-2)
+				advmod(eligible/JJ-4,currently/RB-3)
+				nn(missions/NNS-8,space/NN-6)
+				nn(missions/NNS-8,flight/NN-7)
+				prep_for(eligible/JJ-4,missions/NNS-8)
+				nsubjpass(selected/VBN-16,he/PRP-11)
+				aux(selected/VBN-16,has/VBZ-12)
+				neg(selected/VBN-16,not/RB-13)
+				advmod(selected/VBN-16,yet/RB-14)
+				auxpass(selected/VBN-16,been/VBN-15)
+				conj_but(eligible/JJ-4,selected/VBN-16)
+				det(mission/NN-19,a/DT-18)
+				prep_for(selected/VBN-16,mission/NN-19)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

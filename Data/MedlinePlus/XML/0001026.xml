@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The test compares the creatinine level in urine with the creatinine level in blood.</value>
+		<pattern_crowdsource> The test compares the [[creatinine|C0010294]] level in urine with the [[creatinine|C0010294]] level in [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010294 compared_with C0010294</triple>
+			<triple>C0005767 LOCATION_OF C0010294</triple>
+			<triple>C0005767 LOCATION_OF C0010294</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your health care provider may ask you to temporarily stop any medicines that may affect the test results.</value>
+		<pattern_crowdsource> Your health care provider may ask you to temporarily stop any [[medicines|C0013227]] that may affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>By comparing the creatinine level in urine with the creatinine level in blood, this test estimates the glomerular filtration rate (GFR).</value>
+		<pattern_crowdsource> By comparing the creatinine level in urine with the [[creatinine|C0010294]] level in [[blood|C0005767]], this test estimates the glomerular filtration rate (GFR).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glomerular filtration rate</surface-form>
+				<RDF-ID>C0017654</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0010294</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If kidney function is abnormal, creatinine level increases in the blood because less creatinine is released through the urine.</value>
+		<pattern_crowdsource> If [[kidney function|C0232804]] is abnormal, [[creatinine|C0010294]] level increases in the [[blood|C0005767]] because less creatinine is released through the [[urine|C0042036]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>kidney function</surface-form>
+				<RDF-ID>C0232804</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>creatinine</surface-form>
+				<RDF-ID>C0010294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010294 AUGMENTS C0005767</triple>
+			<triple>C0232804 PRODUCES C0042036</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

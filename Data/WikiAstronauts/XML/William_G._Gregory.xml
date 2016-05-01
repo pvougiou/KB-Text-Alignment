@@ -1,0 +1,1237 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	William George "Borneo" Gregory (born May 14, 1957), is a retired NASA astronaut and United States Air Force lieutenant colonel.	</value>
+
+		<annotated-sentence>	[[William George|William_G._Gregory]] "[[Borneo|Borneo]]" [[Gregory|William_G._Gregory]] (born May 14, 1957), is a retired [[NASA|NASA]] [[astronaut|Astronaut]] and [[United States Air Force|United_States_Air_Force]] lieutenant colonel.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[William George|William_G._Gregory]] "Borneo" [[Gregory|William_G._Gregory]] (born May 14, 1957), is a retired [[NASA|NASA]] [[astronaut|Astronaut]] and [[United States Air Force|United_States_Air_Force]] lieutenant colonel.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Gregory/NNP-6,William/NNP-1)
+				nn(Gregory/NNP-6,George/NNP-2)
+				nn(Gregory/NNP-6,Borneo/NNP-4)
+				nsubj(astronaut/NN-19,Gregory/NNP-6)
+				dep(Gregory/NNP-6,born/VBN-8)
+				tmod(born/VBN-8,May/NNP-9)
+				num(May/NNP-9,14/CD-10)
+				num(May/NNP-9,1957/CD-12)
+				cop(astronaut/NN-19,is/VBZ-15)
+				det(astronaut/NN-19,a/DT-16)
+				amod(astronaut/NN-19,retired/JJ-17)
+				nn(astronaut/NN-19,NASA/NNP-18)
+				nn(colonel/NN-26,United/NNP-21)
+				nn(colonel/NN-26,States/NNP-22)
+				nn(colonel/NN-26,Air/NNP-23)
+				nn(colonel/NN-26,Force/NNP-24)
+				nn(colonel/NN-26,lieutenant/NN-25)
+				conj_and(astronaut/NN-19,colonel/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>William George</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/William_G._Gregory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Borneo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Borneo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gregory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/William_G._Gregory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gregory was born in Lockport, New York and graduated from Lockport High School in 1975.	</value>
+
+		<annotated-sentence>	[[Gregory|Gregory_Hines]] was born in Lockport, [[New York|New_York]] and graduated from Lockport [[High School|High_school]] in [[1975|1975]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Gregory|Gregory_Hines]] was born in Lockport, [[New York|New_York]] and graduated from Lockport High School in 1975.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Gregory/NNP-1)
+				nsubjpass(graduated/VBD-10,Gregory/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Lockport/NNP-5)
+				nn(York/NNP-8,New/NNP-7)
+				appos(Lockport/NNP-5,York/NNP-8)
+				conj_and(born/VBN-3,graduated/VBD-10)
+				nn(School/NNP-14,Lockport/NNP-12)
+				nn(School/NNP-14,High/NNP-13)
+				prep_from(graduated/VBD-10,School/NNP-14)
+				prep_in(School/NNP-14,1975/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gregory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Hines</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/High_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Hines http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is of Albanian origin from the city of Korçë.	</value>
+
+		<annotated-sentence>	He is of [[Albanian origin|Albania_(placename)]] from [[the city|City]] of Korçë.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is of Albanian origin from the city of Korçë.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(is/VBZ-2,He/PRP-1)
+				amod(origin/NN-5,Albanian/JJ-4)
+				prep_of(is/VBZ-2,origin/NN-5)
+				det(city/NN-8,the/DT-7)
+				prep_from(is/VBZ-2,city/NN-8)
+				prep_of(city/NN-8,Korçë/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Albanian origin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Albania_(placename)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the city</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/City</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gregory is an Eagle Scout.	</value>
+
+		<annotated-sentence>	Gregory is an Eagle Scout.	</annotated-sentence>
+
+		<pattern_crowdsource>	Gregory is an Eagle Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scout/NNP-5,Gregory/NNP-1)
+				cop(Scout/NNP-5,is/VBZ-2)
+				det(Scout/NNP-5,an/DT-3)
+				nn(Scout/NNP-5,Eagle/NNP-4)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then attended the United States Air Force Academy, where he graduated with a degree in engineering sciences in 1979.	</value>
+
+		<annotated-sentence>	He then attended [[the United States Air Force Academy|United_States_Air_Force_Academy]], where he graduated with a degree in [[engineering sciences|Engineering_sciences]] in [[1979|1979]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then attended the United States Air Force Academy, where he graduated with a degree in engineering sciences in 1979.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				advmod(attended/VBD-3,then/RB-2)
+				det(Academy/NNP-9,the/DT-4)
+				nn(Academy/NNP-9,United/NNP-5)
+				nn(Academy/NNP-9,States/NNP-6)
+				nn(Academy/NNP-9,Air/NNP-7)
+				nn(Academy/NNP-9,Force/NNP-8)
+				dobj(attended/VBD-3,Academy/NNP-9)
+				advmod(graduated/VBD-13,where/WRB-11)
+				nsubj(graduated/VBD-13,he/PRP-12)
+				rcmod(Academy/NNP-9,graduated/VBD-13)
+				det(degree/NN-16,a/DT-15)
+				prep_with(graduated/VBD-13,degree/NN-16)
+				nn(sciences/NNS-19,engineering/NN-18)
+				prep_in(degree/NN-16,sciences/NNS-19)
+				prep_in(graduated/VBD-13,1979/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering_sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After this, he went to Columbia University to get a master's degree in engineering mechanics (1980), and Troy University to get another master's in management (1984).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(went/VBD-5,this/DT-2)
+				nsubj(went/VBD-5,he/PRP-4)
+				nn(University/NNP-8,Columbia/NNP-7)
+				prep_to(went/VBD-5,University/NNP-8)
+				aux(get/VB-10,to/TO-9)
+				infmod(University/NNP-8,get/VB-10)
+				det(master/NN-12,a/DT-11)
+				poss(degree/NN-14,master/NN-12)
+				dobj(get/VB-10,degree/NN-14)
+				nn(mechanics/NNS-17,engineering/NN-16)
+				prep_in(degree/NN-14,mechanics/NNS-17)
+				appos(University/NNP-8,1980/CD-19)
+				nn(University/NNP-24,Troy/NNP-23)
+				prep_to(went/VBD-5,University/NNP-24)
+				conj_and(University/NNP-8,University/NNP-24)
+				aux(get/VB-26,to/TO-25)
+				infmod(University/NNP-24,get/VB-26)
+				det(master/NN-28,another/DT-27)
+				dobj(get/VB-26,master/NN-28)
+				possessive(master/NN-28,'s/POS-29)
+				prep_in(master/NN-28,management/NN-31)
+				appos(University/NNP-24,1984/CD-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also a member of the USAF Academy Association of Graduates.	</value>
+
+		<annotated-sentence>	He is also a member of the [[USAF Academy|United_States_Air_Force_Academy]] Association of Graduates.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also a member of the USAF Academy Association of Graduates.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,is/VBZ-2)
+				advmod(member/NN-5,also/RB-3)
+				det(member/NN-5,a/DT-4)
+				det(Association/NNP-10,the/DT-7)
+				nn(Association/NNP-10,USAF/NNP-8)
+				nn(Association/NNP-10,Academy/NNP-9)
+				prep_of(member/NN-5,Association/NNP-10)
+				prep_of(Association/NNP-10,Graduates/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>USAF Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Between 1981 and 1986, Gregory served as an operational fighter pilot flying the D and F models of the F-111.	</value>
+
+		<annotated-sentence>	Between 1981 and 1986, Gregory served as an operational [[fighter pilot|Fighter_pilot]] flying the [[D and F|Daniels_&_Fisher_Tower]] [[models|Model]] of [[the F-111|General_Dynamics_F-111_Aardvark]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Between 1981 and 1986, Gregory served as an operational fighter pilot flying the D and F models of the F-111.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_between(served/VBD-7,1981/CD-2)
+				conj_and(1981/CD-2,1986/CD-4)
+				prep_between(served/VBD-7,1986/CD-4)
+				nsubj(served/VBD-7,Gregory/NNP-6)
+				det(pilot/NN-12,an/DT-9)
+				amod(pilot/NN-12,operational/JJ-10)
+				nn(pilot/NN-12,fighter/NN-11)
+				prep_as(served/VBD-7,pilot/NN-12)
+				partmod(pilot/NN-12,flying/VBG-13)
+				det(models/NNS-18,the/DT-14)
+				nn(models/NNS-18,D/NN-15)
+				conj_and(D/NN-15,F/NN-17)
+				nn(models/NNS-18,F/NN-17)
+				dobj(flying/VBG-13,models/NNS-18)
+				det(F-111/NN-21,the/DT-20)
+				prep_of(models/NNS-18,F-111/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>D and F</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daniels_&_Fisher_Tower</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>models</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-111_Aardvark</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In this capacity, he served as an instructor pilot at RAF Lakenheath, UK, and Cannon Air Force Base (AFB), New Mexico.	</value>
+
+		<annotated-sentence>	In this capacity, he served as an instructor pilot at [[RAF Lakenheath|RAF_Lakenheath]], UK, and [[Cannon Air Force Base|Cannon_Air_Force_Base]] ([[AFB|Cannon_Air_Force_Base]]), [[New Mexico|New_Mexico]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In this capacity, he served as an instructor pilot at RAF Lakenheath, UK, and Cannon Air Force Base (AFB), New Mexico.	</pattern_crowdsource>
+
+
+		<tree>
+				det(capacity/NN-3,this/DT-2)
+				prep_in(served/VBD-6,capacity/NN-3)
+				nsubj(served/VBD-6,he/PRP-5)
+				det(pilot/NN-10,an/DT-8)
+				nn(pilot/NN-10,instructor/NN-9)
+				prep_as(served/VBD-6,pilot/NN-10)
+				nn(Lakenheath/NNP-13,RAF/NNP-12)
+				prep_at(served/VBD-6,Lakenheath/NNP-13)
+				prep_at(served/VBD-6,UK/NNP-15)
+				conj_and(Lakenheath/NNP-13,UK/NNP-15)
+				nn(Base/NNP-21,Cannon/NNP-18)
+				nn(Base/NNP-21,Air/NNP-19)
+				nn(Base/NNP-21,Force/NNP-20)
+				prep_at(served/VBD-6,Base/NNP-21)
+				conj_and(Lakenheath/NNP-13,Base/NNP-21)
+				appos(Base/NNP-21,AFB/NNP-23)
+				nn(Mexico/NNP-27,New/NNP-26)
+				appos(Base/NNP-21,Mexico/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>RAF Lakenheath</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RAF_Lakenheath</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cannon Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cannon_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cannon_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Mexico</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended the USAF Test Pilot School in 1987.	</value>
+
+		<annotated-sentence>	He attended [[the USAF Test Pilot School|U.S._Air_Force_Test_Pilot_School]] in [[1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended the USAF Test Pilot School in 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				det(School/NNP-7,the/DT-3)
+				nn(School/NNP-7,USAF/NNP-4)
+				nn(School/NNP-7,Test/NNP-5)
+				nn(School/NNP-7,Pilot/NN-6)
+				dobj(attended/VBD-2,School/NNP-7)
+				prep_in(School/NNP-7,1987/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the USAF Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Between 1988 and 1990 Gregory served as a test pilot at Edwards AFB flying the F-4, A-7D, and all five models of the F-15.	</value>
+
+		<annotated-sentence>	Between 1988 and 1990 Gregory served as [[a test pilot|Test_pilot]] at [[Edwards AFB|Edwards_Air_Force_Base]] flying the F-4, [[A-7D|LTV_A-7_Corsair_II]], and [[all five models|Model]] of the F-15.	</annotated-sentence>
+
+		<pattern_crowdsource>	Between 1988 and 1990 Gregory served as [[a test pilot|Test_pilot]] at Edwards AFB flying the F-4, A-7D, and all five models of the F-15.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_between(served/VBD-6,1988/CD-2)
+				conj_and(1988/CD-2,1990/CD-4)
+				prep_between(served/VBD-6,1990/CD-4)
+				nsubj(served/VBD-6,Gregory/NNP-5)
+				det(pilot/NN-10,a/DT-8)
+				nn(pilot/NN-10,test/NN-9)
+				prep_as(served/VBD-6,pilot/NN-10)
+				nn(AFB/NNP-13,Edwards/NNP-12)
+				prep_at(served/VBD-6,AFB/NNP-13)
+				partmod(AFB/NNP-13,flying/VBG-14)
+				det(F-4/NN-16,the/DT-15)
+				dobj(flying/VBG-14,F-4/NN-16)
+				dobj(flying/VBG-14,A-7D/NN-18)
+				conj_and(F-4/NN-16,A-7D/NN-18)
+				det(models/NNS-23,all/DT-21)
+				num(models/NNS-23,five/CD-22)
+				dobj(flying/VBG-14,models/NNS-23)
+				conj_and(F-4/NN-16,models/NNS-23)
+				det(F-15/NNP-26,the/DT-25)
+				prep_of(models/NNS-23,F-15/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>A-7D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/LTV_A-7_Corsair_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>all five models</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Having flown in excess of 40 types of aircraft, Gregory has accumulated over 5,000 hours of flight time.	</value>
+
+		<annotated-sentence>	Having flown in excess of 40 types of [[aircraft|Aircraft]], Gregory has accumulated over [[5,000|5,000,000]] [[hours|Hour]] of [[flight time|Herbert_%22Flight_Time%22_Lang]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Having flown in excess of 40 types of aircraft, Gregory has accumulated over 5,000 hours of flight time.	</pattern_crowdsource>
+
+
+		<tree>
+				aux(flown/VBN-2,Having/VBG-1)
+				partmod(accumulated/VBN-13,flown/VBN-2)
+				prep_in(flown/VBN-2,excess/NN-4)
+				num(types/NNS-7,40/CD-6)
+				prep_of(excess/NN-4,types/NNS-7)
+				prep_of(types/NNS-7,aircraft/NN-9)
+				nsubj(accumulated/VBN-13,Gregory/NNP-11)
+				aux(accumulated/VBN-13,has/VBZ-12)
+				num(hours/NNS-16,5,000/CD-15)
+				prep_over(accumulated/VBN-13,hours/NNS-16)
+				nn(time/NN-19,flight/NN-18)
+				prep_of(hours/NNS-16,time/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Herbert_%22Flight_Time%22_Lang</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in January 1990, Gregory became an astronaut in July 1991.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[January 1990|1990]], Gregory became [[an astronaut|Astronaut]] in [[July 1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in January 1990, Gregory became [[an astronaut|Astronaut]] in July 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-11,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,January/NNP-5)
+				num(January/NNP-5,1990/CD-6)
+				nsubj(astronaut/NN-11,Gregory/NNP-8)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				prep_in(astronaut/NN-11,July/NNP-13)
+				num(July/NNP-13,1991/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gregory's technical assignments included: Shuttle Avionics Integration Laboratory (SAIL); astronaut office representative for Landing/Rollout, T-38 Flying Safety; Kennedy Space Center Astronaut Support Personnel (ASP); spacecraft communicator (CAPCOM) in mission control; astronaut office representative for rendezvous and proximity operations; and Spacecraft Operations Branch Chief.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-4,Gregory/NNP-1)
+				amod(assignments/NNS-4,technical/JJ-3)
+				nsubj(included/VBD-5,assignments/NNS-4)
+				nn(Laboratory/NN-10,Shuttle/NNP-7)
+				nn(Laboratory/NN-10,Avionics/NNP-8)
+				nn(Laboratory/NN-10,Integration/NN-9)
+				dobj(included/VBD-5,Laboratory/NN-10)
+				appos(Laboratory/NN-10,SAIL/NN-12)
+				nn(representative/NN-17,astronaut/NN-15)
+				nn(representative/NN-17,office/NN-16)
+				dep(Laboratory/NN-10,representative/NN-17)
+				nn(Safety/NNP-23,Landing/Rollout/NNP-19)
+				appos(Safety/NNP-23,T-38/NNP-21)
+				nn(Safety/NNP-23,Flying/NNP-22)
+				prep_for(representative/NN-17,Safety/NNP-23)
+				nn(Center/NNP-27,Kennedy/NNP-25)
+				nn(Center/NNP-27,Space/NNP-26)
+				dep(Laboratory/NN-10,Center/NNP-27)
+				conj_and(representative/NN-17,Center/NNP-27)
+				nn(Personnel/NNP-30,Astronaut/NNP-28)
+				nn(Personnel/NNP-30,Support/NN-29)
+				dep(Center/NNP-27,Personnel/NNP-30)
+				appos(Personnel/NNP-30,ASP/NNP-32)
+				nn(communicator/NN-36,spacecraft/NN-35)
+				dep(Laboratory/NN-10,communicator/NN-36)
+				conj_and(representative/NN-17,communicator/NN-36)
+				appos(communicator/NN-36,CAPCOM/NN-38)
+				nn(control/NN-42,mission/NN-41)
+				prep_in(communicator/NN-36,control/NN-42)
+				nn(representative/NN-46,astronaut/NN-44)
+				nn(representative/NN-46,office/NN-45)
+				dep(Laboratory/NN-10,representative/NN-46)
+				conj_and(representative/NN-17,representative/NN-46)
+				nn(operations/NNS-51,rendezvous/NN-48)
+				conj_and(rendezvous/NN-48,proximity/NN-50)
+				nn(operations/NNS-51,proximity/NN-50)
+				prep_for(representative/NN-46,operations/NNS-51)
+				nn(Chief/NNP-57,Spacecraft/NNP-54)
+				nn(Chief/NNP-57,Operations/NNP-55)
+				nn(Chief/NNP-57,Branch/NNP-56)
+				dep(Laboratory/NN-10,Chief/NNP-57)
+				conj_and(representative/NN-17,Chief/NNP-57)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on STS-67 (1995) and has logged 400 hours in space.	</value>
+
+		<annotated-sentence>	He flew on [[STS-67|STS-67]] ([[1995|1995]]) and has logged 400 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on [[STS-67|STS-67]] (1995) and has logged 400 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nsubj(logged/VBN-10,He/PRP-1)
+				prep_on(flew/VBD-2,STS-67/NN-4)
+				appos(STS-67/NN-4,1995/CD-6)
+				aux(logged/VBN-10,has/VBZ-9)
+				conj_and(flew/VBD-2,logged/VBN-10)
+				num(hours/NNS-12,400/CD-11)
+				dobj(logged/VBN-10,hours/NNS-12)
+				prep_in(hours/NNS-12,space/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-67</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-67</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-67
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-67 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/William_G._Gregory
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-67 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/William_G._Gregory
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gregory retired from the Air Force and left NASA in the Summer of 1999.	</value>
+
+		<annotated-sentence>	Gregory retired from [[the Air Force|Air_force]] and left [[NASA|NASA]] in [[the Summer|Summer]] of [[1999|1999]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Gregory retired from the Air Force and left [[NASA|NASA]] in the Summer of 1999.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Gregory/NNP-1)
+				nsubj(left/VBD-8,Gregory/NNP-1)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_from(retired/VBD-2,Force/NNP-6)
+				conj_and(retired/VBD-2,left/VBD-8)
+				dobj(left/VBD-8,NASA/NNP-9)
+				det(Summer/NN-12,the/DT-11)
+				prep_in(left/VBD-8,Summer/NN-12)
+				prep_of(Summer/NN-12,1999/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Summer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Summer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He currently serves as Vice President of Business Development for Qwaltec, Inc. in Tempe, Arizona.	</value>
+
+		<annotated-sentence>	He currently serves as [[Vice President|Vice_president]] of [[Business Development|Business_development]] for Qwaltec, Inc. in [[Tempe , Arizona|Tempe,_Arizona]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He currently serves as Vice President of Business Development for Qwaltec, Inc. in Tempe, Arizona.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(serves/VBZ-3,He/PRP-1)
+				advmod(serves/VBZ-3,currently/RB-2)
+				nn(President/NNP-6,Vice/NNP-5)
+				prep_as(serves/VBZ-3,President/NNP-6)
+				nn(Development/NNP-9,Business/NNP-8)
+				prep_of(President/NNP-6,Development/NNP-9)
+				nn(Inc./NNP-13,Qwaltec/NNP-11)
+				prep_for(Development/NNP-9,Inc./NNP-13)
+				nn(Arizona/NNP-17,Tempe/NNP-15)
+				prep_in(serves/VBZ-3,Arizona/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Business Development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business_development</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tempe , Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tempe,_Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gregory served as the STS-67 pilot on the seven-person astronomical research mission aboard the Space Shuttle Endeavour.	</value>
+
+		<annotated-sentence>	Gregory served as the [[STS-67|STS-67]] pilot on the seven-person astronomical [[research|Research]] mission aboard [[the Space Shuttle Endeavour|Space_Shuttle_Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Gregory served as the [[STS-67|STS-67]] pilot on the seven-person astronomical research mission aboard the Space Shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Gregory/NNP-1)
+				det(pilot/NN-6,the/DT-4)
+				nn(pilot/NN-6,STS-67/NN-5)
+				prep_as(served/VBD-2,pilot/NN-6)
+				det(mission/NN-12,the/DT-8)
+				amod(astronomical/JJ-10,seven-person/JJ-9)
+				amod(mission/NN-12,astronomical/JJ-10)
+				nn(mission/NN-12,research/NN-11)
+				prep_on(pilot/NN-6,mission/NN-12)
+				det(Endeavour/NNP-17,the/DT-14)
+				nn(Endeavour/NNP-17,Space/NN-15)
+				nn(Endeavour/NNP-17,Shuttle/NNP-16)
+				prep_aboard(served/VBD-2,Endeavour/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-67</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-67</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/William_G._Gregory http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-67
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-67 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/William_G._Gregory
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-67 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/William_G._Gregory
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Launching from the Kennedy Space Center on March 2, 1995, and landing at Edwards AFB on March 18, 1995, the crew established a new mission duration record of 16 days, 15 hours, 8 minutes and 46 seconds, while completing 262 orbits and traveling nearly seven million miles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(established/VBD-26,Launching/VBG-1)
+				det(Center/NNP-6,the/DT-3)
+				nn(Center/NNP-6,Kennedy/NNP-4)
+				nn(Center/NNP-6,Space/NNP-5)
+				prep_from(Launching/VBG-1,Center/NNP-6)
+				prep_on(Center/NNP-6,March/NNP-8)
+				num(March/NNP-8,2/CD-9)
+				num(March/NNP-8,1995/CD-11)
+				prep_on(Center/NNP-6,landing/NN-14)
+				conj_and(March/NNP-8,landing/NN-14)
+				nn(AFB/NNP-17,Edwards/NNP-16)
+				prep_at(Launching/VBG-1,AFB/NNP-17)
+				prep_on(AFB/NNP-17,March/NNP-19)
+				num(March/NNP-19,18/CD-20)
+				num(March/NNP-19,1995/CD-22)
+				det(crew/NN-25,the/DT-24)
+				nsubj(established/VBD-26,crew/NN-25)
+				det(record/NN-31,a/DT-27)
+				amod(record/NN-31,new/JJ-28)
+				nn(record/NN-31,mission/NN-29)
+				nn(record/NN-31,duration/NN-30)
+				dobj(established/VBD-26,record/NN-31)
+				num(days/NNS-34,16/CD-33)
+				prep_of(record/NN-31,days/NNS-34)
+				num(hours/NNS-37,15/CD-36)
+				prep_of(record/NN-31,hours/NNS-37)
+				conj_and(days/NNS-34,hours/NNS-37)
+				num(minutes/NNS-40,8/CD-39)
+				prep_of(record/NN-31,minutes/NNS-40)
+				conj_and(days/NNS-34,minutes/NNS-40)
+				num(seconds/NNS-43,46/CD-42)
+				prep_of(record/NN-31,seconds/NNS-43)
+				conj_and(days/NNS-34,seconds/NNS-43)
+				mark(completing/VBG-46,while/IN-45)
+				advcl(established/VBD-26,completing/VBG-46)
+				num(orbits/NNS-48,262/CD-47)
+				dobj(completing/VBG-46,orbits/NNS-48)
+				advcl(established/VBD-26,traveling/VBG-50)
+				conj_and(completing/VBG-46,traveling/VBG-50)
+				quantmod(million/CD-53,nearly/RB-51)
+				number(million/CD-53,seven/CD-52)
+				num(miles/NNS-54,million/CD-53)
+				dobj(traveling/VBG-50,miles/NNS-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This second flight of the ASTRO telescope primary payload also included numerous secondary payloads.	</value>
+
+		<annotated-sentence>	This second [[flight|Flight]] of the ASTRO [[telescope|A_Million_Lights]] primary payload also included numerous secondary payloads.	</annotated-sentence>
+
+		<pattern_crowdsource>	This second flight of the ASTRO telescope primary payload also included numerous secondary payloads.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,This/DT-1)
+				amod(flight/NN-3,second/JJ-2)
+				nsubj(included/VBD-11,flight/NN-3)
+				det(payload/NN-9,the/DT-5)
+				nn(payload/NN-9,ASTRO/NNP-6)
+				nn(payload/NN-9,telescope/NN-7)
+				amod(payload/NN-9,primary/JJ-8)
+				prep_of(flight/NN-3,payload/NN-9)
+				advmod(included/VBD-11,also/RB-10)
+				amod(payloads/NNS-14,numerous/JJ-12)
+				amod(payloads/NNS-14,secondary/JJ-13)
+				dobj(included/VBD-11,payloads/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/A_Million_Lights</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

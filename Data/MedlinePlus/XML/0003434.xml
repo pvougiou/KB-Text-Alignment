@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>It is then watched to see if bacteria or other disease-causing organisms grow.</value>
+		<pattern_crowdsource> It is then watched to see if [[bacteria|C0004611]] or other disease-causing [[organisms|C0029235]] grow.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease-causing</surface-form>
+				<RDF-ID>C1314792</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organisms</surface-form>
+				<RDF-ID>C0029235</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 ISA C0029235</triple>
+			<triple>C0029235 ISA C0004611</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The test helps identify the bacteria or other type of germs that are causing an infection in the lungs or airways (bronchi).</value>
+		<pattern_crowdsource> The test helps identify the [[bacteria|C0004611]] or other type of germs that are causing an [[infection|C0009450]] in the [[lungs|C0024109]] or airways (bronchi).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>airways</surface-form>
+				<RDF-ID>C0178987</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bronchi</surface-form>
+				<RDF-ID>C0006255</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 CAUSES C0009450</triple>
+			<triple>C0024109 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

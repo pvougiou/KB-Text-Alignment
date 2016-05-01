@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Infectious myringitis is an infection that causes painful blisters on the eardrum (tympanum).</value>
+		<pattern_crowdsource> [[Infectious myringitis|C0238297]] is an [[infection|C0009450]] that causes [[painful|C0030193]] [[blisters|C0005758]] on the [[eardrum|C0041445]] (tympanum).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Infectious myringitis</surface-form>
+				<RDF-ID>C0238297</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>painful</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blisters</surface-form>
+				<RDF-ID>C0005758</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eardrum</surface-form>
+				<RDF-ID>C0041445</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tympanum</surface-form>
+				<RDF-ID>C0242255</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005758 ISA C0030193</triple>
+			<triple>C0238297 ISA C0009450</triple>
+			<triple>C0009450 CAUSES C0005758</triple>
+			<triple>C0041445 LOCATION_OF C0005758</triple>
+			<triple>C0238297 CAUSES C0005758</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Dental x-rays are a type of image of the teeth and mouth.</value>
+		<pattern_crowdsource> [[Dental x-rays|C0034575]] are a type of [[image|C0025086]] of the [[teeth|C0040426]] and [[mouth|C1278910]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Dental x-rays</surface-form>
+				<RDF-ID>C0034575</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>image</surface-form>
+				<RDF-ID>C0025086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>teeth</surface-form>
+				<RDF-ID>C0040426</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034575 ISA C0025086</triple>
+			<triple>C0040426 LOCATION_OF C0025086</triple>
+			<triple>C1278910 LOCATION_OF C0025086</triple>
+			<triple>C0040426 LOCATION_OF C0034575</triple>
+			<triple>C1278910 LOCATION_OF C0034575</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>X-rays are a form of high energy electromagnetic radiation.</value>
+		<pattern_crowdsource> [[X-rays|C0043309]] are a form of high [[energy|C0542479]] [[electromagnetic radiation|C0034519]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>X-rays</surface-form>
+				<RDF-ID>C0043309</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>form</surface-form>
+				<RDF-ID>C1522492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>energy</surface-form>
+				<RDF-ID>C0542479</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>electromagnetic radiation</surface-form>
+				<RDF-ID>C0034519</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034519 ISA C0542479</triple>
+			<triple>C0043309 ISA C0034519</triple>
+			<triple>C0542479 PROCESS_OF C0034519</triple>
+			<triple>C0034519 PROCESS_OF C0034519</triple>
+			<triple>C0542479 PROCESS_OF C0043309</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Dental x-rays help diagnose disease and injury of the teeth and gums.</value>
+		<pattern_crowdsource> [[Dental x-rays|C0034575]] help diagnose [[disease|C0012634]] and [[injury|C0175677]] of the [[teeth|C0040426]] and [[gums|C0017562]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Dental x-rays</surface-form>
+				<RDF-ID>C0034575</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>teeth</surface-form>
+				<RDF-ID>C0040426</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gums</surface-form>
+				<RDF-ID>C0017562</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034575 DIAGNOSES C0012634</triple>
+			<triple>C0034575 DIAGNOSES C0175677</triple>
+			<triple>C0040426 LOCATION_OF C0175677</triple>
+			<triple>C0040426 LOCATION_OF C0012634</triple>
+			<triple>C0017562 LOCATION_OF C0175677</triple>
+			<triple>C0017562 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Dental x-rays can reveal dental cavities (tooth decay) before they are visible, even to the dentist.</value>
+		<pattern_crowdsource> [[Dental x-rays|C0034575]] can reveal [[dental cavities|C0011334]] (tooth decay) before they are visible, even to the dentist.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Dental x-rays</surface-form>
+				<RDF-ID>C0034575</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dental cavities</surface-form>
+				<RDF-ID>C0011334</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tooth decay</surface-form>
+				<RDF-ID>C0011334</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>visible</surface-form>
+				<RDF-ID>C0205379</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dentist</surface-form>
+				<RDF-ID>C0011441</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034575 DIAGNOSES C0011334</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

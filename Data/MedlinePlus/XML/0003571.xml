@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This test is done to tell if a person has abnormal hemoglobin that causes sickle cell disease and sickle cell trait.</value>
+		<pattern_crowdsource> This test is done to tell if a [[person|C0027361]] has [[abnormal hemoglobin|C0349705]] that causes sickle cell disease and sickle cell trait.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal hemoglobin</surface-form>
+				<RDF-ID>C0349705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sickle cell disease</surface-form>
+				<RDF-ID>C0002895</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sickle cell trait</surface-form>
+				<RDF-ID>C0037054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0349705 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Hemoglobin is a protein in red blood cells that carries oxygen.</value>
+		<pattern_crowdsource> [[Hemoglobin|C0019046]] is a [[protein|C0033684]] in red blood cells that carries oxygen.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Hemoglobin</surface-form>
+				<RDF-ID>C0019046</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019046 ISA C0033684</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>It is done by a radiologist using x-ray.</value>
+		<pattern_crowdsource> It is done by a [[radiologist|C0260194]] using [[x-ray|C0043299]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>radiologist</surface-form>
+				<RDF-ID>C0260194</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043299 ADMINISTERED_TO C0260194</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A radiologist is a doctor who uses imaging techniques to diagnose and treat diseases.</value>
+		<pattern_crowdsource> A [[radiologist|C0260194]] is a [[doctor|C0031831]] who uses [[imaging techniques|C0079595]] to diagnose and treat diseases.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>radiologist</surface-form>
+				<RDF-ID>C0260194</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>imaging techniques</surface-form>
+				<RDF-ID>C0079595</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0260194 ISA C0031831</triple>
+			<triple>C0079595 ADMINISTERED_TO C0031831</triple>
+			<triple>C0079595 ADMINISTERED_TO C0260194</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>During the procedure:  - The doctor inserts a catheter (a flexible tube) through your skin into a vein in your neck.</value>
+		<pattern_crowdsource> During the procedure:  - The doctor inserts a catheter (a flexible tube) through your skin into a [[vein|C0042449]] in your [[neck|C0027530]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flexible</surface-form>
+				<RDF-ID>C0443220</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tube</surface-form>
+				<RDF-ID>C1561954</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin</surface-form>
+				<RDF-ID>C0037267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027530 LOCATION_OF C0042449</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Using an x-ray machine, the doctor guides the catheter into a vein in your liver.</value>
+		<pattern_crowdsource> - Using an [[x-ray machine|C0182605]], the doctor guides the catheter into a vein in your [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>x-ray machine</surface-form>
+				<RDF-ID>C0182605</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023884 LOCATION_OF C0182605</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- The doctor uses the stent to connect your portal vein to one of your hepatic veins.</value>
+		<pattern_crowdsource> - The [[doctor|C0031831]] uses the [[stent|C0038257]] to connect your portal vein to one of your hepatic veins.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stent</surface-form>
+				<RDF-ID>C0038257</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>portal vein</surface-form>
+				<RDF-ID>C1305775</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hepatic veins</surface-form>
+				<RDF-ID>C0019155</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031831 USES C0038257</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It will ease pressure on the veins of your stomach, esophagus, intestines, and liver.</value>
+		<pattern_crowdsource> It will ease pressure on the [[veins|C0042449]] of your [[stomach|C0038351]], [[esophagus|C0014876]], [[intestines|C0021853]], and [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pressure</surface-form>
+				<RDF-ID>C0234222</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>veins</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach</surface-form>
+				<RDF-ID>C0038351</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagus</surface-form>
+				<RDF-ID>C0014876</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042449 PART_OF C0038351</triple>
+			<triple>C0042449 PART_OF C0023884</triple>
+			<triple>C0042449 PART_OF C0021853</triple>
+			<triple>C0042449 PART_OF C0014876</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Common causes of portal hypertension are:  - Alcohol use  - Blood clots in a vein that flows from the liver to the heart  - Too much iron in the liver (hemochromatosis)  - Hepatitis B or hepatitis C   When portal hypertension occurs, you may have:  - Bleeding from veins of the stomach, esophagus, or intestines (variceal bleeding)  - Buildup of fluid in the belly (ascites)  - Buildup of fluid in the chest (hydrothorax)    This procedure allows blood to flow better in your liver, stomach, esophagus, and intestines, and then back to your heart.</value>
+		<pattern_crowdsource> Common causes of portal hypertension are:  - Alcohol use  - [[Blood clots|C0302148]] in a [[vein|C0042449]] that flows from the [[liver|C0023884]] to the heart  - Too much [[iron|C0302583]] in the [[liver|C0023884]] (hemochromatosis)  - Hepatitis B or hepatitis C   When portal hypertension occurs, you may have:  - [[Bleeding|C0019080]] from [[veins|C0042449]] of the stomach, [[esophagus|C0014876]], or [[intestines|C0021853]] (variceal bleeding)  - Buildup of fluid in the belly (ascites)  - Buildup of fluid in the [[chest|C0817096]] (hydrothorax)    This procedure allows blood to flow better in your [[liver|C0023884]], stomach, esophagus, and intestines, and then back to your heart.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>portal hypertension</surface-form>
+				<RDF-ID>C0020541</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Alcohol use</surface-form>
+				<RDF-ID>C0001948</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flows</surface-form>
+				<RDF-ID>C0806140</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>iron</surface-form>
+				<RDF-ID>C0302583</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hemochromatosis</surface-form>
+				<RDF-ID>C0018995</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hepatitis B</surface-form>
+				<RDF-ID>C0019163</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hepatitis C</surface-form>
+				<RDF-ID>C0019196</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>portal hypertension</surface-form>
+				<RDF-ID>C0020541</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>veins</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagus</surface-form>
+				<RDF-ID>C0014876</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>variceal</surface-form>
+				<RDF-ID>C0042345</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fluid</surface-form>
+				<RDF-ID>C0302908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ascites</surface-form>
+				<RDF-ID>C0003962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fluid</surface-form>
+				<RDF-ID>C0302908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrothorax</surface-form>
+				<RDF-ID>C0020312</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flow</surface-form>
+				<RDF-ID>C0806140</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>better</surface-form>
+				<RDF-ID>C0332272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagus</surface-form>
+				<RDF-ID>C0014876</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042449 LOCATION_OF C0302148</triple>
+			<triple>C0023884 LOCATION_OF C0302148</triple>
+			<triple>C0023884 LOCATION_OF C0302583</triple>
+			<triple>C0042449 LOCATION_OF C0019080</triple>
+			<triple>C0817096 LOCATION_OF C0021853</triple>
+			<triple>C0817096 LOCATION_OF C0014876</triple>
+			<triple>C0023884 LOCATION_OF C0019080</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Possible risks with this procedure are:  - Damage to blood vessels  - Fever  - Hepatic encephalopathy (a disorder that affects concentration, mental function, and memory, and may lead to coma)  - Infection, bruising, or bleeding  - Reactions to medicines or the dye  - Stiffness, bruising, or soreness in the neck    Rare risks are:  - Bleeding in the belly  - Blockage in the stent  - Cutting of blood vessels in the liver  - Heart problems or abnormal heart rhythms  - Infection of the stent</value>
+		<pattern_crowdsource> Possible risks with this procedure are:  - Damage to blood vessels  - Fever  - Hepatic encephalopathy (a [[disorder|C0012634]] that affects concentration, mental function, and memory, and may lead to [[coma|C0009421]])  - [[Infection|C0009450]], bruising, or [[bleeding|C0019080]]  - Reactions to medicines or the dye  - Stiffness, bruising, or soreness in the [[neck|C0027530]]    Rare risks are:  - [[Bleeding|C0019080]] in the belly  - Blockage in the stent  - Cutting of blood vessels in the liver  - [[Heart problems|C0795691]] or abnormal heart rhythms  - Infection of the stent		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Possible</surface-form>
+				<RDF-ID>C0332149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hepatic encephalopathy</surface-form>
+				<RDF-ID>C0019151</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorder</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mental function</surface-form>
+				<RDF-ID>C0563143</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>memory</surface-form>
+				<RDF-ID>C0025260</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coma</surface-form>
+				<RDF-ID>C0009421</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Reactions</surface-form>
+				<RDF-ID>C0443286</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dye</surface-form>
+				<RDF-ID>C0013343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Stiffness</surface-form>
+				<RDF-ID>C0427008</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soreness</surface-form>
+				<RDF-ID>C0234233</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stent</surface-form>
+				<RDF-ID>C0038257</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cutting</surface-form>
+				<RDF-ID>C0152060</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Heart problems</surface-form>
+				<RDF-ID>C0795691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart rhythms</surface-form>
+				<RDF-ID>C0232187</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stent</surface-form>
+				<RDF-ID>C0038257</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 CAUSES C0009421</triple>
+			<triple>C0027530 LOCATION_OF C0019080</triple>
+			<triple>C0027530 LOCATION_OF C0009450</triple>
+			<triple>C0019080 COEXISTS_WITH C0795691</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may ask you to have these tests:  - Blood tests (complete blood count, electrolytes, and kidney tests)  - Chest x-ray or EKG   Tell your heath care provider:  - If you are or could be pregnant  - Any medicines you are taking, even drugs, supplements, or herbs you bought without a prescription (your doctor may ask you to stop taking blood thinners like aspirin, heparin, or warfarin a few days before the procedure)    On the day of your procedure:  - DO NOT eat or drink anything after midnight the night before the procedure.</value>
+		<pattern_crowdsource> Your doctor may ask you to have these tests:  - [[Blood tests|C0018941]] ([[complete blood count|C0009555]], electrolytes, and kidney tests)  - Chest x-ray or EKG   Tell your heath care provider:  - If you are or could be pregnant  - Any medicines you are taking, even drugs, supplements, or herbs you bought without a prescription (your doctor may ask you to stop taking blood thinners like aspirin, heparin, or warfarin a few days before the procedure)    On the day of your procedure:  - DO NOT eat or drink anything after midnight the night before the procedure.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blood tests</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>complete blood count</surface-form>
+				<RDF-ID>C0009555</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>electrolytes</surface-form>
+				<RDF-ID>C0013832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney</surface-form>
+				<RDF-ID>C1148126</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Chest x-ray</surface-form>
+				<RDF-ID>C0039985</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EKG</surface-form>
+				<RDF-ID>C0013798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herbs</surface-form>
+				<RDF-ID>C0019240</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prescription</surface-form>
+				<RDF-ID>C0033080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood thinners</surface-form>
+				<RDF-ID>C0003280</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heparin</surface-form>
+				<RDF-ID>C0019134</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>warfarin</surface-form>
+				<RDF-ID>C0043031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>few</surface-form>
+				<RDF-ID>C0205388</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>day</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>midnight</surface-form>
+				<RDF-ID>C0332172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>night</surface-form>
+				<RDF-ID>C0439552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009555 ISA C0018941</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

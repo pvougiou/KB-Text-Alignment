@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>- You then drink a solution containing glucose (sugar).</value>
+		<pattern_crowdsource> - You then drink a solution containing [[glucose|C0017725]] ([[sugar|C0242209]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>solution</surface-form>
+				<RDF-ID>C0037633</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>containing</surface-form>
+				<RDF-ID>C0332256</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017725 ISA C0242209</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may also be told to stop taking medicines that can affect the test results.</value>
+		<pattern_crowdsource> You may also be told to stop taking [[medicines|C0013227]] that can affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines include glucocorticoids such as prednisone, hydrocortisone, or dexamethasone.</value>
+		<pattern_crowdsource> These medicines include [[glucocorticoids|C0017710]] such as [[prednisone|C0032952]], [[hydrocortisone|C0020268]], or [[dexamethasone|C0011777]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucocorticoids</surface-form>
+				<RDF-ID>C0017710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prednisone</surface-form>
+				<RDF-ID>C0032952</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrocortisone</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dexamethasone</surface-form>
+				<RDF-ID>C0011777</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032952 ISA C0017710</triple>
+			<triple>C0011777 ISA C0017710</triple>
+			<triple>C0020268 ISA C0017710</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your health care provider may have you take a medicine called alpha-1- blocker.</value>
+		<pattern_crowdsource> Your [[health care provider|C0018724]] may have you take a [[medicine|C0013227]] called alpha-1- blocker.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alpha-1- blocker</surface-form>
+				<RDF-ID>C0001641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Ask your provider about taking Sildenafil (Viagra), vardenafil (Levitra), and tadalafil (Cialis) with alpha-1- blockers.</value>
+		<pattern_crowdsource> - Ask your [[provider|C1441436]] about taking [[Sildenafil|C0529793]] ([[Viagra|C0663448]]), [[vardenafil|C0971579]] ([[Levitra|C1174890]]), and [[tadalafil|C1176316]] ([[Cialis|C0967376]]) with [[alpha-1- blockers|C0001641]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sildenafil</surface-form>
+				<RDF-ID>C0529793</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Viagra</surface-form>
+				<RDF-ID>C0663448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vardenafil</surface-form>
+				<RDF-ID>C0971579</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Levitra</surface-form>
+				<RDF-ID>C1174890</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tadalafil</surface-form>
+				<RDF-ID>C1176316</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cialis</surface-form>
+				<RDF-ID>C0967376</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alpha-1- blockers</surface-form>
+				<RDF-ID>C0001641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0663448 ISA C0529793</triple>
+			<triple>C1174890 ISA C0971579</triple>
+			<triple>C0967376 ISA C1176316</triple>
+			<triple>C1441436 USES C0001641</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other drugs such as finasteride and dutasteride may also be prescribed.</value>
+		<pattern_crowdsource> Other [[drugs|C0013227]] such as [[finasteride|C0060389]] and [[dutasteride|C0754659]] may also be prescribed.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>finasteride</surface-form>
+				<RDF-ID>C0060389</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dutasteride</surface-form>
+				<RDF-ID>C0754659</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0060389 ISA C0013227</triple>
+			<triple>C0754659 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

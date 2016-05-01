@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Pratiwi Pujilestari Sudarmono (born July 31, 1952 in Bandung) is an Indonesian scientist.	</value>
+
+		<annotated-sentence>	[[Pratiwi|Prithvi]] Pujilestari [[Sudarmono|Pratiwi_Sudarmono]] (born [[July|July]] 31, 1952 in [[Bandung|Bandung]]) is an [[Indonesian|Indonesia]] [[scientist|Scientist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Pratiwi Pujilestari [[Sudarmono|Pratiwi_Sudarmono]] (born July 31, 1952 in [[Bandung|Bandung]]) is an [[Indonesian|Indonesia]] scientist.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Sudarmono/NNP-3,Pratiwi/NNP-1)
+				nn(Sudarmono/NNP-3,Pujilestari/NNP-2)
+				nsubj(scientist/NN-16,Sudarmono/NNP-3)
+				dep(Sudarmono/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,July/NNP-6)
+				num(July/NNP-6,31/CD-7)
+				num(July/NNP-6,1952/CD-9)
+				prep_in(born/VBN-5,Bandung/NNP-11)
+				cop(scientist/NN-16,is/VBZ-13)
+				det(scientist/NN-16,an/DT-14)
+				amod(scientist/NN-16,Indonesian/JJ-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Pratiwi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Prithvi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sudarmono</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pratiwi_Sudarmono</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bandung</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bandung</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Indonesian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indonesia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Scientist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Pratiwi_Sudarmono http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Bandung
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bandung http://dbpedia.org/ontology/country http://dbpedia.org/resource/Indonesia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Pratiwi_Sudarmono http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Indonesia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is currently professor of microbiology at the University of Indonesia, Jakarta.	</value>
+
+		<annotated-sentence>	She is currently [[professor|Professor]] of [[microbiology|Microbiology]] at [[the University|University]] of Indonesia, Jakarta.	</annotated-sentence>
+
+		<pattern_crowdsource>	She is currently professor of microbiology at the University of Indonesia, Jakarta.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(professor/NN-4,She/PRP-1)
+				cop(professor/NN-4,is/VBZ-2)
+				advmod(professor/NN-4,currently/RB-3)
+				prep_of(professor/NN-4,microbiology/NN-6)
+				det(University/NNP-9,the/DT-8)
+				prep_at(microbiology/NN-6,University/NNP-9)
+				nn(Jakarta/NNP-13,Indonesia/NNP-11)
+				prep_of(University/NNP-9,Jakarta/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>microbiology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microbiology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Pratiwi Sudarmono received a Master's degree from the University of Indonesia in 1977, and the Ph.D. in Molecular Biology from the University of Osaka, Japan, in 1984.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Sudarmono/NNP-2,Pratiwi/NNP-1)
+				nsubj(received/VBD-3,Sudarmono/NNP-2)
+				det(Master/NN-5,a/DT-4)
+				poss(degree/NN-7,Master/NN-5)
+				dobj(received/VBD-3,degree/NN-7)
+				det(University/NNP-10,the/DT-9)
+				prep_from(received/VBD-3,University/NNP-10)
+				prep_of(University/NNP-10,Indonesia/NNP-12)
+				prep_in(Indonesia/NNP-12,1977/CD-14)
+				det(Ph.D./NNP-18,the/DT-17)
+				prep_of(University/NNP-10,Ph.D./NNP-18)
+				conj_and(Indonesia/NNP-12,Ph.D./NNP-18)
+				amod(Biology/NN-21,Molecular/JJ-20)
+				prep_in(Ph.D./NNP-18,Biology/NN-21)
+				det(University/NNP-24,the/DT-23)
+				prep_from(received/VBD-3,University/NNP-24)
+				nn(Japan/NNP-28,Osaka/NNP-26)
+				prep_of(University/NNP-24,Japan/NNP-28)
+				prep_in(received/VBD-3,1984/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She then started her scientific career as WHO grantee researching the molecular biology of Salmonella typhi.	</value>
+
+		<annotated-sentence>	She then started her scientific [[career|Career]] as WHO grantee researching [[the molecular biology|Molecular_biology]] of [[Salmonella typhi|Salmonella_enterica_enterica]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She then started her scientific career as WHO grantee researching the molecular biology of Salmonella typhi.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(started/VBD-3,She/PRP-1)
+				advmod(started/VBD-3,then/RB-2)
+				poss(career/NN-6,her/PRP$-4)
+				amod(career/NN-6,scientific/JJ-5)
+				dobj(started/VBD-3,career/NN-6)
+				nsubj(grantee/VBP-9,WHO/WP-8)
+				prepc_as(started/VBD-3,grantee/VBP-9)
+				xcomp(grantee/VBP-9,researching/VBG-10)
+				det(biology/NN-13,the/DT-11)
+				amod(biology/NN-13,molecular/JJ-12)
+				dobj(researching/VBG-10,biology/NN-13)
+				nn(typhi/FW-16,Salmonella/FW-15)
+				prep_of(biology/NN-13,typhi/FW-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the molecular biology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Molecular_biology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Salmonella typhi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Salmonella_enterica_enterica</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1994 to 2000, she was head of the Department of Microbiology of the Medical Faculty of the University of Indonesia.	</value>
+
+		<annotated-sentence>	From [[1994|1994]] to [[2000|2000]], she was head of the Department of [[Microbiology|Microbiology]] of [[the Medical Faculty|Medical_school]] of [[the University of Indonesia|University_of_Indonesia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1994 to 2000, she was head of the Department of Microbiology of the Medical Faculty of the University of Indonesia.	</pattern_crowdsource>
+
+
+		<tree>
+				num(2000/CD-4,1994/CD-2)
+				dep(2000/CD-4,to/TO-3)
+				prep_from(head/NN-8,2000/CD-4)
+				nsubj(head/NN-8,she/PRP-6)
+				cop(head/NN-8,was/VBD-7)
+				det(Department/NNP-11,the/DT-10)
+				prep_of(head/NN-8,Department/NNP-11)
+				prep_of(Department/NNP-11,Microbiology/NNP-13)
+				det(Faculty/NNP-17,the/DT-15)
+				nn(Faculty/NNP-17,Medical/NNP-16)
+				prep_of(Microbiology/NNP-13,Faculty/NNP-17)
+				det(University/NNP-20,the/DT-19)
+				prep_of(Faculty/NNP-17,University/NNP-20)
+				prep_of(University/NNP-20,Indonesia/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microbiology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microbiology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Medical Faculty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Indonesia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Indonesia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 2001 to 2002, she was a scholar in the Fulbright New Century Scholars Program.	</value>
+
+		<annotated-sentence>	From [[2001|2001]] to [[2002|2002]], she was a scholar in the Fulbright [[New Century|New_Century]] Scholars Program.	</annotated-sentence>
+
+		<pattern_crowdsource>	From 2001 to 2002, she was a scholar in the Fulbright New Century Scholars Program.	</pattern_crowdsource>
+
+
+		<tree>
+				num(2002/CD-4,2001/CD-2)
+				dep(2002/CD-4,to/TO-3)
+				prep_from(scholar/NN-9,2002/CD-4)
+				nsubj(scholar/NN-9,she/PRP-6)
+				cop(scholar/NN-9,was/VBD-7)
+				det(scholar/NN-9,a/DT-8)
+				det(Program/NNP-16,the/DT-11)
+				nn(Program/NNP-16,Fulbright/NNP-12)
+				nn(Program/NNP-16,New/NNP-13)
+				nn(Program/NNP-16,Century/NNP-14)
+				nn(Program/NNP-16,Scholars/NNPS-15)
+				prep_in(scholar/NN-9,Program/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Century</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Century</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In October 1985, she was selected to take part in the NASA Space Shuttle mission STS-61-H as a Payload Specialist.	</value>
+
+		<annotated-sentence>	In [[October 1985|1985]], she was selected to take part in the [[NASA|NASA]] [[Space Shuttle|SpaceShuttle]] [[mission|Lyndon_B._Johnson_Space_Center]] [[STS-61-H|STS-61-H]] as [[a Payload Specialist|Payload_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In October 1985, she was selected to take part in the [[NASA|NASA]] Space Shuttle [[mission|Lyndon_B._Johnson_Space_Center]] [[STS-61-H|STS-61-H]] as a Payload Specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,October/NNP-2)
+				num(October/NNP-2,1985/CD-3)
+				nsubjpass(selected/VBN-7,she/PRP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				aux(take/VB-9,to/TO-8)
+				xcomp(selected/VBN-7,take/VB-9)
+				dobj(take/VB-9,part/NN-10)
+				det(STS-61-H/NN-17,the/DT-12)
+				nn(STS-61-H/NN-17,NASA/NNP-13)
+				nn(STS-61-H/NN-17,Space/NNP-14)
+				nn(STS-61-H/NN-17,Shuttle/NNP-15)
+				nn(STS-61-H/NN-17,mission/NN-16)
+				prep_in(take/VB-9,STS-61-H/NN-17)
+				det(Specialist/NNP-21,a/DT-19)
+				nn(Specialist/NNP-21,Payload/NNP-20)
+				prep_as(STS-61-H/NN-17,Specialist/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-H</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-H</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Pratiwi_Sudarmono http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-H
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-H http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Pratiwi_Sudarmono
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-H http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Pratiwi_Sudarmono
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Taufik Akbar was her backup on the mission.	</value>
+
+		<annotated-sentence>	[[Taufik Akbar|Taufik_Akbar]] was [[her backup|Backup]] on the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	Taufik Akbar was her backup on the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Akbar/NNP-2,Taufik/NNP-1)
+				nsubj(backup/NN-5,Akbar/NNP-2)
+				cop(backup/NN-5,was/VBD-3)
+				poss(backup/NN-5,her/PRP$-4)
+				det(mission/NN-8,the/DT-7)
+				prep_on(backup/NN-5,mission/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Taufik Akbar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Taufik_Akbar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	However, after the Challenger disaster the deployment of commercial satellites like the Indonesian Palapa B-3 planned for the STS-61-H mission was canceled, thus the mission never took place.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(canceled/VBN-23,However/RB-1)
+				det(disaster/NN-6,the/DT-4)
+				nn(disaster/NN-6,Challenger/NNP-5)
+				prep_after(canceled/VBN-23,disaster/NN-6)
+				det(deployment/NN-8,the/DT-7)
+				nsubjpass(canceled/VBN-23,deployment/NN-8)
+				amod(satellites/NNS-11,commercial/JJ-10)
+				prep_of(deployment/NN-8,satellites/NNS-11)
+				det(B-3/NN-16,the/DT-13)
+				amod(B-3/NN-16,Indonesian/JJ-14)
+				nn(B-3/NN-16,Palapa/NN-15)
+				prep_like(satellites/NNS-11,B-3/NN-16)
+				partmod(B-3/NN-16,planned/VBN-17)
+				det(mission/NN-21,the/DT-19)
+				nn(mission/NN-21,STS-61-H/NN-20)
+				prep_for(planned/VBN-17,mission/NN-21)
+				auxpass(canceled/VBN-23,was/VBD-22)
+				advmod(canceled/VBN-23,thus/RB-25)
+				det(mission/NN-27,the/DT-26)
+				nsubj(took/VBD-29,mission/NN-27)
+				neg(took/VBD-29,never/RB-28)
+				ccomp(canceled/VBN-23,took/VBD-29)
+				dobj(took/VBD-29,place/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The satellite was later launched with a Delta rocket.	</value>
+
+		<annotated-sentence>	[[The satellite|The_Satellite]] was later launched with [[a Delta rocket|Delta_(rocket_family)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The satellite was later launched with a Delta rocket.	</pattern_crowdsource>
+
+
+		<tree>
+				det(satellite/NN-2,The/DT-1)
+				nsubjpass(launched/VBN-5,satellite/NN-2)
+				auxpass(launched/VBN-5,was/VBD-3)
+				advmod(launched/VBN-5,later/RB-4)
+				det(rocket/NN-9,a/DT-7)
+				nn(rocket/NN-9,Delta/NNP-8)
+				prep_with(launched/VBN-5,rocket/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Delta rocket</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Delta_(rocket_family)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,2380 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jon Andrew McBride is retired United States Navy officer and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	Jon Andrew McBride is retired [[United States Navy|United_States_Navy]] officer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jon Andrew McBride is retired [[United States Navy|United_States_Navy]] officer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McBride/NNP-3,Jon/NNP-1)
+				nn(McBride/NNP-3,Andrew/NNP-2)
+				nsubjpass(retired/VBN-5,McBride/NNP-3)
+				auxpass(retired/VBN-5,is/VBZ-4)
+				nn(officer/NN-9,United/NNP-6)
+				nn(officer/NN-9,States/NNPS-7)
+				nn(officer/NN-9,Navy/NNP-8)
+				dobj(retired/VBN-5,officer/NN-9)
+				det(astronaut/NN-14,a/DT-11)
+				amod(astronaut/NN-14,former/JJ-12)
+				nn(astronaut/NN-14,NASA/NNP-13)
+				dobj(retired/VBN-5,astronaut/NN-14)
+				conj_and(officer/NN-9,astronaut/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jon McBride was born August 14, 1943, in Charleston, West Virginia, but considers Beckley, West Virginia, to be his hometown.	</value>
+
+		<annotated-sentence>	Jon McBride was born August 14, 1943, in Charleston, [[West Virginia|West_Virginia]], but considers [[Beckley|Raleigh_County,_West_Virginia]], [[West Virginia|West_Virginia]], to be [[his hometown|Hometown,_West_Virginia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jon McBride was born August 14, 1943, in Charleston, [[West Virginia|West_Virginia]], but considers Beckley, [[West Virginia|West_Virginia]], to be [[his hometown|Hometown,_West_Virginia]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McBride/NNP-2,Jon/NNP-1)
+				nsubjpass(born/VBN-4,McBride/NNP-2)
+				nsubj(considers/VBZ-17,McBride/NNP-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				tmod(born/VBN-4,August/NNP-5)
+				num(August/NNP-5,14/CD-6)
+				num(August/NNP-5,1943/CD-8)
+				prep_in(born/VBN-4,Charleston/NNP-11)
+				nn(Virginia/NNP-14,West/NNP-13)
+				appos(Charleston/NNP-11,Virginia/NNP-14)
+				conj_but(born/VBN-4,considers/VBZ-17)
+				nsubj(hometown/NN-26,Beckley/NNP-18)
+				nn(Virginia/NNP-21,West/NNP-20)
+				appos(Beckley/NNP-18,Virginia/NNP-21)
+				aux(hometown/NN-26,to/TO-23)
+				cop(hometown/NN-26,be/VB-24)
+				poss(hometown/NN-26,his/PRP$-25)
+				xcomp(considers/VBZ-17,hometown/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>West Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Beckley</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Raleigh_County,_West_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his hometown</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hometown,_West_Virginia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/West_Virginia http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/West_Virginia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/West_Virginia http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/West_Virginia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Hometown,_West_Virginia http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/West_Virginia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Hometown,_West_Virginia http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/West_Virginia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Woodrow Wilson High School, Beckley, West Virginia in 1960, then attended West Virginia University 1960-1964 and received a Bachelor of Science degree in Aeronautical Engineering from the U.S. Naval Postgraduate School in 1971.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				ccomp(attended/VBD-17,graduated/VBD-2)
+				nn(School/NNP-7,Woodrow/NNP-4)
+				nn(School/NNP-7,Wilson/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nsubj(attended/VBD-17,Beckley/NNP-9)
+				nsubj(received/VBD-23,Beckley/NNP-9)
+				nn(Virginia/NNP-12,West/NNP-11)
+				appos(Beckley/NNP-9,Virginia/NNP-12)
+				prep_in(Virginia/NNP-12,1960/CD-14)
+				advmod(attended/VBD-17,then/RB-16)
+				nn(Virginia/NNP-19,West/NNP-18)
+				dobj(attended/VBD-17,Virginia/NNP-19)
+				tmod(attended/VBD-17,University/NNP-20)
+				num(University/NNP-20,1960-1964/CD-21)
+				conj_and(attended/VBD-17,received/VBD-23)
+				det(Bachelor/NN-25,a/DT-24)
+				dobj(received/VBD-23,Bachelor/NN-25)
+				nn(degree/NN-28,Science/NNP-27)
+				prep_of(Bachelor/NN-25,degree/NN-28)
+				nn(Engineering/NNP-31,Aeronautical/NNP-30)
+				prep_in(received/VBD-23,Engineering/NNP-31)
+				det(School/NNP-37,the/DT-33)
+				nn(School/NNP-37,U.S./NNP-34)
+				nn(School/NNP-37,Naval/NNP-35)
+				nn(School/NNP-37,Postgraduate/NNP-36)
+				prep_from(Engineering/NNP-31,School/NNP-37)
+				prep_in(received/VBD-23,1971/CD-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He did graduate work in Human Resource Management at Pepperdine University.	</value>
+
+		<annotated-sentence>	He did graduate [[work|Work]] in [[Human Resource Management|Human_resource_management]] at [[Pepperdine University|Pepperdine_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He did graduate work in Human Resource Management at [[Pepperdine University|Pepperdine_University]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(did/VBD-2,He/PRP-1)
+				amod(work/NN-4,graduate/JJ-3)
+				dobj(did/VBD-2,work/NN-4)
+				amod(Management/NNP-8,Human/JJ-6)
+				nn(Management/NNP-8,Resource/NNP-7)
+				prep_in(did/VBD-2,Management/NNP-8)
+				nn(University/NNP-11,Pepperdine/NNP-10)
+				prep_at(did/VBD-2,University/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Human Resource Management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_resource_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pepperdine University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pepperdine_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/property/almaMater http://dbpedia.org/resource/Pepperdine_University
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jon is a member of the Phi Delta Theta Fraternity.	</value>
+
+		<annotated-sentence>	Jon is a member of [[the Phi Delta Theta Fraternity|Phi_Delta_Theta]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jon is a member of the Phi Delta Theta Fraternity.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Jon/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(Fraternity/NNP-10,the/DT-6)
+				nn(Fraternity/NNP-10,Phi/NNP-7)
+				nn(Fraternity/NNP-10,Delta/NNP-8)
+				nn(Fraternity/NNP-10,Theta/NNP-9)
+				prep_of(member/NN-4,Fraternity/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Phi Delta Theta Fraternity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phi_Delta_Theta</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McBride's naval service began in 1965 with flight training at Pensacola, Florida.	</value>
+
+		<annotated-sentence>	McBride's naval service began in [[1965|1965_(album)]] with [[flight training|Flight_training]] at [[Pensacola , Florida|Pensacola,_Florida]]	</annotated-sentence>
+
+		<pattern_crowdsource>	McBride's naval service began in 1965 with flight training at Pensacola, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(service/NN-4,McBride/NNP-1)
+				amod(service/NN-4,naval/JJ-3)
+				nsubj(began/VBD-5,service/NN-4)
+				prep_in(began/VBD-5,1965/CD-7)
+				nn(training/NN-10,flight/NN-9)
+				prep_with(began/VBD-5,training/NN-10)
+				nn(Florida/NNP-14,Pensacola/NNP-12)
+				prep_at(training/NN-10,Florida/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1965</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1965_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pensacola , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pensacola,_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After being designated a Naval Aviator and receiving his wings, he was assigned to Fighter Squadron 101 (VF-101) based at Naval Air Station Oceana, Virginia, for training in the F-4 Phantom II aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				auxpass(designated/VBN-3,being/VBG-2)
+				prepc_after(assigned/VBN-14,designated/VBN-3)
+				det(Aviator/NNP-6,a/DT-4)
+				nn(Aviator/NNP-6,Naval/NNP-5)
+				dobj(designated/VBN-3,Aviator/NNP-6)
+				conj_and(designated/VBN-3,receiving/VBG-8)
+				prepc_after(assigned/VBN-14,receiving/VBG-8)
+				poss(wings/NNS-10,his/PRP$-9)
+				dobj(receiving/VBG-8,wings/NNS-10)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				nn(Squadron/NNP-17,Fighter/NNP-16)
+				prep_to(assigned/VBN-14,Squadron/NNP-17)
+				num(Squadron/NNP-17,101/CD-18)
+				appos(Squadron/NNP-17,VF-101/NN-20)
+				partmod(Squadron/NNP-17,based/VBN-22)
+				nn(Oceana/NNP-27,Naval/NNP-24)
+				nn(Oceana/NNP-27,Air/NNP-25)
+				nn(Oceana/NNP-27,Station/NNP-26)
+				prep_at(based/VBN-22,Oceana/NNP-27)
+				appos(Oceana/NNP-27,Virginia/NNP-29)
+				prep_for(based/VBN-22,training/NN-32)
+				det(aircraft/NN-38,the/DT-34)
+				nn(aircraft/NN-38,F-4/NN-35)
+				nn(aircraft/NN-38,Phantom/NNP-36)
+				nn(aircraft/NN-38,II/NNP-37)
+				prep_in(training/NN-32,aircraft/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was subsequently assigned to Fighter Squadron 41 (VF-41) where he served 3 years as a fighter pilot and division officer.	</value>
+
+		<annotated-sentence>	He was subsequently assigned to [[Fighter Squadron|Fighter_Squadron]] 41 ([[VF-41|VFA-41]]) where he served [[3 years|3_Years,_5_Months_&_2_Days_in_the_Life_Of...]] as [[a fighter pilot|Fighter_pilot]] and division [[officer|Officer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was subsequently assigned to Fighter Squadron 41 (VF-41) where he served 3 years as [[a fighter pilot|Fighter_pilot]] and division officer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,subsequently/RB-3)
+				nn(Squadron/NNP-7,Fighter/NNP-6)
+				prep_to(assigned/VBN-4,Squadron/NNP-7)
+				num(Squadron/NNP-7,41/CD-8)
+				appos(Squadron/NNP-7,VF-41/NN-10)
+				advmod(served/VBD-14,where/WRB-12)
+				nsubj(served/VBD-14,he/PRP-13)
+				rcmod(Squadron/NNP-7,served/VBD-14)
+				num(years/NNS-16,3/CD-15)
+				tmod(served/VBD-14,years/NNS-16)
+				det(pilot/NN-20,a/DT-18)
+				nn(pilot/NN-20,fighter/NN-19)
+				prep_as(served/VBD-14,pilot/NN-20)
+				nn(officer/NN-23,division/NN-22)
+				prep_as(served/VBD-14,officer/NN-23)
+				conj_and(pilot/NN-20,officer/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VF-41</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VFA-41</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>3 years</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3_Years,_5_Months_&_2_Days_in_the_Life_Of...</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Fighter_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also served tours with VF-11 and VF-103.	</value>
+
+		<annotated-sentence>	He has also served tours with [[VF-11 and VF-103|VFA-103]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has also served tours with VF-11 and VF-103.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-4,He/PRP-1)
+				aux(served/VBN-4,has/VBZ-2)
+				advmod(served/VBN-4,also/RB-3)
+				dobj(served/VBN-4,tours/NNS-5)
+				prep_with(served/VBN-4,VF-11/NN-7)
+				prep_with(served/VBN-4,VF-103/NN-9)
+				conj_and(VF-11/NN-7,VF-103/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>VF-11 and VF-103</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/VFA-103</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While deployed to Southeast Asia, McBride flew 64 combat missions.	</value>
+
+		<annotated-sentence>	While deployed to [[Southeast Asia|Southeast_Asia]], McBride flew 64 [[combat missions|Combat_Missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While deployed to Southeast Asia, McBride flew 64 combat missions.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(deployed/VBN-2,While/IN-1)
+				advcl(flew/VBD-8,deployed/VBN-2)
+				nn(Asia/NNP-5,Southeast/NNP-4)
+				prep_to(deployed/VBN-2,Asia/NNP-5)
+				nsubj(flew/VBD-8,McBride/NNP-7)
+				num(missions/NNS-11,64/CD-9)
+				nn(missions/NNS-11,combat/NN-10)
+				dobj(flew/VBD-8,missions/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Southeast Asia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southeast_Asia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	.	</value>
+
+		<annotated-sentence>	.	</annotated-sentence>
+
+		<pattern_crowdsource>	.	</pattern_crowdsource>
+
+
+		<tree>
+				
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended the U.S. Air Force Test Pilot School at Edwards Air Force Base, California, prior to reporting to Air Test and Development Squadron Four (VX-4) at Naval Air Station Point Mugu, California, where he served as maintenance officer and Sidewinder project officer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				det(Pilot/NN-8,the/DT-3)
+				nn(Pilot/NN-8,U.S./NNP-4)
+				nn(Pilot/NN-8,Air/NNP-5)
+				nn(Pilot/NN-8,Force/NNP-6)
+				nn(Pilot/NN-8,Test/NNP-7)
+				nsubj(School/NNP-9,Pilot/NN-8)
+				xcomp(attended/VBD-2,School/NNP-9)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_at(School/NNP-9,Base/NNP-14)
+				appos(Base/NNP-14,California/NNP-16)
+				prepc_prior_to(attended/VBD-2,reporting/VBG-20)
+				nn(Test/NNP-23,Air/NNP-22)
+				prep_to(reporting/VBG-20,Test/NNP-23)
+				nn(Squadron/NNP-26,Development/NNP-25)
+				prep_to(reporting/VBG-20,Squadron/NNP-26)
+				conj_and(Test/NNP-23,Squadron/NNP-26)
+				num(VX-4/NN-29,Four/CD-27)
+				dobj(reporting/VBG-20,VX-4/NN-29)
+				nn(Mugu/NNP-36,Naval/NNP-32)
+				nn(Mugu/NNP-36,Air/NNP-33)
+				nn(Mugu/NNP-36,Station/NNP-34)
+				nn(Mugu/NNP-36,Point/NNP-35)
+				prep_at(VX-4/NN-29,Mugu/NNP-36)
+				appos(Mugu/NNP-36,California/NNP-38)
+				advmod(served/VBD-42,where/WRB-40)
+				nsubj(served/VBD-42,he/PRP-41)
+				advcl(attended/VBD-2,served/VBD-42)
+				nn(officer/NN-45,maintenance/NN-44)
+				prep_as(served/VBD-42,officer/NN-45)
+				nn(officer/NN-49,Sidewinder/NNP-47)
+				nn(officer/NN-49,project/NN-48)
+				prep_as(served/VBD-42,officer/NN-49)
+				conj_and(officer/NN-45,officer/NN-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has flown over 40 different types of military and civilian aircraft and piloted the Navy "Spirit of '76" bicentennial-painted F-4J Phantom in various air shows during 1976, 1977, and 1978.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,He/PRP-1)
+				nsubj(piloted/VBD-14,He/PRP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(types/NNS-7,40/CD-5)
+				amod(types/NNS-7,different/JJ-6)
+				prep_over(flown/VBN-3,types/NNS-7)
+				amod(aircraft/NN-12,military/JJ-9)
+				conj_and(military/JJ-9,civilian/JJ-11)
+				amod(aircraft/NN-12,civilian/JJ-11)
+				prep_of(types/NNS-7,aircraft/NN-12)
+				conj_and(flown/VBN-3,piloted/VBD-14)
+				det(Navy/NNP-16,the/DT-15)
+				dep(Spirit/NN-18,Navy/NNP-16)
+				dep(piloted/VBD-14,Spirit/NN-18)
+				prep_of(Spirit/NN-18,76/CD-21)
+				amod(Phantom/NN-25,bicentennial-painted/JJ-23)
+				nn(Phantom/NN-25,F-4J/NN-24)
+				dobj(flown/VBN-3,Phantom/NN-25)
+				amod(shows/NNS-29,various/JJ-27)
+				nn(shows/NNS-29,air/NN-28)
+				prep_in(Phantom/NN-25,shows/NNS-29)
+				prep_during(shows/NNS-29,1976/CD-31)
+				prep_during(shows/NNS-29,1977/CD-33)
+				conj_and(1976/CD-31,1977/CD-33)
+				prep_during(shows/NNS-29,1978/CD-36)
+				conj_and(1976/CD-31,1978/CD-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds current Federal Aviation Administration (FAA) ratings which include commercial pilot (multi-engine), instrument, and glider; and he previously served as a Certified Flight Instructor (CFI).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				amod(Administration/NNP-6,current/JJ-3)
+				nn(Administration/NNP-6,Federal/NNP-4)
+				nn(Administration/NNP-6,Aviation/NNP-5)
+				nsubj(ratings/NNS-10,Administration/NNP-6)
+				appos(Administration/NNP-6,FAA/NNP-8)
+				xcomp(holds/VBZ-2,ratings/NNS-10)
+				nsubj(include/VBP-12,which/WDT-11)
+				rcmod(ratings/NNS-10,include/VBP-12)
+				amod(pilot/NN-14,commercial/JJ-13)
+				dobj(include/VBP-12,pilot/NN-14)
+				dep(pilot/NN-14,multi-engine/JJ-16)
+				dobj(include/VBP-12,instrument/NN-19)
+				conj_and(pilot/NN-14,instrument/NN-19)
+				dobj(include/VBP-12,glider/NN-22)
+				conj_and(pilot/NN-14,glider/NN-22)
+				nsubj(served/VBD-27,he/PRP-25)
+				advmod(served/VBD-27,previously/RB-26)
+				conj_and(holds/VBZ-2,served/VBD-27)
+				det(Instructor/NN-32,a/DT-29)
+				amod(Instructor/NN-32,Certified/JJ-30)
+				nn(Instructor/NN-32,Flight/NN-31)
+				prep_as(served/VBD-27,Instructor/NN-32)
+				appos(Instructor/NN-32,CFI/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged more than 8,800 hours flying time—including 4,700 hours in jet aircraft.	</value>
+
+		<annotated-sentence>	He has logged more than 8,800 [[hours|Hour]] flying time—including 4,700 [[hours|Hour]] in [[jet aircraft|Jet_aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged more than 8,800 hours flying time—including 4,700 hours in jet aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				mwe(than/IN-5,more/JJR-4)
+				quantmod(8,800/CD-6,than/IN-5)
+				num(hours/NNS-7,8,800/CD-6)
+				dobj(logged/VBN-3,hours/NNS-7)
+				partmod(hours/NNS-7,flying/VBG-8)
+				dobj(flying/VBG-8,time/NN-9)
+				num(hours/NNS-13,4,700/CD-12)
+				prep_including(time/NN-9,hours/NNS-13)
+				nn(aircraft/NN-16,jet/NN-15)
+				prep_in(hours/NNS-13,aircraft/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as an astronaut candidate by NASA in January 1978, McBride became an astronaut in August 1979.	</value>
+
+		<annotated-sentence>	Selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]] in [[January|January]] [[1978|Tsubasa_Otomiya]], McBride became [[an astronaut|Astronaut]] in [[August 1979|1979]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]] in January 1978, McBride became an [[astronaut|Astronaut]] in August 1979.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-15,Selected/VBN-1)
+				det(candidate/NN-5,an/DT-3)
+				nn(candidate/NN-5,astronaut/NN-4)
+				prep_as(Selected/VBN-1,candidate/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,January/NNP-9)
+				num(January/NNP-9,1978/CD-10)
+				nsubj(astronaut/NN-15,McBride/NNP-12)
+				cop(astronaut/NN-15,became/VBD-13)
+				det(astronaut/NN-15,an/DT-14)
+				prep_in(astronaut/NN-15,August/NNP-17)
+				num(August/NNP-17,1979/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His NASA assignments have included lead chase pilot for the maiden voyage of Space Shuttle Columbia, software verification in the Shuttle Avionics Integration Laboratory (SAIL), capsule communicator (CAPCOM) for STS-5, STS-6, and STS-7, Flight Data File (FDF) Manager, and orbital rendezvous procedures development.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				nn(assignments/NNS-3,NASA/NNP-2)
+				nsubj(included/VBN-5,assignments/NNS-3)
+				aux(included/VBN-5,have/VBP-4)
+				amod(pilot/NN-8,lead/JJ-6)
+				nn(pilot/NN-8,chase/NN-7)
+				dobj(included/VBN-5,pilot/NN-8)
+				det(voyage/NN-12,the/DT-10)
+				amod(voyage/NN-12,maiden/JJ-11)
+				prep_for(pilot/NN-8,voyage/NN-12)
+				nn(Columbia/NNP-16,Space/NN-14)
+				nn(Columbia/NNP-16,Shuttle/NNP-15)
+				prep_of(voyage/NN-12,Columbia/NNP-16)
+				nn(verification/NN-19,software/NN-18)
+				dobj(included/VBN-5,verification/NN-19)
+				conj_and(pilot/NN-8,verification/NN-19)
+				det(Laboratory/NN-25,the/DT-21)
+				nn(Laboratory/NN-25,Shuttle/NNP-22)
+				nn(Laboratory/NN-25,Avionics/NNP-23)
+				nn(Laboratory/NN-25,Integration/NN-24)
+				prep_in(verification/NN-19,Laboratory/NN-25)
+				appos(Laboratory/NN-25,SAIL/NN-27)
+				nn(communicator/NN-31,capsule/NN-30)
+				dobj(included/VBN-5,communicator/NN-31)
+				conj_and(pilot/NN-8,communicator/NN-31)
+				appos(communicator/NN-31,CAPCOM/NN-33)
+				prep_for(communicator/NN-31,STS-5/NN-36)
+				prep_for(communicator/NN-31,STS-6/NN-38)
+				conj_and(STS-5/NN-36,STS-6/NN-38)
+				prep_for(communicator/NN-31,STS-7/NN-41)
+				conj_and(STS-5/NN-36,STS-7/NN-41)
+				nn(File/NNP-45,Flight/NNP-43)
+				nn(File/NNP-45,Data/NNP-44)
+				appos(STS-5/NN-36,File/NNP-45)
+				appos(STS-5/NN-36,FDF/NNP-47)
+				dep(STS-5/NN-36,Manager/NNP-49)
+				amod(procedures/NNS-54,orbital/JJ-52)
+				nn(procedures/NNS-54,rendezvous/NN-53)
+				dobj(included/VBN-5,procedures/NNS-54)
+				conj_and(pilot/NN-8,procedures/NNS-54)
+				dep(procedures/NNS-54,development/NN-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McBride was pilot of STS-41-G, which launched from Kennedy Space Center, Florida, on October 5, 1984, aboard the Orbiter Challenger.	</value>
+
+		<annotated-sentence>	McBride was pilot of [[STS-41-G|STS-41-G]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on October 5, 1984, aboard the [[Orbiter|Orbiter]] Challenger.	</annotated-sentence>
+
+		<pattern_crowdsource>	McBride was pilot of [[STS-41-G|STS-41-G]], which launched from [[Kennedy Space Center|Kennedy_Space_Center]], Florida, on October 5, 1984, aboard the Orbiter Challenger.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-3,McBride/NNP-1)
+				cop(pilot/NN-3,was/VBD-2)
+				prep_of(pilot/NN-3,STS-41-G/NN-5)
+				nsubj(launched/VBD-8,which/WDT-7)
+				rcmod(STS-41-G/NN-5,launched/VBD-8)
+				nn(Center/NNP-12,Kennedy/NNP-10)
+				nn(Center/NNP-12,Space/NNP-11)
+				prep_from(launched/VBD-8,Center/NNP-12)
+				appos(Center/NNP-12,Florida/NNP-14)
+				prep_on(launched/VBD-8,October/NNP-17)
+				num(October/NNP-17,5/CD-18)
+				num(October/NNP-17,1984/CD-20)
+				det(Challenger/NNP-25,the/DT-23)
+				nn(Challenger/NNP-25,Orbiter/NNP-24)
+				prep_aboard(launched/VBD-8,Challenger/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-41-G</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-G</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orbiter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-41-G
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-G http://dbpedia.org/property/landingSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-G http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This was the first crew of seven.	</value>
+
+		<annotated-sentence>	This was the first crew of seven.	</annotated-sentence>
+
+		<pattern_crowdsource>	This was the first crew of seven.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(crew/NN-5,This/DT-1)
+				cop(crew/NN-5,was/VBD-2)
+				det(crew/NN-5,the/DT-3)
+				amod(crew/NN-5,first/JJ-4)
+				prep_of(crew/NN-5,seven/CD-7)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During their eight day mission, crew members deployed the Earth Radiation Budget Satellite, conducted scientific observations of the earth with the OSTA-3 pallet and Large Format Camera, and demonstrated potential satellite refueling with an EVA and associated hydrazine transfer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mission/NN-5,their/PRP$-2)
+				num(mission/NN-5,eight/CD-3)
+				nn(mission/NN-5,day/NN-4)
+				prep_during(deployed/VBD-9,mission/NN-5)
+				nn(members/NNS-8,crew/NN-7)
+				nsubj(deployed/VBD-9,members/NNS-8)
+				nsubj(demonstrated/VBD-32,members/NNS-8)
+				det(Satellite/NNP-14,the/DT-10)
+				nn(Satellite/NNP-14,Earth/NNP-11)
+				nn(Satellite/NNP-14,Radiation/NNP-12)
+				nn(Satellite/NNP-14,Budget/NNP-13)
+				dobj(deployed/VBD-9,Satellite/NNP-14)
+				partmod(Satellite/NNP-14,conducted/VBN-16)
+				amod(observations/NNS-18,scientific/JJ-17)
+				dobj(conducted/VBN-16,observations/NNS-18)
+				det(earth/NN-21,the/DT-20)
+				prep_of(observations/NNS-18,earth/NN-21)
+				det(pallet/NN-25,the/DT-23)
+				nn(pallet/NN-25,OSTA-3/NN-24)
+				prep_with(conducted/VBN-16,pallet/NN-25)
+				amod(Camera/NNP-29,Large/JJ-27)
+				nn(Camera/NNP-29,Format/NNP-28)
+				prep_with(conducted/VBN-16,Camera/NNP-29)
+				conj_and(pallet/NN-25,Camera/NNP-29)
+				conj_and(deployed/VBD-9,demonstrated/VBD-32)
+				amod(satellite/NN-34,potential/JJ-33)
+				dobj(demonstrated/VBD-32,satellite/NN-34)
+				xcomp(demonstrated/VBD-32,refueling/VBG-35)
+				det(EVA/NNP-38,an/DT-37)
+				prep_with(refueling/VBG-35,EVA/NNP-38)
+				amod(transfer/NN-42,associated/VBN-40)
+				nn(transfer/NN-42,hydrazine/NN-41)
+				prep_with(refueling/VBG-35,transfer/NN-42)
+				conj_and(EVA/NNP-38,transfer/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 197 hours and concluded with a landing at Kennedy Space Center, Florida, on October 13, 1984.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 197 [[hours|Hour]] and concluded with [[a landing|Amphibious_warfare]] at [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on October 13, 1984.	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 197 hours and concluded with a landing at Kennedy Space Center, Florida, on October 13, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				nsubj(concluded/VBD-7,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,197/CD-4)
+				conj_and(hours/NNS-5,concluded/VBD-7)
+				det(landing/NN-10,a/DT-9)
+				prep_with(concluded/VBD-7,landing/NN-10)
+				nn(Center/NNP-14,Kennedy/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_at(landing/NN-10,Center/NNP-14)
+				appos(Center/NNP-14,Florida/NNP-16)
+				prep_on(concluded/VBD-7,October/NNP-19)
+				num(October/NNP-19,13/CD-20)
+				num(October/NNP-19,1984/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McBride was scheduled to fly next in March 1986, as the commander of STS-61-E crew.	</value>
+
+		<annotated-sentence>	McBride was scheduled to fly next in [[March 1986|1986]], as [[the commander|Commander]] of [[STS-61-E|Cancelled_Space_Shuttle_missions]] crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	McBride was scheduled to fly next in March 1986, as the commander of STS-61-E crew.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(scheduled/VBN-3,McBride/NNP-1)
+				auxpass(scheduled/VBN-3,was/VBD-2)
+				aux(fly/VB-5,to/TO-4)
+				xcomp(scheduled/VBN-3,fly/VB-5)
+				advmod(fly/VB-5,next/RB-6)
+				prep_in(fly/VB-5,March/NNP-8)
+				num(March/NNP-8,1986/CD-9)
+				det(commander/NN-13,the/DT-12)
+				prep_as(fly/VB-5,commander/NN-13)
+				nn(crew/NN-16,STS-61-E/NN-15)
+				prep_of(commander/NN-13,crew/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-E</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cancelled_Space_Shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This flight was one of several deferred by NASA in the wake of the Challenger accident in January 1986.	</value>
+
+		<annotated-sentence>	This [[flight|Flight]] was one of several deferred by [[NASA|NASA]] in the wake of [[the Challenger accident|Space_Shuttle_Challenger_disaster]] in [[January 1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This flight was one of several deferred by [[NASA|NASA]] in the wake of the Challenger accident in January 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,This/DT-1)
+				nsubj(one/CD-4,flight/NN-2)
+				cop(one/CD-4,was/VBD-3)
+				prep_of(one/CD-4,several/JJ-6)
+				partmod(several/JJ-6,deferred/VBN-7)
+				agent(deferred/VBN-7,NASA/NNP-9)
+				det(wake/NN-12,the/DT-11)
+				prep_in(deferred/VBN-7,wake/NN-12)
+				det(accident/NN-16,the/DT-14)
+				nn(accident/NN-16,Challenger/NNP-15)
+				prep_of(wake/NN-12,accident/NN-16)
+				prep_in(deferred/VBN-7,January/NNP-18)
+				num(January/NNP-18,1986/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Challenger accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 30, 1987, McBride was assigned to NASA Headquarters to serve as Assistant Administrator for Congressional Relations, with responsibility for NASA's relationship with the United States Congress, and for providing coordination and direction to all Headquarters and Field Center communications with Congressional support organizations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(assigned/VBN-9,July/NNP-2)
+				num(July/NNP-2,30/CD-3)
+				num(July/NNP-2,1987/CD-5)
+				nsubjpass(assigned/VBN-9,McBride/NNP-7)
+				nsubjpass(assigned/VBN-9,McBride/NNP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				conj_and(assigned/VBN-9,assigned/VBN-9)
+				nn(Headquarters/NN-12,NASA/NNP-11)
+				prep_to(assigned/VBN-9,Headquarters/NN-12)
+				aux(serve/VB-14,to/TO-13)
+				xcomp(assigned/VBN-9,serve/VB-14)
+				nn(Administrator/NNP-17,Assistant/NNP-16)
+				prep_as(serve/VB-14,Administrator/NNP-17)
+				nn(Relations/NNPS-20,Congressional/NNP-19)
+				prep_for(Administrator/NNP-17,Relations/NNPS-20)
+				prep_with(assigned/VBN-9,responsibility/NN-23)
+				poss(relationship/NN-27,NASA/NNP-25)
+				prep_for(responsibility/NN-23,relationship/NN-27)
+				det(Congress/NNP-32,the/DT-29)
+				nn(Congress/NNP-32,United/NNP-30)
+				nn(Congress/NNP-32,States/NNPS-31)
+				prep_with(relationship/NN-27,Congress/NNP-32)
+				prepc_for(assigned/VBN-9,providing/VBG-36)
+				dobj(providing/VBG-36,coordination/NN-37)
+				dobj(providing/VBG-36,direction/NN-39)
+				conj_and(coordination/NN-37,direction/NN-39)
+				det(Headquarters/NN-42,all/DT-41)
+				prep_to(providing/VBG-36,Headquarters/NN-42)
+				nn(communications/NNS-46,Field/NN-44)
+				nn(communications/NNS-46,Center/NNP-45)
+				prep_to(providing/VBG-36,communications/NNS-46)
+				conj_and(Headquarters/NN-42,communications/NNS-46)
+				amod(organizations/NNS-50,Congressional/JJ-48)
+				nn(organizations/NNS-50,support/NN-49)
+				prep_with(providing/VBG-36,organizations/NNS-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He held this post from September 1987 through March 1989.	</value>
+
+		<annotated-sentence>	He held this post from [[September 1987|1987]] through [[March 1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He held this post from September 1987 through March 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-2,He/PRP-1)
+				det(post/NN-4,this/DT-3)
+				dobj(held/VBD-2,post/NN-4)
+				prep_from(held/VBD-2,September/NNP-6)
+				num(September/NNP-6,1987/CD-7)
+				prep_through(held/VBD-2,March/NNP-9)
+				num(March/NNP-9,1989/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1988, McBride was named to command the crew of the STS-35 (ASTRO-1) mission, scheduled for launch in March 1990, but chose to retire from NASA instead.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(named/VBN-6,1988/CD-2)
+				nsubjpass(named/VBN-6,McBride/NNP-4)
+				nsubjpass(chose/VBD-27,McBride/NNP-4)
+				auxpass(named/VBN-6,was/VBD-5)
+				aux(command/VB-8,to/TO-7)
+				xcomp(named/VBN-6,command/VB-8)
+				det(crew/NN-10,the/DT-9)
+				dobj(command/VB-8,crew/NN-10)
+				det(mission/NN-17,the/DT-12)
+				nn(mission/NN-17,STS-35/NN-13)
+				appos(mission/NN-17,ASTRO-1/NN-15)
+				prep_of(crew/NN-10,mission/NN-17)
+				partmod(mission/NN-17,scheduled/VBN-19)
+				prep_for(scheduled/VBN-19,launch/NN-21)
+				prep_in(launch/NN-21,March/NNP-23)
+				num(March/NNP-23,1990/CD-24)
+				conj_but(named/VBN-6,chose/VBD-27)
+				aux(retire/VB-29,to/TO-28)
+				xcomp(chose/VBD-27,retire/VB-29)
+				prep_from(retire/VB-29,NASA/NNP-31)
+				advmod(retire/VB-29,instead/RB-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 23, 2011 the NASA Independent Verification and Validation Facility (IV&V) in Fairmont, West Virginia dedicated a NASA software laboratory to the West Virginia native Jon McBride.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(dedicated/VBD-21,September/NNP-2)
+				num(September/NNP-2,23/CD-3)
+				num(September/NNP-2,2011/CD-5)
+				det(Verification/NNP-9,the/DT-6)
+				nn(Verification/NNP-9,NASA/NNP-7)
+				nn(Verification/NNP-9,Independent/NNP-8)
+				dep(September/NNP-2,Verification/NNP-9)
+				nn(Facility/NNP-12,Validation/NNP-11)
+				conj_and(September/NNP-2,Facility/NNP-12)
+				prep_on(dedicated/VBD-21,Facility/NNP-12)
+				appos(Facility/NNP-12,IV&V/NN-14)
+				prep_in(Facility/NNP-12,Fairmont/NNP-17)
+				nn(Virginia/NNP-20,West/NNP-19)
+				nsubj(dedicated/VBD-21,Virginia/NNP-20)
+				det(laboratory/NN-25,a/DT-22)
+				nn(laboratory/NN-25,NASA/NNP-23)
+				nn(laboratory/NN-25,software/NN-24)
+				dobj(dedicated/VBD-21,laboratory/NN-25)
+				det(McBride/NNP-32,the/DT-27)
+				nn(McBride/NNP-32,West/NNP-28)
+				nn(McBride/NNP-32,Virginia/NNP-29)
+				amod(McBride/NNP-32,native/JJ-30)
+				nn(McBride/NNP-32,Jon/NNP-31)
+				prep_to(dedicated/VBD-21,McBride/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The laboratory's official name is the Jon McBride Software Testing and Research Laboratory, or JSTAR.	</value>
+
+		<annotated-sentence>	[[The laboratory|The_Laboratory]]'s official [[name|Name]] is the Jon McBride [[Software Testing|Software_testing]] and [[Research Laboratory|Laboratory]], or JSTAR.	</annotated-sentence>
+
+		<pattern_crowdsource>	The laboratory's official name is the Jon McBride Software Testing and Research Laboratory, or JSTAR.	</pattern_crowdsource>
+
+
+		<tree>
+				det(laboratory/NN-2,The/DT-1)
+				poss(name/NN-5,laboratory/NN-2)
+				amod(name/NN-5,official/JJ-4)
+				nsubj(Testing/NNP-11,name/NN-5)
+				cop(Testing/NNP-11,is/VBZ-6)
+				det(Testing/NNP-11,the/DT-7)
+				nn(Testing/NNP-11,Jon/NNP-8)
+				nn(Testing/NNP-11,McBride/NNP-9)
+				nn(Testing/NNP-11,Software/NNP-10)
+				nn(Laboratory/NNP-14,Research/NNP-13)
+				conj_and(Testing/NNP-11,Laboratory/NNP-14)
+				conj_or(Testing/NNP-11,JSTAR/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>name</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Name</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Software Testing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Software_testing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	JSTAR is NASA IV&V’s environment for adaptable testing and simulation, designed to enhance tools and methods used to critically assess mission and safety critical software across NASA’s missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(environment/NN-6,JSTAR/NNP-1)
+				cop(environment/NN-6,is/VBZ-2)
+				nn(IV&V/NNP-4,NASA/NNP-3)
+				poss(environment/NN-6,IV&V/NNP-4)
+				amod(testing/NN-9,adaptable/JJ-8)
+				prep_for(environment/NN-6,testing/NN-9)
+				prep_for(environment/NN-6,simulation/NN-11)
+				conj_and(testing/NN-9,simulation/NN-11)
+				partmod(environment/NN-6,designed/VBN-13)
+				aux(enhance/VB-15,to/TO-14)
+				xcomp(designed/VBN-13,enhance/VB-15)
+				dobj(enhance/VB-15,tools/NNS-16)
+				dobj(enhance/VB-15,methods/NNS-18)
+				conj_and(tools/NNS-16,methods/NNS-18)
+				partmod(tools/NNS-16,used/VBN-19)
+				aux(assess/VB-22,to/TO-20)
+				advmod(assess/VB-22,critically/RB-21)
+				xcomp(used/VBN-19,assess/VB-22)
+				nn(software/NN-27,mission/NN-23)
+				conj_and(mission/NN-23,safety/NN-25)
+				nn(software/NN-27,safety/NN-25)
+				amod(software/NN-27,critical/JJ-26)
+				dobj(assess/VB-22,software/NN-27)
+				poss(missions/NNS-31,NASA/NNP-29)
+				prep_across(assess/VB-22,missions/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The lab supports end to end testing on mission flight software through the application of analytical rigor to reduce the threat of software-related mission failure.	</value>
+
+		<annotated-sentence>	[[The lab|The_LAB]] supports end to end testing on mission [[flight|Flight]] [[software|Software]] through the application of analytical rigor to reduce [[the threat|Threat]] of software-related mission [[failure|Failure]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The lab supports end to end testing on mission flight software through the application of analytical rigor to reduce the threat of software-related mission failure.	</pattern_crowdsource>
+
+
+		<tree>
+				det(lab/NN-2,The/DT-1)
+				nsubj(supports/VBZ-3,lab/NN-2)
+				dobj(supports/VBZ-3,end/NN-4)
+				aux(end/VB-6,to/TO-5)
+				xcomp(supports/VBZ-3,end/VB-6)
+				dobj(end/VB-6,testing/NN-7)
+				nn(software/NN-11,mission/NN-9)
+				nn(software/NN-11,flight/NN-10)
+				prep_on(end/VB-6,software/NN-11)
+				det(application/NN-14,the/DT-13)
+				prep_through(end/VB-6,application/NN-14)
+				amod(rigor/NN-17,analytical/JJ-16)
+				prep_of(application/NN-14,rigor/NN-17)
+				aux(reduce/VB-19,to/TO-18)
+				xcomp(end/VB-6,reduce/VB-19)
+				det(threat/NN-21,the/DT-20)
+				dobj(reduce/VB-19,threat/NN-21)
+				amod(failure/NN-25,software-related/JJ-23)
+				nn(failure/NN-25,mission/NN-24)
+				prep_of(threat/NN-21,failure/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The lab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_LAB</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>software</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Software</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the threat</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Threat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>failure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Failure</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 2012, at the JSTAR one year celebration, NASA's IV&V Program launched the JSTAR website.	</value>
+
+		<annotated-sentence>	In [[September 2012|September_2012]], at the JSTAR one [[year|Year]] celebration, [[NASA|NASA]]'s [[IV&V|Verification_and_validation]] [[Program|NASA]] launched the JSTAR [[website|Website]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 2012, at the JSTAR one year celebration, [[NASA|NASA]]'s IV&V [[Program|NASA]] launched the JSTAR website.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(launched/VBD-16,September/NNP-2)
+				num(September/NNP-2,2012/CD-3)
+				det(celebration/NN-10,the/DT-6)
+				nn(celebration/NN-10,JSTAR/NNP-7)
+				num(celebration/NN-10,one/CD-8)
+				nn(celebration/NN-10,year/NN-9)
+				prep_at(launched/VBD-16,celebration/NN-10)
+				poss(Program/NNP-15,NASA/NNP-12)
+				nn(Program/NNP-15,IV&V/NNP-14)
+				nsubj(launched/VBD-16,Program/NNP-15)
+				det(website/NN-19,the/DT-17)
+				nn(website/NN-19,JSTAR/NNP-18)
+				dobj(launched/VBD-16,website/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_2012</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>IV&V</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Verification_and_validation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>website</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Website</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The JSTAR website highlights all the work being performed under the JSTAR umbrella at NASA's IV&V facility.	</value>
+
+		<annotated-sentence>	The JSTAR [[website|Website]] highlights [[all the work|Work]] being performed under the JSTAR [[umbrella|Umbrella]] at [[NASA|NASA]]'s [[IV&V|Verification_and_validation]] facility.	</annotated-sentence>
+
+		<pattern_crowdsource>	The JSTAR [[website|Website]] highlights [[all the work|Work]] being performed under the JSTAR umbrella at [[NASA|NASA]]'s IV&V facility.	</pattern_crowdsource>
+
+
+		<tree>
+				det(website/NN-3,The/DT-1)
+				nn(website/NN-3,JSTAR/NNP-2)
+				nsubj(highlights/VBZ-4,website/NN-3)
+				predet(work/NN-7,all/PDT-5)
+				det(work/NN-7,the/DT-6)
+				dobj(highlights/VBZ-4,work/NN-7)
+				auxpass(performed/VBN-9,being/VBG-8)
+				partmod(work/NN-7,performed/VBN-9)
+				det(umbrella/NN-13,the/DT-11)
+				nn(umbrella/NN-13,JSTAR/NN-12)
+				prep_under(performed/VBN-9,umbrella/NN-13)
+				poss(facility/NN-18,NASA/NNP-15)
+				nn(facility/NN-18,IV&V/NN-17)
+				prep_at(umbrella/NN-13,facility/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>website</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Website</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>all the work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>umbrella</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Umbrella</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>IV&V</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Verification_and_validation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/ontology/Website http://www.w3.org/2000/01/rdf-schema#subClassOf http://dbpedia.org/ontology/Work
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In May 1989, McBride retired from NASA and the Navy, in order to pursue a business career.	</value>
+
+		<annotated-sentence>	In [[May 1989|1989]], McBride retired from [[NASA|NASA]] and [[the Navy|Navy]], in order to pursue a [[business|Business]] [[career|Career]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In May 1989, McBride retired from [[NASA|NASA]] and the Navy, in order to pursue a business career.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(retired/VBD-6,May/NNP-2)
+				num(May/NNP-2,1989/CD-3)
+				nsubj(retired/VBD-6,McBride/NNP-5)
+				prep_from(retired/VBD-6,NASA/NNP-8)
+				det(Navy/NNP-11,the/DT-10)
+				prep_from(retired/VBD-6,Navy/NNP-11)
+				conj_and(NASA/NNP-8,Navy/NNP-11)
+				mark(pursue/VB-16,in/IN-13)
+				dep(pursue/VB-16,order/NN-14)
+				aux(pursue/VB-16,to/TO-15)
+				advcl(retired/VBD-6,pursue/VB-16)
+				det(career/NN-19,a/DT-17)
+				nn(career/NN-19,business/NN-18)
+				dobj(pursue/VB-16,career/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>May 1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>business</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was President and Chief Executive Officer of the Flying Eagle Corporation in Lewisburg, West Virginia, and President of the Constructors’ Labor Council of West Virginia (heavy/highway construction contractors).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(President/NNP-3,He/PRP-1)
+				cop(President/NNP-3,was/VBD-2)
+				nn(Officer/NNP-7,Chief/NNP-5)
+				nn(Officer/NNP-7,Executive/NNP-6)
+				conj_and(President/NNP-3,Officer/NNP-7)
+				det(Corporation/NNP-12,the/DT-9)
+				nn(Corporation/NNP-12,Flying/NNP-10)
+				nn(Corporation/NNP-12,Eagle/NNP-11)
+				prep_of(Officer/NNP-7,Corporation/NNP-12)
+				prep_in(Corporation/NNP-12,Lewisburg/NNP-14)
+				nn(Virginia/NNP-17,West/NNP-16)
+				prep_of(Officer/NNP-7,Virginia/NNP-17)
+				conj_and(Corporation/NNP-12,Virginia/NNP-17)
+				prep_of(Officer/NNP-7,President/NNP-20)
+				conj_and(Corporation/NNP-12,President/NNP-20)
+				det(Constructors/NNPS-23,the/DT-22)
+				poss(Council/NNP-26,Constructors/NNPS-23)
+				nn(Council/NNP-26,Labor/NNP-25)
+				prep_of(President/NNP-20,Council/NNP-26)
+				nn(Virginia/NNP-29,West/NNP-28)
+				prep_of(Council/NNP-26,Virginia/NNP-29)
+				amod(contractors/NNS-33,heavy/highway/JJ-31)
+				nn(contractors/NNS-33,construction/NN-32)
+				dep(Officer/NNP-7,contractors/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1996, he unsuccessfully vied for the Republican nomination for Governor of West Virginia, losing to Cecil H. Underwood.	</value>
+
+		<annotated-sentence>	In [[1996|1996]], he unsuccessfully vied for the [[Republican|Republican_Party_(United_States)]] [[nomination|Nomination]] for [[Governor of West Virginia|List_of_Governors_of_West_Virginia]], losing to [[Cecil H. Underwood|Cecil_H._Underwood]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1996, he unsuccessfully vied for the Republican nomination for [[Governor of West Virginia|List_of_Governors_of_West_Virginia]], losing to [[Cecil H. Underwood|Cecil_H._Underwood]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(vied/VBD-6,1996/CD-2)
+				nsubj(vied/VBD-6,he/PRP-4)
+				advmod(vied/VBD-6,unsuccessfully/RB-5)
+				det(nomination/NN-10,the/DT-8)
+				amod(nomination/NN-10,Republican/JJ-9)
+				prep_for(vied/VBD-6,nomination/NN-10)
+				prep_for(vied/VBD-6,Governor/NN-12)
+				nn(Virginia/NNP-15,West/NNP-14)
+				prep_of(Governor/NN-12,Virginia/NNP-15)
+				xcomp(vied/VBD-6,losing/VBG-17)
+				nn(Underwood/NNP-21,Cecil/NNP-19)
+				nn(Underwood/NNP-21,H./NNP-20)
+				prep_to(losing/VBG-17,Underwood/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Republican</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republican_Party_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>nomination</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nomination</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Governor of West Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Governors_of_West_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cecil H. Underwood</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cecil_H._Underwood</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Cecil_H._Underwood http://dbpedia.org/property/title http://dbpedia.org/resource/List_of_Governors_of_West_Virginia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the subsequent years, he left West Virginia to pursue business opportunities in Arizona.	</value>
+
+		<annotated-sentence>	In the subsequent [[years|Year]], he left [[West Virginia|West_Virginia]] to pursue [[business opportunities|Business_opportunity]] in [[Arizona|Arizona]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In the subsequent years, he left West Virginia to pursue business opportunities in Arizona.	</pattern_crowdsource>
+
+
+		<tree>
+				det(years/NNS-4,the/DT-2)
+				amod(years/NNS-4,subsequent/JJ-3)
+				prep_in(left/VBD-7,years/NNS-4)
+				nsubj(left/VBD-7,he/PRP-6)
+				nn(Virginia/NNP-9,West/NNP-8)
+				nsubj(pursue/VB-11,Virginia/NNP-9)
+				aux(pursue/VB-11,to/TO-10)
+				xcomp(left/VBD-7,pursue/VB-11)
+				nn(opportunities/NNS-13,business/NN-12)
+				dobj(pursue/VB-11,opportunities/NNS-13)
+				prep_in(pursue/VB-11,Arizona/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>business opportunities</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business_opportunity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As of 2008, he is retired and living near Cocoa, Florida.	</value>
+
+		<annotated-sentence>	As of [[2008|2008]], he is retired and living near [[Cocoa , Florida|Cocoa,_Florida]]	</annotated-sentence>
+
+		<pattern_crowdsource>	As of 2008, he is retired and living near Cocoa, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_as_of(retired/VBN-7,of/IN-2)
+				pobj(retired/VBN-7,2008/CD-3)
+				nsubjpass(retired/VBN-7,he/PRP-5)
+				nsubjpass(living/VBG-9,he/PRP-5)
+				auxpass(retired/VBN-7,is/VBZ-6)
+				conj_and(retired/VBN-7,living/VBG-9)
+				nn(Florida/NNP-13,Cocoa/NNP-11)
+				prep_near(living/VBG-9,Florida/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cocoa , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cocoa,_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In recent years, he has been active in the "Lunch with an Astronaut" program at Kennedy Space Center.	</value>
+
+		<annotated-sentence>	In [[recent years|Year]], he has been active in the "[[Lunch|Lunch]] with an [[Astronaut|Astronaut]]" program at [[Kennedy Space Center|Kennedy_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In recent years, he has been active in the "Lunch with an [[Astronaut|Astronaut]]" program at Kennedy Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(years/NNS-3,recent/JJ-2)
+				prep_in(active/JJ-8,years/NNS-3)
+				nsubj(active/JJ-8,he/PRP-5)
+				aux(active/JJ-8,has/VBZ-6)
+				cop(active/JJ-8,been/VBN-7)
+				det(Lunch/NN-12,the/DT-10)
+				prep_in(active/JJ-8,Lunch/NN-12)
+				det(program/NN-17,an/DT-14)
+				nn(program/NN-17,Astronaut/NN-15)
+				prep_with(Lunch/NN-12,program/NN-17)
+				nn(Center/NNP-21,Kennedy/NNP-19)
+				nn(Center/NNP-21,Space/NNP-20)
+				prep_at(active/JJ-8,Center/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>recent years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lunch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lunch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jon_McBride http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Executive Committee, Association of Space Explorers (Co-President 1995-1996)	</value>
+
+		<annotated-sentence>	Executive Committee, Association of [[Space Explorers|The_Space_Explorers]] ([[Co-President|President]] [[1995-1996|1995%E2%80%9396_in_English_football]])	</annotated-sentence>
+
+		<pattern_crowdsource>	Executive Committee, Association of Space Explorers (Co-President 1995-1996)	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Committee/NNP-2,Executive/NNP-1)
+				appos(Committee/NNP-2,Association/NNP-4)
+				nn(Explorers/NNS-7,Space/NNP-6)
+				prep_of(Committee/NNP-2,Explorers/NNS-7)
+				dep(Explorers/NNS-7,Co-President/JJ-9)
+				tmod(Co-President/JJ-9,1995-1996/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Space_Explorers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Co-President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1995-1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995%E2%80%9396_in_English_football</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

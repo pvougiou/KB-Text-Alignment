@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>An epidural block is a numbing medicine given by injection (shot) in the back.</value>
+		<pattern_crowdsource> An [[epidural block|C0002913]] is a numbing [[medicine|C0025118]] given by [[injection|C1533685]] (shot) in the back.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>epidural block</surface-form>
+				<RDF-ID>C0002913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0025118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injection</surface-form>
+				<RDF-ID>C1533685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002913 ISA C1533685</triple>
+			<triple>C1533685 METHOD_OF C0025118</triple>
+			<triple>C0002913 METHOD_OF C0025118</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An epidural block may also be used to reduce pain during surgery on the lower extremities.</value>
+		<pattern_crowdsource> An [[epidural block|C0002913]] may also be used to reduce [[pain|C0030193]] during surgery on the lower extremities.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>epidural block</surface-form>
+				<RDF-ID>C0002913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lower extremities</surface-form>
+				<RDF-ID>C0023216</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002913 PREVENTS C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your labor slows down, your doctor can give you medication to speed up your contractions.</value>
+		<pattern_crowdsource> If your labor slows down, your [[doctor|C0031831]] can give you [[medication|C0013227]] to speed up your contractions.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medication</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>contractions</surface-form>
+				<RDF-ID>C1140999</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

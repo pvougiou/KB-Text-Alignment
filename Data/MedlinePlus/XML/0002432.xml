@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Low blood sugar is a condition that occurs when the body's blood sugar (glucose) decreases and is too low.</value>
+		<pattern_crowdsource> Low blood sugar is a condition that occurs when the body's [[blood sugar|C0005802]] ([[glucose|C0017725]]) decreases and is too low.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>condition</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>decreases</surface-form>
+				<RDF-ID>C0547047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low</surface-form>
+				<RDF-ID>C0205251</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0017725</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Insulin is a hormone made by the pancreas.</value>
+		<pattern_crowdsource> [[Insulin|C0021641]] is a [[hormone|C0019932]] made by the pancreas.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021641 ISA C0019932</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Without enough insulin, glucose builds up in the blood instead of going into the cells.</value>
+		<pattern_crowdsource> Without enough [[insulin|C0021641]], glucose builds up in the [[blood|C0005767]] instead of going into the cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0021641</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Low blood sugar occurs due to any of the following:  - Your body's sugar (glucose) is used up too quickly  - Glucose is released into the bloodstream too slowly  - Too much insulin is released into the bloodstream    Low blood sugar is common in people with diabetes who are taking insulin or other medicines to control their diabetes.</value>
+		<pattern_crowdsource> [[Low blood sugar|C0020615]] occurs due to any of the following:  - Your body's [[sugar|C0242209]] ([[glucose|C0017725]]) is used up too quickly  - Glucose is released into the bloodstream too slowly  - Too much [[insulin|C0021641]] is released into the bloodstream    [[Low blood sugar|C0020615]] is common in [[people|C0027361]] with [[diabetes|C0011847]] who are taking [[insulin|C0021641]] or other [[medicines|C0013227]] to control their [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bloodstream</surface-form>
+				<RDF-ID>C0005775</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bloodstream</surface-form>
+				<RDF-ID>C0005775</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017725 ISA C0242209</triple>
+			<triple>C0021641 ISA C0013227</triple>
+			<triple>C0013227 ISA C0021641</triple>
+			<triple>C0020615 PRODUCES C0021641</triple>
+			<triple>C0020615 PROCESS_OF C0027361</triple>
+			<triple>C0011847 PROCESS_OF C0027361</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+			<triple>C0021641 TREATS C0011847</triple>
+			<triple>C0021641 TREATS C0011847</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In people who do not have diabetes, low blood sugar may be caused by:  - Drinking alcohol  - Insulinoma, which is a rare tumor in the pancreas that produces too much insulin  - Lack of a hormone, such as cortisol, growth hormone, or thyroid hormone  - Severe heart, kidney, or liver failure  - Infection that affects the whole body  - Some types of weight-loss surgery</value>
+		<pattern_crowdsource> In [[people|C0027361]] who do not have [[diabetes|C0011847]], low blood sugar may be caused by:  - Drinking alcohol  - [[Insulinoma|C0021670]], which is a rare [[tumor|C0027651]] in the [[pancreas|C0030274]] that produces too much insulin  - Lack of a [[hormone|C0019932]], such as [[cortisol|C0020268]], [[growth hormone|C0037663]], or thyroid hormone  - Severe heart, kidney, or liver failure  - Infection that affects the [[whole body|C0444584]]  - Some types of weight-loss surgery		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Drinking alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Insulinoma</surface-form>
+				<RDF-ID>C0021670</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lack</surface-form>
+				<RDF-ID>C0332268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>growth hormone</surface-form>
+				<RDF-ID>C0037663</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid hormone</surface-form>
+				<RDF-ID>C0040135</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney</surface-form>
+				<RDF-ID>C1148126</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver failure  - Infection</surface-form>
+				<RDF-ID>C1112211</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>whole body</surface-form>
+				<RDF-ID>C0444584</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>types</surface-form>
+				<RDF-ID>C0332307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight-loss surgery</surface-form>
+				<RDF-ID>C1456587</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021670 ISA C0027651</triple>
+			<triple>C0011847 NEG_PROCESS_OF C0027361</triple>
+			<triple>C0030274 LOCATION_OF C0027651</triple>
+			<triple>C0037663 AFFECTS C0444584</triple>
+			<triple>C0020268 AFFECTS C0444584</triple>
+			<triple>C0019932 AFFECTS C0444584</triple>
+			<triple>C0030274 LOCATION_OF C0021670</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>At the hospital, you will likely have blood samples taken from your vein to:  - Measure your blood sugar level  - Diagnose the cause of your low blood sugar</value>
+		<pattern_crowdsource> At the hospital, you will likely have [[blood samples|C0178913]] taken from your vein to:  - Measure your blood sugar level  - Diagnose the cause of your [[low blood sugar|C0020615]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>likely</surface-form>
+				<RDF-ID>C0332148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood samples</surface-form>
+				<RDF-ID>C0178913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar level</surface-form>
+				<RDF-ID>C0392201</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0178913 CAUSES C0020615</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is a medicine that raises blood sugar.</value>
+		<pattern_crowdsource> This is a [[medicine|C0013227]] that raises [[blood sugar|C0005802]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 STIMULATES C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If low blood sugar is caused by an insulinoma (insulin-releasing tumor), surgery to remove the tumor will be recommended.</value>
+		<pattern_crowdsource> If [[low blood sugar|C0020615]] is caused by an [[insulinoma|C0021670]] (insulin-releasing [[tumor|C0027651]]), surgery to remove the tumor will be recommended.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>low blood sugar</surface-form>
+				<RDF-ID>C0020615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulinoma</surface-form>
+				<RDF-ID>C0021670</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021670 ISA C0027651</triple>
+			<triple>C0021670 CAUSES C0020615</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

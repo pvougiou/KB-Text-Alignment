@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Gingivitis is inflammation of the gums.</value>
+		<pattern_crowdsource> [[Gingivitis|C0017574]] is [[inflammation|C0021368]] of the [[gums|C0017562]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Gingivitis</surface-form>
+				<RDF-ID>C0017574</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gums</surface-form>
+				<RDF-ID>C0017562</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017574 ISA C0021368</triple>
+			<triple>C0017562 LOCATION_OF C0021368</triple>
+			<triple>C0017562 LOCATION_OF C0017574</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

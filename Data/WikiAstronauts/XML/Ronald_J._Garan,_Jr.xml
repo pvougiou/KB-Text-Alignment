@@ -1,0 +1,2984 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Ronald John Garan, Jr. (born October 30, 1961) is a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Ronald John Garan|Ronald_J._Garan,_Jr.]], Jr. (born October 30, 1961) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Ronald John Garan|Ronald_J._Garan,_Jr.]], Jr. (born October 30, 1961) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Garan/NNP-3,Ronald/NNP-1)
+				nn(Garan/NNP-3,John/NNP-2)
+				nsubj(astronaut/NN-16,Garan/NNP-3)
+				appos(Garan/NNP-3,Jr./NNP-5)
+				dep(Garan/NNP-3,born/VBN-7)
+				tmod(born/VBN-7,October/NNP-8)
+				num(October/NNP-8,30/CD-9)
+				num(October/NNP-8,1961/CD-11)
+				cop(astronaut/NN-16,is/VBZ-13)
+				det(astronaut/NN-16,a/DT-14)
+				nn(astronaut/NN-16,NASA/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Ronald John Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ronald_J._Garan,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ronald_J._Garan,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ronald_J._Garan,_Jr. http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from State University of New York College at Oneonta in 1982, he joined the Air Force, becoming a Second Lieutenant in 1984.	</value>
+
+		<annotated-sentence>	After graduating from State University of New York College at [[Oneonta|Otsego_County,_New_York]] in [[1982|1982]], he joined [[the Air Force|Air_force]], becoming a Second Lieutenant in [[1984|1984]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating from State University of New York College at Oneonta in 1982, he joined the Air Force, becoming a Second Lieutenant in 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(joined/VBD-16,graduating/VBG-2)
+				nn(University/NNP-5,State/NNP-4)
+				prep_from(graduating/VBG-2,University/NNP-5)
+				nn(College/NNP-9,New/NNP-7)
+				nn(College/NNP-9,York/NNP-8)
+				prep_of(University/NNP-5,College/NNP-9)
+				prep_at(College/NNP-9,Oneonta/NNP-11)
+				prep_in(graduating/VBG-2,1982/CD-13)
+				nsubj(joined/VBD-16,he/PRP-15)
+				det(Force/NNP-19,the/DT-17)
+				nn(Force/NNP-19,Air/NNP-18)
+				dobj(joined/VBD-16,Force/NNP-19)
+				partmod(joined/VBD-16,becoming/VBG-21)
+				det(Lieutenant/NN-24,a/DT-22)
+				amod(Lieutenant/NN-24,Second/JJ-23)
+				xcomp(becoming/VBG-21,Lieutenant/NN-24)
+				prep_in(becoming/VBG-21,1984/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Oneonta</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Otsego_County,_New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He became an F-16 pilot, and flew combat missions in Desert Shield and Desert Storm.	</value>
+
+		<annotated-sentence>	He became an [[F-16|General_Dynamics_F-16_VISTA]] pilot, and flew [[combat missions|Combat_Missions]] in [[Desert Shield and Desert Storm|Gulf_War]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He became an F-16 pilot, and flew combat missions in Desert Shield and Desert Storm.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,He/PRP-1)
+				nsubj(flew/VBD-8,He/PRP-1)
+				cop(pilot/NN-5,became/VBD-2)
+				det(pilot/NN-5,an/DT-3)
+				nn(pilot/NN-5,F-16/NN-4)
+				conj_and(pilot/NN-5,flew/VBD-8)
+				nn(missions/NNS-10,combat/NN-9)
+				dobj(flew/VBD-8,missions/NNS-10)
+				nn(Shield/NNP-13,Desert/NNP-12)
+				prep_in(flew/VBD-8,Shield/NNP-13)
+				nn(Storm/NN-16,Desert/NNP-15)
+				prep_in(flew/VBD-8,Storm/NN-16)
+				conj_and(Shield/NNP-13,Storm/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>F-16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-16_VISTA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Desert Shield and Desert Storm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gulf_War</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before becoming an astronaut he was the Operations Officer of the 40th Flight Test Squadron (FTS).	</value>
+
+		<annotated-sentence>	Before becoming [[an astronaut|Astronaut]] he was [[the Operations Officer|Operations_(military_staff)]] of [[the 40th Flight Test Squadron|40th_Flight_Test_Squadron]] (FTS).	</annotated-sentence>
+
+		<pattern_crowdsource>	Before becoming an astronaut he was the Operations Officer of the 40th Flight Test Squadron (FTS).	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_before(Officer/NNP-9,becoming/VBG-2)
+				det(astronaut/NN-4,an/DT-3)
+				xcomp(becoming/VBG-2,astronaut/NN-4)
+				nsubj(Officer/NNP-9,he/PRP-5)
+				cop(Officer/NNP-9,was/VBD-6)
+				det(Officer/NNP-9,the/DT-7)
+				nn(Officer/NNP-9,Operations/NNP-8)
+				det(Squadron/NN-15,the/DT-11)
+				amod(Squadron/NN-15,40th/JJ-12)
+				nn(Squadron/NN-15,Flight/NN-13)
+				nn(Squadron/NN-15,Test/NN-14)
+				prep_of(Officer/NNP-9,Squadron/NN-15)
+				appos(Squadron/NN-15,FTS/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 40th Flight Test Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/40th_Flight_Test_Squadron</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He first flew in space as a Mission Specialist on the STS-124 mission to the International Space Station (ISS).	</value>
+
+		<annotated-sentence>	He first flew in [[space|Space]] as [[a Mission Specialist|Mission_Specialist]] on the [[STS-124|STS-124]] [[mission|Mission_Specialist]] to [[the International Space Station|International_Space_Station]] ([[ISS|International_Space_Station]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He first flew in space as a Mission Specialist on the STS-124 mission to the International Space Station (ISS).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-3,He/PRP-1)
+				advmod(flew/VBD-3,first/RB-2)
+				prep_in(flew/VBD-3,space/NN-5)
+				det(Specialist/NN-9,a/DT-7)
+				nn(Specialist/NN-9,Mission/NNP-8)
+				prep_as(space/NN-5,Specialist/NN-9)
+				det(mission/NN-13,the/DT-11)
+				nn(mission/NN-13,STS-124/NN-12)
+				prep_on(flew/VBD-3,mission/NN-13)
+				det(Station/NNP-18,the/DT-15)
+				nn(Station/NNP-18,International/NNP-16)
+				nn(Station/NNP-18,Space/NNP-17)
+				prep_to(flew/VBD-3,Station/NNP-18)
+				appos(Station/NNP-18,ISS/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned to ISS on 4 April 2011 for a six-month stay as a member of Expedition 27.	</value>
+
+		<annotated-sentence>	He returned to [[ISS|S]] on 4 [[April 2011|April_2011]] for a six-month stay as a member of [[Expedition 27|Expedition_27]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned to ISS on 4 April 2011 for a six-month stay as a member of Expedition 27.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				prep_to(returned/VBD-2,ISS/NN-4)
+				prep_on(ISS/NN-4,4/CD-6)
+				tmod(returned/VBD-2,April/NNP-7)
+				num(April/NNP-7,2011/CD-8)
+				det(stay/NN-12,a/DT-10)
+				amod(stay/NN-12,six-month/JJ-11)
+				prep_for(returned/VBD-2,stay/NN-12)
+				det(member/NN-15,a/DT-14)
+				prep_as(stay/NN-12,member/NN-15)
+				prep_of(member/NN-15,Expedition/NN-17)
+				num(Expedition/NN-17,27/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2011</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 27</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_27</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born on October 30, 1961 in Yonkers, NY, Ron Garan is of Ukrainian descent.	</value>
+
+		<annotated-sentence>	Born on October 30, 1961 in [[Yonkers , NY|N.Y.,_N.Y._(film)]] [[Ron Garan|Ronald_J._Garan,_Jr.]] is of [[Ukrainian descent|Ukrainians]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born on October 30, 1961 in Yonkers, NY, Ron Garan is of Ukrainian descent.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(is/VBZ-14,Born/VBN-1)
+				prep_on(Born/VBN-1,October/NNP-3)
+				num(October/NNP-3,30/CD-4)
+				num(October/NNP-3,1961/CD-6)
+				nn(NY/NNP-10,Yonkers/NNP-8)
+				prep_in(Born/VBN-1,NY/NNP-10)
+				nn(Garan/NNP-13,Ron/NNP-12)
+				nsubj(is/VBZ-14,Garan/NNP-13)
+				amod(descent/NN-17,Ukrainian/JJ-16)
+				prep_of(is/VBZ-14,descent/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yonkers , NY</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/N.Y.,_N.Y._(film)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ron Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ronald_J._Garan,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ukrainian descent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ukrainians</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to the former Carmel Courtney of Brooklyn, NY, and Scranton, PA.	</value>
+
+		<annotated-sentence>	He is married to the former Carmel Courtney of Brooklyn, NY, and Scranton, [[PA.|Pennsylvania]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married to the former Carmel Courtney of Brooklyn, NY, and Scranton, PA.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Courtney/NNP-8,the/DT-5)
+				amod(Courtney/NNP-8,former/JJ-6)
+				nn(Courtney/NNP-8,Carmel/NNP-7)
+				prep_to(married/VBN-3,Courtney/NNP-8)
+				prep_of(Courtney/NNP-8,Brooklyn/NNP-10)
+				prep_of(Courtney/NNP-8,NY/NNP-12)
+				conj_and(Brooklyn/NNP-10,NY/NNP-12)
+				prep_of(Courtney/NNP-8,Scranton/NNP-15)
+				conj_and(Brooklyn/NNP-10,Scranton/NNP-15)
+				appos(Courtney/NNP-8,PA./NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>PA.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pennsylvania</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have three sons.	</value>
+
+		<annotated-sentence>	[[They|They]] have three sons.	</annotated-sentence>
+
+		<pattern_crowdsource>	They have three sons.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(sons/NNS-4,three/CD-3)
+				dobj(have/VBP-2,sons/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His father, Ronald Garan Sr., resides in Yonkers, NY.	</value>
+
+		<annotated-sentence>	His [[father|Father]], [[Ronald Garan|Ronald_J._Garan,_Jr.]] Sr., resides in [[Yonkers , NY|N.Y.,_N.Y._(film)]]	</annotated-sentence>
+
+		<pattern_crowdsource>	His father, Ronald Garan Sr., resides in Yonkers, NY.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-2,His/PRP$-1)
+				nsubj(resides/VBZ-8,father/NN-2)
+				nn(Sr./NNP-6,Ronald/NNP-4)
+				nn(Sr./NNP-6,Garan/NNP-5)
+				appos(father/NN-2,Sr./NNP-6)
+				nn(NY/NNP-12,Yonkers/NNP-10)
+				prep_in(resides/VBZ-8,NY/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ronald Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ronald_J._Garan,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Yonkers , NY</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/N.Y.,_N.Y._(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His mother, Linda Lichtblau, resides in Port St. Lucie, FL with her husband, Peter Lichtblau.	</value>
+
+		<annotated-sentence>	His [[mother|Mother_Teresa]], Linda Lichtblau, resides in [[Port St. Lucie|Port_St._Lucie,_Florida]], [[FL|Florida]] with [[her husband|Husband]], [[Peter|St._Peter's_Basilica]] Lichtblau.	</annotated-sentence>
+
+		<pattern_crowdsource>	His [[mother|Mother_Teresa]], Linda Lichtblau, resides in [[Port St. Lucie|Port_St._Lucie,_Florida]], [[FL|Florida]] with her husband, [[Peter|St._Peter's_Basilica]] Lichtblau.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mother/NN-2,His/PRP$-1)
+				nsubj(resides/VBZ-7,mother/NN-2)
+				nn(Lichtblau/NNP-5,Linda/NNP-4)
+				appos(mother/NN-2,Lichtblau/NNP-5)
+				nn(Lucie/NNP-11,Port/NNP-9)
+				nn(Lucie/NNP-11,St./NNP-10)
+				prep_in(resides/VBZ-7,Lucie/NNP-11)
+				appos(Lucie/NNP-11,FL/NN-13)
+				poss(husband/NN-16,her/PRP$-15)
+				prep_with(resides/VBZ-7,husband/NN-16)
+				nn(Lichtblau/NNP-19,Peter/NNP-18)
+				appos(husband/NN-16,Lichtblau/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mother_Teresa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Port St. Lucie</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Port_St._Lucie,_Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>FL</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her husband</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Husband</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Peter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/St._Peter's_Basilica</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mother_Teresa http://dbpedia.org/property/beatifiedPlace http://dbpedia.org/resource/St._Peter's_Basilica
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Port_St._Lucie,_Florida http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Florida
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His recreational interests include running, football, coaching and teaching Sunday School classes to children.	</value>
+
+		<annotated-sentence>	His recreational [[interests|Interest]] include running, football, coaching and teaching [[Sunday School|Sunday_school]] classes to [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His recreational interests include running, football, coaching and teaching Sunday School classes to children.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				amod(interests/NNS-3,recreational/JJ-2)
+				nsubj(include/VBP-4,interests/NNS-3)
+				xcomp(include/VBP-4,running/VBG-5)
+				dep(classes/NNS-14,football/NN-7)
+				conj_and(football/NN-7,coaching/NN-9)
+				dep(classes/NNS-14,coaching/NN-9)
+				conj_and(football/NN-7,teaching/NN-11)
+				dep(classes/NNS-14,teaching/NN-11)
+				nn(classes/NNS-14,Sunday/NNP-12)
+				nn(classes/NNS-14,School/NNP-13)
+				ccomp(include/VBP-4,classes/NNS-14)
+				prep_to(classes/NNS-14,children/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sunday School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sunday_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan is a Roman Catholic.	</value>
+
+		<annotated-sentence>	[[Garan|Shichid%C5%8D_garan]] is a Roman Catholic.	</annotated-sentence>
+
+		<pattern_crowdsource>	Garan is a Roman Catholic.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Catholic/NNP-5,Garan/NNP-1)
+				cop(Catholic/NNP-5,is/VBZ-2)
+				det(Catholic/NNP-5,a/DT-3)
+				amod(Catholic/NNP-5,Roman/JJ-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His description of coming back to earth in a Soyuz capsule was "like going over Niagara Falls in a barrel (that's on fire) followed by a high speed crash".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(description/NN-2,His/PRP$-1)
+				nsubj(was/VBD-12,description/NN-2)
+				prepc_of(description/NN-2,coming/VBG-4)
+				advmod(coming/VBG-4,back/RB-5)
+				prep_to(back/RB-5,earth/NN-7)
+				det(capsule/NN-11,a/DT-9)
+				nn(capsule/NN-11,Soyuz/NNP-10)
+				prep_in(coming/VBG-4,capsule/NN-11)
+				prepc_like(was/VBD-12,going/VBG-15)
+				nn(Falls/NNP-18,Niagara/NNP-17)
+				prep_over(going/VBG-15,Falls/NNP-18)
+				det(barrel/NN-21,a/DT-20)
+				prep_in(Falls/NNP-18,barrel/NN-21)
+				nsubj('s/VBZ-24,that/DT-23)
+				dep(Falls/NNP-18,'s/VBZ-24)
+				prep_on('s/VBZ-24,fire/NN-26)
+				partmod(Falls/NNP-18,followed/VBN-28)
+				det(crash/NN-33,a/DT-30)
+				amod(crash/NN-33,high/JJ-31)
+				nn(crash/NN-33,speed/NN-32)
+				agent(followed/VBN-28,crash/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan graduated from Roosevelt High School, Yonkers, NY in 1979.	</value>
+
+		<annotated-sentence>	[[Garan|Shichid%C5%8D_garan]] graduated from Roosevelt High School, Yonkers, NY in [[1979|1979]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Garan graduated from Roosevelt High School, Yonkers, NY in 1979.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Garan/NNP-1)
+				nn(School/NNP-6,Roosevelt/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(NY/NNP-10,Yonkers/NNP-8)
+				appos(School/NNP-6,NY/NNP-10)
+				prep_in(graduated/VBD-2,1979/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He earned a Bachelor of Science degree in Business Economics from the SUNY College at Oneonta in 1982; a Masters of Aeronautical Science degree from Embry-Riddle Aeronautical University, 1994; and a Master of Science degree in Aerospace Engineering from the University of Florida, 1996.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(earned/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				nn(Economics/NNP-10,Business/NNP-9)
+				prep_in(earned/VBD-2,Economics/NNP-10)
+				det(College/NNP-14,the/DT-12)
+				nn(College/NNP-14,SUNY/NNP-13)
+				prep_from(Economics/NNP-10,College/NNP-14)
+				prep_at(earned/VBD-2,Oneonta/NNP-16)
+				prep_in(Oneonta/NNP-16,1982/CD-18)
+				det(Masters/NN-21,a/DT-20)
+				prep_at(earned/VBD-2,Masters/NN-21)
+				conj_and(Oneonta/NNP-16,Masters/NN-21)
+				nn(degree/NN-25,Aeronautical/NNP-23)
+				nn(degree/NN-25,Science/NNP-24)
+				prep_of(Masters/NN-21,degree/NN-25)
+				nn(University/NNP-29,Embry-Riddle/NNP-27)
+				nn(University/NNP-29,Aeronautical/NNP-28)
+				prep_from(degree/NN-25,University/NNP-29)
+				amod(University/NNP-29,1994/CD-31)
+				det(Master/NN-35,a/DT-34)
+				prep_at(earned/VBD-2,Master/NN-35)
+				conj_and(Oneonta/NNP-16,Master/NN-35)
+				nn(degree/NN-38,Science/NNP-37)
+				prep_of(Master/NN-35,degree/NN-38)
+				nn(Engineering/NNP-41,Aerospace/NNP-40)
+				prep_in(earned/VBD-2,Engineering/NNP-41)
+				det(University/NNP-44,the/DT-43)
+				prep_from(Engineering/NNP-41,University/NNP-44)
+				prep_of(University/NNP-44,Florida/NNP-46)
+				amod(Florida/NNP-46,1996/CD-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ron is also founder of the Fragile Oasis project, aimed at further integrating space and planetary sciences and the promotion of user projects "connecting space and Earth".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(founder/NN-4,Ron/NNP-1)
+				cop(founder/NN-4,is/VBZ-2)
+				advmod(founder/NN-4,also/RB-3)
+				det(project/NN-9,the/DT-6)
+				amod(project/NN-9,Fragile/JJ-7)
+				nn(project/NN-9,Oasis/NNP-8)
+				prep_of(founder/NN-4,project/NN-9)
+				partmod(project/NN-9,aimed/VBN-11)
+				prep_at(aimed/VBN-11,further/JJ-13)
+				partmod(further/JJ-13,integrating/VBG-14)
+				dobj(integrating/VBG-14,space/NN-15)
+				amod(sciences/NNS-18,planetary/JJ-17)
+				dobj(integrating/VBG-14,sciences/NNS-18)
+				conj_and(space/NN-15,sciences/NNS-18)
+				det(promotion/NN-21,the/DT-20)
+				dobj(integrating/VBG-14,promotion/NN-21)
+				conj_and(space/NN-15,promotion/NN-21)
+				nn(projects/NNS-24,user/NN-23)
+				prep_of(promotion/NN-21,projects/NNS-24)
+				partmod(project/NN-9,connecting/VBG-26)
+				dobj(connecting/VBG-26,space/NN-27)
+				dobj(connecting/VBG-26,Earth/NNP-29)
+				conj_and(space/NN-27,Earth/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	[1] Garan's military decorations include the Distinguished Flying Cross for Combat Valor, Meritorious Service Medal, Air Medal, Aerial Achievement Medal, Air Force Outstanding Unit Award with Valor, National Defense Service Medal, Humanitarian Service Award, Kuwait Liberation Medal, NASA Superior Accomplishment Award, NASA Exceptional Achievement Medal, and various other service awards.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				dep(include/VBP-8,1/LS-2)
+				punct(include/VBP-8,-RSB-/-RRB--3)
+				poss(decorations/NNS-7,Garan/NNP-4)
+				amod(decorations/NNS-7,military/JJ-6)
+				nsubj(include/VBP-8,decorations/NNS-7)
+				dep(-LSB-/-LRB--1,include/VBP-8)
+				det(Cross/NNP-12,the/DT-9)
+				nn(Cross/NNP-12,Distinguished/NNP-10)
+				nn(Cross/NNP-12,Flying/NNP-11)
+				dobj(include/VBP-8,Cross/NNP-12)
+				nn(Valor/NNP-15,Combat/NNP-14)
+				prep_for(Cross/NNP-12,Valor/NNP-15)
+				nn(Medal/NN-19,Meritorious/NNP-17)
+				nn(Medal/NN-19,Service/NNP-18)
+				prep_for(Cross/NNP-12,Medal/NN-19)
+				conj_and(Valor/NNP-15,Medal/NN-19)
+				nn(Medal/NN-22,Air/NNP-21)
+				prep_for(Cross/NNP-12,Medal/NN-22)
+				conj_and(Valor/NNP-15,Medal/NN-22)
+				amod(Medal/NN-26,Aerial/JJ-24)
+				nn(Medal/NN-26,Achievement/NNP-25)
+				prep_for(Cross/NNP-12,Medal/NN-26)
+				conj_and(Valor/NNP-15,Medal/NN-26)
+				nn(Award/NN-32,Air/NNP-28)
+				nn(Award/NN-32,Force/NNP-29)
+				amod(Award/NN-32,Outstanding/JJ-30)
+				nn(Award/NN-32,Unit/NN-31)
+				prep_for(Cross/NNP-12,Award/NN-32)
+				conj_and(Valor/NNP-15,Award/NN-32)
+				prep_with(Award/NN-32,Valor/NN-34)
+				nn(Medal/NN-39,National/NNP-36)
+				nn(Medal/NN-39,Defense/NNP-37)
+				nn(Medal/NN-39,Service/NNP-38)
+				prep_for(Cross/NNP-12,Medal/NN-39)
+				conj_and(Valor/NNP-15,Medal/NN-39)
+				nn(Award/NN-43,Humanitarian/NNP-41)
+				nn(Award/NN-43,Service/NNP-42)
+				prep_for(Cross/NNP-12,Award/NN-43)
+				conj_and(Valor/NNP-15,Award/NN-43)
+				nn(Medal/NN-47,Kuwait/NNP-45)
+				nn(Medal/NN-47,Liberation/NNP-46)
+				prep_for(Cross/NNP-12,Medal/NN-47)
+				conj_and(Valor/NNP-15,Medal/NN-47)
+				nn(Award/NN-52,NASA/NNP-49)
+				nn(Award/NN-52,Superior/NNP-50)
+				nn(Award/NN-52,Accomplishment/NNP-51)
+				prep_for(Cross/NNP-12,Award/NN-52)
+				conj_and(Valor/NNP-15,Award/NN-52)
+				nn(Medal/NN-57,NASA/NNP-54)
+				nn(Medal/NN-57,Exceptional/NNP-55)
+				nn(Medal/NN-57,Achievement/NNP-56)
+				prep_for(Cross/NNP-12,Medal/NN-57)
+				conj_and(Valor/NNP-15,Medal/NN-57)
+				amod(awards/NNS-63,various/JJ-60)
+				amod(awards/NNS-63,other/JJ-61)
+				nn(awards/NNS-63,service/NN-62)
+				prep_for(Cross/NNP-12,awards/NNS-63)
+				conj_and(Valor/NNP-15,awards/NNS-63)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received the Distinguished Graduate and Top Academic Award USAF Fighter Weapons School; was twice selected as Top Academic Instructor Pilot: USAF Weapons School; USAF Weapons School and USAF Weapons and Tactics Center: Lt. Gen. Claire Lee Chennault Award; Distinguished Graduate Squadron Officers School; Top Academic Award F-16 Replacement Training Unit (RTU).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				dobj(received/VBD-2,the/DT-3)
+				dep(the/DT-3,Distinguished/VBN-4)
+				dobj(Distinguished/VBN-4,Graduate/NN-5)
+				amod(School/NNP-13,Top/JJ-7)
+				nn(School/NNP-13,Academic/NNP-8)
+				nn(School/NNP-13,Award/NN-9)
+				nn(School/NNP-13,USAF/NNP-10)
+				nn(School/NNP-13,Fighter/NNP-11)
+				nn(School/NNP-13,Weapons/NNP-12)
+				dobj(Distinguished/VBN-4,School/NNP-13)
+				conj_and(Graduate/NN-5,School/NNP-13)
+				auxpass(selected/VBN-17,was/VBD-15)
+				advmod(selected/VBN-17,twice/RB-16)
+				parataxis(Distinguished/VBN-4,selected/VBN-17)
+				amod(Pilot/NN-22,Top/JJ-19)
+				nn(Pilot/NN-22,Academic/NNP-20)
+				nn(Pilot/NN-22,Instructor/NNP-21)
+				prep_as(selected/VBN-17,Pilot/NN-22)
+				nn(School/NNP-26,USAF/NNP-24)
+				nn(School/NNP-26,Weapons/NNP-25)
+				dep(Pilot/NN-22,School/NNP-26)
+				nn(School/NNP-30,USAF/NNP-28)
+				nn(School/NNP-30,Weapons/NNP-29)
+				dep(Pilot/NN-22,School/NNP-30)
+				nn(Weapons/NNP-33,USAF/NNP-32)
+				dep(Pilot/NN-22,Weapons/NNP-33)
+				conj_and(School/NNP-30,Weapons/NNP-33)
+				nn(Center/NNP-36,Tactics/NNP-35)
+				dep(Pilot/NN-22,Center/NNP-36)
+				conj_and(School/NNP-30,Center/NNP-36)
+				nn(Award/NN-43,Lt./NNP-38)
+				nn(Award/NN-43,Gen./NNP-39)
+				nn(Award/NN-43,Claire/NNP-40)
+				nn(Award/NN-43,Lee/NNP-41)
+				nn(Award/NN-43,Chennault/NNP-42)
+				dep(Pilot/NN-22,Award/NN-43)
+				nn(School/NNP-49,Distinguished/NNP-45)
+				nn(School/NNP-49,Graduate/NNP-46)
+				nn(School/NNP-49,Squadron/NNP-47)
+				nn(School/NNP-49,Officers/NNP-48)
+				dep(Pilot/NN-22,School/NNP-49)
+				nn(Replacement/NNP-55,Top/NNP-51)
+				nn(Replacement/NNP-55,Academic/NNP-52)
+				nn(Replacement/NNP-55,Award/NN-53)
+				nn(Replacement/NNP-55,F-16/NNP-54)
+				dep(Pilot/NN-22,Replacement/NNP-55)
+				xcomp(selected/VBN-17,Training/VBG-56)
+				dobj(Training/VBG-56,Unit/NN-57)
+				appos(Unit/NN-57,RTU/NN-59)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received an honorary Doctor of Science degree from the State University of New York.	</value>
+
+		<annotated-sentence>	He received [[an honorary Doctor|Honorary_degree]] of [[Science|Science]] [[degree|Honorary_degree]] from [[the State University of New York|State_University_of_New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received an honorary Doctor of Science degree from the State University of New York.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Doctor/NN-5,an/DT-3)
+				amod(Doctor/NN-5,honorary/JJ-4)
+				dobj(received/VBD-2,Doctor/NN-5)
+				nn(degree/NN-8,Science/NNP-7)
+				prep_of(Doctor/NN-5,degree/NN-8)
+				det(University/NNP-12,the/DT-10)
+				nn(University/NNP-12,State/NNP-11)
+				prep_from(received/VBD-2,University/NNP-12)
+				nn(York/NNP-15,New/NNP-14)
+				prep_of(University/NNP-12,York/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an honorary Doctor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the State University of New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/State_University_of_New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan received his commission as a Second Lieutenant in the United States Air Force from the Air Force Officer Training School at Lackland Air Force Base, TX, in 1984.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Garan/NNP-1)
+				poss(commission/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,commission/NN-4)
+				det(Lieutenant/NN-8,a/DT-6)
+				amod(Lieutenant/NN-8,Second/JJ-7)
+				prep_as(received/VBD-2,Lieutenant/NN-8)
+				det(Force/NNP-14,the/DT-10)
+				nn(Force/NNP-14,United/NNP-11)
+				nn(Force/NNP-14,States/NNP-12)
+				nn(Force/NNP-14,Air/NNP-13)
+				prep_in(Lieutenant/NN-8,Force/NNP-14)
+				det(School/NNP-21,the/DT-16)
+				nn(School/NNP-21,Air/NNP-17)
+				nn(School/NNP-21,Force/NNP-18)
+				nn(School/NNP-21,Officer/NNP-19)
+				nn(School/NNP-21,Training/NNP-20)
+				prep_from(received/VBD-2,School/NNP-21)
+				nn(Base/NNP-26,Lackland/NNP-23)
+				nn(Base/NNP-26,Air/NNP-24)
+				nn(Base/NNP-26,Force/NNP-25)
+				prep_at(received/VBD-2,Base/NNP-26)
+				appos(Base/NNP-26,TX/NNP-28)
+				prep_in(Base/NNP-26,1984/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon completion, he attended Undergraduate Pilot Training (UPT) at Vance AFB, OK and earned his wings in 1985.	</value>
+
+		<annotated-sentence>	Upon completion, he attended [[Undergraduate Pilot Training|Air_Education_and_Training_Command]] (UPT) at [[Vance AFB|Vance_Air_Force_Base]], OK and earned his wings in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon completion, he attended [[Undergraduate Pilot Training|Air_Education_and_Training_Command]] (UPT) at [[Vance AFB|Vance_Air_Force_Base]], OK and earned his wings in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_upon(attended/VBD-5,completion/NN-2)
+				nsubj(attended/VBD-5,he/PRP-4)
+				nsubj(earned/VBD-18,he/PRP-4)
+				nn(Training/NN-8,Undergraduate/NNP-6)
+				nn(Training/NN-8,Pilot/NN-7)
+				dobj(attended/VBD-5,Training/NN-8)
+				appos(Training/NN-8,UPT/NN-10)
+				nn(AFB/NNP-14,Vance/NNP-13)
+				prep_at(attended/VBD-5,AFB/NNP-14)
+				dep(attended/VBD-5,OK/JJ-16)
+				conj_and(attended/VBD-5,earned/VBD-18)
+				poss(wings/NNS-20,his/PRP$-19)
+				dobj(earned/VBD-18,wings/NNS-20)
+				prep_in(earned/VBD-18,1985/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Undergraduate Pilot Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Education_and_Training_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vance AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vance_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vance_Air_Force_Base http://dbpedia.org/property/partof http://dbpedia.org/resource/Air_Education_and_Training_Command
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then completed F-16 training at Luke AFB, AZ and reported to Hahn Air Base in former West Germany where he served as a combat ready F-16 pilot in the 496th Tactical Fighter Squadron (TFS), from 1986-88.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-3,He/PRP-1)
+				nsubj(reported/VBD-12,He/PRP-1)
+				advmod(completed/VBD-3,then/RB-2)
+				nn(training/NN-5,F-16/NN-4)
+				dobj(completed/VBD-3,training/NN-5)
+				nn(AFB/NNP-8,Luke/NNP-7)
+				prep_at(completed/VBD-3,AFB/NNP-8)
+				appos(AFB/NNP-8,AZ/NNP-10)
+				conj_and(completed/VBD-3,reported/VBD-12)
+				nn(Base/NNP-16,Hahn/NNP-14)
+				nn(Base/NNP-16,Air/NNP-15)
+				prep_to(reported/VBD-12,Base/NNP-16)
+				amod(Germany/NNP-20,former/JJ-18)
+				nn(Germany/NNP-20,West/NNP-19)
+				prep_in(Base/NNP-16,Germany/NNP-20)
+				advmod(served/VBD-23,where/WRB-21)
+				nsubj(served/VBD-23,he/PRP-22)
+				advcl(reported/VBD-12,served/VBD-23)
+				det(pilot/NN-29,a/DT-25)
+				nn(pilot/NN-29,combat/NN-26)
+				amod(pilot/NN-29,ready/JJ-27)
+				nn(pilot/NN-29,F-16/NN-28)
+				prep_as(served/VBD-23,pilot/NN-29)
+				det(Squadron/NNP-35,the/DT-31)
+				amod(Squadron/NNP-35,496th/JJ-32)
+				nn(Squadron/NNP-35,Tactical/NNP-33)
+				nn(Squadron/NNP-35,Fighter/NNP-34)
+				prep_in(served/VBD-23,Squadron/NNP-35)
+				appos(Squadron/NNP-35,TFS/NNP-37)
+				prep_from(served/VBD-23,1986-88/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1988, he was reassigned to the 17th TFS, Shaw AFB, SC, where he served as an instructor pilot, evaluator pilot, and combat ready F-16 pilot.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-7,March/NNP-2)
+				num(March/NNP-2,1988/CD-3)
+				nsubjpass(reassigned/VBN-7,he/PRP-5)
+				auxpass(reassigned/VBN-7,was/VBD-6)
+				det(TFS/NN-11,the/DT-9)
+				amod(TFS/NN-11,17th/JJ-10)
+				prep_to(reassigned/VBN-7,TFS/NN-11)
+				nn(AFB/NNP-14,Shaw/NNP-13)
+				appos(TFS/NN-11,AFB/NNP-14)
+				appos(TFS/NN-11,SC/NNP-16)
+				advmod(served/VBD-20,where/WRB-18)
+				nsubj(served/VBD-20,he/PRP-19)
+				rcmod(TFS/NN-11,served/VBD-20)
+				det(pilot/NN-24,an/DT-22)
+				nn(pilot/NN-24,instructor/NN-23)
+				prep_as(served/VBD-20,pilot/NN-24)
+				nn(pilot/NN-27,evaluator/NN-26)
+				prep_as(served/VBD-20,pilot/NN-27)
+				conj_and(pilot/NN-24,pilot/NN-27)
+				prep_as(served/VBD-20,combat/NN-30)
+				conj_and(pilot/NN-24,combat/NN-30)
+				amod(pilot/NN-33,ready/JJ-31)
+				nn(pilot/NN-33,F-16/NN-32)
+				dep(combat/NN-30,pilot/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While stationed at Shaw he attended the USAF Fighter Weapons School, graduating in 1989, and then returned to the 17th TFS to assume the position of Squadron Weapons Officer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(stationed/VBN-2,While/IN-1)
+				advcl(attended/VBD-6,stationed/VBN-2)
+				prep_at(stationed/VBN-2,Shaw/NNP-4)
+				nsubj(attended/VBD-6,he/PRP-5)
+				det(School/NNP-11,the/DT-7)
+				nn(School/NNP-11,USAF/NNP-8)
+				nn(School/NNP-11,Fighter/NNP-9)
+				nn(School/NNP-11,Weapons/NNP-10)
+				dobj(attended/VBD-6,School/NNP-11)
+				partmod(attended/VBD-6,graduating/VBG-13)
+				prep_in(graduating/VBG-13,1989/CD-15)
+				nsubj(returned/VBD-19,then/RB-18)
+				conj_and(attended/VBD-6,returned/VBD-19)
+				det(TFS/NN-23,the/DT-21)
+				amod(TFS/NN-23,17th/JJ-22)
+				prep_to(returned/VBD-19,TFS/NN-23)
+				aux(assume/VB-25,to/TO-24)
+				xcomp(returned/VBD-19,assume/VB-25)
+				det(position/NN-27,the/DT-26)
+				dobj(assume/VB-25,position/NN-27)
+				nn(Officer/NNP-31,Squadron/NNP-29)
+				nn(Officer/NNP-31,Weapons/NNP-30)
+				prep_of(position/NN-27,Officer/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From August 1990 through March 1991, he deployed to Southwest Asia in support of Operations Desert Shield/Desert Storm where he flew combat missions in the F-16.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(deployed/VBD-9,August/NNP-2)
+				num(August/NNP-2,1990/CD-3)
+				prep_through(August/NNP-2,March/NNP-5)
+				num(March/NNP-5,1991/CD-6)
+				nsubj(deployed/VBD-9,he/PRP-8)
+				nn(Asia/NNP-12,Southwest/NNP-11)
+				prep_to(deployed/VBD-9,Asia/NNP-12)
+				prep_in(Asia/NNP-12,support/NN-14)
+				nn(Storm/NN-19,Operations/NNP-16)
+				nn(Storm/NN-19,Desert/NNP-17)
+				nn(Storm/NN-19,Shield/Desert/NNP-18)
+				prep_of(support/NN-14,Storm/NN-19)
+				advmod(flew/VBD-22,where/WRB-20)
+				nsubj(flew/VBD-22,he/PRP-21)
+				advcl(deployed/VBD-9,flew/VBD-22)
+				nn(missions/NNS-24,combat/NN-23)
+				dobj(flew/VBD-22,missions/NNS-24)
+				det(F-16/NNP-27,the/DT-26)
+				prep_in(flew/VBD-22,F-16/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1991, Garan was reassigned to the USAF Weapons School where he served as an F-16 Weapons School Instructor Pilot, Flight Commander and Assistant Operations Officer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-6,1991/CD-2)
+				nsubjpass(reassigned/VBN-6,Garan/NNP-4)
+				auxpass(reassigned/VBN-6,was/VBD-5)
+				det(School/NNP-11,the/DT-8)
+				nn(School/NNP-11,USAF/NNP-9)
+				nn(School/NNP-11,Weapons/NNP-10)
+				prep_to(reassigned/VBN-6,School/NNP-11)
+				advmod(served/VBD-14,where/WRB-12)
+				nsubj(served/VBD-14,he/PRP-13)
+				advcl(reassigned/VBN-6,served/VBD-14)
+				det(Pilot/NN-21,an/DT-16)
+				nn(Pilot/NN-21,F-16/NN-17)
+				nn(Pilot/NN-21,Weapons/NNP-18)
+				nn(Pilot/NN-21,School/NNP-19)
+				nn(Pilot/NN-21,Instructor/NNP-20)
+				prep_as(served/VBD-14,Pilot/NN-21)
+				nn(Commander/NNP-24,Flight/NNP-23)
+				prep_as(served/VBD-14,Commander/NNP-24)
+				conj_and(Pilot/NN-21,Commander/NNP-24)
+				nn(Officer/NNP-28,Assistant/NNP-26)
+				nn(Officer/NNP-28,Operations/NNP-27)
+				prep_as(served/VBD-14,Officer/NNP-28)
+				conj_and(Pilot/NN-21,Officer/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994, he was reassigned to the 39th Flight Test Squadron (39th FTS), Eglin AFB, FL where he served as a developmental test pilot and chief F-16 pilot.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-6,1994/CD-2)
+				nsubjpass(reassigned/VBN-6,he/PRP-4)
+				auxpass(reassigned/VBN-6,was/VBD-5)
+				det(Squadron/NN-12,the/DT-8)
+				amod(Squadron/NN-12,39th/JJ-9)
+				nn(Squadron/NN-12,Flight/NN-10)
+				nn(Squadron/NN-12,Test/NN-11)
+				prep_to(reassigned/VBN-6,Squadron/NN-12)
+				amod(FTS/NN-15,39th/JJ-14)
+				appos(Squadron/NN-12,FTS/NN-15)
+				nn(AFB/NNP-19,Eglin/NNP-18)
+				appos(Squadron/NN-12,AFB/NNP-19)
+				appos(Squadron/NN-12,FL/NN-21)
+				advmod(served/VBD-24,where/WRB-22)
+				nsubj(served/VBD-24,he/PRP-23)
+				rcmod(FL/NN-21,served/VBD-24)
+				det(pilot/NN-29,a/DT-26)
+				amod(pilot/NN-29,developmental/JJ-27)
+				nn(pilot/NN-29,test/NN-28)
+				prep_as(served/VBD-24,pilot/NN-29)
+				nn(pilot/NN-33,chief/NN-31)
+				nn(pilot/NN-33,F-16/NN-32)
+				prep_as(served/VBD-24,pilot/NN-33)
+				conj_and(pilot/NN-29,pilot/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan attended the US Naval Test Pilot School at the Patuxent River Naval Air Station, MD from January–December 1997, after which he was reassigned to the 39th FTS, Eglin AFB, FL where he served as the Director of the Joint Air to Surface Standoff Missile Combined Test Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Garan/NNP-1)
+				det(School/NNP-8,the/DT-3)
+				nn(School/NNP-8,US/NNP-4)
+				nn(School/NNP-8,Naval/NNP-5)
+				nn(School/NNP-8,Test/NNP-6)
+				nn(School/NNP-8,Pilot/NN-7)
+				dobj(attended/VBD-2,School/NNP-8)
+				det(Station/NNP-15,the/DT-10)
+				nn(Station/NNP-15,Patuxent/NNP-11)
+				nn(Station/NNP-15,River/NNP-12)
+				nn(Station/NNP-15,Naval/NNP-13)
+				nn(Station/NNP-15,Air/NNP-14)
+				prep_at(School/NNP-8,Station/NNP-15)
+				appos(School/NNP-8,MD/NN-17)
+				prep_from(MD/NN-17,January/NNP-19)
+				dep(MD/NN-17,December/NNP-21)
+				num(December/NNP-21,1997/CD-22)
+				prep_after(reassigned/VBN-28,which/WDT-25)
+				nsubjpass(reassigned/VBN-28,he/PRP-26)
+				auxpass(reassigned/VBN-28,was/VBD-27)
+				rcmod(December/NNP-21,reassigned/VBN-28)
+				det(FTS/NN-32,the/DT-30)
+				amod(FTS/NN-32,39th/JJ-31)
+				prep_to(reassigned/VBN-28,FTS/NN-32)
+				nn(AFB/NNP-35,Eglin/NNP-34)
+				appos(FTS/NN-32,AFB/NNP-35)
+				appos(School/NNP-8,FL/NN-37)
+				advmod(served/VBD-40,where/WRB-38)
+				nsubj(served/VBD-40,he/PRP-39)
+				rcmod(FL/NN-37,served/VBD-40)
+				det(Director/NN-43,the/DT-42)
+				prep_as(served/VBD-40,Director/NN-43)
+				det(Air/NNP-47,the/DT-45)
+				nn(Air/NNP-47,Joint/NNP-46)
+				prep_of(Director/NN-43,Air/NNP-47)
+				nn(Force/NNP-54,Surface/NN-49)
+				nn(Force/NNP-54,Standoff/NN-50)
+				nn(Force/NNP-54,Missile/NNP-51)
+				nn(Force/NNP-54,Combined/NNP-52)
+				nn(Force/NNP-54,Test/NNP-53)
+				prep_to(served/VBD-40,Force/NNP-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan was the Operations Officer of the 40th FTS when he was selected as an astronaut for NASA.	</value>
+
+		<annotated-sentence>	[[Garan|Shichid%C5%8D_garan]] was [[the Operations Officer|Operations_(military_staff)]] of the 40th FTS when he was selected as [[an astronaut|Astronaut]] for [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Garan was the Operations Officer of the 40th FTS when he was selected as an astronaut for NASA.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Officer/NNP-5,Garan/NNP-1)
+				cop(Officer/NNP-5,was/VBD-2)
+				det(Officer/NNP-5,the/DT-3)
+				nn(Officer/NNP-5,Operations/NNP-4)
+				det(FTS/NN-9,the/DT-7)
+				amod(FTS/NN-9,40th/JJ-8)
+				prep_of(Officer/NNP-5,FTS/NN-9)
+				advmod(selected/VBN-13,when/WRB-10)
+				nsubjpass(selected/VBN-13,he/PRP-11)
+				auxpass(selected/VBN-13,was/VBD-12)
+				rcmod(FTS/NN-9,selected/VBN-13)
+				det(astronaut/NN-16,an/DT-15)
+				prep_as(selected/VBN-13,astronaut/NN-16)
+				prep_for(astronaut/NN-16,NASA/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 5,000 hours in more than thirty different aircraft.	</value>
+
+		<annotated-sentence>	He has logged over [[5,000|5,000,000]] [[hours|Hour]] in more than [[thirty|Armstrong_Siddeley__Thirty__1]] different [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 5,000 hours in more than thirty different aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,5,000/CD-5)
+				prep_over(logged/VBN-3,hours/NNS-6)
+				mwe(than/IN-9,more/JJR-8)
+				quantmod(thirty/CD-10,than/IN-9)
+				num(aircraft/NN-12,thirty/CD-10)
+				amod(aircraft/NN-12,different/JJ-11)
+				prep_in(hours/NNS-6,aircraft/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>thirty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Armstrong_Siddeley__Thirty__1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On June 1, 2009, Garan retired from the Air Force.	</value>
+
+		<annotated-sentence>	On June 1, 2009, [[Garan|Shichid%C5%8D_garan]] retired from [[the Air Force|Air_force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On June 1, 2009, Garan retired from the Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(retired/VBD-8,June/NNP-2)
+				num(June/NNP-2,1/CD-3)
+				num(June/NNP-2,2009/CD-5)
+				nsubj(retired/VBD-8,Garan/NNP-7)
+				det(Force/NNP-12,the/DT-10)
+				nn(Force/NNP-12,Air/NNP-11)
+				prep_from(retired/VBD-8,Force/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as a pilot by NASA in July 2000, Colonel Garan reported for training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as a pilot by [[NASA|NASA]] in [[July 2000|July_2000]], [[Colonel|Colonel]] [[Garan|Shichid%C5%8D_garan]] reported for [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as a pilot by NASA in July 2000, Colonel Garan reported for training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-13,Selected/VBN-1)
+				det(pilot/NN-4,a/DT-3)
+				prep_as(Selected/VBN-1,pilot/NN-4)
+				agent(Selected/VBN-1,NASA/NNP-6)
+				prep_in(Selected/VBN-1,July/NNP-8)
+				num(July/NNP-8,2000/CD-9)
+				nn(Garan/NNP-12,Colonel/NNP-11)
+				nsubj(reported/VBD-13,Garan/NNP-12)
+				prep_for(reported/VBD-13,training/NN-15)
+				prep_in(reported/VBD-13,August/NNP-17)
+				num(August/NNP-17,2000/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the completion of two years of training and evaluation, he was assigned technical duties in the Astronaut Office Station and Shuttle Operations Branches.	</value>
+
+		<annotated-sentence>	Following the completion of [[two years|Year]] of [[training and evaluation|Course_evaluation]], he was assigned technical [[duties|Duty]] in the [[Astronaut Office|NASA_Astronaut_Corps]] [[Station|Station]] and Shuttle Operations Branches.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following the completion of two years of training and evaluation, he was assigned technical duties in the Astronaut Office Station and Shuttle Operations Branches.	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_following(assigned/VBN-14,completion/NN-3)
+				num(years/NNS-6,two/CD-5)
+				prep_of(completion/NN-3,years/NNS-6)
+				prep_of(years/NNS-6,training/NN-8)
+				prep_of(years/NNS-6,evaluation/NN-10)
+				conj_and(training/NN-8,evaluation/NN-10)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				amod(duties/NNS-16,technical/JJ-15)
+				dobj(assigned/VBN-14,duties/NNS-16)
+				det(Station/NNP-21,the/DT-18)
+				nn(Station/NNP-21,Astronaut/NNP-19)
+				nn(Station/NNP-21,Office/NNP-20)
+				prep_in(assigned/VBN-14,Station/NNP-21)
+				nn(Branches/NNPS-25,Shuttle/NNP-23)
+				nn(Branches/NNPS-25,Operations/NNP-24)
+				prep_in(assigned/VBN-14,Branches/NNPS-25)
+				conj_and(Station/NNP-21,Branches/NNPS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training and evaluation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Course_evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 2006, Garan became an aquanaut through his participation in the joint NASA-NOAA, NEEMO 9 (NASA Extreme Environment Mission Operations) project, an exploration research mission held in Aquarius, the world's only undersea research laboratory.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(aquanaut/NN-8,April/NNP-2)
+				num(April/NNP-2,2006/CD-3)
+				nsubj(aquanaut/NN-8,Garan/NNP-5)
+				cop(aquanaut/NN-8,became/VBD-6)
+				det(aquanaut/NN-8,an/DT-7)
+				poss(participation/NN-11,his/PRP$-10)
+				prep_through(aquanaut/NN-8,participation/NN-11)
+				det(NASA-NOAA/NN-15,the/DT-13)
+				amod(NASA-NOAA/NN-15,joint/JJ-14)
+				prep_in(participation/NN-11,NASA-NOAA/NN-15)
+				appos(NASA-NOAA/NN-15,NEEMO/NNP-17)
+				num(NEEMO/NNP-17,9/CD-18)
+				nn(Operations/NNP-24,NASA/NNP-20)
+				nn(Operations/NNP-24,Extreme/NNP-21)
+				nn(Operations/NNP-24,Environment/NNP-22)
+				nn(Operations/NNP-24,Mission/NNP-23)
+				appos(NASA-NOAA/NN-15,Operations/NNP-24)
+				dep(NASA-NOAA/NN-15,project/NN-26)
+				det(mission/NN-31,an/DT-28)
+				nn(mission/NN-31,exploration/NN-29)
+				nn(mission/NN-31,research/NN-30)
+				appos(participation/NN-11,mission/NN-31)
+				partmod(mission/NN-31,held/VBN-32)
+				prep_in(held/VBN-32,Aquarius/NNP-34)
+				det(world/NN-37,the/DT-36)
+				poss(laboratory/NN-42,world/NN-37)
+				amod(laboratory/NN-42,only/JJ-39)
+				nn(laboratory/NN-42,undersea/NN-40)
+				nn(laboratory/NN-42,research/NN-41)
+				appos(Aquarius/NNP-34,laboratory/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this eighteen-day mission, the six-person crew of NEEMO 9 developed lunar surface exploration procedures and telemedical technology applications in support of the United States' Vision for Space Exploration.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,this/DT-2)
+				amod(mission/NN-4,eighteen-day/JJ-3)
+				prep_during(developed/VBD-12,mission/NN-4)
+				det(crew/NN-8,the/DT-6)
+				amod(crew/NN-8,six-person/JJ-7)
+				nsubj(developed/VBD-12,crew/NN-8)
+				prep_of(crew/NN-8,NEEMO/NNP-10)
+				num(NEEMO/NNP-10,9/CD-11)
+				amod(procedures/NNS-16,lunar/JJ-13)
+				nn(procedures/NNS-16,surface/NN-14)
+				nn(procedures/NNS-16,exploration/NN-15)
+				dobj(developed/VBD-12,procedures/NNS-16)
+				amod(applications/NNS-20,telemedical/JJ-18)
+				nn(applications/NNS-20,technology/NN-19)
+				dobj(developed/VBD-12,applications/NNS-20)
+				conj_and(procedures/NNS-16,applications/NNS-20)
+				prep_in(developed/VBD-12,support/NN-22)
+				det(States/NNPS-26,the/DT-24)
+				nn(States/NNPS-26,United/NNP-25)
+				poss(Vision/NNP-28,States/NNPS-26)
+				prep_of(support/NN-22,Vision/NNP-28)
+				nn(Exploration/NNP-31,Space/NNP-30)
+				prep_for(developed/VBD-12,Exploration/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ron Garan completed his first space flight in 2008 on STS-124 as Mission Specialist 2 for ascent and entry, and has logged over 13 days in space and 27 hours and 3 minutes of EVA in four spacewalks.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Garan/NNP-2,Ron/NNP-1)
+				nsubj(completed/VBD-3,Garan/NNP-2)
+				nsubj(logged/VBN-23,Garan/NNP-2)
+				poss(flight/NN-7,his/PRP$-4)
+				amod(flight/NN-7,first/JJ-5)
+				nn(flight/NN-7,space/NN-6)
+				dobj(completed/VBD-3,flight/NN-7)
+				prep_in(flight/NN-7,2008/CD-9)
+				prep_on(completed/VBD-3,STS-124/NN-11)
+				nn(Specialist/NN-14,Mission/NNP-13)
+				prep_as(STS-124/NN-11,Specialist/NN-14)
+				tmod(completed/VBD-3,2/CD-15)
+				prep_for(completed/VBD-3,ascent/NN-17)
+				prep_for(completed/VBD-3,entry/NN-19)
+				conj_and(ascent/NN-17,entry/NN-19)
+				aux(logged/VBN-23,has/VBZ-22)
+				conj_and(completed/VBD-3,logged/VBN-23)
+				num(days/NNS-26,13/CD-25)
+				prep_over(logged/VBN-23,days/NNS-26)
+				prep_in(days/NNS-26,space/NN-28)
+				num(hours/NNS-31,27/CD-30)
+				prep_in(days/NNS-26,hours/NNS-31)
+				conj_and(space/NN-28,hours/NNS-31)
+				num(minutes/NNS-34,3/CD-33)
+				prep_over(logged/VBN-23,minutes/NNS-34)
+				conj_and(days/NNS-26,minutes/NNS-34)
+				prep_of(minutes/NNS-34,EVA/NNP-36)
+				num(spacewalks/NNS-39,four/CD-38)
+				prep_in(logged/VBN-23,spacewalks/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-124 also delivered a new station crew member, Expedition 17 Flight Engineer Greg Chamitoff.	</value>
+
+		<annotated-sentence>	[[STS-124|STS-124]] also delivered [[a new station|Station]] [[crew member|Crewman]], [[Expedition 17|Expedition_17]] [[Flight Engineer|Flight_engineer]] [[Greg Chamitoff|Gregory_Chamitoff]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-124|STS-124]] also delivered a new station crew member, [[Expedition 17|Expedition_17]] Flight Engineer [[Greg Chamitoff|Gregory_Chamitoff]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-3,STS-124/NN-1)
+				advmod(delivered/VBD-3,also/RB-2)
+				det(station/NN-6,a/DT-4)
+				amod(station/NN-6,new/JJ-5)
+				iobj(delivered/VBD-3,station/NN-6)
+				nn(member/NN-8,crew/NN-7)
+				dobj(delivered/VBD-3,member/NN-8)
+				appos(member/NN-8,Expedition/NN-10)
+				num(Expedition/NN-10,17/CD-11)
+				nn(Chamitoff/NNP-15,Flight/NNP-12)
+				nn(Chamitoff/NNP-15,Engineer/NNP-13)
+				nn(Chamitoff/NNP-15,Greg/NNP-14)
+				dep(Expedition/NN-10,Chamitoff/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a new station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_17</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Greg Chamitoff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Chamitoff</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/expedition7Up http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_Chamitoff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Chamitoff http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He replaced Expedition 16 Flight Engineer Garrett Reisman, who returned to Earth with the STS-124 crew.	</value>
+
+		<annotated-sentence>	He replaced [[Expedition 16|Expedition_16]] [[Flight Engineer|Flight_engineer]] [[Garrett Reisman|Garrett_Reisman]], who returned to [[Earth|Earth]] with the [[STS-124|STS-124]] crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	He replaced [[Expedition 16|Expedition_16]] Flight Engineer [[Garrett Reisman|Garrett_Reisman]], who returned to Earth with the [[STS-124|STS-124]] crew.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(replaced/VBD-2,He/PRP-1)
+				dobj(replaced/VBD-2,Expedition/NNP-3)
+				num(Expedition/NNP-3,16/CD-4)
+				nn(Reisman/NNP-8,Flight/NNP-5)
+				nn(Reisman/NNP-8,Engineer/NNP-6)
+				nn(Reisman/NNP-8,Garrett/NNP-7)
+				tmod(replaced/VBD-2,Reisman/NNP-8)
+				nsubj(returned/VBD-11,who/WP-10)
+				rcmod(Reisman/NNP-8,returned/VBD-11)
+				prep_to(returned/VBD-11,Earth/NNP-13)
+				det(crew/NN-17,the/DT-15)
+				nn(crew/NN-17,STS-124/NN-16)
+				prep_with(returned/VBD-11,crew/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Expedition 16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_16</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Garrett Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Garrett_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_16
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-124 mission was completed in 218 orbits, traveling 5,735,643 miles in 13 days, 18 hours, 13 minutes and 7 seconds.	</value>
+
+		<annotated-sentence>	The [[STS-124|STS-124]] mission was completed in 218 orbits, traveling 5,735,643 [[miles|Mile]] in 13 days, 18 [[hours|Hour]], 13 [[minutes|Minute]] and 7 seconds.	</annotated-sentence>
+
+		<pattern_crowdsource>	The STS-124 mission was completed in 218 orbits, traveling 5,735,643 miles in 13 days, 18 hours, 13 minutes and 7 seconds.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,The/DT-1)
+				nn(mission/NN-3,STS-124/NN-2)
+				nsubjpass(completed/VBN-5,mission/NN-3)
+				auxpass(completed/VBN-5,was/VBD-4)
+				num(orbits/NNS-8,218/CD-7)
+				prep_in(completed/VBN-5,orbits/NNS-8)
+				xcomp(completed/VBN-5,traveling/VBG-10)
+				num(miles/NNS-12,5,735,643/CD-11)
+				dobj(traveling/VBG-10,miles/NNS-12)
+				num(days/NNS-15,13/CD-14)
+				prep_in(traveling/VBG-10,days/NNS-15)
+				num(hours/NNS-18,18/CD-17)
+				prep_in(traveling/VBG-10,hours/NNS-18)
+				conj_and(days/NNS-15,hours/NNS-18)
+				num(minutes/NNS-21,13/CD-20)
+				prep_in(traveling/VBG-10,minutes/NNS-21)
+				conj_and(days/NNS-15,minutes/NNS-21)
+				num(seconds/NNS-24,7/CD-23)
+				prep_in(traveling/VBG-10,seconds/NNS-24)
+				conj_and(days/NNS-15,seconds/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before his flight aboard Discovery in 2008, Garan asked the women religious of a Carmelite community in New Caney, Texas for their prayers and told them he could take an item into space for them.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-3,his/PRP$-2)
+				prep_before(asked/VBD-10,flight/NN-3)
+				prep_aboard(flight/NN-3,Discovery/NNP-5)
+				prep_in(Discovery/NNP-5,2008/CD-7)
+				nsubj(asked/VBD-10,Garan/NNP-9)
+				nsubj(told/VBD-27,Garan/NNP-9)
+				det(women/NNS-12,the/DT-11)
+				dobj(asked/VBD-10,women/NNS-12)
+				amod(women/NNS-12,religious/JJ-13)
+				det(community/NN-17,a/DT-15)
+				amod(community/NN-17,Carmelite/JJ-16)
+				prep_of(women/NNS-12,community/NN-17)
+				nn(Caney/NNP-20,New/NNP-19)
+				prep_in(asked/VBD-10,Caney/NNP-20)
+				appos(Caney/NNP-20,Texas/NNP-22)
+				poss(prayers/NNS-25,their/PRP$-24)
+				prep_for(Texas/NNP-22,prayers/NNS-25)
+				conj_and(asked/VBD-10,told/VBD-27)
+				dobj(told/VBD-27,them/PRP-28)
+				nsubj(take/VB-31,he/PRP-29)
+				aux(take/VB-31,could/MD-30)
+				dep(told/VBD-27,take/VB-31)
+				det(item/NN-33,an/DT-32)
+				dobj(take/VB-31,item/NN-33)
+				prep_into(take/VB-31,space/NN-35)
+				prep_for(space/NN-35,them/PRP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The sisters gave him relics of St. Thérèse of Lisieux, and quoted her words: I have the vocation of an apostle.	</value>
+
+		<annotated-sentence>	The sisters gave him [[relics|Relic]] of [[St. Thérèse of Lisieux|Th%C3%A9r%C3%A8se_of_Lisieux]], and quoted her words: I have [[the vocation|Vocation]] of [[an apostle|Apostle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The sisters gave him relics of St. Thérèse of Lisieux, and quoted her words: I have the vocation of an apostle.	</pattern_crowdsource>
+
+
+		<tree>
+				det(sisters/NNS-2,The/DT-1)
+				nsubj(gave/VBD-3,sisters/NNS-2)
+				nsubj(quoted/VBD-13,sisters/NNS-2)
+				iobj(gave/VBD-3,him/PRP-4)
+				dobj(gave/VBD-3,relics/NNS-5)
+				nn(Thérèse/NNP-8,St./NNP-7)
+				prep_of(relics/NNS-5,Thérèse/NNP-8)
+				prep_of(Thérèse/NNP-8,Lisieux/NNP-10)
+				conj_and(gave/VBD-3,quoted/VBD-13)
+				poss(words/NNS-15,her/PRP$-14)
+				dobj(quoted/VBD-13,words/NNS-15)
+				nsubj(have/VBP-18,I/PRP-17)
+				parataxis(gave/VBD-3,have/VBP-18)
+				det(vocation/NN-20,the/DT-19)
+				dobj(have/VBP-18,vocation/NN-20)
+				det(apostle/NN-23,an/DT-22)
+				prep_of(vocation/NN-20,apostle/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>relics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>St. Thérèse of Lisieux</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Th%C3%A9r%C3%A8se_of_Lisieux</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the vocation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vocation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an apostle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apostle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I would like to travel over the whole earth to preach your name and to plant your glorious cross on infidel soil.	</value>
+
+		<annotated-sentence>	I would like to travel over [[the whole earth|Soil]] to preach your name and to plant your glorious cross on [[infidel|Infidel]] [[soil|Soil]].	</annotated-sentence>
+
+		<pattern_crowdsource>	I would like to travel over the whole earth to preach your name and to plant your glorious cross on infidel soil.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(like/VB-3,I/PRP-1)
+				aux(like/VB-3,would/MD-2)
+				aux(travel/VB-5,to/TO-4)
+				xcomp(like/VB-3,travel/VB-5)
+				det(earth/NN-9,the/DT-7)
+				amod(earth/NN-9,whole/JJ-8)
+				prep_over(travel/VB-5,earth/NN-9)
+				aux(preach/VB-11,to/TO-10)
+				ccomp(travel/VB-5,preach/VB-11)
+				poss(name/NN-13,your/PRP$-12)
+				dobj(preach/VB-11,name/NN-13)
+				aux(plant/VB-16,to/TO-15)
+				ccomp(travel/VB-5,plant/VB-16)
+				conj_and(preach/VB-11,plant/VB-16)
+				poss(cross/NN-19,your/PRP$-17)
+				amod(cross/NN-19,glorious/JJ-18)
+				dobj(plant/VB-16,cross/NN-19)
+				nn(soil/NN-22,infidel/NN-21)
+				prep_on(plant/VB-16,soil/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the whole earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soil</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>infidel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infidel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>soil</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soil</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	But oh, my beloved, one mission would not be enough for me, I would want to preach the Gospel on all five continents simultaneously and even to the most remote isles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				cc(enough/RB-12,But/CC-1)
+				discourse(enough/RB-12,oh/UH-2)
+				poss(beloved/JJ-5,my/PRP$-4)
+				nsubj(enough/RB-12,beloved/JJ-5)
+				num(mission/NN-8,one/CD-7)
+				appos(beloved/JJ-5,mission/NN-8)
+				aux(enough/RB-12,would/MD-9)
+				neg(enough/RB-12,not/RB-10)
+				cop(enough/RB-12,be/VB-11)
+				prep_for(enough/RB-12,me/PRP-14)
+				nsubj(want/VB-18,I/PRP-16)
+				aux(want/VB-18,would/MD-17)
+				dep(enough/RB-12,want/VB-18)
+				aux(preach/VB-20,to/TO-19)
+				xcomp(want/VB-18,preach/VB-20)
+				det(Gospel/NN-22,the/DT-21)
+				dobj(preach/VB-20,Gospel/NN-22)
+				det(continents/NNS-26,all/DT-24)
+				num(continents/NNS-26,five/CD-25)
+				prep_on(Gospel/NN-22,continents/NNS-26)
+				advmod(preach/VB-20,simultaneously/RB-27)
+				cc(enough/RB-12,and/CC-28)
+				advmod(enough/RB-12,even/RB-29)
+				det(isles/NNS-34,the/DT-31)
+				advmod(isles/NNS-34,most/RBS-32)
+				amod(isles/NNS-34,remote/JJ-33)
+				prep_to(even/RB-29,isles/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I would be a missionary, not for a few years but from the beginning of creation until the consummation of the ages.	</value>
+
+		<annotated-sentence>	I would be a missionary, not for [[a few years|Year]] but from the beginning of creation until [[the consummation|Consummation_(album)]] of the ages.	</annotated-sentence>
+
+		<pattern_crowdsource>	I would be a missionary, not for a few years but from the beginning of creation until the consummation of the ages.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(missionary/JJ-5,I/PRP-1)
+				nsubj(missionary/JJ-5,I/PRP-1)
+				aux(missionary/JJ-5,would/MD-2)
+				cop(missionary/JJ-5,be/VB-3)
+				det(missionary/JJ-5,a/DT-4)
+				conj_but(missionary/JJ-5,missionary/JJ-5)
+				neg(missionary/JJ-5,not/RB-7)
+				det(years/NNS-11,a/DT-9)
+				amod(years/NNS-11,few/JJ-10)
+				prep_for(missionary/JJ-5,years/NNS-11)
+				det(beginning/NN-15,the/DT-14)
+				prep_from(missionary/JJ-5,beginning/NN-15)
+				prep_of(beginning/NN-15,creation/NN-17)
+				det(consummation/NN-20,the/DT-19)
+				prep_until(missionary/JJ-5,consummation/NN-20)
+				det(ages/NNS-23,the/DT-22)
+				prep_of(consummation/NN-20,ages/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a few years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the consummation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consummation_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Garan is the founder of the Manna Energy Foundation, which is assisting the villages of Rwanda to make potable water.	</value>
+
+		<annotated-sentence>	[[Garan|Shichid%C5%8D_garan]] is the founder of the [[Manna|Manna]] [[Energy|Energy]] Foundation, which is assisting [[the villages|Village]] of [[Rwanda|Rwanda]] to make [[potable water|Drinking_water]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Garan is the founder of the Manna Energy Foundation, which is assisting the villages of Rwanda to make potable water.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(founder/NN-4,Garan/NNP-1)
+				cop(founder/NN-4,is/VBZ-2)
+				det(founder/NN-4,the/DT-3)
+				det(Foundation/NNP-9,the/DT-6)
+				nn(Foundation/NNP-9,Manna/NNP-7)
+				nn(Foundation/NNP-9,Energy/NNP-8)
+				prep_of(founder/NN-4,Foundation/NNP-9)
+				nsubj(assisting/VBG-13,which/WDT-11)
+				aux(assisting/VBG-13,is/VBZ-12)
+				rcmod(Foundation/NNP-9,assisting/VBG-13)
+				det(villages/NNS-15,the/DT-14)
+				dobj(assisting/VBG-13,villages/NNS-15)
+				prep_of(villages/NNS-15,Rwanda/NNP-17)
+				aux(make/VB-19,to/TO-18)
+				xcomp(assisting/VBG-13,make/VB-19)
+				amod(water/NN-21,potable/JJ-20)
+				dobj(make/VB-19,water/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Manna</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manna</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Energy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Energy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the villages</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Village</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rwanda</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rwanda</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>potable water</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Drinking_water</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On June 24, 2009, Garan met Pope Benedict XVI at his general audience.	</value>
+
+		<annotated-sentence>	On June 24, 2009, [[Garan|Shichid%C5%8D_garan]] met [[Pope Benedict XVI|Pope_Benedict_XVI]] at [[his general audience|Audience_(meeting)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On June 24, 2009, Garan met Pope Benedict XVI at his general audience.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(met/VBD-8,June/NNP-2)
+				num(June/NNP-2,24/CD-3)
+				num(June/NNP-2,2009/CD-5)
+				nsubj(met/VBD-8,Garan/NNP-7)
+				nn(XVI/NNP-11,Pope/NNP-9)
+				nn(XVI/NNP-11,Benedict/NNP-10)
+				dobj(met/VBD-8,XVI/NNP-11)
+				poss(audience/NN-15,his/PRP$-13)
+				amod(audience/NN-15,general/JJ-14)
+				prep_at(XVI/NNP-11,audience/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shichid%C5%8D_garan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pope Benedict XVI</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pope_Benedict_XVI</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his general audience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Audience_(meeting)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from the National Aeronautics and Space Administration document "Astronaut Bio: Ronald J. Garan (1/2011)" (retrieved on 2011-07-28).	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from the [[National|United_States]] [[Aeronautics|Aeronautics]] and [[Space|NASA]] Administration [[document|Document_(album)]] "[[Astronaut|Astronaut]] Bio: [[Ronald J. Garan|Ronald_J._Garan,_Jr.]] (1/2011)" (retrieved on 2011-07-28).	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from the [[National|United_States]] Aeronautics and [[Space|NASA]] Administration [[document|Document_(album)]] "[[Astronaut|Astronaut]] Bio: [[Ronald J. Garan|Ronald_J._Garan,_Jr.]] (1/2011)" (retrieved on 2011-07-28).	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				det(Aeronautics/NNP-10,the/DT-8)
+				nn(Aeronautics/NNP-10,National/NNP-9)
+				prep_from(incorporates/VBZ-3,Aeronautics/NNP-10)
+				nn(document/NN-14,Space/NNP-12)
+				nn(document/NN-14,Administration/NNP-13)
+				prep_from(incorporates/VBZ-3,document/NN-14)
+				conj_and(Aeronautics/NNP-10,document/NN-14)
+				nn(Bio/NNP-17,Astronaut/NNP-16)
+				dep(Aeronautics/NNP-10,Bio/NNP-17)
+				nn(Garan/NNP-21,Ronald/NNP-19)
+				nn(Garan/NNP-21,J./NNP-20)
+				dep(Bio/NNP-17,Garan/NNP-21)
+				appos(Garan/NNP-21,1/2011/CD-23)
+				dep(Aeronautics/NNP-10,retrieved/VBN-27)
+				prep_on(retrieved/VBN-27,2011-07-28/CD-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>National</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aeronautics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>document</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Document_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ronald J. Garan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ronald_J._Garan,_Jr.</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Document_(album) http://dbpedia.org/ontology/recordedIn http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ronald_J._Garan,_Jr. http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ronald_J._Garan,_Jr. http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ronald_J._Garan,_Jr. http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

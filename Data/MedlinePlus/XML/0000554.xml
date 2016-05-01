@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A breast lump is swelling, a growth, or a lump in the breast.</value>
+		<pattern_crowdsource> A [[breast lump|C0024103]] is swelling, a growth, or a [[lump|C0577559]] in the [[breast|C0006141]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>breast lump</surface-form>
+				<RDF-ID>C0024103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>growth</surface-form>
+				<RDF-ID>C0018270</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lump</surface-form>
+				<RDF-ID>C0577559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006141 LOCATION_OF C0577559</triple>
+			<triple>C0006141 LOCATION_OF C0024103</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Breast lumps in both men and women raise concern for breast cancer, even though most lumps are not cancer.</value>
+		<pattern_crowdsource> [[Breast lumps|C0024103]] in both [[men|C0025266]] and [[women|C0043210]] raise concern for [[breast cancer|C0006142]], even though most lumps are not [[cancer|C0006826]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Breast lumps</surface-form>
+				<RDF-ID>C0024103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast cancer</surface-form>
+				<RDF-ID>C0006142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lumps</surface-form>
+				<RDF-ID>C0577559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006142 ISA C0006826</triple>
+			<triple>C0024103 PROCESS_OF C0025266</triple>
+			<triple>C0024103 PROCESS_OF C0043210</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

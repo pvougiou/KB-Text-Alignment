@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Enteral feeding is a way to feed your child using a feeding tube.</value>
+		<pattern_crowdsource> Enteral feeding is a way to feed your [[child|C0008059]] using a [[feeding tube|C0086337]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Enteral feeding</surface-form>
+				<RDF-ID>C0086225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feeding tube</surface-form>
+				<RDF-ID>C0086337</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008059 USES C0086337</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your child has diarrhea and cramping:  - Make sure the formula is mixed properly and warm.</value>
+		<pattern_crowdsource> If your [[child|C0008059]] has [[diarrhea|C0011991]] and cramping:  - Make sure the formula is mixed properly and warm.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diarrhea</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011991 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Check with your provider about antibiotics or other medicines that may be causing it.</value>
+		<pattern_crowdsource> - Check with your provider about [[antibiotics|C0003232]] or other [[medicines|C0013227]] that may be causing it.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 ISA C0013227</triple>
+			<triple>C0013227 ISA C0003232</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your child has an upset stomach or is vomiting:  - Make sure the formula is mixed properly and warm.</value>
+		<pattern_crowdsource> If your [[child|C0008059]] has an [[upset stomach|C0235309]] or is vomiting:  - Make sure the formula is mixed properly and warm.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>upset stomach</surface-form>
+				<RDF-ID>C0235309</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0235309 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Faiz bin Khaleed (born September 15, 1980 in Kuala Lumpur, Malaysia) is a Malaysian military dentist with the Royal Malaysian Armed Forces.	</value>
+
+		<annotated-sentence>	[[Faiz bin Khaleed|Faiz_Khaleed]] (born [[September|September]] 15, 1980 in [[Kuala Lumpur|Kuala_Lumpur]], [[Malaysia|Malaysian_Armed_Forces]]) is a Malaysian [[military dentist|Military_Dentist]] with the Royal [[Malaysian Armed Forces|Malaysian_Armed_Forces]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Faiz bin Khaleed|Faiz_Khaleed]] (born September 15, 1980 in [[Kuala Lumpur|Kuala_Lumpur]], Malaysia) is a Malaysian [[military dentist|Military_Dentist]] with the Royal Malaysian Armed Forces.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Khaleed/NNP-3,Faiz/NNP-1)
+				nn(Khaleed/NNP-3,bin/NNP-2)
+				nsubj(dentist/NN-20,Khaleed/NNP-3)
+				dep(Khaleed/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,September/NNP-6)
+				num(September/NNP-6,15/CD-7)
+				num(September/NNP-6,1980/CD-9)
+				nn(Lumpur/NNP-12,Kuala/NNP-11)
+				prep_in(born/VBN-5,Lumpur/NNP-12)
+				appos(Lumpur/NNP-12,Malaysia/NNP-14)
+				cop(dentist/NN-20,is/VBZ-16)
+				det(dentist/NN-20,a/DT-17)
+				amod(dentist/NN-20,Malaysian/JJ-18)
+				amod(dentist/NN-20,military/JJ-19)
+				det(Forces/NNP-26,the/DT-22)
+				nn(Forces/NNP-26,Royal/NNP-23)
+				amod(Forces/NNP-26,Malaysian/JJ-24)
+				nn(Forces/NNP-26,Armed/NNP-25)
+				prep_with(dentist/NN-20,Forces/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Faiz bin Khaleed</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faiz_Khaleed</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kuala Lumpur</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kuala_Lumpur</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Malaysia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Malaysian_Armed_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>military dentist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_Dentist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Malaysian Armed Forces</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Malaysian_Armed_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Faiz_Khaleed http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Kuala_Lumpur
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Faiz_Khaleed http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Military_Dentist
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 2006, he was selected as one of two final candidates to undergo astronaut training in Star City as part of the Angkasawan program.	</value>
+
+		<annotated-sentence>	In [[September 2006|September_2006]], he was selected as one of [[two final candidates|Candidate]] to undergo [[astronaut training|Astronaut_training]] in Star City as part of [[the Angkasawan program|Angkasawan_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 2006, he was selected as one of two final candidates to undergo astronaut training in Star City as part of the Angkasawan program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,September/NNP-2)
+				num(September/NNP-2,2006/CD-3)
+				nsubjpass(selected/VBN-7,he/PRP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				prep_as(selected/VBN-7,one/CD-9)
+				num(candidates/NNS-13,two/CD-11)
+				amod(candidates/NNS-13,final/JJ-12)
+				prep_of(one/CD-9,candidates/NNS-13)
+				aux(undergo/VB-15,to/TO-14)
+				xcomp(selected/VBN-7,undergo/VB-15)
+				nn(training/NN-17,astronaut/NN-16)
+				dobj(undergo/VB-15,training/NN-17)
+				nn(City/NNP-20,Star/NNP-19)
+				prep_in(undergo/VB-15,City/NNP-20)
+				prep_as(City/NNP-20,part/NN-22)
+				det(program/NN-26,the/DT-24)
+				nn(program/NN-26,Angkasawan/NNP-25)
+				prep_of(part/NN-22,program/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two final candidates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Angkasawan program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Angkasawan_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The other candidate was Sheikh Muszaphar Shukor.	</value>
+
+		<annotated-sentence>	[[The other|The_Other]] [[candidate|Candidate]] was [[Sheikh Muszaphar Shukor|Sheikh_Muszaphar_Shukor]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The other candidate was Sheikh Muszaphar Shukor.	</pattern_crowdsource>
+
+
+		<tree>
+				det(candidate/NN-3,The/DT-1)
+				amod(candidate/NN-3,other/JJ-2)
+				nsubj(Shukor/NNP-7,candidate/NN-3)
+				cop(Shukor/NNP-7,was/VBD-4)
+				nn(Shukor/NNP-7,Sheikh/NNP-5)
+				nn(Shukor/NNP-7,Muszaphar/NNP-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The other</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Other</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sheikh Muszaphar Shukor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sheikh_Muszaphar_Shukor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Faiz received his early education in St. John's Institution, Kuala Lumpur.	</value>
+
+		<annotated-sentence>	[[Faiz|Faiz_Khaleed]] received [[his early education|Education]] in [[St. John|Saint]]'s [[Institution|Institution]], [[Kuala Lumpur|Kuala_Lumpur]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Faiz|Faiz_Khaleed]] received his early education in St. John's Institution, [[Kuala Lumpur|Kuala_Lumpur]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Faiz/NNP-1)
+				poss(education/NN-5,his/PRP$-3)
+				amod(education/NN-5,early/JJ-4)
+				dobj(received/VBD-2,education/NN-5)
+				nn(John/NNP-8,St./NNP-7)
+				poss(Institution/NNP-10,John/NNP-8)
+				prep_in(received/VBD-2,Institution/NNP-10)
+				nn(Lumpur/NNP-13,Kuala/NNP-12)
+				appos(Institution/NNP-10,Lumpur/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Faiz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faiz_Khaleed</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his early education</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>St. John</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saint</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Institution</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institution</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kuala Lumpur</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kuala_Lumpur</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Faiz_Khaleed http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Kuala_Lumpur
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2007, Sheikh Muszaphar was selected to fly to the International Space Station with Expedition 16 on board the Soyuz TMA-11 in October 2007.	</value>
+
+		<annotated-sentence>	In [[2007|2007]], [[Sheikh Muszaphar|Sheikh_Muszaphar_Shukor]] was selected to fly to [[the International Space Station|International_Space_Station]] with [[Expedition 16|Expedition_16]] on board [[the Soyuz TMA-11|Soyuz_TMA-11]] in [[October 2007|October_2007]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2007, [[Sheikh Muszaphar|Sheikh_Muszaphar_Shukor]] was selected to fly to [[the International Space Station|International_Space_Station]] with [[Expedition 16|Expedition_16]] on board [[the Soyuz TMA-11|Soyuz_TMA-11]] in October 2007.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-7,2007/CD-2)
+				nn(Muszaphar/NNP-5,Sheikh/NNP-4)
+				nsubjpass(selected/VBN-7,Muszaphar/NNP-5)
+				auxpass(selected/VBN-7,was/VBD-6)
+				aux(fly/VB-9,to/TO-8)
+				xcomp(selected/VBN-7,fly/VB-9)
+				det(Station/NNP-14,the/DT-11)
+				nn(Station/NNP-14,International/NNP-12)
+				nn(Station/NNP-14,Space/NNP-13)
+				prep_to(fly/VB-9,Station/NNP-14)
+				prep_with(Station/NNP-14,Expedition/NNP-16)
+				num(Expedition/NNP-16,16/CD-17)
+				prep_on(Station/NNP-14,board/NN-19)
+				det(TMA-11/NN-22,the/DT-20)
+				nn(TMA-11/NN-22,Soyuz/NNP-21)
+				dobj(fly/VB-9,TMA-11/NN-22)
+				prep_in(TMA-11/NN-22,October/NNP-24)
+				num(October/NNP-24,2007/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sheikh Muszaphar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sheikh_Muszaphar_Shukor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_16</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Soyuz TMA-11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_2007</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sheikh_Muszaphar_Shukor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Sheikh_Muszaphar_Shukor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-11 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Sheikh_Muszaphar_Shukor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/arrivalCraft http://dbpedia.org/resource/Soyuz_TMA-11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/departureCraft http://dbpedia.org/resource/Soyuz_TMA-11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-11 http://dbpedia.org/property/expedition1Up http://dbpedia.org/resource/Expedition_16
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-11 http://dbpedia.org/property/expedition2Up http://dbpedia.org/resource/Expedition_16
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Faiz_Khaleed
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Faiz still might go to space if Malaysia decides to proceed with a second space flight.	</value>
+
+		<annotated-sentence>	[[Faiz|Faiz]] still might go to [[space|Space]] if [[Malaysia|Malaysia]] decides to proceed with a second space flight.	</annotated-sentence>
+
+		<pattern_crowdsource>	Faiz still might go to space if [[Malaysia|Malaysia]] decides to proceed with a second space flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(go/VB-4,Faiz/NNP-1)
+				advmod(go/VB-4,still/RB-2)
+				aux(go/VB-4,might/MD-3)
+				prep_to(go/VB-4,space/NN-6)
+				mark(decides/VBZ-9,if/IN-7)
+				nsubj(decides/VBZ-9,Malaysia/NNP-8)
+				advcl(go/VB-4,decides/VBZ-9)
+				aux(proceed/VB-11,to/TO-10)
+				xcomp(decides/VBZ-9,proceed/VB-11)
+				det(flight/NN-16,a/DT-13)
+				amod(flight/NN-16,second/JJ-14)
+				nn(flight/NN-16,space/NN-15)
+				prep_with(proceed/VB-11,flight/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Faiz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faiz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Malaysia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Malaysia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Faiz_Khaleed http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Malaysia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Faiz_Khaleed http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Malaysia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On 22 October 2007, Faiz was promoted to a Major in the Royal Malaysian Armed Forces.	</value>
+
+		<annotated-sentence>	On 22 [[October 2007|October_2007]], [[Faiz|Faiz]] was promoted to [[a Major|Major]] in the Royal [[Malaysian Armed Forces|Malaysian_Armed_Forces]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On 22 October 2007, Faiz was promoted to a Major in the Royal Malaysian Armed Forces.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(promoted/VBN-8,22/CD-2)
+				tmod(promoted/VBN-8,October/NNP-3)
+				num(October/NNP-3,2007/CD-4)
+				nsubjpass(promoted/VBN-8,Faiz/NNP-6)
+				auxpass(promoted/VBN-8,was/VBD-7)
+				det(Major/JJ-11,a/DT-10)
+				prep_to(promoted/VBN-8,Major/JJ-11)
+				det(Forces/NNP-17,the/DT-13)
+				nn(Forces/NNP-17,Royal/NNP-14)
+				amod(Forces/NNP-17,Malaysian/JJ-15)
+				nn(Forces/NNP-17,Armed/NNP-16)
+				prep_in(Major/JJ-11,Forces/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Faiz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faiz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Major</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Major</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Malaysian Armed Forces</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Malaysian_Armed_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

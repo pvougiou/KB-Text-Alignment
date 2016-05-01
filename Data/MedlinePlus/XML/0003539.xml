@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Infection with the SARS virus causes acute respiratory distress (severe breathing difficulty) and sometimes death.</value>
+		<pattern_crowdsource> Infection with the [[SARS virus|C1175743]] causes [[acute respiratory distress|C0748355]] (severe [[breathing difficulty|C0013404]]) and sometimes death.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>SARS virus</surface-form>
+				<RDF-ID>C1175743</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acute respiratory distress</surface-form>
+				<RDF-ID>C0748355</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breathing difficulty</surface-form>
+				<RDF-ID>C0013404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>death</surface-form>
+				<RDF-ID>C0011065</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0748355 ISA C0013404</triple>
+			<triple>C1175743 CAUSES C0748355</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The SARS virus may live on hands, tissues, and other surfaces for up to 6 hours in these droplets and up to 3 hours after the droplets have dried.</value>
+		<pattern_crowdsource> The [[SARS|C1175175]] [[virus|C0042769]] may live on [[hands|C0018563]], [[tissues|C0040300]], and other surfaces for up to 6 hours in these droplets and up to 3 hours after the droplets have dried.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>SARS</surface-form>
+				<RDF-ID>C1175175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissues</surface-form>
+				<RDF-ID>C0040300</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surfaces</surface-form>
+				<RDF-ID>C0205148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>6 hours</surface-form>
+				<RDF-ID>C1292428</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>3 hours</surface-form>
+				<RDF-ID>C1442460</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1175175 ISA C0042769</triple>
+			<triple>C0018563 LOCATION_OF C0042769</triple>
+			<triple>C0040300 LOCATION_OF C0042769</triple>
+			<triple>C0018563 LOCATION_OF C1175175</triple>
+			<triple>C0040300 LOCATION_OF C1175175</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People with active symptoms of illness are contagious.</value>
+		<pattern_crowdsource> [[People|C0027361]] with active [[symptoms|C1457887]] of illness are contagious.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>active</surface-form>
+				<RDF-ID>C0205177</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>illness</surface-form>
+				<RDF-ID>C0221423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>contagious</surface-form>
+				<RDF-ID>C0598197</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

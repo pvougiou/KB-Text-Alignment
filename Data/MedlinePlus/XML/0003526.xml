@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This is  the bacterium that causes the disease brucellosis.</value>
+		<pattern_crowdsource> This is  the [[bacterium|C0004611]] that causes the [[disease|C0012634]] [[brucellosis|C0006309]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bacterium</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brucellosis</surface-form>
+				<RDF-ID>C0006309</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006309 ISA C0012634</triple>
+			<triple>C0004611 CAUSES C0006309</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Brucellosis is an infection that occurs from coming into contact with animals that carry Brucella bacteria.</value>
+		<pattern_crowdsource> [[Brucellosis|C0006309]] is an [[infection|C0009450]] that occurs from coming into contact with animals that carry [[Brucella|C0006303]] [[bacteria|C0004611]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Brucellosis</surface-form>
+				<RDF-ID>C0006309</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>animals</surface-form>
+				<RDF-ID>C0003062</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Brucella</surface-form>
+				<RDF-ID>C0006303</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006303 ISA C0004611</triple>
+			<triple>C0006309 ISA C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Aflatoxins are toxins produced by a mold that grows in nuts, seeds, and legumes.</value>
+		<pattern_crowdsource> [[Aflatoxins|C0001734]] are [[toxins|C0040549]] produced by a mold that grows in nuts, seeds, and legumes.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Aflatoxins</surface-form>
+				<RDF-ID>C0001734</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>toxins</surface-form>
+				<RDF-ID>C0040549</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mold</surface-form>
+				<RDF-ID>C0369241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nuts</surface-form>
+				<RDF-ID>C0028723</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seeds</surface-form>
+				<RDF-ID>C0036563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>legumes</surface-form>
+				<RDF-ID>C0453184</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001734 ISA C0040549</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Although aflatoxins are known to cause cancer in animals, the U.S.</value>
+		<pattern_crowdsource> Although [[aflatoxins|C0001734]] are known to cause [[cancer|C0006826]] in [[animals|C0003062]], the U.S.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>aflatoxins</surface-form>
+				<RDF-ID>C0001734</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>animals</surface-form>
+				<RDF-ID>C0003062</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001734 CAUSES C0006826</triple>
+			<triple>C0006826 PROCESS_OF C0003062</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

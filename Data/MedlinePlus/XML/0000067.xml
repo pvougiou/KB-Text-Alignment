@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The ACTH test measures the level of adrenocorticotropic hormone (ACTH) in the blood.</value>
+		<pattern_crowdsource> The ACTH test measures the level of [[adrenocorticotropic hormone|C0001655]] (ACTH) in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenocorticotropic hormone</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0001655</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>ACTH is a hormone released from the pituitary gland in the brain.</value>
+		<pattern_crowdsource> [[ACTH|C0001655]] is a [[hormone|C0019932]] released from the [[pituitary gland|C0032005]] in the brain.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001655 ISA C0019932</triple>
+			<triple>C0032005 LOCATION_OF C0001655</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may also be told to stop taking medicines that can affect the test results.</value>
+		<pattern_crowdsource> You may also be told to stop taking [[medicines|C0013227]] that can affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines include glucocorticoids such as prednisone, hydrocortisone, or dexamethasone.</value>
+		<pattern_crowdsource> These medicines include [[glucocorticoids|C0017710]] such as [[prednisone|C0032952]], [[hydrocortisone|C0020268]], or [[dexamethasone|C0011777]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucocorticoids</surface-form>
+				<RDF-ID>C0017710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prednisone</surface-form>
+				<RDF-ID>C0032952</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrocortisone</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dexamethasone</surface-form>
+				<RDF-ID>C0011777</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032952 ISA C0017710</triple>
+			<triple>C0011777 ISA C0017710</triple>
+			<triple>C0020268 ISA C0017710</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The main function of ACTH is to regulate the steroid hormone cortisol.</value>
+		<pattern_crowdsource> The main function of [[ACTH|C0001655]] is to regulate the [[steroid hormone|C0301818]] [[cortisol|C0020268]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C1542147</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>function</surface-form>
+				<RDF-ID>C0542341</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>steroid hormone</surface-form>
+				<RDF-ID>C0301818</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020268 ISA C0301818</triple>
+			<triple>C0001655 INTERACTS_WITH C0020268</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cortisol is released by the adrenal gland.</value>
+		<pattern_crowdsource> [[Cortisol|C0020268]] is released by the [[adrenal gland|C0001625]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenal gland</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001625 PRODUCES C0020268</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A higher-than-normal level of ACTH may indicate:  - Adrenal glands not producing enough cortisol (Addison disease)  - Adrenal glands not producing enough hormones (congenital adrenal hyperplasia)  - One or more of the endocrine glands are overactive or have formed a tumor (multiple endocrine neoplasia type I)  - Pituitary is making too much ACTH (Cushing disease), which is usually caused by a non-cancerous tumor of the pituitary gland  - Rare type of tumor (lung, thyroid, or pancreas) making too much ACTH (ectopic Cushing syndrome)    A lower-than-normal level of ACTH may indicate:  - Pituitary gland not producing enough hormones, such as ACTH (hypopituitarism)  - Tumor of the adrenal gland that produces too much cortisol  - Glucocorticoid medicines are suppressing ACTH production   Other conditions under which the test may be performed:  - Multiple endocrine neoplasia (MEN) I</value>
+		<pattern_crowdsource> A higher-than-normal level of ACTH may indicate:  - [[Adrenal glands|C0001625]] not producing enough [[cortisol|C0020268]] (Addison disease)  - [[Adrenal glands|C0001625]] not producing enough [[hormones|C0019932]] (congenital adrenal hyperplasia)  - One or more of the endocrine glands are overactive or have formed a tumor (multiple endocrine neoplasia type I)  - Pituitary is making too much ACTH (Cushing disease), which is usually caused by a non-[[cancerous|C0006826]] [[tumor|C0027651]] of the pituitary gland  - Rare type of tumor (lung, thyroid, or pancreas) making too much ACTH (ectopic Cushing syndrome)    A lower-than-normal level of ACTH may indicate:  - [[Pituitary gland|C0032005]] not producing enough [[hormones|C0019932]], such as [[ACTH|C0001655]] (hypopituitarism)  - [[Tumor|C0027651]] of the [[adrenal gland|C0001625]] that produces too much cortisol  - [[Glucocorticoid|C0017710]] [[medicines|C0013227]] are suppressing [[ACTH|C0001655]] production   Other conditions under which the test may be performed:  - [[Multiple endocrine neoplasia|C0027662]] (MEN) I		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Adrenal glands</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Addison disease</surface-form>
+				<RDF-ID>C0001403</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Adrenal glands</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormones</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>congenital adrenal hyperplasia</surface-form>
+				<RDF-ID>C0001627</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>One</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>endocrine glands</surface-form>
+				<RDF-ID>C0014133</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>overactive</surface-form>
+				<RDF-ID>C0443272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>multiple endocrine neoplasia type I)  -</surface-form>
+				<RDF-ID>C0025267</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cushing disease</surface-form>
+				<RDF-ID>C0221406</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancerous</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ectopic</surface-form>
+				<RDF-ID>C0574895</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cushing syndrome</surface-form>
+				<RDF-ID>C0010481</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lower</surface-form>
+				<RDF-ID>C0441994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormones</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hypopituitarism</surface-form>
+				<RDF-ID>C0020635</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenal gland</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Glucocorticoid</surface-form>
+				<RDF-ID>C0017710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>suppressing</surface-form>
+				<RDF-ID>C1260953</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>production</surface-form>
+				<RDF-ID>C0033268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Multiple endocrine neoplasia</surface-form>
+				<RDF-ID>C0027662</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>MEN</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0027651</triple>
+			<triple>C0017710 ISA C0013227</triple>
+			<triple>C0001655 ISA C0019932</triple>
+			<triple>C0001655 ISA C0013227</triple>
+			<triple>C0001625 NEG_PRODUCES C0020268</triple>
+			<triple>C0001625 NEG_PRODUCES C0019932</triple>
+			<triple>C0032005 NEG_PRODUCES C0019932</triple>
+			<triple>C0027651 PART_OF C0001625</triple>
+			<triple>C0027662 PRODUCES C0001655</triple>
+			<triple>C0032005 NEG_PRODUCES C0001655</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

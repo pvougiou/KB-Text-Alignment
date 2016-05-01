@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Tao Jiali (born 1987 in Chengdu, Sichuan, China) is a fighter pilot in the Peoples Liberation Army Air Force.	</value>
+
+		<annotated-sentence>	[[Tao Jiali|Tao_Jiali]] (born [[1987|1987]] in [[Chengdu|Chengdu]], Sichuan, China) is [[a fighter pilot|Fighter_pilot]] in [[the Peoples Liberation Army Air Force|People's_Liberation_Army_Air_Force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Tao Jiali|Tao_Jiali]] (born 1987 in [[Chengdu|Chengdu]], Sichuan, China) is a fighter pilot in the Peoples Liberation Army Air Force.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jiali/NNP-2,Tao/NNP-1)
+				nsubj(pilot/NN-16,Jiali/NNP-2)
+				dep(Jiali/NNP-2,born/VBN-4)
+				dobj(born/VBN-4,1987/CD-5)
+				prep_in(born/VBN-4,Chengdu/NNP-7)
+				nn(China/NNP-11,Sichuan/NNP-9)
+				appos(Chengdu/NNP-7,China/NNP-11)
+				cop(pilot/NN-16,is/VBZ-13)
+				det(pilot/NN-16,a/DT-14)
+				nn(pilot/NN-16,fighter/NN-15)
+				det(Peoples/NNPS-19,the/DT-18)
+				prep_in(pilot/NN-16,Peoples/NNPS-19)
+				nn(Force/NNP-23,Liberation/NNP-20)
+				nn(Force/NNP-23,Army/NNP-21)
+				nn(Force/NNP-23,Air/NNP-22)
+				dep(Peoples/NNPS-19,Force/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Tao Jiali</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tao_Jiali</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chengdu</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chengdu</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Peoples Liberation Army Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/People's_Liberation_Army_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Tao_Jiali http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Chengdu
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was one of 35 high school students selected to join the Peoples Liberation Army Air Force as cadet pilots in July 2005, and after four years of training at Aviation University and flight school, she was among 16 young women who graduated as fighter pilots.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,She/PRP-1)
+				cop(one/CD-3,was/VBD-2)
+				num(students/NNS-8,35/CD-5)
+				amod(students/NNS-8,high/JJ-6)
+				nn(students/NNS-8,school/NN-7)
+				prep_of(one/CD-3,students/NNS-8)
+				partmod(students/NNS-8,selected/VBN-9)
+				aux(join/VB-11,to/TO-10)
+				xcomp(selected/VBN-9,join/VB-11)
+				det(Force/NNP-17,the/DT-12)
+				nn(Force/NNP-17,Peoples/NNPS-13)
+				nn(Force/NNP-17,Liberation/NNP-14)
+				nn(Force/NNP-17,Army/NNP-15)
+				nn(Force/NNP-17,Air/NNP-16)
+				dobj(join/VB-11,Force/NNP-17)
+				nn(pilots/NNS-20,cadet/NN-19)
+				prep_as(join/VB-11,pilots/NNS-20)
+				prep_in(pilots/NNS-20,July/NNP-22)
+				num(July/NNP-22,2005/CD-23)
+				num(years/NNS-28,four/CD-27)
+				prep_after(was/VBD-39,years/NNS-28)
+				prep_of(years/NNS-28,training/NN-30)
+				nn(University/NNP-33,Aviation/NNP-32)
+				prep_at(training/NN-30,University/NNP-33)
+				nn(school/NN-36,flight/NN-35)
+				prep_at(training/NN-30,school/NN-36)
+				conj_and(University/NNP-33,school/NN-36)
+				nsubj(was/VBD-39,she/PRP-38)
+				conj_and(one/CD-3,was/VBD-39)
+				num(women/NNS-43,16/CD-41)
+				amod(women/NNS-43,young/JJ-42)
+				prep_among(was/VBD-39,women/NNS-43)
+				nsubj(graduated/VBD-45,who/WP-44)
+				rcmod(women/NNS-43,graduated/VBD-45)
+				nn(pilots/NNS-48,fighter/NN-47)
+				prep_as(graduated/VBD-45,pilots/NNS-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

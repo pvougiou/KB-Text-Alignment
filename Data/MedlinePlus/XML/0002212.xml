@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>If a tumor or cancer caused the blockage in your intestine, the surgeon may have removed it.</value>
+		<pattern_crowdsource> If a [[tumor|C0027651]] or [[cancer|C0006826]] caused the blockage in your [[intestine|C0021853]], the surgeon may have removed it.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021853 LOCATION_OF C0006826</triple>
+			<triple>C0021853 LOCATION_OF C0027651</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you had surgery:  The outcome is usually good if the obstruction is treated before tissue damage or tissue death occurs in the bowel.</value>
+		<pattern_crowdsource> If you had [[surgery|C0543467]]:  The outcome is usually good if the obstruction is treated before [[tissue damage|C0010957]] or tissue death occurs in the bowel.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>outcome</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>good</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obstruction</surface-form>
+				<RDF-ID>C0028778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissue damage</surface-form>
+				<RDF-ID>C0010957</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissue death</surface-form>
+				<RDF-ID>C1159864</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0010957</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people may have more bowel obstruction in the future.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] may have more [[bowel obstruction|C0021843]] in the future.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel obstruction</surface-form>
+				<RDF-ID>C0021843</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>future</surface-form>
+				<RDF-ID>C0016884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021843 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Be sure to follow the diet advice given to you by your provider.</value>
+		<pattern_crowdsource> Be sure to follow the [[diet advice|C0199401]] given to you by your [[provider|C1441436]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>diet advice</surface-form>
+				<RDF-ID>C0199401</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1441436 METHOD_OF C0199401</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

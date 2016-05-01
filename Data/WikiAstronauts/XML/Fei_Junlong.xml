@@ -1,0 +1,683 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Colonel Fei Junlong (simplified Chinese: ???; traditional Chinese: ???; pinyin: Fèi Jùnlóng) (born 1965) is a Chinese military pilot and an astronaut.	</value>
+
+		<annotated-sentence>	[[Colonel|Colonel]] [[Fei Junlong|Fei_Junlong]] (simplified [[Chinese|China]]: ???; [[traditional Chinese|Chinese_language]]: ???; [[pinyin|Pinyin]]: [[Fèi Jùnlóng|Fei_Junlong]]) (born [[1965|1965_(album)]]) is a Chinese [[military pilot|Pilot_(aircraft)]] and [[an astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Colonel|Colonel]] [[Fei Junlong|Fei_Junlong]] (simplified [[Chinese|China]]: ???; traditional [[Chinese|China]]: ???; pinyin: [[Fèi Jùnlóng|Fei_Junlong]]) (born 1965) is a [[Chinese|China]] military pilot and [[an astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Junlong/NNP-3,Colonel/NNP-1)
+				nn(Junlong/NNP-3,Fei/NNP-2)
+				nsubj(pilot/NN-28,Junlong/NNP-3)
+				prep(Junlong/NNP-3,simplified/VBN-5)
+				dep(simplified/VBN-5,Chinese/NNPS-6)
+				dep(Chinese/NNPS-6,???/CD-8)
+				amod(Chinese/NNPS-11,traditional/JJ-10)
+				dep(Chinese/NNPS-6,Chinese/NNPS-11)
+				dep(Chinese/NNPS-6,???/CD-13)
+				dep(Chinese/NNPS-6,pinyin/NN-15)
+				nn(Jùnlóng/NNP-18,Fèi/NNP-17)
+				dep(Chinese/NNPS-6,Jùnlóng/NNP-18)
+				dep(Junlong/NNP-3,born/VBN-21)
+				dobj(born/VBN-21,1965/CD-22)
+				cop(pilot/NN-28,is/VBZ-24)
+				det(pilot/NN-28,a/DT-25)
+				amod(pilot/NN-28,Chinese/JJ-26)
+				amod(pilot/NN-28,military/JJ-27)
+				det(astronaut/NN-31,an/DT-30)
+				conj_and(pilot/NN-28,astronaut/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fei Junlong</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fei_Junlong</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chinese</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/China</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>traditional Chinese</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chinese_language</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pinyin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pinyin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fèi Jùnlóng</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fei_Junlong</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1965</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1965_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>military pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pilot_(aircraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Fei_Junlong http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Chinese_language http://dbpedia.org/ontology/spokenIn http://dbpedia.org/resource/China
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Fei_Junlong http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on the second manned spaceflight of the Shenzhou program.	</value>
+
+		<annotated-sentence>	He flew on [[the second manned spaceflight|Human_spaceflight]] of [[the Shenzhou program|Shenzhou_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on the second manned spaceflight of the Shenzhou program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				det(spaceflight/NN-7,the/DT-4)
+				amod(spaceflight/NN-7,second/JJ-5)
+				amod(spaceflight/NN-7,manned/JJ-6)
+				prep_on(flew/VBD-2,spaceflight/NN-7)
+				det(program/NN-11,the/DT-9)
+				nn(program/NN-11,Shenzhou/NNP-10)
+				prep_of(spaceflight/NN-7,program/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the second manned spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Shenzhou program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shenzhou_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born in Suzhou, Jiangsu province of China and was recruited from high school by the People's Liberation Army Air Force (PLAAF) in 1982 at the age of 17.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				nsubjpass(recruited/VBN-13,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Suzhou/NNP-5)
+				nn(province/NN-8,Jiangsu/NNP-7)
+				appos(Suzhou/NNP-5,province/NN-8)
+				prep_of(province/NN-8,China/NNP-10)
+				auxpass(recruited/VBN-13,was/VBD-12)
+				conj_and(born/VBN-3,recruited/VBN-13)
+				amod(school/NN-16,high/JJ-15)
+				prep_from(recruited/VBN-13,school/NN-16)
+				det(People/NNS-19,the/DT-18)
+				poss(Force/NNP-24,People/NNS-19)
+				nn(Force/NNP-24,Liberation/NNP-21)
+				nn(Force/NNP-24,Army/NNP-22)
+				nn(Force/NNP-24,Air/NNP-23)
+				agent(recruited/VBN-13,Force/NNP-24)
+				appos(Force/NNP-24,PLAAF/NNP-26)
+				prep_in(Force/NNP-24,1982/CD-29)
+				det(age/NN-32,the/DT-31)
+				prep_at(recruited/VBN-13,age/NN-32)
+				prep_of(age/NN-32,17/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated with excellent marks from the PLAAF's No. 9 Aviation School, the Changchun No.1 Flight College of the PLA Air Force and Flight Training School of the Air Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				amod(marks/NNS-5,excellent/JJ-4)
+				prep_with(graduated/VBD-2,marks/NNS-5)
+				det(PLAAF/NN-8,the/DT-7)
+				poss(No./NN-10,PLAAF/NN-8)
+				prep_from(graduated/VBD-2,No./NN-10)
+				num(School/NNP-13,9/CD-11)
+				nn(School/NNP-13,Aviation/NNP-12)
+				dep(No./NN-10,School/NNP-13)
+				det(No./NN-17,the/DT-15)
+				nn(No./NN-17,Changchun/NNP-16)
+				prep_from(graduated/VBD-2,No./NN-17)
+				conj_and(No./NN-10,No./NN-17)
+				num(College/NNP-20,1/CD-18)
+				nn(College/NNP-20,Flight/NNP-19)
+				dep(No./NN-17,College/NNP-20)
+				det(Force/NNP-25,the/DT-22)
+				nn(Force/NNP-25,PLA/NNP-23)
+				nn(Force/NNP-25,Air/NNP-24)
+				prep_of(College/NNP-20,Force/NNP-25)
+				nn(School/NNP-29,Flight/NNP-27)
+				nn(School/NNP-29,Training/NNP-28)
+				prep_from(graduated/VBD-2,School/NNP-29)
+				conj_and(No./NN-10,School/NNP-29)
+				det(Force/NNP-33,the/DT-31)
+				nn(Force/NNP-33,Air/NNP-32)
+				prep_of(School/NNP-29,Force/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the PLAAF, he was a pilot, flight trainer and flight technology inspector.	</value>
+
+		<annotated-sentence>	In the PLAAF, he was a pilot, [[flight|Flight]] trainer and flight [[technology|Technology]] [[inspector|Inspector]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In the PLAAF, he was a pilot, flight trainer and flight technology inspector.	</pattern_crowdsource>
+
+
+		<tree>
+				det(PLAAF/NN-3,the/DT-2)
+				prep_in(pilot/NN-8,PLAAF/NN-3)
+				nsubj(pilot/NN-8,he/PRP-5)
+				cop(pilot/NN-8,was/VBD-6)
+				det(pilot/NN-8,a/DT-7)
+				nn(trainer/NN-11,flight/NN-10)
+				conj_and(pilot/NN-8,trainer/NN-11)
+				conj_and(pilot/NN-8,flight/NN-13)
+				nn(inspector/NN-15,technology/NN-14)
+				dep(pilot/NN-8,inspector/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>inspector</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inspector</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Fèi was selected for the CNSA astronaut program in 1998.	</value>
+
+		<annotated-sentence>	Fèi was selected for the CNSA [[astronaut program|Human_spaceflight]] in [[1998|1998]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Fèi was selected for the CNSA astronaut program in 1998.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Fèi/NN-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(program/NN-8,the/DT-5)
+				nn(program/NN-8,CNSA/NN-6)
+				nn(program/NN-8,astronaut/NN-7)
+				prep_for(selected/VBN-3,program/NN-8)
+				prep_in(program/NN-8,1998/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was in the final five selected for the Shenzhou 5 flight.	</value>
+
+		<annotated-sentence>	He was in the final five selected for the [[Shenzhou 5|Shenzhou_5]] [[flight|Flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was in the final five selected for the Shenzhou 5 flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(was/VBD-2,He/PRP-1)
+				det(five/CD-6,the/DT-4)
+				amod(five/CD-6,final/JJ-5)
+				prep_in(was/VBD-2,five/CD-6)
+				partmod(five/CD-6,selected/VBN-7)
+				det(flight/NN-12,the/DT-9)
+				nn(flight/NN-12,Shenzhou/NNP-10)
+				num(flight/NN-12,5/CD-11)
+				prep_for(selected/VBN-7,flight/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shenzhou 5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shenzhou_5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the commander on the Shenzhou 6 flight that launched October 12, 2005, with Niè H?ishèng serving as flight engineer).	</value>
+
+		<annotated-sentence>	He was [[the commander|Commander]] on the [[Shenzhou 6|Shenzhou_6]] [[flight|Flight]] that launched October 12, 2005, with [[Niè H?ishèng|Nie_Haisheng]] serving as [[flight engineer|Flight_engineer]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the commander on the [[Shenzhou 6|Shenzhou_6]] flight that launched October 12, 2005, with [[Niè H?ishèng|Nie_Haisheng]] serving as flight engineer).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commander/NN-4,He/PRP-1)
+				cop(commander/NN-4,was/VBD-2)
+				det(commander/NN-4,the/DT-3)
+				det(flight/NN-9,the/DT-6)
+				nn(flight/NN-9,Shenzhou/NNP-7)
+				num(flight/NN-9,6/CD-8)
+				prep_on(commander/NN-4,flight/NN-9)
+				nsubj(launched/VBD-11,that/WDT-10)
+				rcmod(flight/NN-9,launched/VBD-11)
+				tmod(launched/VBD-11,October/NNP-12)
+				num(October/NNP-12,12/CD-13)
+				num(October/NNP-12,2005/CD-15)
+				nn(H?ishèng/NN-19,Niè/NN-18)
+				prep_with(flight/NN-9,H?ishèng/NN-19)
+				partmod(H?ishèng/NN-19,serving/VBG-20)
+				nn(engineer/NN-23,flight/NN-22)
+				prep_as(serving/VBG-20,engineer/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shenzhou 6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shenzhou_6</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Niè H?ishèng</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nie_Haisheng</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Fei_Junlong http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Shenzhou_6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shenzhou_6 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Fei_Junlong
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shenzhou_6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Fei_Junlong
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shenzhou_6 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Nie_Haisheng
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shenzhou_6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Nie_Haisheng
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nie_Haisheng http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Shenzhou_6
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They landed on October 17, 2005.	</value>
+
+		<annotated-sentence>	[[They|They]] landed on October 17, 2005.	</annotated-sentence>
+
+		<pattern_crowdsource>	They landed on October 17, 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,They/PRP-1)
+				prep_on(landed/VBD-2,October/NNP-4)
+				num(October/NNP-4,17/CD-5)
+				num(October/NNP-4,2005/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was married in 1991 and has one son.	</value>
+
+		<annotated-sentence>	He was married in [[1991|1991]] and has one son.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was married in 1991 and has one son.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-7,He/PRP-1)
+				auxpass(married/VBN-3,was/VBD-2)
+				prep_in(married/VBN-3,1991/CD-5)
+				conj_and(married/VBN-3,has/VBZ-7)
+				num(son/NN-9,one/CD-8)
+				dobj(has/VBZ-7,son/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his personal time he dabbles in fine arts.	</value>
+
+		<annotated-sentence>	During [[his personal time|Personal_life]] he dabbles in fine arts.	</annotated-sentence>
+
+		<pattern_crowdsource>	During his personal time he dabbles in fine arts.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-4,his/PRP$-2)
+				amod(time/NN-4,personal/JJ-3)
+				prep_during(dabbles/VBZ-6,time/NN-4)
+				nsubj(dabbles/VBZ-6,he/PRP-5)
+				amod(arts/NNS-9,fine/JJ-8)
+				prep_in(dabbles/VBZ-6,arts/NNS-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his personal time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Personal_life</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The asteroid 9512 Feijunlong was named after him.	</value>
+
+		<annotated-sentence>	The asteroid [[9512|9512_Feijunlong]] [[Feijunlong|9512_Feijunlong]] was named after him.	</annotated-sentence>
+
+		<pattern_crowdsource>	The asteroid 9512 Feijunlong was named after him.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Feijunlong/NNP-4,The/DT-1)
+				amod(Feijunlong/NNP-4,asteroid/JJ-2)
+				tmod(asteroid/JJ-2,9512/CD-3)
+				nsubjpass(named/VBN-6,Feijunlong/NNP-4)
+				auxpass(named/VBN-6,was/VBD-5)
+				prep_after(named/VBN-6,him/PRP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>9512</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/9512_Feijunlong</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Feijunlong</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/9512_Feijunlong</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

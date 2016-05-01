@@ -1,0 +1,2195 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Kevin Anthony Ford (born July 7, 1960 in Portland, Indiana) is a retired United States Air Force Colonel and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Kevin Anthony Ford|Kevin_A._Ford]] (born [[July|July]] 7, 1960 in [[Portland , Indiana|Portland,_Indiana]] is a retired [[United States Air Force|United_States_Air_Force]] [[Colonel|Colonel]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Kevin Anthony Ford|Kevin_A._Ford]] (born July 7, 1960 in Portland, Indiana) is a retired [[United States Air Force|United_States_Air_Force]] Colonel and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Ford/NNP-3,Kevin/NNP-1)
+				nn(Ford/NNP-3,Anthony/NNP-2)
+				nsubj(Colonel/NNP-22,Ford/NNP-3)
+				dep(Ford/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,July/NNP-6)
+				num(July/NNP-6,7/CD-7)
+				num(July/NNP-6,1960/CD-9)
+				nn(Indiana/NNP-13,Portland/NNP-11)
+				prep_in(born/VBN-5,Indiana/NNP-13)
+				cop(Colonel/NNP-22,is/VBZ-15)
+				det(Colonel/NNP-22,a/DT-16)
+				amod(Colonel/NNP-22,retired/JJ-17)
+				nn(Colonel/NNP-22,United/NNP-18)
+				nn(Colonel/NNP-22,States/NNP-19)
+				nn(Colonel/NNP-22,Air/NNP-20)
+				nn(Colonel/NNP-22,Force/NNP-21)
+				det(astronaut/NN-26,a/DT-24)
+				nn(astronaut/NN-26,NASA/NNP-25)
+				conj_and(Colonel/NNP-22,astronaut/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kevin Anthony Ford</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kevin_A._Ford</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Portland , Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Portland,_Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Portland,_Indiana
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married with two children.	</value>
+
+		<annotated-sentence>	He is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford has received a number of special honors and awards, some of which are the Air Force Meritorious Service Medal, Air Force Commendation Medal, Aerial Achievement Medal and the Armed Forces Expeditionary Medal.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBN-3,Ford/NNP-1)
+				aux(received/VBN-3,has/VBZ-2)
+				det(number/NN-5,a/DT-4)
+				dobj(received/VBN-3,number/NN-5)
+				amod(honors/NNS-8,special/JJ-7)
+				prep_of(number/NN-5,honors/NNS-8)
+				prep_of(number/NN-5,awards/NNS-10)
+				conj_and(honors/NNS-8,awards/NNS-10)
+				nsubj(Medal/NN-21,some/DT-12)
+				prep_of(some/DT-12,which/WDT-14)
+				cop(Medal/NN-21,are/VBP-15)
+				det(Medal/NN-21,the/DT-16)
+				nn(Medal/NN-21,Air/NNP-17)
+				nn(Medal/NN-21,Force/NNP-18)
+				nn(Medal/NN-21,Meritorious/NNP-19)
+				nn(Medal/NN-21,Service/NNP-20)
+				rcmod(honors/NNS-8,Medal/NN-21)
+				nn(Medal/NN-26,Air/NNP-23)
+				nn(Medal/NN-26,Force/NNP-24)
+				nn(Medal/NN-26,Commendation/NNP-25)
+				rcmod(honors/NNS-8,Medal/NN-26)
+				conj_and(Medal/NN-21,Medal/NN-26)
+				amod(Medal/NN-30,Aerial/JJ-28)
+				nn(Medal/NN-30,Achievement/NNP-29)
+				rcmod(honors/NNS-8,Medal/NN-30)
+				conj_and(Medal/NN-21,Medal/NN-30)
+				det(Medal/NN-36,the/DT-32)
+				nn(Medal/NN-36,Armed/NNP-33)
+				nn(Medal/NN-36,Forces/NNP-34)
+				nn(Medal/NN-36,Expeditionary/NNP-35)
+				rcmod(honors/NNS-8,Medal/NN-36)
+				conj_and(Medal/NN-21,Medal/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford has also logged more than 4,000 flying hours and also holds FAA commercial certificates for airplanes, helicopters and gliders.	</value>
+
+		<annotated-sentence>	Ford has also logged more than 4,000 flying [[hours|Hour]] and also holds [[FAA|Faaa]] commercial [[certificates|Professional_certification]] for airplanes, helicopters and gliders.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford has also logged more than 4,000 flying hours and also holds FAA commercial certificates for airplanes, helicopters and gliders.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-4,Ford/NNP-1)
+				nsubj(holds/VBZ-12,Ford/NNP-1)
+				aux(logged/VBN-4,has/VBZ-2)
+				advmod(logged/VBN-4,also/RB-3)
+				mwe(than/IN-6,more/JJR-5)
+				quantmod(4,000/CD-7,than/IN-6)
+				dobj(logged/VBN-4,4,000/CD-7)
+				xcomp(logged/VBN-4,flying/VBG-8)
+				dobj(flying/VBG-8,hours/NNS-9)
+				advmod(holds/VBZ-12,also/RB-11)
+				conj_and(logged/VBN-4,holds/VBZ-12)
+				nn(certificates/NNS-15,FAA/NNP-13)
+				amod(certificates/NNS-15,commercial/JJ-14)
+				dobj(holds/VBZ-12,certificates/NNS-15)
+				prep_for(certificates/NNS-15,airplanes/NNS-17)
+				prep_for(certificates/NNS-15,helicopters/NNS-19)
+				conj_and(airplanes/NNS-17,helicopters/NNS-19)
+				prep_for(certificates/NNS-15,gliders/NNS-21)
+				conj_and(airplanes/NNS-17,gliders/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>FAA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faaa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>certificates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professional_certification</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford has served in many roles at NASA since his selection in July 2000.	</value>
+
+		<annotated-sentence>	Ford has served in [[many roles|Role]] at [[NASA|NASA]] since [[his selection|Selection]] in [[July 2000|July_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford has served in many roles at [[NASA|NASA]] since his selection in July 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-3,Ford/NNP-1)
+				aux(served/VBN-3,has/VBZ-2)
+				amod(roles/NNS-6,many/JJ-5)
+				prep_in(served/VBN-3,roles/NNS-6)
+				prep_at(served/VBN-3,NASA/NNP-8)
+				poss(selection/NN-11,his/PRP$-10)
+				prep_since(served/VBN-3,selection/NN-11)
+				prep_in(selection/NN-11,July/NNP-13)
+				num(July/NNP-13,2000/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>many roles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Role</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The roles include as a Capsule Communicator or CAPCOM.	</value>
+
+		<annotated-sentence>	The [[roles|Role]] include as [[a Capsule Communicator|Flight_controller]] or [[CAPCOM|Capcom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The roles include as a Capsule Communicator or CAPCOM.	</pattern_crowdsource>
+
+
+		<tree>
+				det(roles/NNS-2,The/DT-1)
+				nsubj(include/VBP-3,roles/NNS-2)
+				det(Communicator/NNP-7,a/DT-5)
+				nn(Communicator/NNP-7,Capsule/NNP-6)
+				prep_as(include/VBP-3,Communicator/NNP-7)
+				prep_as(include/VBP-3,CAPCOM/NNP-9)
+				conj_or(Communicator/NNP-7,CAPCOM/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>roles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Role</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Capsule Communicator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also the Director Of Operations at the Gagarin Cosmonaut Training Center in Star City, Russia from January 2004 to January 2005.	</value>
+
+		<annotated-sentence>	He was also the Director Of Operations at the Gagarin Cosmonaut Training Center in Star City, [[Russia|Russia]] from [[January 2004|January_2004]] to [[January 2005|January_2005]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also the Director Of Operations at the Gagarin Cosmonaut Training Center in Star City, Russia from January 2004 to January 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Director/NNP-5,He/PRP-1)
+				cop(Director/NNP-5,was/VBD-2)
+				advmod(Director/NNP-5,also/RB-3)
+				det(Director/NNP-5,the/DT-4)
+				prep_of(Director/NNP-5,Operations/NNP-7)
+				det(Center/NNP-13,the/DT-9)
+				nn(Center/NNP-13,Gagarin/NNP-10)
+				nn(Center/NNP-13,Cosmonaut/NNP-11)
+				nn(Center/NNP-13,Training/NNP-12)
+				prep_at(Operations/NNP-7,Center/NNP-13)
+				nn(City/NNP-16,Star/NNP-15)
+				prep_in(Director/NNP-5,City/NNP-16)
+				appos(City/NNP-16,Russia/NNP-18)
+				prep_from(Russia/NNP-18,January/NNP-20)
+				num(January/NNP-20,2004/CD-21)
+				prep_to(Russia/NNP-18,January/NNP-23)
+				num(January/NNP-23,2005/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2005</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was pilot of STS-128 and Flight Engineer 2 of Soyuz TMA-06M from October 23, 2012 to March 16, 2013.	</value>
+
+		<annotated-sentence>	He was pilot of [[STS-128 and Flight|STS-128]] [[Engineer|Engineer]] 2 of [[Soyuz TMA-06M|Soyuz_TMA-06M]] from October 23, 2012 to March 16, 2013.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was pilot of [[STS-128 and Flight|STS-128]] Engineer 2 of [[Soyuz TMA-06M|Soyuz_TMA-06M]] from October 23, 2012 to March 16, 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-3,He/PRP-1)
+				cop(pilot/NN-3,was/VBD-2)
+				nn(Engineer/NN-8,STS-128/NN-5)
+				conj_and(STS-128/NN-5,Flight/NN-7)
+				nn(Engineer/NN-8,Flight/NN-7)
+				prep_of(pilot/NN-3,Engineer/NN-8)
+				dep(Engineer/NN-8,2/CD-9)
+				nn(TMA-06M/NN-12,Soyuz/NNP-11)
+				prep_of(pilot/NN-3,TMA-06M/NN-12)
+				prep_from(pilot/NN-3,October/NNP-14)
+				num(October/NNP-14,23/CD-15)
+				num(October/NNP-14,2012/CD-17)
+				prep_to(pilot/NN-3,March/NNP-19)
+				num(March/NNP-19,16/CD-20)
+				num(March/NNP-19,2013/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-128 and Flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-06M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-06M</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford was born in Portland, Indiana and considers Montpelier, Indiana his hometown.	</value>
+
+		<annotated-sentence>	Ford was born in Portland, Indiana and considers Montpelier, [[Indiana|Indiana]] his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford was born in Portland, [[Indiana|Indiana]] and considers Montpelier, [[Indiana|Indiana]] his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Ford/NNP-1)
+				nsubj(considers/VBZ-9,Ford/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Indiana/NNP-7,Portland/NNP-5)
+				prep_in(born/VBN-3,Indiana/NNP-7)
+				conj_and(born/VBN-3,considers/VBZ-9)
+				dobj(considers/VBZ-9,Montpelier/NNP-10)
+				appos(Montpelier/NNP-10,Indiana/NNP-12)
+				poss(hometown/NN-14,his/PRP$-13)
+				dep(Indiana/NNP-12,hometown/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Indiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to the former Kelly Bennett, they have two children, Anthony and Heidi.	</value>
+
+		<annotated-sentence>	Married to the former Kelly Bennett, they have [[two children|Child]], Anthony and [[Heidi|Heidi]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to the former Kelly Bennett, they have two children, Anthony and Heidi.	</pattern_crowdsource>
+
+
+		<tree>
+				ccomp(have/VBP-9,Married/JJ-1)
+				det(Bennett/NNP-6,the/DT-3)
+				amod(Bennett/NNP-6,former/JJ-4)
+				nn(Bennett/NNP-6,Kelly/NNP-5)
+				prep_to(Married/JJ-1,Bennett/NNP-6)
+				nsubj(have/VBP-9,they/PRP-8)
+				num(children/NNS-11,two/CD-10)
+				dobj(have/VBP-9,children/NNS-11)
+				dobj(have/VBP-9,Anthony/NNP-13)
+				conj_and(children/NNS-11,Anthony/NNP-13)
+				dobj(have/VBP-9,Heidi/NNP-15)
+				conj_and(children/NNS-11,Heidi/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Heidi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heidi</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His parents are Clayton and Barbara Ford, who reside in Indiana.	</value>
+
+		<annotated-sentence>	His [[parents|Parent]] are [[Clayton and Barbara|Barbara_Clayton]] Ford, who reside in [[Indiana|Indiana]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His parents are Clayton and Barbara Ford, who reside in [[Indiana|Indiana]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(parents/NNS-2,His/PRP$-1)
+				nsubj(Ford/NNP-7,parents/NNS-2)
+				cop(Ford/NNP-7,are/VBP-3)
+				nn(Ford/NNP-7,Clayton/NNP-4)
+				conj_and(Clayton/NNP-4,Barbara/NNP-6)
+				nn(Ford/NNP-7,Barbara/NNP-6)
+				nsubj(reside/VBP-10,who/WP-9)
+				rcmod(Ford/NNP-7,reside/VBP-10)
+				prep_in(reside/VBP-10,Indiana/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Clayton and Barbara</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Barbara_Clayton</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Indiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Blackford High School, Hartford City, Indiana in 1978.	</value>
+
+		<annotated-sentence>	He graduated from Blackford High School, Hartford City, [[Indiana|Indiana]] in [[1978|Tsubasa_Otomiya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Blackford High School, Hartford City, [[Indiana|Indiana]] in 1978.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-6,Blackford/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(City/NNP-9,Hartford/NNP-8)
+				appos(School/NNP-6,City/NNP-9)
+				appos(City/NNP-9,Indiana/NNP-11)
+				prep_in(graduated/VBD-2,1978/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Indiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received his Bachelor of Science degree in aerospace engineering from the University of Notre Dame in 1982, a Master of Science degree in international relations from Troy State University in 1989, a Master of Science in aerospace engineering from the University of Florida in 1994, and a Ph.D. in astronautical engineering from the Air Force Institute of Technology in 1997.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				poss(Bachelor/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				nn(engineering/NN-10,aerospace/NN-9)
+				prep_in(received/VBD-2,engineering/NN-10)
+				det(University/NNP-13,the/DT-12)
+				prep_from(received/VBD-2,University/NNP-13)
+				nn(Dame/NNP-16,Notre/NNP-15)
+				prep_of(University/NNP-13,Dame/NNP-16)
+				prep_in(Dame/NNP-16,1982/CD-18)
+				det(Master/NN-21,a/DT-20)
+				prep_of(University/NNP-13,Master/NN-21)
+				conj_and(Dame/NNP-16,Master/NN-21)
+				nn(degree/NN-24,Science/NNP-23)
+				prep_of(Master/NN-21,degree/NN-24)
+				amod(relations/NNS-27,international/JJ-26)
+				prep_in(Master/NN-21,relations/NNS-27)
+				nn(University/NNP-31,Troy/NNP-29)
+				nn(University/NNP-31,State/NNP-30)
+				prep_from(relations/NNS-27,University/NNP-31)
+				prep_in(University/NNP-31,1989/CD-33)
+				det(Master/NN-36,a/DT-35)
+				prep_of(University/NNP-13,Master/NN-36)
+				conj_and(Dame/NNP-16,Master/NN-36)
+				prep_of(Master/NN-36,Science/NN-38)
+				nn(engineering/NN-41,aerospace/NN-40)
+				prep_in(Science/NN-38,engineering/NN-41)
+				det(University/NNP-44,the/DT-43)
+				prep_from(engineering/NN-41,University/NNP-44)
+				prep_of(University/NNP-44,Florida/NNP-46)
+				prep_in(Florida/NNP-46,1994/CD-48)
+				det(Ph.D./NNP-52,a/DT-51)
+				prep_of(University/NNP-13,Ph.D./NNP-52)
+				conj_and(Dame/NNP-16,Ph.D./NNP-52)
+				amod(engineering/NN-55,astronautical/JJ-54)
+				prep_in(Ph.D./NNP-52,engineering/NN-55)
+				det(Institute/NNP-60,the/DT-57)
+				nn(Institute/NNP-60,Air/NNP-58)
+				nn(Institute/NNP-60,Force/NNP-59)
+				prep_from(received/VBD-2,Institute/NNP-60)
+				prep_of(Institute/NNP-60,Technology/NNP-62)
+				prep_in(Technology/NNP-62,1997/CD-64)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has attended the U.S. Air Force Squadron Officer School, the Air Command Staff College Associate Program, and the Air War College.	</value>
+
+		<annotated-sentence>	He has attended the [[U.S.|United_States]] [[Air Force|Air_force]] [[Squadron Officer School|Squadron_Officer_School]], [[the Air Command|Air_Command]] [[Staff College|Staff_college]] Associate Program, and [[the Air War College|Air_War_College]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has attended the [[U.S.|United_States]] Air Force Squadron Officer School, the Air Command Staff College Associate Program, and the Air War College.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBN-3,He/PRP-1)
+				aux(attended/VBN-3,has/VBZ-2)
+				det(School/NNP-10,the/DT-4)
+				nn(School/NNP-10,U.S./NNP-5)
+				nn(School/NNP-10,Air/NNP-6)
+				nn(School/NNP-10,Force/NNP-7)
+				nn(School/NNP-10,Squadron/NNP-8)
+				nn(School/NNP-10,Officer/NNP-9)
+				dobj(attended/VBN-3,School/NNP-10)
+				det(Command/NN-14,the/DT-12)
+				nn(Command/NN-14,Air/NNP-13)
+				dobj(attended/VBN-3,Command/NN-14)
+				conj_and(School/NNP-10,Command/NN-14)
+				nn(Program/NNP-18,Staff/NNP-15)
+				nn(Program/NNP-18,College/NNP-16)
+				nn(Program/NNP-18,Associate/NNP-17)
+				dep(Command/NN-14,Program/NNP-18)
+				det(College/NNP-24,the/DT-21)
+				nn(College/NNP-24,Air/NNP-22)
+				nn(College/NNP-24,War/NNP-23)
+				dobj(attended/VBN-3,College/NNP-24)
+				conj_and(School/NNP-10,College/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Squadron Officer School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Squadron_Officer_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Command</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Staff College</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Staff_college</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air War College</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_War_College</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a distinguished graduate of Detachment 225, Reserve Officer Training Corps, 1982.	</value>
+
+		<annotated-sentence>	He is a distinguished graduate of Detachment 225, Reserve Officer Training Corps, [[1982|1982]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a distinguished graduate of Detachment 225, Reserve Officer Training Corps, 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-5,He/PRP-1)
+				cop(graduate/NN-5,is/VBZ-2)
+				det(graduate/NN-5,a/DT-3)
+				amod(graduate/NN-5,distinguished/JJ-4)
+				prep_of(graduate/NN-5,Detachment/NN-7)
+				num(Detachment/NN-7,225/CD-8)
+				nn(Corps/NNP-13,Reserve/NNP-10)
+				nn(Corps/NNP-13,Officer/NNP-11)
+				nn(Corps/NNP-13,Training/NNP-12)
+				appos(Detachment/NN-7,Corps/NNP-13)
+				amod(Corps/NNP-13,1982/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also graduated with distinction from undergraduate pilot training at Columbus AFB in 1984 and from the United States Air Force Test Pilot School in 1990.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-3,He/PRP-1)
+				advmod(graduated/VBD-3,also/RB-2)
+				prep_with(graduated/VBD-3,distinction/NN-5)
+				amod(training/NN-9,undergraduate/JJ-7)
+				nn(training/NN-9,pilot/NN-8)
+				prep_from(graduated/VBD-3,training/NN-9)
+				nn(AFB/NNP-12,Columbus/NNP-11)
+				prep_at(training/NN-9,AFB/NNP-12)
+				prep_in(AFB/NNP-12,1984/CD-14)
+				det(Pilot/NN-23,the/DT-17)
+				nn(Pilot/NN-23,United/NNP-18)
+				nn(Pilot/NN-23,States/NNP-19)
+				nn(Pilot/NN-23,Air/NNP-20)
+				nn(Pilot/NN-23,Force/NNP-21)
+				nn(Pilot/NN-23,Test/NNP-22)
+				prep_from(graduated/VBD-3,Pilot/NN-23)
+				conj_and(training/NN-9,Pilot/NN-23)
+				pobj(graduated/VBD-3,School/NNP-24)
+				prep_in(graduated/VBD-3,1990/CD-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford was commissioned as a second lieutenant in 1982 and completed primary Air Force jet training at Columbus Air Force Base, Mississippi in 1984.	</value>
+
+		<annotated-sentence>	Ford was commissioned as [[a second lieutenant|Lieutenant]] in [[1982|1982]] and completed primary [[Air Force|Air_force]] jet [[training|Training]] at [[Columbus Air Force Base|Columbus_Air_Force_Base]], [[Mississippi|Mississippi]] in [[1984|1984]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford was commissioned as a second lieutenant in 1982 and completed primary Air Force jet training at Columbus Air Force Base, Mississippi in 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(commissioned/VBN-3,Ford/NNP-1)
+				nsubjpass(completed/VBN-11,Ford/NNP-1)
+				auxpass(commissioned/VBN-3,was/VBD-2)
+				det(lieutenant/NN-7,a/DT-5)
+				amod(lieutenant/NN-7,second/JJ-6)
+				prep_as(commissioned/VBN-3,lieutenant/NN-7)
+				prep_in(lieutenant/NN-7,1982/CD-9)
+				conj_and(commissioned/VBN-3,completed/VBN-11)
+				amod(training/NN-16,primary/JJ-12)
+				nn(training/NN-16,Air/NNP-13)
+				nn(training/NN-16,Force/NNP-14)
+				nn(training/NN-16,jet/NN-15)
+				dobj(completed/VBN-11,training/NN-16)
+				nn(Base/NNP-21,Columbus/NNP-18)
+				nn(Base/NNP-21,Air/NNP-19)
+				nn(Base/NNP-21,Force/NNP-20)
+				prep_at(training/NN-16,Base/NNP-21)
+				appos(Base/NNP-21,Mississippi/NNP-23)
+				prep_in(Mississippi/NNP-23,1984/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a second lieutenant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lieutenant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Columbus Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Columbus_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mississippi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mississippi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He trained in the F-15 Eagle and was assigned to the 22nd Tactical Fighter Squadron, Bitburg Air Base, Germany, from 1984–1987, and then to the 57th Fighter Interceptor Squadron at Keflavik Naval Air Station, Iceland until 1989, intercepting and escorting 18 Soviet combat aircraft over the North Atlantic.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(trained/VBD-2,He/PRP-1)
+				nsubjpass(assigned/VBN-9,He/PRP-1)
+				det(Eagle/NNP-6,the/DT-4)
+				nn(Eagle/NNP-6,F-15/NNP-5)
+				prep_in(trained/VBD-2,Eagle/NNP-6)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				conj_and(trained/VBD-2,assigned/VBN-9)
+				prep(assigned/VBN-9,to/TO-10)
+				det(Squadron/NNP-15,the/DT-11)
+				amod(Squadron/NNP-15,22nd/JJ-12)
+				nn(Squadron/NNP-15,Tactical/NNP-13)
+				nn(Squadron/NNP-15,Fighter/NNP-14)
+				pobj(to/TO-10,Squadron/NNP-15)
+				nn(Base/NNP-19,Bitburg/NNP-17)
+				nn(Base/NNP-19,Air/NNP-18)
+				appos(Squadron/NNP-15,Base/NNP-19)
+				appos(Squadron/NNP-15,Germany/NNP-21)
+				prep_from(Squadron/NNP-15,1984/CD-24)
+				dep(Squadron/NNP-15,1987/CD-26)
+				prep(assigned/VBN-9,then/RB-29)
+				conj_and(to/TO-10,then/RB-29)
+				dep(to/TO-10,to/TO-30)
+				det(Squadron/NNP-35,the/DT-31)
+				amod(Squadron/NNP-35,57th/JJ-32)
+				nn(Squadron/NNP-35,Fighter/NNP-33)
+				nn(Squadron/NNP-35,Interceptor/NNP-34)
+				pobj(to/TO-30,Squadron/NNP-35)
+				nn(Station/NNP-40,Keflavik/NNP-37)
+				nn(Station/NNP-40,Naval/NNP-38)
+				nn(Station/NNP-40,Air/NNP-39)
+				prep_at(Squadron/NNP-35,Station/NNP-40)
+				appos(Station/NNP-40,Iceland/NNP-42)
+				prep_until(assigned/VBN-9,1989/CD-44)
+				xcomp(assigned/VBN-9,intercepting/VBG-46)
+				xcomp(assigned/VBN-9,escorting/VBG-48)
+				conj_and(intercepting/VBG-46,escorting/VBG-48)
+				num(aircraft/NN-52,18/CD-49)
+				amod(aircraft/NN-52,Soviet/JJ-50)
+				nn(aircraft/NN-52,combat/NN-51)
+				dobj(intercepting/VBG-46,aircraft/NN-52)
+				det(Atlantic/NNP-56,the/DT-54)
+				nn(Atlantic/NNP-56,North/NNP-55)
+				prep_over(intercepting/VBG-46,Atlantic/NNP-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After spending 1990 as a student at the United States Air Force Test Pilot School, Edwards Air Force Base, California, Ford flew flight test missions in the F-16 Fighting Falcon with the 3247th Test Squadron at Eglin Air Force Base, Florida from 1991-1994.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(flew/VBD-25,spending/VBG-2)
+				dobj(spending/VBG-2,1990/CD-3)
+				det(student/NN-6,a/DT-5)
+				prep_as(spending/VBG-2,student/NN-6)
+				det(Pilot/NN-14,the/DT-8)
+				nn(Pilot/NN-14,United/NNP-9)
+				nn(Pilot/NN-14,States/NNP-10)
+				nn(Pilot/NN-14,Air/NNP-11)
+				nn(Pilot/NN-14,Force/NNP-12)
+				nn(Pilot/NN-14,Test/NNP-13)
+				prep_at(student/NN-6,Pilot/NN-14)
+				nn(Base/NNP-20,School/NNP-15)
+				appos(Base/NNP-20,Edwards/NNP-17)
+				nn(Base/NNP-20,Air/NNP-18)
+				nn(Base/NNP-20,Force/NNP-19)
+				tmod(spending/VBG-2,Base/NNP-20)
+				appos(Base/NNP-20,California/NNP-22)
+				nsubj(flew/VBD-25,Ford/NNP-24)
+				nn(missions/NNS-28,flight/NN-26)
+				nn(missions/NNS-28,test/NN-27)
+				dobj(flew/VBD-25,missions/NNS-28)
+				det(Fighting/NN-32,the/DT-30)
+				nn(Fighting/NN-32,F-16/NNP-31)
+				prep_in(flew/VBD-25,Fighting/NN-32)
+				tmod(flew/VBD-25,Falcon/NN-33)
+				det(Squadron/NN-38,the/DT-35)
+				amod(Squadron/NN-38,3247th/JJ-36)
+				nn(Squadron/NN-38,Test/NN-37)
+				prep_with(flew/VBD-25,Squadron/NN-38)
+				nn(Base/NNP-43,Eglin/NNP-40)
+				nn(Base/NNP-43,Air/NNP-41)
+				nn(Base/NNP-43,Force/NNP-42)
+				prep_at(Squadron/NN-38,Base/NNP-43)
+				appos(Base/NNP-43,Florida/NNP-45)
+				prep_from(Florida/NNP-45,1991-1994/CD-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Test experience there included multiple F-16 flutter missions, development of the ALE-47 Countermeasures Dispenser System, multiple safe separation, ballistics, and fuse tests, and air-to-air missile development testing, including the first AMRAAM shot from the F-16 Air Defense Fighter variant.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(experience/NN-2,Test/NN-1)
+				nsubj(included/VBD-4,experience/NN-2)
+				advmod(included/VBD-4,there/RB-3)
+				amod(missions/NNS-8,multiple/JJ-5)
+				nn(missions/NNS-8,F-16/NN-6)
+				nn(missions/NNS-8,flutter/NN-7)
+				dobj(included/VBD-4,missions/NNS-8)
+				dobj(included/VBD-4,development/NN-10)
+				conj_and(missions/NNS-8,development/NN-10)
+				det(Countermeasures/NNS-14,the/DT-12)
+				nn(Countermeasures/NNS-14,ALE-47/NN-13)
+				prep_of(development/NN-10,Countermeasures/NNS-14)
+				nn(System/NNP-16,Dispenser/NNP-15)
+				dep(development/NN-10,System/NNP-16)
+				amod(separation/NN-20,multiple/JJ-18)
+				amod(separation/NN-20,safe/JJ-19)
+				dobj(included/VBD-4,separation/NN-20)
+				conj_and(missions/NNS-8,separation/NN-20)
+				dobj(included/VBD-4,ballistics/NNS-22)
+				conj_and(missions/NNS-8,ballistics/NNS-22)
+				nn(tests/NNS-26,fuse/NN-25)
+				dobj(included/VBD-4,tests/NNS-26)
+				conj_and(missions/NNS-8,tests/NNS-26)
+				amod(testing/NN-32,air-to-air/JJ-29)
+				nn(testing/NN-32,missile/NN-30)
+				nn(testing/NN-32,development/NN-31)
+				conj_and(missions/NNS-8,testing/NN-32)
+				conj_and(tests/NNS-26,testing/NN-32)
+				det(shot/NN-38,the/DT-35)
+				amod(shot/NN-38,first/JJ-36)
+				nn(shot/NN-38,AMRAAM/NNP-37)
+				prep_including(tests/NNS-26,shot/NN-38)
+				det(variant/NN-45,the/DT-40)
+				nn(variant/NN-45,F-16/NNP-41)
+				nn(variant/NN-45,Air/NNP-42)
+				nn(variant/NN-45,Defense/NNP-43)
+				nn(variant/NN-45,Fighter/NNP-44)
+				prep_from(shot/NN-38,variant/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following a three-year assignment to pursue full-time studies as a doctoral candidate at Wright-Patterson Air Force Base, Ohio, he was assigned to the Air Force Test Pilot School where he served as the Director of Plans and Programs, taught academics, and instructed students on flight test techniques in the F-15, F-16, and gliders.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(assignment/NN-4,a/DT-2)
+				amod(assignment/NN-4,three-year/JJ-3)
+				prep_following(assigned/VBN-23,assignment/NN-4)
+				aux(pursue/VB-6,to/TO-5)
+				infmod(assignment/NN-4,pursue/VB-6)
+				amod(studies/NNS-8,full-time/JJ-7)
+				dobj(pursue/VB-6,studies/NNS-8)
+				det(candidate/NN-12,a/DT-10)
+				amod(candidate/NN-12,doctoral/JJ-11)
+				prep_as(pursue/VB-6,candidate/NN-12)
+				nn(Base/NNP-17,Wright-Patterson/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(candidate/NN-12,Base/NNP-17)
+				appos(Base/NNP-17,Ohio/NNP-19)
+				nsubjpass(assigned/VBN-23,he/PRP-21)
+				auxpass(assigned/VBN-23,was/VBD-22)
+				det(School/NNP-30,the/DT-25)
+				nn(School/NNP-30,Air/NNP-26)
+				nn(School/NNP-30,Force/NNP-27)
+				nn(School/NNP-30,Test/NNP-28)
+				nn(School/NNP-30,Pilot/NN-29)
+				prep_to(assigned/VBN-23,School/NNP-30)
+				advmod(served/VBD-33,where/WRB-31)
+				nsubj(served/VBD-33,he/PRP-32)
+				nsubj(taught/VBD-42,he/PRP-32)
+				nsubj(instructed/VBD-46,he/PRP-32)
+				advcl(assigned/VBN-23,served/VBD-33)
+				det(Director/NN-36,the/DT-35)
+				prep_as(served/VBD-33,Director/NN-36)
+				prep_of(Director/NN-36,Plans/NNS-38)
+				prep_of(Director/NN-36,Programs/NNS-40)
+				conj_and(Plans/NNS-38,Programs/NNS-40)
+				advcl(assigned/VBN-23,taught/VBD-42)
+				conj_and(served/VBD-33,taught/VBD-42)
+				dobj(taught/VBD-42,academics/NNS-43)
+				advcl(assigned/VBN-23,instructed/VBD-46)
+				conj_and(served/VBD-33,instructed/VBD-46)
+				dobj(instructed/VBD-46,students/NNS-47)
+				nn(techniques/NNS-51,flight/NN-49)
+				nn(techniques/NNS-51,test/NN-50)
+				prep_on(instructed/VBD-46,techniques/NNS-51)
+				det(F-15/NN-54,the/DT-53)
+				prep_in(instructed/VBD-46,F-15/NN-54)
+				prep_in(instructed/VBD-46,F-16/NN-56)
+				conj_and(F-15/NN-54,F-16/NN-56)
+				prep_in(instructed/VBD-46,gliders/NNS-59)
+				conj_and(F-15/NN-54,gliders/NNS-59)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford has 3500 flying hours and holds FAA commercial certificates for airplanes, helicopters, and gliders.	</value>
+
+		<annotated-sentence>	Ford has [[3500 flying hours|4th_millennium]] and holds [[FAA|Faaa]] commercial [[certificates|Professional_certification]] for airplanes, helicopters, and gliders.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford has 3500 flying hours and holds FAA commercial certificates for airplanes, helicopters, and gliders.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,Ford/NNP-1)
+				nsubj(holds/VBZ-7,Ford/NNP-1)
+				num(hours/NNS-5,3500/CD-3)
+				amod(hours/NNS-5,flying/VBG-4)
+				dobj(has/VBZ-2,hours/NNS-5)
+				conj_and(has/VBZ-2,holds/VBZ-7)
+				nn(certificates/NNS-10,FAA/NNP-8)
+				amod(certificates/NNS-10,commercial/JJ-9)
+				dobj(holds/VBZ-7,certificates/NNS-10)
+				prep_for(certificates/NNS-10,airplanes/NNS-12)
+				prep_for(certificates/NNS-10,helicopters/NNS-14)
+				conj_and(airplanes/NNS-12,helicopters/NNS-14)
+				prep_for(certificates/NNS-10,gliders/NNS-17)
+				conj_and(airplanes/NNS-12,gliders/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>3500 flying hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/4th_millennium</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>FAA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Faaa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>certificates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professional_certification</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a certificated flight instructor in airplanes and gliders.	</value>
+
+		<annotated-sentence>	He is [[a certificated flight instructor|Flight_instructor]] in airplanes and gliders.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a certificated flight instructor in airplanes and gliders.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(instructor/NN-6,He/PRP-1)
+				cop(instructor/NN-6,is/VBZ-2)
+				det(instructor/NN-6,a/DT-3)
+				amod(instructor/NN-6,certificated/JJ-4)
+				nn(instructor/NN-6,flight/NN-5)
+				prep_in(instructor/NN-6,airplanes/NNS-8)
+				prep_in(instructor/NN-6,gliders/NNS-10)
+				conj_and(airplanes/NNS-8,gliders/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a certificated flight instructor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_instructor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford retired from the Air Force in June 2008 as a Colonel.	</value>
+
+		<annotated-sentence>	Ford retired from [[the Air Force|Air_force]] in [[June 2008|June_2008]] as [[a Colonel|Colonel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford retired from the Air Force in June 2008 as a Colonel.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Ford/NNP-1)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_from(retired/VBD-2,Force/NNP-6)
+				prep_in(Force/NNP-6,June/NNP-8)
+				num(June/NNP-8,2008/CD-9)
+				det(Colonel/NNP-12,a/DT-11)
+				prep_as(retired/VBD-2,Colonel/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as an astronaut candidate by NASA in July 2000, Ford reported for training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]] in [[July 2000|July_2000]], Ford reported for [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]] in July 2000, Ford reported for training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-13,Selected/VBN-1)
+				det(candidate/NN-5,an/DT-3)
+				nn(candidate/NN-5,astronaut/NN-4)
+				prep_as(Selected/VBN-1,candidate/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,July/NNP-9)
+				num(July/NNP-9,2000/CD-10)
+				nsubj(reported/VBD-13,Ford/NNP-12)
+				prep_for(reported/VBD-13,training/NN-15)
+				prep_in(reported/VBD-13,August/NNP-17)
+				num(August/NNP-17,2000/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the completion of two years of training and evaluation, he was assigned technical duties in the Astronaut Office Advanced Vehicles Branch, working advanced exploration issues, and to the Space Shuttle Branch, working on the development and test of the Shuttle Cockpit Avionics Upgrade.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_following(assigned/VBN-14,completion/NN-3)
+				num(years/NNS-6,two/CD-5)
+				prep_of(completion/NN-3,years/NNS-6)
+				prep_of(years/NNS-6,training/NN-8)
+				prep_of(years/NNS-6,evaluation/NN-10)
+				conj_and(training/NN-8,evaluation/NN-10)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				nsubjpass(assigned/VBN-14,he/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				conj_and(assigned/VBN-14,assigned/VBN-14)
+				amod(duties/NNS-16,technical/JJ-15)
+				dobj(assigned/VBN-14,duties/NNS-16)
+				det(Branch/NNP-23,the/DT-18)
+				nn(Branch/NNP-23,Astronaut/NNP-19)
+				nn(Branch/NNP-23,Office/NNP-20)
+				nn(Branch/NNP-23,Advanced/NNP-21)
+				nn(Branch/NNP-23,Vehicles/NNPS-22)
+				prep_in(assigned/VBN-14,Branch/NNP-23)
+				dep(assigned/VBN-14,working/VBG-25)
+				amod(issues/NNS-28,advanced/VBN-26)
+				nn(issues/NNS-28,exploration/NN-27)
+				dobj(working/VBG-25,issues/NNS-28)
+				det(Space/NN-33,the/DT-32)
+				prep_to(assigned/VBN-14,Space/NN-33)
+				nn(Branch/NNP-35,Shuttle/NNP-34)
+				dep(Space/NN-33,Branch/NNP-35)
+				partmod(Space/NN-33,working/VBG-37)
+				det(development/NN-40,the/DT-39)
+				prep_on(working/VBG-37,development/NN-40)
+				prep_on(working/VBG-37,test/NN-42)
+				conj_and(development/NN-40,test/NN-42)
+				det(Upgrade/NNP-48,the/DT-44)
+				nn(Upgrade/NNP-48,Shuttle/NNP-45)
+				nn(Upgrade/NNP-48,Cockpit/NNP-46)
+				nn(Upgrade/NNP-48,Avionics/NNP-47)
+				prep_of(development/NN-40,Upgrade/NNP-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Director of Operations at the Gagarin Cosmonaut Training Center in Star City, Russia from January 2004 to January 2005.	</value>
+
+		<annotated-sentence>	He served as Director of Operations at the Gagarin Cosmonaut Training Center in Star City, [[Russia|Russia]] from [[January 2004|January_2004]] to [[January 2005|January_2005]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as Director of Operations at the Gagarin Cosmonaut Training Center in Star City, Russia from January 2004 to January 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				prep_as(served/VBD-2,Director/NN-4)
+				prep_of(Director/NN-4,Operations/NNP-6)
+				det(Center/NNP-12,the/DT-8)
+				nn(Center/NNP-12,Gagarin/NNP-9)
+				nn(Center/NNP-12,Cosmonaut/NNP-10)
+				nn(Center/NNP-12,Training/NNP-11)
+				prep_at(Operations/NNP-6,Center/NNP-12)
+				nn(City/NNP-15,Star/NNP-14)
+				prep_in(served/VBD-2,City/NNP-15)
+				appos(City/NNP-15,Russia/NNP-17)
+				prep_from(Russia/NNP-17,January/NNP-19)
+				num(January/NNP-19,2004/CD-20)
+				prep_to(served/VBD-2,January/NNP-22)
+				num(January/NNP-22,2005/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2005</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the 2007 Grand Prix of Houston, Ford got to ride the Minardi F1 two-seater race car, driven by Zsolt Baumgartner.	</value>
+
+		<annotated-sentence>	At [[the 2007 Grand Prix of Houston|2007_Grand_Prix_of_Houston]], Ford got to ride the [[Minardi|Minardi]] F1 [[two-seater|Two-seater]] [[race car|Auto_racing]], driven by [[Zsolt Baumgartner|Zsolt_Baumgartner]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At the 2007 Grand Prix of Houston, Ford got to ride the [[Minardi|Minardi]] F1 two-seater race car, driven by [[Zsolt Baumgartner|Zsolt_Baumgartner]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(Prix/NNP-5,the/DT-2)
+				num(Prix/NNP-5,2007/CD-3)
+				nn(Prix/NNP-5,Grand/NNP-4)
+				prep_at(got/VBD-10,Prix/NNP-5)
+				prep_of(Prix/NNP-5,Houston/NNP-7)
+				nsubj(got/VBD-10,Ford/NNP-9)
+				aux(ride/VB-12,to/TO-11)
+				xcomp(got/VBD-10,ride/VB-12)
+				det(car/NN-18,the/DT-13)
+				nn(car/NN-18,Minardi/NNP-14)
+				nn(car/NN-18,F1/NN-15)
+				nn(car/NN-18,two-seater/NN-16)
+				nn(car/NN-18,race/NN-17)
+				dobj(ride/VB-12,car/NN-18)
+				partmod(car/NN-18,driven/VBN-20)
+				nn(Baumgartner/NNP-23,Zsolt/NNP-22)
+				agent(driven/VBN-20,Baumgartner/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the 2007 Grand Prix of Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007_Grand_Prix_of_Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Minardi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minardi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two-seater</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Two-seater</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>race car</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Auto_racing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Zsolt Baumgartner</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Zsolt_Baumgartner</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Zsolt_Baumgartner http://dbpedia.org/property/team(s) http://dbpedia.org/resource/Minardi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Zsolt_Baumgartner http://dbpedia.org/property/team(s)_ http://dbpedia.org/resource/Minardi
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford was launched as the pilot of the STS-128 on August 28, 2009.	</value>
+
+		<annotated-sentence>	Ford was launched as the pilot of [[the STS-128|STS-128]] on August 28, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ford was launched as the pilot of [[the STS-128|STS-128]] on August 28, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-3,Ford/NNP-1)
+				auxpass(launched/VBN-3,was/VBD-2)
+				det(pilot/NN-6,the/DT-5)
+				prep_as(launched/VBN-3,pilot/NN-6)
+				det(STS-128/NN-9,the/DT-8)
+				prep_of(pilot/NN-6,STS-128/NN-9)
+				prep_on(STS-128/NN-9,August/NNP-11)
+				num(August/NNP-11,28/CD-12)
+				num(August/NNP-11,2009/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the STS-128</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his first flight, Colonel Ford trained for and works space missions as a Space Station CAPCOM in the Mission Control Center.	</value>
+
+		<annotated-sentence>	After [[his first flight|Flight]], [[Colonel|Colonel]] Ford trained for and works [[space missions|Space_exploration]] as a [[Space Station|SpaceStation]] [[CAPCOM|Capcom]] in [[the Mission Control Center|Mission_control_center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his first flight, Colonel Ford trained for and works space missions as a Space Station CAPCOM in the Mission Control Center.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-4,his/PRP$-2)
+				amod(flight/NN-4,first/JJ-3)
+				prep_after(trained/VBN-8,flight/NN-4)
+				nn(Ford/NNP-7,Colonel/NNP-6)
+				nsubj(trained/VBN-8,Ford/NNP-7)
+				nsubj(works/VBZ-11,Ford/NNP-7)
+				prep(trained/VBN-8,for/IN-9)
+				conj_and(trained/VBN-8,works/VBZ-11)
+				nn(missions/NNS-13,space/NN-12)
+				dobj(works/VBZ-11,missions/NNS-13)
+				det(CAPCOM/NNP-18,a/DT-15)
+				nn(CAPCOM/NNP-18,Space/NN-16)
+				nn(CAPCOM/NNP-18,Station/NNP-17)
+				prep_as(works/VBZ-11,CAPCOM/NNP-18)
+				det(Center/NNP-23,the/DT-20)
+				nn(Center/NNP-23,Mission/NNP-21)
+				nn(Center/NNP-23,Control/NNP-22)
+				prep_in(CAPCOM/NNP-18,Center/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his first flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mission Control Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_control_center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On October 23, 2012 Ford was again launched into space as part of Expedition 33 aboard Soyuz TMA-06M.	</value>
+
+		<annotated-sentence>	On October 23, 2012 Ford was again launched into [[space|Space]] as part of [[Expedition 33|Expedition_33]] aboard [[Soyuz TMA-06M|Soyuz_TMA-06M]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On October 23, 2012 Ford was again launched into space as part of [[Expedition 33|Expedition_33]] aboard [[Soyuz TMA-06M|Soyuz_TMA-06M]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(launched/VBN-9,October/NNP-2)
+				num(October/NNP-2,23/CD-3)
+				num(October/NNP-2,2012/CD-5)
+				nsubjpass(launched/VBN-9,Ford/NNP-6)
+				auxpass(launched/VBN-9,was/VBD-7)
+				advmod(launched/VBN-9,again/RB-8)
+				prep_into(launched/VBN-9,space/NN-11)
+				prep_as(launched/VBN-9,part/NN-13)
+				prep_of(part/NN-13,Expedition/NN-15)
+				num(Expedition/NN-15,33/CD-16)
+				nn(TMA-06M/NNP-19,Soyuz/NNP-18)
+				prep_aboard(launched/VBN-9,TMA-06M/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 33</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_33</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-06M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-06M</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_33
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_33 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_33 http://dbpedia.org/property/arrivalCraft http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_33 http://dbpedia.org/property/departureCraft http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/expedition1Up http://dbpedia.org/resource/Expedition_33
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ford became commander of Expedition 34 on 18 November 2012 with the departure from the ISS of the Soyuz TMA-05M spacecraft, which returned the Expedition 33 crew to Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commander/NN-3,Ford/NNP-1)
+				cop(commander/NN-3,became/VBD-2)
+				prep_of(commander/NN-3,Expedition/NN-5)
+				num(Expedition/NN-5,34/CD-6)
+				prep_on(Expedition/NN-5,18/CD-8)
+				tmod(commander/NN-3,November/NNP-9)
+				num(November/NNP-9,2012/CD-10)
+				det(departure/NN-13,the/DT-12)
+				prep_with(commander/NN-3,departure/NN-13)
+				det(ISS/NN-16,the/DT-15)
+				prep_from(commander/NN-3,ISS/NN-16)
+				det(spacecraft/NN-21,the/DT-18)
+				nn(spacecraft/NN-21,Soyuz/NNP-19)
+				nn(spacecraft/NN-21,TMA-05M/NN-20)
+				prep_of(ISS/NN-16,spacecraft/NN-21)
+				nsubj(returned/VBD-24,which/WDT-23)
+				rcmod(spacecraft/NN-21,returned/VBD-24)
+				det(crew/NN-28,the/DT-25)
+				nn(crew/NN-28,Expedition/NN-26)
+				num(crew/NN-28,33/CD-27)
+				dobj(returned/VBD-24,crew/NN-28)
+				prep_to(returned/VBD-24,Earth/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He, along with the crew of Soyuz TMA-06M, returned to Earth on March 16, 2013.	</value>
+
+		<annotated-sentence>	He, along with the crew of [[Soyuz TMA-06M|Soyuz_TMA-06M]], returned to [[Earth|Earth]] on March 16, 2013.	</annotated-sentence>
+
+		<pattern_crowdsource>	He, along with the crew of [[Soyuz TMA-06M|Soyuz_TMA-06M]], returned to Earth on March 16, 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-11,He/PRP-1)
+				det(crew/NN-6,the/DT-5)
+				prep_along_with(returned/VBD-11,crew/NN-6)
+				nn(TMA-06M/NNP-9,Soyuz/NNP-8)
+				prep_of(crew/NN-6,TMA-06M/NNP-9)
+				prep_to(returned/VBD-11,Earth/NNP-13)
+				prep_on(returned/VBD-11,March/NNP-15)
+				num(March/NNP-15,16/CD-16)
+				num(March/NNP-15,2013/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Soyuz TMA-06M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-06M</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kevin_A._Ford http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-06M
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-06M http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Kevin_A._Ford
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

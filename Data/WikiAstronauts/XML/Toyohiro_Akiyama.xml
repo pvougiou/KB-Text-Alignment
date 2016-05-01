@@ -1,0 +1,962 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Toyohiro Akiyama (?? ??, Akiyama Toyohiro, born July 22, 1942) is a Japanese TV journalist best known for his flight to the Mir space station aboard a Russian Soyuz spacecraft in 1990.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Akiyama/NNP-2,Toyohiro/NNP-1)
+				nsubj(journalist/NN-20,Akiyama/NNP-2)
+				num(??/NN-5,??/CD-4)
+				dep(Akiyama/NNP-2,??/NN-5)
+				nn(Toyohiro/NNP-8,Akiyama/NNP-7)
+				appos(??/NN-5,Toyohiro/NNP-8)
+				partmod(Toyohiro/NNP-8,born/VBN-10)
+				tmod(born/VBN-10,July/NNP-11)
+				num(July/NNP-11,22/CD-12)
+				num(July/NNP-11,1942/CD-14)
+				cop(journalist/NN-20,is/VBZ-16)
+				det(journalist/NN-20,a/DT-17)
+				amod(journalist/NN-20,Japanese/JJ-18)
+				nn(journalist/NN-20,TV/NN-19)
+				advmod(known/VBN-22,best/RB-21)
+				partmod(journalist/NN-20,known/VBN-22)
+				poss(station/NN-30,his/PRP$-24)
+				dep(station/NN-30,flight/NN-25)
+				det(Mir/NNS-28,the/DT-27)
+				prep_to(flight/NN-25,Mir/NNS-28)
+				nn(station/NN-30,space/NN-29)
+				prep_for(known/VBN-22,station/NN-30)
+				det(spacecraft/NN-35,a/DT-32)
+				amod(spacecraft/NN-35,Russian/JJ-33)
+				nn(spacecraft/NN-35,Soyuz/NNP-34)
+				prep_aboard(station/NN-30,spacecraft/NN-35)
+				prep_in(spacecraft/NN-35,1990/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama is the first person of Japanese descent to have flown in space.	</value>
+
+		<annotated-sentence>	Akiyama is [[the first person|Person]] of [[Japanese|Japan]] descent to have flown in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama is [[the first person|Person]] of [[Japanese|Japan]] descent to have flown in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(person/NN-5,Akiyama/NNP-1)
+				cop(person/NN-5,is/VBZ-2)
+				det(person/NN-5,the/DT-3)
+				amod(person/NN-5,first/JJ-4)
+				amod(descent/NN-8,Japanese/JJ-7)
+				prep_of(person/NN-5,descent/NN-8)
+				aux(flown/VBN-11,to/TO-9)
+				aux(flown/VBN-11,have/VB-10)
+				infmod(person/NN-5,flown/VBN-11)
+				prep_in(flown/VBN-11,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Japanese</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Japan
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was known as the "Space Journalist"(?????)?in Japan.	</value>
+
+		<annotated-sentence>	He was known as the "[[Space|Space]] [[Journalist|Journalist]]"(?????)?in [[Japan|Japan]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was known as the "Space [[Journalist|Journalist]]"(?????)?in [[Japan|Japan]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(known/VBN-3,He/PRP-1)
+				auxpass(known/VBN-3,was/VBD-2)
+				det(Journalist/NN-8,the/DT-5)
+				nn(Journalist/NN-8,Space/NN-7)
+				prep_as(known/VBN-3,Journalist/NN-8)
+				appos(Journalist/NN-8,?????/CD-11)
+				prep_in(Journalist/NN-8,Japan/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Journalist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Journalist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Japan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japan</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Journalist
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Japan
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama attended and earned his bachelor's degree at the International Christian University located in Mitaka, Tokyo.	</value>
+
+		<annotated-sentence>	Akiyama attended and earned his [[bachelor|Bachelor]]'s degree at [[the International Christian University|International_Christian_University]] located in [[Mitaka , Tokyo|Mitaka_Station]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama attended and earned his bachelor's degree at the International Christian University located in Mitaka, Tokyo.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Akiyama/NNP-1)
+				nsubj(earned/VBD-4,Akiyama/NNP-1)
+				conj_and(attended/VBD-2,earned/VBD-4)
+				poss(bachelor/NN-6,his/PRP$-5)
+				poss(degree/NN-8,bachelor/NN-6)
+				nsubj(located/JJ-14,degree/NN-8)
+				det(University/NNP-13,the/DT-10)
+				nn(University/NNP-13,International/NNP-11)
+				nn(University/NNP-13,Christian/NNP-12)
+				prep_at(degree/NN-8,University/NNP-13)
+				xcomp(earned/VBD-4,located/JJ-14)
+				nn(Tokyo/NNP-18,Mitaka/NNP-16)
+				prep_in(located/JJ-14,Tokyo/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Christian University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Christian_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mitaka , Tokyo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mitaka_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then joined TBS as a journalist in 1966.	</value>
+
+		<annotated-sentence>	He then joined TBS as [[a journalist|Journalist]] in [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then joined TBS as [[a journalist|Journalist]] in 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-3,He/PRP-1)
+				advmod(joined/VBD-3,then/RB-2)
+				dobj(joined/VBD-3,TBS/NN-4)
+				det(journalist/NN-7,a/DT-6)
+				prep_as(joined/VBD-3,journalist/NN-7)
+				prep_in(joined/VBD-3,1966/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a journalist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Journalist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Journalist
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He worked for the British Broadcasting Corporation World Service from 1967-1971 before becoming a correspondent for the TBS Division of Foreign News.	</value>
+
+		<annotated-sentence>	He worked for the [[British Broadcasting Corporation|BBC]] [[World Service|BBC_World_Service]] from 1967-1971 before becoming [[a correspondent|Correspondent]] for the TBS Division of Foreign [[News|BBC]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He worked for the [[British Broadcasting Corporation|BBC]] [[World Service|BBC_World_Service]] from 1967-1971 before becoming a correspondent for the TBS Division of Foreign [[News|BBC]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,He/PRP-1)
+				det(Service/NNP-9,the/DT-4)
+				nn(Service/NNP-9,British/NNP-5)
+				nn(Service/NNP-9,Broadcasting/NNP-6)
+				nn(Service/NNP-9,Corporation/NNP-7)
+				nn(Service/NNP-9,World/NNP-8)
+				prep_for(worked/VBD-2,Service/NNP-9)
+				prep_from(worked/VBD-2,1967-1971/CD-11)
+				prepc_before(worked/VBD-2,becoming/VBG-13)
+				det(correspondent/NN-15,a/DT-14)
+				xcomp(becoming/VBG-13,correspondent/NN-15)
+				det(Division/NNP-19,the/DT-17)
+				nn(Division/NNP-19,TBS/NNP-18)
+				prep_for(becoming/VBG-13,Division/NNP-19)
+				nn(News/NNP-22,Foreign/NNP-21)
+				prep_of(Division/NNP-19,News/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>British Broadcasting Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BBC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>World Service</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BBC_World_Service</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a correspondent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Correspondent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>News</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BBC</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/BBC_World_Service http://dbpedia.org/ontology/owningCompany http://dbpedia.org/resource/BBC
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/BBC_World_Service http://dbpedia.org/ontology/owningCompany http://dbpedia.org/resource/BBC
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1984 to 1988, Akiyama served as TBS chief correspondent in Washington D.C..	</value>
+
+		<annotated-sentence>	From [[1984|1984]] to [[1988|1988]], Akiyama served as TBS chief [[correspondent|Correspondent]] in Washington D.C..	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1984 to 1988, Akiyama served as TBS chief correspondent in Washington D.C..	</pattern_crowdsource>
+
+
+		<tree>
+				num(1988/CD-4,1984/CD-2)
+				dep(1988/CD-4,to/TO-3)
+				prep_from(served/VBD-7,1988/CD-4)
+				nsubj(served/VBD-7,Akiyama/NNP-6)
+				nn(correspondent/NN-11,TBS/NN-9)
+				nn(correspondent/NN-11,chief/NN-10)
+				prep_as(served/VBD-7,correspondent/NN-11)
+				nn(D.C./NNP-14,Washington/NNP-13)
+				prep_in(served/VBD-7,D.C./NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>correspondent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Correspondent</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama was selected for cosmonaut training in August 1989 in a deal between TBS and the Soviet Union.	</value>
+
+		<annotated-sentence>	Akiyama was selected for cosmonaut [[training|Training]] in [[August 1989|1989]] in a deal between TBS and [[the Soviet Union|Soviet_Union]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama was selected for cosmonaut training in August 1989 in a deal between TBS and the Soviet Union.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Akiyama/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				nn(training/NN-6,cosmonaut/NN-5)
+				prep_for(selected/VBN-3,training/NN-6)
+				prep_in(training/NN-6,August/NNP-8)
+				num(August/NNP-8,1989/CD-9)
+				det(deal/NN-12,a/DT-11)
+				prep_in(selected/VBN-3,deal/NN-12)
+				prep_between(deal/NN-12,TBS/NN-14)
+				det(Union/NNP-18,the/DT-16)
+				nn(Union/NNP-18,Soviet/NNP-17)
+				prep_between(deal/NN-12,Union/NNP-18)
+				conj_and(TBS/NN-14,Union/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Soviet Union</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama's flight became the first commercially organized spaceflight in history.	</value>
+
+		<annotated-sentence>	Akiyama's [[flight|Flight]] became the first commercially organized spaceflight in [[history|History]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama's flight became the first commercially organized spaceflight in history.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-3,Akiyama/NNP-1)
+				nsubj(spaceflight/NN-9,flight/NN-3)
+				cop(spaceflight/NN-9,became/VBD-4)
+				det(spaceflight/NN-9,the/DT-5)
+				amod(spaceflight/NN-9,first/JJ-6)
+				advmod(organized/VBN-8,commercially/RB-7)
+				amod(spaceflight/NN-9,organized/VBN-8)
+				prep_in(spaceflight/NN-9,history/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/History</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After successfully completing a Research Cosmonaut training course at the Yuri Gagarin Cosmonaut Training Center in present-day Russia, Akiyama launched aboard the Soyuz TM-11 mission to the Mir space station on December 2, 1990 along with mission commander Viktor Afanasyev and flight engineer Musa Manarov.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(completing/VBG-3,successfully/RB-2)
+				prepc_after(launched/VBD-21,completing/VBG-3)
+				det(course/NN-8,a/DT-4)
+				nn(course/NN-8,Research/NN-5)
+				nn(course/NN-8,Cosmonaut/NN-6)
+				nn(course/NN-8,training/NN-7)
+				dobj(completing/VBG-3,course/NN-8)
+				det(Center/NNP-15,the/DT-10)
+				nn(Center/NNP-15,Yuri/NNP-11)
+				nn(Center/NNP-15,Gagarin/NNP-12)
+				nn(Center/NNP-15,Cosmonaut/NNP-13)
+				nn(Center/NNP-15,Training/NNP-14)
+				prep_at(completing/VBG-3,Center/NNP-15)
+				amod(Russia/NNP-18,present-day/JJ-17)
+				prep_in(completing/VBG-3,Russia/NNP-18)
+				nsubj(launched/VBD-21,Akiyama/NNP-20)
+				det(mission/NN-26,the/DT-23)
+				nn(mission/NN-26,Soyuz/NNP-24)
+				nn(mission/NN-26,TM-11/NN-25)
+				prep_aboard(launched/VBD-21,mission/NN-26)
+				det(station/NN-31,the/DT-28)
+				nn(station/NN-31,Mir/NNS-29)
+				nn(station/NN-31,space/NN-30)
+				prep_to(launched/VBD-21,station/NN-31)
+				prep_on(station/NN-31,December/NNP-33)
+				num(December/NNP-33,2/CD-34)
+				num(December/NNP-33,1990/CD-36)
+				nn(Afanasyev/NNP-42,mission/NN-39)
+				nn(Afanasyev/NNP-42,commander/NN-40)
+				nn(Afanasyev/NNP-42,Viktor/NNP-41)
+				prep_along_with(station/NN-31,Afanasyev/NNP-42)
+				nn(Manarov/NNP-47,flight/NN-44)
+				nn(Manarov/NNP-47,engineer/NN-45)
+				nn(Manarov/NNP-47,Musa/NNP-46)
+				prep_along_with(station/NN-31,Manarov/NNP-47)
+				conj_and(Afanasyev/NNP-42,Manarov/NNP-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time aboard Mir, Akiyama gave live reports each day documenting life aboard the station.	</value>
+
+		<annotated-sentence>	During his time aboard Mir, Akiyama gave [[live reports|Live_Reports]] each day documenting life aboard [[the station|Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During his time aboard Mir, Akiyama gave live reports each day documenting life aboard the station.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(gave/VBD-8,time/NN-3)
+				prep_aboard(time/NN-3,Mir/NNS-5)
+				nsubj(gave/VBD-8,Akiyama/NNP-7)
+				amod(reports/NNS-10,live/JJ-9)
+				dobj(gave/VBD-8,reports/NNS-10)
+				det(day/NN-12,each/DT-11)
+				tmod(gave/VBD-8,day/NN-12)
+				xcomp(gave/VBD-8,documenting/VBG-13)
+				dobj(documenting/VBG-13,life/NN-14)
+				det(station/NN-17,the/DT-16)
+				prep_aboard(documenting/VBG-13,station/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>live reports</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Live_Reports</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned just over a week later aboard Soyuz TM-10 along with Gennadi Manakov and Gennady Strekalov on December 10.	</value>
+
+		<annotated-sentence>	He returned just over a week later aboard [[Soyuz TM-10|Soyuz_TM-10]] along with [[Gennadi Manakov|Gennadi_Manakov]] and [[Gennady Strekalov|Gennadi_Strekalov]] on [[December 10|December_10]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned just over a week later aboard [[Soyuz TM-10|Soyuz_TM-10]] along with [[Gennadi Manakov|Gennadi_Manakov]] and [[Gennady Strekalov|Gennadi_Strekalov]] on December 10.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				advmod(returned/VBD-2,just/RB-3)
+				det(week/NN-6,a/DT-5)
+				prep_over(just/RB-3,week/NN-6)
+				advmod(week/NN-6,later/RB-7)
+				nn(TM-10/NNP-10,Soyuz/NNP-9)
+				prep_aboard(returned/VBD-2,TM-10/NNP-10)
+				nn(Manakov/NNP-14,Gennadi/NNP-13)
+				prep_along_with(TM-10/NNP-10,Manakov/NNP-14)
+				nn(Strekalov/NNP-17,Gennady/NNP-16)
+				prep_along_with(TM-10/NNP-10,Strekalov/NNP-17)
+				conj_and(Manakov/NNP-14,Strekalov/NNP-17)
+				prep_on(returned/VBD-2,December/NNP-19)
+				num(December/NNP-19,10/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Soyuz TM-10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-10</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gennadi Manakov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gennadi_Manakov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gennady Strekalov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gennadi_Strekalov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_10</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Toyohiro_Akiyama http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-10
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-10 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Toyohiro_Akiyama
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-10 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gennadi_Manakov
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gennadi_Strekalov http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-10
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama's mission marked the first flight of a person of Japanese descent in space as well as the first commercially sponsored and funded spaceflight of an individual in history.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mission/NN-3,Akiyama/NNP-1)
+				nsubj(marked/VBD-4,mission/NN-3)
+				det(flight/NN-7,the/DT-5)
+				amod(flight/NN-7,first/JJ-6)
+				dobj(marked/VBD-4,flight/NN-7)
+				det(person/NN-10,a/DT-9)
+				prep_of(flight/NN-7,person/NN-10)
+				amod(descent/NN-13,Japanese/JJ-12)
+				prep_of(person/NN-10,descent/NN-13)
+				prep_in(descent/NN-13,space/NN-15)
+				det(spaceflight/NN-25,the/DT-19)
+				amod(spaceflight/NN-25,first/JJ-20)
+				advmod(sponsored/VBN-22,commercially/RB-21)
+				amod(spaceflight/NN-25,sponsored/VBN-22)
+				conj_and(sponsored/VBN-22,funded/VBN-24)
+				amod(spaceflight/NN-25,funded/VBN-24)
+				prep_of(flight/NN-7,spaceflight/NN-25)
+				conj_and(person/NN-10,spaceflight/NN-25)
+				det(individual/JJ-28,an/DT-27)
+				prep_of(spaceflight/NN-25,individual/JJ-28)
+				prep_in(individual/JJ-28,history/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama returned to TBS after completing his spaceflight and became deputy director of the TBS News Division.	</value>
+
+		<annotated-sentence>	Akiyama returned to TBS after completing [[his spaceflight|Spaceflight]] and became deputy director of the TBS News Division.	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama returned to TBS after completing his spaceflight and became deputy director of the TBS News Division.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,Akiyama/NNP-1)
+				prep_to(returned/VBD-2,TBS/NN-4)
+				prepc_after(returned/VBD-2,completing/VBG-6)
+				poss(spaceflight/NN-8,his/PRP$-7)
+				dobj(completing/VBG-6,spaceflight/NN-8)
+				cop(director/NN-12,became/VBD-10)
+				amod(director/NN-12,deputy/JJ-11)
+				conj_and(returned/VBD-2,director/NN-12)
+				det(Division/NNP-17,the/DT-14)
+				nn(Division/NNP-17,TBS/NNP-15)
+				nn(Division/NNP-17,News/NNP-16)
+				prep_of(director/NN-12,Division/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then retired from TBS in 1995.	</value>
+
+		<annotated-sentence>	He then retired from TBS in [[1995|1995]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then retired from TBS in 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-3,He/PRP-1)
+				advmod(retired/VBD-3,then/RB-2)
+				prep_from(retired/VBD-3,TBS/NN-5)
+				prep_in(retired/VBD-3,1995/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Akiyama is married and has two children.	</value>
+
+		<annotated-sentence>	Akiyama is married and has [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Akiyama is married and has two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Akiyama/NNP-1)
+				nsubj(has/VBZ-5,Akiyama/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(children/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was personally affected by the Fukushima disaster and had to abandon his farm.	</value>
+
+		<annotated-sentence>	He was personally affected by [[the Fukushima disaster|Fukushima_disaster]] and had to abandon [[his farm|Farm]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was personally affected by the Fukushima disaster and had to abandon his farm.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(affected/VBN-4,He/PRP-1)
+				nsubjpass(had/VBD-10,He/PRP-1)
+				auxpass(affected/VBN-4,was/VBD-2)
+				advmod(affected/VBN-4,personally/RB-3)
+				det(disaster/NN-8,the/DT-6)
+				nn(disaster/NN-8,Fukushima/NNP-7)
+				agent(affected/VBN-4,disaster/NN-8)
+				conj_and(affected/VBN-4,had/VBD-10)
+				aux(abandon/VB-12,to/TO-11)
+				xcomp(had/VBD-10,abandon/VB-12)
+				poss(farm/NN-14,his/PRP$-13)
+				dobj(abandon/VB-12,farm/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Fukushima disaster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fukushima_disaster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his farm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Farm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

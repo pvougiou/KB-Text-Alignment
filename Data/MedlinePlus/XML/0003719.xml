@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your health care provider may recommend this test for the following reasons:  - To check if anti-ulcer medicines are working  - To check if material is coming back up from the small intestine  - To test for the cause of ulcers</value>
+		<pattern_crowdsource> Your health care provider may recommend this test for the following reasons:  - To check if anti-ulcer medicines are working  - To check if [[material|C0520510]] is coming back up from the small intestine  - To test for the cause of [[ulcers|C0041582]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>reasons</surface-form>
+				<RDF-ID>C0392360</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ulcer</surface-form>
+				<RDF-ID>C0041582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>working</surface-form>
+				<RDF-ID>C0043227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>C0520510</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0004600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ulcers</surface-form>
+				<RDF-ID>C0041582</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0520510 CAUSES C0041582</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnornal results may indicate:  - Increased levels of gastrin can cause increased release of acid and may lead to ulcers (Zollinger-Ellison syndrome).</value>
+		<pattern_crowdsource> Abnornal results may indicate:  - Increased levels of gastrin can cause increased release of [[acid|C0001128]] and may lead to [[ulcers|C0041582]] ([[Zollinger-Ellison syndrome|C0043515]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>results</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Increased</surface-form>
+				<RDF-ID>C0205217</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gastrin</surface-form>
+				<RDF-ID>C0376180</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>increased</surface-form>
+				<RDF-ID>C0205217</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acid</surface-form>
+				<RDF-ID>C0001128</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ulcers</surface-form>
+				<RDF-ID>C0041582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Zollinger-Ellison syndrome</surface-form>
+				<RDF-ID>C0043515</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043515 ISA C0041582</triple>
+			<triple>C0001128 CAUSES C0041582</triple>
+			<triple>C0001128 CAUSES C0043515</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

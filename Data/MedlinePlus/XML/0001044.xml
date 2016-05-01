@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cryoglobulinemia is the presence of abnormal proteins in the blood.</value>
+		<pattern_crowdsource> Cryoglobulinemia is the presence of [[abnormal proteins|C0311448]] in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cryoglobulinemia</surface-form>
+				<RDF-ID>C0010403</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal proteins</surface-form>
+				<RDF-ID>C0311448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0311448</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cryoglobulins are antibodies.</value>
+		<pattern_crowdsource> [[Cryoglobulins|C0010404]] are [[antibodies|C0003241]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cryoglobulins</surface-form>
+				<RDF-ID>C0010404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010404 ISA C0003241</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>When this occurs, these antibodies can cause inflammation and block blood vessels.</value>
+		<pattern_crowdsource> When this occurs, these [[antibodies|C0003241]] can cause [[inflammation|C0021368]] and block blood vessels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>block</surface-form>
+				<RDF-ID>C0028778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003241 CAUSES C0021368</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cryoglobulinemia is part of a group of diseases that cause damage and inflammation of the blood vessels throughout the body (vasculitis).</value>
+		<pattern_crowdsource> [[Cryoglobulinemia|C0010403]] is part of a group of [[diseases|C0012634]] that cause damage and [[inflammation|C0021368]] of the [[blood vessels|C0005847]] throughout the body (vasculitis).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cryoglobulinemia</surface-form>
+				<RDF-ID>C0010403</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>group</surface-form>
+				<RDF-ID>C0441833</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vasculitis</surface-form>
+				<RDF-ID>C0042384</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010403 ISA C0012634</triple>
+			<triple>C0005847 LOCATION_OF C0021368</triple>
+			<triple>C0005847 LOCATION_OF C0012634</triple>
+			<triple>C0005847 LOCATION_OF C0010403</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Type I cryoglobulinemia is most often related to cancer of the blood or immune systems.</value>
+		<pattern_crowdsource> Type I [[cryoglobulinemia|C0010403]] is most often related to [[cancer|C0006826]] of the [[blood|C0005767]] or immune systems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cryoglobulinemia</surface-form>
+				<RDF-ID>C0010403</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune systems</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010403 ISA C0006826</triple>
+			<triple>C0010403 COEXISTS_WITH C0006826</triple>
+			<triple>C0006826 PART_OF C0005767</triple>
+			<triple>C0010403 PART_OF C0005767</triple>
+			<triple>C0010403 COEXISTS_WITH C0010403</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most people with this form of the disease have a chronic hepatitis C infection.</value>
+		<pattern_crowdsource> Most [[people|C0027361]] with this form of the disease have a [[chronic hepatitis C|C0524910]] [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>form</surface-form>
+				<RDF-ID>C1522492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chronic hepatitis C</surface-form>
+				<RDF-ID>C0524910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0524910 ISA C0009450</triple>
+			<triple>C0009450 PROCESS_OF C0027361</triple>
+			<triple>C0524910 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

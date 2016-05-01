@@ -1,0 +1,3357 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Bryan Daniel O'Connor (born September 6, 1946) is a retired United States Marine Corps Colonel and former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Bryan Daniel O'Connor|Bryan_D._O'Connor]] (born [[September|September]] 6, 1946) is a retired [[United States Marine Corps|United_States_Marine_Corps]] [[Colonel|Colonel]] and former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Bryan Daniel O'Connor|Bryan_D._O'Connor]] (born September 6, 1946) is a retired [[United States Marine Corps|United_States_Marine_Corps]] Colonel and former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(O'Connor/NNP-3,Bryan/NNP-1)
+				nn(O'Connor/NNP-3,Daniel/NNP-2)
+				nsubj(Colonel/NNP-18,O'Connor/NNP-3)
+				dep(O'Connor/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,September/NNP-6)
+				num(September/NNP-6,6/CD-7)
+				num(September/NNP-6,1946/CD-9)
+				cop(Colonel/NNP-18,is/VBZ-11)
+				det(Colonel/NNP-18,a/DT-12)
+				amod(Colonel/NNP-18,retired/JJ-13)
+				nn(Colonel/NNP-18,United/NNP-14)
+				nn(Colonel/NNP-18,States/NNPS-15)
+				nn(Colonel/NNP-18,Marine/NNP-16)
+				nn(Colonel/NNP-18,Corps/NNP-17)
+				amod(astronaut/NN-22,former/JJ-20)
+				nn(astronaut/NN-22,NASA/NNP-21)
+				conj_and(Colonel/NNP-18,astronaut/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Bryan Daniel O'Connor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bryan_D._O'Connor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Marine_Corps
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Orange, California, he considers Twentynine Palms, California to be his hometown.	</value>
+
+		<annotated-sentence>	Born in Orange, California, he considers Twentynine Palms, [[California|California]] to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in Orange, California, he considers Twentynine Palms, California to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(considers/VBZ-8,Born/VBN-1)
+				nn(California/NNP-5,Orange/NNP-3)
+				prep_in(Born/VBN-1,California/NNP-5)
+				nsubj(considers/VBZ-8,he/PRP-7)
+				nn(Palms/NNPS-10,Twentynine/NNP-9)
+				dobj(considers/VBZ-8,Palms/NNPS-10)
+				nsubj(hometown/NN-16,California/NNP-12)
+				aux(hometown/NN-16,to/TO-13)
+				cop(hometown/NN-16,be/VB-14)
+				poss(hometown/NN-16,his/PRP$-15)
+				xcomp(considers/VBZ-8,hometown/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Bryan and his wife Susie have two sons, Thomas and Kevin.	</value>
+
+		<annotated-sentence>	Bryan and his [[wife|Wife]] Susie have two sons, Thomas and [[Kevin|Kevin]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Bryan and his wife Susie have two sons, Thomas and Kevin.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-6,Bryan/NNP-1)
+				poss(Susie/NNP-5,his/PRP$-3)
+				nn(Susie/NNP-5,wife/NN-4)
+				conj_and(Bryan/NNP-1,Susie/NNP-5)
+				nsubj(have/VBP-6,Susie/NNP-5)
+				num(sons/NNS-8,two/CD-7)
+				dobj(have/VBP-6,sons/NNS-8)
+				dobj(have/VBP-6,Thomas/NNP-10)
+				conj_and(sons/NNS-8,Thomas/NNP-10)
+				dobj(have/VBP-6,Kevin/NNP-12)
+				conj_and(sons/NNS-8,Kevin/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kevin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kevin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His son Thomas is veteran as well, serving in the Marine Corps and Army National Guard in the rank of First Lieutenant (Promotable).	</value>
+
+		<annotated-sentence>	His son Thomas is veteran as well, serving in the Marine Corps and [[Army National Guard|Army_National_Guard]] in [[the rank|RANK]] of First Lieutenant (Promotable).	</annotated-sentence>
+
+		<pattern_crowdsource>	His son Thomas is veteran as well, serving in the Marine Corps and Army National Guard in the rank of First Lieutenant (Promotable).	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Thomas/NNP-3,His/PRP$-1)
+				nn(Thomas/NNP-3,son/NN-2)
+				nsubj(veteran/JJ-5,Thomas/NNP-3)
+				aux(veteran/JJ-5,is/VBZ-4)
+				advmod(well/RB-7,as/RB-6)
+				advmod(veteran/JJ-5,well/RB-7)
+				xcomp(veteran/JJ-5,serving/VBG-9)
+				det(Corps/NNP-13,the/DT-11)
+				nn(Corps/NNP-13,Marine/NNP-12)
+				prep_in(serving/VBG-9,Corps/NNP-13)
+				nn(Guard/NNP-17,Army/NNP-15)
+				nn(Guard/NNP-17,National/NNP-16)
+				prep_in(serving/VBG-9,Guard/NNP-17)
+				conj_and(Corps/NNP-13,Guard/NNP-17)
+				det(rank/NN-20,the/DT-19)
+				prep_in(serving/VBG-9,rank/NN-20)
+				nn(Lieutenant/NNP-23,First/NNP-22)
+				prep_of(rank/NN-20,Lieutenant/NNP-23)
+				appos(Lieutenant/NNP-23,Promotable/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Army National Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army_National_Guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The O'Connor family enjoys hiking, scuba diving, music, and travel.	</value>
+
+		<annotated-sentence>	[[The O'Connor|Charles_Owen_O'Conor]] [[family|Family]] enjoys hiking, [[scuba diving|Scuba_diving]], [[music|Music]], and [[travel|Travel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The O'Connor family enjoys hiking, scuba diving, music, and travel.	</pattern_crowdsource>
+
+
+		<tree>
+				det(family/NN-3,The/DT-1)
+				nn(family/NN-3,O'Connor/NNP-2)
+				nsubj(enjoys/VBZ-4,family/NN-3)
+				dobj(enjoys/VBZ-4,hiking/VBG-5)
+				nn(diving/NN-8,scuba/NN-7)
+				dobj(enjoys/VBZ-4,diving/NN-8)
+				conj_and(hiking/VBG-5,diving/NN-8)
+				dobj(enjoys/VBZ-4,music/NN-10)
+				conj_and(hiking/VBG-5,music/NN-10)
+				dobj(enjoys/VBZ-4,travel/NN-13)
+				conj_and(hiking/VBG-5,travel/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The O'Connor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Charles_Owen_O'Conor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>music</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Music</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>travel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Travel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Twentynine Palms High School in Twentynine Palms, California in 1964; received a Bachelor of Science degree in Engineering (minor in Aeronautical Engineering) from the United States Naval Academy in 1968 and a Master of Science degree in Aeronautical Systems from the University of West Florida in 1970.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-15,Graduated/VBN-1)
+				nn(School/NNP-6,Twentynine/NNP-3)
+				nn(School/NNP-6,Palms/NNPS-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(Graduated/VBN-1,School/NNP-6)
+				nn(Palms/NNPS-9,Twentynine/NNP-8)
+				prep_in(School/NNP-6,Palms/NNPS-9)
+				nsubj(received/VBD-15,California/NNP-11)
+				prep_in(California/NNP-11,1964/CD-13)
+				det(Bachelor/NN-17,a/DT-16)
+				dobj(received/VBD-15,Bachelor/NN-17)
+				nn(degree/NN-20,Science/NNP-19)
+				prep_of(Bachelor/NN-17,degree/NN-20)
+				prep_in(received/VBD-15,Engineering/NNP-22)
+				dep(Engineering/NNP-22,minor/JJ-24)
+				nn(Engineering/NNP-27,Aeronautical/NNP-26)
+				prep_in(minor/JJ-24,Engineering/NNP-27)
+				det(Academy/NNP-34,the/DT-30)
+				nn(Academy/NNP-34,United/NNP-31)
+				nn(Academy/NNP-34,States/NNPS-32)
+				nn(Academy/NNP-34,Naval/NNP-33)
+				prep_from(Engineering/NNP-22,Academy/NNP-34)
+				prep_in(Engineering/NNP-22,1968/CD-36)
+				det(Master/NN-39,a/DT-38)
+				prep_in(received/VBD-15,Master/NN-39)
+				conj_and(Engineering/NNP-22,Master/NN-39)
+				nn(degree/NN-42,Science/NNP-41)
+				prep_of(Master/NN-39,degree/NN-42)
+				nn(Systems/NNPS-45,Aeronautical/NNP-44)
+				prep_in(received/VBD-15,Systems/NNPS-45)
+				det(University/NNP-48,the/DT-47)
+				prep_from(received/VBD-15,University/NNP-48)
+				nn(Florida/NNP-51,West/NNP-50)
+				prep_of(University/NNP-48,Florida/NNP-51)
+				prep_in(Florida/NNP-51,1970/CD-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Naval Safety School at the Naval Postgraduate School, Monterey, California in 1972 and from the U.S. Naval Test Pilot School, Naval Air Station Patuxent River, Maryland in 1976.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nsubj(graduated/VBD-2,He/PRP-1)
+				conj_and(graduated/VBD-2,graduated/VBD-2)
+				det(School/NNP-7,the/DT-4)
+				nn(School/NNP-7,Naval/NNP-5)
+				nn(School/NNP-7,Safety/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				det(School/NNP-12,the/DT-9)
+				nn(School/NNP-12,Naval/NNP-10)
+				nn(School/NNP-12,Postgraduate/NNP-11)
+				prep_at(graduated/VBD-2,School/NNP-12)
+				nn(California/NNP-16,Monterey/NNP-14)
+				appos(School/NNP-12,California/NNP-16)
+				prep_in(California/NNP-16,1972/CD-18)
+				det(School/NNP-26,the/DT-21)
+				nn(School/NNP-26,U.S./NNP-22)
+				nn(School/NNP-26,Naval/NNP-23)
+				nn(School/NNP-26,Test/NNP-24)
+				nn(School/NNP-26,Pilot/NN-25)
+				prep_from(graduated/VBD-2,School/NNP-26)
+				nn(River/NNP-32,Naval/NNP-28)
+				nn(River/NNP-32,Air/NNP-29)
+				nn(River/NNP-32,Station/NNP-30)
+				nn(River/NNP-32,Patuxent/NNP-31)
+				appos(School/NNP-26,River/NNP-32)
+				pobj(graduated/VBD-2,Maryland/NNP-34)
+				prep_in(graduated/VBD-2,1976/CD-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Naval Safety School Top Graduate; Naval Test Pilot School Distinguished Graduate Award; Defense Superior Service Medal (2); Distinguished Flying Cross; Navy Meritorious Service Medal; NASA Distinguished Service Medal; NASA Outstanding Leadership Medal (2); NASA Exceptional Service Medal (2); NASA Exceptional Achievement Medal; NASA Silver Snoopy Award; AIAA System Effectiveness and Safety Award; AIAA Barry M. Goldwater Education Award; Aviation Week & Space Technology Laureate (Space and Missiles).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Graduate/NNP-5,Naval/NNP-1)
+				nn(Graduate/NNP-5,Safety/NNP-2)
+				nn(Graduate/NNP-5,School/NNP-3)
+				nn(Graduate/NNP-5,Top/NNP-4)
+				nsubj(Distinguished/VBN-23,Graduate/NNP-5)
+				nn(Graduate/NNP-12,Naval/NNP-7)
+				nn(Graduate/NNP-12,Test/NNP-8)
+				nn(Graduate/NNP-12,Pilot/NN-9)
+				nn(Graduate/NNP-12,School/NNP-10)
+				nn(Graduate/NNP-12,Distinguished/NNP-11)
+				dep(Graduate/NNP-5,Graduate/NNP-12)
+				dep(Graduate/NNP-12,Award/NN-13)
+				nn(Service/NNP-17,Defense/NNP-15)
+				nn(Service/NNP-17,Superior/NNP-16)
+				dep(Graduate/NNP-12,Service/NNP-17)
+				dep(Service/NNP-17,Medal/NN-18)
+				appos(Medal/NN-18,2/CD-20)
+				nn(Cross/NNP-25,Flying/NNP-24)
+				dobj(Distinguished/VBN-23,Cross/NNP-25)
+				nn(Service/NNP-29,Navy/NNP-27)
+				nn(Service/NNP-29,Meritorious/NNP-28)
+				dep(Cross/NNP-25,Service/NNP-29)
+				dep(Service/NNP-29,Medal/NN-30)
+				nn(Service/NNP-34,NASA/NNP-32)
+				nn(Service/NNP-34,Distinguished/NNP-33)
+				dep(Service/NNP-29,Service/NNP-34)
+				dep(Service/NNP-34,Medal/NN-35)
+				dep(Service/NNP-29,NASA/NNP-37)
+				amod(Medal/NN-40,Outstanding/JJ-38)
+				nn(Medal/NN-40,Leadership/NN-39)
+				dep(NASA/NNP-37,Medal/NN-40)
+				appos(Medal/NN-40,2/CD-42)
+				nn(Service/NNP-47,NASA/NNP-45)
+				nn(Service/NNP-47,Exceptional/NNP-46)
+				dep(Service/NNP-29,Service/NNP-47)
+				dep(Service/NNP-47,Medal/NN-48)
+				appos(Medal/NN-48,2/CD-50)
+				nn(Achievement/NNP-55,NASA/NNP-53)
+				nn(Achievement/NNP-55,Exceptional/NNP-54)
+				dep(Service/NNP-29,Achievement/NNP-55)
+				dep(Achievement/NNP-55,Medal/NN-56)
+				nn(Snoopy/NNP-60,NASA/NNP-58)
+				nn(Snoopy/NNP-60,Silver/NNP-59)
+				dep(Service/NNP-29,Snoopy/NNP-60)
+				dep(Snoopy/NNP-60,Award/NN-61)
+				nn(Effectiveness/NNP-65,AIAA/NNP-63)
+				nn(Effectiveness/NNP-65,System/NNP-64)
+				dep(Service/NNP-29,Effectiveness/NNP-65)
+				nn(Award/NN-68,Safety/NNP-67)
+				dep(Service/NNP-29,Award/NN-68)
+				conj_and(Effectiveness/NNP-65,Award/NN-68)
+				nn(Education/NNP-74,AIAA/NNP-70)
+				nn(Education/NNP-74,Barry/NNP-71)
+				nn(Education/NNP-74,M./NNP-72)
+				nn(Education/NNP-74,Goldwater/NNP-73)
+				dep(Service/NNP-29,Education/NNP-74)
+				dep(Education/NNP-74,Award/NN-75)
+				nn(Week/NNP-78,Aviation/NNP-77)
+				dep(Service/NNP-29,Week/NNP-78)
+				dep(Service/NNP-29,Space/NNP-80)
+				conj_and(Week/NNP-78,Space/NNP-80)
+				nn(Laureate/NNP-82,Technology/NNP-81)
+				dep(Week/NNP-78,Laureate/NNP-82)
+				appos(Laureate/NNP-82,Space/NNP-84)
+				appos(Laureate/NNP-82,Missiles/NNP-86)
+				conj_and(Space/NNP-84,Missiles/NNP-86)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Scheduled to be inducted into the Astronaut Hall of Fame in May 2008.	</value>
+
+		<annotated-sentence>	Scheduled to be inducted into [[the Astronaut Hall of Fame|United_States_Astronaut_Hall_of_Fame]] in [[May 2008|May_2008]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Scheduled to be inducted into the Astronaut Hall of Fame in May 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				aux(inducted/VBN-4,to/TO-2)
+				auxpass(inducted/VBN-4,be/VB-3)
+				xcomp(Scheduled/VBN-1,inducted/VBN-4)
+				det(Hall/NNP-8,the/DT-6)
+				nn(Hall/NNP-8,Astronaut/NNP-7)
+				prep_into(inducted/VBN-4,Hall/NNP-8)
+				prep_of(Hall/NNP-8,Fame/NNP-10)
+				prep_in(inducted/VBN-4,May/NNP-12)
+				num(May/NNP-12,2008/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Astronaut Hall of Fame</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Astronaut_Hall_of_Fame</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_2008</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor began active duty with the United States Marine Corps in June 1968 following graduation from the U.S. Naval Academy at Annapolis.	</value>
+
+		<annotated-sentence>	O'Connor began [[active duty|Active_duty]] with [[the United States Marine Corps|United_States_Marine_Corps]] in June [[1968|An_American_Carol]] following [[graduation|Graduation]] from [[the U.S. Naval Academy|United_States_Naval_Academy]] at [[Annapolis|United_States_Naval_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	O'Connor began active duty with [[the United States Marine Corps|United_States_Marine_Corps]] in June 1968 following graduation from the U.S. Naval Academy at Annapolis.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(began/VBD-2,O'Connor/NNP-1)
+				amod(duty/NN-4,active/JJ-3)
+				dobj(began/VBD-2,duty/NN-4)
+				det(Corps/NNP-10,the/DT-6)
+				nn(Corps/NNP-10,United/NNP-7)
+				nn(Corps/NNP-10,States/NNPS-8)
+				nn(Corps/NNP-10,Marine/NNP-9)
+				prep_with(began/VBD-2,Corps/NNP-10)
+				prep_in(began/VBD-2,June/NNP-12)
+				num(June/NNP-12,1968/CD-13)
+				prep_following(June/NNP-12,graduation/NN-15)
+				det(Academy/NNP-20,the/DT-17)
+				nn(Academy/NNP-20,U.S./NNP-18)
+				nn(Academy/NNP-20,Naval/NNP-19)
+				prep_from(graduation/NN-15,Academy/NNP-20)
+				prep_at(Academy/NNP-20,Annapolis/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Marine Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1968</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/An_American_Carol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Annapolis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Marine_Corps
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received his Naval Aviator wings in June 1970, and served as an attack pilot flying the A-4 Skyhawk and the AV-8A Harrier on land and sea assignments in the United States, Europe and the Western Pacific.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				nsubj(served/VBD-12,He/PRP-1)
+				poss(wings/NNS-6,his/PRP$-3)
+				nn(wings/NNS-6,Naval/NNP-4)
+				nn(wings/NNS-6,Aviator/NNP-5)
+				dobj(received/VBD-2,wings/NNS-6)
+				prep_in(received/VBD-2,June/NNP-8)
+				num(June/NNP-8,1970/CD-9)
+				conj_and(received/VBD-2,served/VBD-12)
+				det(pilot/NN-16,an/DT-14)
+				nn(pilot/NN-16,attack/NN-15)
+				prep_as(served/VBD-12,pilot/NN-16)
+				xcomp(served/VBD-12,flying/VBG-17)
+				det(A-4/NN-19,the/DT-18)
+				dobj(flying/VBG-17,A-4/NN-19)
+				appos(A-4/NN-19,Skyhawk/NNP-20)
+				det(Harrier/NNP-24,the/DT-22)
+				nn(Harrier/NNP-24,AV-8A/NNP-23)
+				dobj(flying/VBG-17,Harrier/NNP-24)
+				conj_and(A-4/NN-19,Harrier/NNP-24)
+				nn(assignments/NNS-29,land/NN-26)
+				conj_and(land/NN-26,sea/NN-28)
+				nn(assignments/NNS-29,sea/NN-28)
+				prep_on(Harrier/NNP-24,assignments/NNS-29)
+				det(States/NNPS-33,the/DT-31)
+				nn(States/NNPS-33,United/NNP-32)
+				prep_in(flying/VBG-17,States/NNPS-33)
+				prep_in(flying/VBG-17,Europe/NNP-35)
+				conj_and(States/NNPS-33,Europe/NNP-35)
+				det(Pacific/NNP-39,the/DT-37)
+				nn(Pacific/NNP-39,Western/NNP-38)
+				prep_in(flying/VBG-17,Pacific/NNP-39)
+				conj_and(States/NNPS-33,Pacific/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor attended the U.S. Naval Test Pilot School in 1975 and served as a test pilot with the Naval Air Test Center's Strike Test Directorate at Patuxent River, Maryland.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,O'Connor/NNP-1)
+				nsubj(served/VBD-12,O'Connor/NNP-1)
+				det(School/NNP-8,the/DT-3)
+				nn(School/NNP-8,U.S./NNP-4)
+				nn(School/NNP-8,Naval/NNP-5)
+				nn(School/NNP-8,Test/NNP-6)
+				nn(School/NNP-8,Pilot/NN-7)
+				dobj(attended/VBD-2,School/NNP-8)
+				prep_in(School/NNP-8,1975/CD-10)
+				conj_and(attended/VBD-2,served/VBD-12)
+				det(pilot/NN-16,a/DT-14)
+				nn(pilot/NN-16,test/NN-15)
+				prep_as(served/VBD-12,pilot/NN-16)
+				det(Center/NNP-22,the/DT-18)
+				nn(Center/NNP-22,Naval/NNP-19)
+				nn(Center/NNP-22,Air/NNP-20)
+				nn(Center/NNP-22,Test/NNP-21)
+				poss(Directorate/NN-26,Center/NNP-22)
+				nn(Directorate/NN-26,Strike/NN-24)
+				nn(Directorate/NN-26,Test/NN-25)
+				prep_with(pilot/NN-16,Directorate/NN-26)
+				nn(River/NNP-29,Patuxent/NNP-28)
+				prep_at(served/VBD-12,River/NNP-29)
+				appos(River/NNP-29,Maryland/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this 3½ year assignment, he participated in evaluations of various conventional and VSTOL aircraft, including the A-4, OV-10, AV-8, and X-22 VSTOL research aircraft.	</value>
+
+		<annotated-sentence>	During this 3½ [[year|Year]] assignment, he participated in [[evaluations|Evaluation]] of various conventional and [[VSTOL|STOL]] [[aircraft|Aircraft]], including the A-4, OV-10, AV-8, and X-22 [[VSTOL|STOL]] [[research|Research]] [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During this 3½ year assignment, he participated in evaluations of various conventional and VSTOL aircraft, including the A-4, OV-10, AV-8, and X-22 VSTOL research aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				det(assignment/NN-6,this/DT-2)
+				number(1/2/CD-4,3/CD-3)
+				num(assignment/NN-6,1/2/CD-4)
+				nn(assignment/NN-6,year/NN-5)
+				prep_during(participated/VBD-9,assignment/NN-6)
+				nsubj(participated/VBD-9,he/PRP-8)
+				prep_in(participated/VBD-9,evaluations/NNS-11)
+				amod(aircraft/NN-17,various/JJ-13)
+				amod(aircraft/NN-17,conventional/JJ-14)
+				conj_and(conventional/JJ-14,VSTOL/NNP-16)
+				amod(aircraft/NN-17,VSTOL/NNP-16)
+				prep_of(evaluations/NNS-11,aircraft/NN-17)
+				det(A-4/NN-21,the/DT-20)
+				prep_including(aircraft/NN-17,A-4/NN-21)
+				prep_including(aircraft/NN-17,OV-10/NN-23)
+				conj_and(A-4/NN-21,OV-10/NN-23)
+				prep_including(aircraft/NN-17,AV-8/NN-25)
+				conj_and(A-4/NN-21,AV-8/NN-25)
+				prep_including(aircraft/NN-17,X-22/NN-28)
+				conj_and(A-4/NN-21,X-22/NN-28)
+				nn(aircraft/NN-31,VSTOL/NN-29)
+				nn(aircraft/NN-31,research/NN-30)
+				dep(A-4/NN-21,aircraft/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>evaluations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VSTOL</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/V/STOL</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>VSTOL</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/V/STOL</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From June 1977 to June 1979 he was the Naval Air Test Center project officer in charge of all Harrier flight testing, including the planning and execution of the First Navy Preliminary Evaluation of the YAV-8B advanced Harrier prototype.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(officer/NN-15,June/NNP-2)
+				num(June/NNP-2,1977/CD-3)
+				prep_to(June/NNP-2,June/NNP-5)
+				num(June/NNP-5,1979/CD-6)
+				nsubj(officer/NN-15,he/PRP-7)
+				cop(officer/NN-15,was/VBD-8)
+				det(officer/NN-15,the/DT-9)
+				nn(officer/NN-15,Naval/NNP-10)
+				nn(officer/NN-15,Air/NNP-11)
+				nn(officer/NN-15,Test/NNP-12)
+				nn(officer/NN-15,Center/NNP-13)
+				nn(officer/NN-15,project/NN-14)
+				dep(advanced/VBD-38,officer/NN-15)
+				prep_in(officer/NN-15,charge/NN-17)
+				det(testing/NN-22,all/DT-19)
+				nn(testing/NN-22,Harrier/NNP-20)
+				nn(testing/NN-22,flight/NN-21)
+				prep_of(charge/NN-17,testing/NN-22)
+				det(planning/NN-26,the/DT-25)
+				prep_including(officer/NN-15,planning/NN-26)
+				prep_including(officer/NN-15,execution/NN-28)
+				conj_and(planning/NN-26,execution/NN-28)
+				det(Evaluation/NN-34,the/DT-30)
+				nn(Evaluation/NN-34,First/NNP-31)
+				nn(Evaluation/NN-34,Navy/NNP-32)
+				amod(Evaluation/NN-34,Preliminary/JJ-33)
+				prep_of(planning/NN-26,Evaluation/NN-34)
+				det(YAV-8B/NN-37,the/DT-36)
+				prep_of(planning/NN-26,YAV-8B/NN-37)
+				nn(prototype/NN-40,Harrier/NNP-39)
+				nsubj(advanced/VBD-38,prototype/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When informed of his selection to NASA's Astronaut Program in 1980, he was serving as the Deputy Program Manager (Acquisition) for the AV-8 program at the Naval Air Systems Command in Washington, D.C. O'Connor was selected as an astronaut in May 1980.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(serving/VBG-16,When/WRB-1)
+				partmod(serving/VBG-16,informed/VBN-2)
+				poss(selection/NN-5,his/PRP$-4)
+				prep_of(informed/VBN-2,selection/NN-5)
+				poss(Program/NNP-10,NASA/NNP-7)
+				nn(Program/NNP-10,Astronaut/NNP-9)
+				prep_to(informed/VBN-2,Program/NNP-10)
+				prep_in(informed/VBN-2,1980/CD-12)
+				nsubj(serving/VBG-16,he/PRP-14)
+				aux(serving/VBG-16,was/VBD-15)
+				advcl(selected/VBN-41,serving/VBG-16)
+				det(Manager/NNP-21,the/DT-18)
+				nn(Manager/NNP-21,Deputy/NNP-19)
+				nn(Manager/NNP-21,Program/NNP-20)
+				prep_as(serving/VBG-16,Manager/NNP-21)
+				appos(Manager/NNP-21,Acquisition/NNP-23)
+				det(program/NN-28,the/DT-26)
+				nn(program/NN-28,AV-8/NN-27)
+				prep_for(Manager/NNP-21,program/NN-28)
+				det(Command/NN-34,the/DT-30)
+				nn(Command/NN-34,Naval/NNP-31)
+				nn(Command/NN-34,Air/NNP-32)
+				nn(Command/NN-34,Systems/NNPS-33)
+				prep_at(serving/VBG-16,Command/NN-34)
+				prep_in(Command/NN-34,Washington/NNP-36)
+				nn(O'Connor/NNP-39,D.C./NNP-38)
+				nsubjpass(selected/VBN-41,O'Connor/NNP-39)
+				auxpass(selected/VBN-41,was/VBD-40)
+				det(astronaut/NN-44,an/DT-43)
+				prep_as(selected/VBN-41,astronaut/NN-44)
+				prep_in(astronaut/NN-44,May/NNP-46)
+				num(May/NNP-46,1980/CD-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After a one-year initial training program at NASA's Johnson Space Center in Houston, Texas, O'Connor served in a variety of functions in support of the first test flights of the Space Shuttle, including simulator test pilot for STS-1 and STS-2, safety/photo chase pilot for STS-3, and support crew for STS-4.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(program/NN-6,a/DT-2)
+				amod(program/NN-6,one-year/JJ-3)
+				amod(program/NN-6,initial/JJ-4)
+				nn(program/NN-6,training/NN-5)
+				prep_after(served/VBD-19,program/NN-6)
+				poss(Center/NNP-12,NASA/NNP-8)
+				nn(Center/NNP-12,Johnson/NNP-10)
+				nn(Center/NNP-12,Space/NNP-11)
+				prep_at(program/NN-6,Center/NNP-12)
+				nn(Texas/NNP-16,Houston/NNP-14)
+				prep_in(Center/NNP-12,Texas/NNP-16)
+				nsubj(served/VBD-19,O'Connor/NNP-18)
+				det(variety/NN-22,a/DT-21)
+				prep_in(served/VBD-19,variety/NN-22)
+				prep_of(variety/NN-22,functions/NNS-24)
+				prep_in(served/VBD-19,support/NN-26)
+				det(flights/NNS-31,the/DT-28)
+				amod(flights/NNS-31,first/JJ-29)
+				nn(flights/NNS-31,test/NN-30)
+				prep_of(support/NN-26,flights/NNS-31)
+				det(Shuttle/NNP-35,the/DT-33)
+				nn(Shuttle/NNP-35,Space/NN-34)
+				prep_of(flights/NNS-31,Shuttle/NNP-35)
+				nn(pilot/NN-40,simulator/NN-38)
+				nn(pilot/NN-40,test/NN-39)
+				prep_including(served/VBD-19,pilot/NN-40)
+				prep_for(pilot/NN-40,STS-1/NN-42)
+				prep_for(pilot/NN-40,STS-2/NN-44)
+				conj_and(STS-1/NN-42,STS-2/NN-44)
+				amod(pilot/NN-48,safety/photo/JJ-46)
+				nn(pilot/NN-48,chase/NN-47)
+				prep_including(served/VBD-19,pilot/NN-48)
+				conj_and(pilot/NN-40,pilot/NN-48)
+				prep_for(pilot/NN-48,STS-3/NN-50)
+				nn(crew/NN-54,support/NN-53)
+				prep_including(served/VBD-19,crew/NN-54)
+				conj_and(pilot/NN-40,crew/NN-54)
+				prep_for(crew/NN-54,STS-4/NN-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was CAPCOM (spacecraft communicator) for STS-5 through STS-9.	</value>
+
+		<annotated-sentence>	He was [[CAPCOM|Capcom]] ([[spacecraft|Spacecraft]] communicator) for [[STS-5|STS-5]] through [[STS-9|STS-9]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was CAPCOM (spacecraft communicator) for STS-5 through STS-9.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(CAPCOM/NNP-3,He/PRP-1)
+				cop(CAPCOM/NNP-3,was/VBD-2)
+				nn(communicator/NN-6,spacecraft/NN-5)
+				appos(CAPCOM/NNP-3,communicator/NN-6)
+				prep_for(CAPCOM/NNP-3,STS-5/NN-9)
+				prep_through(CAPCOM/NNP-3,STS-9/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-9</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as Aviation Safety Officer for the NASA Astronaut Corps.	</value>
+
+		<annotated-sentence>	He also served as [[Aviation Safety|Aviation_safety]] [[Officer|Officer]] for [[the NASA Astronaut Corps|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also served as Aviation Safety Officer for the NASA Astronaut Corps.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				nn(Officer/NNP-7,Aviation/NNP-5)
+				nn(Officer/NNP-7,Safety/NNP-6)
+				prep_as(served/VBD-3,Officer/NNP-7)
+				det(Corps/NNP-12,the/DT-9)
+				nn(Corps/NNP-12,NASA/NNP-10)
+				nn(Corps/NNP-12,Astronaut/NNP-11)
+				prep_for(Officer/NNP-7,Corps/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aviation Safety</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation_safety</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When the Challenger and its crew were lost in January 1986, O'Connor was given a number of safety and management assignments over the next three years as the Space Agency recovered from the disaster.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(lost/VBN-8,When/WRB-1)
+				det(Challenger/NNP-3,the/DT-2)
+				nsubjpass(lost/VBN-8,Challenger/NNP-3)
+				poss(crew/NN-6,its/PRP$-5)
+				conj_and(Challenger/NNP-3,crew/NN-6)
+				nsubjpass(lost/VBN-8,crew/NN-6)
+				auxpass(lost/VBN-8,were/VBD-7)
+				advcl(given/VBN-15,lost/VBN-8)
+				prep_in(lost/VBN-8,January/NNP-10)
+				num(January/NNP-10,1986/CD-11)
+				nsubjpass(given/VBN-15,O'Connor/NNP-13)
+				auxpass(given/VBN-15,was/VBD-14)
+				det(number/NN-17,a/DT-16)
+				dobj(given/VBN-15,number/NN-17)
+				nn(assignments/NNS-22,safety/NN-19)
+				conj_and(safety/NN-19,management/NN-21)
+				nn(assignments/NNS-22,management/NN-21)
+				prep_of(number/NN-17,assignments/NNS-22)
+				det(years/NNS-27,the/DT-24)
+				amod(years/NNS-27,next/JJ-25)
+				num(years/NNS-27,three/CD-26)
+				prep_over(given/VBN-15,years/NNS-27)
+				mark(recovered/VBD-32,as/IN-28)
+				det(Agency/NNP-31,the/DT-29)
+				nn(Agency/NNP-31,Space/NNP-30)
+				nsubj(recovered/VBD-32,Agency/NNP-31)
+				advcl(given/VBN-15,recovered/VBD-32)
+				det(disaster/NN-35,the/DT-34)
+				prep_from(recovered/VBD-32,disaster/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the first days after the accident, he organized the initial wreckage reassembly activities at Cape Canaveral.	</value>
+
+		<annotated-sentence>	In the first days after [[the accident|Traffic_collision]], he organized the initial wreckage [[reassembly|Segmentation_and_Reassembly]] [[activities|Activity]] at [[Cape Canaveral|Cape_Canaveral]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In the first days after the accident, he organized the initial wreckage reassembly activities at Cape Canaveral.	</pattern_crowdsource>
+
+
+		<tree>
+				det(days/NNS-4,the/DT-2)
+				amod(days/NNS-4,first/JJ-3)
+				prep_in(organized/VBD-10,days/NNS-4)
+				det(accident/NN-7,the/DT-6)
+				prep_after(days/NNS-4,accident/NN-7)
+				nsubj(organized/VBD-10,he/PRP-9)
+				det(activities/NNS-15,the/DT-11)
+				amod(activities/NNS-15,initial/JJ-12)
+				nn(activities/NNS-15,wreckage/NN-13)
+				nn(activities/NNS-15,reassembly/NN-14)
+				dobj(organized/VBD-10,activities/NNS-15)
+				nn(Canaveral/NNP-18,Cape/NNP-17)
+				prep_at(activities/NNS-15,Canaveral/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Traffic_collision</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>reassembly</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Segmentation_and_Reassembly</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cape Canaveral</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cape_Canaveral</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Then he established and managed the operation of the NASA Headquarters Action Center, the link between NASA and the Presidential Blue Ribbon Accident Investigation Panel (The Rogers Commission).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(established/VBD-3,Then/RB-1)
+				nsubj(established/VBD-3,he/PRP-2)
+				nsubj(managed/VBD-5,he/PRP-2)
+				conj_and(established/VBD-3,managed/VBD-5)
+				det(operation/NN-7,the/DT-6)
+				dobj(managed/VBD-5,operation/NN-7)
+				det(Center/NNP-13,the/DT-9)
+				nn(Center/NNP-13,NASA/NNP-10)
+				nn(Center/NNP-13,Headquarters/NN-11)
+				nn(Center/NNP-13,Action/NNP-12)
+				prep_of(operation/NN-7,Center/NNP-13)
+				det(link/NN-16,the/DT-15)
+				dobj(managed/VBD-5,link/NN-16)
+				conj_and(operation/NN-7,link/NN-16)
+				prep_between(link/NN-16,NASA/NNP-18)
+				det(Ribbon/NNP-23,the/DT-20)
+				nn(Ribbon/NNP-23,Presidential/NNP-21)
+				nn(Ribbon/NNP-23,Blue/NNP-22)
+				dobj(managed/VBD-5,Ribbon/NNP-23)
+				conj_and(operation/NN-7,Ribbon/NNP-23)
+				nn(Panel/NNP-26,Accident/NNP-24)
+				nn(Panel/NNP-26,Investigation/NNP-25)
+				dep(Ribbon/NNP-23,Panel/NNP-26)
+				det(Commission/NNP-30,The/DT-28)
+				nn(Commission/NNP-30,Rogers/NNP-29)
+				appos(Panel/NNP-26,Commission/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1986 he was assigned duties as Assistant (Operations) to the Space Shuttle Program Manager, as well as first Chairman of NASA's new Space Flight Safety Panel: jobs he held until February 1988 and 1989 respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,March/NNP-2)
+				num(March/NNP-2,1986/CD-3)
+				nsubjpass(assigned/VBN-6,he/PRP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				dobj(assigned/VBN-6,duties/NNS-7)
+				prep_as(duties/NNS-7,Assistant/NNP-9)
+				appos(duties/NNS-7,Operations/NNP-11)
+				det(Space/NN-15,the/DT-14)
+				prep_to(assigned/VBN-6,Space/NN-15)
+				nn(Manager/NNP-18,Shuttle/NNP-16)
+				nn(Manager/NNP-18,Program/NNP-17)
+				dep(Space/NN-15,Manager/NNP-18)
+				amod(Chairman/NN-24,first/JJ-23)
+				prep_to(assigned/VBN-6,Chairman/NN-24)
+				conj_and(Space/NN-15,Chairman/NN-24)
+				poss(Panel/NN-32,NASA/NNP-26)
+				amod(Panel/NN-32,new/JJ-28)
+				nn(Panel/NN-32,Space/NN-29)
+				nn(Panel/NN-32,Flight/NN-30)
+				nn(Panel/NN-32,Safety/NN-31)
+				prep_of(Chairman/NN-24,Panel/NN-32)
+				parataxis(assigned/VBN-6,jobs/NNS-34)
+				nsubj(held/VBD-36,he/PRP-35)
+				rcmod(jobs/NNS-34,held/VBD-36)
+				prep_until(held/VBD-36,February/NNP-38)
+				num(February/NNP-38,1988/CD-39)
+				prep_until(held/VBD-36,1989/CD-41)
+				conj_and(February/NNP-38,1989/CD-41)
+				advmod(held/VBD-36,respectively/RB-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He subsequently served as Deputy Director of Flight Crew Operations from February 1988 until August 1991.	</value>
+
+		<annotated-sentence>	He subsequently served as Deputy Director of [[Flight Crew|Aircrew]] Operations from [[February 1988|1988]] until August 1991.	</annotated-sentence>
+
+		<pattern_crowdsource>	He subsequently served as Deputy Director of Flight Crew Operations from February 1988 until August 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,subsequently/RB-2)
+				nn(Director/NNP-6,Deputy/NNP-5)
+				prep_as(served/VBD-3,Director/NNP-6)
+				nn(Operations/NNP-10,Flight/NNP-8)
+				nn(Operations/NNP-10,Crew/NNP-9)
+				prep_of(Director/NNP-6,Operations/NNP-10)
+				prep_from(Operations/NNP-10,February/NNP-12)
+				num(February/NNP-12,1988/CD-13)
+				prep_until(served/VBD-3,August/NNP-15)
+				num(August/NNP-15,1991/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight Crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As of this writing, O'Connor has flown over 5,000 hours in over 40 types of aircraft.	</value>
+
+		<annotated-sentence>	As of [[this writing|Writing]], O'Connor has flown over [[5,000|5,000,000]] [[hours|Hour]] in over 40 types of [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As of this writing, O'Connor has flown over 5,000 hours in over 40 types of aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_as_of(flown/VBN-8,of/IN-2)
+				det(writing/NN-4,this/DT-3)
+				pobj(flown/VBN-8,writing/NN-4)
+				nsubj(flown/VBN-8,O'Connor/NNP-6)
+				aux(flown/VBN-8,has/VBZ-7)
+				num(hours/NNS-11,5,000/CD-10)
+				prep_over(flown/VBN-8,hours/NNS-11)
+				dep(flown/VBN-8,in/IN-12)
+				num(types/NNS-15,40/CD-14)
+				prep_over(flown/VBN-8,types/NNS-15)
+				prep_of(types/NNS-15,aircraft/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this writing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Writing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of two space flights, he has over 386 hours in space, covering five and three quarter million miles in 253 orbits of the earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				ccomp(has/VBZ-9,veteran/NN-2)
+				num(flights/NNS-6,two/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				nsubj(has/VBZ-9,he/PRP-8)
+				amod(hours/NNS-12,over/IN-10)
+				num(hours/NNS-12,386/CD-11)
+				dobj(has/VBZ-9,hours/NNS-12)
+				prep_in(hours/NNS-12,space/NN-14)
+				partmod(hours/NNS-12,covering/VBG-16)
+				dobj(covering/VBG-16,five/CD-17)
+				num(quarter/NN-20,three/CD-19)
+				dobj(covering/VBG-16,quarter/NN-20)
+				conj_and(five/CD-17,quarter/NN-20)
+				num(miles/NNS-22,million/CD-21)
+				npadvmod(covering/VBG-16,miles/NNS-22)
+				num(orbits/NNS-25,253/CD-24)
+				prep_in(covering/VBG-16,orbits/NNS-25)
+				det(earth/NN-28,the/DT-27)
+				prep_of(orbits/NNS-25,earth/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor was pilot on STS-61-B in 1985 and was crew commander on STS-40 in 1991.	</value>
+
+		<annotated-sentence>	O'Connor was pilot on [[STS-61-B|STS-61-B]] in [[1985|1985]] and was [[crew commander|Crew_Commander]] on [[STS-40|STS-40]] in [[1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	O'Connor was pilot on [[STS-61-B|STS-61-B]] in 1985 and was crew commander on [[STS-40|STS-40]] in 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-3,O'Connor/NNP-1)
+				cop(pilot/NN-3,was/VBD-2)
+				prep_on(pilot/NN-3,STS-61-B/NN-5)
+				prep_in(pilot/NN-3,1985/CD-7)
+				cop(commander/NN-11,was/VBD-9)
+				nn(commander/NN-11,crew/NN-10)
+				conj_and(pilot/NN-3,commander/NN-11)
+				prep_on(commander/NN-11,STS-40/NN-13)
+				prep_in(commander/NN-11,1991/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-61-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crew_Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-40</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-40</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-40
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor left NASA in August 1991 to become commanding officer of the Marine Aviation Detachment, Naval Air Test Center, Patuxent River.	</value>
+
+		<annotated-sentence>	O'Connor left [[NASA|NASA]] in August 1991 to become [[commanding officer|Commanding_officer]] of the [[Marine Aviation|United_States_Marine_Corps_Aviation]] Detachment, [[Naval Air Test Center|Naval_Air_Station_Patuxent_River]], [[Patuxent River|Patuxent_River]].	</annotated-sentence>
+
+		<pattern_crowdsource>	O'Connor left [[NASA|NASA]] in August 1991 to become commanding officer of the Marine Aviation Detachment, [[Naval Air Test Center|Naval_Air_Station_Patuxent_River]], [[Patuxent River|Patuxent_River]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,O'Connor/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				prep_in(left/VBD-2,August/NNP-5)
+				num(August/NNP-5,1991/CD-6)
+				aux(officer/NN-10,to/TO-7)
+				cop(officer/NN-10,become/VB-8)
+				amod(officer/NN-10,commanding/JJ-9)
+				xcomp(left/VBD-2,officer/NN-10)
+				det(Detachment/NNP-15,the/DT-12)
+				nn(Detachment/NNP-15,Marine/NNP-13)
+				nn(Detachment/NNP-15,Aviation/NNP-14)
+				prep_of(officer/NN-10,Detachment/NNP-15)
+				nn(Center/NNP-20,Naval/NNP-17)
+				nn(Center/NNP-20,Air/NNP-18)
+				nn(Center/NNP-20,Test/NNP-19)
+				appos(Detachment/NNP-15,Center/NNP-20)
+				nn(River/NNP-23,Patuxent/NNP-22)
+				appos(Center/NNP-20,River/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commanding officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commanding_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marine Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Marine_Corps_Aviation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval Air Test Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Patuxent River</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patuxent_River</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Naval_Air_Station_Patuxent_River http://dbpedia.org/ontology/location http://dbpedia.org/resource/Patuxent_River
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this 10 month assignment, he led 110 test pilots and technicians, participated as an AV-8B project test pilot, instructed students at the Test Pilot School, directed the Naval Air Test Center Museum, and became the first Marine to serve as Deputy Director and Chief of Staff of the Flight Test and Engineering Group.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(assignment/NN-5,this/DT-2)
+				num(assignment/NN-5,10/CD-3)
+				nn(assignment/NN-5,month/NN-4)
+				prep_during(led/VBD-8,assignment/NN-5)
+				nsubj(led/VBD-8,he/PRP-7)
+				nsubj(participated/VBD-15,he/PRP-7)
+				nsubj(instructed/VBD-23,he/PRP-7)
+				nsubj(directed/VBD-31,he/PRP-7)
+				num(pilots/NNS-11,110/CD-9)
+				nn(pilots/NNS-11,test/NN-10)
+				dobj(led/VBD-8,pilots/NNS-11)
+				dobj(led/VBD-8,technicians/NNS-13)
+				conj_and(pilots/NNS-11,technicians/NNS-13)
+				conj_and(led/VBD-8,participated/VBD-15)
+				det(pilot/NN-21,an/DT-17)
+				nn(pilot/NN-21,AV-8B/NN-18)
+				nn(pilot/NN-21,project/NN-19)
+				nn(pilot/NN-21,test/NN-20)
+				prep_as(participated/VBD-15,pilot/NN-21)
+				conj_and(led/VBD-8,instructed/VBD-23)
+				dobj(instructed/VBD-23,students/NNS-24)
+				det(School/NNP-29,the/DT-26)
+				nn(School/NNP-29,Test/NN-27)
+				nn(School/NNP-29,Pilot/NN-28)
+				prep_at(instructed/VBD-23,School/NNP-29)
+				conj_and(led/VBD-8,directed/VBD-31)
+				det(Museum/NNP-37,the/DT-32)
+				nn(Museum/NNP-37,Naval/NNP-33)
+				nn(Museum/NNP-37,Air/NNP-34)
+				nn(Museum/NNP-37,Test/NNP-35)
+				nn(Museum/NNP-37,Center/NNP-36)
+				dobj(directed/VBD-31,Museum/NNP-37)
+				cop(Marine/NNP-43,became/VBD-40)
+				det(Marine/NNP-43,the/DT-41)
+				amod(Marine/NNP-43,first/JJ-42)
+				conj_and(led/VBD-8,Marine/NNP-43)
+				aux(serve/VB-45,to/TO-44)
+				xcomp(Marine/NNP-43,serve/VB-45)
+				nn(Director/NNP-48,Deputy/NNP-47)
+				prep_as(serve/VB-45,Director/NNP-48)
+				prep_as(serve/VB-45,Chief/NNP-50)
+				conj_and(Director/NNP-48,Chief/NNP-50)
+				prep_of(Director/NNP-48,Staff/NNP-52)
+				det(Test/NN-56,the/DT-54)
+				nn(Test/NN-56,Flight/NN-55)
+				prep_of(Staff/NNP-52,Test/NN-56)
+				nn(Group/NNP-59,Engineering/NNP-58)
+				prep_of(Staff/NNP-52,Group/NNP-59)
+				conj_and(Test/NN-56,Group/NNP-59)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor returned to NASA Headquarters in Washington, retiring from the Marine Corps to become the Deputy Associate Administrator for Space Flight.	</value>
+
+		<annotated-sentence>	O'Connor returned to [[NASA Headquarters|NASA_Headquarters]] in [[Washington|Washington,_D.C.]], retiring from the Marine Corps to become the Deputy Associate Administrator for Space Flight.	</annotated-sentence>
+
+		<pattern_crowdsource>	O'Connor returned to NASA Headquarters in Washington, retiring from the Marine Corps to become the Deputy Associate Administrator for Space Flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,O'Connor/NNP-1)
+				nn(Headquarters/NN-5,NASA/NNP-4)
+				prep_to(returned/VBD-2,Headquarters/NN-5)
+				prep_in(returned/VBD-2,Washington/NNP-7)
+				xcomp(returned/VBD-2,retiring/VBG-9)
+				det(Corps/NNP-13,the/DT-11)
+				nn(Corps/NNP-13,Marine/NNP-12)
+				prep_from(retiring/VBG-9,Corps/NNP-13)
+				aux(Administrator/NNP-19,to/TO-14)
+				cop(Administrator/NNP-19,become/VB-15)
+				det(Administrator/NNP-19,the/DT-16)
+				nn(Administrator/NNP-19,Deputy/NNP-17)
+				nn(Administrator/NNP-19,Associate/NNP-18)
+				xcomp(retiring/VBG-9,Administrator/NNP-19)
+				nn(Flight/NNP-22,Space/NNP-21)
+				prep_for(Administrator/NNP-19,Flight/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA Headquarters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Headquarters</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Washington</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Washington,_D.C.</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was immediately assigned the task of developing a comprehensive flight safety improvement plan for the Space Shuttle, working closely with Congress and the Administration for funding of the major upgrade program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,immediately/RB-3)
+				det(task/NN-6,the/DT-5)
+				dobj(assigned/VBN-4,task/NN-6)
+				prepc_of(task/NN-6,developing/VBG-8)
+				det(plan/NN-14,a/DT-9)
+				amod(plan/NN-14,comprehensive/JJ-10)
+				nn(plan/NN-14,flight/NN-11)
+				nn(plan/NN-14,safety/NN-12)
+				nn(plan/NN-14,improvement/NN-13)
+				dobj(developing/VBG-8,plan/NN-14)
+				det(Shuttle/NNP-18,the/DT-16)
+				nn(Shuttle/NNP-18,Space/NN-17)
+				prep_for(developing/VBG-8,Shuttle/NNP-18)
+				partmod(assigned/VBN-4,working/VBG-20)
+				advmod(working/VBG-20,closely/RB-21)
+				prep_with(working/VBG-20,Congress/NNP-23)
+				det(Administration/NN-26,the/DT-25)
+				prep_with(working/VBG-20,Administration/NN-26)
+				conj_and(Congress/NNP-23,Administration/NN-26)
+				prep_for(working/VBG-20,funding/NN-28)
+				det(program/NN-33,the/DT-30)
+				amod(program/NN-33,major/JJ-31)
+				nn(program/NN-33,upgrade/NN-32)
+				prep_of(funding/NN-28,program/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Then in late summer 1992, he was assigned as leader of the negotiating team that traveled to Moscow to establish the framework for what subsequently became the ambitious and complex joint manned space program known as Shuttle/MIR.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(assigned/VBN-9,Then/RB-1)
+				amod(summer/NN-4,late/JJ-3)
+				prep_in(Then/RB-1,summer/NN-4)
+				dep(Then/RB-1,1992/CD-5)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				prep_as(assigned/VBN-9,leader/NN-11)
+				det(team/NN-15,the/DT-13)
+				nn(team/NN-15,negotiating/NN-14)
+				prep_of(leader/NN-11,team/NN-15)
+				nsubj(traveled/VBD-17,that/WDT-16)
+				rcmod(team/NN-15,traveled/VBD-17)
+				prep_to(traveled/VBD-17,Moscow/NNP-19)
+				aux(establish/VB-21,to/TO-20)
+				xcomp(traveled/VBD-17,establish/VB-21)
+				det(framework/NN-23,the/DT-22)
+				dobj(establish/VB-21,framework/NN-23)
+				nsubj(program/NN-35,what/WP-25)
+				advmod(program/NN-35,subsequently/RB-26)
+				cop(program/NN-35,became/VBD-27)
+				det(program/NN-35,the/DT-28)
+				amod(program/NN-35,ambitious/JJ-29)
+				conj_and(ambitious/JJ-29,complex/JJ-31)
+				amod(program/NN-35,complex/JJ-31)
+				amod(program/NN-35,joint/JJ-32)
+				amod(program/NN-35,manned/JJ-33)
+				nn(program/NN-35,space/NN-34)
+				prepc_for(framework/NN-23,program/NN-35)
+				partmod(leader/NN-11,known/VBN-36)
+				prep_as(known/VBN-36,Shuttle/MIR/NN-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1993 O'Connor was assigned as Director, Space Station Redesign.	</value>
+
+		<annotated-sentence>	In [[March 1993|1993]] O'Connor was assigned as Director, [[Space Station|SpaceStation]] Redesign.	</annotated-sentence>
+
+		<pattern_crowdsource>	In March 1993 O'Connor was assigned as Director, Space Station Redesign.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,March/NNP-2)
+				num(March/NNP-2,1993/CD-3)
+				nsubjpass(assigned/VBN-6,O'Connor/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				prep_as(assigned/VBN-6,Director/NNP-8)
+				nn(Redesign/NNP-12,Space/NNP-10)
+				nn(Redesign/NNP-12,Station/NNP-11)
+				appos(Director/NNP-8,Redesign/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He and his 50-person team of engineers, managers, and international partners developed, then recommended substantial vehicle and program restructure strategies which amounted to $300 million in savings per year, thus helping to save the program from cancellation by Congress.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(developed/VBD-14,He/PRP-1)
+				poss(team/NN-5,his/PRP$-3)
+				amod(team/NN-5,50-person/JJ-4)
+				conj_and(He/PRP-1,team/NN-5)
+				nsubj(developed/VBD-14,team/NN-5)
+				prep_of(team/NN-5,engineers/NNS-7)
+				prep_of(team/NN-5,managers/NNS-9)
+				conj_and(engineers/NNS-7,managers/NNS-9)
+				amod(partners/NNS-13,international/JJ-12)
+				prep_of(team/NN-5,partners/NNS-13)
+				conj_and(engineers/NNS-7,partners/NNS-13)
+				advmod(developed/VBD-14,then/RB-16)
+				dep(developed/VBD-14,recommended/VBD-17)
+				amod(vehicle/NN-19,substantial/JJ-18)
+				dobj(recommended/VBD-17,vehicle/NN-19)
+				nn(strategies/NNS-23,program/NN-21)
+				nn(strategies/NNS-23,restructure/NN-22)
+				dobj(recommended/VBD-17,strategies/NNS-23)
+				conj_and(vehicle/NN-19,strategies/NNS-23)
+				nsubj(amounted/VBD-25,which/WDT-24)
+				rcmod(vehicle/NN-19,amounted/VBD-25)
+				prep_to(amounted/VBD-25,$/$-27)
+				number(million/CD-29,300/CD-28)
+				num($/$-27,million/CD-29)
+				prep_in(amounted/VBD-25,savings/NNS-31)
+				prep_per(savings/NNS-31,year/NN-33)
+				advmod(helping/VBG-36,thus/RB-35)
+				xcomp(amounted/VBD-25,helping/VBG-36)
+				aux(save/VB-38,to/TO-37)
+				xcomp(helping/VBG-36,save/VB-38)
+				det(program/NN-40,the/DT-39)
+				dobj(save/VB-38,program/NN-40)
+				prep_from(save/VB-38,cancellation/NN-42)
+				prep_by(save/VB-38,Congress/NNP-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September, he was named Acting Space Station Program Director.	</value>
+
+		<annotated-sentence>	In [[September|September]], he was named [[Acting|Acting]] [[Space Station|SpaceStation]] [[Program Director|Program_director]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In September, he was named Acting Space Station Program Director.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(named/VBN-6,September/NNP-2)
+				nsubjpass(named/VBN-6,he/PRP-4)
+				auxpass(named/VBN-6,was/VBD-5)
+				nn(Director/NNP-11,Acting/NNP-7)
+				nn(Director/NNP-11,Space/NNP-8)
+				nn(Director/NNP-11,Station/NNP-9)
+				nn(Director/NNP-11,Program/NNP-10)
+				xcomp(named/VBN-6,Director/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Acting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Acting</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program Director</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_director</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He held that position throughout the transition from the Freedom Program to the new International Space Station Program and the announcement of a permanent Program Director in January 1994.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-2,He/PRP-1)
+				prep_that(held/VBD-2,position/NN-4)
+				det(transition/NN-7,the/DT-6)
+				prep_throughout(held/VBD-2,transition/NN-7)
+				det(Program/NNP-11,the/DT-9)
+				nn(Program/NNP-11,Freedom/NNP-10)
+				prep_from(transition/NN-7,Program/NNP-11)
+				det(Program/NNP-18,the/DT-13)
+				amod(Program/NNP-18,new/JJ-14)
+				nn(Program/NNP-18,International/NNP-15)
+				nn(Program/NNP-18,Space/NNP-16)
+				nn(Program/NNP-18,Station/NNP-17)
+				prep_to(held/VBD-2,Program/NNP-18)
+				det(announcement/NN-21,the/DT-20)
+				prep_to(held/VBD-2,announcement/NN-21)
+				conj_and(Program/NNP-18,announcement/NN-21)
+				det(Director/NN-26,a/DT-23)
+				amod(Director/NN-26,permanent/JJ-24)
+				nn(Director/NN-26,Program/NN-25)
+				prep_of(announcement/NN-21,Director/NN-26)
+				prep_in(Director/NN-26,January/NNP-28)
+				num(January/NNP-28,1994/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 1994, O'Connor was reassigned as Director, Space Shuttle Program.	</value>
+
+		<annotated-sentence>	In [[April 1994|1994]], O'Connor was reassigned as Director, [[Space Shuttle Program|Space_Shuttle_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In April 1994, O'Connor was reassigned as Director, Space Shuttle Program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reassigned/VBN-7,April/NNP-2)
+				num(April/NNP-2,1994/CD-3)
+				nsubjpass(reassigned/VBN-7,O'Connor/NNP-5)
+				auxpass(reassigned/VBN-7,was/VBD-6)
+				prep_as(reassigned/VBN-7,Director/NNP-9)
+				nn(Program/NNP-13,Space/NNP-11)
+				nn(Program/NNP-13,Shuttle/NNP-12)
+				appos(Director/NNP-9,Program/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>April 1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As such, he was responsible for all aspects of the $3.5 billion per year program, leading over 27,000 government and contractor personnel.	</value>
+
+		<annotated-sentence>	As such, he was responsible for all aspects of the $3.5 billion per [[year|Year]] program, leading over 27,000 [[government|Government]] and contractor personnel.	</annotated-sentence>
+
+		<pattern_crowdsource>	As such, he was responsible for all aspects of the $3.5 billion per year program, leading over 27,000 government and contractor personnel.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_such_as(leading/VBG-19,such/JJ-2)
+				nsubj(leading/VBG-19,he/PRP-4)
+				cop(leading/VBG-19,was/VBD-5)
+				acomp(leading/VBG-19,responsible/JJ-6)
+				det(aspects/NNS-9,all/DT-8)
+				prep_for(leading/VBG-19,aspects/NNS-9)
+				det($/$-12,the/DT-11)
+				prep_of(aspects/NNS-9,$/$-12)
+				number(billion/CD-14,3.5/CD-13)
+				num($/$-12,billion/CD-14)
+				nn(program/NN-17,year/NN-16)
+				prep_per($/$-12,program/NN-17)
+				num(government/NN-22,27,000/CD-21)
+				prep_over(leading/VBG-19,government/NN-22)
+				nn(personnel/NNS-25,contractor/NN-24)
+				prep_over(leading/VBG-19,personnel/NNS-25)
+				conj_and(government/NN-22,personnel/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>government</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Government</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	By the time he left NASA in March 1996, he had directed NASA's largest and most visible program through twelve safe, successful missions, including the first three flights to the Russian Space Station, Mir.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,the/DT-2)
+				prep_by(left/VBD-5,time/NN-3)
+				nsubj(left/VBD-5,he/PRP-4)
+				ccomp(directed/VBN-13,left/VBD-5)
+				dobj(left/VBD-5,NASA/NNP-6)
+				prep_in(NASA/NNP-6,March/NNP-8)
+				num(March/NNP-8,1996/CD-9)
+				nsubj(directed/VBN-13,he/PRP-11)
+				aux(directed/VBN-13,had/VBD-12)
+				poss(program/NN-20,NASA/NNP-14)
+				amod(program/NN-20,largest/JJS-16)
+				advmod(visible/JJ-19,most/RBS-18)
+				conj_and(largest/JJS-16,visible/JJ-19)
+				amod(program/NN-20,visible/JJ-19)
+				dobj(directed/VBN-13,program/NN-20)
+				num(missions/NNS-26,twelve/CD-22)
+				amod(missions/NNS-26,safe/JJ-23)
+				amod(missions/NNS-26,successful/JJ-25)
+				prep_through(directed/VBN-13,missions/NNS-26)
+				det(flights/NNS-32,the/DT-29)
+				amod(flights/NNS-32,first/JJ-30)
+				num(flights/NNS-32,three/CD-31)
+				prep_including(missions/NNS-26,flights/NNS-32)
+				det(Station/NNP-37,the/DT-34)
+				amod(Station/NNP-37,Russian/JJ-35)
+				nn(Station/NNP-37,Space/NN-36)
+				prep_to(flights/NNS-32,Station/NNP-37)
+				appos(Station/NNP-37,Mir/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He planned and led an extensive program restructure designed to save the taxpayers approximately $1 billion over the five-year budget horizon.	</value>
+
+		<annotated-sentence>	He planned and led an extensive program [[restructure|Sentinel_(instrumental)]] designed to save [[the taxpayers|Tax]] approximately $1 billion over the five-year [[budget|Budget]] horizon.	</annotated-sentence>
+
+		<pattern_crowdsource>	He planned and led an extensive program restructure designed to save the taxpayers approximately $1 billion over the five-year budget horizon.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(planned/VBD-2,He/PRP-1)
+				nsubj(led/VBD-4,He/PRP-1)
+				conj_and(planned/VBD-2,led/VBD-4)
+				det(restructure/NN-8,an/DT-5)
+				amod(restructure/NN-8,extensive/JJ-6)
+				nn(restructure/NN-8,program/NN-7)
+				dobj(planned/VBD-2,restructure/NN-8)
+				partmod(restructure/NN-8,designed/VBN-9)
+				aux(save/VB-11,to/TO-10)
+				xcomp(designed/VBN-9,save/VB-11)
+				det(taxpayers/NNS-13,the/DT-12)
+				iobj(save/VB-11,taxpayers/NNS-13)
+				quantmod($/$-15,approximately/RB-14)
+				dobj(save/VB-11,$/$-15)
+				number($/$-15,1/CD-16)
+				number($/$-15,billion/CD-17)
+				det(horizon/NN-22,the/DT-19)
+				amod(horizon/NN-22,five-year/JJ-20)
+				nn(horizon/NN-22,budget/NN-21)
+				prep_over(save/VB-11,horizon/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>restructure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sentinel_(instrumental)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the taxpayers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tax</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>budget</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Budget</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Of equal importance he oversaw the introduction of several major safety improvements developed to prevent another "Challenger disaster".	</value>
+
+		<annotated-sentence>	Of equal [[importance|Importance]] he oversaw the introduction of several major safety [[improvements|Improve]] developed to prevent another "[[Challenger disaster|Space_Shuttle_Challenger_disaster]]".	</annotated-sentence>
+
+		<pattern_crowdsource>	Of equal importance he oversaw the introduction of several major safety improvements developed to prevent another "Challenger disaster".	</pattern_crowdsource>
+
+
+		<tree>
+				amod(importance/NN-3,equal/JJ-2)
+				prep_of(oversaw/VBD-5,importance/NN-3)
+				nsubj(oversaw/VBD-5,he/PRP-4)
+				det(introduction/NN-7,the/DT-6)
+				nsubj(developed/VBD-13,introduction/NN-7)
+				amod(improvements/NNS-12,several/JJ-9)
+				amod(improvements/NNS-12,major/JJ-10)
+				nn(improvements/NNS-12,safety/NN-11)
+				prep_of(introduction/NN-7,improvements/NNS-12)
+				ccomp(oversaw/VBD-5,developed/VBD-13)
+				aux(prevent/VB-15,to/TO-14)
+				xcomp(developed/VBD-13,prevent/VB-15)
+				det(disaster/NN-19,another/DT-16)
+				nn(disaster/NN-19,Challenger/NNP-18)
+				dobj(prevent/VB-15,disaster/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>importance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Importance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>improvements</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Improve</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Challenger disaster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor left NASA in February 1996 to become an aerospace consultant.	</value>
+
+		<annotated-sentence>	[[O'Connor|Gordon_O'Connor]] left [[NASA|NASA]] in [[February 1996|1996]] to become an [[aerospace|Aerospace]] [[consultant|Consultant]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[O'Connor|Gordon_O'Connor]] left [[NASA|NASA]] in February 1996 to become an aerospace [[consultant|Consultant]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,O'Connor/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				prep_in(left/VBD-2,February/NNP-5)
+				num(February/NNP-5,1996/CD-6)
+				aux(consultant/NN-11,to/TO-7)
+				cop(consultant/NN-11,become/VB-8)
+				det(consultant/NN-11,an/DT-9)
+				nn(consultant/NN-11,aerospace/NN-10)
+				xcomp(left/VBD-2,consultant/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>O'Connor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gordon_O'Connor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>consultant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consultant</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gordon_O'Connor http://dbpedia.org/ontology/profession http://dbpedia.org/resource/Consultant
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served on the Advisory Board of Airship Resources Corporation, a startup company planning to introduce high technology night sign display systems to the next generation large airships then under development in the United Kingdom.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				det(Board/NNP-7,the/DT-5)
+				nn(Board/NNP-7,Advisory/NNP-6)
+				prep_on(served/VBD-3,Board/NNP-7)
+				nn(Corporation/NNP-11,Airship/NNP-9)
+				nn(Corporation/NNP-11,Resources/NNPS-10)
+				prep_of(Board/NNP-7,Corporation/NNP-11)
+				det(company/NN-15,a/DT-13)
+				nn(company/NN-15,startup/NN-14)
+				appos(Corporation/NNP-11,company/NN-15)
+				partmod(company/NN-15,planning/VBG-16)
+				aux(introduce/VB-18,to/TO-17)
+				xcomp(planning/VBG-16,introduce/VB-18)
+				amod(systems/NNS-24,high/JJ-19)
+				nn(systems/NNS-24,technology/NN-20)
+				nn(systems/NNS-24,night/NN-21)
+				nn(systems/NNS-24,sign/NN-22)
+				nn(systems/NNS-24,display/NN-23)
+				dobj(introduce/VB-18,systems/NNS-24)
+				det(generation/NN-28,the/DT-26)
+				amod(generation/NN-28,next/JJ-27)
+				prep_to(systems/NNS-24,generation/NN-28)
+				amod(airships/NNS-30,large/JJ-29)
+				npadvmod(then/RB-31,airships/NNS-30)
+				advmod(introduce/VB-18,then/RB-31)
+				prep_under(introduce/VB-18,development/NN-33)
+				det(Kingdom/NNP-37,the/DT-35)
+				nn(Kingdom/NNP-37,United/NNP-36)
+				prep_in(development/NN-33,Kingdom/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Until 2002, when he rejoined NASA as Chief Safety and Mission Assurance Officer, O'Connor served as Director of Engineering for Futron Corporation, a Bethesda, Maryland based company providing risk management and aerospace safety and dependability services to government and commercial organizations including the Federal Aviation Administration, Department of Defense, NASA, Department of Energy, Westinghouse, AlliedSignal and others.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_until(served/VBD-17,2002/CD-2)
+				advmod(rejoined/VBD-6,when/WRB-4)
+				nsubj(rejoined/VBD-6,he/PRP-5)
+				advcl(served/VBD-17,rejoined/VBD-6)
+				dobj(rejoined/VBD-6,NASA/NNP-7)
+				nn(Safety/NNP-10,Chief/NNP-9)
+				prep_as(rejoined/VBD-6,Safety/NNP-10)
+				nn(Officer/NNP-14,Mission/NNP-12)
+				nn(Officer/NNP-14,Assurance/NNP-13)
+				prep_as(rejoined/VBD-6,Officer/NNP-14)
+				conj_and(Safety/NNP-10,Officer/NNP-14)
+				nsubj(served/VBD-17,O'Connor/NNP-16)
+				prep_as(served/VBD-17,Director/NN-19)
+				prep_of(Director/NN-19,Engineering/NNP-21)
+				nn(Corporation/NNP-24,Futron/NNP-23)
+				prep_for(served/VBD-17,Corporation/NNP-24)
+				det(Maryland/NNP-29,a/DT-26)
+				nn(Maryland/NNP-29,Bethesda/NNP-27)
+				appos(Corporation/NNP-24,Maryland/NNP-29)
+				partmod(Maryland/NNP-29,based/VBN-30)
+				dobj(based/VBN-30,company/NN-31)
+				xcomp(based/VBN-30,providing/VBG-32)
+				nn(management/NN-34,risk/NN-33)
+				dobj(providing/VBG-32,management/NN-34)
+				nn(safety/NN-37,aerospace/NN-36)
+				dobj(providing/VBG-32,safety/NN-37)
+				conj_and(management/NN-34,safety/NN-37)
+				nn(services/NNS-40,dependability/NN-39)
+				dobj(providing/VBG-32,services/NNS-40)
+				conj_and(management/NN-34,services/NNS-40)
+				nn(organizations/NNS-45,government/NN-42)
+				conj_and(government/NN-42,commercial/JJ-44)
+				nn(organizations/NNS-45,commercial/JJ-44)
+				prep_to(providing/VBG-32,organizations/NNS-45)
+				det(Administration/NNP-50,the/DT-47)
+				nn(Administration/NNP-50,Federal/NNP-48)
+				nn(Administration/NNP-50,Aviation/NNP-49)
+				prep_including(providing/VBG-32,Administration/NNP-50)
+				appos(Administration/NNP-50,Department/NNP-52)
+				nn(Department/NNP-58,Defense/NNP-54)
+				appos(Department/NNP-58,NASA/NNP-56)
+				prep_of(Department/NNP-52,Department/NNP-58)
+				prep_of(Department/NNP-58,Energy/NNP-60)
+				prep_of(Department/NNP-58,Westinghouse/NNP-62)
+				conj_and(Energy/NNP-60,Westinghouse/NNP-62)
+				prep_of(Department/NNP-58,AlliedSignal/NNP-64)
+				conj_and(Energy/NNP-60,AlliedSignal/NNP-64)
+				prep_of(Department/NNP-58,others/NNS-66)
+				conj_and(Energy/NNP-60,others/NNS-66)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	O'Connor is currently serving as NASA Chief Safety and Mission Assurance Officer.	</value>
+
+		<annotated-sentence>	O'Connor is currently serving as [[NASA|NASA]] Chief Safety and [[Mission Assurance|Mission_assurance]] [[Officer|Officer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	O'Connor is currently serving as [[NASA|NASA]] Chief Safety and Mission Assurance Officer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(serving/VBG-4,O'Connor/NNP-1)
+				aux(serving/VBG-4,is/VBZ-2)
+				advmod(serving/VBG-4,currently/RB-3)
+				nn(Safety/NNP-8,NASA/NNP-6)
+				nn(Safety/NNP-8,Chief/NNP-7)
+				prep_as(serving/VBG-4,Safety/NNP-8)
+				nn(Officer/NNP-12,Mission/NNP-10)
+				nn(Officer/NNP-12,Assurance/NNP-11)
+				prep_as(serving/VBG-4,Officer/NNP-12)
+				conj_and(Safety/NNP-8,Officer/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Assurance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_assurance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-61-B Atlantis (November 26, to December 3, 1985).	</value>
+
+		<annotated-sentence>	[[STS-61-B|STS-61-B]] [[Atlantis|Atlantis]] ([[November 26|November_26]], to December 3, 1985).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-61-B|STS-61-B]] Atlantis (November 26, to December 3, 1985).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-61-B/NN-1)
+				dep(Atlantis/NNP-2,November/NNP-4)
+				num(November/NNP-4,26/CD-5)
+				prep_to(November/NNP-4,December/NNP-8)
+				num(December/NNP-8,3/CD-9)
+				num(December/NNP-8,1985/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-61-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_26</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-61-B was the 22nd Shuttle flight and was the second-ever night shuttle launch from the Kennedy Space Center, Florida.	</value>
+
+		<annotated-sentence>	[[STS-61-B|STS-61-B]] was the 22nd [[Shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] and was the second-ever night [[shuttle|Shuttle_(video_game)]] launch from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-61-B|STS-61-B]] was the 22nd [[Shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] and was the second-ever night [[shuttle|Shuttle_(video_game)]] launch from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flight/NN-6,STS-61-B/NN-1)
+				cop(flight/NN-6,was/VBD-2)
+				det(flight/NN-6,the/DT-3)
+				amod(flight/NN-6,22nd/JJ-4)
+				nn(flight/NN-6,Shuttle/NNP-5)
+				cop(launch/NN-13,was/VBD-8)
+				det(launch/NN-13,the/DT-9)
+				amod(launch/NN-13,second-ever/JJ-10)
+				nn(launch/NN-13,night/NN-11)
+				nn(launch/NN-13,shuttle/NN-12)
+				conj_and(flight/NN-6,launch/NN-13)
+				det(Center/NNP-18,the/DT-15)
+				nn(Center/NNP-18,Kennedy/NNP-16)
+				nn(Center/NNP-18,Space/NNP-17)
+				prep_from(launch/NN-13,Center/NNP-18)
+				appos(Center/NNP-18,Florida/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-61-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was the heaviest payload weight carried to orbit by the Space Shuttle to date, and the first flight to deploy four satellites.	</value>
+
+		<annotated-sentence>	It was the heaviest payload [[weight|Weight]] carried to orbit by [[the Space Shuttle|SpaceShuttle]] to date, and the first [[flight|Flight]] to deploy [[four satellites|Satellite]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was the heaviest payload weight carried to orbit by the Space Shuttle to date, and the first flight to deploy four satellites.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(weight/NN-6,It/PRP-1)
+				cop(weight/NN-6,was/VBD-2)
+				det(weight/NN-6,the/DT-3)
+				amod(weight/NN-6,heaviest/JJS-4)
+				nn(weight/NN-6,payload/NN-5)
+				rcmod(weight/NN-6,carried/VBD-7)
+				aux(orbit/VB-9,to/TO-8)
+				xcomp(carried/VBD-7,orbit/VB-9)
+				det(Shuttle/NNP-13,the/DT-11)
+				nn(Shuttle/NNP-13,Space/NN-12)
+				prep_by(orbit/VB-9,Shuttle/NNP-13)
+				prep_to(orbit/VB-9,date/NN-15)
+				det(flight/NN-20,the/DT-18)
+				amod(flight/NN-20,first/JJ-19)
+				conj_and(weight/NN-6,flight/NN-20)
+				aux(deploy/VB-22,to/TO-21)
+				infmod(flight/NN-20,deploy/VB-22)
+				num(satellites/NNS-24,four/CD-23)
+				dobj(deploy/VB-22,satellites/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>weight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Weight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission included the EASE/ACCESS experiment.	</value>
+
+		<annotated-sentence>	The mission included the [[EASE/ACCESS|ACCESS]] [[experiment|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission included the EASE/ACCESS experiment.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(included/VBD-3,mission/NN-2)
+				det(experiment/NN-6,the/DT-4)
+				nn(experiment/NN-6,EASE/ACCESS/NN-5)
+				dobj(included/VBD-3,experiment/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>EASE/ACCESS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/EASE/ACCESS</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing 108 orbits of the earth in 165 hours, Atlantis returned to land at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	After completing 108 orbits of [[the earth|Earth]] in 165 [[hours|Hour]], [[Atlantis|Atlantis]] returned to land at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After completing 108 orbits of the earth in 165 hours, Atlantis returned to land at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(returned/VBD-13,completing/VBG-2)
+				num(orbits/NNS-4,108/CD-3)
+				dobj(completing/VBG-2,orbits/NNS-4)
+				det(earth/NN-7,the/DT-6)
+				prep_of(orbits/NNS-4,earth/NN-7)
+				num(hours/NNS-10,165/CD-9)
+				prep_in(earth/NN-7,hours/NNS-10)
+				nsubj(returned/VBD-13,Atlantis/NNP-12)
+				aux(land/VB-15,to/TO-14)
+				xcomp(returned/VBD-13,land/VB-15)
+				nn(Base/NNP-20,Edwards/NNP-17)
+				nn(Base/NNP-20,Air/NNP-18)
+				nn(Base/NNP-20,Force/NNP-19)
+				prep_at(land/VB-15,Base/NNP-20)
+				appos(Base/NNP-20,California/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-40 Columbia (June 5–14, 1991).	</value>
+
+		<annotated-sentence>	[[STS-40|STS-40]] Columbia ([[June 5|June_5]]–14, [[1991|1991]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-40|STS-40]] Columbia (June 5–14, 1991).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Columbia/NNP-2,STS-40/NN-1)
+				dep(Columbia/NNP-2,June/NNP-4)
+				num(June/NNP-4,5/CD-5)
+				dep(June/NNP-4,14/CD-7)
+				amod(14/CD-7,1991/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-40</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-40</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-40
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-40/SLS-1 was the first Space Shuttle mission dedicated to life science studies.	</value>
+
+		<annotated-sentence>	[[STS-40|STS-40]]/[[SLS-1|Space_Launch_System]] was the first [[Space Shuttle|SpaceShuttle]] mission dedicated to life [[science studies|Science_studies]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-40|STS-40]]/SLS-1 was the first Space Shuttle mission dedicated to life science studies.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(SLS-1/NN-3,STS-40/JJ-1)
+				punct(STS-40/JJ-1,//:-2)
+				nsubj(mission/NN-9,SLS-1/NN-3)
+				cop(mission/NN-9,was/VBD-4)
+				det(mission/NN-9,the/DT-5)
+				amod(mission/NN-9,first/JJ-6)
+				nn(mission/NN-9,Space/NN-7)
+				nn(mission/NN-9,Shuttle/NNP-8)
+				partmod(mission/NN-9,dedicated/VBN-10)
+				nn(studies/NNS-14,life/NN-12)
+				nn(studies/NNS-14,science/NN-13)
+				prep_to(dedicated/VBN-10,studies/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-40</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-40</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SLS-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Launch_System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science_studies</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bryan_D._O'Connor http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-40
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-40 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bryan_D._O'Connor
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 9-day mission the crew performed an extensive series of biomedical experiments.	</value>
+
+		<annotated-sentence>	During the 9-day mission the crew performed an extensive series of biomedical [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the 9-day mission the crew performed an extensive series of biomedical experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,9-day/JJ-3)
+				prep_during(performed/VBD-7,mission/NN-4)
+				det(crew/NN-6,the/DT-5)
+				nsubj(performed/VBD-7,crew/NN-6)
+				det(series/NN-10,an/DT-8)
+				amod(series/NN-10,extensive/JJ-9)
+				dobj(performed/VBD-7,series/NN-10)
+				amod(experiments/NNS-13,biomedical/JJ-12)
+				prep_of(series/NN-10,experiments/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 145 orbits of the Earth traveling 3.29 million miles in 218 hours, O'Connor piloted Columbia to a landing at Edwards Air Force Base, California, his crew having safely and successfully completed over 100% of their mission objectives.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,145/CD-2)
+				nsubj(traveling/VBG-7,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				prepc_after(piloted/VBD-16,traveling/VBG-7)
+				number(million/CD-9,3.29/CD-8)
+				num(miles/NNS-10,million/CD-9)
+				npadvmod(traveling/VBG-7,miles/NNS-10)
+				num(hours/NNS-13,218/CD-12)
+				prep_in(traveling/VBG-7,hours/NNS-13)
+				nsubj(piloted/VBD-16,O'Connor/NNP-15)
+				dobj(piloted/VBD-16,Columbia/NNP-17)
+				det(landing/NN-20,a/DT-19)
+				prep_to(piloted/VBD-16,landing/NN-20)
+				nn(Base/NNP-25,Edwards/NNP-22)
+				nn(Base/NNP-25,Air/NNP-23)
+				nn(Base/NNP-25,Force/NNP-24)
+				prep_at(landing/NN-20,Base/NNP-25)
+				appos(Base/NNP-25,California/NNP-27)
+				poss(crew/NN-30,his/PRP$-29)
+				appos(California/NNP-27,crew/NN-30)
+				aux(completed/VBN-35,having/VBG-31)
+				advmod(completed/VBN-35,safely/RB-32)
+				conj_and(safely/RB-32,successfully/RB-34)
+				advmod(completed/VBN-35,successfully/RB-34)
+				xcomp(piloted/VBD-16,completed/VBN-35)
+				num(%/NN-38,100/CD-37)
+				prep_over(completed/VBN-35,%/NN-38)
+				poss(objectives/NNS-42,their/PRP$-40)
+				nn(objectives/NNS-42,mission/NN-41)
+				prep_of(%/NN-38,objectives/NNS-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

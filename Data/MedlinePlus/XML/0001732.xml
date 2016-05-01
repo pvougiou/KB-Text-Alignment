@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Gingivostomatitis is an infection of the mouth and gums that leads to swelling and sores.</value>
+		<pattern_crowdsource> [[Gingivostomatitis|C0149704]] is an [[infection|C0009450]] of the [[mouth|C1278910]] and gums that leads to [[swelling|C0013604]] and sores.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Gingivostomatitis</surface-form>
+				<RDF-ID>C0149704</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0149704 ISA C0009450</triple>
+			<triple>C1278910 LOCATION_OF C0009450</triple>
+			<triple>C0009450 CAUSES C0013604</triple>
+			<triple>C0149704 CAUSES C0013604</triple>
+			<triple>C1278910 LOCATION_OF C0149704</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Gingivostomatitis is common among children.</value>
+		<pattern_crowdsource> [[Gingivostomatitis|C0149704]] is common among [[children|C0008059]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Gingivostomatitis</surface-form>
+				<RDF-ID>C0149704</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0149704 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It may occur after infection with the herpes simplex virus type 1 (HSV-1), which also causes cold sores.</value>
+		<pattern_crowdsource> It may occur after infection with the [[herpes simplex virus type 1|C0206679]] (HSV-1), which also causes [[cold sores|C0019345]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes simplex virus type 1</surface-form>
+				<RDF-ID>C0206679</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cold sores</surface-form>
+				<RDF-ID>C0019345</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0206679 CAUSES C0019345</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The goal of treatment is to reduce symptoms.</value>
+		<pattern_crowdsource> The goal of [[treatment|C0087111]] is to reduce [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>goal</surface-form>
+				<RDF-ID>C0018017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 PREVENTS C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Use mouth rinses that reduce pain if your doctor recommends them.</value>
+		<pattern_crowdsource> - [[Use mouth rinses|C0548296]] that reduce [[pain|C0030193]] if your doctor recommends them.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Use mouth rinses</surface-form>
+				<RDF-ID>C0548296</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0548296 PREVENTS C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

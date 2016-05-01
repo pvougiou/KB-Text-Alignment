@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Many people with COPD do not need to use a nebulizer.</value>
+		<pattern_crowdsource> Many [[people|C0027361]] with [[COPD|C0024117]] do not need to use a [[nebulizer|C0027524]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>COPD</surface-form>
+				<RDF-ID>C0024117</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nebulizer</surface-form>
+				<RDF-ID>C0027524</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024117 PROCESS_OF C0027361</triple>
+			<triple>C0027361 USES C0027524</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people use a nose clip to help them breathe only through their mouth.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] use a [[nose clip|C0179986]] to help them breathe only through their mouth.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose clip</surface-form>
+				<RDF-ID>C0179986</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C0226896</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027361 USES C0179986</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You'll need to clean your nebulizer to prevent bacteria from growing in it, which can cause a lung infection.</value>
+		<pattern_crowdsource> You'll need to clean your nebulizer to prevent [[bacteria|C0004611]] from growing in it, which can cause a [[lung infection|C0876973]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>nebulizer</surface-form>
+				<RDF-ID>C0027524</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung infection</surface-form>
+				<RDF-ID>C0876973</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 CAUSES C0876973</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Call your doctor if you are having trouble using your nebulizer.</value>
+		<pattern_crowdsource> Call your [[doctor|C0031831]] if you are having trouble using your [[nebulizer|C0027524]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nebulizer</surface-form>
+				<RDF-ID>C0027524</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031831 USES C0027524</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

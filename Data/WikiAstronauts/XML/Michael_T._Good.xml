@@ -1,0 +1,1406 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Michael Timothy "LeBueno" Good is a NASA astronaut and retired commissioned officer in the United States Air Force, holding the rank of Colonel.	</value>
+
+		<annotated-sentence>	Michael Timothy "LeBueno" [[Good|Michael_T._Good]] is a [[NASA|NASA]] [[astronaut|Astronaut]] and retired [[commissioned officer|Officer_(armed_forces)]] in [[the United States Air Force|United_States_Air_Force]], holding [[the rank|Colonel]] of [[Colonel|Colonel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Michael Timothy "LeBueno" [[Good|Michael_T._Good]] is a [[NASA|NASA]] [[astronaut|Astronaut]] and retired commissioned officer in the United States Air Force, holding [[the rank|Colonel]] of [[Colonel|Colonel]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Good/NNP-6,Michael/NNP-1)
+				nn(Good/NNP-6,Timothy/NNP-2)
+				nn(Good/NNP-6,LeBueno/NNP-4)
+				nsubj(astronaut/NN-10,Good/NNP-6)
+				nsubj(retired/VBD-12,Good/NNP-6)
+				cop(astronaut/NN-10,is/VBZ-7)
+				det(astronaut/NN-10,a/DT-8)
+				nn(astronaut/NN-10,NASA/NNP-9)
+				conj_and(astronaut/NN-10,retired/VBD-12)
+				amod(officer/NN-14,commissioned/VBN-13)
+				dobj(retired/VBD-12,officer/NN-14)
+				det(Force/NNP-20,the/DT-16)
+				nn(Force/NNP-20,United/NNP-17)
+				nn(Force/NNP-20,States/NNP-18)
+				nn(Force/NNP-20,Air/NNP-19)
+				prep_in(officer/NN-14,Force/NNP-20)
+				partmod(retired/VBD-12,holding/VBG-22)
+				det(rank/NN-24,the/DT-23)
+				dobj(holding/VBG-22,rank/NN-24)
+				prep_of(rank/NN-24,Colonel/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Good</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Michael_T._Good</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commissioned officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mike Good flew aboard Space Shuttle Atlantis for its STS-125 mission.	</value>
+
+		<annotated-sentence>	[[Mike Good|Michael_T._Good]] flew aboard [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] for its [[STS-125|STS-125]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Mike Good|Michael_T._Good]] flew aboard Space Shuttle Atlantis for its [[STS-125|STS-125]] mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Good/NNP-2,Mike/NNP-1)
+				nsubj(flew/VBD-3,Good/NNP-2)
+				nn(Atlantis/NNP-7,Space/NN-5)
+				nn(Atlantis/NNP-7,Shuttle/NNP-6)
+				prep_aboard(flew/VBD-3,Atlantis/NNP-7)
+				poss(mission/NN-11,its/PRP$-9)
+				nn(mission/NN-11,STS-125/NN-10)
+				prep_for(flew/VBD-3,mission/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mike Good</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Michael_T._Good</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-125</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-125</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-125
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-125 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-125 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-125 was the final Hubble Space Telescope servicing mission.	</value>
+
+		<annotated-sentence>	[[STS-125|STS-125]] was [[the final Hubble Space Telescope|Hubble_Space_Telescope]] servicing mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-125|STS-125]] was the final Hubble Space Telescope servicing mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Telescope/NNP-7,STS-125/NN-1)
+				cop(Telescope/NNP-7,was/VBD-2)
+				det(Telescope/NNP-7,the/DT-3)
+				amod(Telescope/NNP-7,final/JJ-4)
+				nn(Telescope/NNP-7,Hubble/NNP-5)
+				nn(Telescope/NNP-7,Space/NNP-6)
+				partmod(Telescope/NNP-7,servicing/VBG-8)
+				dobj(servicing/VBG-8,mission/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-125</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-125</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the final Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-125
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-125 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-125 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Good flew as Mission Specialist 2 on STS-132.	</value>
+
+		<annotated-sentence>	Good flew as Mission Specialist 2 on [[STS-132|STS-132]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Good flew as Mission Specialist 2 on [[STS-132|STS-132]].	</pattern_crowdsource>
+
+
+		<tree>
+				dep(flew/VBD-2,Good/JJ-1)
+				prep(flew/VBD-2,as/RB-3)
+				pobj(as/RB-3,Mission/NNP-4)
+				nsubj(flew/VBD-2,Specialist/NN-5)
+				num(Specialist/NN-5,2/CD-6)
+				prep_on(Specialist/NN-5,STS-132/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-132</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-132</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-132
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_T._Good
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Good was born on October 13, 1962 in Parma, Ohio, but was raised in Broadview Heights.	</value>
+
+		<annotated-sentence>	Good was born on October 13, 1962 in [[Parma , Ohio|Parma,_Ohio]] but was raised in [[Broadview Heights|Broadview_Heights,_Ohio]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Good was born on October 13, 1962 in Parma, Ohio, but was raised in [[Broadview Heights|Broadview_Heights,_Ohio]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Good/JJ-1)
+				nsubjpass(raised/VBN-16,Good/JJ-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,October/NNP-5)
+				num(October/NNP-5,13/CD-6)
+				num(October/NNP-5,1962/CD-8)
+				nn(Ohio/NNP-12,Parma/NNP-10)
+				prep_in(born/VBN-3,Ohio/NNP-12)
+				auxpass(raised/VBN-16,was/VBD-15)
+				conj_but(born/VBN-3,raised/VBN-16)
+				nn(Heights/NNP-19,Broadview/NNP-18)
+				prep_in(raised/VBN-16,Heights/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Parma , Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parma,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Broadview Heights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadview_Heights,_Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Parma,_Ohio
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Parma,_Ohio http://dbpedia.org/property/south http://dbpedia.org/resource/Broadview_Heights,_Ohio
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Broadview_Heights,_Ohio http://dbpedia.org/property/northwest http://dbpedia.org/resource/Parma,_Ohio
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Good went to college and received a Bachelor of Science in aerospace engineering at the University of Notre Dame, before completing a Master of Science program there in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-2,Good/JJ-1)
+				nsubj(received/VBD-6,Good/JJ-1)
+				prep_to(went/VBD-2,college/NN-4)
+				conj_and(went/VBD-2,received/VBD-6)
+				det(Bachelor/NN-8,a/DT-7)
+				dobj(received/VBD-6,Bachelor/NN-8)
+				prep_of(Bachelor/NN-8,Science/NN-10)
+				nn(engineering/NN-13,aerospace/NN-12)
+				prep_in(Science/NN-10,engineering/NN-13)
+				det(University/NNP-16,the/DT-15)
+				prep_at(received/VBD-6,University/NNP-16)
+				nn(Dame/NNP-19,Notre/NNP-18)
+				prep_of(University/NNP-16,Dame/NNP-19)
+				prepc_before(received/VBD-6,completing/VBG-22)
+				det(Master/NN-24,a/DT-23)
+				dobj(completing/VBG-22,Master/NN-24)
+				nn(program/NN-27,Science/NNP-26)
+				prep_of(Master/NN-24,program/NN-27)
+				advmod(completing/VBG-22,there/RB-28)
+				prep_in(received/VBD-6,1986/CD-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His wife, Joan Dickinson, also of Broadview Heights, is the mother of their three children.	</value>
+
+		<annotated-sentence>	[[His wife|Carolyn_Bessette-Kennedy]], Joan Dickinson, also of [[Broadview Heights|Broadview_Heights,_Ohio]], is [[the mother|Mother]] of their three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His wife, Joan Dickinson, also of Broadview Heights, is the mother of their three children.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(wife/NN-2,His/PRP$-1)
+				nsubj(mother/NN-14,wife/NN-2)
+				nn(Dickinson/NNP-5,Joan/NNP-4)
+				appos(wife/NN-2,Dickinson/NNP-5)
+				advmod(Dickinson/NNP-5,also/RB-7)
+				nn(Heights/NNP-10,Broadview/NNP-9)
+				prep_of(Dickinson/NNP-5,Heights/NNP-10)
+				cop(mother/NN-14,is/VBZ-12)
+				det(mother/NN-14,the/DT-13)
+				poss(children/NNS-18,their/PRP$-16)
+				num(children/NNS-18,three/CD-17)
+				prep_of(mother/NN-14,children/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carolyn_Bessette-Kennedy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Broadview Heights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadview_Heights,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mother</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They currently live in Colorado Springs, Colorado.	</value>
+
+		<annotated-sentence>	[[They|They]] currently live in Colorado Springs, [[Colorado|Colorado]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They currently live in Colorado Springs, Colorado.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(live/VBP-3,They/PRP-1)
+				advmod(live/VBP-3,currently/RB-2)
+				nn(Springs/NNP-6,Colorado/NNP-5)
+				prep_in(live/VBP-3,Springs/NNP-6)
+				appos(Springs/NNP-6,Colorado/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Brecksville-Broadview Heights High School, Broadview Heights, Ohio, 1980.	</value>
+
+		<annotated-sentence>	[[Brecksville-Broadview Heights High School|Brecksville-Broadview_Heights_High_School]], [[Broadview Heights|Broadview_Heights,_Ohio]], [[Ohio|Ohio]], [[1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Brecksville-[[Broadview Heights|Broadview_Heights,_Ohio]] High School|Brecksville-Broadview_Heights_High_School]], [[Broadview Heights|Broadview_Heights,_Ohio]], [[Ohio|Ohio]], 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(School/NNP-4,Brecksville-Broadview/NNP-1)
+				nn(School/NNP-4,Heights/NNP-2)
+				nn(School/NNP-4,High/NNP-3)
+				nn(Heights/NNP-7,Broadview/NNP-6)
+				appos(School/NNP-4,Heights/NNP-7)
+				appos(School/NNP-4,Ohio/NNP-9)
+				amod(School/NNP-4,1980/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brecksville-Broadview Heights High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brecksville-Broadview_Heights_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Broadview Heights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadview_Heights,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brecksville-Broadview_Heights_High_School http://dbpedia.org/ontology/city http://dbpedia.org/resource/Broadview_Heights,_Ohio
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Brecksville-Broadview_Heights_High_School http://dbpedia.org/ontology/state http://dbpedia.org/resource/Ohio
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Broadview_Heights,_Ohio http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Ohio
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	B.S., Aerospace Engineering, University of Notre Dame, 1984.	</value>
+
+		<annotated-sentence>	B.S., [[Aerospace Engineering|Aerospace_engineering]], [[University of Notre Dame|University_of_Notre_Dame]], [[1984|1984]].	</annotated-sentence>
+
+		<pattern_crowdsource>	B.S., Aerospace Engineering, University of Notre Dame, 1984.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Engineering/NNP-4,Aerospace/NNP-3)
+				appos(B.S./NNP-1,Engineering/NNP-4)
+				appos(B.S./NNP-1,University/NNP-6)
+				nn(Dame/NNP-9,Notre/NNP-8)
+				prep_of(University/NNP-6,Dame/NNP-9)
+				amod(B.S./NNP-1,1984/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Notre Dame</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Notre_Dame</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	M.S., Aerospace Engineering, University of Notre Dame, 1986.	</value>
+
+		<annotated-sentence>	[[M.S.|M.S._(rapper)]], [[Aerospace Engineering|Aerospace_engineering]], [[University of Notre Dame|University_of_Notre_Dame]], [[1986|1986]].	</annotated-sentence>
+
+		<pattern_crowdsource>	M.S., Aerospace Engineering, University of Notre Dame, 1986.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Engineering/NNP-4,Aerospace/NNP-3)
+				appos(M.S./NNP-1,Engineering/NNP-4)
+				appos(M.S./NNP-1,University/NNP-6)
+				nn(Dame/NNP-9,Notre/NNP-8)
+				prep_of(University/NNP-6,Dame/NNP-9)
+				amod(M.S./NNP-1,1986/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>M.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/M.S._(rapper)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University of Notre Dame</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Notre_Dame</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduation, he was commissioned a second lieutenant in the United States Air Force and subsequently assigned to Eglin Air Force Base.	</value>
+
+		<annotated-sentence>	After [[graduation|Graduation]], he was commissioned [[a second lieutenant|Lieutenant]] in [[the United States Air Force|United_States_Air_Force]] and subsequently assigned to [[Eglin Air Force Base|Eglin_Air_Force_Base]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduation, he was commissioned a second lieutenant in the United States Air Force and subsequently assigned to Eglin Air Force Base.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(commissioned/VBN-6,graduation/NN-2)
+				nsubjpass(commissioned/VBN-6,he/PRP-4)
+				nsubjpass(assigned/VBN-18,he/PRP-4)
+				auxpass(commissioned/VBN-6,was/VBD-5)
+				det(lieutenant/NN-9,a/DT-7)
+				amod(lieutenant/NN-9,second/JJ-8)
+				dobj(commissioned/VBN-6,lieutenant/NN-9)
+				det(Force/NNP-15,the/DT-11)
+				nn(Force/NNP-15,United/NNP-12)
+				nn(Force/NNP-15,States/NNP-13)
+				nn(Force/NNP-15,Air/NNP-14)
+				prep_in(lieutenant/NN-9,Force/NNP-15)
+				advmod(assigned/VBN-18,subsequently/RB-17)
+				conj_and(commissioned/VBN-6,assigned/VBN-18)
+				nn(Base/NNP-23,Eglin/NNP-20)
+				nn(Base/NNP-23,Air/NNP-21)
+				nn(Base/NNP-23,Force/NNP-22)
+				prep_to(assigned/VBN-18,Base/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a second lieutenant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lieutenant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Eglin Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eglin_Air_Force_Base</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As an aviator, he has flown more than 30 types of aircraft, including the F-111 and the F-15.	</value>
+
+		<annotated-sentence>	As [[an aviator|Aviator]], he has flown more than 30 types of [[aircraft|Aircraft]], including [[the F-111|General_Dynamics_F-111_Aardvark]] and the F-15.	</annotated-sentence>
+
+		<pattern_crowdsource>	As an aviator, he has flown more than 30 types of [[aircraft|Aircraft]], including [[the F-111|General_Dynamics_F-111_Aardvark]] and the F-15.	</pattern_crowdsource>
+
+
+		<tree>
+				det(aviator/NN-3,an/DT-2)
+				prep_as(flown/VBN-7,aviator/NN-3)
+				nsubj(flown/VBN-7,he/PRP-5)
+				aux(flown/VBN-7,has/VBZ-6)
+				mwe(than/IN-9,more/JJR-8)
+				quantmod(30/CD-10,than/IN-9)
+				num(types/NNS-11,30/CD-10)
+				dobj(flown/VBN-7,types/NNS-11)
+				prep_of(types/NNS-11,aircraft/NN-13)
+				det(F-111/NN-17,the/DT-16)
+				prep_including(types/NNS-11,F-111/NN-17)
+				det(F-15/NNP-20,the/DT-19)
+				prep_including(types/NNS-11,F-15/NNP-20)
+				conj_and(F-111/NN-17,F-15/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-111_Aardvark</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/General_Dynamics_F-111_Aardvark http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged more than 2300 hours of flight.	</value>
+
+		<annotated-sentence>	He has logged more than [[2300|23rd_century]] [[hours|Hour]] of [[flight|Flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged more than 2300 hours of flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				mwe(than/IN-5,more/JJR-4)
+				quantmod(2300/CD-6,than/IN-5)
+				num(hours/NNS-7,2300/CD-6)
+				dobj(logged/VBN-3,hours/NNS-7)
+				prep_of(hours/NNS-7,flight/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2300</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/23rd_century</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Good was selected and began training as a Mission Specialist by NASA in 2000.	</value>
+
+		<annotated-sentence>	Good was selected and began [[training|Training]] as [[a Mission Specialist|Mission_Specialist]] by [[NASA|NASA]] in [[2000|2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Good was selected and began training as a Mission Specialist by [[NASA|NASA]] in 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Good/JJ-1)
+				nsubjpass(began/VBD-5,Good/JJ-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				conj_and(selected/VBN-3,began/VBD-5)
+				dobj(began/VBD-5,training/NN-6)
+				det(Specialist/NN-10,a/DT-8)
+				nn(Specialist/NN-10,Mission/NNP-9)
+				prep_as(began/VBD-5,Specialist/NN-10)
+				prep_by(began/VBD-5,NASA/NNP-12)
+				prep_in(NASA/NNP-12,2000/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is one of only two Air Force rated navigators who have been selected as astronauts (the other being Richard Mullane, selected in 1978).	</value>
+
+		<annotated-sentence>	He is one of only two [[Air Force|Air_force]] rated [[navigators|Navigator]] who have been selected as [[astronauts|Astronaut]] (the other being [[Richard Mullane|Mike_Mullane]], selected in [[1978|Tsubasa_Otomiya]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He is one of only two Air Force rated navigators who have been selected as [[astronauts|Astronaut]] (the other being [[Richard Mullane|Mike_Mullane]], selected in 1978).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,He/PRP-1)
+				cop(one/CD-3,is/VBZ-2)
+				advmod(two/CD-6,only/RB-5)
+				prep_of(one/CD-3,two/CD-6)
+				nn(Force/NNP-8,Air/NNP-7)
+				nsubj(rated/VBD-9,Force/NNP-8)
+				rcmod(two/CD-6,rated/VBD-9)
+				dobj(rated/VBD-9,navigators/NNS-10)
+				nsubjpass(selected/VBN-14,who/WP-11)
+				aux(selected/VBN-14,have/VBP-12)
+				auxpass(selected/VBN-14,been/VBN-13)
+				rcmod(navigators/NNS-10,selected/VBN-14)
+				prep_as(selected/VBN-14,astronauts/NNS-16)
+				det(other/JJ-19,the/DT-18)
+				dep(two/CD-6,other/JJ-19)
+				nn(Mullane/NNP-22,Richard/NNP-21)
+				prep_being(other/JJ-19,Mullane/NNP-22)
+				partmod(Mullane/NNP-22,selected/VBN-24)
+				prep_in(selected/VBN-24,1978/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>navigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navigator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Richard Mullane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mike_Mullane</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_T._Good http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Mike_Mullane http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Both of these navigators were Weapon Systems Officers.	</value>
+
+		<annotated-sentence>	Both of [[these navigators|Navigator]] were [[Weapon Systems|Weapon]] [[Officers|Officers_(video_game)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Both of these navigators were Weapon Systems Officers.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Officers/NNP-8,Both/DT-1)
+				det(navigators/NNS-4,these/DT-3)
+				prep_of(Both/DT-1,navigators/NNS-4)
+				cop(Officers/NNP-8,were/VBD-5)
+				nn(Officers/NNP-8,Weapon/NNP-6)
+				nn(Officers/NNP-8,Systems/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>these navigators</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navigator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Weapon Systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Weapon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officers_(video_game)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Distinguished Graduate from the University of Notre Dame, Reserve Officer Training Corps, 1984; Lead-in Fighter Training, 1989; Squadron Officer School, 1993.	</value>
+
+		<annotated-sentence>	Distinguished Graduate from [[the University|University]] of Notre Dame, Reserve Officer Training Corps, [[1984|1984]]; [[Lead-in Fighter Training|Trainer_(aircraft)]], [[1989|1989]]; [[Squadron Officer School|Squadron_Officer_School]], [[1993|1993]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Distinguished Graduate from the University of Notre Dame, Reserve Officer Training Corps, 1984; Lead-in Fighter Training, 1989; Squadron Officer School, 1993.	</pattern_crowdsource>
+
+
+		<tree>
+				dobj(Distinguished/VBN-1,Graduate/NN-2)
+				det(University/NNP-5,the/DT-4)
+				prep_from(Distinguished/VBN-1,University/NNP-5)
+				nn(Dame/NNP-8,Notre/NNP-7)
+				prep_of(University/NNP-5,Dame/NNP-8)
+				nn(Corps/NNP-13,Reserve/NNP-10)
+				nn(Corps/NNP-13,Officer/NNP-11)
+				nn(Corps/NNP-13,Training/NNP-12)
+				appos(Dame/NNP-8,Corps/NNP-13)
+				amod(Corps/NNP-13,1984/CD-15)
+				nn(Training/NNP-19,Lead-in/NN-17)
+				nn(Training/NNP-19,Fighter/NNP-18)
+				dep(Corps/NNP-13,Training/NNP-19)
+				amod(Training/NNP-19,1989/CD-21)
+				nn(School/NNP-25,Squadron/NNP-23)
+				nn(School/NNP-25,Officer/NNP-24)
+				dep(Corps/NNP-13,School/NNP-25)
+				amod(School/NNP-25,1993/CD-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lead-in Fighter Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Trainer_(aircraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Squadron Officer School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Squadron_Officer_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Top Academic Graduate of Specialized Undergraduate Navigator Training, 1989; F-111 Replacement Training Unit, 1989; USAF Test Pilot School, 1994.	</value>
+
+		<annotated-sentence>	Top Academic Graduate of [[Specialized|Specialized_Bicycle_Components]] Undergraduate [[Navigator|Navigator]] [[Training|Training]], [[1989|1989]]; [[F-111|General_Dynamics_F-111_Aardvark]] Replacement [[Training|Training]] [[Unit|UNIT]], [[1989|1989]]; [[USAF Test Pilot School|U.S._Air_Force_Test_Pilot_School]], [[1994|1994]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Top Academic Graduate of Specialized Undergraduate Navigator Training, 1989; F-111 Replacement Training Unit, 1989; USAF Test Pilot School, 1994.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Graduate/NN-3,Top/JJ-1)
+				nn(Graduate/NN-3,Academic/NNP-2)
+				nn(Training/NNP-8,Specialized/NNP-5)
+				nn(Training/NNP-8,Undergraduate/NNP-6)
+				nn(Training/NNP-8,Navigator/NNP-7)
+				prep_of(Graduate/NN-3,Training/NNP-8)
+				amod(Training/NNP-8,1989/CD-10)
+				nn(Replacement/NN-13,F-111/NN-12)
+				dep(Graduate/NN-3,Replacement/NN-13)
+				partmod(Replacement/NN-13,Training/VBG-14)
+				dobj(Training/VBG-14,Unit/NN-15)
+				amod(Unit/NN-15,1989/CD-17)
+				nn(School/NNP-22,USAF/NNP-19)
+				nn(School/NNP-22,Test/NNP-20)
+				nn(School/NNP-22,Pilot/NN-21)
+				dep(Unit/NN-15,School/NNP-22)
+				amod(School/NNP-22,1994/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Specialized</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Specialized_Bicycle_Components</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navigator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navigator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-111_Aardvark</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Unit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/UNIT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USAF Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aircrew of the Year, 77th Fighter Squadron, 1991.	</value>
+
+		<annotated-sentence>	[[Aircrew|Aircrew]] of [[the Year|Year]], [[77th Fighter Squadron|77th_Fighter_Squadron]], [[1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aircrew of [[the Year|Year]], 77th Fighter Squadron, [[1991|1991]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(Year/NN-4,the/DT-3)
+				prep_of(Aircrew/NNP-1,Year/NN-4)
+				amod(Squadron/NNP-8,77th/JJ-6)
+				nn(Squadron/NNP-8,Fighter/NNP-7)
+				appos(Aircrew/NNP-1,Squadron/NNP-8)
+				amod(Aircrew/NNP-1,1991/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aircrew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>77th Fighter Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/77th_Fighter_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1991 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Military decorations include the Meritorious Service Medal (4), Aerial Achievement Medal (2), Air Force Commendation Medal, Air Force Achievement Medal, Combat Readiness Medal and various other service awards.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(decorations/NNS-2,Military/JJ-1)
+				nsubj(include/VBP-3,decorations/NNS-2)
+				det(Medal/NN-7,the/DT-4)
+				nn(Medal/NN-7,Meritorious/NNP-5)
+				nn(Medal/NN-7,Service/NNP-6)
+				nsubj(Medal/NN-31,Medal/NN-7)
+				appos(Medal/NN-7,4/CD-9)
+				amod(Medal/NN-14,Aerial/JJ-12)
+				nn(Medal/NN-14,Achievement/NNP-13)
+				appos(Medal/NN-7,Medal/NN-14)
+				appos(Medal/NN-14,2/CD-16)
+				nn(Commendation/NNP-21,Air/NNP-19)
+				nn(Commendation/NNP-21,Force/NNP-20)
+				appos(Medal/NN-7,Commendation/NNP-21)
+				dep(Commendation/NNP-21,Medal/NN-22)
+				nn(Medal/NN-27,Air/NNP-24)
+				nn(Medal/NN-27,Force/NNP-25)
+				nn(Medal/NN-27,Achievement/NNP-26)
+				appos(Medal/NN-7,Medal/NN-27)
+				nn(Medal/NN-31,Combat/NNP-29)
+				nn(Medal/NN-31,Readiness/NNP-30)
+				xcomp(include/VBP-3,Medal/NN-31)
+				amod(awards/NNS-36,various/JJ-33)
+				amod(awards/NNS-36,other/JJ-34)
+				nn(awards/NNS-36,service/NN-35)
+				xcomp(include/VBP-3,awards/NNS-36)
+				conj_and(Medal/NN-31,awards/NNS-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

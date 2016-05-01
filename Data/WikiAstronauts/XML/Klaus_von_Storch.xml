@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Klaus Bernhard von Storch Krüger (born February 20, 1962) is a Chilean aerospace engineer and astronaut trainee.	</value>
+
+		<annotated-sentence>	Klaus [[Bernhard von|Bernhard_von_Beskow]] [[Storch|Klaus_von_Storch]] Krüger (born [[February|February]] 20, 1962) is a [[Chilean|Chile]] [[aerospace engineer|Aerospace_engineering]] and [[astronaut|Astronaut]] [[trainee|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Klaus Bernhard von [[Storch|Klaus_von_Storch]] Krüger (born February 20, 1962) is a [[Chilean|Chile]] [[aerospace engineer|Aerospace_engineering]] and [[astronaut|Astronaut]] trainee.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Krüger/NNP-5,Klaus/NNP-1)
+				nn(Krüger/NNP-5,Bernhard/NNP-2)
+				nn(Krüger/NNP-5,von/NNP-3)
+				nn(Krüger/NNP-5,Storch/NNP-4)
+				nsubj(engineer/NN-17,Krüger/NNP-5)
+				dep(Krüger/NNP-5,born/VBN-7)
+				tmod(born/VBN-7,February/NNP-8)
+				num(February/NNP-8,20/CD-9)
+				num(February/NNP-8,1962/CD-11)
+				cop(engineer/NN-17,is/VBZ-13)
+				det(engineer/NN-17,a/DT-14)
+				amod(engineer/NN-17,Chilean/JJ-15)
+				nn(engineer/NN-17,aerospace/NN-16)
+				nn(trainee/NN-20,astronaut/NN-19)
+				conj_and(engineer/NN-17,trainee/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Bernhard von</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bernhard_von_Beskow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Storch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Klaus_von_Storch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chilean</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>trainee</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus_von_Storch http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Chile
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus_von_Storch http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Chile
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus_von_Storch http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Aerospace_engineering
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus_von_Storch http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Von Storch was born in Osorno, in southern Chile.	</value>
+
+		<annotated-sentence>	Von [[Storch|Klaus_von_Storch]] was born in [[Osorno|Osorno,_Chile]], in [[southern Chile|Southern_Chile]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Von [[Storch|Klaus_von_Storch]] was born in [[Osorno|Osorno,_Chile]], in southern Chile.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Storch/NNP-2,Von/NNP-1)
+				nsubjpass(born/VBN-4,Storch/NNP-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				prep_in(born/VBN-4,Osorno/NNP-6)
+				amod(Chile/NNP-10,southern/JJ-9)
+				prep_in(born/VBN-4,Chile/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Storch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Klaus_von_Storch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Osorno</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Osorno,_Chile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>southern Chile</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southern_Chile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Klaus_von_Storch http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Osorno,_Chile
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, he was selected by the Chilean Space Agency for the preparation for the flight on the Space Shuttle.	</value>
+
+		<annotated-sentence>	In [[1992|1992]], he was selected by the Chilean [[Space Agency|List_of_space_agencies]] for the preparation for the [[flight|Flight_simulator]] on [[the Space|List_of_space_agencies]] [[Shuttle|Shuttle_(video_game)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1992, he was selected by the Chilean Space Agency for the preparation for the [[flight|Flight_simulator]] on the Space [[Shuttle|Shuttle_(video_game)]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1992/CD-2)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				det(Agency/NNP-11,the/DT-8)
+				amod(Agency/NNP-11,Chilean/JJ-9)
+				nn(Agency/NNP-11,Space/NN-10)
+				agent(selected/VBN-6,Agency/NNP-11)
+				det(preparation/NN-14,the/DT-13)
+				prep_for(Agency/NNP-11,preparation/NN-14)
+				det(Shuttle/NNP-21,the/DT-16)
+				dep(Shuttle/NNP-21,flight/NN-17)
+				det(Space/NN-20,the/DT-19)
+				prep_on(flight/NN-17,Space/NN-20)
+				prep_for(preparation/NN-14,Shuttle/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_agencies</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_agencies</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2001, he was considered as candidate for that flight aboard a Russian spacecraft during a taxi flight to the ISS in Spring 2003; but in September 2002 the medical board at the IMBP was not passed.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(considered/VBN-6,2001/CD-2)
+				nsubjpass(considered/VBN-6,he/PRP-4)
+				auxpass(considered/VBN-6,was/VBD-5)
+				prep_as(considered/VBN-6,candidate/NN-8)
+				det(flight/NN-11,that/DT-10)
+				prep_for(candidate/NN-8,flight/NN-11)
+				det(spacecraft/NN-15,a/DT-13)
+				amod(spacecraft/NN-15,Russian/JJ-14)
+				prep_aboard(flight/NN-11,spacecraft/NN-15)
+				det(flight/NN-19,a/DT-17)
+				nn(flight/NN-19,taxi/NN-18)
+				prep_during(considered/VBN-6,flight/NN-19)
+				det(ISS/NNP-22,the/DT-21)
+				prep_to(considered/VBN-6,ISS/NNP-22)
+				prep_in(ISS/NNP-22,Spring/NNP-24)
+				num(Spring/NNP-24,2003/CD-25)
+				prep_in(passed/VBN-39,September/NNP-29)
+				num(September/NNP-29,2002/CD-30)
+				det(board/NN-33,the/DT-31)
+				amod(board/NN-33,medical/JJ-32)
+				nsubjpass(passed/VBN-39,board/NN-33)
+				det(IMBP/NN-36,the/DT-35)
+				prep_at(board/NN-33,IMBP/NN-36)
+				auxpass(passed/VBN-39,was/VBD-37)
+				neg(passed/VBN-39,not/RB-38)
+				conj_but(considered/VBN-6,passed/VBN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is hoping to fly in the future.	</value>
+
+		<annotated-sentence>	He is hoping to fly in [[the future|Future]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is hoping to fly in the future.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(hoping/VBG-3,He/PRP-1)
+				aux(hoping/VBG-3,is/VBZ-2)
+				aux(fly/VB-5,to/TO-4)
+				xcomp(hoping/VBG-3,fly/VB-5)
+				det(future/NN-8,the/DT-7)
+				prep_in(fly/VB-5,future/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the future</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Future</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

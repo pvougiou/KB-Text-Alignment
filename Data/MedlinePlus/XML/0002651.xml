@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Mittelschmerz is one-sided, lower abdominal pain that affects some women.</value>
+		<pattern_crowdsource> [[Mittelschmerz|C0152149]] is one-sided, lower [[abdominal pain|C0000737]] that affects some women.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mittelschmerz</surface-form>
+				<RDF-ID>C0152149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one-sided</surface-form>
+				<RDF-ID>C0205092</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdominal pain</surface-form>
+				<RDF-ID>C0000737</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0152149 ISA C0000737</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>1 in 5 women have pain around the time of ovulation.</value>
+		<pattern_crowdsource> 1 in 5 [[women|C0043210]] have [[pain|C0030193]] around the time of ovulation.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>C0040223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ovulation</surface-form>
+				<RDF-ID>C0029965</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0043210</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Mittelschmerz can be painful, but it is not harmful.</value>
+		<pattern_crowdsource> [[Mittelschmerz|C0152149]] can be [[painful|C0030193]], but it is not harmful.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mittelschmerz</surface-form>
+				<RDF-ID>C0152149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>painful</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0152149 ISA C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

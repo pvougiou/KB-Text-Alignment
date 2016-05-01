@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Glanzmann disease is a rare disorder of blood platelets, which results in easy bruising and nosebleeds.</value>
+		<pattern_crowdsource> Glanzmann disease is a [[rare disorder|C0678236]] of [[blood platelets|C0005821]], which results in [[easy bruising|C0423798]] and [[nosebleeds|C0014591]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Glanzmann disease</surface-form>
+				<RDF-ID>C0040015</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare disorder</surface-form>
+				<RDF-ID>C0678236</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood platelets</surface-form>
+				<RDF-ID>C0005821</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>easy bruising</surface-form>
+				<RDF-ID>C0423798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nosebleeds</surface-form>
+				<RDF-ID>C0014591</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005821 LOCATION_OF C0678236</triple>
+			<triple>C0678236 CAUSES C0423798</triple>
+			<triple>C0678236 CAUSES C0014591</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There is no specific treatment for this disorder.</value>
+		<pattern_crowdsource> There is no specific [[treatment|C0087111]] for this [[disorder|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorder</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 NEG_TREATS C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Platelet transfusions may be given to people who are having severe bleeding.</value>
+		<pattern_crowdsource> [[Platelet transfusions|C0086818]] may be given to [[people|C0027361]] who are having severe [[bleeding|C0019080]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Platelet transfusions</surface-form>
+				<RDF-ID>C0086818</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0086818 ADMINISTERED_TO C0027361</triple>
+			<triple>C0019080 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Anyone with a bleeding disorder should avoid taking aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen and naproxen.</value>
+		<pattern_crowdsource> Anyone with a bleeding disorder should avoid taking [[aspirin|C0004057]] and other [[nonsteroidal anti-inflammatory drugs|C0003211]] (NSAIDs) such as [[ibuprofen|C0020740]] and [[naproxen|C0027396]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bleeding disorder</surface-form>
+				<RDF-ID>C1458140</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nonsteroidal anti-inflammatory drugs</surface-form>
+				<RDF-ID>C0003211</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004057 ISA C0003211</triple>
+			<triple>C0003211 ISA C0004057</triple>
+			<triple>C0020740 ISA C0003211</triple>
+			<triple>C0027396 ISA C0003211</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Complications may include:  - Severe bleeding  - Iron deficiency anemia in menstruating women due to abnormally heavy bleeding</value>
+		<pattern_crowdsource> Complications may include:  - Severe bleeding  - [[Iron deficiency anemia|C0162316]] in menstruating [[women|C0043210]] due to abnormally heavy bleeding		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Complications</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Iron deficiency anemia</surface-form>
+				<RDF-ID>C0162316</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0162316 PROCESS_OF C0043210</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Call your health care provider if:  - You have bleeding or bruising of an unknown cause  - Bleeding does not stop after usual treatments</value>
+		<pattern_crowdsource> Call your [[health care provider|C0018724]] if:  - You have [[bleeding|C0019080]] or [[bruising|C0009938]] of an unknown cause  - Bleeding does not stop after usual treatments		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bruising</surface-form>
+				<RDF-ID>C0009938</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>unknown</surface-form>
+				<RDF-ID>C0439673</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019080 PROCESS_OF C0018724</triple>
+			<triple>C0009938 PROCESS_OF C0018724</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Toxoplasmosis is an infection due to the parasite Toxoplasma gondii.</value>
+		<pattern_crowdsource> [[Toxoplasmosis|C0040558]] is an [[infection|C0009450]] due to the [[parasite|C0030498]] [[Toxoplasma gondii|C0040557]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Toxoplasmosis</surface-form>
+				<RDF-ID>C0040558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parasite</surface-form>
+				<RDF-ID>C0030498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Toxoplasma gondii</surface-form>
+				<RDF-ID>C0040557</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040557 ISA C0030498</triple>
+			<triple>C0040558 ISA C0009450</triple>
+			<triple>C0040557 CAUSES C0009450</triple>
+			<triple>C0040557 CAUSES C0040558</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

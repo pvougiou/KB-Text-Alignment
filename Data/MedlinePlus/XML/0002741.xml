@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>It is then watched to see if bacteria or other disease-causing organisms grow.</value>
+		<pattern_crowdsource> It is then watched to see if [[bacteria|C0004611]] or other disease-causing [[organisms|C0029235]] grow.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease-causing</surface-form>
+				<RDF-ID>C1314792</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organisms</surface-form>
+				<RDF-ID>C0029235</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 ISA C0029235</triple>
+			<triple>C0029235 ISA C0004611</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Bordetella pertussis  - Neisseria meningitidis  - Staphylococcus aureus  - Methicillin-resistant Staphylococcus aureus   The culture may be used to help determine which antibiotic is appropriate to treat an infection due to bacteria.</value>
+		<pattern_crowdsource> - Bordetella pertussis  - Neisseria meningitidis  - Staphylococcus aureus  - Methicillin-resistant Staphylococcus aureus   The culture may be used to help determine which [[antibiotic|C0003232]] is appropriate to treat an [[infection|C0009450]] due to [[bacteria|C0004611]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pertussis</surface-form>
+				<RDF-ID>C0043167</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Neisseria meningitidis</surface-form>
+				<RDF-ID>C0027575</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Staphylococcus aureus  - Methicillin-resistant</surface-form>
+				<RDF-ID>C1265292</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>culture</surface-form>
+				<RDF-ID>C0220814</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotic</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>appropriate</surface-form>
+				<RDF-ID>C1548787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0009450</triple>
+			<triple>C0004611 CAUSES C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The presence of any disease-causing virus, bacteria, or fungus means these organisms may be causing your infection.</value>
+		<pattern_crowdsource> The presence of any disease-causing [[virus|C0042769]], bacteria, or fungus means these organisms may be causing your [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>disease-causing</surface-form>
+				<RDF-ID>C1314792</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organisms</surface-form>
+				<RDF-ID>C0029235</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 COEXISTS_WITH C0042769</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

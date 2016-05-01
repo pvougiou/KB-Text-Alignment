@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Marianne Merchez (born 25 October 1960 in Uccle) is a Belgian doctor from the Catholic University of Louvain and a former European Space Agency astronaut.	</value>
+
+		<annotated-sentence>	[[Marianne Merchez|Marianne_Merchez]] (born 25 [[October 1960|October_1960]] in [[Uccle|Uccle]]) is a [[Belgian|Belgium]] doctor from [[the Catholic University|Catholic_university]] of Louvain and a former [[European Space Agency|European_Space_Agency]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Marianne Merchez|Marianne_Merchez]] (born 25 October 1960 in [[Uccle|Uccle]]) is a [[Belgian|Belgium]] doctor from the Catholic University of Louvain and a former [[European Space Agency|European_Space_Agency]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Merchez/NNP-2,Marianne/NNP-1)
+				nsubj(doctor/NN-14,Merchez/NNP-2)
+				dep(Merchez/NNP-2,born/VBN-4)
+				dobj(born/VBN-4,25/CD-5)
+				tmod(born/VBN-4,October/NNP-6)
+				num(October/NNP-6,1960/CD-7)
+				prep_in(born/VBN-4,Uccle/NNP-9)
+				cop(doctor/NN-14,is/VBZ-11)
+				det(doctor/NN-14,a/DT-12)
+				amod(doctor/NN-14,Belgian/JJ-13)
+				det(University/NNP-18,the/DT-16)
+				nn(University/NNP-18,Catholic/NNP-17)
+				prep_from(doctor/NN-14,University/NNP-18)
+				prep_of(University/NNP-18,Louvain/NNP-20)
+				det(astronaut/NN-27,a/DT-22)
+				amod(astronaut/NN-27,former/JJ-23)
+				amod(astronaut/NN-27,European/JJ-24)
+				nn(astronaut/NN-27,Space/NNP-25)
+				nn(astronaut/NN-27,Agency/NNP-26)
+				prep_of(University/NNP-18,astronaut/NN-27)
+				conj_and(Louvain/NNP-20,astronaut/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Marianne Merchez</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marianne_Merchez</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_1960</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Uccle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Uccle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Belgian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Belgium</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Catholic University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Catholic_university</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Uccle
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Uccle http://dbpedia.org/ontology/country http://dbpedia.org/resource/Belgium
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Belgium
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Belgium
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://dbpedia.org/ontology/type http://dbpedia.org/resource/European_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is certified in aerospace medicine and in industrial medicine, and she is also a professional pilot (holds a Belgian Air Transport Pilot License from Civil Aviation School, former co-pilot Boeing 737).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(certified/VBN-3,She/PRP-1)
+				auxpass(certified/VBN-3,is/VBZ-2)
+				nn(medicine/NN-6,aerospace/NN-5)
+				prep_in(certified/VBN-3,medicine/NN-6)
+				amod(medicine/NN-10,industrial/JJ-9)
+				prep_in(certified/VBN-3,medicine/NN-10)
+				conj_and(medicine/NN-6,medicine/NN-10)
+				nsubj(pilot/NN-18,she/PRP-13)
+				cop(pilot/NN-18,is/VBZ-14)
+				advmod(pilot/NN-18,also/RB-15)
+				det(pilot/NN-18,a/DT-16)
+				amod(pilot/NN-18,professional/JJ-17)
+				conj_and(certified/VBN-3,pilot/NN-18)
+				dep(pilot/NN-18,holds/VBZ-20)
+				det(License/NN-26,a/DT-21)
+				amod(License/NN-26,Belgian/JJ-22)
+				nn(License/NN-26,Air/NNP-23)
+				nn(License/NN-26,Transport/NNP-24)
+				nn(License/NN-26,Pilot/NN-25)
+				dobj(holds/VBZ-20,License/NN-26)
+				amod(School/NNP-30,Civil/JJ-28)
+				nn(School/NNP-30,Aviation/NNP-29)
+				prep_from(holds/VBZ-20,School/NNP-30)
+				amod(co-pilot/NNS-33,former/JJ-32)
+				appos(School/NNP-30,co-pilot/NNS-33)
+				partmod(co-pilot/NNS-33,Boeing/VBG-34)
+				dobj(Boeing/VBG-34,737/CD-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She has extensive experience as a consultant in human factors.	</value>
+
+		<annotated-sentence>	She has extensive [[experience|Experience]] as [[a consultant|Consultant]] in [[human factors|Human_factors]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She has extensive experience as a consultant in human factors.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,She/PRP-1)
+				amod(experience/NN-4,extensive/JJ-3)
+				dobj(has/VBZ-2,experience/NN-4)
+				det(consultant/NN-7,a/DT-6)
+				prep_as(experience/NN-4,consultant/NN-7)
+				amod(factors/NNS-10,human/JJ-9)
+				prep_in(consultant/NN-7,factors/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a consultant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consultant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>human factors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_factors</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her predilection field is human relationships and communication and she integrates her training in brief systemic therapy and ericksonian hypnosis in daily personal and professional situations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(field/NN-3,Her/PRP$-1)
+				nn(field/NN-3,predilection/NN-2)
+				nsubj(relationships/NNS-6,field/NN-3)
+				cop(relationships/NNS-6,is/VBZ-4)
+				amod(relationships/NNS-6,human/JJ-5)
+				conj_and(relationships/NNS-6,communication/NN-8)
+				nsubj(integrates/VBZ-11,she/PRP-10)
+				conj_and(relationships/NNS-6,integrates/VBZ-11)
+				poss(training/NN-13,her/PRP$-12)
+				dobj(integrates/VBZ-11,training/NN-13)
+				amod(therapy/NN-17,brief/JJ-15)
+				amod(therapy/NN-17,systemic/JJ-16)
+				prep_in(training/NN-13,therapy/NN-17)
+				amod(hypnosis/NN-20,ericksonian/JJ-19)
+				dobj(integrates/VBZ-11,hypnosis/NN-20)
+				conj_and(training/NN-13,hypnosis/NN-20)
+				amod(personal/JJ-23,daily/JJ-22)
+				prep_in(hypnosis/NN-20,personal/JJ-23)
+				amod(situations/NNS-26,professional/JJ-25)
+				prep_in(hypnosis/NN-20,situations/NNS-26)
+				conj_and(personal/JJ-23,situations/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her hobbies include classical music, walking, and cycling.	</value>
+
+		<annotated-sentence>	Her [[hobbies|Hobby]] include [[classical music|Classical_music]], walking, and [[cycling|Cycling]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Her hobbies include classical music, walking, and cycling.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(hobbies/NNS-2,Her/PRP$-1)
+				nsubj(include/VBP-3,hobbies/NNS-2)
+				amod(music/NN-5,classical/JJ-4)
+				dobj(include/VBP-3,music/NN-5)
+				dobj(include/VBP-3,walking/VBG-7)
+				conj_and(music/NN-5,walking/VBG-7)
+				dobj(include/VBP-3,cycling/NN-10)
+				conj_and(music/NN-5,cycling/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hobbies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hobby</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>classical music</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Classical_music</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cycling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cycling</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is married to Italian astronaut Maurizio Cheli.	</value>
+
+		<annotated-sentence>	She is married to [[Italian|Italy]] [[astronaut|Astronaut]] [[Maurizio Cheli|Maurizio_Cheli]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is married to [[Italian|Italy]] [[astronaut|Astronaut]] [[Maurizio Cheli|Maurizio_Cheli]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,She/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				amod(Cheli/NNP-8,Italian/JJ-5)
+				nn(Cheli/NNP-8,astronaut/NN-6)
+				nn(Cheli/NNP-8,Maurizio/NNP-7)
+				prep_to(married/VBN-3,Cheli/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Italian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Maurizio Cheli</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maurizio_Cheli</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Maurizio_Cheli http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Maurizio_Cheli http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Italy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Marianne_Merchez http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Maurizio_Cheli http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

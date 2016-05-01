@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Tendinitis is inflammation, irritation, and swelling of a tendon.</value>
+		<pattern_crowdsource> [[Tendinitis|C0039503]] is [[inflammation|C0021368]], irritation, and [[swelling|C0013604]] of a [[tendon|C1280538]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Tendinitis</surface-form>
+				<RDF-ID>C0039503</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>irritation</surface-form>
+				<RDF-ID>C0441723</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swelling</surface-form>
+				<RDF-ID>C0013604</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tendon</surface-form>
+				<RDF-ID>C1280538</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0039503 ISA C0021368</triple>
+			<triple>C1280538 LOCATION_OF C0013604</triple>
+			<triple>C1280538 LOCATION_OF C0021368</triple>
+			<triple>C1280538 LOCATION_OF C0039503</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

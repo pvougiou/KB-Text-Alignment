@@ -1,0 +1,3662 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jerry Lynn Ross (January 20, 1948, Crown Point, Indiana) is a United States Air Force officer, retired, and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Jerry Lynn Ross|Jerry_L._Ross]] ([[January|January]] 20, 1948, [[Crown Point|Crown_Point,_Indiana]], [[Indiana|Indiana]]) is a [[United States Air Force|United_States_Air_Force]] [[officer|Officer_(armed_forces)]], retired, and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Jerry Lynn Ross|Jerry_L._Ross]] (January 20, 1948, [[Crown Point|Crown_Point,_Indiana]], [[Indiana|Indiana]]) is a [[United States Air Force|United_States_Air_Force]] officer, retired, and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Ross/NNP-3,Jerry/NNP-1)
+				nn(Ross/NNP-3,Lynn/NNP-2)
+				nsubj(officer/NN-21,Ross/NNP-3)
+				dep(Ross/NNP-3,January/NNP-5)
+				num(January/NNP-5,20/CD-6)
+				num(January/NNP-5,1948/CD-8)
+				nn(Point/NNP-11,Crown/NNP-10)
+				appos(January/NNP-5,Point/NNP-11)
+				appos(January/NNP-5,Indiana/NNP-13)
+				cop(officer/NN-21,is/VBZ-15)
+				det(officer/NN-21,a/DT-16)
+				nn(officer/NN-21,United/NNP-17)
+				nn(officer/NN-21,States/NNP-18)
+				nn(officer/NN-21,Air/NNP-19)
+				nn(officer/NN-21,Force/NNP-20)
+				partmod(officer/NN-21,retired/VBN-23)
+				det(astronaut/NN-29,a/DT-26)
+				amod(astronaut/NN-29,former/JJ-27)
+				nn(astronaut/NN-29,NASA/NNP-28)
+				conj_and(officer/NN-21,astronaut/NN-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jerry Lynn Ross</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jerry_L._Ross</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Crown Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crown_Point,_Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Crown_Point,_Indiana
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Crown_Point,_Indiana http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Indiana
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a veteran of seven Space Shuttle missions, making him a record holder for most spaceflights (a record he shares with Franklin Chang-Diaz).	</value>
+
+		<annotated-sentence>	He is [[a veteran|Veteran]] of [[seven Space Shuttle missions|List_of_space_shuttle_missions]], making him a record holder for [[most spaceflights|Spaceflight]] (a record he shares with [[Franklin Chang-Diaz|Franklin_Chang-Diaz]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a veteran of seven Space Shuttle missions, making him a record holder for most spaceflights (a record he shares with Franklin Chang-Diaz).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(veteran/NN-4,He/PRP-1)
+				cop(veteran/NN-4,is/VBZ-2)
+				det(veteran/NN-4,a/DT-3)
+				num(missions/NNS-9,seven/CD-6)
+				nn(missions/NNS-9,Space/NN-7)
+				nn(missions/NNS-9,Shuttle/NNP-8)
+				prep_of(veteran/NN-4,missions/NNS-9)
+				partmod(missions/NNS-9,making/VBG-11)
+				nsubj(holder/NN-15,him/PRP-12)
+				det(holder/NN-15,a/DT-13)
+				nn(holder/NN-15,record/NN-14)
+				xcomp(making/VBG-11,holder/NN-15)
+				amod(spaceflights/NNS-18,most/JJS-17)
+				prep_for(holder/NN-15,spaceflights/NNS-18)
+				det(record/NN-21,a/DT-20)
+				dep(veteran/NN-4,record/NN-21)
+				nsubj(shares/VBZ-23,he/PRP-22)
+				rcmod(record/NN-21,shares/VBZ-23)
+				nn(Chang-Diaz/NNP-26,Franklin/NNP-25)
+				prep_with(shares/VBZ-23,Chang-Diaz/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>seven Space Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>most spaceflights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Franklin Chang-Diaz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franklin_Chang-Diaz</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His papers, photographs and many personal items are in the Barron Hilton Flight and Space Exploration Archives at Purdue University.	</value>
+
+		<annotated-sentence>	His papers, [[photographs|Photograph]] and many personal [[items|ITeM]] are in the [[Barron Hilton|Barron_Hilton]] Flight and [[Space Exploration|Space_exploration]] Archives at [[Purdue University|Purdue_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His papers, photographs and many personal items are in the Barron Hilton Flight and Space Exploration Archives at Purdue University.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(papers/NNS-2,His/PRP$-1)
+				nsubj(are/VBP-9,papers/NNS-2)
+				conj_and(papers/NNS-2,photographs/NNS-4)
+				nsubj(are/VBP-9,photographs/NNS-4)
+				amod(items/NNS-8,many/JJ-6)
+				amod(items/NNS-8,personal/JJ-7)
+				conj_and(papers/NNS-2,items/NNS-8)
+				nsubj(are/VBP-9,items/NNS-8)
+				det(Flight/NNP-14,the/DT-11)
+				nn(Flight/NNP-14,Barron/NNP-12)
+				nn(Flight/NNP-14,Hilton/NNP-13)
+				prep_in(are/VBP-9,Flight/NNP-14)
+				nn(Archives/NNS-18,Space/NNP-16)
+				nn(Archives/NNS-18,Exploration/NNP-17)
+				prep_in(are/VBP-9,Archives/NNS-18)
+				conj_and(Flight/NNP-14,Archives/NNS-18)
+				nn(University/NNP-21,Purdue/NNP-20)
+				prep_at(are/VBP-9,University/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>photographs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photograph</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>items</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ITeM</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Barron Hilton</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Barron_Hilton</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross is the author of Spacewalker: My Journey in Space and Faith as NASA's Record-Setting Frequent Flyer (Purdue University Press), available January, 2013.	</value>
+
+		<annotated-sentence>	Ross is [[the author|Author]] of Spacewalker: [[My Journey|My_Journey_(album)]] in [[Space|NASA]] and Faith as [[NASA|NASA]]'s [[Record-Setting|List_of_asteroid_close_approaches_to_Earth]] [[Frequent|Frequentative]] Flyer ([[Purdue University Press|Purdue_University_Press]]), available [[January|January]], [[2013|Sisaket_F.C.]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross is the author of Spacewalker: My Journey in [[Space|NASA]] and Faith as [[NASA|NASA]]'s Record-Setting Frequent Flyer (Purdue University Press), available January, 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(author/NN-4,Ross/NNP-1)
+				cop(author/NN-4,is/VBZ-2)
+				det(author/NN-4,the/DT-3)
+				prep_of(author/NN-4,Spacewalker/NNP-6)
+				poss(Journey/NN-9,My/PRP$-8)
+				dep(author/NN-4,Journey/NN-9)
+				prep_in(Journey/NN-9,Space/NN-11)
+				prep_in(Journey/NN-9,Faith/NN-13)
+				conj_and(Space/NN-11,Faith/NN-13)
+				poss(Flyer/NN-19,NASA/NNP-15)
+				nn(Flyer/NN-19,Record-Setting/NNP-17)
+				amod(Flyer/NN-19,Frequent/JJ-18)
+				prep_as(author/NN-4,Flyer/NN-19)
+				nn(Press/NNP-23,Purdue/NNP-21)
+				nn(Press/NNP-23,University/NNP-22)
+				appos(Flyer/NN-19,Press/NNP-23)
+				amod(author/NN-4,available/JJ-26)
+				tmod(available/JJ-26,January/NNP-27)
+				amod(January/NNP-27,2013/CD-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>My Journey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/My_Journey_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Record-Setting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_asteroid_close_approaches_to_Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Frequent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Frequentative</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University Press</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University_Press</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sisaket_F.C.</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Crown Point High School, Crown Point, Indiana, in 1966.	</value>
+
+		<annotated-sentence>	He graduated from [[Crown Point High School|Crown_Point_High_School]], [[Crown Point|Crown_Point_High_School]], [[Indiana|Indiana]], in [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from [[Crown Point High School|Crown_Point_High_School]], [[Crown Point|Crown_Point_High_School]], [[Indiana|Indiana]], in 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-7,Crown/NNP-4)
+				nn(School/NNP-7,Point/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(Point/NNP-10,Crown/NNP-9)
+				appos(School/NNP-7,Point/NNP-10)
+				appos(School/NNP-7,Indiana/NNP-12)
+				prep_in(School/NNP-7,1966/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Crown Point High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crown_Point_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Crown Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crown_Point_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Indiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Crown_Point_High_School http://dbpedia.org/ontology/state http://dbpedia.org/resource/Indiana
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Crown_Point_High_School http://dbpedia.org/ontology/state http://dbpedia.org/resource/Indiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received bachelor of science and master of science degrees in mechanical engineering from Purdue University in 1970 and 1972, respectively.	</value>
+
+		<annotated-sentence>	He received [[bachelor|Bachelor]] of science and master of [[science|Science]] degrees in [[mechanical engineering|Mechanical_engineering]] from [[Purdue University|Purdue_University]] in 1970 and 1972, respectively.	</annotated-sentence>
+
+		<pattern_crowdsource>	He received bachelor of [[science|Science]] and master of [[science|Science]] degrees in [[mechanical engineering|Mechanical_engineering]] from Purdue University in 1970 and 1972, respectively.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				dobj(received/VBD-2,bachelor/NN-3)
+				prep_of(bachelor/NN-3,science/NN-5)
+				prep_of(bachelor/NN-3,master/NN-7)
+				conj_and(science/NN-5,master/NN-7)
+				nn(degrees/NNS-10,science/NN-9)
+				prep_of(bachelor/NN-3,degrees/NNS-10)
+				amod(engineering/NN-13,mechanical/JJ-12)
+				prep_in(received/VBD-2,engineering/NN-13)
+				nn(University/NNP-16,Purdue/NNP-15)
+				prep_from(received/VBD-2,University/NNP-16)
+				prep_in(University/NNP-16,1970/CD-18)
+				prep_in(University/NNP-16,1972/CD-20)
+				conj_and(1970/CD-18,1972/CD-20)
+				advmod(received/VBD-2,respectively/RB-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mechanical engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mechanical_engineering http://dbpedia.org/property/employmentField http://dbpedia.org/resource/Science
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross, an Air Force ROTC student at Purdue University, received his commission upon graduation in 1970.	</value>
+
+		<annotated-sentence>	Ross, an [[Air Force ROTC|Air_Force_Reserve_Officer_Training_Corps]] [[student|Student]] at [[Purdue University|Purdue_University]], received his commission upon [[graduation|Graduation]] in [[1970|1970]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross, an Air Force ROTC student at Purdue University, received his commission upon graduation in 1970.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-12,Ross/NNP-1)
+				det(student/NN-7,an/DT-3)
+				nn(student/NN-7,Air/NNP-4)
+				nn(student/NN-7,Force/NNP-5)
+				nn(student/NN-7,ROTC/NNP-6)
+				appos(Ross/NNP-1,student/NN-7)
+				nn(University/NNP-10,Purdue/NNP-9)
+				prep_at(student/NN-7,University/NNP-10)
+				poss(commission/NN-14,his/PRP$-13)
+				dobj(received/VBD-12,commission/NN-14)
+				prep_upon(received/VBD-12,graduation/NN-16)
+				prep_in(received/VBD-12,1970/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Air Force ROTC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Reserve_Officer_Training_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1970</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1970</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After receiving his master's degree from Purdue in 1972, he entered active duty with the Air Force and was assigned to the Ramjet Engine Division of Air Force Aero-Propulsion Laboratory at Wright-Patterson Air Force Base, Ohio.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(entered/VBD-13,receiving/VBG-2)
+				poss(master/NN-4,his/PRP$-3)
+				poss(degree/NN-6,master/NN-4)
+				dobj(receiving/VBG-2,degree/NN-6)
+				prep_from(receiving/VBG-2,Purdue/NNP-8)
+				prep_in(Purdue/NNP-8,1972/CD-10)
+				nsubj(entered/VBD-13,he/PRP-12)
+				nsubjpass(assigned/VBN-22,he/PRP-12)
+				amod(duty/NN-15,active/JJ-14)
+				dobj(entered/VBD-13,duty/NN-15)
+				det(Force/NNP-19,the/DT-17)
+				nn(Force/NNP-19,Air/NNP-18)
+				prep_with(entered/VBD-13,Force/NNP-19)
+				auxpass(assigned/VBN-22,was/VBD-21)
+				conj_and(entered/VBD-13,assigned/VBN-22)
+				det(Division/NNP-27,the/DT-24)
+				nn(Division/NNP-27,Ramjet/NNP-25)
+				nn(Division/NNP-27,Engine/NNP-26)
+				prep_to(assigned/VBN-22,Division/NNP-27)
+				nn(Laboratory/NNP-32,Air/NNP-29)
+				nn(Laboratory/NNP-32,Force/NNP-30)
+				nn(Laboratory/NNP-32,Aero-Propulsion/NNP-31)
+				prep_of(Division/NNP-27,Laboratory/NNP-32)
+				nn(Base/NNP-37,Wright-Patterson/NNP-34)
+				nn(Base/NNP-37,Air/NNP-35)
+				nn(Base/NNP-37,Force/NNP-36)
+				prep_at(assigned/VBN-22,Base/NNP-37)
+				appos(Base/NNP-37,Ohio/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He conducted computer-aided design studies on ramjet propulsion systems, served as the project engineer for captive tests of a supersonic ramjet missile using a rocket sled track, and as the project manager for preliminary configuration development of the ASALM strategic air-launched missile.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(conducted/VBD-2,He/PRP-1)
+				ccomp(served/VBD-11,conducted/VBD-2)
+				amod(studies/NNS-5,computer-aided/JJ-3)
+				nn(studies/NNS-5,design/NN-4)
+				dobj(conducted/VBD-2,studies/NNS-5)
+				nn(systems/NNS-9,ramjet/NN-7)
+				nn(systems/NNS-9,propulsion/NN-8)
+				prep_on(conducted/VBD-2,systems/NNS-9)
+				det(engineer/NN-15,the/DT-13)
+				nn(engineer/NN-15,project/NN-14)
+				prep_as(served/VBD-11,engineer/NN-15)
+				nn(tests/NNS-18,captive/NN-17)
+				prep_for(served/VBD-11,tests/NNS-18)
+				det(missile/NN-23,a/DT-20)
+				amod(missile/NN-23,supersonic/JJ-21)
+				nn(missile/NN-23,ramjet/NN-22)
+				prep_of(tests/NNS-18,missile/NN-23)
+				ccomp(served/VBD-11,using/VBG-24)
+				det(track/NN-28,a/DT-25)
+				nn(track/NN-28,rocket/NN-26)
+				nn(track/NN-28,sled/NN-27)
+				dobj(using/VBG-24,track/NN-28)
+				ccomp(served/VBD-11,as/IN-31)
+				conj_and(using/VBG-24,as/IN-31)
+				det(manager/NN-34,the/DT-32)
+				nn(manager/NN-34,project/NN-33)
+				pobj(as/IN-31,manager/NN-34)
+				amod(configuration/NN-37,preliminary/JJ-36)
+				prep_for(as/IN-31,configuration/NN-37)
+				nsubj(served/VBD-11,development/NN-38)
+				det(missile/NN-44,the/DT-40)
+				nn(missile/NN-44,ASALM/NNP-41)
+				amod(missile/NN-44,strategic/JJ-42)
+				amod(missile/NN-44,air-launched/JJ-43)
+				prep_of(development/NN-38,missile/NN-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From June 1974 to July 1975, he was the Laboratory Executive Officer and Chief of the Management Operations Office.	</value>
+
+		<annotated-sentence>	From June [[1974|Rudebox]] to [[July 1975|July_1975]], he was the [[Laboratory|Laboratory]] [[Executive Officer|Executive_officer]] and Chief of the [[Management|Management]] Operations [[Office|Office]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From June 1974 to July 1975, he was the Laboratory Executive Officer and Chief of the Management Operations Office.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Officer/NNP-13,June/NNP-2)
+				num(June/NNP-2,1974/CD-3)
+				prep_to(June/NNP-2,July/NNP-5)
+				num(July/NNP-5,1975/CD-6)
+				nsubj(Officer/NNP-13,he/PRP-8)
+				cop(Officer/NNP-13,was/VBD-9)
+				det(Officer/NNP-13,the/DT-10)
+				nn(Officer/NNP-13,Laboratory/NNP-11)
+				nn(Officer/NNP-13,Executive/NNP-12)
+				conj_and(Officer/NNP-13,Chief/NNP-15)
+				det(Office/NNP-20,the/DT-17)
+				nn(Office/NNP-20,Management/NNP-18)
+				nn(Office/NNP-20,Operations/NNP-19)
+				prep_of(Officer/NNP-13,Office/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Executive Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Executive_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross graduated from the USAF Test Pilot School’s Flight Test Engineer Course in 1976 and was subsequently assigned to the 6510th Test Wing at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Ross/NNP-1)
+				nsubjpass(assigned/VBN-19,Ross/NNP-1)
+				det(School/NNP-8,the/DT-4)
+				nn(School/NNP-8,USAF/NNP-5)
+				nn(School/NNP-8,Test/NNP-6)
+				nn(School/NNP-8,Pilot/NN-7)
+				poss(Course/NNP-13,School/NNP-8)
+				nn(Course/NNP-13,Flight/NNP-10)
+				nn(Course/NNP-13,Test/NNP-11)
+				nn(Course/NNP-13,Engineer/NNP-12)
+				prep_from(graduated/VBD-2,Course/NNP-13)
+				prep_in(graduated/VBD-2,1976/CD-15)
+				auxpass(assigned/VBN-19,was/VBD-17)
+				advmod(assigned/VBN-19,subsequently/RB-18)
+				conj_and(graduated/VBD-2,assigned/VBN-19)
+				det(Wing/NN-24,the/DT-21)
+				amod(Wing/NN-24,6510th/JJ-22)
+				nn(Wing/NN-24,Test/NN-23)
+				prep_to(assigned/VBN-19,Wing/NN-24)
+				nn(Base/NNP-29,Edwards/NNP-26)
+				nn(Base/NNP-29,Air/NNP-27)
+				nn(Base/NNP-29,Force/NNP-28)
+				prep_at(Wing/NN-24,Base/NNP-29)
+				appos(Base/NNP-29,California/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While on assignment to the 6510th’s Flight Test Engineering Directorate, he was project engineer on a limited flying qualities evaluation of the RC-135S aircraft and, as lead B-1 flying qualities flight test engineer, was responsible for the stability and control and flight control system testing performed on the B-1 aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(on/IN-2,While/IN-1)
+				advcl(engineer/NN-16,on/IN-2)
+				pobj(on/IN-2,assignment/NN-3)
+				det(6510th/NN-6,the/DT-5)
+				poss(Directorate/NNP-11,6510th/NN-6)
+				nn(Directorate/NNP-11,Flight/NNP-8)
+				nn(Directorate/NNP-11,Test/NNP-9)
+				nn(Directorate/NNP-11,Engineering/NNP-10)
+				prep_to(assignment/NN-3,Directorate/NNP-11)
+				nsubj(engineer/NN-16,he/PRP-13)
+				cop(engineer/NN-16,was/VBD-14)
+				nn(engineer/NN-16,project/NN-15)
+				ccomp(responsible/JJ-39,engineer/NN-16)
+				det(limited/JJ-19,a/DT-18)
+				prep_on(engineer/NN-16,limited/JJ-19)
+				partmod(limited/JJ-19,flying/VBG-20)
+				nn(evaluation/NN-22,qualities/NNS-21)
+				dobj(flying/VBG-20,evaluation/NN-22)
+				det(aircraft/NN-26,the/DT-24)
+				nn(aircraft/NN-26,RC-135S/NN-25)
+				prep_of(evaluation/NN-22,aircraft/NN-26)
+				cc(flying/VBG-20,and/CC-27)
+				nn(B-1/NN-31,lead/NN-30)
+				prep_as(engineer/NN-16,B-1/NN-31)
+				partmod(B-1/NN-31,flying/VBG-32)
+				dobj(flying/VBG-32,qualities/NNS-33)
+				nn(engineer/NN-36,flight/NN-34)
+				nn(engineer/NN-36,test/NN-35)
+				dep(qualities/NNS-33,engineer/NN-36)
+				cop(responsible/JJ-39,was/VBD-38)
+				det(stability/NN-42,the/DT-41)
+				prep_for(responsible/JJ-39,stability/NN-42)
+				prep_for(responsible/JJ-39,control/NN-44)
+				conj_and(stability/NN-42,control/NN-44)
+				prep_for(responsible/JJ-39,flight/NN-46)
+				conj_and(stability/NN-42,flight/NN-46)
+				nn(testing/NN-49,control/NN-47)
+				nn(testing/NN-49,system/NN-48)
+				nsubj(responsible/JJ-39,testing/NN-49)
+				partmod(testing/NN-49,performed/VBN-50)
+				det(aircraft/NN-54,the/DT-52)
+				nn(aircraft/NN-54,B-1/NN-53)
+				prep_on(performed/VBN-50,aircraft/NN-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also responsible, as chief B-1 flight test engineer, for training and supervising all Air Force B-1 flight test engineer crewmembers and for performing the mission planning for the B-1 offensive avionics test aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-4,He/PRP-1)
+				nsubj(responsible/JJ-4,He/PRP-1)
+				cop(responsible/JJ-4,was/VBD-2)
+				advmod(responsible/JJ-4,also/RB-3)
+				conj_and(responsible/JJ-4,responsible/JJ-4)
+				amod(engineer/NN-11,chief/JJ-7)
+				nn(engineer/NN-11,B-1/NN-8)
+				nn(engineer/NN-11,flight/NN-9)
+				nn(engineer/NN-11,test/NN-10)
+				prep_as(responsible/JJ-4,engineer/NN-11)
+				prep(engineer/NN-11,for/IN-13)
+				pobj(for/IN-13,training/NN-14)
+				prep(engineer/NN-11,supervising/VBG-16)
+				conj_and(for/IN-13,supervising/VBG-16)
+				det(crewmembers/NNS-24,all/DT-17)
+				nn(crewmembers/NNS-24,Air/NNP-18)
+				nn(crewmembers/NNS-24,Force/NNP-19)
+				nn(crewmembers/NNS-24,B-1/NN-20)
+				nn(crewmembers/NNS-24,flight/NN-21)
+				nn(crewmembers/NNS-24,test/NN-22)
+				nn(crewmembers/NNS-24,engineer/NN-23)
+				dobj(supervising/VBG-16,crewmembers/NNS-24)
+				prepc_for(responsible/JJ-4,performing/VBG-27)
+				det(planning/NN-30,the/DT-28)
+				nn(planning/NN-30,mission/NN-29)
+				dobj(performing/VBG-27,planning/NN-30)
+				det(aircraft/NN-37,the/DT-32)
+				npadvmod(offensive/JJ-34,B-1/NN-33)
+				amod(aircraft/NN-37,offensive/JJ-34)
+				nn(aircraft/NN-37,avionics/NNS-35)
+				nn(aircraft/NN-37,test/NN-36)
+				prep_for(performing/VBG-27,aircraft/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross has flown in 21 different types of aircraft, holds a private pilot's license, and has logged over 3,900 flying hours, the majority in military aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,Ross/NNP-1)
+				nsubj(holds/VBZ-11,Ross/NNP-1)
+				nsubj(logged/VBN-20,Ross/NNP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(types/NNS-7,21/CD-5)
+				amod(types/NNS-7,different/JJ-6)
+				prep_in(flown/VBN-3,types/NNS-7)
+				prep_of(types/NNS-7,aircraft/NN-9)
+				conj_and(flown/VBN-3,holds/VBZ-11)
+				det(pilot/NN-14,a/DT-12)
+				amod(pilot/NN-14,private/JJ-13)
+				poss(license/NN-16,pilot/NN-14)
+				dobj(holds/VBZ-11,license/NN-16)
+				aux(logged/VBN-20,has/VBZ-19)
+				conj_and(flown/VBN-3,logged/VBN-20)
+				num(hours/NNS-24,3,900/CD-22)
+				amod(hours/NNS-24,flying/VBG-23)
+				prep_over(logged/VBN-20,hours/NNS-24)
+				det(majority/NN-27,the/DT-26)
+				appos(hours/NNS-24,majority/NN-27)
+				amod(aircraft/NN-30,military/JJ-29)
+				prep_in(majority/NN-27,aircraft/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from the Air Force on March 31, 2000.	</value>
+
+		<annotated-sentence>	He retired from [[the Air Force|Air_force]] on March 31, 2000.	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from the Air Force on March 31, 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_from(retired/VBD-2,Force/NNP-6)
+				prep_on(retired/VBD-2,March/NNP-8)
+				num(March/NNP-8,31/CD-9)
+				num(March/NNP-8,2000/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 1979, Ross was assigned to the Payload Operations Division at the Lyndon B. Johnson Space Center as a payload officer/flight controller, responsible for the flight operations integration of payloads into the Space Shuttle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-7,February/NNP-2)
+				num(February/NNP-2,1979/CD-3)
+				nsubjpass(assigned/VBN-7,Ross/NNP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				det(Division/NNP-12,the/DT-9)
+				nn(Division/NNP-12,Payload/NNP-10)
+				nn(Division/NNP-12,Operations/NNP-11)
+				prep_to(assigned/VBN-7,Division/NNP-12)
+				det(Center/NNP-19,the/DT-14)
+				nn(Center/NNP-19,Lyndon/NNP-15)
+				nn(Center/NNP-19,B./NNP-16)
+				nn(Center/NNP-19,Johnson/NNP-17)
+				nn(Center/NNP-19,Space/NNP-18)
+				prep_at(assigned/VBN-7,Center/NNP-19)
+				det(controller/NN-24,a/DT-21)
+				nn(controller/NN-24,payload/NN-22)
+				amod(controller/NN-24,officer/flight/JJ-23)
+				prep_as(assigned/VBN-7,controller/NN-24)
+				amod(Shuttle/NNP-37,responsible/JJ-26)
+				det(integration/NN-31,the/DT-28)
+				nn(integration/NN-31,flight/NN-29)
+				nn(integration/NN-31,operations/NNS-30)
+				prep_for(responsible/JJ-26,integration/NN-31)
+				prep_of(integration/NN-31,payloads/NNS-33)
+				det(Space/NN-36,the/DT-35)
+				prep_into(responsible/JJ-26,Space/NN-36)
+				appos(controller/NN-24,Shuttle/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross was selected as an astronaut in May 1980.	</value>
+
+		<annotated-sentence>	Ross was selected as [[an astronaut|Astronaut]] in [[May 1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross was selected as [[an astronaut|Astronaut]] in May 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Ross/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(selected/VBN-3,astronaut/NN-6)
+				prep_in(astronaut/NN-6,May/NNP-8)
+				num(May/NNP-8,1980/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments since then have included: EVA, or "space walks", RMS (Remote Manipulator System, or "robotic arm"), and chase team; support crewman for STS 41-B, STS 41-C and STS 51-A; spacecraft communicator (CAPCOM) during STS 41-B, STS 41-C, STS 41-D, STS 51-A and STS 51-D; Chief of the Mission Support Branch; member of the 1990 Astronaut Selection Board; Acting Deputy Chief of the Astronaut Office, Chief of the Astronaut Office EVA and Robotics Branch, and Astronaut Office Branch Chief for Kennedy Space Center Operations Support.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBN-7,assignments/NNS-3)
+				nsubj(chase/VB-31,assignments/NNS-3)
+				prep(assignments/NNS-3,since/IN-4)
+				pobj(since/IN-4,then/RB-5)
+				aux(included/VBN-7,have/VBP-6)
+				dobj(included/VBN-7,EVA/NNP-9)
+				dep(Remote/NNP-19,space/NN-13)
+				dep(space/NN-13,walks/VBZ-14)
+				nn(Remote/NNP-19,RMS/NNP-17)
+				dobj(included/VBN-7,Remote/NNP-19)
+				conj_or(EVA/NNP-9,Remote/NNP-19)
+				nn(System/NNP-21,Manipulator/NNP-20)
+				dep(Remote/NNP-19,System/NNP-21)
+				cc(arm/NN-26,or/CC-23)
+				amod(arm/NN-26,robotic/JJ-25)
+				dep(System/NNP-21,arm/NN-26)
+				conj_and(included/VBN-7,chase/VB-31)
+				dobj(chase/VB-31,team/NN-32)
+				nn(crewman/NN-35,support/NN-34)
+				dep(team/NN-32,crewman/NN-35)
+				nn(41-B/NN-38,STS/NN-37)
+				prep_for(crewman/NN-35,41-B/NN-38)
+				nn(41-C/NN-41,STS/NN-40)
+				dobj(chase/VB-31,41-C/NN-41)
+				conj_and(team/NN-32,41-C/NN-41)
+				nn(51-A/NN-44,STS/NN-43)
+				conj_and(team/NN-32,51-A/NN-44)
+				conj_and(41-C/NN-41,51-A/NN-44)
+				nn(communicator/NN-47,spacecraft/NN-46)
+				dep(41-C/NN-41,communicator/NN-47)
+				appos(communicator/NN-47,CAPCOM/NN-49)
+				nn(41-B/NN-53,STS/NN-52)
+				prep_during(communicator/NN-47,41-B/NN-53)
+				nn(41-C/NN-56,STS/NN-55)
+				prep_during(communicator/NN-47,41-C/NN-56)
+				conj_and(41-B/NN-53,41-C/NN-56)
+				nn(41-D/NN-59,STS/NN-58)
+				prep_during(communicator/NN-47,41-D/NN-59)
+				conj_and(41-B/NN-53,41-D/NN-59)
+				nn(51-A/NN-62,STS/NN-61)
+				prep_during(communicator/NN-47,51-A/NN-62)
+				conj_and(41-B/NN-53,51-A/NN-62)
+				nn(51-D/NN-65,STS/NN-64)
+				prep_during(communicator/NN-47,51-D/NN-65)
+				conj_and(41-B/NN-53,51-D/NN-65)
+				dep(41-C/NN-41,Chief/NNP-67)
+				det(Branch/NNP-72,the/DT-69)
+				nn(Branch/NNP-72,Mission/NNP-70)
+				nn(Branch/NNP-72,Support/NN-71)
+				prep_of(Chief/NNP-67,Branch/NNP-72)
+				dep(41-C/NN-41,member/NN-74)
+				det(Board/NNP-80,the/DT-76)
+				num(Board/NNP-80,1990/CD-77)
+				nn(Board/NNP-80,Astronaut/NNP-78)
+				nn(Board/NNP-80,Selection/NN-79)
+				prep_of(member/NN-74,Board/NNP-80)
+				nn(Chief/NNP-84,Acting/NNP-82)
+				nn(Chief/NNP-84,Deputy/NNP-83)
+				dep(41-C/NN-41,Chief/NNP-84)
+				det(Office/NNP-88,the/DT-86)
+				nn(Office/NNP-88,Astronaut/NNP-87)
+				prep_of(Chief/NNP-84,Office/NNP-88)
+				dobj(chase/VB-31,Chief/NNP-90)
+				conj_and(team/NN-32,Chief/NNP-90)
+				det(EVA/NNP-95,the/DT-92)
+				nn(EVA/NNP-95,Astronaut/NNP-93)
+				nn(EVA/NNP-95,Office/NNP-94)
+				prep_of(Chief/NNP-90,EVA/NNP-95)
+				nn(Branch/NNP-98,Robotics/NNP-97)
+				prep_of(Chief/NNP-90,Branch/NNP-98)
+				conj_and(EVA/NNP-95,Branch/NNP-98)
+				nn(Chief/NNP-104,Astronaut/NNP-101)
+				nn(Chief/NNP-104,Office/NNP-102)
+				nn(Chief/NNP-104,Branch/NNP-103)
+				dobj(chase/VB-31,Chief/NNP-104)
+				conj_and(team/NN-32,Chief/NNP-104)
+				nn(Support/NN-110,Kennedy/NNP-106)
+				nn(Support/NN-110,Space/NNP-107)
+				nn(Support/NN-110,Center/NNP-108)
+				nn(Support/NN-110,Operations/NNP-109)
+				prep_for(Chief/NNP-104,Support/NN-110)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross was assigned to STS-62-A, the first Shuttle mission to launch from Vandenberg Air Force Base, but the mission was canceled after the Space Shuttle Challenger disaster.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,Ross/NNP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				prep_to(assigned/VBN-3,STS-62-A/NN-5)
+				det(mission/NN-10,the/DT-7)
+				amod(mission/NN-10,first/JJ-8)
+				nn(mission/NN-10,Shuttle/NNP-9)
+				appos(STS-62-A/NN-5,mission/NN-10)
+				aux(launch/VB-12,to/TO-11)
+				xcomp(assigned/VBN-3,launch/VB-12)
+				nn(Base/NNP-17,Vandenberg/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_from(launch/VB-12,Base/NNP-17)
+				det(mission/NN-21,the/DT-20)
+				nsubjpass(canceled/VBN-23,mission/NN-21)
+				auxpass(canceled/VBN-23,was/VBD-22)
+				conj_but(assigned/VBN-3,canceled/VBN-23)
+				det(disaster/NN-29,the/DT-25)
+				nn(disaster/NN-29,Space/NN-26)
+				nn(disaster/NN-29,Shuttle/NNP-27)
+				nn(disaster/NN-29,Challenger/NNP-28)
+				prep_after(canceled/VBN-23,disaster/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross flew as a mission specialist on STS 61-B (1985), STS-27 (1988) and STS-37 (1991), was the Payload Commander on STS-55/Spacelab-D2 (1993), and again served as a mission specialist on the second Space Shuttle to rendezvous and dock with the Russian Space Station Mir, STS-74 (1995), the first International Space Station assembly mission, STS-88 (1998) and STS-110 (2002).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Ross/NNP-1)
+				mark(Commander/NNP-27,as/IN-3)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				nsubj(Commander/NNP-27,specialist/NN-6)
+				nn(61-B/NN-9,STS/NN-8)
+				prep_on(specialist/NN-6,61-B/NN-9)
+				appos(61-B/NN-9,1985/CD-11)
+				prep_on(specialist/NN-6,STS-27/NN-14)
+				conj_and(61-B/NN-9,STS-27/NN-14)
+				appos(STS-27/NN-14,1988/CD-16)
+				prep_on(specialist/NN-6,STS-37/NN-19)
+				conj_and(61-B/NN-9,STS-37/NN-19)
+				appos(STS-37/NN-19,1991/CD-21)
+				cop(Commander/NNP-27,was/VBD-24)
+				det(Commander/NNP-27,the/DT-25)
+				nn(Commander/NNP-27,Payload/NNP-26)
+				advcl(flew/VBD-2,Commander/NNP-27)
+				nn(Spacelab-D2/NN-31,STS-55/NN-29)
+				punct(STS-55/NN-29,//:-30)
+				prep_on(Commander/NNP-27,Spacelab-D2/NN-31)
+				appos(Spacelab-D2/NN-31,1993/CD-33)
+				advmod(served/VBD-38,again/RB-37)
+				conj_and(flew/VBD-2,served/VBD-38)
+				det(specialist/NN-42,a/DT-40)
+				nn(specialist/NN-42,mission/NN-41)
+				prep_as(served/VBD-38,specialist/NN-42)
+				det(Shuttle/NNP-47,the/DT-44)
+				amod(Shuttle/NNP-47,second/JJ-45)
+				nn(Shuttle/NNP-47,Space/NN-46)
+				prep_on(specialist/NN-42,Shuttle/NNP-47)
+				prep_to(served/VBD-38,rendezvous/NN-49)
+				prep_to(served/VBD-38,dock/NN-51)
+				conj_and(rendezvous/NN-49,dock/NN-51)
+				det(Space/NN-55,the/DT-53)
+				amod(Space/NN-55,Russian/JJ-54)
+				prep_with(served/VBD-38,Space/NN-55)
+				nn(Mir/NNS-57,Station/NNP-56)
+				nsubj(served/VBD-38,Mir/NNS-57)
+				appos(Mir/NNS-57,STS-74/NN-59)
+				appos(STS-74/NN-59,1995/CD-61)
+				det(mission/NN-70,the/DT-64)
+				amod(mission/NN-70,first/JJ-65)
+				nn(mission/NN-70,International/NNP-66)
+				nn(mission/NN-70,Space/NNP-67)
+				nn(mission/NN-70,Station/NNP-68)
+				nn(mission/NN-70,assembly/NN-69)
+				appos(Mir/NNS-57,mission/NN-70)
+				conj_and(STS-74/NN-59,mission/NN-70)
+				appos(Mir/NNS-57,STS-88/NN-72)
+				conj_and(STS-74/NN-59,STS-88/NN-72)
+				appos(STS-88/NN-72,1998/CD-74)
+				appos(Mir/NNS-57,STS-110/NN-77)
+				conj_and(STS-74/NN-59,STS-110/NN-77)
+				appos(STS-110/NN-77,2002/CD-79)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of seven space flights, Ross has over 1,393 hours in space, including 58 hours and 18 minutes on nine EVAs.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of seven [[space|Space]] [[flights|Flight]], Ross has over 1,393 [[hours|Hour]] in [[space|Space]], including 58 [[hours|Hour]] and [[18 minutes|18_Minutes]] on nine EVAs.	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of seven space flights, Ross has over 1,393 hours in space, including 58 hours and 18 minutes on nine EVAs.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(has/VBZ-9,veteran/NN-2)
+				num(flights/NNS-6,seven/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				appos(flights/NNS-6,Ross/NNP-8)
+				amod(hours/NNS-12,over/IN-10)
+				num(hours/NNS-12,1,393/CD-11)
+				dobj(has/VBZ-9,hours/NNS-12)
+				prep_in(hours/NNS-12,space/NN-14)
+				num(hours/NNS-18,58/CD-17)
+				prep_including(hours/NNS-12,hours/NNS-18)
+				num(minutes/NNS-21,18/CD-20)
+				prep_including(hours/NNS-12,minutes/NNS-21)
+				conj_and(hours/NNS-18,minutes/NNS-21)
+				num(EVAs/NNS-24,nine/CD-23)
+				prep_on(minutes/NNS-21,EVAs/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>18 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/18_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There is speculation that on STS-27 (1988) he may have made an additional EVA, however as this shuttle mission was a classified DoD satellite launch, this is still unknown.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				expl(is/VBZ-2,There/EX-1)
+				ccomp(is/VBZ-31,is/VBZ-2)
+				nsubj(is/VBZ-2,speculation/NN-3)
+				mark(made/VBN-13,that/IN-4)
+				prep_on(made/VBN-13,STS-27/NN-6)
+				appos(STS-27/NN-6,1988/CD-8)
+				nsubj(made/VBN-13,he/PRP-10)
+				aux(made/VBN-13,may/MD-11)
+				aux(made/VBN-13,have/VB-12)
+				ccomp(is/VBZ-2,made/VBN-13)
+				det(EVA/NNP-16,an/DT-14)
+				amod(EVA/NNP-16,additional/JJ-15)
+				dobj(made/VBN-13,EVA/NNP-16)
+				advmod(made/VBN-13,however/RB-18)
+				mark(launch/NN-28,as/IN-19)
+				det(mission/NN-22,this/DT-20)
+				nn(mission/NN-22,shuttle/NN-21)
+				nsubj(launch/NN-28,mission/NN-22)
+				dep(launch/NN-28,was/VBD-23)
+				det(launch/NN-28,a/DT-24)
+				amod(launch/NN-28,classified/VBN-25)
+				nn(launch/NN-28,DoD/NN-26)
+				nn(launch/NN-28,satellite/NN-27)
+				advcl(made/VBN-13,launch/NN-28)
+				nsubj(is/VBZ-31,this/DT-30)
+				advmod(is/VBZ-31,still/RB-32)
+				acomp(is/VBZ-31,unknown/JJ-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Among personal milestones, he became the first human to be launched into space seven times, and had held United States records for spacewalks (nine) and spacewalking time (58 hours and 18 minutes) until he was surpassed by the current record holder, ISS Expedition 14 commander Michael Lopez-Alegria (ten EVA's totaling 67 hours and 40 minutes).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(milestones/NNS-3,personal/JJ-2)
+				prep_among(human/JJ-9,milestones/NNS-3)
+				nsubj(human/JJ-9,he/PRP-5)
+				nsubj(held/VBN-20,he/PRP-5)
+				cop(human/JJ-9,became/VBD-6)
+				det(human/JJ-9,the/DT-7)
+				amod(human/JJ-9,first/JJ-8)
+				aux(launched/VBN-12,to/TO-10)
+				auxpass(launched/VBN-12,be/VB-11)
+				xcomp(human/JJ-9,launched/VBN-12)
+				prep_into(launched/VBN-12,space/NN-14)
+				num(times/NNS-16,seven/CD-15)
+				tmod(launched/VBN-12,times/NNS-16)
+				aux(held/VBN-20,had/VBD-19)
+				conj_and(human/JJ-9,held/VBN-20)
+				nn(records/NNS-23,United/NNP-21)
+				nn(records/NNS-23,States/NNPS-22)
+				dobj(held/VBN-20,records/NNS-23)
+				prep_for(held/VBN-20,spacewalks/NNS-25)
+				appos(spacewalks/NNS-25,nine/CD-27)
+				amod(time/NN-31,spacewalking/JJ-30)
+				prep_for(held/VBN-20,time/NN-31)
+				conj_and(spacewalks/NNS-25,time/NN-31)
+				num(hours/NNS-34,58/CD-33)
+				dep(spacewalks/NNS-25,hours/NNS-34)
+				num(minutes/NNS-37,18/CD-36)
+				dep(spacewalks/NNS-25,minutes/NNS-37)
+				conj_and(hours/NNS-34,minutes/NNS-37)
+				mark(surpassed/VBN-42,until/IN-39)
+				nsubjpass(surpassed/VBN-42,he/PRP-40)
+				auxpass(surpassed/VBN-42,was/VBD-41)
+				advcl(held/VBN-20,surpassed/VBN-42)
+				det(holder/NN-47,the/DT-44)
+				amod(holder/NN-47,current/JJ-45)
+				nn(holder/NN-47,record/NN-46)
+				agent(surpassed/VBN-42,holder/NN-47)
+				nn(Expedition/NNP-50,ISS/NNP-49)
+				appos(holder/NN-47,Expedition/NNP-50)
+				num(commander/NN-52,14/CD-51)
+				dep(Expedition/NNP-50,commander/NN-52)
+				nn(Lopez-Alegria/NNP-54,Michael/NNP-53)
+				dep(commander/NN-52,Lopez-Alegria/NNP-54)
+				dep(commander/NN-52,ten/CD-56)
+				nsubj(totaling/VBG-59,EVA/NNP-57)
+				possessive(EVA/NNP-57,'s/POS-58)
+				rcmod(ten/CD-56,totaling/VBG-59)
+				num(hours/NNS-61,67/CD-60)
+				dobj(totaling/VBG-59,hours/NNS-61)
+				dep(minutes/NNS-64,40/CD-63)
+				rcmod(ten/CD-56,minutes/NNS-64)
+				conj_and(totaling/VBG-59,minutes/NNS-64)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Speculation also exists that Ross performed an additional EVA on the classified STS-27 mission in support of the Lacrosse 1 deployment.	</value>
+
+		<annotated-sentence>	[[Speculation|Speculation]] also exists that Ross performed an additional EVA on the classified [[STS-27|STS-27]] mission in support of the [[Lacrosse 1|Lacrosse_(satellite)]] deployment.	</annotated-sentence>
+
+		<pattern_crowdsource>	Speculation also exists that Ross performed an additional EVA on the classified [[STS-27|STS-27]] mission in support of the Lacrosse 1 deployment.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(exists/VBZ-3,Speculation/NN-1)
+				advmod(exists/VBZ-3,also/RB-2)
+				mark(performed/VBD-6,that/IN-4)
+				nsubj(performed/VBD-6,Ross/NNP-5)
+				ccomp(exists/VBZ-3,performed/VBD-6)
+				det(EVA/NN-9,an/DT-7)
+				amod(EVA/NN-9,additional/JJ-8)
+				dobj(performed/VBD-6,EVA/NN-9)
+				det(mission/NN-14,the/DT-11)
+				amod(mission/NN-14,classified/VBN-12)
+				nn(mission/NN-14,STS-27/NN-13)
+				prep_on(performed/VBD-6,mission/NN-14)
+				prep_in(mission/NN-14,support/NN-16)
+				det(deployment/NN-21,the/DT-18)
+				nn(deployment/NN-21,Lacrosse/NNP-19)
+				num(deployment/NN-21,1/CD-20)
+				prep_of(support/NN-16,deployment/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Speculation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Speculation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-27</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-27</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lacrosse 1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lacrosse_(satellite)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-27
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-27 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-27 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross served as Chief of the Vehicle Integration Test Office at the Johnson Space Center in Houston, Texas until he retired in January 2012.	</value>
+
+		<annotated-sentence>	Ross served as Chief of the [[Vehicle|Vehicle]] [[Integration Test|Integration_testing]] [[Office|Office]] at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in Houston, Texas until he retired in [[January 2012|January_2012]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross served as Chief of the Vehicle Integration Test Office at the Johnson Space Center in Houston, Texas until he retired in January 2012.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,Ross/NNP-1)
+				dep(Office/NNP-10,Chief/NNP-4)
+				det(Test/NN-9,the/DT-6)
+				nn(Test/NN-9,Vehicle/NNP-7)
+				nn(Test/NN-9,Integration/NN-8)
+				prep_of(Chief/NNP-4,Test/NN-9)
+				prep_as(served/VBD-2,Office/NNP-10)
+				det(Center/NNP-15,the/DT-12)
+				nn(Center/NNP-15,Johnson/NNP-13)
+				nn(Center/NNP-15,Space/NNP-14)
+				prep_at(served/VBD-2,Center/NNP-15)
+				nn(Texas/NNP-19,Houston/NNP-17)
+				prep_in(Center/NNP-15,Texas/NNP-19)
+				mark(retired/VBD-22,until/IN-20)
+				nsubj(retired/VBD-22,he/PRP-21)
+				advcl(served/VBD-2,retired/VBD-22)
+				prep_in(retired/VBD-22,January/NNP-24)
+				num(January/NNP-24,2012/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Integration Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Integration_testing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2012</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross retired from NASA on January 28, 2012 after being the first person in history to launch into space seven times.	</value>
+
+		<annotated-sentence>	Ross retired from [[NASA|NASA]] on [[January|January]] 28, 2012 after being [[the first person|Person]] in [[history|History]] to launch into [[space|NASA]] seven times.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross retired from [[NASA|NASA]] on January 28, 2012 after being [[the first person|Person]] in history to launch into [[space|NASA]] seven times.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Ross/NNP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				prep_on(retired/VBD-2,January/NNP-6)
+				num(January/NNP-6,28/CD-7)
+				num(January/NNP-6,2012/CD-9)
+				cop(person/NN-14,being/VBG-11)
+				det(person/NN-14,the/DT-12)
+				amod(person/NN-14,first/JJ-13)
+				prepc_after(retired/VBD-2,person/NN-14)
+				prep_in(person/NN-14,history/NN-16)
+				aux(launch/VB-18,to/TO-17)
+				infmod(history/NN-16,launch/VB-18)
+				prep_into(launch/VB-18,space/NN-20)
+				num(times/NNS-22,seven/CD-21)
+				tmod(history/NN-16,times/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/History</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also leaves NASA after placing third in the most spacewalks after completing nine EVA's.	</value>
+
+		<annotated-sentence>	He also leaves [[NASA|NASA]] after placing third in the most [[spacewalks|Spacewalk_(software)]] after completing nine EVA's.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also leaves [[NASA|NASA]] after placing third in the most spacewalks after completing nine EVA's.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(leaves/VBZ-3,He/PRP-1)
+				advmod(leaves/VBZ-3,also/RB-2)
+				dobj(leaves/VBZ-3,NASA/NNP-4)
+				prepc_after(leaves/VBZ-3,placing/VBG-6)
+				dobj(placing/VBG-6,third/JJ-7)
+				prep_in(third/JJ-7,the/DT-9)
+				advmod(the/DT-9,most/RBS-10)
+				dep(the/DT-9,spacewalks/NNS-11)
+				prepc_after(placing/VBG-6,completing/VBG-13)
+				num(EVA/NNP-15,nine/CD-14)
+				dobj(completing/VBG-13,EVA/NNP-15)
+				possessive(EVA/NNP-15,'s/POS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-61-B Atlantis was launched at night from the Kennedy Space Center (KSC), Florida, on November 26, 1985.	</value>
+
+		<annotated-sentence>	[[STS-61-B|STS-61-B]] [[Atlantis|Atlantis]] was launched at night from [[the Kennedy Space Center|Kennedy_Space_Center]] ([[KSC|Kennedy_Space_Center]]), [[Florida|Florida]], on [[November|November]] 26, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-61-B|STS-61-B]] Atlantis was launched at night from [[the Kennedy Space Center|Kennedy_Space_Center]] ([[KSC|Kennedy_Space_Center]]), Florida, on November 26, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-61-B/NN-1)
+				nsubjpass(launched/VBN-4,Atlantis/NNP-2)
+				auxpass(launched/VBN-4,was/VBD-3)
+				prep_at(launched/VBN-4,night/NN-6)
+				det(Center/NNP-11,the/DT-8)
+				nn(Center/NNP-11,Kennedy/NNP-9)
+				nn(Center/NNP-11,Space/NNP-10)
+				prep_from(night/NN-6,Center/NNP-11)
+				appos(night/NN-6,KSC/NNP-13)
+				appos(night/NN-6,Florida/NNP-16)
+				prep_on(launched/VBN-4,November/NNP-19)
+				num(November/NNP-19,26/CD-20)
+				num(November/NNP-19,1985/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-61-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission the crew deployed the MORELOS-B, AUSSAT-2, and SATCOM Ku-2 communications satellites, and operated numerous other experiments.	</value>
+
+		<annotated-sentence>	During the mission the crew deployed [[the MORELOS-B|Morelos_Satellite_System]], [[AUSSAT-2|Optus_(satellite)]], and [[SATCOM|Communications_satellite]] [[Ku-2|Kayaba_Ku-2]] [[communications satellites|Communications_satellite]], and operated numerous other [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission the crew deployed the MORELOS-B, AUSSAT-2, and SATCOM Ku-2 communications satellites, and operated numerous other experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(deployed/VBD-6,mission/NN-3)
+				det(crew/NN-5,the/DT-4)
+				nsubj(deployed/VBD-6,crew/NN-5)
+				nsubj(operated/VBD-19,crew/NN-5)
+				det(MORELOS-B/NN-8,the/DT-7)
+				dobj(deployed/VBD-6,MORELOS-B/NN-8)
+				dobj(deployed/VBD-6,AUSSAT-2/NN-10)
+				conj_and(MORELOS-B/NN-8,AUSSAT-2/NN-10)
+				nn(satellites/NNS-16,SATCOM/NNP-13)
+				nn(satellites/NNS-16,Ku-2/NNP-14)
+				nn(satellites/NNS-16,communications/NNS-15)
+				dobj(deployed/VBD-6,satellites/NNS-16)
+				conj_and(MORELOS-B/NN-8,satellites/NNS-16)
+				conj_and(deployed/VBD-6,operated/VBD-19)
+				amod(experiments/NNS-22,numerous/JJ-20)
+				amod(experiments/NNS-22,other/JJ-21)
+				dobj(operated/VBD-19,experiments/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the MORELOS-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Morelos_Satellite_System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>AUSSAT-2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Optus_(satellite)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SATCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ku-2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kayaba_Ku-2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communications satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross conducted two six-hour space walks to demonstrate Space Station construction techniques with the EASE/ACCESS experiments.	</value>
+
+		<annotated-sentence>	Ross conducted two six-hour [[space|Space]] walks to demonstrate [[Space|Space]] [[Station|Station]] [[construction|Construction]] techniques with the [[EASE/ACCESS|ACCESS]] [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross conducted two six-hour space walks to demonstrate Space Station construction techniques with the EASE/ACCESS experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(conducted/VBD-2,Ross/NNP-1)
+				num(space/NN-5,two/CD-3)
+				amod(space/NN-5,six-hour/JJ-4)
+				nsubj(walks/VBZ-6,space/NN-5)
+				ccomp(conducted/VBD-2,walks/VBZ-6)
+				aux(demonstrate/VB-8,to/TO-7)
+				xcomp(walks/VBZ-6,demonstrate/VB-8)
+				dobj(demonstrate/VB-8,Space/NN-9)
+				nn(techniques/NNS-12,Station/NNP-10)
+				nn(techniques/NNS-12,construction/NN-11)
+				dep(demonstrate/VB-8,techniques/NNS-12)
+				det(experiments/NNS-16,the/DT-14)
+				nn(experiments/NNS-16,EASE/ACCESS/NN-15)
+				prep_with(demonstrate/VB-8,experiments/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>construction</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Construction</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EASE/ACCESS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/EASE/ACCESS</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing 108 orbits of the Earth in 165 hours, 4 minutes, 49 seconds, Atlantis landed on Runway 22 at Edwards Air Force Base, California, on December 3, 1985.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(landed/VBD-19,completing/VBG-2)
+				num(orbits/NNS-4,108/CD-3)
+				dobj(completing/VBG-2,orbits/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_of(orbits/NNS-4,Earth/NNP-7)
+				num(hours/NNS-10,165/CD-9)
+				prep_in(completing/VBG-2,hours/NNS-10)
+				num(minutes/NNS-13,4/CD-12)
+				appos(hours/NNS-10,minutes/NNS-13)
+				num(seconds/NNS-16,49/CD-15)
+				appos(minutes/NNS-13,seconds/NNS-16)
+				nsubj(landed/VBD-19,Atlantis/NNP-18)
+				prep_on(landed/VBD-19,Runway/NN-21)
+				num(Runway/NN-21,22/CD-22)
+				nn(Base/NNP-27,Edwards/NNP-24)
+				nn(Base/NNP-27,Air/NNP-25)
+				nn(Base/NNP-27,Force/NNP-26)
+				prep_at(landed/VBD-19,Base/NNP-27)
+				appos(Base/NNP-27,California/NNP-29)
+				prep_on(landed/VBD-19,December/NNP-32)
+				num(December/NNP-32,3/CD-33)
+				num(December/NNP-32,1985/CD-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-27 Atlantis, was launched from KSC on December 2, 1988.	</value>
+
+		<annotated-sentence>	[[STS-27|STS-27]] [[Atlantis|Atlantis]], was launched from KSC on December 2, 1988.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-27|STS-27]] Atlantis, was launched from KSC on December 2, 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-5,STS-27/NN-1)
+				appos(STS-27/NN-1,Atlantis/NNP-2)
+				auxpass(launched/VBN-5,was/VBD-4)
+				prep_from(launched/VBN-5,KSC/NN-7)
+				prep_on(KSC/NN-7,December/NNP-9)
+				num(December/NNP-9,2/CD-10)
+				num(December/NNP-9,1988/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-27</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-27</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-27
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-27 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-27 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission carried a Department of Defense payload, as well as a number of secondary payloads.	</value>
+
+		<annotated-sentence>	The mission carried a Department of Defense payload, as well as a number of secondary payloads.	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission carried a Department of Defense payload, as well as a number of secondary payloads.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(carried/VBD-3,mission/NN-2)
+				det(Department/NNP-5,a/DT-4)
+				dobj(carried/VBD-3,Department/NNP-5)
+				nn(payload/NN-8,Defense/NNP-7)
+				prep_of(Department/NNP-5,payload/NN-8)
+				det(number/NN-14,a/DT-13)
+				dobj(carried/VBD-3,number/NN-14)
+				conj_and(Department/NNP-5,number/NN-14)
+				amod(payloads/NNS-17,secondary/JJ-16)
+				prep_of(number/NN-14,payloads/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 68 orbits of the earth in 105 hours, 6 minutes, 19 seconds, the mission concluded with a dry lakebed landing on Runway 17 at Edwards Air Force Base, California, on December 6, 1988.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,68/CD-2)
+				prep_after(concluded/VBD-19,orbits/NNS-3)
+				det(earth/NN-6,the/DT-5)
+				prep_of(orbits/NNS-3,earth/NN-6)
+				num(hours/NNS-9,105/CD-8)
+				prep_in(earth/NN-6,hours/NNS-9)
+				num(minutes/NNS-12,6/CD-11)
+				appos(hours/NNS-9,minutes/NNS-12)
+				num(seconds/NNS-15,19/CD-14)
+				appos(minutes/NNS-12,seconds/NNS-15)
+				det(mission/NN-18,the/DT-17)
+				nsubj(concluded/VBD-19,mission/NN-18)
+				det(landing/NN-24,a/DT-21)
+				amod(landing/NN-24,dry/JJ-22)
+				amod(landing/NN-24,lakebed/JJ-23)
+				prep_with(concluded/VBD-19,landing/NN-24)
+				prep_on(landing/NN-24,Runway/NN-26)
+				num(Runway/NN-26,17/CD-27)
+				nn(Base/NNP-32,Edwards/NNP-29)
+				nn(Base/NNP-32,Air/NNP-30)
+				nn(Base/NNP-32,Force/NNP-31)
+				prep_at(concluded/VBD-19,Base/NNP-32)
+				appos(Base/NNP-32,California/NNP-34)
+				prep_on(concluded/VBD-19,December/NNP-37)
+				num(December/NNP-37,6/CD-38)
+				num(December/NNP-37,1988/CD-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission is noteworthy due to the severe damage Atlantis sustained to its critical heat-resistant tiles during ascent.	</value>
+
+		<annotated-sentence>	The mission is noteworthy due to the severe damage [[Atlantis|Atlantis]] sustained to its critical heat-resistant [[tiles|Tile]] during ascent.	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission is noteworthy due to the severe damage Atlantis sustained to its critical heat-resistant tiles during ascent.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(noteworthy/JJ-4,mission/NN-2)
+				cop(noteworthy/JJ-4,is/VBZ-3)
+				det(damage/NN-9,the/DT-7)
+				amod(damage/NN-9,severe/JJ-8)
+				prep_due_to(sustained/VBD-11,damage/NN-9)
+				nsubj(sustained/VBD-11,Atlantis/NNP-10)
+				dep(noteworthy/JJ-4,sustained/VBD-11)
+				poss(tiles/NNS-16,its/PRP$-13)
+				amod(tiles/NNS-16,critical/JJ-14)
+				amod(tiles/NNS-16,heat-resistant/JJ-15)
+				prep_to(sustained/VBD-11,tiles/NNS-16)
+				prep_during(sustained/VBD-11,ascent/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tiles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-37 Atlantis, was launched from KSC on April 5, 1991, and deployed the 35,000 pound Gamma Ray Observatory.	</value>
+
+		<annotated-sentence>	[[STS-37|STS-37]] [[Atlantis|Atlantis]], was launched from [[KSC|Kennedy_Space_Center]] on April 5, 1991, and deployed the 35,000 pound [[Gamma Ray Observatory|Compton_Gamma_Ray_Observatory]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-37|STS-37]] Atlantis, was launched from [[KSC|Kennedy_Space_Center]] on April 5, 1991, and deployed the 35,000 pound [[Gamma Ray Observatory|Compton_Gamma_Ray_Observatory]].	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Atlantis/NNP-2,STS-37/JJ-1)
+				nsubjpass(launched/VBN-5,Atlantis/NNP-2)
+				nsubjpass(deployed/VBD-15,Atlantis/NNP-2)
+				auxpass(launched/VBN-5,was/VBD-4)
+				prep_from(launched/VBN-5,KSC/NN-7)
+				prep_on(KSC/NN-7,April/NNP-9)
+				num(April/NNP-9,5/CD-10)
+				num(April/NNP-9,1991/CD-12)
+				conj_and(launched/VBN-5,deployed/VBD-15)
+				det(pound/NN-18,the/DT-16)
+				num(pound/NN-18,35,000/CD-17)
+				nsubj(Observatory/NNP-21,pound/NN-18)
+				nn(Observatory/NNP-21,Gamma/NNP-19)
+				nn(Observatory/NNP-21,Ray/NNP-20)
+				xcomp(deployed/VBD-15,Observatory/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-37</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-37</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gamma Ray Observatory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Compton_Gamma_Ray_Observatory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-37
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-37 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Compton_Gamma_Ray_Observatory http://dbpedia.org/property/launchRocket http://dbpedia.org/resource/STS-37
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Compton_Gamma_Ray_Observatory http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross performed two space walks totaling 10 hours and 49 minutes to manually deploy the stuck Gamma Ray Observatory antenna and to test prototype Space Station Freedom hardware.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Ross/NNP-1)
+				num(space/NN-4,two/CD-3)
+				nsubj(walks/VBZ-5,space/NN-4)
+				ccomp(performed/VBD-2,walks/VBZ-5)
+				xcomp(walks/VBZ-5,totaling/VBG-6)
+				num(hours/NNS-8,10/CD-7)
+				nsubj(deploy/VB-14,hours/NNS-8)
+				nsubj(test/VB-23,hours/NNS-8)
+				num(minutes/NNS-11,49/CD-10)
+				conj_and(hours/NNS-8,minutes/NNS-11)
+				nsubj(deploy/VB-14,minutes/NNS-11)
+				aux(deploy/VB-14,to/TO-12)
+				advmod(deploy/VB-14,manually/RB-13)
+				ccomp(totaling/VBG-6,deploy/VB-14)
+				det(antenna/NN-20,the/DT-15)
+				amod(antenna/NN-20,stuck/JJ-16)
+				nn(antenna/NN-20,Gamma/NNP-17)
+				nn(antenna/NN-20,Ray/NNP-18)
+				nn(antenna/NN-20,Observatory/NNP-19)
+				dobj(deploy/VB-14,antenna/NN-20)
+				aux(test/VB-23,to/TO-22)
+				ccomp(totaling/VBG-6,test/VB-23)
+				conj_and(deploy/VB-14,test/VB-23)
+				nn(Freedom/NNP-27,prototype/NN-24)
+				nn(Freedom/NNP-27,Space/NN-25)
+				nn(Freedom/NNP-27,Station/NNP-26)
+				nsubj(hardware/NN-28,Freedom/NNP-27)
+				xcomp(test/VB-23,hardware/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 93 orbits of the Earth in 143 hours, 32 minutes, 44 seconds, the mission concluded with a landing on Runway 33, at Edwards Air Force Base, on April 11, 1991.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,93/CD-2)
+				prep_after(concluded/VBD-19,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				num(hours/NNS-9,143/CD-8)
+				prep_in(Earth/NNP-6,hours/NNS-9)
+				num(minutes/NNS-12,32/CD-11)
+				appos(hours/NNS-9,minutes/NNS-12)
+				num(seconds/NNS-15,44/CD-14)
+				appos(minutes/NNS-12,seconds/NNS-15)
+				det(mission/NN-18,the/DT-17)
+				nsubj(concluded/VBD-19,mission/NN-18)
+				det(landing/NN-22,a/DT-21)
+				prep_with(concluded/VBD-19,landing/NN-22)
+				prep_on(landing/NN-22,Runway/NN-24)
+				num(Runway/NN-24,33/CD-25)
+				nn(Base/NNP-31,Edwards/NNP-28)
+				nn(Base/NNP-31,Air/NNP-29)
+				nn(Base/NNP-31,Force/NNP-30)
+				prep_at(concluded/VBD-19,Base/NNP-31)
+				prep_on(concluded/VBD-19,April/NNP-34)
+				num(April/NNP-34,11/CD-35)
+				num(April/NNP-34,1991/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-55 Columbia, was launched from KSC on April 26, 1993.	</value>
+
+		<annotated-sentence>	[[STS-55|STS-55]] Columbia, was launched from KSC on April 26, 1993.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-55|STS-55]] Columbia, was launched from KSC on April 26, 1993.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-5,STS-55/NN-1)
+				appos(STS-55/NN-1,Columbia/NNP-2)
+				auxpass(launched/VBN-5,was/VBD-4)
+				prep_from(launched/VBN-5,KSC/NN-7)
+				prep_on(KSC/NN-7,April/NNP-9)
+				num(April/NNP-9,26/CD-10)
+				num(April/NNP-9,1993/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-55</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-55</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-55
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-55 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-55 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	With Ross serving as Payload Commander/Mission Specialist, nearly 90 experiments were conducted during the German-sponsored Spacelab D-2 mission to investigate life sciences, materials science, physics, robotics, astronomy, and the Earth and its atmosphere.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(serving/VBG-3,Ross/NNP-2)
+				prepc_with(conducted/VBN-13,serving/VBG-3)
+				nn(Specialist/NNP-7,Payload/NNP-5)
+				nn(Specialist/NNP-7,Commander/Mission/NNP-6)
+				prep_as(serving/VBG-3,Specialist/NNP-7)
+				quantmod(90/CD-10,nearly/RB-9)
+				num(experiments/NNS-11,90/CD-10)
+				nsubjpass(conducted/VBN-13,experiments/NNS-11)
+				auxpass(conducted/VBN-13,were/VBD-12)
+				det(mission/NN-19,the/DT-15)
+				amod(mission/NN-19,German-sponsored/JJ-16)
+				amod(mission/NN-19,Spacelab/JJ-17)
+				nn(mission/NN-19,D-2/NN-18)
+				prep_during(conducted/VBN-13,mission/NN-19)
+				aux(investigate/VB-21,to/TO-20)
+				xcomp(conducted/VBN-13,investigate/VB-21)
+				nn(sciences/NNS-23,life/NN-22)
+				dobj(investigate/VB-21,sciences/NNS-23)
+				nn(science/NN-26,materials/NNS-25)
+				dobj(investigate/VB-21,science/NN-26)
+				conj_and(sciences/NNS-23,science/NN-26)
+				dobj(investigate/VB-21,physics/NN-28)
+				conj_and(sciences/NNS-23,physics/NN-28)
+				dobj(investigate/VB-21,robotics/NNS-30)
+				conj_and(sciences/NNS-23,robotics/NNS-30)
+				dobj(investigate/VB-21,astronomy/NN-32)
+				conj_and(sciences/NNS-23,astronomy/NN-32)
+				det(Earth/NNP-36,the/DT-35)
+				dobj(investigate/VB-21,Earth/NNP-36)
+				conj_and(sciences/NNS-23,Earth/NNP-36)
+				poss(atmosphere/NN-39,its/PRP$-38)
+				conj_and(sciences/NNS-23,atmosphere/NN-39)
+				conj_and(Earth/NNP-36,atmosphere/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Columbia landed on May 6, 1993 at Edwards Air Force Base, Runway 22, after 160 orbits of the Earth in 239 hours and 45 minutes STS-74 Atlantis, launched from KSC on November 12, 1995, was NASA’s second Space Shuttle mission to rendezvous and dock with the Russian Space Station Mir.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,Columbia/NNP-1)
+				ccomp(Space/NN-45,landed/VBD-2)
+				prep_on(landed/VBD-2,May/NNP-4)
+				num(May/NNP-4,6/CD-5)
+				num(May/NNP-4,1993/CD-7)
+				nn(Base/NNP-12,Edwards/NNP-9)
+				nn(Base/NNP-12,Air/NNP-10)
+				nn(Base/NNP-12,Force/NNP-11)
+				prep_at(landed/VBD-2,Base/NNP-12)
+				appos(Base/NNP-12,Runway/NNP-14)
+				num(Runway/NNP-14,22/CD-15)
+				num(orbits/NNS-19,160/CD-18)
+				prep_after(landed/VBD-2,orbits/NNS-19)
+				det(Earth/NNP-22,the/DT-21)
+				prep_of(orbits/NNS-19,Earth/NNP-22)
+				num(hours/NNS-25,239/CD-24)
+				nn(Atlantis/NNP-30,hours/NNS-25)
+				num(minutes/NNS-28,45/CD-27)
+				npadvmod(STS-74/JJ-29,minutes/NNS-28)
+				conj_and(hours/NNS-25,STS-74/JJ-29)
+				nn(Atlantis/NNP-30,STS-74/JJ-29)
+				prep_in(Earth/NNP-22,Atlantis/NNP-30)
+				partmod(orbits/NNS-19,launched/VBN-32)
+				prep_from(launched/VBN-32,KSC/NN-34)
+				prep_on(KSC/NN-34,November/NNP-36)
+				num(November/NNP-36,12/CD-37)
+				num(November/NNP-36,1995/CD-39)
+				cop(Space/NN-45,was/VBD-41)
+				poss(Space/NN-45,NASA/NNP-42)
+				amod(Space/NN-45,second/JJ-44)
+				nn(mission/NN-47,Shuttle/NNP-46)
+				dep(Space/NN-45,mission/NN-47)
+				prep_to(mission/NN-47,rendezvous/NN-49)
+				prep_to(mission/NN-47,dock/NN-51)
+				conj_and(rendezvous/NN-49,dock/NN-51)
+				det(Space/NN-55,the/DT-53)
+				amod(Space/NN-55,Russian/JJ-54)
+				prep_with(Space/NN-45,Space/NN-55)
+				nn(Mir/NNS-57,Station/NNP-56)
+				nsubj(Space/NN-45,Mir/NNS-57)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the eight-day flight the crew aboard Space Shuttle Atlantis attached a permanent docking module to Mir, conducted a number of secondary experiments, and transferred 1 ?2 tons of supplies and experiment equipment between Atlantis and the Mir station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-4,the/DT-2)
+				amod(flight/NN-4,eight-day/JJ-3)
+				prep_during(attached/VBD-11,flight/NN-4)
+				det(crew/NN-6,the/DT-5)
+				nsubj(attached/VBD-11,crew/NN-6)
+				nsubj(conducted/VBD-19,crew/NN-6)
+				nsubj(transferred/VBD-27,crew/NN-6)
+				nn(Atlantis/NNP-10,Space/NN-8)
+				nn(Atlantis/NNP-10,Shuttle/NNP-9)
+				prep_aboard(crew/NN-6,Atlantis/NNP-10)
+				det(module/NN-15,a/DT-12)
+				amod(module/NN-15,permanent/JJ-13)
+				nn(module/NN-15,docking/NN-14)
+				dobj(attached/VBD-11,module/NN-15)
+				prep_to(attached/VBD-11,Mir/NNS-17)
+				conj_and(attached/VBD-11,conducted/VBD-19)
+				det(number/NN-21,a/DT-20)
+				dobj(conducted/VBD-19,number/NN-21)
+				amod(experiments/NNS-24,secondary/JJ-23)
+				prep_of(number/NN-21,experiments/NNS-24)
+				conj_and(attached/VBD-11,transferred/VBD-27)
+				num(tons/NNS-31,1/CD-28)
+				nn(tons/NNS-31,?/NN-29)
+				num(tons/NNS-31,2/CD-30)
+				dobj(transferred/VBD-27,tons/NNS-31)
+				prep_of(tons/NNS-31,supplies/NNS-33)
+				nn(equipment/NN-36,experiment/NN-35)
+				prep_of(tons/NNS-31,equipment/NN-36)
+				conj_and(supplies/NNS-33,equipment/NN-36)
+				prep_between(transferred/VBD-27,Atlantis/NNP-38)
+				det(station/NN-42,the/DT-40)
+				nn(station/NN-42,Mir/NNS-41)
+				prep_between(transferred/VBD-27,station/NN-42)
+				conj_and(Atlantis/NNP-38,station/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Atlantis landed at Kennedy Space Center on November 20 after accomplishing in 129 orbits of the Earth, traveling 3.4 million miles in 196 hours, 30 minutes, 44 seconds.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,Atlantis/NNP-1)
+				nn(Center/NNP-6,Kennedy/NNP-4)
+				nn(Center/NNP-6,Space/NNP-5)
+				prep_at(landed/VBD-2,Center/NNP-6)
+				prep_on(Center/NNP-6,November/NNP-8)
+				num(November/NNP-8,20/CD-9)
+				prepc_after(landed/VBD-2,accomplishing/VBG-11)
+				num(orbits/NNS-14,129/CD-13)
+				prep_in(accomplishing/VBG-11,orbits/NNS-14)
+				det(Earth/NNP-17,the/DT-16)
+				prep_of(orbits/NNS-14,Earth/NNP-17)
+				dep(accomplishing/VBG-11,traveling/VBG-19)
+				number(million/CD-21,3.4/CD-20)
+				num(miles/NNS-22,million/CD-21)
+				npadvmod(traveling/VBG-19,miles/NNS-22)
+				num(hours/NNS-25,196/CD-24)
+				prep_in(traveling/VBG-19,hours/NNS-25)
+				num(minutes/NNS-28,30/CD-27)
+				dobj(accomplishing/VBG-11,minutes/NNS-28)
+				num(seconds/NNS-31,44/CD-30)
+				appos(minutes/NNS-28,seconds/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-88 Endeavour (December 4–15, 1998) was the first International Space Station assembly mission.	</value>
+
+		<annotated-sentence>	[[STS-88|STS-88]] [[Endeavour|Endeavour]] ([[December 4|December_4]]–15, [[1998|1998]]) was the first [[International Space Station assembly|Assembly_of_the_International_Space_Station]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-88|STS-88]] Endeavour (December 4–15, 1998) was the first International Space Station assembly mission.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Endeavour/NN-2,STS-88/JJ-1)
+				nsubj(mission/NN-18,Endeavour/NN-2)
+				dep(Endeavour/NN-2,December/NNP-4)
+				num(December/NNP-4,4/CD-5)
+				dep(December/NNP-4,15/CD-7)
+				amod(15/CD-7,1998/CD-9)
+				cop(mission/NN-18,was/VBD-11)
+				det(mission/NN-18,the/DT-12)
+				amod(mission/NN-18,first/JJ-13)
+				nn(mission/NN-18,International/NNP-14)
+				nn(mission/NN-18,Space/NNP-15)
+				nn(mission/NN-18,Station/NNP-16)
+				nn(mission/NN-18,assembly/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-88</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-88</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station assembly</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Assembly_of_the_International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-88
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-88 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-88 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 12-day mission the U.S.-built Unity module was mated with the Russian Zarya module.	</value>
+
+		<annotated-sentence>	During the 12-day mission the U.S.-built [[Unity module|Unity_(ISS_module)]] was mated with the Russian [[Zarya module|Zarya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the 12-day mission the U.S.-built Unity module was mated with the Russian Zarya module.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,12-day/JJ-3)
+				prep_during(mated/VBN-10,mission/NN-4)
+				det(module/NN-8,the/DT-5)
+				amod(module/NN-8,U.S.-built/JJ-6)
+				nn(module/NN-8,Unity/NNP-7)
+				nsubjpass(mated/VBN-10,module/NN-8)
+				auxpass(mated/VBN-10,was/VBD-9)
+				det(module/NN-15,the/DT-12)
+				amod(module/NN-15,Russian/JJ-13)
+				nn(module/NN-15,Zarya/NNP-14)
+				prep_with(mated/VBN-10,module/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Unity module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Unity_(ISS_module)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Zarya module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Zarya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross performed three spacewalks totaling 21 hours 22 minutes to connect umbilicals and attach tools/hardware.	</value>
+
+		<annotated-sentence>	Ross performed three [[spacewalks|Spacewalk_(software)]] totaling 21 [[hours|Hour]] [[22 minutes|This_Hour_Has_22_Minutes]] to connect umbilicals and attach tools/hardware.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross performed three spacewalks totaling 21 hours 22 minutes to connect umbilicals and attach tools/hardware.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Ross/NNP-1)
+				num(spacewalks/NNS-4,three/CD-3)
+				dobj(performed/VBD-2,spacewalks/NNS-4)
+				partmod(spacewalks/NNS-4,totaling/VBG-5)
+				num(hours/NNS-7,21/CD-6)
+				dobj(totaling/VBG-5,hours/NNS-7)
+				num(minutes/NNS-9,22/CD-8)
+				tmod(totaling/VBG-5,minutes/NNS-9)
+				aux(connect/VB-11,to/TO-10)
+				xcomp(totaling/VBG-5,connect/VB-11)
+				dobj(connect/VB-11,umbilicals/NNS-12)
+				xcomp(totaling/VBG-5,attach/VB-14)
+				conj_and(connect/VB-11,attach/VB-14)
+				dobj(attach/VB-14,tools/hardware/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>22 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/This_Hour_Has_22_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also deployed two satellites, Mighty Sat 1 and SAC-A.	</value>
+
+		<annotated-sentence>	The crew also deployed [[two satellites|Satellite]], [[Mighty|Mighty]] Sat 1 and SAC-A.	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew also deployed two satellites, Mighty Sat 1 and SAC-A.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(deployed/VBD-4,crew/NN-2)
+				advmod(deployed/VBD-4,also/RB-3)
+				ccomp(Sat/VBD-9,deployed/VBD-4)
+				num(satellites/NNS-6,two/CD-5)
+				dobj(deployed/VBD-4,satellites/NNS-6)
+				nsubj(Sat/VBD-9,Mighty/NNP-8)
+				dobj(Sat/VBD-9,1/CD-10)
+				dobj(Sat/VBD-9,SAC-A/NN-12)
+				conj_and(1/CD-10,SAC-A/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two satellites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mighty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mighty</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was accomplished in 185 orbits of the Earth in 283 hours and 18 minutes.	</value>
+
+		<annotated-sentence>	The mission was accomplished in 185 orbits of [[the Earth|Earth]] in 283 [[hours|Hour]] and [[18 minutes|18_Minutes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission was accomplished in 185 orbits of the Earth in 283 hours and 18 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(accomplished/VBN-4,mission/NN-2)
+				auxpass(accomplished/VBN-4,was/VBD-3)
+				num(orbits/NNS-7,185/CD-6)
+				prep_in(accomplished/VBN-4,orbits/NNS-7)
+				det(Earth/NNP-10,the/DT-9)
+				prep_of(orbits/NNS-7,Earth/NNP-10)
+				num(hours/NNS-13,283/CD-12)
+				prep_in(accomplished/VBN-4,hours/NNS-13)
+				num(minutes/NNS-16,18/CD-15)
+				prep_in(accomplished/VBN-4,minutes/NNS-16)
+				conj_and(hours/NNS-13,minutes/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>18 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/18_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-110 Atlantis (April 8–19, 2002) was the 13th Shuttle mission to visit the International Space Station (ISS).	</value>
+
+		<annotated-sentence>	[[STS-110|STS-110]] [[Atlantis|Atlantis]] ([[April 8|April_8]]–19, [[2002|2002]]) was the 13th Shuttle mission to visit [[the International Space Station|International_Space_Station]] ([[ISS|International_Space_Station]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-110|STS-110]] Atlantis (April 8–19, 2002) was the 13th Shuttle mission to visit the International Space Station (ISS).	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Atlantis/NNP-2,STS-110/JJ-1)
+				nsubj(mission/NN-15,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,April/NNP-4)
+				num(April/NNP-4,8/CD-5)
+				dep(April/NNP-4,19/CD-7)
+				amod(19/CD-7,2002/CD-9)
+				cop(mission/NN-15,was/VBD-11)
+				det(mission/NN-15,the/DT-12)
+				amod(mission/NN-15,13th/JJ-13)
+				nn(mission/NN-15,Shuttle/NNP-14)
+				aux(visit/VB-17,to/TO-16)
+				infmod(mission/NN-15,visit/VB-17)
+				det(Station/NNP-21,the/DT-18)
+				nn(Station/NNP-21,International/NNP-19)
+				nn(Station/NNP-21,Space/NNP-20)
+				dobj(visit/VB-17,Station/NNP-21)
+				appos(Station/NNP-21,ISS/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-110</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-110</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_8</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerry_L._Ross http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-110
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-110 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Jerry_L._Ross
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This, the first mission in the final phase of the ISS Assembly, included the delivery and installation of the S0 Truss; the first time the station’s robotic arm was used to maneuver spacewalkers around the station; and the first time that all of a shuttle crew’s spacewalks were based from the station’s Quest Airlock.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(included/VBD-15,This/DT-1)
+				det(mission/NN-5,the/DT-3)
+				amod(mission/NN-5,first/JJ-4)
+				appos(This/DT-1,mission/NN-5)
+				det(phase/NN-9,the/DT-7)
+				amod(phase/NN-9,final/JJ-8)
+				prep_in(mission/NN-5,phase/NN-9)
+				det(Assembly/NNP-13,the/DT-11)
+				nn(Assembly/NNP-13,ISS/NNP-12)
+				prep_of(phase/NN-9,Assembly/NNP-13)
+				det(delivery/NN-17,the/DT-16)
+				dobj(included/VBD-15,delivery/NN-17)
+				dobj(included/VBD-15,installation/NN-19)
+				conj_and(delivery/NN-17,installation/NN-19)
+				det(Truss/NNPS-23,the/DT-21)
+				nn(Truss/NNPS-23,S0/NNP-22)
+				prep_of(delivery/NN-17,Truss/NNPS-23)
+				det(time/NN-27,the/DT-25)
+				amod(time/NN-27,first/JJ-26)
+				dobj(included/VBD-15,time/NN-27)
+				conj_and(delivery/NN-17,time/NN-27)
+				det(station/NN-29,the/DT-28)
+				poss(arm/NN-32,station/NN-29)
+				amod(arm/NN-32,robotic/JJ-31)
+				nsubjpass(used/VBN-34,arm/NN-32)
+				auxpass(used/VBN-34,was/VBD-33)
+				rcmod(time/NN-27,used/VBN-34)
+				aux(maneuver/VB-36,to/TO-35)
+				xcomp(used/VBN-34,maneuver/VB-36)
+				dobj(maneuver/VB-36,spacewalkers/NNS-37)
+				det(station/NN-40,the/DT-39)
+				prep_around(maneuver/VB-36,station/NN-40)
+				det(time/NN-45,the/DT-43)
+				amod(time/NN-45,first/JJ-44)
+				dobj(included/VBD-15,time/NN-45)
+				conj_and(delivery/NN-17,time/NN-45)
+				mark(based/VBN-55,that/IN-46)
+				nsubjpass(based/VBN-55,all/DT-47)
+				det(crew/NN-51,a/DT-49)
+				nn(crew/NN-51,shuttle/NN-50)
+				poss(spacewalks/NNS-53,crew/NN-51)
+				prep_of(all/DT-47,spacewalks/NNS-53)
+				auxpass(based/VBN-55,were/VBD-54)
+				dep(time/NN-45,based/VBN-55)
+				det(station/NN-58,the/DT-57)
+				poss(Airlock/NNP-61,station/NN-58)
+				nn(Airlock/NNP-61,Quest/NNP-60)
+				prep_from(based/VBN-55,Airlock/NNP-61)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross performed two EVAs totaling 14 hours and 9 minutes.	</value>
+
+		<annotated-sentence>	Ross performed two EVAs totaling 14 hours and 9 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross performed two EVAs totaling 14 hours and 9 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Ross/NNP-1)
+				num(EVAs/NNS-4,two/CD-3)
+				dobj(performed/VBD-2,EVAs/NNS-4)
+				partmod(EVAs/NNS-4,totaling/VBG-5)
+				num(hours/NNS-7,14/CD-6)
+				dobj(totaling/VBG-5,hours/NNS-7)
+				num(minutes/NNS-10,9/CD-9)
+				dobj(totaling/VBG-5,minutes/NNS-10)
+				conj_and(hours/NNS-7,minutes/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 259 hours and 42 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 259 [[hours|Hour]] and 42 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 259 hours and 42 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,259/CD-4)
+				num(minutes/NNS-8,42/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a lifetime member of the Association of Space Explorers, and the Purdue Alumni Association, and a corresponding member of the International Academy of Astronautics.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,is/VBZ-2)
+				det(member/NN-5,a/DT-3)
+				nn(member/NN-5,lifetime/NN-4)
+				det(Association/NN-8,the/DT-7)
+				prep_of(member/NN-5,Association/NN-8)
+				nn(Explorers/NNS-11,Space/NN-10)
+				prep_of(Association/NN-8,Explorers/NNS-11)
+				det(Association/NNP-17,the/DT-14)
+				nn(Association/NNP-17,Purdue/NNP-15)
+				nn(Association/NNP-17,Alumni/NNP-16)
+				conj_and(member/NN-5,Association/NNP-17)
+				det(member/NN-22,a/DT-20)
+				amod(member/NN-22,corresponding/JJ-21)
+				conj_and(member/NN-5,member/NN-22)
+				det(Academy/NNP-26,the/DT-24)
+				nn(Academy/NNP-26,International/NNP-25)
+				prep_of(member/NN-22,Academy/NNP-26)
+				prep_of(Academy/NNP-26,Astronautics/NNPS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ross is married to the former Karen S. Pearson of Sheridan, Indiana.	</value>
+
+		<annotated-sentence>	Ross is married to the former Karen S. Pearson of [[Sheridan , Indiana|Sheridan,_Indiana]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Ross is married to the former Karen S. Pearson of Sheridan, Indiana.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Ross/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Pearson/NNP-9,the/DT-5)
+				amod(Pearson/NNP-9,former/JJ-6)
+				nn(Pearson/NNP-9,Karen/NNP-7)
+				nn(Pearson/NNP-9,S./NNP-8)
+				prep_to(married/VBN-3,Pearson/NNP-9)
+				nn(Indiana/NNP-13,Sheridan/NNP-11)
+				prep_of(Pearson/NNP-9,Indiana/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sheridan , Indiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sheridan,_Indiana</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two children.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,two/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

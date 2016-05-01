@@ -1,0 +1,986 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Sigmund Werner Paul Jähn (born 13 February 1937) is a German pilot, who became the first German to fly in space as part of the Soviet Union's Interkosmos programme.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jähn/NNP-4,Sigmund/NNP-1)
+				nn(Jähn/NNP-4,Werner/NNP-2)
+				nn(Jähn/NNP-4,Paul/NNP-3)
+				nsubj(pilot/NN-14,Jähn/NNP-4)
+				dep(Jähn/NNP-4,born/VBN-6)
+				dobj(born/VBN-6,13/CD-7)
+				tmod(born/VBN-6,February/NNP-8)
+				num(February/NNP-8,1937/CD-9)
+				cop(pilot/NN-14,is/VBZ-11)
+				det(pilot/NN-14,a/DT-12)
+				amod(pilot/NN-14,German/JJ-13)
+				nsubj(German/JJ-20,who/WP-16)
+				cop(German/JJ-20,became/VBD-17)
+				det(German/JJ-20,the/DT-18)
+				amod(German/JJ-20,first/JJ-19)
+				rcmod(pilot/NN-14,German/JJ-20)
+				aux(fly/VB-22,to/TO-21)
+				xcomp(German/JJ-20,fly/VB-22)
+				prep_in(fly/VB-22,space/NN-24)
+				prep_as(fly/VB-22,part/NN-26)
+				det(Union/NNP-30,the/DT-28)
+				nn(Union/NNP-30,Soviet/NNP-29)
+				poss(programme/NN-33,Union/NNP-30)
+				nn(programme/NN-33,Interkosmos/NNP-32)
+				prep_of(part/NN-26,programme/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jähn was born in Morgenröthe-Rautenkranz, in the Vogtland district of Saxony, Germany.	</value>
+
+		<annotated-sentence>	Jähn was born in [[Morgenröthe-Rautenkranz|Morgenr%C3%B6the-Rautenkranz]], in [[the Vogtland district|Vogtlandkreis]] of [[Saxony , Germany|Saxony]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Jähn was born in [[Morgenröthe-Rautenkranz|Morgenr%C3%B6the-Rautenkranz]], in [[the Vogtland district|Vogtlandkreis]] of Saxony, Germany.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Jähn/NN-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Morgenröthe-Rautenkranz/NNP-5)
+				det(district/NN-10,the/DT-8)
+				nn(district/NN-10,Vogtland/NNP-9)
+				prep_in(born/VBN-3,district/NN-10)
+				nn(Germany/NNP-14,Saxony/NNP-12)
+				prep_of(district/NN-10,Germany/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Morgenröthe-Rautenkranz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Morgenr%C3%B6the-Rautenkranz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Vogtland district</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vogtlandkreis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saxony , Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saxony</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Morgenr%C3%B6the-Rautenkranz http://dbpedia.org/ontology/district http://dbpedia.org/resource/Vogtlandkreis
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1943 to 1951 he attended school in his hometown, and after school trained as a printer.	</value>
+
+		<annotated-sentence>	From [[1943|1943]] to [[1951|1951]] he attended [[school|School]] in his hometown, and after [[school|School]] trained as [[a printer|Printing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1943 to 1951 he attended school in his hometown, and after school trained as a printer.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1951/CD-4,1943/CD-2)
+				dep(1951/CD-4,to/TO-3)
+				prep_from(attended/VBD-6,1951/CD-4)
+				nsubj(attended/VBD-6,he/PRP-5)
+				nsubj(attended/VBD-6,he/PRP-5)
+				conj_and(attended/VBD-6,attended/VBD-6)
+				dobj(attended/VBD-6,school/NN-7)
+				poss(hometown/NN-10,his/PRP$-9)
+				prep_in(attended/VBD-6,hometown/NN-10)
+				prep_after(attended/VBD-6,school/NN-14)
+				partmod(school/NN-14,trained/VBN-15)
+				det(printer/NN-18,a/DT-17)
+				prep_as(trained/VBN-15,printer/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1943</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1943</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1951</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1951</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a printer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Printing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1955 he joined the East German Air Force, where he became a pilot and military scientist.	</value>
+
+		<annotated-sentence>	In [[1955|1955]] he joined [[the East German Air Force|Air_Forces_of_the_National_People's_Army]], where he became a pilot and [[military scientist|Military_science]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1955 he joined the East German Air Force, where he became a pilot and military scientist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-4,1955/CD-2)
+				nsubj(joined/VBD-4,he/PRP-3)
+				det(Force/NNP-9,the/DT-5)
+				amod(Force/NNP-9,East/JJ-6)
+				nn(Force/NNP-9,German/NNP-7)
+				nn(Force/NNP-9,Air/NNP-8)
+				dobj(joined/VBD-4,Force/NNP-9)
+				advmod(pilot/NN-15,where/WRB-11)
+				nsubj(pilot/NN-15,he/PRP-12)
+				cop(pilot/NN-15,became/VBD-13)
+				det(pilot/NN-15,a/DT-14)
+				rcmod(Force/NNP-9,pilot/NN-15)
+				amod(scientist/NN-18,military/JJ-17)
+				rcmod(Force/NNP-9,scientist/NN-18)
+				conj_and(pilot/NN-15,scientist/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1955</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1955</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the East German Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Forces_of_the_National_People's_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>military scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1966 until 1970 he studied at the Gagarin Air Force Academy in Monino, in the Soviet Union, and afterwards worked in the administration of the East German air force, responsible for pilot education and flight safety.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(studied/VBD-6,1966/CD-2)
+				prep_until(studied/VBD-6,1970/CD-4)
+				nsubj(studied/VBD-6,he/PRP-5)
+				nsubj(worked/VBD-23,he/PRP-5)
+				det(Academy/NNP-12,the/DT-8)
+				nn(Academy/NNP-12,Gagarin/NNP-9)
+				nn(Academy/NNP-12,Air/NNP-10)
+				nn(Academy/NNP-12,Force/NNP-11)
+				prep_at(studied/VBD-6,Academy/NNP-12)
+				prep_in(studied/VBD-6,Monino/NNP-14)
+				dep(studied/VBD-6,in/IN-16)
+				det(Union/NNP-19,the/DT-17)
+				nn(Union/NNP-19,Soviet/NNP-18)
+				pobj(in/IN-16,Union/NNP-19)
+				advmod(worked/VBD-23,afterwards/RB-22)
+				conj_and(studied/VBD-6,worked/VBD-23)
+				det(administration/NN-26,the/DT-25)
+				prep_in(worked/VBD-23,administration/NN-26)
+				det(force/NN-32,the/DT-28)
+				amod(German/JJ-30,East/JJ-29)
+				amod(force/NN-32,German/JJ-30)
+				nn(force/NN-32,air/NN-31)
+				prep_of(administration/NN-26,force/NN-32)
+				amod(safety/NN-40,responsible/JJ-34)
+				nn(education/NN-37,pilot/NN-36)
+				prep_for(responsible/JJ-34,education/NN-37)
+				prep_for(responsible/JJ-34,flight/NN-39)
+				conj_and(education/NN-37,flight/NN-39)
+				appos(force/NN-32,safety/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jähn was awarded the title Hero of the Soviet Union on 3 September 1978.	</value>
+
+		<annotated-sentence>	Jähn was awarded the [[title|Title]] Hero of [[the Soviet Union|Soviet_Union]] on 3 [[September|September]] [[1978|Tsubasa_Otomiya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jähn was awarded the title Hero of the Soviet Union on 3 September 1978.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,Jähn/NN-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(Hero/NN-6,the/DT-4)
+				nn(Hero/NN-6,title/NN-5)
+				dobj(awarded/VBN-3,Hero/NN-6)
+				det(Union/NNP-10,the/DT-8)
+				nn(Union/NNP-10,Soviet/NNP-9)
+				prep_of(Hero/NN-6,Union/NNP-10)
+				prep_on(Union/NNP-10,3/CD-12)
+				tmod(Union/NNP-10,September/NNP-13)
+				num(September/NNP-13,1978/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>title</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Title</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Soviet Union</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1983 he received a doctorate in physics at the "Zentralinstitut für Physik der Erde" in Potsdam, specialising in remote sensing of the earth.	</value>
+
+		<annotated-sentence>	In [[1983|1983]] he received [[a doctorate|Doctorate]] in [[physics|Physics]] at the "Zentralinstitut für [[Physik|Physik]] [[der Erde|Das_Lied_von_der_Erde]]" in [[Potsdam|Potsdam]], specialising in remote sensing of [[the earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1983 he received a doctorate in physics at the "Zentralinstitut für Physik der Erde" in Potsdam, specialising in remote sensing of the earth.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-4,1983/CD-2)
+				nsubj(received/VBD-4,he/PRP-3)
+				det(doctorate/NN-6,a/DT-5)
+				dobj(received/VBD-4,doctorate/NN-6)
+				prep_in(received/VBD-4,physics/NNS-8)
+				det(Erde/NNP-16,the/DT-10)
+				nn(Erde/NNP-16,Zentralinstitut/NN-12)
+				nn(Erde/NNP-16,für/NN-13)
+				nn(Erde/NNP-16,Physik/NNP-14)
+				nn(Erde/NNP-16,der/FW-15)
+				prep_at(received/VBD-4,Erde/NNP-16)
+				prep_in(Erde/NNP-16,Potsdam/NNP-19)
+				partmod(received/VBD-4,specialising/VBG-21)
+				prep_in(specialising/VBG-21,remote/JJ-23)
+				partmod(remote/JJ-23,sensing/VBG-24)
+				det(earth/NN-27,the/DT-26)
+				prep_of(sensing/VBG-24,earth/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Physik</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physik</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>der Erde</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Das_Lied_von_der_Erde</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Potsdam</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Potsdam</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Starting in 1990, after German reunification, he worked as a freelance consultant for the formerly West German spaceflight agency German Aerospace Center (DLR), and from 1993 also for the European Space Agency (ESA) to prepare for the Euromir missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep(worked/VBD-10,Starting/VBG-1)
+				pcomp(Starting/VBG-1,in/IN-2)
+				pobj(in/IN-2,1990/CD-3)
+				amod(reunification/NN-7,German/JJ-6)
+				prep_after(Starting/VBG-1,reunification/NN-7)
+				nsubj(worked/VBD-10,he/PRP-9)
+				nsubj(worked/VBD-10,he/PRP-9)
+				conj_and(worked/VBD-10,worked/VBD-10)
+				det(consultant/NN-14,a/DT-12)
+				nn(consultant/NN-14,freelance/NN-13)
+				prep_as(worked/VBD-10,consultant/NN-14)
+				det(agency/NN-21,the/DT-16)
+				advmod(West/JJ-18,formerly/RB-17)
+				amod(agency/NN-21,West/JJ-18)
+				amod(agency/NN-21,German/JJ-19)
+				nn(agency/NN-21,spaceflight/NN-20)
+				prep_for(consultant/NN-14,agency/NN-21)
+				nn(Center/NNP-24,German/NNP-22)
+				nn(Center/NNP-24,Aerospace/NNP-23)
+				dep(agency/NN-21,Center/NNP-24)
+				appos(Center/NNP-24,DLR/NNP-26)
+				prep_from(worked/VBD-10,1993/CD-31)
+				advmod(worked/VBD-10,also/RB-32)
+				det(Agency/NNP-37,the/DT-34)
+				amod(Agency/NNP-37,European/JJ-35)
+				nn(Agency/NNP-37,Space/NNP-36)
+				prep_for(worked/VBD-10,Agency/NNP-37)
+				appos(Agency/NNP-37,ESA/NNP-39)
+				aux(prepare/VB-42,to/TO-41)
+				xcomp(worked/VBD-10,prepare/VB-42)
+				det(missions/NNS-46,the/DT-44)
+				nn(missions/NNS-46,Euromir/NNP-45)
+				prep_for(prepare/VB-42,missions/NNS-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2002 he finally retired from this job.	</value>
+
+		<annotated-sentence>	In [[2002|2002]] he finally retired from this job.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2002 he finally retired from this job.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(retired/VBD-5,2002/CD-2)
+				nsubj(retired/VBD-5,he/PRP-3)
+				advmod(retired/VBD-5,finally/RB-4)
+				det(job/NN-8,this/DT-7)
+				prep_from(retired/VBD-5,job/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jähn is married and has two children.	</value>
+
+		<annotated-sentence>	Jähn is married and has [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Jähn is married and has two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Jähn/NNP-1)
+				nsubj(has/VBZ-5,Jähn/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(children/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He lives in Strausberg and he enjoys reading and hunting.	</value>
+
+		<annotated-sentence>	He lives in [[Strausberg|Strausberg]] and he enjoys reading and hunting.	</annotated-sentence>
+
+		<pattern_crowdsource>	He lives in Strausberg and he enjoys reading and hunting.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(lives/VBZ-2,He/PRP-1)
+				prep_in(lives/VBZ-2,Strausberg/NNP-4)
+				nsubj(enjoys/VBZ-7,he/PRP-6)
+				conj_and(lives/VBZ-2,enjoys/VBZ-7)
+				dobj(enjoys/VBZ-7,reading/NN-8)
+				dobj(enjoys/VBZ-7,hunting/NN-10)
+				conj_and(reading/NN-8,hunting/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Strausberg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Strausberg</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Asteroid 17737 was named "Sigmundjähn" in 2001.	</value>
+
+		<annotated-sentence>	[[Asteroid|Asteroid]] [[17737|17737_Sigmundj%C3%A4hn]] was named "[[Sigmundjähn|17737_Sigmundj%C3%A4hn]]" in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Asteroid 17737 was named "Sigmundjähn" in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(named/VBN-4,Asteroid/NN-1)
+				num(Asteroid/NN-1,17737/CD-2)
+				auxpass(named/VBN-4,was/VBD-3)
+				dobj(named/VBN-4,Sigmundjähn/NNP-6)
+				prep_in(named/VBN-4,2001/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Asteroid</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asteroid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>17737</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/17737_Sigmundj%C3%A4hn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sigmundjähn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/17737_Sigmundj%C3%A4hn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1976, Jähn was selected with his backup Eberhard Köllner for the Interkosmos programme.	</value>
+
+		<annotated-sentence>	In [[1976|1976]], Jähn was selected with his [[backup|Backup]] [[Eberhard Köllner|Eberhard_K%C3%B6llner]] for the [[Interkosmos|Interkosmos]] [[programme|Programme_(booklet)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1976, Jähn was selected with his backup Eberhard Köllner for the Interkosmos programme.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1976/CD-2)
+				nsubjpass(selected/VBN-6,Jähn/NNP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				poss(Köllner/NNP-11,his/PRP$-8)
+				nn(Köllner/NNP-11,backup/NN-9)
+				nn(Köllner/NNP-11,Eberhard/NNP-10)
+				prep_with(selected/VBN-6,Köllner/NNP-11)
+				det(programme/NN-15,the/DT-13)
+				nn(programme/NN-15,Interkosmos/NNP-14)
+				prep_for(Köllner/NNP-11,programme/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Eberhard Köllner</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eberhard_K%C3%B6llner</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Interkosmos</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interkosmos</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>programme</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Programme_(booklet)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He trained in Star City near Moscow for the next two years, and flew on board Soyuz 31 (launched 26 August 1978) to the Soviet space station Salyut 6, and returned on Soyuz 29, landing on 3 September 1978.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(trained/VBD-2,He/PRP-1)
+				nsubj(flew/VBD-15,He/PRP-1)
+				nsubj(returned/VBD-35,He/PRP-1)
+				nn(City/NNP-5,Star/NNP-4)
+				prep_in(trained/VBD-2,City/NNP-5)
+				prep_near(City/NNP-5,Moscow/NNP-7)
+				det(years/NNS-12,the/DT-9)
+				amod(years/NNS-12,next/JJ-10)
+				num(years/NNS-12,two/CD-11)
+				prep_for(trained/VBD-2,years/NNS-12)
+				conj_and(trained/VBD-2,flew/VBD-15)
+				prep_on(flew/VBD-15,board/NN-17)
+				dep(board/NN-17,Soyuz/NNP-18)
+				num(Soyuz/NNP-18,31/CD-19)
+				dep(board/NN-17,launched/VBN-21)
+				dobj(launched/VBN-21,26/CD-22)
+				tmod(launched/VBN-21,August/NNP-23)
+				num(August/NNP-23,1978/CD-24)
+				det(Salyut/NNP-31,the/DT-27)
+				amod(Salyut/NNP-31,Soviet/JJ-28)
+				nn(Salyut/NNP-31,space/NN-29)
+				nn(Salyut/NNP-31,station/NN-30)
+				prep_to(flew/VBD-15,Salyut/NNP-31)
+				num(Salyut/NNP-31,6/CD-32)
+				conj_and(trained/VBD-2,returned/VBD-35)
+				prep_on(returned/VBD-35,Soyuz/NNP-37)
+				num(Soyuz/NNP-37,29/CD-38)
+				appos(Soyuz/NNP-37,landing/NN-40)
+				prep_on(returned/VBD-35,3/CD-42)
+				tmod(returned/VBD-35,September/NNP-43)
+				num(September/NNP-43,1978/CD-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He spent 7 days, 20 hours, and 49 minutes in space.	</value>
+
+		<annotated-sentence>	He spent 7 days, 20 [[hours|Hour]], and 49 [[minutes|Minute]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He spent 7 days, 20 hours, and 49 minutes in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,He/PRP-1)
+				num(days/NNS-4,7/CD-3)
+				dobj(spent/VBD-2,days/NNS-4)
+				num(hours/NNS-7,20/CD-6)
+				dobj(spent/VBD-2,hours/NNS-7)
+				conj_and(days/NNS-4,hours/NNS-7)
+				num(minutes/NNS-11,49/CD-10)
+				dobj(spent/VBD-2,minutes/NNS-11)
+				conj_and(days/NNS-4,minutes/NNS-11)
+				prep_in(spent/VBD-2,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During and after the flight, he and the socialist authorities of the GDR pronounced him "the first German cosmonaut", which was remarkable, as in those days the East German state normally stressed that their people were "GDR citizens", to distinguish themselves from West Germany.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-5,the/DT-4)
+				prep_after(pronounced/VBD-15,flight/NN-5)
+				prep_during(pronounced/VBD-15,flight/NN-5)
+				conj_and(flight/NN-5,he/PRP-7)
+				prep_after(pronounced/VBD-15,he/PRP-7)
+				prep_during(pronounced/VBD-15,he/PRP-7)
+				det(authorities/NNS-11,the/DT-9)
+				amod(authorities/NNS-11,socialist/JJ-10)
+				conj_and(flight/NN-5,authorities/NNS-11)
+				prep_after(pronounced/VBD-15,authorities/NNS-11)
+				prep_during(pronounced/VBD-15,authorities/NNS-11)
+				det(GDR/NNP-14,the/DT-13)
+				prep_of(authorities/NNS-11,GDR/NNP-14)
+				conj_and(pronounced/VBD-15,pronounced/VBD-15)
+				dobj(pronounced/VBD-15,him/PRP-16)
+				det(cosmonaut/NN-21,the/DT-18)
+				amod(cosmonaut/NN-21,first/JJ-19)
+				amod(cosmonaut/NN-21,German/JJ-20)
+				nsubj(pronounced/VBD-15,cosmonaut/NN-21)
+				nsubj(pronounced/VBD-15,cosmonaut/NN-21)
+				nsubj(remarkable/JJ-26,which/WDT-24)
+				cop(remarkable/JJ-26,was/VBD-25)
+				rcmod(cosmonaut/NN-21,remarkable/JJ-26)
+				mark(stressed/VBD-37,as/IN-28)
+				det(days/NNS-31,those/DT-30)
+				prep_in(stressed/VBD-37,days/NNS-31)
+				det(state/NN-35,the/DT-32)
+				amod(state/NN-35,East/JJ-33)
+				amod(state/NN-35,German/JJ-34)
+				nsubj(stressed/VBD-37,state/NN-35)
+				advmod(stressed/VBD-37,normally/RB-36)
+				dep(remarkable/JJ-26,stressed/VBD-37)
+				mark(citizens/NNS-44,that/IN-38)
+				poss(people/NNS-40,their/PRP$-39)
+				nsubj(citizens/NNS-44,people/NNS-40)
+				cop(citizens/NNS-44,were/VBD-41)
+				nn(citizens/NNS-44,GDR/NNP-43)
+				ccomp(stressed/VBD-37,citizens/NNS-44)
+				aux(distinguish/VB-48,to/TO-47)
+				xcomp(remarkable/JJ-26,distinguish/VB-48)
+				dobj(distinguish/VB-48,themselves/PRP-49)
+				nn(Germany/NNP-52,West/NNP-51)
+				prep_from(distinguish/VB-48,Germany/NNP-52)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Media related to Sigmund Jähn at Wikimedia Commons	</value>
+
+		<annotated-sentence>	Media related to [[Sigmund Jähn|Sigmund_J%C3%A4hn]] at [[Wikimedia Commons|Wikimedia_Commons]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Media related to Sigmund Jähn at Wikimedia Commons	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Media/NNP-1,related/JJ-2)
+				nn(Jähn/NNP-5,Sigmund/NNP-4)
+				prep_to(related/JJ-2,Jähn/NNP-5)
+				nn(Commons/NNPS-8,Wikimedia/NNP-7)
+				prep_at(Media/NNP-1,Commons/NNPS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sigmund Jähn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sigmund_J%C3%A4hn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wikimedia Commons</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wikimedia_Commons</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Type 2 diabetes is a chronic (lifelong) disease.</value>
+		<pattern_crowdsource> [[Type 2 diabetes|C0011860]] is a chronic (lifelong) [[disease|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Type 2 diabetes</surface-form>
+				<RDF-ID>C0011860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chronic</surface-form>
+				<RDF-ID>C0205191</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011860 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Insulin is a hormone made by the pancreas to control blood sugar.</value>
+		<pattern_crowdsource> [[Insulin|C0021641]] is a [[hormone|C0019932]] made by the pancreas to control [[blood sugar|C0005802]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021641 ISA C0019932</triple>
+			<triple>C0019932 INTERACTS_WITH C0005802</triple>
+			<triple>C0021641 INTERACTS_WITH C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>When your body's insulin is not used correctly, the sugar from food stays in the blood and the level can get too high.</value>
+		<pattern_crowdsource> When your body's insulin is not used correctly, the [[sugar|C0242209]] from food stays in the [[blood|C0005767]] and the level can get too high.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>food</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0242209</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Foods with sugar and carbohydrates can raise your blood sugar too high.</value>
+		<pattern_crowdsource> Foods with [[sugar|C0242209]] and [[carbohydrates|C0007004]] can raise your [[blood sugar|C0005802]] too high.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Foods</surface-form>
+				<RDF-ID>C0016452</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>carbohydrates</surface-form>
+				<RDF-ID>C0007004</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007004 STIMULATES C0005802</triple>
+			<triple>C0242209 STIMULATES C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Alcohol and other drinks with sugar can also raise your blood sugar.</value>
+		<pattern_crowdsource> Alcohol and other drinks with [[sugar|C0242209]] can also raise your [[blood sugar|C0005802]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drinks</surface-form>
+				<RDF-ID>C0452428</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0242209 STIMULATES C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Weight-loss surgery may be an option if you are obese (very overweight) and your diabetes is not under control.</value>
+		<pattern_crowdsource> Weight-loss surgery may be an option if you are [[obese|C0028754]] (very [[overweight|C0497406]]) and your diabetes is not under control.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Weight-loss surgery</surface-form>
+				<RDF-ID>C1456587</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>option</surface-form>
+				<RDF-ID>C1550456</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very</surface-form>
+				<RDF-ID>C0442824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>overweight</surface-form>
+				<RDF-ID>C0497406</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>control</surface-form>
+				<RDF-ID>C0243148</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0028754 ISA C0497406</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Regular exercise is good for people with diabetes.</value>
+		<pattern_crowdsource> [[Regular exercise|C0582191]] is good for [[people|C0027361]] with [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Regular exercise</surface-form>
+				<RDF-ID>C0582191</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>good</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0582191 TREATS C0027361</triple>
+			<triple>C0011847 PROCESS_OF C0027361</triple>
+			<triple>C0582191 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In case of an emergency, people know you have diabetes and can help you get the right medical attention.</value>
+		<pattern_crowdsource> In case of an emergency, [[people|C0027361]] know you have [[diabetes|C0011847]] and can help you get the right medical attention.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>emergency</surface-form>
+				<RDF-ID>C0175673</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medical</surface-form>
+				<RDF-ID>C0205476</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>attention</surface-form>
+				<RDF-ID>C0004268</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Many people with type 2 diabetes need to take more than one medicine to control their blood sugar.</value>
+		<pattern_crowdsource> Many [[people|C0027361]] with [[type 2 diabetes|C0011860]] need to take more than one [[medicine|C0013227]] to control their blood sugar.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type 2 diabetes</surface-form>
+				<RDF-ID>C0011860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011860 PROCESS_OF C0027361</triple>
+			<triple>C0013227 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If medicines do not help you control your blood sugar, you may need to take insulin.</value>
+		<pattern_crowdsource> If [[medicines|C0013227]] do not help you control your [[blood sugar|C0005802]], you may need to take insulin.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 INTERACTS_WITH C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Your doctor may ask you to take a medicine called an ACE inhibitor or another medicine called an ARB for high blood pressure or kidney problems.</value>
+		<pattern_crowdsource> - Your [[doctor|C0031831]] may ask you to take a [[medicine|C0013227]] called an [[ACE inhibitor|C0003015]] or another [[medicine|C0013227]] called an ARB for [[high blood pressure|C0020538]] or [[kidney problems|C0812426]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACE inhibitor</surface-form>
+				<RDF-ID>C0003015</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ARB</surface-form>
+				<RDF-ID>C1264693</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney problems</surface-form>
+				<RDF-ID>C0812426</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+			<triple>C0003015 TREATS C0020538</triple>
+			<triple>C0003015 TREATS C0812426</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Your doctor may ask you to take a special medicine called a statin to keep your cholesterol low.</value>
+		<pattern_crowdsource> - Your [[doctor|C0031831]] may ask you to take a special [[medicine|C0013227]] called a statin to keep your cholesterol low.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>statin</surface-form>
+				<RDF-ID>C1420485</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low</surface-form>
+				<RDF-ID>C0205251</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Your doctor may ask you to take aspirin to keep your heart healthy.</value>
+		<pattern_crowdsource> - Your [[doctor|C0031831]] may ask you to take [[aspirin|C0004057]] to keep your heart healthy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>healthy</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004057 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

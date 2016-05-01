@@ -1,0 +1,3422 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Edgar Dean Mitchell, Sc.D.	</value>
+
+		<annotated-sentence>	[[Edgar Dean Mitchell|Edgar_Mitchell]], [[Sc.D|Doctor_of_Science]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Edgar Dean Mitchell, Sc.D.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mitchell/NNP-3,Edgar/NNP-1)
+				nn(Mitchell/NNP-3,Dean/NNP-2)
+				appos(Mitchell/NNP-3,Sc.D/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edgar Dean Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edgar_Mitchell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sc.D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_of_Science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	(born September 17, 1930) is an American pilot, retired Captain in the United States Navy and NASA astronaut.	</value>
+
+		<annotated-sentence>	(born [[September 17|September_17]], [[1930|1930_(album)]]) is an [[American|United_States]] pilot, retired Captain in [[the United States Navy|United_States_Navy]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	(born September 17, 1930) is an [[American|United_States]] pilot, retired Captain in [[the United States Navy|United_States_Navy]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep(pilot/NN-11,born/VBN-2)
+				dep(born/VBN-2,September/NNP-3)
+				num(September/NNP-3,17/CD-4)
+				nsubj(pilot/NN-11,1930/CD-6)
+				cop(pilot/NN-11,is/VBZ-8)
+				det(pilot/NN-11,an/DT-9)
+				amod(pilot/NN-11,American/JJ-10)
+				partmod(pilot/NN-11,retired/VBN-13)
+				dobj(retired/VBN-13,Captain/NNP-14)
+				det(Navy/NNP-19,the/DT-16)
+				nn(Navy/NNP-19,United/NNP-17)
+				nn(Navy/NNP-19,States/NNPS-18)
+				prep_in(Captain/NNP-14,Navy/NNP-19)
+				nn(astronaut/NN-22,NASA/NNP-21)
+				prep_in(Captain/NNP-14,astronaut/NN-22)
+				conj_and(Navy/NNP-19,astronaut/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_17</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1930</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1930_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As the lunar module pilot of Apollo 14, he spent nine hours working on the lunar surface in the Fra Mauro Highlands region, making him the sixth person to walk on the Moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(pilot/NN-5,the/DT-2)
+				amod(pilot/NN-5,lunar/JJ-3)
+				nn(pilot/NN-5,module/NN-4)
+				prep_as(spent/VBD-11,pilot/NN-5)
+				prep_of(pilot/NN-5,Apollo/NNP-7)
+				num(Apollo/NNP-7,14/CD-8)
+				nsubj(spent/VBD-11,he/PRP-10)
+				num(hours/NNS-13,nine/CD-12)
+				dobj(spent/VBD-11,hours/NNS-13)
+				dep(hours/NNS-13,working/VBG-14)
+				det(surface/NN-18,the/DT-16)
+				amod(surface/NN-18,lunar/JJ-17)
+				prep_on(working/VBG-14,surface/NN-18)
+				det(region/NN-24,the/DT-20)
+				nn(region/NN-24,Fra/NNP-21)
+				nn(region/NN-24,Mauro/NNP-22)
+				nn(region/NN-24,Highlands/NNP-23)
+				prep_in(surface/NN-18,region/NN-24)
+				dep(working/VBG-14,making/VBG-26)
+				dobj(making/VBG-26,him/PRP-27)
+				det(person/NN-30,the/DT-28)
+				amod(person/NN-30,sixth/JJ-29)
+				dobj(working/VBG-14,person/NN-30)
+				aux(walk/VB-32,to/TO-31)
+				infmod(person/NN-30,walk/VB-32)
+				det(Moon/NNP-35,the/DT-34)
+				prep_on(walk/VB-32,Moon/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell was born in Hereford, Texas.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] was born in [[Hereford , Texas|Hereford,_Texas]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell was born in Hereford, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Mitchell/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Texas/NNP-7,Hereford/NNP-5)
+				prep_in(born/VBN-3,Texas/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hereford , Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hereford,_Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Hereford,_Texas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was active in the Boy Scouts of America where he achieved its second highest rank, Life Scout.	</value>
+
+		<annotated-sentence>	He was active in [[the Boy Scouts of America|Boy_Scouts_of_America]] where he achieved its second highest [[rank|Ranks_in_the_Boy_Scouts_of_America]], [[Life Scout|Ranks_in_the_Boy_Scouts_of_America]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was active in the Boy Scouts of America where he achieved its second highest rank, Life Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-3,He/PRP-1)
+				cop(active/JJ-3,was/VBD-2)
+				det(Scouts/NNS-7,the/DT-5)
+				nn(Scouts/NNS-7,Boy/NNP-6)
+				prep_in(active/JJ-3,Scouts/NNS-7)
+				prep_of(Scouts/NNS-7,America/NNP-9)
+				advmod(achieved/VBD-12,where/WRB-10)
+				nsubj(achieved/VBD-12,he/PRP-11)
+				advcl(active/JJ-3,achieved/VBD-12)
+				poss(rank/NN-16,its/PRP$-13)
+				amod(rank/NN-16,second/JJ-14)
+				amod(rank/NN-16,highest/JJS-15)
+				dobj(achieved/VBD-12,rank/NN-16)
+				nn(Scout/NNP-19,Life/NNP-18)
+				appos(rank/NN-16,Scout/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Boy Scouts of America</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranks_in_the_Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Life Scout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranks_in_the_Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a member of DeMolay International, part of the Masonic Fraternity, and has been inducted into its Hall of Fame.	</value>
+
+		<annotated-sentence>	He was also a member of [[DeMolay|Karl_DeMolay]] [[International|International]], part of the [[Masonic|Freemasonry]] [[Fraternity|Fraternity]], and has been inducted into [[its Hall of Fame|Hall_of_fame]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a member of DeMolay International, part of the Masonic Fraternity, and has been inducted into its Hall of Fame.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				nsubjpass(inducted/VBN-19,He/PRP-1)
+				cop(member/NN-5,was/VBD-2)
+				advmod(member/NN-5,also/RB-3)
+				det(member/NN-5,a/DT-4)
+				nn(International/NNP-8,DeMolay/NNP-7)
+				prep_of(member/NN-5,International/NNP-8)
+				appos(International/NNP-8,part/NN-10)
+				det(Fraternity/NNP-14,the/DT-12)
+				nn(Fraternity/NNP-14,Masonic/NNP-13)
+				prep_of(part/NN-10,Fraternity/NNP-14)
+				aux(inducted/VBN-19,has/VBZ-17)
+				auxpass(inducted/VBN-19,been/VBN-18)
+				conj_and(member/NN-5,inducted/VBN-19)
+				poss(Hall/NN-22,its/PRP$-21)
+				prep_into(inducted/VBN-19,Hall/NN-22)
+				prep_of(Hall/NN-22,Fame/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>DeMolay</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Karl_DeMolay</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Masonic</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Freemasonry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fraternity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fraternity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>its Hall of Fame</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hall_of_fame</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell earned a Bachelor of Science degree in industrial management from Carnegie Mellon University in 1952.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] earned [[a Bachelor of Science degree|Bachelor_of_Science]] in industrial management from [[Carnegie Mellon University|Carnegie_Mellon_University]] in [[1952|1952_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell earned a Bachelor of Science degree in industrial management from Carnegie Mellon University in 1952.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,Mitchell/NNP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(earned/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(management/NN-10,industrial/JJ-9)
+				prep_in(earned/VBD-2,management/NN-10)
+				nn(University/NNP-14,Carnegie/NNP-12)
+				nn(University/NNP-14,Mellon/NNP-13)
+				prep_from(earned/VBD-2,University/NNP-14)
+				prep_in(University/NNP-14,1952/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Carnegie Mellon University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carnegie_Mellon_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1952</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1952_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The following year he joined the U.S. Navy, where he trained as a pilot and flew off the aircraft carriers USS Bon Homme Richard and USS Ticonderoga.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-3,The/DT-1)
+				amod(year/NN-3,following/JJ-2)
+				tmod(joined/VBD-5,year/NN-3)
+				nsubj(joined/VBD-5,he/PRP-4)
+				det(Navy/NNP-8,the/DT-6)
+				nn(Navy/NNP-8,U.S./NNP-7)
+				dobj(joined/VBD-5,Navy/NNP-8)
+				advmod(trained/VBD-12,where/WRB-10)
+				nsubj(trained/VBD-12,he/PRP-11)
+				nsubj(flew/VBD-17,he/PRP-11)
+				rcmod(Navy/NNP-8,trained/VBD-12)
+				det(pilot/NN-15,a/DT-14)
+				prep_as(trained/VBD-12,pilot/NN-15)
+				rcmod(Navy/NNP-8,flew/VBD-17)
+				conj_and(trained/VBD-12,flew/VBD-17)
+				prt(flew/VBD-17,off/RP-18)
+				det(Richard/NNP-25,the/DT-19)
+				nn(Richard/NNP-25,aircraft/NN-20)
+				nn(Richard/NNP-25,carriers/NNS-21)
+				nn(Richard/NNP-25,USS/NNP-22)
+				nn(Richard/NNP-25,Bon/NNP-23)
+				nn(Richard/NNP-25,Homme/NNP-24)
+				dobj(flew/VBD-17,Richard/NNP-25)
+				nn(Ticonderoga/NNP-28,USS/NNP-27)
+				dobj(flew/VBD-17,Ticonderoga/NNP-28)
+				conj_and(Richard/NNP-25,Ticonderoga/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He later qualified as a research pilot and taught at the Navy's research pilot school.	</value>
+
+		<annotated-sentence>	He later qualified as a research pilot and taught at the [[Navy|Navy]]'s [[research|Research]] pilot [[school|School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He later qualified as a research pilot and taught at the Navy's research pilot school.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(qualified/VBD-3,He/PRP-1)
+				nsubj(taught/VBD-9,He/PRP-1)
+				advmod(qualified/VBD-3,later/RB-2)
+				det(pilot/NN-7,a/DT-5)
+				nn(pilot/NN-7,research/NN-6)
+				prep_as(qualified/VBD-3,pilot/NN-7)
+				conj_and(qualified/VBD-3,taught/VBD-9)
+				det(Navy/NNP-12,the/DT-11)
+				poss(school/NN-16,Navy/NNP-12)
+				nn(school/NN-16,research/NN-14)
+				nn(school/NN-16,pilot/NN-15)
+				prep_at(taught/VBD-9,school/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While on active duty in the Navy, he earned a Master of Science degree in aeronautical engineering from the U.S. Naval Postgraduate School and a Doctor of Science degree in aeronautics and astronautics from the Massachusetts Institute of Technology.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(on/IN-2,While/IN-1)
+				advcl(earned/VBD-10,on/IN-2)
+				amod(duty/NN-4,active/JJ-3)
+				pobj(on/IN-2,duty/NN-4)
+				det(Navy/NNP-7,the/DT-6)
+				prep_in(duty/NN-4,Navy/NNP-7)
+				nsubj(earned/VBD-10,he/PRP-9)
+				det(Master/NN-12,a/DT-11)
+				dobj(earned/VBD-10,Master/NN-12)
+				nn(degree/NN-15,Science/NNP-14)
+				prep_of(Master/NN-12,degree/NN-15)
+				amod(engineering/NN-18,aeronautical/JJ-17)
+				prep_in(earned/VBD-10,engineering/NN-18)
+				det(School/NNP-24,the/DT-20)
+				nn(School/NNP-24,U.S./NNP-21)
+				nn(School/NNP-24,Naval/NNP-22)
+				nn(School/NNP-24,Postgraduate/NNP-23)
+				prep_from(engineering/NN-18,School/NNP-24)
+				det(Doctor/NN-27,a/DT-26)
+				prep_in(earned/VBD-10,Doctor/NN-27)
+				conj_and(engineering/NN-18,Doctor/NN-27)
+				nn(degree/NN-30,Science/NNP-29)
+				prep_of(Doctor/NN-27,degree/NN-30)
+				prep_in(earned/VBD-10,aeronautics/NNS-32)
+				prep_in(earned/VBD-10,astronautics/NNS-34)
+				conj_and(aeronautics/NNS-32,astronautics/NNS-34)
+				det(Institute/NNP-38,the/DT-36)
+				nn(Institute/NNP-38,Massachusetts/NNP-37)
+				prep_from(earned/VBD-10,Institute/NNP-38)
+				prep_of(Institute/NNP-38,Technology/NNP-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He currently resides in Lake Worth, Florida.	</value>
+
+		<annotated-sentence>	He currently resides in Lake Worth, [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He currently resides in Lake Worth, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(resides/VBZ-3,He/PRP-1)
+				advmod(resides/VBZ-3,currently/RB-2)
+				nn(Worth/NNP-6,Lake/NNP-5)
+				prep_in(resides/VBZ-3,Worth/NNP-6)
+				appos(Worth/NNP-6,Florida/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell is a member of the Kappa Sigma fraternity, and carried one of the order's badges to the Moon; it is now kept at his home chapter of Kappa Sigma at Carnegie Mellon University.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Mitchell/NNP-1)
+				nsubj(carried/VBD-12,Mitchell/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				det(fraternity/NN-9,the/DT-6)
+				nn(fraternity/NN-9,Kappa/NN-7)
+				nn(fraternity/NN-9,Sigma/NNP-8)
+				prep_of(member/NN-4,fraternity/NN-9)
+				conj_and(member/NN-4,carried/VBD-12)
+				dobj(carried/VBD-12,one/CD-13)
+				det(order/NN-16,the/DT-15)
+				poss(badges/NNS-18,order/NN-16)
+				prep_of(one/CD-13,badges/NNS-18)
+				det(Moon/NN-21,the/DT-20)
+				prep_to(carried/VBD-12,Moon/NN-21)
+				nsubjpass(kept/VBN-26,it/PRP-23)
+				auxpass(kept/VBN-26,is/VBZ-24)
+				advmod(kept/VBN-26,now/RB-25)
+				parataxis(member/NN-4,kept/VBN-26)
+				poss(chapter/NN-30,his/PRP$-28)
+				nn(chapter/NN-30,home/NN-29)
+				prep_at(kept/VBN-26,chapter/NN-30)
+				nn(Sigma/NNP-33,Kappa/NN-32)
+				prep_of(chapter/NN-30,Sigma/NNP-33)
+				nn(University/NNP-37,Carnegie/NNP-35)
+				nn(University/NNP-37,Mellon/NNP-36)
+				prep_at(kept/VBN-26,University/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell was selected to be an astronaut in 1966 and was seconded from the Navy to NASA.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] was selected to be [[an astronaut|Astronaut]] in [[1966|1966]] and was seconded from [[the Navy|Navy]] to [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell was selected to be [[an astronaut|Astronaut]] in 1966 and was seconded from the Navy to [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Mitchell/NNP-1)
+				nsubjpass(seconded/VBN-12,Mitchell/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				aux(astronaut/NN-7,to/TO-4)
+				cop(astronaut/NN-7,be/VB-5)
+				det(astronaut/NN-7,an/DT-6)
+				xcomp(selected/VBN-3,astronaut/NN-7)
+				prep_in(astronaut/NN-7,1966/CD-9)
+				auxpass(seconded/VBN-12,was/VBD-11)
+				conj_and(selected/VBN-3,seconded/VBN-12)
+				det(Navy/NNP-15,the/DT-14)
+				prep_from(seconded/VBN-12,Navy/NNP-15)
+				prep_to(seconded/VBN-12,NASA/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was designated as backup lunar module pilot for Apollo 10, and flew as lunar module pilot on Apollo 14, where he spent nine hours working on the lunar surface in the Fra Mauro Highlands region, making him the sixth person to walk on the Moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(designated/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBD-14,He/PRP-1)
+				auxpass(designated/VBN-3,was/VBD-2)
+				amod(pilot/NN-8,backup/JJ-5)
+				amod(pilot/NN-8,lunar/JJ-6)
+				nn(pilot/NN-8,module/NN-7)
+				prep_as(designated/VBN-3,pilot/NN-8)
+				prep_for(pilot/NN-8,Apollo/NNP-10)
+				num(Apollo/NNP-10,10/CD-11)
+				conj_and(designated/VBN-3,flew/VBD-14)
+				advmod(lunar/JJ-16,as/RB-15)
+				amod(pilot/NN-18,lunar/JJ-16)
+				nn(pilot/NN-18,module/NN-17)
+				dobj(flew/VBD-14,pilot/NN-18)
+				prep_on(flew/VBD-14,Apollo/NNP-20)
+				num(Apollo/NNP-20,14/CD-21)
+				advmod(spent/VBD-25,where/WRB-23)
+				nsubj(spent/VBD-25,he/PRP-24)
+				advcl(designated/VBN-3,spent/VBD-25)
+				num(hours/NNS-27,nine/CD-26)
+				dobj(spent/VBD-25,hours/NNS-27)
+				dep(hours/NNS-27,working/VBG-28)
+				det(surface/NN-32,the/DT-30)
+				amod(surface/NN-32,lunar/JJ-31)
+				prep_on(working/VBG-28,surface/NN-32)
+				det(region/NN-38,the/DT-34)
+				nn(region/NN-38,Fra/NNP-35)
+				nn(region/NN-38,Mauro/NNP-36)
+				nn(region/NN-38,Highlands/NNP-37)
+				prep_in(surface/NN-32,region/NN-38)
+				dep(working/VBG-28,making/VBG-40)
+				dobj(making/VBG-40,him/PRP-41)
+				det(person/NN-44,the/DT-42)
+				amod(person/NN-44,sixth/JJ-43)
+				dobj(working/VBG-28,person/NN-44)
+				aux(walk/VB-46,to/TO-45)
+				infmod(person/NN-44,walk/VB-46)
+				det(Moon/NNP-49,the/DT-48)
+				prep_on(walk/VB-46,Moon/NNP-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apollo 14 was the longest walk performed by astronauts on the lunar surface.	</value>
+
+		<annotated-sentence>	[[Apollo 14|Apollo_14]] was [[the longest walk|American_Indian_Movement]] performed by [[astronauts|Astronaut]] on [[the lunar surface|Lunar_surface]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Apollo 14|Apollo_14]] was the longest walk performed by [[astronauts|Astronaut]] on the lunar surface.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(walk/NN-6,Apollo/NNP-1)
+				num(Apollo/NNP-1,14/CD-2)
+				cop(walk/NN-6,was/VBD-3)
+				det(walk/NN-6,the/DT-4)
+				amod(walk/NN-6,longest/JJS-5)
+				partmod(walk/NN-6,performed/VBN-7)
+				agent(performed/VBN-7,astronauts/NNS-9)
+				det(surface/NN-13,the/DT-11)
+				amod(surface/NN-13,lunar/JJ-12)
+				prep_on(astronauts/NNS-9,surface/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the longest walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Indian_Movement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the lunar surface</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lunar_surface</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apollo 14 was Mitchell's only spaceflight.	</value>
+
+		<annotated-sentence>	[[Apollo 14|Apollo_14]] was [[Mitchell|Hibbing,_Minnesota]]'s only [[spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Apollo 14|Apollo_14]] was Mitchell's only spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spaceflight/NN-7,Apollo/NNP-1)
+				num(Apollo/NNP-1,14/CD-2)
+				cop(spaceflight/NN-7,was/VBD-3)
+				poss(spaceflight/NN-7,Mitchell/NNP-4)
+				amod(spaceflight/NN-7,only/JJ-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He remained with NASA until 1972, when he retired from the Navy.	</value>
+
+		<annotated-sentence>	He remained with [[NASA|NASA]] until [[1972|1972_(album)]], when he retired from [[the Navy|Navy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He remained with [[NASA|NASA]] until 1972, when he retired from the Navy.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remained/VBD-2,He/PRP-1)
+				prep_with(remained/VBD-2,NASA/NNP-4)
+				prep_until(remained/VBD-2,1972/CD-6)
+				advmod(retired/VBD-10,when/WRB-8)
+				nsubj(retired/VBD-10,he/PRP-9)
+				advcl(remained/VBD-2,retired/VBD-10)
+				det(Navy/NNP-13,the/DT-12)
+				prep_from(retired/VBD-10,Navy/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ed Mitchell was awarded honorary doctorates from the New Mexico State University, the University of Akron, Carnegie Mellon University and Embry-Riddle Aeronautical University.	</value>
+
+		<annotated-sentence>	[[Ed Mitchell|Ed_Mitchell]] was awarded [[honorary doctorates|Honorary_degree]] from [[the New Mexico State University|New_Mexico_State_University]], [[the University of Akron|University_of_Akron]], [[Carnegie Mellon University|Carnegie_Mellon_University]] and [[Embry-Riddle Aeronautical University|Embry%E2%80%93Riddle_Aeronautical_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Ed Mitchell was awarded honorary doctorates from the New Mexico State University, the University of Akron, Carnegie Mellon University and Embry-Riddle Aeronautical University.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mitchell/NNP-2,Ed/NNP-1)
+				nsubjpass(awarded/VBN-4,Mitchell/NNP-2)
+				auxpass(awarded/VBN-4,was/VBD-3)
+				amod(doctorates/NNS-6,honorary/JJ-5)
+				dobj(awarded/VBN-4,doctorates/NNS-6)
+				det(University/NNP-12,the/DT-8)
+				nn(University/NNP-12,New/NNP-9)
+				nn(University/NNP-12,Mexico/NNP-10)
+				nn(University/NNP-12,State/NNP-11)
+				prep_from(awarded/VBN-4,University/NNP-12)
+				det(University/NNP-15,the/DT-14)
+				prep_from(awarded/VBN-4,University/NNP-15)
+				conj_and(University/NNP-12,University/NNP-15)
+				prep_of(University/NNP-15,Akron/NNP-17)
+				nn(University/NNP-21,Carnegie/NNP-19)
+				nn(University/NNP-21,Mellon/NNP-20)
+				prep_from(awarded/VBN-4,University/NNP-21)
+				conj_and(University/NNP-12,University/NNP-21)
+				nn(University/NNP-25,Embry-Riddle/NNP-23)
+				nn(University/NNP-25,Aeronautical/NNP-24)
+				prep_from(awarded/VBN-4,University/NNP-25)
+				conj_and(University/NNP-12,University/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Ed Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ed_Mitchell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>honorary doctorates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the New Mexico State University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Mexico_State_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Akron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Akron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Carnegie Mellon University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carnegie_Mellon_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Embry-Riddle Aeronautical University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Embry%E2%80%93Riddle_Aeronautical_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edgar Mitchell was presented with the Presidential Medal of Freedom in 1970 by President Richard Nixon.	</value>
+
+		<annotated-sentence>	[[Edgar Mitchell|Edgar_Mitchell]] was presented with [[the Presidential Medal of Freedom|Presidential_Medal_of_Freedom]] in [[1970|1970]] by [[President Richard Nixon|Richard_Nixon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Edgar Mitchell was presented with the Presidential Medal of Freedom in 1970 by President Richard Nixon.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mitchell/NNP-2,Edgar/NNP-1)
+				nsubjpass(presented/VBN-4,Mitchell/NNP-2)
+				auxpass(presented/VBN-4,was/VBD-3)
+				det(Medal/NN-8,the/DT-6)
+				nn(Medal/NN-8,Presidential/NNP-7)
+				prep_with(presented/VBN-4,Medal/NN-8)
+				prep_of(Medal/NN-8,Freedom/NNP-10)
+				prep_in(presented/VBN-4,1970/CD-12)
+				nn(Nixon/NNP-16,President/NNP-14)
+				nn(Nixon/NNP-16,Richard/NNP-15)
+				agent(presented/VBN-4,Nixon/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edgar Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edgar_Mitchell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Presidential Medal of Freedom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Presidential_Medal_of_Freedom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1970</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1970</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>President Richard Nixon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Richard_Nixon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On June 29, 2011, the United States Government filed a lawsuit against Mitchell in the United States District Court in Miami, Florida after discovering that he possessed a camera used by the Apollo 14 crew on the moon, and had put the camera up for auction at the British auction house Bonhams.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(filed/VBD-11,June/NNP-2)
+				num(June/NNP-2,29/CD-3)
+				num(June/NNP-2,2011/CD-5)
+				det(Government/NNP-10,the/DT-7)
+				nn(Government/NNP-10,United/NNP-8)
+				nn(Government/NNP-10,States/NNPS-9)
+				nsubj(filed/VBD-11,Government/NNP-10)
+				det(lawsuit/NN-13,a/DT-12)
+				dobj(filed/VBD-11,lawsuit/NN-13)
+				prep_against(filed/VBD-11,Mitchell/NNP-15)
+				det(Court/NNP-21,the/DT-17)
+				nn(Court/NNP-21,United/NNP-18)
+				nn(Court/NNP-21,States/NNPS-19)
+				nn(Court/NNP-21,District/NNP-20)
+				prep_in(Mitchell/NNP-15,Court/NNP-21)
+				nn(Florida/NNP-25,Miami/NNP-23)
+				prep_in(filed/VBD-11,Florida/NNP-25)
+				prepc_after(filed/VBD-11,discovering/VBG-27)
+				mark(possessed/VBD-30,that/IN-28)
+				nsubj(possessed/VBD-30,he/PRP-29)
+				nsubj(put/VBN-45,he/PRP-29)
+				ccomp(discovering/VBG-27,possessed/VBD-30)
+				det(camera/NN-32,a/DT-31)
+				dobj(possessed/VBD-30,camera/NN-32)
+				partmod(camera/NN-32,used/VBN-33)
+				det(crew/NN-38,the/DT-35)
+				nn(crew/NN-38,Apollo/NNP-36)
+				num(crew/NN-38,14/CD-37)
+				agent(used/VBN-33,crew/NN-38)
+				det(moon/NN-41,the/DT-40)
+				prep_on(crew/NN-38,moon/NN-41)
+				aux(put/VBN-45,had/VBD-44)
+				ccomp(discovering/VBG-27,put/VBN-45)
+				conj_and(possessed/VBD-30,put/VBN-45)
+				det(camera/NN-47,the/DT-46)
+				dobj(put/VBN-45,camera/NN-47)
+				prt(put/VBN-45,up/RP-48)
+				prep_for(put/VBN-45,auction/NN-50)
+				det(Bonhams/NNP-56,the/DT-52)
+				amod(Bonhams/NNP-56,British/JJ-53)
+				nn(Bonhams/NNP-56,auction/NN-54)
+				nn(Bonhams/NNP-56,house/NN-55)
+				prep_at(auction/NN-50,Bonhams/NNP-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The litigation asked that the camera be returned to NASA.	</value>
+
+		<annotated-sentence>	The [[litigation|Lawsuit]] asked that [[the camera|Camera]] be returned to [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The litigation asked that the camera be returned to [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(litigation/NN-2,The/DT-1)
+				nsubj(asked/VBD-3,litigation/NN-2)
+				mark(returned/VBN-8,that/IN-4)
+				det(camera/NN-6,the/DT-5)
+				nsubjpass(returned/VBN-8,camera/NN-6)
+				auxpass(returned/VBN-8,be/VB-7)
+				ccomp(asked/VBD-3,returned/VBN-8)
+				prep_to(returned/VBN-8,NASA/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>litigation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawsuit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the camera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Camera</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell's position was that NASA had given him the camera as a gift upon the completion of the Apollo 14 mission.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]]'s position was that [[NASA|NASA]] had given him [[the camera|Camera]] as [[a gift|Gift]] upon the completion of the [[Apollo 14|Apollo_14]] [[mission|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell's position was that [[NASA|NASA]] had given him the camera as a gift upon the completion of the [[Apollo 14|Apollo_14]] [[mission|Lyndon_B._Johnson_Space_Center]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(position/NN-3,Mitchell/NNP-1)
+				nsubj(was/VBD-4,position/NN-3)
+				mark(given/VBN-8,that/IN-5)
+				nsubj(given/VBN-8,NASA/NNP-6)
+				aux(given/VBN-8,had/VBD-7)
+				ccomp(was/VBD-4,given/VBN-8)
+				iobj(given/VBN-8,him/PRP-9)
+				det(camera/NN-11,the/DT-10)
+				dobj(given/VBN-8,camera/NN-11)
+				det(gift/NN-14,a/DT-13)
+				prep_as(camera/NN-11,gift/NN-14)
+				det(completion/NN-17,the/DT-16)
+				prep_upon(given/VBN-8,completion/NN-17)
+				det(mission/NN-22,the/DT-19)
+				nn(mission/NN-22,Apollo/NNP-20)
+				num(mission/NN-22,14/CD-21)
+				prep_of(completion/NN-17,mission/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the camera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Camera</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a gift</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gift</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Edgar_Mitchell
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Bonhams withdrew the camera from auction.	</value>
+
+		<annotated-sentence>	[[Bonhams|Bonhams]] withdrew [[the camera|Camera]] from [[auction|Auction]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Bonhams withdrew the camera from auction.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(withdrew/VBD-2,Bonhams/NNP-1)
+				det(camera/NN-4,the/DT-3)
+				dobj(withdrew/VBD-2,camera/NN-4)
+				prep_from(withdrew/VBD-2,auction/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Bonhams</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bonhams</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the camera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Camera</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>auction</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Auction</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In October, 2011, prosecutors and Mitchell reached a settlement agreement, under which Mitchell agreed to return the camera to NASA, which in turn would donate it for display at the National Air and Space Museum.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reached/VBD-9,October/NNP-2)
+				nsubj(reached/VBD-9,2011/CD-4)
+				conj_and(2011/CD-4,prosecutors/NNS-6)
+				nsubj(reached/VBD-9,prosecutors/NNS-6)
+				conj_and(2011/CD-4,Mitchell/NNP-8)
+				nsubj(reached/VBD-9,Mitchell/NNP-8)
+				det(agreement/NN-12,a/DT-10)
+				nn(agreement/NN-12,settlement/NN-11)
+				dobj(reached/VBD-9,agreement/NN-12)
+				prep_under(agreed/VBD-17,which/WDT-15)
+				nsubj(agreed/VBD-17,Mitchell/NNP-16)
+				rcmod(agreement/NN-12,agreed/VBD-17)
+				aux(return/VB-19,to/TO-18)
+				xcomp(agreed/VBD-17,return/VB-19)
+				det(camera/NN-21,the/DT-20)
+				dobj(return/VB-19,camera/NN-21)
+				prep_to(return/VB-19,NASA/NNP-23)
+				nsubj(donate/VB-29,which/WDT-25)
+				prep_in(donate/VB-29,turn/NN-27)
+				aux(donate/VB-29,would/MD-28)
+				rcmod(NASA/NNP-23,donate/VB-29)
+				dobj(donate/VB-29,it/PRP-30)
+				prep_for(donate/VB-29,display/NN-32)
+				det(Air/NNP-36,the/DT-34)
+				nn(Air/NNP-36,National/NNP-35)
+				prep_at(donate/VB-29,Air/NNP-36)
+				nn(Museum/NNP-39,Space/NNP-38)
+				prep_at(donate/VB-29,Museum/NNP-39)
+				conj_and(Air/NNP-36,Museum/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 20, 2012 Congress enacted H.R. 4158, confirming full ownership rights of artifacts to astronauts on Apollo (and Mercury and Gemini) space missions.	</value>
+
+		<annotated-sentence>	On [[September 20|September_20]], [[2012|2012]] Congress enacted [[H.R.|H.R.]] [[4158|List_of_minor_planets:_4001%E2%80%935000]], confirming full [[ownership|Ownership]] [[rights|Rights]] of artifacts to [[astronauts|Astronaut]] on [[Apollo|Apollo]] (and Mercury and Gemini) [[space missions|Space_exploration]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On September 20, 2012 Congress enacted H.R. 4158, confirming full ownership rights of artifacts to [[astronauts|Astronaut]] on Apollo (and Mercury and Gemini) space missions.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(enacted/VBN-7,September/NNP-2)
+				num(September/NNP-2,20/CD-3)
+				num(Congress/NNP-6,2012/CD-5)
+				nsubj(enacted/VBN-7,Congress/NNP-6)
+				dobj(enacted/VBN-7,H.R./NNP-8)
+				num(H.R./NNP-8,4158/CD-9)
+				partmod(enacted/VBN-7,confirming/VBG-11)
+				amod(rights/NNS-14,full/JJ-12)
+				nn(rights/NNS-14,ownership/NN-13)
+				dobj(confirming/VBG-11,rights/NNS-14)
+				prep_of(rights/NNS-14,artifacts/NNS-16)
+				prep_to(confirming/VBG-11,astronauts/NNS-18)
+				prep_on(astronauts/NNS-18,Apollo/NNP-20)
+				dep(Apollo/NNP-20,Mercury/NNP-23)
+				dep(Apollo/NNP-20,Gemini/NNP-25)
+				conj_and(Mercury/NNP-23,Gemini/NNP-25)
+				nn(missions/NNS-28,space/NN-27)
+				dep(Apollo/NNP-20,missions/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_20</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2012</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>H.R.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/H.R.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>4158</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_minor_planets:_4001%E2%80%935000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ownership</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ownership</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rights</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell's interests include consciousness and paranormal phenomena.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]]'s [[interests|Interest]] include consciousness and paranormal [[phenomena|Phenomenon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell's interests include consciousness and paranormal phenomena.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,Mitchell/NNP-1)
+				nsubj(include/VBP-4,interests/NNS-3)
+				nn(phenomena/NNS-8,consciousness/NN-5)
+				conj_and(consciousness/NN-5,paranormal/NN-7)
+				nn(phenomena/NNS-8,paranormal/NN-7)
+				dobj(include/VBP-4,phenomena/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>phenomena</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phenomenon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On his way back to earth during the Apollo 14 flight he had a powerful savikalpa sam?dhi experience, and also claimed to have conducted private ESP experiments with his friends on Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(way/NN-3,his/PRP$-2)
+				prep_on(had/VBD-13,way/NN-3)
+				advmod(way/NN-3,back/RB-4)
+				prep_to(back/RB-4,earth/NN-6)
+				det(flight/NN-11,the/DT-8)
+				nn(flight/NN-11,Apollo/NNP-9)
+				num(flight/NN-11,14/CD-10)
+				prep_during(way/NN-3,flight/NN-11)
+				nsubj(had/VBD-13,he/PRP-12)
+				nsubj(claimed/VBD-22,he/PRP-12)
+				det(experience/NN-18,a/DT-14)
+				amod(experience/NN-18,powerful/JJ-15)
+				nn(experience/NN-18,savikalpa/NN-16)
+				nn(experience/NN-18,sam?dhi/NN-17)
+				dobj(had/VBD-13,experience/NN-18)
+				advmod(claimed/VBD-22,also/RB-21)
+				conj_and(had/VBD-13,claimed/VBD-22)
+				aux(conducted/VBN-25,to/TO-23)
+				aux(conducted/VBN-25,have/VB-24)
+				xcomp(claimed/VBD-22,conducted/VBN-25)
+				amod(experiments/NNS-28,private/JJ-26)
+				nn(experiments/NNS-28,ESP/NNP-27)
+				dobj(conducted/VBN-25,experiments/NNS-28)
+				poss(friends/NNS-31,his/PRP$-30)
+				prep_with(conducted/VBN-25,friends/NNS-31)
+				prep_on(conducted/VBN-25,Earth/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The results of said experiments were published in the Journal of Parapsychology in 1971.	</value>
+
+		<annotated-sentence>	The [[results|Result]] of said [[experiments|Experiment]] were published in [[the Journal of Parapsychology|Journal_of_Parapsychology]] in [[1971|1971_(film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The results of said experiments were published in the Journal of Parapsychology in 1971.	</pattern_crowdsource>
+
+
+		<tree>
+				det(results/NNS-2,The/DT-1)
+				nsubj(said/VBD-4,results/NNS-2)
+				prep(results/NNS-2,of/IN-3)
+				nsubjpass(published/VBN-7,experiments/NNS-5)
+				auxpass(published/VBN-7,were/VBD-6)
+				ccomp(said/VBD-4,published/VBN-7)
+				det(Journal/NNP-10,the/DT-9)
+				prep_in(published/VBN-7,Journal/NNP-10)
+				prep_of(Journal/NNP-10,Parapsychology/NNP-12)
+				prep_in(published/VBN-7,1971/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>results</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Result</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Journal of Parapsychology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Journal_of_Parapsychology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1971</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1971_(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the founder of the Institute of Noetic Sciences (IONS) for the purpose of consciousness research and other "related phenomena."	</value>
+
+		<annotated-sentence>	He was the founder of [[the Institute|Institute]] of [[Noetic Sciences|Noetic_theory]] (IONS) for [[the purpose|Purpose]] of [[consciousness|Consciousness]] [[research|Research]] and other "related [[phenomena|Phenomenon]]."	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the founder of the Institute of Noetic Sciences (IONS) for the purpose of consciousness research and other "related phenomena."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(founder/NN-4,He/PRP-1)
+				cop(founder/NN-4,was/VBD-2)
+				det(founder/NN-4,the/DT-3)
+				det(Institute/NNP-7,the/DT-6)
+				prep_of(founder/NN-4,Institute/NNP-7)
+				nn(Sciences/NNP-10,Noetic/NNP-9)
+				prep_of(Institute/NNP-7,Sciences/NNP-10)
+				appos(Sciences/NNP-10,IONS/NNS-12)
+				det(purpose/NN-16,the/DT-15)
+				prep_for(Sciences/NNP-10,purpose/NN-16)
+				nn(research/NN-19,consciousness/NN-18)
+				prep_of(purpose/NN-16,research/NN-19)
+				amod(phenomena/NNS-24,other/JJ-21)
+				amod(phenomena/NNS-24,related/JJ-23)
+				prep_of(Institute/NNP-7,phenomena/NNS-24)
+				conj_and(Sciences/NNP-10,phenomena/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Noetic Sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Noetic_theory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the purpose</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purpose</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>consciousness</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consciousness</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>phenomena</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phenomenon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On the Opie and Anthony radio show, Buzz Aldrin described a psychic communication experiment that Mitchell conducted during the Apollo 14 flight, wherein Mitchell attempted to transmit information to an observer on the ground.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Opie/NNP-3,the/DT-2)
+				prep_on(described/VBD-11,Opie/NNP-3)
+				nn(show/NN-7,Anthony/NNP-5)
+				nn(show/NN-7,radio/NN-6)
+				conj_and(Opie/NNP-3,show/NN-7)
+				prep_on(described/VBD-11,show/NN-7)
+				nn(Aldrin/NNP-10,Buzz/NNP-9)
+				nsubj(described/VBD-11,Aldrin/NNP-10)
+				det(experiment/NN-15,a/DT-12)
+				amod(experiment/NN-15,psychic/JJ-13)
+				nn(experiment/NN-15,communication/NN-14)
+				dobj(described/VBD-11,experiment/NN-15)
+				dobj(conducted/VBN-18,that/WDT-16)
+				nsubj(conducted/VBN-18,Mitchell/NNP-17)
+				rcmod(experiment/NN-15,conducted/VBN-18)
+				det(flight/NN-23,the/DT-20)
+				nn(flight/NN-23,Apollo/NNP-21)
+				num(flight/NN-23,14/CD-22)
+				prep_during(conducted/VBN-18,flight/NN-23)
+				advmod(attempted/VBD-27,wherein/WRB-25)
+				nsubj(attempted/VBD-27,Mitchell/NNP-26)
+				rcmod(flight/NN-23,attempted/VBD-27)
+				aux(transmit/VB-29,to/TO-28)
+				xcomp(attempted/VBD-27,transmit/VB-29)
+				dobj(transmit/VB-29,information/NN-30)
+				det(observer/NN-33,an/DT-32)
+				prep_to(transmit/VB-29,observer/NN-33)
+				det(ground/NN-36,the/DT-35)
+				prep_on(observer/NN-33,ground/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Aldrin stated that the experiment was a complete failure.	</value>
+
+		<annotated-sentence>	[[Aldrin|Aldrin]] stated that [[the experiment|Experiment]] was [[a complete failure|Complete_Failure_(band)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Aldrin stated that the experiment was a complete failure.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(stated/VBD-2,Aldrin/NNP-1)
+				mark(failure/NN-9,that/IN-3)
+				det(experiment/NN-5,the/DT-4)
+				nsubj(failure/NN-9,experiment/NN-5)
+				cop(failure/NN-9,was/VBD-6)
+				det(failure/NN-9,a/DT-7)
+				amod(failure/NN-9,complete/JJ-8)
+				ccomp(stated/VBD-2,failure/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aldrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aldrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a complete failure</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Complete_Failure_(band)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell claims that a teenage remote healer who lives in Vancouver and uses the pseudonym Adam Dreamhealer helped him heal kidney cancer from a distance.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] claims that a teenage remote healer who lives in [[Vancouver|Vancouver]] and uses [[the pseudonym|Pseudonym]] Adam Dreamhealer helped him heal [[kidney cancer|Kidney_cancer]] from [[a distance|Distance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell claims that a teenage remote healer who lives in Vancouver and uses the pseudonym Adam Dreamhealer helped him heal kidney cancer from a distance.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(claims/VBZ-2,Mitchell/NNP-1)
+				mark(helped/VBD-18,that/IN-3)
+				det(healer/NN-7,a/DT-4)
+				amod(healer/NN-7,teenage/JJ-5)
+				amod(healer/NN-7,remote/JJ-6)
+				nsubj(helped/VBD-18,healer/NN-7)
+				nsubj(lives/VBZ-9,who/WP-8)
+				nsubj(uses/VBZ-13,who/WP-8)
+				rcmod(healer/NN-7,lives/VBZ-9)
+				prep_in(lives/VBZ-9,Vancouver/NNP-11)
+				rcmod(healer/NN-7,uses/VBZ-13)
+				conj_and(lives/VBZ-9,uses/VBZ-13)
+				det(pseudonym/NN-15,the/DT-14)
+				nsubj(Dreamhealer/NNP-17,pseudonym/NN-15)
+				nn(Dreamhealer/NNP-17,Adam/NNP-16)
+				xcomp(uses/VBZ-13,Dreamhealer/NNP-17)
+				ccomp(claims/VBZ-2,helped/VBD-18)
+				nsubj(heal/VB-20,him/PRP-19)
+				ccomp(helped/VBD-18,heal/VB-20)
+				nn(cancer/NN-22,kidney/NN-21)
+				dobj(heal/VB-20,cancer/NN-22)
+				det(distance/NN-25,a/DT-24)
+				prep_from(heal/VB-20,distance/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vancouver</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vancouver</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the pseudonym</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pseudonym</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>kidney cancer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kidney_cancer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a distance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell said that while he never had a biopsy, "I had a sonogram and MRI that was consistent with renal carcinoma."	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] said that while he never had [[a biopsy|Biopsy]], "I had a sonogram and MRI that was consistent with [[renal carcinoma|Renal_cell_carcinoma]]."	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell said that while he never had a biopsy, "I had a sonogram and MRI that was consistent with renal carcinoma."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(said/VBD-2,Mitchell/NNP-1)
+				mark(had/VBD-13,that/IN-3)
+				mark(had/VBD-7,while/IN-4)
+				nsubj(had/VBD-7,he/PRP-5)
+				neg(had/VBD-7,never/RB-6)
+				advcl(had/VBD-13,had/VBD-7)
+				det(biopsy/NN-9,a/DT-8)
+				dobj(had/VBD-7,biopsy/NN-9)
+				nsubj(had/VBD-13,I/PRP-12)
+				ccomp(said/VBD-2,had/VBD-13)
+				det(sonogram/NN-15,a/DT-14)
+				dobj(had/VBD-13,sonogram/NN-15)
+				dobj(had/VBD-13,MRI/NNP-17)
+				conj_and(sonogram/NN-15,MRI/NNP-17)
+				nsubj(consistent/JJ-20,that/WDT-18)
+				cop(consistent/JJ-20,was/VBD-19)
+				rcmod(MRI/NNP-17,consistent/JJ-20)
+				amod(carcinoma/NN-23,renal/JJ-22)
+				prep_with(consistent/JJ-20,carcinoma/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a biopsy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biopsy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>renal carcinoma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Renal_cell_carcinoma</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Adam worked (distantly) on Mitchell from December 2003 until June 2004, when the "irregularity was gone and we haven't seen it since".	</value>
+
+		<annotated-sentence>	Adam worked (distantly) on [[Mitchell|Hibbing,_Minnesota]] from [[December 2003|December_2003]] until [[June 2004|June_2004]], when the "[[irregularity|Canonical_impediment]] was gone and we haven't seen it since".	</annotated-sentence>
+
+		<pattern_crowdsource>	Adam worked (distantly) on Mitchell from December 2003 until June 2004, when the "irregularity was gone and we haven't seen it since".	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,Adam/NNP-1)
+				ccomp(worked/VBD-2,distantly/RB-4)
+				prep_on(distantly/RB-4,Mitchell/NNP-7)
+				prep_from(worked/VBD-2,December/NNP-9)
+				num(December/NNP-9,2003/CD-10)
+				prep_until(worked/VBD-2,June/NNP-12)
+				num(June/NNP-12,2004/CD-13)
+				advmod(gone/VBN-20,when/WRB-15)
+				det(irregularity/NN-18,the/DT-16)
+				nsubjpass(gone/VBN-20,irregularity/NN-18)
+				auxpass(gone/VBN-20,was/VBD-19)
+				advcl(worked/VBD-2,gone/VBN-20)
+				nsubj(seen/VBN-25,we/PRP-22)
+				aux(seen/VBN-25,have/VBP-23)
+				neg(seen/VBN-25,n't/RB-24)
+				conj_and(worked/VBD-2,seen/VBN-25)
+				xcomp(seen/VBN-25,it/PRP-26)
+				advmod(seen/VBN-25,since/IN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2003</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>irregularity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canonical_impediment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell has publicly expressed his opinions that he is "90 percent sure that many of the thousands of unidentified flying objects, or UFOs, recorded since the 1940s, belong to visitors from other planets".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(expressed/VBN-4,Mitchell/NNP-1)
+				aux(expressed/VBN-4,has/VBZ-2)
+				advmod(expressed/VBN-4,publicly/RB-3)
+				poss(opinions/NNS-6,his/PRP$-5)
+				dobj(expressed/VBN-4,opinions/NNS-6)
+				mark(is/VBZ-9,that/IN-7)
+				nsubj(is/VBZ-9,he/PRP-8)
+				ccomp(expressed/VBN-4,is/VBZ-9)
+				num(percent/NN-12,90/CD-11)
+				npadvmod(sure/JJ-13,percent/NN-12)
+				dep(is/VBZ-9,sure/JJ-13)
+				mark(belong/VBP-32,that/IN-14)
+				nsubj(belong/VBP-32,many/JJ-15)
+				det(thousands/NNS-18,the/DT-17)
+				prep_of(many/JJ-15,thousands/NNS-18)
+				amod(objects/NNS-22,unidentified/JJ-20)
+				amod(objects/NNS-22,flying/VBG-21)
+				prep_of(thousands/NNS-18,objects/NNS-22)
+				conj_or(many/JJ-15,UFOs/NNS-25)
+				nsubj(belong/VBP-32,UFOs/NNS-25)
+				partmod(UFOs/NNS-25,recorded/VBN-27)
+				det(1940s/CD-30,the/DT-29)
+				prep_since(recorded/VBN-27,1940s/CD-30)
+				ccomp(sure/JJ-13,belong/VBP-32)
+				prep_to(belong/VBP-32,visitors/NNS-34)
+				amod(planets/NNS-37,other/JJ-36)
+				prep_from(visitors/NNS-34,planets/NNS-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dateline NBC conducted an interview with Mitchell on April 19, 1996, during which he discussed meeting with officials from three countries who claimed to have had personal encounters with extraterrestrials.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(NBC/NNP-2,Dateline/NNP-1)
+				nsubj(conducted/VBD-3,NBC/NNP-2)
+				det(interview/NN-5,an/DT-4)
+				dobj(conducted/VBD-3,interview/NN-5)
+				prep_with(conducted/VBD-3,Mitchell/NNP-7)
+				prep_on(conducted/VBD-3,April/NNP-9)
+				num(April/NNP-9,19/CD-10)
+				num(April/NNP-9,1996/CD-12)
+				prep_during(discussed/VBD-17,which/WDT-15)
+				nsubj(discussed/VBD-17,he/PRP-16)
+				rcmod(April/NNP-9,discussed/VBD-17)
+				dobj(discussed/VBD-17,meeting/NN-18)
+				prep_with(discussed/VBD-17,officials/NNS-20)
+				num(countries/NNS-23,three/CD-22)
+				prep_from(discussed/VBD-17,countries/NNS-23)
+				nsubj(claimed/VBD-25,who/WP-24)
+				rcmod(countries/NNS-23,claimed/VBD-25)
+				aux(had/VBN-28,to/TO-26)
+				aux(had/VBN-28,have/VB-27)
+				xcomp(claimed/VBD-25,had/VBN-28)
+				amod(encounters/NNS-30,personal/JJ-29)
+				dobj(had/VBN-28,encounters/NNS-30)
+				prep_with(had/VBN-28,extraterrestrials/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He offered his opinion that the evidence for such "alien" contact was "very strong" and "classified" by governments, who were covering up visitations and the existence of alien beings' bodies in places such as Roswell, New Mexico.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(offered/VBD-2,He/PRP-1)
+				nsubj(classified/VBN-21,He/PRP-1)
+				poss(opinion/NN-4,his/PRP$-3)
+				dobj(offered/VBD-2,opinion/NN-4)
+				mark(strong/JJ-17,that/IN-5)
+				det(evidence/NN-7,the/DT-6)
+				nsubj(strong/JJ-17,evidence/NN-7)
+				prep_for(evidence/NN-7,such/JJ-9)
+				amod(contact/NN-13,alien/JJ-11)
+				dep(such/JJ-9,contact/NN-13)
+				cop(strong/JJ-17,was/VBD-14)
+				advmod(strong/JJ-17,very/RB-16)
+				ccomp(offered/VBD-2,strong/JJ-17)
+				conj_and(offered/VBD-2,classified/VBN-21)
+				prep_by(classified/VBN-21,governments/NNS-24)
+				nsubj(covering/VBG-28,who/WP-26)
+				aux(covering/VBG-28,were/VBD-27)
+				rcmod(governments/NNS-24,covering/VBG-28)
+				prt(covering/VBG-28,up/RP-29)
+				dobj(covering/VBG-28,visitations/NNS-30)
+				det(existence/NN-33,the/DT-32)
+				dobj(covering/VBG-28,existence/NN-33)
+				conj_and(visitations/NNS-30,existence/NN-33)
+				amod(beings/NNS-36,alien/JJ-35)
+				poss(bodies/NNS-38,beings/NNS-36)
+				prep_of(existence/NN-33,bodies/NNS-38)
+				prep_in(covering/VBG-28,places/NNS-40)
+				prep_such_as(places/NNS-40,Roswell/NNP-43)
+				nn(Mexico/NNP-46,New/NNP-45)
+				appos(Roswell/NNP-43,Mexico/NNP-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He further claimed that UFOs had provided "sonic engineering secrets" that were helpful to the U.S. government.	</value>
+
+		<annotated-sentence>	He further claimed that [[UFOs|Unidentified_flying_object]] had provided "sonic [[engineering|Engineering]] secrets" that were helpful to [[the U.S. government|Federal_government_of_the_United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He further claimed that UFOs had provided "sonic engineering secrets" that were helpful to the U.S. government.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(claimed/VBD-3,He/PRP-1)
+				advmod(claimed/VBD-3,further/RB-2)
+				mark(provided/VBN-7,that/IN-4)
+				nsubj(provided/VBN-7,UFOs/NNS-5)
+				aux(provided/VBN-7,had/VBD-6)
+				ccomp(claimed/VBD-3,provided/VBN-7)
+				amod(secrets/NNS-11,sonic/JJ-9)
+				nn(secrets/NNS-11,engineering/NN-10)
+				xcomp(provided/VBN-7,secrets/NNS-11)
+				nsubj(helpful/JJ-15,that/WDT-13)
+				cop(helpful/JJ-15,were/VBD-14)
+				rcmod(secrets/NNS-11,helpful/JJ-15)
+				det(government/NN-19,the/DT-17)
+				nn(government/NN-19,U.S./NNP-18)
+				prep_to(helpful/JJ-15,government/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>UFOs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Unidentified_flying_object</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. government</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Federal_government_of_the_United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell's book, The Way of the Explorer, discusses his journey into mysticism and space.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]]'s [[book|Book]], The Way of the Explorer, discusses his journey into [[mysticism and space|Nazism_and_occultism]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell's book, The Way of the Explorer, discusses his journey into mysticism and space.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(book/NN-3,Mitchell/NNP-1)
+				nsubj(discusses/VBZ-11,book/NN-3)
+				det(Way/NN-6,The/DT-5)
+				appos(book/NN-3,Way/NN-6)
+				det(Explorer/NNP-9,the/DT-8)
+				prep_of(Way/NN-6,Explorer/NNP-9)
+				poss(journey/NN-13,his/PRP$-12)
+				dobj(discusses/VBZ-11,journey/NN-13)
+				prep_into(discusses/VBZ-11,mysticism/NN-15)
+				prep_into(discusses/VBZ-11,space/NN-17)
+				conj_and(mysticism/NN-15,space/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mysticism and space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nazism_and_occultism</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2004 he told the St. Petersburg Times that a "cabal of insiders" in the U.S. government were studying recovered alien bodies, and that this group had stopped briefing U.S. Presidents after John F. Kennedy.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(told/VBD-4,2004/CD-2)
+				nsubj(told/VBD-4,he/PRP-3)
+				det(Times/NNP-8,the/DT-5)
+				nn(Times/NNP-8,St./NNP-6)
+				nn(Times/NNP-8,Petersburg/NNP-7)
+				dobj(told/VBD-4,Times/NNP-8)
+				mark(studying/VBG-21,that/IN-9)
+				det(cabal/NN-12,a/DT-10)
+				nsubj(studying/VBG-21,cabal/NN-12)
+				prep_of(cabal/NN-12,insiders/NNS-14)
+				det(government/NN-19,the/DT-17)
+				nn(government/NN-19,U.S./NNP-18)
+				prep_in(insiders/NNS-14,government/NN-19)
+				aux(studying/VBG-21,were/VBD-20)
+				ccomp(told/VBD-4,studying/VBG-21)
+				dep(studying/VBG-21,recovered/VBN-22)
+				amod(bodies/NNS-24,alien/JJ-23)
+				dobj(recovered/VBN-22,bodies/NNS-24)
+				mark(stopped/VBN-31,that/IN-27)
+				det(group/NN-29,this/DT-28)
+				nsubj(stopped/VBN-31,group/NN-29)
+				aux(stopped/VBN-31,had/VBD-30)
+				ccomp(told/VBD-4,stopped/VBN-31)
+				conj_and(studying/VBG-21,stopped/VBN-31)
+				nn(Presidents/NNS-34,briefing/NN-32)
+				nn(Presidents/NNS-34,U.S./NNP-33)
+				dobj(stopped/VBN-31,Presidents/NNS-34)
+				nn(Kennedy/NNP-38,John/NNP-36)
+				nn(Kennedy/NNP-38,F./NNP-37)
+				prep_after(Presidents/NNS-34,Kennedy/NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He said, "We all know that UFOs are real; now the question is where they come from."	</value>
+
+		<annotated-sentence>	He said, "We all know that [[UFOs|Unidentified_flying_object]] are real; now the question is where they come from."	</annotated-sentence>
+
+		<pattern_crowdsource>	He said, "We all know that UFOs are real; now the question is where they come from."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(said/VBD-2,He/PRP-1)
+				nsubj(know/VBP-7,We/PRP-5)
+				advmod(know/VBP-7,all/DT-6)
+				dep(said/VBD-2,know/VBP-7)
+				mark(real/JJ-11,that/IN-8)
+				nsubj(real/JJ-11,UFOs/NNS-9)
+				cop(real/JJ-11,are/VBP-10)
+				ccomp(know/VBP-7,real/JJ-11)
+				advmod(is/VBZ-16,now/RB-13)
+				det(question/NN-15,the/DT-14)
+				nsubj(is/VBZ-16,question/NN-15)
+				parataxis(know/VBP-7,is/VBZ-16)
+				advmod(come/VBP-19,where/WRB-17)
+				nsubj(come/VBP-19,they/PRP-18)
+				advcl(is/VBZ-16,come/VBP-19)
+				prep(come/VBP-19,from/IN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>UFOs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Unidentified_flying_object</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 23, 2008 Edgar Mitchell was interviewed on Kerrang Radio by Nick Margerrison.	</value>
+
+		<annotated-sentence>	On [[July|July]] 23, 2008 [[Edgar Mitchell|Edgar_Mitchell]] was interviewed on [[Kerrang Radio|Kerrang_Radio]] by [[Nick Margerrison|Nick_Margerrison]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On July 23, 2008 Edgar Mitchell was interviewed on Kerrang Radio by Nick Margerrison.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(interviewed/VBN-9,July/NNP-2)
+				num(July/NNP-2,23/CD-3)
+				num(July/NNP-2,2008/CD-5)
+				nn(Mitchell/NNP-7,Edgar/NNP-6)
+				nsubjpass(interviewed/VBN-9,Mitchell/NNP-7)
+				auxpass(interviewed/VBN-9,was/VBD-8)
+				nn(Radio/NNP-12,Kerrang/NNP-11)
+				prep_on(interviewed/VBN-9,Radio/NNP-12)
+				nn(Margerrison/NNP-15,Nick/NNP-14)
+				agent(interviewed/VBN-9,Margerrison/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edgar Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edgar_Mitchell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kerrang Radio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kerrang_Radio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Nick Margerrison</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nick_Margerrison</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell claimed the Roswell crash was real and that aliens have contacted humans several times, but that governments have hidden the truth for 60 years, stating: "I happen to have been privileged enough to be in on the fact that we've been visited on this planet, and the UFO phenomenon is real."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(claimed/VBD-2,Mitchell/NNP-1)
+				det(crash/NN-5,the/DT-3)
+				nn(crash/NN-5,Roswell/NNP-4)
+				nsubj(real/JJ-7,crash/NN-5)
+				cop(real/JJ-7,was/VBD-6)
+				ccomp(claimed/VBD-2,real/JJ-7)
+				mark(contacted/VBN-12,that/IN-9)
+				nsubj(contacted/VBN-12,aliens/NNS-10)
+				aux(contacted/VBN-12,have/VBP-11)
+				ccomp(claimed/VBD-2,contacted/VBN-12)
+				conj_and(real/JJ-7,contacted/VBN-12)
+				dobj(contacted/VBN-12,humans/NNS-13)
+				amod(times/NNS-15,several/JJ-14)
+				tmod(contacted/VBN-12,times/NNS-15)
+				cc(contacted/VBN-12,but/CC-17)
+				mark(hidden/VBN-21,that/IN-18)
+				nsubj(hidden/VBN-21,governments/NNS-19)
+				aux(hidden/VBN-21,have/VBP-20)
+				ccomp(contacted/VBN-12,hidden/VBN-21)
+				det(truth/NN-23,the/DT-22)
+				dobj(hidden/VBN-21,truth/NN-23)
+				num(years/NNS-26,60/CD-25)
+				prep_for(truth/NN-23,years/NNS-26)
+				partmod(hidden/VBN-21,stating/VBG-28)
+				nsubj(happen/VB-32,I/PRP-31)
+				ccomp(stating/VBG-28,happen/VB-32)
+				aux(privileged/JJ-36,to/TO-33)
+				aux(privileged/JJ-36,have/VB-34)
+				cop(privileged/JJ-36,been/VBN-35)
+				xcomp(happen/VB-32,privileged/JJ-36)
+				advmod(privileged/JJ-36,enough/RB-37)
+				aux(be/VB-39,to/TO-38)
+				xcomp(privileged/JJ-36,be/VB-39)
+				prep(be/VB-39,in/IN-40)
+				pcomp(in/IN-40,on/IN-41)
+				det(fact/NN-43,the/DT-42)
+				pobj(on/IN-41,fact/NN-43)
+				mark(visited/VBN-48,that/IN-44)
+				nsubjpass(visited/VBN-48,we/PRP-45)
+				aux(visited/VBN-48,'ve/VBP-46)
+				auxpass(visited/VBN-48,been/VBN-47)
+				ccomp(privileged/JJ-36,visited/VBN-48)
+				det(planet/NN-51,this/DT-50)
+				prep_on(visited/VBN-48,planet/NN-51)
+				det(phenomenon/NN-56,the/DT-54)
+				nn(phenomenon/NN-56,UFO/NNP-55)
+				nsubj(real/JJ-58,phenomenon/NN-56)
+				cop(real/JJ-58,is/VBZ-57)
+				conj_and(claimed/VBD-2,real/JJ-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In reply, a spokesman for NASA stated: "NASA does not track UFOs.	</value>
+
+		<annotated-sentence>	In [[reply|Reply]], [[a spokesman|Spokesperson]] for [[NASA|NASA]] stated: "[[NASA|NASA]] does not track [[UFOs|Unidentified_flying_object]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In reply, a spokesman for [[NASA|NASA]] stated: "[[NASA|NASA]] does not track UFOs.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(stated/VBD-8,reply/NN-2)
+				det(spokesman/NN-5,a/DT-4)
+				nsubj(stated/VBD-8,spokesman/NN-5)
+				prep_for(spokesman/NN-5,NASA/NNP-7)
+				nsubj(track/VB-14,NASA/NNP-11)
+				aux(track/VB-14,does/VBZ-12)
+				neg(track/VB-14,not/RB-13)
+				ccomp(stated/VBD-8,track/VB-14)
+				dobj(track/VB-14,UFOs/NNS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>reply</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reply</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a spokesman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spokesperson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UFOs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Unidentified_flying_object</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	NASA is not involved in any sort of cover up about alien life on this planet or anywhere in the universe.	</value>
+
+		<annotated-sentence>	[[NASA|NASA]] is not involved in [[any sort|SORT]] of cover up about [[alien life|Extraterrestrial_life]] on this [[planet|Planet]] or anywhere in the universe.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[NASA|NASA]] is not involved in any sort of cover up about alien life on this planet or anywhere in the universe.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(involved/VBN-4,NASA/NNP-1)
+				auxpass(involved/VBN-4,is/VBZ-2)
+				neg(involved/VBN-4,not/RB-3)
+				det(sort/NN-7,any/DT-6)
+				prep_in(involved/VBN-4,sort/NN-7)
+				prep_of(sort/NN-7,cover/NN-9)
+				advmod(involved/VBN-4,up/IN-10)
+				amod(life/NN-13,alien/JJ-12)
+				prep_about(up/IN-10,life/NN-13)
+				det(planet/NN-16,this/DT-15)
+				prep_on(involved/VBN-4,planet/NN-16)
+				cc(planet/NN-16,or/CC-17)
+				advmod(planet/NN-16,anywhere/RB-18)
+				det(universe/NN-21,the/DT-20)
+				prep_in(involved/VBN-4,universe/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>any sort</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SORT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>alien life</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extraterrestrial_life</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>planet</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Planet</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Edgar_Mitchell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr Mitchell is a great American, but we do not share his opinions on this issue."	</value>
+
+		<annotated-sentence>	Dr [[Mitchell|Hibbing,_Minnesota]] is a great American, but we do not share [[his opinions|With_the_Lights_Out]] on this issue."	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr Mitchell is a great American, but we do not share his opinions on this issue."	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mitchell/NNP-2,Dr/NNP-1)
+				nsubj(American/JJ-6,Mitchell/NNP-2)
+				cop(American/JJ-6,is/VBZ-3)
+				dep(American/JJ-6,a/DT-4)
+				amod(American/JJ-6,great/JJ-5)
+				nsubj(share/VB-12,we/PRP-9)
+				aux(share/VB-12,do/VBP-10)
+				neg(share/VB-12,not/RB-11)
+				conj_but(American/JJ-6,share/VB-12)
+				poss(opinions/NNS-14,his/PRP$-13)
+				dobj(share/VB-12,opinions/NNS-14)
+				det(issue/NN-17,this/DT-16)
+				prep_on(share/VB-12,issue/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his opinions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/With_the_Lights_Out</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In an interview with Fox News on July 25, 2008, Mitchell clarified that his comments did not involve NASA, but quoted unnamed sources, since deceased, at Roswell who confided to him that the Roswell incident did involve an alien craft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(interview/NN-3,an/DT-2)
+				prep_in(clarified/VBD-14,interview/NN-3)
+				nn(News/NNP-6,Fox/NNP-5)
+				prep_with(interview/NN-3,News/NNP-6)
+				prep_on(News/NNP-6,July/NNP-8)
+				num(July/NNP-8,25/CD-9)
+				num(July/NNP-8,2008/CD-11)
+				nsubj(clarified/VBD-14,Mitchell/NNP-13)
+				mark(involve/VB-20,that/IN-15)
+				poss(comments/NNS-17,his/PRP$-16)
+				nsubj(involve/VB-20,comments/NNS-17)
+				nsubj(quoted/VBD-24,comments/NNS-17)
+				aux(involve/VB-20,did/VBD-18)
+				neg(involve/VB-20,not/RB-19)
+				ccomp(clarified/VBD-14,involve/VB-20)
+				dobj(involve/VB-20,NASA/NNP-21)
+				ccomp(clarified/VBD-14,quoted/VBD-24)
+				conj_but(involve/VB-20,quoted/VBD-24)
+				amod(sources/NNS-26,unnamed/JJ-25)
+				dobj(quoted/VBD-24,sources/NNS-26)
+				prep_since(clarified/VBD-14,deceased/VBN-29)
+				prep_at(clarified/VBD-14,Roswell/NNP-32)
+				nsubj(confided/VBD-34,who/WP-33)
+				rcmod(Roswell/NNP-32,confided/VBD-34)
+				prep_to(confided/VBD-34,him/PRP-36)
+				mark(involve/VB-42,that/IN-37)
+				det(incident/NN-40,the/DT-38)
+				nn(incident/NN-40,Roswell/NNP-39)
+				nsubj(involve/VB-42,incident/NN-40)
+				aux(involve/VB-42,did/VBD-41)
+				ccomp(confided/VBD-34,involve/VB-42)
+				det(craft/NN-45,an/DT-43)
+				amod(craft/NN-45,alien/JJ-44)
+				dobj(involve/VB-42,craft/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell also claims to have subsequently received confirmation from an unnamed intelligence officer at the Pentagon.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] also claims to have subsequently received [[confirmation|Confirmation]] from an unnamed [[intelligence officer|Intelligence_officer]] at [[the Pentagon|Pentagon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell also claims to have subsequently received confirmation from an unnamed intelligence officer at the Pentagon.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(claims/VBZ-3,Mitchell/NNP-1)
+				advmod(claims/VBZ-3,also/RB-2)
+				aux(received/VBN-7,to/TO-4)
+				aux(received/VBN-7,have/VB-5)
+				advmod(received/VBN-7,subsequently/RB-6)
+				xcomp(claims/VBZ-3,received/VBN-7)
+				dobj(received/VBN-7,confirmation/NN-8)
+				det(officer/NN-13,an/DT-10)
+				amod(officer/NN-13,unnamed/JJ-11)
+				nn(officer/NN-13,intelligence/NN-12)
+				prep_from(received/VBN-7,officer/NN-13)
+				det(Pentagon/NNP-16,the/DT-15)
+				prep_at(received/VBN-7,Pentagon/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>confirmation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Confirmation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>intelligence officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Intelligence_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Pentagon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pentagon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Edgar Mitchell appears in the documentaries In the Shadow of the Moon, The Phoenix Lights...We Are Not Alone, and The Living Matrix.	</value>
+
+		<annotated-sentence>	[[Edgar Mitchell|Edgar_Mitchell]] appears in the documentaries In [[the Shadow of the Moon|Shadow_of_the_Moon]], The [[Phoenix Lights|Phoenix_Lights]]...We Are Not Alone, and The Living Matrix.	</annotated-sentence>
+
+		<pattern_crowdsource>	Edgar Mitchell appears in the documentaries In the Shadow of the Moon, The Phoenix Lights...We Are Not Alone, and The Living Matrix.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Mitchell/NNP-2,Edgar/NNP-1)
+				nsubj(appears/VBZ-3,Mitchell/NNP-2)
+				det(documentaries/NNS-6,the/DT-5)
+				prep_in(appears/VBZ-3,documentaries/NNS-6)
+				det(Shadow/NNP-9,the/DT-8)
+				prep_in(appears/VBZ-3,Shadow/NNP-9)
+				det(Moon/NNP-12,the/DT-11)
+				prep_of(Shadow/NNP-9,Moon/NNP-12)
+				det(Lights/NNS-16,The/DT-14)
+				nn(Lights/NNS-16,Phoenix/NNP-15)
+				prep_in(appears/VBZ-3,Lights/NNS-16)
+				conj_and(Shadow/NNP-9,Lights/NNS-16)
+				nsubj(Are/VBP-19,We/PRP-18)
+				dep(Lights/NNS-16,Are/VBP-19)
+				neg(Are/VBP-19,Not/RB-20)
+				advmod(Are/VBP-19,Alone/RB-21)
+				det(Matrix/NNP-26,The/DT-24)
+				amod(Matrix/NNP-26,Living/VBG-25)
+				prep_in(appears/VBZ-3,Matrix/NNP-26)
+				conj_and(Shadow/NNP-9,Matrix/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edgar Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edgar_Mitchell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Shadow of the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shadow_of_the_Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Phoenix Lights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phoenix_Lights</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell has written several articles and essays, as well as two books.	</value>
+
+		<annotated-sentence>	[[Mitchell|Hibbing,_Minnesota]] has written several articles and essays, as well as [[two books|Book]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mitchell has written several articles and essays, as well as two books.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(written/VBN-3,Mitchell/NNP-1)
+				aux(written/VBN-3,has/VBZ-2)
+				amod(articles/NNS-5,several/JJ-4)
+				dobj(written/VBN-3,articles/NNS-5)
+				dobj(written/VBN-3,essays/NNS-7)
+				conj_and(articles/NNS-5,essays/NNS-7)
+				num(books/NNS-13,two/CD-12)
+				dobj(written/VBN-3,books/NNS-13)
+				conj_and(articles/NNS-5,books/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two books</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In The Way of the Explorer, Mitchell proposed a dyadic model of reality.	</value>
+
+		<annotated-sentence>	In The Way of the Explorer, [[Mitchell|Hibbing,_Minnesota]] proposed a dyadic [[model|Model]] of [[reality|Reality]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In The Way of the Explorer, Mitchell proposed a dyadic model of reality.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Way/NN-3,The/DT-2)
+				prep_in(proposed/VBD-9,Way/NN-3)
+				det(Explorer/NNP-6,the/DT-5)
+				prep_of(Way/NN-3,Explorer/NNP-6)
+				nsubj(proposed/VBD-9,Mitchell/NNP-8)
+				det(model/NN-12,a/DT-10)
+				amod(model/NN-12,dyadic/JJ-11)
+				dobj(proposed/VBD-9,model/NN-12)
+				prep_of(model/NN-12,reality/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mitchell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hibbing,_Minnesota</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>model</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>reality</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reality</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently the Advisory Board Chairman of the Institute for Cooperation in Space, co-founded by Dr. Carol Rosin and is a member of INREES.	</value>
+
+		<annotated-sentence>	He is currently the Advisory [[Board Chairman|Board_Chairman]] of [[the Institute|Institute]] for [[Cooperation|Cooperation]] in [[Space|Space]], co-founded by [[Dr. Carol Rosin|Carol_Rosin]] and is a member of INREES.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently the Advisory Board Chairman of the Institute for Cooperation in Space, co-founded by Dr. Carol Rosin and is a member of INREES.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Chairman/NNP-7,He/PRP-1)
+				cop(Chairman/NNP-7,is/VBZ-2)
+				advmod(Chairman/NNP-7,currently/RB-3)
+				det(Chairman/NNP-7,the/DT-4)
+				nn(Chairman/NNP-7,Advisory/NNP-5)
+				nn(Chairman/NNP-7,Board/NNP-6)
+				det(Institute/NNP-10,the/DT-9)
+				prep_of(Chairman/NNP-7,Institute/NNP-10)
+				prep_for(Chairman/NNP-7,Cooperation/NNP-12)
+				prep_in(Cooperation/NNP-12,Space/NNP-14)
+				dep(Chairman/NNP-7,co-founded/VBN-16)
+				nn(Rosin/NNP-20,Dr./NNP-18)
+				nn(Rosin/NNP-20,Carol/NNP-19)
+				prep_by(co-founded/VBN-16,Rosin/NNP-20)
+				cop(member/NN-24,is/VBZ-22)
+				det(member/NN-24,a/DT-23)
+				dep(Chairman/NNP-7,member/NN-24)
+				conj_and(co-founded/VBN-16,member/NN-24)
+				prep_of(member/NN-24,INREES/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Board Chairman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Board_Chairman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cooperation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cooperation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Carol Rosin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carol_Rosin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mitchell is one of the initial supporters of the Campaign for the Establishment of a United Nations Parliamentary Assembly – which would be a first step towards a "world parliament".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,Mitchell/NNP-1)
+				cop(one/CD-3,is/VBZ-2)
+				det(supporters/NNS-7,the/DT-5)
+				amod(supporters/NNS-7,initial/JJ-6)
+				prep_of(one/CD-3,supporters/NNS-7)
+				det(Campaign/NNP-10,the/DT-9)
+				prep_of(supporters/NNS-7,Campaign/NNP-10)
+				det(Establishment/NN-13,the/DT-12)
+				prep_for(Campaign/NNP-10,Establishment/NN-13)
+				det(Assembly/NNP-19,a/DT-15)
+				nn(Assembly/NNP-19,United/NNP-16)
+				nn(Assembly/NNP-19,Nations/NNPS-17)
+				nn(Assembly/NNP-19,Parliamentary/NNP-18)
+				prep_of(Establishment/NN-13,Assembly/NNP-19)
+				nsubj(step/NN-26,which/WDT-21)
+				aux(step/NN-26,would/MD-22)
+				cop(step/NN-26,be/VB-23)
+				det(step/NN-26,a/DT-24)
+				amod(step/NN-26,first/JJ-25)
+				rcmod(supporters/NNS-7,step/NN-26)
+				det(parliament/NN-31,a/DT-28)
+				nn(parliament/NN-31,world/NN-30)
+				prep_towards(step/NN-26,parliament/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	1998 HBO TV series From the Earth to the Moon – played by Gary Cole	</value>
+
+		<annotated-sentence>	[[1998|1998]] [[HBO|HBO]] [[TV series|Batman_(TV_series)]] [[From|From_(SQL)]] [[the Earth|Earth]] to [[the Moon|Moon]] – played by [[Gary Cole|Gary_Cole]]	</annotated-sentence>
+
+		<pattern_crowdsource>	1998 HBO TV series From [[the Earth|Earth]] to [[the Moon|Moon]] – played by Gary Cole	</pattern_crowdsource>
+
+
+		<tree>
+				num(series/NN-4,1998/CD-1)
+				nn(series/NN-4,HBO/NNP-2)
+				nn(series/NN-4,TV/NNP-3)
+				det(Earth/NNP-7,the/DT-6)
+				prep_from(series/NN-4,Earth/NNP-7)
+				det(Moon/NNP-10,the/DT-9)
+				prep_to(series/NN-4,Moon/NNP-10)
+				partmod(Moon/NNP-10,played/VBN-12)
+				nn(Cole/NNP-15,Gary/NNP-14)
+				agent(played/VBN-12,Cole/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HBO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HBO</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TV series</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Batman_(TV_series)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>From</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/From_(SQL)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gary Cole</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gary_Cole</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Moon http://dbpedia.org/property/satelliteOf http://dbpedia.org/resource/Earth
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Bladder biopsy is a procedure that involves removing a small piece of tissue from the bladder.</value>
+		<pattern_crowdsource> [[Bladder|C0005682]] [[biopsy|C0005558]] is a [[procedure|C0184661]] that involves removing a small piece of tissue from the [[bladder|C0005682]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>removing</surface-form>
+				<RDF-ID>C0849355</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005558 ISA C0184661</triple>
+			<triple>C0005682 LOCATION_OF C0005558</triple>
+			<triple>C0005682 LOCATION_OF C0005558</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A bladder biopsy can be done as part of a cystoscopy (telescopic examination of the inside of the bladder).</value>
+		<pattern_crowdsource> A [[bladder|C0005682]] [[biopsy|C0005558]] can be done as part of a [[cystoscopy|C0010702]] (telescopic examination of the inside of the bladder).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cystoscopy</surface-form>
+				<RDF-ID>C0010702</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010702 ISA C0005558</triple>
+			<triple>C0005682 LOCATION_OF C0005558</triple>
+			<triple>C0005682 LOCATION_OF C0010702</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is most often done to check for cancer of the bladder or urethra.</value>
+		<pattern_crowdsource> This test is most often done to check for [[cancer|C0006826]] of the [[bladder|C0005682]] or [[urethra|C0041967]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urethra</surface-form>
+				<RDF-ID>C0041967</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 PART_OF C0005682</triple>
+			<triple>C0006826 PART_OF C0041967</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The type of cancer can be determined from the biopsy sample.</value>
+		<pattern_crowdsource> The type of [[cancer|C0006826]] can be determined from the [[biopsy sample|C0677862]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy sample</surface-form>
+				<RDF-ID>C0677862</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0677862 LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Also contact your health care provider if:  - You have pain, chills, or a fever.</value>
+		<pattern_crowdsource> Also contact your [[health care provider|C0018724]] if:  - You have [[pain|C0030193]], [[chills|C0085593]], or a [[fever|C0015967]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chills</surface-form>
+				<RDF-ID>C0085593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0018724</triple>
+			<triple>C0015967 PROCESS_OF C0018724</triple>
+			<triple>C0085593 PROCESS_OF C0018724</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

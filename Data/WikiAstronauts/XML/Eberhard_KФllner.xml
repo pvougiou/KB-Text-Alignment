@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Eberhard Köllner (born 29 September 1939 in Stassfurt, Germany) was selected for Soyuz 31 as the backup for Sigmund Jähn.	</value>
+
+		<annotated-sentence>	[[Eberhard Köllner|Eberhard_K%C3%B6llner]] (born 29 [[September 1939|Invasion_of_Poland]] in [[Stassfurt , Germany|Sta%C3%9Ffurt]] was selected for [[Soyuz 31|Soyuz_31]] as [[the backup|Backup]] for [[Sigmund Jähn|Sigmund_J%C3%A4hn]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Eberhard Köllner|Eberhard_K%C3%B6llner]] (born 29 September 1939 in Stassfurt, Germany) was selected for [[Soyuz 31|Soyuz_31]] as the backup for [[Sigmund Jähn|Sigmund_J%C3%A4hn]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Köllner/NNP-2,Eberhard/NNP-1)
+				nsubjpass(selected/VBN-14,Köllner/NNP-2)
+				dep(Köllner/NNP-2,born/VBN-4)
+				dobj(born/VBN-4,29/CD-5)
+				tmod(born/VBN-4,September/NNP-6)
+				num(September/NNP-6,1939/CD-7)
+				nn(Germany/NNP-11,Stassfurt/NNP-9)
+				prep_in(born/VBN-4,Germany/NNP-11)
+				auxpass(selected/VBN-14,was/VBD-13)
+				prep_for(selected/VBN-14,Soyuz/NNP-16)
+				num(Soyuz/NNP-16,31/CD-17)
+				det(backup/NN-20,the/DT-19)
+				prep_as(selected/VBN-14,backup/NN-20)
+				nn(Jähn/NNP-23,Sigmund/NNP-22)
+				prep_for(backup/NN-20,Jähn/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Eberhard Köllner</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eberhard_K%C3%B6llner</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1939</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Invasion_of_Poland</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stassfurt , Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sta%C3%9Ffurt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz 31</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_31</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sigmund Jähn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sigmund_J%C3%A4hn</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Eberhard_K%C3%B6llner http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_31
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_31 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Eberhard_K%C3%B6llner
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_31 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Sigmund_J%C3%A4hn
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_31 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Sigmund_J%C3%A4hn
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sigmund_J%C3%A4hn http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_31
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He later became the Director of the Airforce Academy of the German Democratic Republic in the rank of an Oberst ("Colonel"), following the reunion of Germany he refused to be transferred to the (West) German Bundeswehr.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Director/NN-5,He/PRP-1)
+				advmod(Director/NN-5,later/RB-2)
+				cop(Director/NN-5,became/VBD-3)
+				det(Director/NN-5,the/DT-4)
+				dep(refused/VBD-33,Director/NN-5)
+				det(Academy/NNP-9,the/DT-7)
+				nn(Academy/NNP-9,Airforce/NNP-8)
+				prep_of(Director/NN-5,Academy/NNP-9)
+				det(Republic/NN-14,the/DT-11)
+				amod(Republic/NN-14,German/JJ-12)
+				amod(Republic/NN-14,Democratic/JJ-13)
+				prep_of(Academy/NNP-9,Republic/NN-14)
+				det(rank/NN-17,the/DT-16)
+				prep_in(Republic/NN-14,rank/NN-17)
+				det(Oberst/NNP-20,an/DT-19)
+				prep_of(rank/NN-17,Oberst/NNP-20)
+				dep(Oberst/NNP-20,Colonel/NNP-23)
+				det(reunion/NN-29,the/DT-28)
+				prep_following(Director/NN-5,reunion/NN-29)
+				prep_of(reunion/NN-29,Germany/NNP-31)
+				nsubj(refused/VBD-33,he/PRP-32)
+				aux(transferred/VBN-36,to/TO-34)
+				auxpass(transferred/VBN-36,be/VB-35)
+				xcomp(refused/VBD-33,transferred/VBN-36)
+				det(West/NNP-40,the/DT-38)
+				prep_to(transferred/VBN-36,West/NNP-40)
+				amod(Bundeswehr/NNP-43,German/JJ-42)
+				dobj(transferred/VBN-36,Bundeswehr/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently working in private industries.	</value>
+
+		<annotated-sentence>	He is currently working in private [[industries|Industry]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently working in private industries.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-4,He/PRP-1)
+				aux(working/VBG-4,is/VBZ-2)
+				advmod(working/VBG-4,currently/RB-3)
+				amod(industries/NNS-7,private/JJ-6)
+				prep_in(working/VBG-4,industries/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>industries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Industry</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

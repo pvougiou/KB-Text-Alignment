@@ -1,0 +1,1373 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jerome III "Jay" Apt, Ph.D. (born April 28, 1949 in Massachusetts) is an American astronaut and professor at Carnegie Mellon University.	</value>
+
+		<annotated-sentence>	[[Jerome|Jerome_Apt]] III "Jay" Apt, Ph.D. (born April 28, 1949 in [[Massachusetts|Massachusetts]]) is an [[American|United_States]][[American astronaut|The_American_Astronaut]] and professor at [[Carnegie Mellon University|Carnegie_Mellon_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Jerome|Jerome_Apt]] III "Jay" Apt, Ph.D. (born April 28, 1949 in [[Massachusetts|Massachusetts]]) is an [[American|United_States]] astronaut and professor at [[Carnegie Mellon University|Carnegie_Mellon_University]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Jay/NNP-4,Jerome/NNP-1)
+				nn(Jay/NNP-4,III/NNP-2)
+				nsubj(astronaut/NN-21,Jay/NNP-4)
+				amod(Jay/NNP-4,Apt/JJ-6)
+				appos(Jay/NNP-4,Ph.D./NNP-8)
+				dep(Jay/NNP-4,born/VBN-10)
+				tmod(born/VBN-10,April/NNP-11)
+				num(April/NNP-11,28/CD-12)
+				num(April/NNP-11,1949/CD-14)
+				prep_in(born/VBN-10,Massachusetts/NNP-16)
+				cop(astronaut/NN-21,is/VBZ-18)
+				det(astronaut/NN-21,an/DT-19)
+				amod(astronaut/NN-21,American/JJ-20)
+				conj_and(astronaut/NN-21,professor/NN-23)
+				nn(University/NNP-27,Carnegie/NNP-25)
+				nn(University/NNP-27,Mellon/NNP-26)
+				prep_at(astronaut/NN-21,University/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jerome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jerome_Apt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Massachusetts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massachusetts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Carnegie Mellon University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carnegie_Mellon_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Massachusetts
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Massachusetts http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Carnegie_Mellon_University http://dbpedia.org/property/country http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before he became an astronaut, Apt was a physicist who worked on the Venus space probe project, and used visible light and infrared techniques to study the planets and moons of the solar system from ground-based observatories.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(astronaut/NN-5,Before/IN-1)
+				nsubj(astronaut/NN-5,he/PRP-2)
+				cop(astronaut/NN-5,became/VBD-3)
+				det(astronaut/NN-5,an/DT-4)
+				advcl(physicist/NN-10,astronaut/NN-5)
+				dep(physicist/NN-10,Apt/JJ-7)
+				cop(physicist/NN-10,was/VBD-8)
+				det(physicist/NN-10,a/DT-9)
+				nsubj(worked/VBD-12,who/WP-11)
+				rcmod(physicist/NN-10,worked/VBD-12)
+				det(project/NN-18,the/DT-14)
+				nn(project/NN-18,Venus/NNP-15)
+				nn(project/NN-18,space/NN-16)
+				nn(project/NN-18,probe/NN-17)
+				prep_on(worked/VBD-12,project/NN-18)
+				conj_and(physicist/NN-10,used/VBN-21)
+				amod(light/NN-23,visible/JJ-22)
+				dobj(used/VBN-21,light/NN-23)
+				amod(techniques/NNS-26,infrared/JJ-25)
+				dobj(used/VBN-21,techniques/NNS-26)
+				conj_and(light/NN-23,techniques/NNS-26)
+				aux(study/VB-28,to/TO-27)
+				xcomp(used/VBN-21,study/VB-28)
+				det(planets/NNS-30,the/DT-29)
+				dobj(study/VB-28,planets/NNS-30)
+				dobj(study/VB-28,moons/NNS-32)
+				conj_and(planets/NNS-30,moons/NNS-32)
+				det(system/NN-36,the/DT-34)
+				amod(system/NN-36,solar/JJ-35)
+				prep_of(planets/NNS-30,system/NN-36)
+				amod(observatories/NNS-39,ground-based/JJ-38)
+				prep_from(study/VB-28,observatories/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apt graduated from Shady Side Academy in Pittsburgh, Pennsylvania in 1967.	</value>
+
+		<annotated-sentence>	Apt graduated from [[Shady Side Academy|Shady_Side_Academy]] in Pittsburgh, Pennsylvania in [[1967|1967]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Apt graduated from Shady Side Academy in Pittsburgh, Pennsylvania in 1967.	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Apt/JJ-1,graduated/VBN-2)
+				nn(Academy/NNP-6,Shady/NNP-4)
+				nn(Academy/NNP-6,Side/NNP-5)
+				prep_from(graduated/VBN-2,Academy/NNP-6)
+				nn(Pennsylvania/NNP-10,Pittsburgh/NNP-8)
+				prep_in(Academy/NNP-6,Pennsylvania/NNP-10)
+				prep_in(graduated/VBN-2,1967/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shady Side Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shady_Side_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He went on to attend Harvard University, earning a Bachelor of Arts in physics in 1971.	</value>
+
+		<annotated-sentence>	He went on to attend [[Harvard University|Harvard_University]], earning [[a Bachelor|Bachelor]] of [[Arts|ARts]] in [[physics|Physics]] in [[1971|1971_(film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He went on to attend Harvard University, earning a Bachelor of Arts in physics in 1971.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-2,He/PRP-1)
+				prt(went/VBD-2,on/IN-3)
+				aux(attend/VB-5,to/TO-4)
+				xcomp(went/VBD-2,attend/VB-5)
+				nn(University/NNP-7,Harvard/NNP-6)
+				dobj(attend/VB-5,University/NNP-7)
+				xcomp(went/VBD-2,earning/VBG-9)
+				det(Bachelor/NN-11,a/DT-10)
+				dobj(earning/VBG-9,Bachelor/NN-11)
+				prep_of(Bachelor/NN-11,Arts/NNS-13)
+				prep_in(Arts/NNS-13,physics/NN-15)
+				prep_in(earning/VBG-9,1971/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Harvard University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvard_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Arts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ARts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1971</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1971_(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then attended the Massachusetts Institute of Technology and earned a Doctor of Philosophy in physics in 1976.	</value>
+
+		<annotated-sentence>	He then attended [[the Massachusetts Institute of Technology|Massachusetts_Institute_of_Technology]] and earned [[a Doctor of Philosophy|Doctor_of_Philosophy]] in [[physics|Physics]] in [[1976|1976]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then attended the Massachusetts Institute of Technology and earned a Doctor of Philosophy in physics in 1976.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				nsubj(earned/VBD-10,He/PRP-1)
+				advmod(attended/VBD-3,then/RB-2)
+				det(Institute/NNP-6,the/DT-4)
+				nn(Institute/NNP-6,Massachusetts/NNP-5)
+				dobj(attended/VBD-3,Institute/NNP-6)
+				prep_of(Institute/NNP-6,Technology/NNP-8)
+				conj_and(attended/VBD-3,earned/VBD-10)
+				det(Doctor/NN-12,a/DT-11)
+				dobj(earned/VBD-10,Doctor/NN-12)
+				prep_of(Doctor/NN-12,Philosophy/NN-14)
+				prep_in(earned/VBD-10,physics/NN-16)
+				prep_in(physics/NN-16,1976/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Massachusetts Institute of Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Massachusetts_Institute_of_Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Doctor of Philosophy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_of_Philosophy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1976 to 1980 he was a staff member of the Center for Earth & Planetary Physics at Harvard, and served as the Assistant Director of Harvard's Division of Applied Sciences from 1978 to 1980.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(1980/CD-4,1976/CD-2)
+				dep(1980/CD-4,to/TO-3)
+				prep_from(member/NN-9,1980/CD-4)
+				nsubj(member/NN-9,he/PRP-5)
+				nsubj(served/VBD-22,he/PRP-5)
+				cop(member/NN-9,was/VBD-6)
+				det(member/NN-9,a/DT-7)
+				nn(member/NN-9,staff/NN-8)
+				det(Center/NNP-12,the/DT-11)
+				prep_of(member/NN-9,Center/NNP-12)
+				nn(Physics/NN-17,Earth/NNP-14)
+				conj_and(Earth/NNP-14,Planetary/NNP-16)
+				nn(Physics/NN-17,Planetary/NNP-16)
+				prep_for(Center/NNP-12,Physics/NN-17)
+				prep_at(member/NN-9,Harvard/NNP-19)
+				conj_and(member/NN-9,served/VBD-22)
+				det(Director/NNP-26,the/DT-24)
+				nn(Director/NNP-26,Assistant/NNP-25)
+				prep_as(served/VBD-22,Director/NNP-26)
+				poss(Division/NN-30,Harvard/NNP-28)
+				prep_of(Director/NNP-26,Division/NN-30)
+				nn(Sciences/NNPS-33,Applied/NNP-32)
+				prep_of(Division/NN-30,Sciences/NNPS-33)
+				num(1980/CD-37,1978/CD-35)
+				dep(1980/CD-37,to/TO-36)
+				prep_from(served/VBD-22,1980/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1980 he joined the Earth and Space Sciences Division of the NASA Jet Propulsion Laboratory (JPL) as a scientist doing planetary research, and from 1982 through 1985 he was a flight controller responsible for Shuttle payload operations at NASA's Johnson Space Center.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-4,1980/CD-2)
+				nsubj(joined/VBD-4,he/PRP-3)
+				det(Earth/NNP-6,the/DT-5)
+				dobj(joined/VBD-4,Earth/NNP-6)
+				nn(Division/NNP-10,Space/NNP-8)
+				nn(Division/NNP-10,Sciences/NNPS-9)
+				dobj(joined/VBD-4,Division/NNP-10)
+				conj_and(Earth/NNP-6,Division/NNP-10)
+				det(Laboratory/NNP-16,the/DT-12)
+				nn(Laboratory/NNP-16,NASA/NNP-13)
+				nn(Laboratory/NNP-16,Jet/NNP-14)
+				nn(Laboratory/NNP-16,Propulsion/NNP-15)
+				prep_of(joined/VBD-4,Laboratory/NNP-16)
+				appos(Laboratory/NNP-16,JPL/NNP-18)
+				det(scientist/NN-22,a/DT-21)
+				prep_as(joined/VBD-4,scientist/NN-22)
+				partmod(scientist/NN-22,doing/VBG-23)
+				amod(research/NN-25,planetary/JJ-24)
+				dobj(doing/VBG-23,research/NN-25)
+				prep_from(controller/NN-36,1982/CD-29)
+				prep_through(controller/NN-36,1985/CD-31)
+				nsubj(controller/NN-36,he/PRP-32)
+				cop(controller/NN-36,was/VBD-33)
+				det(controller/NN-36,a/DT-34)
+				nn(controller/NN-36,flight/NN-35)
+				conj_and(joined/VBD-4,controller/NN-36)
+				amod(controller/NN-36,responsible/JJ-37)
+				nn(operations/NNS-41,Shuttle/NNP-39)
+				nn(operations/NNS-41,payload/NN-40)
+				prep_for(responsible/JJ-37,operations/NNS-41)
+				poss(Center/NNP-47,NASA/NNP-43)
+				nn(Center/NNP-47,Johnson/NNP-45)
+				nn(Center/NNP-47,Space/NNP-46)
+				prep_at(controller/NN-36,Center/NNP-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1985 he was selected as an astronaut candidate, and qualified to become an astronaut after a year of training.	</value>
+
+		<annotated-sentence>	In [[1985|1985]] he was selected as an [[astronaut|Astronaut]] [[candidate|Candidate]], and qualified to become [[an astronaut|Astronaut]] after [[a year|Year]] of [[training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In [[1985|1985]] he was selected as an [[astronaut|Astronaut]] candidate, and qualified to become an [[astronaut|Astronaut]] after [[a year|Year]] of training.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,1985/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				nsubjpass(qualified/VBN-12,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(candidate/NN-9,an/DT-7)
+				nn(candidate/NN-9,astronaut/NN-8)
+				prep_as(selected/VBN-5,candidate/NN-9)
+				conj_and(selected/VBN-5,qualified/VBN-12)
+				aux(astronaut/NN-16,to/TO-13)
+				cop(astronaut/NN-16,become/VB-14)
+				det(astronaut/NN-16,an/DT-15)
+				xcomp(qualified/VBN-12,astronaut/NN-16)
+				det(year/NN-19,a/DT-18)
+				prep_after(astronaut/NN-16,year/NN-19)
+				prep_of(year/NN-19,training/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1985 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has flown on four space missions and has logged over 847 hours in space.	</value>
+
+		<annotated-sentence>	He has flown on [[four space missions|Space_exploration]] and has logged over 847 [[hours|Hour]] in [[space|Space_exploration]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has flown on four space missions and has logged over 847 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,He/PRP-1)
+				nsubj(logged/VBN-10,He/PRP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(missions/NNS-7,four/CD-5)
+				nn(missions/NNS-7,space/NN-6)
+				prep_on(flown/VBN-3,missions/NNS-7)
+				aux(logged/VBN-10,has/VBZ-9)
+				conj_and(flown/VBN-3,logged/VBN-10)
+				num(hours/NNS-13,847/CD-12)
+				prep_over(logged/VBN-10,hours/NNS-13)
+				prep_in(hours/NNS-13,space/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>four space missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1991, Apt flew on the STS-37 mission aboard shuttle Atlantis.	</value>
+
+		<annotated-sentence>	In [[1991|1991]], Apt flew on the [[STS-37|STS-37]] mission aboard [[shuttle Atlantis|Space_Shuttle_Atlantis]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1991, Apt flew on the [[STS-37|STS-37]] mission aboard shuttle Atlantis.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,1991/CD-2)
+				nsubj(flew/VBD-5,Apt/JJ-4)
+				det(mission/NN-9,the/DT-7)
+				nn(mission/NN-9,STS-37/NN-8)
+				prep_on(flew/VBD-5,mission/NN-9)
+				nn(Atlantis/NNP-12,shuttle/NN-11)
+				prep_aboard(flew/VBD-5,Atlantis/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-37</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-37</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-37
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He made two spacewalks with Jerry Ross, manually deploying the Gamma Ray Observatory's radio antenna when it failed to do so automatically; on the next day their second spacewalk tested hardware later used on the International Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,He/PRP-1)
+				num(spacewalks/NNS-4,two/CD-3)
+				dobj(made/VBD-2,spacewalks/NNS-4)
+				nn(Ross/NNP-7,Jerry/NNP-6)
+				prep_with(spacewalks/NNS-4,Ross/NNP-7)
+				advmod(deploying/VBG-10,manually/RB-9)
+				partmod(made/VBD-2,deploying/VBG-10)
+				det(Observatory/NNP-14,the/DT-11)
+				nn(Observatory/NNP-14,Gamma/NNP-12)
+				nn(Observatory/NNP-14,Ray/NNP-13)
+				poss(antenna/NN-17,Observatory/NNP-14)
+				nn(antenna/NN-17,radio/NN-16)
+				dobj(deploying/VBG-10,antenna/NN-17)
+				advmod(failed/VBD-20,when/WRB-18)
+				nsubj(failed/VBD-20,it/PRP-19)
+				rcmod(antenna/NN-17,failed/VBD-20)
+				aux(do/VB-22,to/TO-21)
+				xcomp(failed/VBD-20,do/VB-22)
+				advmod(do/VB-22,so/RB-23)
+				advmod(do/VB-22,automatically/RB-24)
+				det(day/NN-29,the/DT-27)
+				amod(day/NN-29,next/JJ-28)
+				prep_on(deploying/VBG-10,day/NN-29)
+				poss(spacewalk/NN-32,their/PRP$-30)
+				amod(spacewalk/NN-32,second/JJ-31)
+				dep(deploying/VBG-10,spacewalk/NN-32)
+				partmod(spacewalk/NN-32,tested/VBN-33)
+				dobj(tested/VBN-33,hardware/NN-34)
+				advmod(used/VBN-36,later/RB-35)
+				partmod(hardware/NN-34,used/VBN-36)
+				det(Station/NNP-41,the/DT-38)
+				nn(Station/NNP-41,International/NNP-39)
+				nn(Station/NNP-41,Space/NNP-40)
+				prep_on(used/VBN-36,Station/NNP-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, Apt flew on STS-47 aboard shuttle Endeavour as the flight engineer, and commander of one of the two shifts in this round-the-clock mission.	</value>
+
+		<annotated-sentence>	In [[1992|1992]], Apt flew on [[STS-47|STS-47]] aboard shuttle [[Endeavour|Endeavour]] as [[the flight engineer|Flight_engineer]], and [[commander|Commander]] of one of the two shifts in this round-the-clock mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1992, Apt flew on [[STS-47|STS-47]] aboard shuttle Endeavour as the flight engineer, and commander of one of the two shifts in this round-the-clock mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,1992/CD-2)
+				nsubj(flew/VBD-5,Apt/JJ-4)
+				prep_on(flew/VBD-5,STS-47/NN-7)
+				prep_aboard(flew/VBD-5,shuttle/NN-9)
+				dobj(flew/VBD-5,Endeavour/NNP-10)
+				det(engineer/NN-14,the/DT-12)
+				nn(engineer/NN-14,flight/NN-13)
+				prep_as(Endeavour/NNP-10,engineer/NN-14)
+				dobj(flew/VBD-5,commander/NN-17)
+				conj_and(Endeavour/NNP-10,commander/NN-17)
+				prep_of(commander/NN-17,one/CD-19)
+				det(shifts/NNS-23,the/DT-21)
+				num(shifts/NNS-23,two/CD-22)
+				prep_of(commander/NN-17,shifts/NNS-23)
+				det(mission/NN-27,this/DT-25)
+				amod(mission/NN-27,round-the-clock/JJ-26)
+				prep_in(shifts/NNS-23,mission/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-47</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-47</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-47
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-47 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Jerome_Apt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-47 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Jerome_Apt
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994, Apt was again a shift commander of the first Space Radar Laboratory mission, STS-59 aboard shuttle Endeavour.	</value>
+
+		<annotated-sentence>	In [[1994|1994]], Apt was again a shift [[commander|Commander]] of the first [[Space Radar|Space_radar]] [[Laboratory|Laboratory]] mission, [[STS-59|STS-59]] aboard shuttle [[Endeavour|Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1994, Apt was again a shift commander of the first Space Radar Laboratory mission, [[STS-59|STS-59]] aboard shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(commander/NN-9,1994/CD-2)
+				dep(commander/NN-9,Apt/JJ-4)
+				cop(commander/NN-9,was/VBD-5)
+				advmod(commander/NN-9,again/RB-6)
+				det(commander/NN-9,a/DT-7)
+				nn(commander/NN-9,shift/NN-8)
+				det(mission/NN-16,the/DT-11)
+				amod(mission/NN-16,first/JJ-12)
+				nn(mission/NN-16,Space/NN-13)
+				nn(mission/NN-16,Radar/NNP-14)
+				nn(mission/NN-16,Laboratory/NNP-15)
+				prep_of(commander/NN-9,mission/NN-16)
+				dep(Endeavour/NNP-21,STS-59/NN-18)
+				prep_aboard(STS-59/NN-18,shuttle/NN-20)
+				ccomp(commander/NN-9,Endeavour/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Radar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_radar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-59</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-59</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-59
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This lab studied the Earth.	</value>
+
+		<annotated-sentence>	This lab studied [[the Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This lab studied the Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				det(lab/NN-2,This/DT-1)
+				nsubj(studied/VBD-3,lab/NN-2)
+				det(Earth/NNP-5,the/DT-4)
+				dobj(studied/VBD-3,Earth/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1996, Apt flew on STS-79 aboard shuttle Atlantis and visited the Russian Mir space station.	</value>
+
+		<annotated-sentence>	In [[1996|1996]], Apt flew on [[STS-79|STS-79]] aboard [[shuttle Atlantis|Space_Shuttle_Atlantis]] and visited the Russian [[Mir space station|Mir]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1996, Apt flew on [[STS-79|STS-79]] aboard shuttle Atlantis and visited the Russian Mir space station.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,1996/CD-2)
+				nsubj(flew/VBD-5,Apt/JJ-4)
+				nsubj(visited/VBD-12,Apt/JJ-4)
+				prep_on(flew/VBD-5,STS-79/NN-7)
+				nn(Atlantis/NNP-10,shuttle/NN-9)
+				prep_aboard(flew/VBD-5,Atlantis/NNP-10)
+				conj_and(flew/VBD-5,visited/VBD-12)
+				det(station/NN-17,the/DT-13)
+				amod(station/NN-17,Russian/JJ-14)
+				nn(station/NN-17,Mir/NNS-15)
+				nn(station/NN-17,space/NN-16)
+				dobj(visited/VBD-12,station/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-79</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-79</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mir space station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jerome_Apt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-79
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2003, Apt joined the faculty of Carnegie Mellon University where he is a Full Professor at the Tepper School of Business and the Department of Engineering and Public Policy.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,2003/CD-2)
+				nsubj(joined/VBD-5,Apt/JJ-4)
+				det(faculty/NN-7,the/DT-6)
+				dobj(joined/VBD-5,faculty/NN-7)
+				nn(University/NNP-11,Carnegie/NNP-9)
+				nn(University/NNP-11,Mellon/NNP-10)
+				prep_of(faculty/NN-7,University/NNP-11)
+				advmod(Professor/NNP-17,where/WRB-12)
+				nsubj(Professor/NNP-17,he/PRP-13)
+				cop(Professor/NNP-17,is/VBZ-14)
+				det(Professor/NNP-17,a/DT-15)
+				amod(Professor/NNP-17,Full/JJ-16)
+				rcmod(University/NNP-11,Professor/NNP-17)
+				det(School/NNP-21,the/DT-19)
+				nn(School/NNP-21,Tepper/NNP-20)
+				prep_at(Professor/NNP-17,School/NNP-21)
+				prep_of(School/NNP-21,Business/NNP-23)
+				det(Department/NNP-26,the/DT-25)
+				prep_at(Professor/NNP-17,Department/NNP-26)
+				conj_and(School/NNP-21,Department/NNP-26)
+				nn(Policy/NNP-31,Engineering/NNP-28)
+				conj_and(Engineering/NNP-28,Public/NNP-30)
+				nn(Policy/NNP-31,Public/NNP-30)
+				prep_of(Department/NNP-26,Policy/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His research and teaching interests are in economics, engineering, and public policy aspects of the electricity industry, economics of technical innovation, management of technical enterprises, risk management in policy and technical decision framing, and engineering systems design.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(research/NN-2,His/PRP$-1)
+				nsubj(are/VBP-6,research/NN-2)
+				nn(interests/NNS-5,teaching/NN-4)
+				conj_and(research/NN-2,interests/NNS-5)
+				nsubj(are/VBP-6,interests/NNS-5)
+				prep_in(are/VBP-6,economics/NNS-8)
+				appos(economics/NNS-8,engineering/NN-10)
+				amod(aspects/NNS-15,public/JJ-13)
+				nn(aspects/NNS-15,policy/NN-14)
+				prep_in(are/VBP-6,aspects/NNS-15)
+				conj_and(economics/NNS-8,aspects/NNS-15)
+				det(industry/NN-19,the/DT-17)
+				nn(industry/NN-19,electricity/NN-18)
+				prep_of(aspects/NNS-15,industry/NN-19)
+				prep_in(are/VBP-6,economics/NNS-21)
+				conj_and(economics/NNS-8,economics/NNS-21)
+				amod(innovation/NN-24,technical/JJ-23)
+				prep_of(economics/NNS-21,innovation/NN-24)
+				prep_in(are/VBP-6,management/NN-26)
+				conj_and(economics/NNS-8,management/NN-26)
+				amod(enterprises/NNS-29,technical/JJ-28)
+				prep_of(management/NN-26,enterprises/NNS-29)
+				nn(management/NN-32,risk/NN-31)
+				prep_in(are/VBP-6,management/NN-32)
+				conj_and(economics/NNS-8,management/NN-32)
+				nn(framing/NN-38,policy/NN-34)
+				conj_and(policy/NN-34,technical/JJ-36)
+				nn(framing/NN-38,technical/JJ-36)
+				nn(framing/NN-38,decision/NN-37)
+				prep_in(management/NN-32,framing/NN-38)
+				nn(systems/NNS-42,engineering/NN-41)
+				prep_in(are/VBP-6,systems/NNS-42)
+				conj_and(economics/NNS-8,systems/NNS-42)
+				dep(systems/NNS-42,design/NN-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is the author of the book Orbit: NASA Astronauts Photograph the Earth, published by the National Geographic Society, as well as of a large number of technical scientific publications.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(author/NN-4,He/PRP-1)
+				cop(author/NN-4,is/VBZ-2)
+				det(author/NN-4,the/DT-3)
+				det(Orbit/NN-8,the/DT-6)
+				nn(Orbit/NN-8,book/NN-7)
+				prep_of(author/NN-4,Orbit/NN-8)
+				nn(Photograph/NNP-12,NASA/NNP-10)
+				nn(Photograph/NNP-12,Astronauts/NNPS-11)
+				dep(author/NN-4,Photograph/NNP-12)
+				det(Earth/NNP-14,the/DT-13)
+				dep(Photograph/NNP-12,Earth/NNP-14)
+				partmod(author/NN-4,published/VBN-16)
+				partmod(author/NN-4,published/VBN-16)
+				conj_and(published/VBN-16,published/VBN-16)
+				det(Society/NNP-21,the/DT-18)
+				nn(Society/NNP-21,National/NNP-19)
+				nn(Society/NNP-21,Geographic/NNP-20)
+				agent(published/VBN-16,Society/NNP-21)
+				det(number/NN-29,a/DT-27)
+				amod(number/NN-29,large/JJ-28)
+				prep_of(published/VBN-16,number/NN-29)
+				amod(publications/NNS-33,technical/JJ-31)
+				amod(publications/NNS-33,scientific/JJ-32)
+				prep_of(number/NN-29,publications/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received the NASA Distinguished Service Medal in 1997 and the Metcalf Lifetime Achievement Award for significant contributions to engineering in 2002.	</value>
+
+		<annotated-sentence>	He received [[the NASA Distinguished Service Medal|NASA_Distinguished_Service_Medal]] in [[1997|1997]] and the Metcalf [[Lifetime Achievement Award|List_of_lifetime_achievement_awards]] for [[significant contributions|Fundraising]] to [[engineering|Engineering]] in [[2002|2002]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received the NASA Distinguished Service Medal in 1997 and the Metcalf Lifetime Achievement Award for significant contributions to engineering in 2002.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Medal/NN-7,the/DT-3)
+				nn(Medal/NN-7,NASA/NNP-4)
+				nn(Medal/NN-7,Distinguished/NNP-5)
+				nn(Medal/NN-7,Service/NNP-6)
+				dobj(received/VBD-2,Medal/NN-7)
+				prep_in(Medal/NN-7,1997/CD-9)
+				det(Award/NN-15,the/DT-11)
+				nn(Award/NN-15,Metcalf/NNP-12)
+				nn(Award/NN-15,Lifetime/NNP-13)
+				nn(Award/NN-15,Achievement/NNP-14)
+				dobj(received/VBD-2,Award/NN-15)
+				conj_and(Medal/NN-7,Award/NN-15)
+				amod(contributions/NNS-18,significant/JJ-17)
+				prep_for(Award/NN-15,contributions/NNS-18)
+				prep_to(received/VBD-2,engineering/NN-20)
+				prep_in(engineering/NN-20,2002/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lifetime Achievement Award</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_lifetime_achievement_awards</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>significant contributions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fundraising</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His paper with PhD student Adam Newcomer, "Near term implications of a ban on new coal-fired power plants in the US" was cited as one of the top environmental policy papers of 2009 by the American Chemical Society.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(paper/NN-2,His/PRP$-1)
+				nsubjpass(cited/VBN-26,paper/NN-2)
+				nn(Newcomer/NNP-7,PhD/NN-4)
+				nn(Newcomer/NNP-7,student/NN-5)
+				nn(Newcomer/NNP-7,Adam/NNP-6)
+				prep_with(paper/NN-2,Newcomer/NNP-7)
+				dep(term/NN-11,Near/IN-10)
+				amod(implications/NNS-12,term/NN-11)
+				appos(Newcomer/NNP-7,implications/NNS-12)
+				det(ban/NN-15,a/DT-14)
+				prep_of(implications/NNS-12,ban/NN-15)
+				amod(plants/NNS-20,new/JJ-17)
+				amod(plants/NNS-20,coal-fired/JJ-18)
+				nn(plants/NNS-20,power/NN-19)
+				prep_on(ban/NN-15,plants/NNS-20)
+				det(US/NNP-23,the/DT-22)
+				prep_in(plants/NNS-20,US/NNP-23)
+				auxpass(cited/VBN-26,was/VBD-25)
+				prep_as(cited/VBN-26,one/CD-28)
+				det(papers/NNS-34,the/DT-30)
+				amod(papers/NNS-34,top/JJ-31)
+				amod(papers/NNS-34,environmental/JJ-32)
+				nn(papers/NNS-34,policy/NN-33)
+				prep_of(one/CD-28,papers/NNS-34)
+				prep_of(papers/NNS-34,2009/CD-36)
+				det(Society/NNP-41,the/DT-38)
+				nn(Society/NNP-41,American/NNP-39)
+				nn(Society/NNP-41,Chemical/NNP-40)
+				agent(cited/VBN-26,Society/NNP-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apt has two daughters.	</value>
+
+		<annotated-sentence>	Apt has [[two daughters|Daughter]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Apt has two daughters.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,Apt/JJ-1)
+				num(daughters/NNS-4,two/CD-3)
+				dobj(has/VBZ-2,daughters/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two daughters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Media related to Jerome Apt at Wikimedia Commons	</value>
+
+		<annotated-sentence>	Media related to [[Jerome|Jerome]] Apt at [[Wikimedia Commons|Wikimedia_Commons]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Media related to Jerome Apt at Wikimedia Commons	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Media/NNP-1,related/JJ-2)
+				prep_to(related/JJ-2,Jerome/NNP-4)
+				dep(Media/NNP-1,Apt/JJ-5)
+				nn(Commons/NNPS-8,Wikimedia/NNP-7)
+				prep_at(Apt/JJ-5,Commons/NNPS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jerome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jerome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wikimedia Commons</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wikimedia_Commons</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

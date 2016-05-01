@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A biopsy is the removal of a small piece of tissue for laboratory examination.</value>
+		<pattern_crowdsource> A biopsy is the [[removal|C0728940]] of a small piece of tissue for [[laboratory examination|C0260877]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>removal</surface-form>
+				<RDF-ID>C0728940</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>laboratory examination</surface-form>
+				<RDF-ID>C0260877</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0728940 TREATS C0260877</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Such medicines include aspirin, Coumadin (warfarin), and nonsteroidal anti-inflammatory medications (NSAIDs).</value>
+		<pattern_crowdsource> Such medicines include aspirin, [[Coumadin|C0699129]] ([[warfarin|C0043031]]), and nonsteroidal anti-inflammatory [[medications|C0013227]] ([[NSAIDs|C0003211]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Coumadin</surface-form>
+				<RDF-ID>C0699129</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>warfarin</surface-form>
+				<RDF-ID>C0043031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anti-inflammatory</surface-form>
+				<RDF-ID>C1515999</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medications</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>NSAIDs</surface-form>
+				<RDF-ID>C0003211</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699129 ISA C0043031</triple>
+			<triple>C0699129 ISA C0013227</triple>
+			<triple>C0003211 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This may mean you have a disease, such as cancer, but it depends on your biopsy.</value>
+		<pattern_crowdsource> This may mean you have a [[disease|C0012634]], such as [[cancer|C0006826]], but it depends on your biopsy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

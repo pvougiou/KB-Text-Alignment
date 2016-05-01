@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A headache is pain or discomfort in your head, scalp, or neck.</value>
+		<pattern_crowdsource> A [[headache|C0018681]] is [[pain|C0030193]] or discomfort in your head, scalp, or neck.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>headache</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head</surface-form>
+				<RDF-ID>C0018670</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>scalp</surface-form>
+				<RDF-ID>C1278997</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018681 ISA C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Are there medicines that may be causing my headaches?</value>
+		<pattern_crowdsource> - Are there [[medicines|C0013227]] that may be causing my [[headaches|C0018681]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>headaches</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 CAUSES C0018681</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What are the pain medicines that can be used for headaches?</value>
+		<pattern_crowdsource> What are the pain [[medicines|C0013227]] that can be used for [[headaches|C0018681]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>headaches</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0018681</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Are there medicines I can take that will stop an oncoming headache?</value>
+		<pattern_crowdsource> - Are there [[medicines|C0013227]] I can take that will stop an oncoming [[headache|C0018681]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>headache</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 DISRUPTS C0018681</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

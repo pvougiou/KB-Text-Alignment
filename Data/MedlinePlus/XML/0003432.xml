@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The rotavirus antigen test detects rotavirus in the feces.</value>
+		<pattern_crowdsource> The [[rotavirus antigen test|C1294381]] detects [[rotavirus|C0035870]] in the feces.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>antigen</surface-form>
+				<RDF-ID>C0003320</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rotavirus antigen test</surface-form>
+				<RDF-ID>C1294381</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rotavirus</surface-form>
+				<RDF-ID>C0035870</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feces</surface-form>
+				<RDF-ID>C0202010</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1294381 DIAGNOSES C0035870</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Rotavirus is the leading cause of gastroenteritis ("stomach flu") in children.</value>
+		<pattern_crowdsource> [[Rotavirus|C0035870]] is the leading cause of [[gastroenteritis|C0017160]] ("[[stomach flu|C0277525]]") in children.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Rotavirus</surface-form>
+				<RDF-ID>C0035870</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gastroenteritis</surface-form>
+				<RDF-ID>C0017160</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach flu</surface-form>
+				<RDF-ID>C0277525</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0277525 ISA C0017160</triple>
+			<triple>C0035870 CAUSES C0017160</triple>
+			<triple>C0035870 CAUSES C0277525</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

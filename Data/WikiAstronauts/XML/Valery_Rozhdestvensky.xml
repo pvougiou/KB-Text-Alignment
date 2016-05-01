@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Valery Ilyich Rozhdestvensky (Russian: ??????? ????? ??????????????, born February 13, 1939 in Leningrad, Russian SFSR; died August 31, 2011) was a USSR cosmonaut.	</value>
+
+		<annotated-sentence>	[[Valery Ilyich Rozhdestvensky|Valery_Rozhdestvensky]] ([[Russian|Russian_Soviet_Federative_Socialist_Republic]]: ??????? ????? ??????????????, born [[February|February]] 13, 1939 in [[Leningrad|Siege_of_Leningrad]], [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]]; died August 31, 2011) was a [[USSR|Soviet_Union]] [[cosmonaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Valery Ilyich Rozhdestvensky|Valery_Rozhdestvensky]] (Russian: ??????? ????? ??????????????, born February 13, 1939 in [[Leningrad|Siege_of_Leningrad]], Russian SFSR; died August 31, 2011) was a [[USSR|Soviet_Union]] cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rozhdestvensky/NNP-3,Valery/NNP-1)
+				nn(Rozhdestvensky/NNP-3,Ilyich/NNP-2)
+				nsubj(cosmonaut/NN-31,Rozhdestvensky/NNP-3)
+				nsubj(died/VBD-22,Russian/NNP-5)
+				nn(??????????????/NNP-9,???????/NNP-7)
+				nn(??????????????/NNP-9,?????/NNP-8)
+				dep(Russian/NNP-5,??????????????/NNP-9)
+				partmod(??????????????/NNP-9,born/VBN-11)
+				tmod(born/VBN-11,February/NNP-12)
+				num(February/NNP-12,13/CD-13)
+				num(February/NNP-12,1939/CD-15)
+				nn(SFSR/NNP-20,Leningrad/NNP-17)
+				appos(SFSR/NNP-20,Russian/NNP-19)
+				prep_in(born/VBN-11,SFSR/NNP-20)
+				dep(Rozhdestvensky/NNP-3,died/VBD-22)
+				tmod(died/VBD-22,August/NNP-23)
+				num(August/NNP-23,31/CD-24)
+				num(August/NNP-23,2011/CD-26)
+				cop(cosmonaut/NN-31,was/VBD-28)
+				det(cosmonaut/NN-31,a/DT-29)
+				nn(cosmonaut/NN-31,USSR/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Valery Ilyich Rozhdestvensky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Valery_Rozhdestvensky</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Leningrad</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Siege_of_Leningrad</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian SFSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Siege_of_Leningrad http://dbpedia.org/ontology/place http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Valery_Rozhdestvensky http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rozhdestvensky was born in Leningrad and graduated from the Higher Military Engineering School of Soviet Navy in Pushkin in engineering.	</value>
+
+		<annotated-sentence>	[[Rozhdestvensky|Valery_Rozhdestvensky]] was born in [[Leningrad|Saint_Petersburg]] and graduated from the Higher [[Military|Military]] [[Engineering School|Engineer_School]] of [[Soviet Navy|Soviet_Navy]] in Pushkin in [[engineering|Engineering]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Rozhdestvensky|Valery_Rozhdestvensky]] was born in [[Leningrad|Saint_Petersburg]] and graduated from the Higher Military Engineering School of [[Soviet Navy|Soviet_Navy]] in Pushkin in engineering.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Rozhdestvensky/NNP-1)
+				nsubjpass(graduated/VBD-7,Rozhdestvensky/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Leningrad/NNP-5)
+				conj_and(born/VBN-3,graduated/VBD-7)
+				det(Military/NNP-11,the/DT-9)
+				amod(Military/NNP-11,Higher/JJR-10)
+				prep_from(graduated/VBD-7,Military/NNP-11)
+				nn(School/NNP-13,Engineering/NNP-12)
+				dobj(born/VBN-3,School/NNP-13)
+				nn(Navy/NNP-16,Soviet/NNP-15)
+				prep_of(School/NNP-13,Navy/NNP-16)
+				prep_in(Navy/NNP-16,Pushkin/NNP-18)
+				prep_in(Pushkin/NNP-18,engineering/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rozhdestvensky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Valery_Rozhdestvensky</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Leningrad</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saint_Petersburg</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Military</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineer_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Valery_Rozhdestvensky http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Saint_Petersburg
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Valery_Rozhdestvensky http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Soviet_Navy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1961 to 1965 he was commander of deepsea diving unity in the Baltic Sea War Fleet.	</value>
+
+		<annotated-sentence>	From [[1961|1961]] to [[1965|1965_(album)]] he was [[commander|Commander]] of [[deepsea|Deepsea_Challenger]] diving unity in the [[Baltic Sea|Baltic_Sea]] War Fleet.	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1961 to 1965 he was commander of deepsea diving unity in the Baltic Sea War Fleet.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1965/CD-4,1961/CD-2)
+				dep(1965/CD-4,to/TO-3)
+				prep_from(commander/NN-7,1965/CD-4)
+				nsubj(commander/NN-7,he/PRP-5)
+				cop(commander/NN-7,was/VBD-6)
+				nn(unity/NN-11,deepsea/NN-9)
+				amod(unity/NN-11,diving/JJ-10)
+				prep_of(commander/NN-7,unity/NN-11)
+				det(Fleet/NNP-17,the/DT-13)
+				nn(Fleet/NNP-17,Baltic/NNP-14)
+				nn(Fleet/NNP-17,Sea/NNP-15)
+				nn(Fleet/NNP-17,War/NNP-16)
+				prep_in(unity/NN-11,Fleet/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1961</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1961</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1965</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1965_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>deepsea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Deepsea_Challenger</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Baltic Sea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Baltic_Sea</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rozhdestvensky was selected as a cosmonaut on October 23, 1965 and flew as Flight Engineer on Soyuz 23.	</value>
+
+		<annotated-sentence>	[[Rozhdestvensky|Valery_Rozhdestvensky]] was selected as [[a cosmonaut|Astronaut]] on October 23, 1965 and flew as [[Flight Engineer|Flight_engineer]] on [[Soyuz 23|Soyuz_23]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Rozhdestvensky|Valery_Rozhdestvensky]] was selected as a cosmonaut on October 23, 1965 and flew as Flight Engineer on [[Soyuz 23|Soyuz_23]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Rozhdestvensky/NNP-1)
+				nsubjpass(flew/VBD-13,Rozhdestvensky/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,cosmonaut/NN-6)
+				prep_on(cosmonaut/NN-6,October/NNP-8)
+				num(October/NNP-8,23/CD-9)
+				num(October/NNP-8,1965/CD-11)
+				conj_and(selected/VBN-3,flew/VBD-13)
+				nn(Engineer/NNP-16,Flight/NNP-15)
+				prep_as(flew/VBD-13,Engineer/NNP-16)
+				prep_on(flew/VBD-13,Soyuz/NNP-18)
+				num(Soyuz/NNP-18,23/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rozhdestvensky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Valery_Rozhdestvensky</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz 23</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_23</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Valery_Rozhdestvensky http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_23
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_23 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Valery_Rozhdestvensky
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_23 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Valery_Rozhdestvensky
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his space flight he continued to work with the space program at the Yuri Gagarin Cosmonaut Training Center.	</value>
+
+		<annotated-sentence>	After his space flight he continued to work with the space program at [[the Yuri Gagarin Cosmonaut Training Center|Yuri_Gagarin_Cosmonaut_Training_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his space flight he continued to work with the space program at the Yuri Gagarin Cosmonaut Training Center.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-4,his/PRP$-2)
+				nn(flight/NN-4,space/NN-3)
+				prep_after(continued/VBD-6,flight/NN-4)
+				nsubj(continued/VBD-6,he/PRP-5)
+				aux(work/VB-8,to/TO-7)
+				xcomp(continued/VBD-6,work/VB-8)
+				det(program/NN-12,the/DT-10)
+				nn(program/NN-12,space/NN-11)
+				prep_with(work/VB-8,program/NN-12)
+				det(Center/NNP-19,the/DT-14)
+				nn(Center/NNP-19,Yuri/NNP-15)
+				nn(Center/NNP-19,Gagarin/NNP-16)
+				nn(Center/NNP-19,Cosmonaut/NNP-17)
+				nn(Center/NNP-19,Training/NNP-18)
+				prep_at(work/VB-8,Center/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Yuri Gagarin Cosmonaut Training Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Gagarin_Cosmonaut_Training_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired on June 24, 1986 and worked with Metropolis Industries.	</value>
+
+		<annotated-sentence>	He retired on June 24, 1986 and worked with [[Metropolis|Metropolis]] Industries.	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired on June 24, 1986 and worked with Metropolis Industries.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				nsubj(worked/VBD-9,He/PRP-1)
+				prep_on(retired/VBD-2,June/NNP-4)
+				num(June/NNP-4,24/CD-5)
+				num(June/NNP-4,1986/CD-7)
+				conj_and(retired/VBD-2,worked/VBD-9)
+				nn(Industries/NNPS-12,Metropolis/NNP-11)
+				prep_with(worked/VBD-9,Industries/NNPS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Metropolis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Metropolis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was married with one child.	</value>
+
+		<annotated-sentence>	He was married with [[one child|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was married with one child.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,was/VBD-2)
+				num(child/NN-6,one/CD-5)
+				prep_with(married/VBN-3,child/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>one child</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded:	</value>
+
+		<annotated-sentence>	He was awarded:	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded:	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

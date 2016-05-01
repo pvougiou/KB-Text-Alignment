@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your doctor may order this test if you have signs of a weak immune system, such as due to having HIV/AIDS.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have signs of a weak immune system, such as due to having HIV/[[AIDS|C0001175]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0220913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weak</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune system</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019699</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>AIDS</surface-form>
+				<RDF-ID>C0001175</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001175 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It may also be ordered if you have a disease of the lymph nodes.</value>
+		<pattern_crowdsource> It may also be ordered if you have a [[disease|C0012634]] of the [[lymph nodes|C0024204]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymph nodes</surface-form>
+				<RDF-ID>C0024204</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024204 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People with HIV/AIDS have regular T-cell tests to check their CD4 cell counts.</value>
+		<pattern_crowdsource> [[People|C0027361]] with HIV/[[AIDS|C0001175]] have regular T-cell tests to check their CD4 cell counts.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>AIDS</surface-form>
+				<RDF-ID>C0001175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>regular</surface-form>
+				<RDF-ID>C0205272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>T-cell</surface-form>
+				<RDF-ID>C0039194</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CD4 cell counts</surface-form>
+				<RDF-ID>C0243009</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001175 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

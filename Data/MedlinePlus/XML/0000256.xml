@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>However, during the early stages of infection, your body may only produce a few antibodies, which the blood test may miss.</value>
+		<pattern_crowdsource> However, during the early stages of [[infection|C0009450]], your body may only produce a few [[antibodies|C0003241]], which the blood test may miss.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>early</surface-form>
+				<RDF-ID>C1279919</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stages</surface-form>
+				<RDF-ID>C1306673</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>few</surface-form>
+				<RDF-ID>C0205388</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood test</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 PRODUCES C0003241</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An abnormal result means antibodies to B. anthracis have been detected and you may have anthrax disease.</value>
+		<pattern_crowdsource> An abnormal result means antibodies to [[B. anthracis|C0004589]] have been detected and you may have [[anthrax disease|C0003175]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>abnormal result</surface-form>
+				<RDF-ID>C0459424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibodies</surface-form>
+				<RDF-ID>C0003241</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>B. anthracis</surface-form>
+				<RDF-ID>C0004589</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anthrax disease</surface-form>
+				<RDF-ID>C0003175</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003175 PROCESS_OF C0004589</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>However, some people come in contact with the bacteria and do not develop the disease.</value>
+		<pattern_crowdsource> However, some people come in contact with the [[bacteria|C0004611]] and do not develop the [[disease|C0012634]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 NEG_PROCESS_OF C0004611</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

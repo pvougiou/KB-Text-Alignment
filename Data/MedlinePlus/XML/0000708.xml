@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A cataract occurs when the lens of the eye becomes cloudy and starts to block vision.</value>
+		<pattern_crowdsource> A [[cataract|C0086543]] occurs when the [[lens|C0023317]] of the [[eye|C0015392]] becomes cloudy and starts to block [[vision|C0042789]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cataract</surface-form>
+				<RDF-ID>C0086543</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lens</surface-form>
+				<RDF-ID>C0023317</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cloudy</surface-form>
+				<RDF-ID>C0205406</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision</surface-form>
+				<RDF-ID>C0042789</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023317 PART_OF C0015392</triple>
+			<triple>C0086543 AFFECTS C0042789</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Removing the cataract can help improve your vision.</value>
+		<pattern_crowdsource> Removing the [[cataract|C0086543]] can help improve your [[vision|C0042789]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cataract</surface-form>
+				<RDF-ID>C0086543</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision</surface-form>
+				<RDF-ID>C0042789</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0086543 AFFECTS C0042789</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- If I have cataracts in both eyes, can I have surgery on both eyes at the same time?</value>
+		<pattern_crowdsource> - If I have [[cataracts|C0086543]] in both [[eyes|C0015392]], can I have surgery on both [[eyes|C0015392]] at the same time?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cataracts</surface-form>
+				<RDF-ID>C0086543</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eyes</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eyes</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015392 LOCATION_OF C0086543</triple>
+			<triple>C0015392 LOCATION_OF C0086543</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

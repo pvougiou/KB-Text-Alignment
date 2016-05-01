@@ -1,0 +1,1775 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Michael Scott Hopkins is a colonel in the U.S. Air Force, and a current NASA astronaut.	</value>
+
+		<annotated-sentence>	Michael Scott Hopkins is [[a colonel|Colonel]] in [[the U.S. Air Force|United_States_Air_Force]], and a current [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Michael Scott Hopkins is a colonel in [[the U.S. Air Force|United_States_Air_Force]], and a current [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hopkins/NNP-3,Michael/NNP-1)
+				nn(Hopkins/NNP-3,Scott/NNP-2)
+				nsubj(colonel/NN-6,Hopkins/NNP-3)
+				cop(colonel/NN-6,is/VBZ-4)
+				det(colonel/NN-6,a/DT-5)
+				det(Force/NNP-11,the/DT-8)
+				nn(Force/NNP-11,U.S./NNP-9)
+				nn(Force/NNP-11,Air/NNP-10)
+				prep_in(colonel/NN-6,Force/NNP-11)
+				det(astronaut/NN-17,a/DT-14)
+				amod(astronaut/NN-17,current/JJ-15)
+				nn(astronaut/NN-17,NASA/NNP-16)
+				conj_and(colonel/NN-6,astronaut/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hopkins was selected in June 2009 as a member of the NASA Astronaut Group 20.	</value>
+
+		<annotated-sentence>	Hopkins was selected in [[June 2009|June_2009]] as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hopkins was selected in June 2009 as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Hopkins/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_in(selected/VBN-3,June/NNP-5)
+				num(June/NNP-5,2009/CD-6)
+				det(member/NN-9,a/DT-8)
+				prep_as(selected/VBN-3,member/NN-9)
+				det(Group/NNP-14,the/DT-11)
+				nn(Group/NNP-14,NASA/NNP-12)
+				nn(Group/NNP-14,Astronaut/NNP-13)
+				prep_of(member/NN-9,Group/NNP-14)
+				num(Group/NNP-14,20/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Group 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_20</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_20
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently a Flight Engineer on Soyuz TMA-10M/Expedition 37/Expedition 38, which launched on September 25, 2013.	</value>
+
+		<annotated-sentence>	He is currently [[a Flight Engineer|Flight_engineer]] on [[Soyuz TMA-10M|Soyuz_TMA-10M]]/[[Expedition|Exploration]] 37/Expedition 38, which launched on [[September|September]] 25, 2013.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently a Flight Engineer on [[Soyuz TMA-10M|Soyuz_TMA-10M]]/Expedition 37/Expedition 38, which launched on September 25, 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Engineer/NN-6,He/PRP-1)
+				cop(Engineer/NN-6,is/VBZ-2)
+				advmod(Engineer/NN-6,currently/RB-3)
+				det(Engineer/NN-6,a/DT-4)
+				nn(Engineer/NN-6,Flight/NN-5)
+				nn(TMA-10M/NNP-9,Soyuz/NNP-8)
+				nn(37/Expedition/NN-12,TMA-10M/NNP-9)
+				punct(TMA-10M/NNP-9,//:-10)
+				nn(37/Expedition/NN-12,Expedition/NN-11)
+				prep_on(Engineer/NN-6,37/Expedition/NN-12)
+				tmod(Engineer/NN-6,38/CD-13)
+				nsubj(launched/VBD-16,which/WDT-15)
+				rcmod(38/CD-13,launched/VBD-16)
+				prep_on(launched/VBD-16,September/NNP-18)
+				num(September/NNP-18,25/CD-19)
+				num(September/NNP-18,2013/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-10M</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-10M</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-10M http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Michael_S._Hopkins
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-10M http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Michael_S._Hopkins
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is the first member of his class to fly in space.	</value>
+
+		<annotated-sentence>	He is the first member of his class to fly in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is the first member of his class to fly in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,is/VBZ-2)
+				det(member/NN-5,the/DT-3)
+				amod(member/NN-5,first/JJ-4)
+				poss(class/NN-8,his/PRP$-7)
+				prep_of(member/NN-5,class/NN-8)
+				aux(fly/VB-10,to/TO-9)
+				infmod(class/NN-8,fly/VB-10)
+				prep_in(fly/VB-10,space/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Michael Scott Hopkins was born on December 28, 1968 in Lebanon, Missouri but grew up on a farm in Richland, Missouri.	</value>
+
+		<annotated-sentence>	Michael Scott Hopkins was born on December 28, 1968 in [[Lebanon , Missouri|Lebanon,_Missouri]]but grew up on [[a farm|Farm]] in [[Richland , Missouri|Richland,_Missouri]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Michael Scott Hopkins was born on December 28, 1968 in Lebanon, Missouri but grew up on a farm in Richland, Missouri.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hopkins/NNP-3,Michael/NNP-1)
+				nn(Hopkins/NNP-3,Scott/NNP-2)
+				nsubjpass(born/VBN-5,Hopkins/NNP-3)
+				nsubjpass(grew/VBD-16,Hopkins/NNP-3)
+				auxpass(born/VBN-5,was/VBD-4)
+				prep_on(born/VBN-5,December/NNP-7)
+				num(December/NNP-7,28/CD-8)
+				num(December/NNP-7,1968/CD-10)
+				nn(Missouri/NNP-14,Lebanon/NNP-12)
+				prep_in(born/VBN-5,Missouri/NNP-14)
+				conj_but(born/VBN-5,grew/VBD-16)
+				prt(grew/VBD-16,up/RP-17)
+				det(farm/NN-20,a/DT-19)
+				prep_on(grew/VBD-16,farm/NN-20)
+				nn(Missouri/NNP-24,Richland/NNP-22)
+				prep_in(farm/NN-20,Missouri/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lebanon , Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lebanon,_Missouri</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a farm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Farm</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Richland , Missouri</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Richland,_Missouri</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Lebanon,_Missouri
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating from the School of the Osage High School in Lake of the Ozarks, Missouri in 1987, he entered the University of Illinois at Urbana-Champaign.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(entered/VBD-22,graduating/VBG-2)
+				det(School/NNP-5,the/DT-4)
+				prep_from(graduating/VBG-2,School/NNP-5)
+				det(School/NNP-10,the/DT-7)
+				nn(School/NNP-10,Osage/NNP-8)
+				nn(School/NNP-10,High/NNP-9)
+				prep_of(School/NNP-5,School/NNP-10)
+				prep_in(graduating/VBG-2,Lake/NNP-12)
+				det(Ozarks/NNPS-15,the/DT-14)
+				prep_of(Lake/NNP-12,Ozarks/NNPS-15)
+				dobj(graduating/VBG-2,Missouri/NNP-17)
+				prep_in(Missouri/NNP-17,1987/CD-19)
+				nsubj(entered/VBD-22,he/PRP-21)
+				det(University/NNP-24,the/DT-23)
+				dobj(entered/VBD-22,University/NNP-24)
+				prep_of(University/NNP-24,Illinois/NNP-26)
+				prep_at(entered/VBD-22,Urbana-Champaign/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While there he played defensive back for the Illinois Fighting Illini football team.	</value>
+
+		<annotated-sentence>	While there he played defensive back for the [[Illinois|Illinois]] Fighting Illini football [[team|Team]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While there he played defensive back for the Illinois Fighting Illini football team.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(played/VBD-4,While/IN-1)
+				expl(played/VBD-4,there/EX-2)
+				dep(there/EX-2,he/PRP-3)
+				amod(team/NN-13,defensive/JJ-5)
+				advmod(defensive/JJ-5,back/RB-6)
+				det(Fighting/NN-10,the/DT-8)
+				nn(Fighting/NN-10,Illinois/NNP-9)
+				prep_for(defensive/JJ-5,Fighting/NN-10)
+				nn(team/NN-13,Illini/NNP-11)
+				nn(team/NN-13,football/NN-12)
+				dobj(played/VBD-4,team/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Illinois</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Illinois</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated in 1991 with a Bachelor of Science degree in Aerospace Engineering.	</value>
+
+		<annotated-sentence>	He graduated in [[1991|1991]] with [[a Bachelor of Science degree|Bachelor_of_Science]] in [[Aerospace Engineering|Aerospace_engineering]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated in 1991 with a Bachelor of Science degree in Aerospace Engineering.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				prep_in(graduated/VBD-2,1991/CD-4)
+				det(Bachelor/NN-7,a/DT-6)
+				prep_with(graduated/VBD-2,Bachelor/NN-7)
+				nn(degree/NN-10,Science/NNP-9)
+				prep_of(Bachelor/NN-7,degree/NN-10)
+				nn(Engineering/NNP-13,Aerospace/NNP-12)
+				prep_in(graduated/VBD-2,Engineering/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He followed his undergraduate studies with a Master of Science degree in Aerospace Engineering from Stanford University, which he earned in 1992.	</value>
+
+		<annotated-sentence>	He followed [[his undergraduate studies|Undergraduate_education]] with [[a Master of Science degree|Master%27s_degree]] in [[Aerospace Engineering|Aerospace_engineering]] from [[Stanford University|Stanford_University]], which he earned in [[1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He followed his undergraduate studies with a Master of Science degree in Aerospace Engineering from Stanford University, which he earned in 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(followed/VBD-2,He/PRP-1)
+				poss(studies/NNS-5,his/PRP$-3)
+				amod(studies/NNS-5,undergraduate/JJ-4)
+				dobj(followed/VBD-2,studies/NNS-5)
+				det(Master/NN-8,a/DT-7)
+				prep_with(followed/VBD-2,Master/NN-8)
+				nn(degree/NN-11,Science/NNP-10)
+				prep_of(Master/NN-8,degree/NN-11)
+				nn(Engineering/NNP-14,Aerospace/NNP-13)
+				prep_in(followed/VBD-2,Engineering/NNP-14)
+				nn(University/NNP-17,Stanford/NNP-16)
+				prep_from(followed/VBD-2,University/NNP-17)
+				dobj(earned/VBD-21,which/WDT-19)
+				nsubj(earned/VBD-21,he/PRP-20)
+				rcmod(University/NNP-17,earned/VBD-21)
+				prep_in(earned/VBD-21,1992/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his undergraduate studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Undergraduate_education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stanford University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stanford_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hopkins was a member of Air Force ROTC while at the University of Illinois, where he was a distinguished graduate.	</value>
+
+		<annotated-sentence>	Hopkins was a member of [[Air Force ROTC|Air_Force_Reserve_Officer_Training_Corps]] while at the University of Illinois, where he was a distinguished graduate.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hopkins was a member of Air Force ROTC while at the University of Illinois, where he was a distinguished graduate.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Hopkins/NNP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				nn(ROTC/NNP-8,Air/NNP-6)
+				nn(ROTC/NNP-8,Force/NNP-7)
+				prep_of(member/NN-4,ROTC/NNP-8)
+				dep(member/NN-4,while/IN-9)
+				det(University/NNP-12,the/DT-11)
+				prep_at(member/NN-4,University/NNP-12)
+				prep_of(University/NNP-12,Illinois/NNP-14)
+				advmod(graduate/NN-21,where/WRB-16)
+				nsubj(graduate/NN-21,he/PRP-17)
+				cop(graduate/NN-21,was/VBD-18)
+				det(graduate/NN-21,a/DT-19)
+				amod(graduate/NN-21,distinguished/JJ-20)
+				advcl(member/NN-4,graduate/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Air Force ROTC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Reserve_Officer_Training_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating with his Bachelors degree he was commissioned a Second Lieutenant in January 1992.	</value>
+
+		<annotated-sentence>	After graduating with his Bachelors degree he was commissioned a Second Lieutenant in [[January 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating with his Bachelors degree he was commissioned a Second Lieutenant in January 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(commissioned/VBN-9,graduating/VBG-2)
+				poss(degree/NN-6,his/PRP$-4)
+				nn(degree/NN-6,Bachelors/NNS-5)
+				prep_with(graduating/VBG-2,degree/NN-6)
+				nsubjpass(commissioned/VBN-9,he/PRP-7)
+				auxpass(commissioned/VBN-9,was/VBD-8)
+				det(Lieutenant/NN-12,a/DT-10)
+				amod(Lieutenant/NN-12,Second/JJ-11)
+				dobj(commissioned/VBN-9,Lieutenant/NN-12)
+				prep_in(Lieutenant/NN-12,January/NNP-14)
+				num(January/NNP-14,1992/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Early in his career he was stationed at Kirtland Air Force Base in Albuquerque, New Mexico working on advanced space system technologies.	</value>
+
+		<annotated-sentence>	Early in [[his career|Career]] he was stationed at [[Kirtland Air Force Base|Kirtland_Air_Force_Base]] in [[Albuquerque|Albuquerque,_New_Mexico]], [[New Mexico|New_Mexico]] working on advanced space system [[technologies|Technology]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Early in his career he was stationed at [[Kirtland Air Force Base|Kirtland_Air_Force_Base]] in [[Albuquerque|Albuquerque,_New_Mexico]], [[New Mexico|New_Mexico]] working on advanced space system technologies.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(stationed/VBN-7,Early/RB-1)
+				poss(career/NN-4,his/PRP$-3)
+				prep_in(Early/RB-1,career/NN-4)
+				nsubjpass(stationed/VBN-7,he/PRP-5)
+				auxpass(stationed/VBN-7,was/VBD-6)
+				nn(Base/NNP-12,Kirtland/NNP-9)
+				nn(Base/NNP-12,Air/NNP-10)
+				nn(Base/NNP-12,Force/NNP-11)
+				prep_at(stationed/VBN-7,Base/NNP-12)
+				prep_in(Base/NNP-12,Albuquerque/NNP-14)
+				nn(Mexico/NNP-17,New/NNP-16)
+				appos(Albuquerque/NNP-14,Mexico/NNP-17)
+				partmod(Mexico/NNP-17,working/VBG-18)
+				amod(technologies/NNS-23,advanced/JJ-20)
+				nn(technologies/NNS-23,space/NN-21)
+				nn(technologies/NNS-23,system/NN-22)
+				prep_on(working/VBG-18,technologies/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kirtland Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kirtland_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Albuquerque</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Albuquerque,_New_Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>technologies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Albuquerque,_New_Mexico http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Kirtland_Air_Force_Base
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Albuquerque,_New_Mexico http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_Mexico
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/New_Mexico http://dbpedia.org/property/largestcity http://dbpedia.org/resource/Albuquerque,_New_Mexico
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1996 he attended the U.S. Air Force Test Pilot School as a flight test engineer.	</value>
+
+		<annotated-sentence>	In [[1996|1996]] he attended the U.S. Air Force Test Pilot School as [[a flight test engineer|Flight_test_engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1996 he attended the U.S. Air Force Test Pilot School as a flight test engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(attended/VBD-4,1996/CD-2)
+				nsubj(attended/VBD-4,he/PRP-3)
+				det(School/NNP-11,the/DT-5)
+				nn(School/NNP-11,U.S./NNP-6)
+				nn(School/NNP-11,Air/NNP-7)
+				nn(School/NNP-11,Force/NNP-8)
+				nn(School/NNP-11,Test/NNP-9)
+				nn(School/NNP-11,Pilot/NN-10)
+				dobj(attended/VBD-4,School/NNP-11)
+				det(engineer/NN-16,a/DT-13)
+				nn(engineer/NN-16,flight/NN-14)
+				nn(engineer/NN-16,test/NN-15)
+				prep_as(School/NNP-11,engineer/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a flight test engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test_engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated in class 96B as a Distinguished graduate and top flight test engineer.	</value>
+
+		<annotated-sentence>	He graduated in class 96B as a [[Distinguished|Distinguishing]] graduate and top [[flight test engineer|Flight_test_engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated in class 96B as a Distinguished graduate and top flight test engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(96B/NN-5,class/NN-4)
+				prep_in(graduated/VBD-2,96B/NN-5)
+				advmod(Distinguished/VBN-8,as/IN-6)
+				dep(as/IN-6,a/DT-7)
+				partmod(96B/NN-5,Distinguished/VBN-8)
+				dobj(Distinguished/VBN-8,graduate/NN-9)
+				amod(engineer/NN-14,top/JJ-11)
+				nn(engineer/NN-14,flight/NN-12)
+				nn(engineer/NN-14,test/NN-13)
+				dobj(Distinguished/VBN-8,engineer/NN-14)
+				conj_and(graduate/NN-9,engineer/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight test engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test_engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following test pilot school he was assigned to the 418th Flight Test Squadron testing the C-17 and C-130 aircraft.	</value>
+
+		<annotated-sentence>	Following test pilot school he was assigned to [[the 418th Flight Test Squadron|418th_Flight_Test_Squadron]] testing the [[C-17 and C-130|Lockheed_C-130_Hercules]] [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following test pilot school he was assigned to the 418th Flight Test Squadron testing the [[C-17 and C-130|Lockheed_C-130_Hercules]] [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(school/NN-4,test/NN-2)
+				nn(school/NN-4,pilot/NN-3)
+				prep_following(assigned/VBN-7,school/NN-4)
+				nsubjpass(assigned/VBN-7,he/PRP-5)
+				auxpass(assigned/VBN-7,was/VBD-6)
+				det(Squadron/NN-13,the/DT-9)
+				amod(Squadron/NN-13,418th/JJ-10)
+				nn(Squadron/NN-13,Flight/NN-11)
+				nn(Squadron/NN-13,Test/NN-12)
+				prep_to(assigned/VBN-7,Squadron/NN-13)
+				partmod(Squadron/NN-13,testing/VBG-14)
+				det(aircraft/NN-19,the/DT-15)
+				nn(aircraft/NN-19,C-17/NN-16)
+				conj_and(C-17/NN-16,C-130/NN-18)
+				nn(aircraft/NN-19,C-130/NN-18)
+				dobj(testing/VBG-14,aircraft/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the 418th Flight Test Squadron</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/418th_Flight_Test_Squadron</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>C-17 and C-130</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lockheed_C-130_Hercules</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lockheed_C-130_Hercules http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1999 he was sent to Canada on an exchange program.	</value>
+
+		<annotated-sentence>	In [[1999|1999]] he was sent to [[Canada|Canada]] on [[an exchange program|Student_exchange_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1999 he was sent to Canada on an exchange program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(sent/VBN-5,1999/CD-2)
+				nsubjpass(sent/VBN-5,he/PRP-3)
+				auxpass(sent/VBN-5,was/VBD-4)
+				prep_to(sent/VBN-5,Canada/NNP-7)
+				det(program/NN-11,an/DT-9)
+				nn(program/NN-11,exchange/NN-10)
+				prep_on(sent/VBN-5,program/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Canada</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canada</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an exchange program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student_exchange_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While there he lived in Cold Lake, Alberta working with the Canadian Flight Test Center.	</value>
+
+		<annotated-sentence>	While there he lived in [[Cold Lake|CFB_Cold_Lake]], [[Alberta|Alberta]] working with the [[Canadian|Canadian_Forces]] [[Flight Test Center|Flight_test]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While there he lived in [[Cold Lake|CFB_Cold_Lake]], [[Alberta|Alberta]] working with the [[Canadian|Canadian_Forces]] Flight Test Center.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(there/EX-2,While/IN-1)
+				advcl(working/VBG-10,there/EX-2)
+				nsubj(lived/VBD-4,he/PRP-3)
+				rcmod(there/EX-2,lived/VBD-4)
+				nn(Lake/NNP-7,Cold/NNP-6)
+				prep_in(lived/VBD-4,Lake/NNP-7)
+				nsubj(working/VBG-10,Alberta/NNP-9)
+				det(Center/NNP-16,the/DT-12)
+				amod(Center/NNP-16,Canadian/JJ-13)
+				nn(Center/NNP-16,Flight/NN-14)
+				nn(Center/NNP-16,Test/NN-15)
+				prep_with(working/VBG-10,Center/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cold Lake</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CFB_Cold_Lake</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Alberta</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Alberta</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Canadian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Test Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/CFB_Cold_Lake http://dbpedia.org/ontology/location http://dbpedia.org/resource/Alberta
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/CFB_Cold_Lake http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Forces
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2002 he was selected as an Olmsted Scholar by the George and Carol Olmsted Foundation and was sent to the Defense Language Institute in Monterey, California studying foreign language.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,2002/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				nsubjpass(sent/VBN-19,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(Scholar/NNP-9,an/DT-7)
+				amod(Scholar/NNP-9,Olmsted/JJ-8)
+				prep_as(selected/VBN-5,Scholar/NNP-9)
+				det(George/NNP-12,the/DT-11)
+				agent(selected/VBN-5,George/NNP-12)
+				nn(Foundation/NNP-16,Carol/NNP-14)
+				nn(Foundation/NNP-16,Olmsted/NNP-15)
+				agent(selected/VBN-5,Foundation/NNP-16)
+				conj_and(George/NNP-12,Foundation/NNP-16)
+				auxpass(sent/VBN-19,was/VBD-18)
+				conj_and(selected/VBN-5,sent/VBN-19)
+				det(Institute/NNP-24,the/DT-21)
+				nn(Institute/NNP-24,Defense/NNP-22)
+				nn(Institute/NNP-24,Language/NNP-23)
+				prep_to(sent/VBN-19,Institute/NNP-24)
+				nn(California/NNP-28,Monterey/NNP-26)
+				prep_in(Institute/NNP-24,California/NNP-28)
+				xcomp(sent/VBN-19,studying/VBG-29)
+				amod(language/NN-31,foreign/JJ-30)
+				dobj(studying/VBG-29,language/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After six months of language training he was sent to Parma, Italy studying political science at the Università degli Studi di Parma.	</value>
+
+		<annotated-sentence>	After [[six months|Month]] of [[language training|Language_education]] he was sent to [[Parma , Italy|Parma]]studying [[political science|Political_science]] at [[the Università degli Studi di Parma|University_of_Parma]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After six months of language training he was sent to Parma, Italy studying political science at [[the Università degli Studi di Parma|University_of_Parma]].	</pattern_crowdsource>
+
+
+		<tree>
+				num(months/NNS-3,six/CD-2)
+				prep_after(sent/VBN-9,months/NNS-3)
+				nn(training/NN-6,language/NN-5)
+				prep_of(months/NNS-3,training/NN-6)
+				nsubjpass(sent/VBN-9,he/PRP-7)
+				auxpass(sent/VBN-9,was/VBD-8)
+				nn(Italy/NNP-13,Parma/NNP-11)
+				prep_to(sent/VBN-9,Italy/NNP-13)
+				xcomp(sent/VBN-9,studying/VBG-14)
+				amod(science/NN-16,political/JJ-15)
+				dobj(studying/VBG-14,science/NN-16)
+				det(degli/NNS-20,the/DT-18)
+				nn(degli/NNS-20,Università/NNP-19)
+				prep_at(studying/VBG-14,degli/NNS-20)
+				nn(Parma/NNP-23,Studi/NNP-21)
+				nn(Parma/NNP-23,di/NNP-22)
+				dep(degli/NNS-20,Parma/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>six months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>language training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Language_education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Parma , Italy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parma</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>political science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Political_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Università degli Studi di Parma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Parma</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/University_of_Parma http://dbpedia.org/property/city http://dbpedia.org/resource/Parma
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2005, Hopkins was assigned to the U.S. Air Force Rapid Capabilities Project Office at the Pentagon where he was a project engineer and program manager.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,2005/CD-2)
+				nsubjpass(assigned/VBN-6,Hopkins/NNP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				det(Office/NNP-15,the/DT-8)
+				nn(Office/NNP-15,U.S./NNP-9)
+				nn(Office/NNP-15,Air/NNP-10)
+				nn(Office/NNP-15,Force/NNP-11)
+				nn(Office/NNP-15,Rapid/NNP-12)
+				nn(Office/NNP-15,Capabilities/NNP-13)
+				nn(Office/NNP-15,Project/NNP-14)
+				prep_to(assigned/VBN-6,Office/NNP-15)
+				det(Pentagon/NNP-18,the/DT-17)
+				prep_at(assigned/VBN-6,Pentagon/NNP-18)
+				advmod(engineer/NN-24,where/WRB-19)
+				nsubj(engineer/NN-24,he/PRP-20)
+				cop(engineer/NN-24,was/VBD-21)
+				det(engineer/NN-24,a/DT-22)
+				nn(engineer/NN-24,project/NN-23)
+				advcl(assigned/VBN-6,engineer/NN-24)
+				nn(manager/NN-27,program/NN-26)
+				advcl(assigned/VBN-6,manager/NN-27)
+				conj_and(engineer/NN-24,manager/NN-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following this assignment, in 2008 he was assigned as a special assistant to the Vice Chairman of the Joint Chiefs of Staff, General James Cartwright.	</value>
+
+		<annotated-sentence>	Following this assignment, in [[2008|2008]] he was assigned as a special assistant to [[the Vice Chairman|Vice_Chairman_of_the_Joint_Chiefs_of_Staff]] of [[the Joint Chiefs|Joint_Chiefs_of_Staff]] of [[Staff|Joint_Chiefs_of_Staff]], [[General James Cartwright|James_Cartwright]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following this assignment, in 2008 he was assigned as a special assistant to [[the Vice Chairman|Vice_Chairman_of_the_Joint_Chiefs_of_Staff]] of [[the Joint Chiefs|Joint_Chiefs_of_Staff]] of [[Staff|Joint_Chiefs_of_Staff]], [[General James Cartwright|James_Cartwright]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(assignment/NN-3,this/DT-2)
+				prep_following(assigned/VBN-9,assignment/NN-3)
+				prep_in(assignment/NN-3,2008/CD-6)
+				nsubjpass(assigned/VBN-9,he/PRP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				det(assistant/NN-13,a/DT-11)
+				amod(assistant/NN-13,special/JJ-12)
+				prep_as(assigned/VBN-9,assistant/NN-13)
+				det(Chairman/NNP-17,the/DT-15)
+				nn(Chairman/NNP-17,Vice/NNP-16)
+				prep_to(assigned/VBN-9,Chairman/NNP-17)
+				det(Chiefs/NNPS-21,the/DT-19)
+				nn(Chiefs/NNPS-21,Joint/NNP-20)
+				prep_of(Chairman/NNP-17,Chiefs/NNPS-21)
+				nn(Cartwright/NNP-27,Staff/NNP-23)
+				appos(Cartwright/NNP-27,General/NNP-25)
+				nn(Cartwright/NNP-27,James/NNP-26)
+				prep_of(Chiefs/NNPS-21,Cartwright/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Vice Chairman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Joint Chiefs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Chiefs_of_Staff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Staff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Chiefs_of_Staff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>General James Cartwright</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_Cartwright</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff http://dbpedia.org/property/deputy http://dbpedia.org/resource/Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff http://dbpedia.org/property/memberOf http://dbpedia.org/resource/Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Joint_Chiefs_of_Staff http://dbpedia.org/property/label http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff http://dbpedia.org/property/deputy http://dbpedia.org/resource/Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff http://dbpedia.org/property/memberOf http://dbpedia.org/resource/Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Joint_Chiefs_of_Staff http://dbpedia.org/property/label http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Cartwright http://dbpedia.org/property/title http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Cartwright http://dbpedia.org/property/commands http://dbpedia.org/resource/Vice_Chairman_of_the_Joint_Chiefs_of_Staff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was working with the Joint Chiefs when he was assigned to be an astronaut candidate.	</value>
+
+		<annotated-sentence>	He was working with [[the Joint Chiefs|Joint_Chiefs_of_Staff]] when he was assigned to be an [[astronaut|Astronaut]] [[candidate|Candidate]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was working with the Joint Chiefs when he was assigned to be an [[astronaut|Astronaut]] candidate.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-3,He/PRP-1)
+				aux(working/VBG-3,was/VBD-2)
+				det(Chiefs/NNPS-7,the/DT-5)
+				nn(Chiefs/NNPS-7,Joint/NNP-6)
+				prep_with(working/VBG-3,Chiefs/NNPS-7)
+				advmod(assigned/VBN-11,when/WRB-8)
+				nsubjpass(assigned/VBN-11,he/PRP-9)
+				auxpass(assigned/VBN-11,was/VBD-10)
+				advcl(working/VBG-3,assigned/VBN-11)
+				aux(candidate/NN-16,to/TO-12)
+				cop(candidate/NN-16,be/VB-13)
+				det(candidate/NN-16,an/DT-14)
+				nn(candidate/NN-16,astronaut/NN-15)
+				xcomp(assigned/VBN-11,candidate/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Joint Chiefs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Chiefs_of_Staff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hopkins was selected by NASA and the U.S. Air Force to be an astronaut candidate and began training at the Johnson Space Center in Houston, Texas.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Hopkins/NNP-1)
+				nsubjpass(began/VBD-17,Hopkins/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				agent(selected/VBN-3,NASA/NNP-5)
+				det(Force/NNP-10,the/DT-7)
+				nn(Force/NNP-10,U.S./NNP-8)
+				nn(Force/NNP-10,Air/NNP-9)
+				agent(selected/VBN-3,Force/NNP-10)
+				conj_and(NASA/NNP-5,Force/NNP-10)
+				aux(candidate/NN-15,to/TO-11)
+				cop(candidate/NN-15,be/VB-12)
+				det(candidate/NN-15,an/DT-13)
+				nn(candidate/NN-15,astronaut/NN-14)
+				xcomp(selected/VBN-3,candidate/NN-15)
+				conj_and(selected/VBN-3,began/VBD-17)
+				xcomp(began/VBD-17,training/VBG-18)
+				det(Center/NNP-23,the/DT-20)
+				nn(Center/NNP-23,Johnson/NNP-21)
+				nn(Center/NNP-23,Space/NNP-22)
+				prep_at(training/VBG-18,Center/NNP-23)
+				nn(Texas/NNP-27,Houston/NNP-25)
+				prep_in(Center/NNP-23,Texas/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing astronaut candidate training he was designated an astronaut.	</value>
+
+		<annotated-sentence>	After completing [[astronaut|Astronaut]] [[candidate|Candidate]] [[training|Training]] he was designated [[an astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After completing [[astronaut|Astronaut]] candidate training he was designated an [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(designated/VBN-8,completing/VBG-2)
+				nn(training/NN-5,astronaut/NN-3)
+				nn(training/NN-5,candidate/NN-4)
+				dobj(completing/VBG-2,training/NN-5)
+				nsubjpass(designated/VBN-8,he/PRP-6)
+				auxpass(designated/VBN-8,was/VBD-7)
+				det(astronaut/NN-10,an/DT-9)
+				dobj(designated/VBN-8,astronaut/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_S._Hopkins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He launched on board the Soyuz TMA-10M spacecraft in September 25, 2013 alongside Russian cosmonauts Oleg Kotov and Sergey Ryazansky, which docked with the International Space Station several hours later.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,He/PRP-1)
+				prep_on(launched/VBD-2,board/NN-4)
+				det(spacecraft/NN-8,the/DT-5)
+				nn(spacecraft/NN-8,Soyuz/NNP-6)
+				nn(spacecraft/NN-8,TMA-10M/NN-7)
+				dobj(launched/VBD-2,spacecraft/NN-8)
+				prep_in(spacecraft/NN-8,September/NNP-10)
+				num(September/NNP-10,25/CD-11)
+				num(September/NNP-10,2013/CD-13)
+				amod(Kotov/NNP-18,Russian/JJ-15)
+				nn(Kotov/NNP-18,cosmonauts/NNS-16)
+				nn(Kotov/NNP-18,Oleg/NNP-17)
+				prep_alongside(spacecraft/NN-8,Kotov/NNP-18)
+				nn(Ryazansky/NNP-21,Sergey/NNP-20)
+				prep_alongside(spacecraft/NN-8,Ryazansky/NNP-21)
+				conj_and(Kotov/NNP-18,Ryazansky/NNP-21)
+				nsubj(docked/VBD-24,which/WDT-23)
+				rcmod(Kotov/NNP-18,docked/VBD-24)
+				det(Station/NNP-29,the/DT-26)
+				nn(Station/NNP-29,International/NNP-27)
+				nn(Station/NNP-29,Space/NNP-28)
+				prep_with(docked/VBD-24,Station/NNP-29)
+				amod(hours/NNS-31,several/JJ-30)
+				npadvmod(later/RB-32,hours/NNS-31)
+				advmod(docked/VBD-24,later/RB-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hopkins will remain on board as a Flight Engineer on Expedition 37/Expedition 38.	</value>
+
+		<annotated-sentence>	Hopkins will remain on board as [[a Flight Engineer|Flight_engineer]] on [[Expedition|Exploration]] 37/Expedition 38.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hopkins will remain on board as a Flight Engineer on Expedition 37/Expedition 38.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(remain/VB-3,Hopkins/NNP-1)
+				aux(remain/VB-3,will/MD-2)
+				prep_on(remain/VB-3,board/NN-5)
+				det(Engineer/NN-9,a/DT-7)
+				nn(Engineer/NN-9,Flight/NN-8)
+				prep_as(remain/VB-3,Engineer/NN-9)
+				nn(37/Expedition/NN-12,Expedition/NN-11)
+				prep_on(Engineer/NN-9,37/Expedition/NN-12)
+				num(37/Expedition/NN-12,38/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time on the station, the crew will conduct science experiments and maintenance.	</value>
+
+		<annotated-sentence>	During his time on [[the station|Station]], the crew will conduct [[science experiments|Experiment]] and maintenance.	</annotated-sentence>
+
+		<pattern_crowdsource>	During his time on the station, the crew will conduct science experiments and maintenance.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(conduct/VB-11,time/NN-3)
+				det(station/NN-6,the/DT-5)
+				prep_on(time/NN-3,station/NN-6)
+				det(crew/NN-9,the/DT-8)
+				nsubj(conduct/VB-11,crew/NN-9)
+				aux(conduct/VB-11,will/MD-10)
+				nn(experiments/NNS-13,science/NN-12)
+				dobj(conduct/VB-11,experiments/NNS-13)
+				dobj(conduct/VB-11,maintenance/NN-15)
+				conj_and(experiments/NNS-13,maintenance/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission is scheduled to end with the Soyuz landing in March 2014.	</value>
+
+		<annotated-sentence>	The mission is scheduled to end with the Soyuz [[landing|Amphibious_warfare]] in [[March 2014|2014]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission is scheduled to end with the Soyuz landing in March 2014.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(scheduled/VBN-4,mission/NN-2)
+				auxpass(scheduled/VBN-4,is/VBZ-3)
+				aux(end/VB-6,to/TO-5)
+				xcomp(scheduled/VBN-4,end/VB-6)
+				det(landing/NN-10,the/DT-8)
+				nn(landing/NN-10,Soyuz/NNP-9)
+				prep_with(end/VB-6,landing/NN-10)
+				prep_in(end/VB-6,March/NNP-12)
+				num(March/NNP-12,2014/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2014</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2014</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hopkins is married and has two sons.	</value>
+
+		<annotated-sentence>	Hopkins is married and has two sons.	</annotated-sentence>
+
+		<pattern_crowdsource>	Hopkins is married and has two sons.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Hopkins/NNP-1)
+				nsubj(has/VBZ-5,Hopkins/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(sons/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,sons/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

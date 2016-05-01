@@ -1,0 +1,1531 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	George Driver "Pinky" Nelson (born July 13, 1950) is a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[George|George_Nelson_(astronaut)]] Driver "[[Pinky|George_Nelson_(astronaut)]]" [[Nelson|George_Nelson_(astronaut)]] (born [[July|July]] 13, 1950) is a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[George|George_Nelson_([[astronaut|Astronaut]])]] Driver "[[Pinky|George_Nelson_([[astronaut|Astronaut]])]]" [[Nelson|George_Nelson_([[astronaut|Astronaut]])]] (born July 13, 1950) is a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Nelson/NNP-6,George/NNP-1)
+				nn(Nelson/NNP-6,Driver/NN-2)
+				nn(Nelson/NNP-6,Pinky/NN-4)
+				nsubj(astronaut/NN-18,Nelson/NNP-6)
+				dep(Nelson/NNP-6,born/VBN-8)
+				tmod(born/VBN-8,July/NNP-9)
+				num(July/NNP-9,13/CD-10)
+				num(July/NNP-9,1950/CD-12)
+				cop(astronaut/NN-18,is/VBZ-14)
+				det(astronaut/NN-18,a/DT-15)
+				amod(astronaut/NN-18,former/JJ-16)
+				nn(astronaut/NN-18,NASA/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>George</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_Nelson_(astronaut)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pinky</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_Nelson_(astronaut)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Nelson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_Nelson_(astronaut)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nelson was born in Charles City, Iowa, but considers Willmar, Minnesota, to be his hometown.	</value>
+
+		<annotated-sentence>	Nelson was born in Charles City, [[Iowa|Iowa]], but considers Willmar, [[Minnesota|Minnesota]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Nelson was born in Charles City, Iowa, but considers Willmar, Minnesota, to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Nelson/NNP-1)
+				nsubj(considers/VBZ-11,Nelson/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(City/NNP-6,Charles/NNP-5)
+				prep_in(born/VBN-3,City/NNP-6)
+				appos(City/NNP-6,Iowa/NNP-8)
+				conj_but(born/VBN-3,considers/VBZ-11)
+				nsubj(hometown/NN-19,Willmar/NNP-12)
+				appos(Willmar/NNP-12,Minnesota/NNP-14)
+				aux(hometown/NN-19,to/TO-16)
+				cop(hometown/NN-19,be/VB-17)
+				poss(hometown/NN-19,his/PRP$-18)
+				xcomp(considers/VBZ-11,hometown/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Iowa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Iowa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Minnesota</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minnesota</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His wife Susie is from Alhambra, California.	</value>
+
+		<annotated-sentence>	[[His wife|Carolyn_Bessette-Kennedy]] Susie is from [[Alhambra , California|Alhambra,_California]]	</annotated-sentence>
+
+		<pattern_crowdsource>	His wife Susie is from Alhambra, California.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Susie/NNP-3,His/PRP$-1)
+				nn(Susie/NNP-3,wife/NN-2)
+				nsubj(is/VBZ-4,Susie/NNP-3)
+				nn(California/NNP-8,Alhambra/NNP-6)
+				prep_from(is/VBZ-4,California/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carolyn_Bessette-Kennedy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Alhambra , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Alhambra,_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two daughters, Aimee and Marti.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[two daughters|Daughter]], [[Aimee|Ozzy_Osbourne]] and [[Marti|Marti_(crater)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two daughters, Aimee and Marti.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(daughters/NNS-4,two/CD-3)
+				dobj(have/VBP-2,daughters/NNS-4)
+				dobj(have/VBP-2,Aimee/NNP-6)
+				conj_and(daughters/NNS-4,Aimee/NNP-6)
+				dobj(have/VBP-2,Marti/NNP-8)
+				conj_and(daughters/NNS-4,Marti/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two daughters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aimee</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ozzy_Osbourne</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marti</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marti_(crater)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nelson graduated from Willmar Senior High School, Willmar, Minnesota, in 1968.	</value>
+
+		<annotated-sentence>	Nelson graduated from Willmar [[Senior High School|High_school]], Willmar, Minnesota, in [[1968|An_American_Carol]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nelson graduated from Willmar Senior High School, Willmar, Minnesota, in 1968.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Nelson/NNP-1)
+				nn(School/NNP-7,Willmar/NNP-4)
+				nn(School/NNP-7,Senior/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(Minnesota/NNP-11,Willmar/NNP-9)
+				appos(School/NNP-7,Minnesota/NNP-11)
+				prep_in(graduated/VBD-2,1968/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Senior High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/High_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1968</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/An_American_Carol</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a B.S. degree in Physics from Harvey Mudd College in 1972 and a M.S. and a Ph.D. in Astronomy from the University of Washington in 1974 and 1978, respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(degree/NN-5,a/DT-3)
+				nn(degree/NN-5,B.S./NNP-4)
+				dobj(received/VBD-2,degree/NN-5)
+				prep_in(received/VBD-2,Physics/NN-7)
+				nn(College/NNP-11,Harvey/NNP-9)
+				nn(College/NNP-11,Mudd/NNP-10)
+				prep_from(Physics/NN-7,College/NNP-11)
+				prep_in(College/NNP-11,1972/CD-13)
+				det(M.S./NNP-16,a/DT-15)
+				prep_in(College/NNP-11,M.S./NNP-16)
+				conj_and(1972/CD-13,M.S./NNP-16)
+				det(Ph.D./NNP-19,a/DT-18)
+				prep_from(Physics/NN-7,Ph.D./NNP-19)
+				conj_and(College/NNP-11,Ph.D./NNP-19)
+				prep_in(Ph.D./NNP-19,Astronomy/NNP-21)
+				det(University/NNP-24,the/DT-23)
+				prep_from(received/VBD-2,University/NNP-24)
+				prep_of(University/NNP-24,Washington/NNP-26)
+				prep_in(Washington/NNP-26,1974/CD-28)
+				prep_in(Washington/NNP-26,1978/CD-30)
+				conj_and(1974/CD-28,1978/CD-30)
+				advmod(received/VBD-2,respectively/RB-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	NASA Exceptional Engineering Achievement Medal, NASA Exceptional Service Medal, 3 NASA Space Flight Medals, AIAA Haley Space Flight Award, Federation Aeronautique Internationale's V. M. Komarov Diploma, Western Washington University Faculty Outstanding Service Award.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Medal/NN-5,NASA/NNP-1)
+				nn(Medal/NN-5,Exceptional/NNP-2)
+				nn(Medal/NN-5,Engineering/NNP-3)
+				nn(Medal/NN-5,Achievement/NNP-4)
+				nn(Medal/NN-10,NASA/NNP-7)
+				nn(Medal/NN-10,Exceptional/NNP-8)
+				nn(Medal/NN-10,Service/NNP-9)
+				appos(Medal/NN-5,Medal/NN-10)
+				appos(Medal/NN-5,3/CD-12)
+				nn(Medals/NNPS-16,NASA/NNP-13)
+				nn(Medals/NNPS-16,Space/NNP-14)
+				nn(Medals/NNPS-16,Flight/NNP-15)
+				dep(3/CD-12,Medals/NNPS-16)
+				nn(Award/NN-22,AIAA/NNP-18)
+				nn(Award/NN-22,Haley/NNP-19)
+				nn(Award/NN-22,Space/NNP-20)
+				nn(Award/NN-22,Flight/NNP-21)
+				appos(Medal/NN-5,Award/NN-22)
+				nn(Internationale/NNP-26,Federation/NNP-24)
+				nn(Internationale/NNP-26,Aeronautique/NNP-25)
+				poss(Diploma/NNP-31,Internationale/NNP-26)
+				nn(Diploma/NNP-31,V./NNP-28)
+				nn(Diploma/NNP-31,M./NNP-29)
+				nn(Diploma/NNP-31,Komarov/NNP-30)
+				appos(Award/NN-22,Diploma/NNP-31)
+				nn(Faculty/NNP-36,Western/NNP-33)
+				nn(Faculty/NNP-36,Washington/NNP-34)
+				nn(Faculty/NNP-36,University/NNP-35)
+				appos(Medal/NN-5,Faculty/NNP-36)
+				amod(Award/NN-39,Outstanding/JJ-37)
+				nn(Award/NN-39,Service/NNP-38)
+				dep(Faculty/NNP-36,Award/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2009, Nelson was inducted into the United States Astronaut Hall of Fame.	</value>
+
+		<annotated-sentence>	In [[2009|2009]], Nelson was inducted into the [[United States|United_States]] [[Astronaut|Astronaut]] Hall of Fame.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2009, Nelson was inducted into the [[United States|United_States]] [[Astronaut|Astronaut]] Hall of Fame.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(inducted/VBN-6,2009/CD-2)
+				nsubjpass(inducted/VBN-6,Nelson/NNP-4)
+				auxpass(inducted/VBN-6,was/VBD-5)
+				det(Hall/NNP-12,the/DT-8)
+				nn(Hall/NNP-12,United/NNP-9)
+				nn(Hall/NNP-12,States/NNPS-10)
+				nn(Hall/NNP-12,Astronaut/NNP-11)
+				prep_into(inducted/VBN-6,Hall/NNP-12)
+				prep_of(Hall/NNP-12,Fame/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Nelson performed astronomical research at the Sacramento Peak Solar Observatory, Sunspot, New Mexico; the Astronomical Institute at Utrecht (Utrecht, Netherlands) and the University of Göttingen Observatory, (Göttingen, West Germany), and at the Joint Institute for Laboratory Astrophysics (Boulder, Colorado).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Nelson/NNP-2,Dr./NNP-1)
+				nsubj(performed/VBD-3,Nelson/NNP-2)
+				amod(research/NN-5,astronomical/JJ-4)
+				dobj(performed/VBD-3,research/NN-5)
+				det(Observatory/NNP-11,the/DT-7)
+				nn(Observatory/NNP-11,Sacramento/NNP-8)
+				nn(Observatory/NNP-11,Peak/NNP-9)
+				nn(Observatory/NNP-11,Solar/NNP-10)
+				prep_at(performed/VBD-3,Observatory/NNP-11)
+				appos(Observatory/NNP-11,Sunspot/NNP-13)
+				nn(Mexico/NNP-16,New/NNP-15)
+				appos(Sunspot/NNP-13,Mexico/NNP-16)
+				det(Institute/NNP-20,the/DT-18)
+				nn(Institute/NNP-20,Astronomical/NNP-19)
+				dep(Sunspot/NNP-13,Institute/NNP-20)
+				prep_at(Institute/NNP-20,Utrecht/NNP-22)
+				appos(Utrecht/NNP-22,Utrecht/NNP-24)
+				dep(Utrecht/NNP-24,Netherlands/NNP-26)
+				det(University/NNP-30,the/DT-29)
+				prep_at(Institute/NNP-20,University/NNP-30)
+				conj_and(Utrecht/NNP-22,University/NNP-30)
+				nn(Observatory/NNP-33,Göttingen/NNP-32)
+				prep_of(University/NNP-30,Observatory/NNP-33)
+				appos(Observatory/NNP-11,Göttingen/NNP-36)
+				nn(Germany/NNP-39,West/NNP-38)
+				dep(Göttingen/NNP-36,Germany/NNP-39)
+				det(Institute/NNP-46,the/DT-44)
+				nn(Institute/NNP-46,Joint/NNP-45)
+				prep_at(performed/VBD-3,Institute/NNP-46)
+				conj_and(Observatory/NNP-11,Institute/NNP-46)
+				nn(Astrophysics/NNP-49,Laboratory/NNP-48)
+				prep_for(performed/VBD-3,Astrophysics/NNP-49)
+				appos(Astrophysics/NNP-49,Boulder/NNP-51)
+				dep(Boulder/NNP-51,Colorado/NNP-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His current research is in systemic education reform and the preparation of science teachers.	</value>
+
+		<annotated-sentence>	His current [[research|Research]] is in systemic [[education reform|Education_reform]] and the preparation of [[science|Science]] [[teachers|Teacher]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His current research is in systemic education reform and the preparation of science teachers.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(research/NN-3,His/PRP$-1)
+				amod(research/NN-3,current/JJ-2)
+				nsubj(is/VBZ-4,research/NN-3)
+				amod(reform/NN-8,systemic/JJ-6)
+				nn(reform/NN-8,education/NN-7)
+				prep_in(is/VBZ-4,reform/NN-8)
+				det(preparation/NN-11,the/DT-10)
+				prep_in(is/VBZ-4,preparation/NN-11)
+				conj_and(reform/NN-8,preparation/NN-11)
+				nn(teachers/NNS-14,science/NN-13)
+				prep_of(preparation/NN-11,teachers/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>education reform</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Education_reform</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>teachers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Teacher</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	George was selected as an astronaut candidate by NASA in January 1978.	</value>
+
+		<annotated-sentence>	George was selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] by [[NASA|NASA]] in [[January|January]] [[1978|Tsubasa_Otomiya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	George was selected as an [[astronaut|Astronaut]] candidate by [[NASA|NASA]] in January 1978.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,George/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(candidate/NN-7,an/DT-5)
+				nn(candidate/NN-7,astronaut/NN-6)
+				prep_as(selected/VBN-3,candidate/NN-7)
+				agent(selected/VBN-3,NASA/NNP-9)
+				prep_in(NASA/NNP-9,January/NNP-11)
+				num(January/NNP-11,1978/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew as a scientific equipment operator in the WB 57-F earth resources aircraft and served as the Astronaut Office representative in the Space Shuttle Extravehicular Mobility Unit (space suit) development effort.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nsubj(served/VBD-16,He/PRP-1)
+				det(operator/NN-7,a/DT-4)
+				amod(operator/NN-7,scientific/JJ-5)
+				nn(operator/NN-7,equipment/NN-6)
+				prep_as(flew/VBD-2,operator/NN-7)
+				det(aircraft/NN-14,the/DT-9)
+				nn(aircraft/NN-14,WB/NNP-10)
+				nn(aircraft/NN-14,57-F/NN-11)
+				nn(aircraft/NN-14,earth/NN-12)
+				nn(aircraft/NN-14,resources/NNS-13)
+				prep_in(flew/VBD-2,aircraft/NN-14)
+				conj_and(flew/VBD-2,served/VBD-16)
+				det(representative/NN-21,the/DT-18)
+				nn(representative/NN-21,Astronaut/NNP-19)
+				nn(representative/NN-21,Office/NNP-20)
+				prep_as(served/VBD-16,representative/NN-21)
+				det(Unit/NN-28,the/DT-23)
+				nn(Unit/NN-28,Space/NN-24)
+				nn(Unit/NN-28,Shuttle/NNP-25)
+				nn(Unit/NN-28,Extravehicular/NNP-26)
+				nn(Unit/NN-28,Mobility/NN-27)
+				prep_in(served/VBD-16,Unit/NN-28)
+				nn(suit/NN-31,space/NN-30)
+				appos(Unit/NN-28,suit/NN-31)
+				nn(effort/NN-34,development/NN-33)
+				dobj(flew/VBD-2,effort/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During STS-1 he was the photographer in the prime chase plane.	</value>
+
+		<annotated-sentence>	During [[STS-1|STS-1]] he was [[the photographer|Photographer]] in the prime [[chase plane|Chase_plane]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During STS-1 he was the photographer in the prime chase plane.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(photographer/NNP-6,STS-1/NN-2)
+				nsubj(photographer/NNP-6,he/PRP-3)
+				cop(photographer/NNP-6,was/VBD-4)
+				det(photographer/NNP-6,the/DT-5)
+				det(plane/NN-11,the/DT-8)
+				amod(plane/NN-11,prime/JJ-9)
+				nn(plane/NN-11,chase/NN-10)
+				prep_in(photographer/NNP-6,plane/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the photographer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photographer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>chase plane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chase_plane</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as support crewman and CAPCOM for the last two OFT flights, STS-3 and STS-4, and as head of the Astronaut Office Mission Development Group.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				conj_and(served/VBD-3,served/VBD-3)
+				nn(crewman/NN-6,support/NN-5)
+				prep_as(served/VBD-3,crewman/NN-6)
+				prep_as(served/VBD-3,CAPCOM/NNP-8)
+				conj_and(crewman/NN-6,CAPCOM/NNP-8)
+				det(flights/NNS-14,the/DT-10)
+				amod(flights/NNS-14,last/JJ-11)
+				num(flights/NNS-14,two/CD-12)
+				nn(flights/NNS-14,OFT/NNP-13)
+				prep_for(served/VBD-3,flights/NNS-14)
+				appos(flights/NNS-14,STS-3/NN-16)
+				appos(flights/NNS-14,STS-4/NN-18)
+				conj_and(STS-3/NN-16,STS-4/NN-18)
+				prep_as(served/VBD-3,head/NN-22)
+				det(Group/NNP-29,the/DT-24)
+				nn(Group/NNP-29,Astronaut/NNP-25)
+				nn(Group/NNP-29,Office/NNP-26)
+				nn(Group/NNP-29,Mission/NNP-27)
+				nn(Group/NNP-29,Development/NNP-28)
+				prep_of(head/NN-22,Group/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of three space flights, Nelson served aboard STS-41-C in 1984, STS-61C in 1986 and STS-26 in 1988.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of three [[space|Space]] [[flights|Flight]], Nelson served aboard [[STS-41-C|STS-41-C]] in [[1984|1984]], [[STS-61C|STS-61-C]] in [[1986|1986]] and [[STS-26|STS-26]] in [[1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of three space flights, Nelson served aboard [[STS-41-C|STS-41-C]] in 1984, [[STS-61C|STS-61-C]] in 1986 and [[STS-26|STS-26]] in 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(served/VBD-9,veteran/NN-2)
+				num(flights/NNS-6,three/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				appos(flights/NNS-6,Nelson/NNP-8)
+				prep_aboard(served/VBD-9,STS-41-C/NN-11)
+				prep_in(STS-41-C/NN-11,1984/CD-13)
+				prep_aboard(served/VBD-9,STS-61C/NN-15)
+				conj_and(STS-41-C/NN-11,STS-61C/NN-15)
+				prep_in(STS-61C/NN-15,1986/CD-17)
+				prep_aboard(served/VBD-9,STS-26/NN-19)
+				conj_and(STS-41-C/NN-11,STS-26/NN-19)
+				prep_in(STS-26/NN-19,1988/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-C</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-C</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1986</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1986</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-26</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-41-C
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-C http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/George_Nelson_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-C http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/George_Nelson_(astronaut)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-C
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Nelson_(astronaut) http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-26
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged a total of 411 hours in space, including 10 hours of EVA flight time.	</value>
+
+		<annotated-sentence>	He has logged a total of 411 [[hours|Hour]] in [[space|Space]], including 10 [[hours|Hour]] of EVA [[flight time|Herbert_%22Flight_Time%22_Lang]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged a total of 411 hours in space, including 10 hours of EVA flight time.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				det(total/NN-5,a/DT-4)
+				dobj(logged/VBN-3,total/NN-5)
+				num(hours/NNS-8,411/CD-7)
+				prep_of(total/NN-5,hours/NNS-8)
+				prep_in(logged/VBN-3,space/NN-10)
+				num(hours/NNS-14,10/CD-13)
+				prep_including(logged/VBN-3,hours/NNS-14)
+				nn(time/NN-18,EVA/NNP-16)
+				nn(time/NN-18,flight/NN-17)
+				prep_of(hours/NNS-14,time/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Herbert_%22Flight_Time%22_Lang</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This was a seven-day (April 6–13, 1984) mission during which the crew successfully deployed the Long Duration Exposure Facility (LDEF), retrieved the ailing Solar Maximum satellite, repaired it on board the Orbiter, and replaced it in orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-13,This/DT-1)
+				cop(mission/NN-13,was/VBD-2)
+				det(mission/NN-13,a/DT-3)
+				amod(mission/NN-13,seven-day/JJ-4)
+				dep(mission/NN-13,April/NNP-6)
+				num(April/NNP-6,6/CD-7)
+				dep(April/NNP-6,13/CD-9)
+				amod(13/CD-9,1984/CD-11)
+				prep_during(deployed/VBD-19,which/WDT-15)
+				det(crew/NN-17,the/DT-16)
+				nsubj(deployed/VBD-19,crew/NN-17)
+				nsubj(retrieved/VBD-29,crew/NN-17)
+				nsubj(repaired/VBD-36,crew/NN-17)
+				nsubj(replaced/VBD-44,crew/NN-17)
+				advmod(deployed/VBD-19,successfully/RB-18)
+				rcmod(mission/NN-13,deployed/VBD-19)
+				det(Facility/NN-24,the/DT-20)
+				amod(Facility/NN-24,Long/JJ-21)
+				nn(Facility/NN-24,Duration/NNP-22)
+				nn(Facility/NN-24,Exposure/NN-23)
+				dobj(deployed/VBD-19,Facility/NN-24)
+				appos(Facility/NN-24,LDEF/NN-26)
+				rcmod(mission/NN-13,retrieved/VBD-29)
+				conj_and(deployed/VBD-19,retrieved/VBD-29)
+				det(satellite/NN-34,the/DT-30)
+				amod(satellite/NN-34,ailing/VBG-31)
+				nn(satellite/NN-34,Solar/NNP-32)
+				nn(satellite/NN-34,Maximum/NNP-33)
+				xcomp(retrieved/VBD-29,satellite/NN-34)
+				rcmod(mission/NN-13,repaired/VBD-36)
+				conj_and(deployed/VBD-19,repaired/VBD-36)
+				dobj(repaired/VBD-36,it/PRP-37)
+				prep_on(repaired/VBD-36,board/NN-39)
+				det(Orbiter/NNP-41,the/DT-40)
+				dep(board/NN-39,Orbiter/NNP-41)
+				rcmod(mission/NN-13,replaced/VBD-44)
+				conj_and(deployed/VBD-19,replaced/VBD-44)
+				dobj(replaced/VBD-44,it/PRP-45)
+				prep_in(replaced/VBD-44,orbit/NN-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission also included flight testing of Manned Maneuvering Units (MMUs) in two extravehicular activities (EVAs), and operation of the Cinema 360 and IMAX Camera Systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(included/VBD-4,mission/NN-2)
+				advmod(included/VBD-4,also/RB-3)
+				nn(testing/NN-6,flight/NN-5)
+				dobj(included/VBD-4,testing/NN-6)
+				amod(Units/NNS-10,Manned/JJ-8)
+				nn(Units/NNS-10,Maneuvering/NN-9)
+				prep_of(testing/NN-6,Units/NNS-10)
+				appos(Units/NNS-10,MMUs/NNS-12)
+				num(activities/NNS-17,two/CD-15)
+				amod(activities/NNS-17,extravehicular/JJ-16)
+				prep_in(included/VBD-4,activities/NNS-17)
+				appos(activities/NNS-17,EVAs/NNS-19)
+				prep_in(included/VBD-4,operation/NN-23)
+				conj_and(activities/NNS-17,operation/NN-23)
+				det(Cinema/NNP-26,the/DT-25)
+				prep_of(operation/NN-23,Cinema/NNP-26)
+				num(Cinema/NNP-26,360/CD-27)
+				nn(Systems/NNPS-31,IMAX/NNP-29)
+				nn(Systems/NNPS-31,Camera/NNP-30)
+				prep_of(operation/NN-23,Systems/NNPS-31)
+				conj_and(Cinema/NNP-26,Systems/NNPS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission, from January 12–18, 1986, launched from the Kennedy Space Center and returned to a night landing at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	This mission, from [[January 12|January_12]]–18, 1986, launched from [[the Kennedy Space Center|Kennedy_Space_Center]] and returned to [[a night landing|List_of_Virtual_Boy_games]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This mission, from January 12–18, 1986, launched from the Kennedy Space Center and returned to a night landing at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(launched/VBN-12,mission/NN-2)
+				nsubj(returned/VBD-19,mission/NN-2)
+				prep_from(mission/NN-2,January/NNP-5)
+				num(January/NNP-5,12/CD-6)
+				num(January/NNP-5,18/CD-8)
+				num(January/NNP-5,1986/CD-10)
+				det(Center/NNP-17,the/DT-14)
+				nn(Center/NNP-17,Kennedy/NNP-15)
+				nn(Center/NNP-17,Space/NNP-16)
+				prep_from(launched/VBN-12,Center/NNP-17)
+				conj_and(launched/VBN-12,returned/VBD-19)
+				det(landing/NN-23,a/DT-21)
+				nn(landing/NN-23,night/NN-22)
+				prep_to(returned/VBD-19,landing/NN-23)
+				nn(Base/NNP-28,Edwards/NNP-25)
+				nn(Base/NNP-28,Air/NNP-26)
+				nn(Base/NNP-28,Force/NNP-27)
+				prep_at(returned/VBD-19,Base/NNP-28)
+				appos(Base/NNP-28,California/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a night landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Virtual_Boy_games</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the six-day flight, the crew deployed the SATCOM KU satellite and conducted experiments in astrophysics and materials processing.	</value>
+
+		<annotated-sentence>	During the six-day [[flight|Flight]], the crew deployed the [[SATCOM|Communications_satellite]] KU [[satellite|Communications_satellite]] and conducted [[experiments|Experiment]] in [[astrophysics|Astrophysics]] and [[materials processing|Materials_processing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the six-day flight, the crew deployed the SATCOM KU satellite and conducted experiments in astrophysics and materials processing.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-4,the/DT-2)
+				amod(flight/NN-4,six-day/JJ-3)
+				prep_during(deployed/VBD-8,flight/NN-4)
+				det(crew/NN-7,the/DT-6)
+				nsubj(deployed/VBD-8,crew/NN-7)
+				nsubj(conducted/VBN-14,crew/NN-7)
+				det(satellite/NN-12,the/DT-9)
+				nn(satellite/NN-12,SATCOM/NNP-10)
+				nn(satellite/NN-12,KU/NNP-11)
+				dobj(deployed/VBD-8,satellite/NN-12)
+				conj_and(deployed/VBD-8,conducted/VBN-14)
+				dobj(conducted/VBN-14,experiments/NNS-15)
+				prep_in(experiments/NNS-15,astrophysics/NNS-17)
+				nn(processing/NN-20,materials/NNS-19)
+				prep_in(experiments/NNS-15,processing/NN-20)
+				conj_and(astrophysics/NNS-17,processing/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SATCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astrophysics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astrophysics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials processing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Materials_processing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission (September 29–October 3, 1988) was the first flown after the Challenger accident.	</value>
+
+		<annotated-sentence>	This mission ([[September 29|September_29]]–October 3, 1988) was the first flown after [[the Challenger accident|Space_Shuttle_Challenger_disaster]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This mission (September 29–October 3, 1988) was the first flown after the Challenger accident.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(first/JJ-14,mission/NN-2)
+				dep(mission/NN-2,September/NNP-4)
+				num(September/NNP-4,29/CD-5)
+				dep(September/NNP-4,October/NNP-7)
+				num(October/NNP-7,3/CD-8)
+				num(October/NNP-7,1988/CD-10)
+				cop(first/JJ-14,was/VBD-12)
+				det(first/JJ-14,the/DT-13)
+				partmod(first/JJ-14,flown/VBN-15)
+				det(accident/NN-19,the/DT-17)
+				nn(accident/NN-19,Challenger/NNP-18)
+				prep_after(flown/VBN-15,accident/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 29</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_29</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Challenger accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the four-day flight, the crew successfully deployed the Tracking and Data Relay Satellite (TDRS-C) and operated eleven mid-deck science experiments.	</value>
+
+		<annotated-sentence>	During the four-day [[flight|Flight]], the crew successfully deployed [[the Tracking and Data Relay Satellite|Tracking_and_Data_Relay_Satellite]] (TDRS-C) and operated eleven mid-deck [[science experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the four-day flight, the crew successfully deployed the Tracking and Data Relay Satellite (TDRS-C) and operated eleven mid-deck science experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-4,the/DT-2)
+				amod(flight/NN-4,four-day/JJ-3)
+				prep_during(deployed/VBD-9,flight/NN-4)
+				det(crew/NN-7,the/DT-6)
+				nsubj(deployed/VBD-9,crew/NN-7)
+				nsubj(operated/VBD-20,crew/NN-7)
+				advmod(deployed/VBD-9,successfully/RB-8)
+				det(Tracking/NNP-11,the/DT-10)
+				dobj(deployed/VBD-9,Tracking/NNP-11)
+				nn(Satellite/NNP-15,Data/NNP-13)
+				nn(Satellite/NNP-15,Relay/NNP-14)
+				dobj(deployed/VBD-9,Satellite/NNP-15)
+				conj_and(Tracking/NNP-11,Satellite/NNP-15)
+				appos(Tracking/NNP-11,TDRS-C/NN-17)
+				conj_and(deployed/VBD-9,operated/VBD-20)
+				nsubj(experiments/NNS-24,eleven/NNS-21)
+				amod(experiments/NNS-24,mid-deck/JJ-22)
+				nn(experiments/NNS-24,science/NN-23)
+				xcomp(operated/VBD-20,experiments/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Tracking and Data Relay Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tracking_and_Data_Relay_Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nelson left NASA in 1989, became an assistant provost at the University of Washington, and now directs the Science, Mathematics and Technology Education program at Western Washington University in Bellingham.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,Nelson/NNP-1)
+				nsubj(directs/VBZ-19,Nelson/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				prep_in(NASA/NNP-3,1989/CD-5)
+				cop(provost/NN-10,became/VBD-7)
+				det(provost/NN-10,an/DT-8)
+				amod(provost/NN-10,assistant/JJ-9)
+				conj_and(left/VBD-2,provost/NN-10)
+				det(University/NNP-13,the/DT-12)
+				prep_at(provost/NN-10,University/NNP-13)
+				prep_of(University/NNP-13,Washington/NNP-15)
+				advmod(left/VBD-2,now/RB-18)
+				conj_and(left/VBD-2,directs/VBZ-19)
+				det(program/NN-27,the/DT-20)
+				nn(program/NN-27,Science/NNP-21)
+				conj_and(Science/NNP-21,Mathematics/NNP-23)
+				nn(program/NN-27,Mathematics/NNP-23)
+				conj_and(Science/NNP-21,Technology/NNP-25)
+				nn(program/NN-27,Technology/NNP-25)
+				nn(program/NN-27,Education/NNP-26)
+				dobj(directs/VBZ-19,program/NN-27)
+				amod(University/NNP-31,Western/JJ-29)
+				nn(University/NNP-31,Washington/NNP-30)
+				prep_at(program/NN-27,University/NNP-31)
+				prep_in(directs/VBZ-19,Bellingham/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also the principal investigator of the North Cascades and Olympic Science Partnership, a mathematics and science partnership grant from the National Science foundation.	</value>
+
+		<annotated-sentence>	He is also [[the principal investigator|Principal_investigator]] of [[the North Cascades|North_Cascades]] and Olympic [[Science|Science]] [[Partnership|Partnership]], [[a mathematics|Mathematics]] and [[science|Science]] [[partnership|Partnership]] grant from [[the National Science foundation|National_Science_Foundation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also the principal investigator of the North Cascades and Olympic Science Partnership, a mathematics and science partnership grant from the National Science foundation.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(investigator/NN-6,He/PRP-1)
+				cop(investigator/NN-6,is/VBZ-2)
+				advmod(investigator/NN-6,also/RB-3)
+				det(investigator/NN-6,the/DT-4)
+				amod(investigator/NN-6,principal/JJ-5)
+				det(Cascades/NNPS-10,the/DT-8)
+				nn(Cascades/NNPS-10,North/NNP-9)
+				prep_of(investigator/NN-6,Cascades/NNPS-10)
+				nn(Partnership/NNP-14,Olympic/NNP-12)
+				nn(Partnership/NNP-14,Science/NNP-13)
+				prep_of(investigator/NN-6,Partnership/NNP-14)
+				conj_and(Cascades/NNPS-10,Partnership/NNP-14)
+				det(mathematics/NN-17,a/DT-16)
+				prep_of(investigator/NN-6,mathematics/NN-17)
+				conj_and(Cascades/NNPS-10,mathematics/NN-17)
+				nn(grant/NN-21,science/NN-19)
+				nn(grant/NN-21,partnership/NN-20)
+				prep_of(investigator/NN-6,grant/NN-21)
+				conj_and(Cascades/NNPS-10,grant/NN-21)
+				det(foundation/NN-26,the/DT-23)
+				nn(foundation/NN-26,National/NNP-24)
+				nn(foundation/NN-26,Science/NNP-25)
+				prep_from(investigator/NN-6,foundation/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the principal investigator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Principal_investigator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the North Cascades</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_Cascades</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Partnership</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Partnership</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mathematics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mathematics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>partnership</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Partnership</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the National Science foundation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Science_Foundation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

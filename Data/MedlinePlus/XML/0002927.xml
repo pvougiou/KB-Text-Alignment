@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A pancreas transplant is surgery to implant a healthy pancreas from a donor into a person with diabetes.</value>
+		<pattern_crowdsource> A [[pancreas transplant|C0030275]] is [[surgery|C0543467]] to implant a healthy pancreas from a donor into a [[person|C0027361]] with [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>healthy</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030275 ISA C0543467</triple>
+			<triple>C0543467 ADMINISTERED_TO C0027361</triple>
+			<triple>C0011847 PROCESS_OF C0027361</triple>
+			<triple>C0030275 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The surgery for a pancreas transplant takes about 3 hours.</value>
+		<pattern_crowdsource> The [[surgery|C0543467]] for a [[pancreas transplant|C0030275]] takes about 3 hours.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>3 hours</surface-form>
+				<RDF-ID>C1442460</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 METHOD_OF C0030275</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This operation is usually done at the same time as a kidney transplant in diabetic people with kidney disease.</value>
+		<pattern_crowdsource> This [[operation|C0543467]] is usually done at the same time as a [[kidney transplant|C0022671]] in [[diabetic|C0241863]] [[people|C0027361]] with [[kidney disease|C0022658]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>operation</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney transplant</surface-form>
+				<RDF-ID>C0022671</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetic</surface-form>
+				<RDF-ID>C0241863</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney disease</surface-form>
+				<RDF-ID>C0022658</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022671 ISA C0543467</triple>
+			<triple>C0241863 PROCESS_OF C0027361</triple>
+			<triple>C0022671 TREATS C0027361</triple>
+			<triple>C0022658 PROCESS_OF C0027361</triple>
+			<triple>C0022671 TREATS C0241863</triple>
+			<triple>C0022671 TREATS C0022658</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Insulin moves glucose, a sugar, from the blood into the muscles, fat, and liver cells, where it can be used as fuel.</value>
+		<pattern_crowdsource> Insulin moves [[glucose|C0017725]], a [[sugar|C0242209]], from the [[blood|C0005767]] into the muscles, fat, and liver cells, where it can be used as fuel.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscles</surface-form>
+				<RDF-ID>C0026845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fat</surface-form>
+				<RDF-ID>C0424612</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver cells</surface-form>
+				<RDF-ID>C0227525</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fuel</surface-form>
+				<RDF-ID>C0556991</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017725 ISA C0242209</triple>
+			<triple>C0005767 LOCATION_OF C0242209</triple>
+			<triple>C0005767 LOCATION_OF C0017725</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This causes glucose to build up in the blood, leading to a high level of sugar in the blood.</value>
+		<pattern_crowdsource> This causes glucose to build up in the blood, leading to a high level of [[sugar|C0242209]] in the [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0242209</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>High blood sugar over a long time can cause many complications, including:  - Amputations  - Disease of the arteries  - Blindness  - Heart disease  - Kidney damage  - Nerve damage  - Stroke    A pancreas transplant can cure diabetes and eliminate the need for insulin shots.</value>
+		<pattern_crowdsource> High [[blood sugar|C0005802]] over a long time can cause many [[complications|C0009566]], including:  - Amputations  - Disease of the arteries  - Blindness  - Heart disease  - Kidney damage  - Nerve damage  - Stroke    A [[pancreas transplant|C0030275]] can cure [[diabetes|C0011847]] and eliminate the need for insulin shots.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>High</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long</surface-form>
+				<RDF-ID>C0205166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>C0040223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>complications</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Amputations</surface-form>
+				<RDF-ID>C0002688</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blindness</surface-form>
+				<RDF-ID>C0456909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Kidney damage  - Nerve</surface-form>
+				<RDF-ID>C0229016</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>need</surface-form>
+				<RDF-ID>C0027552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>insulin</surface-form>
+				<RDF-ID>C0021641</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 CAUSES C0009566</triple>
+			<triple>C0030275 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Pancreas transplant surgery is not usually done in people who also have:  - A history of cancer  - HIV  - Infections such as hepatitis, which are considered to be active  - Lung disease  - Obesity  - Other blood vessel diseases of the neck and leg  - Severe heart disease (such as heart failure, poorly controlled angina, or severe coronary artery disease)  - Smoking, alcohol or drug abuse, or other lifestyle habits that can damage the new organ    Pancreas transplant is also not recommended if the person will not be able to keep up with the many follow-up visits, tests, and medicines needed to keep the transplanted organ healthy.</value>
+		<pattern_crowdsource> [[Pancreas transplant|C0030275]] [[surgery|C0543467]] is not usually done in [[people|C0027361]] who also have:  - A history of cancer  - HIV  - Infections such as hepatitis, which are considered to be active  - Lung disease  - Obesity  - Other [[blood vessel diseases|C0042373]] of the [[neck|C0027530]] and leg  - Severe heart disease (such as heart failure, poorly controlled angina, or severe coronary artery disease)  - Smoking, alcohol or drug abuse, or other lifestyle habits that can damage the new organ    Pancreas transplant is also not recommended if the person will not be able to keep up with the many follow-up visits, tests, and medicines needed to keep the transplanted organ healthy.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>C0019665</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV  - Infections</surface-form>
+				<RDF-ID>C0019693</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hepatitis</surface-form>
+				<RDF-ID>C0019158</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>active</surface-form>
+				<RDF-ID>C0205177</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lung disease</surface-form>
+				<RDF-ID>C0024115</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Obesity</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessel diseases</surface-form>
+				<RDF-ID>C0042373</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leg</surface-form>
+				<RDF-ID>C0023216</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poorly</surface-form>
+				<RDF-ID>C0205169</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>controlled</surface-form>
+				<RDF-ID>C0702113</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe</surface-form>
+				<RDF-ID>C0205082</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary artery disease</surface-form>
+				<RDF-ID>C0010054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alcohol</surface-form>
+				<RDF-ID>C0001962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drug abuse</surface-form>
+				<RDF-ID>C0013146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lifestyle</surface-form>
+				<RDF-ID>C0023676</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>habits</surface-form>
+				<RDF-ID>C0018464</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organ</surface-form>
+				<RDF-ID>C0178784</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>able</surface-form>
+				<RDF-ID>C1299581</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>follow-up visits</surface-form>
+				<RDF-ID>C0589121</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>transplanted organ</surface-form>
+				<RDF-ID>C0040747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>healthy</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030275 ISA C0543467</triple>
+			<triple>C0543467 TREATS C0027361</triple>
+			<triple>C0027530 LOCATION_OF C0042373</triple>
+			<triple>C0030275 TREATS C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Risks of anesthesia and surgery in general include:  - Reactions to medicines  - Breathing problems  - Bleeding, blood clots, infection   Risks of pancreas transplant include:  - Clotting (thrombosis) of the arteries or veins of the new pancreas  - Development of certain cancers after a few years  - Inflammation of the pancreas (pancreatitis)  - Leakage of fluid from the new pancreas where it attaches to the intestine or bladder  - Rejection of the new pancreas</value>
+		<pattern_crowdsource> Risks of anesthesia and surgery in general include:  - Reactions to medicines  - Breathing problems  - Bleeding, blood clots, infection   Risks of pancreas transplant include:  - Clotting (thrombosis) of the arteries or veins of the new pancreas  - Development of certain [[cancers|C0006826]] after a few years  - [[Inflammation|C0021368]] of the [[pancreas|C0030274]] (pancreatitis)  - [[Leakage|C0015376]] of fluid from the new [[pancreas|C0030274]] where it attaches to the intestine or bladder  - Rejection of the new pancreas		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>anesthesia</surface-form>
+				<RDF-ID>C0002903</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>general</surface-form>
+				<RDF-ID>C0205246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Reactions</surface-form>
+				<RDF-ID>C0443286</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Breathing problems</surface-form>
+				<RDF-ID>C1260922</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas transplant</surface-form>
+				<RDF-ID>C0030275</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Clotting</surface-form>
+				<RDF-ID>C0005778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thrombosis</surface-form>
+				<RDF-ID>C0040053</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>veins</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas  - Development</surface-form>
+				<RDF-ID>C1523495</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancers</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>few</surface-form>
+				<RDF-ID>C0205388</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>C0439234</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreatitis</surface-form>
+				<RDF-ID>C0030305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Leakage</surface-form>
+				<RDF-ID>C0015376</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fluid</surface-form>
+				<RDF-ID>C0302908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestine</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021368 PRECEDES C0006826</triple>
+			<triple>C0030274 LOCATION_OF C0021368</triple>
+			<triple>C0030274 LOCATION_OF C0015376</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There is evidence that the complications of diabetes, such as diabetic retinopathy, may not get worse and may even improve after a pancreas-kidney transplant.</value>
+		<pattern_crowdsource> There is evidence that the complications of [[diabetes|C0011847]], such as [[diabetic retinopathy|C0011884]], may not get worse and may even improve after a pancreas-kidney transplant.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>complications</surface-form>
+				<RDF-ID>C0009566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetic retinopathy</surface-form>
+				<RDF-ID>C0011884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>worse</surface-form>
+				<RDF-ID>C1279889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney transplant</surface-form>
+				<RDF-ID>C0022671</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011884 ISA C0011847</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

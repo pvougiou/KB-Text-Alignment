@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Prof. Dr. Dr. h.c. Ulrich Hans Walter (born February 9, 1954) is a German physicist/engineer and a former DFVLR astronaut.	</value>
+
+		<annotated-sentence>	[[Prof. Dr.|Prof._Dr.]] [[Dr. h.c.|Dr._h.c._George_H_Endress]] [[Ulrich Hans Walter|Ulrich_Walter]] (born [[February|February]] 9, 1954) is a [[German|Germany]] physicist/engineer and a former [[DFVLR|German_Aerospace_Center]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Prof. Dr. Dr. h.c. [[Ulrich Hans Walter|Ulrich_Walter]] (born February 9, 1954) is a [[German|Germany]] physicist/engineer and a former [[DFVLR|German_Aerospace_Center]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Walter/NNP-7,Prof./NNP-1)
+				nn(Walter/NNP-7,Dr./NNP-2)
+				nn(Walter/NNP-7,Dr./NNP-3)
+				nn(Walter/NNP-7,h.c./NNP-4)
+				nn(Walter/NNP-7,Ulrich/NNP-5)
+				nn(Walter/NNP-7,Hans/NNP-6)
+				nsubj(physicist/engineer/NN-18,Walter/NNP-7)
+				dep(Walter/NNP-7,born/VBN-9)
+				tmod(born/VBN-9,February/NNP-10)
+				num(February/NNP-10,9/CD-11)
+				num(February/NNP-10,1954/CD-13)
+				cop(physicist/engineer/NN-18,is/VBZ-15)
+				det(physicist/engineer/NN-18,a/DT-16)
+				amod(physicist/engineer/NN-18,German/JJ-17)
+				det(astronaut/NN-23,a/DT-20)
+				amod(astronaut/NN-23,former/JJ-21)
+				nn(astronaut/NN-23,DFVLR/NN-22)
+				conj_and(physicist/engineer/NN-18,astronaut/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Prof. Dr.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Prof._Dr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. h.c.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dr._h.c._George_H_Endress</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ulrich Hans Walter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ulrich_Walter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>German</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DFVLR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_Aerospace_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/type http://dbpedia.org/resource/German_Aerospace_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Walter was born in Iserlohn.	</value>
+
+		<annotated-sentence>	Walter was born in [[Iserlohn|Iserlohn]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Walter was born in [[Iserlohn|Iserlohn]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Walter/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Iserlohn/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Iserlohn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Iserlohn</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Iserlohn
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After finishing secondary school there and two years in the Bundeswehr, he studied physics at the University of Cologne.	</value>
+
+		<annotated-sentence>	After finishing [[secondary school|Secondary_school]] there and [[two years|Year]] in [[the Bundeswehr|Bundeswehr]], he studied [[physics|Physics]] at [[the University of Cologne|University_of_Cologne]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After finishing secondary school there and two years in the Bundeswehr, he studied physics at the University of Cologne.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(studied/VBD-14,finishing/VBG-2)
+				amod(school/NN-4,secondary/JJ-3)
+				dobj(finishing/VBG-2,school/NN-4)
+				advmod(finishing/VBG-2,there/RB-5)
+				num(years/NNS-8,two/CD-7)
+				advmod(finishing/VBG-2,years/NNS-8)
+				conj_and(there/RB-5,years/NNS-8)
+				det(Bundeswehr/NNP-11,the/DT-10)
+				prep_in(finishing/VBG-2,Bundeswehr/NNP-11)
+				nsubj(studied/VBD-14,he/PRP-13)
+				dobj(studied/VBD-14,physics/NNS-15)
+				det(University/NNP-18,the/DT-17)
+				prep_at(studied/VBD-14,University/NNP-18)
+				prep_of(University/NNP-18,Cologne/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>secondary school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Secondary_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Bundeswehr</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bundeswehr</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Cologne</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Cologne</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1980, he was awarded a diploma degree, and five years later a doctorate, both in the field of solid state physics.	</value>
+
+		<annotated-sentence>	In [[1980|1980]], he was awarded a [[diploma|Diploma]] [[degree|Doctor_of_Philosophy]], and [[five years|Year]] later [[a doctorate|Doctorate]], both in the field of [[solid state physics|Solid-state_physics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In [[1980|1980]], he was awarded a diploma [[degree|Doctor_of_Philosophy]], and [[five years|Year]] later [[a doctorate|Doctorate]], both in the field of solid state physics.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(awarded/VBN-6,1980/CD-2)
+				nsubjpass(awarded/VBN-6,he/PRP-4)
+				auxpass(awarded/VBN-6,was/VBD-5)
+				det(degree/NN-9,a/DT-7)
+				nn(degree/NN-9,diploma/NN-8)
+				dobj(awarded/VBN-6,degree/NN-9)
+				num(years/NNS-13,five/CD-12)
+				npadvmod(later/RB-14,years/NNS-13)
+				advmod(degree/NN-9,later/RB-14)
+				det(doctorate/NN-16,a/DT-15)
+				dobj(awarded/VBN-6,doctorate/NN-16)
+				conj_and(degree/NN-9,doctorate/NN-16)
+				dep(awarded/VBN-6,both/CC-18)
+				conj(awarded/VBN-6,in/IN-19)
+				det(field/NN-21,the/DT-20)
+				pobj(in/IN-19,field/NN-21)
+				amod(physics/NNS-25,solid/JJ-23)
+				nn(physics/NNS-25,state/NN-24)
+				prep_of(field/NN-21,physics/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>diploma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diploma</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctor_of_Philosophy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>five years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>solid state physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Solid-state_physics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1980 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Doctor_of_Philosophy http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Doctorate
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After two post-doc positions at the Argonne National Laboratory, Chicago, Illinois, and the University of California at Berkeley, California, he was selected in 1987 to join the German astronaut team.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(positions/NNS-4,two/CD-2)
+				amod(positions/NNS-4,post-doc/JJ-3)
+				prep_after(selected/VBN-27,positions/NNS-4)
+				det(Laboratory/NNP-9,the/DT-6)
+				nn(Laboratory/NNP-9,Argonne/NNP-7)
+				nn(Laboratory/NNP-9,National/NNP-8)
+				prep_at(positions/NNS-4,Laboratory/NNP-9)
+				prep_at(positions/NNS-4,Chicago/NNP-11)
+				conj_and(Laboratory/NNP-9,Chicago/NNP-11)
+				prep_at(positions/NNS-4,Illinois/NNP-13)
+				conj_and(Laboratory/NNP-9,Illinois/NNP-13)
+				det(University/NNP-17,the/DT-16)
+				prep_at(positions/NNS-4,University/NNP-17)
+				conj_and(Laboratory/NNP-9,University/NNP-17)
+				prep_of(University/NNP-17,California/NNP-19)
+				nn(California/NNP-23,Berkeley/NNP-21)
+				prep_at(California/NNP-19,California/NNP-23)
+				nsubjpass(selected/VBN-27,he/PRP-25)
+				auxpass(selected/VBN-27,was/VBD-26)
+				prep_in(selected/VBN-27,1987/CD-29)
+				aux(join/VB-31,to/TO-30)
+				xcomp(selected/VBN-27,join/VB-31)
+				det(team/NN-35,the/DT-32)
+				amod(team/NN-35,German/JJ-33)
+				nn(team/NN-35,astronaut/NN-34)
+				dobj(join/VB-31,team/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1988 to 1990, he completed basic training at the German German Aerospace Center, and was then nominated to be in the prime crew for the second German Spacelab mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(1990/CD-4,1988/CD-2)
+				dep(1990/CD-4,to/TO-3)
+				prep_from(completed/VBD-7,1990/CD-4)
+				nsubj(completed/VBD-7,he/PRP-6)
+				nsubjpass(nominated/VBN-20,he/PRP-6)
+				amod(training/NN-9,basic/JJ-8)
+				dobj(completed/VBD-7,training/NN-9)
+				det(Center/NNP-15,the/DT-11)
+				amod(Center/NNP-15,German/JJ-12)
+				nn(Center/NNP-15,German/NNP-13)
+				nn(Center/NNP-15,Aerospace/NNP-14)
+				prep_at(completed/VBD-7,Center/NNP-15)
+				auxpass(nominated/VBN-20,was/VBD-18)
+				advmod(nominated/VBN-20,then/RB-19)
+				conj_and(completed/VBD-7,nominated/VBN-20)
+				aux(be/VB-22,to/TO-21)
+				xcomp(nominated/VBN-20,be/VB-22)
+				det(crew/NN-26,the/DT-24)
+				amod(crew/NN-26,prime/JJ-25)
+				prep_in(be/VB-22,crew/NN-26)
+				det(mission/NN-32,the/DT-28)
+				amod(mission/NN-32,second/JJ-29)
+				amod(mission/NN-32,German/JJ-30)
+				amod(mission/NN-32,Spacelab/JJ-31)
+				prep_for(crew/NN-26,mission/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1993, he flew on board the Space Shuttle Columbia on mission STS-55 (Spacelab D-2) as a Payload Specialist.	</value>
+
+		<annotated-sentence>	In [[1993|1993]], he flew on board [[the Space Shuttle Columbia|Space_Shuttle_Columbia]] on mission [[STS-55|STS-55]] ([[Spacelab|Spacelab]] D-2) as [[a Payload Specialist|Payload_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1993, he flew on board the Space Shuttle Columbia on mission [[STS-55|STS-55]] (Spacelab D-2) as a Payload Specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,1993/CD-2)
+				nsubj(flew/VBD-5,he/PRP-4)
+				prep_on(flew/VBD-5,board/NN-7)
+				det(Columbia/NNP-11,the/DT-8)
+				nn(Columbia/NNP-11,Space/NN-9)
+				nn(Columbia/NNP-11,Shuttle/NNP-10)
+				dobj(flew/VBD-5,Columbia/NNP-11)
+				nn(STS-55/NN-14,mission/NN-13)
+				prep_on(flew/VBD-5,STS-55/NN-14)
+				amod(D-2/NN-17,Spacelab/JJ-16)
+				appos(STS-55/NN-14,D-2/NN-17)
+				det(Specialist/NNP-22,a/DT-20)
+				nn(Specialist/NNP-22,Payload/NNP-21)
+				prep_as(flew/VBD-5,Specialist/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-55</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-55</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-55
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-55 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Ulrich_Walter
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-55 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Ulrich_Walter
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He spent 9 days, 23 hours, and 40 minutes in space.	</value>
+
+		<annotated-sentence>	He spent [[9 days|Ninedays]], [[23 hours|23_Hours]], and [[40 minutes|40_Minutes]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He spent 9 days, 23 hours, and 40 minutes in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,He/PRP-1)
+				num(days/NNS-4,9/CD-3)
+				dobj(spent/VBD-2,days/NNS-4)
+				num(hours/NNS-7,23/CD-6)
+				dobj(spent/VBD-2,hours/NNS-7)
+				conj_and(days/NNS-4,hours/NNS-7)
+				num(minutes/NNS-11,40/CD-10)
+				dobj(spent/VBD-2,minutes/NNS-11)
+				conj_and(days/NNS-4,minutes/NNS-11)
+				prep_in(spent/VBD-2,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>9 days</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ninedays</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>23 hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/23_Hours</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>40 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/40_Minutes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his spaceflight.	</value>
+
+		<annotated-sentence>	After [[his spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,his/PRP$-2)
+				pobj(After/IN-1,spaceflight/NN-3)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	he worked for another four years at DLR, managing a space imaging database project.	</value>
+
+		<annotated-sentence>	he worked for [[another four years|Year]] at DLR, managing a [[space imaging|Space_Imaging]] [[database|Database]] [[project|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	he worked for another four years at DLR, managing a space imaging database project.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,he/PRP-1)
+				det(years/NNS-6,another/DT-4)
+				num(years/NNS-6,four/CD-5)
+				prep_for(worked/VBD-2,years/NNS-6)
+				prep_at(worked/VBD-2,DLR/NNP-8)
+				xcomp(worked/VBD-2,managing/VBG-10)
+				det(project/NN-15,a/DT-11)
+				nn(project/NN-15,space/NN-12)
+				nn(project/NN-15,imaging/NN-13)
+				nn(project/NN-15,database/NN-14)
+				dobj(managing/VBG-10,project/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>another four years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space imaging</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Imaging</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>database</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Database</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When the German astronaut team was merged into a European Space Agency, he did not transfer, but resigned to work at IBM Germany.	</value>
+
+		<annotated-sentence>	When [[the German astronaut team|German_astronaut_team]] was merged into [[a European Space Agency|European_Space_Agency]], he did not transfer, but resigned to work at [[IBM|IBM]] [[Germany|Germany]].	</annotated-sentence>
+
+		<pattern_crowdsource>	When the German astronaut team was merged into a European Space Agency, he did not transfer, but resigned to work at IBM [[Germany|Germany]].	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(merged/VBN-7,When/WRB-1)
+				det(team/NN-5,the/DT-2)
+				amod(team/NN-5,German/JJ-3)
+				nn(team/NN-5,astronaut/NN-4)
+				nsubjpass(merged/VBN-7,team/NN-5)
+				auxpass(merged/VBN-7,was/VBD-6)
+				advcl(transfer/VB-17,merged/VBN-7)
+				det(Agency/NNP-12,a/DT-9)
+				amod(Agency/NNP-12,European/JJ-10)
+				nn(Agency/NNP-12,Space/NNP-11)
+				prep_into(merged/VBN-7,Agency/NNP-12)
+				nsubj(transfer/VB-17,he/PRP-14)
+				nsubj(resigned/VBD-20,he/PRP-14)
+				aux(transfer/VB-17,did/VBD-15)
+				neg(transfer/VB-17,not/RB-16)
+				conj_but(transfer/VB-17,resigned/VBD-20)
+				aux(work/VB-22,to/TO-21)
+				xcomp(resigned/VBD-20,work/VB-22)
+				nn(Germany/NNP-25,IBM/NNP-24)
+				prep_at(work/VB-22,Germany/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the German astronaut team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_astronaut_team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>IBM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/IBM</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Ulrich_Walter http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since 2003, he has been a full professor at the Technische Universität München (Munich, Germany), holding the chair of the Institute of Astronautics (space technology) at the University's faculty of mechanical engineering.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_since(professor/NN-9,2003/CD-2)
+				nsubj(professor/NN-9,he/PRP-4)
+				aux(professor/NN-9,has/VBZ-5)
+				cop(professor/NN-9,been/VBN-6)
+				det(professor/NN-9,a/DT-7)
+				amod(professor/NN-9,full/JJ-8)
+				det(München/NNP-14,the/DT-11)
+				nn(München/NNP-14,Technische/NNP-12)
+				nn(München/NNP-14,Universität/NNP-13)
+				prep_at(professor/NN-9,München/NNP-14)
+				dep(professor/NN-9,Munich/NNP-16)
+				dep(Munich/NNP-16,Germany/NNP-18)
+				xcomp(professor/NN-9,holding/VBG-21)
+				det(chair/NN-23,the/DT-22)
+				dobj(holding/VBG-21,chair/NN-23)
+				det(Institute/NNP-26,the/DT-25)
+				prep_of(chair/NN-23,Institute/NNP-26)
+				prep_of(Institute/NNP-26,Astronautics/NNP-28)
+				nn(technology/NN-31,space/NN-30)
+				appos(Astronautics/NNP-28,technology/NN-31)
+				det(University/NNP-35,the/DT-34)
+				poss(faculty/NN-37,University/NNP-35)
+				prep_at(holding/VBG-21,faculty/NN-37)
+				amod(engineering/NN-40,mechanical/JJ-39)
+				prep_of(faculty/NN-37,engineering/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is author of several books, and also does work as presenter of a popular science magazine shows, such as MaxQ on Bavarian TV.	</value>
+
+		<annotated-sentence>	He is [[author|Author]] of [[several books|Book]], and also does work as [[presenter|Presenter]] of a popular science [[magazine|Magazine]] shows, such as MaxQ on Bavarian [[TV|Presenter]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is author of several books, and also does work as presenter of a popular science magazine shows, such as MaxQ on Bavarian TV.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(author/NN-3,He/PRP-1)
+				nsubj(work/VB-11,He/PRP-1)
+				cop(author/NN-3,is/VBZ-2)
+				amod(books/NNS-6,several/JJ-5)
+				prep_of(author/NN-3,books/NNS-6)
+				advmod(work/VB-11,also/RB-9)
+				aux(work/VB-11,does/VBZ-10)
+				conj_and(author/NN-3,work/VB-11)
+				prep_as(work/VB-11,presenter/NN-13)
+				det(science/NN-17,a/DT-15)
+				amod(science/NN-17,popular/JJ-16)
+				prep_of(presenter/NN-13,science/NN-17)
+				nn(shows/NNS-19,magazine/NN-18)
+				dep(work/VB-11,shows/NNS-19)
+				prep_such_as(shows/NNS-19,MaxQ/NN-23)
+				amod(TV/NN-26,Bavarian/JJ-25)
+				prep_on(shows/NNS-19,TV/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several books</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>presenter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Presenter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>magazine</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Magazine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>TV</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Presenter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received honorary doctorate from the Kyiv Polytechnic Institute, Ukraine (2012).	</value>
+
+		<annotated-sentence>	He received [[honorary doctorate|Honorary_degree]] from [[the Kyiv Polytechnic Institute|Kyiv_Polytechnic_Institute]], [[Ukraine|Ukraine]] ([[2012|2012]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He received honorary doctorate from [[the Kyiv Polytechnic Institute|Kyiv_Polytechnic_Institute]], [[Ukraine|Ukraine]] (2012).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				amod(doctorate/NN-4,honorary/JJ-3)
+				dobj(received/VBD-2,doctorate/NN-4)
+				det(Institute/NNP-9,the/DT-6)
+				nn(Institute/NNP-9,Kyiv/NNP-7)
+				nn(Institute/NNP-9,Polytechnic/NNP-8)
+				prep_from(received/VBD-2,Institute/NNP-9)
+				appos(Institute/NNP-9,Ukraine/NNP-11)
+				appos(Ukraine/NNP-11,2012/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>honorary doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kyiv Polytechnic Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kyiv_Polytechnic_Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ukraine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ukraine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2012</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2012</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kyiv_Polytechnic_Institute http://dbpedia.org/property/country http://dbpedia.org/resource/Ukraine
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Walter is married, has two children, and is living near Munich, Germany.	</value>
+
+		<annotated-sentence>	Walter is married, has [[two children|Child]], and is living near [[Munich , Germany|Munich]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Walter is married, has two children, and is living near Munich, Germany.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Walter/NNP-1)
+				nsubj(has/VBZ-5,Walter/NNP-1)
+				nsubjpass(living/VBG-11,Walter/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(children/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+				aux(living/VBG-11,is/VBZ-10)
+				conj_and(married/VBN-3,living/VBG-11)
+				nn(Germany/NNP-15,Munich/NNP-13)
+				prep_near(living/VBG-11,Germany/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Munich , Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Munich</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

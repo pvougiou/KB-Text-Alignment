@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Colonel Paul Scott "Paco" Lockhart (born April 28, 1956) is a former American astronaut and a veteran of two Space Shuttle missions.	</value>
+
+		<annotated-sentence>	[[Colonel|Colonel]] Paul Scott "[[Paco|Paco]]" Lockhart (born April 28, 1956) is [[a former American astronaut|The_American_Astronaut]] and [[a veteran|Veteran]] of [[two Space|Space]] [[Shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Colonel Paul Scott "Paco" Lockhart (born April 28, 1956) is a former American astronaut and a veteran of two Space Shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Lockhart/NNP-7,Colonel/NNP-1)
+				nn(Lockhart/NNP-7,Paul/NNP-2)
+				nn(Lockhart/NNP-7,Scott/NNP-3)
+				nn(Lockhart/NNP-7,Paco/NNP-5)
+				nsubj(astronaut/NN-19,Lockhart/NNP-7)
+				dep(Lockhart/NNP-7,born/VBN-9)
+				tmod(born/VBN-9,April/NNP-10)
+				num(April/NNP-10,28/CD-11)
+				num(April/NNP-10,1956/CD-13)
+				cop(astronaut/NN-19,is/VBZ-15)
+				det(astronaut/NN-19,a/DT-16)
+				amod(astronaut/NN-19,former/JJ-17)
+				nn(astronaut/NN-19,American/NNP-18)
+				det(veteran/NN-22,a/DT-21)
+				conj_and(astronaut/NN-19,veteran/NN-22)
+				num(Space/NN-25,two/CD-24)
+				prep_of(veteran/NN-22,Space/NN-25)
+				nn(missions/NNS-27,Shuttle/NNP-26)
+				dep(veteran/NN-22,missions/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Paco</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Paco</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lockhart, born and reared in Amarillo, Texas, earned degrees in mathematics and aerospace engineering from Texas Tech University and the University of Texas at Austin before being commissioned in 1981 into the United States Air Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-11,Lockhart/NNP-1)
+				partmod(Lockhart/NNP-1,born/VBN-3)
+				partmod(Lockhart/NNP-1,reared/VBN-5)
+				conj_and(born/VBN-3,reared/VBN-5)
+				nn(Texas/NNP-9,Amarillo/NNP-7)
+				prep_in(born/VBN-3,Texas/NNP-9)
+				dobj(earned/VBD-11,degrees/NNS-12)
+				prep_in(degrees/NNS-12,mathematics/NNS-14)
+				nn(engineering/NN-17,aerospace/NN-16)
+				prep_in(degrees/NNS-12,engineering/NN-17)
+				conj_and(mathematics/NNS-14,engineering/NN-17)
+				nn(University/NNP-21,Texas/NNP-19)
+				nn(University/NNP-21,Tech/NNP-20)
+				prep_from(earned/VBD-11,University/NNP-21)
+				det(University/NNP-24,the/DT-23)
+				prep_from(earned/VBD-11,University/NNP-24)
+				conj_and(University/NNP-21,University/NNP-24)
+				prep_of(University/NNP-24,Texas/NNP-26)
+				prep_at(earned/VBD-11,Austin/NNP-28)
+				auxpass(commissioned/VBN-31,being/VBG-30)
+				prepc_before(earned/VBD-11,commissioned/VBN-31)
+				prep_in(commissioned/VBN-31,1981/CD-33)
+				det(Force/NNP-39,the/DT-35)
+				nn(Force/NNP-39,United/NNP-36)
+				nn(Force/NNP-39,States/NNP-37)
+				nn(Force/NNP-39,Air/NNP-38)
+				prep_into(commissioned/VBN-31,Force/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A test pilot for the F-16 aircraft, Lockhart was selected as an astronaut candidate in 1996.	</value>
+
+		<annotated-sentence>	A [[test pilot|Test_pilot]] for the [[F-16|General_Dynamics_F-16_VISTA]] [[aircraft|Aircraft]], Lockhart was selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] in [[1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A test pilot for the F-16 aircraft, Lockhart was selected as an astronaut candidate in 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				det(pilot/NN-3,A/DT-1)
+				nn(pilot/NN-3,test/NN-2)
+				nsubjpass(selected/VBN-11,pilot/NN-3)
+				det(aircraft/NN-7,the/DT-5)
+				nn(aircraft/NN-7,F-16/NN-6)
+				prep_for(pilot/NN-3,aircraft/NN-7)
+				appos(aircraft/NN-7,Lockhart/NNP-9)
+				auxpass(selected/VBN-11,was/VBD-10)
+				det(candidate/NN-15,an/DT-13)
+				nn(candidate/NN-15,astronaut/NN-14)
+				prep_as(selected/VBN-11,candidate/NN-15)
+				prep_in(candidate/NN-15,1996/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-16_VISTA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lockhart's two space missions, STS-111 and STS-113, both in 2002, were missions to the International Space Station.	</value>
+
+		<annotated-sentence>	Lockhart's two [[space|Space]] missions, [[STS-111 and STS-113|STS-113]], both in [[2002|2002]], were missions to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lockhart's two space missions, [[STS-111 and STS-113|STS-113]], both in 2002, were missions to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(missions/NNS-5,Lockhart/NNP-1)
+				num(missions/NNS-5,two/CD-3)
+				nn(missions/NNS-5,space/NN-4)
+				nsubj(missions/NNS-16,missions/NNS-5)
+				appos(missions/NNS-5,STS-111/NN-7)
+				appos(missions/NNS-5,STS-113/NN-9)
+				conj_and(STS-111/NN-7,STS-113/NN-9)
+				advmod(STS-111/NN-7,both/CC-11)
+				prep_in(missions/NNS-5,2002/CD-13)
+				cop(missions/NNS-16,were/VBD-15)
+				det(Station/NNP-21,the/DT-18)
+				nn(Station/NNP-21,International/NNP-19)
+				nn(Station/NNP-21,Space/NNP-20)
+				prep_to(missions/NNS-16,Station/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-111 and STS-113</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-113</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-113 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Paul_S._Lockhart
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-113 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Paul_S._Lockhart
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned to STS-113 as pilot after the resignation of Christopher Loria from the NASA Astronaut Corps due to an injury.	</value>
+
+		<annotated-sentence>	He was assigned to [[STS-113|STS-113]] as pilot after [[the resignation|Resignation_(House)]] of [[Christopher Loria|Christopher_Loria]] from [[the NASA Astronaut Corps|NASA_Astronaut_Corps]] due to [[an injury|Injury]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was assigned to [[STS-113|STS-113]] as pilot after the resignation of Christopher Loria from the NASA Astronaut Corps due to an injury.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				prep_to(assigned/VBN-3,STS-113/NN-5)
+				prep_as(STS-113/NN-5,pilot/NN-7)
+				det(resignation/NN-10,the/DT-9)
+				prep_after(assigned/VBN-3,resignation/NN-10)
+				nn(Loria/NNP-13,Christopher/NNP-12)
+				prep_of(resignation/NN-10,Loria/NNP-13)
+				det(Corps/NNP-18,the/DT-15)
+				nn(Corps/NNP-18,NASA/NNP-16)
+				nn(Corps/NNP-18,Astronaut/NNP-17)
+				prep_from(assigned/VBN-3,Corps/NNP-18)
+				det(injury/NN-22,an/DT-21)
+				prep_due_to(Corps/NNP-18,injury/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-113</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-113</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the resignation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Resignation_(House)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Christopher Loria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Christopher_Loria</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an injury</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Injury</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-113 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Paul_S._Lockhart
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-113 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Paul_S._Lockhart
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his service with NASA, Lockhart was assigned to and graduated in 2004 from the Royal College of Defence Studies in London, United Kingdom.	</value>
+
+		<annotated-sentence>	After his service with [[NASA|NASA]], Lockhart was assigned to and graduated in [[2004|2004]] from [[the Royal College of Defence Studies|Royal_College_of_Defence_Studies]] in [[London|London]], [[United Kingdom|United_Kingdom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his service with NASA, Lockhart was assigned to and graduated in 2004 from [[the Royal College of Defence Studies|Royal_College_of_Defence_Studies]] in [[London|London]], [[United Kingdom|United_Kingdom]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(service/NN-3,his/PRP$-2)
+				prep_after(assigned/VBN-9,service/NN-3)
+				prep_with(service/NN-3,NASA/NNP-5)
+				nsubjpass(assigned/VBN-9,Lockhart/NNP-7)
+				nsubjpass(graduated/VBN-12,Lockhart/NNP-7)
+				auxpass(assigned/VBN-9,was/VBD-8)
+				xcomp(assigned/VBN-9,to/TO-10)
+				conj_and(assigned/VBN-9,graduated/VBN-12)
+				prep_in(graduated/VBN-12,2004/CD-14)
+				det(College/NNP-18,the/DT-16)
+				nn(College/NNP-18,Royal/NNP-17)
+				prep_from(graduated/VBN-12,College/NNP-18)
+				nn(Studies/NNS-21,Defence/NNP-20)
+				prep_of(College/NNP-18,Studies/NNS-21)
+				prep_in(graduated/VBN-12,London/NNP-23)
+				nn(Kingdom/NNP-26,United/NNP-25)
+				appos(London/NNP-23,Kingdom/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Royal College of Defence Studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Royal_College_of_Defence_Studies</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>London</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/London</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United Kingdom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Royal_College_of_Defence_Studies http://dbpedia.org/ontology/city http://dbpedia.org/resource/London
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Royal_College_of_Defence_Studies http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/London http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_Kingdom http://dbpedia.org/ontology/capital http://dbpedia.org/resource/London
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His last military assignment was with the headquarters Air Force, A9, where he was a directorate chief for both the force structures and the analyses and assessments branch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignment/NN-4,His/PRP$-1)
+				amod(assignment/NN-4,last/JJ-2)
+				amod(assignment/NN-4,military/JJ-3)
+				nsubj(Force/NNP-10,assignment/NN-4)
+				cop(Force/NNP-10,was/VBD-5)
+				det(headquarters/NN-8,the/DT-7)
+				prep_with(Force/NNP-10,headquarters/NN-8)
+				nn(Force/NNP-10,Air/NNP-9)
+				appos(Force/NNP-10,A9/NNP-12)
+				advmod(chief/NN-19,where/WRB-14)
+				nsubj(chief/NN-19,he/PRP-15)
+				cop(chief/NN-19,was/VBD-16)
+				det(chief/NN-19,a/DT-17)
+				nn(chief/NN-19,directorate/NN-18)
+				rcmod(Force/NNP-10,chief/NN-19)
+				preconj(structures/NNS-24,both/CC-21)
+				det(structures/NNS-24,the/DT-22)
+				nn(structures/NNS-24,force/NN-23)
+				prep_for(chief/NN-19,structures/NNS-24)
+				det(analyses/NNS-27,the/DT-26)
+				prep_for(chief/NN-19,analyses/NNS-27)
+				conj_and(structures/NNS-24,analyses/NNS-27)
+				nn(branch/NN-30,assessments/NNS-29)
+				conj_and(structures/NNS-24,branch/NN-30)
+				conj_and(analyses/NNS-27,branch/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lockhart retired from the U.S. Air Force in January 2007 and returned to NASA in an administrative position.	</value>
+
+		<annotated-sentence>	Lockhart retired from the U.S. Air Force in [[January 2007|January_2007]] and returned to [[NASA|NASA]] in an administrative position.	</annotated-sentence>
+
+		<pattern_crowdsource>	Lockhart retired from the U.S. Air Force in January 2007 and returned to NASA in an administrative position.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Lockhart/NNP-1)
+				nsubj(returned/VBD-12,Lockhart/NNP-1)
+				det(Force/NNP-7,the/DT-4)
+				nn(Force/NNP-7,U.S./NNP-5)
+				nn(Force/NNP-7,Air/NNP-6)
+				prep_from(retired/VBD-2,Force/NNP-7)
+				prep_in(retired/VBD-2,January/NNP-9)
+				num(January/NNP-9,2007/CD-10)
+				conj_and(retired/VBD-2,returned/VBD-12)
+				prep_to(returned/VBD-12,NASA/NNP-14)
+				det(position/NN-18,an/DT-16)
+				amod(position/NN-18,administrative/JJ-17)
+				prep_in(returned/VBD-12,position/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recipient of the Defense Superior Service Medal, Defense Meritorious Service Medal, Air Force Aerial Achievement Medal, Air Force Commendation Medal, Outstanding Unit Award with Valor, National Defense Service Medal, Air Force Achievement Medal, and numerous other service recognitions and ribbons.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Medal/NN-7,the/DT-3)
+				nn(Medal/NN-7,Defense/NNP-4)
+				nn(Medal/NN-7,Superior/NNP-5)
+				nn(Medal/NN-7,Service/NNP-6)
+				prep_of(Recipient/NN-1,Medal/NN-7)
+				nn(Service/NNP-11,Defense/NNP-9)
+				nn(Service/NNP-11,Meritorious/NNP-10)
+				appos(Recipient/NN-1,Service/NNP-11)
+				dep(Service/NNP-11,Medal/NN-12)
+				nn(Medal/NN-18,Air/NNP-14)
+				nn(Medal/NN-18,Force/NNP-15)
+				nn(Medal/NN-18,Aerial/NNP-16)
+				nn(Medal/NN-18,Achievement/NNP-17)
+				appos(Recipient/NN-1,Medal/NN-18)
+				nn(Commendation/NNP-22,Air/NNP-20)
+				nn(Commendation/NNP-22,Force/NNP-21)
+				appos(Recipient/NN-1,Commendation/NNP-22)
+				dep(Commendation/NNP-22,Medal/NN-23)
+				amod(Award/NN-27,Outstanding/JJ-25)
+				nn(Award/NN-27,Unit/NN-26)
+				appos(Recipient/NN-1,Award/NN-27)
+				prep_with(Award/NN-27,Valor/NN-29)
+				nn(Service/NNP-33,National/NNP-31)
+				nn(Service/NNP-33,Defense/NNP-32)
+				appos(Recipient/NN-1,Service/NNP-33)
+				dep(Service/NNP-33,Medal/NN-34)
+				nn(Achievement/NNP-38,Air/NNP-36)
+				nn(Achievement/NNP-38,Force/NNP-37)
+				appos(Recipient/NN-1,Achievement/NNP-38)
+				dep(Achievement/NNP-38,Medal/NN-39)
+				amod(recognitions/NNS-45,numerous/JJ-42)
+				amod(recognitions/NNS-45,other/JJ-43)
+				nn(recognitions/NNS-45,service/NN-44)
+				appos(Recipient/NN-1,recognitions/NNS-45)
+				conj_and(Achievement/NNP-38,recognitions/NNS-45)
+				conj_and(Achievement/NNP-38,ribbons/NNS-47)
+				conj_and(recognitions/NNS-45,ribbons/NNS-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is also a distinguished graduate of both ROTC and the Air Force Squadron Officer School.	</value>
+
+		<annotated-sentence>	He is also a distinguished graduate of both ROTC and the [[Air Force|Air_force]] [[Squadron Officer School|Squadron_Officer_School]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is also a distinguished graduate of both ROTC and the Air Force Squadron Officer School.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-6,He/PRP-1)
+				cop(graduate/NN-6,is/VBZ-2)
+				advmod(graduate/NN-6,also/RB-3)
+				det(graduate/NN-6,a/DT-4)
+				amod(graduate/NN-6,distinguished/JJ-5)
+				preconj(ROTC/NN-9,both/CC-8)
+				prep_of(graduate/NN-6,ROTC/NN-9)
+				det(School/NNP-16,the/DT-11)
+				nn(School/NNP-16,Air/NNP-12)
+				nn(School/NNP-16,Force/NNP-13)
+				nn(School/NNP-16,Squadron/NNP-14)
+				nn(School/NNP-16,Officer/NNP-15)
+				prep_of(graduate/NN-6,School/NNP-16)
+				conj_and(ROTC/NN-9,School/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Squadron Officer School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Squadron_Officer_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

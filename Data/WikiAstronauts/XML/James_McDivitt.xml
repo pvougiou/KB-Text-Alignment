@@ -1,0 +1,3372 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Alton McDivitt (Brig Gen, USAF Ret.)	</value>
+
+		<annotated-sentence>	James Alton [[McDivitt|James_McDivitt]] ([[Brig Gen|Brigadier_general]], [[USAF|United_States_Air_Force]] Ret.)	</annotated-sentence>
+
+		<pattern_crowdsource>	James Alton [[McDivitt|James_McDivitt]] (Brig Gen, [[USAF|United_States_Air_Force]] Ret.)	</pattern_crowdsource>
+
+
+		<tree>
+				nn(McDivitt/NNP-3,James/NNP-1)
+				nn(McDivitt/NNP-3,Alton/NNP-2)
+				nn(Gen/NN-6,Brig/NNP-5)
+				dep(McDivitt/NNP-3,Gen/NN-6)
+				nn(Ret/NNP-9,USAF/NNP-8)
+				dep(Gen/NN-6,Ret/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brig Gen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brigadier_general</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USAF</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	(born June 10, 1929) is a former NASA astronaut who flew in the Gemini and Apollo programs.	</value>
+
+		<annotated-sentence>	(born [[June 10|June_10]], [[1929|1929]]) is a former [[NASA|NASA]] [[astronaut|Astronaut]] who flew in the Gemini and Apollo programs.	</annotated-sentence>
+
+		<pattern_crowdsource>	(born June 10, 1929) is a former [[NASA|NASA]] [[astronaut|Astronaut]] who flew in the Gemini and Apollo programs.	</pattern_crowdsource>
+
+
+		<tree>
+				prep(astronaut/NN-12,born/VBN-2)
+				dep(born/VBN-2,June/NNP-3)
+				num(June/NNP-3,10/CD-4)
+				nsubj(astronaut/NN-12,1929/CD-6)
+				cop(astronaut/NN-12,is/VBZ-8)
+				det(astronaut/NN-12,a/DT-9)
+				amod(astronaut/NN-12,former/JJ-10)
+				nn(astronaut/NN-12,NASA/NNP-11)
+				nsubj(flew/VBD-14,who/WP-13)
+				rcmod(astronaut/NN-12,flew/VBD-14)
+				det(programs/NNS-20,the/DT-16)
+				nn(programs/NNS-20,Gemini/NNP-17)
+				conj_and(Gemini/NNP-17,Apollo/NNP-19)
+				nn(programs/NNS-20,Apollo/NNP-19)
+				prep_in(flew/VBD-14,programs/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_10</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1929</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1929</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He commanded the Gemini 4 flight during which Edward H. White performed the first US space walk, and later the Apollo 9 flight which was the first manned flight test of the Lunar Module and the complete set of Apollo flight hardware.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commanded/VBD-2,He/PRP-1)
+				det(flight/NN-6,the/DT-3)
+				nn(flight/NN-6,Gemini/NNP-4)
+				num(flight/NN-6,4/CD-5)
+				dobj(commanded/VBD-2,flight/NN-6)
+				prep_during(performed/VBD-12,which/WDT-8)
+				nn(White/NNP-11,Edward/NNP-9)
+				nn(White/NNP-11,H./NNP-10)
+				nsubj(performed/VBD-12,White/NNP-11)
+				rcmod(flight/NN-6,performed/VBD-12)
+				det(walk/NN-17,the/DT-13)
+				amod(walk/NN-17,first/JJ-14)
+				nn(walk/NN-17,US/NNP-15)
+				nn(walk/NN-17,space/NN-16)
+				dobj(performed/VBD-12,walk/NN-17)
+				advmod(flight/NN-6,later/RB-20)
+				det(flight/NN-24,the/DT-21)
+				nn(flight/NN-24,Apollo/NNP-22)
+				num(flight/NN-24,9/CD-23)
+				conj_and(flight/NN-6,flight/NN-24)
+				nsubj(test/NN-31,which/WDT-25)
+				cop(test/NN-31,was/VBD-26)
+				det(test/NN-31,the/DT-27)
+				amod(test/NN-31,first/JJ-28)
+				amod(test/NN-31,manned/JJ-29)
+				nn(test/NN-31,flight/NN-30)
+				rcmod(flight/NN-24,test/NN-31)
+				det(Module/NNP-35,the/DT-33)
+				nn(Module/NNP-35,Lunar/NNP-34)
+				prep_of(test/NN-31,Module/NNP-35)
+				det(set/NN-39,the/DT-37)
+				amod(set/NN-39,complete/JJ-38)
+				rcmod(flight/NN-24,set/NN-39)
+				conj_and(test/NN-31,set/NN-39)
+				nn(hardware/NN-43,Apollo/NNP-41)
+				nn(hardware/NN-43,flight/NN-42)
+				prep_of(set/NN-39,hardware/NN-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He later became Manager of Lunar Landing Operations and was the Apollo Spacecraft Program Manager from 1969 to 1972.	</value>
+
+		<annotated-sentence>	He later became Manager of [[Lunar Landing|Moon_landing]] [[Operations|Amphibious_warfare]] and was the [[Apollo Spacecraft|Apollo_spacecraft]] [[Program Manager|Program_Manager]] from [[1969|1969]] to [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He later became Manager of Lunar Landing Operations and was the Apollo Spacecraft Program Manager from 1969 to 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Manager/NN-4,He/PRP-1)
+				advmod(Manager/NN-4,later/RB-2)
+				cop(Manager/NN-4,became/VBD-3)
+				nn(Operations/NNP-8,Lunar/NNP-6)
+				nn(Operations/NNP-8,Landing/NN-7)
+				prep_of(Manager/NN-4,Operations/NNP-8)
+				cop(Manager/NNP-15,was/VBD-10)
+				det(Manager/NNP-15,the/DT-11)
+				nn(Manager/NNP-15,Apollo/NNP-12)
+				nn(Manager/NNP-15,Spacecraft/NNP-13)
+				nn(Manager/NNP-15,Program/NNP-14)
+				conj_and(Manager/NN-4,Manager/NNP-15)
+				prep_from(Manager/NNP-15,1969/CD-17)
+				prep_to(Manager/NNP-15,1972/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lunar Landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo Spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program Manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_Manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt graduated from Kalamazoo Central High School, Kalamazoo, Michigan; Jackson Junior College (now known as Jackson College), Jackson, Michigan, and received a Bachelor of Science degree in aeronautical engineering from the University of Michigan (graduated first in class) in 1959 and an honorary doctorate in astronautical science from the University of Michigan in 1965; honorary doctor of science, Seton Hall University, 1969; honorary doctor of science, Miami University (Ohio), 1970; honorary doctor of laws, Eastern Michigan University, 1975.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,McDivitt/NNP-1)
+				nsubj(received/VBD-29,McDivitt/NNP-1)
+				nn(School/NNP-7,Kalamazoo/NNP-4)
+				nn(School/NNP-7,Central/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				appos(School/NNP-7,Kalamazoo/NNP-9)
+				appos(School/NNP-7,Michigan/NNP-11)
+				nn(College/NNP-15,Jackson/NNP-13)
+				nn(College/NNP-15,Junior/NNP-14)
+				dep(Michigan/NNP-11,College/NNP-15)
+				advmod(known/VBN-18,now/RB-17)
+				dep(School/NNP-7,known/VBN-18)
+				nn(College/NNP-21,Jackson/NNP-20)
+				prep_as(known/VBN-18,College/NNP-21)
+				nn(Michigan/NNP-26,Jackson/NNP-24)
+				appos(School/NNP-7,Michigan/NNP-26)
+				conj_and(graduated/VBD-2,received/VBD-29)
+				det(Bachelor/NN-31,a/DT-30)
+				dobj(received/VBD-29,Bachelor/NN-31)
+				nn(degree/NN-34,Science/NNP-33)
+				prep_of(Bachelor/NN-31,degree/NN-34)
+				amod(engineering/NN-37,aeronautical/JJ-36)
+				prep_in(degree/NN-34,engineering/NN-37)
+				det(University/NNP-40,the/DT-39)
+				prep_from(degree/NN-34,University/NNP-40)
+				prep_of(degree/NN-34,Michigan/NNP-42)
+				dep(degree/NN-34,graduated/VBN-44)
+				advmod(graduated/VBN-44,first/RB-45)
+				prep_in(graduated/VBN-44,class/NN-47)
+				prep_in(received/VBD-29,1959/CD-50)
+				det(doctorate/NN-54,an/DT-52)
+				amod(doctorate/NN-54,honorary/JJ-53)
+				prep_in(received/VBD-29,doctorate/NN-54)
+				conj_and(1959/CD-50,doctorate/NN-54)
+				amod(science/NN-57,astronautical/JJ-56)
+				prep_in(doctorate/NN-54,science/NN-57)
+				det(University/NNP-60,the/DT-59)
+				prep_from(received/VBD-29,University/NNP-60)
+				prep_of(University/NNP-60,Michigan/NNP-62)
+				prep_in(Michigan/NNP-62,1965/CD-64)
+				amod(doctor/NN-67,honorary/JJ-66)
+				dep(Michigan/NNP-62,doctor/NN-67)
+				prep_of(doctor/NN-67,science/NN-69)
+				nn(University/NNP-73,Seton/NNP-71)
+				nn(University/NNP-73,Hall/NNP-72)
+				appos(Michigan/NNP-62,University/NNP-73)
+				amod(University/NNP-73,1969/CD-75)
+				amod(doctor/NN-78,honorary/JJ-77)
+				dep(Michigan/NNP-62,doctor/NN-78)
+				prep_of(doctor/NN-78,science/NN-80)
+				nn(University/NNP-83,Miami/NNP-82)
+				appos(Michigan/NNP-62,University/NNP-83)
+				appos(University/NNP-83,Ohio/NNP-85)
+				amod(University/NNP-83,1970/CD-88)
+				amod(doctor/NN-91,honorary/JJ-90)
+				dep(Michigan/NNP-62,doctor/NN-91)
+				prep_of(doctor/NN-91,laws/NNS-93)
+				nn(University/NNP-97,Eastern/NNP-95)
+				nn(University/NNP-97,Michigan/NNP-96)
+				appos(Michigan/NNP-62,University/NNP-97)
+				amod(University/NNP-97,1975/CD-99)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt is a member of the Society of Experimental Test Pilots, Conquistadores del Cielo, Tau Beta Pi, and Phi Kappa Phi, McDivitt was awarded two NASA Distinguished Service Medals; NASA Exceptional Service Medal; two Air Force Distinguished Service Medals; four Distinguished Flying Crosses; five Air Medals; the Chong Moo Medal from South Korea; the USAF Air Force Systems Command Aerospace Primus Award; the Arnold Air Society JFK Trophy; the Sword of Loyola; the Michigan Wolverine Frontiersman Award; and USAF Astronaut Wings.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,McDivitt/NNP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				ccomp(awarded/VBN-28,member/NN-4)
+				det(Society/NNP-7,the/DT-6)
+				prep_of(member/NN-4,Society/NNP-7)
+				amod(Pilots/NNS-11,Experimental/JJ-9)
+				nn(Pilots/NNS-11,Test/NN-10)
+				prep_of(Society/NNP-7,Pilots/NNS-11)
+				nn(Cielo/NNP-15,Conquistadores/NNP-13)
+				nn(Cielo/NNP-15,del/NNP-14)
+				prep_of(Society/NNP-7,Cielo/NNP-15)
+				conj_and(Pilots/NNS-11,Cielo/NNP-15)
+				nn(Pi/NNP-19,Tau/NNP-17)
+				nn(Pi/NNP-19,Beta/NNP-18)
+				prep_of(Society/NNP-7,Pi/NNP-19)
+				conj_and(Pilots/NNS-11,Pi/NNP-19)
+				nn(Phi/NNP-24,Phi/NNP-22)
+				nn(Phi/NNP-24,Kappa/NNP-23)
+				prep_of(Society/NNP-7,Phi/NNP-24)
+				conj_and(Pilots/NNS-11,Phi/NNP-24)
+				nsubjpass(awarded/VBN-28,McDivitt/NNP-26)
+				auxpass(awarded/VBN-28,was/VBD-27)
+				dobj(awarded/VBN-28,two/CD-29)
+				nn(Medals/NNPS-33,NASA/NNP-30)
+				nn(Medals/NNPS-33,Distinguished/NNP-31)
+				nn(Medals/NNPS-33,Service/NNP-32)
+				dep(two/CD-29,Medals/NNPS-33)
+				nn(Service/NNP-37,NASA/NNP-35)
+				nn(Service/NNP-37,Exceptional/NNP-36)
+				dep(two/CD-29,Service/NNP-37)
+				dep(Service/NNP-37,Medal/NN-38)
+				dep(two/CD-29,two/CD-40)
+				nn(Medals/NNPS-45,Air/NNP-41)
+				nn(Medals/NNPS-45,Force/NNP-42)
+				nn(Medals/NNPS-45,Distinguished/NNP-43)
+				nn(Medals/NNPS-45,Service/NNP-44)
+				dep(two/CD-40,Medals/NNPS-45)
+				dep(two/CD-29,four/CD-47)
+				partmod(four/CD-47,Distinguished/VBN-48)
+				nn(Crosses/NNP-50,Flying/NNP-49)
+				dobj(Distinguished/VBN-48,Crosses/NNP-50)
+				num(Medals/NNPS-54,five/CD-52)
+				nn(Medals/NNPS-54,Air/NNP-53)
+				dobj(Distinguished/VBN-48,Medals/NNPS-54)
+				conj_and(Crosses/NNP-50,Medals/NNPS-54)
+				det(Medal/NN-59,the/DT-56)
+				nn(Medal/NN-59,Chong/NNP-57)
+				nn(Medal/NN-59,Moo/NNP-58)
+				dobj(Distinguished/VBN-48,Medal/NN-59)
+				conj_and(Crosses/NNP-50,Medal/NN-59)
+				nn(Korea/NNP-62,South/NNP-61)
+				prep_from(Medal/NN-59,Korea/NNP-62)
+				det(Primus/NNP-71,the/DT-64)
+				nn(Primus/NNP-71,USAF/NNP-65)
+				nn(Primus/NNP-71,Air/NNP-66)
+				nn(Primus/NNP-71,Force/NNP-67)
+				nn(Primus/NNP-71,Systems/NNPS-68)
+				nn(Primus/NNP-71,Command/NN-69)
+				nn(Primus/NNP-71,Aerospace/NNP-70)
+				dobj(Distinguished/VBN-48,Primus/NNP-71)
+				conj_and(Crosses/NNP-50,Primus/NNP-71)
+				dep(Primus/NNP-71,Award/NN-72)
+				det(Trophy/NN-79,the/DT-74)
+				nn(Trophy/NN-79,Arnold/NNP-75)
+				nn(Trophy/NN-79,Air/NNP-76)
+				nn(Trophy/NN-79,Society/NNP-77)
+				nn(Trophy/NN-79,JFK/NNP-78)
+				dobj(Distinguished/VBN-48,Trophy/NN-79)
+				conj_and(Crosses/NNP-50,Trophy/NN-79)
+				det(Sword/NN-82,the/DT-81)
+				dobj(Distinguished/VBN-48,Sword/NN-82)
+				conj_and(Crosses/NNP-50,Sword/NN-82)
+				prep_of(Sword/NN-82,Loyola/NNP-84)
+				det(Award/NN-90,the/DT-86)
+				nn(Award/NN-90,Michigan/NNP-87)
+				nn(Award/NN-90,Wolverine/NNP-88)
+				nn(Award/NN-90,Frontiersman/NNP-89)
+				dobj(Distinguished/VBN-48,Award/NN-90)
+				conj_and(Crosses/NNP-50,Award/NN-90)
+				nn(Wings/NNP-95,USAF/NNP-93)
+				nn(Wings/NNP-95,Astronaut/NNP-94)
+				dobj(Distinguished/VBN-48,Wings/NNP-95)
+				conj_and(Crosses/NNP-50,Wings/NNP-95)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt joined the United States Air Force in 1951 and retired with the rank of Brigadier General in 1972.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] joined [[the United States Air Force|United_States_Air_Force]] in [[1951|1951]] and retired with [[the rank|RANK]] of [[Brigadier General|Brigadier_general_(United_States)]] in [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McDivitt|James_McDivitt]] joined [[the United States Air Force|United_States_Air_Force]] in 1951 and retired with the rank of [[Brigadier General|Brigadier_general_(United_States)]] in 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,McDivitt/NNP-1)
+				nsubj(retired/VBN-11,McDivitt/NNP-1)
+				det(Force/NNP-7,the/DT-3)
+				nn(Force/NNP-7,United/NNP-4)
+				nn(Force/NNP-7,States/NNP-5)
+				nn(Force/NNP-7,Air/NNP-6)
+				dobj(joined/VBD-2,Force/NNP-7)
+				prep_in(joined/VBD-2,1951/CD-9)
+				conj_and(joined/VBD-2,retired/VBN-11)
+				det(rank/NN-14,the/DT-13)
+				prep_with(retired/VBN-11,rank/NN-14)
+				nn(General/NNP-17,Brigadier/NNP-16)
+				prep_of(rank/NN-14,General/NNP-17)
+				prep_in(General/NNP-17,1972/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1951</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1951</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Brigadier General</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brigadier_general_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/property/rank http://dbpedia.org/resource/Brigadier_general_(United_States)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew 145 combat missions during the Korean War in F-80s and F-86s.	</value>
+
+		<annotated-sentence>	He flew 145 [[combat missions|Combat_Missions]] during [[the Korean War|Korean_War]] in F-80s and F-86s.	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew 145 combat missions during the Korean War in F-80s and F-86s.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				num(missions/NNS-5,145/CD-3)
+				nn(missions/NNS-5,combat/NN-4)
+				dobj(flew/VBD-2,missions/NNS-5)
+				det(War/NN-9,the/DT-7)
+				amod(War/NN-9,Korean/JJ-8)
+				prep_during(flew/VBD-2,War/NN-9)
+				prep_in(flew/VBD-2,F-80s/NNS-11)
+				prep_in(flew/VBD-2,F-86s/NNS-13)
+				conj_and(F-80s/NNS-11,F-86s/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Korean War</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Korean_War</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a graduate of the U.S. Air Force Test Pilot School and the USAF Aerospace Research Pilot course and served as an experimental test pilot at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduate/NN-4,He/PRP-1)
+				nsubj(served/VBD-21,He/PRP-1)
+				cop(graduate/NN-4,is/VBZ-2)
+				det(graduate/NN-4,a/DT-3)
+				det(School/NNP-12,the/DT-6)
+				nn(School/NNP-12,U.S./NNP-7)
+				nn(School/NNP-12,Air/NNP-8)
+				nn(School/NNP-12,Force/NNP-9)
+				nn(School/NNP-12,Test/NNP-10)
+				nn(School/NNP-12,Pilot/NN-11)
+				prep_of(graduate/NN-4,School/NNP-12)
+				det(course/NN-19,the/DT-14)
+				nn(course/NN-19,USAF/NNP-15)
+				nn(course/NN-19,Aerospace/NNP-16)
+				nn(course/NN-19,Research/NNP-17)
+				nn(course/NN-19,Pilot/NN-18)
+				prep_of(graduate/NN-4,course/NN-19)
+				conj_and(School/NNP-12,course/NN-19)
+				conj_and(graduate/NN-4,served/VBD-21)
+				det(pilot/NN-26,an/DT-23)
+				amod(pilot/NN-26,experimental/JJ-24)
+				nn(pilot/NN-26,test/NN-25)
+				prep_as(served/VBD-21,pilot/NN-26)
+				nn(Base/NNP-31,Edwards/NNP-28)
+				nn(Base/NNP-31,Air/NNP-29)
+				nn(Base/NNP-31,Force/NNP-30)
+				prep_at(served/VBD-21,Base/NNP-31)
+				appos(Base/NNP-31,California/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 5,000 flight hours, including flying as a chase pilot for Robert M. White's historic X-15 flight on July 17, 1962, in which White reached an altitude of 59.5 miles (95.8 km) and became the first to be awarded astronaut wings based on the USAF definition of 50 miles (80 km).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,5,000/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				prepc_including(logged/VBN-3,flying/VBG-10)
+				det(pilot/NN-14,a/DT-12)
+				nn(pilot/NN-14,chase/NN-13)
+				prep_as(flying/VBG-10,pilot/NN-14)
+				nn(White/NNP-18,Robert/NNP-16)
+				nn(White/NNP-18,M./NNP-17)
+				poss(flight/NN-22,White/NNP-18)
+				amod(flight/NN-22,historic/JJ-20)
+				nn(flight/NN-22,X-15/NN-21)
+				prep_for(pilot/NN-14,flight/NN-22)
+				prep_on(flight/NN-22,July/NNP-24)
+				num(July/NNP-24,17/CD-25)
+				num(July/NNP-24,1962/CD-27)
+				prep_in(reached/VBD-32,which/WDT-30)
+				nsubj(reached/VBD-32,White/NNP-31)
+				nsubj(first/JJ-45,White/NNP-31)
+				rcmod(July/NNP-24,reached/VBD-32)
+				det(altitude/NN-34,an/DT-33)
+				dobj(reached/VBD-32,altitude/NN-34)
+				num(miles/NNS-37,59.5/CD-36)
+				prep_of(altitude/NN-34,miles/NNS-37)
+				num(km/NN-40,95.8/CD-39)
+				appos(miles/NNS-37,km/NN-40)
+				cop(first/JJ-45,became/VBD-43)
+				det(first/JJ-45,the/DT-44)
+				rcmod(July/NNP-24,first/JJ-45)
+				conj_and(reached/VBD-32,first/JJ-45)
+				aux(awarded/VBN-48,to/TO-46)
+				auxpass(awarded/VBN-48,be/VB-47)
+				xcomp(first/JJ-45,awarded/VBN-48)
+				nn(wings/NNS-50,astronaut/NN-49)
+				dobj(awarded/VBN-48,wings/NNS-50)
+				prepc_based_on(awarded/VBN-48,on/IN-52)
+				det(definition/NN-55,the/DT-53)
+				nn(definition/NN-55,USAF/NNP-54)
+				pobj(awarded/VBN-48,definition/NN-55)
+				num(miles/NNS-58,50/CD-57)
+				prep_of(definition/NN-55,miles/NNS-58)
+				num(km/NN-61,80/CD-60)
+				appos(flight/NN-22,km/NN-61)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt was selected as an astronaut by NASA in September 1962 as part of Astronaut Group 2.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] was selected as [[an astronaut|Astronaut]] by [[NASA|NASA]] in [[September 1962|September_1962]] as part of [[Astronaut Group 2|NASA_Astronaut_Group_2]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McDivitt|James_McDivitt]] was selected as [[an astronaut|Astronaut]] by [[NASA|NASA]] in September 1962 as part of Astronaut Group 2.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,McDivitt/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(astronaut/NN-6,an/DT-5)
+				prep_as(selected/VBN-3,astronaut/NN-6)
+				agent(selected/VBN-3,NASA/NNP-8)
+				prep_in(NASA/NNP-8,September/NNP-10)
+				num(September/NNP-10,1962/CD-11)
+				prep_as(selected/VBN-3,part/NN-13)
+				nn(Group/NNP-16,Astronaut/NNP-15)
+				prep_of(part/NN-13,Group/NNP-16)
+				num(Group/NNP-16,2/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Group 2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_2</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was chosen as Command Pilot of Gemini 4, becoming the first US astronaut to command his first spaceflight.	</value>
+
+		<annotated-sentence>	He was chosen as Command Pilot of [[Gemini 4|Gemini_4]], becoming the first US [[astronaut|Astronaut]] to command [[his first spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was chosen as Command Pilot of [[Gemini 4|Gemini_4]], becoming the first US [[astronaut|Astronaut]] to command his first spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(chosen/VBN-3,He/PRP-1)
+				auxpass(chosen/VBN-3,was/VBD-2)
+				nn(Pilot/NN-6,Command/NN-5)
+				prep_as(chosen/VBN-3,Pilot/NN-6)
+				prep_of(Pilot/NN-6,Gemini/NNP-8)
+				num(Gemini/NNP-8,4/CD-9)
+				xcomp(chosen/VBN-3,becoming/VBG-11)
+				det(astronaut/NN-15,the/DT-12)
+				amod(astronaut/NN-15,first/JJ-13)
+				nn(astronaut/NN-15,US/NNP-14)
+				xcomp(becoming/VBG-11,astronaut/NN-15)
+				aux(command/VB-17,to/TO-16)
+				xcomp(becoming/VBG-11,command/VB-17)
+				poss(spaceflight/NN-20,his/PRP$-18)
+				amod(spaceflight/NN-20,first/JJ-19)
+				dobj(command/VB-17,spaceflight/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gemini 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gemini_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his first spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Gemini_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Only three other Gemini astronauts, from this group, were chosen to command their first flights: Frank Borman (Gemini 7), Neil Armstrong (Gemini 8), and Elliot See.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(chosen/VBN-12,Only/RB-1)
+				num(astronauts/NNS-5,three/CD-2)
+				amod(astronauts/NNS-5,other/JJ-3)
+				nn(astronauts/NNS-5,Gemini/NNP-4)
+				nsubjpass(chosen/VBN-12,astronauts/NNS-5)
+				det(group/NN-9,this/DT-8)
+				prep_from(astronauts/NNS-5,group/NN-9)
+				auxpass(chosen/VBN-12,were/VBD-11)
+				aux(command/VB-14,to/TO-13)
+				xcomp(chosen/VBN-12,command/VB-14)
+				poss(flights/NNS-17,their/PRP$-15)
+				amod(flights/NNS-17,first/JJ-16)
+				dobj(command/VB-14,flights/NNS-17)
+				nn(Borman/NNP-20,Frank/NNP-19)
+				dep(flights/NNS-17,Borman/NNP-20)
+				appos(Borman/NNP-20,Gemini/NNP-22)
+				num(Gemini/NNP-22,7/CD-23)
+				nn(Armstrong/NNP-27,Neil/NNP-26)
+				appos(Borman/NNP-20,Armstrong/NNP-27)
+				appos(Armstrong/NNP-27,Gemini/NNP-29)
+				num(Gemini/NNP-29,8/CD-30)
+				nsubj(See/VB-35,Elliot/NNP-34)
+				conj_and(chosen/VBN-12,See/VB-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	(See was killed in the crash of a T-38 trainer jet three months before his Gemini 9 mission.)	</value>
+
+		<annotated-sentence>	(See was killed in the crash of a T-38 trainer jet three [[months|Month]] before his [[Gemini 9|Gemini_9A]] mission.)	</annotated-sentence>
+
+		<pattern_crowdsource>	(See was killed in the crash of a T-38 trainer jet three months before his Gemini 9 mission.)	</pattern_crowdsource>
+
+
+		<tree>
+				auxpass(killed/VBN-4,was/VBD-3)
+				ccomp(See/VB-2,killed/VBN-4)
+				det(crash/NN-7,the/DT-6)
+				prep_in(killed/VBN-4,crash/NN-7)
+				det(jet/NN-12,a/DT-9)
+				amod(jet/NN-12,T-38/JJ-10)
+				nn(jet/NN-12,trainer/NN-11)
+				prep_of(crash/NN-7,jet/NN-12)
+				num(months/NNS-14,three/CD-13)
+				tmod(crash/NN-7,months/NNS-14)
+				poss(mission/NN-19,his/PRP$-16)
+				nn(mission/NN-19,Gemini/NNP-17)
+				num(mission/NN-19,9/CD-18)
+				prep_before(killed/VBN-4,mission/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gemini 9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gemini_9A</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After Gemini, only two other rookies commanded their first flights: Gerald Carr (Skylab 4) and Joe Engle (Space Shuttle STS-2).	</value>
+
+		<annotated-sentence>	After Gemini, [[only two other rookies|Rookie]] commanded [[their first flights|Flight]]: [[Gerald Carr|Gerald_P._Carr]] ([[Skylab 4|Skylab_4]]) and [[Joe Engle|Joe_Engle]] ([[Space Shuttle|SpaceShuttle]] [[STS-2|STS-2]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	After Gemini, only two other rookies commanded their first flights: [[Gerald Carr|Gerald_P._Carr]] ([[Skylab 4|Skylab_4]]) and [[Joe Engle|Joe_Engle]] (Space Shuttle [[STS-2|STS-2]]).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(commanded/VBD-8,Gemini/NNP-2)
+				quantmod(two/CD-5,only/RB-4)
+				num(rookies/NNS-7,two/CD-5)
+				amod(rookies/NNS-7,other/JJ-6)
+				nsubj(commanded/VBD-8,rookies/NNS-7)
+				poss(flights/NNS-11,their/PRP$-9)
+				amod(flights/NNS-11,first/JJ-10)
+				dobj(commanded/VBD-8,flights/NNS-11)
+				nn(Carr/NNP-14,Gerald/NNP-13)
+				dep(flights/NNS-11,Carr/NNP-14)
+				appos(Carr/NNP-14,Skylab/NNP-16)
+				dep(Skylab/NNP-16,4/LS-17)
+				nn(Engle/NNP-21,Joe/NNP-20)
+				dep(flights/NNS-11,Engle/NNP-21)
+				conj_and(Carr/NNP-14,Engle/NNP-21)
+				nn(STS-2/NN-25,Space/NNP-23)
+				nn(STS-2/NN-25,Shuttle/NNP-24)
+				dep(Engle/NNP-21,STS-2/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>only two other rookies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rookie</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>their first flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gerald Carr</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gerald_P._Carr</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Skylab 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skylab_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Joe Engle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joe_Engle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-2</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gerald_P._Carr http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Skylab_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Skylab_4 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Gerald_P._Carr
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Skylab_4 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gerald_P._Carr
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Joe_Engle http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-2
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt is also the first Roman Catholic to fly into space.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] is also the first Roman Catholic to fly into [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McDivitt is also the first Roman Catholic to fly into space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Catholic/NNP-7,McDivitt/NNP-1)
+				cop(Catholic/NNP-7,is/VBZ-2)
+				advmod(Catholic/NNP-7,also/RB-3)
+				det(Catholic/NNP-7,the/DT-4)
+				amod(Catholic/NNP-7,first/JJ-5)
+				nn(Catholic/NNP-7,Roman/NNP-6)
+				aux(fly/VB-9,to/TO-8)
+				infmod(Catholic/NNP-7,fly/VB-9)
+				prep_into(fly/VB-9,space/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt commanded the Gemini 4 mission with Edward H. White as his copilot.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] commanded the [[Gemini 4|Gemini_4]] mission with [[Edward H. White|Edward_Higgins_White]] as his copilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McDivitt|James_McDivitt]] commanded the [[Gemini 4|Gemini_4]] mission with [[Edward H. White|Edward_Higgins_White]] as his copilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(commanded/VBD-2,McDivitt/NNP-1)
+				det(mission/NN-6,the/DT-3)
+				nn(mission/NN-6,Gemini/NNP-4)
+				num(mission/NN-6,4/CD-5)
+				dobj(commanded/VBD-2,mission/NN-6)
+				nn(White/NNP-10,Edward/NNP-8)
+				nn(White/NNP-10,H./NNP-9)
+				prep_with(mission/NN-6,White/NNP-10)
+				poss(copilot/NN-13,his/PRP$-12)
+				prep_as(commanded/VBD-2,copilot/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gemini 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gemini_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edward H. White</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edward_Higgins_White</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Gemini_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Edward_Higgins_White
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gemini_4 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Edward_Higgins_White
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Edward_Higgins_White http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Gemini_4
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Launched on June 3, 1965, the mission lasted four days and made 66 orbits, allowing the United States to come close to the early space endurance record of five days set by the Soviet Vostok 5 flight.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(lasted/VBD-10,Launched/VBN-1)
+				prep_on(Launched/VBN-1,June/NNP-3)
+				num(June/NNP-3,3/CD-4)
+				num(June/NNP-3,1965/CD-6)
+				det(mission/NN-9,the/DT-8)
+				nsubj(lasted/VBD-10,mission/NN-9)
+				nsubj(made/VBD-14,mission/NN-9)
+				num(days/NNS-12,four/CD-11)
+				tmod(lasted/VBD-10,days/NNS-12)
+				conj_and(lasted/VBD-10,made/VBD-14)
+				num(orbits/NNS-16,66/CD-15)
+				dobj(made/VBD-14,orbits/NNS-16)
+				partmod(lasted/VBD-10,allowing/VBG-18)
+				det(States/NNPS-21,the/DT-19)
+				nn(States/NNPS-21,United/NNP-20)
+				nsubj(come/VB-23,States/NNPS-21)
+				aux(come/VB-23,to/TO-22)
+				xcomp(allowing/VBG-18,come/VB-23)
+				det(space/NN-28,the/DT-26)
+				amod(space/NN-28,early/JJ-27)
+				prep_close_to(come/VB-23,space/NN-28)
+				amod(record/NN-30,endurance/JJ-29)
+				dobj(come/VB-23,record/NN-30)
+				num(days/NNS-33,five/CD-32)
+				prep_of(record/NN-30,days/NNS-33)
+				partmod(days/NNS-33,set/VBN-34)
+				det(flight/NN-40,the/DT-36)
+				amod(flight/NN-40,Soviet/JJ-37)
+				nn(flight/NN-40,Vostok/NN-38)
+				num(flight/NN-40,5/CD-39)
+				agent(set/VBN-34,flight/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The first objective was to attempt the first space rendezvous with the spacecraft's spent Titan II launch vehicle's upper stage.	</value>
+
+		<annotated-sentence>	The first objective was to attempt [[the first space rendezvous|Space_rendezvous]] with [[the spacecraft|Spacecraft]]'s spent [[Titan II|LGM-25C_Titan_II]] [[launch vehicle|Launch_vehicle]]'s upper stage.	</annotated-sentence>
+
+		<pattern_crowdsource>	The first objective was to attempt the first space rendezvous with the spacecraft's spent [[Titan II|LGM-25C_Titan_II]] [[launch vehicle|Launch_vehicle]]'s upper stage.	</pattern_crowdsource>
+
+
+		<tree>
+				det(objective/NN-3,The/DT-1)
+				amod(objective/NN-3,first/JJ-2)
+				nsubj(was/VBD-4,objective/NN-3)
+				aux(attempt/VB-6,to/TO-5)
+				xcomp(was/VBD-4,attempt/VB-6)
+				det(rendezvous/NN-10,the/DT-7)
+				amod(rendezvous/NN-10,first/JJ-8)
+				nn(rendezvous/NN-10,space/NN-9)
+				dobj(attempt/VB-6,rendezvous/NN-10)
+				mark(spent/VBN-15,with/IN-11)
+				det(spacecraft/NN-13,the/DT-12)
+				nsubj(spent/VBN-15,spacecraft/NN-13)
+				possessive(spacecraft/NN-13,'s/POS-14)
+				advcl(attempt/VB-6,spent/VBN-15)
+				nn(vehicle/NN-19,Titan/NNP-16)
+				nn(vehicle/NN-19,II/NNP-17)
+				nn(vehicle/NN-19,launch/NN-18)
+				poss(stage/NN-22,vehicle/NN-19)
+				amod(stage/NN-22,upper/JJ-21)
+				dobj(spent/VBN-15,stage/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first space rendezvous</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_rendezvous</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Titan II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/LGM-25C_Titan_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>launch vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Launch_vehicle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/LGM-25C_Titan_II http://dbpedia.org/ontology/rocketFunction http://dbpedia.org/resource/Launch_vehicle
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This was not successful; McDivitt was unable to get closer than what he estimated to be 200 feet (61 m).	</value>
+
+		<annotated-sentence>	This was not successful; [[McDivitt|James_McDivitt]] was unable to get closer than what he estimated to be 200 [[feet|Foot]] (61 m).	</annotated-sentence>
+
+		<pattern_crowdsource>	This was not successful; McDivitt was unable to get closer than what he estimated to be 200 feet (61 m).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(successful/JJ-4,This/DT-1)
+				cop(successful/JJ-4,was/VBD-2)
+				neg(successful/JJ-4,not/RB-3)
+				nsubj(unable/JJ-8,McDivitt/NNP-6)
+				cop(unable/JJ-8,was/VBD-7)
+				parataxis(successful/JJ-4,unable/JJ-8)
+				aux(get/VB-10,to/TO-9)
+				xcomp(unable/JJ-8,get/VB-10)
+				dep(than/IN-12,closer/JJR-11)
+				advmod(get/VB-10,than/IN-12)
+				dobj(estimated/VBD-15,what/WP-13)
+				nsubj(estimated/VBD-15,he/PRP-14)
+				ccomp(get/VB-10,estimated/VBD-15)
+				aux(feet/NNS-19,to/TO-16)
+				cop(feet/NNS-19,be/VB-17)
+				num(feet/NNS-19,200/CD-18)
+				xcomp(estimated/VBD-15,feet/NNS-19)
+				num(m/NN-22,61/CD-21)
+				appos(feet/NNS-19,m/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Several factors worked against him.	</value>
+
+		<annotated-sentence>	[[Several|Several]] factors worked against him.	</annotated-sentence>
+
+		<pattern_crowdsource>	Several factors worked against him.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(factors/NNS-2,Several/JJ-1)
+				nsubj(worked/VBD-3,factors/NNS-2)
+				prep_against(worked/VBD-3,him/PRP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Several</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Several</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	There were depth-perception problems (his and White's visual estimates of the distance differed, variously longer or shorter than each other at different times).	</value>
+
+		<annotated-sentence>	There were depth-perception [[problems|Problem]] (his and [[White|White]]'s visual estimates of [[the distance|Distance]] differed, variously longer or shorter than each other at different times).	</annotated-sentence>
+
+		<pattern_crowdsource>	There were depth-perception problems (his and White's visual estimates of the distance differed, variously longer or shorter than each other at different times).	</pattern_crowdsource>
+
+
+		<tree>
+				expl(were/VBD-2,There/EX-1)
+				amod(problems/NNS-4,depth-perception/JJ-3)
+				nsubj(were/VBD-2,problems/NNS-4)
+				nsubj(differed/VBD-15,his/PRP$-6)
+				poss(estimates/NNS-11,White/NNP-8)
+				amod(estimates/NNS-11,visual/JJ-10)
+				conj_and(his/PRP$-6,estimates/NNS-11)
+				nsubj(differed/VBD-15,estimates/NNS-11)
+				det(distance/NN-14,the/DT-13)
+				prep_of(estimates/NNS-11,distance/NN-14)
+				dep(problems/NNS-4,differed/VBD-15)
+				advmod(longer/JJR-18,variously/RB-17)
+				dep(differed/VBD-15,longer/JJR-18)
+				dep(differed/VBD-15,shorter/JJR-20)
+				conj_or(longer/JJR-18,shorter/JJR-20)
+				det(other/JJ-23,each/DT-22)
+				prep_than(longer/JJR-18,other/JJ-23)
+				amod(times/NNS-26,different/JJ-25)
+				prep_at(longer/JJR-18,times/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Problem</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>White</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/White</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the distance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The orbital mechanics of rendezvous were not yet well understood by NASA engineers.	</value>
+
+		<annotated-sentence>	The [[orbital mechanics|Orbital_mechanics]] of rendezvous were not yet well understood by [[NASA|NASA]] [[engineers|Engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The orbital mechanics of rendezvous were not yet well understood by [[NASA|NASA]] engineers.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mechanics/NNS-3,The/DT-1)
+				amod(mechanics/NNS-3,orbital/JJ-2)
+				nsubjpass(understood/VBN-10,mechanics/NNS-3)
+				prep_of(mechanics/NNS-3,rendezvous/NN-5)
+				auxpass(understood/VBN-10,were/VBD-6)
+				neg(understood/VBN-10,not/RB-7)
+				advmod(well/RB-9,yet/RB-8)
+				advmod(understood/VBN-10,well/RB-9)
+				nn(engineers/NNS-13,NASA/NNP-12)
+				agent(understood/VBN-10,engineers/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>orbital mechanics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbital_mechanics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineers</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Also, the stage was venting its remaining propellant, which kept pushing it around in different directions relative to the spacecraft.	</value>
+
+		<annotated-sentence>	Also, the stage was venting its remaining propellant, which kept pushing it around in different directions relative to [[the spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Also, the stage was venting its remaining propellant, which kept pushing it around in different directions relative to the spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(venting/VBG-6,Also/RB-1)
+				det(stage/NN-4,the/DT-3)
+				nsubj(venting/VBG-6,stage/NN-4)
+				aux(venting/VBG-6,was/VBD-5)
+				poss(propellant/NN-9,its/PRP$-7)
+				amod(propellant/NN-9,remaining/VBG-8)
+				dobj(venting/VBG-6,propellant/NN-9)
+				nsubj(kept/VBD-12,which/WDT-11)
+				rcmod(propellant/NN-9,kept/VBD-12)
+				xcomp(kept/VBD-12,pushing/VBG-13)
+				dobj(pushing/VBG-13,it/PRP-14)
+				advmod(pushing/VBG-13,around/IN-15)
+				amod(directions/NNS-18,different/JJ-17)
+				prep_in(around/IN-15,directions/NNS-18)
+				advmod(pushing/VBG-13,relative/JJ-19)
+				det(spacecraft/NN-22,the/DT-21)
+				prep_to(relative/JJ-19,spacecraft/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt finally broke off the rendezvous attempt in order to save fuel and preserve the second, more important objective, which was for White to perform the first United States "space walk".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(broke/VBD-3,McDivitt/NNP-1)
+				advmod(broke/VBD-3,finally/RB-2)
+				det(attempt/NN-7,the/DT-5)
+				nn(attempt/NN-7,rendezvous/NN-6)
+				prep_off(broke/VBD-3,attempt/NN-7)
+				mark(save/VB-11,in/IN-8)
+				dep(save/VB-11,order/NN-9)
+				aux(save/VB-11,to/TO-10)
+				advcl(broke/VBD-3,save/VB-11)
+				dobj(save/VB-11,fuel/NN-12)
+				advcl(broke/VBD-3,preserve/VB-14)
+				conj_and(save/VB-11,preserve/VB-14)
+				det(objective/NN-20,the/DT-15)
+				amod(objective/NN-20,second/JJ-16)
+				advmod(important/JJ-19,more/RBR-18)
+				amod(objective/NN-20,important/JJ-19)
+				dobj(preserve/VB-14,objective/NN-20)
+				nsubj(was/VBD-23,which/WDT-22)
+				rcmod(objective/NN-20,was/VBD-23)
+				prep_for(was/VBD-23,White/NNP-25)
+				aux(perform/VB-27,to/TO-26)
+				xcomp(was/VBD-23,perform/VB-27)
+				det(States/NNPS-31,the/DT-28)
+				amod(States/NNPS-31,first/JJ-29)
+				nn(States/NNPS-31,United/NNP-30)
+				dep(walk/NN-34,States/NNPS-31)
+				nn(walk/NN-34,space/NN-33)
+				dep(perform/VB-27,walk/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt controlled the capsule's attitude and photographed White during the "walk".	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] controlled the capsule's attitude and photographed [[White|White]] during the "walk".	</annotated-sentence>
+
+		<pattern_crowdsource>	McDivitt controlled the capsule's attitude and photographed White during the "walk".	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(controlled/VBD-2,McDivitt/NNP-1)
+				nsubj(photographed/VBD-8,McDivitt/NNP-1)
+				det(capsule/NN-4,the/DT-3)
+				poss(attitude/NN-6,capsule/NN-4)
+				dobj(controlled/VBD-2,attitude/NN-6)
+				conj_and(controlled/VBD-2,photographed/VBD-8)
+				dobj(photographed/VBD-8,White/NNP-9)
+				det(walk/NN-13,the/DT-11)
+				prep_during(photographed/VBD-8,walk/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>White</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/White</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The hatch on Gemini 4, through which White exited to make his walk, was prone to problems with the latch mechanism gears coming unmeshed, making it difficult to open and relatch the hatch.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(hatch/NN-2,The/DT-1)
+				nsubj(prone/JJ-17,hatch/NN-2)
+				prep_on(hatch/NN-2,Gemini/NNP-4)
+				num(Gemini/NNP-4,4/CD-5)
+				prep_through(exited/VBD-10,which/WDT-8)
+				nsubj(exited/VBD-10,White/NNP-9)
+				rcmod(hatch/NN-2,exited/VBD-10)
+				aux(make/VB-12,to/TO-11)
+				xcomp(exited/VBD-10,make/VB-12)
+				poss(walk/NN-14,his/PRP$-13)
+				dobj(make/VB-12,walk/NN-14)
+				cop(prone/JJ-17,was/VBD-16)
+				prep_to(prone/JJ-17,problems/NNS-19)
+				mark(latch/VBP-22,with/IN-20)
+				nsubj(latch/VBP-22,the/DT-21)
+				advcl(prone/JJ-17,latch/VBP-22)
+				nn(gears/NNS-24,mechanism/NN-23)
+				dobj(latch/VBP-22,gears/NNS-24)
+				partmod(gears/NNS-24,coming/VBG-25)
+				acomp(coming/VBG-25,unmeshed/JJ-26)
+				partmod(latch/VBP-22,making/VBG-28)
+				nsubj(difficult/JJ-30,it/PRP-29)
+				xcomp(making/VBG-28,difficult/JJ-30)
+				aux(open/VB-32,to/TO-31)
+				xcomp(difficult/JJ-30,open/VB-32)
+				xcomp(difficult/JJ-30,relatch/VB-34)
+				conj_and(open/VB-32,relatch/VB-34)
+				det(hatch/NN-36,the/DT-35)
+				dobj(open/VB-32,hatch/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt had spent some time before the flight with a McDonnell engineer, improvising a technique of forcing the gears to mesh by inserting the fingers inside the mechanism.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBN-3,McDivitt/NNP-1)
+				aux(spent/VBN-3,had/VBD-2)
+				det(time/NN-5,some/DT-4)
+				dobj(spent/VBN-3,time/NN-5)
+				det(flight/NN-8,the/DT-7)
+				prep_before(spent/VBN-3,flight/NN-8)
+				det(engineer/NN-12,a/DT-10)
+				nn(engineer/NN-12,McDonnell/NNP-11)
+				prep_with(flight/NN-8,engineer/NN-12)
+				partmod(spent/VBN-3,improvising/VBG-14)
+				det(technique/NN-16,a/DT-15)
+				dobj(improvising/VBG-14,technique/NN-16)
+				prepc_of(technique/NN-16,forcing/VBG-18)
+				det(gears/NNS-20,the/DT-19)
+				nsubj(mesh/VB-22,gears/NNS-20)
+				aux(mesh/VB-22,to/TO-21)
+				xcomp(forcing/VBG-18,mesh/VB-22)
+				prepc_by(mesh/VB-22,inserting/VBG-24)
+				det(fingers/NNS-26,the/DT-25)
+				dobj(inserting/VBG-24,fingers/NNS-26)
+				det(mechanism/NN-29,the/DT-28)
+				prep_inside(inserting/VBG-24,mechanism/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The hatch was difficult to open and also to relatch during the flight, but McDivitt was able to get it working both times, with his hands in his pressurized space suit gloves.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(hatch/NN-2,The/DT-1)
+				nsubj(difficult/JJ-4,hatch/NN-2)
+				cop(difficult/JJ-4,was/VBD-3)
+				aux(open/VB-6,to/TO-5)
+				xcomp(difficult/JJ-4,open/VB-6)
+				xcomp(difficult/JJ-4,also/RB-8)
+				conj_and(open/VB-6,also/RB-8)
+				prep_to(also/RB-8,relatch/NN-10)
+				det(flight/NN-13,the/DT-12)
+				prep_during(difficult/JJ-4,flight/NN-13)
+				nsubj(able/JJ-18,McDivitt/NNP-16)
+				cop(able/JJ-18,was/VBD-17)
+				conj_but(difficult/JJ-4,able/JJ-18)
+				aux(get/VB-20,to/TO-19)
+				xcomp(able/JJ-18,get/VB-20)
+				nsubj(working/VBG-22,it/PRP-21)
+				dep(get/VB-20,working/VBG-22)
+				prep(working/VBG-22,both/CC-23)
+				dep(both/CC-23,times/NNS-24)
+				poss(hands/NNS-28,his/PRP$-27)
+				prep_with(working/VBG-22,hands/NNS-28)
+				poss(gloves/NNS-34,his/PRP$-30)
+				amod(gloves/NNS-34,pressurized/JJ-31)
+				nn(gloves/NNS-34,space/NN-32)
+				nn(gloves/NNS-34,suit/NN-33)
+				prep_in(hands/NNS-28,gloves/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	If he had not been able to get the hatch latched after the space walk, both men would have most certainly been killed during re-entry.	</value>
+
+		<annotated-sentence>	If he had not been able to get the hatch latched after [[the space walk|Extra-vehicular_activity]], both men would have most certainly been killed during re-entry.	</annotated-sentence>
+
+		<pattern_crowdsource>	If he had not been able to get the hatch latched after the space walk, both men would have most certainly been killed during re-entry.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(able/JJ-6,If/IN-1)
+				nsubj(able/JJ-6,he/PRP-2)
+				aux(able/JJ-6,had/VBD-3)
+				neg(able/JJ-6,not/RB-4)
+				cop(able/JJ-6,been/VBN-5)
+				advcl(killed/VBN-24,able/JJ-6)
+				aux(get/VB-8,to/TO-7)
+				xcomp(able/JJ-6,get/VB-8)
+				det(hatch/NN-10,the/DT-9)
+				nsubj(latched/VBD-11,hatch/NN-10)
+				ccomp(get/VB-8,latched/VBD-11)
+				det(walk/NN-15,the/DT-13)
+				nn(walk/NN-15,space/NN-14)
+				prep_after(latched/VBD-11,walk/NN-15)
+				det(men/NNS-18,both/DT-17)
+				nsubjpass(killed/VBN-24,men/NNS-18)
+				aux(killed/VBN-24,would/MD-19)
+				aux(killed/VBN-24,have/VB-20)
+				advmod(certainly/RB-22,most/RBS-21)
+				advmod(killed/VBN-24,certainly/RB-22)
+				auxpass(killed/VBN-24,been/VBN-23)
+				prep_during(killed/VBN-24,re-entry/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the space walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On the second day, over Hawaii, while White was asleep, McDivitt happened to see an unidentified flying object, which he described as looking "like a beer can or a pop can, and with a little thing like maybe like a pencil or something sticking out of it."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(day/NN-4,the/DT-2)
+				amod(day/NN-4,second/JJ-3)
+				prep_on(happened/VBD-15,day/NN-4)
+				prep_over(happened/VBD-15,Hawaii/NNP-7)
+				mark(asleep/RB-12,while/IN-9)
+				nsubj(asleep/RB-12,White/NNP-10)
+				cop(asleep/RB-12,was/VBD-11)
+				advcl(happened/VBD-15,asleep/RB-12)
+				nsubj(happened/VBD-15,McDivitt/NNP-14)
+				aux(see/VB-17,to/TO-16)
+				xcomp(happened/VBD-15,see/VB-17)
+				det(object/NN-21,an/DT-18)
+				amod(object/NN-21,unidentified/JJ-19)
+				amod(object/NN-21,flying/VBG-20)
+				dobj(see/VB-17,object/NN-21)
+				dobj(described/VBD-25,which/WDT-23)
+				nsubj(described/VBD-25,he/PRP-24)
+				rcmod(object/NN-21,described/VBD-25)
+				prepc_as(described/VBD-25,looking/VBG-27)
+				mark(can/MD-32,like/IN-29)
+				det(beer/NN-31,a/DT-30)
+				nsubj(can/MD-32,beer/NN-31)
+				advcl(looking/VBG-27,can/MD-32)
+				det(pop/NN-35,a/DT-34)
+				nsubj(can/MD-36,pop/NN-35)
+				advcl(looking/VBG-27,can/MD-36)
+				conj_or(can/MD-32,can/MD-36)
+				prepc_as(described/VBD-25,with/IN-39)
+				conj_and(looking/VBG-27,with/IN-39)
+				det(thing/NN-42,a/DT-40)
+				amod(thing/NN-42,little/JJ-41)
+				pobj(with/IN-39,thing/NN-42)
+				prep(with/IN-39,like/IN-43)
+				advmod(with/IN-39,maybe/RB-44)
+				det(pencil/NN-47,a/DT-46)
+				prep_like(happened/VBD-15,pencil/NN-47)
+				prep_like(happened/VBD-15,something/NN-49)
+				conj_or(pencil/NN-47,something/NN-49)
+				partmod(pencil/NN-47,sticking/VBG-50)
+				prep_out_of(sticking/VBG-50,it/PRP-53)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He got a camera and took a few photographs of it, but did not have time to properly set exposure or focus properly.	</value>
+
+		<annotated-sentence>	He got [[a camera|Camera]] and took [[a few photographs|Photograph]] of it, but did not have time to properly set exposure or focus properly.	</annotated-sentence>
+
+		<pattern_crowdsource>	He got a camera and took a few photographs of it, but did not have time to properly set exposure or focus properly.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(got/VBD-2,He/PRP-1)
+				nsubj(took/VBD-6,He/PRP-1)
+				nsubj(have/VB-16,He/PRP-1)
+				det(camera/NN-4,a/DT-3)
+				dobj(got/VBD-2,camera/NN-4)
+				conj_and(got/VBD-2,took/VBD-6)
+				det(photographs/NNS-9,a/DT-7)
+				amod(photographs/NNS-9,few/JJ-8)
+				dobj(took/VBD-6,photographs/NNS-9)
+				prep_of(photographs/NNS-9,it/PRP-11)
+				aux(have/VB-16,did/VBD-14)
+				neg(have/VB-16,not/RB-15)
+				conj_but(got/VBD-2,have/VB-16)
+				dobj(have/VB-16,time/NN-17)
+				aux(set/VB-20,to/TO-18)
+				advmod(set/VB-20,properly/RB-19)
+				xcomp(have/VB-16,set/VB-20)
+				dobj(set/VB-20,exposure/NN-21)
+				dobj(set/VB-20,focus/NN-23)
+				conj_or(exposure/NN-21,focus/NN-23)
+				advmod(set/VB-20,properly/RB-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a camera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Camera</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a few photographs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Photograph</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He believes that since it was visible to him, it must have been in an orbit close to that of his spacecraft, probably a piece of ice or Mylar insulation having broken off of it.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(believes/VBZ-2,He/PRP-1)
+				mark(been/VBN-14,that/IN-3)
+				mark(visible/JJ-7,since/IN-4)
+				nsubj(visible/JJ-7,it/PRP-5)
+				cop(visible/JJ-7,was/VBD-6)
+				advcl(been/VBN-14,visible/JJ-7)
+				prep_to(visible/JJ-7,him/PRP-9)
+				nsubj(been/VBN-14,it/PRP-11)
+				aux(been/VBN-14,must/MD-12)
+				aux(been/VBN-14,have/VB-13)
+				ccomp(believes/VBZ-2,been/VBN-14)
+				det(close/NN-18,an/DT-16)
+				nn(close/NN-18,orbit/NN-17)
+				prep_in(been/VBN-14,close/NN-18)
+				prep_to(been/VBN-14,that/DT-20)
+				poss(spacecraft/NN-23,his/PRP$-22)
+				prep_of(that/DT-20,spacecraft/NN-23)
+				advmod(believes/VBZ-2,probably/RB-25)
+				det(piece/NN-27,a/DT-26)
+				nsubj(broken/VBN-34,piece/NN-27)
+				nn(insulation/NN-32,ice/NN-29)
+				conj_or(ice/NN-29,Mylar/JJ-31)
+				nn(insulation/NN-32,Mylar/JJ-31)
+				prep_of(piece/NN-27,insulation/NN-32)
+				aux(broken/VBN-34,having/VBG-33)
+				parataxis(believes/VBZ-2,broken/VBN-34)
+				prep_off_of(broken/VBN-34,it/PRP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Word of the "UFO photos" reached the press by the time the flight splashed down, and one eager reporter waited for the Gemini 4 photos to be processed.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(splashed/VBD-16,Word/NN-1)
+				det(photos/NNS-6,the/DT-3)
+				nn(photos/NNS-6,UFO/NNP-5)
+				prep_of(Word/NN-1,photos/NNS-6)
+				partmod(photos/NNS-6,reached/VBD-8)
+				det(press/NN-10,the/DT-9)
+				dobj(reached/VBD-8,press/NN-10)
+				det(time/NN-13,the/DT-12)
+				agent(reached/VBD-8,time/NN-13)
+				det(flight/NN-15,the/DT-14)
+				nsubj(splashed/VBD-16,flight/NN-15)
+				advmod(splashed/VBD-16,down/RB-17)
+				num(reporter/NN-22,one/CD-20)
+				amod(reporter/NN-22,eager/JJ-21)
+				nsubj(waited/VBD-23,reporter/NN-22)
+				conj_and(splashed/VBD-16,waited/VBD-23)
+				det(photos/NNS-28,the/DT-25)
+				nn(photos/NNS-28,Gemini/NNP-26)
+				num(photos/NNS-28,4/CD-27)
+				prep_for(waited/VBD-23,photos/NNS-28)
+				aux(processed/VBN-31,to/TO-29)
+				auxpass(processed/VBN-31,be/VB-30)
+				xcomp(waited/VBD-23,processed/VBN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He found one with a cluster of three or four images that looked like disc-shaped objects with tails, which became known as the "tadpole" photo.	</value>
+
+		<annotated-sentence>	He found one with [[a cluster|CLUSTER]] of [[three|Seventeen_Seconds]] or [[four images|Image]] that looked like disc-shaped [[objects|Three_Imaginary_Boys]] with [[tails|Tail]], which became known as the "[[tadpole|Tadpole]]" photo.	</annotated-sentence>
+
+		<pattern_crowdsource>	He found one with a cluster of [[three|Seventeen_Seconds]] or four images that looked like disc-shaped [[objects|Three_Imaginary_Boys]] with tails, which became known as the "tadpole" photo.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(found/VBD-2,He/PRP-1)
+				dobj(found/VBD-2,one/CD-3)
+				det(cluster/NN-6,a/DT-5)
+				prep_with(found/VBD-2,cluster/NN-6)
+				prep_of(cluster/NN-6,three/CD-8)
+				num(images/NNS-11,four/CD-10)
+				prep_with(found/VBD-2,images/NNS-11)
+				conj_or(cluster/NN-6,images/NNS-11)
+				nsubj(looked/VBD-13,that/WDT-12)
+				rcmod(images/NNS-11,looked/VBD-13)
+				amod(objects/NNS-16,disc-shaped/JJ-15)
+				prep_like(looked/VBD-13,objects/NNS-16)
+				prep_with(looked/VBD-13,tails/NNS-18)
+				nsubjpass(known/VBN-22,which/WDT-20)
+				auxpass(known/VBN-22,became/VBD-21)
+				rcmod(tails/NNS-18,known/VBN-22)
+				det(photo/NN-28,the/DT-24)
+				nn(photo/NN-28,tadpole/NN-26)
+				prep_as(known/VBN-22,photo/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a cluster</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CLUSTER</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>three</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Seventeen_Seconds</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>four images</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Image</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>objects</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Three_Imaginary_Boys</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tails</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tail</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tadpole</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tadpole</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Seventeen_Seconds http://dbpedia.org/ontology/previousWork http://dbpedia.org/resource/Three_Imaginary_Boys
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Three_Imaginary_Boys http://dbpedia.org/ontology/subsequentWork http://dbpedia.org/resource/Seventeen_Seconds
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt has identified these as reflections of bolts in the multipaned windows.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] has identified these as reflections of bolts in the multipaned [[windows|Window]].	</annotated-sentence>
+
+		<pattern_crowdsource>	McDivitt has identified these as reflections of bolts in the multipaned windows.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(identified/VBN-3,McDivitt/NNP-1)
+				aux(identified/VBN-3,has/VBZ-2)
+				dobj(identified/VBN-3,these/DT-4)
+				prep_as(identified/VBN-3,reflections/NNS-6)
+				prep_of(reflections/NNS-6,bolts/NNS-8)
+				det(windows/NNS-12,the/DT-10)
+				amod(windows/NNS-12,multipaned/JJ-11)
+				prep_in(bolts/NNS-8,windows/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>windows</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Window</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gordon Cooper wrote in his memoirs that as far as he knows, it is the only officially reported account of a UFO in any of the Mercury, Gemini or Apollo missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cooper/NNP-2,Gordon/NNP-1)
+				nsubj(wrote/VBD-3,Cooper/NNP-2)
+				poss(memoirs/NNS-6,his/PRP$-5)
+				prep_in(wrote/VBD-3,memoirs/NNS-6)
+				mark(account/NN-20,that/IN-7)
+				advmod(knows/VBZ-12,as/IN-8)
+				advmod(as/IN-8,far/RB-9)
+				mark(knows/VBZ-12,as/IN-10)
+				nsubj(knows/VBZ-12,he/PRP-11)
+				advcl(account/NN-20,knows/VBZ-12)
+				nsubj(account/NN-20,it/PRP-14)
+				cop(account/NN-20,is/VBZ-15)
+				det(account/NN-20,the/DT-16)
+				amod(account/NN-20,only/JJ-17)
+				advmod(reported/VBN-19,officially/RB-18)
+				amod(account/NN-20,reported/VBN-19)
+				ccomp(wrote/VBD-3,account/NN-20)
+				det(UFO/NNP-23,a/DT-22)
+				prep_of(account/NN-20,UFO/NNP-23)
+				prep_in(UFO/NNP-23,any/DT-25)
+				det(missions/NNS-33,the/DT-27)
+				nn(missions/NNS-33,Mercury/NNP-28)
+				conj_or(Mercury/NNP-28,Gemini/NNP-30)
+				nn(missions/NNS-33,Gemini/NNP-30)
+				conj_or(Mercury/NNP-28,Apollo/NNP-32)
+				nn(missions/NNS-33,Apollo/NNP-32)
+				prep_of(any/DT-25,missions/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 1966, McDivitt, along with Astronaut Group 3 astronauts David Scott and Rusty Schweickart were named as members of the backup crew for Gus Grissom's first manned Apollo mission Apollo 1, flying only the Apollo Command/Service Module in Earth orbit.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(named/VBN-19,April/NNP-2)
+				num(April/NNP-2,1966/CD-3)
+				nsubjpass(named/VBN-19,McDivitt/NNP-5)
+				nn(astronauts/NNS-12,Astronaut/NNP-9)
+				nn(astronauts/NNS-12,Group/NNP-10)
+				num(astronauts/NNS-12,3/CD-11)
+				prep_along_with(Scott/NNP-14,astronauts/NNS-12)
+				nn(Scott/NNP-14,David/NNP-13)
+				appos(McDivitt/NNP-5,Scott/NNP-14)
+				nn(Schweickart/NNP-17,Rusty/NNP-16)
+				appos(McDivitt/NNP-5,Schweickart/NNP-17)
+				conj_and(Scott/NNP-14,Schweickart/NNP-17)
+				auxpass(named/VBN-19,were/VBD-18)
+				prep_as(named/VBN-19,members/NNS-21)
+				det(crew/NN-25,the/DT-23)
+				nn(crew/NN-25,backup/NN-24)
+				prep_of(members/NNS-21,crew/NN-25)
+				nn(Grissom/NNP-28,Gus/NNP-27)
+				poss(mission/NN-33,Grissom/NNP-28)
+				amod(mission/NN-33,first/JJ-30)
+				amod(mission/NN-33,manned/JJ-31)
+				nn(mission/NN-33,Apollo/NNP-32)
+				prep_for(named/VBN-19,mission/NN-33)
+				dep(mission/NN-33,Apollo/NNP-34)
+				num(Apollo/NNP-34,1/CD-35)
+				partmod(mission/NN-33,flying/VBG-37)
+				advmod(Module/NNP-42,only/RB-38)
+				det(Module/NNP-42,the/DT-39)
+				nn(Module/NNP-42,Apollo/NNP-40)
+				nn(Module/NNP-42,Command/Service/NNP-41)
+				dobj(flying/VBG-37,Module/NNP-42)
+				nn(orbit/NN-45,Earth/NNP-44)
+				prep_in(Module/NNP-42,orbit/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In December, they were replaced as backups with the crew of a cancelled second mission and were promoted to prime crew of a new second mission flying both the Command/Service Module and the Lunar Module.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(replaced/VBN-6,December/NNP-2)
+				nsubjpass(replaced/VBN-6,they/PRP-4)
+				nsubjpass(promoted/VBN-19,they/PRP-4)
+				auxpass(replaced/VBN-6,were/VBD-5)
+				prep_as(replaced/VBN-6,backups/NNS-8)
+				det(crew/NN-11,the/DT-10)
+				prep_with(replaced/VBN-6,crew/NN-11)
+				det(mission/NN-16,a/DT-13)
+				amod(mission/NN-16,cancelled/VBN-14)
+				amod(mission/NN-16,second/JJ-15)
+				prep_of(crew/NN-11,mission/NN-16)
+				auxpass(promoted/VBN-19,were/VBD-18)
+				conj_and(replaced/VBN-6,promoted/VBN-19)
+				amod(crew/NN-22,prime/JJ-21)
+				prep_to(promoted/VBN-19,crew/NN-22)
+				det(mission/NN-27,a/DT-24)
+				amod(mission/NN-27,new/JJ-25)
+				amod(mission/NN-27,second/JJ-26)
+				prep_of(crew/NN-22,mission/NN-27)
+				partmod(mission/NN-27,flying/VBG-28)
+				preconj(Module/NNP-32,both/CC-29)
+				det(Module/NNP-32,the/DT-30)
+				nn(Module/NNP-32,Command/Service/NNP-31)
+				dobj(flying/VBG-28,Module/NNP-32)
+				det(Module/NNP-36,the/DT-34)
+				nn(Module/NNP-36,Lunar/NNP-35)
+				dobj(flying/VBG-28,Module/NNP-36)
+				conj_and(Module/NNP-32,Module/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They were training for this mission when tragedy struck on January 27, 1967: A cabin fire killed Grissom's crew and brought a 22-month suspension of manned Apollo flights.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(training/VBG-3,They/PRP-1)
+				aux(training/VBG-3,were/VBD-2)
+				det(mission/NN-6,this/DT-5)
+				prep_for(training/VBG-3,mission/NN-6)
+				advmod(tragedy/NN-8,when/WRB-7)
+				nsubj(struck/VBD-9,tragedy/NN-8)
+				rcmod(mission/NN-6,struck/VBD-9)
+				prep_on(struck/VBD-9,January/NNP-11)
+				num(January/NNP-11,27/CD-12)
+				num(January/NNP-11,1967/CD-14)
+				det(fire/NN-18,A/DT-16)
+				nn(fire/NN-18,cabin/NN-17)
+				nsubj(killed/VBD-19,fire/NN-18)
+				nsubj(brought/VBD-24,fire/NN-18)
+				parataxis(training/VBG-3,killed/VBD-19)
+				poss(crew/NN-22,Grissom/NNP-20)
+				dobj(killed/VBD-19,crew/NN-22)
+				parataxis(training/VBG-3,brought/VBD-24)
+				conj_and(killed/VBD-19,brought/VBD-24)
+				det(suspension/NN-27,a/DT-25)
+				amod(suspension/NN-27,22-month/JJ-26)
+				dobj(brought/VBD-24,suspension/NN-27)
+				amod(flights/NNS-31,manned/JJ-29)
+				nn(flights/NNS-31,Apollo/NNP-30)
+				prep_of(suspension/NN-27,flights/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the Apollo 1 fire, plans resumed for McDivitt's crew to fly the Lunar Module mission, which would have been Apollo 8 in December 1968.	</value>
+
+		<annotated-sentence>	After [[the Apollo 1 fire|Apollo_1]], plans resumed for [[McDivitt|James_McDivitt]]'s crew to fly the [[Lunar Module|Apollo_Lunar_Module]] mission, which would have been [[Apollo 8|Apollo_8]] in December [[1968|An_American_Carol]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After [[the Apollo 1 fire|Apollo_1]], plans resumed for [[McDivitt|James_McDivitt]]'s crew to fly the Lunar Module mission, which would have been Apollo 8 in December 1968.	</pattern_crowdsource>
+
+
+		<tree>
+				det(fire/NN-5,the/DT-2)
+				nn(fire/NN-5,Apollo/NNP-3)
+				num(fire/NN-5,1/CD-4)
+				prep_after(plans/VBZ-7,fire/NN-5)
+				dep(plans/VBZ-7,resumed/VBN-8)
+				poss(crew/NN-12,McDivitt/NNP-10)
+				prep_for(resumed/VBN-8,crew/NN-12)
+				aux(fly/VB-14,to/TO-13)
+				infmod(crew/NN-12,fly/VB-14)
+				det(mission/NN-18,the/DT-15)
+				nn(mission/NN-18,Lunar/NNP-16)
+				nn(mission/NN-18,Module/NNP-17)
+				dobj(fly/VB-14,mission/NN-18)
+				nsubj(Apollo/NNP-24,which/WDT-20)
+				aux(Apollo/NNP-24,would/MD-21)
+				aux(Apollo/NNP-24,have/VB-22)
+				cop(Apollo/NNP-24,been/VBN-23)
+				rcmod(mission/NN-18,Apollo/NNP-24)
+				num(Apollo/NNP-24,8/CD-25)
+				prep_in(Apollo/NNP-24,December/NNP-27)
+				num(December/NNP-27,1968/CD-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Apollo 1 fire</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lunar Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Lunar_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_8</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1968</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/An_American_Carol</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_1 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	But the Lunar Module wasn't ready in time, so NASA decided to make Apollo 8 a circumlunar flight of the Command/Service Module, flown by Frank Borman, Jim Lovell, and William Anders.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				cc(ready/JJ-7,But/CC-1)
+				det(Module/NNP-4,the/DT-2)
+				nn(Module/NNP-4,Lunar/NNP-3)
+				nsubj(ready/JJ-7,Module/NNP-4)
+				cop(ready/JJ-7,was/VBD-5)
+				neg(ready/JJ-7,n't/RB-6)
+				prep_in(ready/JJ-7,time/NN-9)
+				advmod(ready/JJ-7,so/RB-11)
+				nsubj(decided/VBD-13,NASA/NNP-12)
+				ccomp(ready/JJ-7,decided/VBD-13)
+				aux(make/VB-15,to/TO-14)
+				xcomp(decided/VBD-13,make/VB-15)
+				nsubj(flown/VBN-26,Apollo/NNP-16)
+				num(Apollo/NNP-16,8/CD-17)
+				det(flight/NN-20,a/DT-18)
+				nn(flight/NN-20,circumlunar/NN-19)
+				dep(flown/VBN-26,flight/NN-20)
+				det(Module/NNP-24,the/DT-22)
+				nn(Module/NNP-24,Command/Service/NNP-23)
+				prep_of(flight/NN-20,Module/NNP-24)
+				xcomp(make/VB-15,flown/VBN-26)
+				nn(Borman/NNP-29,Frank/NNP-28)
+				prep_by(flown/VBN-26,Borman/NNP-29)
+				nn(Lovell/NNP-32,Jim/NNP-31)
+				prep_by(flown/VBN-26,Lovell/NNP-32)
+				conj_and(Borman/NNP-29,Lovell/NNP-32)
+				nn(Anders/NNP-36,William/NNP-35)
+				prep_by(flown/VBN-26,Anders/NNP-36)
+				conj_and(Borman/NNP-29,Anders/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt's 10-day Earth orbital LM test became Apollo 9, launched on March 3, 1969.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]]'s 10-day [[Earth|Earth]] orbital [[LM test|Score_test]] became [[Apollo 9|Apollo_9]], launched on March 3, 1969.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McDivitt|James_McDivitt]]'s 10-day Earth orbital LM test became [[Apollo 9|Apollo_9]], launched on March 3, 1969.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(orbital/NN-5,McDivitt/NNP-1)
+				amod(orbital/NN-5,10-day/JJ-3)
+				nn(orbital/NN-5,Earth/NNP-4)
+				nsubj(Apollo/NNP-9,orbital/NN-5)
+				nn(test/NN-7,LM/NNP-6)
+				nsubj(Apollo/NNP-9,test/NN-7)
+				cop(Apollo/NNP-9,became/VBD-8)
+				num(Apollo/NNP-9,9/CD-10)
+				partmod(Apollo/NNP-9,launched/VBN-12)
+				prep_on(launched/VBN-12,March/NNP-14)
+				num(March/NNP-14,3/CD-15)
+				num(March/NNP-14,1969/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>LM test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Score_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_9</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_9
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_9 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_9 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_McDivitt
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After Apollo 9, McDivitt became Manager of Lunar Landing Operations in May 1969, and led a team that planned the lunar exploration program and redesigned the spacecraft to accomplish this task.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(Manager/NN-7,Apollo/NNP-2)
+				num(Apollo/NNP-2,9/CD-3)
+				nsubj(Manager/NN-7,McDivitt/NNP-5)
+				nsubj(led/VBD-17,McDivitt/NNP-5)
+				cop(Manager/NN-7,became/VBD-6)
+				nn(Operations/NNP-11,Lunar/NNP-9)
+				nn(Operations/NNP-11,Landing/NN-10)
+				prep_of(Manager/NN-7,Operations/NNP-11)
+				prep_in(Operations/NNP-11,May/NNP-13)
+				num(May/NNP-13,1969/CD-14)
+				conj_and(Manager/NN-7,led/VBD-17)
+				det(team/NN-19,a/DT-18)
+				dobj(led/VBD-17,team/NN-19)
+				nsubj(planned/VBD-21,that/WDT-20)
+				nsubj(redesigned/VBD-27,that/WDT-20)
+				rcmod(team/NN-19,planned/VBD-21)
+				det(program/NN-25,the/DT-22)
+				amod(program/NN-25,lunar/JJ-23)
+				nn(program/NN-25,exploration/NN-24)
+				dobj(planned/VBD-21,program/NN-25)
+				rcmod(team/NN-19,redesigned/VBD-27)
+				conj_and(planned/VBD-21,redesigned/VBD-27)
+				det(spacecraft/NN-29,the/DT-28)
+				dobj(redesigned/VBD-27,spacecraft/NN-29)
+				aux(accomplish/VB-31,to/TO-30)
+				xcomp(redesigned/VBD-27,accomplish/VB-31)
+				det(task/NN-33,this/DT-32)
+				dobj(accomplish/VB-31,task/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1969, he became Manager of the Apollo Spacecraft Program and was the program manager for Apollo 12, 13, 14, 15 and 16.	</value>
+
+		<annotated-sentence>	In August [[1969|1969]], he became Manager of the [[Apollo Spacecraft|Apollo_spacecraft]] [[Program|Program_management]] and was [[the program manager|Program_Manager]] for [[Apollo|Apollo_spacecraft]] 12, 13, 14, 15 and 16.	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1969, he became Manager of the Apollo Spacecraft Program and was the program manager for Apollo 12, 13, 14, 15 and 16.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(Manager/NN-7,August/NNP-2)
+				num(August/NNP-2,1969/CD-3)
+				nsubj(Manager/NN-7,he/PRP-5)
+				cop(Manager/NN-7,became/VBD-6)
+				det(Program/NNP-12,the/DT-9)
+				nn(Program/NNP-12,Apollo/NNP-10)
+				nn(Program/NNP-12,Spacecraft/NNP-11)
+				prep_of(Manager/NN-7,Program/NNP-12)
+				cop(manager/NN-17,was/VBD-14)
+				det(manager/NN-17,the/DT-15)
+				nn(manager/NN-17,program/NN-16)
+				conj_and(Manager/NN-7,manager/NN-17)
+				prep_for(manager/NN-17,Apollo/NNP-19)
+				num(Apollo/NNP-19,12/CD-20)
+				num(Apollo/NNP-19,13/CD-22)
+				num(Apollo/NNP-19,14/CD-24)
+				num(Apollo/NNP-19,15/CD-26)
+				prep_for(manager/NN-17,16/CD-28)
+				conj_and(Apollo/NNP-19,16/CD-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo Spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the program manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_Manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving the Apollo Program he was offered the opportunity to be the Shuttle Program Director, but elected to leave NASA to pursue a career in business.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(offered/VBN-8,leaving/VBG-2)
+				det(Program/NNP-5,the/DT-3)
+				nn(Program/NNP-5,Apollo/NNP-4)
+				dobj(leaving/VBG-2,Program/NNP-5)
+				nsubjpass(offered/VBN-8,he/PRP-6)
+				nsubjpass(elected/VBN-19,he/PRP-6)
+				auxpass(offered/VBN-8,was/VBD-7)
+				det(opportunity/NN-10,the/DT-9)
+				dobj(offered/VBN-8,opportunity/NN-10)
+				aux(Director/NNP-16,to/TO-11)
+				cop(Director/NNP-16,be/VB-12)
+				det(Director/NNP-16,the/DT-13)
+				nn(Director/NNP-16,Shuttle/NNP-14)
+				nn(Director/NNP-16,Program/NNP-15)
+				infmod(opportunity/NN-10,Director/NNP-16)
+				conj_but(offered/VBN-8,elected/VBN-19)
+				aux(leave/VB-21,to/TO-20)
+				xcomp(elected/VBN-19,leave/VB-21)
+				nsubj(pursue/VB-24,NASA/NNP-22)
+				aux(pursue/VB-24,to/TO-23)
+				xcomp(leave/VB-21,pursue/VB-24)
+				det(career/NN-26,a/DT-25)
+				dobj(pursue/VB-24,career/NN-26)
+				prep_in(career/NN-26,business/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	McDivitt retired from the USAF and left NASA in June 1972, to take the position of Executive Vice-President, Corporate Affairs for Consumers Power Company.	</value>
+
+		<annotated-sentence>	[[McDivitt|James_McDivitt]] retired from [[the USAF|United_States_Air_Force]] and left [[NASA|NASA]] in [[June 1972|June_1972]], to take the position of [[Executive|Executive_officer]] Vice-President, [[Corporate Affairs|Corporate_Affairs]] for [[Consumers Power Company|Consumers_Energy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[McDivitt|James_McDivitt]] retired from [[the USAF|United_States_Air_Force]] and left [[NASA|NASA]] in June 1972, to take the position of [[Executive|Executive_officer]] Vice-President, Corporate Affairs for Consumers Power Company.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,McDivitt/NNP-1)
+				nsubj(left/VBD-7,McDivitt/NNP-1)
+				det(USAF/NNP-5,the/DT-4)
+				prep_from(retired/VBD-2,USAF/NNP-5)
+				conj_and(retired/VBD-2,left/VBD-7)
+				dobj(left/VBD-7,NASA/NNP-8)
+				prep_in(NASA/NNP-8,June/NNP-10)
+				num(June/NNP-10,1972/CD-11)
+				aux(take/VB-14,to/TO-13)
+				xcomp(retired/VBD-2,take/VB-14)
+				det(position/NN-16,the/DT-15)
+				dobj(take/VB-14,position/NN-16)
+				nn(Affairs/NNPS-22,Executive/NNP-18)
+				nn(Affairs/NNPS-22,Vice-President/NNP-19)
+				appos(Affairs/NNPS-22,Corporate/NNP-21)
+				prep_of(position/NN-16,Affairs/NNPS-22)
+				nn(Company/NNP-26,Consumers/NNPS-24)
+				nn(Company/NNP-26,Power/NNP-25)
+				prep_for(Affairs/NNPS-22,Company/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USAF</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_1972</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Executive</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Executive_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Corporate Affairs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Corporate_Affairs</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Consumers Power Company</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consumers_Energy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Executive_officer
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 1975, he joined Pullman, Inc. as Executive Vice-President and a Director.	</value>
+
+		<annotated-sentence>	In [[March 1975|March_1975]], he joined [[Pullman , Inc.|Pullman_Company]]as Executive Vice-President and a Director.	</annotated-sentence>
+
+		<pattern_crowdsource>	In March 1975, he joined Pullman, Inc. as Executive Vice-President and a Director.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-6,March/NNP-2)
+				num(March/NNP-2,1975/CD-3)
+				nsubj(joined/VBD-6,he/PRP-5)
+				nn(Inc./NNP-9,Pullman/NNP-7)
+				dobj(joined/VBD-6,Inc./NNP-9)
+				nn(Vice-President/NNP-12,Executive/NNP-11)
+				prep_as(Inc./NNP-9,Vice-President/NNP-12)
+				det(Director/NN-15,a/DT-14)
+				prep_as(Inc./NNP-9,Director/NN-15)
+				conj_and(Vice-President/NNP-12,Director/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pullman , Inc.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pullman_Company</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In October 1975 he became President of the Pullman Standard Division.	</value>
+
+		<annotated-sentence>	In [[October 1975|October_1975]] he became [[President|President]] of the [[Pullman Standard|Pullman_Company]] Division.	</annotated-sentence>
+
+		<pattern_crowdsource>	In October 1975 he became President of the Pullman Standard Division.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(President/NN-6,October/NNP-2)
+				num(October/NNP-2,1975/CD-3)
+				nsubj(President/NN-6,he/PRP-4)
+				cop(President/NN-6,became/VBD-5)
+				det(Division/NNP-11,the/DT-8)
+				nn(Division/NNP-11,Pullman/NNP-9)
+				nn(Division/NNP-11,Standard/NNP-10)
+				prep_of(President/NN-6,Division/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 1975</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_1975</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pullman Standard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pullman_Company</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In January 1981 he joined Rockwell International where was the Senior Vice President, Government Operations and International at the time of his retirement., Washington, D.C.	</value>
+
+		<annotated-sentence>	In [[January 1981|January_1981]] he joined [[Rockwell International|Rockwell_International]] where was the Senior Vice President, [[Government|Government]] Operations and International at the time of his retirement., Washington, D.C.	</annotated-sentence>
+
+		<pattern_crowdsource>	In January 1981 he joined Rockwell International where was the Senior Vice President, Government Operations and International at the time of his retirement., Washington, D.C.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,January/NNP-2)
+				num(January/NNP-2,1981/CD-3)
+				nsubj(joined/VBD-5,he/PRP-4)
+				nn(International/NNP-7,Rockwell/NNP-6)
+				dobj(joined/VBD-5,International/NNP-7)
+				advmod(Operations/NNP-16,where/WRB-8)
+				cop(Operations/NNP-16,was/VBD-9)
+				det(Operations/NNP-16,the/DT-10)
+				amod(Operations/NNP-16,Senior/JJ-11)
+				nn(Operations/NNP-16,Vice/NNP-12)
+				nn(Operations/NNP-16,President/NNP-13)
+				advcl(joined/VBD-5,Government/NNP-15)
+				conj_and(Operations/NNP-16,Government/NNP-15)
+				advcl(joined/VBD-5,Operations/NNP-16)
+				advcl(joined/VBD-5,International/NNP-18)
+				conj_and(Operations/NNP-16,International/NNP-18)
+				det(time/NN-21,the/DT-20)
+				prep_at(Operations/NNP-16,time/NN-21)
+				poss(retirement./NN-24,his/PRP$-23)
+				prep_of(time/NN-21,retirement./NN-24)
+				nn(D.C./NNP-28,Washington/NNP-26)
+				appos(retirement./NN-24,D.C./NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rockwell International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rockwell_International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Government</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Government</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired in 1995.	</value>
+
+		<annotated-sentence>	He retired in [[1995|1995]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired in 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				prep_in(retired/VBD-2,1995/CD-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Source:A NASA biography page In the 1998 miniseries From the Earth to the Moon McDivitt was played by Conor O'Farrell.	</value>
+
+		<annotated-sentence>	Source:A [[NASA|NASA]] [[biography|Biography]] page In the [[1998|1998]] [[miniseries|Limited_series]] From [[the Earth|Earth]] to the [[Moon|Moon]] [[McDivitt|James_McDivitt]] was played by [[Conor O'Farrell|Conor_O'Farrell]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Source:A [[NASA|NASA]] biography page In the 1998 miniseries From [[the Earth|Earth]] to the [[Moon|Moon]] [[McDivitt|James_McDivitt]] was played by Conor O'Farrell.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(played/VBN-19,Source/NN-1)
+				det(page/NN-6,A/DT-3)
+				nn(page/NN-6,NASA/NNP-4)
+				nn(page/NN-6,biography/NN-5)
+				dep(Source/NN-1,page/NN-6)
+				det(miniseries/NNS-10,the/DT-8)
+				num(miniseries/NNS-10,1998/CD-9)
+				prep_in(played/VBN-19,miniseries/NNS-10)
+				det(Earth/NNP-13,the/DT-12)
+				prep_from(played/VBN-19,Earth/NNP-13)
+				det(McDivitt/NNP-17,the/DT-15)
+				nn(McDivitt/NNP-17,Moon/NNP-16)
+				prep_to(Earth/NNP-13,McDivitt/NNP-17)
+				auxpass(played/VBN-19,was/VBD-18)
+				nn(O'Farrell/NNP-22,Conor/NNP-21)
+				agent(played/VBN-19,O'Farrell/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>biography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miniseries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Limited_series</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>McDivitt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_McDivitt</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Conor O'Farrell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Conor_O'Farrell</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_McDivitt http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Moon http://dbpedia.org/property/satelliteOf http://dbpedia.org/resource/Earth
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Most people who have heart failure need to take medicines.</value>
+		<pattern_crowdsource> Most [[people|C0027361]] who have [[heart failure|C0018801]] need to take [[medicines|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018801 PROCESS_OF C0027361</triple>
+			<triple>C0013227 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some of these medicines are used to treat your symptoms.</value>
+		<pattern_crowdsource> Some of these [[medicines|C0013227]] are used to treat your [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is also true for other medicines you take, such as drugs for diabetes, high blood pressure, and other serious conditions.</value>
+		<pattern_crowdsource> This is also true for other medicines you take, such as [[drugs|C0013227]] for [[diabetes|C0011847]], [[high blood pressure|C0020538]], and other serious conditions.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>true</surface-form>
+				<RDF-ID>C0205238</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>serious</surface-form>
+				<RDF-ID>C0205404</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0011847</triple>
+			<triple>C0013227 TREATS C0020538</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This includes over-the-counter medicines such as ibuprofen (Advil, Motrin) and naproxen (Aleve, Naprosyn), as well as drugs such as Sildenafil (Viagra), vardenafil (Levitra), and tadalafil (Cialis).</value>
+		<pattern_crowdsource> This includes over-the-counter medicines such as [[ibuprofen|C0020740]] ([[Advil|C0593507]], [[Motrin|C0699203]]) and [[naproxen|C0027396]] ([[Aleve|C0718343]], Naprosyn), as well as [[drugs|C0013227]] such as [[Sildenafil|C0529793]] ([[Viagra|C0663448]]), [[vardenafil|C0971579]] ([[Levitra|C1174890]]), and [[tadalafil|C1176316]] ([[Cialis|C0967376]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>over-the-counter medicines</surface-form>
+				<RDF-ID>C0013231</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Aleve</surface-form>
+				<RDF-ID>C0718343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Naprosyn</surface-form>
+				<RDF-ID>C0700017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sildenafil</surface-form>
+				<RDF-ID>C0529793</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Viagra</surface-form>
+				<RDF-ID>C0663448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vardenafil</surface-form>
+				<RDF-ID>C0971579</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Levitra</surface-form>
+				<RDF-ID>C1174890</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tadalafil</surface-form>
+				<RDF-ID>C1176316</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Cialis</surface-form>
+				<RDF-ID>C0967376</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0699203 ISA C0020740</triple>
+			<triple>C0718343 ISA C0027396</triple>
+			<triple>C0529793 ISA C0013227</triple>
+			<triple>C0663448 ISA C0529793</triple>
+			<triple>C1174890 ISA C0971579</triple>
+			<triple>C0967376 ISA C1176316</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Common beta blockers used for heart failure include carvedilol (Coreg), bisoprolol (Zebeta), and metoprolol (Toprol).</value>
+		<pattern_crowdsource> Common [[beta blockers|C0001645]] used for [[heart failure|C0018801]] include [[carvedilol|C0054836]] ([[Coreg|C0719509]]), [[bisoprolol|C0053799]] ([[Zebeta|C0724461]]), and metoprolol (Toprol).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>beta blockers</surface-form>
+				<RDF-ID>C0001645</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>carvedilol</surface-form>
+				<RDF-ID>C0054836</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Coreg</surface-form>
+				<RDF-ID>C0719509</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bisoprolol</surface-form>
+				<RDF-ID>C0053799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Zebeta</surface-form>
+				<RDF-ID>C0724461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>metoprolol</surface-form>
+				<RDF-ID>C0025859</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0719509 ISA C0054836</triple>
+			<triple>C0724461 ISA C0053799</triple>
+			<triple>C0001645 TREATS C0018801</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Chlorothiazide (Diuril), chlorthalidone (Hygroton), indapamide (Lozol), hydrochlorothiazide (Esidrix, HydroDiuril), and metolazone (Mykrox, Zaroxolyn)  - Loop diuretics.</value>
+		<pattern_crowdsource> [[Chlorothiazide|C0008273]] ([[Diuril|C0719974]]), [[chlorthalidone|C0008294]] ([[Hygroton|C0591623]]), [[indapamide|C0021186]] ([[Lozol|C0721450]]), [[hydrochlorothiazide|C0020261]] ([[Esidrix|C0700694]], [[HydroDiuril|C0700698]]), and [[metolazone|C0025854]] ([[Mykrox|C0701387]], Zaroxolyn)  - Loop diuretics.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Chlorothiazide</surface-form>
+				<RDF-ID>C0008273</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Diuril</surface-form>
+				<RDF-ID>C0719974</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlorthalidone</surface-form>
+				<RDF-ID>C0008294</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hygroton</surface-form>
+				<RDF-ID>C0591623</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>indapamide</surface-form>
+				<RDF-ID>C0021186</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lozol</surface-form>
+				<RDF-ID>C0721450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrochlorothiazide</surface-form>
+				<RDF-ID>C0020261</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Esidrix</surface-form>
+				<RDF-ID>C0700694</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HydroDiuril</surface-form>
+				<RDF-ID>C0700698</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>metolazone</surface-form>
+				<RDF-ID>C0025854</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Mykrox</surface-form>
+				<RDF-ID>C0701387</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Zaroxolyn</surface-form>
+				<RDF-ID>C0701383</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Loop diuretics</surface-form>
+				<RDF-ID>C0354100</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0719974 ISA C0008273</triple>
+			<triple>C0591623 ISA C0008294</triple>
+			<triple>C0721450 ISA C0021186</triple>
+			<triple>C0700694 ISA C0020261</triple>
+			<triple>C0700698 ISA C0020261</triple>
+			<triple>C0701387 ISA C0025854</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Bumentanide (Bumex), furosemide (Lasix), and torasemide (Demadex)  - Potassium-sparing agents.</value>
+		<pattern_crowdsource> Bumentanide (Bumex), [[furosemide|C0016860]] ([[Lasix|C0699992]]), and [[torasemide|C0076840]] ([[Demadex|C0243946]])  - Potassium-sparing agents.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>furosemide</surface-form>
+				<RDF-ID>C0016860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lasix</surface-form>
+				<RDF-ID>C0699992</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>torasemide</surface-form>
+				<RDF-ID>C0076840</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Demadex</surface-form>
+				<RDF-ID>C0243946</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Potassium</surface-form>
+				<RDF-ID>C0032821</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>agents</surface-form>
+				<RDF-ID>C0450442</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699992 ISA C0016860</triple>
+			<triple>C0243946 ISA C0076840</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Amiloride (Midamor), spironolactone (Aldactone), and triamterene (Dyrenium)    When you take these medicines, you will need regular blood tests to check how well your kidneys are working and measure your potassium levels.</value>
+		<pattern_crowdsource> [[Amiloride|C0002502]] ([[Midamor|C0026054]]), [[spironolactone|C0037982]] ([[Aldactone|C0591054]]), and [[triamterene|C0040869]] ([[Dyrenium|C0700653]])    When you take these medicines, you will need regular blood tests to check how well your kidneys are working and measure your potassium levels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Amiloride</surface-form>
+				<RDF-ID>C0002502</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Midamor</surface-form>
+				<RDF-ID>C0026054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>spironolactone</surface-form>
+				<RDF-ID>C0037982</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Aldactone</surface-form>
+				<RDF-ID>C0591054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>triamterene</surface-form>
+				<RDF-ID>C0040869</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Dyrenium</surface-form>
+				<RDF-ID>C0700653</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>regular</surface-form>
+				<RDF-ID>C0205272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood tests</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>well</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidneys</surface-form>
+				<RDF-ID>C0022646</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>working</surface-form>
+				<RDF-ID>C0043227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>potassium</surface-form>
+				<RDF-ID>C0032821</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0026054 ISA C0002502</triple>
+			<triple>C0591054 ISA C0037982</triple>
+			<triple>C0700653 ISA C0040869</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Many people with heart disease take either aspirin or clopidogrel (Plavix).</value>
+		<pattern_crowdsource> Many [[people|C0027361]] with [[heart disease|C0018799]] take either [[aspirin|C0004057]] or [[clopidogrel|C0070166]] ([[Plavix|C0633084]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clopidogrel</surface-form>
+				<RDF-ID>C0070166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Plavix</surface-form>
+				<RDF-ID>C0633084</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0633084 ISA C0070166</triple>
+			<triple>C0018799 PROCESS_OF C0027361</triple>
+			<triple>C0004057 ADMINISTERED_TO C0027361</triple>
+			<triple>C0070166 ADMINISTERED_TO C0027361</triple>
+			<triple>C0633084 ADMINISTERED_TO C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These drugs help prevent blood clots from forming in your arteries.</value>
+		<pattern_crowdsource> These drugs help prevent [[blood clots|C0302148]] from forming in your [[arteries|C0003842]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>forming</surface-form>
+				<RDF-ID>C0205431</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003842 LOCATION_OF C0302148</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Coumadin (Warfarin) is recommended for patients with heart failure who have a higher risk for blood clots.</value>
+		<pattern_crowdsource> [[Coumadin|C0699129]] ([[Warfarin|C0043031]]) is recommended for [[patients|C0030705]] with [[heart failure|C0018801]] who have a higher risk for blood clots.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Coumadin</surface-form>
+				<RDF-ID>C0699129</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Warfarin</surface-form>
+				<RDF-ID>C0043031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood clots</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0699129 ISA C0043031</triple>
+			<triple>C0699129 TREATS C0030705</triple>
+			<triple>C0018801 PROCESS_OF C0030705</triple>
+			<triple>C0699129 TREATS C0018801</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Drugs used less commonly for heart failure include:  - Digoxin to help increase the heart's pumping strength and slow the heart rate.</value>
+		<pattern_crowdsource> [[Drugs|C0013227]] used less commonly for [[heart failure|C0018801]] include:  - Digoxin to help increase the heart's pumping strength and slow the heart rate.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Digoxin</surface-form>
+				<RDF-ID>C0012265</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart's</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>strength</surface-form>
+				<RDF-ID>C0808080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>slow</surface-form>
+				<RDF-ID>C0439834</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart rate</surface-form>
+				<RDF-ID>C0018810</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0018801</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These drugs are mainly used by patients who are unable to tolerate ACE inhibitors and angiotensin receptor blockers.</value>
+		<pattern_crowdsource> These [[drugs|C0013227]] are mainly used by [[patients|C0030705]] who are unable to tolerate ACE inhibitors and angiotensin receptor blockers.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>unable</surface-form>
+				<RDF-ID>C1299582</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACE inhibitors</surface-form>
+				<RDF-ID>C0003015</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>angiotensin receptor</surface-form>
+				<RDF-ID>C0034787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0030705</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Calcium channel blockers to control blood pressure or angina (chest pain) from coronary artery disease (CAD).</value>
+		<pattern_crowdsource> - [[Calcium channel blockers|C0006684]] to control [[blood pressure|C1272641]] or angina (chest pain) from coronary artery disease (CAD).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Calcium channel blockers</surface-form>
+				<RDF-ID>C0006684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest pain</surface-form>
+				<RDF-ID>C0008031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary artery disease</surface-form>
+				<RDF-ID>C0010054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006684 TREATS C1272641</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Statins and other cholesterol-lowering drugs are used when needed.</value>
+		<pattern_crowdsource> [[Statins|C0360714]] and other [[cholesterol-lowering drugs|C0003277]] are used when needed.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Statins</surface-form>
+				<RDF-ID>C0360714</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol-lowering drugs</surface-form>
+				<RDF-ID>C0003277</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0360714 ISA C0003277</triple>
+			<triple>C0003277 ISA C0360714</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Antiarrhythmic medicines are sometimes used by heart failure patients who have abnormal heart rhythms.</value>
+		<pattern_crowdsource> [[Antiarrhythmic|C0003195]] [[medicines|C0013227]] are sometimes used by [[heart failure|C0018801]] [[patients|C0030705]] who have abnormal [[heart rhythms|C0232187]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antiarrhythmic</surface-form>
+				<RDF-ID>C0003195</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart rhythms</surface-form>
+				<RDF-ID>C0232187</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003195 ISA C0013227</triple>
+			<triple>C0013227 ADMINISTERED_TO C0030705</triple>
+			<triple>C0018801 PROCESS_OF C0030705</triple>
+			<triple>C0232187 PROCESS_OF C0030705</triple>
+			<triple>C0003195 ADMINISTERED_TO C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

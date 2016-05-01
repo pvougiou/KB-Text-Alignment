@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Caffeine is a substance that exists naturally in certain plants.</value>
+		<pattern_crowdsource> [[Caffeine|C0006644]] is a substance that exists naturally in certain [[plants|C0032098]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Caffeine</surface-form>
+				<RDF-ID>C0006644</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>substance</surface-form>
+				<RDF-ID>C0439861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plants</surface-form>
+				<RDF-ID>C0032098</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032098 LOCATION_OF C0006644</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is a central nervous system stimulant and a diuretic, which means it increases urination.</value>
+		<pattern_crowdsource> It is a [[central nervous system stimulant|C0002763]] and a [[diuretic|C0012798]], which means it increases [[urination|C0042034]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>central nervous system stimulant</surface-form>
+				<RDF-ID>C0002763</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diuretic</surface-form>
+				<RDF-ID>C0012798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urination</surface-form>
+				<RDF-ID>C0042034</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012798 AUGMENTS C0042034</triple>
+			<triple>C0002763 AUGMENTS C0042034</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

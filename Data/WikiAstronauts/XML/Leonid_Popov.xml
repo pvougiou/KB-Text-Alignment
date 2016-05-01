@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Leonid Ivanovich Popov (Russian: ??????? ????????? ??????; born August 31, 1945) is a former Soviet cosmonaut.	</value>
+
+		<annotated-sentence>	[[Leonid|Leonid_Popov]] Ivanovich [[Popov|Leonid_Popov]] ([[Russian|Russian_Soviet_Federative_Socialist_Republic]]: ??????? ????????? ??????; born August 31, 1945) is a former [[Soviet|Soviet_Air_Forces]] cosmonaut.	</annotated-sentence>
+
+		<pattern_crowdsource>	Leonid Ivanovich Popov (Russian: ??????? ????????? ??????; born August 31, 1945) is a former Soviet cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Ivanovich/NNP-2,Leonid/NNP-1)
+				nn(Russian/NNP-5,Popov/NNP-3)
+				dep(Ivanovich/NNP-2,Russian/NNP-5)
+				nn(??????/NN-9,???????/NN-7)
+				nn(??????/NN-9,?????????/NN-8)
+				nsubj(cosmonaut/NN-21,??????/NN-9)
+				partmod(??????/NN-9,born/VBN-11)
+				tmod(born/VBN-11,August/NNP-12)
+				num(August/NNP-12,31/CD-13)
+				num(August/NNP-12,1945/CD-15)
+				cop(cosmonaut/NN-21,is/VBZ-17)
+				det(cosmonaut/NN-21,a/DT-18)
+				amod(cosmonaut/NN-21,former/JJ-19)
+				amod(cosmonaut/NN-21,Soviet/JJ-20)
+				dep(Ivanovich/NNP-2,cosmonaut/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Leonid</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leonid_Popov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Popov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leonid_Popov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Popov was born in Oleksandriia, Kirovohrad Oblast, Ukrainian SSR.	</value>
+
+		<annotated-sentence>	Popov was born in [[Oleksandriia|Oleksandriia]], [[Kirovohrad Oblast|Kirovohrad_Oblast]], [[Ukrainian SSR|Ukrainian_Soviet_Socialist_Republic]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Popov was born in [[Oleksandriia|Oleksandriia]], Kirovohrad Oblast, Ukrainian SSR.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Popov/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Oleksandriia/NNP-5)
+				nn(Oblast/NNP-8,Kirovohrad/NNP-7)
+				appos(Oleksandriia/NNP-5,Oblast/NNP-8)
+				amod(SSR/NN-11,Ukrainian/JJ-10)
+				appos(Oblast/NNP-8,SSR/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Oleksandriia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oleksandriia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kirovohrad Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kirovohrad_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ukrainian SSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Leonid_Popov http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Oleksandriia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as a cosmonaut on April 27, 1970, and flew as Commander on Soyuz 35, Soyuz 40 and Soyuz T-7, logging 200 days, 14 hours, and 45 minutes in space before his retirement on June 13, 1987.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				nsubjpass(flew/VBD-14,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,cosmonaut/NN-6)
+				prep_on(cosmonaut/NN-6,April/NNP-8)
+				num(April/NNP-8,27/CD-9)
+				num(April/NNP-8,1970/CD-11)
+				conj_and(selected/VBN-3,flew/VBD-14)
+				advmod(Commander/NNP-16,as/RB-15)
+				dobj(flew/VBD-14,Commander/NNP-16)
+				prep_on(Commander/NNP-16,Soyuz/NNP-18)
+				num(Soyuz/NNP-18,35/CD-19)
+				appos(Commander/NNP-16,Soyuz/NNP-21)
+				num(Soyuz/NNP-21,40/CD-22)
+				nn(days/NNS-29,Soyuz/NNP-24)
+				nn(days/NNS-29,T-7/NNP-25)
+				amod(days/NNS-29,logging/VBG-27)
+				num(days/NNS-29,200/CD-28)
+				appos(Commander/NNP-16,days/NNS-29)
+				conj_and(Soyuz/NNP-21,days/NNS-29)
+				num(hours/NNS-32,14/CD-31)
+				appos(Commander/NNP-16,hours/NNS-32)
+				conj_and(Soyuz/NNP-21,hours/NNS-32)
+				num(minutes/NNS-36,45/CD-35)
+				appos(Commander/NNP-16,minutes/NNS-36)
+				conj_and(Soyuz/NNP-21,minutes/NNS-36)
+				prep_in(minutes/NNS-36,space/NN-38)
+				poss(retirement/NN-41,his/PRP$-40)
+				prep_before(flew/VBD-14,retirement/NN-41)
+				prep_on(flew/VBD-14,June/NNP-43)
+				num(June/NNP-43,13/CD-44)
+				num(June/NNP-43,1987/CD-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Popov is married with two children.	</value>
+
+		<annotated-sentence>	Popov is married with [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Popov is married with two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Popov/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				num(children/NNS-6,two/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded: Foreign awards:	</value>
+
+		<annotated-sentence>	He was awarded: Foreign [[awards|Award]]:	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded: Foreign awards:	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				amod(awards/NNS-6,Foreign/JJ-5)
+				dobj(awarded/VBN-3,awards/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,1605 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	David Saint-Jacques (born January 6, 1970 in Quebec City, Quebec) is a Canadian astronaut with the Canadian Space Agency (CSA).	</value>
+
+		<annotated-sentence>	[[David Saint-Jacques|David_Saint-Jacques]] (born [[January|January]] 6, 1970 in [[Quebec City|Quebec_City]], [[Quebec|Quebec_City]]) is [[a Canadian astronaut|Canadian_Astronaut_Corps]] with [[the Canadian Space Agency|Canadian_Space_Agency]] ([[CSA|Canadian_Space_Agency]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[David Saint-Jacques|David_Saint-Jacques]] (born January 6, 1970 in [[Quebec City|Quebec_City]], [[Quebec|Quebec_City]]) is [[a Canadian astronaut|Canadian_Astronaut_Corps]] with [[the Canadian Space Agency|Canadian_Space_Agency]] ([[CSA|Canadian_Space_Agency]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Saint-Jacques/NNP-2,David/NNP-1)
+				nsubj(astronaut/NN-18,Saint-Jacques/NNP-2)
+				dep(Saint-Jacques/NNP-2,born/VBN-4)
+				tmod(born/VBN-4,January/NNP-5)
+				num(January/NNP-5,6/CD-6)
+				num(January/NNP-5,1970/CD-8)
+				nn(City/NNP-11,Quebec/NNP-10)
+				prep_in(born/VBN-4,City/NNP-11)
+				appos(City/NNP-11,Quebec/NNP-13)
+				cop(astronaut/NN-18,is/VBZ-15)
+				det(astronaut/NN-18,a/DT-16)
+				amod(astronaut/NN-18,Canadian/JJ-17)
+				det(Agency/NNP-23,the/DT-20)
+				amod(Agency/NNP-23,Canadian/JJ-21)
+				nn(Agency/NNP-23,Space/NN-22)
+				prep_with(astronaut/NN-18,Agency/NNP-23)
+				appos(Agency/NNP-23,CSA/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>David Saint-Jacques</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Saint-Jacques</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Quebec City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Quebec_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Quebec</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Quebec_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Canadian astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Canadian Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Quebec_City
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Quebec_City http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Quebec_City
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Quebec_City http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Quebec_City
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Quebec_City
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Canadian_Space_Agency http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Canadian_Astronaut_Corps
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Canadian_Space_Agency http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Canadian_Astronaut_Corps
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected to join the CSA in the 2009 CSA selection along with Jeremy Hansen.	</value>
+
+		<annotated-sentence>	He was selected to join [[the CSA|Canadian_Space_Agency]] in the [[2009|2009]] [[CSA|Canadian_Space_Agency]] [[selection|Selection]] along with [[Jeremy Hansen|Jeremy_Hansen]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected to join [[the [[CSA|Canadian_Space_Agency]]|Canadian_Space_Agency]] in the 2009 [[CSA|Canadian_Space_Agency]] selection along with [[Jeremy Hansen|Jeremy_Hansen]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				aux(join/VB-5,to/TO-4)
+				xcomp(selected/VBN-3,join/VB-5)
+				det(CSA/NNP-7,the/DT-6)
+				dobj(join/VB-5,CSA/NNP-7)
+				det(selection/NN-12,the/DT-9)
+				num(selection/NN-12,2009/CD-10)
+				nn(selection/NN-12,CSA/NNP-11)
+				prep_in(CSA/NNP-7,selection/NN-12)
+				prepc_along_with(join/VB-5,with/IN-14)
+				nn(Hansen/NNP-16,Jeremy/NNP-15)
+				pobj(join/VB-5,Hansen/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jeremy Hansen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jeremy_Hansen</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Saint-Jacques was born in Quebec City and raised in the Montreal suburb of Saint-Lambert, Quebec.	</value>
+
+		<annotated-sentence>	Saint-Jacques was born in [[Quebec City|Quebec_City]] and raised in the [[Montreal|Montreal]] [[suburb|Suburb]] of [[Saint-Lambert , Quebec|Saint-Lambert,_Abitibi-T%C3%A9miscamingue,_Quebec]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Saint-Jacques was born in [[Quebec City|Quebec_City]] and raised in the Montreal suburb of Saint-Lambert, Quebec.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Saint-Jacques/NNP-1)
+				nsubjpass(raised/VBN-8,Saint-Jacques/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(City/NNP-6,Quebec/NNP-5)
+				prep_in(born/VBN-3,City/NNP-6)
+				conj_and(born/VBN-3,raised/VBN-8)
+				det(suburb/NN-12,the/DT-10)
+				nn(suburb/NN-12,Montreal/NNP-11)
+				prep_in(raised/VBN-8,suburb/NN-12)
+				nn(Quebec/NNP-16,Saint-Lambert/NNP-14)
+				prep_of(suburb/NN-12,Quebec/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Quebec City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Quebec_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Montreal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Montreal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>suburb</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Suburb</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saint-Lambert , Quebec</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saint-Lambert,_Abitibi-T%C3%A9miscamingue,_Quebec</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Quebec_City
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Saint-Jacques is married and has one child.	</value>
+
+		<annotated-sentence>	Saint-Jacques is married and has [[one child|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Saint-Jacques is married and has one child.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,Saint-Jacques/NNP-1)
+				nsubj(has/VBZ-5,Saint-Jacques/NNP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				conj_and(married/VBN-3,has/VBZ-5)
+				num(child/NN-7,one/CD-6)
+				dobj(has/VBZ-5,child/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>one child</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a lifelong mountaineer, hiker, cyclist, skier and passionate sailor.	</value>
+
+		<annotated-sentence>	He is a lifelong mountaineer, hiker, cyclist, skier and passionate [[sailor|Sailor]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a lifelong mountaineer, hiker, cyclist, skier and passionate sailor.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(sailor/NN-14,He/PRP-1)
+				cop(sailor/NN-14,is/VBZ-2)
+				det(sailor/NN-14,a/DT-3)
+				amod(sailor/NN-14,lifelong/JJ-4)
+				nn(skier/NN-11,mountaineer/NN-5)
+				conj_and(skier/NN-11,hiker/NN-7)
+				nn(sailor/NN-14,hiker/NN-7)
+				conj_and(skier/NN-11,cyclist/NN-9)
+				nn(sailor/NN-14,cyclist/NN-9)
+				nn(sailor/NN-14,skier/NN-11)
+				conj_and(skier/NN-11,passionate/JJ-13)
+				nn(sailor/NN-14,passionate/JJ-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>sailor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sailor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also holds a commercial pilot license.	</value>
+
+		<annotated-sentence>	He also holds [[a commercial pilot license|Commercial_pilot_license]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also holds a commercial pilot license.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-3,He/PRP-1)
+				advmod(holds/VBZ-3,also/RB-2)
+				det(license/NN-7,a/DT-4)
+				amod(license/NN-7,commercial/JJ-5)
+				nn(license/NN-7,pilot/NN-6)
+				dobj(holds/VBZ-3,license/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a commercial pilot license</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commercial_pilot_license</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is fluent in French and English, and has a basic understanding of Russian, Spanish and Japanese.	</value>
+
+		<annotated-sentence>	He is fluent in [[French and English|English_and_French]], and has a basic [[understanding|Understanding]] of Russian, Spanish and Japanese.	</annotated-sentence>
+
+		<pattern_crowdsource>	He is fluent in French and English, and has a basic understanding of Russian, Spanish and Japanese.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(fluent/JJ-3,He/PRP-1)
+				nsubj(has/VBZ-10,He/PRP-1)
+				cop(fluent/JJ-3,is/VBZ-2)
+				prep_in(fluent/JJ-3,French/JJ-5)
+				prep_in(fluent/JJ-3,English/JJ-7)
+				conj_and(French/JJ-5,English/JJ-7)
+				conj_and(fluent/JJ-3,has/VBZ-10)
+				det(understanding/NN-13,a/DT-11)
+				amod(understanding/NN-13,basic/JJ-12)
+				dobj(has/VBZ-10,understanding/NN-13)
+				prep_of(understanding/NN-13,Russian/NNP-15)
+				prep_of(understanding/NN-13,Spanish/NNP-17)
+				conj_and(Russian/NNP-15,Spanish/NNP-17)
+				prep_of(understanding/NN-13,Japanese/NNP-19)
+				conj_and(Russian/NNP-15,Japanese/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>French and English</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/English_and_French</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>understanding</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Understanding</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His broad scientific background includes engineering, astrophysics and medical training, with international experience in France and Hungary for engineering study and Lebanon and Guatemala for medical study.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(background/NN-4,His/PRP$-1)
+				amod(background/NN-4,broad/JJ-2)
+				amod(background/NN-4,scientific/JJ-3)
+				nsubj(includes/VBZ-5,background/NN-4)
+				dobj(includes/VBZ-5,engineering/NN-6)
+				dobj(includes/VBZ-5,astrophysics/NNS-8)
+				conj_and(engineering/NN-6,astrophysics/NNS-8)
+				amod(training/NN-11,medical/JJ-10)
+				dobj(includes/VBZ-5,training/NN-11)
+				conj_and(engineering/NN-6,training/NN-11)
+				amod(experience/NN-15,international/JJ-14)
+				prep_with(includes/VBZ-5,experience/NN-15)
+				prep_in(experience/NN-15,France/NNP-17)
+				prep_in(experience/NN-15,Hungary/NNP-19)
+				conj_and(France/NNP-17,Hungary/NNP-19)
+				nn(study/NN-22,engineering/NN-21)
+				prep_for(experience/NN-15,study/NN-22)
+				prep_with(includes/VBZ-5,Lebanon/NNP-24)
+				conj_and(experience/NN-15,Lebanon/NNP-24)
+				conj_and(experience/NN-15,Guatemala/NNP-26)
+				conj_and(Lebanon/NNP-24,Guatemala/NNP-26)
+				amod(study/NN-29,medical/JJ-28)
+				prep_for(Lebanon/NNP-24,study/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Saint-Jacques is affiliated with the Collège des médecins du Québec, College of Family Physicians of Canada, Ordre des ingénieurs du Québec, International Society for Optical Engineering, and the Cambridge Philosophical Society as a Life Fellow.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(affiliated/VBN-3,Saint-Jacques/NNP-1)
+				auxpass(affiliated/VBN-3,is/VBZ-2)
+				det(Québec/NNP-10,the/DT-5)
+				nn(Québec/NNP-10,Collège/NNP-6)
+				nn(Québec/NNP-10,des/FW-7)
+				nn(Québec/NNP-10,médecins/FW-8)
+				nn(Québec/NNP-10,du/NNP-9)
+				prep_with(affiliated/VBN-3,Québec/NNP-10)
+				xcomp(affiliated/VBN-3,College/NNP-12)
+				nn(Physicians/NNP-15,Family/NNP-14)
+				prep_of(College/NNP-12,Physicians/NNP-15)
+				prep_of(Physicians/NNP-15,Canada/NNP-17)
+				nn(Québec/NNP-23,Ordre/NNP-19)
+				nn(Québec/NNP-23,des/NNP-20)
+				nn(Québec/NNP-23,ingénieurs/NNP-21)
+				nn(Québec/NNP-23,du/NNP-22)
+				xcomp(affiliated/VBN-3,Québec/NNP-23)
+				conj_and(College/NNP-12,Québec/NNP-23)
+				nn(Society/NNP-26,International/NNP-25)
+				xcomp(affiliated/VBN-3,Society/NNP-26)
+				conj_and(College/NNP-12,Society/NNP-26)
+				nn(Engineering/NNP-29,Optical/NNP-28)
+				prep_for(Society/NNP-26,Engineering/NNP-29)
+				det(Society/NNP-35,the/DT-32)
+				nn(Society/NNP-35,Cambridge/NNP-33)
+				nn(Society/NNP-35,Philosophical/NNP-34)
+				xcomp(affiliated/VBN-3,Society/NNP-35)
+				conj_and(College/NNP-12,Society/NNP-35)
+				det(Fellow/NNP-39,a/DT-37)
+				nn(Fellow/NNP-39,Life/NNP-38)
+				prep_as(Society/NNP-35,Fellow/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Saint-Jacques began his career in 1993 as a biomedical engineer at the Quebec firm Electromed with secondment to Lariboisière Hospital, working on the design of radiological equipment for angiography and image analysis algorithms of cineangiography.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(began/VBD-2,Saint-Jacques/NNP-1)
+				poss(career/NN-4,his/PRP$-3)
+				dobj(began/VBD-2,career/NN-4)
+				prep_in(began/VBD-2,1993/CD-6)
+				mark(Electromed/VBN-15,as/IN-7)
+				det(engineer/NN-10,a/DT-8)
+				amod(engineer/NN-10,biomedical/JJ-9)
+				nsubj(Electromed/VBN-15,engineer/NN-10)
+				det(firm/NN-14,the/DT-12)
+				nn(firm/NN-14,Quebec/NNP-13)
+				prep_at(engineer/NN-10,firm/NN-14)
+				advcl(began/VBD-2,Electromed/VBN-15)
+				prep_with(Electromed/VBN-15,secondment/NN-17)
+				nn(Hospital/NNP-20,Lariboisière/NNP-19)
+				prep_to(Electromed/VBN-15,Hospital/NNP-20)
+				xcomp(Electromed/VBN-15,working/VBG-22)
+				det(design/NN-25,the/DT-24)
+				prep_on(working/VBG-22,design/NN-25)
+				amod(equipment/NN-28,radiological/JJ-27)
+				prep_of(design/NN-25,equipment/NN-28)
+				nn(algorithms/NNS-34,angiography/NN-30)
+				conj_and(angiography/NN-30,image/NN-32)
+				nn(algorithms/NNS-34,image/NN-32)
+				nn(algorithms/NNS-34,analysis/NN-33)
+				prep_for(equipment/NN-28,algorithms/NNS-34)
+				prep_of(equipment/NN-28,cineangiography/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 1994-98, his studies included theoretical work on astronomical observation and design, fabrication and commissioning of instruments for the Cambridge Optical Aperture Synthesis Telescope and for the William Herschel Telescope in the Canary Islands.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(included/VBD-6,1994-98/CD-2)
+				poss(studies/NNS-5,his/PRP$-4)
+				nsubj(included/VBD-6,studies/NNS-5)
+				amod(work/NN-8,theoretical/JJ-7)
+				dobj(included/VBD-6,work/NN-8)
+				amod(observation/NN-11,astronomical/JJ-10)
+				prep_on(included/VBD-6,observation/NN-11)
+				prep_on(included/VBD-6,design/NN-13)
+				conj_and(observation/NN-11,design/NN-13)
+				appos(observation/NN-11,fabrication/NN-15)
+				appos(observation/NN-11,commissioning/VBG-17)
+				conj_and(fabrication/NN-15,commissioning/VBG-17)
+				prep_of(fabrication/NN-15,instruments/NNS-19)
+				det(Telescope/NNP-26,the/DT-21)
+				nn(Telescope/NNP-26,Cambridge/NNP-22)
+				nn(Telescope/NNP-26,Optical/NNP-23)
+				nn(Telescope/NNP-26,Aperture/NNP-24)
+				nn(Telescope/NNP-26,Synthesis/NN-25)
+				prep_for(fabrication/NN-15,Telescope/NNP-26)
+				det(Telescope/NNP-32,the/DT-29)
+				nn(Telescope/NNP-32,William/NNP-30)
+				nn(Telescope/NNP-32,Herschel/NNP-31)
+				prep_for(fabrication/NN-15,Telescope/NNP-32)
+				conj_and(Telescope/NNP-26,Telescope/NNP-32)
+				det(Islands/NNPS-36,the/DT-34)
+				nn(Islands/NNPS-36,Canary/NNP-35)
+				prep_in(fabrication/NN-15,Islands/NNPS-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the course of this research under supervisor John E. Baldwin he made several trips abroad on sponsorship from the Particle Physics and Astronomy Research Council, the Cavendish Astrophysics Group, Corpus Christi College and the Cambridge Philosophical Society, and decided to pursue further research experience in Japan.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(course/NN-3,the/DT-2)
+				prep_during(made/VBD-13,course/NN-3)
+				det(research/NN-6,this/DT-5)
+				prep_of(course/NN-3,research/NN-6)
+				nn(Baldwin/NNP-11,supervisor/NN-8)
+				nn(Baldwin/NNP-11,John/NNP-9)
+				nn(Baldwin/NNP-11,E./NNP-10)
+				prep_under(research/NN-6,Baldwin/NNP-11)
+				nsubj(made/VBD-13,he/PRP-12)
+				nsubj(decided/VBD-43,he/PRP-12)
+				amod(trips/NNS-15,several/JJ-14)
+				dobj(made/VBD-13,trips/NNS-15)
+				advmod(made/VBD-13,abroad/RB-16)
+				prep_on(made/VBD-13,sponsorship/NN-18)
+				det(Physics/NN-22,the/DT-20)
+				nn(Physics/NN-22,Particle/NNP-21)
+				prep_from(made/VBD-13,Physics/NN-22)
+				nn(Council/NNP-26,Astronomy/NNP-24)
+				nn(Council/NNP-26,Research/NNP-25)
+				prep_from(made/VBD-13,Council/NNP-26)
+				conj_and(Physics/NN-22,Council/NNP-26)
+				det(Group/NNP-31,the/DT-28)
+				nn(Group/NNP-31,Cavendish/NNP-29)
+				nn(Group/NNP-31,Astrophysics/NNP-30)
+				prep_from(made/VBD-13,Group/NNP-31)
+				conj_and(Physics/NN-22,Group/NNP-31)
+				nn(College/NNP-35,Corpus/NNP-33)
+				nn(College/NNP-35,Christi/NNP-34)
+				prep_from(made/VBD-13,College/NNP-35)
+				conj_and(Physics/NN-22,College/NNP-35)
+				det(Society/NNP-40,the/DT-37)
+				nn(Society/NNP-40,Cambridge/NNP-38)
+				nn(Society/NNP-40,Philosophical/NNP-39)
+				prep_from(made/VBD-13,Society/NNP-40)
+				conj_and(Physics/NN-22,Society/NNP-40)
+				conj_and(made/VBD-13,decided/VBD-43)
+				aux(pursue/VB-45,to/TO-44)
+				xcomp(decided/VBD-43,pursue/VB-45)
+				amod(experience/NN-48,further/JJ-46)
+				nn(experience/NN-48,research/NN-47)
+				dobj(pursue/VB-45,experience/NN-48)
+				prep_in(experience/NN-48,Japan/NNP-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2001, he joined the Astrophysics group at the Department de physique, Université de Montréal.	</value>
+
+		<annotated-sentence>	In [[2001|2001]], he joined the [[Astrophysics|Astrophysics]] group at the Department de [[physique|Physical_attractiveness]], [[Université de Montréal|Universit%C3%A9_de_Montr%C3%A9al]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2001, he joined the [[Astrophysics|Astrophysics]] group at the Department de physique, Université de Montréal.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,2001/CD-2)
+				nsubj(joined/VBD-5,he/PRP-4)
+				det(group/NN-8,the/DT-6)
+				nn(group/NN-8,Astrophysics/NNPS-7)
+				dobj(joined/VBD-5,group/NN-8)
+				det(Department/NNP-11,the/DT-10)
+				prep_at(group/NN-8,Department/NNP-11)
+				amod(group/NN-8,de/IN-12)
+				dep(group/NN-8,physique/NN-13)
+				nn(Montréal/NNP-17,Université/NNP-15)
+				amod(Montréal/NNP-17,de/IN-16)
+				appos(physique/NN-13,Montréal/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astrophysics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astrophysics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physique</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physical_attractiveness</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Université de Montréal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Universit%C3%A9_de_Montr%C3%A9al</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Astrophysics
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to joining the Canadian Space Program, Dr. Saint-Jacques was a medical doctor and the Co-chief of Medicine at Inuulitsivik Health Centre in Puvirnituq, Quebec since 2007.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_prior_to(doctor/NN-14,joining/VBG-3)
+				det(Program/NN-7,the/DT-4)
+				amod(Program/NN-7,Canadian/JJ-5)
+				nn(Program/NN-7,Space/NN-6)
+				dobj(joining/VBG-3,Program/NN-7)
+				nn(Saint-Jacques/NNP-10,Dr./NNP-9)
+				nsubj(doctor/NN-14,Saint-Jacques/NNP-10)
+				cop(doctor/NN-14,was/VBD-11)
+				det(doctor/NN-14,a/DT-12)
+				amod(doctor/NN-14,medical/JJ-13)
+				det(Co-chief/NN-17,the/DT-16)
+				conj_and(doctor/NN-14,Co-chief/NN-17)
+				prep_of(Co-chief/NN-17,Medicine/NN-19)
+				nn(Centre/NNP-23,Inuulitsivik/NNP-21)
+				nn(Centre/NNP-23,Health/NNP-22)
+				prep_at(doctor/NN-14,Centre/NNP-23)
+				nn(Quebec/NNP-27,Puvirnituq/NNP-25)
+				prep_in(Centre/NNP-23,Quebec/NNP-27)
+				prep_since(Quebec/NNP-27,2007/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also worked as a Clinical Faculty Lecturer for McGill University's Faculty of Medicine, supervising medical trainees in Nunavik.	</value>
+
+		<annotated-sentence>	He also worked as a [[Clinical Faculty|Clinical_Professor]] [[Lecturer|Lecturer]] for McGill [[University|University]]'s [[Faculty|Clinical_Professor]] of [[Medicine|Medicine]], supervising medical [[trainees|Training]] in [[Nunavik|Nunavik]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also worked as a Clinical Faculty Lecturer for McGill University's Faculty of Medicine, supervising medical trainees in Nunavik.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,He/PRP-1)
+				advmod(worked/VBD-3,also/RB-2)
+				det(Lecturer/NNP-8,a/DT-5)
+				amod(Lecturer/NNP-8,Clinical/JJ-6)
+				nn(Lecturer/NNP-8,Faculty/NNP-7)
+				prep_as(worked/VBD-3,Lecturer/NNP-8)
+				nn(University/NNP-11,McGill/NNP-10)
+				poss(Faculty/NNP-13,University/NNP-11)
+				prep_for(worked/VBD-3,Faculty/NNP-13)
+				prep_of(Faculty/NNP-13,Medicine/NNP-15)
+				xcomp(worked/VBD-3,supervising/VBG-17)
+				amod(trainees/NNS-19,medical/JJ-18)
+				dobj(supervising/VBG-17,trainees/NNS-19)
+				prep_in(supervising/VBG-17,Nunavik/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Clinical Faculty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clinical_Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lecturer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lecturer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Faculty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clinical_Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medicine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medicine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>trainees</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Nunavik</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nunavik</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Saint-Jacques was selected in May 2009 by the Canadian Space Agency (CSA) as one of two CSA astronaut positions, after a long process selection attended by 5,351 candidates, and has moved to Houston to be one of 14 members of the 20th NASA astronaut class.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Saint-Jacques/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_in(selected/VBN-3,May/NNP-5)
+				num(May/NNP-5,2009/CD-6)
+				det(Agency/NNP-11,the/DT-8)
+				amod(Agency/NNP-11,Canadian/JJ-9)
+				nn(Agency/NNP-11,Space/NN-10)
+				agent(selected/VBN-3,Agency/NNP-11)
+				appos(Agency/NNP-11,CSA/NNP-13)
+				prep_as(Agency/NNP-11,one/CD-16)
+				num(positions/NNS-21,two/CD-18)
+				nn(positions/NNS-21,CSA/NN-19)
+				nn(positions/NNS-21,astronaut/NN-20)
+				prep_of(Agency/NNP-11,positions/NNS-21)
+				mark(attended/VBD-28,after/IN-23)
+				det(selection/NN-27,a/DT-24)
+				amod(selection/NN-27,long/JJ-25)
+				nn(selection/NN-27,process/NN-26)
+				nsubj(attended/VBD-28,selection/NN-27)
+				nsubj(moved/VBN-35,selection/NN-27)
+				advcl(selected/VBN-3,attended/VBD-28)
+				num(candidates/NNS-31,5,351/CD-30)
+				prep_by(attended/VBD-28,candidates/NNS-31)
+				aux(moved/VBN-35,has/VBZ-34)
+				advcl(selected/VBN-3,moved/VBN-35)
+				conj_and(attended/VBD-28,moved/VBN-35)
+				prep_to(moved/VBN-35,Houston/NNP-37)
+				aux(one/CD-40,to/TO-38)
+				cop(one/CD-40,be/VB-39)
+				xcomp(moved/VBN-35,one/CD-40)
+				num(members/NNS-43,14/CD-42)
+				prep_of(one/CD-40,members/NNS-43)
+				det(class/NN-49,the/DT-45)
+				amod(class/NN-49,20th/JJ-46)
+				nn(class/NN-49,NASA/NNP-47)
+				nn(class/NN-49,astronaut/NN-48)
+				prep_of(members/NNS-43,class/NN-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He recently graduated from Astronaut Candidate Training that included scientific and technical briefings, intensive instruction in International Space Station systems, Extravehicular Activity (EVA), robotics, physiological training, T-38 flight training, Russian language and water and wilderness survival training.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-3,He/PRP-1)
+				advmod(graduated/VBD-3,recently/RB-2)
+				nn(Candidate/NNP-6,Astronaut/NNP-5)
+				prep_from(graduated/VBD-3,Candidate/NNP-6)
+				partmod(Candidate/NNP-6,Training/VBG-7)
+				mark(included/VBN-9,that/IN-8)
+				ccomp(Training/VBG-7,included/VBN-9)
+				amod(briefings/NNS-13,scientific/JJ-10)
+				conj_and(scientific/JJ-10,technical/JJ-12)
+				amod(briefings/NNS-13,technical/JJ-12)
+				dobj(included/VBN-9,briefings/NNS-13)
+				amod(instruction/NN-16,intensive/JJ-15)
+				dobj(included/VBN-9,instruction/NN-16)
+				conj_and(briefings/NNS-13,instruction/NN-16)
+				nn(systems/NNS-21,International/NNP-18)
+				nn(systems/NNS-21,Space/NNP-19)
+				nn(systems/NNS-21,Station/NNP-20)
+				prep_in(instruction/NN-16,systems/NNS-21)
+				amod(Activity/NN-24,Extravehicular/JJ-23)
+				dobj(included/VBN-9,Activity/NN-24)
+				conj_and(briefings/NNS-13,Activity/NN-24)
+				appos(Activity/NN-24,EVA/NN-26)
+				dobj(included/VBN-9,robotics/NNS-29)
+				conj_and(briefings/NNS-13,robotics/NNS-29)
+				amod(training/NN-32,physiological/JJ-31)
+				dobj(included/VBN-9,training/NN-32)
+				conj_and(briefings/NNS-13,training/NN-32)
+				nn(training/NN-36,T-38/NN-34)
+				nn(training/NN-36,flight/NN-35)
+				dobj(included/VBN-9,training/NN-36)
+				conj_and(briefings/NNS-13,training/NN-36)
+				amod(language/NN-39,Russian/JJ-38)
+				dobj(included/VBN-9,language/NN-39)
+				conj_and(briefings/NNS-13,language/NN-39)
+				nn(training/NN-45,water/NN-41)
+				conj_and(water/NN-41,wilderness/NN-43)
+				nn(training/NN-45,wilderness/NN-43)
+				nn(training/NN-45,survival/NN-44)
+				dobj(included/VBN-9,training/NN-45)
+				conj_and(briefings/NNS-13,training/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since graduation, he has been assigned to the Robotics Branch of the Astronaut Office.	</value>
+
+		<annotated-sentence>	Since [[graduation|Graduation]], he has been assigned to the [[Robotics|Robotics]] Branch of [[the Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Since graduation, he has been assigned to the Robotics Branch of the Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_since(assigned/VBN-7,graduation/NN-2)
+				nsubjpass(assigned/VBN-7,he/PRP-4)
+				aux(assigned/VBN-7,has/VBZ-5)
+				auxpass(assigned/VBN-7,been/VBN-6)
+				det(Branch/NNP-11,the/DT-9)
+				nn(Branch/NNP-11,Robotics/NNPS-10)
+				prep_to(assigned/VBN-7,Branch/NNP-11)
+				det(Office/NNP-15,the/DT-13)
+				nn(Office/NNP-15,Astronaut/NNP-14)
+				prep_of(Branch/NNP-11,Office/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robotics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robotics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On September 19, 2011, NASA announced that Saint-Jacques would serve as an aquanaut aboard the Aquarius underwater laboratory during the NEEMO 15 undersea exploration mission from October 17-30, 2011.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(announced/VBD-8,September/NNP-2)
+				num(September/NNP-2,19/CD-3)
+				num(September/NNP-2,2011/CD-5)
+				nsubj(announced/VBD-8,NASA/NNP-7)
+				mark(serve/VB-12,that/IN-9)
+				nsubj(serve/VB-12,Saint-Jacques/NNP-10)
+				aux(serve/VB-12,would/MD-11)
+				ccomp(announced/VBD-8,serve/VB-12)
+				det(aquanaut/NN-15,an/DT-14)
+				prep_as(serve/VB-12,aquanaut/NN-15)
+				det(laboratory/NN-20,the/DT-17)
+				nn(laboratory/NN-20,Aquarius/NNP-18)
+				amod(laboratory/NN-20,underwater/JJ-19)
+				prep_aboard(aquanaut/NN-15,laboratory/NN-20)
+				det(mission/NN-27,the/DT-22)
+				nn(mission/NN-27,NEEMO/NNP-23)
+				num(mission/NN-27,15/CD-24)
+				nn(mission/NN-27,undersea/NN-25)
+				nn(mission/NN-27,exploration/NN-26)
+				prep_during(serve/VB-12,mission/NN-27)
+				prep_from(serve/VB-12,October/NNP-29)
+				num(October/NNP-29,17-30/CD-30)
+				num(October/NNP-29,2011/CD-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Delayed by stormy weather and high seas, the mission began on October 20, 2011.	</value>
+
+		<annotated-sentence>	Delayed by stormy weather and high seas, the mission began on October 20, 2011.	</annotated-sentence>
+
+		<pattern_crowdsource>	Delayed by stormy weather and high seas, the mission began on October 20, 2011.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(began/VBD-11,Delayed/VBN-1)
+				amod(weather/NN-4,stormy/JJ-3)
+				agent(Delayed/VBN-1,weather/NN-4)
+				amod(seas/NNS-7,high/JJ-6)
+				agent(Delayed/VBN-1,seas/NNS-7)
+				conj_and(weather/NN-4,seas/NNS-7)
+				det(mission/NN-10,the/DT-9)
+				nsubj(began/VBD-11,mission/NN-10)
+				prep_on(began/VBD-11,October/NNP-13)
+				num(October/NNP-13,20/CD-14)
+				num(October/NNP-13,2011/CD-16)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On the afternoon of October 21, Saint-Jacques and his crewmates officially became aquanauts, having spent over 24 hours underwater.	</value>
+
+		<annotated-sentence>	On [[the afternoon|Afternoon]] of [[October 21|October_21]], Saint-Jacques and his crewmates officially became [[aquanauts|Aquanaut]], having spent over 24 hours underwater.	</annotated-sentence>
+
+		<pattern_crowdsource>	On the afternoon of October 21, Saint-Jacques and his crewmates officially became aquanauts, having spent over 24 hours underwater.	</pattern_crowdsource>
+
+
+		<tree>
+				det(afternoon/NN-3,the/DT-2)
+				prep_on(aquanauts/NNS-14,afternoon/NN-3)
+				prep_of(afternoon/NN-3,October/NNP-5)
+				num(October/NNP-5,21/CD-6)
+				nsubj(aquanauts/NNS-14,Saint-Jacques/NNP-8)
+				poss(crewmates/NNS-11,his/PRP$-10)
+				conj_and(Saint-Jacques/NNP-8,crewmates/NNS-11)
+				nsubj(aquanauts/NNS-14,crewmates/NNS-11)
+				advmod(aquanauts/NNS-14,officially/RB-12)
+				cop(aquanauts/NNS-14,became/VBD-13)
+				aux(spent/VBN-17,having/VBG-16)
+				partmod(aquanauts/NNS-14,spent/VBN-17)
+				num(hours/NNS-20,24/CD-19)
+				prep_over(spent/VBN-17,hours/NNS-20)
+				amod(hours/NNS-20,underwater/JJ-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the afternoon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Afternoon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 21</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_21</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aquanauts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aquanaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	NEEMO 15 ended early on October 26 due to the approach of Hurricane Rina.	</value>
+
+		<annotated-sentence>	[[NEEMO|NEEMO]] 15 ended early on [[October 26|October_26]] due to the approach of [[Hurricane Rina|Hurricane_Rina]].	</annotated-sentence>
+
+		<pattern_crowdsource>	NEEMO 15 ended early on October 26 due to the approach of Hurricane Rina.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(ended/VBD-3,NEEMO/NNP-1)
+				num(NEEMO/NNP-1,15/CD-2)
+				advmod(ended/VBD-3,early/RB-4)
+				prep_on(early/RB-4,October/NNP-6)
+				num(October/NNP-6,26/CD-7)
+				det(approach/NN-11,the/DT-10)
+				prep_due_to(ended/VBD-3,approach/NN-11)
+				nn(Rina/NNP-14,Hurricane/NNP-13)
+				prep_of(approach/NN-11,Rina/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NEEMO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NEEMO</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_26</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hurricane Rina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hurricane_Rina</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	BEng, Engineering Physics, École polytechnique de Montréal (1993) PhD in optical propagation through the atmosphere, Cavendish Astrophysics Group, University of Cambridge (1998) Postdoctoral research, National Astronomical Observatory of Japan (1999-2001) (development and application of the Mitaka Infrared Interferometer in Japan and Subaru Telescope Adaptive Optics System in Hawaii) MD, Université Laval (2005) Family medicine MD residency, McGill University (2007) (specializing in first-line, isolated medical practice) "1967" Science and Engineering Scholarship, Natural Sciences and Engineering Research Council of Canada (NSERC) (1994-1998) Cambridge Commonwealth Trust Honorary Scholar (1994-1998) United States Overseas Research Student Butts(1994-1998) Postdoctoral Fellowship, Japan Society for Promotion of Science (1999-2001) Scholarship, Canada Millennium (2001-2005) Doctorat Honoris Causa, École polytechnique de Montréal (2010)  This article incorporates public domain material from the National Aeronautics and Space Administration document "NASA - Meet the NEEMO 15 Crew" (retrieved on 2011-09-19).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Physics/NN-4,Engineering/NNP-3)
+				appos(BEng/NNP-1,Physics/NN-4)
+				nn(Montréal/NNP-9,École/NNP-6)
+				nn(Montréal/NNP-9,polytechnique/NNP-7)
+				amod(Montréal/NNP-9,de/IN-8)
+				nn(PhD/NN-13,Montréal/NNP-9)
+				appos(Montréal/NNP-9,1993/CD-11)
+				appos(BEng/NNP-1,PhD/NN-13)
+				amod(propagation/NN-16,optical/JJ-15)
+				prep_in(PhD/NN-13,propagation/NN-16)
+				det(atmosphere/NN-19,the/DT-18)
+				prep_through(propagation/NN-16,atmosphere/NN-19)
+				nn(Group/NNP-23,Cavendish/NNP-21)
+				nn(Group/NNP-23,Astrophysics/NNP-22)
+				appos(BEng/NNP-1,Group/NNP-23)
+				appos(BEng/NNP-1,University/NNP-25)
+				prep_of(University/NNP-25,Cambridge/NNP-27)
+				appos(University/NNP-25,1998/CD-29)
+				amod(research/NN-32,Postdoctoral/JJ-31)
+				dep(University/NNP-25,research/NN-32)
+				nn(Observatory/NNP-36,National/NNP-34)
+				nn(Observatory/NNP-36,Astronomical/NNP-35)
+				appos(BEng/NNP-1,Observatory/NNP-36)
+				prep_of(Observatory/NNP-36,Japan/NNP-38)
+				appos(Japan/NNP-38,1999-2001/CD-40)
+				dep(Japan/NNP-38,development/NN-43)
+				dep(Japan/NNP-38,application/NN-45)
+				conj_and(development/NN-43,application/NN-45)
+				det(Interferometer/NN-50,the/DT-47)
+				nn(Interferometer/NN-50,Mitaka/NNP-48)
+				amod(Interferometer/NN-50,Infrared/JJ-49)
+				prep_of(development/NN-43,Interferometer/NN-50)
+				prep_in(Interferometer/NN-50,Japan/NNP-52)
+				nn(System/NNP-58,Subaru/NNP-54)
+				nn(System/NNP-58,Telescope/NNP-55)
+				nn(System/NNP-58,Adaptive/NNP-56)
+				nn(System/NNP-58,Optics/NNP-57)
+				dep(Japan/NNP-38,System/NNP-58)
+				conj_and(development/NN-43,System/NNP-58)
+				prep_in(System/NNP-58,Hawaii/NNP-60)
+				dep(Observatory/NNP-36,MD/NN-62)
+				nn(Family/NNP-69,Université/NNP-64)
+				nn(Family/NNP-69,Laval/NNP-65)
+				appos(Family/NNP-69,2005/CD-67)
+				appos(BEng/NNP-1,Family/NNP-69)
+				nn(residency/NN-72,medicine/NN-70)
+				nn(residency/NN-72,MD/NN-71)
+				dep(Family/NNP-69,residency/NN-72)
+				nn(University/NNP-75,McGill/NNP-74)
+				appos(BEng/NNP-1,University/NNP-75)
+				appos(University/NNP-75,2007/CD-77)
+				dep(University/NNP-75,specializing/VBG-80)
+				prep_in(specializing/VBG-80,first-line/NN-82)
+				amod(practice/NN-86,isolated/VBN-84)
+				amod(practice/NN-86,medical/JJ-85)
+				appos(first-line/NN-82,practice/NN-86)
+				dep(University/NNP-75,1967/CD-89)
+				nn(Scholarship/NNP-94,Science/NNP-91)
+				conj_and(Science/NNP-91,Engineering/NNP-93)
+				nn(Scholarship/NNP-94,Engineering/NNP-93)
+				npadvmod(1967/CD-89,Scholarship/NNP-94)
+				nn(Sciences/NNPS-97,Natural/NNP-96)
+				npadvmod(1967/CD-89,Sciences/NNPS-97)
+				conj_and(Scholarship/NNP-94,Sciences/NNPS-97)
+				nn(Council/NNP-101,Engineering/NNP-99)
+				nn(Council/NNP-101,Research/NNP-100)
+				npadvmod(1967/CD-89,Council/NNP-101)
+				conj_and(Scholarship/NNP-94,Council/NNP-101)
+				prep_of(1967/CD-89,Canada/NNP-103)
+				appos(Canada/NNP-103,NSERC/NNP-105)
+				appos(Canada/NNP-103,1994-1998/CD-108)
+				nn(Scholar/NNP-114,Cambridge/NNP-110)
+				nn(Scholar/NNP-114,Commonwealth/NNP-111)
+				nn(Scholar/NNP-114,Trust/NNP-112)
+				nn(Scholar/NNP-114,Honorary/NNP-113)
+				dep(1967/CD-89,Scholar/NNP-114)
+				appos(Scholar/NNP-114,1994-1998/CD-116)
+				nn(Butts/NNP-123,United/NNP-118)
+				nn(Butts/NNP-123,States/NNPS-119)
+				nn(Butts/NNP-123,Overseas/NNP-120)
+				nn(Butts/NNP-123,Research/NNP-121)
+				nn(Butts/NNP-123,Student/NNP-122)
+				npadvmod(1967/CD-89,Butts/NNP-123)
+				appos(Butts/NNP-123,1994-1998/CD-125)
+				nn(Fellowship/NNP-128,Postdoctoral/NNP-127)
+				dep(Butts/NNP-123,Fellowship/NNP-128)
+				nn(Society/NNP-131,Japan/NNP-130)
+				appos(Butts/NNP-123,Society/NNP-131)
+				prep_for(Society/NNP-131,Promotion/NNP-133)
+				nn(Scholarship/NN-139,Science/NNP-135)
+				appos(Scholarship/NN-139,1999-2001/CD-137)
+				prep_of(1967/CD-89,Scholarship/NN-139)
+				nn(Doctorat/NNP-146,Canada/NNP-141)
+				nn(Doctorat/NNP-146,Millennium/NNP-142)
+				appos(Doctorat/NNP-146,2001-2005/CD-144)
+				appos(1967/CD-89,Doctorat/NNP-146)
+				nn(Causa/NNP-148,Honoris/NNP-147)
+				dep(Doctorat/NNP-146,Causa/NNP-148)
+				nn(Montréal/NNP-153,École/NNP-150)
+				nn(Montréal/NNP-153,polytechnique/NNP-151)
+				amod(Montréal/NNP-153,de/IN-152)
+				appos(Doctorat/NNP-146,Montréal/NNP-153)
+				appos(Montréal/NNP-153,2010/CD-155)
+				det(article/NN-158,This/DT-157)
+				nsubj(incorporates/VBZ-159,article/NN-158)
+				rcmod(Montréal/NNP-153,incorporates/VBZ-159)
+				amod(material/NN-162,public/JJ-160)
+				nn(material/NN-162,domain/NN-161)
+				dobj(incorporates/VBZ-159,material/NN-162)
+				det(Aeronautics/NNP-166,the/DT-164)
+				nn(Aeronautics/NNP-166,National/NNP-165)
+				prep_from(incorporates/VBZ-159,Aeronautics/NNP-166)
+				nn(document/NN-170,Space/NNP-168)
+				nn(document/NN-170,Administration/NNP-169)
+				prep_from(incorporates/VBZ-159,document/NN-170)
+				conj_and(Aeronautics/NNP-166,document/NN-170)
+				dep(Aeronautics/NNP-166,NASA/NNP-172)
+				parataxis(incorporates/VBZ-159,Meet/VB-174)
+				det(NEEMO/NNP-176,the/DT-175)
+				dobj(Meet/VB-174,NEEMO/NNP-176)
+				num(NEEMO/NNP-176,15/CD-177)
+				dep(Meet/VB-174,Crew/NNP-178)
+				dep(Crew/NNP-178,retrieved/VBN-181)
+				prep_on(retrieved/VBN-181,2011-09-19/CD-183)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from the National Aeronautics and Space Administration document "Astronaut Candidate Bio: David Saint-Jacques (10/2011)" (retrieved on 2012-02-12).	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from the [[National|United_States]] [[Aeronautics|Aeronautics]] and [[Space|Space]] Administration [[document|Document_(album)]] "[[Astronaut|Astronaut]] [[Candidate|Frasier_(season_2)]] Bio: [[David Saint-Jacques|David_Saint-Jacques]] (10/2011)" (retrieved on 2012-02-12).	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from the [[National|United_States]] Aeronautics and Space Administration [[document|Document_(album)]] "[[Astronaut|Astronaut]] [[Candidate|Frasier_(season_2)]] Bio: [[David Saint-Jacques|David_Saint-Jacques]] (10/2011)" (retrieved on 2012-02-12).	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				det(Aeronautics/NNP-10,the/DT-8)
+				nn(Aeronautics/NNP-10,National/NNP-9)
+				prep_from(incorporates/VBZ-3,Aeronautics/NNP-10)
+				nn(document/NN-14,Space/NNP-12)
+				nn(document/NN-14,Administration/NNP-13)
+				prep_from(incorporates/VBZ-3,document/NN-14)
+				conj_and(Aeronautics/NNP-10,document/NN-14)
+				nn(Bio/NNP-18,Astronaut/NNP-16)
+				nn(Bio/NNP-18,Candidate/NNP-17)
+				dep(Aeronautics/NNP-10,Bio/NNP-18)
+				nn(Saint-Jacques/NNP-21,David/NNP-20)
+				dep(Bio/NNP-18,Saint-Jacques/NNP-21)
+				appos(Saint-Jacques/NNP-21,10/2011/CD-23)
+				dep(Aeronautics/NNP-10,retrieved/VBN-27)
+				prep_on(retrieved/VBN-27,2012-02-12/CD-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>National</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aeronautics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>document</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Document_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Frasier_(season_2)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Saint-Jacques</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Saint-Jacques</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Document_(album) http://dbpedia.org/ontology/recordedIn http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Frasier_(season_2) http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Metastatic pleural tumor is a type of cancer that has spread from another organ to the thin membrane (pleura) surrounding the lungs.</value>
+		<pattern_crowdsource> Metastatic [[pleural tumor|C0032229]] is a type of [[cancer|C0006826]] that has spread from another [[organ|C0178784]] to the thin membrane (pleura) surrounding the lungs.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pleural tumor</surface-form>
+				<RDF-ID>C0032229</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organ</surface-form>
+				<RDF-ID>C0178784</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thin</surface-form>
+				<RDF-ID>C0205168</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>membrane</surface-form>
+				<RDF-ID>C0596901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleura</surface-form>
+				<RDF-ID>C0032225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0032229 ISA C0006826</triple>
+			<triple>C0178784 LOCATION_OF C0006826</triple>
+			<triple>C0178784 LOCATION_OF C0032229</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The blood and lymph systems can carry cancer cells to other organs in the body, where they can produce new growths or tumors.</value>
+		<pattern_crowdsource> The [[blood|C0005767]] and lymph systems can carry [[cancer cells|C0334227]] to other organs in the body, where they can produce new growths or tumors.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymph systems</surface-form>
+				<RDF-ID>C0024235</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer cells</surface-form>
+				<RDF-ID>C0334227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organs</surface-form>
+				<RDF-ID>C0178784</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new growths</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumors</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0334227 PART_OF C0005767</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

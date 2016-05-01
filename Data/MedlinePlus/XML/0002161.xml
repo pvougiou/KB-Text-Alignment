@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The doctor will perform a physical exam, look at the eyes, and test muscle movement.</value>
+		<pattern_crowdsource> The [[doctor|C0031831]] will perform a [[physical exam|C0031809]], look at the eyes, and test muscle movement.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eyes</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle movement</surface-form>
+				<RDF-ID>C0517907</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An eye exam may reveal cataracts, strabismus (crossed eyes), or other problems.</value>
+		<pattern_crowdsource> An eye exam may reveal cataracts, [[strabismus|C0038379]] ([[crossed eyes|C0014877]]), or other problems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>eye exam</surface-form>
+				<RDF-ID>C0200149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cataracts</surface-form>
+				<RDF-ID>C0086543</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>strabismus</surface-form>
+				<RDF-ID>C0038379</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>crossed eyes</surface-form>
+				<RDF-ID>C0014877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014877 ISA C0038379</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Call your health care provider if:  - You have a family history of IP and are considering having children  - Your child has symptoms of this disorder</value>
+		<pattern_crowdsource> Call your health care provider if:  - You have a family history of IP and are considering having children  - Your [[child|C0008059]] has [[symptoms|C1457887]] of this disorder		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>C0015576</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>C0019665</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>considering</surface-form>
+				<RDF-ID>C0750591</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorder</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

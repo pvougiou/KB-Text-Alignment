@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Ionized calcium is calcium in your blood that is not attached to proteins.</value>
+		<pattern_crowdsource> [[Ionized calcium|C0373561]] is [[calcium|C0006675]] in your [[blood|C0005767]] that is not attached to proteins.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ionized calcium</surface-form>
+				<RDF-ID>C0373561</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>calcium</surface-form>
+				<RDF-ID>C0006675</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>proteins</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0373561 ISA C0006675</triple>
+			<triple>C0005767 LOCATION_OF C0006675</triple>
+			<triple>C0005767 LOCATION_OF C0373561</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most of the time blood is drawn from a vein located on the inside of the elbow or the back of the hand.</value>
+		<pattern_crowdsource> Most of the time blood is drawn from a [[vein|C0042449]] located on the inside of the [[elbow|C0013769]] or the back of the hand.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>C0040223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>elbow</surface-form>
+				<RDF-ID>C0013769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hand</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013769 LOCATION_OF C0042449</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may need to have a separate ionized calcium test if you have factors that increase or decrease total calcium levels.</value>
+		<pattern_crowdsource> You may need to have a separate [[ionized calcium|C0373561]] test if you have factors that increase or decrease [[total calcium|C0600069]] levels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>separate</surface-form>
+				<RDF-ID>C0443299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ionized calcium</surface-form>
+				<RDF-ID>C0373561</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>factors</surface-form>
+				<RDF-ID>C1521761</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>increase</surface-form>
+				<RDF-ID>C0442805</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>total calcium</surface-form>
+				<RDF-ID>C0600069</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0373561 INHIBITS C0600069</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

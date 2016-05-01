@@ -1,0 +1,1800 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Garrett Erin Reisman (born February 10, 1968 ) is an American engineer and former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Garrett Erin Reisman|Garrett_Reisman]] (born [[February|February]] 10, 1968 ) is an American [[engineer|Engineer]] and former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Garrett Erin Reisman|Garrett_Reisman]] (born February 10, 1968 ) is an American engineer and former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Reisman/NNP-3,Garrett/NNP-1)
+				nn(Reisman/NNP-3,Erin/NNP-2)
+				nsubj(engineer/NN-14,Reisman/NNP-3)
+				dep(Reisman/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,February/NNP-6)
+				num(February/NNP-6,10/CD-7)
+				num(February/NNP-6,1968/CD-9)
+				cop(engineer/NN-14,is/VBZ-11)
+				det(engineer/NN-14,an/DT-12)
+				amod(engineer/NN-14,American/JJ-13)
+				amod(astronaut/NN-18,former/JJ-16)
+				nn(astronaut/NN-18,NASA/NNP-17)
+				conj_and(engineer/NN-14,astronaut/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Garrett Erin Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Garrett_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a backup crew member for Expedition 15 and joined Expedition 16 aboard the International Space Station for a short time before becoming a member of Expedition 17.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-6,He/PRP-1)
+				nsubj(joined/VBD-11,He/PRP-1)
+				cop(member/NN-6,was/VBD-2)
+				det(member/NN-6,a/DT-3)
+				nn(member/NN-6,backup/NN-4)
+				nn(member/NN-6,crew/NN-5)
+				prep_for(member/NN-6,Expedition/NN-8)
+				num(Expedition/NN-8,15/CD-9)
+				conj_and(member/NN-6,joined/VBD-11)
+				dobj(joined/VBD-11,Expedition/NN-12)
+				num(Expedition/NN-12,16/CD-13)
+				det(Station/NNP-18,the/DT-15)
+				nn(Station/NNP-18,International/NNP-16)
+				nn(Station/NNP-18,Space/NNP-17)
+				prep_aboard(Expedition/NN-12,Station/NNP-18)
+				det(time/NN-22,a/DT-20)
+				amod(time/NN-22,short/JJ-21)
+				prep_for(Station/NNP-18,time/NN-22)
+				prepc_before(joined/VBD-11,becoming/VBG-24)
+				det(member/NN-26,a/DT-25)
+				xcomp(becoming/VBG-24,member/NN-26)
+				prep_of(member/NN-26,Expedition/NN-28)
+				num(Expedition/NN-28,17/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned to Earth on June 14, 2008 on board STS-124 on Space Shuttle Discovery.	</value>
+
+		<annotated-sentence>	He returned to [[Earth|Earth]] on June 14, 2008 on board [[STS-124|STS-124]] on [[Space Shuttle Discovery|Space_Shuttle_Discovery]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned to Earth on June 14, 2008 on board [[STS-124|STS-124]] on Space Shuttle Discovery.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				prep_to(returned/VBD-2,Earth/NNP-4)
+				prep_on(returned/VBD-2,June/NNP-6)
+				num(June/NNP-6,14/CD-7)
+				num(June/NNP-6,2008/CD-9)
+				nn(STS-124/NN-12,board/NN-11)
+				prep_on(June/NNP-6,STS-124/NN-12)
+				nn(Discovery/NNP-16,Space/NN-14)
+				nn(Discovery/NNP-16,Shuttle/NNP-15)
+				prep_on(returned/VBD-2,Discovery/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a member of the STS-132 mission that traveled to the International Space Station aboard Space Shuttle Atlantis from May 14 to 26, 2010.	</value>
+
+		<annotated-sentence>	He was a member of the [[STS-132|STS-132]] mission that traveled to [[the International Space Station|International_Space_Station]] aboard [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] from [[May 14|May_14]] to 26, [[2010|2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a member of the [[STS-132|STS-132]] mission that traveled to the International Space Station aboard Space Shuttle Atlantis from May 14 to 26, 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				det(mission/NN-8,the/DT-6)
+				nn(mission/NN-8,STS-132/NN-7)
+				prep_of(member/NN-4,mission/NN-8)
+				nsubj(traveled/VBD-10,that/WDT-9)
+				rcmod(member/NN-4,traveled/VBD-10)
+				det(Station/NNP-15,the/DT-12)
+				nn(Station/NNP-15,International/NNP-13)
+				nn(Station/NNP-15,Space/NNP-14)
+				prep_to(traveled/VBD-10,Station/NNP-15)
+				nn(Atlantis/NNP-19,Space/NNP-17)
+				nn(Atlantis/NNP-19,Shuttle/NNP-18)
+				prep_aboard(traveled/VBD-10,Atlantis/NNP-19)
+				prep_from(Atlantis/NNP-19,May/NNP-21)
+				num(May/NNP-21,14/CD-22)
+				prep_to(traveled/VBD-10,26/CD-24)
+				amod(26/CD-24,2010/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-132</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-132</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-132
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman was born in Morristown, New Jersey and is a 1986 graduate of Parsippany High School, a 1991 graduate of the Jerome Fisher Program in Management and Technology at the University of Pennsylvania, and received his Masters and Doctorate degrees in Mechanical Engineering from the California Institute of Technology in 1992 and 1997, respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Reisman/NNP-1)
+				nsubjpass(received/VBD-38,Reisman/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Morristown/NNP-5)
+				nn(Jersey/NNP-8,New/NNP-7)
+				appos(Morristown/NNP-5,Jersey/NNP-8)
+				cop(graduate/NN-13,is/VBZ-10)
+				det(graduate/NN-13,a/DT-11)
+				num(graduate/NN-13,1986/CD-12)
+				conj_and(born/VBN-3,graduate/NN-13)
+				nn(School/NNP-17,Parsippany/NNP-15)
+				nn(School/NNP-17,High/NNP-16)
+				prep_of(graduate/NN-13,School/NNP-17)
+				det(graduate/NN-21,a/DT-19)
+				num(graduate/NN-21,1991/CD-20)
+				appos(School/NNP-17,graduate/NN-21)
+				det(Program/NNP-26,the/DT-23)
+				nn(Program/NNP-26,Jerome/NNP-24)
+				nn(Program/NNP-26,Fisher/NNP-25)
+				prep_of(graduate/NN-21,Program/NNP-26)
+				prep_in(Program/NNP-26,Management/NNP-28)
+				prep_in(Program/NNP-26,Technology/NNP-30)
+				conj_and(Management/NNP-28,Technology/NNP-30)
+				det(University/NNP-33,the/DT-32)
+				prep_at(graduate/NN-13,University/NNP-33)
+				prep_of(University/NNP-33,Pennsylvania/NNP-35)
+				conj_and(born/VBN-3,received/VBD-38)
+				poss(Masters/NN-40,his/PRP$-39)
+				dobj(received/VBD-38,Masters/NN-40)
+				nn(degrees/NNS-43,Doctorate/NN-42)
+				dobj(received/VBD-38,degrees/NNS-43)
+				conj_and(Masters/NN-40,degrees/NNS-43)
+				amod(Engineering/NNP-46,Mechanical/JJ-45)
+				prep_in(received/VBD-38,Engineering/NNP-46)
+				det(Institute/NNP-50,the/DT-48)
+				nn(Institute/NNP-50,California/NNP-49)
+				prep_from(received/VBD-38,Institute/NNP-50)
+				prep_of(Institute/NNP-50,Technology/NNP-52)
+				prep_in(Technology/NNP-52,1992/CD-54)
+				prep_in(Technology/NNP-52,1997/CD-56)
+				conj_and(1992/CD-54,1997/CD-56)
+				advmod(received/VBD-38,respectively/RB-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2003, Reisman served as an aquanaut during the NEEMO 5 mission aboard the Aquarius underwater laboratory, living and working under water for fourteen days.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-6,June/NNP-2)
+				num(June/NNP-2,2003/CD-3)
+				nsubj(served/VBD-6,Reisman/NNP-5)
+				det(aquanaut/NN-9,an/DT-8)
+				prep_as(served/VBD-6,aquanaut/NN-9)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,NEEMO/NN-12)
+				num(mission/NN-14,5/CD-13)
+				prep_during(served/VBD-6,mission/NN-14)
+				det(laboratory/NN-19,the/DT-16)
+				nn(laboratory/NN-19,Aquarius/NNP-17)
+				amod(laboratory/NN-19,underwater/JJ-18)
+				prep_aboard(mission/NN-14,laboratory/NN-19)
+				xcomp(served/VBD-6,living/VBG-21)
+				xcomp(served/VBD-6,working/VBG-23)
+				conj_and(living/VBG-21,working/VBG-23)
+				prep_under(living/VBG-21,water/NN-25)
+				num(days/NNS-28,fourteen/CD-27)
+				prep_for(water/NN-25,days/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman was assigned as a long duration crewmember on the International Space Station.	</value>
+
+		<annotated-sentence>	Reisman was assigned as a long duration [[crewmember|Crewman]] on [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reisman was assigned as a long duration crewmember on the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,Reisman/NNP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				det(crewmember/NN-8,a/DT-5)
+				amod(crewmember/NN-8,long/JJ-6)
+				nn(crewmember/NN-8,duration/NN-7)
+				prep_as(assigned/VBN-3,crewmember/NN-8)
+				det(Station/NNP-13,the/DT-10)
+				nn(Station/NNP-13,International/NNP-11)
+				nn(Station/NNP-13,Space/NNP-12)
+				prep_on(crewmember/NN-8,Station/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>crewmember</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He launched as Mission Specialist 5 aboard the STS-123 (Space Shuttle Endeavour) mission on March 11, 2008.	</value>
+
+		<annotated-sentence>	He launched as [[Mission Specialist|Mission_Specialist]] 5 aboard the [[STS-123|STS-123]] ([[Space Shuttle Endeavour|Space_Shuttle_Endeavour]]) [[mission|Mission_Specialist]] on March 11, 2008.	</annotated-sentence>
+
+		<pattern_crowdsource>	He launched as Mission Specialist 5 aboard the [[STS-123|STS-123]] (Space Shuttle Endeavour) mission on March 11, 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,He/PRP-1)
+				nn(Specialist/NNP-5,Mission/NNP-4)
+				prep_as(launched/VBD-2,Specialist/NNP-5)
+				npadvmod(aboard/IN-7,5/CD-6)
+				advmod(launched/VBD-2,aboard/IN-7)
+				det(mission/NN-15,the/DT-8)
+				nn(mission/NN-15,STS-123/NN-9)
+				dep(mission/NN-15,Space/NN-11)
+				nn(Endeavour/NNP-13,Shuttle/NNP-12)
+				dep(Space/NN-11,Endeavour/NNP-13)
+				npadvmod(launched/VBD-2,mission/NN-15)
+				prep_on(launched/VBD-2,March/NNP-17)
+				num(March/NNP-17,11/CD-18)
+				num(March/NNP-17,2008/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After docking he took part in the first spacewalk of the mission.	</value>
+
+		<annotated-sentence>	After docking he took part in [[the first spacewalk|Spacewalk_(software)]] of the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	After docking he took part in the first spacewalk of the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(took/VBD-4,docking/NN-2)
+				nsubj(took/VBD-4,he/PRP-3)
+				dobj(took/VBD-4,part/NN-5)
+				det(spacewalk/NN-9,the/DT-7)
+				amod(spacewalk/NN-9,first/JJ-8)
+				prep_in(took/VBD-4,spacewalk/NN-9)
+				det(mission/NN-12,the/DT-11)
+				prep_of(spacewalk/NN-9,mission/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first spacewalk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman stayed on board as Flight Engineer 2 for part of Expedition 16 and part of Expedition 17.	</value>
+
+		<annotated-sentence>	[[Reisman|Garrett_Reisman]] stayed on board as [[Flight Engineer|Flight_engineer]] 2 for part of [[Expedition 16|Expedition_16]] and part of [[Expedition 17|Expedition_17]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Reisman|Garrett_Reisman]] stayed on board as Flight Engineer 2 for part of [[Expedition 16|Expedition_16]] and part of [[Expedition 17|Expedition_17]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(stayed/VBD-2,Reisman/NNP-1)
+				prep_on(stayed/VBD-2,board/NN-4)
+				nn(Engineer/NNP-7,Flight/NNP-6)
+				prep_as(stayed/VBD-2,Engineer/NNP-7)
+				num(Engineer/NNP-7,2/CD-8)
+				prep_for(stayed/VBD-2,part/NN-10)
+				prep_of(part/NN-10,Expedition/NN-12)
+				num(Expedition/NN-12,16/CD-13)
+				prep_for(stayed/VBD-2,part/NN-15)
+				conj_and(part/NN-10,part/NN-15)
+				prep_of(part/NN-15,Expedition/NN-17)
+				num(Expedition/NN-17,17/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Garrett_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_16</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 17</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_17</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_16
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_16 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Expedition_16
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_17
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_17 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Having completed his mission, he returned to Earth as Mission Specialist 5 aboard STS-124 on June 14, 2008.	</value>
+
+		<annotated-sentence>	Having completed [[his mission|Mission_Specialist]], he returned to [[Earth|Earth]] as [[Mission Specialist|Mission_Specialist]] 5 aboard [[STS-124|STS-124]] on June 14, 2008.	</annotated-sentence>
+
+		<pattern_crowdsource>	Having completed his mission, he returned to Earth as Mission Specialist 5 aboard [[STS-124|STS-124]] on June 14, 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				aux(completed/VBN-2,Having/VBG-1)
+				partmod(returned/VBD-7,completed/VBN-2)
+				poss(mission/NN-4,his/PRP$-3)
+				dobj(completed/VBN-2,mission/NN-4)
+				nsubj(returned/VBD-7,he/PRP-6)
+				prep_to(returned/VBD-7,Earth/NNP-9)
+				nn(Specialist/NNP-12,Mission/NNP-11)
+				prep_as(returned/VBD-7,Specialist/NNP-12)
+				num(Specialist/NNP-12,5/CD-13)
+				prep_aboard(returned/VBD-7,STS-124/NN-15)
+				prep_on(STS-124/NN-15,June/NNP-17)
+				num(June/NNP-17,14/CD-18)
+				num(June/NNP-17,2008/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-124</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-124</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-124
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crew7Down http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-124 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time on board the ISS he had seen two visiting Space Shuttles and the installation of the Special Purpose Dexterous Manipulator (SPDM) and the pressurized section of the Japanese Experiment Module "Kibo".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(seen/VBN-10,time/NN-3)
+				prep_on(time/NN-3,board/NN-5)
+				det(ISS/NNP-7,the/DT-6)
+				dep(board/NN-5,ISS/NNP-7)
+				nsubj(seen/VBN-10,he/PRP-8)
+				aux(seen/VBN-10,had/VBD-9)
+				num(Shuttles/NNS-14,two/CD-11)
+				amod(Shuttles/NNS-14,visiting/VBG-12)
+				nn(Shuttles/NNS-14,Space/NN-13)
+				dobj(seen/VBN-10,Shuttles/NNS-14)
+				det(installation/NN-17,the/DT-16)
+				dobj(seen/VBN-10,installation/NN-17)
+				conj_and(Shuttles/NNS-14,installation/NN-17)
+				det(Purpose/NN-21,the/DT-19)
+				amod(Purpose/NN-21,Special/JJ-20)
+				prep_of(installation/NN-17,Purpose/NN-21)
+				amod(Manipulator/NN-23,Dexterous/JJ-22)
+				dep(Purpose/NN-21,Manipulator/NN-23)
+				appos(Manipulator/NN-23,SPDM/NN-25)
+				det(section/NN-30,the/DT-28)
+				amod(section/NN-30,pressurized/JJ-29)
+				prep_of(installation/NN-17,section/NN-30)
+				conj_and(Purpose/NN-21,section/NN-30)
+				det(Kibo/NNP-37,the/DT-32)
+				amod(Kibo/NNP-37,Japanese/JJ-33)
+				nn(Kibo/NNP-37,Experiment/NN-34)
+				nn(Kibo/NNP-37,Module/NN-35)
+				prep_of(section/NN-30,Kibo/NNP-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman was the first Jewish crew member on the International Space Station.	</value>
+
+		<annotated-sentence>	[[Reisman|Heather_Reisman]] was the first [[Jewish|Judaism]] [[crew member|Crewman]] on [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Reisman|Heather_Reisman]] was the first [[Jewish|Judaism]] crew member on the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-7,Reisman/NNP-1)
+				cop(member/NN-7,was/VBD-2)
+				det(member/NN-7,the/DT-3)
+				amod(member/NN-7,first/JJ-4)
+				amod(member/NN-7,Jewish/JJ-5)
+				nn(member/NN-7,crew/NN-6)
+				det(Station/NNP-12,the/DT-9)
+				nn(Station/NNP-12,International/NNP-10)
+				nn(Station/NNP-12,Space/NNP-11)
+				prep_on(member/NN-7,Station/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heather_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jewish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Judaism</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Heather_Reisman http://dbpedia.org/ontology/religion http://dbpedia.org/resource/Judaism
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He sent a greeting from space to the people of Israel during the celebration of Israel's 60th Independence Day in May 2008.	</value>
+
+		<annotated-sentence>	He sent a greeting from [[space|Space]] to [[the people of Israel|Israelites]] during the celebration of [[Israel|Israelites]]'s 60th [[Independence|Independence]] Day in [[May 2008|May_2008]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He sent a greeting from space to the people of Israel during the celebration of Israel's 60th Independence Day in May 2008.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(sent/VBD-2,He/PRP-1)
+				dobj(sent/VBD-2,a/DT-3)
+				amod(a/DT-3,greeting/VBG-4)
+				prep_from(sent/VBD-2,space/NN-6)
+				det(people/NNS-9,the/DT-8)
+				prep_to(sent/VBD-2,people/NNS-9)
+				prep_of(people/NNS-9,Israel/NNP-11)
+				det(celebration/NN-14,the/DT-13)
+				prep_during(sent/VBD-2,celebration/NN-14)
+				poss(Day/NN-20,Israel/NNP-16)
+				amod(Day/NN-20,60th/JJ-18)
+				nn(Day/NN-20,Independence/NN-19)
+				prep_of(celebration/NN-14,Day/NN-20)
+				prep_in(Day/NN-20,May/NNP-22)
+				num(May/NNP-22,2008/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the people of Israel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Israelites</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Israel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Israelites</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Independence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Independence</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_2008</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also did an entertaining, high definition video of "A day in the life of a space station crew member" while on board as well as demonstrating in the large, and at the time empty, Kibo section, that humans cannot "swim" in the microgravity of orbital space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(did/VBD-3,He/PRP-1)
+				nsubj(demonstrating/VBG-30,He/PRP-1)
+				advmod(did/VBD-3,also/RB-2)
+				det(video/NN-9,an/DT-4)
+				amod(high/JJ-7,entertaining/JJ-5)
+				amod(video/NN-9,high/JJ-7)
+				nn(video/NN-9,definition/NN-8)
+				dobj(did/VBD-3,video/NN-9)
+				det(day/NN-13,A/DT-12)
+				prep_of(video/NN-9,day/NN-13)
+				det(life/NN-16,the/DT-15)
+				prep_in(day/NN-13,life/NN-16)
+				det(member/NN-22,a/DT-18)
+				nn(member/NN-22,space/NN-19)
+				nn(member/NN-22,station/NN-20)
+				nn(member/NN-22,crew/NN-21)
+				prep_of(life/NN-16,member/NN-22)
+				prep(did/VBD-3,while/IN-24)
+				pcomp(while/IN-24,on/IN-25)
+				pobj(on/IN-25,board/NN-26)
+				conj_and(did/VBD-3,demonstrating/VBG-30)
+				det(large/JJ-33,the/DT-32)
+				prep_in(demonstrating/VBG-30,large/JJ-33)
+				det(time/NN-38,the/DT-37)
+				prep_at(swim/VBP-49,time/NN-38)
+				amod(time/NN-38,empty/JJ-39)
+				nn(section/NN-42,Kibo/NNP-41)
+				nsubj(swim/VBP-49,section/NN-42)
+				dobj(can/MD-46,that/WDT-44)
+				nsubj(can/MD-46,humans/NNS-45)
+				rcmod(section/NN-42,can/MD-46)
+				neg(can/MD-46,not/RB-47)
+				conj_and(did/VBD-3,swim/VBP-49)
+				det(microgravity/NN-53,the/DT-52)
+				prep_in(swim/VBP-49,microgravity/NN-53)
+				amod(space/NN-56,orbital/JJ-55)
+				prep_of(microgravity/NN-53,space/NN-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman was a member of the STS-132 mission that traveled to the International Space Station aboard Space Shuttle Atlantis from May 14 to 26, 2010.	</value>
+
+		<annotated-sentence>	[[Reisman|Garrett_Reisman]] was a member of the [[STS-132|STS-132]] mission that traveled to [[the International Space Station|International_Space_Station]] aboard [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] from [[May 14|May_14]] to 26, [[2010|2010]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Reisman|Garrett_Reisman]] was a member of the [[STS-132|STS-132]] mission that traveled to the International Space Station aboard Space Shuttle Atlantis from May 14 to 26, 2010.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,Reisman/NNP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				det(mission/NN-8,the/DT-6)
+				nn(mission/NN-8,STS-132/NN-7)
+				prep_of(member/NN-4,mission/NN-8)
+				nsubj(traveled/VBD-10,that/WDT-9)
+				rcmod(member/NN-4,traveled/VBD-10)
+				det(Station/NNP-15,the/DT-12)
+				nn(Station/NNP-15,International/NNP-13)
+				nn(Station/NNP-15,Space/NNP-14)
+				prep_to(traveled/VBD-10,Station/NNP-15)
+				nn(Atlantis/NNP-19,Space/NNP-17)
+				nn(Atlantis/NNP-19,Shuttle/NNP-18)
+				prep_aboard(traveled/VBD-10,Atlantis/NNP-19)
+				prep_from(Atlantis/NNP-19,May/NNP-21)
+				num(May/NNP-21,14/CD-22)
+				prep_to(traveled/VBD-10,26/CD-24)
+				amod(26/CD-24,2010/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Garrett_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-132</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-132</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/May_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2010</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-132
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-132 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Garrett_Reisman
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He participated in two spacewalks during this mission.	</value>
+
+		<annotated-sentence>	He participated in [[two spacewalks|Spacewalk_(software)]] during this mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He participated in two spacewalks during this mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,He/PRP-1)
+				num(spacewalks/NNS-5,two/CD-4)
+				prep_in(participated/VBD-2,spacewalks/NNS-5)
+				det(mission/NN-8,this/DT-7)
+				prep_during(participated/VBD-2,mission/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On March 4, 2011, SpaceX announced that Reisman would be joining the company as a senior engineer working on astronaut safety and mission assurance.	</value>
+
+		<annotated-sentence>	On March 4, 2011, [[SpaceX|SpaceX]] announced that [[Reisman|Garrett_Reisman]] would be joining [[the company|Company]] as a senior [[engineer|Engineer]] working on [[astronaut|Astronaut]] safety and [[mission assurance|Mission_assurance]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On March 4, 2011, [[SpaceX|SpaceX]] announced that [[Reisman|Garrett_Reisman]] would be joining [[the company|Company]] as a senior engineer working on [[astronaut|Astronaut]] safety and mission assurance.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(announced/VBD-8,March/NNP-2)
+				num(March/NNP-2,4/CD-3)
+				num(March/NNP-2,2011/CD-5)
+				nsubj(announced/VBD-8,SpaceX/NNP-7)
+				mark(joining/VBG-13,that/IN-9)
+				nsubj(joining/VBG-13,Reisman/NNP-10)
+				aux(joining/VBG-13,would/MD-11)
+				aux(joining/VBG-13,be/VB-12)
+				ccomp(announced/VBD-8,joining/VBG-13)
+				det(company/NN-15,the/DT-14)
+				dobj(joining/VBG-13,company/NN-15)
+				det(engineer/NN-19,a/DT-17)
+				amod(engineer/NN-19,senior/JJ-18)
+				prep_as(joining/VBG-13,engineer/NN-19)
+				partmod(engineer/NN-19,working/VBG-20)
+				nn(safety/NN-23,astronaut/NN-22)
+				prep_on(working/VBG-20,safety/NN-23)
+				nn(assurance/NN-26,mission/NN-25)
+				prep_on(working/VBG-20,assurance/NN-26)
+				conj_and(safety/NN-23,assurance/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>SpaceX</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SpaceX</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reisman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Garrett_Reisman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission assurance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_assurance</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceX http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Company
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A self-proclaimed member of the "Colbert Universe", Reisman was interviewed live from space on the May 8, 2008 episode of The Colbert Report after being seen wearing a "WristStrong" bracelet.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(member/NN-3,A/DT-1)
+				amod(member/NN-3,self-proclaimed/JJ-2)
+				ccomp(interviewed/VBN-13,member/NN-3)
+				det(Universe/NNP-8,the/DT-5)
+				nn(Universe/NNP-8,Colbert/NNP-7)
+				prep_of(member/NN-3,Universe/NNP-8)
+				nsubjpass(interviewed/VBN-13,Reisman/NNP-11)
+				auxpass(interviewed/VBN-13,was/VBD-12)
+				acomp(interviewed/VBN-13,live/JJ-14)
+				prep_from(interviewed/VBN-13,space/NN-16)
+				det(episode/NN-23,the/DT-18)
+				amod(episode/NN-23,May/NNP-19)
+				num(May/NNP-19,8/CD-20)
+				num(May/NNP-19,2008/CD-22)
+				prep_on(interviewed/VBN-13,episode/NN-23)
+				det(Report/NNP-27,The/DT-25)
+				nn(Report/NNP-27,Colbert/NNP-26)
+				prep_of(episode/NN-23,Report/NNP-27)
+				auxpass(seen/VBN-30,being/VBG-29)
+				prepc_after(interviewed/VBN-13,seen/VBN-30)
+				xcomp(seen/VBN-30,wearing/VBG-31)
+				det(bracelet/NN-36,a/DT-32)
+				nn(bracelet/NN-36,WristStrong/NNP-34)
+				dobj(wearing/VBG-31,bracelet/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On July 24, 2008, after returning to Earth, Reisman appeared in person on The Colbert Report as that night's featured guest.	</value>
+
+		<annotated-sentence>	On [[July|July]] 24, 2008, after returning to [[Earth|Earth]], Reisman appeared in [[person|Person]] on [[The Colbert Report|The_Colbert_Report]] as that night's featured guest.	</annotated-sentence>
+
+		<pattern_crowdsource>	On July 24, 2008, after returning to Earth, Reisman appeared in [[person|Person]] on The Colbert Report as that night's featured guest.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(appeared/VBD-13,July/NNP-2)
+				num(July/NNP-2,24/CD-3)
+				num(July/NNP-2,2008/CD-5)
+				prepc_after(appeared/VBD-13,returning/VBG-8)
+				prep_to(returning/VBG-8,Earth/NNP-10)
+				nsubj(appeared/VBD-13,Reisman/NNP-12)
+				prep_in(appeared/VBD-13,person/NN-15)
+				det(Report/NNP-19,The/DT-17)
+				nn(Report/NNP-19,Colbert/NNP-18)
+				prep_on(person/NN-15,Report/NNP-19)
+				det(night/NN-22,that/DT-21)
+				poss(guest/NN-25,night/NN-22)
+				amod(guest/NN-25,featured/JJ-24)
+				prep_as(appeared/VBD-13,guest/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>The Colbert Report</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Colbert_Report</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Garrett_Reisman http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman presented Stephen Colbert with the WristStrong bracelet he had worn while in space.	</value>
+
+		<annotated-sentence>	Reisman presented [[Stephen Colbert|Stephen_Colbert]] with the [[WristStrong|Stephen_Colbert_(character)]] [[bracelet|Bracelet]] he had worn while in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reisman presented [[Stephen Colbert|Stephen_Colbert]] with the [[WristStrong|Stephen_Colbert_(character)]] bracelet he had worn while in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(presented/VBD-2,Reisman/NNP-1)
+				nn(Colbert/NNP-4,Stephen/NNP-3)
+				dobj(presented/VBD-2,Colbert/NNP-4)
+				det(bracelet/NN-8,the/DT-6)
+				nn(bracelet/NN-8,WristStrong/NNP-7)
+				prep_with(Colbert/NNP-4,bracelet/NN-8)
+				nsubj(had/VBD-10,he/PRP-9)
+				rcmod(Colbert/NNP-4,had/VBD-10)
+				xcomp(had/VBD-10,worn/VBG-11)
+				prep(worn/VBG-11,while/IN-12)
+				pcomp(while/IN-12,in/IN-13)
+				pobj(in/IN-13,space/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stephen Colbert</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stephen_Colbert</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>WristStrong</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stephen_Colbert_(character)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bracelet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bracelet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stephen_Colbert_(character) http://dbpedia.org/ontology/creator http://dbpedia.org/resource/Stephen_Colbert
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stephen_Colbert_(character) http://dbpedia.org/ontology/portrayer http://dbpedia.org/resource/Stephen_Colbert
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman filmed a cameo appearance as a Colonial Marine for the series finale episode of Battlestar Galactica.	</value>
+
+		<annotated-sentence>	Reisman filmed [[a cameo appearance|Cameo_appearance]] as [[a Colonial Marine|Colonial_Marines]] for the [[series finale|Series_finale]] [[episode|Series_finale]] of [[Battlestar Galactica|Battlestar_Galactica]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reisman filmed a cameo appearance as a Colonial Marine for the series finale episode of Battlestar Galactica.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(filmed/VBD-2,Reisman/NN-1)
+				det(appearance/NN-5,a/DT-3)
+				nn(appearance/NN-5,cameo/NN-4)
+				dobj(filmed/VBD-2,appearance/NN-5)
+				det(Marine/NNP-9,a/DT-7)
+				nn(Marine/NNP-9,Colonial/NNP-8)
+				prep_as(filmed/VBD-2,Marine/NNP-9)
+				det(episode/NN-14,the/DT-11)
+				nn(episode/NN-14,series/NN-12)
+				nn(episode/NN-14,finale/NN-13)
+				prep_for(filmed/VBD-2,episode/NN-14)
+				nn(Galactica/NNP-17,Battlestar/NNP-16)
+				prep_of(episode/NN-14,Galactica/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a cameo appearance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cameo_appearance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Colonial Marine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonial_Marines</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>series finale</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Series_finale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>episode</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Series_finale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Battlestar Galactica</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Battlestar_Galactica</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Space.com reported that his scene, in which "someone throws up on him and then he dies", might not be in the final edit of the episode which aired March 20, 2009.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reported/VBD-2,Space.com/NNP-1)
+				mark(be/VB-23,that/IN-3)
+				poss(scene/NN-5,his/PRP$-4)
+				nsubj(be/VB-23,scene/NN-5)
+				prep_in(throws/VBZ-11,which/WDT-8)
+				nsubj(throws/VBZ-11,someone/NN-10)
+				rcmod(scene/NN-5,throws/VBZ-11)
+				prt(throws/VBZ-11,up/RP-12)
+				prep_on(throws/VBZ-11,him/PRP-14)
+				advmod(dies/VBZ-18,then/RB-16)
+				nsubj(dies/VBZ-18,he/PRP-17)
+				rcmod(scene/NN-5,dies/VBZ-18)
+				conj_and(throws/VBZ-11,dies/VBZ-18)
+				aux(be/VB-23,might/MD-21)
+				neg(be/VB-23,not/RB-22)
+				ccomp(reported/VBD-2,be/VB-23)
+				det(edit/NN-27,the/DT-25)
+				amod(edit/NN-27,final/JJ-26)
+				prep_in(be/VB-23,edit/NN-27)
+				det(episode/NN-30,the/DT-29)
+				prep_of(edit/NN-27,episode/NN-30)
+				nsubj(aired/VBD-32,which/WDT-31)
+				rcmod(episode/NN-30,aired/VBD-32)
+				tmod(aired/VBD-32,March/NNP-33)
+				num(March/NNP-33,20/CD-34)
+				num(March/NNP-33,2009/CD-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the podcast for the final (as aired) episode, producer Ron Moore confirmed that one of the people seen in the background of a scene where a Raptor arms its nuclear payload (shortly before being destroyed) was Reisman.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(podcast/NN-3,the/DT-2)
+				prep_in(confirmed/VBD-16,podcast/NN-3)
+				det(episode/NN-11,the/DT-5)
+				amod(episode/NN-11,final/JJ-6)
+				mark(aired/VBN-9,as/IN-8)
+				dep(episode/NN-11,aired/VBN-9)
+				prep_for(podcast/NN-3,episode/NN-11)
+				appos(episode/NN-11,producer/NN-13)
+				nn(Moore/NNP-15,Ron/NNP-14)
+				nsubj(confirmed/VBD-16,Moore/NNP-15)
+				mark(seen/VBN-22,that/IN-17)
+				nsubj(seen/VBN-22,one/CD-18)
+				det(people/NNS-21,the/DT-20)
+				prep_of(one/CD-18,people/NNS-21)
+				ccomp(confirmed/VBD-16,seen/VBN-22)
+				det(background/NN-25,the/DT-24)
+				prep_in(seen/VBN-22,background/NN-25)
+				det(scene/NN-28,a/DT-27)
+				prep_of(background/NN-25,scene/NN-28)
+				advmod(Reisman/NNP-43,where/WRB-29)
+				det(arms/NNS-32,a/DT-30)
+				nn(arms/NNS-32,Raptor/NNP-31)
+				nsubj(Reisman/NNP-43,arms/NNS-32)
+				poss(payload/NN-35,its/PRP$-33)
+				amod(payload/NN-35,nuclear/JJ-34)
+				dep(arms/NNS-32,payload/NN-35)
+				advmod(arms/NNS-32,shortly/RB-37)
+				auxpass(destroyed/VBN-40,being/VBG-39)
+				prepc_before(arms/NNS-32,destroyed/VBN-40)
+				cop(Reisman/NNP-43,was/VBD-42)
+				rcmod(scene/NN-28,Reisman/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Reisman was a childhood classmate of actress Jane Krakowski.	</value>
+
+		<annotated-sentence>	Reisman was a [[childhood|Childhood]] [[classmate|Classmate_Stationery]] of actress [[Jane Krakowski|Jane_Krakowski]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Reisman was a childhood classmate of actress Jane Krakowski.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(classmate/NN-5,Reisman/NNP-1)
+				cop(classmate/NN-5,was/VBD-2)
+				det(classmate/NN-5,a/DT-3)
+				nn(classmate/NN-5,childhood/NN-4)
+				nn(Krakowski/NNP-9,actress/NN-7)
+				nn(Krakowski/NNP-9,Jane/NNP-8)
+				prep_of(classmate/NN-5,Krakowski/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>childhood</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Childhood</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>classmate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Classmate_Stationery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Jane Krakowski</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jane_Krakowski</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In May, 2010, Krakowski said on The Tonight Show with Jay Leno that she and Reisman exchanged e-mails while he was in space on Space Shuttle Atlantis.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(said/VBD-7,May/NNP-2)
+				amod(May/NNP-2,2010/CD-4)
+				nsubj(said/VBD-7,Krakowski/NNP-6)
+				det(Show/NN-11,The/DT-9)
+				nn(Show/NN-11,Tonight/NNP-10)
+				prep_on(said/VBD-7,Show/NN-11)
+				nn(Leno/NNP-14,Jay/NNP-13)
+				prep_with(said/VBD-7,Leno/NNP-14)
+				mark(exchanged/VBD-19,that/IN-15)
+				nsubj(exchanged/VBD-19,she/PRP-16)
+				conj_and(she/PRP-16,Reisman/NNP-18)
+				nsubj(exchanged/VBD-19,Reisman/NNP-18)
+				ccomp(said/VBD-7,exchanged/VBD-19)
+				dobj(exchanged/VBD-19,e-mails/NNS-20)
+				mark(was/VBD-23,while/IN-21)
+				nsubj(was/VBD-23,he/PRP-22)
+				advcl(exchanged/VBD-19,was/VBD-23)
+				prep_in(was/VBD-23,space/NN-25)
+				nn(Atlantis/NNP-29,Space/NN-27)
+				nn(Atlantis/NNP-29,Shuttle/NNP-28)
+				prep_on(space/NN-25,Atlantis/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the request of the crew, many of whom were 30 Rock fans, Krakowski provided an autographed script of the show which was brought into space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(request/NN-3,the/DT-2)
+				prep_at(provided/VBD-17,request/NN-3)
+				det(crew/NN-6,the/DT-5)
+				prep_of(request/NN-3,crew/NN-6)
+				nsubj(fans/NNS-14,many/JJ-8)
+				prep_of(many/JJ-8,whom/WP-10)
+				cop(fans/NNS-14,were/VBD-11)
+				num(fans/NNS-14,30/CD-12)
+				nn(fans/NNS-14,Rock/NNP-13)
+				rcmod(crew/NN-6,fans/NNS-14)
+				nsubj(provided/VBD-17,Krakowski/NNP-16)
+				det(script/NN-20,an/DT-18)
+				amod(script/NN-20,autographed/JJ-19)
+				dobj(provided/VBD-17,script/NN-20)
+				det(show/NN-23,the/DT-22)
+				prep_of(script/NN-20,show/NN-23)
+				nsubjpass(brought/VBN-26,which/WDT-24)
+				auxpass(brought/VBN-26,was/VBD-25)
+				rcmod(show/NN-23,brought/VBN-26)
+				prep_into(brought/VBN-26,space/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

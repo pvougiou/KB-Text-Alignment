@@ -1,0 +1,1042 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Dr. Gerhard Paul Julius Thiele (born September 2, 1953) is a German physicist and a former ESA astronaut.	</value>
+
+		<annotated-sentence>	Dr. [[Gerhard Paul Julius Thiele|Gerhard_Thiele]] (born [[September|September]] 2, 1953) is a [[German|Germany]] [[physicist|Physicist]] and a former [[ESA|European_Space_Agency]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. [[Gerhard Paul Julius Thiele|Gerhard_Thiele]] (born September 2, 1953) is a [[German|Germany]] [[physicist|Physicist]] and a former ESA [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Thiele/NNP-5,Dr./NNP-1)
+				nn(Thiele/NNP-5,Gerhard/NNP-2)
+				nn(Thiele/NNP-5,Paul/NNP-3)
+				nn(Thiele/NNP-5,Julius/NNP-4)
+				nsubj(physicist/NN-16,Thiele/NNP-5)
+				dep(Thiele/NNP-5,born/VBN-7)
+				tmod(born/VBN-7,September/NNP-8)
+				num(September/NNP-8,2/CD-9)
+				num(September/NNP-8,1953/CD-11)
+				cop(physicist/NN-16,is/VBZ-13)
+				det(physicist/NN-16,a/DT-14)
+				amod(physicist/NN-16,German/JJ-15)
+				det(astronaut/NN-21,a/DT-18)
+				amod(astronaut/NN-21,former/JJ-19)
+				nn(astronaut/NN-21,ESA/NNP-20)
+				conj_and(physicist/NN-16,astronaut/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gerhard Paul Julius Thiele</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gerhard_Thiele</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>German</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physicist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physicist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ESA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Physicist
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Heidenheim an der Brenz, he attended the Friedrich-Schiller-Gymnasium in Ludwigsburg.	</value>
+
+		<annotated-sentence>	Born in Heidenheim an der [[Brenz|Brenz]], he attended the Friedrich-Schiller-Gymnasium in [[Ludwigsburg|Ludwigsburg]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in Heidenheim an der Brenz, he attended the Friedrich-Schiller-Gymnasium in Ludwigsburg.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(attended/VBD-9,Born/VBN-1)
+				prep_in(Born/VBN-1,Heidenheim/NNP-3)
+				det(der/NN-5,an/DT-4)
+				nn(Brenz/NNP-6,der/NN-5)
+				dobj(Born/VBN-1,Brenz/NNP-6)
+				nsubj(attended/VBD-9,he/PRP-8)
+				det(Friedrich-Schiller-Gymnasium/NNP-11,the/DT-10)
+				dobj(attended/VBD-9,Friedrich-Schiller-Gymnasium/NNP-11)
+				prep_in(attended/VBD-9,Ludwigsburg/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Brenz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brenz</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ludwigsburg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ludwigsburg</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After school he volunteered for the German Navy, serving as Operations/Weapons Officer aboard fast patrol boats.	</value>
+
+		<annotated-sentence>	After [[school|School]] he volunteered for [[the German Navy|German_Navy]], serving as Operations/Weapons [[Officer|Officer]] aboard [[fast patrol boats|P21_class_inshore_patrol_vessel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After school he volunteered for the German Navy, serving as Operations/Weapons Officer aboard fast patrol boats.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(volunteered/VBD-4,school/NN-2)
+				nsubj(volunteered/VBD-4,he/PRP-3)
+				det(Navy/NNP-8,the/DT-6)
+				amod(Navy/NNP-8,German/JJ-7)
+				prep_for(volunteered/VBD-4,Navy/NNP-8)
+				xcomp(volunteered/VBD-4,serving/VBG-10)
+				nn(Officer/NNP-13,Operations/Weapons/NNP-12)
+				prep_as(serving/VBG-10,Officer/NNP-13)
+				amod(boats/NNS-17,fast/JJ-15)
+				nn(boats/NNS-17,patrol/NN-16)
+				prep_aboard(Officer/NNP-13,boats/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fast patrol boats</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/P21_class_inshore_patrol_vessel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1976 he began to study physics at the University of Munich and the University of Heidelberg.	</value>
+
+		<annotated-sentence>	In [[1976|1976]] he began to study [[physics|Physics]] at [[the University of Munich|Ludwig_Maximilian_University_of_Munich]] and [[the University of Heidelberg|University_of_Heidelberg]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1976 he began to study physics at the University of Munich and the University of Heidelberg.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(began/VBD-4,1976/CD-2)
+				nsubj(began/VBD-4,he/PRP-3)
+				aux(study/VB-6,to/TO-5)
+				xcomp(began/VBD-4,study/VB-6)
+				dobj(study/VB-6,physics/NNS-7)
+				det(University/NNP-10,the/DT-9)
+				prep_at(study/VB-6,University/NNP-10)
+				prep_of(University/NNP-10,Munich/NNP-12)
+				det(University/NNP-15,the/DT-14)
+				prep_at(study/VB-6,University/NNP-15)
+				conj_and(University/NNP-10,University/NNP-15)
+				prep_of(University/NNP-15,Heidelberg/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Munich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ludwig_Maximilian_University_of_Munich</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Heidelberg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Heidelberg</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received his doctorate in Heidelberg in 1985 in Environmental Physics.	</value>
+
+		<annotated-sentence>	He received [[his doctorate|Doctorate]] in [[Heidelberg|Heidelberg]] in [[1985|1985]] in Environmental [[Physics|Physics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received his doctorate in Heidelberg in 1985 in Environmental Physics.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				poss(doctorate/NN-4,his/PRP$-3)
+				dobj(received/VBD-2,doctorate/NN-4)
+				prep_in(received/VBD-2,Heidelberg/NNP-6)
+				prep_in(Heidelberg/NNP-6,1985/CD-8)
+				nn(Physics/NN-11,Environmental/NNP-10)
+				prep_in(received/VBD-2,Physics/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Heidelberg</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heidelberg</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1986 to 1987 he was a postdoc at Princeton University.	</value>
+
+		<annotated-sentence>	From [[1986 to|3753_Cruithne]] [[1987|1987]] he was [[a postdoc|Postdoctoral_research]] at [[Princeton University|Princeton_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1986 to 1987 he was a postdoc at Princeton University.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1987/CD-4,1986/CD-2)
+				dep(1987/CD-4,to/TO-3)
+				prep_from(postdoc/NN-8,1987/CD-4)
+				nsubj(postdoc/NN-8,he/PRP-5)
+				cop(postdoc/NN-8,was/VBD-6)
+				det(postdoc/NN-8,a/DT-7)
+				nn(University/NNP-11,Princeton/NNP-10)
+				prep_at(postdoc/NN-8,University/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1986 to</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3753_Cruithne</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a postdoc</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Postdoctoral_research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Princeton University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Princeton_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1988 he was selected for the German astronaut team and began basic training at the DLR.	</value>
+
+		<annotated-sentence>	In [[1988|1988]] he was selected for [[the German astronaut team|German_astronaut_team]] and began basic training at the DLR.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1988 he was selected for the German astronaut team and began basic training at the DLR.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,1988/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				nsubjpass(began/VBD-12,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(team/NN-10,the/DT-7)
+				amod(team/NN-10,German/JJ-8)
+				nn(team/NN-10,astronaut/NN-9)
+				prep_for(selected/VBN-5,team/NN-10)
+				conj_and(selected/VBN-5,began/VBD-12)
+				amod(training/NN-14,basic/JJ-13)
+				dobj(began/VBD-12,training/NN-14)
+				det(DLR/NN-17,the/DT-16)
+				prep_at(began/VBD-12,DLR/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German astronaut team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_astronaut_team</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1990 he was selected as a backup crew member for the German spacelab mission D-2 (STS-55).	</value>
+
+		<annotated-sentence>	In [[1990|1990]] he was selected as a [[backup|Backup]] [[crew member|Crewman]] for the German [[spacelab|Spacelab]] mission D-2 ([[STS-55|STS-55]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1990 he was selected as a backup crew member for the German spacelab mission D-2 ([[STS-55|STS-55]]).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-5,1990/CD-2)
+				nsubjpass(selected/VBN-5,he/PRP-3)
+				auxpass(selected/VBN-5,was/VBD-4)
+				det(member/NN-10,a/DT-7)
+				nn(member/NN-10,backup/NN-8)
+				nn(member/NN-10,crew/NN-9)
+				prep_as(selected/VBN-5,member/NN-10)
+				det(D-2/NN-16,the/DT-12)
+				amod(D-2/NN-16,German/JJ-13)
+				nn(D-2/NN-16,spacelab/NN-14)
+				nn(D-2/NN-16,mission/NN-15)
+				prep_for(member/NN-10,D-2/NN-16)
+				appos(D-2/NN-16,STS-55/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-55</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-55</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-55 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Gerhard_Thiele
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission, which took part in April 1993, he worked in the Payload Operations Control Center of DLR at Oberpfaffenhofen as the alternate payload specialist.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(worked/VBD-13,mission/NN-3)
+				nsubj(took/VBD-6,which/WDT-5)
+				rcmod(mission/NN-3,took/VBD-6)
+				dobj(took/VBD-6,part/NN-7)
+				prep_in(took/VBD-6,April/NNP-9)
+				num(April/NNP-9,1993/CD-10)
+				nsubj(worked/VBD-13,he/PRP-12)
+				det(Center/NNP-19,the/DT-15)
+				nn(Center/NNP-19,Payload/NNP-16)
+				nn(Center/NNP-19,Operations/NNP-17)
+				nn(Center/NNP-19,Control/NNP-18)
+				prep_in(worked/VBD-13,Center/NNP-19)
+				prep_of(Center/NNP-19,DLR/NNP-21)
+				prep_at(worked/VBD-13,Oberpfaffenhofen/NNP-23)
+				det(specialist/NN-28,the/DT-25)
+				amod(specialist/NN-28,alternate/JJ-26)
+				nn(specialist/NN-28,payload/NN-27)
+				prep_as(worked/VBD-13,specialist/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1996, he was selected by the German Space Agency to receive Space Shuttle Mission Specialist training at NASA.	</value>
+
+		<annotated-sentence>	In [[1996|1996]], he was selected by [[the German Space Agency|German_Aerospace_Center]] to receive [[Space Shuttle|SpaceShuttle]] [[Mission|Lyndon_B._Johnson_Space_Center]] Specialist [[training|Training]] at [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1996, he was selected by [[the German Space Agency|German_Aerospace_Center]] to receive Space Shuttle [[Mission|Lyndon_B._Johnson_Space_Center]] Specialist training at [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1996/CD-2)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				det(Agency/NNP-11,the/DT-8)
+				amod(Agency/NNP-11,German/JJ-9)
+				nn(Agency/NNP-11,Space/NN-10)
+				agent(selected/VBN-6,Agency/NNP-11)
+				aux(receive/VB-13,to/TO-12)
+				xcomp(selected/VBN-6,receive/VB-13)
+				nn(Mission/NNP-16,Space/NN-14)
+				nn(Mission/NNP-16,Shuttle/NNP-15)
+				nsubj(training/NN-18,Mission/NNP-16)
+				nn(training/NN-18,Specialist/NN-17)
+				xcomp(receive/VB-13,training/NN-18)
+				prep_at(training/NN-18,NASA/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the German Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/German_Aerospace_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://dbpedia.org/ontology/type http://dbpedia.org/resource/German_Aerospace_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1998, he joined the European Space Agency (ESA), into which the German national team was integrated.	</value>
+
+		<annotated-sentence>	In [[August 1998|1998]], he joined [[the European Space Agency|European_Space_Agency]] ([[ESA|European_Space_Agency]]), into which the German national team was integrated.	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1998, he joined the European Space Agency (ESA), into which the German national team was integrated.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-6,August/NNP-2)
+				num(August/NNP-2,1998/CD-3)
+				nsubj(joined/VBD-6,he/PRP-5)
+				det(Agency/NNP-10,the/DT-7)
+				amod(Agency/NNP-10,European/JJ-8)
+				nn(Agency/NNP-10,Space/NNP-9)
+				dobj(joined/VBD-6,Agency/NNP-10)
+				appos(Agency/NNP-10,ESA/NNP-12)
+				prep_into(integrated/VBN-22,which/WDT-16)
+				det(team/NN-20,the/DT-17)
+				amod(team/NN-20,German/JJ-18)
+				amod(team/NN-20,national/JJ-19)
+				nsubjpass(integrated/VBN-22,team/NN-20)
+				auxpass(integrated/VBN-22,was/VBD-21)
+				rcmod(Agency/NNP-10,integrated/VBN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ESA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2000, he completed his only spaceflight, the STS-99 Shuttle Radar Topography Mission.	</value>
+
+		<annotated-sentence>	In [[2000|2000]], he completed [[his only spaceflight|Spaceflight]], the [[STS-99|STS-99]] [[Shuttle Radar Topography Mission|Shuttle_Radar_Topography_Mission]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2000, he completed his only spaceflight, the [[STS-99|STS-99]] Shuttle Radar Topography Mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(completed/VBD-5,2000/CD-2)
+				nsubj(completed/VBD-5,he/PRP-4)
+				poss(spaceflight/NN-8,his/PRP$-6)
+				amod(spaceflight/NN-8,only/JJ-7)
+				dobj(completed/VBD-5,spaceflight/NN-8)
+				det(Mission/NNP-15,the/DT-10)
+				nn(Mission/NNP-15,STS-99/NNP-11)
+				nn(Mission/NNP-15,Shuttle/NNP-12)
+				nn(Mission/NNP-15,Radar/NNP-13)
+				nn(Mission/NNP-15,Topography/NNP-14)
+				appos(spaceflight/NN-8,Mission/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his only spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-99</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-99</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle Radar Topography Mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Radar_Topography_Mission</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gerhard_Thiele http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-99
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 2003 and 2004, he trained in Russia as the backup for André Kuipers on the Soyuz TMA-4 mission.	</value>
+
+		<annotated-sentence>	During 2003 and 2004, he trained in [[Russia|Russia]] as [[the backup|Backup]] for [[André Kuipers|Andr%C3%A9_Kuipers]] on the [[Soyuz TMA-4|Soyuz_TMA-4]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	During 2003 and 2004, he trained in Russia as the backup for [[André Kuipers|Andr%C3%A9_Kuipers]] on the [[Soyuz TMA-4|Soyuz_TMA-4]] mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(trained/VBD-7,2003/CD-2)
+				conj_and(2003/CD-2,2004/CD-4)
+				prep_during(trained/VBD-7,2004/CD-4)
+				nsubj(trained/VBD-7,he/PRP-6)
+				prep_in(trained/VBD-7,Russia/NNP-9)
+				det(backup/NN-12,the/DT-11)
+				prep_as(trained/VBD-7,backup/NN-12)
+				nn(Kuipers/NNP-15,André/NNP-14)
+				prep_for(backup/NN-12,Kuipers/NNP-15)
+				det(mission/NN-20,the/DT-17)
+				nn(mission/NN-20,Soyuz/NNP-18)
+				nn(mission/NN-20,TMA-4/NN-19)
+				prep_on(Kuipers/NNP-15,mission/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>André Kuipers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Andr%C3%A9_Kuipers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-4</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Andr%C3%A9_Kuipers http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-4 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Andr%C3%A9_Kuipers
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-4 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Andr%C3%A9_Kuipers
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from the European Astronaut Corps in October 2005.	</value>
+
+		<annotated-sentence>	He retired from [[the European Astronaut Corps|European_Astronaut_Corps]] in [[October 2005|October_2005]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from the European Astronaut Corps in October 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				det(Corps/NNP-7,the/DT-4)
+				amod(Corps/NNP-7,European/JJ-5)
+				nn(Corps/NNP-7,Astronaut/NNP-6)
+				prep_from(retired/VBD-2,Corps/NNP-7)
+				prep_in(retired/VBD-2,October/NNP-9)
+				num(October/NNP-9,2005/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the European Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_2005</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As from 1 April 2010 he became Resident Fellow with the European Space Policy Institute in Vienna, Austria.	</value>
+
+		<annotated-sentence>	As from 1 [[April 2010|April_2010]] he became Resident [[Fellow|Fellow]] with the [[European Space Policy|Space_policy_of_the_European_Union]] Institute in [[Vienna , Austria|FK_Austria_Wien]]	</annotated-sentence>
+
+		<pattern_crowdsource>	As from 1 April 2010 he became Resident Fellow with the European Space Policy Institute in Vienna, Austria.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_as_from(Fellow/NNP-9,from/IN-2)
+				pobj(Fellow/NNP-9,1/CD-3)
+				tmod(from/IN-2,April/NNP-4)
+				num(April/NNP-4,2010/CD-5)
+				nsubj(Fellow/NNP-9,he/PRP-6)
+				cop(Fellow/NNP-9,became/VBD-7)
+				nn(Fellow/NNP-9,Resident/NNP-8)
+				det(Institute/NNP-15,the/DT-11)
+				amod(Institute/NNP-15,European/JJ-12)
+				nn(Institute/NNP-15,Space/NN-13)
+				nn(Institute/NNP-15,Policy/NNP-14)
+				prep_with(Fellow/NNP-9,Institute/NNP-15)
+				nn(Austria/NNP-19,Vienna/NNP-17)
+				prep_in(Fellow/NNP-9,Austria/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>April 2010</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2010</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fellow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fellow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>European Space Policy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_policy_of_the_European_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vienna , Austria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/FK_Austria_Wien</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Gerhard Thiele has been appointed as the head of ESA's Human Spaceflight and Operations Strategic Planning and Outreach office (HSO-K) effective 01 July 2013.	</value>
+
+		<annotated-sentence>	[[Gerhard Thiele|Gerhard_Thiele]] has been appointed as the head of [[ESA|European_Space_Agency]]'s [[Human|Human]] [[Spaceflight|Spaceflight]] and Operations [[Strategic Planning|Strategic_planning]] and [[Outreach|Outreach]] [[office|Office]] (HSO-K) effective 01 [[July 2013|2013]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Gerhard Thiele has been appointed as the head of ESA's Human Spaceflight and Operations Strategic Planning and Outreach office (HSO-K) effective 01 July 2013.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Thiele/NNP-2,Gerhard/NNP-1)
+				nsubjpass(appointed/VBN-5,Thiele/NNP-2)
+				aux(appointed/VBN-5,has/VBZ-3)
+				auxpass(appointed/VBN-5,been/VBN-4)
+				det(head/NN-8,the/DT-7)
+				prep_as(appointed/VBN-5,head/NN-8)
+				poss(Spaceflight/NN-13,ESA/NNP-10)
+				amod(Spaceflight/NN-13,Human/JJ-12)
+				prep_of(head/NN-8,Spaceflight/NN-13)
+				nn(Planning/NNP-17,Operations/NNP-15)
+				nn(Planning/NNP-17,Strategic/NNP-16)
+				prep_as(appointed/VBN-5,Planning/NNP-17)
+				conj_and(head/NN-8,Planning/NNP-17)
+				nn(office/NN-20,Outreach/NNP-19)
+				conj_and(head/NN-8,office/NN-20)
+				conj_and(Planning/NNP-17,office/NN-20)
+				appos(office/NN-20,HSO-K/NN-22)
+				amod(office/NN-20,effective/JJ-24)
+				tmod(effective/JJ-24,01/CD-25)
+				tmod(appointed/VBN-5,July/NNP-26)
+				num(July/NNP-26,2013/CD-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gerhard Thiele</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gerhard_Thiele</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ESA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Human</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Strategic Planning</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Strategic_planning</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Outreach</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outreach</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2013</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

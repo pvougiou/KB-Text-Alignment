@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Bone marrow contains stem cells, which are immature cells that become blood cells.</value>
+		<pattern_crowdsource> [[Bone marrow|C0005953]] contains [[stem cells|C0038250]], which are immature cells that become blood cells.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Bone marrow</surface-form>
+				<RDF-ID>C0005953</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stem cells</surface-form>
+				<RDF-ID>C0038250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immature</surface-form>
+				<RDF-ID>C0205252</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood cells</surface-form>
+				<RDF-ID>C0005773</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038250 PART_OF C0005953</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People with life-threatening diseases, such as leukemia, lymphoma, and myeloma can be treated with a bone marrow transplant.</value>
+		<pattern_crowdsource> [[People|C0027361]] with life-threatening [[diseases|C0012634]], such as [[leukemia|C0023418]], [[lymphoma|C0024299]], and myeloma can be treated with a [[bone marrow transplant|C0005961]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>life-threatening</surface-form>
+				<RDF-ID>C1546953</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leukemia</surface-form>
+				<RDF-ID>C0023418</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymphoma</surface-form>
+				<RDF-ID>C0024299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow transplant</surface-form>
+				<RDF-ID>C0005961</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023418 ISA C0012634</triple>
+			<triple>C0024299 ISA C0023418</triple>
+			<triple>C0012634 PROCESS_OF C0027361</triple>
+			<triple>C0005961 TREATS C0024299</triple>
+			<triple>C0023418 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Sometimes parents, children, and other relatives are good matches.</value>
+		<pattern_crowdsource> Sometimes [[parents|C0030551]], [[children|C0008059]], and other [[relatives|C0080103]] are good matches.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>parents</surface-form>
+				<RDF-ID>C0030551</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>relatives</surface-form>
+				<RDF-ID>C0080103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>good</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>matches</surface-form>
+				<RDF-ID>C0336766</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008059 ISA C0080103</triple>
+			<triple>C0080103 ISA C0008059</triple>
+			<triple>C0080103 ISA C0030551</triple>
+			<triple>C0030551 ISA C0080103</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>But only about 30% of people who need a bone marrow transplant can find a matching donor in their own family.</value>
+		<pattern_crowdsource> But only about 30% of people who need a [[bone marrow transplant|C0005961]] can find a matching donor in their own [[family|C0015576]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow transplant</surface-form>
+				<RDF-ID>C0005961</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>matching</surface-form>
+				<RDF-ID>C0150103</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>own</surface-form>
+				<RDF-ID>C1546511</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>C0015576</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005961 TREATS C0015576</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>People who register must either:  - Use a cotton swab to take a sample of cells from the inside of their cheek  - Give a small blood sample (about 1 tablespoon)    This tissue is then tested for special proteins, called human leukocytes antigens (HLA).</value>
+		<pattern_crowdsource> [[People|C0027361]] who register must either:  - Use a [[cotton swab|C0183754]] to take a sample of cells from the inside of their cheek  - Give a small blood sample (about 1 tablespoon)    This tissue is then tested for special proteins, called human leukocytes antigens (HLA).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cotton swab</surface-form>
+				<RDF-ID>C0183754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cheek</surface-form>
+				<RDF-ID>C1279153</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sample</surface-form>
+				<RDF-ID>C0178913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tablespoon</surface-form>
+				<RDF-ID>C1532188</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>proteins</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>human leukocytes antigens</surface-form>
+				<RDF-ID>C0019721</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027361 USES C0183754</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

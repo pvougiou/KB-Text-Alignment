@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>They can include:  - Abdominal pain  - Nausea  - Vomiting  - Diarrhea    The person may also have a fever.</value>
+		<pattern_crowdsource> They can include:  - Abdominal pain  - Nausea  - Vomiting  - Diarrhea    The [[person|C0027361]] may also have a [[fever|C0015967]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abdominal pain</surface-form>
+				<RDF-ID>C0000737</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Nausea  - Vomiting</surface-form>
+				<RDF-ID>C0027498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Diarrhea</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015967 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Chest x-ray  - EKG (electrocardiogram or heart tracing)  - Fluids through a vein (by IV)  - Laxatives to move the poison quickly through the body and remove it  - Medicines to treat symptoms and reverse the effects of the poison</value>
+		<pattern_crowdsource> - Chest x-ray  - EKG (electrocardiogram or heart tracing)  - Fluids through a vein (by IV)  - Laxatives to move the poison quickly through the body and remove it  - [[Medicines|C0013227]] to treat [[symptoms|C1457887]] and reverse the effects of the poison		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Chest x-ray</surface-form>
+				<RDF-ID>C0039985</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EKG</surface-form>
+				<RDF-ID>C0013798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>electrocardiogram</surface-form>
+				<RDF-ID>C0013798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Laxatives</surface-form>
+				<RDF-ID>C0282090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poison</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>effects</surface-form>
+				<RDF-ID>C1280500</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>poison</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C1457887</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

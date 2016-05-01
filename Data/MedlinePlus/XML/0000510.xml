@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You may have this test if you have an unexplained fever or if your health care provider thinks you have an infection of the bone marrow.</value>
+		<pattern_crowdsource> You may have this test if you have an unexplained fever or if your [[health care provider|C0018724]] thinks you have an [[infection|C0009450]] of the [[bone marrow|C0005953]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fever</surface-form>
+				<RDF-ID>C0015967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow</surface-form>
+				<RDF-ID>C0005953</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009450 PROCESS_OF C0018724</triple>
+			<triple>C0005953 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal results suggest that you have an infection of the bone marrow.</value>
+		<pattern_crowdsource> Abnormal results suggest that you have an [[infection|C0009450]] of the [[bone marrow|C0005953]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal results</surface-form>
+				<RDF-ID>C0459424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow</surface-form>
+				<RDF-ID>C0005953</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005953 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

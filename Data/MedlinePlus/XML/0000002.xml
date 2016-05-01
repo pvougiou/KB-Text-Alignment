@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>However, it can interact with birth control pills, antidepressants, and other drugs.</value>
+		<pattern_crowdsource> However, it can interact with [[birth control pills|C0009905]], [[antidepressants|C0003289]], and other [[drugs|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>birth control pills</surface-form>
+				<RDF-ID>C0009905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antidepressants</surface-form>
+				<RDF-ID>C0003289</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003289 ISA C0013227</triple>
+			<triple>C0013227 ISA C0003289</triple>
+			<triple>C0013227 ISA C0009905</triple>
+			<triple>C0009905 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The bark can cause high blood pressure, increased heart rate, anxiety, and other side effects.</value>
+		<pattern_crowdsource> The [[bark|C1366490]] can cause [[high blood pressure|C0020538]], [[increased heart rate|C0039231]], anxiety, and other [[side effects|C0879626]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>bark</surface-form>
+				<RDF-ID>C1366490</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>increased heart rate</surface-form>
+				<RDF-ID>C0039231</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anxiety</surface-form>
+				<RDF-ID>C0003467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>side effects</surface-form>
+				<RDF-ID>C0879626</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1366490 CAUSES C0020538</triple>
+			<triple>C1366490 CAUSES C0879626</triple>
+			<triple>C1366490 CAUSES C0039231</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

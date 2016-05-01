@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The test is done in a gastroenterology laboratory.</value>
+		<pattern_crowdsource> The [[test|C0039593]] is done in a gastroenterology [[laboratory|C0022877]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>laboratory</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022877 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A positive test hows that your symptoms are caused by esophageal reflux of acid from the stomach.</value>
+		<pattern_crowdsource> A positive test hows that your [[symptoms|C1457887]] are caused by [[esophageal reflux|C0017168]] of acid from the stomach.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>positive</surface-form>
+				<RDF-ID>C1446409</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophageal reflux</surface-form>
+				<RDF-ID>C0017168</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acid</surface-form>
+				<RDF-ID>C0001128</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017168 CAUSES C1457887</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

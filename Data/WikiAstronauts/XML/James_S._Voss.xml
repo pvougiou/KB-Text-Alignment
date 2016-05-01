@@ -1,0 +1,4731 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Shelton Voss (born March 3, 1949) is the Vice President of Engineering at SpaceDev.	</value>
+
+		<annotated-sentence>	[[James Shelton Voss|James_S._Voss]] (born March 3, 1949) is [[the Vice President|Vice_president]] of [[Engineering|Engineering]] at [[SpaceDev|SpaceDev]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[James Shelton Voss|James_S._Voss]] (born March 3, 1949) is the Vice President of Engineering at [[SpaceDev|SpaceDev]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Voss/NNP-3,James/NNP-1)
+				nn(Voss/NNP-3,Shelton/NNP-2)
+				nsubj(President/NNP-14,Voss/NNP-3)
+				dep(Voss/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,March/NNP-6)
+				num(March/NNP-6,3/CD-7)
+				num(March/NNP-6,1949/CD-9)
+				cop(President/NNP-14,is/VBZ-11)
+				det(President/NNP-14,the/DT-12)
+				nn(President/NNP-14,Vice/NNP-13)
+				prep_of(President/NNP-14,Engineering/NNP-16)
+				prep_at(Engineering/NNP-16,SpaceDev/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Shelton Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_S._Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SpaceDev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SpaceDev</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceDev http://dbpedia.org/ontology/keyPerson http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a retired United States Army Colonel and NASA astronaut.	</value>
+
+		<annotated-sentence>	He is a retired [[United States Army|United_States_Army]] [[Colonel|Colonel]] and [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a retired [[United States Army|United_States_Army]] Colonel and [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Colonel/NNP-8,He/PRP-1)
+				cop(Colonel/NNP-8,is/VBZ-2)
+				det(Colonel/NNP-8,a/DT-3)
+				amod(Colonel/NNP-8,retired/JJ-4)
+				nn(Colonel/NNP-8,United/NNP-5)
+				nn(Colonel/NNP-8,States/NNPS-6)
+				nn(Colonel/NNP-8,Army/NNP-7)
+				nn(astronaut/NN-11,NASA/NNP-10)
+				conj_and(Colonel/NNP-8,astronaut/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>United States Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Army
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time with NASA, Voss flew in space five times on board the Space Shuttle and International Space Station.	</value>
+
+		<annotated-sentence>	During his time with [[NASA|NASA]], [[Voss|Voss]] flew in [[space|Space]] five times on board [[the Space Shuttle|SpaceShuttle]] and [[International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During his time with [[NASA|NASA]], Voss flew in space five times on board the Space Shuttle and International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(flew/VBD-8,time/NN-3)
+				prep_with(time/NN-3,NASA/NNP-5)
+				nsubj(flew/VBD-8,Voss/NNP-7)
+				prep_in(flew/VBD-8,space/NN-10)
+				num(times/NNS-12,five/CD-11)
+				tmod(space/NN-10,times/NNS-12)
+				prep_on(space/NN-10,board/NN-14)
+				det(Shuttle/NNP-17,the/DT-15)
+				nn(Shuttle/NNP-17,Space/NN-16)
+				dep(space/NN-10,Shuttle/NNP-17)
+				nn(Station/NNP-21,International/NNP-19)
+				nn(Station/NNP-21,Space/NNP-20)
+				dep(space/NN-10,Station/NNP-21)
+				conj_and(Shuttle/NNP-17,Station/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as deputy of Flight Operations for the Space Station Program Mission Integration and Operations Office.	</value>
+
+		<annotated-sentence>	He also served as deputy of [[Flight Operations|Flight_Operations]] for the [[Space Station|SpaceStation]] [[Program|Tiangong_program]] Mission Integration and [[Operations|Flight_Operations]] [[Office|Office]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also served as deputy of Flight Operations for the Space Station Program Mission Integration and Operations Office.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				prep_as(served/VBD-3,deputy/NN-5)
+				nn(Operations/NNP-8,Flight/NNP-7)
+				prep_of(deputy/NN-5,Operations/NNP-8)
+				det(Integration/NN-15,the/DT-10)
+				nn(Integration/NN-15,Space/NN-11)
+				nn(Integration/NN-15,Station/NNP-12)
+				nn(Integration/NN-15,Program/NNP-13)
+				nn(Integration/NN-15,Mission/NNP-14)
+				prep_for(served/VBD-3,Integration/NN-15)
+				nn(Office/NNP-18,Operations/NNP-17)
+				prep_for(served/VBD-3,Office/NNP-18)
+				conj_and(Integration/NN-15,Office/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tiangong_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While participating in ISS Expedition 2, he and Susan Helms conducted an 8 hour and 56 minute spacewalk, the longest to date.	</value>
+
+		<annotated-sentence>	While participating in [[ISS|Expedition_2]] [[Expedition 2|Expedition_2]], he and [[Susan Helms|Susan_J._Helms]] conducted an 8 [[hour|Hour]] and 56 [[minute|Minute]] [[spacewalk|Spacewalk_(software)]], the longest to date.	</annotated-sentence>
+
+		<pattern_crowdsource>	While participating in [[ISS|Expedition_2]] [[Expedition 2|Expedition_2]], he and [[Susan Helms|Susan_J._Helms]] conducted an 8 hour and 56 minute spacewalk, the longest to date.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(participating/VBG-2,While/IN-1)
+				advcl(conducted/VBD-12,participating/VBG-2)
+				prep_in(participating/VBG-2,ISS/NNP-4)
+				dep(participating/VBG-2,Expedition/NN-5)
+				dep(Expedition/NN-5,2/CD-6)
+				nsubj(conducted/VBD-12,he/PRP-8)
+				nn(Helms/NNP-11,Susan/NNP-10)
+				conj_and(he/PRP-8,Helms/NNP-11)
+				nsubj(conducted/VBD-12,Helms/NNP-11)
+				det(hour/NN-15,an/DT-13)
+				amod(hour/NN-15,8/CD-14)
+				dobj(conducted/VBD-12,hour/NN-15)
+				num(spacewalk/NN-19,56/CD-17)
+				nn(spacewalk/NN-19,minute/NN-18)
+				dobj(conducted/VBD-12,spacewalk/NN-19)
+				conj_and(hour/NN-15,spacewalk/NN-19)
+				det(longest/JJS-22,the/DT-21)
+				appos(spacewalk/NN-19,longest/JJS-22)
+				prep_to(conducted/VBD-12,date/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Susan Helms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Susan_J._Helms</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacewalk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_2
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Susan_J._Helms
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Susan_J._Helms
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_2
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Susan_J._Helms
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Susan_J._Helms
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was born on March 3, 1949 in Cordova, Alabama and was raised by his grandparents in Opelika, Alabama.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was born on March 3, 1949 in [[Cordova , Alabama|Cordova,_Alabama]]and was raised by [[his grandparents|Grandparent]] in [[Opelika , Alabama|Opelika,_Alabama]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was born on March 3, 1949 in Cordova, Alabama and was raised by his grandparents in Opelika, Alabama.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Voss/NNP-1)
+				nsubjpass(raised/VBN-15,Voss/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,March/NNP-5)
+				num(March/NNP-5,3/CD-6)
+				num(March/NNP-5,1949/CD-8)
+				nn(Alabama/NNP-12,Cordova/NNP-10)
+				prep_in(March/NNP-5,Alabama/NNP-12)
+				auxpass(raised/VBN-15,was/VBD-14)
+				conj_and(born/VBN-3,raised/VBN-15)
+				poss(grandparents/NNS-18,his/PRP$-17)
+				agent(raised/VBN-15,grandparents/NNS-18)
+				nn(Alabama/NNP-22,Opelika/NNP-20)
+				prep_in(raised/VBN-15,Alabama/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cordova , Alabama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cordova,_Alabama</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his grandparents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grandparent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Opelika , Alabama</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Opelika,_Alabama</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Cordova,_Alabama
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a child he read a lot of science fiction with an emphasis on spaceflight.	</value>
+
+		<annotated-sentence>	As [[a child|Child]] he read a lot of [[science fiction|Science_fiction]] with an emphasis on [[spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As a child he read a lot of science fiction with an emphasis on spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				det(child/NN-3,a/DT-2)
+				prep_as(read/VBD-5,child/NN-3)
+				nsubj(read/VBD-5,he/PRP-4)
+				det(lot/NN-7,a/DT-6)
+				dobj(read/VBD-5,lot/NN-7)
+				nn(fiction/NN-10,science/NN-9)
+				prep_of(lot/NN-7,fiction/NN-10)
+				det(emphasis/NN-13,an/DT-12)
+				prep_with(read/VBD-5,emphasis/NN-13)
+				prep_on(emphasis/NN-13,spaceflight/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a child</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science fiction</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science_fiction</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While attending Opelika High School he participated in wrestling and football.	</value>
+
+		<annotated-sentence>	While attending [[Opelika High School|Opelika_High_School]] he participated in wrestling and football.	</annotated-sentence>
+
+		<pattern_crowdsource>	While attending Opelika High School he participated in wrestling and football.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(attending/VBG-2,While/IN-1)
+				advcl(participated/VBD-7,attending/VBG-2)
+				nn(School/NNP-5,Opelika/NNP-3)
+				nn(School/NNP-5,High/NNP-4)
+				dobj(attending/VBG-2,School/NNP-5)
+				nsubj(participated/VBD-7,he/PRP-6)
+				prep_in(participated/VBD-7,wrestling/NN-9)
+				prep_in(participated/VBD-7,football/NN-11)
+				conj_and(wrestling/NN-9,football/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Opelika High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Opelika_High_School</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating high school, Voss attended Auburn University.	</value>
+
+		<annotated-sentence>	After graduating [[high school|High_school]], [[Voss|Voss]] attended [[Auburn University|Auburn_University]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating high school, Voss attended Auburn University.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(attended/VBD-7,graduating/VBG-2)
+				amod(school/NN-4,high/JJ-3)
+				dobj(graduating/VBG-2,school/NN-4)
+				nsubj(attended/VBD-7,Voss/NNP-6)
+				nn(University/NNP-9,Auburn/NNP-8)
+				dobj(attended/VBD-7,University/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>high school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/High_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Auburn University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Auburn_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As an undergraduate, he played on the Auburn University wrestling team.	</value>
+
+		<annotated-sentence>	As an undergraduate, he played on [[the Auburn University|Auburn_University]] wrestling [[team|Team]].	</annotated-sentence>
+
+		<pattern_crowdsource>	As an undergraduate, he played on the Auburn University wrestling team.	</pattern_crowdsource>
+
+
+		<tree>
+				det(undergraduate/JJ-3,an/DT-2)
+				prep_as(played/VBD-6,undergraduate/JJ-3)
+				nsubj(played/VBD-6,he/PRP-5)
+				det(University/NNP-10,the/DT-8)
+				nn(University/NNP-10,Auburn/NNP-9)
+				prep_on(played/VBD-6,University/NNP-10)
+				xcomp(played/VBD-6,wrestling/VBG-11)
+				dobj(wrestling/VBG-11,team/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Auburn University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Auburn_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a member of Beta Zeta Chapter of the Theta Xi Fraternity, where he served as Chapter President for the school year 1970-71.	</value>
+
+		<annotated-sentence>	He was also a member of [[Beta|BETA]] Zeta Chapter of the [[Theta Xi|Theta_Xi]] [[Fraternity|Fraternity]], where he served as Chapter [[President|President]] for [[the school year|Academic_term]] 1970-71.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a member of Beta Zeta Chapter of the Theta Xi Fraternity, where he served as Chapter President for the school year 1970-71.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-5,He/PRP-1)
+				cop(member/NN-5,was/VBD-2)
+				advmod(member/NN-5,also/RB-3)
+				det(member/NN-5,a/DT-4)
+				nn(Chapter/NNP-9,Beta/NN-7)
+				nn(Chapter/NNP-9,Zeta/NNP-8)
+				prep_of(member/NN-5,Chapter/NNP-9)
+				det(Fraternity/NN-14,the/DT-11)
+				nn(Fraternity/NN-14,Theta/NNP-12)
+				nn(Fraternity/NN-14,Xi/NN-13)
+				prep_of(Chapter/NNP-9,Fraternity/NN-14)
+				advmod(served/VBD-18,where/WRB-16)
+				nsubj(served/VBD-18,he/PRP-17)
+				advcl(member/NN-5,served/VBD-18)
+				nn(President/NNP-21,Chapter/NNP-20)
+				prep_as(served/VBD-18,President/NNP-21)
+				det(year/NN-25,the/DT-23)
+				nn(year/NN-25,school/NN-24)
+				prep_for(President/NNP-21,year/NN-25)
+				tmod(served/VBD-18,1970-71/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Beta</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BETA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Theta Xi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Theta_Xi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fraternity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fraternity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the school year</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academic_term</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at Auburn, Voss also participated in Army ROTC.	</value>
+
+		<annotated-sentence>	While at Auburn, [[Voss|Voss]] also participated in Army ROTC.	</annotated-sentence>
+
+		<pattern_crowdsource>	While at Auburn, Voss also participated in Army ROTC.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(participated/VBD-7,at/IN-2)
+				pobj(at/IN-2,Auburn/NNP-3)
+				nsubj(participated/VBD-7,Voss/NNP-5)
+				advmod(participated/VBD-7,also/RB-6)
+				nn(ROTC/NNP-10,Army/NNP-9)
+				prep_in(participated/VBD-7,ROTC/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating with a Bachelor of Science degree in Aerospace Engineering in 1972 he was commissioned as a Second Lieutenant in the U.S. Army.	</value>
+
+		<annotated-sentence>	After graduating with [[a Bachelor of Science degree|Bachelor_of_Science]] in [[Aerospace Engineering|Aerospace_engineering]] in [[1972|1972_(album)]] he was commissioned as a Second Lieutenant in the U.S. Army.	</annotated-sentence>
+
+		<pattern_crowdsource>	After graduating with a Bachelor of Science degree in Aerospace Engineering in 1972 he was commissioned as a Second Lieutenant in the U.S. Army.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(commissioned/VBN-16,graduating/VBG-2)
+				det(Bachelor/NN-5,a/DT-4)
+				prep_with(graduating/VBG-2,Bachelor/NN-5)
+				nn(degree/NN-8,Science/NNP-7)
+				prep_of(Bachelor/NN-5,degree/NN-8)
+				nn(Engineering/NNP-11,Aerospace/NNP-10)
+				prep_in(graduating/VBG-2,Engineering/NNP-11)
+				prep_in(Engineering/NNP-11,1972/CD-13)
+				nsubjpass(commissioned/VBN-16,he/PRP-14)
+				auxpass(commissioned/VBN-16,was/VBD-15)
+				det(Lieutenant/NN-20,a/DT-18)
+				amod(Lieutenant/NN-20,Second/JJ-19)
+				prep_as(commissioned/VBN-16,Lieutenant/NN-20)
+				det(Army/NNP-24,the/DT-22)
+				nn(Army/NNP-24,U.S./NNP-23)
+				prep_in(Lieutenant/NN-20,Army/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Under the Army Graduate Fellowship Program, Voss was allowed to defer his entry into active duty in order to attend the University of Colorado.	</value>
+
+		<annotated-sentence>	Under the [[Army|Army]] Graduate Fellowship Program, [[Voss|Voss]] was allowed to defer his entry into [[active duty|Active_duty]] in order to attend [[the University of Colorado|University_of_Colorado]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Under the Army Graduate Fellowship Program, Voss was allowed to defer his entry into active duty in order to attend the University of Colorado.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Program/NNP-6,the/DT-2)
+				nn(Program/NNP-6,Army/NNP-3)
+				nn(Program/NNP-6,Graduate/NNP-4)
+				nn(Program/NNP-6,Fellowship/NNP-5)
+				prep_under(allowed/VBN-10,Program/NNP-6)
+				nsubjpass(allowed/VBN-10,Voss/NNP-8)
+				auxpass(allowed/VBN-10,was/VBD-9)
+				aux(defer/VB-12,to/TO-11)
+				xcomp(allowed/VBN-10,defer/VB-12)
+				poss(entry/NN-14,his/PRP$-13)
+				dobj(defer/VB-12,entry/NN-14)
+				amod(duty/NN-17,active/JJ-16)
+				prep_into(defer/VB-12,duty/NN-17)
+				mark(attend/VB-21,in/IN-18)
+				dep(attend/VB-21,order/NN-19)
+				aux(attend/VB-21,to/TO-20)
+				advcl(defer/VB-12,attend/VB-21)
+				det(University/NNP-23,the/DT-22)
+				dobj(attend/VB-21,University/NNP-23)
+				prep_of(University/NNP-23,Colorado/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Army</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Army</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>active duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Active_duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated in 1974 with a Master of Science degree in Aerospace Engineering Sciences.	</value>
+
+		<annotated-sentence>	He graduated in [[1974|Rudebox]] with [[a Master of Science degree|Master%27s_degree]] in [[Aerospace Engineering|Aerospace_engineering]] Sciences.	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated in 1974 with a Master of Science degree in Aerospace Engineering Sciences.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				prep_in(graduated/VBD-2,1974/CD-4)
+				det(Master/NN-7,a/DT-6)
+				prep_with(graduated/VBD-2,Master/NN-7)
+				nn(degree/NN-10,Science/NNP-9)
+				prep_of(Master/NN-7,degree/NN-10)
+				nn(Sciences/NNPS-14,Aerospace/NNP-12)
+				nn(Sciences/NNPS-14,Engineering/NNP-13)
+				prep_in(graduated/VBD-2,Sciences/NNPS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After receiving his Masters degree, Voss attended the Infantry Basic Course in 1974 where he was listed as a Distinguished Graduate.	</value>
+
+		<annotated-sentence>	After receiving his Masters degree, [[Voss|Voss]] attended the [[Infantry|Infantry]] [[Basic|BASIC]] Course in [[1974|Rudebox]] where he was listed as a [[Distinguished|Distinguishing]] Graduate.	</annotated-sentence>
+
+		<pattern_crowdsource>	After receiving his Masters degree, Voss attended the Infantry Basic Course in 1974 where he was listed as a Distinguished Graduate.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(attended/VBD-8,receiving/VBG-2)
+				poss(degree/NN-5,his/PRP$-3)
+				nn(degree/NN-5,Masters/NN-4)
+				dobj(receiving/VBG-2,degree/NN-5)
+				nsubj(attended/VBD-8,Voss/NNP-7)
+				det(Course/NNP-12,the/DT-9)
+				nn(Course/NNP-12,Infantry/NNP-10)
+				nn(Course/NNP-12,Basic/NNP-11)
+				dobj(attended/VBD-8,Course/NNP-12)
+				prep_in(Course/NNP-12,1974/CD-14)
+				advmod(listed/VBN-18,where/WRB-15)
+				nsubjpass(listed/VBN-18,he/PRP-16)
+				auxpass(listed/VBN-18,was/VBD-17)
+				advcl(attended/VBD-8,listed/VBN-18)
+				det(Graduate/NNP-22,a/DT-20)
+				nn(Graduate/NNP-22,Distinguished/NNP-21)
+				prep_as(listed/VBN-18,Graduate/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Infantry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infantry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Basic</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BASIC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then attended Airborne School and Ranger School, at the latter he was awarded the Honor Graduate and Leadership Award.	</value>
+
+		<annotated-sentence>	He then attended [[Airborne School|United_States_Army_Airborne_School]] and [[Ranger School|Ranger_School]], at the latter he was awarded the Honor Graduate and [[Leadership|Leadership]] [[Award|Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then attended Airborne School and Ranger School, at the latter he was awarded the Honor Graduate and Leadership Award.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				advmod(attended/VBD-3,then/RB-2)
+				nn(School/NNP-5,Airborne/NNP-4)
+				dobj(attended/VBD-3,School/NNP-5)
+				nn(School/NNP-8,Ranger/NNP-7)
+				dobj(attended/VBD-3,School/NNP-8)
+				conj_and(School/NNP-5,School/NNP-8)
+				det(latter/JJ-12,the/DT-11)
+				prep_at(attended/VBD-3,latter/JJ-12)
+				nsubjpass(awarded/VBN-15,he/PRP-13)
+				auxpass(awarded/VBN-15,was/VBD-14)
+				rcmod(latter/JJ-12,awarded/VBN-15)
+				det(Graduate/NN-18,the/DT-16)
+				nn(Graduate/NN-18,Honor/NN-17)
+				dobj(awarded/VBN-15,Graduate/NN-18)
+				nn(Award/NN-21,Leadership/NN-20)
+				dobj(awarded/VBN-15,Award/NN-21)
+				conj_and(Graduate/NN-18,Award/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Airborne School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Airborne_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ranger School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranger_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Leadership</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Leadership</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was then stationed with the 2nd Battalion, 48th Infantry Regiment in West Germany serving as a platoon leader, intelligence staff officer, and company commander.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was then stationed with the 2nd Battalion, [[48th Infantry Regiment|48th_Infantry_Regiment_(United_States)]] in [[West Germany|West_Germany]] serving as [[a platoon leader|Platoon_leader]], [[intelligence|Intelligence]] [[staff officer|Staff_(military)]], and company commander.	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was then stationed with the 2nd Battalion, 48th Infantry Regiment in West Germany serving as a platoon leader, intelligence staff officer, and company commander.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(stationed/VBN-4,Voss/NNP-1)
+				auxpass(stationed/VBN-4,was/VBD-2)
+				advmod(stationed/VBN-4,then/RB-3)
+				det(Battalion/NN-8,the/DT-6)
+				amod(Battalion/NN-8,2nd/JJ-7)
+				prep_with(stationed/VBN-4,Battalion/NN-8)
+				amod(Regiment/NNP-12,48th/JJ-10)
+				nn(Regiment/NNP-12,Infantry/NNP-11)
+				appos(Battalion/NN-8,Regiment/NNP-12)
+				nn(Germany/NNP-15,West/NNP-14)
+				prep_in(Regiment/NNP-12,Germany/NNP-15)
+				partmod(Germany/NNP-15,serving/VBG-16)
+				det(leader/NN-20,a/DT-18)
+				nn(leader/NN-20,platoon/NN-19)
+				prep_as(serving/VBG-16,leader/NN-20)
+				nn(officer/NN-24,intelligence/NN-22)
+				nn(officer/NN-24,staff/NN-23)
+				prep_as(serving/VBG-16,officer/NN-24)
+				conj_and(leader/NN-20,officer/NN-24)
+				nn(commander/NN-28,company/NN-27)
+				prep_as(serving/VBG-16,commander/NN-28)
+				conj_and(leader/NN-20,commander/NN-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>48th Infantry Regiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/48th_Infantry_Regiment_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a platoon leader</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Platoon_leader</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>intelligence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Intelligence</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>staff officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Staff_(military)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He returned to the United States and attended the Infantry Officer Advanced Course in 1979, making the Commandant's List.	</value>
+
+		<annotated-sentence>	He returned to [[the United States|United_States]] and attended the [[Infantry|Infantry]] [[Officer|Officer]] [[Advanced|Relative_articulation]] Course in [[1979|1979]], making the [[Commandant|Commandant]]'s List.	</annotated-sentence>
+
+		<pattern_crowdsource>	He returned to [[the United States|United_States]] and attended the Infantry Officer Advanced Course in 1979, making the Commandant's List.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,He/PRP-1)
+				nsubj(attended/VBD-8,He/PRP-1)
+				det(States/NNPS-6,the/DT-4)
+				nn(States/NNPS-6,United/NNP-5)
+				prep_to(returned/VBD-2,States/NNPS-6)
+				conj_and(returned/VBD-2,attended/VBD-8)
+				det(Course/NNP-13,the/DT-9)
+				nn(Course/NNP-13,Infantry/NNP-10)
+				nn(Course/NNP-13,Officer/NNP-11)
+				nn(Course/NNP-13,Advanced/NNP-12)
+				dobj(attended/VBD-8,Course/NNP-13)
+				prep_in(attended/VBD-8,1979/CD-15)
+				dep(attended/VBD-8,making/VBG-17)
+				det(Commandant/NN-19,the/DT-18)
+				poss(List/NN-21,Commandant/NN-19)
+				dobj(making/VBG-17,List/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Infantry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infantry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commandant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commandant</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He taught in the Department of Mechanics at the United States Military Academy at West Point.	</value>
+
+		<annotated-sentence>	He taught in the Department of [[Mechanics|Mechanics]] at [[the United States Military Academy|United_States_Military_Academy]] at [[West Point|United_States_Military_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He taught in the Department of Mechanics at the United States Military Academy at West Point.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(taught/VBD-2,He/PRP-1)
+				det(Department/NNP-5,the/DT-4)
+				prep_in(taught/VBD-2,Department/NNP-5)
+				prep_of(Department/NNP-5,Mechanics/NNPS-7)
+				det(Academy/NNP-13,the/DT-9)
+				nn(Academy/NNP-13,United/NNP-10)
+				nn(Academy/NNP-13,States/NNPS-11)
+				nn(Academy/NNP-13,Military/NNP-12)
+				prep_at(taught/VBD-2,Academy/NNP-13)
+				nn(Point/NNP-16,West/NNP-15)
+				prep_at(taught/VBD-2,Point/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mechanics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mechanics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Military Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Military_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Point</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Military_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at West Point, Voss participated in a NASA Summer Faculty Research Fellowship and received the William P. Clements Jr.	</value>
+
+		<annotated-sentence>	While at West Point, [[Voss|Voss]] participated in a [[NASA|NASA]] [[Summer|Summer]] Faculty [[Research|Research]] Fellowship and received [[the William P. Clements Jr.|Bill_Clements]]	</annotated-sentence>
+
+		<pattern_crowdsource>	While at West Point, Voss participated in a [[NASA|NASA]] Summer Faculty Research Fellowship and received the William P. Clements Jr.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(participated/VBD-7,at/IN-2)
+				nn(Point/NNP-4,West/NNP-3)
+				pobj(at/IN-2,Point/NNP-4)
+				nsubj(participated/VBD-7,Voss/NNP-6)
+				nsubj(received/VBD-16,Voss/NNP-6)
+				det(Fellowship/NNP-14,a/DT-9)
+				nn(Fellowship/NNP-14,NASA/NNP-10)
+				nn(Fellowship/NNP-14,Summer/NNP-11)
+				nn(Fellowship/NNP-14,Faculty/NNP-12)
+				nn(Fellowship/NNP-14,Research/NNP-13)
+				prep_in(participated/VBD-7,Fellowship/NNP-14)
+				conj_and(participated/VBD-7,received/VBD-16)
+				det(Jr./NNP-21,the/DT-17)
+				nn(Jr./NNP-21,William/NNP-18)
+				nn(Jr./NNP-21,P./NNP-19)
+				nn(Jr./NNP-21,Clements/NNP-20)
+				dobj(received/VBD-16,Jr./NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Summer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Summer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the William P. Clements Jr.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bill_Clements</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Award for Excellence in Education.	</value>
+
+		<annotated-sentence>	[[Award|Award]] for [[Excellence|Excellence]] in [[Education|Education]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Award for Excellence in Education.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_for(Award/NN-1,Excellence/NN-3)
+				prep_in(Award/NN-1,Education/NNP-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Excellence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Excellence</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Education</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Education</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss then attended the U.S. Naval Test Pilot School, graduating with the Outstanding Student Award in 1983.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] then attended the [[U.S.|United_States_Navy]] Naval [[Test Pilot|Test_pilot]] [[School|School]], graduating with the [[Outstanding|Outstanding]] [[Student|Student]] [[Award|Award]] in [[1983|1983]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss then attended the U.S. Naval [[Test Pilot|Test_pilot]] School, graduating with the Outstanding Student Award in 1983.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,Voss/NNP-1)
+				advmod(attended/VBD-3,then/RB-2)
+				det(Pilot/NN-8,the/DT-4)
+				nn(Pilot/NN-8,U.S./NNP-5)
+				nn(Pilot/NN-8,Naval/NNP-6)
+				nn(Pilot/NN-8,Test/NNP-7)
+				nsubj(School/NNP-9,Pilot/NN-8)
+				xcomp(attended/VBD-3,School/NNP-9)
+				xcomp(attended/VBD-3,graduating/VBG-11)
+				det(Award/NN-16,the/DT-13)
+				amod(Award/NN-16,Outstanding/JJ-14)
+				nn(Award/NN-16,Student/NN-15)
+				prep_with(graduating/VBG-11,Award/NN-16)
+				prep_in(Award/NN-16,1983/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Outstanding</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outstanding</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Student</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then attended the Armed Forces Staff College.	</value>
+
+		<annotated-sentence>	He then attended [[the Armed Forces Staff College|Joint_Forces_Staff_College]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then attended the Armed Forces Staff College.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-3,He/PRP-1)
+				advmod(attended/VBD-3,then/RB-2)
+				det(College/NNP-8,the/DT-4)
+				nn(College/NNP-8,Armed/NNP-5)
+				nn(College/NNP-8,Forces/NNP-6)
+				nn(College/NNP-8,Staff/NNP-7)
+				dobj(attended/VBD-3,College/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Armed Forces Staff College</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint_Forces_Staff_College</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was subsequently assigned as a Flight Test Engineer/Research and Development Coordinator with the U.S. Army Aviation Engineering Flight Activity.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was subsequently assigned as [[a Flight Test|Flight_test]] Engineer/Research and Development [[Coordinator|Parenting_coordinator]] with the [[U.S.|U.S._Open_Badminton_Championships]] Army [[Aviation Engineering|Aviation_engineering]] [[Flight|Darts]] [[Activity|Activity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was subsequently assigned as a [[Flight|Darts]] Test Engineer/Research and Development Coordinator with the U.S. Army Aviation Engineering [[Flight|Darts]] [[Activity|Activity]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,Voss/NNP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,subsequently/RB-3)
+				det(Test/NN-8,a/DT-6)
+				nn(Test/NN-8,Flight/NN-7)
+				prep_as(assigned/VBN-4,Test/NN-8)
+				appos(Test/NN-8,Engineer/Research/NNP-9)
+				nn(Coordinator/NN-12,Development/NNP-11)
+				prep_as(assigned/VBN-4,Coordinator/NN-12)
+				conj_and(Test/NN-8,Coordinator/NN-12)
+				det(Activity/NN-20,the/DT-14)
+				nn(Activity/NN-20,U.S./NNP-15)
+				nn(Activity/NN-20,Army/NNP-16)
+				nn(Activity/NN-20,Aviation/NNP-17)
+				nn(Activity/NN-20,Engineering/NNP-18)
+				nn(Activity/NN-20,Flight/NNP-19)
+				prep_with(Coordinator/NN-12,Activity/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Flight Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Coordinator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parenting_coordinator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S._Open_Badminton_Championships</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aviation Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviation_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Darts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Activity</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Darts http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Activity
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He participated in major flight test programs before being assigned to NASA.	</value>
+
+		<annotated-sentence>	He participated in major [[flight test|Flight_test]] programs before being assigned to [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He participated in major flight test programs before being assigned to [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,He/PRP-1)
+				amod(programs/NNS-7,major/JJ-4)
+				nn(programs/NNS-7,flight/NN-5)
+				nn(programs/NNS-7,test/NN-6)
+				prep_in(participated/VBD-2,programs/NNS-7)
+				auxpass(assigned/VBN-10,being/VBG-9)
+				prepc_before(participated/VBD-2,assigned/VBN-10)
+				prep_to(assigned/VBN-10,NASA/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At NASA, Voss worked at the Johnson Space Center from November 1984 to June 1987.	</value>
+
+		<annotated-sentence>	At [[NASA|NASA]], [[Voss|Voss]] worked at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] from [[November 1984|1984]] to [[June 1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At [[NASA|NASA]], Voss worked at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] from November 1984 to June 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_at(worked/VBD-5,NASA/NNP-2)
+				nsubj(worked/VBD-5,Voss/NNP-4)
+				det(Center/NNP-10,the/DT-7)
+				nn(Center/NNP-10,Johnson/NNP-8)
+				nn(Center/NNP-10,Space/NNP-9)
+				prep_at(worked/VBD-5,Center/NNP-10)
+				prep_from(worked/VBD-5,November/NNP-12)
+				num(November/NNP-12,1984/CD-13)
+				prep_to(worked/VBD-5,June/NNP-15)
+				num(June/NNP-15,1987/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He worked as a Vehicle Integration Test Engineer supporting the STS-51-D, STS-51-F, STS-61-C, and STS-51-L missions.	</value>
+
+		<annotated-sentence>	He worked as a [[Vehicle|Vehicle]] [[Integration Test|Integration_testing]] Engineer supporting [[the STS-51-D|STS-51-D]], [[STS-51-F|STS-51-F]], [[STS-61-C|STS-61-C]], and [[STS-51-L|STS-51-L]] missions.	</annotated-sentence>
+
+		<pattern_crowdsource>	He worked as a Vehicle Integration Test Engineer supporting the STS-51-D, STS-51-F, [[STS-61-C|STS-61-C]], and [[STS-51-L|STS-51-L]] missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,He/PRP-1)
+				det(Engineer/NN-8,a/DT-4)
+				nn(Engineer/NN-8,Vehicle/NNP-5)
+				nn(Engineer/NN-8,Integration/NN-6)
+				nn(Engineer/NN-8,Test/NN-7)
+				prep_as(worked/VBD-2,Engineer/NN-8)
+				xcomp(worked/VBD-2,supporting/VBG-9)
+				det(STS-51-D/NN-11,the/DT-10)
+				dobj(supporting/VBG-9,STS-51-D/NN-11)
+				dobj(supporting/VBG-9,STS-51-F/NN-13)
+				conj_and(STS-51-D/NN-11,STS-51-F/NN-13)
+				dobj(supporting/VBG-9,STS-61-C/NN-15)
+				conj_and(STS-51-D/NN-11,STS-61-C/NN-15)
+				nn(missions/NNS-19,STS-51-L/NN-18)
+				dobj(supporting/VBG-9,missions/NNS-19)
+				conj_and(STS-51-D/NN-11,missions/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vehicle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Integration Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Integration_testing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the STS-51-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-D</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-F</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-F</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-C</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-L</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-L</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/nextMission http://dbpedia.org/resource/STS-51-L
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-L http://dbpedia.org/property/previousMission http://dbpedia.org/resource/STS-61-C
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the Challenger accident, Voss participated in the investigation.	</value>
+
+		<annotated-sentence>	After [[the Challenger accident|Space_Shuttle_Challenger_disaster]], [[Voss|Voss]] participated in the investigation.	</annotated-sentence>
+
+		<pattern_crowdsource>	After the Challenger accident, Voss participated in the investigation.	</pattern_crowdsource>
+
+
+		<tree>
+				det(accident/NN-4,the/DT-2)
+				nn(accident/NN-4,Challenger/NNP-3)
+				prep_after(participated/VBD-7,accident/NN-4)
+				nsubj(participated/VBD-7,Voss/NNP-6)
+				det(investigation/NN-10,the/DT-9)
+				prep_in(participated/VBD-7,investigation/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Challenger accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Challenger_disaster</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected by NASA as an astronaut candidate in June 1987.	</value>
+
+		<annotated-sentence>	He was selected by [[NASA|NASA]] as an [[astronaut|Astronaut]] [[candidate|Candidate]] in [[June 1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected by [[NASA|NASA]] as an [[astronaut|Astronaut]] candidate in June 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				agent(selected/VBN-3,NASA/NNP-5)
+				det(candidate/NN-9,an/DT-7)
+				nn(candidate/NN-9,astronaut/NN-8)
+				prep_as(selected/VBN-3,candidate/NN-9)
+				prep_in(candidate/NN-9,June/NNP-11)
+				num(June/NNP-11,1987/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as an astronaut candidate by NASA in June 1987, Voss completed a one-year training and evaluation program in August 1988, which qualified him for assignment as a mission specialist on Space Shuttle flights.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(completed/VBD-13,Selected/VBN-1)
+				det(candidate/NN-5,an/DT-3)
+				nn(candidate/NN-5,astronaut/NN-4)
+				prep_as(Selected/VBN-1,candidate/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,June/NNP-9)
+				num(June/NNP-9,1987/CD-10)
+				nsubj(completed/VBD-13,Voss/NNP-12)
+				det(training/NN-16,a/DT-14)
+				amod(training/NN-16,one-year/JJ-15)
+				dobj(completed/VBD-13,training/NN-16)
+				nn(program/NN-19,evaluation/NN-18)
+				dobj(completed/VBD-13,program/NN-19)
+				conj_and(training/NN-16,program/NN-19)
+				prep_in(training/NN-16,August/NNP-21)
+				num(August/NNP-21,1988/CD-22)
+				nsubj(qualified/VBD-25,which/WDT-24)
+				rcmod(training/NN-16,qualified/VBD-25)
+				dobj(qualified/VBD-25,him/PRP-26)
+				prep_for(qualified/VBD-25,assignment/NN-28)
+				det(specialist/NN-32,a/DT-30)
+				nn(specialist/NN-32,mission/NN-31)
+				prep_as(qualified/VBD-25,specialist/NN-32)
+				nn(flights/NNS-36,Space/NN-34)
+				nn(flights/NNS-36,Shuttle/NNP-35)
+				prep_on(specialist/NN-32,flights/NNS-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has worked as a flight crew representative in the area of Shuttle safety, as a CAPCOM, providing a communications interface between ground controllers and flight crews during simulations and Shuttle flights, and as the Astronaut Office Training Officer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBN-3,He/PRP-1)
+				aux(worked/VBN-3,has/VBZ-2)
+				det(representative/NN-8,a/DT-5)
+				nn(representative/NN-8,flight/NN-6)
+				nn(representative/NN-8,crew/NN-7)
+				prep_as(worked/VBN-3,representative/NN-8)
+				det(area/NN-11,the/DT-10)
+				nsubj(providing/VBG-20,area/NN-11)
+				nsubj(providing/VBG-20,area/NN-11)
+				nn(safety/NN-14,Shuttle/NNP-13)
+				prep_of(area/NN-11,safety/NN-14)
+				det(CAPCOM/NNP-18,a/DT-17)
+				prep_as(providing/VBG-20,CAPCOM/NNP-18)
+				prepc_in(worked/VBN-3,providing/VBG-20)
+				prepc_in(worked/VBN-3,providing/VBG-20)
+				conj_and(providing/VBG-20,providing/VBG-20)
+				det(interface/NN-23,a/DT-21)
+				nn(interface/NN-23,communications/NNS-22)
+				dobj(providing/VBG-20,interface/NN-23)
+				nn(controllers/NNS-26,ground/NN-25)
+				prep_between(interface/NN-23,controllers/NNS-26)
+				nn(crews/NNS-29,flight/NN-28)
+				prep_between(interface/NN-23,crews/NNS-29)
+				conj_and(controllers/NNS-26,crews/NNS-29)
+				prep_during(providing/VBG-20,simulations/NNS-31)
+				nn(flights/NNS-34,Shuttle/NNP-33)
+				prep_during(providing/VBG-20,flights/NNS-34)
+				conj_and(simulations/NNS-31,flights/NNS-34)
+				det(Officer/NNP-42,the/DT-38)
+				nn(Officer/NNP-42,Astronaut/NNP-39)
+				nn(Officer/NNP-42,Office/NNP-40)
+				nn(Officer/NNP-42,Training/NNP-41)
+				prep_as(providing/VBG-20,Officer/NNP-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his third spaceflight Voss spent two years training at the Yuri Gagarin Cosmonaut Training Center in Star City, Russia.	</value>
+
+		<annotated-sentence>	After [[his third spaceflight|Spaceflight]] [[Voss|Voss]] spent [[two years|Year]] [[training|Training]] at [[the Yuri Gagarin Cosmonaut Training Center|Yuri_Gagarin_Cosmonaut_Training_Center]] in Star City, [[Russia|Russia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his third spaceflight Voss spent two years training at the Yuri Gagarin Cosmonaut Training Center in Star City, Russia.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-4,his/PRP$-2)
+				amod(spaceflight/NN-4,third/JJ-3)
+				prep_after(spent/VBD-6,spaceflight/NN-4)
+				nsubj(spent/VBD-6,Voss/NNP-5)
+				num(years/NNS-8,two/CD-7)
+				tmod(spent/VBD-6,years/NNS-8)
+				npadvmod(spent/VBD-6,training/NN-9)
+				det(Center/NNP-16,the/DT-11)
+				nn(Center/NNP-16,Yuri/NNP-12)
+				nn(Center/NNP-16,Gagarin/NNP-13)
+				nn(Center/NNP-16,Cosmonaut/NNP-14)
+				nn(Center/NNP-16,Training/NNP-15)
+				prep_at(spent/VBD-6,Center/NNP-16)
+				nn(City/NNP-19,Star/NNP-18)
+				prep_in(spent/VBD-6,City/NNP-19)
+				appos(City/NNP-19,Russia/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his third spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Yuri Gagarin Cosmonaut Training Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Gagarin_Cosmonaut_Training_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a backup to Michael Foale on the STS-84/Mir 23/Mir 24/STS-86 mission and to Andrew Thomas for the STS-89/Mir 24/Mir 25/STS-91 mission.	</value>
+
+		<annotated-sentence>	He served as [[a backup|Backup]] to [[Michael Foale|Michael_Foale]] on the [[STS-84|STS-84]]/Mir 23/Mir 24/STS-86 mission and to Andrew Thomas for the [[STS-89|STS-89]]/Mir 24/Mir 25/STS-91 mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as a backup to [[Michael Foale|Michael_Foale]] on the [[STS-84|STS-84]]/Mir 23/Mir 24/STS-86 mission and to Andrew Thomas for the STS-89/Mir 24/Mir 25/STS-91 mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(backup/NN-5,a/DT-4)
+				prep_as(served/VBD-2,backup/NN-5)
+				nn(Foale/NNP-8,Michael/NNP-7)
+				prep_to(served/VBD-2,Foale/NNP-8)
+				det(mission/NN-17,the/DT-10)
+				dep(mission/NN-17,STS-84/NN-11)
+				punct(Mir/NNS-13,//:-12)
+				prep(STS-84/NN-11,Mir/NNS-13)
+				amod(mission/NN-17,23/Mir/JJ-14)
+				nn(mission/NN-17,24/STS/NN-15)
+				num(mission/NN-17,-86/CD-16)
+				prep_on(Foale/NNP-8,mission/NN-17)
+				nn(Thomas/NNP-21,Andrew/NNP-20)
+				prep_to(served/VBD-2,Thomas/NNP-21)
+				conj_and(Foale/NNP-8,Thomas/NNP-21)
+				det(STS-89/NN-24,the/DT-23)
+				nn(Mir/NNS-26,STS-89/NN-24)
+				punct(STS-89/NN-24,//:-25)
+				prep_for(Thomas/NNP-21,Mir/NNS-26)
+				amod(mission/NN-30,24/Mir/JJ-27)
+				nn(mission/NN-30,25/STS/NN-28)
+				num(mission/NN-30,-91/CD-29)
+				pobj(served/VBD-2,mission/NN-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Michael Foale</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Michael_Foale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-84</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-84</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-89</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-89</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Michael_Foale http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-84
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his fifth flight, Voss served as the Deputy for Flight Operations in the Space Station Program Mission Integration and Operations Office.	</value>
+
+		<annotated-sentence>	After [[his fifth flight|Flight_Operations]], [[Voss|Voss]] served as the Deputy for [[Flight Operations|Flight_Operations]] in the [[Space Station|SpaceStation]] [[Program|Tiangong_program]] Mission Integration and [[Operations|Flight_Operations]] [[Office|Office]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After his fifth flight, Voss served as the Deputy for Flight Operations in the Space Station Program Mission Integration and Operations Office.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-4,his/PRP$-2)
+				amod(flight/NN-4,fifth/JJ-3)
+				prep_after(served/VBD-7,flight/NN-4)
+				nsubj(served/VBD-7,Voss/NNP-6)
+				det(Deputy/NNP-10,the/DT-9)
+				prep_as(served/VBD-7,Deputy/NNP-10)
+				nn(Operations/NNP-13,Flight/NNP-12)
+				prep_for(served/VBD-7,Operations/NNP-13)
+				det(Integration/NN-20,the/DT-15)
+				nn(Integration/NN-20,Space/NN-16)
+				nn(Integration/NN-20,Station/NNP-17)
+				nn(Integration/NN-20,Program/NNP-18)
+				nn(Integration/NN-20,Mission/NNP-19)
+				prep_in(Operations/NNP-13,Integration/NN-20)
+				nn(Office/NNP-23,Operations/NNP-22)
+				prep_in(Operations/NNP-13,Office/NNP-23)
+				conj_and(Integration/NN-20,Office/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his fifth flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Flight Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tiangong_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was a mission specialist on board Space Shuttle Atlantis during STS-44 from November 24 - December 1, 1991.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was [[a mission specialist|Mission_Specialist]] on board [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] during [[STS-44|STS-44]] from [[November 24|November_24]] - December 1, 1991.	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was a mission specialist on board Space Shuttle Atlantis during [[STS-44|STS-44]] from November 24 - December 1, 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,Voss/NNP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				nn(Atlantis/NNP-10,board/NN-7)
+				nn(Atlantis/NNP-10,Space/NN-8)
+				nn(Atlantis/NNP-10,Shuttle/NNP-9)
+				prep_on(specialist/NN-5,Atlantis/NNP-10)
+				prep_during(specialist/NN-5,STS-44/NN-12)
+				prep_from(December/NNP-17,November/NNP-14)
+				num(November/NNP-14,24/CD-15)
+				rcmod(STS-44/NN-12,December/NNP-17)
+				num(December/NNP-17,1/CD-18)
+				num(December/NNP-17,1991/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-44</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-44</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 24</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_24</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-44
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-44 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-44 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission's primary objective was the deployment of a Defense Support Program satellite with an Inertial Upper Stage booster rocket.	</value>
+
+		<annotated-sentence>	The mission's primary objective was the deployment of [[a Defense Support Program satellite|Defense_Support_Program]] with an [[Inertial Upper Stage|Inertial_Upper_Stage]] [[booster rocket|Booster_(rocketry)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission's primary objective was the deployment of a Defense Support Program satellite with an Inertial Upper Stage booster rocket.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				poss(objective/NN-5,mission/NN-2)
+				amod(objective/NN-5,primary/JJ-4)
+				nsubj(deployment/NN-8,objective/NN-5)
+				cop(deployment/NN-8,was/VBD-6)
+				det(deployment/NN-8,the/DT-7)
+				det(satellite/NN-14,a/DT-10)
+				nn(satellite/NN-14,Defense/NNP-11)
+				nn(satellite/NN-14,Support/NN-12)
+				nn(satellite/NN-14,Program/NN-13)
+				prep_of(deployment/NN-8,satellite/NN-14)
+				det(rocket/NN-21,an/DT-16)
+				nn(rocket/NN-21,Inertial/NNP-17)
+				nn(rocket/NN-21,Upper/NNP-18)
+				nn(rocket/NN-21,Stage/NNP-19)
+				nn(rocket/NN-21,booster/NN-20)
+				prep_with(satellite/NN-14,rocket/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Defense Support Program satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Defense_Support_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Inertial Upper Stage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inertial_Upper_Stage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>booster rocket</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Booster_(rocketry)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also conducted two Military Man in Space experiments, three radiation monitoring experiments, and numerous medical tests to support longer duration spaceflight.	</value>
+
+		<annotated-sentence>	The crew also conducted two [[Military|Military]] Man in [[Space|Space]] [[experiments|Experiment]], three [[radiation monitoring|Radiation_monitoring]] [[experiments|Experiment]], and numerous [[medical tests|Medical_test]] to support longer duration [[spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew also conducted two Military Man in Space experiments, three radiation monitoring experiments, and numerous medical tests to support longer duration spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(conducted/VBD-4,crew/NN-2)
+				advmod(conducted/VBD-4,also/RB-3)
+				num(in/IN-8,two/CD-5)
+				amod(in/IN-8,Military/JJ-6)
+				dep(in/IN-8,Man/NN-7)
+				dobj(conducted/VBD-4,in/IN-8)
+				nn(experiments/NNS-10,Space/NN-9)
+				pobj(in/IN-8,experiments/NNS-10)
+				num(experiments/NNS-15,three/CD-12)
+				nn(experiments/NNS-15,radiation/NN-13)
+				nn(experiments/NNS-15,monitoring/NN-14)
+				pobj(in/IN-8,experiments/NNS-15)
+				conj_and(experiments/NNS-10,experiments/NNS-15)
+				amod(tests/NNS-20,numerous/JJ-18)
+				amod(tests/NNS-20,medical/JJ-19)
+				pobj(in/IN-8,tests/NNS-20)
+				conj_and(experiments/NNS-10,tests/NNS-20)
+				aux(support/VB-22,to/TO-21)
+				xcomp(conducted/VBD-4,support/VB-22)
+				amod(spaceflight/NN-25,longer/JJR-23)
+				nn(spaceflight/NN-25,duration/NN-24)
+				dobj(support/VB-22,spaceflight/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Military</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>radiation monitoring</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Radiation_monitoring</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>medical tests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Medical_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission orbited the Earth 110 times before returning to Edwards Air Force Base in California.	</value>
+
+		<annotated-sentence>	The mission orbited [[the Earth|Earth]] 110 times before returning to [[Edwards Air Force Base|Edwards_Air_Force_Base]] in [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission orbited the Earth 110 times before returning to Edwards Air Force Base in California.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(orbited/VBD-3,mission/NN-2)
+				det(Earth/NNP-5,the/DT-4)
+				dobj(orbited/VBD-3,Earth/NNP-5)
+				num(times/NNS-7,110/CD-6)
+				npadvmod(orbited/VBD-3,times/NNS-7)
+				prepc_before(orbited/VBD-3,returning/VBG-9)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_to(returning/VBG-9,Base/NNP-14)
+				prep_in(Base/NNP-14,California/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From December 2–9, 1992, Voss flew as a Mission Specialist on STS-53.	</value>
+
+		<annotated-sentence>	From [[December 2|December_2]]–9, 1992, [[Voss|Voss]] flew as [[a Mission Specialist|Mission_Specialist]] on [[STS-53|STS-53]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From December 2–9, 1992, Voss flew as a Mission Specialist on [[STS-53|STS-53]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(flew/VBD-10,December/NNP-2)
+				num(December/NNP-2,2/CD-3)
+				num(December/NNP-2,9/CD-5)
+				num(December/NNP-2,1992/CD-7)
+				nsubj(flew/VBD-10,Voss/NNP-9)
+				det(Specialist/NN-14,a/DT-12)
+				nn(Specialist/NN-14,Mission/NNP-13)
+				prep_as(flew/VBD-10,Specialist/NN-14)
+				prep_on(flew/VBD-10,STS-53/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-53</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-53</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-53
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-53 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-53 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 171 orbit flight of the Space Shuttle Discovery deployed a classified Department of Defense payload.	</value>
+
+		<annotated-sentence>	The 171 orbit [[flight|Flight]] of [[the Space Shuttle Discovery|Space_Shuttle_Discovery]] deployed a classified Department of Defense payload.	</annotated-sentence>
+
+		<pattern_crowdsource>	The 171 orbit flight of the Space Shuttle Discovery deployed a classified Department of Defense payload.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-4,The/DT-1)
+				num(flight/NN-4,171/CD-2)
+				nn(flight/NN-4,orbit/NN-3)
+				nsubj(deployed/VBD-10,flight/NN-4)
+				det(Discovery/NNP-9,the/DT-6)
+				nn(Discovery/NNP-9,Space/NN-7)
+				nn(Discovery/NNP-9,Shuttle/NNP-8)
+				prep_of(flight/NN-4,Discovery/NNP-9)
+				det(Department/NNP-13,a/DT-11)
+				amod(Department/NNP-13,classified/VBN-12)
+				dobj(deployed/VBD-10,Department/NNP-13)
+				nn(payload/NN-16,Defense/NNP-15)
+				prep_of(Department/NNP-13,payload/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The satellite was the second launch of a Satellite Data System-2 military communications satellite.	</value>
+
+		<annotated-sentence>	[[The satellite|The_Satellite]] was the second launch of a [[Satellite|Satellite]] Data System-2 military [[communications satellite|Communications_satellite]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The satellite was the second launch of a Satellite Data System-2 military communications satellite.	</pattern_crowdsource>
+
+
+		<tree>
+				det(satellite/NN-2,The/DT-1)
+				nsubj(launch/NN-6,satellite/NN-2)
+				cop(launch/NN-6,was/VBD-3)
+				det(launch/NN-6,the/DT-4)
+				amod(launch/NN-6,second/JJ-5)
+				det(System-2/NN-11,a/DT-8)
+				nn(System-2/NN-11,Satellite/NNP-9)
+				nn(System-2/NN-11,Data/NNP-10)
+				prep_of(launch/NN-6,System-2/NN-11)
+				amod(satellite/NN-14,military/JJ-12)
+				nn(satellite/NN-14,communications/NNS-13)
+				dep(System-2/NN-11,satellite/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communications satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During STS-69, Voss was a Mission Specialist and Payload Commander on board Space Shuttle Endeavour.	</value>
+
+		<annotated-sentence>	During [[STS-69|STS-69]], [[Voss|Voss]] was [[a Mission Specialist|Mission_Specialist]] and Payload [[Commander|Commander]] on board [[Space Shuttle Endeavour|Space_Shuttle_Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During [[STS-69|STS-69]], Voss was a Mission Specialist and Payload Commander on board Space Shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(Specialist/NNP-8,STS-69/NN-2)
+				nsubj(Specialist/NNP-8,Voss/NNP-4)
+				cop(Specialist/NNP-8,was/VBD-5)
+				det(Specialist/NNP-8,a/DT-6)
+				nn(Specialist/NNP-8,Mission/NNP-7)
+				nn(Commander/NNP-11,Payload/NNP-10)
+				conj_and(Specialist/NNP-8,Commander/NNP-11)
+				nn(Endeavour/NNP-16,board/NN-13)
+				nn(Endeavour/NNP-16,Space/NN-14)
+				nn(Endeavour/NNP-16,Shuttle/NNP-15)
+				prep_on(Specialist/NNP-8,Endeavour/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-69</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-69</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-69
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-69 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-69 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight, which orbited the Earth 171 times from September 7–18, 1995, successfully deployed a SPARTAN satellite and the Wake Shield Facility.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]], which orbited [[the Earth|Earth]] 171 times from [[September 7|September_7]]–18, 1995, successfully deployed a SPARTAN [[satellite|Satellite]] and the Wake Shield Facility.	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight, which orbited the Earth 171 times from September 7–18, 1995, successfully deployed a SPARTAN satellite and the Wake Shield Facility.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(deployed/VBN-19,flight/NN-2)
+				nsubj(orbited/VBD-5,which/WDT-4)
+				rcmod(flight/NN-2,orbited/VBD-5)
+				det(Earth/NNP-7,the/DT-6)
+				dobj(orbited/VBD-5,Earth/NNP-7)
+				number(times/NNS-9,171/CD-8)
+				npadvmod(orbited/VBD-5,times/NNS-9)
+				prep_from(orbited/VBD-5,September/NNP-11)
+				num(September/NNP-11,7/CD-12)
+				num(September/NNP-11,18/CD-14)
+				num(September/NNP-11,1995/CD-16)
+				advmod(deployed/VBN-19,successfully/RB-18)
+				det(satellite/NN-22,a/DT-20)
+				amod(satellite/NN-22,SPARTAN/JJ-21)
+				dobj(deployed/VBN-19,satellite/NN-22)
+				nsubj(Wake/VB-25,the/DT-24)
+				conj_and(deployed/VBN-19,Wake/VB-25)
+				nn(Facility/NNP-27,Shield/NNP-26)
+				dobj(Wake/VB-25,Facility/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 7</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_7</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Also on board was the International Extreme Ultraviolet Hitchhiker Payload as well as various medical experiments.	</value>
+
+		<annotated-sentence>	Also on board was the [[International|International]] [[Extreme Ultraviolet|Extreme_ultraviolet]] Hitchhiker Payload as well as [[various medical experiments|Nazi_human_experimentation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Also on board was the International Extreme Ultraviolet Hitchhiker Payload as well as various medical experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(Payload/NNP-10,Also/RB-1)
+				amod(board/NN-3,on/IN-2)
+				nsubj(Payload/NNP-10,board/NN-3)
+				cop(Payload/NNP-10,was/VBD-4)
+				det(Payload/NNP-10,the/DT-5)
+				nn(Payload/NNP-10,International/NNP-6)
+				nn(Payload/NNP-10,Extreme/NNP-7)
+				nn(Payload/NNP-10,Ultraviolet/NNP-8)
+				nn(Payload/NNP-10,Hitchhiker/NNP-9)
+				amod(experiments/NNS-16,various/JJ-14)
+				amod(experiments/NNS-16,medical/JJ-15)
+				conj_and(Payload/NNP-10,experiments/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Extreme Ultraviolet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extreme_ultraviolet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>various medical experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nazi_human_experimentation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss and Michael Gernhardt performed a six hour spacewalk in order to test space suit modifications and to evaluate tools and procedures for future use on the International Space Station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-5,Voss/NNP-1)
+				nn(Gernhardt/NNP-4,Michael/NNP-3)
+				conj_and(Voss/NNP-1,Gernhardt/NNP-4)
+				nsubj(performed/VBD-5,Gernhardt/NNP-4)
+				det(spacewalk/NN-9,a/DT-6)
+				num(spacewalk/NN-9,six/CD-7)
+				nn(spacewalk/NN-9,hour/NN-8)
+				dobj(performed/VBD-5,spacewalk/NN-9)
+				prep_in(spacewalk/NN-9,order/NN-11)
+				aux(test/VB-13,to/TO-12)
+				dep(performed/VBD-5,test/VB-13)
+				nn(modifications/NNS-16,space/NN-14)
+				nn(modifications/NNS-16,suit/NN-15)
+				dobj(test/VB-13,modifications/NNS-16)
+				aux(evaluate/VB-19,to/TO-18)
+				dep(performed/VBD-5,evaluate/VB-19)
+				conj_and(test/VB-13,evaluate/VB-19)
+				dobj(evaluate/VB-19,tools/NNS-20)
+				dobj(evaluate/VB-19,procedures/NNS-22)
+				conj_and(tools/NNS-20,procedures/NNS-22)
+				amod(use/NN-25,future/JJ-24)
+				prep_for(evaluate/VB-19,use/NN-25)
+				det(Station/NNP-30,the/DT-27)
+				nn(Station/NNP-30,International/NNP-28)
+				nn(Station/NNP-30,Space/NNP-29)
+				prep_on(use/NN-25,Station/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was a mission specialist on board Space Shuttle Atlantis on STS-101.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was [[a mission specialist|Mission_Specialist]] on board [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]] on [[STS-101|STS-101]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was a mission specialist on board Space Shuttle Atlantis on [[STS-101|STS-101]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,Voss/NNP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				nn(Atlantis/NNP-10,board/NN-7)
+				nn(Atlantis/NNP-10,Space/NN-8)
+				nn(Atlantis/NNP-10,Shuttle/NNP-9)
+				prep_on(specialist/NN-5,Atlantis/NNP-10)
+				prep_on(Atlantis/NNP-10,STS-101/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-101</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-101</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-101
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-101 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-101 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Shuttle visited the then-unmanned International Space Station and delivered over 3,000 pounds of equipment and supplies.	</value>
+
+		<annotated-sentence>	[[The Shuttle|The_Shuttle]] visited the then-unmanned [[International Space Station|International_Space_Station]] and delivered over [[3,000|Harvest:_3,000_Years]] pounds of [[equipment and supplies|Foodservice_Equipment_&_Supplies]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Shuttle visited the then-unmanned International Space Station and delivered over 3,000 pounds of equipment and supplies.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Shuttle/NNP-2,The/DT-1)
+				nsubj(visited/VBD-3,Shuttle/NNP-2)
+				nsubj(delivered/VBN-10,Shuttle/NNP-2)
+				det(Station/NNP-8,the/DT-4)
+				amod(Station/NNP-8,then-unmanned/JJ-5)
+				nn(Station/NNP-8,International/NNP-6)
+				nn(Station/NNP-8,Space/NNP-7)
+				dobj(visited/VBD-3,Station/NNP-8)
+				conj_and(visited/VBD-3,delivered/VBN-10)
+				num(pounds/NNS-13,3,000/CD-12)
+				prep_over(delivered/VBN-10,pounds/NNS-13)
+				prep_of(pounds/NNS-13,equipment/NN-15)
+				prep_of(pounds/NNS-13,supplies/NNS-17)
+				conj_and(equipment/NN-15,supplies/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>3,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvest:_3,000_Years</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>equipment and supplies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Foodservice_Equipment_&_Supplies</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also repaired the Station's electrical and environmental control systems.	</value>
+
+		<annotated-sentence>	The crew also repaired the [[Station|Station]]'s electrical and [[environmental control|HVAC]] [[systems|HVAC]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew also repaired the Station's electrical and environmental control systems.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(repaired/VBD-4,crew/NN-2)
+				advmod(repaired/VBD-4,also/RB-3)
+				det(Station/NNP-6,the/DT-5)
+				poss(systems/NNS-12,Station/NNP-6)
+				amod(systems/NNS-12,electrical/JJ-8)
+				amod(control/NN-11,environmental/JJ-10)
+				conj_and(electrical/JJ-8,control/NN-11)
+				amod(systems/NNS-12,control/NN-11)
+				dobj(repaired/VBD-4,systems/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>environmental control</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HVAC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HVAC</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the time of the flight Jim was already assigned to fly on Expedition 2.	</value>
+
+		<annotated-sentence>	At the time of [[the flight|Flight]] Jim was already assigned to fly on [[Expedition 2|Expedition_2]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At the time of the flight Jim was already assigned to fly on [[Expedition 2|Expedition_2]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,the/DT-2)
+				prep_at(assigned/VBN-10,time/NN-3)
+				det(flight/NN-6,the/DT-5)
+				prep_of(time/NN-3,flight/NN-6)
+				nsubjpass(assigned/VBN-10,Jim/NNP-7)
+				auxpass(assigned/VBN-10,was/VBD-8)
+				advmod(assigned/VBN-10,already/RB-9)
+				aux(fly/VB-12,to/TO-11)
+				xcomp(assigned/VBN-10,fly/VB-12)
+				prep_on(fly/VB-12,Expedition/NN-14)
+				num(Expedition/NN-14,2/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_2</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_2
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His crewmates Yuri Usachev and Susan Helms flew with him on Atlantis in order to gain experience for their future long-duration stay.	</value>
+
+		<annotated-sentence>	His crewmates [[Yuri Usachev|Yury_Usachov]] and [[Susan Helms|Susan_J._Helms]] flew with him on [[Atlantis|Atlantis]] in order to gain [[experience|Experience]] for their future long-duration stay.	</annotated-sentence>
+
+		<pattern_crowdsource>	His crewmates Yuri Usachev and Susan Helms flew with him on Atlantis in order to gain experience for their future long-duration stay.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(crewmates/NNS-2,His/PRP$-1)
+				nsubj(flew/VBD-8,crewmates/NNS-2)
+				nn(Usachev/NNP-4,Yuri/NNP-3)
+				dep(crewmates/NNS-2,Usachev/NNP-4)
+				nn(Helms/NNP-7,Susan/NNP-6)
+				dep(crewmates/NNS-2,Helms/NNP-7)
+				conj_and(Usachev/NNP-4,Helms/NNP-7)
+				prep_with(flew/VBD-8,him/PRP-10)
+				prep_on(flew/VBD-8,Atlantis/NNP-12)
+				mark(gain/VB-16,in/IN-13)
+				dep(gain/VB-16,order/NN-14)
+				aux(gain/VB-16,to/TO-15)
+				advcl(flew/VBD-8,gain/VB-16)
+				dobj(gain/VB-16,experience/NN-17)
+				poss(stay/NN-22,their/PRP$-19)
+				amod(stay/NN-22,future/JJ-20)
+				amod(stay/NN-22,long-duration/JJ-21)
+				prep_for(gain/VB-16,stay/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yuri Usachev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yury_Usachov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Susan Helms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Susan_J._Helms</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Jim and Jeff Williams conducted a six hour spacewalk to finish installation of a Russian crane, replace a faulty antenna, and install handrails on the outside of the station.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(conducted/VBD-5,Jim/NNP-1)
+				nn(Williams/NNP-4,Jeff/NNP-3)
+				conj_and(Jim/NNP-1,Williams/NNP-4)
+				nsubj(conducted/VBD-5,Williams/NNP-4)
+				det(spacewalk/NN-9,a/DT-6)
+				num(spacewalk/NN-9,six/CD-7)
+				nn(spacewalk/NN-9,hour/NN-8)
+				nsubj(finish/VB-11,spacewalk/NN-9)
+				nsubj(replace/VB-18,spacewalk/NN-9)
+				nsubj(install/VB-24,spacewalk/NN-9)
+				aux(finish/VB-11,to/TO-10)
+				xcomp(conducted/VBD-5,finish/VB-11)
+				dobj(finish/VB-11,installation/NN-12)
+				det(crane/NN-16,a/DT-14)
+				amod(crane/NN-16,Russian/JJ-15)
+				prep_of(installation/NN-12,crane/NN-16)
+				xcomp(conducted/VBD-5,replace/VB-18)
+				conj_and(finish/VB-11,replace/VB-18)
+				det(antenna/NN-21,a/DT-19)
+				amod(antenna/NN-21,faulty/JJ-20)
+				dobj(replace/VB-18,antenna/NN-21)
+				xcomp(conducted/VBD-5,install/VB-24)
+				conj_and(finish/VB-11,install/VB-24)
+				dobj(install/VB-24,handrails/NNS-25)
+				det(outside/NN-28,the/DT-27)
+				prep_on(install/VB-24,outside/NN-28)
+				det(station/NN-31,the/DT-30)
+				prep_of(outside/NN-28,station/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss and his Expedition 2 crewmates launched as Mission Specialists March 8, 2001, on board Space Shuttle Discovery during the STS-102 mission.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] and [[his Expedition|Exploration]] 2 crewmates launched as [[Mission Specialists|Mission_Specialist]] March 8, 2001, on board [[Space Shuttle Discovery|Space_Shuttle_Discovery]] during the [[STS-102|STS-102]] [[mission|Mission_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss and his Expedition 2 crewmates launched as Mission Specialists March 8, 2001, on board Space Shuttle Discovery during the [[STS-102|STS-102]] mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBN-7,Voss/NNP-1)
+				poss(Expedition/NN-4,his/PRP$-3)
+				conj_and(Voss/NNP-1,Expedition/NN-4)
+				nsubj(launched/VBN-7,Expedition/NN-4)
+				num(crewmates/NNS-6,2/CD-5)
+				dep(Expedition/NN-4,crewmates/NNS-6)
+				nn(Specialists/NNP-10,Mission/NNP-9)
+				prep_as(launched/VBN-7,Specialists/NNP-10)
+				tmod(Specialists/NNP-10,March/NNP-11)
+				num(March/NNP-11,8/CD-12)
+				num(March/NNP-11,2001/CD-14)
+				nn(Discovery/NNP-20,board/NN-17)
+				nn(Discovery/NNP-20,Space/NN-18)
+				nn(Discovery/NNP-20,Shuttle/NNP-19)
+				prep_on(launched/VBN-7,Discovery/NNP-20)
+				det(mission/NN-24,the/DT-22)
+				nn(mission/NN-24,STS-102/NN-23)
+				prep_during(Discovery/NNP-20,mission/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Specialists</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-102</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-102</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-102
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-102 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-102 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The primary objectives of the flight were to rotate crew members and to resupply the station using the Multi-Purpose Logistics Module.	</value>
+
+		<annotated-sentence>	The primary objectives of [[the flight|Flight]] were to rotate [[crew members|Crewman]] and to resupply [[the station|Station]] using [[the Multi-Purpose Logistics Module|Multi-Purpose_Logistics_Module]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The primary objectives of the flight were to rotate crew members and to resupply the station using the Multi-Purpose Logistics Module.	</pattern_crowdsource>
+
+
+		<tree>
+				det(objectives/NNS-3,The/DT-1)
+				amod(objectives/NNS-3,primary/JJ-2)
+				nsubj(were/VBD-7,objectives/NNS-3)
+				det(flight/NN-6,the/DT-5)
+				prep_of(objectives/NNS-3,flight/NN-6)
+				aux(rotate/VB-9,to/TO-8)
+				ccomp(were/VBD-7,rotate/VB-9)
+				nn(members/NNS-11,crew/NN-10)
+				dobj(rotate/VB-9,members/NNS-11)
+				aux(resupply/VB-14,to/TO-13)
+				ccomp(were/VBD-7,resupply/VB-14)
+				conj_and(rotate/VB-9,resupply/VB-14)
+				det(station/NN-16,the/DT-15)
+				dobj(resupply/VB-14,station/NN-16)
+				partmod(station/NN-16,using/VBG-17)
+				det(Module/NNP-21,the/DT-18)
+				nn(Module/NNP-21,Multi-Purpose/NNP-19)
+				nn(Module/NNP-21,Logistics/NNP-20)
+				dobj(using/VBG-17,Module/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew members</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Multi-Purpose Logistics Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multi-Purpose_Logistics_Module</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss participated in one of the missions two spacewalks, along with Susan Helms, to prepare a Pressurized Mating Adapter for relocation.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] participated in one of the missions [[two spacewalks|Spacewalk_(software)]], along with [[Susan Helms|Susan_J._Helms]], to prepare a Pressurized Mating Adapter for relocation.	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss participated in one of the missions two spacewalks, along with Susan Helms, to prepare a Pressurized Mating Adapter for relocation.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,Voss/NNP-1)
+				prep_in(participated/VBD-2,one/CD-4)
+				det(missions/NNS-7,the/DT-6)
+				prep_of(one/CD-4,missions/NNS-7)
+				num(spacewalks/NNS-9,two/CD-8)
+				dep(missions/NNS-7,spacewalks/NNS-9)
+				nn(Helms/NNP-14,Susan/NNP-13)
+				prep_along_with(participated/VBD-2,Helms/NNP-14)
+				aux(prepare/VB-17,to/TO-16)
+				xcomp(participated/VBD-2,prepare/VB-17)
+				det(Adapter/NNP-21,a/DT-18)
+				nn(Adapter/NNP-21,Pressurized/NNP-19)
+				nn(Adapter/NNP-21,Mating/NNP-20)
+				dobj(prepare/VB-17,Adapter/NNP-21)
+				prep_for(Adapter/NNP-21,relocation/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Susan Helms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Susan_J._Helms</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The spacewalk set a record of 8 hours 56 minutes duration.	</value>
+
+		<annotated-sentence>	The [[spacewalk|Spacewalk_(software)]] set a record of 8 [[hours|Hour]] 56 [[minutes|Minute]] duration.	</annotated-sentence>
+
+		<pattern_crowdsource>	The spacewalk set a record of 8 hours 56 minutes duration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(spacewalk/NN-2,The/DT-1)
+				nsubj(set/VBD-3,spacewalk/NN-2)
+				det(record/NN-5,a/DT-4)
+				dobj(set/VBD-3,record/NN-5)
+				num(hours/NNS-8,8/CD-7)
+				amod(duration/NN-11,hours/NNS-8)
+				num(minutes/NNS-10,56/CD-9)
+				dep(hours/NNS-8,minutes/NNS-10)
+				prep_of(record/NN-5,duration/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacewalk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss, Susan Helms, and Yuri Usachev spent 163 days aboard the International Space Station conducting 18 scientific experiments, maintenance, and outfitting.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]], [[Susan Helms|Susan_J._Helms]], and [[Yuri Usachev|Yury_Usachov]] spent 163 days aboard [[the International Space Station|International_Space_Station]] conducting 18 scientific [[experiments|Experiment]], maintenance, and [[outfitting|Outfitter]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss, Susan Helms, and Yuri Usachev spent 163 days aboard the International Space Station conducting 18 scientific experiments, maintenance, and outfitting.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-9,Voss/NNP-1)
+				nn(Helms/NNP-4,Susan/NNP-3)
+				conj_and(Voss/NNP-1,Helms/NNP-4)
+				nsubj(spent/VBD-9,Helms/NNP-4)
+				nn(Usachev/NNP-8,Yuri/NNP-7)
+				conj_and(Voss/NNP-1,Usachev/NNP-8)
+				nsubj(spent/VBD-9,Usachev/NNP-8)
+				num(days/NNS-11,163/CD-10)
+				tmod(spent/VBD-9,days/NNS-11)
+				det(Station/NNP-16,the/DT-13)
+				nn(Station/NNP-16,International/NNP-14)
+				nn(Station/NNP-16,Space/NNP-15)
+				prep_aboard(spent/VBD-9,Station/NNP-16)
+				xcomp(spent/VBD-9,conducting/VBG-17)
+				num(experiments/NNS-20,18/CD-18)
+				amod(experiments/NNS-20,scientific/JJ-19)
+				dobj(conducting/VBG-17,experiments/NNS-20)
+				dobj(conducting/VBG-17,maintenance/NN-22)
+				conj_and(experiments/NNS-20,maintenance/NN-22)
+				dobj(conducting/VBG-17,outfitting/NN-25)
+				conj_and(experiments/NNS-20,outfitting/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Susan Helms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Susan_J._Helms</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Yuri Usachev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yury_Usachov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>outfitting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outfitter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the flight, Jim (who was a Flight Engineer) was the first person to operate the Space Station Robotic Manipulator System (Canadarm2).	</value>
+
+		<annotated-sentence>	During [[the flight|Flight_engineer]], Jim (who was [[a Flight Engineer|Flight_engineer]]) was the first [[person|Person]] to operate [[the Space|Space]] [[Station|Station]] Robotic [[Manipulator|Manipulator]] [[System|System]] ([[Canadarm2|Mobile_Servicing_System]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	During the flight, Jim (who was a Flight Engineer) was the first [[person|Person]] to operate the Space Station Robotic Manipulator System (Canadarm2).	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,the/DT-2)
+				prep_during(person/NN-16,flight/NN-3)
+				nsubj(person/NN-16,Jim/NNP-5)
+				nsubj(Engineer/NN-11,who/WP-7)
+				cop(Engineer/NN-11,was/VBD-8)
+				det(Engineer/NN-11,a/DT-9)
+				nn(Engineer/NN-11,Flight/NN-10)
+				dep(Jim/NNP-5,Engineer/NN-11)
+				cop(person/NN-16,was/VBD-13)
+				det(person/NN-16,the/DT-14)
+				amod(person/NN-16,first/JJ-15)
+				aux(operate/VB-18,to/TO-17)
+				infmod(person/NN-16,operate/VB-18)
+				det(Space/NN-20,the/DT-19)
+				iobj(operate/VB-18,Space/NN-20)
+				nn(System/NNP-24,Station/NNP-21)
+				nn(System/NNP-24,Robotic/NNP-22)
+				nn(System/NNP-24,Manipulator/NNP-23)
+				dobj(operate/VB-18,System/NNP-24)
+				appos(System/NNP-24,Canadarm2/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Manipulator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manipulator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Canadarm2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mobile_Servicing_System</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also participated in a 19 minute EVA, in which Voss and Usachev prepared a docking probe for the arrival of the Pirs Docking Compartment.	</value>
+
+		<annotated-sentence>	He also participated in a 19 [[minute|Minute]] EVA, in which Voss and Usachev prepared a [[docking|Pirs_(ISS_module)]] probe for the arrival of [[the Pirs Docking Compartment|Pirs_(ISS_module)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also participated in a 19 minute EVA, in which Voss and Usachev prepared a docking probe for the arrival of the Pirs Docking Compartment.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-3,He/PRP-1)
+				advmod(participated/VBD-3,also/RB-2)
+				det(EVA/NNP-8,a/DT-5)
+				number(minute/NN-7,19/CD-6)
+				amod(EVA/NNP-8,minute/NN-7)
+				prep_in(participated/VBD-3,EVA/NNP-8)
+				prep_in(prepared/VBD-15,which/WDT-11)
+				nsubj(prepared/VBD-15,Voss/NNP-12)
+				conj_and(Voss/NNP-12,Usachev/NNP-14)
+				nsubj(prepared/VBD-15,Usachev/NNP-14)
+				rcmod(EVA/NNP-8,prepared/VBD-15)
+				det(probe/NN-18,a/DT-16)
+				nn(probe/NN-18,docking/NN-17)
+				dobj(prepared/VBD-15,probe/NN-18)
+				det(arrival/NN-21,the/DT-20)
+				prep_for(prepared/VBD-15,arrival/NN-21)
+				det(Compartment/NNP-26,the/DT-23)
+				nn(Compartment/NNP-26,Pirs/NNP-24)
+				nn(Compartment/NNP-26,Docking/NNP-25)
+				prep_of(arrival/NN-21,Compartment/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>minute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>docking</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pirs_(ISS_module)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Pirs Docking Compartment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pirs_(ISS_module)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During Jims stay on the ISS, the space station was visited by two unmanned cargo vehicles, the Soyuz TM-32 taxi mission, as well as two Space Shuttles (STS-100 and STS-104).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(stay/VB-3,Jims/NNP-2)
+				ccomp(visited/VBN-12,stay/VB-3)
+				det(ISS/NNP-6,the/DT-5)
+				prep_on(stay/VB-3,ISS/NNP-6)
+				det(station/NN-10,the/DT-8)
+				nn(station/NN-10,space/NN-9)
+				nsubjpass(visited/VBN-12,station/NN-10)
+				auxpass(visited/VBN-12,was/VBD-11)
+				num(vehicles/NNS-17,two/CD-14)
+				amod(vehicles/NNS-17,unmanned/JJ-15)
+				nn(vehicles/NNS-17,cargo/NN-16)
+				agent(visited/VBN-12,vehicles/NNS-17)
+				det(mission/NN-23,the/DT-19)
+				nn(mission/NN-23,Soyuz/NNP-20)
+				nn(mission/NN-23,TM-32/NNP-21)
+				nn(mission/NN-23,taxi/NN-22)
+				appos(vehicles/NNS-17,mission/NN-23)
+				num(Shuttles/NNS-30,two/CD-28)
+				nn(Shuttles/NNS-30,Space/NN-29)
+				appos(vehicles/NNS-17,Shuttles/NNS-30)
+				conj_and(mission/NN-23,Shuttles/NNS-30)
+				dep(Shuttles/NNS-30,STS-100/NN-32)
+				dep(Shuttles/NNS-30,STS-104/NN-34)
+				conj_and(STS-100/NN-32,STS-104/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss was also on board to witness the arrival of the Quest Airlock.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] was also on board to witness the arrival of [[the Quest Airlock|Quest_Joint_Airlock]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss was also on board to witness the arrival of the Quest Airlock.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(was/VBD-2,Voss/NNP-1)
+				advmod(was/VBD-2,also/RB-3)
+				prep_on(was/VBD-2,board/NN-5)
+				nn(arrival/NN-9,witness/NN-7)
+				det(arrival/NN-9,the/DT-8)
+				prep_to(was/VBD-2,arrival/NN-9)
+				det(Airlock/NNP-13,the/DT-11)
+				nn(Airlock/NNP-13,Quest/NNP-12)
+				prep_of(arrival/NN-9,Airlock/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Quest Airlock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Quest_Joint_Airlock</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was one of the cinematographers and featured astronauts of the first 3D film shot in space, Space Station 3D.	</value>
+
+		<annotated-sentence>	He was one of [[the cinematographers|Cinematographer]] and featured [[astronauts|Astronaut]] of the first [[3D film|3D_film]] shot in [[space|Space]], [[Space Station 3D|Space_Station_3D]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was one of the cinematographers and featured [[astronauts|Astronaut]] of the first 3D film shot in space, Space Station 3D.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,He/PRP-1)
+				nsubj(featured/VBD-8,He/PRP-1)
+				cop(one/CD-3,was/VBD-2)
+				det(cinematographers/NNS-6,the/DT-5)
+				prep_of(one/CD-3,cinematographers/NNS-6)
+				conj_and(one/CD-3,featured/VBD-8)
+				dobj(featured/VBD-8,astronauts/NNS-9)
+				det(shot/NN-15,the/DT-11)
+				amod(shot/NN-15,first/JJ-12)
+				nn(shot/NN-15,3D/NN-13)
+				nn(shot/NN-15,film/NN-14)
+				prep_of(astronauts/NNS-9,shot/NN-15)
+				prep_in(featured/VBD-8,space/NN-17)
+				nn(3D/NNP-21,Space/NN-19)
+				nn(3D/NNP-21,Station/NNP-20)
+				appos(space/NN-17,3D/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the cinematographers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cinematographer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>3D film</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3D_film</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station 3D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Station_3D</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The film was released in theaters in 2002 and on DVD in 2005.	</value>
+
+		<annotated-sentence>	[[The film|The_Film]] was released in theaters in [[2002|2002]] and on [[DVD|DVD]] in [[2005|2005]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The film was released in theaters in 2002 and on DVD in 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				det(film/NN-2,The/DT-1)
+				nsubjpass(released/VBN-4,film/NN-2)
+				nsubjpass(released/VBN-4,film/NN-2)
+				auxpass(released/VBN-4,was/VBD-3)
+				conj_and(released/VBN-4,released/VBN-4)
+				prep_in(released/VBN-4,theaters/NNS-6)
+				prep_in(theaters/NNS-6,2002/CD-8)
+				prep_on(released/VBN-4,DVD/NN-11)
+				prep_in(DVD/NN-11,2005/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The film</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Film</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DVD</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/DVD</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2005</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss returned home from his fifth spaceflight as a Mission Specialist on board the Space Shuttle Discovery on August 20, 2001 (STS-105).	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] returned home from [[his fifth spaceflight|Spaceflight]] as [[a Mission Specialist|Mission_Specialist]] on board [[the Space|Space]] [[Shuttle Discovery|Space_Shuttle_Discovery]] on August 20, 2001 ([[STS-105|STS-105]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss returned home from his fifth spaceflight as a Mission Specialist on board the Space Shuttle Discovery on August 20, 2001 ([[STS-105|STS-105]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,Voss/NNP-1)
+				dobj(returned/VBD-2,home/NN-3)
+				poss(spaceflight/NN-7,his/PRP$-5)
+				amod(spaceflight/NN-7,fifth/JJ-6)
+				prep_from(returned/VBD-2,spaceflight/NN-7)
+				det(Specialist/NN-11,a/DT-9)
+				nn(Specialist/NN-11,Mission/NNP-10)
+				prep_as(spaceflight/NN-7,Specialist/NN-11)
+				prep_on(returned/VBD-2,board/NN-13)
+				det(Space/NN-15,the/DT-14)
+				dep(board/NN-13,Space/NN-15)
+				nn(Discovery/NNP-17,Shuttle/NNP-16)
+				dep(Space/NN-15,Discovery/NNP-17)
+				prep_on(Discovery/NNP-17,August/NNP-19)
+				num(August/NNP-19,20/CD-20)
+				num(August/NNP-19,2001/CD-22)
+				appos(Discovery/NNP-17,STS-105/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his fifth spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-105</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-105</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_S._Voss http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-105
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-105 http://dbpedia.org/property/crew6Down http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-105 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission saw a crew rotation, two spacewalks, and another flight of the MPLM.	</value>
+
+		<annotated-sentence>	The mission saw a crew [[rotation|Rotation]], [[two spacewalks|Spacewalk_(software)]], and [[another flight|Flight]] of [[the MPLM|Multi-Purpose_Logistics_Module]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission saw a crew rotation, two spacewalks, and another flight of the MPLM.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(saw/VBD-3,mission/NN-2)
+				det(rotation/NN-6,a/DT-4)
+				nn(rotation/NN-6,crew/NN-5)
+				dobj(saw/VBD-3,rotation/NN-6)
+				num(spacewalks/NNS-9,two/CD-8)
+				dobj(saw/VBD-3,spacewalks/NNS-9)
+				conj_and(rotation/NN-6,spacewalks/NNS-9)
+				det(flight/NN-13,another/DT-12)
+				dobj(saw/VBD-3,flight/NN-13)
+				conj_and(rotation/NN-6,flight/NN-13)
+				det(MPLM/NNP-16,the/DT-15)
+				prep_of(flight/NN-13,MPLM/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>rotation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rotation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>another flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the MPLM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Multi-Purpose_Logistics_Module</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After retiring from NASA in 2003, Voss became Associate Dean of Engineering for External Affairs at Auburn University, assisting with student projects and development for the College and teaching a class in Aerospace Engineering on human spacecraft design.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(Dean/NNP-11,retiring/VBG-2)
+				prep_from(retiring/VBG-2,NASA/NNP-4)
+				prep_in(NASA/NNP-4,2003/CD-6)
+				nsubj(Dean/NNP-11,Voss/NNP-8)
+				cop(Dean/NNP-11,became/VBD-9)
+				nn(Dean/NNP-11,Associate/NNP-10)
+				prep_of(Dean/NNP-11,Engineering/NNP-13)
+				nn(Affairs/NNP-16,External/NNP-15)
+				prep_for(Dean/NNP-11,Affairs/NNP-16)
+				nn(University/NNP-19,Auburn/NNP-18)
+				prep_at(Affairs/NNP-16,University/NNP-19)
+				dep(Dean/NNP-11,assisting/VBG-21)
+				nn(projects/NNS-24,student/NN-23)
+				prep_with(assisting/VBG-21,projects/NNS-24)
+				prep_with(assisting/VBG-21,development/NN-26)
+				conj_and(projects/NNS-24,development/NN-26)
+				det(College/NNP-29,the/DT-28)
+				prep_for(projects/NNS-24,College/NNP-29)
+				dep(Dean/NNP-11,teaching/VBG-31)
+				conj_and(assisting/VBG-21,teaching/VBG-31)
+				det(class/NN-33,a/DT-32)
+				dobj(teaching/VBG-31,class/NN-33)
+				nn(Engineering/NNP-36,Aerospace/NNP-35)
+				prep_in(class/NN-33,Engineering/NNP-36)
+				amod(design/NN-40,human/JJ-38)
+				nn(design/NN-40,spacecraft/NN-39)
+				prep_on(Engineering/NNP-36,design/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at Auburn he led a team of twelve aerospace engineering seniors and one graduate research assistant in the development of a crew seat prototype for space startup Transformational Space Corporation, or t/Space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(led/VBD-5,While/IN-1)
+				prep_at(led/VBD-5,Auburn/NNP-3)
+				nsubj(led/VBD-5,he/PRP-4)
+				det(team/NN-7,a/DT-6)
+				dobj(led/VBD-5,team/NN-7)
+				num(seniors/NNS-12,twelve/CD-9)
+				nn(seniors/NNS-12,aerospace/NN-10)
+				nn(seniors/NNS-12,engineering/NN-11)
+				prep_of(team/NN-7,seniors/NNS-12)
+				num(assistant/NN-17,one/CD-14)
+				nn(assistant/NN-17,graduate/NN-15)
+				nn(assistant/NN-17,research/NN-16)
+				dobj(led/VBD-5,assistant/NN-17)
+				conj_and(team/NN-7,assistant/NN-17)
+				det(development/NN-20,the/DT-19)
+				prep_in(assistant/NN-17,development/NN-20)
+				det(prototype/NN-25,a/DT-22)
+				nn(prototype/NN-25,crew/NN-23)
+				nn(prototype/NN-25,seat/NN-24)
+				prep_of(development/NN-20,prototype/NN-25)
+				nn(Corporation/NNP-31,space/NN-27)
+				nn(Corporation/NNP-31,startup/NN-28)
+				nn(Corporation/NNP-31,Transformational/NNP-29)
+				nn(Corporation/NNP-31,Space/NNP-30)
+				prep_for(prototype/NN-25,Corporation/NNP-31)
+				dobj(led/VBD-5,t/Space/NN-34)
+				conj_or(team/NN-7,t/Space/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In November 2007 Voss left t/Space to become the Vice President of Engineering at SpaceDev.	</value>
+
+		<annotated-sentence>	In [[November 2007|November_2007]] [[Voss|Voss]] left [[t/Space|Space]] to become [[the Vice President|Vice_president]] of [[Engineering|Engineering]] at [[SpaceDev|SpaceDev]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In November 2007 Voss left t/Space to become the Vice President of Engineering at [[SpaceDev|SpaceDev]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(left/VBD-5,November/NNP-2)
+				num(November/NNP-2,2007/CD-3)
+				nsubj(left/VBD-5,Voss/NNP-4)
+				nsubj(President/NNP-11,t/Space/NNP-6)
+				aux(President/NNP-11,to/TO-7)
+				cop(President/NNP-11,become/VB-8)
+				det(President/NNP-11,the/DT-9)
+				nn(President/NNP-11,Vice/NNP-10)
+				xcomp(left/VBD-5,President/NNP-11)
+				prep_of(President/NNP-11,Engineering/NNP-13)
+				prep_at(President/NNP-11,SpaceDev/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>November 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>t/Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/T/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SpaceDev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SpaceDev</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceDev http://dbpedia.org/ontology/keyPerson http://dbpedia.org/resource/James_S._Voss
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is now Sierra Nevada Corporation's director of advanced programs and program executive on the Dream Chaser spaceplane.	</value>
+
+		<annotated-sentence>	He is now [[Sierra Nevada Corporation|Sierra_Nevada_Corporation]]'s director of advanced programs and program executive on the [[Dream Chaser|Dream_Chaser]] [[spaceplane|Spaceplane]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is now Sierra Nevada Corporation's director of advanced programs and program executive on the Dream Chaser spaceplane.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(director/NN-8,He/PRP-1)
+				cop(director/NN-8,is/VBZ-2)
+				advmod(director/NN-8,now/RB-3)
+				nn(Corporation/NNP-6,Sierra/NNP-4)
+				nn(Corporation/NNP-6,Nevada/NNP-5)
+				poss(director/NN-8,Corporation/NNP-6)
+				amod(programs/NNS-11,advanced/JJ-10)
+				prep_of(director/NN-8,programs/NNS-11)
+				nn(executive/NN-14,program/NN-13)
+				conj_and(director/NN-8,executive/NN-14)
+				det(spaceplane/NN-19,the/DT-16)
+				nn(spaceplane/NN-19,Dream/NN-17)
+				nn(spaceplane/NN-19,Chaser/NN-18)
+				prep_on(executive/NN-14,spaceplane/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Sierra Nevada Corporation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sierra_Nevada_Corporation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dream Chaser</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dream_Chaser</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceplane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceplane</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 2009 Voss began a teaching as a Scholar in Residence at the University of Colorado at Boulder teaching a class on human spaceflight.	</value>
+
+		<annotated-sentence>	In [[August 2009|August_2009]] [[Voss|Voss]] began [[a teaching|Teacher]] as [[a Scholar|Academia]] in [[Residence|House]] at [[the University of Colorado|University_of_Colorado]] at [[Boulder|Boulder]] teaching a class on [[human spaceflight|Human_spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 2009 Voss began a teaching as a Scholar in Residence at the University of Colorado at Boulder teaching a class on human spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(began/VBD-5,August/NNP-2)
+				num(August/NNP-2,2009/CD-3)
+				nsubj(began/VBD-5,Voss/NNP-4)
+				det(teaching/NN-7,a/DT-6)
+				dobj(began/VBD-5,teaching/NN-7)
+				det(Scholar/NNP-10,a/DT-9)
+				prep_as(began/VBD-5,Scholar/NNP-10)
+				prep_in(Scholar/NNP-10,Residence/NNP-12)
+				det(University/NNP-15,the/DT-14)
+				prep_at(began/VBD-5,University/NNP-15)
+				prep_of(University/NNP-15,Colorado/NNP-17)
+				nsubj(teaching/VBG-20,Boulder/NNP-19)
+				prepc_at(began/VBD-5,teaching/VBG-20)
+				det(class/NN-22,a/DT-21)
+				dobj(teaching/VBG-20,class/NN-22)
+				amod(spaceflight/NN-25,human/JJ-24)
+				prep_on(teaching/VBG-20,spaceflight/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a teaching</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Teacher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Scholar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Residence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/House</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boulder</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boulder</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>human spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Human_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Voss has also been awarded:  This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	[[Voss|Voss]] has also been awarded:  This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	Voss has also been awarded:  This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-5,Voss/NNP-1)
+				aux(awarded/VBN-5,has/VBZ-2)
+				advmod(awarded/VBN-5,also/RB-3)
+				auxpass(awarded/VBN-5,been/VBN-4)
+				det(article/NN-8,This/DT-7)
+				nsubj(incorporates/VBZ-9,article/NN-8)
+				parataxis(awarded/VBN-5,incorporates/VBZ-9)
+				amod(material/NN-12,public/JJ-10)
+				nn(material/NN-12,domain/NN-11)
+				dobj(incorporates/VBZ-9,material/NN-12)
+				prep_from(incorporates/VBZ-9,websites/NNS-14)
+				prep_from(incorporates/VBZ-9,documents/NNS-16)
+				conj_or(websites/NNS-14,documents/NNS-16)
+				det(Aeronautics/NNP-20,the/DT-18)
+				nn(Aeronautics/NNP-20,National/NNP-19)
+				prep_of(websites/NNS-14,Aeronautics/NNP-20)
+				nn(Administration/NNP-23,Space/NNP-22)
+				prep_of(websites/NNS-14,Administration/NNP-23)
+				conj_and(Aeronautics/NNP-20,Administration/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Voss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Voss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

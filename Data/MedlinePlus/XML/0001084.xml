@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Cysticercosis is an infection by a parasite called Taenia solium (T. solium), a pork tapeworm that creates cysts in different areas in the body.</value>
+		<pattern_crowdsource> [[Cysticercosis|C0010678]] is an [[infection|C0009450]] by a parasite called Taenia solium (T. solium), a pork tapeworm that creates cysts in different [[areas|C1504310]] in the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cysticercosis</surface-form>
+				<RDF-ID>C0010678</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parasite</surface-form>
+				<RDF-ID>C0030498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Taenia solium</surface-form>
+				<RDF-ID>C0039251</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pork tapeworm</surface-form>
+				<RDF-ID>C0039251</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cysts</surface-form>
+				<RDF-ID>C0010709</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>different</surface-form>
+				<RDF-ID>C1547020</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>areas</surface-form>
+				<RDF-ID>C1504310</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010678 ISA C0009450</triple>
+			<triple>C0009450 PROCESS_OF C1504310</triple>
+			<triple>C0010678 PROCESS_OF C1504310</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cysticercosis is caused by swallowing eggs from T. solium, which are found in contaminated food.</value>
+		<pattern_crowdsource> [[Cysticercosis|C0010678]] is caused by swallowing [[eggs|C0013710]] from T. solium, which are found in contaminated food.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cysticercosis</surface-form>
+				<RDF-ID>C0010678</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swallowing</surface-form>
+				<RDF-ID>C0011167</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eggs</surface-form>
+				<RDF-ID>C0013710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>solium</surface-form>
+				<RDF-ID>C1613593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>contaminated food</surface-form>
+				<RDF-ID>C0453834</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013710 CAUSES C0010678</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Autoinfection is when a person is already infected with adult T. solium, then swallows eggs following improper hand washing after a bowel movement.</value>
+		<pattern_crowdsource> Autoinfection is when a [[person|C0027361]] is already infected with adult T. [[solium|C1613593]], then swallows eggs following improper hand washing after a bowel movement.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adult</surface-form>
+				<RDF-ID>C0001675</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>solium</surface-form>
+				<RDF-ID>C1613593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eggs</surface-form>
+				<RDF-ID>C0013710</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hand</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>washing</surface-form>
+				<RDF-ID>C0441648</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bowel movement</surface-form>
+				<RDF-ID>C0011135</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1613593 PART_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

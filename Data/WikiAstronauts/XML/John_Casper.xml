@@ -1,0 +1,3222 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Howard Casper (born July 9, 1943) is an American astronaut and United States Air Force pilot.	</value>
+
+		<annotated-sentence>	[[John Howard Casper|John_Casper]] (born [[July|July]] 9, 1943) is [[an American astronaut|The_American_Astronaut]] and [[United States Air Force|United_States_Air_Force]] pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[John Howard Casper|John_Casper]] (born July 9, 1943) is an American astronaut and [[United States Air Force|United_States_Air_Force]] pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Casper/NNP-3,John/NNP-1)
+				nn(Casper/NNP-3,Howard/NNP-2)
+				nsubj(astronaut/NN-14,Casper/NNP-3)
+				dep(Casper/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,July/NNP-6)
+				num(July/NNP-6,9/CD-7)
+				num(July/NNP-6,1943/CD-9)
+				cop(astronaut/NN-14,is/VBZ-11)
+				det(astronaut/NN-14,an/DT-12)
+				amod(astronaut/NN-14,American/JJ-13)
+				nn(pilot/NN-20,United/NNP-16)
+				nn(pilot/NN-20,States/NNP-17)
+				nn(pilot/NN-20,Air/NNP-18)
+				nn(pilot/NN-20,Force/NNP-19)
+				conj_and(astronaut/NN-14,pilot/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>John Howard Casper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Casper</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Although born in Greenville, South Carolina, he considers Gainesville, Georgia to be his hometown.	</value>
+
+		<annotated-sentence>	Although born in Greenville, [[South Carolina|South_Carolina]], he considers [[Gainesville , Georgia|Gainesville,_Georgia]]to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Although born in Greenville, South Carolina, he considers Gainesville, Georgia to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(born/VBN-2,Although/IN-1)
+				advcl(considers/VBZ-10,born/VBN-2)
+				prep_in(born/VBN-2,Greenville/NNP-4)
+				nn(Carolina/NNP-7,South/NNP-6)
+				appos(Greenville/NNP-4,Carolina/NNP-7)
+				nsubj(considers/VBZ-10,he/PRP-9)
+				nn(Georgia/NNP-13,Gainesville/NNP-11)
+				nsubj(hometown/NN-17,Georgia/NNP-13)
+				aux(hometown/NN-17,to/TO-14)
+				cop(hometown/NN-17,be/VB-15)
+				poss(hometown/NN-17,his/PRP$-16)
+				xcomp(considers/VBZ-10,hometown/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>South Carolina</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/South_Carolina</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gainesville , Georgia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gainesville,_Georgia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was active in the Boy Scouts of America where he achieved its second highest rank, Life Scout.	</value>
+
+		<annotated-sentence>	He was active in [[the Boy Scouts of America|Boy_Scouts_of_America]] where he achieved its second highest [[rank|Ranks_in_the_Boy_Scouts_of_America]], [[Life Scout|Ranks_in_the_Boy_Scouts_of_America]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was active in the Boy Scouts of America where he achieved its second highest rank, Life Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(active/JJ-3,He/PRP-1)
+				cop(active/JJ-3,was/VBD-2)
+				det(Scouts/NNS-7,the/DT-5)
+				nn(Scouts/NNS-7,Boy/NNP-6)
+				prep_in(active/JJ-3,Scouts/NNS-7)
+				prep_of(Scouts/NNS-7,America/NNP-9)
+				advmod(achieved/VBD-12,where/WRB-10)
+				nsubj(achieved/VBD-12,he/PRP-11)
+				advcl(active/JJ-3,achieved/VBD-12)
+				poss(rank/NN-16,its/PRP$-13)
+				amod(rank/NN-16,second/JJ-14)
+				amod(rank/NN-16,highest/JJS-15)
+				dobj(achieved/VBD-12,rank/NN-16)
+				nn(Scout/NNP-19,Life/NNP-18)
+				appos(rank/NN-16,Scout/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Boy Scouts of America</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranks_in_the_Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Life Scout</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ranks_in_the_Boy_Scouts_of_America</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated with a bachelor of science in engineering science from the United States Air Force Academy in 1966 and a master of science in astronautics from Purdue University in 1967.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				det(bachelor/NN-5,a/DT-4)
+				prep_with(graduated/VBD-2,bachelor/NN-5)
+				prep_of(bachelor/NN-5,science/NN-7)
+				nn(science/NN-10,engineering/NN-9)
+				prep_in(science/NN-7,science/NN-10)
+				det(Academy/NNP-17,the/DT-12)
+				nn(Academy/NNP-17,United/NNP-13)
+				nn(Academy/NNP-17,States/NNP-14)
+				nn(Academy/NNP-17,Air/NNP-15)
+				nn(Academy/NNP-17,Force/NNP-16)
+				prep_from(graduated/VBD-2,Academy/NNP-17)
+				prep_in(Academy/NNP-17,1966/CD-19)
+				det(master/NN-22,a/DT-21)
+				prep_from(graduated/VBD-2,master/NN-22)
+				conj_and(Academy/NNP-17,master/NN-22)
+				prep_of(master/NN-22,science/NN-24)
+				prep_in(science/NN-24,astronautics/NNS-26)
+				nn(University/NNP-29,Purdue/NNP-28)
+				prep_from(graduated/VBD-2,University/NNP-29)
+				prep_in(University/NNP-29,1967/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before he was an astronaut, Casper was a United States Air Force fighter pilot, earning his pilot wings at Reese Air Force Base, Texas.	</value>
+
+		<annotated-sentence>	Before he was [[an astronaut|Astronaut]], [[Casper|John_Casper]] was a [[United States Air Force|United_States_Air_Force]] [[fighter pilot|Fighter_pilot]], earning [[his pilot wings|Pilot_wings]] at [[Reese Air Force Base|Reese_Air_Force_Base]], [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Before he was [[an astronaut|Astronaut]], [[Casper|John_Casper]] was a [[United States Air Force|United_States_Air_Force]] fighter pilot, earning his pilot wings at [[Reese Air Force Base|Reese_Air_Force_Base]], Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(astronaut/NN-5,Before/IN-1)
+				nsubj(astronaut/NN-5,he/PRP-2)
+				cop(astronaut/NN-5,was/VBD-3)
+				det(astronaut/NN-5,an/DT-4)
+				advcl(pilot/NN-15,astronaut/NN-5)
+				nsubj(pilot/NN-15,Casper/NNP-7)
+				cop(pilot/NN-15,was/VBD-8)
+				det(pilot/NN-15,a/DT-9)
+				nn(pilot/NN-15,United/NNP-10)
+				nn(pilot/NN-15,States/NNP-11)
+				nn(pilot/NN-15,Air/NNP-12)
+				nn(pilot/NN-15,Force/NNP-13)
+				nn(pilot/NN-15,fighter/NN-14)
+				partmod(pilot/NN-15,earning/VBG-17)
+				poss(wings/NNS-20,his/PRP$-18)
+				nn(wings/NNS-20,pilot/NN-19)
+				dobj(earning/VBG-17,wings/NNS-20)
+				nn(Base/NNP-25,Reese/NNP-22)
+				nn(Base/NNP-25,Air/NNP-23)
+				nn(Base/NNP-25,Force/NNP-24)
+				prep_at(earning/VBG-17,Base/NNP-25)
+				appos(Base/NNP-25,Texas/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Casper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Casper</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his pilot wings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pilot_wings</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reese Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reese_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reese_Air_Force_Base http://dbpedia.org/property/controlledby http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After F-100 Super Sabre training at Luke Air Force Base, Arizona, he flew 229 combat missions with the 35th Tactical Fighter Wing in the Vietnam War.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Sabre/NNP-4,F-100/NN-2)
+				nn(Sabre/NNP-4,Super/NNP-3)
+				nn(training/NN-5,Sabre/NNP-4)
+				prep_after(flew/VBD-15,training/NN-5)
+				nn(Base/NNP-10,Luke/NNP-7)
+				nn(Base/NNP-10,Air/NNP-8)
+				nn(Base/NNP-10,Force/NNP-9)
+				prep_at(training/NN-5,Base/NNP-10)
+				appos(Base/NNP-10,Arizona/NNP-12)
+				nsubj(flew/VBD-15,he/PRP-14)
+				num(missions/NNS-18,229/CD-16)
+				nn(missions/NNS-18,combat/NN-17)
+				dobj(flew/VBD-15,missions/NNS-18)
+				det(Wing/NN-24,the/DT-20)
+				amod(Wing/NN-24,35th/JJ-21)
+				nn(Wing/NN-24,Tactical/NNP-22)
+				nn(Wing/NN-24,Fighter/NNP-23)
+				prep_with(flew/VBD-15,Wing/NN-24)
+				det(War/NNP-28,the/DT-26)
+				nn(War/NNP-28,Vietnam/NNP-27)
+				prep_in(flew/VBD-15,War/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following his tour in Vietnam, Casper flew F-100 and F-4 aircraft while assigned to the 48th Tactical Fighter Wing, Royal Air Force Lakenheath, United Kingdom.	</value>
+
+		<annotated-sentence>	Following his tour in [[Vietnam|Vietnam]], Casper flew F-100 and F-4 [[aircraft|Aircraft]] while assigned to [[the 48th Tactical Fighter Wing|48th_Fighter_Wing]], [[Royal Air Force Lakenheath|RAF_Lakenheath]], [[United Kingdom|United_Kingdom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following his tour in Vietnam, Casper flew F-100 and F-4 aircraft while assigned to [[the 48th Tactical Fighter Wing|48th_Fighter_Wing]], [[Royal Air Force Lakenheath|RAF_Lakenheath]], United Kingdom.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(tour/NN-3,his/PRP$-2)
+				prep_following(flew/VBD-8,tour/NN-3)
+				prep_in(tour/NN-3,Vietnam/NNP-5)
+				nsubj(flew/VBD-8,Casper/NNP-7)
+				nn(aircraft/NN-12,F-100/NN-9)
+				conj_and(F-100/NN-9,F-4/NN-11)
+				nn(aircraft/NN-12,F-4/NN-11)
+				dobj(flew/VBD-8,aircraft/NN-12)
+				mark(assigned/VBN-14,while/IN-13)
+				advcl(flew/VBD-8,assigned/VBN-14)
+				det(Wing/NN-20,the/DT-16)
+				amod(Wing/NN-20,48th/JJ-17)
+				nn(Wing/NN-20,Tactical/NNP-18)
+				nn(Wing/NN-20,Fighter/NNP-19)
+				prep_to(assigned/VBN-14,Wing/NN-20)
+				nn(Lakenheath/NNP-25,Royal/NNP-22)
+				nn(Lakenheath/NNP-25,Air/NNP-23)
+				nn(Lakenheath/NNP-25,Force/NNP-24)
+				appos(Wing/NN-20,Lakenheath/NNP-25)
+				nn(Kingdom/NNP-28,United/NNP-27)
+				appos(Lakenheath/NNP-25,Kingdom/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vietnam</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vietnam</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 48th Tactical Fighter Wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/48th_Fighter_Wing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Royal Air Force Lakenheath</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RAF_Lakenheath</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United Kingdom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/48th_Fighter_Wing http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/RAF_Lakenheath
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper was selected to attend the U.S. Air Force Test Pilot School at Edwards Air Force Base, California, and graduated with class 74A.	</value>
+
+		<annotated-sentence>	Casper was selected to attend the U.S. Air Force Test Pilot School at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]], and graduated with class 74A.	</annotated-sentence>
+
+		<pattern_crowdsource>	Casper was selected to attend the U.S. Air Force Test Pilot School at Edwards Air Force Base, California, and graduated with class 74A.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Casper/NNP-1)
+				nsubjpass(graduated/VBD-22,Casper/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				aux(attend/VB-5,to/TO-4)
+				xcomp(selected/VBN-3,attend/VB-5)
+				det(School/NNP-12,the/DT-6)
+				nn(School/NNP-12,U.S./NNP-7)
+				nn(School/NNP-12,Air/NNP-8)
+				nn(School/NNP-12,Force/NNP-9)
+				nn(School/NNP-12,Test/NNP-10)
+				nn(School/NNP-12,Pilot/NN-11)
+				dobj(attend/VB-5,School/NNP-12)
+				nn(Base/NNP-17,Edwards/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(School/NNP-12,Base/NNP-17)
+				appos(Base/NNP-17,California/NNP-19)
+				conj_and(selected/VBN-3,graduated/VBD-22)
+				prep_with(graduated/VBD-22,class/NN-24)
+				num(class/NN-24,74A/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After graduating he became Chief of the F-4 Test Team; he flew initial performance and weapons separation tests for the F-4G Wild Weasel aircraft and avionics tests for F-4E and A-7 aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(flew/VBD-13,graduating/VBG-2)
+				nsubj(Team/NNP-10,he/PRP-3)
+				cop(Team/NNP-10,became/VBD-4)
+				dep(Team/NNP-10,Chief/NNP-5)
+				det(Test/NN-9,the/DT-7)
+				nn(Test/NN-9,F-4/NN-8)
+				prep_of(Chief/NNP-5,Test/NN-9)
+				ccomp(graduating/VBG-2,Team/NNP-10)
+				nsubj(flew/VBD-13,he/PRP-12)
+				amod(performance/NN-15,initial/JJ-14)
+				dobj(flew/VBD-13,performance/NN-15)
+				nn(tests/NNS-19,weapons/NNS-17)
+				nn(tests/NNS-19,separation/NN-18)
+				dobj(flew/VBD-13,tests/NNS-19)
+				conj_and(performance/NN-15,tests/NNS-19)
+				det(aircraft/NN-25,the/DT-21)
+				nn(aircraft/NN-25,F-4G/NN-22)
+				nn(aircraft/NN-25,Wild/NNP-23)
+				nn(aircraft/NN-25,Weasel/NNP-24)
+				prep_for(performance/NN-15,aircraft/NN-25)
+				nn(tests/NNS-28,avionics/NNS-27)
+				dobj(flew/VBD-13,tests/NNS-28)
+				conj_and(performance/NN-15,tests/NNS-28)
+				nn(aircraft/NN-33,F-4E/NN-30)
+				conj_and(F-4E/NN-30,A-7/NN-32)
+				nn(aircraft/NN-33,A-7/NN-32)
+				prep_for(tests/NNS-28,aircraft/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper then became Operations Officer and later Commander of the 6513th Test Squadron, where he conducted flight test programs to evaluate and develop tactical aircraft weapons systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Officer/NNP-5,Casper/NNP-1)
+				advmod(Officer/NNP-5,then/RB-2)
+				cop(Officer/NNP-5,became/VBD-3)
+				nn(Officer/NNP-5,Operations/NNP-4)
+				cc(Officer/NNP-5,and/CC-6)
+				advmod(Officer/NNP-5,later/RB-7)
+				dep(Officer/NNP-5,Commander/NNP-8)
+				det(Squadron/NN-13,the/DT-10)
+				amod(Squadron/NN-13,6513th/JJ-11)
+				nn(Squadron/NN-13,Test/NN-12)
+				prep_of(Commander/NNP-8,Squadron/NN-13)
+				advmod(conducted/VBD-17,where/WRB-15)
+				nsubj(conducted/VBD-17,he/PRP-16)
+				advcl(Officer/NNP-5,conducted/VBD-17)
+				nn(programs/NNS-20,flight/NN-18)
+				nn(programs/NNS-20,test/NN-19)
+				dobj(conducted/VBD-17,programs/NNS-20)
+				aux(evaluate/VB-22,to/TO-21)
+				xcomp(conducted/VBD-17,evaluate/VB-22)
+				xcomp(conducted/VBD-17,develop/VB-24)
+				conj_and(evaluate/VB-22,develop/VB-24)
+				amod(systems/NNS-28,tactical/JJ-25)
+				nn(systems/NNS-28,aircraft/NN-26)
+				nn(systems/NNS-28,weapons/NNS-27)
+				dobj(evaluate/VB-22,systems/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was then assigned to Headquarters, U.S. Air Force at the Pentagon and was Deputy Chief of the Special Projects Office, where he developed USAF positions on requirements, operational concepts, policy and force structure for tactical and strategic programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,then/RB-3)
+				prep_to(assigned/VBN-4,Headquarters/NN-6)
+				nn(Force/NNP-10,U.S./NNP-8)
+				nn(Force/NNP-10,Air/NNP-9)
+				appos(Headquarters/NN-6,Force/NNP-10)
+				det(Pentagon/NNP-13,the/DT-12)
+				prep_at(Force/NNP-10,Pentagon/NNP-13)
+				cop(Chief/NNP-17,was/VBD-15)
+				nn(Chief/NNP-17,Deputy/NNP-16)
+				conj_and(assigned/VBN-4,Chief/NNP-17)
+				det(Projects/NNPS-21,the/DT-19)
+				amod(Projects/NNPS-21,Special/JJ-20)
+				prep_of(Chief/NNP-17,Projects/NNPS-21)
+				dobj(assigned/VBN-4,Office/NNP-22)
+				advmod(developed/VBD-26,where/WRB-24)
+				nsubj(developed/VBD-26,he/PRP-25)
+				rcmod(Office/NNP-22,developed/VBD-26)
+				nn(positions/NNS-28,USAF/NNP-27)
+				dobj(developed/VBD-26,positions/NNS-28)
+				prep_on(developed/VBD-26,requirements/NNS-30)
+				amod(concepts/NNS-33,operational/JJ-32)
+				prep_on(developed/VBD-26,concepts/NNS-33)
+				conj_and(requirements/NNS-30,concepts/NNS-33)
+				prep_on(developed/VBD-26,policy/NN-35)
+				conj_and(requirements/NNS-30,policy/NN-35)
+				nn(structure/NN-38,force/NN-37)
+				prep_on(developed/VBD-26,structure/NN-38)
+				conj_and(requirements/NNS-30,structure/NN-38)
+				amod(programs/NNS-43,tactical/JJ-40)
+				conj_and(tactical/JJ-40,strategic/JJ-42)
+				amod(programs/NNS-43,strategic/JJ-42)
+				prep_for(developed/VBD-26,programs/NNS-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Colonel Casper has logged over 10,000 flying hours in 52 different aircraft.	</value>
+
+		<annotated-sentence>	[[Colonel|Colonel]] Casper has logged over 10,000 flying hours in 52 different [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Colonel Casper has logged over 10,000 flying hours in 52 different aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Casper/NNP-2,Colonel/NNP-1)
+				nsubj(logged/VBN-4,Casper/NNP-2)
+				aux(logged/VBN-4,has/VBZ-3)
+				num(hours/NNS-8,10,000/CD-6)
+				amod(hours/NNS-8,flying/VBG-7)
+				prep_over(logged/VBN-4,hours/NNS-8)
+				num(aircraft/NN-12,52/CD-10)
+				amod(aircraft/NN-12,different/JJ-11)
+				prep_in(hours/NNS-8,aircraft/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in May 1984, Casper became an astronaut in June 1985.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[May 1984|1984]], [[Casper|John_Casper]] became [[an astronaut|Astronaut]] in [[June 1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in May 1984, [[Casper|John_Casper]] became [[an astronaut|Astronaut]] in June 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-11,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,May/NNP-5)
+				num(May/NNP-5,1984/CD-6)
+				nsubj(astronaut/NN-11,Casper/NNP-8)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				prep_in(astronaut/NN-11,June/NNP-13)
+				num(June/NNP-13,1985/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 1984</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1984</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Casper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Casper</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, he has logged over 825 hours in space.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], he has logged over 825 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, he has logged over 825 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				ccomp(logged/VBN-10,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				nsubj(logged/VBN-10,he/PRP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				num(hours/NNS-13,825/CD-12)
+				prep_over(logged/VBN-10,hours/NNS-13)
+				prep_in(hours/NNS-13,space/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the pilot on mission STS-36, and spacecraft commander on missions STS-54, STS-62 and STS-77.	</value>
+
+		<annotated-sentence>	He was the pilot on mission [[STS-36|STS-36]], and [[spacecraft|Spacecraft]] [[commander|Commander]] on missions [[STS-54|STS-54]], [[STS-62|STS-62]] and [[STS-77|STS-77]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the pilot on mission [[STS-36|STS-36]], and spacecraft commander on missions [[STS-54|STS-54]], [[STS-62|STS-62]] and [[STS-77|STS-77]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-4,He/PRP-1)
+				cop(pilot/NN-4,was/VBD-2)
+				det(pilot/NN-4,the/DT-3)
+				nn(STS-36/NN-7,mission/NN-6)
+				prep_on(pilot/NN-4,STS-36/NN-7)
+				nn(commander/NN-11,spacecraft/NN-10)
+				conj_and(pilot/NN-4,commander/NN-11)
+				nn(STS-54/NN-14,missions/NNS-13)
+				prep_on(commander/NN-11,STS-54/NN-14)
+				prep_on(commander/NN-11,STS-62/NN-16)
+				conj_and(STS-54/NN-14,STS-62/NN-16)
+				prep_on(commander/NN-11,STS-77/NN-18)
+				conj_and(STS-54/NN-14,STS-77/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-36</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-36</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-54</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-54</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-62</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-62</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-77</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-77</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-36
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-54
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-62
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-77
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments while assigned to the Astronaut Office included: Chief of the Operations Development Branch; lead for improvements to the nosewheel steering, brakes, tires, and development of a landing drag chute; astronaut team leader for the Shuttle Avionics Integration Laboratory (SAIL); and ascent/entry spacecraft communicator (CAPCOM) in the Mission Control Center.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				mark(included/VBD-10,while/IN-4)
+				csubj(included/VBD-10,assigned/VBN-5)
+				det(Office/NNP-9,the/DT-7)
+				nn(Office/NNP-9,Astronaut/NNP-8)
+				prep_to(assigned/VBN-5,Office/NNP-9)
+				dep(assignments/NNS-3,included/VBD-10)
+				dep(assignments/NNS-3,Chief/NNP-12)
+				det(Branch/NNP-17,the/DT-14)
+				nn(Branch/NNP-17,Operations/NNP-15)
+				nn(Branch/NNP-17,Development/NNP-16)
+				prep_of(Chief/NNP-12,Branch/NNP-17)
+				dep(assignments/NNS-3,lead/NN-19)
+				conj_and(Chief/NNP-12,lead/NN-19)
+				prep_for(lead/NN-19,improvements/NNS-21)
+				det(steering/NN-25,the/DT-23)
+				nn(steering/NN-25,nosewheel/NN-24)
+				prep_to(improvements/NNS-21,steering/NN-25)
+				prep_to(improvements/NNS-21,brakes/NNS-27)
+				conj_and(steering/NN-25,brakes/NNS-27)
+				prep_to(improvements/NNS-21,tires/NNS-29)
+				conj_and(steering/NN-25,tires/NNS-29)
+				prep_to(improvements/NNS-21,development/NN-32)
+				conj_and(steering/NN-25,development/NN-32)
+				det(chute/NN-37,a/DT-34)
+				nn(chute/NN-37,landing/NN-35)
+				nn(chute/NN-37,drag/NN-36)
+				prep_of(development/NN-32,chute/NN-37)
+				nn(leader/NN-41,astronaut/NN-39)
+				nn(leader/NN-41,team/NN-40)
+				dep(assignments/NNS-3,leader/NN-41)
+				conj_and(Chief/NNP-12,leader/NN-41)
+				det(Laboratory/NN-47,the/DT-43)
+				nn(Laboratory/NN-47,Shuttle/NNP-44)
+				nn(Laboratory/NN-47,Avionics/NNP-45)
+				nn(Laboratory/NN-47,Integration/NN-46)
+				prep_for(leader/NN-41,Laboratory/NN-47)
+				appos(Laboratory/NN-47,SAIL/NN-49)
+				amod(communicator/NN-55,ascent/entry/JJ-53)
+				nn(communicator/NN-55,spacecraft/NN-54)
+				dep(assignments/NNS-3,communicator/NN-55)
+				conj_and(Chief/NNP-12,communicator/NN-55)
+				appos(communicator/NN-55,CAPCOM/NN-57)
+				det(Center/NNP-63,the/DT-60)
+				nn(Center/NNP-63,Mission/NNP-61)
+				nn(Center/NNP-63,Control/NNP-62)
+				prep_in(communicator/NN-55,Center/NNP-63)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following his last Shuttle mission, Colonel Casper has served in positions of increasing responsibility in NASA.	</value>
+
+		<annotated-sentence>	Following his last [[Shuttle|Shuttle_Carrier_Aircraft]] [[mission|Lyndon_B._Johnson_Space_Center]], [[Colonel|Colonel]] [[Casper|John_Casper]] has served in positions of [[increasing responsibility|Monotonic_function]] in [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following his last [[Shuttle|Shuttle_Carrier_Aircraft]] [[mission|Lyndon_B._Johnson_Space_Center]], Colonel [[Casper|John_Casper]] has served in positions of increasing responsibility in [[NASA|NASA]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(mission/NN-5,his/PRP$-2)
+				amod(mission/NN-5,last/JJ-3)
+				nn(mission/NN-5,Shuttle/NNP-4)
+				prep_following(served/VBN-10,mission/NN-5)
+				nn(Casper/NNP-8,Colonel/NNP-7)
+				nsubj(served/VBN-10,Casper/NNP-8)
+				aux(served/VBN-10,has/VBZ-9)
+				prep_in(served/VBN-10,positions/NNS-12)
+				amod(responsibility/NN-15,increasing/VBG-14)
+				prep_of(positions/NNS-12,responsibility/NN-15)
+				prep_in(responsibility/NN-15,NASA/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Carrier_Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Casper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_Casper</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>increasing responsibility</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Monotonic_function</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_Carrier_Aircraft http://dbpedia.org/property/primaryUser http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper was Director of Safety, Reliability, and Quality Assurance at the Johnson Space Center, where he was responsible for all safety, reliability and quality activities for JSC's human spaceflight programs, including the International Space Station, the Space Shuttle, Space Launch Initiative, and Crew Return Vehicles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Director/NNP-3,Casper/NNP-1)
+				cop(Director/NNP-3,was/VBD-2)
+				prep_of(Director/NNP-3,Safety/NNP-5)
+				prep_of(Director/NNP-3,Reliability/NN-7)
+				conj_and(Safety/NNP-5,Reliability/NN-7)
+				nn(Assurance/NNP-11,Quality/NNP-10)
+				prep_of(Director/NNP-3,Assurance/NNP-11)
+				conj_and(Safety/NNP-5,Assurance/NNP-11)
+				det(Center/NNP-16,the/DT-13)
+				nn(Center/NNP-16,Johnson/NNP-14)
+				nn(Center/NNP-16,Space/NNP-15)
+				prep_at(Assurance/NNP-11,Center/NNP-16)
+				advmod(responsible/JJ-21,where/WRB-18)
+				nsubj(responsible/JJ-21,he/PRP-19)
+				cop(responsible/JJ-21,was/VBD-20)
+				advcl(Launch/VB-48,responsible/JJ-21)
+				det(activities/NNS-29,all/DT-23)
+				nn(activities/NNS-29,safety/NN-24)
+				conj_and(safety/NN-24,reliability/NN-26)
+				nn(activities/NNS-29,reliability/NN-26)
+				conj_and(safety/NN-24,quality/NN-28)
+				nn(activities/NNS-29,quality/NN-28)
+				prep_for(responsible/JJ-21,activities/NNS-29)
+				poss(programs/NNS-35,JSC/NNP-31)
+				amod(programs/NNS-35,human/JJ-33)
+				nn(programs/NNS-35,spaceflight/NN-34)
+				prep_for(responsible/JJ-21,programs/NNS-35)
+				det(Station/NNP-41,the/DT-38)
+				nn(Station/NNP-41,International/NNP-39)
+				nn(Station/NNP-41,Space/NNP-40)
+				prep_including(responsible/JJ-21,Station/NNP-41)
+				det(Space/NN-44,the/DT-43)
+				appos(Station/NNP-41,Space/NN-44)
+				appos(Space/NN-44,Shuttle/NNP-45)
+				nsubj(Launch/VB-48,Space/NNP-47)
+				ccomp(Director/NNP-3,Launch/VB-48)
+				dobj(Launch/VB-48,Initiative/NNP-49)
+				nn(Return/NN-53,Crew/NNP-52)
+				dep(Vehicles/NNPS-54,Return/NN-53)
+				conj_and(Director/NNP-3,Vehicles/NNPS-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also was responsible for planning, directing and implementing an effective institutional safety program to prevent injuries, loss of life, or loss of capital assets.	</value>
+
+		<annotated-sentence>	He also was responsible for [[planning|Planning]], directing and implementing an effective institutional safety program to prevent [[injuries|Injury]], loss of life, or loss of [[capital assets|Capital_asset]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also was responsible for planning, directing and implementing an effective institutional safety program to prevent injuries, loss of life, or loss of capital assets.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-4,He/PRP-1)
+				advmod(responsible/JJ-4,also/RB-2)
+				cop(responsible/JJ-4,was/VBD-3)
+				prep_for(responsible/JJ-4,planning/NN-6)
+				xcomp(responsible/JJ-4,directing/VBG-8)
+				xcomp(responsible/JJ-4,implementing/VBG-10)
+				conj_and(directing/VBG-8,implementing/VBG-10)
+				det(program/NN-15,an/DT-11)
+				amod(institutional/JJ-13,effective/JJ-12)
+				amod(program/NN-15,institutional/JJ-13)
+				nn(program/NN-15,safety/NN-14)
+				dobj(directing/VBG-8,program/NN-15)
+				aux(prevent/VB-17,to/TO-16)
+				infmod(program/NN-15,prevent/VB-17)
+				dobj(prevent/VB-17,injuries/NNS-18)
+				dobj(prevent/VB-17,loss/NN-20)
+				conj_or(injuries/NNS-18,loss/NN-20)
+				prep_of(loss/NN-20,life/NN-22)
+				dobj(prevent/VB-17,loss/NN-25)
+				conj_or(injuries/NNS-18,loss/NN-25)
+				nn(assets/NNS-28,capital/NN-27)
+				prep_of(loss/NN-25,assets/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>planning</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planning</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>injuries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Injury</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>capital assets</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capital_asset</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the Columbia disaster in February 2003, Casper became the NASA Mishap Investigation Team's deputy for the Columbia debris recovery operation, which involved directing the efforts of over 6,000 ground, air, and water search personnel, as well as protection and impoundment of debris.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(disaster/NN-4,the/DT-2)
+				nn(disaster/NN-4,Columbia/NNP-3)
+				prep_after(deputy/NN-17,disaster/NN-4)
+				prep_in(disaster/NN-4,February/NNP-6)
+				num(February/NNP-6,2003/CD-7)
+				nsubj(deputy/NN-17,Casper/NNP-9)
+				cop(deputy/NN-17,became/VBD-10)
+				det(Team/NNP-15,the/DT-11)
+				nn(Team/NNP-15,NASA/NNP-12)
+				nn(Team/NNP-15,Mishap/NNP-13)
+				nn(Team/NNP-15,Investigation/NNP-14)
+				poss(deputy/NN-17,Team/NNP-15)
+				det(operation/NN-23,the/DT-19)
+				nn(operation/NN-23,Columbia/NNP-20)
+				nn(operation/NN-23,debris/NN-21)
+				nn(operation/NN-23,recovery/NN-22)
+				prep_for(deputy/NN-17,operation/NN-23)
+				nsubj(involved/VBD-26,which/WDT-25)
+				rcmod(operation/NN-23,involved/VBD-26)
+				xcomp(involved/VBD-26,directing/VBG-27)
+				det(efforts/NNS-29,the/DT-28)
+				dobj(directing/VBG-27,efforts/NNS-29)
+				prep(efforts/NNS-29,of/IN-30)
+				pcomp(of/IN-30,over/IN-31)
+				num(ground/NN-33,6,000/CD-32)
+				pobj(over/IN-31,ground/NN-33)
+				pobj(over/IN-31,air/NN-35)
+				conj_and(ground/NN-33,air/NN-35)
+				nn(personnel/NNS-40,water/NN-38)
+				nn(personnel/NNS-40,search/NN-39)
+				pobj(over/IN-31,personnel/NNS-40)
+				conj_and(ground/NN-33,personnel/NNS-40)
+				dobj(directing/VBG-27,protection/NN-45)
+				conj_and(efforts/NNS-29,protection/NN-45)
+				conj_and(efforts/NNS-29,impoundment/NN-47)
+				conj_and(protection/NN-45,impoundment/NN-47)
+				prep_of(protection/NN-45,debris/NN-49)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was Co-Chair of the Return-To-Flight Planning Team, a NASA Headquarters-chartered independent team charged with addressing all actions necessary to comply with the Columbia Accident Investigation Board recommendations.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Co-Chair/NNP-3,He/PRP-1)
+				cop(Co-Chair/NNP-3,was/VBD-2)
+				det(Team/NNP-8,the/DT-5)
+				nn(Team/NNP-8,Return-To-Flight/NNP-6)
+				nn(Team/NNP-8,Planning/NNP-7)
+				prep_of(Co-Chair/NNP-3,Team/NNP-8)
+				det(team/NN-14,a/DT-10)
+				nn(team/NN-14,NASA/NNP-11)
+				amod(independent/JJ-13,Headquarters-chartered/JJ-12)
+				amod(team/NN-14,independent/JJ-13)
+				appos(Team/NNP-8,team/NN-14)
+				partmod(team/NN-14,charged/VBN-15)
+				prepc_with(charged/VBN-15,addressing/VBG-17)
+				det(actions/NNS-19,all/DT-18)
+				nsubj(necessary/JJ-20,actions/NNS-19)
+				xcomp(addressing/VBG-17,necessary/JJ-20)
+				aux(comply/VB-22,to/TO-21)
+				xcomp(necessary/JJ-20,comply/VB-22)
+				det(recommendations/NNS-29,the/DT-24)
+				nn(recommendations/NNS-29,Columbia/NNP-25)
+				nn(recommendations/NNS-29,Accident/NNP-26)
+				nn(recommendations/NNS-29,Investigation/NNP-27)
+				nn(recommendations/NNS-29,Board/NNP-28)
+				prep_with(comply/VB-22,recommendations/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then joined the Space Shuttle program and became Manager of the Management Integration and Planning Office, responsible for Return-to-Flight planning and management integration across all program elements.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-3,He/PRP-1)
+				advmod(joined/VBD-3,then/RB-2)
+				det(program/NN-7,the/DT-4)
+				nn(program/NN-7,Space/NN-5)
+				nn(program/NN-7,Shuttle/NN-6)
+				dobj(joined/VBD-3,program/NN-7)
+				cop(Manager/NN-10,became/VBD-9)
+				conj_and(joined/VBD-3,Manager/NN-10)
+				det(Integration/NN-14,the/DT-12)
+				nn(Integration/NN-14,Management/NNP-13)
+				prep_of(Manager/NN-10,Integration/NN-14)
+				nn(Office/NNP-17,Planning/NNP-16)
+				conj_and(joined/VBD-3,Office/NNP-17)
+				conj_and(Manager/NN-10,Office/NNP-17)
+				amod(elements/NNS-29,responsible/JJ-19)
+				nn(planning/NN-22,Return-to-Flight/NNP-21)
+				prep_for(responsible/JJ-19,planning/NN-22)
+				nn(integration/NN-25,management/NN-24)
+				prep_for(responsible/JJ-19,integration/NN-25)
+				conj_and(planning/NN-22,integration/NN-25)
+				det(program/NN-28,all/DT-27)
+				prep_across(planning/NN-22,program/NN-28)
+				appos(Office/NNP-17,elements/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper is currently Associate Manager of the Space Shuttle Program, assisting the program manager in the management, integration, and operations of the program.	</value>
+
+		<annotated-sentence>	Casper is currently Associate [[Manager|Management]] of [[the Space Shuttle Program|Space_Shuttle_program]], assisting [[the program manager|Program_Manager]] in [[the management|Management]], integration, and operations of [[the program|Program_management]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Casper is currently Associate Manager of the Space Shuttle Program, assisting the program manager in the management, integration, and operations of the program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Manager/NNP-5,Casper/NNP-1)
+				cop(Manager/NNP-5,is/VBZ-2)
+				advmod(Manager/NNP-5,currently/RB-3)
+				nn(Manager/NNP-5,Associate/NNP-4)
+				det(Program/NNP-10,the/DT-7)
+				nn(Program/NNP-10,Space/NN-8)
+				nn(Program/NNP-10,Shuttle/NNP-9)
+				prep_of(Manager/NNP-5,Program/NNP-10)
+				partmod(Manager/NNP-5,assisting/VBG-12)
+				det(manager/NN-15,the/DT-13)
+				nn(manager/NN-15,program/NN-14)
+				dobj(assisting/VBG-12,manager/NN-15)
+				det(management/NN-18,the/DT-17)
+				prep_in(assisting/VBG-12,management/NN-18)
+				prep_in(assisting/VBG-12,integration/NN-20)
+				conj_and(management/NN-18,integration/NN-20)
+				prep_in(assisting/VBG-12,operations/NNS-23)
+				conj_and(management/NN-18,operations/NNS-23)
+				det(program/NN-26,the/DT-25)
+				prep_of(operations/NNS-23,program/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the program manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_Manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Program_management</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-36 launched from the Kennedy Space Center, Florida, on February 28, 1990, aboard Space Shuttle Atlantis.	</value>
+
+		<annotated-sentence>	[[STS-36|STS-36]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[February|February]] 28, 1990, aboard [[Space Shuttle Atlantis|Space_Shuttle_Atlantis]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-36|STS-36]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on February 28, 1990, aboard Space Shuttle Atlantis.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,STS-36/NN-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Kennedy/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_from(launched/VBD-2,Center/NNP-7)
+				appos(Center/NNP-7,Florida/NNP-9)
+				prep_on(launched/VBD-2,February/NNP-12)
+				num(February/NNP-12,28/CD-13)
+				num(February/NNP-12,1990/CD-15)
+				nn(Atlantis/NNP-20,Space/NN-18)
+				nn(Atlantis/NNP-20,Shuttle/NNP-19)
+				prep_aboard(launched/VBD-2,Atlantis/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-36</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-36</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Atlantis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-36
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-36 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission carried classified Department of Defense payloads and was unique in that it flew at 62 degrees inclination, the highest inclination flown to date by the U.S. human space flight program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubj(carried/VBD-3,mission/NN-2)
+				nsubj(unique/JJ-11,mission/NN-2)
+				amod(Department/NNP-5,classified/JJ-4)
+				dobj(carried/VBD-3,Department/NNP-5)
+				nn(payloads/NNS-8,Defense/NNP-7)
+				prep_of(Department/NNP-5,payloads/NNS-8)
+				cop(unique/JJ-11,was/VBD-10)
+				conj_and(carried/VBD-3,unique/JJ-11)
+				mark(flew/VBD-15,that/IN-13)
+				nsubj(flew/VBD-15,it/PRP-14)
+				prepc_in(unique/JJ-11,flew/VBD-15)
+				num(degrees/NNS-18,62/CD-17)
+				prep_at(flew/VBD-15,degrees/NNS-18)
+				dobj(flew/VBD-15,inclination/NN-19)
+				det(inclination/NN-23,the/DT-21)
+				amod(inclination/NN-23,highest/JJS-22)
+				appos(inclination/NN-19,inclination/NN-23)
+				partmod(inclination/NN-23,flown/VBN-24)
+				prep_to(flown/VBN-24,date/NN-26)
+				det(program/NN-33,the/DT-28)
+				nn(program/NN-33,U.S./NNP-29)
+				amod(program/NN-33,human/JJ-30)
+				nn(program/NN-33,space/NN-31)
+				nn(program/NN-33,flight/NN-32)
+				prep_by(unique/JJ-11,program/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 72 orbits of the Earth, the STS-36 mission concluded with a lakebed landing at Edwards Air Force Base, California, on March 4, 1990, after traveling 1.87 million miles.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(orbits/NNS-3,72/CD-2)
+				prep_after(concluded/VBD-11,orbits/NNS-3)
+				det(Earth/NNP-6,the/DT-5)
+				prep_of(orbits/NNS-3,Earth/NNP-6)
+				det(mission/NN-10,the/DT-8)
+				nn(mission/NN-10,STS-36/NN-9)
+				nsubj(concluded/VBD-11,mission/NN-10)
+				det(landing/NN-15,a/DT-13)
+				amod(landing/NN-15,lakebed/JJ-14)
+				prep_with(concluded/VBD-11,landing/NN-15)
+				nn(Base/NNP-20,Edwards/NNP-17)
+				nn(Base/NNP-20,Air/NNP-18)
+				nn(Base/NNP-20,Force/NNP-19)
+				prep_at(landing/NN-15,Base/NNP-20)
+				appos(Base/NNP-20,California/NNP-22)
+				prep_on(concluded/VBD-11,March/NNP-25)
+				num(March/NNP-25,4/CD-26)
+				num(March/NNP-25,1990/CD-28)
+				prepc_after(concluded/VBD-11,traveling/VBG-31)
+				number(million/CD-33,1.87/CD-32)
+				num(miles/NNS-34,million/CD-33)
+				dobj(traveling/VBG-31,miles/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 106 hours, 19 minutes, 43 seconds.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 106 [[hours|Hour]], [[19 minutes|Nineteen_Minutes]], 43 seconds.	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 106 hours, 19 minutes, 43 seconds.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,106/CD-4)
+				num(minutes/NNS-8,19/CD-7)
+				appos(hours/NNS-5,minutes/NNS-8)
+				num(seconds/NNS-11,43/CD-10)
+				appos(minutes/NNS-8,seconds/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>19 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nineteen_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-54 launched from the Kennedy Space Center, Florida, on January 13, 1993, aboard Space Shuttle Endeavour.	</value>
+
+		<annotated-sentence>	[[STS-54|STS-54]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], on [[January|January]] 13, 1993, aboard [[Space Shuttle Endeavour|Space_Shuttle_Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-54|STS-54]] launched from [[the Kennedy Space Center|Kennedy_Space_Center]], Florida, on January 13, 1993, aboard Space Shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,STS-54/NN-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Kennedy/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_from(launched/VBD-2,Center/NNP-7)
+				appos(Center/NNP-7,Florida/NNP-9)
+				prep_on(launched/VBD-2,January/NNP-12)
+				num(January/NNP-12,13/CD-13)
+				num(January/NNP-12,1993/CD-15)
+				nn(Endeavour/NNP-20,Space/NN-18)
+				nn(Endeavour/NNP-20,Shuttle/NNP-19)
+				prep_aboard(launched/VBD-2,Endeavour/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-54</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-54</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-54
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-54 http://dbpedia.org/property/landingSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-54 http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A crew of five successfully accomplished the primary objectives of this six-day mission, including deploying a $200 million NASA Tracking and Data Relay Satellite (TDRS-F), which joined four other satellites to complete a national communications network supporting Space Shuttle and other low-Earth orbit scientific satellites.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,A/DT-1)
+				nsubj(accomplished/VBN-6,crew/NN-2)
+				prep_of(crew/NN-2,five/CD-4)
+				advmod(accomplished/VBN-6,successfully/RB-5)
+				det(objectives/NNS-9,the/DT-7)
+				amod(objectives/NNS-9,primary/JJ-8)
+				dobj(accomplished/VBN-6,objectives/NNS-9)
+				det(mission/NN-13,this/DT-11)
+				amod(mission/NN-13,six-day/JJ-12)
+				prep_of(objectives/NNS-9,mission/NN-13)
+				prepc_including(objectives/NNS-9,deploying/VBG-16)
+				det(Tracking/NNP-22,a/DT-17)
+				amod(Tracking/NNP-22,$/$-18)
+				number(million/CD-20,200/CD-19)
+				num($/$-18,million/CD-20)
+				nn(Tracking/NNP-22,NASA/NNP-21)
+				dobj(deploying/VBG-16,Tracking/NNP-22)
+				nn(Satellite/NNP-26,Data/NNP-24)
+				nn(Satellite/NNP-26,Relay/NNP-25)
+				dobj(accomplished/VBN-6,Satellite/NNP-26)
+				conj_and(objectives/NNS-9,Satellite/NNP-26)
+				appos(Satellite/NNP-26,TDRS-F/NN-28)
+				nsubj(joined/VBD-32,which/WDT-31)
+				rcmod(Satellite/NNP-26,joined/VBD-32)
+				num(satellites/NNS-35,four/CD-33)
+				amod(satellites/NNS-35,other/JJ-34)
+				dobj(joined/VBD-32,satellites/NNS-35)
+				aux(complete/VB-37,to/TO-36)
+				xcomp(joined/VBD-32,complete/VB-37)
+				det(network/NN-41,a/DT-38)
+				amod(network/NN-41,national/JJ-39)
+				nn(network/NN-41,communications/NNS-40)
+				dobj(complete/VB-37,network/NN-41)
+				partmod(network/NN-41,supporting/VBG-42)
+				dobj(supporting/VBG-42,Space/NN-43)
+				appos(Space/NN-43,Shuttle/NNP-44)
+				amod(orbit/NN-48,other/JJ-46)
+				amod(orbit/NN-48,low-Earth/JJ-47)
+				dobj(supporting/VBG-42,orbit/NN-48)
+				conj_and(Space/NN-43,orbit/NN-48)
+				amod(satellites/NNS-50,scientific/JJ-49)
+				dep(orbit/NN-48,satellites/NNS-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A Diffuse X-Ray Spectrometer (DXS) carried in the payload bay collected X-ray data to enable investigators to answer questions about the origin of X-rays in the Milky Way galaxy.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Spectrometer/NN-4,A/DT-1)
+				amod(Spectrometer/NN-4,Diffuse/JJ-2)
+				nn(Spectrometer/NN-4,X-Ray/NN-3)
+				nsubj(carried/VBD-8,Spectrometer/NN-4)
+				appos(Spectrometer/NN-4,DXS/NN-6)
+				det(bay/NN-12,the/DT-10)
+				nn(bay/NN-12,payload/NN-11)
+				prep_in(carried/VBD-8,bay/NN-12)
+				partmod(bay/NN-12,collected/VBN-13)
+				nn(data/NNS-15,X-ray/NN-14)
+				dobj(collected/VBN-13,data/NNS-15)
+				aux(enable/VB-17,to/TO-16)
+				xcomp(collected/VBN-13,enable/VB-17)
+				nsubj(answer/VB-20,investigators/NNS-18)
+				aux(answer/VB-20,to/TO-19)
+				xcomp(enable/VB-17,answer/VB-20)
+				dobj(answer/VB-20,questions/NNS-21)
+				det(origin/NN-24,the/DT-23)
+				prep_about(answer/VB-20,origin/NN-24)
+				prep_of(origin/NN-24,X-rays/NNS-26)
+				det(galaxy/NN-31,the/DT-28)
+				nn(galaxy/NN-31,Milky/NNP-29)
+				nn(galaxy/NN-31,Way/NNP-30)
+				prep_in(X-rays/NNS-26,galaxy/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A highly successful extravehicular activity (EVA) resulted in many lessons learned that benefited the International Space Station assembly.	</value>
+
+		<annotated-sentence>	A [[highly successful|The_Seven_Habits_of_Highly_Effective_People]] [[extravehicular activity|Extra-vehicular_activity]] ([[EVA|Extra-vehicular_activity]]) resulted in [[many lessons|Lesson]] learned that benefited [[the International Space Station assembly|Assembly_of_the_International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A highly successful extravehicular activity (EVA) resulted in many lessons learned that benefited the International Space Station assembly.	</pattern_crowdsource>
+
+
+		<tree>
+				det(activity/NN-5,A/DT-1)
+				advmod(successful/JJ-3,highly/RB-2)
+				amod(activity/NN-5,successful/JJ-3)
+				amod(activity/NN-5,extravehicular/JJ-4)
+				nsubj(resulted/VBD-9,activity/NN-5)
+				appos(activity/NN-5,EVA/NN-7)
+				mark(learned/VBD-13,in/IN-10)
+				amod(lessons/NNS-12,many/JJ-11)
+				nsubj(learned/VBD-13,lessons/NNS-12)
+				advcl(resulted/VBD-9,learned/VBD-13)
+				mark(benefited/VBD-15,that/IN-14)
+				ccomp(learned/VBD-13,benefited/VBD-15)
+				det(assembly/NN-20,the/DT-16)
+				nn(assembly/NN-20,International/NNP-17)
+				nn(assembly/NN-20,Space/NNP-18)
+				nn(assembly/NN-20,Station/NNP-19)
+				dobj(benefited/VBD-15,assembly/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>highly successful</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Seven_Habits_of_Highly_Effective_People</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>extravehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EVA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>many lessons</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lesson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station assembly</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Assembly_of_the_International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight was also the first to shut down and restart a fuel cell in flight, successfully demonstrating another Space Station application.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]] was also the first to shut down and restart [[a fuel cell|Fuel_cell]] in [[flight|The_Flight]], successfully demonstrating [[another Space|Space]] [[Station|Station]] application.	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight was also the first to shut down and restart a fuel cell in flight, successfully demonstrating another Space Station application.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(application/NN-23,flight/NN-2)
+				cop(application/NN-23,was/VBD-3)
+				advmod(application/NN-23,also/RB-4)
+				det(application/NN-23,the/DT-5)
+				amod(application/NN-23,first/JJ-6)
+				aux(shut/VB-8,to/TO-7)
+				xcomp(first/JJ-6,shut/VB-8)
+				advmod(shut/VB-8,down/RB-9)
+				xcomp(first/JJ-6,restart/VB-11)
+				conj_and(shut/VB-8,restart/VB-11)
+				det(cell/NN-14,a/DT-12)
+				nn(cell/NN-14,fuel/NN-13)
+				dobj(restart/VB-11,cell/NN-14)
+				prep_in(cell/NN-14,flight/NN-16)
+				advmod(demonstrating/VBG-19,successfully/RB-18)
+				partmod(restart/VB-11,demonstrating/VBG-19)
+				det(Space/NN-21,another/DT-20)
+				dobj(demonstrating/VBG-19,Space/NN-21)
+				nn(application/NN-23,Station/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a fuel cell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fuel_cell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>another Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper landed Endeavour at the Kennedy Space Center on January 19, 1993, after 96 Earth orbits covering over 2.5 million miles.	</value>
+
+		<annotated-sentence>	Casper landed [[Endeavour|Endeavour]] at [[the Kennedy Space Center|Kennedy_Space_Center]] on [[January|January]] 19, 1993, after 96 [[Earth orbits|Geocentric_orbit]] covering over 2.5 [[million|Million_(band)]] [[miles|Mile]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Casper landed Endeavour at the Kennedy Space Center on January 19, 1993, after 96 Earth orbits covering over 2.5 million miles.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,Casper/NNP-1)
+				dobj(landed/VBD-2,Endeavour/NNP-3)
+				det(Center/NNP-8,the/DT-5)
+				nn(Center/NNP-8,Kennedy/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_at(landed/VBD-2,Center/NNP-8)
+				prep_on(landed/VBD-2,January/NNP-10)
+				num(January/NNP-10,19/CD-11)
+				num(January/NNP-10,1993/CD-13)
+				num(orbits/NNS-18,96/CD-16)
+				nn(orbits/NNS-18,Earth/NNP-17)
+				prep_after(landed/VBD-2,orbits/NNS-18)
+				partmod(orbits/NNS-18,covering/VBG-19)
+				number(million/CD-22,2.5/CD-21)
+				num(miles/NNS-23,million/CD-22)
+				prep_over(covering/VBG-19,miles/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 143 hours and 38 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 143 [[hours|Hour]] and [[38 minutes|Stargate_Atlantis_(season_1)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 143 hours and 38 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,143/CD-4)
+				num(minutes/NNS-8,38/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>38 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargate_Atlantis_(season_1)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-62 (March 4-18, 1994) was a two-week microgravity research mission aboard Space Shuttle Columbia.	</value>
+
+		<annotated-sentence>	[[STS-62|STS-62]] (March 4-18, 1994) was a two-week [[microgravity|Microgravity_(album)]] [[research|Research]] mission aboard [[Space Shuttle Columbia|Space_Shuttle_Columbia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-62|STS-62]] (March 4-18, 1994) was a two-week microgravity research mission aboard Space Shuttle Columbia.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-13,STS-62/NN-1)
+				appos(STS-62/NN-1,March/NNP-3)
+				num(March/NNP-3,4-18/CD-4)
+				num(March/NNP-3,1994/CD-6)
+				cop(mission/NN-13,was/VBD-8)
+				det(mission/NN-13,a/DT-9)
+				amod(mission/NN-13,two-week/JJ-10)
+				nn(mission/NN-13,microgravity/NN-11)
+				nn(mission/NN-13,research/NN-12)
+				nn(Columbia/NNP-17,Space/NN-15)
+				nn(Columbia/NNP-17,Shuttle/NNP-16)
+				prep_aboard(mission/NN-13,Columbia/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-62</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-62</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-62
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Its primary payloads were the United States Microgravity Payload (USMP-2) and the Office of Aeronautics and Space Technology (OAST-2) payloads.	</value>
+
+		<annotated-sentence>	Its primary [[payloads|HMH-362]] were the [[United States|United_States]] [[Microgravity|Microgravity_(album)]] [[Payload|HMH-362]] (USMP-2) and [[the Office|Office]] of [[Aeronautics|Aeronautics]] and [[Space|Space]] [[Technology|Technology]] (OAST-2) [[payloads|HMH-362]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Its primary payloads were the [[United States|United_States]] Microgravity Payload (USMP-2) and the Office of Aeronautics and Space Technology (OAST-2) payloads.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(payloads/NNS-3,Its/PRP$-1)
+				amod(payloads/NNS-3,primary/JJ-2)
+				nsubj(Payload/NNP-9,payloads/NNS-3)
+				cop(Payload/NNP-9,were/VBD-4)
+				dep(Payload/NNP-9,the/DT-5)
+				nn(Payload/NNP-9,United/NNP-6)
+				nn(Payload/NNP-9,States/NNPS-7)
+				nn(Payload/NNP-9,Microgravity/NNP-8)
+				appos(Payload/NNP-9,USMP-2/NN-11)
+				det(Office/NNP-15,the/DT-14)
+				conj_and(Payload/NNP-9,Office/NNP-15)
+				prep_of(Office/NNP-15,Aeronautics/NNP-17)
+				nn(payloads/NNS-24,Space/NNP-19)
+				nn(payloads/NNS-24,Technology/NNP-20)
+				appos(payloads/NNS-24,OAST-2/NN-22)
+				conj_and(Payload/NNP-9,payloads/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>payloads</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HMH-362</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Payload</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HMH-362</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aeronautics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>payloads</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HMH-362</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	These payloads included experiments to understand the process of semiconductor crystal growth, investigating the process of metal alloys as they solidify, studying materials at their critical point (where they exist as both a liquid and gas), and testing new technology for use on future spacecraft, such as advanced solar arrays, radiators, heat sinks, and radiation shielding.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(payloads/NNS-2,These/DT-1)
+				nsubj(included/VBD-3,payloads/NNS-2)
+				dobj(included/VBD-3,experiments/NNS-4)
+				aux(understand/VB-6,to/TO-5)
+				infmod(experiments/NNS-4,understand/VB-6)
+				det(process/NN-8,the/DT-7)
+				dobj(understand/VB-6,process/NN-8)
+				nn(growth/NN-12,semiconductor/NN-10)
+				nn(growth/NN-12,crystal/NN-11)
+				prep_of(process/NN-8,growth/NN-12)
+				dep(included/VBD-3,investigating/VBG-14)
+				det(process/NN-16,the/DT-15)
+				dobj(investigating/VBG-14,process/NN-16)
+				nn(alloys/NNS-19,metal/NN-18)
+				prep_of(process/NN-16,alloys/NNS-19)
+				mark(solidify/VBP-22,as/IN-20)
+				nsubj(solidify/VBP-22,they/PRP-21)
+				advcl(investigating/VBG-14,solidify/VBP-22)
+				dep(included/VBD-3,studying/VBG-24)
+				conj_and(investigating/VBG-14,studying/VBG-24)
+				dobj(studying/VBG-24,materials/NNS-25)
+				poss(point/NN-29,their/PRP$-27)
+				amod(point/NN-29,critical/JJ-28)
+				prep_at(studying/VBG-24,point/NN-29)
+				advmod(exist/VBP-33,where/WRB-31)
+				nsubj(exist/VBP-33,they/PRP-32)
+				dep(point/NN-29,exist/VBP-33)
+				preconj(liquid/NN-37,both/CC-35)
+				det(liquid/NN-37,a/DT-36)
+				prep_as(exist/VBP-33,liquid/NN-37)
+				prep_as(exist/VBP-33,gas/NN-39)
+				conj_and(liquid/NN-37,gas/NN-39)
+				dep(included/VBD-3,testing/VBG-43)
+				conj_and(investigating/VBG-14,testing/VBG-43)
+				amod(technology/NN-45,new/JJ-44)
+				dobj(testing/VBG-43,technology/NN-45)
+				prep_for(testing/VBG-43,use/NN-47)
+				amod(spacecraft/NN-50,future/JJ-49)
+				prep_on(use/NN-47,spacecraft/NN-50)
+				amod(arrays/NNS-56,advanced/JJ-54)
+				amod(arrays/NNS-56,solar/JJ-55)
+				prep_such_as(use/NN-47,arrays/NNS-56)
+				appos(arrays/NNS-56,radiators/NNS-58)
+				appos(arrays/NNS-56,heat/NN-60)
+				dep(heat/NN-60,sinks/VBZ-61)
+				prep_such_as(use/NN-47,radiation/NN-64)
+				conj_and(arrays/NNS-56,radiation/NN-64)
+				partmod(radiation/NN-64,shielding/VBG-65)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight also tested new technology for aligning the Remote Manipulator System arm and for grasping payloads with a new magnetic end effector.	</value>
+
+		<annotated-sentence>	[[The flight|The_Flight]] also tested [[new technology|Technology]] for aligning the [[Remote Manipulator System|Canadarm]] arm and for grasping payloads with a new magnetic end effector.	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight also tested new technology for aligning the Remote Manipulator System arm and for grasping payloads with a new magnetic end effector.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,The/DT-1)
+				nsubj(tested/VBD-4,flight/NN-2)
+				advmod(tested/VBD-4,also/RB-3)
+				amod(technology/NN-6,new/JJ-5)
+				dobj(tested/VBD-4,technology/NN-6)
+				prepc_for(tested/VBD-4,aligning/VBG-8)
+				det(arm/NN-13,the/DT-9)
+				nn(arm/NN-13,Remote/NNP-10)
+				nn(arm/NN-13,Manipulator/NNP-11)
+				nn(arm/NN-13,System/NNP-12)
+				dobj(aligning/VBG-8,arm/NN-13)
+				prepc_for(tested/VBD-4,grasping/VBG-16)
+				conj_and(aligning/VBG-8,grasping/VBG-16)
+				dobj(grasping/VBG-16,payloads/NNS-17)
+				det(effector/NN-23,a/DT-19)
+				amod(effector/NN-23,new/JJ-20)
+				amod(effector/NN-23,magnetic/JJ-21)
+				nn(effector/NN-23,end/NN-22)
+				prep_with(grasping/VBG-16,effector/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>new technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Remote Manipulator System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadarm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Columbia flew at a record low altitude of 195 km (105 nautical miles) to gather data on spacecraft glow and erosion caused by atomic oxygen and nitrogen molecules.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Columbia/NNP-1)
+				det(altitude/NN-7,a/DT-4)
+				nn(altitude/NN-7,record/NN-5)
+				amod(altitude/NN-7,low/JJ-6)
+				prep_at(flew/VBD-2,altitude/NN-7)
+				num(km/NN-10,195/CD-9)
+				prep_of(altitude/NN-7,km/NN-10)
+				num(miles/NNS-14,105/CD-12)
+				amod(miles/NNS-14,nautical/JJ-13)
+				dep(altitude/NN-7,miles/NNS-14)
+				aux(gather/VB-17,to/TO-16)
+				xcomp(flew/VBD-2,gather/VB-17)
+				dobj(gather/VB-17,data/NNS-18)
+				prep_on(data/NNS-18,spacecraft/NN-20)
+				amod(data/NNS-18,glow/NN-21)
+				amod(data/NNS-18,erosion/NN-23)
+				conj_and(glow/NN-21,erosion/NN-23)
+				partmod(data/NNS-18,caused/VBN-24)
+				amod(oxygen/NN-27,atomic/JJ-26)
+				agent(caused/VBN-24,oxygen/NN-27)
+				nn(molecules/NNS-30,nitrogen/NN-29)
+				agent(caused/VBN-24,molecules/NNS-30)
+				conj_and(oxygen/NN-27,molecules/NNS-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper landed Columbia at the Kennedy Space Center after 224 Earth orbits and 5.82 million miles.	</value>
+
+		<annotated-sentence>	Casper landed Columbia at [[the Kennedy Space Center|Kennedy_Space_Center]] after 224 [[Earth orbits|Geocentric_orbit]] and 5.82 [[million|Million_(band)]] [[miles|Mile]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Casper landed Columbia at the Kennedy Space Center after 224 Earth orbits and 5.82 million miles.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-2,Casper/NNP-1)
+				dobj(landed/VBD-2,Columbia/NNP-3)
+				det(Center/NNP-8,the/DT-5)
+				nn(Center/NNP-8,Kennedy/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_at(landed/VBD-2,Center/NNP-8)
+				num(orbits/NNS-12,224/CD-10)
+				nn(orbits/NNS-12,Earth/NNP-11)
+				prep_after(landed/VBD-2,orbits/NNS-12)
+				number(million/CD-15,5.82/CD-14)
+				num(miles/NNS-16,million/CD-15)
+				prep_after(landed/VBD-2,miles/NNS-16)
+				conj_and(orbits/NNS-12,miles/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-77 (May 19-29, 1996) was a ten-day mission aboard Space Shuttle Endeavour.	</value>
+
+		<annotated-sentence>	[[STS-77|STS-77]] (May 19-29, [[1996|1996]]) was a ten-day mission aboard [[Space Shuttle Endeavour|Space_Shuttle_Endeavour]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-77|STS-77]] (May 19-29, 1996) was a ten-day mission aboard Space Shuttle Endeavour.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-11,STS-77/NN-1)
+				appos(STS-77/NN-1,May/NNP-3)
+				num(May/NNP-3,19-29/CD-4)
+				dep(May/NNP-3,1996/CD-6)
+				cop(mission/NN-11,was/VBD-8)
+				det(mission/NN-11,a/DT-9)
+				amod(mission/NN-11,ten-day/JJ-10)
+				nn(Endeavour/NNP-15,Space/NN-13)
+				nn(Endeavour/NNP-15,Shuttle/NNP-14)
+				prep_aboard(mission/NN-11,Endeavour/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-77</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-77</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-77
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew performed a record number of rendezvous sequences (one with a SPARTAN satellite and three with a deployed Satellite Test Unit) and approximately 21 hours of formation flying in close proximity of the satellites.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(performed/VBD-3,crew/NN-2)
+				det(number/NN-6,a/DT-4)
+				nn(number/NN-6,record/NN-5)
+				dobj(performed/VBD-3,number/NN-6)
+				nn(sequences/NNS-9,rendezvous/NN-8)
+				prep_of(number/NN-6,sequences/NNS-9)
+				dep(number/NN-6,one/CD-11)
+				det(satellite/NN-15,a/DT-13)
+				amod(satellite/NN-15,SPARTAN/JJ-14)
+				prep_with(one/CD-11,satellite/NN-15)
+				prep_with(one/CD-11,three/CD-17)
+				conj_and(satellite/NN-15,three/CD-17)
+				det(Unit/NNP-23,a/DT-19)
+				amod(Unit/NNP-23,deployed/VBN-20)
+				nn(Unit/NNP-23,Satellite/NNP-21)
+				nn(Unit/NNP-23,Test/NNP-22)
+				prep_with(one/CD-11,Unit/NNP-23)
+				quantmod(21/CD-27,approximately/RB-26)
+				num(hours/NNS-28,21/CD-27)
+				dobj(performed/VBD-3,hours/NNS-28)
+				conj_and(number/NN-6,hours/NNS-28)
+				prep_of(hours/NNS-28,formation/NN-30)
+				partmod(formation/NN-30,flying/VBG-31)
+				amod(proximity/NN-34,close/JJ-33)
+				prep_in(flying/VBG-31,proximity/NN-34)
+				det(satellites/NNS-37,the/DT-36)
+				prep_of(proximity/NN-34,satellites/NNS-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the flight the crew also conducted 12 experiments in materials processing, fluid physics and biotechnology in a Spacehab Module.	</value>
+
+		<annotated-sentence>	During [[the flight|Flight]] the crew also conducted 12 [[experiments|Experiment]] in [[materials processing|Materials_processing]], [[fluid physics|Fluid_mechanics]] and [[biotechnology|Biotechnology]] in [[a Spacehab Module|Astrotech_Corporation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the flight the crew also conducted 12 experiments in materials processing, fluid physics and biotechnology in a Spacehab Module.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,the/DT-2)
+				prep_during(conducted/VBD-7,flight/NN-3)
+				det(crew/NN-5,the/DT-4)
+				nsubj(conducted/VBD-7,crew/NN-5)
+				advmod(conducted/VBD-7,also/RB-6)
+				num(experiments/NNS-9,12/CD-8)
+				dobj(conducted/VBD-7,experiments/NNS-9)
+				nn(processing/NN-12,materials/NNS-11)
+				prep_in(conducted/VBD-7,processing/NN-12)
+				nn(physics/NNS-15,fluid/NN-14)
+				prep_in(conducted/VBD-7,physics/NNS-15)
+				conj_and(processing/NN-12,physics/NNS-15)
+				prep_in(conducted/VBD-7,biotechnology/NN-17)
+				conj_and(processing/NN-12,biotechnology/NN-17)
+				det(Module/NNP-21,a/DT-19)
+				nn(Module/NNP-21,Spacehab/NNP-20)
+				prep_in(conducted/VBD-7,Module/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials processing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Materials_processing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fluid physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_mechanics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>biotechnology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biotechnology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Spacehab Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astrotech_Corporation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-77 deployed and retrieved a SPARTAN satellite, which carried the Inflatable Antenna Experiment designed to test the concept of large, inflatable space structures.	</value>
+
+		<annotated-sentence>	[[STS-77|STS-77]] deployed and retrieved a SPARTAN [[satellite|Satellite]], which carried [[the Inflatable Antenna Experiment|Inflatable_Antenna_Experiment]] designed to test [[the concept|Concept]] of large, [[inflatable space structures|Inflatable_space_structures]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-77|STS-77]] deployed and retrieved a SPARTAN satellite, which carried the Inflatable Antenna Experiment designed to test the concept of large, inflatable space structures.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(deployed/VBN-2,STS-77/NN-1)
+				nsubj(retrieved/VBN-4,STS-77/NN-1)
+				conj_and(deployed/VBN-2,retrieved/VBN-4)
+				det(satellite/NN-7,a/DT-5)
+				amod(satellite/NN-7,SPARTAN/JJ-6)
+				dobj(retrieved/VBN-4,satellite/NN-7)
+				nsubj(carried/VBD-10,which/WDT-9)
+				rcmod(satellite/NN-7,carried/VBD-10)
+				det(Experiment/NNP-14,the/DT-11)
+				amod(Experiment/NNP-14,Inflatable/JJ-12)
+				nn(Experiment/NNP-14,Antenna/NNP-13)
+				dobj(carried/VBD-10,Experiment/NNP-14)
+				partmod(Experiment/NNP-14,designed/VBN-15)
+				aux(test/VB-17,to/TO-16)
+				xcomp(designed/VBN-15,test/VB-17)
+				det(concept/NN-19,the/DT-18)
+				dobj(test/VB-17,concept/NN-19)
+				amod(structures/NNS-25,large/JJ-21)
+				amod(structures/NNS-25,inflatable/JJ-23)
+				nn(structures/NNS-25,space/NN-24)
+				prep_of(concept/NN-19,structures/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-77</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-77</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Inflatable Antenna Experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inflatable_Antenna_Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the concept</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Concept</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>inflatable space structures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Inflatable_space_structures</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_Casper http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-77
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A small Satellite Test Unit was also deployed to test the concept of self-stabilization by using aerodynamic forces and magnetic damping.	</value>
+
+		<annotated-sentence>	A [[small Satellite|Miniaturized_satellite]] Test [[Unit|UNIT]] was also deployed to test [[the concept|Concept]] of [[self-stabilization|Self-stabilization]] by using aerodynamic forces and [[magnetic damping|Magnetic_damping]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A small Satellite Test Unit was also deployed to test the concept of self-stabilization by using aerodynamic forces and magnetic damping.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Unit/NNP-5,A/DT-1)
+				amod(Unit/NNP-5,small/JJ-2)
+				nn(Unit/NNP-5,Satellite/NNP-3)
+				nn(Unit/NNP-5,Test/NNP-4)
+				nsubjpass(deployed/VBN-8,Unit/NNP-5)
+				auxpass(deployed/VBN-8,was/VBD-6)
+				advmod(deployed/VBN-8,also/RB-7)
+				aux(test/VB-10,to/TO-9)
+				xcomp(deployed/VBN-8,test/VB-10)
+				det(concept/NN-12,the/DT-11)
+				dobj(test/VB-10,concept/NN-12)
+				prep_of(concept/NN-12,self-stabilization/NN-14)
+				prepc_by(test/VB-10,using/VBG-16)
+				amod(forces/NNS-18,aerodynamic/JJ-17)
+				dobj(using/VBG-16,forces/NNS-18)
+				dobj(using/VBG-16,magnetic/JJ-20)
+				conj_and(forces/NNS-18,magnetic/JJ-20)
+				partmod(magnetic/JJ-20,damping/VBG-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>small Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Miniaturized_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Unit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/UNIT</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the concept</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Concept</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>self-stabilization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Self-stabilization</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>magnetic damping</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Magnetic_damping</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Casper brought Endeavour back to Earth at the Kennedy Space Center after 160 Earth orbits and 4.1 million miles.	</value>
+
+		<annotated-sentence>	Casper brought [[Endeavour|Endeavour]] back to [[Earth|Earth]] at [[the Kennedy Space Center|Kennedy_Space_Center]] after 160 [[Earth orbits|Geocentric_orbit]] and 4.1 [[million|Million_(band)]] [[miles|Mile]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Casper brought Endeavour back to Earth at the Kennedy Space Center after 160 Earth orbits and 4.1 million miles.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(brought/VBD-2,Casper/NNP-1)
+				dobj(brought/VBD-2,Endeavour/NNP-3)
+				advmod(Endeavour/NNP-3,back/RB-4)
+				prep_to(back/RB-4,Earth/NNP-6)
+				det(Center/NNP-11,the/DT-8)
+				nn(Center/NNP-11,Kennedy/NNP-9)
+				nn(Center/NNP-11,Space/NNP-10)
+				prep_at(brought/VBD-2,Center/NNP-11)
+				num(orbits/NNS-15,160/CD-13)
+				nn(orbits/NNS-15,Earth/NNP-14)
+				prep_after(brought/VBD-2,orbits/NNS-15)
+				number(million/CD-18,4.1/CD-17)
+				num(miles/NNS-19,million/CD-18)
+				prep_after(brought/VBD-2,miles/NNS-19)
+				conj_and(orbits/NNS-15,miles/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 240 hours and 39 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 240 [[hours|Hour]] and 39 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 240 hours and 39 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,240/CD-4)
+				num(minutes/NNS-8,39/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Colonel Casper has been awarded the Defense Superior Service Medal, two Legion of Merit Awards, two Distinguished Flying Crosses, 11 Air Medals, two Defense Meritorious Service Medals, six Air Force Commendation Medals, the Vietnam Cross of Gallantry, two NASA Distinguished Service Medals, the NASA Outstanding Leadership Medal, the NASA Exceptional Service Medal, four NASA Space Flight Medals, and the National Intelligence Achievement Medal.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Casper/NNP-2,Colonel/NNP-1)
+				nsubjpass(awarded/VBN-5,Casper/NNP-2)
+				aux(awarded/VBN-5,has/VBZ-3)
+				auxpass(awarded/VBN-5,been/VBN-4)
+				det(Medal/NN-10,the/DT-6)
+				nn(Medal/NN-10,Defense/NNP-7)
+				nn(Medal/NN-10,Superior/NNP-8)
+				nn(Medal/NN-10,Service/NNP-9)
+				dobj(awarded/VBN-5,Medal/NN-10)
+				num(Legion/NNP-13,two/CD-12)
+				appos(Medal/NN-10,Legion/NNP-13)
+				nn(Awards/NNS-16,Merit/NNP-15)
+				prep_of(Legion/NNP-13,Awards/NNS-16)
+				dobj(awarded/VBN-5,two/CD-18)
+				conj_and(Medal/NN-10,two/CD-18)
+				partmod(two/CD-18,Distinguished/VBN-19)
+				nn(Crosses/NNP-21,Flying/NNP-20)
+				dep(Distinguished/VBN-19,Crosses/NNP-21)
+				num(Medals/NNPS-25,11/CD-23)
+				nn(Medals/NNPS-25,Air/NNP-24)
+				appos(Crosses/NNP-21,Medals/NNPS-25)
+				appos(Crosses/NNP-21,two/CD-27)
+				nn(Medals/NNPS-31,Defense/NNP-28)
+				nn(Medals/NNPS-31,Meritorious/NNP-29)
+				nn(Medals/NNPS-31,Service/NNP-30)
+				dep(two/CD-27,Medals/NNPS-31)
+				appos(Crosses/NNP-21,six/CD-33)
+				nn(Medals/NNPS-37,Air/NNP-34)
+				nn(Medals/NNPS-37,Force/NNP-35)
+				nn(Medals/NNPS-37,Commendation/NNP-36)
+				dep(six/CD-33,Medals/NNPS-37)
+				det(Cross/NN-41,the/DT-39)
+				nn(Cross/NN-41,Vietnam/NNP-40)
+				appos(Crosses/NNP-21,Cross/NN-41)
+				prep_of(Cross/NN-41,Gallantry/NNP-43)
+				appos(Crosses/NNP-21,two/CD-45)
+				nn(Medals/NNPS-49,NASA/NNP-46)
+				nn(Medals/NNPS-49,Distinguished/NNP-47)
+				nn(Medals/NNPS-49,Service/NNP-48)
+				dep(two/CD-45,Medals/NNPS-49)
+				det(Medal/NN-55,the/DT-51)
+				nn(Medal/NN-55,NASA/NNP-52)
+				amod(Medal/NN-55,Outstanding/JJ-53)
+				nn(Medal/NN-55,Leadership/NN-54)
+				appos(Crosses/NNP-21,Medal/NN-55)
+				det(Medal/NN-61,the/DT-57)
+				nn(Medal/NN-61,NASA/NNP-58)
+				nn(Medal/NN-61,Exceptional/NNP-59)
+				nn(Medal/NN-61,Service/NNP-60)
+				appos(Crosses/NNP-21,Medal/NN-61)
+				appos(Crosses/NNP-21,four/CD-63)
+				nn(Medals/NNPS-67,NASA/NNP-64)
+				nn(Medals/NNPS-67,Space/NNP-65)
+				nn(Medals/NNPS-67,Flight/NNP-66)
+				dep(four/CD-63,Medals/NNPS-67)
+				det(Medal/NN-74,the/DT-70)
+				nn(Medal/NN-74,National/NNP-71)
+				nn(Medal/NN-74,Intelligence/NNP-72)
+				nn(Medal/NN-74,Achievement/NNP-73)
+				dobj(awarded/VBN-5,Medal/NN-74)
+				conj_and(Medal/NN-10,Medal/NN-74)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

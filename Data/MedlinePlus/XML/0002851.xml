@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The health care provider performs this exam by shining a beam of light through the pupil using an instrument called an ophthalmoscope.</value>
+		<pattern_crowdsource> The [[health care provider|C0018724]] performs this [[exam|C0031809]] by shining a beam of light through the pupil using an instrument called an ophthalmoscope.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>light</surface-form>
+				<RDF-ID>C0031765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pupil</surface-form>
+				<RDF-ID>C0034121</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>instrument</surface-form>
+				<RDF-ID>C0348000</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ophthalmoscope</surface-form>
+				<RDF-ID>C0182046</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The provider holds your eye open while shining a very bright light into the eye using an instrument worn on the head.</value>
+		<pattern_crowdsource> The provider holds your eye open while shining a [[very bright light|C0439538]] into the eye using an instrument worn on the [[head|C1281590]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1138603</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bright</surface-form>
+				<RDF-ID>C0423899</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very bright light</surface-form>
+				<RDF-ID>C0439538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>instrument</surface-form>
+				<RDF-ID>C0348000</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head</surface-form>
+				<RDF-ID>C1281590</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1281590 LOCATION_OF C0439538</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may briefly see images after the light shines in your eyes.</value>
+		<pattern_crowdsource> You may briefly see [[images|C0025086]] after the light shines in your [[eyes|C0015392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>images</surface-form>
+				<RDF-ID>C0025086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>light</surface-form>
+				<RDF-ID>C0031765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eyes</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015392 LOCATION_OF C0025086</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It is used to detect and evaluate symptoms of retinal detachment or eye diseases such as glaucoma.</value>
+		<pattern_crowdsource> It is used to detect and evaluate symptoms of retinal detachment or [[eye diseases|C0015397]] such as [[glaucoma|C0017601]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retinal detachment</surface-form>
+				<RDF-ID>C0035305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye diseases</surface-form>
+				<RDF-ID>C0015397</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glaucoma</surface-form>
+				<RDF-ID>C0017601</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017601 ISA C0015397</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ophthalmoscopy may also be done if you have signs or symptoms of high blood pressure, diabetes, or other diseases that affect the blood vessels.</value>
+		<pattern_crowdsource> Ophthalmoscopy may also be done if you have signs or symptoms of [[high blood pressure|C0020538]], [[diabetes|C0011847]], or other [[diseases|C0012634]] that affect the blood vessels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ophthalmoscopy</surface-form>
+				<RDF-ID>C0029090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessels</surface-form>
+				<RDF-ID>C0005847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 ISA C0012634</triple>
+			<triple>C0012634 ISA C0011847</triple>
+			<triple>C0012634 ISA C0020538</triple>
+			<triple>C0020538 ISA C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal results may be seen on ophthalmoscopy with any of the following conditions:  - Viral inflammation of the retina (CMV retinitis)  - Diabetes  - Glaucoma  - High blood pressure  - Loss of sharp vision due to macular degeneration  - Melanoma of the eye  - Optic nerve problems  - Separation of the light-sensitive membrane (retina) in the back of the eye from its supporting (retinal tear or detachment)   Ophthalmoscopy is considered to be 90 to 95% accurate.</value>
+		<pattern_crowdsource> Abnormal results may be seen on ophthalmoscopy with any of the following conditions:  - Viral [[inflammation|C0021368]] of the [[retina|C0035298]] (CMV retinitis)  - Diabetes  - Glaucoma  - [[High blood pressure|C0020538]]  - Loss of sharp vision due to macular degeneration  - [[Melanoma|C0025202]] of the eye  - Optic nerve problems  - [[Separation|C0036679]] of the light-sensitive membrane (retina) in the back of the [[eye|C0015392]] from its supporting (retinal tear or detachment)   Ophthalmoscopy is considered to be 90 to 95% accurate.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal results</surface-form>
+				<RDF-ID>C0459424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ophthalmoscopy</surface-form>
+				<RDF-ID>C0029090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Viral</surface-form>
+				<RDF-ID>C0521026</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CMV retinitis</surface-form>
+				<RDF-ID>C0206178</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Glaucoma</surface-form>
+				<RDF-ID>C0017601</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Loss</surface-form>
+				<RDF-ID>C1517945</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision</surface-form>
+				<RDF-ID>C0042789</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>macular degeneration</surface-form>
+				<RDF-ID>C0024437</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Melanoma</surface-form>
+				<RDF-ID>C0025202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Optic nerve</surface-form>
+				<RDF-ID>C0029130</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye  - Optic nerve problems</surface-form>
+				<RDF-ID>C0262477</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Separation</surface-form>
+				<RDF-ID>C0036679</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>light-sensitive</surface-form>
+				<RDF-ID>C0085636</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>membrane</surface-form>
+				<RDF-ID>C0596901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retina</surface-form>
+				<RDF-ID>C0035298</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back of</surface-form>
+				<RDF-ID>C0205095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eye</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>supporting</surface-form>
+				<RDF-ID>C0183683</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>retinal tear</surface-form>
+				<RDF-ID>C0035321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ophthalmoscopy</surface-form>
+				<RDF-ID>C0029090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>accurate</surface-form>
+				<RDF-ID>C0443131</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0035298 LOCATION_OF C0021368</triple>
+			<triple>C0025202 CAUSES C0020538</triple>
+			<triple>C0015392 LOCATION_OF C0036679</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

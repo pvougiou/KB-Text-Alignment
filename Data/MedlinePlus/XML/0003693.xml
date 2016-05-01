@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your health care provider may order this test if you have symptoms or signs of a lung infection, especially if you have a weakened immune system due to certain medicines or diseases such as cancer or HIV/AIDS.</value>
+		<pattern_crowdsource> Your [[health care provider|C0018724]] may order this test if you have [[symptoms|C1457887]] or signs of a [[lung infection|C0876973]], especially if you have a weakened immune system due to certain [[medicines|C0013227]] or [[diseases|C0012634]] such as [[cancer|C0006826]] or HIV/[[AIDS|C0001175]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0220913</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung infection</surface-form>
+				<RDF-ID>C0876973</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune system</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>HIV</surface-form>
+				<RDF-ID>C0019699</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>AIDS</surface-form>
+				<RDF-ID>C0001175</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0012634</triple>
+			<triple>C0001175 ISA C0012634</triple>
+			<triple>C1457887 PROCESS_OF C0018724</triple>
+			<triple>C0013227 CAUSES C0876973</triple>
+			<triple>C0012634 CAUSES C0876973</triple>
+			<triple>C0006826 CAUSES C0876973</triple>
+			<triple>C0001175 CAUSES C0876973</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

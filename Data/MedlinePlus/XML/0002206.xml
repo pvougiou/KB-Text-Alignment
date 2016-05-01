@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You were in the hospital to treat your breathing problems that are caused by interstitial lung disease.</value>
+		<pattern_crowdsource> You were in the hospital to treat your [[breathing problems|C1260922]] that are caused by [[interstitial lung disease|C0206062]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breathing problems</surface-form>
+				<RDF-ID>C1260922</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>interstitial lung disease</surface-form>
+				<RDF-ID>C0206062</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0206062 CAUSES C1260922</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You received oxygen treatment, and you may need to keep using oxygen when you go home.</value>
+		<pattern_crowdsource> You received [[oxygen|C0030054]] [[treatment|C0087111]], and you may need to keep using [[oxygen|C0030054]] when you go home.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 USES C0030054</triple>
+			<triple>C0087111 USES C0030054</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ask your doctor whether you need to use oxygen during your activities, and if so, how much.</value>
+		<pattern_crowdsource> Ask your [[doctor|C0031831]] whether you need to use [[oxygen|C0030054]] during your activities, and if so, how much.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>C0030054</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>C0441655</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030054 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

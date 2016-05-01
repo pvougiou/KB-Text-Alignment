@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>CHD is also called coronary artery disease.</value>
+		<pattern_crowdsource> [[CHD|C0010068]] is also called [[coronary artery disease|C0010054]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>CHD</surface-form>
+				<RDF-ID>C0010068</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary artery disease</surface-form>
+				<RDF-ID>C0010054</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010054 ISA C0010068</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Coronary heart disease is the leading cause of death in the United States for men and women.</value>
+		<pattern_crowdsource> [[Coronary heart disease|C0010068]] is the leading cause of [[death|C0011065]] in the United States for men and women.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Coronary heart disease</surface-form>
+				<RDF-ID>C0010068</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>death</surface-form>
+				<RDF-ID>C0011065</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>United States</surface-form>
+				<RDF-ID>C0041703</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>women</surface-form>
+				<RDF-ID>C0043210</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010068 CAUSES C0011065</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Coronary heart disease is caused by the buildup of plaque in the arteries to your heart.</value>
+		<pattern_crowdsource> Coronary heart disease is caused by the buildup of [[plaque|C0333463]] in the [[arteries|C0003842]] to your heart.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Coronary heart disease</surface-form>
+				<RDF-ID>C0010068</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plaque</surface-form>
+				<RDF-ID>C0333463</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003842 LOCATION_OF C0333463</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Fatty material and other substances form a plaque buildup on the walls of your coronary arteries.</value>
+		<pattern_crowdsource> - Fatty [[material|C0520510]] and other [[substances|C0439861]] form a plaque buildup on the walls of your coronary arteries.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>C0520510</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>substances</surface-form>
+				<RDF-ID>C0439861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plaque</surface-form>
+				<RDF-ID>C0333463</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary arteries</surface-form>
+				<RDF-ID>C0205042</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0520510 ISA C0439861</triple>
+			<triple>C0439861 ISA C0520510</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

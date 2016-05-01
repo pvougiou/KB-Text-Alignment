@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Yelena Olegovna Serova (Russian: ????? ???????? ?????? ) was born April 22, 1976.	</value>
+
+		<annotated-sentence>	[[Yelena|Yelena_(name)]] Olegovna [[Serova|Yelena_Serova]] ([[Russian|Russia]]: ????? ???????? ?????? ) was born April 22, 1976.	</annotated-sentence>
+
+		<pattern_crowdsource>	Yelena Olegovna [[Serova|Yelena_Serova]] ([[Russian|Russia]]: ????? ???????? ?????? ) was born April 22, 1976.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Serova/NNP-3,Yelena/NNP-1)
+				nn(Serova/NNP-3,Olegovna/NNP-2)
+				nsubjpass(born/VBN-12,Serova/NNP-3)
+				dep(Serova/NNP-3,Russian/NNP-5)
+				nn(??????/NNP-9,?????/NNP-7)
+				nn(??????/NNP-9,????????/NNP-8)
+				dep(Russian/NNP-5,??????/NNP-9)
+				auxpass(born/VBN-12,was/VBD-11)
+				tmod(born/VBN-12,April/NNP-13)
+				num(April/NNP-13,22/CD-14)
+				num(April/NNP-13,1976/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yelena</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yelena_(name)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Serova</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yelena_Serova</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Serova http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is a Russian cosmonaut, selected in 2006.	</value>
+
+		<annotated-sentence>	She is a Russian cosmonaut, selected in [[2006|2006]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She is a Russian cosmonaut, selected in 2006.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(cosmonaut/NN-5,She/PRP-1)
+				cop(cosmonaut/NN-5,is/VBZ-2)
+				det(cosmonaut/NN-5,a/DT-3)
+				amod(cosmonaut/NN-5,Russian/JJ-4)
+				partmod(cosmonaut/NN-5,selected/VBN-7)
+				prep_in(selected/VBN-7,2006/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2006</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She is the wife of cosmonaut Mark Serov, selected in RKKE-13 in 2003, but retired for medical reasons before flying any missions.	</value>
+
+		<annotated-sentence>	She is [[the wife|Wife]] of cosmonaut Mark Serov, selected in RKKE-13 in [[2003|2003]], but retired for medical reasons before flying any missions.	</annotated-sentence>
+
+		<pattern_crowdsource>	She is the wife of cosmonaut Mark Serov, selected in RKKE-13 in 2003, but retired for medical reasons before flying any missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(wife/NN-4,She/PRP-1)
+				nsubj(retired/VBD-17,She/PRP-1)
+				cop(wife/NN-4,is/VBZ-2)
+				det(wife/NN-4,the/DT-3)
+				nn(Serov/NNP-8,cosmonaut/NN-6)
+				nn(Serov/NNP-8,Mark/NNP-7)
+				prep_of(wife/NN-4,Serov/NNP-8)
+				partmod(Serov/NNP-8,selected/VBN-10)
+				prep_in(selected/VBN-10,RKKE-13/NN-12)
+				prep_in(RKKE-13/NN-12,2003/CD-14)
+				conj_but(wife/NN-4,retired/VBD-17)
+				amod(reasons/NNS-20,medical/JJ-19)
+				prep_for(retired/VBD-17,reasons/NNS-20)
+				prepc_before(retired/VBD-17,flying/VBG-22)
+				det(missions/NNS-24,any/DT-23)
+				dobj(flying/VBG-22,missions/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2003</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have a daughter.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[a daughter|Daughter]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have a daughter.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				det(daughter/NN-4,a/DT-3)
+				dobj(have/VBP-2,daughter/NN-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In March 2001, Serova graduated from the Aerospace Faculty of the Moscow Aviation Institute (MAI) qualified as an engineer.	</value>
+
+		<annotated-sentence>	In [[March 2001|March_2001]], Serova graduated from the [[Aerospace|Aerospace]] Faculty of [[the Moscow Aviation Institute|Moscow_Aviation_Institute]] ([[MAI|Moscow_Aviation_Institute]]) qualified as [[an engineer|Engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In March 2001, Serova graduated from the Aerospace Faculty of the Moscow Aviation Institute (MAI) qualified as an engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-6,March/NNP-2)
+				num(March/NNP-2,2001/CD-3)
+				nsubj(graduated/VBD-6,Serova/NNP-5)
+				det(Faculty/NNP-10,the/DT-8)
+				nn(Faculty/NNP-10,Aerospace/NNP-9)
+				prep_from(graduated/VBD-6,Faculty/NNP-10)
+				det(Institute/NNP-15,the/DT-12)
+				nn(Institute/NNP-15,Moscow/NNP-13)
+				nn(Institute/NNP-15,Aviation/NNP-14)
+				prep_of(Faculty/NNP-10,Institute/NNP-15)
+				appos(Institute/NNP-15,MAI/NNP-17)
+				dep(graduated/VBD-6,qualified/VBN-19)
+				det(engineer/NN-22,an/DT-21)
+				prep_as(qualified/VBN-19,engineer/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>March 2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2001</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moscow Aviation Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow_Aviation_Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MAI</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow_Aviation_Institute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2003 she graduated from the Moscow State Academy of Instrument Engineering and Information qualified as an economist.	</value>
+
+		<annotated-sentence>	In [[2003|2003]] she graduated from the [[Moscow|Moscow]] [[State|California]] [[Academy|Academy_of_Motion_Picture_Arts_and_Sciences]] of [[Instrument Engineering|Instrumentation]] and [[Information|Information]] qualified as [[an economist|Economist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2003 she graduated from the Moscow [[State|California]] [[Academy|Academy_of_Motion_Picture_Arts_and_Sciences]] of Instrument Engineering and Information qualified as an economist.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(graduated/VBD-4,2003/CD-2)
+				nsubj(graduated/VBD-4,she/PRP-3)
+				det(Academy/NNP-9,the/DT-6)
+				nn(Academy/NNP-9,Moscow/NNP-7)
+				nn(Academy/NNP-9,State/NNP-8)
+				prep_from(graduated/VBD-4,Academy/NNP-9)
+				nn(Engineering/NNP-12,Instrument/NNP-11)
+				prep_of(Academy/NNP-9,Engineering/NNP-12)
+				nsubj(qualified/VBD-15,Information/NNP-14)
+				conj_and(graduated/VBD-4,qualified/VBD-15)
+				det(economist/NN-18,an/DT-17)
+				prep_as(qualified/VBD-15,economist/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2003</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>State</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy_of_Motion_Picture_Arts_and_Sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Instrument Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Instrumentation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Information</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Information</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an economist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Economist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Academy_of_Motion_Picture_Arts_and_Sciences http://dbpedia.org/property/headquarters http://dbpedia.org/resource/California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to enrollment as a cosmonaut, Serova has worked as an engineer of the 2nd category RSC Energia, and in the Mission Control Center.	</value>
+
+		<annotated-sentence>	Prior to [[enrollment|Education]] as a cosmonaut, Serova has worked as [[an engineer|Engineer]] of the 2nd category [[RSC Energia|S.P._Korolev_Rocket_and_Space_Corporation_Energia]], and in [[the Mission Control Center|Mission_control_center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Prior to enrollment as a cosmonaut, Serova has worked as an engineer of the 2nd category RSC Energia, and in the Mission Control Center.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_prior_to(worked/VBN-10,enrollment/NN-3)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(enrollment/NN-3,cosmonaut/NN-6)
+				nsubj(worked/VBN-10,Serova/NNP-8)
+				nsubj(worked/VBN-10,Serova/NNP-8)
+				aux(worked/VBN-10,has/VBZ-9)
+				conj_and(worked/VBN-10,worked/VBN-10)
+				det(engineer/NN-13,an/DT-12)
+				prep_as(worked/VBN-10,engineer/NN-13)
+				det(Energia/NNP-19,the/DT-15)
+				amod(Energia/NNP-19,2nd/JJ-16)
+				nn(Energia/NNP-19,category/NN-17)
+				nn(Energia/NNP-19,RSC/NNP-18)
+				prep_of(engineer/NN-13,Energia/NNP-19)
+				det(Center/NNP-26,the/DT-23)
+				nn(Center/NNP-26,Mission/NNP-24)
+				nn(Center/NNP-26,Control/NNP-25)
+				prep_in(worked/VBN-10,Center/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>enrollment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Education</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>RSC Energia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S.P._Korolev_Rocket_and_Space_Corporation_Energia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mission Control Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_control_center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Serova was selected as a test cosmonaut at the age of 30 in the RKKE-14 group in October 2006 while working as a flight engineer.	</value>
+
+		<annotated-sentence>	Serova was selected as a test cosmonaut at the age of 30 in the RKKE-14 group in [[October 2006|October_2006]] while working as [[a flight engineer|Flight_engineer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Serova was selected as a test cosmonaut at the age of 30 in the RKKE-14 group in October 2006 while working as a flight engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Serova/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-7,a/DT-5)
+				nn(cosmonaut/NN-7,test/NN-6)
+				prep_as(selected/VBN-3,cosmonaut/NN-7)
+				det(age/NN-10,the/DT-9)
+				prep_at(cosmonaut/NN-7,age/NN-10)
+				prep_of(age/NN-10,30/CD-12)
+				det(group/NN-16,the/DT-14)
+				nn(group/NN-16,RKKE-14/NN-15)
+				prep_in(selected/VBN-3,group/NN-16)
+				prep_in(group/NN-16,October/NNP-18)
+				num(October/NNP-18,2006/CD-19)
+				mark(working/VBG-21,while/IN-20)
+				advcl(selected/VBN-3,working/VBG-21)
+				det(engineer/NN-25,a/DT-23)
+				nn(engineer/NN-25,flight/NN-24)
+				prep_as(working/VBG-21,engineer/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>October 2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Serova has been selected for Expedition 41/42, set to travel by Soyuz to the International Space Station in September 2014.	</value>
+
+		<annotated-sentence>	Serova has been selected for [[Expedition|Exploration]] 41/42, set to travel by Soyuz to [[the International Space Station|International_Space_Station]] in [[September 2014|2014]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Serova has been selected for Expedition 41/42, set to travel by Soyuz to the International Space Station in September 2014.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-4,Serova/NNP-1)
+				aux(selected/VBN-4,has/VBZ-2)
+				auxpass(selected/VBN-4,been/VBN-3)
+				prep_for(selected/VBN-4,Expedition/NN-6)
+				num(Expedition/NN-6,41/42/CD-7)
+				partmod(Expedition/NN-6,set/VBN-9)
+				aux(travel/VB-11,to/TO-10)
+				xcomp(set/VBN-9,travel/VB-11)
+				prep_by(travel/VB-11,Soyuz/NNP-13)
+				det(Station/NNP-18,the/DT-15)
+				nn(Station/NNP-18,International/NNP-16)
+				nn(Station/NNP-18,Space/NNP-17)
+				prep_to(travel/VB-11,Station/NNP-18)
+				prep_in(Station/NNP-18,September/NNP-20)
+				num(September/NNP-20,2014/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 2014</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2014</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She will only be the fourth Russian female cosmonaut to travel to space.	</value>
+
+		<annotated-sentence>	She will only be the fourth Russian female cosmonaut to travel to [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She will only be the fourth Russian female cosmonaut to travel to space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(cosmonaut/NN-9,She/PRP-1)
+				aux(cosmonaut/NN-9,will/MD-2)
+				advmod(cosmonaut/NN-9,only/RB-3)
+				cop(cosmonaut/NN-9,be/VB-4)
+				det(cosmonaut/NN-9,the/DT-5)
+				amod(cosmonaut/NN-9,fourth/JJ-6)
+				amod(cosmonaut/NN-9,Russian/JJ-7)
+				amod(cosmonaut/NN-9,female/JJ-8)
+				aux(travel/VB-11,to/TO-10)
+				xcomp(cosmonaut/NN-9,travel/VB-11)
+				prep_to(travel/VB-11,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Previously Valentina Tereshkova, Svetlana Savitskaya and Yelena Kondakova have flown into space.	</value>
+
+		<annotated-sentence>	Previously [[Valentina Tereshkova|Valentina_Tereshkova]], [[Svetlana Savitskaya|Svetlana_Savitskaya]] and [[Yelena Kondakova|Yelena_Kondakova]] have flown into [[space|Outer_space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Previously [[Valentina Tereshkova|Valentina_Tereshkova]], Svetlana Savitskaya and Yelena Kondakova have flown into [[space|Outer_space]].	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(flown/VBN-11,Previously/RB-1)
+				nn(Tereshkova/NNP-3,Valentina/NNP-2)
+				nsubj(flown/VBN-11,Tereshkova/NNP-3)
+				nn(Savitskaya/NNP-6,Svetlana/NNP-5)
+				conj_and(Tereshkova/NNP-3,Savitskaya/NNP-6)
+				nsubj(flown/VBN-11,Savitskaya/NNP-6)
+				nn(Kondakova/NNP-9,Yelena/NNP-8)
+				conj_and(Tereshkova/NNP-3,Kondakova/NNP-9)
+				nsubj(flown/VBN-11,Kondakova/NNP-9)
+				aux(flown/VBN-11,have/VBP-10)
+				prep_into(flown/VBN-11,space/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Valentina Tereshkova</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Valentina_Tereshkova</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Svetlana Savitskaya</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Svetlana_Savitskaya</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Yelena Kondakova</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yelena_Kondakova</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outer_space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Valentina_Tereshkova http://dbpedia.org/ontology/type http://dbpedia.org/resource/Outer_space
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

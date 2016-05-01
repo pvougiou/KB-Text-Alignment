@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>An open pleural biopsy is a procedure to remove and examine the tissue that lines the inside of the chest.</value>
+		<pattern_crowdsource> An open [[pleural biopsy|C0176531]] is a [[procedure|C0184661]] to remove and examine the tissue that lines the inside of the chest.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>open</surface-form>
+				<RDF-ID>C0175566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleural biopsy</surface-form>
+				<RDF-ID>C0176531</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0176531 ISA C0184661</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An open pleural biopsy is done in the hospital using general anesthesia, which means you are asleep and pain-free.</value>
+		<pattern_crowdsource> An open [[pleural biopsy|C0176531]] is done in the [[hospital|C0019994]] using general anesthesia, which means you are asleep and pain-free.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>open</surface-form>
+				<RDF-ID>C0175566</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pleural biopsy</surface-form>
+				<RDF-ID>C0176531</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>general anesthesia</surface-form>
+				<RDF-ID>C0002915</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asleep</surface-form>
+				<RDF-ID>C0424522</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain-free</surface-form>
+				<RDF-ID>C0908489</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019994 LOCATION_OF C0176531</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most surgeons inject a long-acting local anesthetic at the surgical cut site so that you will have very little pain afterwards.</value>
+		<pattern_crowdsource> Most [[surgeons|C0582175]] inject a long-acting local anesthetic at the surgical cut site so that you will have very little [[pain|C0030193]] afterwards.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgeons</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long-</surface-form>
+				<RDF-ID>C0205166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acting</surface-form>
+				<RDF-ID>C1550741</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>local anesthetic</surface-form>
+				<RDF-ID>C0002921</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical cut site</surface-form>
+				<RDF-ID>C0332850</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>very</surface-form>
+				<RDF-ID>C0442824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0582175</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal findings may be due to:  - Abnormal tissue growth (neoplasms)  - Disease due to a virus, fungus, or parasite  - Mesothelioma  - Tuberculosis</value>
+		<pattern_crowdsource> Abnormal findings may be due to:  - Abnormal tissue growth (neoplasms)  - [[Disease|C0012634]] due to a [[virus|C0042769]], [[fungus|C0016832]], or parasite  - Mesothelioma  - [[Tuberculosis|C0041296]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>findings</surface-form>
+				<RDF-ID>C0243095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Abnormal tissue growth</surface-form>
+				<RDF-ID>C0262361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neoplasms</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parasite</surface-form>
+				<RDF-ID>C0030498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Mesothelioma</surface-form>
+				<RDF-ID>C0025500</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tuberculosis</surface-form>
+				<RDF-ID>C0041296</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042769 CAUSES C0012634</triple>
+			<triple>C0041296 CAUSES C0012634</triple>
+			<triple>C0016832 CAUSES C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

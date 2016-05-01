@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Your child has hydrocephalus and needed a shunt placed to drain excess fluid and relieve pressure in the brain.</value>
+		<pattern_crowdsource> Your [[child|C0008059]] has [[hydrocephalus|C0020255]] and needed a [[shunt|C1442858]] placed to drain excess fluid and relieve pressure in the [[brain|C0006104]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrocephalus</surface-form>
+				<RDF-ID>C0020255</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shunt</surface-form>
+				<RDF-ID>C1442858</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>excess</surface-form>
+				<RDF-ID>C0442802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fluid</surface-form>
+				<RDF-ID>C0302908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pressure</surface-form>
+				<RDF-ID>C0234222</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0020255 PROCESS_OF C0008059</triple>
+			<triple>C0006104 LOCATION_OF C1442858</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A nabothian cyst is a mucus-filled lump on the surface of the cervix.</value>
+		<pattern_crowdsource> A [[nabothian cyst|C0027269]] is a mucus-filled [[lump|C0577559]] on the surface of the cervix.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>nabothian cyst</surface-form>
+				<RDF-ID>C0027269</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mucus</surface-form>
+				<RDF-ID>C0026727</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lump</surface-form>
+				<RDF-ID>C0577559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surface</surface-form>
+				<RDF-ID>C0205148</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027269 ISA C0577559</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The cervix is lined with glands and cells that release mucus.</value>
+		<pattern_crowdsource> The cervix is lined with [[glands|C1285092]] and [[cells|C0007634]] that release [[mucus|C0026727]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>glands</surface-form>
+				<RDF-ID>C1285092</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cells</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mucus</surface-form>
+				<RDF-ID>C0026727</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007634 PRODUCES C0026727</triple>
+			<triple>C1285092 PRODUCES C0026727</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

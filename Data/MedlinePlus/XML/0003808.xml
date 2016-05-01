@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The main symptom is a reddish bump (papule) that slowly grows into a purplish and painful nodule.</value>
+		<pattern_crowdsource> The main [[symptom|C1457887]] is a reddish bump ([[papule|C0332563]]) that slowly grows into a purplish and painful [[nodule|C0028259]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptom</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>papule</surface-form>
+				<RDF-ID>C0332563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>painful</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nodule</surface-form>
+				<RDF-ID>C0028259</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0332563 ISA C1457887</triple>
+			<triple>C0028259 ISA C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The health care provider will perform a physical examination and ask about your symptoms.</value>
+		<pattern_crowdsource> The [[health care provider|C0018724]] will perform a [[physical examination|C0031809]] and ask about your symptoms.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical examination</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0031809 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Antibiotics are used to treat this infection.</value>
+		<pattern_crowdsource> [[Antibiotics|C0003232]] are used to treat this [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may need several months of treatment with more than one antibiotic.</value>
+		<pattern_crowdsource> You may need several months of [[treatment|C0087111]] with more than one [[antibiotic|C0003232]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>several</surface-form>
+				<RDF-ID>C0443302</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>C0439231</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotic</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 compared_with C0003232</triple>
+			<triple>C0087111 higher_than C0003232</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Swimming pool granulomas can usually be cured with antibiotics.</value>
+		<pattern_crowdsource> [[Swimming pool granulomas|C0275708]] can usually be cured with [[antibiotics|C0003232]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Swimming pool granulomas</surface-form>
+				<RDF-ID>C0275708</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003232 TREATS C0275708</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The disease may be harder to treat in patients whose immune system is not working well.</value>
+		<pattern_crowdsource> The [[disease|C0012634]] may be harder to treat in [[patients|C0030705]] whose immune system is not working well.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>harder</surface-form>
+				<RDF-ID>C0018599</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immune system</surface-form>
+				<RDF-ID>C0020962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>well</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 PROCESS_OF C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

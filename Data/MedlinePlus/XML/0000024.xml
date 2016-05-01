@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The procedure is done most often to test for amyloidosis.</value>
+		<pattern_crowdsource> The [[procedure|C0184661]] is done most often to test for [[amyloidosis|C0002726]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amyloidosis</surface-form>
+				<RDF-ID>C0002726</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0184661 TREATS C0002726</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is a protein that collects in tissues and impairs organ and tissue function.</value>
+		<pattern_crowdsource> This is a [[protein|C0033684]] that collects in [[tissues|C0040300]] and impairs organ and tissue function.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissues</surface-form>
+				<RDF-ID>C0040300</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>organ</surface-form>
+				<RDF-ID>C0178784</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>function</surface-form>
+				<RDF-ID>C0542341</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040300 LOCATION_OF C0033684</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You may have pain in your limb for several days after the surgery.</value>
+		<pattern_crowdsource> You may have [[pain|C0030193]] in your [[limb|C1280090]] for several days after the surgery.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>limb</surface-form>
+				<RDF-ID>C1280090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>several</surface-form>
+				<RDF-ID>C0443302</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1280090 LOCATION_OF C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your doctor says you can, clean the wound gently with mild soap.</value>
+		<pattern_crowdsource> If your [[doctor|C0031831]] says you can, clean the wound gently with mild [[soap|C0037392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wound</surface-form>
+				<RDF-ID>C0043250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mild</surface-form>
+				<RDF-ID>C0547040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soap</surface-form>
+				<RDF-ID>C0037392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037392 PART_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ask your doctor or nurse for help with pain.</value>
+		<pattern_crowdsource> Ask your [[doctor|C0031831]] or [[nurse|C0028661]] for help with [[pain|C0030193]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nurse</surface-form>
+				<RDF-ID>C0028661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 PROCESS_OF C0028661</triple>
+			<triple>C0030193 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

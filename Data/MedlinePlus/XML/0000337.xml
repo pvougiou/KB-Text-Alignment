@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Control medicines for asthma are drugs you take to control your asthma symptoms.</value>
+		<pattern_crowdsource> Control [[medicines|C0013227]] for [[asthma|C0004096]] are [[drugs|C0013227]] you take to control your [[asthma|C0004096]] [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Control</surface-form>
+				<RDF-ID>C0243148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004096 ISA C1457887</triple>
+			<triple>C0013227 TREATS C0004096</triple>
+			<triple>C0013227 TREATS C1457887</triple>
+			<triple>C0013227 TREATS C0004096</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If your child cannot use an inhaler, your doctor will give you a drug to use with a nebulizer.</value>
+		<pattern_crowdsource> If your [[child|C0008059]] cannot use an [[inhaler|C0021461]], your [[doctor|C0031831]] will give you a [[drug|C0013227]] to use with a nebulizer.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inhaler</surface-form>
+				<RDF-ID>C0021461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drug</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nebulizer</surface-form>
+				<RDF-ID>C0027524</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008059 USES C0021461</triple>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may ask you to take both a steroid drug and a long-acting beta-agonist drug.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may ask you to take both a [[steroid drug|C0260264]] and a long-acting beta-[[agonist drug|C0521879]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>steroid drug</surface-form>
+				<RDF-ID>C0260264</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>long-</surface-form>
+				<RDF-ID>C0205166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acting</surface-form>
+				<RDF-ID>C1550741</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>agonist drug</surface-form>
+				<RDF-ID>C0521879</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0260264 ADMINISTERED_TO C0031831</triple>
+			<triple>C0521879 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines are used to prevent asthma symptoms.</value>
+		<pattern_crowdsource> These [[medicines|C0013227]] are used to prevent [[asthma|C0004096]] [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004096 ISA C1457887</triple>
+			<triple>C0013227 PREVENTS C1457887</triple>
+			<triple>C0013227 PREVENTS C0004096</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cromolyn is a medicine that may prevent asthma symptoms.</value>
+		<pattern_crowdsource> [[Cromolyn|C0086073]] is a [[medicine|C0013227]] that may prevent [[asthma|C0004096]] [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cromolyn</surface-form>
+				<RDF-ID>C0086073</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004096 ISA C1457887</triple>
+			<triple>C0086073 ISA C0013227</triple>
+			<triple>C0013227 PREVENTS C1457887</triple>
+			<triple>C0086073 PREVENTS C1457887</triple>
+			<triple>C0013227 PREVENTS C0004096</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

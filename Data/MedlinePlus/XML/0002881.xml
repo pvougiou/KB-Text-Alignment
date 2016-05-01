@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You have osteomyelitis, a bone infection caused by bacteria or other germs.</value>
+		<pattern_crowdsource> You have osteomyelitis, a [[bone infection|C0029443]] caused by [[bacteria|C0004611]] or other germs.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>osteomyelitis</surface-form>
+				<RDF-ID>C0029443</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone infection</surface-form>
+				<RDF-ID>C0029443</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>germs</surface-form>
+				<RDF-ID>C1517528</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004611 CAUSES C0029443</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You may have been in the hospital to treat a broken bone or to have some other surgery on your bones.</value>
+		<pattern_crowdsource> You may have been in the hospital to treat a [[broken bone|C0016658]] or to have some other surgery on your [[bones|C0262950]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>broken bone</surface-form>
+				<RDF-ID>C0016658</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0262950 LOCATION_OF C0016658</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your surgeon may also have removed some infection from your bones or drained an abscess.</value>
+		<pattern_crowdsource> Your surgeon may also have removed some [[infection|C0009450]] from your [[bones|C0262950]] or drained an abscess.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abscess</surface-form>
+				<RDF-ID>C1550609</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0262950 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor will ask you to take medicines called antibiotics at home to kill the infection in your bone.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] will ask you to take [[medicines|C0013227]] called [[antibiotics|C0003232]] at home to kill the [[infection|C0009450]] in your bone.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotics</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone</surface-form>
+				<RDF-ID>C1266909</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+			<triple>C0003232 DISRUPTS C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

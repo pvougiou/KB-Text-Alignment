@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Ringworm is a skin infection due to a fungus or yeast.</value>
+		<pattern_crowdsource> [[Ringworm|C0040247]] is a [[skin infection|C0037278]] due to a [[fungus|C0016832]] or [[yeast|C0036025]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ringworm</surface-form>
+				<RDF-ID>C0040247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skin infection</surface-form>
+				<RDF-ID>C0037278</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>yeast</surface-form>
+				<RDF-ID>C0036025</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040247 ISA C0037278</triple>
+			<triple>C0016832 CAUSES C0037278</triple>
+			<triple>C0036025 CAUSES C0037278</triple>
+			<triple>C0016832 CAUSES C0040247</triple>
+			<triple>C0036025 CAUSES C0040247</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ringworm is common, especially among children.</value>
+		<pattern_crowdsource> [[Ringworm|C0040247]] is common, especially among [[children|C0008059]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ringworm</surface-form>
+				<RDF-ID>C0040247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>common</surface-form>
+				<RDF-ID>C0205214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040247 PROCESS_OF C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The fungus that causes ringworm thrive in warm, moist areas.</value>
+		<pattern_crowdsource> The [[fungus|C0016832]] that causes [[ringworm|C0040247]] thrive in warm, moist areas.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>fungus</surface-form>
+				<RDF-ID>C0016832</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ringworm</surface-form>
+				<RDF-ID>C0040247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>moist</surface-form>
+				<RDF-ID>C0205381</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>areas</surface-form>
+				<RDF-ID>C1504310</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016832 CAUSES C0040247</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

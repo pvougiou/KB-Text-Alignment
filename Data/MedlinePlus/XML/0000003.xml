@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A1C is a lab test that shows the average level of blood sugar (glucose) over the previous 3 months.</value>
+		<pattern_crowdsource> A1C is a lab test that shows the average level of [[blood sugar|C0005802]] ([[glucose|C0017725]]) over the previous 3 months.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>lab</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>average</surface-form>
+				<RDF-ID>C1510992</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>glucose</surface-form>
+				<RDF-ID>C0017725</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>over</surface-form>
+				<RDF-ID>C0205136</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>previous</surface-form>
+				<RDF-ID>C0205156</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>C0439231</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0017725</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Two methods are available:  - Blood drawn from a vein (venipuncture).</value>
+		<pattern_crowdsource> [[Two|C0205448]] [[methods|C0449851]] are [[available|C0470187]]:  - Blood drawn from a vein (venipuncture).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Two</surface-form>
+				<RDF-ID>C0205448</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>methods</surface-form>
+				<RDF-ID>C0449851</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>available</surface-form>
+				<RDF-ID>C0470187</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>venipuncture</surface-form>
+				<RDF-ID>C0600406</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0205448 ISA C0449851</triple>
+			<triple>C0470187 ISA C0449851</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may order this test if you have diabetes.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may order this test if you have [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

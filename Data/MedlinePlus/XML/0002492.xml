@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Treatment includes medicines, talk therapy, or both.</value>
+		<pattern_crowdsource> Treatment includes [[medicines|C0013227]], [[talk|C0600118]] therapy, or both.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>talk</surface-form>
+				<RDF-ID>C0600118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>therapy</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0600118</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>MEDICINES  Antidepressants are medicines used to treat depression.</value>
+		<pattern_crowdsource> [[MEDICINES|C0013227]]  [[Antidepressants|C0003289]] are [[medicines|C0013227]] used to treat [[depression|C0011581]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>MEDICINES</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Antidepressants</surface-form>
+				<RDF-ID>C0003289</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>depression</surface-form>
+				<RDF-ID>C0011581</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003289 ISA C0013227</triple>
+			<triple>C0003289 ISA C0013227</triple>
+			<triple>C0013227 TREATS C0011581</triple>
+			<triple>C0003289 TREATS C0011581</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>They work by bringing back the chemicals in your brain to the right levels.</value>
+		<pattern_crowdsource> They work by bringing [[back|C0004600]] the chemicals in your [[brain|C0006104]] to the right levels.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0004600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chemicals</surface-form>
+				<RDF-ID>C0220806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006104 LOCATION_OF C0004600</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>DO NOT stop taking it or change the amount (dosage) you are taking without talking to your provider.</value>
+		<pattern_crowdsource> DO NOT stop taking it or change the [[amount|C1265611]] ([[dosage|C0178602]]) you are taking without talking to your provider.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amount</surface-form>
+				<RDF-ID>C1265611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dosage</surface-form>
+				<RDF-ID>C0178602</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>talking</surface-form>
+				<RDF-ID>C0234856</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0178602 ISA C1265611</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>OTHER TREATMENTS FOR DEPRESSION  - Electroconvulsive therapy (ECT) may improve mood in people with severe depression or suicidal thoughts who do not get better with other treatments.</value>
+		<pattern_crowdsource> OTHER [[TREATMENTS|C0087111]] FOR DEPRESSION  - [[Electroconvulsive therapy|C0013806]] (ECT) may improve mood in [[people|C0027361]] with [[severe depression|C0588008]] or [[suicidal thoughts|C0424000]] who do not get better with other treatments.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>TREATMENTS</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>DEPRESSION</surface-form>
+				<RDF-ID>C0011581</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Electroconvulsive therapy</surface-form>
+				<RDF-ID>C0013806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mood</surface-form>
+				<RDF-ID>C0026516</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>severe depression</surface-form>
+				<RDF-ID>C0588008</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>suicidal thoughts</surface-form>
+				<RDF-ID>C0424000</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>better</surface-form>
+				<RDF-ID>C0332272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatments</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0087111 METHOD_OF C0013806</triple>
+			<triple>C0588008 PROCESS_OF C0027361</triple>
+			<triple>C0424000 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Light therapy may relieve depression symptoms in the winter time.</value>
+		<pattern_crowdsource> - [[Light therapy|C0031765]] may relieve [[depression symptoms|C0086132]] in the [[winter|C0241737]] [[time|C0040223]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Light therapy</surface-form>
+				<RDF-ID>C0031765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>depression symptoms</surface-form>
+				<RDF-ID>C0086132</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>winter</surface-form>
+				<RDF-ID>C0241737</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>C0040223</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0241737 ISA C0040223</triple>
+			<triple>C0031765 TREATS C0086132</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

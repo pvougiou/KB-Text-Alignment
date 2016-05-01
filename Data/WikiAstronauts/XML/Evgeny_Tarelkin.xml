@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Evgeny Igorevich Tarelkin (Russian: ??????? ???????? ????????; born December 29, 1974) is a Russian cosmonaut.	</value>
+
+		<annotated-sentence>	[[Evgeny|Eugene_(given_name)]] [[Igorevich|Maksim_Igorevich_Shevchenko]] [[Tarelkin|Evgeny_Tarelkin]] ([[Russian|Russia]]: ??????? ???????? ????????; born December 29, 1974) is a [[Russian|Russia]] cosmonaut.	</annotated-sentence>
+
+		<pattern_crowdsource>	Evgeny Igorevich [[Tarelkin|Evgeny_Tarelkin]] ([[Russian|Russia]]: ??????? ???????? ????????; born December 29, 1974) is a [[Russian|Russia]] cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Igorevich/NNP-2,Evgeny/NNP-1)
+				nn(Russian/NNP-5,Tarelkin/NNP-3)
+				dep(Igorevich/NNP-2,Russian/NNP-5)
+				nn(????????/NNP-9,???????/NNP-7)
+				nn(????????/NNP-9,????????/NNP-8)
+				nsubj(cosmonaut/NN-20,????????/NNP-9)
+				partmod(????????/NNP-9,born/VBN-11)
+				tmod(born/VBN-11,December/NNP-12)
+				num(December/NNP-12,29/CD-13)
+				num(December/NNP-12,1974/CD-15)
+				cop(cosmonaut/NN-20,is/VBZ-17)
+				det(cosmonaut/NN-20,a/DT-18)
+				amod(cosmonaut/NN-20,Russian/JJ-19)
+				dep(Igorevich/NNP-2,cosmonaut/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Evgeny</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eugene_(given_name)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Igorevich</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maksim_Igorevich_Shevchenko</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tarelkin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Evgeny_Tarelkin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Evgeny_Tarelkin http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Evgeny_Tarelkin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Evgeny_Tarelkin http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Evgeny_Tarelkin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as part of the TsPK-13 group in 2003.	</value>
+
+		<annotated-sentence>	He was selected as part of the TsPK-13 group in [[2003|2003]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected as part of the TsPK-13 group in 2003.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_as(selected/VBN-3,part/NN-5)
+				det(group/NN-9,the/DT-7)
+				nn(group/NN-9,TsPK-13/NN-8)
+				prep_of(part/NN-5,group/NN-9)
+				prep_in(group/NN-9,2003/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2003</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2003</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tarelkin graduated from the Yeysk Air Force School in 1996 and the Gagarin Air Force Academy in 1998 before rising to the rank of Captain in the Russian Air Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Tarelkin/NNP-1)
+				det(School/NNP-8,the/DT-4)
+				nn(School/NNP-8,Yeysk/NNP-5)
+				nn(School/NNP-8,Air/NNP-6)
+				nn(School/NNP-8,Force/NNP-7)
+				prep_from(graduated/VBD-2,School/NNP-8)
+				prep_in(School/NNP-8,1996/CD-10)
+				det(Academy/NNP-16,the/DT-12)
+				nn(Academy/NNP-16,Gagarin/NNP-13)
+				nn(Academy/NNP-16,Air/NNP-14)
+				nn(Academy/NNP-16,Force/NNP-15)
+				prep_from(graduated/VBD-2,Academy/NNP-16)
+				conj_and(School/NNP-8,Academy/NNP-16)
+				prep_in(Academy/NNP-16,1998/CD-18)
+				prepc_before(graduated/VBD-2,rising/VBG-20)
+				det(rank/NN-23,the/DT-22)
+				prep_to(rising/VBG-20,rank/NN-23)
+				prep_of(rank/NN-23,Captain/NNP-25)
+				det(Force/NNP-30,the/DT-27)
+				nn(Force/NNP-30,Russian/NNP-28)
+				nn(Force/NNP-30,Air/NNP-29)
+				prep_in(rising/VBG-20,Force/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served in the Air Force until his selection as a cosmonaut as part of the TsPK-13 selection group in 2003, completing basic training in 2005.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(Force/NNP-6,the/DT-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				prep_in(served/VBD-2,Force/NNP-6)
+				poss(selection/NN-9,his/PRP$-8)
+				prep_until(served/VBD-2,selection/NN-9)
+				det(cosmonaut/NN-12,a/DT-11)
+				prep_as(selection/NN-9,cosmonaut/NN-12)
+				prep_as(cosmonaut/NN-12,part/NN-14)
+				det(group/NN-19,the/DT-16)
+				nn(group/NN-19,TsPK-13/NN-17)
+				nn(group/NN-19,selection/NN-18)
+				prep_of(part/NN-14,group/NN-19)
+				prep_in(group/NN-19,2003/CD-21)
+				xcomp(served/VBD-2,completing/VBG-23)
+				amod(training/NN-25,basic/JJ-24)
+				dobj(completing/VBG-23,training/NN-25)
+				prep_in(completing/VBG-23,2005/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tarelkin made his first flight into space in October 2012 as a member of the Soyuz TMA-06M crew, during which he spent six months aboard the International Space Station as part of the Expedition 33/34 crews and returned on March 16, 2013.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,Tarelkin/NNP-1)
+				nsubj(returned/VBD-39,Tarelkin/NNP-1)
+				poss(flight/NN-5,his/PRP$-3)
+				amod(flight/NN-5,first/JJ-4)
+				dobj(made/VBD-2,flight/NN-5)
+				prep_into(made/VBD-2,space/NN-7)
+				prep_in(space/NN-7,October/NNP-9)
+				num(October/NNP-9,2012/CD-10)
+				det(member/NN-13,a/DT-12)
+				prep_as(made/VBD-2,member/NN-13)
+				det(crew/NN-18,the/DT-15)
+				nn(crew/NN-18,Soyuz/NNP-16)
+				nn(crew/NN-18,TMA-06M/NN-17)
+				prep_of(member/NN-13,crew/NN-18)
+				prep_during(spent/VBD-23,which/WDT-21)
+				nsubj(spent/VBD-23,he/PRP-22)
+				rcmod(crew/NN-18,spent/VBD-23)
+				num(months/NNS-25,six/CD-24)
+				tmod(spent/VBD-23,months/NNS-25)
+				det(Station/NNP-30,the/DT-27)
+				nn(Station/NNP-30,International/NNP-28)
+				nn(Station/NNP-30,Space/NNP-29)
+				prep_aboard(spent/VBD-23,Station/NNP-30)
+				prep_as(spent/VBD-23,part/NN-32)
+				det(Expedition/NN-35,the/DT-34)
+				prep_of(part/NN-32,Expedition/NN-35)
+				num(crews/NNS-37,33/34/CD-36)
+				dep(Expedition/NN-35,crews/NNS-37)
+				conj_and(made/VBD-2,returned/VBD-39)
+				prep_on(returned/VBD-39,March/NNP-41)
+				num(March/NNP-41,16/CD-42)
+				num(March/NNP-41,2013/CD-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

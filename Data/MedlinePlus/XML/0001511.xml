@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Pain that starts in the face may be caused by a nerve problem, injury, or infection.</value>
+		<pattern_crowdsource> [[Pain|C0030193]] that starts in the face may be caused by a [[nerve problem|C0746848]], injury, or [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>face</surface-form>
+				<RDF-ID>C0015450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nerve problem</surface-form>
+				<RDF-ID>C0746848</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0746848 CAUSES C0030193</triple>
+			<triple>C0009450 CAUSES C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Pain is persistent, unexplained, or accompanied by other unexplained symptoms.</value>
+		<pattern_crowdsource> - [[Pain|C0030193]] is persistent, unexplained, or accompanied by other unexplained [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>persistent</surface-form>
+				<RDF-ID>C0205322</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030193 ISA C1457887</triple>
+			<triple>C1457887 COEXISTS_WITH C0030193</triple>
+			<triple>C0030193 COEXISTS_WITH C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

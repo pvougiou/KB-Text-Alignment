@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Gonococcal arthritis is inflammation of a joint due to a gonorrhea infection.</value>
+		<pattern_crowdsource> [[Gonococcal arthritis|C0153216]] is [[inflammation|C0021368]] of a joint due to a [[gonorrhea|C0018081]] [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Gonococcal arthritis</surface-form>
+				<RDF-ID>C0153216</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inflammation</surface-form>
+				<RDF-ID>C0021368</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint</surface-form>
+				<RDF-ID>C0392905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gonorrhea</surface-form>
+				<RDF-ID>C0018081</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018081 ISA C0009450</triple>
+			<triple>C0153216 ISA C0021368</triple>
+			<triple>C0009450 CAUSES C0021368</triple>
+			<triple>C0018081 CAUSES C0021368</triple>
+			<triple>C0009450 CAUSES C0153216</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

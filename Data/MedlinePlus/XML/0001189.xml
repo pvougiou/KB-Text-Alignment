@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Call your doctor if you feel faint, have chest pain, or feel short of breath when you exercise.</value>
+		<pattern_crowdsource> Call your [[doctor|C0031831]] if you feel faint, have [[chest pain|C0008031]], or feel short of breath when you exercise.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>faint</surface-form>
+				<RDF-ID>C0039070</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest pain</surface-form>
+				<RDF-ID>C0008031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breath</surface-form>
+				<RDF-ID>C0225386</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008031 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Call your doctor if you feel pain or numbness in your feet.</value>
+		<pattern_crowdsource> Call your doctor if you feel [[pain|C0030193]] or [[numbness|C0028643]] in your [[feet|C0016504]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>numbness</surface-form>
+				<RDF-ID>C0028643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>C0016504</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016504 LOCATION_OF C0028643</triple>
+			<triple>C0016504 LOCATION_OF C0030193</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you take medicines that lower your blood sugar, exercise can make your blood sugar go too low.</value>
+		<pattern_crowdsource> If you take [[medicines|C0013227]] that lower your [[blood sugar|C0005802]], exercise can make your blood sugar go too low.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood sugar</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>low</surface-form>
+				<RDF-ID>C0205251</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 INHIBITS C0005802</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Talk to your doctor or nurse about how to take your medicines when you exercise.</value>
+		<pattern_crowdsource> Talk to your [[doctor|C0031831]] or nurse about how to take your [[medicines|C0013227]] when you exercise.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Talk</surface-form>
+				<RDF-ID>C0600118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tell coaches and exercise partners that you have diabetes.</value>
+		<pattern_crowdsource> Tell [[coaches|C0876909]] and exercise partners that you have [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>coaches</surface-form>
+				<RDF-ID>C0876909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercise</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 PROCESS_OF C0876909</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>You might not feel pain in your feet because of your diabetes.</value>
+		<pattern_crowdsource> You might not feel [[pain|C0030193]] in your feet because of your [[diabetes|C0011847]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>C0347981</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0011847 CAUSES C0030193</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>These include blood thinners such as warfarin, clopidigrel, and aspirin.</value>
+		<pattern_crowdsource> These include [[blood thinners|C0003280]] such as [[warfarin|C0043031]], clopidigrel, and [[aspirin|C0004057]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood thinners</surface-form>
+				<RDF-ID>C0003280</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>warfarin</surface-form>
+				<RDF-ID>C0043031</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0043031 ISA C0003280</triple>
+			<triple>C0004057 ISA C0003280</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>(You should never douche. Douching can cause infection of the vagina or uterus.)</value>
+		<pattern_crowdsource> (You should never douche. [[Douching|C0022100]] can cause [[infection|C0009450]] of the [[vagina|C0042232]] or [[uterus|C0042149]].)		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>never</surface-form>
+				<RDF-ID>C1549495</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>douche</surface-form>
+				<RDF-ID>C0022100</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Douching</surface-form>
+				<RDF-ID>C0022100</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vagina</surface-form>
+				<RDF-ID>C0042232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>uterus</surface-form>
+				<RDF-ID>C0042149</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022100 CAUSES C0009450</triple>
+			<triple>C0042232 LOCATION_OF C0009450</triple>
+			<triple>C0042149 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Ask your health care provider if you should take pain medicine, such as ibuprofen or acetaminophen, just before the procedure.</value>
+		<pattern_crowdsource> - Ask your [[health care provider|C0018724]] if you should take pain [[medicine|C0013227]], such as [[ibuprofen|C0020740]] or [[acetaminophen|C0000970]], just before the procedure.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>acetaminophen</surface-form>
+				<RDF-ID>C0000970</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0018724</triple>
+			<triple>C0000970 ADMINISTERED_TO C0018724</triple>
+			<triple>C0020740 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

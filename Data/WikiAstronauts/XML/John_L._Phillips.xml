@@ -1,0 +1,3104 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Lynch Phillips, PhD (born April 15, 1951) is a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[John Lynch Phillips|John_L._Phillips]], PhD (born April 15, 1951) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[John Lynch Phillips|John_L._Phillips]], PhD (born April 15, 1951) is a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Phillips/NNP-3,John/NNP-1)
+				nn(Phillips/NNP-3,Lynch/NNP-2)
+				nsubj(astronaut/NN-16,Phillips/NNP-3)
+				appos(Phillips/NNP-3,PhD/NN-5)
+				dep(Phillips/NNP-3,born/VBN-7)
+				tmod(born/VBN-7,April/NNP-8)
+				num(April/NNP-8,15/CD-9)
+				num(April/NNP-8,1951/CD-11)
+				cop(astronaut/NN-16,is/VBZ-13)
+				det(astronaut/NN-16,a/DT-14)
+				nn(astronaut/NN-16,NASA/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>John Lynch Phillips</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/John_L._Phillips</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips is also a retired Captain of the United States Navy Reserve.	</value>
+
+		<annotated-sentence>	Phillips is also a retired Captain of [[the United States Navy Reserve|United_States_Navy_Reserve]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips is also a retired Captain of [[the United States Navy Reserve|United_States_Navy_Reserve]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Captain/NNP-6,Phillips/NNP-1)
+				cop(Captain/NNP-6,is/VBZ-2)
+				advmod(Captain/NNP-6,also/RB-3)
+				det(Captain/NNP-6,a/DT-4)
+				amod(Captain/NNP-6,retired/VBN-5)
+				det(Reserve/NNP-12,the/DT-8)
+				nn(Reserve/NNP-12,United/NNP-9)
+				nn(Reserve/NNP-12,States/NNPS-10)
+				nn(Reserve/NNP-12,Navy/NNP-11)
+				prep_of(Captain/NNP-6,Reserve/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States Navy Reserve</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Reserve</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy_Reserve
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips has received numerous awards and special honors.	</value>
+
+		<annotated-sentence>	Phillips has received numerous [[awards|Award]] and special honors.	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips has received numerous awards and special honors.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBN-3,Phillips/NNP-1)
+				aux(received/VBN-3,has/VBZ-2)
+				amod(awards/NNS-5,numerous/JJ-4)
+				dobj(received/VBN-3,awards/NNS-5)
+				amod(honors/NNS-8,special/JJ-7)
+				dobj(received/VBN-3,honors/NNS-8)
+				conj_and(awards/NNS-5,honors/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a National Merit Scholar, graduated 2nd in his class of 906 people at the U.S. Naval Academy in 1972.	</value>
+
+		<annotated-sentence>	He is [[a National Merit Scholar|National_Merit_Scholarship_Program]], graduated 2nd in [[his class|United_States_Naval_Academy]] of 906 people at [[the U.S. Naval Academy|United_States_Naval_Academy]] in [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a National Merit Scholar, graduated 2nd in his class of 906 people at the U.S. Naval Academy in 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scholar/NNP-6,He/PRP-1)
+				cop(Scholar/NNP-6,is/VBZ-2)
+				det(Scholar/NNP-6,a/DT-3)
+				nn(Scholar/NNP-6,National/NNP-4)
+				nn(Scholar/NNP-6,Merit/NNP-5)
+				ccomp(graduated/VBD-8,Scholar/NNP-6)
+				nsubj(graduated/VBD-8,2nd/JJ-9)
+				poss(class/NN-12,his/PRP$-11)
+				prep_in(2nd/JJ-9,class/NN-12)
+				num(people/NNS-15,906/CD-14)
+				prep_of(class/NN-12,people/NNS-15)
+				det(Academy/NNP-20,the/DT-17)
+				nn(Academy/NNP-20,U.S./NNP-18)
+				nn(Academy/NNP-20,Naval/NNP-19)
+				prep_at(people/NNS-15,Academy/NNP-20)
+				prep_in(Academy/NNP-20,1972/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a National Merit Scholar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Merit_Scholarship_Program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his class</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips has also been awarded the NASA Space Flight Medal, NASA Distinguished Service Medal, the Gagarin Medal and several others.	</value>
+
+		<annotated-sentence>	Phillips has also been awarded [[the NASA Space Flight Medal|NASA_Space_Flight_Medal]], [[NASA Distinguished Service Medal|NASA_Distinguished_Service_Medal]], [[the Gagarin Medal|Gagarin_Medal]] and several others.	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips has also been awarded the NASA Space Flight Medal, NASA Distinguished Service Medal, the Gagarin Medal and several others.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-5,Phillips/NNP-1)
+				aux(awarded/VBN-5,has/VBZ-2)
+				advmod(awarded/VBN-5,also/RB-3)
+				auxpass(awarded/VBN-5,been/VBN-4)
+				det(Medal/NN-10,the/DT-6)
+				nn(Medal/NN-10,NASA/NNP-7)
+				nn(Medal/NN-10,Space/NNP-8)
+				nn(Medal/NN-10,Flight/NNP-9)
+				dobj(awarded/VBN-5,Medal/NN-10)
+				nn(Medal/NN-15,NASA/NNP-12)
+				nn(Medal/NN-15,Distinguished/NNP-13)
+				nn(Medal/NN-15,Service/NNP-14)
+				dobj(awarded/VBN-5,Medal/NN-15)
+				conj_and(Medal/NN-10,Medal/NN-15)
+				det(Medal/NN-19,the/DT-17)
+				nn(Medal/NN-19,Gagarin/NNP-18)
+				dobj(awarded/VBN-5,Medal/NN-19)
+				conj_and(Medal/NN-10,Medal/NN-19)
+				amod(others/NNS-22,several/JJ-21)
+				dobj(awarded/VBN-5,others/NNS-22)
+				conj_and(Medal/NN-10,others/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Space Flight Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Space_Flight_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Gagarin Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gagarin_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips has logged over 4,400 flight hours and 250 aircraft carrier landings, flying an A-7 during his time as a Navy reservist from 1982 to 2002.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,Phillips/NNP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,4,400/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				num(aircraft/NNS-10,250/CD-9)
+				prep_over(logged/VBN-3,aircraft/NNS-10)
+				conj_and(hours/NNS-7,aircraft/NNS-10)
+				nn(landings/NNS-12,carrier/NN-11)
+				dep(aircraft/NNS-10,landings/NNS-12)
+				xcomp(logged/VBN-3,flying/VBG-14)
+				det(A-7/NN-16,an/DT-15)
+				dobj(flying/VBG-14,A-7/NN-16)
+				poss(time/NN-19,his/PRP$-18)
+				prep_during(flying/VBG-14,time/NN-19)
+				det(reservist/NN-23,a/DT-21)
+				nn(reservist/NN-23,Navy/NNP-22)
+				prep_as(time/NN-19,reservist/NN-23)
+				num(2002/CD-27,1982/CD-25)
+				dep(2002/CD-27,to/TO-26)
+				prep_from(flying/VBG-14,2002/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the time of his retirement, Phillips had retained the rank of Captain.	</value>
+
+		<annotated-sentence>	At the time of [[his retirement|Retirement]], Phillips had retained [[the rank|RANK]] of Captain.	</annotated-sentence>
+
+		<pattern_crowdsource>	At the time of his retirement, Phillips had retained the rank of Captain.	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,the/DT-2)
+				prep_at(retained/VBN-10,time/NN-3)
+				poss(retirement/NN-6,his/PRP$-5)
+				prep_of(time/NN-3,retirement/NN-6)
+				nsubj(retained/VBN-10,Phillips/NNP-8)
+				aux(retained/VBN-10,had/VBD-9)
+				det(rank/NN-12,the/DT-11)
+				dobj(retained/VBN-10,rank/NN-12)
+				prep_of(rank/NN-12,Captain/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born April 15, 1951 in Fort Belvoir, Virginia, but considers Scottsdale, Arizona to be his hometown.	</value>
+
+		<annotated-sentence>	Born April 15, 1951 in [[Fort Belvoir|Fort_Belvoir]], [[Virginia|Virginia]], but considers [[Scottsdale , Arizona|Scottsdale,_Arizona]]to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Born April 15, 1951 in Fort Belvoir, Virginia, but considers Scottsdale, Arizona to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,April/NNP-2)
+				num(April/NNP-2,15/CD-3)
+				num(April/NNP-2,1951/CD-5)
+				nn(Belvoir/NNP-8,Fort/NNP-7)
+				prep_in(Born/VBN-1,Belvoir/NNP-8)
+				appos(Belvoir/NNP-8,Virginia/NNP-10)
+				conj_but(Born/VBN-1,considers/VBZ-13)
+				nn(Arizona/NNP-16,Scottsdale/NNP-14)
+				nsubj(hometown/NN-20,Arizona/NNP-16)
+				aux(hometown/NN-20,to/TO-17)
+				cop(hometown/NN-20,be/VB-18)
+				poss(hometown/NN-20,his/PRP$-19)
+				xcomp(considers/VBZ-13,hometown/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Fort Belvoir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fort_Belvoir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scottsdale , Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scottsdale,_Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married to the former Laura Jean Doell of Scotia, New York.	</value>
+
+		<annotated-sentence>	He is married to the former [[Laura Jean|Laura_Jean]] Doell of [[Scotia|Scotia,_New_York]], [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married to the former Laura Jean Doell of [[Scotia|Scotia,_New_York]], [[New York|New_York]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				det(Doell/NNP-9,the/DT-5)
+				amod(Doell/NNP-9,former/JJ-6)
+				nn(Doell/NNP-9,Laura/NNP-7)
+				nn(Doell/NNP-9,Jean/NNP-8)
+				prep_to(married/VBN-3,Doell/NNP-9)
+				nn(York/NNP-14,Scotia/NNP-11)
+				appos(York/NNP-14,New/NNP-13)
+				prep_of(Doell/NNP-9,York/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Laura Jean</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laura_Jean</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scotia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scotia,_New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Scotia,_New_York http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two children.	</value>
+
+		<annotated-sentence>	[[They|They]] have [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(children/NNS-4,two/CD-3)
+				dobj(have/VBP-2,children/NNS-4)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Scottsdale High School, Scottsdale, Arizona, in 1966; received a bachelor of science degree in mathematics and Russian from the U.S. Naval Academy in 1972; a master of science degree in aeronautical systems from the University of West Florida in 1974; a master of science degree and a doctorate in geophysics and space physics from the University of California, Los Angeles (UCLA) in 1984 and 1987 respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-14,Graduated/VBN-1)
+				nn(School/NNP-5,Scottsdale/NNP-3)
+				nn(School/NNP-5,High/NNP-4)
+				prep_from(Graduated/VBN-1,School/NNP-5)
+				nn(Arizona/NNP-9,Scottsdale/NNP-7)
+				nsubj(received/VBD-14,Arizona/NNP-9)
+				nsubj(Russian/JJ-23,Arizona/NNP-9)
+				prep_in(Arizona/NNP-9,1966/CD-12)
+				det(bachelor/NN-16,a/DT-15)
+				dobj(received/VBD-14,bachelor/NN-16)
+				nn(degree/NN-19,science/NN-18)
+				prep_of(bachelor/NN-16,degree/NN-19)
+				prep_in(received/VBD-14,mathematics/NNS-21)
+				conj_and(received/VBD-14,Russian/JJ-23)
+				det(Academy/NNP-28,the/DT-25)
+				nn(Academy/NNP-28,U.S./NNP-26)
+				nn(Academy/NNP-28,Naval/NNP-27)
+				prep_from(Russian/JJ-23,Academy/NNP-28)
+				prep_in(Academy/NNP-28,1972/CD-30)
+				det(master/NN-33,a/DT-32)
+				dep(Academy/NNP-28,master/NN-33)
+				nn(degree/NN-36,science/NN-35)
+				prep_of(master/NN-33,degree/NN-36)
+				amod(systems/NNS-39,aeronautical/JJ-38)
+				prep_in(degree/NN-36,systems/NNS-39)
+				det(University/NNP-42,the/DT-41)
+				prep_from(systems/NNS-39,University/NNP-42)
+				nn(Florida/NNP-45,West/NNP-44)
+				prep_of(University/NNP-42,Florida/NNP-45)
+				prep_in(Florida/NNP-45,1974/CD-47)
+				det(master/NN-50,a/DT-49)
+				dep(Academy/NNP-28,master/NN-50)
+				nn(degree/NN-53,science/NN-52)
+				prep_of(master/NN-50,degree/NN-53)
+				det(doctorate/NN-56,a/DT-55)
+				prep_from(Russian/JJ-23,doctorate/NN-56)
+				conj_and(Academy/NNP-28,doctorate/NN-56)
+				prep_in(doctorate/NN-56,geophysics/NNS-58)
+				nn(physics/NNS-61,space/NN-60)
+				prep_in(doctorate/NN-56,physics/NNS-61)
+				conj_and(geophysics/NNS-58,physics/NNS-61)
+				det(University/NNP-64,the/DT-63)
+				prep_from(Russian/JJ-23,University/NNP-64)
+				prep_of(University/NNP-64,California/NNP-66)
+				nn(Angeles/NNP-69,Los/NNP-68)
+				nsubj(respectively/RB-77,Angeles/NNP-69)
+				appos(Angeles/NNP-69,UCLA/NNP-71)
+				prep_in(Angeles/NNP-69,1984/CD-74)
+				prep_in(Angeles/NNP-69,1987/CD-76)
+				conj_and(1984/CD-74,1987/CD-76)
+				xcomp(received/VBD-14,respectively/RB-77)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A National Merit Scholar; he graduated second of 906 in the class of 1972 at U.S. Naval Academy; received 2 NASA Group Achievement Awards for contributions to the Ulysses Spacecraft Mission and the Los Alamos National Laboratory Distinguished Performance Award in 1996.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Scholar/NNP-4,A/DT-1)
+				nn(Scholar/NNP-4,National/NNP-2)
+				nn(Scholar/NNP-4,Merit/NNP-3)
+				nsubj(received/VBD-21,Scholar/NNP-4)
+				nsubj(graduated/VBD-7,he/PRP-6)
+				dep(Scholar/NNP-4,graduated/VBD-7)
+				dobj(graduated/VBD-7,second/JJ-8)
+				prep_of(second/JJ-8,906/CD-10)
+				det(class/NN-13,the/DT-12)
+				prep_in(graduated/VBD-7,class/NN-13)
+				prep_of(class/NN-13,1972/CD-15)
+				nn(Academy/NNP-19,U.S./NNP-17)
+				nn(Academy/NNP-19,Naval/NNP-18)
+				prep_at(graduated/VBD-7,Academy/NNP-19)
+				num(Awards/NNS-26,2/CD-22)
+				nn(Awards/NNS-26,NASA/NNP-23)
+				nn(Awards/NNS-26,Group/NNP-24)
+				nn(Awards/NNS-26,Achievement/NNP-25)
+				dobj(received/VBD-21,Awards/NNS-26)
+				prep_for(received/VBD-21,contributions/NNS-28)
+				det(Mission/NNP-33,the/DT-30)
+				nn(Mission/NNP-33,Ulysses/NNP-31)
+				nn(Mission/NNP-33,Spacecraft/NNP-32)
+				prep_to(received/VBD-21,Mission/NNP-33)
+				det(Award/NN-42,the/DT-35)
+				nn(Award/NN-42,Los/NNP-36)
+				nn(Award/NN-42,Alamos/NNP-37)
+				nn(Award/NN-42,National/NNP-38)
+				nn(Award/NN-42,Laboratory/NNP-39)
+				nn(Award/NN-42,Distinguished/NNP-40)
+				nn(Award/NN-42,Performance/NNP-41)
+				prep_to(received/VBD-21,Award/NN-42)
+				conj_and(Mission/NNP-33,Award/NN-42)
+				prep_in(Award/NN-42,1996/CD-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Awarded the NASA Space Flight Medal and various military awards.	</value>
+
+		<annotated-sentence>	Awarded [[the NASA Space Flight Medal|NASA_Space_Flight_Medal]] and various military [[awards|Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Awarded the NASA Space Flight Medal and various military awards.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Medal/NN-6,the/DT-2)
+				nn(Medal/NN-6,NASA/NNP-3)
+				nn(Medal/NN-6,Space/NNP-4)
+				nn(Medal/NN-6,Flight/NNP-5)
+				dobj(Awarded/VBN-1,Medal/NN-6)
+				amod(awards/NNS-10,various/JJ-8)
+				amod(awards/NNS-10,military/JJ-9)
+				dobj(Awarded/VBN-1,awards/NNS-10)
+				conj_and(Medal/NN-6,awards/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the NASA Space Flight Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Space_Flight_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips received a navy commission upon graduation from the U.S. Naval Academy in 1972 and was designated a Naval Aviator in November 1974.	</value>
+
+		<annotated-sentence>	Phillips received a [[navy|United_States_Naval_Academy]] commission upon [[graduation|Graduation]] from [[the U.S. Naval Academy|United_States_Naval_Academy]] in [[1972|1972_(album)]] and was designated [[a Naval Aviator|United_States_Naval_Aviator]] in [[November 1974|1974]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips received a navy commission upon graduation from the U.S. Naval Academy in 1972 and was designated a Naval Aviator in November 1974.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Phillips/NNP-1)
+				nsubjpass(designated/VBN-17,Phillips/NNP-1)
+				det(commission/NN-5,a/DT-3)
+				nn(commission/NN-5,navy/NN-4)
+				dobj(received/VBD-2,commission/NN-5)
+				prep_upon(received/VBD-2,graduation/NN-7)
+				det(Academy/NNP-12,the/DT-9)
+				nn(Academy/NNP-12,U.S./NNP-10)
+				nn(Academy/NNP-12,Naval/NNP-11)
+				prep_from(received/VBD-2,Academy/NNP-12)
+				prep_in(Academy/NNP-12,1972/CD-14)
+				auxpass(designated/VBN-17,was/VBD-16)
+				conj_and(received/VBD-2,designated/VBN-17)
+				det(Aviator/NNP-20,a/DT-18)
+				nn(Aviator/NNP-20,Naval/NNP-19)
+				dobj(designated/VBN-17,Aviator/NNP-20)
+				prep_in(Aviator/NNP-20,November/NNP-22)
+				num(November/NNP-22,1974/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Naval Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Naval Aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Naval_Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1974</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He trained in the A-7 Corsair aircraft at Naval Air Station Lemoore, California and made overseas deployment with Attack Squadron 155 aboard the Oriskany (CV-34) and Roosevelt (CV-42).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(trained/VBD-2,He/PRP-1)
+				nsubj(made/VBN-16,He/PRP-1)
+				det(aircraft/NN-7,the/DT-4)
+				nn(aircraft/NN-7,A-7/NNP-5)
+				nn(aircraft/NN-7,Corsair/NNP-6)
+				prep_in(trained/VBD-2,aircraft/NN-7)
+				nn(Lemoore/NNP-12,Naval/NNP-9)
+				nn(Lemoore/NNP-12,Air/NNP-10)
+				nn(Lemoore/NNP-12,Station/NNP-11)
+				prep_at(trained/VBD-2,Lemoore/NNP-12)
+				appos(Lemoore/NNP-12,California/NNP-14)
+				conj_and(trained/VBD-2,made/VBN-16)
+				amod(deployment/NN-18,overseas/JJ-17)
+				dobj(made/VBN-16,deployment/NN-18)
+				nn(Squadron/NN-21,Attack/NN-20)
+				prep_with(made/VBN-16,Squadron/NN-21)
+				num(Squadron/NN-21,155/CD-22)
+				det(Oriskany/NNP-25,the/DT-24)
+				prep_aboard(made/VBN-16,Oriskany/NNP-25)
+				appos(Oriskany/NNP-25,CV-34/NN-27)
+				prep_aboard(made/VBN-16,Roosevelt/NNP-30)
+				conj_and(Oriskany/NNP-25,Roosevelt/NNP-30)
+				appos(Oriskany/NNP-25,CV-42/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Subsequent tours of duty included navy recruiting in Albany, New York, and flying the CT-39 Sabreliner aircraft at Naval Air Station North Island, California.	</value>
+
+		<annotated-sentence>	[[Subsequent|Subsequent]] tours of [[duty|Duty]] included [[navy|United_States_Navy]] [[recruiting|Recruiting_(college_athletics)]] in Albany, [[New York|New_York]], and flying the [[CT-39 Sabreliner|North_American_Sabreliner]] [[aircraft|Aircraft]] at [[Naval Air Station North Island|Naval_Air_Station_North_Island]], [[California|San_Diego]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Subsequent tours of duty included [[navy|United_States_Navy]] recruiting in Albany, New York, and flying the [[CT-39 Sabreliner|North_American_Sabreliner]] aircraft at [[Naval Air Station North Island|Naval_Air_Station_North_Island]], California.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(tours/NNS-2,Subsequent/JJ-1)
+				nsubj(included/VBD-5,tours/NNS-2)
+				prep_of(tours/NNS-2,duty/NN-4)
+				nn(recruiting/NN-7,navy/NN-6)
+				dobj(included/VBD-5,recruiting/NN-7)
+				prep_in(included/VBD-5,Albany/NNP-9)
+				nn(York/NNP-12,New/NNP-11)
+				dobj(included/VBD-5,York/NNP-12)
+				dobj(included/VBD-5,flying/VBG-15)
+				conj_and(York/NNP-12,flying/VBG-15)
+				det(aircraft/NN-19,the/DT-16)
+				nn(aircraft/NN-19,CT-39/NNP-17)
+				nn(aircraft/NN-19,Sabreliner/NNP-18)
+				dobj(flying/VBG-15,aircraft/NN-19)
+				nn(Island/NNP-25,Naval/NNP-21)
+				nn(Island/NNP-25,Air/NNP-22)
+				nn(Island/NNP-25,Station/NNP-23)
+				nn(Island/NNP-25,North/NNP-24)
+				prep_at(flying/VBG-15,Island/NNP-25)
+				appos(Island/NNP-25,California/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Subsequent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Subsequent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duty</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>recruiting</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Recruiting_(college_athletics)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CT-39 Sabreliner</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_American_Sabreliner</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval Air Station North Island</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Air_Station_North_Island</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/San_Diego</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_Sabreliner http://dbpedia.org/property/moreUsers http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Naval_Air_Station_North_Island http://dbpedia.org/ontology/operator http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving the Navy in 1982, Phillips enrolled as a graduate student at UCLA.	</value>
+
+		<annotated-sentence>	After leaving [[the Navy|Navy]] in [[1982|1982]], Phillips enrolled as a graduate student at UCLA.	</annotated-sentence>
+
+		<pattern_crowdsource>	After leaving the Navy in 1982, Phillips enrolled as a graduate student at UCLA.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(enrolled/VBD-9,leaving/VBG-2)
+				det(Navy/NNP-4,the/DT-3)
+				dobj(leaving/VBG-2,Navy/NNP-4)
+				prep_in(Navy/NNP-4,1982/CD-6)
+				nsubj(enrolled/VBD-9,Phillips/NNP-8)
+				det(student/NN-13,a/DT-11)
+				amod(student/NN-13,graduate/JJ-12)
+				prep_as(enrolled/VBD-9,student/NN-13)
+				prep_at(enrolled/VBD-9,UCLA/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at UCLA he carried out research involving observations by the NASA Pioneer Venus Spacecraft.	</value>
+
+		<annotated-sentence>	While at UCLA he carried out [[research|Research]] involving [[observations|Observation]] by the [[NASA|NASA]] [[Pioneer Venus|Pioneer_Venus_project]] [[Spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at UCLA he carried out research involving observations by the [[NASA|NASA]] Pioneer Venus Spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(carried/VBD-5,While/IN-1)
+				prep_at(carried/VBD-5,UCLA/NNP-3)
+				nsubj(carried/VBD-5,he/PRP-4)
+				prt(carried/VBD-5,out/RP-6)
+				dobj(carried/VBD-5,research/NN-7)
+				xcomp(carried/VBD-5,involving/VBG-8)
+				dobj(involving/VBG-8,observations/NNS-9)
+				det(Spacecraft/NNP-15,the/DT-11)
+				nn(Spacecraft/NNP-15,NASA/NNP-12)
+				nn(Spacecraft/NNP-15,Pioneer/NNP-13)
+				nn(Spacecraft/NNP-15,Venus/NNP-14)
+				prep_by(involving/VBG-8,Spacecraft/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>observations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Observation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pioneer Venus</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pioneer_Venus_project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon completing his doctorate in 1987, he was awarded a J. Robert Oppenheimer Postdoctoral Fellowship at Los Alamos National Laboratory in New Mexico.	</value>
+
+		<annotated-sentence>	Upon completing [[his doctorate|Doctorate]] in [[1987|1987]], he was awarded a [[J. Robert Oppenheimer|J._Robert_Oppenheimer]] [[Postdoctoral Fellowship|Postdoctoral_research]] at [[Los Alamos National Laboratory|Los_Alamos_National_Laboratory]] in [[New Mexico|New_Mexico]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon completing his doctorate in 1987, he was awarded a J. Robert Oppenheimer Postdoctoral Fellowship at [[Los Alamos National Laboratory|Los_Alamos_National_Laboratory]] in [[New Mexico|New_Mexico]].	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_upon(awarded/VBN-10,completing/VBG-2)
+				poss(doctorate/NN-4,his/PRP$-3)
+				dobj(completing/VBG-2,doctorate/NN-4)
+				prep_in(completing/VBG-2,1987/CD-6)
+				nsubjpass(awarded/VBN-10,he/PRP-8)
+				auxpass(awarded/VBN-10,was/VBD-9)
+				det(Fellowship/NNP-16,a/DT-11)
+				nn(Fellowship/NNP-16,J./NNP-12)
+				nn(Fellowship/NNP-16,Robert/NNP-13)
+				nn(Fellowship/NNP-16,Oppenheimer/NNP-14)
+				nn(Fellowship/NNP-16,Postdoctoral/NNP-15)
+				dobj(awarded/VBN-10,Fellowship/NNP-16)
+				nn(Laboratory/NNP-21,Los/NNP-18)
+				nn(Laboratory/NNP-21,Alamos/NNP-19)
+				nn(Laboratory/NNP-21,National/NNP-20)
+				prep_at(awarded/VBN-10,Laboratory/NNP-21)
+				nn(Mexico/NNP-24,New/NNP-23)
+				prep_in(Laboratory/NNP-21,Mexico/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>J. Robert Oppenheimer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/J._Robert_Oppenheimer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Postdoctoral Fellowship</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Postdoctoral_research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Los Alamos National Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Los_Alamos_National_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Mexico</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Los_Alamos_National_Laboratory http://dbpedia.org/ontology/location http://dbpedia.org/resource/New_Mexico
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He accepted a career position at Los Alamos in 1989.	</value>
+
+		<annotated-sentence>	He accepted a [[career|Career]] position at Los Alamos in [[1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He accepted a career position at Los Alamos in 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(accepted/VBD-2,He/PRP-1)
+				det(position/NN-5,a/DT-3)
+				nn(position/NN-5,career/NN-4)
+				dobj(accepted/VBD-2,position/NN-5)
+				nn(Alamos/NNP-8,Los/NNP-7)
+				prep_at(accepted/VBD-2,Alamos/NNP-8)
+				prep_in(accepted/VBD-2,1989/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While there, Phillips performed research on the sun and the space environment.	</value>
+
+		<annotated-sentence>	While there, Phillips performed [[research|Research]] on the sun and [[the space environment|Space_environment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While there, Phillips performed research on the sun and the space environment.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(there/RB-2,While/IN-1)
+				advcl(performed/VBD-5,there/RB-2)
+				nsubj(performed/VBD-5,Phillips/NNP-4)
+				dobj(performed/VBD-5,research/NN-6)
+				det(sun/NN-9,the/DT-8)
+				prep_on(performed/VBD-5,sun/NN-9)
+				det(environment/NN-13,the/DT-11)
+				nn(environment/NN-13,space/NN-12)
+				prep_on(performed/VBD-5,environment/NN-13)
+				conj_and(sun/NN-9,environment/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space environment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_environment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1993 through 1996 he was Principal Investigator for the Solar Wind Plasma Experiment aboard the Ulysses Spacecraft as it executed a unique trajectory over the poles of the sun.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Investigator/NN-8,1993/CD-2)
+				prep_through(1993/CD-2,1996/CD-4)
+				nsubj(Investigator/NN-8,he/PRP-5)
+				cop(Investigator/NN-8,was/VBD-6)
+				nn(Investigator/NN-8,Principal/NN-7)
+				det(Experiment/NN-14,the/DT-10)
+				nn(Experiment/NN-14,Solar/NNP-11)
+				nn(Experiment/NN-14,Wind/NN-12)
+				nn(Experiment/NN-14,Plasma/NN-13)
+				prep_for(Investigator/NN-8,Experiment/NN-14)
+				det(Spacecraft/NNP-18,the/DT-16)
+				nn(Spacecraft/NNP-18,Ulysses/NNP-17)
+				prep_aboard(Investigator/NN-8,Spacecraft/NNP-18)
+				mark(executed/VBD-21,as/IN-19)
+				nsubj(executed/VBD-21,it/PRP-20)
+				advcl(Investigator/NN-8,executed/VBD-21)
+				det(trajectory/NN-24,a/DT-22)
+				amod(trajectory/NN-24,unique/JJ-23)
+				dobj(executed/VBD-21,trajectory/NN-24)
+				det(poles/NNS-27,the/DT-26)
+				prep_over(executed/VBD-21,poles/NNS-27)
+				det(sun/NN-30,the/DT-29)
+				prep_of(poles/NNS-27,sun/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has authored 156 scientific papers dealing with the plasma environments of the sun, earth, other planets, comets and spacecraft.	</value>
+
+		<annotated-sentence>	He has authored 156 [[scientific papers|Academic_publishing]] dealing with the plasma environments of the sun, [[earth|Earth]], [[other planets|Planet]], [[comets|Comet]] and [[spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has authored 156 scientific papers dealing with the plasma environments of the sun, [[earth|Earth]], [[other planets|Planet]], comets and spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(authored/VBN-3,He/PRP-1)
+				aux(authored/VBN-3,has/VBZ-2)
+				num(papers/NNS-6,156/CD-4)
+				amod(papers/NNS-6,scientific/JJ-5)
+				dobj(authored/VBN-3,papers/NNS-6)
+				partmod(papers/NNS-6,dealing/VBG-7)
+				det(environments/NNS-11,the/DT-9)
+				nn(environments/NNS-11,plasma/NN-10)
+				prep_with(dealing/VBG-7,environments/NNS-11)
+				det(sun/NN-14,the/DT-13)
+				prep_of(environments/NNS-11,sun/NN-14)
+				prep_of(environments/NNS-11,earth/NN-16)
+				conj_and(sun/NN-14,earth/NN-16)
+				amod(planets/NNS-19,other/JJ-18)
+				prep_of(environments/NNS-11,planets/NNS-19)
+				conj_and(sun/NN-14,planets/NNS-19)
+				prep_of(environments/NNS-11,comets/NNS-21)
+				conj_and(sun/NN-14,comets/NNS-21)
+				prep_of(environments/NNS-11,spacecraft/NN-23)
+				conj_and(sun/NN-14,spacecraft/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>scientific papers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academic_publishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>other planets</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Planet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>comets</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Comet</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Earth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Planet
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips has logged over 4,400 flight hours and 250 carrier landings.	</value>
+
+		<annotated-sentence>	Phillips has logged over 4,400 [[flight|Flight]] [[hours|Hour]] and 250 carrier [[landings|Amphibious_warfare]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips has logged over 4,400 flight hours and 250 carrier landings.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,Phillips/NNP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,4,400/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				num(landings/NNS-11,250/CD-9)
+				nn(landings/NNS-11,carrier/NN-10)
+				prep_over(logged/VBN-3,landings/NNS-11)
+				conj_and(hours/NNS-7,landings/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has been a Navy reservist since 1982, serving as an A-7 pilot, and in various non-flying assignments.	</value>
+
+		<annotated-sentence>	He has been a [[Navy|Navy]] [[reservist|United_States_Army_Reserve]] since [[1982|1982]], serving as an A-7 pilot, and in various non-flying assignments.	</annotated-sentence>
+
+		<pattern_crowdsource>	He has been a Navy reservist since 1982, serving as an A-7 pilot, and in various non-flying assignments.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reservist/NN-6,He/PRP-1)
+				aux(reservist/NN-6,has/VBZ-2)
+				cop(reservist/NN-6,been/VBN-3)
+				det(reservist/NN-6,a/DT-4)
+				nn(reservist/NN-6,Navy/NNP-5)
+				prep_since(reservist/NN-6,1982/CD-8)
+				partmod(reservist/NN-6,serving/VBG-10)
+				partmod(reservist/NN-6,serving/VBG-10)
+				conj_and(serving/VBG-10,serving/VBG-10)
+				det(pilot/NN-14,an/DT-12)
+				nn(pilot/NN-14,A-7/NN-13)
+				prep_as(serving/VBG-10,pilot/NN-14)
+				amod(assignments/NNS-20,various/JJ-18)
+				amod(assignments/NNS-20,non-flying/JJ-19)
+				prep_in(serving/VBG-10,assignments/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>reservist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Army_Reserve</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds the rank of Captain, USNR.	</value>
+
+		<annotated-sentence>	He holds [[the rank|RANK]] of [[Captain , USNR|United_States_Navy_Reserve]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He holds the rank of Captain, USNR.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				det(rank/NN-4,the/DT-3)
+				dobj(holds/VBZ-2,rank/NN-4)
+				nn(USNR/NNP-8,Captain/NNP-6)
+				prep_of(rank/NN-4,USNR/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Captain , USNR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy_Reserve</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy_Reserve
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in April 1996, Phillips reported to the Johnson Space Center in August 1996.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[April 1996|1996]], [[Phillips|Johnson_Space_Center_shooting]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[August 1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in April 1996, [[Phillips|Johnson_Space_Center_shooting]] reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in August 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-9,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,April/NNP-5)
+				num(April/NNP-5,1996/CD-6)
+				nsubj(reported/VBD-9,Phillips/NNP-8)
+				det(Center/NNP-14,the/DT-11)
+				nn(Center/NNP-14,Johnson/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_to(reported/VBD-9,Center/NNP-14)
+				prep_in(reported/VBD-9,August/NNP-16)
+				num(August/NNP-16,1996/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Phillips</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Johnson_Space_Center_shooting</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Johnson_Space_Center_shooting http://dbpedia.org/property/target http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After completing astronaut candidate training, he held various jobs in the Astronaut Office, including systems engineering and CAPCOM for the International Space Station (ISS).	</value>
+
+		<annotated-sentence>	After completing [[astronaut|Astronaut]] [[candidate|Candidate]] [[training|Training]], he held various jobs in [[the Astronaut Office|NASA_Astronaut_Corps]], including [[systems engineering|Systems_engineering]] and [[CAPCOM|Capcom]] for [[the International Space Station|International_Space_Station]] ([[ISS|International_Space_Station]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	After completing [[astronaut|Astronaut]] candidate training, he held various jobs in the Astronaut Office, including systems engineering and CAPCOM for the International Space Station (ISS).	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(held/VBD-8,completing/VBG-2)
+				nn(training/NN-5,astronaut/NN-3)
+				nn(training/NN-5,candidate/NN-4)
+				dobj(completing/VBG-2,training/NN-5)
+				nsubj(held/VBD-8,he/PRP-7)
+				amod(jobs/NNS-10,various/JJ-9)
+				dobj(held/VBD-8,jobs/NNS-10)
+				det(Office/NNP-14,the/DT-12)
+				nn(Office/NNP-14,Astronaut/NNP-13)
+				prep_in(held/VBD-8,Office/NNP-14)
+				prep(held/VBD-8,including/VBG-16)
+				nn(engineering/NN-18,systems/NNS-17)
+				npadvmod(for/IN-21,engineering/NN-18)
+				conj_and(engineering/NN-18,CAPCOM/NNP-20)
+				npadvmod(for/IN-21,CAPCOM/NNP-20)
+				pcomp(including/VBG-16,for/IN-21)
+				det(Station/NNP-25,the/DT-22)
+				nn(Station/NNP-25,International/NNP-23)
+				nn(Station/NNP-25,Space/NNP-24)
+				pobj(for/IN-21,Station/NNP-25)
+				appos(Station/NNP-25,ISS/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>systems engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Systems_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a backup crew-member for ISS Expedition 7 STS-100 (Space Shuttle Endeavour, April 19 to May 1, 2001).	</value>
+
+		<annotated-sentence>	He served as a [[backup|Backup]] [[crew-member|Crewman]] for [[ISS|S]] [[Expedition|Exploration]] 7 [[STS-100|STS-100]] ([[Space Shuttle Endeavour|Space_Shuttle_Endeavour]], [[April 19|April_19]] to May 1, 2001).	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as a backup crew-member for ISS Expedition 7 [[STS-100|STS-100]] (Space Shuttle Endeavour, April 19 to May 1, 2001).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(crew-member/NN-6,a/DT-4)
+				nn(crew-member/NN-6,backup/NN-5)
+				prep_as(served/VBD-2,crew-member/NN-6)
+				nn(Expedition/NN-9,ISS/NNP-8)
+				prep_for(served/VBD-2,Expedition/NN-9)
+				num(STS-100/NN-11,7/CD-10)
+				dep(Expedition/NN-9,STS-100/NN-11)
+				nn(Endeavour/NNP-15,Space/NN-13)
+				nn(Endeavour/NNP-15,Shuttle/NNP-14)
+				dep(served/VBD-2,Endeavour/NNP-15)
+				tmod(Endeavour/NNP-15,April/NNP-17)
+				num(April/NNP-17,19/CD-18)
+				prep_to(Endeavour/NNP-15,May/NNP-20)
+				num(May/NNP-20,1/CD-21)
+				num(May/NNP-20,2001/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew-member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-100</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-100</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 19</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_19</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-100
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-100 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-100 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-100 was a 12-day mission to the ISS.	</value>
+
+		<annotated-sentence>	[[STS-100|STS-100]] was a 12-day mission to [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-100|STS-100]] was a 12-day mission to the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-5,STS-100/NN-1)
+				cop(mission/NN-5,was/VBD-2)
+				det(mission/NN-5,a/DT-3)
+				amod(mission/NN-5,12-day/JJ-4)
+				det(ISS/NN-8,the/DT-7)
+				prep_to(mission/NN-5,ISS/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-100</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-100</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-100
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-100 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-100 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission, the crew successfully delivered and installed the Canadarm2 Robotic Arm.	</value>
+
+		<annotated-sentence>	During the mission, the crew successfully delivered and installed the [[Canadarm2|Mobile_Servicing_System]] [[Robotic Arm|Robotic_arm]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the mission, the crew successfully delivered and installed the Canadarm2 Robotic Arm.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(delivered/VBN-8,mission/NN-3)
+				det(crew/NN-6,the/DT-5)
+				nsubj(delivered/VBN-8,crew/NN-6)
+				nsubj(installed/VBN-10,crew/NN-6)
+				advmod(delivered/VBN-8,successfully/RB-7)
+				conj_and(delivered/VBN-8,installed/VBN-10)
+				det(Arm/NN-14,the/DT-11)
+				nn(Arm/NN-14,Canadarm2/NN-12)
+				amod(Arm/NN-14,Robotic/JJ-13)
+				dobj(installed/VBN-10,Arm/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Canadarm2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mobile_Servicing_System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Robotic Arm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robotic_arm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They also delivered experiments and supplies aboard the Multi-Purpose Logistics Module Raffaello on its maiden flight.	</value>
+
+		<annotated-sentence>	[[They|They]] also delivered experiments and supplies aboard the Multi-Purpose [[Logistics|Logistics]] Module [[Raffaello|Raphael]] on [[its maiden flight|Maiden_flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	They also delivered experiments and supplies aboard the Multi-Purpose Logistics Module Raffaello on its maiden flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-3,They/PRP-1)
+				advmod(delivered/VBD-3,also/RB-2)
+				dobj(delivered/VBD-3,experiments/NNS-4)
+				dobj(delivered/VBD-3,supplies/NNS-6)
+				conj_and(experiments/NNS-4,supplies/NNS-6)
+				det(Raffaello/NNP-12,the/DT-8)
+				nn(Raffaello/NNP-12,Multi-Purpose/NNP-9)
+				nn(Raffaello/NNP-12,Logistics/NNP-10)
+				nn(Raffaello/NNP-12,Module/NNP-11)
+				prep_aboard(delivered/VBD-3,Raffaello/NNP-12)
+				poss(flight/NN-16,its/PRP$-14)
+				amod(flight/NN-16,maiden/JJ-15)
+				prep_on(delivered/VBD-3,flight/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Logistics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Logistics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Raffaello</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Raphael</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>its maiden flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maiden_flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips was the Ascent/Entry Flight engineer and was the intravehicular activity coordinator during two space walks.	</value>
+
+		<annotated-sentence>	Phillips was the Ascent/Entry [[Flight engineer|Flight_engineer]] and was the intravehicular [[activity|Activity]] [[coordinator|Parenting_coordinator]] during [[two space walks|Extra-vehicular_activity]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips was the Ascent/Entry Flight engineer and was the intravehicular activity coordinator during two space walks.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(engineer/NN-6,Phillips/NNP-1)
+				cop(engineer/NN-6,was/VBD-2)
+				det(engineer/NN-6,the/DT-3)
+				nn(engineer/NN-6,Ascent/Entry/NNP-4)
+				nn(engineer/NN-6,Flight/NNP-5)
+				cop(coordinator/NN-12,was/VBD-8)
+				det(coordinator/NN-12,the/DT-9)
+				amod(coordinator/NN-12,intravehicular/JJ-10)
+				nn(coordinator/NN-12,activity/NN-11)
+				conj_and(engineer/NN-6,coordinator/NN-12)
+				num(space/NN-15,two/CD-14)
+				prep_during(coordinator/NN-12,space/NN-15)
+				dep(space/NN-15,walks/VBZ-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activity</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>coordinator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parenting_coordinator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two space walks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Expedition 11 (April 15 to October 11, 2005).	</value>
+
+		<annotated-sentence>	[[Expedition 11|Expedition_11]] ([[April 15|April_15]] to October 11, 2005).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Expedition 11|Expedition_11]] (April 15 to October 11, 2005).	</pattern_crowdsource>
+
+
+		<tree>
+				num(Expedition/NN-1,11/CD-2)
+				dep(Expedition/NN-1,April/NNP-4)
+				num(April/NNP-4,15/CD-5)
+				prep_to(April/NNP-4,October/NNP-7)
+				num(October/NNP-7,11/CD-8)
+				num(October/NNP-7,2005/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Expedition 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_15</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_11 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Expedition 11 was a six-month mission to the ISS.	</value>
+
+		<annotated-sentence>	[[Expedition 11|Expedition_11]] was a six-month mission to [[the ISS|S]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Expedition 11|Expedition_11]] was a six-month mission to the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-6,Expedition/NN-1)
+				num(Expedition/NN-1,11/CD-2)
+				cop(mission/NN-6,was/VBD-3)
+				det(mission/NN-6,a/DT-4)
+				amod(mission/NN-6,six-month/JJ-5)
+				det(ISS/NN-9,the/DT-8)
+				prep_to(mission/NN-6,ISS/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Expedition 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_11
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_11 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_11 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On April 15, 2005, Phillips, along with his fellow crew-members Sergei Krikalev, and Roberto Vittori launched to the ISS aboard Soyuz TMA-6.	</value>
+
+		<annotated-sentence>	On April 15, 2005, Phillips, along with [[his fellow crew-members|Crewman]] [[Sergei Krikalev|Sergei_Krikalev]], and [[Roberto Vittori|Roberto_Vittori]] launched to [[the ISS|S]] aboard [[Soyuz TMA-6|Soyuz_TMA-6]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On April 15, 2005, Phillips, along with his fellow crew-members [[Sergei Krikalev|Sergei_Krikalev]], and [[Roberto Vittori|Roberto_Vittori]] launched to the ISS aboard [[Soyuz TMA-6|Soyuz_TMA-6]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(launched/VBD-20,April/NNP-2)
+				num(April/NNP-2,15/CD-3)
+				num(April/NNP-2,2005/CD-5)
+				nsubj(launched/VBD-20,Phillips/NNP-7)
+				poss(crew-members/NNS-13,his/PRP$-11)
+				amod(crew-members/NNS-13,fellow/JJ-12)
+				prep_along_with(Phillips/NNP-7,crew-members/NNS-13)
+				nn(Krikalev/NNP-15,Sergei/NNP-14)
+				dep(Phillips/NNP-7,Krikalev/NNP-15)
+				nn(Vittori/NNP-19,Roberto/NNP-18)
+				dep(Phillips/NNP-7,Vittori/NNP-19)
+				conj_and(Krikalev/NNP-15,Vittori/NNP-19)
+				det(ISS/NN-23,the/DT-22)
+				prep_to(launched/VBD-20,ISS/NN-23)
+				nn(TMA-6/NNP-26,Soyuz/NNP-25)
+				prep_aboard(launched/VBD-20,TMA-6/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his fellow crew-members</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sergei Krikalev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergei_Krikalev</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roberto Vittori</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Roberto_Vittori</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-6</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Sergei_Krikalev
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Sergei_Krikalev
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Roberto_Vittori http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Roberto_Vittori
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Roberto_Vittori
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On June 14, 2005, Phillips became the first person ever to testify before congress from the ISS, or outer space in general.	</value>
+
+		<annotated-sentence>	On June 14, 2005, Phillips became [[the first person|Person]] ever to testify before congress from [[the ISS|S]], or [[outer space|Outer_space]] in general.	</annotated-sentence>
+
+		<pattern_crowdsource>	On June 14, 2005, Phillips became [[the first person|Person]] ever to testify before congress from the ISS, or outer space in general.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(person/NN-11,June/NNP-2)
+				num(June/NNP-2,14/CD-3)
+				num(June/NNP-2,2005/CD-5)
+				nsubj(person/NN-11,Phillips/NNP-7)
+				cop(person/NN-11,became/VBD-8)
+				det(person/NN-11,the/DT-9)
+				amod(person/NN-11,first/JJ-10)
+				advmod(person/NN-11,ever/RB-12)
+				aux(testify/VB-14,to/TO-13)
+				xcomp(person/NN-11,testify/VB-14)
+				prep_before(testify/VB-14,congress/NN-16)
+				det(ISS/NNP-19,the/DT-18)
+				prep_from(congress/NN-16,ISS/NNP-19)
+				amod(space/NN-23,outer/JJ-22)
+				prep_before(testify/VB-14,space/NN-23)
+				conj_or(congress/NN-16,space/NN-23)
+				prep_in(space/NN-23,general/JJ-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>outer space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Outer_space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He gave testimony to the United States House of Representatives Science Space Subcommittee via a live video feed.	</value>
+
+		<annotated-sentence>	He gave [[testimony|Testimony]] to [[the United States House|United_States_House_of_Representatives]] of [[Representatives|United_States_House_of_Representatives]] [[Science|Science]] [[Space|Space]] [[Subcommittee|Subcommittee_(Cragg)]] via a live [[video feed|Video]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He gave testimony to the United States House of Representatives Science Space Subcommittee via a live video feed.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(gave/VBD-2,He/PRP-1)
+				dobj(gave/VBD-2,testimony/NN-3)
+				det(House/NNP-8,the/DT-5)
+				nn(House/NNP-8,United/NNP-6)
+				nn(House/NNP-8,States/NNP-7)
+				prep_to(gave/VBD-2,House/NNP-8)
+				nn(Subcommittee/NNP-13,Representatives/NNP-10)
+				nn(Subcommittee/NNP-13,Science/NNP-11)
+				nn(Subcommittee/NNP-13,Space/NNP-12)
+				prep_of(House/NNP-8,Subcommittee/NNP-13)
+				det(feed/NN-18,a/DT-15)
+				amod(feed/NN-18,live/JJ-16)
+				nn(feed/NN-18,video/NN-17)
+				prep_via(Subcommittee/NNP-13,feed/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>testimony</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Testimony</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States House</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_House_of_Representatives</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Representatives</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_House_of_Representatives</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Subcommittee</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Subcommittee_(Cragg)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>video feed</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Video</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The hearing was to evaluate the space station's usefulness as an orbiting laboratory.	</value>
+
+		<annotated-sentence>	[[The hearing|List_of_Dynasty_episodes]] was to evaluate the [[space station|SpaceStation]]'s usefulness as [[an orbiting laboratory|Manned_Orbiting_Laboratory]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The hearing was to evaluate the space station's usefulness as an orbiting laboratory.	</pattern_crowdsource>
+
+
+		<tree>
+				det(hearing/NN-2,The/DT-1)
+				nsubj(was/VBD-3,hearing/NN-2)
+				aux(evaluate/VB-5,to/TO-4)
+				xcomp(was/VBD-3,evaluate/VB-5)
+				det(station/NN-8,the/DT-6)
+				nn(station/NN-8,space/NN-7)
+				poss(usefulness/NN-10,station/NN-8)
+				dobj(evaluate/VB-5,usefulness/NN-10)
+				det(laboratory/NN-14,an/DT-12)
+				amod(laboratory/NN-14,orbiting/VBG-13)
+				prep_as(evaluate/VB-5,laboratory/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The hearing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Dynasty_episodes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an orbiting laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Manned_Orbiting_Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On August 18, 2005, Phillips and Krikalev completed a five-hour spacewalk to retrieve several experiments and install a video camera for the new docking procedure.	</value>
+
+		<annotated-sentence>	On August 18, 2005, Phillips and Krikalev completed a five-hour [[spacewalk|Spacewalk_(software)]] to retrieve [[several experiments|Experiment]] and install [[a video camera|Video_camera]] for the new docking procedure.	</annotated-sentence>
+
+		<pattern_crowdsource>	On August 18, 2005, Phillips and Krikalev completed a five-hour spacewalk to retrieve several experiments and install a video camera for the new docking procedure.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(completed/VBD-10,August/NNP-2)
+				num(August/NNP-2,18/CD-3)
+				num(August/NNP-2,2005/CD-5)
+				nsubj(completed/VBD-10,Phillips/NNP-7)
+				conj_and(Phillips/NNP-7,Krikalev/NNP-9)
+				nsubj(completed/VBD-10,Krikalev/NNP-9)
+				det(spacewalk/NN-13,a/DT-11)
+				amod(spacewalk/NN-13,five-hour/JJ-12)
+				dobj(completed/VBD-10,spacewalk/NN-13)
+				aux(retrieve/VB-15,to/TO-14)
+				xcomp(completed/VBD-10,retrieve/VB-15)
+				amod(experiments/NNS-17,several/JJ-16)
+				dobj(retrieve/VB-15,experiments/NNS-17)
+				xcomp(completed/VBD-10,install/VB-19)
+				conj_and(retrieve/VB-15,install/VB-19)
+				det(camera/NN-22,a/DT-20)
+				nn(camera/NN-22,video/NN-21)
+				dobj(install/VB-19,camera/NN-22)
+				det(procedure/NN-27,the/DT-24)
+				amod(procedure/NN-27,new/JJ-25)
+				nn(procedure/NN-27,docking/NN-26)
+				prep_for(install/VB-19,procedure/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacewalk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a video camera</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Video_camera</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips and Krikalev, along with Space Flight Participant Gregory Olsen, returned to Earth aboard Soyuz TMA-6 on October 11, 2005.	</value>
+
+		<annotated-sentence>	[[Phillips and Krikalev|Sergei_Krikalev]], along with [[Space Flight Participant|Space_tourism]] [[Gregory Olsen|Gregory_Olsen]], returned to [[Earth|Earth]] aboard [[Soyuz TMA-6|Soyuz_TMA-6]] on October 11, 2005.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Phillips and Krikalev|Sergei_Krikalev]], along with [[Space Flight Participant|Space_tourism]] [[Gregory Olsen|Gregory_Olsen]], returned to Earth aboard [[Soyuz TMA-6|Soyuz_TMA-6]] on October 11, 2005.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-13,Phillips/NNP-1)
+				conj_and(Phillips/NNP-1,Krikalev/NNP-3)
+				nsubj(returned/VBD-13,Krikalev/NNP-3)
+				nn(Olsen/NNP-11,Space/NNP-7)
+				nn(Olsen/NNP-11,Flight/NNP-8)
+				nn(Olsen/NNP-11,Participant/NNP-9)
+				nn(Olsen/NNP-11,Gregory/NNP-10)
+				prep_along_with(returned/VBD-13,Olsen/NNP-11)
+				prep_to(returned/VBD-13,Earth/NNP-15)
+				nn(TMA-6/NN-18,Soyuz/NNP-17)
+				prep_aboard(returned/VBD-13,TMA-6/NN-18)
+				prep_on(returned/VBD-13,October/NNP-20)
+				num(October/NNP-20,11/CD-21)
+				num(October/NNP-20,2005/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Phillips and Krikalev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sergei_Krikalev</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Flight Participant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_tourism</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Gregory Olsen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_Olsen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-6</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/Sergei_Krikalev
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Sergei_Krikalev
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/details3Down http://dbpedia.org/resource/Space_tourism
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_Olsen http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Gregory_Olsen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew3Down http://dbpedia.org/resource/Gregory_Olsen
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-6
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-6 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-119 (Space Shuttle Discovery, March 15 to March 28, 2009).	</value>
+
+		<annotated-sentence>	[[STS-119|STS-119]] ([[Space|Space]] [[Shuttle Discovery|Space_Shuttle_Discovery]], [[March 15|March_15]] to [[March|March_15]] 28, 2009).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-119|STS-119]] (Space Shuttle Discovery, March 15 to March 28, 2009).	</pattern_crowdsource>
+
+
+		<tree>
+				dep(STS-119/NN-1,Space/NN-3)
+				nn(Discovery/NNP-5,Shuttle/NNP-4)
+				dep(Space/NN-3,Discovery/NNP-5)
+				appos(Discovery/NNP-5,March/NNP-7)
+				num(March/NNP-7,15/CD-8)
+				prep_to(March/NNP-7,March/NNP-10)
+				num(March/NNP-10,28/CD-11)
+				num(March/NNP-10,2009/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-119</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-119</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle Discovery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Discovery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_15</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_15</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-119
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-119 was a 12 day mission to the ISS flown during March 2009.	</value>
+
+		<annotated-sentence>	[[STS-119|STS-119]] was a 12 day mission to [[the ISS|S]] flown during [[March 2009|March_2009]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-119|STS-119]] was a 12 day mission to the ISS flown during March 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-6,STS-119/NN-1)
+				cop(mission/NN-6,was/VBD-2)
+				det(mission/NN-6,a/DT-3)
+				num(mission/NN-6,12/CD-4)
+				nn(mission/NN-6,day/NN-5)
+				det(ISS/NN-9,the/DT-8)
+				prep_to(mission/NN-6,ISS/NN-9)
+				partmod(ISS/NN-9,flown/VBN-10)
+				prep_during(flown/VBN-10,March/NNP-12)
+				num(March/NNP-12,2009/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-119</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-119</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2009</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-119
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-119 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/John_L._Phillips
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It delivered and assembled the fourth starboard Integrated Truss Segment (S6), and the fourth set of solar arrays and batteries to the station.	</value>
+
+		<annotated-sentence>	It delivered and assembled [[the fourth starboard|Port_and_starboard]] Integrated [[Truss|Truss]] [[Segment|Transmission_Control_Protocol]] (S6), and the fourth set of solar arrays and batteries to [[the station|Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It delivered and assembled the fourth starboard Integrated Truss Segment (S6), and the fourth set of solar arrays and batteries to the station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-2,It/PRP-1)
+				nsubj(assembled/VBD-4,It/PRP-1)
+				conj_and(delivered/VBD-2,assembled/VBD-4)
+				det(starboard/NN-7,the/DT-5)
+				amod(starboard/NN-7,fourth/JJ-6)
+				dobj(assembled/VBD-4,starboard/NN-7)
+				nn(Segment/NNP-10,Integrated/NNP-8)
+				nn(Segment/NNP-10,Truss/NNP-9)
+				dep(starboard/NN-7,Segment/NNP-10)
+				appos(Segment/NNP-10,S6/NN-12)
+				det(set/NN-18,the/DT-16)
+				amod(set/NN-18,fourth/JJ-17)
+				dobj(assembled/VBD-4,set/NN-18)
+				conj_and(starboard/NN-7,set/NN-18)
+				amod(arrays/NNS-21,solar/JJ-20)
+				prep_of(set/NN-18,arrays/NNS-21)
+				prep_of(set/NN-18,batteries/NNS-23)
+				conj_and(arrays/NNS-21,batteries/NNS-23)
+				det(station/NN-26,the/DT-25)
+				prep_to(assembled/VBD-4,station/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the fourth starboard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Port_and_starboard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Truss</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Truss</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Segment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transmission_Control_Protocol</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The launch took place on March 15, 2009.	</value>
+
+		<annotated-sentence>	[[The launch|The_Launch]] took [[place|Place]] on March 15, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	The launch took place on March 15, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				det(launch/NN-2,The/DT-1)
+				nsubj(took/VBD-3,launch/NN-2)
+				dobj(took/VBD-3,place/NN-4)
+				prep_on(took/VBD-3,March/NNP-6)
+				num(March/NNP-6,15/CD-7)
+				num(March/NNP-6,2009/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>place</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Place</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Discovery successfully landed on March 28, 2009.	</value>
+
+		<annotated-sentence>	Discovery successfully landed on March 28, 2009.	</annotated-sentence>
+
+		<pattern_crowdsource>	Discovery successfully landed on March 28, 2009.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-3,Discovery/NNP-1)
+				advmod(landed/VBD-3,successfully/RB-2)
+				prep_on(landed/VBD-3,March/NNP-5)
+				num(March/NNP-5,28/CD-6)
+				num(March/NNP-5,2009/CD-8)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Phillips was detailed to the U.S. Naval Postgraduate School in Monterey, CA, from 2009 to 2011 as the Smith/McCool NASA Chair Professor.	</value>
+
+		<annotated-sentence>	Phillips was detailed to [[the U.S. Naval Postgraduate School|Naval_Postgraduate_School]] in [[Monterey , CA ,|Akron,_Ohio]]rom [[2009|2009]] to [[2011|2011_(album)]] as the Smith/McCool [[NASA|NASA]] [[Chair|Professor]] [[Professor|Professor_Farnsworth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Phillips was detailed to the U.S. Naval Postgraduate School in Monterey, CA, from 2009 to 2011 as the Smith/McCool [[NASA|NASA]] [[Chair|Professor]] [[Professor|Professor_Farnsworth]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(detailed/VBN-3,Phillips/NNP-1)
+				auxpass(detailed/VBN-3,was/VBD-2)
+				det(School/NNP-9,the/DT-5)
+				nn(School/NNP-9,U.S./NNP-6)
+				nn(School/NNP-9,Naval/NNP-7)
+				nn(School/NNP-9,Postgraduate/NNP-8)
+				prep_to(detailed/VBN-3,School/NNP-9)
+				nn(CA/NNP-13,Monterey/NNP-11)
+				prep_in(detailed/VBN-3,CA/NNP-13)
+				num(2011/CD-18,2009/CD-16)
+				dep(2011/CD-18,to/TO-17)
+				prep_from(detailed/VBN-3,2011/CD-18)
+				det(Professor/NNP-24,the/DT-20)
+				nn(Professor/NNP-24,Smith/McCool/NNP-21)
+				nn(Professor/NNP-24,NASA/NNP-22)
+				nn(Professor/NNP-24,Chair/NNP-23)
+				prep_as(2011/CD-18,Professor/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the U.S. Naval Postgraduate School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_Postgraduate_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Monterey , CA ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chair</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/John_L._Phillips http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Professor_Farnsworth http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Professor
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

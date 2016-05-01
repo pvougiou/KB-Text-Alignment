@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Pulmonary veno-occlusive disease is an extremely rare disease that causes high blood pressure in the lung arteries (pulmonary hypertension).</value>
+		<pattern_crowdsource> [[Pulmonary veno-occlusive disease|C0034091]] is an extremely [[rare disease|C0678236]] that causes [[high blood pressure|C0020538]] in the [[lung arteries|C0034052]] (pulmonary hypertension).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Pulmonary veno-occlusive disease</surface-form>
+				<RDF-ID>C0034091</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare disease</surface-form>
+				<RDF-ID>C0678236</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lung arteries</surface-form>
+				<RDF-ID>C0034052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pulmonary hypertension</surface-form>
+				<RDF-ID>C0020542</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034091 ISA C0020538</triple>
+			<triple>C0678236 CAUSES C0020538</triple>
+			<triple>C0034052 LOCATION_OF C0020538</triple>
+			<triple>C0678236 CAUSES C0034091</triple>
+			<triple>C0034052 LOCATION_OF C0034091</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

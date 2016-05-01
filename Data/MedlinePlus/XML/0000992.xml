@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Check your feet carefully if you have diabetes or numbness in the feet or toes.</value>
+		<pattern_crowdsource> Check your feet carefully if you have [[diabetes|C0011847]] or [[numbness|C0028643]] in the [[feet|C0016504]] or [[toes|C0040357]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>C0016504</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>numbness</surface-form>
+				<RDF-ID>C0028643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feet</surface-form>
+				<RDF-ID>C0016504</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>toes</surface-form>
+				<RDF-ID>C0040357</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016504 LOCATION_OF C0028643</triple>
+			<triple>C0016504 LOCATION_OF C0011847</triple>
+			<triple>C0040357 LOCATION_OF C0028643</triple>
+			<triple>C0040357 LOCATION_OF C0011847</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

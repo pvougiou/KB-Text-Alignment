@@ -1,0 +1,3642 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Benson Irwin (March 17, 1930 – August 8, 1991) was an American astronaut.	</value>
+
+		<annotated-sentence>	[[James Benson Irwin|James_Irwin]] (March 17, 1930 – August 8, 1991) was [[an American astronaut|The_American_Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	James Benson Irwin (March 17, 1930 – August 8, 1991) was an American astronaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Irwin/NNP-3,James/NNP-1)
+				nn(Irwin/NNP-3,Benson/NNP-2)
+				nsubj(astronaut/NN-18,Irwin/NNP-3)
+				dep(Irwin/NNP-3,March/NNP-5)
+				num(March/NNP-5,17/CD-6)
+				num(March/NNP-5,1930/CD-8)
+				dep(March/NNP-5,August/NNP-10)
+				num(August/NNP-10,8/CD-11)
+				num(August/NNP-10,1991/CD-13)
+				cop(astronaut/NN-18,was/VBD-15)
+				det(astronaut/NN-18,an/DT-16)
+				amod(astronaut/NN-18,American/JJ-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Benson Irwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_Irwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Lunar Module pilot for Apollo 15, the fourth human lunar landing.	</value>
+
+		<annotated-sentence>	He served as [[Lunar Module|Apollo_Lunar_Module]] pilot for [[Apollo 15|Apollo_15]], the fourth human [[lunar landing|Moon_landing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as Lunar Module pilot for [[Apollo 15|Apollo_15]], the fourth human lunar landing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nn(pilot/NN-6,Lunar/NNP-4)
+				nn(pilot/NN-6,Module/NNP-5)
+				prep_as(served/VBD-2,pilot/NN-6)
+				prep_for(served/VBD-2,Apollo/NNP-8)
+				num(Apollo/NNP-8,15/CD-9)
+				det(landing/NN-15,the/DT-11)
+				amod(landing/NN-15,fourth/JJ-12)
+				amod(landing/NN-15,human/JJ-13)
+				amod(landing/NN-15,lunar/JJ-14)
+				appos(Apollo/NNP-8,landing/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lunar Module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Lunar_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_15</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lunar landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_15
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the eighth person to walk on the Moon and the first, and youngest, of those astronauts to die.	</value>
+
+		<annotated-sentence>	He was the eighth [[person|Person]] to walk on [[the Moon|Moon]] and [[the first , and youngest ,|Akron,_Ohio]]f [[those astronauts|Astronaut]] to die.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the eighth [[person|Person]] to walk on the Moon and the first, and youngest, of [[those astronauts|Astronaut]] to die.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(person/NN-5,He/PRP-1)
+				cop(person/NN-5,was/VBD-2)
+				det(person/NN-5,the/DT-3)
+				amod(person/NN-5,eighth/JJ-4)
+				aux(walk/VB-7,to/TO-6)
+				infmod(person/NN-5,walk/VB-7)
+				det(Moon/NNP-10,the/DT-9)
+				prep_on(walk/VB-7,Moon/NNP-10)
+				det(first/JJ-13,the/DT-12)
+				prep_on(walk/VB-7,first/JJ-13)
+				conj_and(Moon/NNP-10,first/JJ-13)
+				conj_and(Moon/NNP-10,youngest/JJS-16)
+				conj_and(first/JJ-13,youngest/JJS-16)
+				det(astronauts/NNS-20,those/DT-19)
+				prep_of(first/JJ-13,astronauts/NNS-20)
+				aux(die/VB-22,to/TO-21)
+				xcomp(walk/VB-7,die/VB-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first , and youngest ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>those astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+			<triple>
+				http://dbpedia.org/ontology/Astronaut http://www.w3.org/2000/01/rdf-schema#subClassOf http://dbpedia.org/ontology/Person
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin's grandparents emigrated to the USA from Altmore Parish at Pomeroy in County Tyrone, Ireland around 1859.	</value>
+
+		<annotated-sentence>	[[Irwin|Irwin_County,_Georgia]]'s [[grandparents|Grandparent]] emigrated to [[the USA|United_States]] from [[Altmore|Altmore]] [[Parish|Parish]] at [[Pomeroy|Pomeroy,_County_Tyrone]] in [[County Tyrone|County_Tyrone]], [[Ireland|Irish_people]] around [[1859|1859_(magazine)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Irwin|Irwin_County,_Georgia]]'s grandparents emigrated to [[the USA|United_States]] from Altmore Parish at [[Pomeroy|Pomeroy,_County_Tyrone]] in [[County Tyrone|County_Tyrone]], [[Ireland|Irish_people]] around 1859.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(grandparents/NNS-3,Irwin/NNP-1)
+				nsubj(emigrated/VBD-4,grandparents/NNS-3)
+				det(USA/NN-7,the/DT-6)
+				prep_to(emigrated/VBD-4,USA/NN-7)
+				nn(Parish/NNP-10,Altmore/NNP-9)
+				prep_from(emigrated/VBD-4,Parish/NNP-10)
+				prep_at(Parish/NNP-10,Pomeroy/NNP-12)
+				nn(Tyrone/NNP-15,County/NNP-14)
+				prep_in(emigrated/VBD-4,Tyrone/NNP-15)
+				appos(Tyrone/NNP-15,Ireland/NNP-17)
+				prep_around(Ireland/NNP-17,1859/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Irwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Irwin_County,_Georgia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>grandparents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Grandparent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Altmore</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Altmore</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Parish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parish</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pomeroy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pomeroy,_County_Tyrone</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>County Tyrone</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/County_Tyrone</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ireland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Irish_people</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1859</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1859_(magazine)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Irwin_County,_Georgia http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Irish_people http://dbpedia.org/ontology/populationPlace http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Pomeroy,_County_Tyrone http://dbpedia.org/ontology/county http://dbpedia.org/resource/County_Tyrone
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin is a third cousin of Cherith Andrews (Nee McFarland) socialite and Advertising Manager at the Daily Mirror Northern Ireland.	</value>
+
+		<annotated-sentence>	Irwin is [[a third cousin|Cousin]] of [[Cherith|Cherith]] Andrews (Nee McFarland) [[socialite and Advertising|Socialite]] Manager at the [[Daily Mirror|Daily_Mirror]] [[Northern Ireland|Northern_Ireland]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin is a third cousin of Cherith Andrews (Nee McFarland) socialite and Advertising Manager at the Daily Mirror Northern Ireland.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(cousin/NN-5,Irwin/NNP-1)
+				cop(cousin/NN-5,is/VBZ-2)
+				det(cousin/NN-5,a/DT-3)
+				amod(cousin/NN-5,third/JJ-4)
+				nn(Andrews/NNP-8,Cherith/NNP-7)
+				prep_of(cousin/NN-5,Andrews/NNP-8)
+				nn(McFarland/NNP-11,Nee/NNP-10)
+				appos(cousin/NN-5,McFarland/NNP-11)
+				nn(Manager/NN-16,socialite/NN-13)
+				conj_and(socialite/NN-13,Advertising/NN-15)
+				nn(Manager/NN-16,Advertising/NN-15)
+				dep(cousin/NN-5,Manager/NN-16)
+				det(Ireland/NNP-22,the/DT-18)
+				nn(Ireland/NNP-22,Daily/NNP-19)
+				nn(Ireland/NNP-22,Mirror/NNP-20)
+				nn(Ireland/NNP-22,Northern/NNP-21)
+				prep_at(Manager/NN-16,Ireland/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a third cousin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cousin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cherith</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cherith</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>socialite and Advertising</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Socialite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Daily Mirror</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daily_Mirror</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Northern Ireland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northern_Ireland</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin himself was born in Pittsburgh, Pennsylvania of Scottish and Irish descent.	</value>
+
+		<annotated-sentence>	Irwin himself was born in Pittsburgh, Pennsylvania of [[Scottish|Scottish_people]] and [[Irish descent|Irish_people]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin himself was born in Pittsburgh, Pennsylvania of [[Scottish|Scottish_people]] and [[Irish descent|Irish_people]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-4,Irwin/NNP-1)
+				dep(Irwin/NNP-1,himself/PRP-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				nn(Pennsylvania/NNP-8,Pittsburgh/NNP-6)
+				prep_in(born/VBN-4,Pennsylvania/NNP-8)
+				prep_of(Pennsylvania/NNP-8,Scottish/NNP-10)
+				nn(descent/NN-13,Irish/NNP-12)
+				prep_of(Pennsylvania/NNP-8,descent/NN-13)
+				conj_and(Scottish/NNP-10,descent/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Scottish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scottish_people</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Irish descent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Irish_people</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Irish_people http://dbpedia.org/ontology/related http://dbpedia.org/resource/Scottish_people
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin graduated from East High School in Salt Lake City, Utah in 1947.	</value>
+
+		<annotated-sentence>	Irwin graduated from East High School in [[Salt Lake City|Salt_Lake_City]], [[Utah|Utah]] in [[1947|Earth_(1998_film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin graduated from East High School in [[Salt Lake City|Salt_Lake_City]], [[Utah|Utah]] in 1947.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Irwin/NNP-1)
+				nn(School/NNP-6,East/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(City/NNP-10,Salt/NNP-8)
+				nn(City/NNP-10,Lake/NNP-9)
+				prep_in(School/NNP-6,City/NNP-10)
+				appos(City/NNP-10,Utah/NNP-12)
+				prep_in(graduated/VBD-2,1947/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Salt Lake City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Salt_Lake_City</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Utah</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Utah</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1947</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth_(1998_film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Salt_Lake_City http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/Utah
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Utah http://dbpedia.org/ontology/capital http://dbpedia.org/resource/Salt_Lake_City
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a Bachelor of Science degree in naval science from the United States Naval Academy in 1951 and a Master of Science in aeronautical engineering and instrumentation engineering from the University of Michigan in 1957.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(science/NN-10,naval/JJ-9)
+				prep_in(received/VBD-2,science/NN-10)
+				det(Academy/NNP-16,the/DT-12)
+				nn(Academy/NNP-16,United/NNP-13)
+				nn(Academy/NNP-16,States/NNPS-14)
+				nn(Academy/NNP-16,Naval/NNP-15)
+				prep_from(science/NN-10,Academy/NNP-16)
+				prep_in(science/NN-10,1951/CD-18)
+				det(Master/NN-21,a/DT-20)
+				prep_in(received/VBD-2,Master/NN-21)
+				conj_and(science/NN-10,Master/NN-21)
+				prep_of(Master/NN-21,Science/NN-23)
+				amod(engineering/NN-26,aeronautical/JJ-25)
+				prep_in(Science/NN-23,engineering/NN-26)
+				nn(engineering/NN-29,instrumentation/NN-28)
+				prep_in(Science/NN-23,engineering/NN-29)
+				conj_and(engineering/NN-26,engineering/NN-29)
+				det(University/NNP-32,the/DT-31)
+				prep_from(received/VBD-2,University/NNP-32)
+				prep_of(University/NNP-32,Michigan/NNP-34)
+				prep_in(received/VBD-2,1957/CD-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received flight training at Hondo Air Base and Reese Air Force Base, Texas.	</value>
+
+		<annotated-sentence>	He received [[flight training|Flight_training]] at [[Hondo Air Base|Hondo_Air_Base]] and [[Reese Air Force Base|Reese_Air_Force_Base]], [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received flight training at Hondo Air Base and Reese Air Force Base, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				nn(training/NN-4,flight/NN-3)
+				dobj(received/VBD-2,training/NN-4)
+				nn(Base/NNP-8,Hondo/NNP-6)
+				nn(Base/NNP-8,Air/NNP-7)
+				prep_at(received/VBD-2,Base/NNP-8)
+				nn(Base/NNP-13,Reese/NNP-10)
+				nn(Base/NNP-13,Air/NNP-11)
+				nn(Base/NNP-13,Force/NNP-12)
+				prep_at(received/VBD-2,Base/NNP-13)
+				conj_and(Base/NNP-8,Base/NNP-13)
+				appos(Base/NNP-8,Texas/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hondo Air Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hondo_Air_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reese Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reese_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Air Force Experimental Test Pilot School in 1961 and the Air Force Aerospace Research Pilot School in 1963.	</value>
+
+		<annotated-sentence>	He graduated from the [[Air Force|Air_force]] Experimental [[Test Pilot School|Test_pilot]] in [[1961|1961]] and the [[Air Force|Air_force]] [[Aerospace|Aerospace]] [[Research|Research]] [[Pilot|Test_pilot]] [[School|School]] in [[1963|1963]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the Air Force Experimental [[Test [[Pilot|Test_pilot]] School|Test_pilot]] in 1961 and the Air Force Aerospace Research [[Pilot|Test_pilot]] School in 1963.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				det(School/NN-10,the/DT-4)
+				nn(School/NN-10,Air/NNP-5)
+				nn(School/NN-10,Force/NNP-6)
+				amod(School/NN-10,Experimental/JJ-7)
+				nn(School/NN-10,Test/NN-8)
+				nn(School/NN-10,Pilot/NN-9)
+				prep_from(graduated/VBD-2,School/NN-10)
+				prep_in(graduated/VBD-2,1961/CD-12)
+				det(Pilot/NN-19,the/DT-14)
+				nn(Pilot/NN-19,Air/NNP-15)
+				nn(Pilot/NN-19,Force/NNP-16)
+				nn(Pilot/NN-19,Aerospace/NNP-17)
+				nn(Pilot/NN-19,Research/NNP-18)
+				prep_in(graduated/VBD-2,Pilot/NN-19)
+				conj_and(1961/CD-12,Pilot/NN-19)
+				dobj(graduated/VBD-2,School/NNP-20)
+				prep_in(School/NNP-20,1963/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1961</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1961</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1963</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1963</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to joining NASA, he was chief of the Advanced Requirements Branch at Headquarters Air Defense Command.	</value>
+
+		<annotated-sentence>	Prior to joining [[NASA|NASA]], he was chief of the [[Advanced|Relative_articulation]] [[Requirements|Requirements_analysis]] Branch at [[Headquarters|Headquarters]] [[Air Defense|Air_Defense,_Tactical_Air_Command]] Command.	</annotated-sentence>
+
+		<pattern_crowdsource>	Prior to joining [[NASA|NASA]], he was chief of the Advanced Requirements Branch at Headquarters Air Defense Command.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_prior_to(Branch/NNP-13,joining/VBG-3)
+				dobj(joining/VBG-3,NASA/NNP-4)
+				nsubj(Branch/NNP-13,he/PRP-6)
+				cop(Branch/NNP-13,was/VBD-7)
+				dep(Branch/NNP-13,chief/NN-8)
+				det(Requirements/NNS-12,the/DT-10)
+				nn(Requirements/NNS-12,Advanced/NNP-11)
+				prep_of(chief/NN-8,Requirements/NNS-12)
+				nn(Defense/NNP-17,Headquarters/NN-15)
+				nn(Defense/NNP-17,Air/NNP-16)
+				prep_at(Branch/NNP-13,Defense/NNP-17)
+				dep(Defense/NNP-17,Command/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Requirements</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Requirements_analysis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Headquarters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Headquarters</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Defense</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Defense,_Tactical_Air_Command</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time in the United States Air Force he received an Air Force Distinguished Service Medal and two Air Force Commendation Medals.	</value>
+
+		<annotated-sentence>	During his time in [[the United States Air Force|United_States_Air_Force]] he received [[an Air Force Distinguished Service Medal|Air_Force_Distinguished_Service_Medal]] and two [[Air Force|Air_force]] Commendation Medals.	</annotated-sentence>
+
+		<pattern_crowdsource>	During his time in [[the United States [[Air Force|Air_force]]|United_States_Air_Force]] he received [[an [[Air Force|Air_force]] Distinguished Service Medal|Air_Force_Distinguished_Service_Medal]] and two [[Air Force|Air_force]] Commendation Medals.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(received/VBD-11,time/NN-3)
+				det(Force/NNP-9,the/DT-5)
+				nn(Force/NNP-9,United/NNP-6)
+				nn(Force/NNP-9,States/NNP-7)
+				nn(Force/NNP-9,Air/NNP-8)
+				prep_in(time/NN-3,Force/NNP-9)
+				nsubj(received/VBD-11,he/PRP-10)
+				det(Medal/NN-17,an/DT-12)
+				nn(Medal/NN-17,Air/NNP-13)
+				nn(Medal/NN-17,Force/NNP-14)
+				nn(Medal/NN-17,Distinguished/NNP-15)
+				nn(Medal/NN-17,Service/NNP-16)
+				dobj(received/VBD-11,Medal/NN-17)
+				dobj(received/VBD-11,two/CD-19)
+				conj_and(Medal/NN-17,two/CD-19)
+				nn(Medals/NNPS-23,Air/NNP-20)
+				nn(Medals/NNPS-23,Force/NNP-21)
+				nn(Medals/NNPS-23,Commendation/NNP-22)
+				dep(two/CD-19,Medals/NNPS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an Air Force Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Air_Force_Distinguished_Service_Medal http://dbpedia.org/property/awardedBy http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/United_States_Air_Force http://dbpedia.org/ontology/type http://dbpedia.org/resource/Air_force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also received an Outstanding Unit Citation while with the 4750th Training Wing.	</value>
+
+		<annotated-sentence>	He also received [[an Outstanding Unit Citation|Air_Force_Outstanding_Unit_Award]] while with [[the 4750th Training Wing|4750th_Air_Defense_Wing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also received [[an Outstanding Unit Citation|Air_Force_Outstanding_Unit_Award]] while with [[the 4750th Training Wing|4750th_Air_Defense_Wing]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-3,He/PRP-1)
+				advmod(received/VBD-3,also/RB-2)
+				det(Citation/NNP-7,an/DT-4)
+				amod(Citation/NNP-7,Outstanding/JJ-5)
+				nn(Citation/NNP-7,Unit/NNP-6)
+				dobj(received/VBD-3,Citation/NNP-7)
+				mark(with/IN-9,while/IN-8)
+				advcl(received/VBD-3,with/IN-9)
+				det(Wing/NN-13,the/DT-10)
+				amod(Wing/NN-13,4750th/JJ-11)
+				nn(Wing/NN-13,Training/NN-12)
+				pobj(with/IN-9,Wing/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an Outstanding Unit Citation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Outstanding_Unit_Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the 4750th Training Wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/4750th_Air_Defense_Wing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/4750th_Air_Defense_Wing http://dbpedia.org/property/decorations http://dbpedia.org/resource/Air_Force_Outstanding_Unit_Award
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin was a developmental test pilot for the Lockheed YF-12.	</value>
+
+		<annotated-sentence>	Irwin was a developmental [[test pilot|Test_pilot]] for [[the Lockheed YF-12|Lockheed_YF-12]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin was a developmental [[test pilot|Test_pilot]] for the Lockheed YF-12.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-6,Irwin/NNP-1)
+				cop(pilot/NN-6,was/VBD-2)
+				det(pilot/NN-6,a/DT-3)
+				amod(pilot/NN-6,developmental/JJ-4)
+				nn(pilot/NN-6,test/NN-5)
+				det(YF-12/NN-10,the/DT-8)
+				nn(YF-12/NN-10,Lockheed/NNP-9)
+				prep_for(pilot/NN-6,YF-12/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Lockheed YF-12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lockheed_YF-12</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His first flight of that aircraft was on the day that one of his five children was born.	</value>
+
+		<annotated-sentence>	His first [[flight|Flight]] of [[that aircraft|Aircraft]] was on the day that one of [[his five children|Child]] was born.	</annotated-sentence>
+
+		<pattern_crowdsource>	His first flight of that aircraft was on the day that one of his five children was born.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-3,His/PRP$-1)
+				amod(flight/NN-3,first/JJ-2)
+				nsubj(was/VBD-7,flight/NN-3)
+				det(aircraft/NN-6,that/DT-5)
+				prep_of(flight/NN-3,aircraft/NN-6)
+				det(day/NN-10,the/DT-9)
+				prep_on(was/VBD-7,day/NN-10)
+				mark(born/VBN-18,that/IN-11)
+				nsubjpass(born/VBN-18,one/CD-12)
+				poss(children/NNS-16,his/PRP$-14)
+				num(children/NNS-16,five/CD-15)
+				prep_of(one/CD-12,children/NNS-16)
+				auxpass(born/VBN-18,was/VBD-17)
+				ccomp(was/VBD-7,born/VBN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>that aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his five children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1961, a student pilot Irwin was training crashed the plane they were flying on a training mission.	</value>
+
+		<annotated-sentence>	In [[1961|1961]], a [[student|Student]] pilot Irwin was training crashed the plane they were flying on a [[training|Training]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1961, a student pilot Irwin was training crashed the plane they were flying on a training mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(crashed/VBD-10,1961/CD-2)
+				det(pilot/NN-6,a/DT-4)
+				nn(pilot/NN-6,student/NN-5)
+				nsubj(crashed/VBD-10,pilot/NN-6)
+				nsubj(training/VBG-9,Irwin/NNP-7)
+				aux(training/VBG-9,was/VBD-8)
+				rcmod(pilot/NN-6,training/VBG-9)
+				det(plane/NN-12,the/DT-11)
+				dobj(crashed/VBD-10,plane/NN-12)
+				nsubj(flying/VBG-15,they/PRP-13)
+				aux(flying/VBG-15,were/VBD-14)
+				rcmod(plane/NN-12,flying/VBG-15)
+				det(mission/NN-19,a/DT-17)
+				nn(mission/NN-19,training/NN-18)
+				prep_on(flying/VBG-15,mission/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1961</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1961</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>student</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They both survived, but Irwin suffered compound fractures, amnesia, and nearly lost a leg.	</value>
+
+		<annotated-sentence>	[[They|They]] both survived, but Irwin suffered compound [[fractures|Fracture]], [[amnesia|Amnesia]], and nearly lost a leg.	</annotated-sentence>
+
+		<pattern_crowdsource>	They both survived, but Irwin suffered compound fractures, amnesia, and nearly lost a leg.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(survived/VBD-3,They/PRP-1)
+				advmod(survived/VBD-3,both/DT-2)
+				nsubj(suffered/VBD-7,Irwin/NNP-6)
+				nsubj(lost/VBD-15,Irwin/NNP-6)
+				conj_but(survived/VBD-3,suffered/VBD-7)
+				nn(fractures/NNS-9,compound/NN-8)
+				dobj(suffered/VBD-7,fractures/NNS-9)
+				appos(fractures/NNS-9,amnesia/NN-11)
+				advmod(lost/VBD-15,nearly/RB-14)
+				conj_but(survived/VBD-3,lost/VBD-15)
+				conj_and(suffered/VBD-7,lost/VBD-15)
+				det(leg/NN-17,a/DT-16)
+				dobj(lost/VBD-15,leg/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fractures</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fracture</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>amnesia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amnesia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. John Forrest, a U.S. Air Force orthopedic surgeon, was instrumental in preventing the amputation of Irwin's leg.	</value>
+
+		<annotated-sentence>	[[Dr. John|Dr._John]] Forrest, a [[U.S.|United_States]] [[Air Force|Air_force]] [[orthopedic surgeon|Orthopedic_surgery]], was instrumental in preventing [[the amputation|Amputation]] of [[Irwin|Irwin_County,_Georgia]]'s leg.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Dr. John|Dr._John]] Forrest, a [[U.S.|United_States]] Air Force orthopedic surgeon, was instrumental in preventing the amputation of [[Irwin|Irwin_County,_Georgia]]'s leg.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Forrest/NNP-3,Dr./NNP-1)
+				nn(Forrest/NNP-3,John/NNP-2)
+				nsubj(instrumental/JJ-13,Forrest/NNP-3)
+				det(surgeon/NN-10,a/DT-5)
+				nn(surgeon/NN-10,U.S./NNP-6)
+				nn(surgeon/NN-10,Air/NNP-7)
+				nn(surgeon/NN-10,Force/NNP-8)
+				nn(surgeon/NN-10,orthopedic/NN-9)
+				appos(Forrest/NNP-3,surgeon/NN-10)
+				cop(instrumental/JJ-13,was/VBD-12)
+				prepc_in(instrumental/JJ-13,preventing/VBG-15)
+				det(amputation/NN-17,the/DT-16)
+				dobj(preventing/VBG-15,amputation/NN-17)
+				poss(leg/NN-21,Irwin/NNP-19)
+				prep_of(amputation/NN-17,leg/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dr. John</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dr._John</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>orthopedic surgeon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orthopedic_surgery</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the amputation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amputation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Irwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Irwin_County,_Georgia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dr._John http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Dr._John http://dbpedia.org/ontology/hometown http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Irwin_County,_Georgia http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin was one of the 19 astronauts selected by NASA in April 1966.	</value>
+
+		<annotated-sentence>	Irwin was one of the 19 [[astronauts|Astronaut]] selected by [[NASA|NASA]] in April [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin was one of the 19 [[astronauts|Astronaut]] selected by [[NASA|NASA]] in April 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,Irwin/NNP-1)
+				cop(one/CD-3,was/VBD-2)
+				det(astronauts/NNS-7,the/DT-5)
+				num(astronauts/NNS-7,19/CD-6)
+				prep_of(one/CD-3,astronauts/NNS-7)
+				partmod(astronauts/NNS-7,selected/VBN-8)
+				agent(selected/VBN-8,NASA/NNP-10)
+				prep_in(selected/VBN-8,April/NNP-12)
+				num(April/NNP-12,1966/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a member of the astronaut support crew for Apollo 10, the first mission to carry the full Apollo stack to the moon and the dry run for the first manned moon landing.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				mark(stack/VBP-23,as/IN-3)
+				det(member/NN-5,a/DT-4)
+				nsubj(stack/VBP-23,member/NN-5)
+				det(crew/NN-10,the/DT-7)
+				nn(crew/NN-10,astronaut/NN-8)
+				nn(crew/NN-10,support/NN-9)
+				prep_of(member/NN-5,crew/NN-10)
+				prep_for(crew/NN-10,Apollo/NNP-12)
+				num(Apollo/NNP-12,10/CD-13)
+				det(mission/NN-17,the/DT-15)
+				amod(mission/NN-17,first/JJ-16)
+				appos(crew/NN-10,mission/NN-17)
+				aux(carry/VB-19,to/TO-18)
+				infmod(mission/NN-17,carry/VB-19)
+				det(Apollo/NNP-22,the/DT-20)
+				amod(Apollo/NNP-22,full/JJ-21)
+				dobj(carry/VB-19,Apollo/NNP-22)
+				advcl(served/VBD-2,stack/VBP-23)
+				det(moon/NN-26,the/DT-25)
+				prep_to(stack/VBP-23,moon/NN-26)
+				det(run/NN-30,the/DT-28)
+				amod(run/NN-30,dry/JJ-29)
+				prep_to(stack/VBP-23,run/NN-30)
+				conj_and(moon/NN-26,run/NN-30)
+				det(landing/NN-36,the/DT-32)
+				amod(landing/NN-36,first/JJ-33)
+				amod(landing/NN-36,manned/JJ-34)
+				nn(landing/NN-36,moon/NN-35)
+				prep_for(stack/VBP-23,landing/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then served as backup lunar module pilot for the second moon landing mission, Apollo 12.	</value>
+
+		<annotated-sentence>	He then served as backup [[lunar module|Apollo_Lunar_Module]] pilot for the second [[moon landing|Moon_landing]] [[mission|Moon_landing]], [[Apollo 12|Apollo_12]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He then served as backup lunar module pilot for the second moon landing mission, [[Apollo 12|Apollo_12]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,then/RB-2)
+				amod(pilot/NN-8,backup/JJ-5)
+				amod(pilot/NN-8,lunar/JJ-6)
+				nn(pilot/NN-8,module/NN-7)
+				prep_as(served/VBD-3,pilot/NN-8)
+				det(mission/NN-14,the/DT-10)
+				amod(mission/NN-14,second/JJ-11)
+				nn(mission/NN-14,moon/NN-12)
+				nn(mission/NN-14,landing/NN-13)
+				prep_for(pilot/NN-8,mission/NN-14)
+				appos(mission/NN-14,Apollo/NNP-16)
+				num(Apollo/NNP-16,12/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>lunar module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_Lunar_Module</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>moon landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_landing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_12</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_12 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Between July 26 and August 7, 1971 – as the Apollo 15 Lunar Module Pilot (LMP) – Irwin logged 295 hours and 11 minutes in space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_between(logged/VBD-22,July/NNP-2)
+				num(July/NNP-2,26/CD-3)
+				conj_and(July/NNP-2,August/NNP-5)
+				prep_between(logged/VBD-22,August/NNP-5)
+				num(August/NNP-5,7/CD-6)
+				num(August/NNP-5,1971/CD-8)
+				det(Pilot/NN-16,the/DT-11)
+				nn(Pilot/NN-16,Apollo/NNP-12)
+				num(Pilot/NN-16,15/CD-13)
+				nn(Pilot/NN-16,Lunar/NNP-14)
+				nn(Pilot/NN-16,Module/NNP-15)
+				prep_as(August/NNP-5,Pilot/NN-16)
+				appos(Pilot/NN-16,LMP/NN-18)
+				nsubj(logged/VBD-22,Irwin/NNP-21)
+				num(hours/NNS-24,295/CD-23)
+				dobj(logged/VBD-22,hours/NNS-24)
+				num(minutes/NNS-27,11/CD-26)
+				dobj(logged/VBD-22,minutes/NNS-27)
+				conj_and(hours/NNS-24,minutes/NNS-27)
+				prep_in(logged/VBD-22,space/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His extra-vehicular activity (EVA) on the Moon's surface amounted to 18 hours and 30 minutes of the mission time (an additional 33 minutes was used to do a stand-up EVA by opening the LM's docking hatch to survey the surroundings and take photographs).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(activity/NN-3,His/PRP$-1)
+				amod(activity/NN-3,extra-vehicular/JJ-2)
+				nsubj(amounted/VBD-12,activity/NN-3)
+				appos(activity/NN-3,EVA/NN-5)
+				det(Moon/NNP-9,the/DT-8)
+				poss(surface/NN-11,Moon/NNP-9)
+				prep_on(activity/NN-3,surface/NN-11)
+				num(hours/NNS-15,18/CD-14)
+				prep_to(amounted/VBD-12,hours/NNS-15)
+				num(minutes/NNS-18,30/CD-17)
+				prep_to(amounted/VBD-12,minutes/NNS-18)
+				conj_and(hours/NNS-15,minutes/NNS-18)
+				det(time/NN-22,the/DT-20)
+				nn(time/NN-22,mission/NN-21)
+				prep_of(amounted/VBD-12,time/NN-22)
+				det(minutes/NNS-27,an/DT-24)
+				amod(minutes/NNS-27,additional/JJ-25)
+				num(minutes/NNS-27,33/CD-26)
+				nsubjpass(used/VBN-29,minutes/NNS-27)
+				auxpass(used/VBN-29,was/VBD-28)
+				parataxis(amounted/VBD-12,used/VBN-29)
+				aux(do/VB-31,to/TO-30)
+				xcomp(used/VBN-29,do/VB-31)
+				det(EVA/NN-34,a/DT-32)
+				amod(EVA/NN-34,stand-up/JJ-33)
+				dobj(do/VB-31,EVA/NN-34)
+				prepc_by(do/VB-31,opening/VBG-36)
+				det(LM/NNP-38,the/DT-37)
+				poss(hatch/NN-41,LM/NNP-38)
+				nn(hatch/NN-41,docking/NN-40)
+				dobj(opening/VBG-36,hatch/NN-41)
+				aux(survey/VB-43,to/TO-42)
+				xcomp(opening/VBG-36,survey/VB-43)
+				det(surroundings/NNS-45,the/DT-44)
+				dobj(survey/VB-43,surroundings/NNS-45)
+				xcomp(opening/VBG-36,take/VB-47)
+				conj_and(survey/VB-43,take/VB-47)
+				dobj(take/VB-47,photographs/NNS-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin and David Scott's mission was more science-based than previous missions, which meant that they received intensive geological training to meet the demanding nature of the J-Mission profile.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Scott/NNP-4,Irwin/NNP-1)
+				conj_and(Irwin/NNP-1,David/NNP-3)
+				nn(Scott/NNP-4,David/NNP-3)
+				poss(mission/NN-6,Scott/NNP-4)
+				nsubj(science-based/JJ-9,mission/NN-6)
+				cop(science-based/JJ-9,was/VBD-7)
+				advmod(science-based/JJ-9,more/RBR-8)
+				amod(missions/NNS-12,previous/JJ-11)
+				prep_than(science-based/JJ-9,missions/NNS-12)
+				nsubj(meant/VBD-15,which/WDT-14)
+				rcmod(missions/NNS-12,meant/VBD-15)
+				mark(received/VBD-18,that/IN-16)
+				nsubj(received/VBD-18,they/PRP-17)
+				ccomp(meant/VBD-15,received/VBD-18)
+				amod(training/NN-21,intensive/JJ-19)
+				amod(training/NN-21,geological/JJ-20)
+				dobj(received/VBD-18,training/NN-21)
+				aux(meet/VB-23,to/TO-22)
+				xcomp(received/VBD-18,meet/VB-23)
+				det(nature/NN-26,the/DT-24)
+				amod(nature/NN-26,demanding/VBG-25)
+				dobj(meet/VB-23,nature/NN-26)
+				det(profile/NN-30,the/DT-28)
+				nn(profile/NN-30,J-Mission/NN-29)
+				prep_of(nature/NN-26,profile/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This extra training is credited with allowing them to make one of the most important discoveries of the Apollo era, the Genesis Rock.	</value>
+
+		<annotated-sentence>	This extra [[training|Training]] is credited with allowing them to make one of the most important discoveries of the [[Apollo|Apollo]] era, [[the Genesis Rock|Genesis_Rock]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This extra training is credited with allowing them to make one of the most important discoveries of the Apollo era, the Genesis Rock.	</pattern_crowdsource>
+
+
+		<tree>
+				det(training/NN-3,This/DT-1)
+				amod(training/NN-3,extra/JJ-2)
+				nsubjpass(credited/VBN-5,training/NN-3)
+				auxpass(credited/VBN-5,is/VBZ-4)
+				prepc_with(credited/VBN-5,allowing/VBG-7)
+				nsubj(make/VB-10,them/PRP-8)
+				aux(make/VB-10,to/TO-9)
+				xcomp(allowing/VBG-7,make/VB-10)
+				dobj(make/VB-10,one/CD-11)
+				det(discoveries/NNS-16,the/DT-13)
+				advmod(important/JJ-15,most/RBS-14)
+				amod(discoveries/NNS-16,important/JJ-15)
+				prep_of(one/CD-11,discoveries/NNS-16)
+				det(era/NN-20,the/DT-18)
+				nn(era/NN-20,Apollo/NNP-19)
+				prep_of(discoveries/NNS-16,era/NN-20)
+				det(Rock/NNP-24,the/DT-22)
+				nn(Rock/NNP-24,Genesis/NNP-23)
+				appos(era/NN-20,Rock/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Genesis Rock</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Genesis_Rock</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Apollo 15 landed in the Moon's Hadley-Apennine region, noted for its mountains and rilles.	</value>
+
+		<annotated-sentence>	[[Apollo 15|Apollo_15]] landed in the [[Moon|Moon]]'s [[Hadley-Apennine|Hadley%E2%80%93Apennine_(lunar_region)]] [[region|Region]], noted for its [[mountains|Mountain]] and rilles.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Apollo 15|Apollo_15]] landed in the Moon's Hadley-Apennine region, noted for its mountains and rilles.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(landed/VBD-3,Apollo/NNP-1)
+				num(Apollo/NNP-1,15/CD-2)
+				det(Moon/NNP-6,the/DT-5)
+				poss(region/NN-9,Moon/NNP-6)
+				amod(region/NN-9,Hadley-Apennine/JJ-8)
+				prep_in(landed/VBD-3,region/NN-9)
+				partmod(region/NN-9,noted/VBD-11)
+				poss(mountains/NNS-14,its/PRP$-13)
+				prep_for(noted/VBD-11,mountains/NNS-14)
+				prep_for(noted/VBD-11,rilles/NNS-16)
+				conj_and(mountains/NNS-14,rilles/NNS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_15</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hadley-Apennine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hadley%E2%80%93Apennine_(lunar_region)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>region</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Region</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mountains</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Mountain</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_15
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a J-Mission, they would spend more time on the moon than previous missions, to allow for three EVAs.	</value>
+
+		<annotated-sentence>	As a J-Mission, they would spend more time on [[the moon|Moon]] than previous missions, to allow for three EVAs.	</annotated-sentence>
+
+		<pattern_crowdsource>	As a J-Mission, they would spend more time on the moon than previous missions, to allow for three EVAs.	</pattern_crowdsource>
+
+
+		<tree>
+				det(J-Mission/NN-3,a/DT-2)
+				prep_as(spend/VB-7,J-Mission/NN-3)
+				nsubj(spend/VB-7,they/PRP-5)
+				aux(spend/VB-7,would/MD-6)
+				amod(time/NN-9,more/JJR-8)
+				dobj(spend/VB-7,time/NN-9)
+				det(moon/NN-12,the/DT-11)
+				prep_on(spend/VB-7,moon/NN-12)
+				amod(missions/NNS-15,previous/JJ-14)
+				prep_than(moon/NN-12,missions/NNS-15)
+				aux(allow/VB-18,to/TO-17)
+				xcomp(spend/VB-7,allow/VB-18)
+				num(EVAs/NNS-21,three/CD-20)
+				prep_for(allow/VB-18,EVAs/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As well, Irwin was the first automobile passenger on the moon as Scott drove the Lunar Roving Vehicle (LRV) carried along for this mission in the Lunar Module (LM) Falcon's Descent Stage.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(well/RB-2,As/RB-1)
+				advmod(passenger/NN-9,well/RB-2)
+				nsubj(passenger/NN-9,Irwin/NNP-4)
+				cop(passenger/NN-9,was/VBD-5)
+				det(passenger/NN-9,the/DT-6)
+				amod(passenger/NN-9,first/JJ-7)
+				nn(passenger/NN-9,automobile/NN-8)
+				dep(carried/VBD-23,passenger/NN-9)
+				det(moon/NN-12,the/DT-11)
+				prep_on(passenger/NN-9,moon/NN-12)
+				mark(drove/VBD-15,as/IN-13)
+				nsubj(drove/VBD-15,Scott/NNP-14)
+				advcl(passenger/NN-9,drove/VBD-15)
+				det(Vehicle/NNP-19,the/DT-16)
+				nn(Vehicle/NNP-19,Lunar/NNP-17)
+				nn(Vehicle/NNP-19,Roving/NNP-18)
+				dobj(drove/VBD-15,Vehicle/NNP-19)
+				appos(Vehicle/NNP-19,LRV/NNP-21)
+				advmod(carried/VBD-23,along/IN-24)
+				det(mission/NN-27,this/DT-26)
+				prep_for(along/IN-24,mission/NN-27)
+				det(Module/NNP-31,the/DT-29)
+				nn(Module/NNP-31,Lunar/NNP-30)
+				prep_in(carried/VBD-23,Module/NNP-31)
+				appos(Module/NNP-31,LM/NNP-33)
+				poss(Stage/NNP-38,Falcon/NNP-35)
+				nn(Stage/NNP-38,Descent/NNP-37)
+				nsubj(carried/VBD-23,Stage/NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Scott and Irwin's stay on the Moon was just under three days at 66 hours and 54 minutes.	</value>
+
+		<annotated-sentence>	[[Scott and Irwin|Scott_Irwin]]'s stay on [[the Moon|Moon]] was just under three days at 66 [[hours|Hour]] and 54 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Scott and Irwin's stay on the Moon was just under three days at 66 hours and 54 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(stay/NN-5,Scott/NNP-1)
+				conj_and(Scott/NNP-1,Irwin/NNP-3)
+				poss(stay/NN-5,Irwin/NNP-3)
+				nsubj(was/VBD-9,stay/NN-5)
+				det(Moon/NNP-8,the/DT-7)
+				prep_on(stay/NN-5,Moon/NNP-8)
+				advmod(was/VBD-9,just/RB-10)
+				num(days/NNS-13,three/CD-12)
+				prep_under(was/VBD-9,days/NNS-13)
+				num(hours/NNS-16,66/CD-15)
+				prep_at(was/VBD-9,hours/NNS-16)
+				num(minutes/NNS-19,54/CD-18)
+				prep_at(was/VBD-9,minutes/NNS-19)
+				conj_and(hours/NNS-16,minutes/NNS-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Scott and Irwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scott_Irwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A patch cut by Irwin from a backpack abandoned on the Moon during the Apollo 15 mission was auctioned at Christie's in 2001 for $310,500 in a consignment of material from Irwin's estate that garnered "a combined $500,000".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(patch/NN-2,A/DT-1)
+				nsubjpass(auctioned/VBN-19,patch/NN-2)
+				partmod(patch/NN-2,cut/VBN-3)
+				agent(cut/VBN-3,Irwin/NNP-5)
+				det(backpack/NN-8,a/DT-7)
+				prep_from(cut/VBN-3,backpack/NN-8)
+				partmod(backpack/NN-8,abandoned/VBN-9)
+				det(Moon/NNP-12,the/DT-11)
+				prep_on(abandoned/VBN-9,Moon/NNP-12)
+				det(mission/NN-17,the/DT-14)
+				nn(mission/NN-17,Apollo/NNP-15)
+				num(mission/NN-17,15/CD-16)
+				prep_during(abandoned/VBN-9,mission/NN-17)
+				auxpass(auctioned/VBN-19,was/VBD-18)
+				prep_at(auctioned/VBN-19,Christie/NNP-21)
+				possessive(Christie/NNP-21,'s/POS-22)
+				prep_in(auctioned/VBN-19,2001/CD-24)
+				prep_for(auctioned/VBN-19,$/$-26)
+				num($/$-26,310,500/CD-27)
+				det(consignment/NN-30,a/DT-29)
+				prep_in($/$-26,consignment/NN-30)
+				prep_of(consignment/NN-30,material/NN-32)
+				poss(estate/NN-36,Irwin/NNP-34)
+				prep_from(auctioned/VBN-19,estate/NN-36)
+				nsubj(garnered/VBN-38,that/IN-37)
+				rcmod(estate/NN-36,garnered/VBN-38)
+				det($/$-42,a/DT-40)
+				amod($/$-42,combined/JJ-41)
+				dep(garnered/VBN-38,$/$-42)
+				num($/$-42,500,000/CD-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Once the rendezvous procedure was completed between Falcon and the Endeavour CSM, Irwin and Scott were busy moving items like rock samples into the CSM and preparing the Lunar Module for final separation.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(completed/VBN-6,Once/RB-1)
+				det(procedure/NN-4,the/DT-2)
+				nn(procedure/NN-4,rendezvous/NN-3)
+				nsubjpass(completed/VBN-6,procedure/NN-4)
+				auxpass(completed/VBN-6,was/VBD-5)
+				advcl(busy/JJ-18,completed/VBN-6)
+				prep_between(completed/VBN-6,Falcon/NNP-8)
+				det(CSM/NNP-12,the/DT-10)
+				nn(CSM/NNP-12,Endeavour/NNP-11)
+				prep_between(completed/VBN-6,CSM/NNP-12)
+				conj_and(Falcon/NNP-8,CSM/NNP-12)
+				nsubj(busy/JJ-18,Irwin/NNP-14)
+				conj_and(Irwin/NNP-14,Scott/NNP-16)
+				nsubj(busy/JJ-18,Scott/NNP-16)
+				cop(busy/JJ-18,were/VBD-17)
+				dep(busy/JJ-18,moving/VBG-19)
+				dobj(moving/VBG-19,items/NNS-20)
+				nn(samples/NNS-23,rock/NN-22)
+				prep_like(items/NNS-20,samples/NNS-23)
+				det(CSM/NNP-26,the/DT-25)
+				prep_into(moving/VBG-19,CSM/NNP-26)
+				dep(busy/JJ-18,preparing/VBG-28)
+				conj_and(moving/VBG-19,preparing/VBG-28)
+				det(Module/NNP-31,the/DT-29)
+				nn(Module/NNP-31,Lunar/NNP-30)
+				dobj(preparing/VBG-28,Module/NNP-31)
+				amod(separation/NN-34,final/JJ-33)
+				prep_for(Module/NNP-31,separation/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this intense period of work the earliest symptoms of a heart condition appeared.	</value>
+
+		<annotated-sentence>	During this intense period of [[work|Work]] the earliest [[symptoms|Symptom]] of [[a heart condition|Heart_Condition_(film)]] appeared.	</annotated-sentence>
+
+		<pattern_crowdsource>	During this intense period of [[work|Work]] the earliest symptoms of [[a heart condition|Heart_Condition_(film)]] appeared.	</pattern_crowdsource>
+
+
+		<tree>
+				det(period/NN-4,this/DT-2)
+				amod(period/NN-4,intense/JJ-3)
+				prep_during(appeared/VBD-14,period/NN-4)
+				prep_of(period/NN-4,work/NN-6)
+				det(symptoms/NNS-9,the/DT-7)
+				amod(symptoms/NNS-9,earliest/JJS-8)
+				nsubj(appeared/VBD-14,symptoms/NNS-9)
+				det(condition/NN-13,a/DT-11)
+				nn(condition/NN-13,heart/NN-12)
+				prep_of(symptoms/NNS-9,condition/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Symptom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a heart condition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heart_Condition_(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Heart_Condition_(film) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Work
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Both Scott and Irwin had been working with no sleep for 23 hours, during which they conducted a final moonwalk, performed the ascent from the lunar surface, rendezvoused with Endeavour, and encountered the problems that delayed the Lunar Module jettison maneuver.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				preconj(Scott/NNP-2,Both/DT-1)
+				nsubj(working/VBG-7,Scott/NNP-2)
+				conj_and(Scott/NNP-2,Irwin/NNP-4)
+				nsubj(working/VBG-7,Irwin/NNP-4)
+				aux(working/VBG-7,had/VBD-5)
+				aux(working/VBG-7,been/VBN-6)
+				det(sleep/NN-10,no/DT-9)
+				prep_with(working/VBG-7,sleep/NN-10)
+				num(hours/NNS-13,23/CD-12)
+				prep_for(sleep/NN-10,hours/NNS-13)
+				prep_during(conducted/VBD-18,which/WDT-16)
+				nsubj(conducted/VBD-18,they/PRP-17)
+				nsubj(performed/VBD-23,they/PRP-17)
+				nsubj(rendezvoused/VBD-31,they/PRP-17)
+				nsubj(encountered/VBD-36,they/PRP-17)
+				rcmod(hours/NNS-13,conducted/VBD-18)
+				det(moonwalk/NN-21,a/DT-19)
+				amod(moonwalk/NN-21,final/JJ-20)
+				dobj(conducted/VBD-18,moonwalk/NN-21)
+				rcmod(hours/NNS-13,performed/VBD-23)
+				conj_and(conducted/VBD-18,performed/VBD-23)
+				det(ascent/NN-25,the/DT-24)
+				dobj(performed/VBD-23,ascent/NN-25)
+				det(surface/NN-29,the/DT-27)
+				amod(surface/NN-29,lunar/JJ-28)
+				prep_from(performed/VBD-23,surface/NN-29)
+				rcmod(hours/NNS-13,rendezvoused/VBD-31)
+				conj_and(conducted/VBD-18,rendezvoused/VBD-31)
+				prep_with(rendezvoused/VBD-31,Endeavour/NNP-33)
+				rcmod(hours/NNS-13,encountered/VBD-36)
+				conj_and(conducted/VBD-18,encountered/VBD-36)
+				det(problems/NNS-38,the/DT-37)
+				dobj(encountered/VBD-36,problems/NNS-38)
+				nsubj(delayed/VBD-40,that/WDT-39)
+				rcmod(problems/NNS-38,delayed/VBD-40)
+				det(Module/NNP-43,the/DT-41)
+				nn(Module/NNP-43,Lunar/NNP-42)
+				nsubj(jettison/VB-44,Module/NNP-43)
+				ccomp(delayed/VBD-40,jettison/VB-44)
+				dobj(jettison/VB-44,maneuver/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The astronauts' physiological vital signs were being monitored back on Earth, and the Flight Surgeons noticed some irregularities in Irwin's heart rhythms.	</value>
+
+		<annotated-sentence>	[[The astronauts|The_Astronauts]]' physiological vital [[signs|Sign]] were being monitored back on [[Earth|Earth]], and [[the Flight Surgeons|Flight_surgeon]] noticed [[some irregularities|Canonical_impediment]] in Irwin's heart [[rhythms|Rhythm]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The astronauts' physiological vital signs were being monitored back on Earth, and the Flight Surgeons noticed some irregularities in Irwin's heart rhythms.	</pattern_crowdsource>
+
+
+		<tree>
+				det(astronauts/NNS-2,The/DT-1)
+				poss(signs/NNS-6,astronauts/NNS-2)
+				amod(signs/NNS-6,physiological/JJ-4)
+				amod(signs/NNS-6,vital/JJ-5)
+				nsubjpass(monitored/VBN-9,signs/NNS-6)
+				aux(monitored/VBN-9,were/VBD-7)
+				auxpass(monitored/VBN-9,being/VBG-8)
+				advmod(monitored/VBN-9,back/RB-10)
+				prep_on(monitored/VBN-9,Earth/NNP-12)
+				det(Surgeons/NNPS-17,the/DT-15)
+				nn(Surgeons/NNPS-17,Flight/NNP-16)
+				nsubj(noticed/VBD-18,Surgeons/NNPS-17)
+				conj_and(monitored/VBN-9,noticed/VBD-18)
+				det(irregularities/NNS-20,some/DT-19)
+				dobj(noticed/VBD-18,irregularities/NNS-20)
+				poss(rhythms/NNS-25,Irwin/NNP-22)
+				nn(rhythms/NNS-25,heart/NN-24)
+				prep_in(noticed/VBD-18,rhythms/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Astronauts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sign</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Flight Surgeons</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_surgeon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>some irregularities</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canonical_impediment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>rhythms</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rhythm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin's heart had developed bigeminy.	</value>
+
+		<annotated-sentence>	Irwin's heart had developed [[bigeminy|Numbering_aberrant_rhythms]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin's heart had developed bigeminy.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(heart/NN-3,Irwin/NNP-1)
+				nsubj(developed/VBN-5,heart/NN-3)
+				aux(developed/VBN-5,had/VBD-4)
+				dobj(developed/VBN-5,bigeminy/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>bigeminy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Numbering_aberrant_rhythms</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Charles Berry stated to Chris Kraft, deputy director of the Manned Spacecraft Center (MSC) at the time: "It's serious, [i]f he were on Earth.	</value>
+
+		<annotated-sentence>	[[Dr. Charles Berry|Charles_Berry_(economist)]] stated to [[Chris Kraft|Christopher_C._Kraft,_Jr.]], deputy director of [[the Manned Spacecraft Center|Lyndon_B._Johnson_Space_Center]] ([[MSC|MSC_Cruises]]) at the time: "It's serious, [i]f he were on [[Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Charles Berry stated to Chris Kraft, deputy director of the Manned Spacecraft Center (MSC) at the time: "It's serious, [i]f he were on Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Berry/NNP-3,Dr./NNP-1)
+				nn(Berry/NNP-3,Charles/NNP-2)
+				nsubj(stated/VBD-4,Berry/NNP-3)
+				nn(Kraft/NNP-7,Chris/NNP-6)
+				prep_to(stated/VBD-4,Kraft/NNP-7)
+				nn(director/NN-10,deputy/NN-9)
+				appos(Kraft/NNP-7,director/NN-10)
+				det(Center/NNP-15,the/DT-12)
+				nn(Center/NNP-15,Manned/NNP-13)
+				nn(Center/NNP-15,Spacecraft/NNP-14)
+				prep_of(director/NN-10,Center/NNP-15)
+				appos(Center/NNP-15,MSC/NNP-17)
+				det(time/NN-21,the/DT-20)
+				prep_at(stated/VBD-4,time/NN-21)
+				nsubj(serious/JJ-26,It/PRP-24)
+				cop(serious/JJ-26,'s/VBZ-25)
+				parataxis(stated/VBD-4,serious/JJ-26)
+				punct(serious/JJ-26,-LSB-/-LRB--28)
+				dep(serious/JJ-26,i/LS-29)
+				punct(serious/JJ-26,-RSB-/-RRB--30)
+				dep(were/VBD-33,f/SYM-31)
+				nsubj(were/VBD-33,he/PRP-32)
+				parataxis(serious/JJ-26,were/VBD-33)
+				prep_on(were/VBD-33,Earth/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dr. Charles Berry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Charles_Berry_(economist)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chris Kraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Christopher_C._Kraft,_Jr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Manned Spacecraft Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/MSC_Cruises</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	I'd have him in ICU being treated for a heart attack."	</value>
+
+		<annotated-sentence>	I'd have him in ICU being treated for a heart attack."	</annotated-sentence>
+
+		<pattern_crowdsource>	I'd have him in ICU being treated for a heart attack."	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VB-3,I/PRP-1)
+				aux(have/VB-3,'d/MD-2)
+				dobj(have/VB-3,him/PRP-4)
+				prep_in(have/VB-3,ICU/NN-6)
+				auxpass(treated/VBN-8,being/VBG-7)
+				partmod(ICU/NN-6,treated/VBN-8)
+				det(attack/NN-12,a/DT-10)
+				nn(attack/NN-12,heart/NN-11)
+				prep_for(treated/VBN-8,attack/NN-12)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Endeavour's cabin atmosphere was 100% oxygen when in space, so it was decided that he was in no serious danger by Dr. Charles Berry.	</value>
+
+		<annotated-sentence>	[[Endeavour|Endeavour]]'s cabin [[atmosphere|Atmosphere]] was 100% [[oxygen|Oxygen]] when in [[space|Space]], so it was decided that he was in no serious danger by [[Dr. Charles Berry|Charles_Berry_(economist)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Endeavour's cabin atmosphere was 100% oxygen when in space, so it was decided that he was in no serious danger by Dr. Charles Berry.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(atmosphere/NN-4,Endeavour/NNP-1)
+				nn(atmosphere/NN-4,cabin/NN-3)
+				nsubj(oxygen/NN-8,atmosphere/NN-4)
+				cop(oxygen/NN-8,was/VBD-5)
+				num(oxygen/NN-8,100/CD-6)
+				nn(oxygen/NN-8,%/NN-7)
+				dep(oxygen/NN-8,when/WRB-9)
+				prep_in(oxygen/NN-8,space/NN-11)
+				dep(oxygen/NN-8,so/IN-13)
+				nsubjpass(decided/VBN-16,it/PRP-14)
+				auxpass(decided/VBN-16,was/VBD-15)
+				ccomp(oxygen/NN-8,decided/VBN-16)
+				mark(was/VBD-19,that/IN-17)
+				nsubj(was/VBD-19,he/PRP-18)
+				ccomp(decided/VBN-16,was/VBD-19)
+				det(danger/NN-23,no/DT-21)
+				amod(danger/NN-23,serious/JJ-22)
+				prep_in(was/VBD-19,danger/NN-23)
+				nn(Berry/NNP-27,Dr./NNP-25)
+				nn(Berry/NNP-27,Charles/NNP-26)
+				prep_by(was/VBD-19,Berry/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>atmosphere</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atmosphere</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>oxygen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oxygen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Charles Berry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Charles_Berry_(economist)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Specifically, "In truth,...he's in an ICU.	</value>
+
+		<annotated-sentence>	[[Specifically|Specific_performance]], "In [[truth|Truth]],...he's in an ICU.	</annotated-sentence>
+
+		<pattern_crowdsource>	Specifically, "In truth,...he's in an ICU.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in('s/VBZ-9,truth/NN-5)
+				nsubj('s/VBZ-9,he/PRP-8)
+				dep(Specifically/RB-1,'s/VBZ-9)
+				det(ICU/NN-12,an/DT-11)
+				prep_in('s/VBZ-9,ICU/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Specifically</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Specific_performance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>truth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Truth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He's getting one hundred percent oxygen, he's being continuously monitored, and best of all, he's in zero g. Whatever strain his heart is under, well, we can't do better than zero g." During the post-Trans Earth Injection (TEI) phase of the mission there wasn't much more for Irwin to do other than provide help with Al Worden's EVA to retrieve film magazines from the CSM's SIM bay, by donning a pressure suit and monitoring him.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(getting/VBG-3,He/PRP-1)
+				aux(getting/VBG-3,'s/VBZ-2)
+				number(hundred/CD-5,one/CD-4)
+				num(oxygen/NN-7,hundred/CD-5)
+				nn(oxygen/NN-7,percent/NN-6)
+				dobj(getting/VBG-3,oxygen/NN-7)
+				nsubj('s/VBZ-10,he/PRP-9)
+				ccomp(getting/VBG-3,'s/VBZ-10)
+				auxpass(monitored/VBN-13,being/VBG-11)
+				advmod(monitored/VBN-13,continuously/RB-12)
+				dep('s/VBZ-10,monitored/VBN-13)
+				dep('s/VBZ-10,best/JJS-16)
+				conj_and(monitored/VBN-13,best/JJS-16)
+				prep_of(best/JJS-16,all/DT-18)
+				nsubj('s/VBZ-21,he/PRP-20)
+				ccomp(getting/VBG-3,'s/VBZ-21)
+				num(g./NNP-24,zero/CD-23)
+				prep_in('s/VBZ-21,g./NNP-24)
+				prep_under(is/VBZ-29,Whatever/WDT-25)
+				nsubj(is/VBZ-29,strain/NN-26)
+				poss(heart/NN-28,his/PRP$-27)
+				dep(strain/NN-26,heart/NN-28)
+				rcmod(g./NNP-24,is/VBZ-29)
+				advmod(do/VB-37,well/RB-32)
+				nsubj(do/VB-37,we/PRP-34)
+				aux(do/VB-37,ca/MD-35)
+				neg(do/VB-37,n't/RB-36)
+				ccomp(getting/VBG-3,do/VB-37)
+				dobj(do/VB-37,better/JJR-38)
+				num(g./NN-41,zero/CD-40)
+				prep_than(do/VB-37,g./NN-41)
+				det(phase/NN-51,the/DT-44)
+				amod(phase/NN-51,post-Trans/JJ-45)
+				nn(phase/NN-51,Earth/NNP-46)
+				nn(phase/NN-51,Injection/NN-47)
+				nn(phase/NN-51,TEI/NN-49)
+				prep_during(was/VBD-56,phase/NN-51)
+				det(mission/NN-54,the/DT-53)
+				prep_of(phase/NN-51,mission/NN-54)
+				expl(was/VBD-56,there/EX-55)
+				rcmod(g./NN-41,was/VBD-56)
+				neg(was/VBD-56,n't/RB-57)
+				advmod(more/RBR-59,much/RB-58)
+				acomp(was/VBD-56,more/RBR-59)
+				prep_for(more/RBR-59,Irwin/NNP-61)
+				aux(do/VB-63,to/TO-62)
+				xcomp(more/RBR-59,do/VB-63)
+				dobj(do/VB-63,other/JJ-64)
+				dep(do/VB-37,than/IN-65)
+				dep(do/VB-37,provide/VB-66)
+				dobj(provide/VB-66,help/NN-67)
+				nn(Worden/NNP-70,Al/NNP-69)
+				poss(EVA/NNP-72,Worden/NNP-70)
+				prep_with(provide/VB-66,EVA/NNP-72)
+				aux(retrieve/VB-74,to/TO-73)
+				xcomp(provide/VB-66,retrieve/VB-74)
+				nn(magazines/NNS-76,film/NN-75)
+				dobj(retrieve/VB-74,magazines/NNS-76)
+				det(CSM/NNP-79,the/DT-78)
+				poss(bay/NN-82,CSM/NNP-79)
+				nn(bay/NN-82,SIM/NNP-81)
+				prep_from(retrieve/VB-74,bay/NN-82)
+				prepc_by(provide/VB-66,donning/VBG-85)
+				det(suit/NN-88,a/DT-86)
+				nn(suit/NN-88,pressure/NN-87)
+				dobj(donning/VBG-85,suit/NN-88)
+				prepc_by(provide/VB-66,monitoring/VBG-90)
+				conj_and(donning/VBG-85,monitoring/VBG-90)
+				dobj(monitoring/VBG-90,him/PRP-91)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was able to rest and apparently recover during the rest of the mission.	</value>
+
+		<annotated-sentence>	He was able to rest and apparently recover during the rest of the mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was able to rest and apparently recover during the rest of the mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(able/JJ-3,He/PRP-1)
+				cop(able/JJ-3,was/VBD-2)
+				aux(rest/VB-5,to/TO-4)
+				xcomp(able/JJ-3,rest/VB-5)
+				advmod(rest/VB-5,apparently/RB-7)
+				xcomp(able/JJ-3,recover/VB-8)
+				conj_and(rest/VB-5,recover/VB-8)
+				det(rest/NN-11,the/DT-10)
+				prep_during(recover/VB-8,rest/NN-11)
+				det(mission/NN-14,the/DT-13)
+				prep_of(rest/NN-11,mission/NN-14)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The flight surgeons continued to monitor his EKG until splashdown, but his heart rhythm was normal.	</value>
+
+		<annotated-sentence>	The [[flight surgeons|Flight_surgeon]] continued to monitor [[his EKG|Electrocardiography]] until splashdown, but [[his heart rhythm|Heart_Rhythm]] was normal.	</annotated-sentence>
+
+		<pattern_crowdsource>	The flight surgeons continued to monitor his EKG until splashdown, but his heart rhythm was normal.	</pattern_crowdsource>
+
+
+		<tree>
+				det(surgeons/NNS-3,The/DT-1)
+				nn(surgeons/NNS-3,flight/NN-2)
+				nsubj(continued/VBD-4,surgeons/NNS-3)
+				aux(monitor/VB-6,to/TO-5)
+				xcomp(continued/VBD-4,monitor/VB-6)
+				poss(EKG/NNP-8,his/PRP$-7)
+				dobj(monitor/VB-6,EKG/NNP-8)
+				prep_until(monitor/VB-6,splashdown/NN-10)
+				poss(rhythm/NN-15,his/PRP$-13)
+				nn(rhythm/NN-15,heart/NN-14)
+				nsubj(normal/JJ-17,rhythm/NN-15)
+				cop(normal/JJ-17,was/VBD-16)
+				conj_but(continued/VBD-4,normal/JJ-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight surgeons</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_surgeon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his EKG</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electrocardiography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his heart rhythm</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Heart_Rhythm</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This incident apparently was not discussed during the mission debriefing sessions, and the condition did not appear when he returned to Earth.	</value>
+
+		<annotated-sentence>	This incident apparently was not discussed during the mission [[debriefing|Debriefing]] sessions, and the condition did not appear when he returned to [[Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This incident apparently was not discussed during the mission debriefing sessions, and the condition did not appear when he returned to Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				det(incident/NN-2,This/DT-1)
+				nsubjpass(discussed/VBN-6,incident/NN-2)
+				advmod(discussed/VBN-6,apparently/RB-3)
+				auxpass(discussed/VBN-6,was/VBD-4)
+				neg(discussed/VBN-6,not/RB-5)
+				det(sessions/NNS-11,the/DT-8)
+				nn(sessions/NNS-11,mission/NN-9)
+				nn(sessions/NNS-11,debriefing/NN-10)
+				prep_during(discussed/VBN-6,sessions/NNS-11)
+				det(condition/NN-15,the/DT-14)
+				nsubj(appear/VB-18,condition/NN-15)
+				aux(appear/VB-18,did/VBD-16)
+				neg(appear/VB-18,not/RB-17)
+				conj_and(discussed/VBN-6,appear/VB-18)
+				advmod(returned/VBD-21,when/WRB-19)
+				nsubj(returned/VBD-21,he/PRP-20)
+				advcl(appear/VB-18,returned/VBD-21)
+				prep_to(returned/VBD-21,Earth/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>debriefing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Debriefing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A few months later he had a heart attack.	</value>
+
+		<annotated-sentence>	A few [[months|Month]] later he had a heart attack.	</annotated-sentence>
+
+		<pattern_crowdsource>	A few months later he had a heart attack.	</pattern_crowdsource>
+
+
+		<tree>
+				det(months/NNS-3,A/DT-1)
+				amod(months/NNS-3,few/JJ-2)
+				npadvmod(later/RB-4,months/NNS-3)
+				advmod(had/VBD-6,later/RB-4)
+				nsubj(had/VBD-6,he/PRP-5)
+				det(attack/NN-9,a/DT-7)
+				nn(attack/NN-9,heart/NN-8)
+				dobj(had/VBD-6,attack/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the return of Apollo 15 to Earth, it was discovered that, without authority, the crew had taken 398 commemorative first day covers to the moon of which a hundred were then sold to a German stamp dealer.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(return/NN-3,the/DT-2)
+				prep_after(discovered/VBN-12,return/NN-3)
+				prep_of(return/NN-3,Apollo/NNP-5)
+				num(Apollo/NNP-5,15/CD-6)
+				prep_to(return/NN-3,Earth/NNP-8)
+				nsubjpass(discovered/VBN-12,it/PRP-10)
+				auxpass(discovered/VBN-12,was/VBD-11)
+				mark(taken/VBN-21,that/IN-13)
+				prep_without(taken/VBN-21,authority/NN-16)
+				det(crew/NN-19,the/DT-18)
+				nsubj(taken/VBN-21,crew/NN-19)
+				aux(taken/VBN-21,had/VBD-20)
+				ccomp(discovered/VBN-12,taken/VBN-21)
+				num(day/NN-25,398/CD-22)
+				amod(day/NN-25,commemorative/JJ-23)
+				amod(day/NN-25,first/JJ-24)
+				nsubj(covers/VBZ-26,day/NN-25)
+				ccomp(taken/VBN-21,covers/VBZ-26)
+				det(moon/NN-29,the/DT-28)
+				prep_to(covers/VBZ-26,moon/NN-29)
+				prep_of(sold/VBN-36,which/WDT-31)
+				det(hundred/CD-33,a/DT-32)
+				nsubjpass(sold/VBN-36,hundred/CD-33)
+				auxpass(sold/VBN-36,were/VBD-34)
+				advmod(sold/VBN-36,then/RB-35)
+				rcmod(moon/NN-29,sold/VBN-36)
+				det(dealer/NN-41,a/DT-38)
+				amod(dealer/NN-41,German/JJ-39)
+				nn(dealer/NN-41,stamp/NN-40)
+				prep_to(sold/VBN-36,dealer/NN-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The profits of the sale were intended to be used to establish trust funds for the Apollo 15 crew's children.	</value>
+
+		<annotated-sentence>	The profits of the sale were intended to be used to establish trust funds for the [[Apollo 15|Apollo_15]] crew's [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The profits of the sale were intended to be used to establish trust funds for the [[Apollo 15|Apollo_15]] crew's children.	</pattern_crowdsource>
+
+
+		<tree>
+				det(profits/NNS-2,The/DT-1)
+				nsubjpass(intended/VBN-7,profits/NNS-2)
+				det(sale/NN-5,the/DT-4)
+				prep_of(profits/NNS-2,sale/NN-5)
+				auxpass(intended/VBN-7,were/VBD-6)
+				aux(used/VBN-10,to/TO-8)
+				auxpass(used/VBN-10,be/VB-9)
+				xcomp(intended/VBN-7,used/VBN-10)
+				aux(establish/VB-12,to/TO-11)
+				xcomp(used/VBN-10,establish/VB-12)
+				nn(funds/NNS-14,trust/NN-13)
+				poss(children/NNS-21,funds/NNS-14)
+				det(crew/NN-19,the/DT-16)
+				nn(crew/NN-19,Apollo/NNP-17)
+				num(crew/NN-19,15/CD-18)
+				prep_for(funds/NNS-14,crew/NN-19)
+				dobj(establish/VB-12,children/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_15</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_Irwin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_15
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_15 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_Irwin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	NASA had turned a blind eye to similar activities on earlier flights, but on this occasion the administration decided to reassign the Apollo 15 crew to non-flight positions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(turned/VBN-3,NASA/NNP-1)
+				aux(turned/VBN-3,had/VBD-2)
+				det(eye/NN-6,a/DT-4)
+				amod(eye/NN-6,blind/JJ-5)
+				dobj(turned/VBN-3,eye/NN-6)
+				amod(activities/NNS-9,similar/JJ-8)
+				prep_to(turned/VBN-3,activities/NNS-9)
+				amod(flights/NNS-12,earlier/JJR-11)
+				prep_on(activities/NNS-9,flights/NNS-12)
+				det(occasion/NN-17,this/DT-16)
+				prep_on(decided/VBD-20,occasion/NN-17)
+				det(administration/NN-19,the/DT-18)
+				nsubj(decided/VBD-20,administration/NN-19)
+				conj_but(turned/VBN-3,decided/VBD-20)
+				aux(reassign/VB-22,to/TO-21)
+				xcomp(decided/VBD-20,reassign/VB-22)
+				det(crew/NN-26,the/DT-23)
+				nn(crew/NN-26,Apollo/NNP-24)
+				num(crew/NN-26,15/CD-25)
+				dobj(reassign/VB-22,crew/NN-26)
+				amod(positions/NNS-29,non-flight/JJ-28)
+				prep_to(crew/NN-26,positions/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin left NASA and retired from the Air Force with the rank of Colonel in 1972 and founded the High Flight Foundation, spending his last 20 years as a "Goodwill Ambassador for the Prince of Peace", stating that "Jesus walking on the earth is more important than man walking on the moon".	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,Irwin/NNP-1)
+				nsubj(retired/VBN-5,Irwin/NNP-1)
+				nsubj(founded/VBD-18,Irwin/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				conj_and(left/VBD-2,retired/VBN-5)
+				det(Force/NNP-9,the/DT-7)
+				nn(Force/NNP-9,Air/NNP-8)
+				prep_from(retired/VBN-5,Force/NNP-9)
+				det(rank/NN-12,the/DT-11)
+				prep_with(retired/VBN-5,rank/NN-12)
+				prep_of(rank/NN-12,Colonel/NNP-14)
+				prep_in(retired/VBN-5,1972/CD-16)
+				conj_and(left/VBD-2,founded/VBD-18)
+				det(Foundation/NNP-22,the/DT-19)
+				amod(Foundation/NNP-22,High/JJ-20)
+				nn(Foundation/NNP-22,Flight/NN-21)
+				dobj(founded/VBD-18,Foundation/NNP-22)
+				ccomp(left/VBD-2,spending/VBG-24)
+				poss(years/NNS-28,his/PRP$-25)
+				amod(years/NNS-28,last/JJ-26)
+				num(years/NNS-28,20/CD-27)
+				dobj(spending/VBG-24,years/NNS-28)
+				det(Ambassador/NNP-33,a/DT-30)
+				nn(Ambassador/NNP-33,Goodwill/NNP-32)
+				prep_as(years/NNS-28,Ambassador/NNP-33)
+				det(Peace/NNP-38,the/DT-35)
+				nn(Peace/NNP-38,Prince/NNP-36)
+				amod(Peace/NNP-38,of/IN-37)
+				prep_for(Ambassador/NNP-33,Peace/NNP-38)
+				dep(spending/VBG-24,stating/VBG-41)
+				mark(important/JJ-51,that/IN-42)
+				nsubj(important/JJ-51,Jesus/NNP-44)
+				partmod(Jesus/NNP-44,walking/VBG-45)
+				det(earth/NN-48,the/DT-47)
+				prep_on(walking/VBG-45,earth/NN-48)
+				cop(important/JJ-51,is/VBZ-49)
+				advmod(important/JJ-51,more/RBR-50)
+				ccomp(stating/VBG-41,important/JJ-51)
+				prep_than(important/JJ-51,man/NN-53)
+				partmod(man/NN-53,walking/VBG-54)
+				det(moon/NN-57,the/DT-56)
+				prep_on(walking/VBG-54,moon/NN-57)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He frequently spoke about how his experiences in space had made the presence of God even more real to him than before.	</value>
+
+		<annotated-sentence>	He frequently spoke about how [[his experiences|Experience]] in [[space|Space]] had made the presence of God even more real to him than before.	</annotated-sentence>
+
+		<pattern_crowdsource>	He frequently spoke about how his experiences in space had made the presence of God even more real to him than before.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spoke/VBD-3,He/PRP-1)
+				advmod(spoke/VBD-3,frequently/RB-2)
+				advmod(made/VBN-11,how/WRB-5)
+				poss(experiences/NNS-7,his/PRP$-6)
+				nsubj(made/VBN-11,experiences/NNS-7)
+				prep_in(experiences/NNS-7,space/NN-9)
+				aux(made/VBN-11,had/VBD-10)
+				prepc_about(spoke/VBD-3,made/VBN-11)
+				det(presence/NN-13,the/DT-12)
+				nsubj(real/JJ-18,presence/NN-13)
+				prep_of(presence/NN-13,God/NNP-15)
+				advmod(real/JJ-18,even/RB-16)
+				advmod(real/JJ-18,more/RBR-17)
+				xcomp(made/VBN-11,real/JJ-18)
+				prep_to(real/JJ-18,him/PRP-20)
+				prep(real/JJ-18,than/IN-21)
+				pcomp(than/IN-21,before/RB-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his experiences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Beginning in 1973, Irwin led several expeditions to Mount Ararat, Turkey in search of the remains of Noah's Ark.	</value>
+
+		<annotated-sentence>	Beginning in [[1973|1973]], Irwin led [[several expeditions|Exploration]] to [[Mount Ararat|Mount_Ararat]], [[Turkey|Turkey]] in search of the remains of [[Noah|Noah]]'s [[Ark.|Arkansas]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Beginning in 1973, Irwin led several expeditions to [[Mount Ararat|Mount_Ararat]], [[Turkey|Turkey]] in search of the remains of Noah's Ark.	</pattern_crowdsource>
+
+
+		<tree>
+				prep(led/VBD-6,Beginning/VBG-1)
+				pcomp(Beginning/VBG-1,in/IN-2)
+				pobj(in/IN-2,1973/CD-3)
+				nsubj(led/VBD-6,Irwin/NNP-5)
+				amod(expeditions/NNS-8,several/JJ-7)
+				dobj(led/VBD-6,expeditions/NNS-8)
+				nn(Ararat/NNP-11,Mount/NNP-10)
+				prep_to(led/VBD-6,Ararat/NNP-11)
+				appos(Ararat/NNP-11,Turkey/NNP-13)
+				prep_in(led/VBD-6,search/NN-15)
+				det(remains/NNS-18,the/DT-17)
+				prep_of(search/NN-15,remains/NNS-18)
+				poss(Ark./NNP-22,Noah/NNP-20)
+				prep_of(remains/NNS-18,Ark./NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several expeditions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mount Ararat</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mount_Ararat</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Turkey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Turkey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Noah</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Noah</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ark.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Arkansas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Mount_Ararat http://dbpedia.org/ontology/locatedInArea http://dbpedia.org/resource/Turkey
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1982, he was injured during the descent and had to be transported down the mountain on a horse and then to the nearest hospital by Lieutenant Orhan Baser and his commando team.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(injured/VBN-6,1982/CD-2)
+				nsubjpass(injured/VBN-6,he/PRP-4)
+				nsubjpass(had/VBD-11,he/PRP-4)
+				auxpass(injured/VBN-6,was/VBD-5)
+				det(descent/NN-9,the/DT-8)
+				prep_during(injured/VBN-6,descent/NN-9)
+				conj_and(injured/VBN-6,had/VBD-11)
+				aux(transported/VBN-14,to/TO-12)
+				auxpass(transported/VBN-14,be/VB-13)
+				xcomp(had/VBD-11,transported/VBN-14)
+				prt(transported/VBN-14,down/RP-15)
+				det(mountain/NN-17,the/DT-16)
+				dobj(transported/VBN-14,mountain/NN-17)
+				dobj(transported/VBN-14,mountain/NN-17)
+				conj_and(mountain/NN-17,mountain/NN-17)
+				det(horse/NN-20,a/DT-19)
+				prep_on(mountain/NN-17,horse/NN-20)
+				conj(mountain/NN-17,then/RB-22)
+				det(hospital/NN-26,the/DT-24)
+				amod(hospital/NN-26,nearest/JJS-25)
+				prep_to(mountain/NN-17,hospital/NN-26)
+				nn(Baser/NNP-30,Lieutenant/NNP-28)
+				nn(Baser/NNP-30,Orhan/NNP-29)
+				agent(transported/VBN-14,Baser/NNP-30)
+				poss(team/NN-34,his/PRP$-32)
+				amod(team/NN-34,commando/JJ-33)
+				agent(transported/VBN-14,team/NN-34)
+				conj_and(Baser/NNP-30,team/NN-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lieutenant Baser was assigned to protect and lead the team on this expedition.	</value>
+
+		<annotated-sentence>	[[Lieutenant|Lieutenant]] [[Baser|Crack_cocaine]] was assigned to protect and lead [[the team|Team]] on [[this expedition|Exploration]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Lieutenant Baser was assigned to protect and lead the team on this expedition.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Baser/NNP-2,Lieutenant/NNP-1)
+				nsubjpass(assigned/VBN-4,Baser/NNP-2)
+				auxpass(assigned/VBN-4,was/VBD-3)
+				aux(protect/VB-6,to/TO-5)
+				xcomp(assigned/VBN-4,protect/VB-6)
+				xcomp(assigned/VBN-4,lead/VB-8)
+				conj_and(protect/VB-6,lead/VB-8)
+				det(team/NN-10,the/DT-9)
+				dobj(protect/VB-6,team/NN-10)
+				det(expedition/NN-13,this/DT-12)
+				prep_on(team/NN-10,expedition/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lieutenant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lieutenant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Baser</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crack_cocaine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>this expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Irwin suffered a serious heart attack near his home in Colorado Springs, Colorado.	</value>
+
+		<annotated-sentence>	Irwin suffered a serious heart attack near his home in Colorado Springs, [[Colorado|Colorado]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Irwin suffered a serious heart attack near his home in Colorado Springs, Colorado.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(suffered/VBD-2,Irwin/NNP-1)
+				det(attack/NN-6,a/DT-3)
+				amod(attack/NN-6,serious/JJ-4)
+				nn(attack/NN-6,heart/NN-5)
+				dobj(suffered/VBD-2,attack/NN-6)
+				poss(home/NN-9,his/PRP$-8)
+				prep_near(suffered/VBD-2,home/NN-9)
+				nn(Springs/NNP-12,Colorado/NNP-11)
+				prep_in(suffered/VBD-2,Springs/NNP-12)
+				appos(Springs/NNP-12,Colorado/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He died on August 8, 1991, as the result of a subsequent heart attack in Glenwood Springs, Colorado, and was buried at Arlington National Cemetery.	</value>
+
+		<annotated-sentence>	He died on August 8, 1991, as [[the result|Result]] of a subsequent heart attack in Glenwood Springs, [[Colorado|Colorado]], and was buried at [[Arlington National Cemetery|Arlington_National_Cemetery]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He died on August 8, 1991, as the result of a subsequent heart attack in Glenwood Springs, Colorado, and was buried at Arlington National Cemetery.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(died/VBD-2,He/PRP-1)
+				nsubjpass(buried/VBN-25,He/PRP-1)
+				prep_on(died/VBD-2,August/NNP-4)
+				num(August/NNP-4,8/CD-5)
+				num(August/NNP-4,1991/CD-7)
+				det(result/NN-11,the/DT-10)
+				prep_as(died/VBD-2,result/NN-11)
+				det(attack/NN-16,a/DT-13)
+				amod(attack/NN-16,subsequent/JJ-14)
+				nn(attack/NN-16,heart/NN-15)
+				prep_of(result/NN-11,attack/NN-16)
+				nn(Springs/NNP-19,Glenwood/NNP-18)
+				prep_in(attack/NN-16,Springs/NNP-19)
+				appos(Springs/NNP-19,Colorado/NNP-21)
+				auxpass(buried/VBN-25,was/VBD-24)
+				conj_and(died/VBD-2,buried/VBN-25)
+				nn(Cemetery/NNP-29,Arlington/NNP-27)
+				nn(Cemetery/NNP-29,National/NNP-28)
+				prep_at(buried/VBN-25,Cemetery/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the result</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Result</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Arlington National Cemetery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Arlington_National_Cemetery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is survived by his widow, Mary Ellen, and their five children.	</value>
+
+		<annotated-sentence>	He is survived by [[his widow|Widow]], Mary Ellen, and [[their five children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is survived by his widow, Mary Ellen, and their five children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(survived/VBN-3,He/PRP-1)
+				auxpass(survived/VBN-3,is/VBZ-2)
+				poss(widow/NN-6,his/PRP$-5)
+				agent(survived/VBN-3,widow/NN-6)
+				nn(Ellen/NNP-9,Mary/NNP-8)
+				agent(survived/VBN-3,Ellen/NNP-9)
+				conj_and(widow/NN-6,Ellen/NNP-9)
+				poss(children/NNS-14,their/PRP$-12)
+				num(children/NNS-14,five/CD-13)
+				agent(survived/VBN-3,children/NNS-14)
+				conj_and(widow/NN-6,children/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his widow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Widow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>their five children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Of the 12 men who have walked on the moon, Irwin was the first to die.	</value>
+
+		<annotated-sentence>	Of [[the 12 men|Twelve_Angry_Men]] who have walked on [[the moon|Moon]], Irwin was the first to die.	</annotated-sentence>
+
+		<pattern_crowdsource>	Of the 12 men who have walked on the moon, Irwin was the first to die.	</pattern_crowdsource>
+
+
+		<tree>
+				det(men/NNS-4,the/DT-2)
+				num(men/NNS-4,12/CD-3)
+				prep_of(first/JJ-15,men/NNS-4)
+				nsubj(walked/VBN-7,who/WP-5)
+				aux(walked/VBN-7,have/VBP-6)
+				rcmod(men/NNS-4,walked/VBN-7)
+				det(moon/NN-10,the/DT-9)
+				prep_on(walked/VBN-7,moon/NN-10)
+				nsubj(first/JJ-15,Irwin/NNP-12)
+				cop(first/JJ-15,was/VBD-13)
+				det(first/JJ-15,the/DT-14)
+				aux(die/VB-17,to/TO-16)
+				dep(first/JJ-15,die/VB-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the 12 men</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Twelve_Angry_Men</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The James Irwin Charter Schools were founded in Colorado in his honor.	</value>
+
+		<annotated-sentence>	The [[James Irwin|James_Irwin]] Charter Schools were founded in [[Colorado|Colorado]] in his honor.	</annotated-sentence>
+
+		<pattern_crowdsource>	The James Irwin Charter Schools were founded in Colorado in his honor.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Schools/NNP-5,The/DT-1)
+				nn(Schools/NNP-5,James/NNP-2)
+				nn(Schools/NNP-5,Irwin/NNP-3)
+				nn(Schools/NNP-5,Charter/NNP-4)
+				nsubjpass(founded/VBN-7,Schools/NNP-5)
+				auxpass(founded/VBN-7,were/VBD-6)
+				prep_in(founded/VBN-7,Colorado/NNP-9)
+				poss(honor/NN-12,his/PRP$-11)
+				prep_in(founded/VBN-7,honor/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Irwin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_Irwin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colorado</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the 1998 miniseries From the Earth to the Moon Irwin was played by Gareth Williams.	</value>
+
+		<annotated-sentence>	In the [[1998|1998]] [[miniseries|Limited_series]] From [[the Earth|Earth]] to [[the Moon|Moon]] Irwin was played by Gareth Williams.	</annotated-sentence>
+
+		<pattern_crowdsource>	In the 1998 miniseries From [[the Earth|Earth]] to [[the Moon|Moon]] Irwin was played by Gareth Williams.	</pattern_crowdsource>
+
+
+		<tree>
+				det(miniseries/NNS-4,the/DT-2)
+				num(miniseries/NNS-4,1998/CD-3)
+				prep_in(played/VBN-13,miniseries/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_from(played/VBN-13,Earth/NNP-7)
+				det(Moon/NNP-10,the/DT-9)
+				prep_to(Earth/NNP-7,Moon/NNP-10)
+				nsubjpass(played/VBN-13,Irwin/NNP-11)
+				auxpass(played/VBN-13,was/VBD-12)
+				nn(Williams/NNP-16,Gareth/NNP-15)
+				agent(played/VBN-13,Williams/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miniseries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Limited_series</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Moon http://dbpedia.org/property/satelliteOf http://dbpedia.org/resource/Earth
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

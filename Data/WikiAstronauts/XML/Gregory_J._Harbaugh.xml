@@ -1,0 +1,2182 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Gregory Jordan Harbaugh is a former NASA Astronaut.	</value>
+
+		<annotated-sentence>	[[Gregory Jordan Harbaugh|Gregory_J._Harbaugh]] is a former [[NASA|NASA]] [[Astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Gregory Jordan Harbaugh|Gregory_J._Harbaugh]] is a former [[NASA|NASA]] [[Astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Harbaugh/NNP-3,Gregory/NNP-1)
+				nn(Harbaugh/NNP-3,Jordan/NNP-2)
+				nsubj(Astronaut/NNP-8,Harbaugh/NNP-3)
+				cop(Astronaut/NNP-8,is/VBZ-4)
+				det(Astronaut/NNP-8,a/DT-5)
+				amod(Astronaut/NNP-8,former/JJ-6)
+				nn(Astronaut/NNP-8,NASA/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Gregory Jordan Harbaugh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_J._Harbaugh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh was born April 15, 1956, in Cleveland, Ohio, and grew up in Willoughby, Ohio.	</value>
+
+		<annotated-sentence>	Harbaugh was born April 15, 1956, in [[Cleveland , Ohio ,|Akron,_Ohio]]nd grew up in [[Willoughby , Ohio|Willoughby,_Ohio]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Harbaugh was born April 15, 1956, in Cleveland, Ohio, and grew up in Willoughby, Ohio.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Harbaugh/NNP-1)
+				nsubjpass(grew/VBD-15,Harbaugh/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				tmod(born/VBN-3,April/NNP-4)
+				num(April/NNP-4,15/CD-5)
+				num(April/NNP-4,1956/CD-7)
+				nn(Ohio/NNP-12,Cleveland/NNP-10)
+				prep_in(born/VBN-3,Ohio/NNP-12)
+				conj_and(born/VBN-3,grew/VBD-15)
+				prt(grew/VBD-15,up/RP-16)
+				nn(Ohio/NNP-20,Willoughby/NNP-18)
+				prep_in(grew/VBD-15,Ohio/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cleveland , Ohio ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Willoughby , Ohio</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Willoughby,_Ohio</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married with three children, he enjoys building his own airplane, flying, running, and snow skiing.	</value>
+
+		<annotated-sentence>	Married with three [[children|Child]], he enjoys building [[his own airplane|Airplane]], flying, running, and [[snow skiing|Skiing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married with three children, he enjoys building his own airplane, flying, running, and snow skiing.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(enjoys/VBZ-7,Married/VBG-1)
+				num(children/NNS-4,three/CD-3)
+				prep_with(Married/VBG-1,children/NNS-4)
+				nsubj(enjoys/VBZ-7,he/PRP-6)
+				xcomp(enjoys/VBZ-7,building/VBG-8)
+				poss(airplane/NN-11,his/PRP$-9)
+				amod(airplane/NN-11,own/JJ-10)
+				dobj(building/VBG-8,airplane/NN-11)
+				appos(airplane/NN-11,flying/VBG-13)
+				partmod(airplane/NN-11,running/VBG-15)
+				nn(skiing/NN-19,snow/NN-18)
+				dobj(building/VBG-8,skiing/NN-19)
+				conj_and(airplane/NN-11,skiing/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his own airplane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airplane</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>snow skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skiing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh graduated from Willoughby South High School in 1974 and went on to receive a Bachelor of Science degree in aeronautical and astronautical engineering from Purdue University in 1978 and a Master of Science in physical science from University of Houston–Clear Lake in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Harbaugh/NNP-1)
+				nsubj(went/VBD-11,Harbaugh/NNP-1)
+				nn(School/NNP-7,Willoughby/NNP-4)
+				nn(School/NNP-7,South/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				prep_in(School/NNP-7,1974/CD-9)
+				conj_and(graduated/VBD-2,went/VBD-11)
+				prt(went/VBD-11,on/IN-12)
+				aux(receive/VB-14,to/TO-13)
+				xcomp(went/VBD-11,receive/VB-14)
+				det(Bachelor/NN-16,a/DT-15)
+				dobj(receive/VB-14,Bachelor/NN-16)
+				nn(degree/NN-19,Science/NNP-18)
+				prep_of(Bachelor/NN-16,degree/NN-19)
+				amod(engineering/NN-24,aeronautical/JJ-21)
+				conj_and(aeronautical/JJ-21,astronautical/JJ-23)
+				amod(engineering/NN-24,astronautical/JJ-23)
+				prep_in(receive/VB-14,engineering/NN-24)
+				nn(University/NNP-27,Purdue/NNP-26)
+				prep_from(receive/VB-14,University/NNP-27)
+				prep_in(University/NNP-27,1978/CD-29)
+				det(Master/NN-32,a/DT-31)
+				prep_from(receive/VB-14,Master/NN-32)
+				conj_and(University/NNP-27,Master/NN-32)
+				prep_of(Master/NN-32,Science/NN-34)
+				amod(science/NN-37,physical/JJ-36)
+				prep_in(Science/NN-34,science/NN-37)
+				prep_from(science/NN-37,University/NNP-39)
+				prep_of(University/NNP-39,Houston/NNP-41)
+				nn(Lake/NNP-44,Clear/NNP-43)
+				dep(Master/NN-32,Lake/NNP-44)
+				prep_in(Lake/NNP-44,1986/CD-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh came to NASA’s Johnson Space Center after graduation from Purdue University in 1978.	</value>
+
+		<annotated-sentence>	[[Harbaugh|Gregory_J._Harbaugh]] came to [[NASA|NASA]]’s Johnson [[Space|NASA]] [[Center|Goddard_Space_Flight_Center]] after [[graduation|Graduation]] from [[Purdue University|Purdue_University]] in [[1978|Tsubasa_Otomiya]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Harbaugh|Gregory_J._Harbaugh]] came to [[NASA|NASA]]’s Johnson [[Space|NASA]] [[Center|Goddard_Space_Flight_Center]] after graduation from Purdue University in 1978.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(came/VBD-2,Harbaugh/NNP-1)
+				poss(Center/NNP-8,NASA/NNP-4)
+				nn(Center/NNP-8,Johnson/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_to(came/VBD-2,Center/NNP-8)
+				prep_after(came/VBD-2,graduation/NN-10)
+				nn(University/NNP-13,Purdue/NNP-12)
+				prep_from(came/VBD-2,University/NNP-13)
+				prep_in(University/NNP-13,1978/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Harbaugh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_J._Harbaugh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Goddard_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Purdue University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Purdue_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1978</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tsubasa_Otomiya</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Goddard_Space_Flight_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Goddard_Space_Flight_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He held engineering and technical management positions in Space Shuttle flight operations, and supported Shuttle flight operations from Mission Control for most of the flights from STS-1 through STS-51-L.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-2,He/PRP-1)
+				nsubj(supported/VBD-15,He/PRP-1)
+				nn(positions/NNS-7,engineering/NN-3)
+				conj_and(engineering/NN-3,technical/JJ-5)
+				nn(positions/NNS-7,technical/JJ-5)
+				nn(positions/NNS-7,management/NN-6)
+				nsubj(operations/NNS-12,positions/NNS-7)
+				prep_in(positions/NNS-7,Space/NN-9)
+				nn(operations/NNS-12,Shuttle/NNP-10)
+				nn(operations/NNS-12,flight/NN-11)
+				xcomp(held/VBD-2,operations/NNS-12)
+				conj_and(held/VBD-2,supported/VBD-15)
+				nn(operations/NNS-18,Shuttle/NNP-16)
+				nn(operations/NNS-18,flight/NN-17)
+				dobj(supported/VBD-15,operations/NNS-18)
+				nn(Control/NNP-21,Mission/NNP-20)
+				prep_from(supported/VBD-15,Control/NNP-21)
+				prep_for(Control/NNP-21,most/JJS-23)
+				det(flights/NNS-26,the/DT-25)
+				prep_of(most/JJS-23,flights/NNS-26)
+				prep_from(flights/NNS-26,STS-1/NN-28)
+				prep_through(supported/VBD-15,STS-51-L/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as Lead Data Processing Systems (DPS) Officer for STS-9 (Spacelab-1) and STS-41-D, Orbit DPS for STS-41-B and STS-41-C, and Ascent/Entry DPS for STS-41-G.	</value>
+
+		<annotated-sentence>	He served as [[Lead|Lead]] Data Processing Systems (DPS) [[Officer|Officer]] for [[STS-9|STS-9]] (Spacelab-1) and [[STS-41-D|STS-41-D]], Orbit DPS for [[STS-41-B and STS-41-C|STS-41-B]], and Ascent/Entry DPS for [[STS-41-G|STS-41-G]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as Lead Data Processing Systems (DPS) Officer for [[STS-9|STS-9]] (Spacelab-1) and [[STS-41-D|STS-41-D]], Orbit DPS for [[STS-41-B and STS-41-C|STS-41-B]], and Ascent/Entry DPS for [[STS-41-G|STS-41-G]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				amod(Data/NNS-5,Lead/JJ-4)
+				prep_as(served/VBD-2,Data/NNS-5)
+				nn(Officer/NNP-11,Processing/NNP-6)
+				nn(Officer/NNP-11,Systems/NNP-7)
+				appos(Officer/NNP-11,DPS/NNP-9)
+				dobj(served/VBD-2,Officer/NNP-11)
+				prep_for(Officer/NNP-11,STS-9/NN-13)
+				appos(STS-9/NN-13,Spacelab-1/NN-15)
+				prep_for(Officer/NNP-11,STS-41-D/NN-18)
+				conj_and(STS-9/NN-13,STS-41-D/NN-18)
+				nn(DPS/NNP-21,Orbit/NNP-20)
+				dobj(served/VBD-2,DPS/NNP-21)
+				conj_and(Officer/NNP-11,DPS/NNP-21)
+				prep_for(DPS/NNP-21,STS-41-B/NN-23)
+				prep_for(DPS/NNP-21,STS-41-C/NN-25)
+				conj_and(STS-41-B/NN-23,STS-41-C/NN-25)
+				nn(DPS/NNP-29,Ascent/Entry/NNP-28)
+				dobj(served/VBD-2,DPS/NNP-29)
+				conj_and(Officer/NNP-11,DPS/NNP-29)
+				prep_for(DPS/NNP-29,STS-41-G/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-D</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-B and STS-41-C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41-G</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41-G</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-9 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/STS-41-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-B http://dbpedia.org/property/previousMission http://dbpedia.org/resource/STS-9
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-D http://dbpedia.org/property/nextMission http://dbpedia.org/resource/STS-41-G
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41-G http://dbpedia.org/property/previousMission http://dbpedia.org/resource/STS-41-D
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as a senior flight controller addressing issues requiring real-time resolution, for several flights from STS-51-A through STS-51-L.	</value>
+
+		<annotated-sentence>	He also served as a senior [[flight controller|Flight_controller]] addressing issues requiring real-time resolution, for [[several flights|Flight]] from [[STS-51-A|STS-51-A]] through [[STS-51-L|STS-51-L]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also served as a senior flight controller addressing issues requiring real-time resolution, for several flights from STS-51-A through STS-51-L.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				det(controller/NN-8,a/DT-5)
+				amod(controller/NN-8,senior/JJ-6)
+				nn(controller/NN-8,flight/NN-7)
+				prep_as(served/VBD-3,controller/NN-8)
+				partmod(controller/NN-8,addressing/VBG-9)
+				dobj(addressing/VBG-9,issues/NNS-10)
+				partmod(addressing/VBG-9,requiring/VBG-11)
+				amod(resolution/NN-13,real-time/JJ-12)
+				dobj(requiring/VBG-11,resolution/NN-13)
+				amod(flights/NNS-17,several/JJ-16)
+				prep_for(addressing/VBG-9,flights/NNS-17)
+				prep_from(served/VBD-3,STS-51-A/NN-19)
+				prep_through(served/VBD-3,STS-51-L/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight controller</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-A</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-A</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-L</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-L</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh has a commercial pilot’s license with instrument rating, and over 1600 hours total flying time.	</value>
+
+		<annotated-sentence>	Harbaugh has a commercial pilot’s [[license|License]] with [[instrument rating|Instrument_rating]], and over [[1600|1600]] [[hours|Hour]] total flying time.	</annotated-sentence>
+
+		<pattern_crowdsource>	Harbaugh has a commercial pilot’s license with instrument rating, and over 1600 hours total flying time.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(has/VBZ-2,Harbaugh/NNP-1)
+				nsubj(total/JJ-16,Harbaugh/NNP-1)
+				det(pilot/NN-5,a/DT-3)
+				amod(pilot/NN-5,commercial/JJ-4)
+				poss(license/NN-7,pilot/NN-5)
+				dobj(has/VBZ-2,license/NN-7)
+				nn(rating/NN-10,instrument/NN-9)
+				prep_with(license/NN-7,rating/NN-10)
+				advmod(total/JJ-16,over/IN-13)
+				num(hours/NNS-15,1600/CD-14)
+				pobj(over/IN-13,hours/NNS-15)
+				conj_and(has/VBZ-2,total/JJ-16)
+				xcomp(total/JJ-16,flying/VBG-17)
+				dobj(flying/VBG-17,time/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>license</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/License</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>instrument rating</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Instrument_rating</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1600</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1600</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in June 1987, Harbaugh became an astronaut in August 1988.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[June 1987|1987]], [[Harbaugh|Gregory_J._Harbaugh]] became [[an astronaut|Astronaut]] in [[August 1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in June 1987, [[Harbaugh|Gregory_J._Harbaugh]] became [[an astronaut|Astronaut]] in August 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-11,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,June/NNP-5)
+				num(June/NNP-5,1987/CD-6)
+				nsubj(astronaut/NN-11,Harbaugh/NNP-8)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				prep_in(astronaut/NN-11,August/NNP-13)
+				num(August/NNP-13,1988/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harbaugh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_J._Harbaugh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments included work in the Shuttle Avionics Integration Laboratory (SAIL), the Shuttle Remote Manipulator System (RMS), telerobotics systems development for Space Station, the Hubble Space Telescope servicing mission development, spacecraft communicator (CAPCOM) in Mission Control, and extravehicular activity (EVA) for the International Space Station (ISS).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBD-4,assignments/NNS-3)
+				dobj(included/VBD-4,work/NN-5)
+				det(Laboratory/NN-11,the/DT-7)
+				nn(Laboratory/NN-11,Shuttle/NNP-8)
+				nn(Laboratory/NN-11,Avionics/NNP-9)
+				nn(Laboratory/NN-11,Integration/NN-10)
+				prep_in(included/VBD-4,Laboratory/NN-11)
+				appos(Laboratory/NN-11,SAIL/NN-13)
+				det(development/NN-27,the/DT-16)
+				nn(System/NNP-20,Shuttle/NNP-17)
+				nn(System/NNP-20,Remote/NNP-18)
+				nn(System/NNP-20,Manipulator/NNP-19)
+				nn(development/NN-27,System/NNP-20)
+				appos(System/NNP-20,RMS/NNP-22)
+				nn(development/NN-27,telerobotics/NNS-25)
+				nn(development/NN-27,systems/NNS-26)
+				appos(Laboratory/NN-11,development/NN-27)
+				nn(Station/NNP-30,Space/NN-29)
+				prep_for(development/NN-27,Station/NNP-30)
+				det(mission/NN-37,the/DT-32)
+				nn(mission/NN-37,Hubble/NNP-33)
+				nn(mission/NN-37,Space/NNP-34)
+				nn(mission/NN-37,Telescope/NNP-35)
+				amod(mission/NN-37,servicing/VBG-36)
+				appos(development/NN-27,mission/NN-37)
+				npadvmod(mission/NN-37,development/NN-38)
+				nn(communicator/NN-41,spacecraft/NN-40)
+				appos(development/NN-38,communicator/NN-41)
+				appos(communicator/NN-41,CAPCOM/NN-43)
+				nn(Control/NNP-47,Mission/NNP-46)
+				prep_in(mission/NN-37,Control/NNP-47)
+				amod(activity/NN-51,extravehicular/JJ-50)
+				prep_in(mission/NN-37,activity/NN-51)
+				conj_and(Control/NNP-47,activity/NN-51)
+				appos(Control/NNP-47,EVA/NN-53)
+				det(Station/NNP-59,the/DT-56)
+				nn(Station/NNP-59,International/NNP-57)
+				nn(Station/NNP-59,Space/NNP-58)
+				prep_for(mission/NN-37,Station/NNP-59)
+				appos(mission/NN-37,ISS/NNP-61)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned as the backup EVA crew member and capsule communicator (Capcom) for STS-61, the first Hubble Space Telescope servicing mission.	</value>
+
+		<annotated-sentence>	He was assigned as [[the backup|Backup]] EVA [[crew member|Crewman]] and [[capsule communicator|Flight_controller]] ([[Capcom|Capcom]]) for [[STS-61|STS-61]], the first [[Hubble Space Telescope|Hubble_Space_Telescope]] servicing mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was assigned as the backup EVA crew member and capsule communicator (Capcom) for [[STS-61|STS-61]], the first Hubble Space Telescope servicing mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				det(backup/NN-6,the/DT-5)
+				prep_as(assigned/VBN-3,backup/NN-6)
+				nn(member/NN-9,EVA/NNP-7)
+				nn(member/NN-9,crew/NN-8)
+				dep(backup/NN-6,member/NN-9)
+				nn(communicator/NN-12,capsule/NN-11)
+				prep_as(assigned/VBN-3,communicator/NN-12)
+				conj_and(backup/NN-6,communicator/NN-12)
+				appos(communicator/NN-12,Capcom/NNP-14)
+				prep_for(communicator/NN-12,STS-61/NN-17)
+				det(mission/NN-25,the/DT-19)
+				amod(mission/NN-25,first/JJ-20)
+				nn(mission/NN-25,Hubble/NNP-21)
+				nn(mission/NN-25,Space/NNP-22)
+				nn(mission/NN-25,Telescope/NNP-23)
+				amod(mission/NN-25,servicing/VBG-24)
+				appos(communicator/NN-12,mission/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the backup</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Backup</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>capsule communicator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_controller</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Capcom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, Harbaugh has logged a total of 818 hours in space, including 18 hours, 29 minutes EVA.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], Harbaugh has logged a total of 818 [[hours|Hour]] in [[space|Space]], including 18 [[hours|Hour]], 29 [[minutes|Minute]] EVA.	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, Harbaugh has logged a total of 818 hours in space, including 18 hours, 29 minutes EVA.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(logged/VBN-10,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				appos(flights/NNS-6,Harbaugh/NNP-8)
+				aux(logged/VBN-10,has/VBZ-9)
+				det(total/NN-12,a/DT-11)
+				dobj(logged/VBN-10,total/NN-12)
+				num(hours/NNS-15,818/CD-14)
+				prep_of(total/NN-12,hours/NNS-15)
+				prep_in(logged/VBN-10,space/NN-17)
+				num(hours/NNS-21,18/CD-20)
+				prep_including(logged/VBN-10,hours/NNS-21)
+				num(minutes/NNS-24,29/CD-23)
+				appos(hours/NNS-21,minutes/NNS-24)
+				appos(minutes/NNS-24,EVA/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1997-2001 Harbaugh served as Manager of the Extravehicular Activity Project Office, with program management responsibility for all aspects of NASA’s spacewalk industry, including spacesuits, tools, training, tasks and operations for the Space Shuttle, the International Space Station, and future planetary missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(served/VBD-4,1997-2001/CD-2)
+				nsubj(served/VBD-4,Harbaugh/NNP-3)
+				prep_as(served/VBD-4,Manager/NN-6)
+				det(Office/NNP-12,the/DT-8)
+				nn(Office/NNP-12,Extravehicular/NNP-9)
+				nn(Office/NNP-12,Activity/NNP-10)
+				nn(Office/NNP-12,Project/NNP-11)
+				prep_of(Manager/NN-6,Office/NNP-12)
+				nn(responsibility/NN-17,program/NN-15)
+				nn(responsibility/NN-17,management/NN-16)
+				prep_with(served/VBD-4,responsibility/NN-17)
+				det(aspects/NNS-20,all/DT-19)
+				prep_for(responsibility/NN-17,aspects/NNS-20)
+				poss(industry/NN-25,NASA/NNP-22)
+				nn(industry/NN-25,spacewalk/NN-24)
+				prep_of(aspects/NNS-20,industry/NN-25)
+				prep(served/VBD-4,including/VBG-27)
+				npadvmod(for/IN-37,spacesuits/NNS-28)
+				conj_and(spacesuits/NNS-28,tools/NNS-30)
+				npadvmod(for/IN-37,tools/NNS-30)
+				conj_and(spacesuits/NNS-28,training/NN-32)
+				npadvmod(for/IN-37,training/NN-32)
+				conj_and(spacesuits/NNS-28,tasks/NNS-34)
+				npadvmod(for/IN-37,tasks/NNS-34)
+				conj_and(spacesuits/NNS-28,operations/NNS-36)
+				npadvmod(for/IN-37,operations/NNS-36)
+				pcomp(including/VBG-27,for/IN-37)
+				det(Shuttle/NNP-40,the/DT-38)
+				nn(Shuttle/NNP-40,Space/NN-39)
+				pobj(for/IN-37,Shuttle/NNP-40)
+				det(Station/NNP-45,the/DT-42)
+				nn(Station/NNP-45,International/NNP-43)
+				nn(Station/NNP-45,Space/NNP-44)
+				pobj(for/IN-37,Station/NNP-45)
+				conj_and(Shuttle/NNP-40,Station/NNP-45)
+				amod(missions/NNS-50,future/JJ-48)
+				amod(missions/NNS-50,planetary/JJ-49)
+				pobj(for/IN-37,missions/NNS-50)
+				conj_and(Shuttle/NNP-40,missions/NNS-50)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh left NASA in March 2001.	</value>
+
+		<annotated-sentence>	[[Harbaugh|Gregory_J._Harbaugh]] left [[NASA|NASA]] in [[March 2001|March_2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Harbaugh|Gregory_J._Harbaugh]] left [[NASA|NASA]] in March 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,Harbaugh/NNP-1)
+				dobj(left/VBD-2,NASA/NNP-3)
+				prep_in(NASA/NNP-3,March/NNP-5)
+				num(March/NNP-5,2001/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Harbaugh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_J._Harbaugh</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-39 Discovery (April 28 through May 6, 1991) was an eight-day unclassified Department of Defense mission involving research for the Strategic Defense Initiative.	</value>
+
+		<annotated-sentence>	[[STS-39|STS-39]] Discovery ([[April 28|April_28]] through May 6, 1991) was an eight-day unclassified Department of Defense mission involving research for [[the Strategic Defense Initiative|Strategic_Defense_Initiative]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-39|STS-39]] Discovery (April 28 through May 6, 1991) was an eight-day unclassified Department of Defense mission involving research for the Strategic Defense Initiative.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Discovery/NNP-2,STS-39/NN-1)
+				nsubj(mission/NN-19,Discovery/NNP-2)
+				dep(Discovery/NNP-2,April/NNP-4)
+				num(April/NNP-4,28/CD-5)
+				prep_through(April/NNP-4,May/NNP-7)
+				num(May/NNP-7,6/CD-8)
+				num(May/NNP-7,1991/CD-10)
+				cop(mission/NN-19,was/VBD-12)
+				det(mission/NN-19,an/DT-13)
+				amod(mission/NN-19,eight-day/JJ-14)
+				amod(mission/NN-19,unclassified/JJ-15)
+				dep(unclassified/JJ-15,Department/NNP-16)
+				prep_of(Department/NNP-16,Defense/NNP-18)
+				prep_involving(mission/NN-19,research/NN-21)
+				det(Initiative/NNP-26,the/DT-23)
+				nn(Initiative/NNP-26,Strategic/NNP-24)
+				nn(Initiative/NNP-26,Defense/NNP-25)
+				prep_for(research/NN-21,Initiative/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-39</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-39</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 28</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_28</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Strategic Defense Initiative</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Strategic_Defense_Initiative</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-39
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-39 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-39 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh flew as a mission specialist and was responsible for operation of the RMS and the Infrared Background Signature Survey (IBSS) spacecraft, and he was one of two crewmen trained for EVA in the event of a contingency requiring a space walk.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Harbaugh/NNP-1)
+				nsubj(responsible/JJ-9,Harbaugh/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(flew/VBD-2,specialist/NN-6)
+				cop(responsible/JJ-9,was/VBD-8)
+				conj_and(flew/VBD-2,responsible/JJ-9)
+				prep_for(responsible/JJ-9,operation/NN-11)
+				det(RMS/NNP-14,the/DT-13)
+				prep_of(operation/NN-11,RMS/NNP-14)
+				det(Survey/NN-20,the/DT-16)
+				amod(Survey/NN-20,Infrared/JJ-17)
+				nn(Survey/NN-20,Background/NN-18)
+				nn(Survey/NN-20,Signature/NN-19)
+				prep_for(responsible/JJ-9,Survey/NN-20)
+				conj_and(operation/NN-11,Survey/NN-20)
+				appos(Survey/NN-20,IBSS/NN-22)
+				dep(Survey/NN-20,spacecraft/NN-24)
+				nsubj(one/CD-29,he/PRP-27)
+				cop(one/CD-29,was/VBD-28)
+				conj_and(flew/VBD-2,one/CD-29)
+				num(crewmen/NNS-32,two/CD-31)
+				prep_of(one/CD-29,crewmen/NNS-32)
+				partmod(crewmen/NNS-32,trained/VBN-33)
+				prep_for(trained/VBN-33,EVA/NNP-35)
+				det(event/NN-38,the/DT-37)
+				prep_in(trained/VBN-33,event/NN-38)
+				det(contingency/NN-41,a/DT-40)
+				prep_of(event/NN-38,contingency/NN-41)
+				partmod(contingency/NN-41,requiring/VBG-42)
+				det(walk/NN-45,a/DT-43)
+				nn(walk/NN-45,space/NN-44)
+				dobj(requiring/VBG-42,walk/NN-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 199 hours, 22 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 199 [[hours|Hour]], [[22 minutes|This_Hour_Has_22_Minutes]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 199 hours, 22 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,199/CD-4)
+				num(minutes/NNS-8,22/CD-7)
+				appos(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>22 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/This_Hour_Has_22_Minutes</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-54 Endeavour (January 13–19, 1993) was a six-day mission which featured the deployment of TDRS-F, and a 4-hour 28-minute space walk by Harbaugh.	</value>
+
+		<annotated-sentence>	[[STS-54|STS-54]] [[Endeavour|Endeavour]] ([[January 13|January_13]]–19, [[1993|1993]]) was a six-day mission which featured the deployment of TDRS-F, and a 4-hour 28-minute [[space walk|Extra-vehicular_activity]] by [[Harbaugh|Gregory_J._Harbaugh]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-54|STS-54]] Endeavour (January 13–19, 1993) was a six-day mission which featured the deployment of TDRS-F, and a 4-hour 28-minute space walk by [[Harbaugh|Gregory_J._Harbaugh]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Endeavour/NN-2,STS-54/NN-1)
+				nsubj(mission/NN-14,Endeavour/NN-2)
+				dep(Endeavour/NN-2,January/NNP-4)
+				num(January/NNP-4,13/CD-5)
+				dep(January/NNP-4,19/CD-7)
+				amod(19/CD-7,1993/CD-9)
+				cop(mission/NN-14,was/VBD-11)
+				det(mission/NN-14,a/DT-12)
+				amod(mission/NN-14,six-day/JJ-13)
+				nsubj(featured/VBD-16,which/WDT-15)
+				rcmod(mission/NN-14,featured/VBD-16)
+				det(deployment/NN-18,the/DT-17)
+				dobj(featured/VBD-16,deployment/NN-18)
+				prep_of(deployment/NN-18,TDRS-F/NN-20)
+				det(walk/NN-27,a/DT-23)
+				amod(walk/NN-27,4-hour/JJ-24)
+				amod(walk/NN-27,28-minute/JJ-25)
+				nn(walk/NN-27,space/NN-26)
+				dobj(featured/VBD-16,walk/NN-27)
+				conj_and(deployment/NN-18,walk/NN-27)
+				prep_by(walk/NN-27,Harbaugh/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-54</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-54</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 13</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_13</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harbaugh</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Gregory_J._Harbaugh</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-54
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-54 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-54 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 143 hours 38 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 143 [[hours|Hour]] [[38 minutes|Stargate_Atlantis_(season_1)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 143 hours 38 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,143/CD-4)
+				num(minutes/NNS-7,38/CD-6)
+				tmod(hours/NNS-5,minutes/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>38 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargate_Atlantis_(season_1)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-71 Atlantis (June 27 to July 7, 1995) was the first docking mission with the Russian Space Station Mir, and involved an exchange of crews.	</value>
+
+		<annotated-sentence>	[[STS-71|STS-71]] [[Atlantis|Atlantis]] ([[June 27|June_27]] to [[July|July]] 7, 1995) was the first docking mission with the [[Russian|Russian_Federal_Space_Agency]] [[Space Station Mir|Mir]], and involved an exchange of crews.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-71|STS-71]] Atlantis (June 27 to July 7, 1995) was the first docking mission with the [[Russian|Russian_Federal_Space_Agency]] Space Station Mir, and involved an exchange of crews.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-2,STS-71/NN-1)
+				nsubj(mission/NN-16,Atlantis/NNP-2)
+				nsubj(involved/VBD-25,Atlantis/NNP-2)
+				dep(Atlantis/NNP-2,June/NNP-4)
+				num(June/NNP-4,27/CD-5)
+				prep_to(June/NNP-4,July/NNP-7)
+				num(July/NNP-7,7/CD-8)
+				num(July/NNP-7,1995/CD-10)
+				cop(mission/NN-16,was/VBD-12)
+				det(mission/NN-16,the/DT-13)
+				amod(mission/NN-16,first/JJ-14)
+				nn(mission/NN-16,docking/NN-15)
+				det(Mir/NNS-22,the/DT-18)
+				amod(Mir/NNS-22,Russian/JJ-19)
+				nn(Mir/NNS-22,Space/NN-20)
+				nn(Mir/NNS-22,Station/NNP-21)
+				prep_with(mission/NN-16,Mir/NNS-22)
+				conj_and(mission/NN-16,involved/VBD-25)
+				det(exchange/NN-27,an/DT-26)
+				dobj(involved/VBD-25,exchange/NN-27)
+				prep_of(exchange/NN-27,crews/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-71</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-71</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 27</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_27</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Federal_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station Mir</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-71
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/agency7Down http://dbpedia.org/resource/Russian_Federal_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/agency6Down http://dbpedia.org/resource/Russian_Federal_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/agency6Up http://dbpedia.org/resource/Russian_Federal_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-71 http://dbpedia.org/property/agency7Up http://dbpedia.org/resource/Russian_Federal_Space_Agency
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On this mission, Harbaugh served as the Flight Engineer (Mission Specialist) on a seven-member (up) eight-member (down) crew.	</value>
+
+		<annotated-sentence>	On [[this mission|Mission_Specialist]], Harbaugh served as [[the Flight Engineer|Flight_engineer]] ([[Mission Specialist|Mission_Specialist]]) on a seven-member (up) eight-member (down) crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	On this mission, Harbaugh served as the Flight Engineer (Mission Specialist) on a seven-member (up) eight-member (down) crew.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,this/DT-2)
+				prep_on(served/VBD-6,mission/NN-3)
+				nsubj(served/VBD-6,Harbaugh/NNP-5)
+				det(Engineer/NN-10,the/DT-8)
+				nn(Engineer/NN-10,Flight/NN-9)
+				prep_as(served/VBD-6,Engineer/NN-10)
+				nn(Specialist/NNP-13,Mission/NNP-12)
+				appos(Engineer/NN-10,Specialist/NNP-13)
+				det(crew/NN-25,a/DT-16)
+				amod(crew/NN-25,seven-member/NN-17)
+				dep(seven-member/NN-17,up/RP-19)
+				nn(crew/NN-25,eight-member/NN-21)
+				dep(crew/NN-25,down/RB-23)
+				prep_on(served/VBD-6,crew/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Space Shuttle Atlantis was modified to carry a docking system compatible with the Russian Mir Space Station, and Harbaugh was responsible for the inflight operation of the docking system.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Atlantis/NNP-3,Space/NN-1)
+				nn(Atlantis/NNP-3,Shuttle/NNP-2)
+				nsubjpass(modified/VBN-5,Atlantis/NNP-3)
+				auxpass(modified/VBN-5,was/VBD-4)
+				aux(carry/VB-7,to/TO-6)
+				xcomp(modified/VBN-5,carry/VB-7)
+				det(system/NN-10,a/DT-8)
+				nn(system/NN-10,docking/NN-9)
+				nsubj(Station/NNP-17,system/NN-10)
+				amod(Station/NNP-17,compatible/JJ-11)
+				det(Mir/NNS-15,the/DT-13)
+				amod(Mir/NNS-15,Russian/JJ-14)
+				prep_with(compatible/JJ-11,Mir/NNS-15)
+				nn(Station/NNP-17,Space/NN-16)
+				xcomp(carry/VB-7,Station/NNP-17)
+				nsubj(responsible/JJ-22,Harbaugh/NNP-20)
+				cop(responsible/JJ-22,was/VBD-21)
+				conj_and(modified/VBN-5,responsible/JJ-22)
+				det(operation/NN-26,the/DT-24)
+				nn(operation/NN-26,inflight/NN-25)
+				prep_for(responsible/JJ-22,operation/NN-26)
+				det(system/NN-30,the/DT-28)
+				nn(system/NN-30,docking/NN-29)
+				prep_of(operation/NN-26,system/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also assigned to perform any contingency EVA.	</value>
+
+		<annotated-sentence>	He was also assigned to perform any contingency EVA.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also assigned to perform any contingency EVA.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,also/RB-3)
+				aux(perform/VB-6,to/TO-5)
+				xcomp(assigned/VBN-4,perform/VB-6)
+				det(EVA/NNP-9,any/DT-7)
+				nn(EVA/NNP-9,contingency/NN-8)
+				dobj(perform/VB-6,EVA/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 235 hours, 23 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 235 [[hours|Hour]], 23 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 235 hours, 23 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,235/CD-4)
+				num(minutes/NNS-8,23/CD-7)
+				appos(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-82 Discovery (February 11–21, 1997) the second Hubble Space Telescope (HST) servicing mission.	</value>
+
+		<annotated-sentence>	[[STS-82|STS-82]] Discovery ([[February 11|February_11]]–21, [[1997|1997]]) [[the second Hubble Space Telescope|Hubble_Space_Telescope]] ([[HST|Hubble_Space_Telescope]]) servicing mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-82|STS-82]] Discovery (February 11–21, 1997) the second Hubble Space Telescope (HST) servicing mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Discovery/NNP-2,STS-82/NN-1)
+				dep(Discovery/NNP-2,February/NNP-4)
+				num(February/NNP-4,11/CD-5)
+				dep(February/NNP-4,21/CD-7)
+				amod(21/CD-7,1997/CD-9)
+				det(Telescope/NNP-15,the/DT-11)
+				amod(Telescope/NNP-15,second/JJ-12)
+				nn(Telescope/NNP-15,Hubble/NNP-13)
+				nn(Telescope/NNP-15,Space/NNP-14)
+				dep(Discovery/NNP-2,Telescope/NNP-15)
+				appos(Telescope/NNP-15,HST/NNP-17)
+				partmod(Telescope/NNP-15,servicing/VBG-19)
+				dobj(servicing/VBG-19,mission/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-82</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-82</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February 11</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_11</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the second Hubble Space Telescope</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HST</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hubble_Space_Telescope</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Gregory_J._Harbaugh http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-82
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-82 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-82 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Gregory_J._Harbaugh
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was a night launch and landing flight.	</value>
+
+		<annotated-sentence>	It was [[a night launch|Night_Launch]] and [[landing|Amphibious_warfare]] [[flight|Flight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was a night launch and landing flight.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launch/NN-5,It/PRP-1)
+				cop(launch/NN-5,was/VBD-2)
+				det(launch/NN-5,a/DT-3)
+				nn(launch/NN-5,night/NN-4)
+				nn(flight/NN-8,landing/NN-7)
+				conj_and(launch/NN-5,flight/NN-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a night launch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Night_Launch</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 10-day mission, the crew retrieved and secured the HST in Discovery’s payload bay.	</value>
+
+		<annotated-sentence>	During the 10-day mission, the crew retrieved and secured [[the HST|British_Rail_Class_43_(HST)]] in Discovery’s payload bay.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the 10-day mission, the crew retrieved and secured the HST in Discovery’s payload bay.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,10-day/JJ-3)
+				prep_during(retrieved/VBD-8,mission/NN-4)
+				det(crew/NN-7,the/DT-6)
+				nsubj(retrieved/VBD-8,crew/NN-7)
+				nsubj(secured/VBD-10,crew/NN-7)
+				conj_and(retrieved/VBD-8,secured/VBD-10)
+				det(HST/NNP-12,the/DT-11)
+				dobj(secured/VBD-10,HST/NNP-12)
+				poss(bay/NN-17,Discovery/NNP-14)
+				nn(bay/NN-17,payload/NN-16)
+				prep_in(secured/VBD-10,bay/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the HST</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/British_Rail_Class_43_(HST)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In five spacewalks, two teams installed two new spectrometers and eight replacement instruments, and placed insulation patches over several compartments containing key data processing, electronics and scientific instrument telemetry packages.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(spacewalks/NNS-3,five/CD-2)
+				prep_in(installed/VBN-7,spacewalks/NNS-3)
+				num(teams/NNS-6,two/CD-5)
+				nsubj(installed/VBN-7,teams/NNS-6)
+				nsubj(placed/VBD-17,teams/NNS-6)
+				num(spectrometers/NNS-10,two/CD-8)
+				amod(spectrometers/NNS-10,new/JJ-9)
+				dobj(installed/VBN-7,spectrometers/NNS-10)
+				num(instruments/NNS-14,eight/CD-12)
+				nn(instruments/NNS-14,replacement/NN-13)
+				dobj(installed/VBN-7,instruments/NNS-14)
+				conj_and(spectrometers/NNS-10,instruments/NNS-14)
+				conj_and(installed/VBN-7,placed/VBD-17)
+				nn(patches/NNS-19,insulation/NN-18)
+				dobj(placed/VBD-17,patches/NNS-19)
+				amod(compartments/NNS-22,several/JJ-21)
+				prep_over(placed/VBD-17,compartments/NNS-22)
+				partmod(compartments/NNS-22,containing/VBG-23)
+				amod(processing/NN-26,key/JJ-24)
+				nn(processing/NN-26,data/NNS-25)
+				dobj(containing/VBG-23,processing/NN-26)
+				dobj(containing/VBG-23,electronics/NNS-28)
+				conj_and(processing/NN-26,electronics/NNS-28)
+				amod(packages/NNS-33,scientific/JJ-30)
+				nn(packages/NNS-33,instrument/NN-31)
+				nn(packages/NNS-33,telemetry/NN-32)
+				dobj(containing/VBG-23,packages/NNS-33)
+				conj_and(processing/NN-26,packages/NNS-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Harbaugh participated in two space walks, totaling 14 hours and 01 minute.	</value>
+
+		<annotated-sentence>	Harbaugh participated in [[two space walks|Extra-vehicular_activity]], totaling 14 hours and 01 [[minute|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Harbaugh participated in two space walks, totaling 14 hours and 01 minute.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,Harbaugh/NNP-1)
+				num(space/NN-5,two/CD-4)
+				prep_in(participated/VBD-2,space/NN-5)
+				dep(space/NN-5,walks/VBZ-6)
+				xcomp(participated/VBD-2,totaling/VBG-8)
+				num(hours/NNS-10,14/CD-9)
+				dobj(totaling/VBG-8,hours/NNS-10)
+				num(minute/NN-13,01/CD-12)
+				dobj(totaling/VBG-8,minute/NN-13)
+				conj_and(hours/NNS-10,minute/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two space walks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following completion of upgrades and repairs, HST was redeployed and boosted to its highest orbit ever.	</value>
+
+		<annotated-sentence>	Following completion of [[upgrades and repairs|Stargate_SG-1_(season_4)]], [[HST|British_Rail_Class_43_(HST)]] was redeployed and boosted to its highest orbit ever.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following completion of upgrades and repairs, HST was redeployed and boosted to its highest orbit ever.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(redeployed/VBN-10,completion/NN-2)
+				prep_of(completion/NN-2,upgrades/NNS-4)
+				prep_of(completion/NN-2,repairs/NNS-6)
+				conj_and(upgrades/NNS-4,repairs/NNS-6)
+				nsubjpass(redeployed/VBN-10,HST/NN-8)
+				nsubjpass(boosted/VBN-12,HST/NN-8)
+				auxpass(redeployed/VBN-10,was/VBD-9)
+				conj_and(redeployed/VBN-10,boosted/VBN-12)
+				poss(orbit/NN-16,its/PRP$-14)
+				amod(orbit/NN-16,highest/JJS-15)
+				prep_to(redeployed/VBN-10,orbit/NN-16)
+				advmod(orbit/NN-16,ever/RB-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>upgrades and repairs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stargate_SG-1_(season_4)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HST</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/British_Rail_Class_43_(HST)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 239 hours, 37 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 239 [[hours|Hour]], 37 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 239 hours, 37 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,239/CD-4)
+				num(minutes/NNS-8,37/CD-7)
+				appos(hours/NNS-5,minutes/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Source:[1] Recipient of the NASA Distinguished Service Medal, four NASA Space Flight Medals, the NASA Exceptional Service Medal, the NASA Exceptional Achievement Medal, the 1999 Rotary National Award for Space Achievement “Stellar” Award for Outstanding Leadership, the 1995 American Astronautical Society Flight Achievement Award, the Johns Hopkins University Presidential Medal, the Purdue University Outstanding Aerospace Engineer and Astronaut Alumnus Awards, Aviation Week & Space Technology Laurels for 1991 (STS 39) and 1995 (STS 71), and the Sigma Chi Fraternity Significant Sig Award.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(:[/NN-2,Source/NN-1)
+				num(Recipient/NNP-5,1/CD-3)
+				punct(Recipient/NNP-5,-RSB-/-RRB--4)
+				dep(:[/NN-2,Recipient/NNP-5)
+				det(Medal/NN-11,the/DT-7)
+				nn(Medal/NN-11,NASA/NNP-8)
+				nn(Medal/NN-11,Distinguished/NNP-9)
+				nn(Medal/NN-11,Service/NNP-10)
+				prep_of(Recipient/NNP-5,Medal/NN-11)
+				amod(Medal/NN-11,four/CD-13)
+				nn(Medals/NNPS-17,NASA/NNP-14)
+				nn(Medals/NNPS-17,Space/NNP-15)
+				nn(Medals/NNPS-17,Flight/NNP-16)
+				dep(:[/NN-2,Medals/NNPS-17)
+				det(Medal/NN-23,the/DT-19)
+				nn(Medal/NN-23,NASA/NNP-20)
+				nn(Medal/NN-23,Exceptional/NNP-21)
+				nn(Medal/NN-23,Service/NNP-22)
+				appos(Medals/NNPS-17,Medal/NN-23)
+				det(Medal/NN-29,the/DT-25)
+				nn(Medal/NN-29,NASA/NNP-26)
+				nn(Medal/NN-29,Exceptional/NNP-27)
+				nn(Medal/NN-29,Achievement/NNP-28)
+				appos(Medals/NNPS-17,Medal/NN-29)
+				det(1999/CD-32,the/DT-31)
+				appos(Medals/NNPS-17,1999/CD-32)
+				amod(Award/NN-35,Rotary/JJ-33)
+				nn(Award/NN-35,National/NNP-34)
+				dep(:[/NN-2,Award/NN-35)
+				nn(Achievement/NNP-38,Space/NN-37)
+				prep_for(Award/NN-35,Achievement/NNP-38)
+				amod(Award/NN-42,Stellar/JJ-40)
+				dep(:[/NN-2,Award/NN-42)
+				amod(Leadership/NN-45,Outstanding/JJ-44)
+				prep_for(Award/NN-42,Leadership/NN-45)
+				det(Awards/NNS-72,the/DT-47)
+				num(Awards/NNS-72,1995/CD-48)
+				amod(Awards/NNS-72,American/JJ-49)
+				nn(Award/NN-54,Astronautical/NNP-50)
+				nn(Award/NN-54,Society/NNP-51)
+				nn(Award/NN-54,Flight/NNP-52)
+				nn(Award/NN-54,Achievement/NNP-53)
+				tmod(American/JJ-49,Award/NN-54)
+				det(Medal/NN-61,the/DT-56)
+				nn(Medal/NN-61,Johns/NNP-57)
+				nn(Medal/NN-61,Hopkins/NNP-58)
+				nn(Medal/NN-61,University/NNP-59)
+				nn(Medal/NN-61,Presidential/NNP-60)
+				tmod(American/JJ-49,Medal/NN-61)
+				conj_and(Award/NN-54,Medal/NN-61)
+				det(Engineer/NNP-68,the/DT-63)
+				nn(Engineer/NNP-68,Purdue/NNP-64)
+				nn(Engineer/NNP-68,University/NNP-65)
+				amod(Engineer/NNP-68,Outstanding/JJ-66)
+				nn(Engineer/NNP-68,Aerospace/NNP-67)
+				tmod(American/JJ-49,Engineer/NNP-68)
+				conj_and(Award/NN-54,Engineer/NNP-68)
+				nn(Alumnus/NNP-71,Astronaut/NNP-70)
+				tmod(American/JJ-49,Alumnus/NNP-71)
+				conj_and(Award/NN-54,Alumnus/NNP-71)
+				appos(:[/NN-2,Awards/NNS-72)
+				nn(Week/NNP-75,Aviation/NNP-74)
+				appos(:[/NN-2,Week/NNP-75)
+				conj_and(Awards/NNS-72,Week/NNP-75)
+				nn(Laurels/NNP-79,Space/NNP-77)
+				nn(Laurels/NNP-79,Technology/NNP-78)
+				conj_and(Awards/NNS-72,Laurels/NNP-79)
+				conj_and(Week/NNP-75,Laurels/NNP-79)
+				prep_for(Week/NNP-75,1991/CD-81)
+				appos(Week/NNP-75,STS/NN-83)
+				num(STS/NN-83,39/CD-84)
+				appos(:[/NN-2,1995/CD-87)
+				conj_and(Awards/NNS-72,1995/CD-87)
+				appos(1995/CD-87,STS/NN-89)
+				num(STS/NN-89,71/CD-90)
+				det(Fraternity/NNP-97,the/DT-94)
+				nn(Fraternity/NNP-97,Sigma/NNP-95)
+				nn(Fraternity/NNP-97,Chi/NNP-96)
+				appos(:[/NN-2,Fraternity/NNP-97)
+				conj_and(Awards/NNS-72,Fraternity/NNP-97)
+				amod(Award/NN-100,Significant/JJ-98)
+				nn(Award/NN-100,Sig/NNP-99)
+				dep(Fraternity/NNP-97,Award/NN-100)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

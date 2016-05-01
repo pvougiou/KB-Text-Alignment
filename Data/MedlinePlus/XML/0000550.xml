@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>These may include:  - Physical exam  - Mammogram  - Breast MRI  - Breast Ultrasound  - Breast Biopsy, either ultrasound or stereotactic  - Chest x-ray  - CT scan  - Bone scan  - PET Scan   Pathological staging uses the results from lab tests done on breast tissue and lymph nodes removed during surgery.</value>
+		<pattern_crowdsource> These may include:  - Physical exam  - Mammogram  - Breast MRI  - Breast Ultrasound  - Breast [[Biopsy|C0005558]], either ultrasound or stereotactic  - Chest x-ray  - CT scan  - Bone scan  - PET Scan   Pathological staging uses the results from lab tests done on [[breast tissue|C1521747]] and [[lymph nodes|C0024204]] removed during surgery.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Physical exam</surface-form>
+				<RDF-ID>C0031809</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Mammogram</surface-form>
+				<RDF-ID>C0024671</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Breast MRI</surface-form>
+				<RDF-ID>C1114599</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ultrasound</surface-form>
+				<RDF-ID>C0220934</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ultrasound</surface-form>
+				<RDF-ID>C0220934</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stereotactic</surface-form>
+				<RDF-ID>C0729296</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Chest x-ray  - CT scan</surface-form>
+				<RDF-ID>C0742261</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bone</surface-form>
+				<RDF-ID>C1266909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pathological staging</surface-form>
+				<RDF-ID>C0443276</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>results</surface-form>
+				<RDF-ID>C1274040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lab</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast tissue</surface-form>
+				<RDF-ID>C1521747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymph nodes</surface-form>
+				<RDF-ID>C0024204</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1521747 LOCATION_OF C0005558</triple>
+			<triple>C0024204 LOCATION_OF C0005558</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>It tells whether the cancer has spread to parts of the body away from the breast.</value>
+		<pattern_crowdsource> It tells whether the [[cancer|C0006826]] has spread to parts of the body away from the [[breast|C0006141]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parts</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006141 LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is cancer that is confined to the lobules or ducts in the breast.</value>
+		<pattern_crowdsource> This is [[cancer|C0006826]] that is confined to the lobules or ducts in the [[breast|C0006141]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lobules</surface-form>
+				<RDF-ID>C0921005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ducts</surface-form>
+				<RDF-ID>C0687028</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006141 LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Lobules are parts of the breast that produce milk.</value>
+		<pattern_crowdsource> [[Lobules|C0921005]] are parts of the [[breast|C0006141]] that produce [[milk|C0026131]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Lobules</surface-form>
+				<RDF-ID>C0921005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parts</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>milk</surface-form>
+				<RDF-ID>C0026131</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0921005 PART_OF C0006141</triple>
+			<triple>C0006141 PRODUCES C0026131</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Ducts carry the milk to the nipple.</value>
+		<pattern_crowdsource> [[Ducts|C0687028]] carry the [[milk|C0026131]] to the nipple.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Ducts</surface-form>
+				<RDF-ID>C0687028</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>milk</surface-form>
+				<RDF-ID>C0026131</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nipple</surface-form>
+				<RDF-ID>C0028109</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0026131 PART_OF C0687028</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There may be no tumor found in the breast, but cancer can be found that has spread to axillary lymph nodes or nodes close to the breastbone.</value>
+		<pattern_crowdsource> There may be no [[tumor|C0027651]] found in the [[breast|C0006141]], but cancer can be found that has spread to axillary lymph nodes or nodes close to the breastbone.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>axillary lymph nodes</surface-form>
+				<RDF-ID>C0729594</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nodes</surface-form>
+				<RDF-ID>C0746922</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breastbone</surface-form>
+				<RDF-ID>C0038293</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006141 LOCATION_OF C0027651</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>There might also be a tumor between 2 and 5 centimeters in the breast with small cancers in some of the lymph nodes.</value>
+		<pattern_crowdsource> There might also be a [[tumor|C0027651]] between 2 and 5 centimeters in the [[breast|C0006141]] with small [[cancers|C0006826]] in some of the lymph nodes.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>centimeters</surface-form>
+				<RDF-ID>C0475210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast</surface-form>
+				<RDF-ID>C0006141</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancers</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymph nodes</surface-form>
+				<RDF-ID>C0024204</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006141 LOCATION_OF C0027651</triple>
+			<triple>C0006826 PART_OF C0006141</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Or the tumor could be larger than 5 centimeters with no cancer in the nodes.</value>
+		<pattern_crowdsource> Or the [[tumor|C0027651]] could be larger than 5 centimeters with no [[cancer|C0006826]] in the [[nodes|C0746922]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>larger</surface-form>
+				<RDF-ID>C0443228</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>centimeters</surface-form>
+				<RDF-ID>C0475210</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nodes</surface-form>
+				<RDF-ID>C0746922</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006826 ISA C0027651</triple>
+			<triple>C0746922 NEG_LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Cancer of any size has spread to at least 10 axillary nodes.</value>
+		<pattern_crowdsource> [[Cancer|C0006826]] of any size has spread to at least 10 [[axillary|C0004454]] [[nodes|C0746922]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>size</surface-form>
+				<RDF-ID>C0456389</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>axillary</surface-form>
+				<RDF-ID>C0004454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nodes</surface-form>
+				<RDF-ID>C0746922</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0004454 LOCATION_OF C0746922</triple>
+			<triple>C0746922 LOCATION_OF C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>With stage I, II, or III breast cancer, the main goal is to cure the cancer by treating it and keeping it from coming back.</value>
+		<pattern_crowdsource> With stage I, II, or III [[breast cancer|C0006142]], the main goal is to cure the [[cancer|C0006826]] by treating it and keeping it from coming back.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>stage</surface-form>
+				<RDF-ID>C1306673</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>III</surface-form>
+				<RDF-ID>C0439070</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breast cancer</surface-form>
+				<RDF-ID>C0006142</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>main</surface-form>
+				<RDF-ID>C0205225</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>goal</surface-form>
+				<RDF-ID>C0018017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treating</surface-form>
+				<RDF-ID>C1522326</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>back</surface-form>
+				<RDF-ID>C0004600</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0006142 ISA C0006826</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James "Larry" DeLucas (O. D., Ph.D.) is an American biochemist who flew aboard NASA Space Shuttle mission STS-50 as a Payload Specialist.	</value>
+
+		<annotated-sentence>	[[James|James_Taylor]] "Larry" DeLucas ([[O. D.|O._D._Wyatt_High_School]], Ph.D.) is an [[American|United_States]] [[biochemist|Biochemistry]] who flew aboard [[NASA|NASA]] [[Space Shuttle|SpaceShuttle]] [[mission|Lyndon_B._Johnson_Space_Center]] [[STS-50|STS-50]] as [[a Payload Specialist|Payload_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	James "Larry" DeLucas (O. D., Ph.D.) is an [[American|United_States]] biochemist who flew aboard [[NASA|NASA]] Space Shuttle [[mission|Lyndon_B._Johnson_Space_Center]] [[STS-50|STS-50]] as a Payload Specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(DeLucas/NNP-5,James/NNP-1)
+				nn(DeLucas/NNP-5,Larry/NNP-3)
+				nsubj(biochemist/NN-15,DeLucas/NNP-5)
+				nn(D./NNP-8,O./NNP-7)
+				appos(DeLucas/NNP-5,D./NNP-8)
+				dep(D./NNP-8,Ph.D./NNP-10)
+				cop(biochemist/NN-15,is/VBZ-12)
+				det(biochemist/NN-15,an/DT-13)
+				amod(biochemist/NN-15,American/JJ-14)
+				nsubj(flew/VBD-17,who/WP-16)
+				rcmod(biochemist/NN-15,flew/VBD-17)
+				nn(STS-50/NN-23,NASA/NNP-19)
+				nn(STS-50/NN-23,Space/NNP-20)
+				nn(STS-50/NN-23,Shuttle/NNP-21)
+				nn(STS-50/NN-23,mission/NN-22)
+				prep_aboard(flew/VBD-17,STS-50/NN-23)
+				det(Specialist/NNP-27,a/DT-25)
+				nn(Specialist/NNP-27,Payload/NNP-26)
+				prep_as(flew/VBD-17,Specialist/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_Taylor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>O. D.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/O._D._Wyatt_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>biochemist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biochemistry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-50</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-50</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lawrence_J._DeLucas http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-50 http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lawrence_J._DeLucas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-50
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-50 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Lawrence_J._DeLucas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-50 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Lawrence_J._DeLucas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born on July 11, 1950 in Syracuse, New York, and is currently married with three children.	</value>
+
+		<annotated-sentence>	He was born on [[July|July]] 11, 1950 in Syracuse, [[New York|New_York]], and is currently married with three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born on July 11, 1950 in Syracuse, [[New York|New_York]], and is currently married with three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				nsubjpass(married/VBN-18,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,July/NNP-5)
+				num(July/NNP-5,11/CD-6)
+				num(July/NNP-5,1950/CD-8)
+				prep_in(July/NNP-5,Syracuse/NNP-10)
+				nn(York/NNP-13,New/NNP-12)
+				appos(Syracuse/NNP-10,York/NNP-13)
+				auxpass(married/VBN-18,is/VBZ-16)
+				advmod(married/VBN-18,currently/RB-17)
+				conj_and(born/VBN-3,married/VBN-18)
+				num(children/NNS-21,three/CD-20)
+				prep_with(married/VBN-18,children/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lawrence_J._DeLucas http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His recreational interests include basketball, scuba diving, bowling, model airplanes, astronomy and reading.	</value>
+
+		<annotated-sentence>	His recreational [[interests|Interest]] include [[basketball|Basketball]], [[scuba diving|Scuba_diving]], [[bowling|Bowling]], [[model airplanes|Model_aircraft]], [[astronomy|Astronomy]] and reading.	</annotated-sentence>
+
+		<pattern_crowdsource>	His recreational interests include basketball, scuba diving, bowling, model airplanes, astronomy and reading.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				amod(interests/NNS-3,recreational/JJ-2)
+				nsubj(include/VBP-4,interests/NNS-3)
+				dobj(include/VBP-4,basketball/NN-5)
+				nn(diving/NN-8,scuba/NN-7)
+				dobj(include/VBP-4,diving/NN-8)
+				conj_and(basketball/NN-5,diving/NN-8)
+				dobj(include/VBP-4,bowling/NN-10)
+				conj_and(basketball/NN-5,bowling/NN-10)
+				nn(airplanes/NNS-13,model/NN-12)
+				dobj(include/VBP-4,airplanes/NNS-13)
+				conj_and(basketball/NN-5,airplanes/NNS-13)
+				dobj(include/VBP-4,astronomy/NN-15)
+				conj_and(basketball/NN-5,astronomy/NN-15)
+				dobj(include/VBP-4,reading/NN-17)
+				conj_and(basketball/NN-5,reading/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>basketball</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Basketball</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scuba diving</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scuba_diving</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>bowling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bowling</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>model airplanes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Model_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	DeLucas attended the University of Alabama at Birmingham (UAB), in Birmingham, Alabama and received the following degrees: DeLucas is a member of the following organizations: He has published over 125 research articles in refereed scientific journals, is co-author of 2 books, and co-inventor on 25 patents.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,DeLucas/NNP-1)
+				nsubj(received/VBD-18,DeLucas/NNP-1)
+				det(University/NNP-4,the/DT-3)
+				dobj(attended/VBD-2,University/NNP-4)
+				prep_of(University/NNP-4,Alabama/NNP-6)
+				prep_at(attended/VBD-2,Birmingham/NNP-8)
+				appos(Birmingham/NNP-8,UAB/NNP-10)
+				nn(Alabama/NNP-16,Birmingham/NNP-14)
+				prep_in(Birmingham/NNP-8,Alabama/NNP-16)
+				conj_and(attended/VBD-2,received/VBD-18)
+				det(degrees/NNS-21,the/DT-19)
+				amod(degrees/NNS-21,following/VBG-20)
+				dobj(received/VBD-18,degrees/NNS-21)
+				nsubj(member/NN-26,DeLucas/NNP-23)
+				cop(member/NN-26,is/VBZ-24)
+				det(member/NN-26,a/DT-25)
+				parataxis(attended/VBD-2,member/NN-26)
+				det(organizations/NNS-30,the/DT-28)
+				amod(organizations/NNS-30,following/VBG-29)
+				prep_of(member/NN-26,organizations/NNS-30)
+				nsubj(published/VBN-34,He/PRP-32)
+				aux(published/VBN-34,has/VBZ-33)
+				parataxis(attended/VBD-2,published/VBN-34)
+				num(articles/NNS-38,125/CD-36)
+				nn(articles/NNS-38,research/NN-37)
+				prep_over(published/VBN-34,articles/NNS-38)
+				mark(co-author/NN-45,in/IN-39)
+				dep(co-author/NN-45,refereed/VBN-40)
+				amod(journals/NNS-42,scientific/JJ-41)
+				dobj(refereed/VBN-40,journals/NNS-42)
+				cop(co-author/NN-45,is/VBZ-44)
+				advcl(published/VBN-34,co-author/NN-45)
+				num(books/NNS-48,2/CD-47)
+				prep_of(co-author/NN-45,books/NNS-48)
+				advcl(published/VBN-34,co-inventor/NN-51)
+				conj_and(co-author/NN-45,co-inventor/NN-51)
+				num(patents/NNS-54,25/CD-53)
+				prep_on(co-inventor/NN-51,patents/NNS-54)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Template:BLP unreferenced section DeLucas was a member of the crew of Space Shuttle Columbia for STS-50 (June 25-July 9, 1992), the United States Microgravity Laboratory-1 (USML-1) Spacelab mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(section/NN-5,BLP/NN-3)
+				amod(section/NN-5,unreferenced/JJ-4)
+				dep(Template/NN-1,section/NN-5)
+				nsubj(member/NN-9,DeLucas/NNP-6)
+				cop(member/NN-9,was/VBD-7)
+				det(member/NN-9,a/DT-8)
+				rcmod(section/NN-5,member/NN-9)
+				det(crew/NN-12,the/DT-11)
+				prep_of(member/NN-9,crew/NN-12)
+				nn(Columbia/NNP-16,Space/NN-14)
+				nn(Columbia/NNP-16,Shuttle/NNP-15)
+				prep_of(crew/NN-12,Columbia/NNP-16)
+				prep_for(Columbia/NNP-16,STS-50/NN-18)
+				dep(STS-50/NN-18,June/NNP-20)
+				dep(June/NNP-20,25-July/NN-21)
+				num(25-July/NN-21,9/CD-22)
+				amod(25-July/NN-21,1992/CD-24)
+				det(Laboratory-1/NN-31,the/DT-27)
+				nn(Laboratory-1/NN-31,United/NNP-28)
+				nn(Laboratory-1/NN-31,States/NNPS-29)
+				nn(Laboratory-1/NN-31,Microgravity/NNP-30)
+				appos(STS-50/NN-18,Laboratory-1/NN-31)
+				appos(Laboratory-1/NN-31,USML-1/NN-33)
+				amod(mission/NN-36,Spacelab/JJ-35)
+				dep(Laboratory-1/NN-31,mission/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Over a two-week period, the crew conducted a wide variety of experiments relating to materials processing and fluid physics.	</value>
+
+		<annotated-sentence>	Over a two-week period, the crew conducted a wide variety of [[experiments|Experiment]] relating to [[materials processing|Materials_processing]] and [[fluid physics|Fluid_mechanics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Over a two-week period, the crew conducted a wide variety of experiments relating to materials processing and fluid physics.	</pattern_crowdsource>
+
+
+		<tree>
+				det(period/NN-4,a/DT-2)
+				amod(period/NN-4,two-week/JJ-3)
+				prep_over(conducted/VBD-8,period/NN-4)
+				det(crew/NN-7,the/DT-6)
+				nsubj(conducted/VBD-8,crew/NN-7)
+				det(variety/NN-11,a/DT-9)
+				amod(variety/NN-11,wide/JJ-10)
+				dobj(conducted/VBD-8,variety/NN-11)
+				prep_of(variety/NN-11,experiments/NNS-13)
+				partmod(experiments/NNS-13,relating/VBG-14)
+				nn(processing/NN-17,materials/NNS-16)
+				prep_to(relating/VBG-14,processing/NN-17)
+				nn(physics/NNS-20,fluid/NN-19)
+				prep_to(relating/VBG-14,physics/NNS-20)
+				conj_and(processing/NN-17,physics/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials processing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Materials_processing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fluid physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fluid_mechanics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At mission conclusion, DeLucas had traveled over 5.7 million miles in 221 Earth orbits, and had logged over 331 hours in space.	</value>
+
+		<annotated-sentence>	At mission conclusion, DeLucas had traveled over 5.7 [[million|Million_(band)]] [[miles|Mile]] in 221 [[Earth orbits|Geocentric_orbit]], and had logged over 331 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At mission conclusion, DeLucas had traveled over 5.7 million miles in 221 Earth orbits, and had logged over 331 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(conclusion/NN-3,mission/NN-2)
+				prep_at(traveled/VBN-7,conclusion/NN-3)
+				nsubj(traveled/VBN-7,DeLucas/NNP-5)
+				nsubj(logged/VBN-19,DeLucas/NNP-5)
+				aux(traveled/VBN-7,had/VBD-6)
+				number(million/CD-10,5.7/CD-9)
+				num(miles/NNS-11,million/CD-10)
+				prep_over(traveled/VBN-7,miles/NNS-11)
+				num(orbits/NNS-15,221/CD-13)
+				nn(orbits/NNS-15,Earth/NNP-14)
+				prep_in(miles/NNS-11,orbits/NNS-15)
+				aux(logged/VBN-19,had/VBD-18)
+				conj_and(traveled/VBN-7,logged/VBN-19)
+				quantmod(331/CD-21,over/IN-20)
+				num(hours/NNS-22,331/CD-21)
+				tmod(logged/VBN-19,hours/NNS-22)
+				prep_in(logged/VBN-19,space/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

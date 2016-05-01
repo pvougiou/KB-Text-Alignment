@@ -1,0 +1,1548 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	William Harvey "Bill" Dana is a retired NASA test pilot and astronaut.	</value>
+
+		<annotated-sentence>	[[William Harvey|William_Harvey]] "[[Bill|Bill_Bedford]]" [[Dana|Bill_Dana_(pilot)]] is a retired [[NASA|NASA]] [[test pilot|Test_pilot]] and [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	William Harvey "[[Bill|Bill_Bedford]]" [[Dana|Bill_Dana_(pilot)]] is a retired [[NASA|NASA]] [[test pilot|Test_pilot]] and [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Dana/NNP-6,William/NNP-1)
+				nn(Dana/NNP-6,Harvey/NNP-2)
+				nn(Dana/NNP-6,Bill/NNP-4)
+				nsubj(pilot/NN-12,Dana/NNP-6)
+				cop(pilot/NN-12,is/VBZ-7)
+				det(pilot/NN-12,a/DT-8)
+				amod(pilot/NN-12,retired/JJ-9)
+				nn(pilot/NN-12,NASA/NNP-10)
+				nn(pilot/NN-12,test/NN-11)
+				conj_and(pilot/NN-12,astronaut/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>William Harvey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/William_Harvey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bill</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bill_Bedford</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bill_Dana_(pilot)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Bedford http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dana was born in Pasadena, California on November 3, 1930.	</value>
+
+		<annotated-sentence>	Dana was born in [[Pasadena , California|Pasadena,_California]]on [[November|November]] 3, 1930.	</annotated-sentence>
+
+		<pattern_crowdsource>	Dana was born in Pasadena, California on November 3, 1930.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Dana/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(California/NNP-7,Pasadena/NNP-5)
+				prep_in(born/VBN-3,California/NNP-7)
+				prep_on(born/VBN-3,November/NNP-9)
+				num(November/NNP-9,3/CD-10)
+				num(November/NNP-9,1930/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Pasadena , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pasadena,_California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Pasadena,_California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a Bachelor of Science degree from the United States Military Academy in 1952 and served four years as a pilot in the United States Air Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				nsubj(served/VBD-17,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				det(Academy/NNP-13,the/DT-9)
+				nn(Academy/NNP-13,United/NNP-10)
+				nn(Academy/NNP-13,States/NNPS-11)
+				nn(Academy/NNP-13,Military/NNP-12)
+				prep_from(received/VBD-2,Academy/NNP-13)
+				prep_in(received/VBD-2,1952/CD-15)
+				conj_and(received/VBD-2,served/VBD-17)
+				num(years/NNS-19,four/CD-18)
+				tmod(served/VBD-17,years/NNS-19)
+				det(pilot/NN-22,a/DT-21)
+				prep_as(served/VBD-17,pilot/NN-22)
+				det(Force/NNP-28,the/DT-24)
+				nn(Force/NNP-28,United/NNP-25)
+				nn(Force/NNP-28,States/NNP-26)
+				nn(Force/NNP-28,Air/NNP-27)
+				prep_in(pilot/NN-22,Force/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He joined NASA after receiving a Master of Science degree in Aeronautical Engineering from the University of Southern California in 1958.	</value>
+
+		<annotated-sentence>	He joined [[NASA|NASA]] after receiving [[a Master of Science degree|Master%27s_degree]] in [[Aeronautical Engineering|Aerospace_engineering]] from [[the University|University]] of [[Southern California|Southern_California]] in [[1958|1958]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He joined [[NASA|NASA]] after receiving a Master of Science degree in Aeronautical Engineering from the University of Southern California in 1958.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,He/PRP-1)
+				dobj(joined/VBD-2,NASA/NNP-3)
+				prepc_after(joined/VBD-2,receiving/VBG-5)
+				det(Master/NN-7,a/DT-6)
+				dobj(receiving/VBG-5,Master/NN-7)
+				nn(degree/NN-10,Science/NNP-9)
+				prep_of(Master/NN-7,degree/NN-10)
+				nn(Engineering/NNP-13,Aeronautical/NNP-12)
+				prep_in(receiving/VBG-5,Engineering/NNP-13)
+				det(University/NNP-16,the/DT-15)
+				prep_from(Engineering/NNP-13,University/NNP-16)
+				nn(California/NNP-19,Southern/NNP-18)
+				prep_of(University/NNP-16,California/NNP-19)
+				prep_in(California/NNP-19,1958/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Master of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master%27s_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aeronautical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Southern California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southern_California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1958</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1958</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dana was Chief Engineer at NASA's Dryden Flight Research Center, Edwards Air Force Base, California, from 1993 until 1998, when he retired after almost 40 years of distinguished service to NASA.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Engineer/NNP-4,Dana/NNP-1)
+				cop(Engineer/NNP-4,was/VBD-2)
+				nn(Engineer/NNP-4,Chief/NNP-3)
+				prep_at(Engineer/NNP-4,NASA/NNP-6)
+				possessive(NASA/NNP-6,'s/POS-7)
+				nn(Center/NNP-11,Dryden/NNP-8)
+				nn(Center/NNP-11,Flight/NNP-9)
+				nn(Center/NNP-11,Research/NNP-10)
+				dep(NASA/NNP-6,Center/NNP-11)
+				nn(Base/NNP-16,Edwards/NNP-13)
+				nn(Base/NNP-16,Air/NNP-14)
+				nn(Base/NNP-16,Force/NNP-15)
+				appos(Center/NNP-11,Base/NNP-16)
+				appos(Center/NNP-11,California/NNP-18)
+				prep_from(Center/NNP-11,1993/CD-21)
+				prep_until(Engineer/NNP-4,1998/CD-23)
+				advmod(retired/VBD-27,when/WRB-25)
+				nsubj(retired/VBD-27,he/PRP-26)
+				advcl(Engineer/NNP-4,retired/VBD-27)
+				quantmod(40/CD-30,almost/RB-29)
+				num(years/NNS-31,40/CD-30)
+				prep_after(retired/VBD-27,years/NNS-31)
+				amod(service/NN-34,distinguished/JJ-33)
+				prep_of(years/NNS-31,service/NN-34)
+				prep_to(retired/VBD-27,NASA/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Formerly an aerospace research pilot, Dana flew the F-100 variable stability research aircraft and the Advanced Fighter Technology Integration/F-16 aircraft as well as many others.	</value>
+
+		<annotated-sentence>	Formerly an [[aerospace|Aerospace]] [[research|Research]] [[pilot|Fighter_aircraft]], Dana flew [[the F-100|North_American_F-100_Super_Sabre]] variable stability [[research|Research]] [[aircraft|Aircraft]] and the [[Advanced|Relative_articulation]] [[Fighter|Fighter_aircraft]] [[Technology|Technology]] Integration/F-16 [[aircraft|Aircraft]] as well as many others.	</annotated-sentence>
+
+		<pattern_crowdsource>	Formerly an aerospace research [[pilot|Fighter_aircraft]], Dana flew [[the F-100|North_American_F-100_Super_Sabre]] variable stability research [[aircraft|Aircraft]] and the Advanced [[Fighter|Fighter_aircraft]] Technology Integration/F-16 [[aircraft|Aircraft]] as well as many others.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(pilot/NN-5,Formerly/RB-1)
+				det(pilot/NN-5,an/DT-2)
+				nn(pilot/NN-5,aerospace/NN-3)
+				nn(pilot/NN-5,research/NN-4)
+				ccomp(flew/VBD-8,pilot/NN-5)
+				nsubj(flew/VBD-8,Dana/NNP-7)
+				det(F-100/NN-10,the/DT-9)
+				dobj(flew/VBD-8,F-100/NN-10)
+				amod(aircraft/NN-14,variable/JJ-11)
+				nn(aircraft/NN-14,stability/NN-12)
+				nn(aircraft/NN-14,research/NN-13)
+				dep(F-100/NN-10,aircraft/NN-14)
+				det(Integration/F/NNP-20,the/DT-16)
+				nn(Integration/F/NNP-20,Advanced/NNP-17)
+				nn(Integration/F/NNP-20,Fighter/NNP-18)
+				nn(Integration/F/NNP-20,Technology/NNP-19)
+				dobj(flew/VBD-8,Integration/F/NNP-20)
+				conj_and(F-100/NN-10,Integration/F/NNP-20)
+				num(aircraft/NN-22,-16/CD-21)
+				dep(Integration/F/NNP-20,aircraft/NN-22)
+				amod(others/NNS-27,many/JJ-26)
+				dobj(flew/VBD-8,others/NNS-27)
+				conj_and(F-100/NN-10,others/NNS-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the F-100</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/North_American_F-100_Super_Sabre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Fighter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_F-100_Super_Sabre http://dbpedia.org/ontology/type http://dbpedia.org/resource/Fighter_aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_F-100_Super_Sabre http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_F-100_Super_Sabre http://dbpedia.org/ontology/type http://dbpedia.org/resource/Fighter_aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/North_American_F-100_Super_Sabre http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Before his assignment as Chief Engineer, he was Assistant Chief of the Flight Operations Division, a position he assumed after serving since 1986 as Chief Pilot.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignment/NN-3,his/PRP$-2)
+				prep_before(Chief/NNP-11,assignment/NN-3)
+				nn(Engineer/NNP-6,Chief/NNP-5)
+				prep_as(assignment/NN-3,Engineer/NNP-6)
+				nsubj(Chief/NNP-11,he/PRP-8)
+				cop(Chief/NNP-11,was/VBD-9)
+				nn(Chief/NNP-11,Assistant/NNP-10)
+				det(Division/NNP-16,the/DT-13)
+				nn(Division/NNP-16,Flight/NNP-14)
+				nn(Division/NNP-16,Operations/NNP-15)
+				prep_of(Chief/NNP-11,Division/NNP-16)
+				det(position/NN-19,a/DT-18)
+				appos(Division/NNP-16,position/NN-19)
+				nsubj(assumed/VBD-21,he/PRP-20)
+				rcmod(position/NN-19,assumed/VBD-21)
+				prepc_after(assumed/VBD-21,serving/VBG-23)
+				prep_since(serving/VBG-23,1986/CD-25)
+				nn(Pilot/NN-28,Chief/NNP-27)
+				prep_as(serving/VBG-23,Pilot/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a project pilot on the F-15 HIDEC (Highly Integrated Digital Electronic Control) research program, and a co-project pilot on the F-18 High Angle of Attack research program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-6,He/PRP-1)
+				cop(pilot/NN-6,was/VBD-2)
+				advmod(pilot/NN-6,also/RB-3)
+				det(pilot/NN-6,a/DT-4)
+				nn(pilot/NN-6,project/NN-5)
+				det(program/NN-19,the/DT-8)
+				nn(HIDEC/NN-10,F-15/NN-9)
+				nn(program/NN-19,HIDEC/NN-10)
+				dep(Control/NNP-16,Highly/RB-12)
+				nn(Control/NNP-16,Integrated/NNP-13)
+				nn(Control/NNP-16,Digital/NNP-14)
+				nn(Control/NNP-16,Electronic/NNP-15)
+				appos(HIDEC/NN-10,Control/NNP-16)
+				nn(program/NN-19,research/NN-18)
+				prep_on(pilot/NN-6,program/NN-19)
+				det(pilot/NN-24,a/DT-22)
+				amod(pilot/NN-24,co-project/JJ-23)
+				prep_on(pilot/NN-6,pilot/NN-24)
+				conj_and(program/NN-19,pilot/NN-24)
+				det(Angle/NN-29,the/DT-26)
+				nn(Angle/NN-29,F-18/NN-27)
+				amod(Angle/NN-29,High/JJ-28)
+				prep_on(pilot/NN-24,Angle/NN-29)
+				nn(program/NN-33,Attack/NN-31)
+				nn(program/NN-33,research/NN-32)
+				prep_of(Angle/NN-29,program/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a research pilot, Dana was involved in some of the most significant aeronautical programs carried out at Dryden.	</value>
+
+		<annotated-sentence>	As a research pilot, Dana was involved in some of the most significant aeronautical programs carried out at Dryden.	</annotated-sentence>
+
+		<pattern_crowdsource>	As a research pilot, Dana was involved in some of the most significant aeronautical programs carried out at Dryden.	</pattern_crowdsource>
+
+
+		<tree>
+				det(pilot/NN-4,a/DT-2)
+				nn(pilot/NN-4,research/NN-3)
+				prep_as(involved/VBN-8,pilot/NN-4)
+				nsubjpass(involved/VBN-8,Dana/NNP-6)
+				auxpass(involved/VBN-8,was/VBD-7)
+				prep_in(involved/VBN-8,some/DT-10)
+				det(programs/NNS-16,the/DT-12)
+				advmod(significant/JJ-14,most/RBS-13)
+				amod(programs/NNS-16,significant/JJ-14)
+				amod(programs/NNS-16,aeronautical/JJ-15)
+				prep_of(some/DT-10,programs/NNS-16)
+				partmod(programs/NNS-16,carried/VBD-17)
+				prt(carried/VBD-17,out/RP-18)
+				prep_at(carried/VBD-17,Dryden/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	For his service as a flight research pilot, he received NASA Distinguished Service Medal in 1997.	</value>
+
+		<annotated-sentence>	For his service as a [[flight|Flight]] [[research|Research]] pilot, he received [[NASA Distinguished Service Medal|NASA_Distinguished_Service_Medal]] in [[1997|1997]].	</annotated-sentence>
+
+		<pattern_crowdsource>	For his service as a flight research pilot, he received NASA Distinguished Service Medal in 1997.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(service/NN-3,his/PRP$-2)
+				prep_for(received/VBD-11,service/NN-3)
+				det(pilot/NN-8,a/DT-5)
+				nn(pilot/NN-8,flight/NN-6)
+				nn(pilot/NN-8,research/NN-7)
+				prep_as(service/NN-3,pilot/NN-8)
+				nsubj(received/VBD-11,he/PRP-10)
+				nn(Medal/NN-15,NASA/NNP-12)
+				nn(Medal/NN-15,Distinguished/NNP-13)
+				nn(Medal/NN-15,Service/NNP-14)
+				dobj(received/VBD-11,Medal/NN-15)
+				prep_in(received/VBD-11,1997/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2000 he was awarded the Milton O. Thompson Lifetime Achievement Award by the Dryden Flight Research Center.	</value>
+
+		<annotated-sentence>	In [[2000|2000]] he was awarded the [[Milton O. Thompson|Milton_Orville_Thompson]] [[Lifetime Achievement Award|List_of_lifetime_achievement_awards]] by [[the Dryden Flight Research Center|Dryden_Flight_Research_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2000 he was awarded the Milton O. Thompson Lifetime Achievement Award by the Dryden Flight Research Center.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(awarded/VBN-5,2000/CD-2)
+				nsubjpass(awarded/VBN-5,he/PRP-3)
+				auxpass(awarded/VBN-5,was/VBD-4)
+				det(Award/NN-12,the/DT-6)
+				nn(Award/NN-12,Milton/NNP-7)
+				nn(Award/NN-12,O./NNP-8)
+				nn(Award/NN-12,Thompson/NNP-9)
+				nn(Award/NN-12,Lifetime/NNP-10)
+				nn(Award/NN-12,Achievement/NNP-11)
+				dobj(awarded/VBN-5,Award/NN-12)
+				det(Center/NNP-18,the/DT-14)
+				nn(Center/NNP-18,Dryden/NNP-15)
+				nn(Center/NNP-18,Flight/NNP-16)
+				nn(Center/NNP-18,Research/NNP-17)
+				agent(awarded/VBN-5,Center/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Milton O. Thompson</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Milton_Orville_Thompson</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lifetime Achievement Award</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_lifetime_achievement_awards</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Dryden Flight Research Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dryden_Flight_Research_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1960 through 1962 he was a pilot astronaut in the U.S. Air Force X-20 Dyna-Soar program.	</value>
+
+		<annotated-sentence>	From [[1960|1960]] through [[1962|1962]] he was a pilot [[astronaut|Astronaut]] in the [[U.S.|US_Airways]] [[Air Force|Air_force]] [[X-20 Dyna-Soar|Boeing_X-20_Dyna-Soar]] program.	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1960 through 1962 he was a pilot [[astronaut|Astronaut]] in the U.S. Air Force X-20 Dyna-Soar program.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(astronaut/NN-9,1960/CD-2)
+				prep_through(1960/CD-2,1962/CD-4)
+				nsubj(astronaut/NN-9,he/PRP-5)
+				cop(astronaut/NN-9,was/VBD-6)
+				det(astronaut/NN-9,a/DT-7)
+				nn(astronaut/NN-9,pilot/NN-8)
+				det(program/NN-17,the/DT-11)
+				nn(program/NN-17,U.S./NNP-12)
+				nn(program/NN-17,Air/NNP-13)
+				nn(program/NN-17,Force/NNP-14)
+				nn(program/NN-17,X-20/NN-15)
+				nn(program/NN-17,Dyna-Soar/NN-16)
+				prep_in(astronaut/NN-9,program/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1960</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/US_Airways</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>X-20 Dyna-Soar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing_X-20_Dyna-Soar</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dana was a project pilot on the hypersonic North American X-15 research aircraft and flew the rocket-powered vehicle 16 times, reaching a top speed of 3,897 mph.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,Dana/NNP-1)
+				nsubj(flew/VBD-15,Dana/NNP-1)
+				cop(pilot/NN-5,was/VBD-2)
+				det(pilot/NN-5,a/DT-3)
+				nn(pilot/NN-5,project/NN-4)
+				det(aircraft/NN-13,the/DT-7)
+				amod(North/JJ-9,hypersonic/JJ-8)
+				amod(aircraft/NN-13,North/JJ-9)
+				amod(aircraft/NN-13,American/JJ-10)
+				nn(aircraft/NN-13,X-15/NN-11)
+				nn(aircraft/NN-13,research/NN-12)
+				prep_on(pilot/NN-5,aircraft/NN-13)
+				conj_and(pilot/NN-5,flew/VBD-15)
+				det(vehicle/NN-18,the/DT-16)
+				amod(vehicle/NN-18,rocket-powered/JJ-17)
+				dobj(flew/VBD-15,vehicle/NN-18)
+				num(times/NNS-20,16/CD-19)
+				tmod(flew/VBD-15,times/NNS-20)
+				partmod(flew/VBD-15,reaching/VBG-22)
+				det(speed/NN-25,a/DT-23)
+				amod(speed/NN-25,top/JJ-24)
+				dobj(reaching/VBG-22,speed/NN-25)
+				num(mph/NN-28,3,897/CD-27)
+				prep_of(speed/NN-25,mph/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His peak altitude of 307,000 feet (nearly 59 miles high) technically qualified him for the Astronaut Badge, although he was not formally recognized as an astronaut until 2005.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(altitude/NN-3,His/PRP$-1)
+				amod(altitude/NN-3,peak/JJ-2)
+				nsubj(qualified/VBD-14,altitude/NN-3)
+				num(feet/NNS-6,307,000/CD-5)
+				prep_of(altitude/NN-3,feet/NNS-6)
+				quantmod(59/CD-9,nearly/RB-8)
+				num(miles/NNS-10,59/CD-9)
+				npadvmod(high/RB-11,miles/NNS-10)
+				dep(feet/NNS-6,high/RB-11)
+				advmod(qualified/VBD-14,technically/RB-13)
+				dobj(qualified/VBD-14,him/PRP-15)
+				det(Badge/NNP-19,the/DT-17)
+				nn(Badge/NNP-19,Astronaut/NNP-18)
+				prep_for(qualified/VBD-14,Badge/NNP-19)
+				mark(recognized/VBN-26,although/IN-21)
+				nsubjpass(recognized/VBN-26,he/PRP-22)
+				auxpass(recognized/VBN-26,was/VBD-23)
+				neg(recognized/VBN-26,not/RB-24)
+				advmod(recognized/VBN-26,formally/RB-25)
+				advcl(qualified/VBD-14,recognized/VBN-26)
+				det(astronaut/NN-29,an/DT-28)
+				prep_as(recognized/VBN-26,astronaut/NN-29)
+				prep_until(recognized/VBN-26,2005/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the pilot on the final (199th) flight of the 10-year program.	</value>
+
+		<annotated-sentence>	He was the pilot on the final (199th) [[flight|Flight]] of the 10-year program.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the pilot on the final (199th) flight of the 10-year program.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-4,He/PRP-1)
+				cop(pilot/NN-4,was/VBD-2)
+				det(pilot/NN-4,the/DT-3)
+				det(flight/NN-11,the/DT-6)
+				amod(flight/NN-11,final/JJ-7)
+				dep(flight/NN-11,199th/JJ-9)
+				prep_on(pilot/NN-4,flight/NN-11)
+				det(program/NN-15,the/DT-13)
+				amod(program/NN-15,10-year/JJ-14)
+				prep_of(pilot/NN-4,program/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the late 1960s and in the 1970s, Dana was a project pilot on the manned lifting body program, which flew several versions of the wingless vehicles and produced data that helped in development of the Space Shuttle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(1960s/NNS-4,the/DT-2)
+				amod(1960s/NNS-4,late/JJ-3)
+				prep_in(pilot/NN-14,1960s/NNS-4)
+				conj_and(1960s/NNS-4,in/IN-6)
+				prep_in(pilot/NN-14,in/IN-6)
+				det(1970s/NNS-8,the/DT-7)
+				pobj(in/IN-6,1970s/NNS-8)
+				nsubj(pilot/NN-14,Dana/NNP-10)
+				cop(pilot/NN-14,was/VBD-11)
+				det(pilot/NN-14,a/DT-12)
+				nn(pilot/NN-14,project/NN-13)
+				det(program/NN-20,the/DT-16)
+				amod(program/NN-20,manned/VBN-17)
+				nn(program/NN-20,lifting/NN-18)
+				nn(program/NN-20,body/NN-19)
+				prep_on(pilot/NN-14,program/NN-20)
+				nsubj(flew/VBD-23,which/WDT-22)
+				nsubj(produced/VBD-31,which/WDT-22)
+				rcmod(program/NN-20,flew/VBD-23)
+				amod(versions/NNS-25,several/JJ-24)
+				dobj(flew/VBD-23,versions/NNS-25)
+				det(vehicles/NNS-29,the/DT-27)
+				amod(vehicles/NNS-29,wingless/JJ-28)
+				prep_of(versions/NNS-25,vehicles/NNS-29)
+				rcmod(program/NN-20,produced/VBD-31)
+				conj_and(flew/VBD-23,produced/VBD-31)
+				dobj(produced/VBD-31,data/NNS-32)
+				nsubj(helped/VBD-34,that/WDT-33)
+				rcmod(data/NNS-32,helped/VBD-34)
+				prep_in(helped/VBD-34,development/NN-36)
+				det(Shuttle/NNP-40,the/DT-38)
+				nn(Shuttle/NNP-40,Space/NN-39)
+				prep_of(development/NN-36,Shuttle/NNP-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed one NASA M2-F1, nine Northrop HL-10, nineteen Northrop M2-F3 and two Martin Marietta X-24B flights, for a total of 31 lifting body missions.	</value>
+
+		<annotated-sentence>	He completed [[one NASA M2-F1|NASA_M2-F1]], [[nine Northrop HL-10|Northrop_HL-10]], nineteen [[Northrop M2-F3|Northrop_M2-F3]] and two [[Martin Marietta X-24B|Martin_Marietta_X-24B]] [[flights|Flight]], for a total of 31 [[lifting body|Lifting_body]] missions.	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed [[one NASA M2-F1|NASA_M2-F1]], [[nine Northrop HL-10|Northrop_HL-10]], nineteen [[Northrop M2-F3|Northrop_M2-F3]] and two Martin Marietta X-24B flights, for a total of 31 [[lifting body|Lifting_body]] missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				num(M2-F1/NN-5,one/CD-3)
+				nn(M2-F1/NN-5,NASA/NNP-4)
+				dobj(completed/VBD-2,M2-F1/NN-5)
+				num(HL-10/NNP-9,nine/CD-7)
+				nn(HL-10/NNP-9,Northrop/NNP-8)
+				dobj(completed/VBD-2,HL-10/NNP-9)
+				conj_and(M2-F1/NN-5,HL-10/NNP-9)
+				num(M2-F3/NN-13,nineteen/CD-11)
+				nn(M2-F3/NN-13,Northrop/NNP-12)
+				dobj(completed/VBD-2,M2-F3/NN-13)
+				conj_and(M2-F1/NN-5,M2-F3/NN-13)
+				num(flights/NNS-19,two/CD-15)
+				nn(flights/NNS-19,Martin/NNP-16)
+				nn(flights/NNS-19,Marietta/NNP-17)
+				nn(flights/NNS-19,X-24B/NN-18)
+				dobj(completed/VBD-2,flights/NNS-19)
+				conj_and(M2-F1/NN-5,flights/NNS-19)
+				det(total/NN-23,a/DT-22)
+				prep_for(completed/VBD-2,total/NN-23)
+				num(missions/NNS-28,31/CD-25)
+				nn(missions/NNS-28,lifting/NN-26)
+				nn(missions/NNS-28,body/NN-27)
+				prep_of(total/NN-23,missions/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>one NASA M2-F1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_M2-F1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>nine Northrop HL-10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_HL-10</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Northrop M2-F3</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_M2-F3</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Martin Marietta X-24B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Martin_Marietta_X-24B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lifting body</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lifting_body</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/NASA_M2-F1 http://dbpedia.org/property/variantsWithTheirOwnArticles http://dbpedia.org/resource/Northrop_M2-F3
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Northrop_M2-F3 http://dbpedia.org/property/developedFrom http://dbpedia.org/resource/NASA_M2-F1
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Northrop_HL-10 http://dbpedia.org/ontology/type http://dbpedia.org/resource/Lifting_body
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dana has been married to Judi Dana since 1962.	</value>
+
+		<annotated-sentence>	Dana has been married to Judi Dana since [[1962|1962]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dana has been married to Judi Dana since 1962.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-4,Dana/NNP-1)
+				aux(married/VBN-4,has/VBZ-2)
+				auxpass(married/VBN-4,been/VBN-3)
+				nn(Dana/NNP-7,Judi/NNP-6)
+				prep_to(married/VBN-4,Dana/NNP-7)
+				prep_since(Dana/NNP-7,1962/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Together they have raised four children, Sidney, Matt, Janet (Jan), and Leslie (Cricket); they have seven grandchildren.	</value>
+
+		<annotated-sentence>	Together they have raised [[four children|Child]], Sidney, Matt, [[Janet|JANET]] (Jan), and Leslie ([[Cricket|Cricket]]); they have [[seven grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Together they have raised four children, Sidney, Matt, Janet (Jan), and Leslie (Cricket); they have seven grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(raised/VBN-4,Together/RB-1)
+				nsubj(raised/VBN-4,they/PRP-2)
+				aux(raised/VBN-4,have/VBP-3)
+				num(children/NNS-6,four/CD-5)
+				dobj(raised/VBN-4,children/NNS-6)
+				dobj(raised/VBN-4,Sidney/NNP-8)
+				conj_and(children/NNS-6,Sidney/NNP-8)
+				dobj(raised/VBN-4,Matt/NNP-10)
+				conj_and(children/NNS-6,Matt/NNP-10)
+				dobj(raised/VBN-4,Janet/NNP-12)
+				conj_and(children/NNS-6,Janet/NNP-12)
+				appos(Janet/NNP-12,Jan/NNP-14)
+				dobj(raised/VBN-4,Leslie/NNP-18)
+				conj_and(children/NNS-6,Leslie/NNP-18)
+				appos(Leslie/NNP-18,Cricket/NNP-20)
+				nsubj(have/VBP-24,they/PRP-23)
+				parataxis(raised/VBN-4,have/VBP-24)
+				num(grandchildren/NNS-26,seven/CD-25)
+				dobj(have/VBP-24,grandchildren/NNS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>four children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Janet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/JANET</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cricket</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cricket</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>seven grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He now lives in Phoenix, Arizona.	</value>
+
+		<annotated-sentence>	He now lives in [[Phoenix , Arizona|Phoenix,_Arizona]]	</annotated-sentence>
+
+		<pattern_crowdsource>	He now lives in Phoenix, Arizona.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(lives/VBZ-3,He/PRP-1)
+				advmod(lives/VBZ-3,now/RB-2)
+				nn(Arizona/NNP-7,Phoenix/NNP-5)
+				prep_in(lives/VBZ-3,Arizona/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Phoenix , Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Phoenix,_Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/Phoenix,_Arizona
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	For his contributions to the lifting body program, Dana received the NASA Exceptional Service Medal.	</value>
+
+		<annotated-sentence>	For [[his contributions|Fundraising]] to the [[lifting body|Lifting_body]] program, Dana received [[the NASA Exceptional Service Medal|NASA_Exceptional_Service_Medal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	For his contributions to the lifting body program, Dana received the NASA Exceptional Service Medal.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(contributions/NNS-3,his/PRP$-2)
+				prep_for(received/VBD-11,contributions/NNS-3)
+				det(program/NN-8,the/DT-5)
+				nn(program/NN-8,lifting/NN-6)
+				nn(program/NN-8,body/NN-7)
+				prep_to(contributions/NNS-3,program/NN-8)
+				nsubj(received/VBD-11,Dana/NNP-10)
+				det(Medal/NN-16,the/DT-12)
+				nn(Medal/NN-16,NASA/NNP-13)
+				nn(Medal/NN-16,Exceptional/NNP-14)
+				nn(Medal/NN-16,Service/NNP-15)
+				dobj(received/VBD-11,Medal/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his contributions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fundraising</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lifting body</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lifting_body</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Exceptional Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Exceptional_Service_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1976 he received the Haley Space Flight Award from the American Institute of Aeronautics and Astronautics (AIAA) for his research work on the M2-F3 lifting body control systems.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-4,1976/CD-2)
+				nsubj(received/VBD-4,he/PRP-3)
+				det(Award/NN-9,the/DT-5)
+				nn(Award/NN-9,Haley/NNP-6)
+				nn(Award/NN-9,Space/NNP-7)
+				nn(Award/NN-9,Flight/NNP-8)
+				dobj(received/VBD-4,Award/NN-9)
+				det(Institute/NNP-13,the/DT-11)
+				nn(Institute/NNP-13,American/NNP-12)
+				prep_from(Award/NN-9,Institute/NNP-13)
+				prep_of(Institute/NNP-13,Aeronautics/NNP-15)
+				prep_of(Institute/NNP-13,Astronautics/NNP-17)
+				conj_and(Aeronautics/NNP-15,Astronautics/NNP-17)
+				appos(Award/NN-9,AIAA/NNP-19)
+				poss(work/NN-24,his/PRP$-22)
+				nn(work/NN-24,research/NN-23)
+				prep_for(received/VBD-4,work/NN-24)
+				det(systems/NNS-31,the/DT-26)
+				nn(systems/NNS-31,M2-F3/NN-27)
+				nn(systems/NNS-31,lifting/NN-28)
+				nn(systems/NNS-31,body/NN-29)
+				nn(systems/NNS-31,control/NN-30)
+				prep_on(received/VBD-4,systems/NNS-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A member of the Society of Experimental Test Pilots, Dana is the author of several technical papers.	</value>
+
+		<annotated-sentence>	A member of [[the Society|Society]] of Experimental [[Test Pilots|Test_pilot]], Dana is [[the author|Author]] of [[several technical papers|Scientific_journal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A member of the Society of Experimental [[Test Pilots|Test_pilot]], Dana is the author of several technical papers.	</pattern_crowdsource>
+
+
+		<tree>
+				det(member/NN-2,A/DT-1)
+				nsubj(author/NN-14,member/NN-2)
+				det(Society/NNP-5,the/DT-4)
+				prep_of(member/NN-2,Society/NNP-5)
+				amod(Pilots/NNS-9,Experimental/JJ-7)
+				nn(Pilots/NNS-9,Test/NN-8)
+				prep_of(Society/NNP-5,Pilots/NNS-9)
+				appos(Pilots/NNS-9,Dana/NNP-11)
+				cop(author/NN-14,is/VBZ-12)
+				det(author/NN-14,the/DT-13)
+				amod(papers/NNS-18,several/JJ-16)
+				amod(papers/NNS-18,technical/JJ-17)
+				prep_of(author/NN-14,papers/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Society</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the author</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Author</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several technical papers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scientific_journal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1993, he was inducted into the Aerospace Walk of Honor.	</value>
+
+		<annotated-sentence>	In [[1993|1993]], he was inducted into [[the Aerospace|Aerospace]] Walk of Honor.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1993, he was inducted into the Aerospace Walk of Honor.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(inducted/VBN-6,1993/CD-2)
+				nsubjpass(inducted/VBN-6,he/PRP-4)
+				auxpass(inducted/VBN-6,was/VBD-5)
+				det(Aerospace/NNP-9,the/DT-8)
+				prep_into(inducted/VBN-6,Aerospace/NNP-9)
+				ccomp(inducted/VBN-6,Walk/VB-10)
+				prep_of(Walk/VB-10,Honor/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On 23 August 2005, NASA officially conferred on Dana his astronaut's wings.	</value>
+
+		<annotated-sentence>	On 23 [[August 2005|August_2005]], [[NASA|NASA]] officially conferred on Dana his [[astronaut|Astronaut]]'s wings.	</annotated-sentence>
+
+		<pattern_crowdsource>	On 23 August 2005, [[NASA|NASA]] officially conferred on Dana his [[astronaut|Astronaut]]'s wings.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(conferred/VBD-8,23/CD-2)
+				tmod(conferred/VBD-8,August/NNP-3)
+				num(August/NNP-3,2005/CD-4)
+				nsubj(conferred/VBD-8,NASA/NNP-6)
+				advmod(conferred/VBD-8,officially/RB-7)
+				prep_on(conferred/VBD-8,Dana/NNP-10)
+				poss(astronaut/NN-12,his/PRP$-11)
+				poss(wings/NNS-14,astronaut/NN-12)
+				dep(conferred/VBD-8,wings/NNS-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 2005</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2005</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bill_Dana_(pilot) http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

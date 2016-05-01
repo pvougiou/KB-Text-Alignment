@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Mediastinoscopy with biopsy is a procedure in which a lighted instrument (mediastinoscope) is inserted in the space in the chest between the lungs (mediastinum).</value>
+		<pattern_crowdsource> [[Mediastinoscopy|C0025065]] with [[biopsy|C0005558]] is a [[procedure|C0184661]] in which a lighted instrument (mediastinoscope) is inserted in the space in the [[chest|C0817096]] between the lungs (mediastinum).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Mediastinoscopy</surface-form>
+				<RDF-ID>C0025065</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lighted</surface-form>
+				<RDF-ID>C0392223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>instrument</surface-form>
+				<RDF-ID>C0348000</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mediastinoscope</surface-form>
+				<RDF-ID>C0181792</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lungs</surface-form>
+				<RDF-ID>C0024109</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mediastinum</surface-form>
+				<RDF-ID>C0025066</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025065 ISA C0184661</triple>
+			<triple>C0817096 LOCATION_OF C0005558</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A small surgical cut is made in the neck.</value>
+		<pattern_crowdsource> A small surgical [[cut|C0000925]] is made in the [[neck|C1281592]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>small</surface-form>
+				<RDF-ID>C0700321</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgical</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C1281592</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1281592 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- This procedure is also done for certain infections (tuberculosis, sarcoidosis) and autoimmune disorders.</value>
+		<pattern_crowdsource> - This [[procedure|C0184661]] is also done for certain [[infections|C0021311]] ([[tuberculosis|C0041296]], [[sarcoidosis|C0036202]]) and autoimmune disorders.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tuberculosis</surface-form>
+				<RDF-ID>C0041296</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sarcoidosis</surface-form>
+				<RDF-ID>C0036202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>autoimmune disorders</surface-form>
+				<RDF-ID>C0004364</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0041296 ISA C0021311</triple>
+			<triple>C0036202 ISA C0021311</triple>
+			<triple>C0184661 TREATS C0021311</triple>
+			<triple>C0184661 TREATS C0041296</triple>
+			<triple>C0184661 TREATS C0036202</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Biopsies of lymph node tissues are normal and do not show signs of cancer or infection.</value>
+		<pattern_crowdsource> [[Biopsies|C0005558]] of [[lymph node tissues|C0440747]] are normal and do not show [[signs|C0311392]] of cancer or infection.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Biopsies</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lymph node tissues</surface-form>
+				<RDF-ID>C0440747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0440747 LOCATION_OF C0005558</triple>
+			<triple>C0005558 NEG_DIAGNOSES C0311392</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Abnormal findings may indicate:  - Hodgkin disease  - Lung cancer  - Lymphoma  - Sarcoidosis  - The spread of disease from one body part to another  - Tuberculosis</value>
+		<pattern_crowdsource> Abnormal findings may indicate:  - Hodgkin disease  - Lung cancer  - Lymphoma  - Sarcoidosis  - The spread of [[disease|C0012634]] from one [[body part|C0229962]] to another  - Tuberculosis		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>findings</surface-form>
+				<RDF-ID>C0243095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hodgkin disease</surface-form>
+				<RDF-ID>C0019829</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lung cancer</surface-form>
+				<RDF-ID>C0242379</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Lymphoma</surface-form>
+				<RDF-ID>C0024299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Sarcoidosis</surface-form>
+				<RDF-ID>C0036202</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>one</surface-form>
+				<RDF-ID>C0205447</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>body part</surface-form>
+				<RDF-ID>C0229962</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tuberculosis</surface-form>
+				<RDF-ID>C0041296</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0229962 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Vitamin B12 is a water-soluble vitamin.</value>
+		<pattern_crowdsource> [[Vitamin B12|C0042845]] is a [[water-soluble vitamin|C0259754]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water-soluble vitamin</surface-form>
+				<RDF-ID>C0259754</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042845 ISA C0259754</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Water-soluble vitamins dissolve in water.</value>
+		<pattern_crowdsource> [[Water-soluble vitamins|C0259754]] dissolve in [[water|C0043047]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Water-soluble vitamins</surface-form>
+				<RDF-ID>C0259754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0043047</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0259754 COEXISTS_WITH C0043047</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The body can store vitamin B12 for years in the liver.</value>
+		<pattern_crowdsource> The body can store [[vitamin B12|C0042845]] for years in the [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>C0439234</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023884 LOCATION_OF C0042845</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Vitamin B12, like the other B vitamins, is important for protein metabolism.</value>
+		<pattern_crowdsource> [[Vitamin B12|C0042845]], like the other [[B vitamins|C0042849]], is important for [[protein metabolism|C0597299]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>B vitamins</surface-form>
+				<RDF-ID>C0042849</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>protein metabolism</surface-form>
+				<RDF-ID>C0597299</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042845 ISA C0042849</triple>
+			<triple>C0042849 AFFECTS C0597299</triple>
+			<triple>C0042845 AFFECTS C0597299</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- People who have had gastrointestinal surgery, such as weight loss surgery, lose the ability to absorb vitamin B12.</value>
+		<pattern_crowdsource> - People who have had [[gastrointestinal surgery|C0524722]], such as [[weight loss surgery|C1456587]], lose the ability to absorb vitamin B12.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gastrointestinal surgery</surface-form>
+				<RDF-ID>C0524722</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight loss surgery</surface-form>
+				<RDF-ID>C1456587</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ability</surface-form>
+				<RDF-ID>C0085732</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1456587 ISA C0524722</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- People who have digestive disorders, such as celiac disease or Crohn's disease, may not absorb enough vitamin B12.</value>
+		<pattern_crowdsource> - [[People|C0027361]] who have [[digestive disorders|C0012242]], such as [[celiac disease|C0007570]] or [[Crohn's disease|C0010346]], may not absorb enough vitamin B12.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>digestive disorders</surface-form>
+				<RDF-ID>C0012242</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>celiac disease</surface-form>
+				<RDF-ID>C0007570</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Crohn's disease</surface-form>
+				<RDF-ID>C0010346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007570 ISA C0012242</triple>
+			<triple>C0010346 ISA C0012242</triple>
+			<triple>C0012242 PROCESS_OF C0027361</triple>
+			<triple>C0007570 PROCESS_OF C0027361</triple>
+			<triple>C0010346 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Low levels of B12 can cause:  - Anemia and pernicious anemia  - Loss of balance  - Numbness or tingling in the arms and legs  - Weakness</value>
+		<pattern_crowdsource> Low levels of B12 can cause:  - Anemia and pernicious anemia  - Loss of balance  - [[Numbness|C0020580]] or tingling in the [[arms|C0446516]] and legs  - Weakness		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Low</surface-form>
+				<RDF-ID>C0205251</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>B12</surface-form>
+				<RDF-ID></RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Anemia</surface-form>
+				<RDF-ID>C0002871</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pernicious anemia</surface-form>
+				<RDF-ID>C0002892</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Loss</surface-form>
+				<RDF-ID>C1517945</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>balance</surface-form>
+				<RDF-ID>C0205415</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Numbness</surface-form>
+				<RDF-ID>C0020580</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tingling</surface-form>
+				<RDF-ID>C0423572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arms</surface-form>
+				<RDF-ID>C0446516</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>legs</surface-form>
+				<RDF-ID>C1140621</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Weakness</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0446516 LOCATION_OF C0020580</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The RDA for vitamins may be used as goals for each person.</value>
+		<pattern_crowdsource> The RDA for [[vitamins|C0042890]] may be used as goals for each [[person|C0027361]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>RDA</surface-form>
+				<RDF-ID>C0524787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamins</surface-form>
+				<RDF-ID>C0042890</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>goals</surface-form>
+				<RDF-ID>C0018017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042890 TREATS C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

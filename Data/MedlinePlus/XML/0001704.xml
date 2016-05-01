@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>There are about 20,000 genes in each cell of the human body.</value>
+		<pattern_crowdsource> There are about 20,000 [[genes|C0017337]] in each [[cell|C0007634]] of the [[human body|C0242821]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>genes</surface-form>
+				<RDF-ID>C0017337</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cell</surface-form>
+				<RDF-ID>C0007634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>human body</surface-form>
+				<RDF-ID>C0242821</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007634 LOCATION_OF C0017337</triple>
+			<triple>C0007634 PART_OF C0242821</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The gene occurs in the same position on each chromosome.</value>
+		<pattern_crowdsource> The [[gene|C0017337]] occurs in the same position on each [[chromosome|C0008633]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>gene</surface-form>
+				<RDF-ID>C0017337</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>position</surface-form>
+				<RDF-ID>C0733755</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chromosome</surface-form>
+				<RDF-ID>C0008633</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008633 LOCATION_OF C0017337</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Recessive traits need both genes in the gene pair to work together.</value>
+		<pattern_crowdsource> - Recessive traits need both [[genes|C0017337]] in the [[gene|C0017337]] pair to work together.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>traits</surface-form>
+				<RDF-ID>C0599883</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>genes</surface-form>
+				<RDF-ID>C0017337</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gene</surface-form>
+				<RDF-ID>C0017337</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0017337 COEXISTS_WITH C0017337</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,2243 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Stuart Allen Roosa (August 16, 1933 – December 12, 1994) was a NASA astronaut, who was the command module pilot for the Apollo 14 mission.	</value>
+
+		<annotated-sentence>	[[Stuart Allen Roosa|Stuart_Roosa]] (August 16, 1933 – December 12, 1994) was a [[NASA|NASA]] [[astronaut|Astronaut]], who was [[the command module pilot|Apollo_program]] for the [[Apollo 14|Apollo_14]] [[mission|Apollo_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Stuart Allen Roosa|Stuart_Roosa]] (August 16, 1933 – December 12, 1994) was a [[NASA|NASA]] [[astronaut|Astronaut]], who was [[the command module pilot|Apollo_program]] for the [[Apollo 14|Apollo_14]] [[mission|Apollo_program]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Roosa/NNP-3,Stuart/NNP-1)
+				nn(Roosa/NNP-3,Allen/NNP-2)
+				nsubj(astronaut/NN-18,Roosa/NNP-3)
+				dep(Roosa/NNP-3,August/NNP-5)
+				num(August/NNP-5,16/CD-6)
+				num(August/NNP-5,1933/CD-8)
+				dep(August/NNP-5,December/NNP-10)
+				num(December/NNP-10,12/CD-11)
+				num(December/NNP-10,1994/CD-13)
+				cop(astronaut/NN-18,was/VBD-15)
+				det(astronaut/NN-18,a/DT-16)
+				nn(astronaut/NN-18,NASA/NNP-17)
+				nsubj(pilot/NN-25,who/WP-20)
+				cop(pilot/NN-25,was/VBD-21)
+				det(pilot/NN-25,the/DT-22)
+				nn(pilot/NN-25,command/NN-23)
+				nn(pilot/NN-25,module/NN-24)
+				rcmod(astronaut/NN-18,pilot/NN-25)
+				det(mission/NN-30,the/DT-27)
+				nn(mission/NN-30,Apollo/NNP-28)
+				num(mission/NN-30,14/CD-29)
+				prep_for(pilot/NN-25,mission/NN-30)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stuart Allen Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stuart_Roosa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the command module pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Apollo 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/programme http://dbpedia.org/resource/Apollo_program
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Stuart_Roosa
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Stuart_Roosa
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/programme http://dbpedia.org/resource/Apollo_program
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission lasted from January 31 to February 9, 1971 and was the third mission to land astronauts (Alan Shepard and Edgar Mitchell) on the Moon.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(lasted/VBD-3,mission/NN-2)
+				prep_from(lasted/VBD-3,January/NNP-5)
+				num(January/NNP-5,31/CD-6)
+				prep_to(lasted/VBD-3,February/NNP-8)
+				num(February/NNP-8,9/CD-9)
+				num(February/NNP-8,1971/CD-11)
+				cop(mission/NN-16,was/VBD-13)
+				det(mission/NN-16,the/DT-14)
+				amod(mission/NN-16,third/JJ-15)
+				conj_and(lasted/VBD-3,mission/NN-16)
+				aux(land/VB-18,to/TO-17)
+				infmod(mission/NN-16,land/VB-18)
+				dobj(land/VB-18,astronauts/NNS-19)
+				nn(Shepard/NNP-22,Alan/NNP-21)
+				dep(astronauts/NNS-19,Shepard/NNP-22)
+				nn(Mitchell/NNP-25,Edgar/NNP-24)
+				dep(astronauts/NNS-19,Mitchell/NNP-25)
+				conj_and(Shepard/NNP-22,Mitchell/NNP-25)
+				det(Moon/NNP-29,the/DT-28)
+				prep_on(astronauts/NNS-19,Moon/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While Shepard and Mitchell spent two days on the lunar surface, Roosa conducted experiments from orbit in the command module "Kitty Hawk".	</value>
+
+		<annotated-sentence>	While Shepard and Mitchell spent two days on [[the lunar surface|Lunar_surface]], [[Roosa|R%C3%B6%C3%B6sa]] conducted [[experiments|Experiment]] from orbit in the [[command module|Command_module]] "Kitty Hawk".	</annotated-sentence>
+
+		<pattern_crowdsource>	While Shepard and Mitchell spent two days on the lunar surface, Roosa conducted experiments from orbit in the command module "Kitty Hawk".	</pattern_crowdsource>
+
+
+		<tree>
+				mark(spent/VBD-5,While/IN-1)
+				nsubj(spent/VBD-5,Shepard/NNP-2)
+				conj_and(Shepard/NNP-2,Mitchell/NNP-4)
+				nsubj(spent/VBD-5,Mitchell/NNP-4)
+				advcl(conducted/VBD-14,spent/VBD-5)
+				num(days/NNS-7,two/CD-6)
+				tmod(spent/VBD-5,days/NNS-7)
+				det(surface/NN-11,the/DT-9)
+				amod(surface/NN-11,lunar/JJ-10)
+				prep_on(spent/VBD-5,surface/NN-11)
+				nsubj(conducted/VBD-14,Roosa/NNP-13)
+				dobj(conducted/VBD-14,experiments/NNS-15)
+				prep_from(conducted/VBD-14,orbit/NN-17)
+				det(Hawk/NNP-24,the/DT-19)
+				nn(Hawk/NNP-24,command/NN-20)
+				nn(Hawk/NNP-24,module/NN-21)
+				nn(Hawk/NNP-24,Kitty/NNP-23)
+				prep_in(conducted/VBD-14,Hawk/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the lunar surface</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lunar_surface</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>command module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Command_module</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was one of only 24 people to travel to the Moon.	</value>
+
+		<annotated-sentence>	He was one of only 24 people to travel to [[the Moon|Moon]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was one of only 24 people to travel to the Moon.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,He/PRP-1)
+				cop(one/CD-3,was/VBD-2)
+				quantmod(24/CD-6,only/RB-5)
+				num(people/NNS-7,24/CD-6)
+				prep_of(one/CD-3,people/NNS-7)
+				aux(travel/VB-9,to/TO-8)
+				infmod(one/CD-3,travel/VB-9)
+				det(Moon/NNP-12,the/DT-11)
+				prep_to(travel/VB-9,Moon/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Roosa was born in Durango, Colorado, and grew up in Claremore, Oklahoma.	</value>
+
+		<annotated-sentence>	[[Roosa|R%C3%B6%C3%B6sa]] was born in [[Durango , Colorado ,|Akron,_Ohio]]nd grew up in [[Claremore , Oklahoma|Claremore,_Oklahoma]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Roosa was born in Durango, Colorado, and grew up in Claremore, Oklahoma.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Roosa/NNP-1)
+				nsubjpass(grew/VBD-10,Roosa/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Colorado/NNP-7,Durango/NNP-5)
+				prep_in(born/VBN-3,Colorado/NNP-7)
+				conj_and(born/VBN-3,grew/VBD-10)
+				prt(grew/VBD-10,up/RP-11)
+				nn(Oklahoma/NNP-15,Claremore/NNP-13)
+				prep_in(grew/VBD-10,Oklahoma/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Durango , Colorado ,</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Akron,_Ohio</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Claremore , Oklahoma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claremore,_Oklahoma</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He attended Oklahoma State University and the University of Arizona.	</value>
+
+		<annotated-sentence>	He attended Oklahoma State University and [[the University of Arizona|University_of_Arizona]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He attended Oklahoma State University and [[the University of Arizona|University_of_Arizona]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,He/PRP-1)
+				nn(University/NNP-5,Oklahoma/NNP-3)
+				nn(University/NNP-5,State/NNP-4)
+				dobj(attended/VBD-2,University/NNP-5)
+				det(University/NNP-8,the/DT-7)
+				dobj(attended/VBD-2,University/NNP-8)
+				conj_and(University/NNP-5,University/NNP-8)
+				prep_of(University/NNP-8,Arizona/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the University of Arizona</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Arizona</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/property/almaMater http://dbpedia.org/resource/University_of_Arizona
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He started his career as a smokejumper with the U.S. Forest Service in the early 1950s.	</value>
+
+		<annotated-sentence>	He started [[his career|Career]] as [[a smokejumper|Transformers:_Generation_2]] with [[the U.S. Forest Service|United_States_Forest_Service]] in [[the early 1950s|1950s]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He started his career as a smokejumper with the U.S. Forest Service in the early 1950s.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(started/VBD-2,He/PRP-1)
+				poss(career/NN-4,his/PRP$-3)
+				dobj(started/VBD-2,career/NN-4)
+				det(smokejumper/NN-7,a/DT-6)
+				prep_as(started/VBD-2,smokejumper/NN-7)
+				det(Service/NNP-12,the/DT-9)
+				nn(Service/NNP-12,U.S./NNP-10)
+				nn(Service/NNP-12,Forest/NNP-11)
+				prep_with(smokejumper/NN-7,Service/NNP-12)
+				det(1950s/CD-16,the/DT-14)
+				amod(1950s/CD-16,early/JJ-15)
+				prep_in(started/VBD-2,1950s/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a smokejumper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transformers:_Generation_2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Forest Service</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Forest_Service</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the early 1950s</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1950s</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He joined the U.S. Air Force in 1953, attended Gunnery School at Laughlin Air Force Base, Texas, and Luke Air Force Base, Arizona, and was a graduate of the Aviation Cadet Program at Williams Air Force Base, Arizona, where he received his flight training commission in the Air Force.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,He/PRP-1)
+				nsubj(attended/VBD-10,He/PRP-1)
+				det(Force/NNP-6,the/DT-3)
+				nn(Force/NNP-6,U.S./NNP-4)
+				nn(Force/NNP-6,Air/NNP-5)
+				dobj(joined/VBD-2,Force/NNP-6)
+				prep_in(Force/NNP-6,1953/CD-8)
+				conj_and(joined/VBD-2,attended/VBD-10)
+				nn(School/NNP-12,Gunnery/NNP-11)
+				dobj(attended/VBD-10,School/NNP-12)
+				nn(Base/NNP-17,Laughlin/NNP-14)
+				nn(Base/NNP-17,Air/NNP-15)
+				nn(Base/NNP-17,Force/NNP-16)
+				prep_at(attended/VBD-10,Base/NNP-17)
+				prep_at(attended/VBD-10,Texas/NNP-19)
+				conj_and(Base/NNP-17,Texas/NNP-19)
+				nn(Base/NNP-25,Luke/NNP-22)
+				nn(Base/NNP-25,Air/NNP-23)
+				nn(Base/NNP-25,Force/NNP-24)
+				prep_at(attended/VBD-10,Base/NNP-25)
+				conj_and(Base/NNP-17,Base/NNP-25)
+				appos(Base/NNP-25,Arizona/NNP-27)
+				cop(graduate/NN-32,was/VBD-30)
+				det(graduate/NN-32,a/DT-31)
+				conj_and(joined/VBD-2,graduate/NN-32)
+				det(Program/NNP-37,the/DT-34)
+				nn(Program/NNP-37,Aviation/NNP-35)
+				nn(Program/NNP-37,Cadet/NNP-36)
+				prep_of(graduate/NN-32,Program/NNP-37)
+				nn(Base/NNP-42,Williams/NNP-39)
+				nn(Base/NNP-42,Air/NNP-40)
+				nn(Base/NNP-42,Force/NNP-41)
+				prep_at(graduate/NN-32,Base/NNP-42)
+				appos(Base/NNP-42,Arizona/NNP-44)
+				advmod(received/VBD-48,where/WRB-46)
+				nsubj(received/VBD-48,he/PRP-47)
+				advcl(joined/VBD-2,received/VBD-48)
+				poss(commission/NN-52,his/PRP$-49)
+				nn(commission/NN-52,flight/NN-50)
+				nn(commission/NN-52,training/NN-51)
+				dobj(received/VBD-48,commission/NN-52)
+				det(Force/NNP-56,the/DT-54)
+				nn(Force/NNP-56,Air/NNP-55)
+				prep_in(received/VBD-48,Force/NNP-56)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From July 1962 to August 1964, Roosa was a maintenance flight test pilot at Olmsted Air Force Base, Pennsylvania, flying F-101 aircraft.	</value>
+
+		<annotated-sentence>	From [[July 1962|July_1962]] to [[August 1964|August_1964]], [[Roosa|R%C3%B6%C3%B6sa]] was a maintenance flight [[test pilot|Test_pilot]] at [[Olmsted Air Force Base|Olmsted_Air_Force_Base]], [[Pennsylvania|Pennsylvania]], flying [[F-101|McDonnell_F-101_Voodoo]] [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From July 1962 to August 1964, Roosa was a maintenance flight [[test pilot|Test_pilot]] at Olmsted Air Force Base, Pennsylvania, flying [[F-101|McDonnell_F-101_Voodoo]] [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(pilot/NN-14,July/NNP-2)
+				num(July/NNP-2,1962/CD-3)
+				prep_to(July/NNP-2,August/NNP-5)
+				num(August/NNP-5,1964/CD-6)
+				nsubj(pilot/NN-14,Roosa/NNP-8)
+				cop(pilot/NN-14,was/VBD-9)
+				det(pilot/NN-14,a/DT-10)
+				nn(pilot/NN-14,maintenance/NN-11)
+				nn(pilot/NN-14,flight/NN-12)
+				nn(pilot/NN-14,test/NN-13)
+				nn(Base/NNP-19,Olmsted/NNP-16)
+				nn(Base/NNP-19,Air/NNP-17)
+				nn(Base/NNP-19,Force/NNP-18)
+				prep_at(pilot/NN-14,Base/NNP-19)
+				appos(Base/NNP-19,Pennsylvania/NNP-21)
+				partmod(pilot/NN-14,flying/VBG-23)
+				nn(aircraft/NN-25,F-101/NN-24)
+				dobj(flying/VBG-23,aircraft/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_1964</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Olmsted Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Olmsted_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pennsylvania</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pennsylvania</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-101</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/McDonnell_F-101_Voodoo</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/McDonnell_F-101_Voodoo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a fighter pilot at Langley Air Force Base, Virginia, where he flew the F-84F and F-100 aircraft.	</value>
+
+		<annotated-sentence>	He was [[a fighter pilot|Fighter_pilot]] at [[Langley Air Force Base|Langley_Air_Force_Base]], [[Virginia|Virginia]], where he flew the [[F-84F and F-100|Republic_F-84F_Thunderstreak]] [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was [[a fighter pilot|Fighter_pilot]] at Langley Air Force Base, Virginia, where he flew the [[F-84F and F-100|Republic_F-84F_Thunderstreak]] [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,He/PRP-1)
+				cop(pilot/NN-5,was/VBD-2)
+				det(pilot/NN-5,a/DT-3)
+				nn(pilot/NN-5,fighter/NN-4)
+				nn(Base/NNP-10,Langley/NNP-7)
+				nn(Base/NNP-10,Air/NNP-8)
+				nn(Base/NNP-10,Force/NNP-9)
+				prep_at(pilot/NN-5,Base/NNP-10)
+				appos(Base/NNP-10,Virginia/NNP-12)
+				advmod(flew/VBD-16,where/WRB-14)
+				nsubj(flew/VBD-16,he/PRP-15)
+				rcmod(Base/NNP-10,flew/VBD-16)
+				det(aircraft/NN-21,the/DT-17)
+				nn(aircraft/NN-21,F-84F/NN-18)
+				conj_and(F-84F/NN-18,F-100/NN-20)
+				nn(aircraft/NN-21,F-100/NN-20)
+				dobj(flew/VBD-16,aircraft/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a fighter pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Langley Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Langley_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virginia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Virginia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-84F and F-100</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republic_F-84F_Thunderstreak</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Fighter_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Republic_F-84F_Thunderstreak http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from the Aerospace Test Pilots School and was an experimental test pilot at Edwards Air Force Base, California from 1965 to 1966.	</value>
+
+		<annotated-sentence>	He graduated from the [[Aerospace|Aerospace]] [[Test Pilots|Test_pilot]] [[School|School]] and was an experimental [[test pilot|Test_pilot]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]] from [[1965|1965_(album)]] to [[1966|1966]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from the Aerospace [[Test Pilots|Test_pilot]] School and was an experimental [[test pilot|Test_pilot]] at Edwards Air Force Base, California from 1965 to 1966.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				det(School/NNP-8,the/DT-4)
+				nn(School/NNP-8,Aerospace/NNP-5)
+				nn(School/NNP-8,Test/NNP-6)
+				nn(School/NNP-8,Pilots/NNP-7)
+				prep_from(graduated/VBD-2,School/NNP-8)
+				cop(pilot/NN-14,was/VBD-10)
+				det(pilot/NN-14,an/DT-11)
+				amod(pilot/NN-14,experimental/JJ-12)
+				nn(pilot/NN-14,test/NN-13)
+				conj_and(graduated/VBD-2,pilot/NN-14)
+				nn(Base/NNP-19,Edwards/NNP-16)
+				nn(Base/NNP-19,Air/NNP-17)
+				nn(Base/NNP-19,Force/NNP-18)
+				prep_at(pilot/NN-14,Base/NNP-19)
+				appos(Base/NNP-19,California/NNP-21)
+				num(1966/CD-25,1965/CD-23)
+				dep(1966/CD-25,to/TO-24)
+				prep_from(pilot/NN-14,1966/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Aerospace</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1965</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1965_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1966</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Throughout his career, Roosa logged more than 5,500 hours of flying time (5,000 hours in jets) and 217 hours in space.	</value>
+
+		<annotated-sentence>	Throughout [[his career|Career]], [[Roosa|R%C3%B6%C3%B6sa]] logged more than 5,500 [[hours|Hour]] of flying time ([[5,000|5,000,000]] [[hours|Hour]] in jets) and 217 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Throughout his career, Roosa logged more than 5,500 hours of flying time (5,000 hours in jets) and 217 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-3,his/PRP$-2)
+				prep_throughout(logged/VBD-6,career/NN-3)
+				nsubj(logged/VBD-6,Roosa/NNP-5)
+				mwe(than/IN-8,more/JJR-7)
+				quantmod(5,500/CD-9,than/IN-8)
+				num(hours/NNS-10,5,500/CD-9)
+				dobj(logged/VBD-6,hours/NNS-10)
+				amod(time/NN-13,flying/VBG-12)
+				prep_of(hours/NNS-10,time/NN-13)
+				num(hours/NNS-16,5,000/CD-15)
+				dep(time/NN-13,hours/NNS-16)
+				prep_in(hours/NNS-16,jets/NNS-18)
+				num(hours/NNS-22,217/CD-21)
+				prep_of(hours/NNS-10,hours/NNS-22)
+				conj_and(time/NN-13,hours/NNS-22)
+				prep_in(hours/NNS-22,space/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also served as chief of service engineering at Tachikawa Air Base, Japan, for two years following graduation from the University of Colorado, under the Air Force Institute of Technology Program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-3,He/PRP-1)
+				advmod(served/VBD-3,also/RB-2)
+				prep_as(served/VBD-3,chief/NN-5)
+				nn(engineering/NN-8,service/NN-7)
+				prep_of(chief/NN-5,engineering/NN-8)
+				nn(Base/NNP-12,Tachikawa/NNP-10)
+				nn(Base/NNP-12,Air/NNP-11)
+				prep_at(served/VBD-3,Base/NNP-12)
+				appos(Base/NNP-12,Japan/NNP-14)
+				num(years/NNS-18,two/CD-17)
+				prep_for(served/VBD-3,years/NNS-18)
+				prep_following(years/NNS-18,graduation/NN-20)
+				det(University/NNP-23,the/DT-22)
+				prep_from(graduation/NN-20,University/NNP-23)
+				prep_of(University/NNP-23,Colorado/NNP-25)
+				det(Institute/NNP-31,the/DT-28)
+				nn(Institute/NNP-31,Air/NNP-29)
+				nn(Institute/NNP-31,Force/NNP-30)
+				prep_under(served/VBD-3,Institute/NNP-31)
+				nn(Program/NNP-34,Technology/NNP-33)
+				prep_of(Institute/NNP-31,Program/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Roosa was one of 19 people selected as part of the astronaut class of 1966 and served as a member of the astronaut support crew for the Apollo 9 mission.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,Roosa/NNP-1)
+				cop(one/CD-3,was/VBD-2)
+				num(people/NNS-6,19/CD-5)
+				prep_of(one/CD-3,people/NNS-6)
+				dep(people/NNS-6,selected/VBN-7)
+				prep_as(selected/VBN-7,part/NN-9)
+				det(class/NN-13,the/DT-11)
+				nn(class/NN-13,astronaut/NN-12)
+				prep_of(part/NN-9,class/NN-13)
+				prep_of(class/NN-13,1966/CD-15)
+				dep(people/NNS-6,served/VBD-17)
+				conj_and(selected/VBN-7,served/VBD-17)
+				det(member/NN-20,a/DT-19)
+				prep_as(served/VBD-17,member/NN-20)
+				det(crew/NN-25,the/DT-22)
+				nn(crew/NN-25,astronaut/NN-23)
+				nn(crew/NN-25,support/NN-24)
+				prep_of(member/NN-20,crew/NN-25)
+				det(mission/NN-30,the/DT-27)
+				nn(mission/NN-30,Apollo/NNP-28)
+				num(mission/NN-30,9/CD-29)
+				prep_for(served/VBD-17,mission/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On Apollo 14 he spent 33 hours in solo orbit around the Moon, conducting an extensive series of experiments.	</value>
+
+		<annotated-sentence>	On [[Apollo 14|Apollo_14]] he spent 33 [[hours|Hour]] in solo orbit around [[the Moon|Moon]], conducting an extensive series of [[experiments|Experiment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	On [[Apollo 14|Apollo_14]] he spent 33 hours in solo orbit around the Moon, conducting an extensive series of experiments.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(spent/VBD-5,Apollo/NNP-2)
+				num(Apollo/NNP-2,14/CD-3)
+				nsubj(spent/VBD-5,he/PRP-4)
+				num(hours/NNS-7,33/CD-6)
+				dobj(spent/VBD-5,hours/NNS-7)
+				nn(orbit/NN-10,solo/NN-9)
+				prep_in(spent/VBD-5,orbit/NN-10)
+				det(Moon/NNP-13,the/DT-12)
+				prep_around(spent/VBD-5,Moon/NNP-13)
+				partmod(spent/VBD-5,conducting/VBG-15)
+				det(series/NN-18,an/DT-16)
+				amod(series/NN-18,extensive/JJ-17)
+				dobj(conducting/VBG-15,series/NN-18)
+				prep_of(series/NN-18,experiments/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Apollo 14</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Apollo_14</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Apollo_14
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/Stuart_Roosa
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Apollo_14 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Stuart_Roosa
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His ability as a Command Module Pilot was put to the test when initial attempts to dock with the Lunar Module failed, and the problems were overcome only by Roosa's skill and careful coordination of the crew and ground controllers.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(ability/NN-2,His/PRP$-1)
+				nsubjpass(put/VBN-9,ability/NN-2)
+				det(Pilot/NN-7,a/DT-4)
+				nn(Pilot/NN-7,Command/NN-5)
+				nn(Pilot/NN-7,Module/NN-6)
+				prep_as(ability/NN-2,Pilot/NN-7)
+				auxpass(put/VBN-9,was/VBD-8)
+				det(test/NN-12,the/DT-11)
+				prep_to(put/VBN-9,test/NN-12)
+				advmod(failed/VBD-22,when/WRB-13)
+				amod(attempts/NNS-15,initial/JJ-14)
+				nsubj(failed/VBD-22,attempts/NNS-15)
+				prep_to(attempts/NNS-15,dock/NN-17)
+				det(Module/NNP-21,the/DT-19)
+				nn(Module/NNP-21,Lunar/NNP-20)
+				prep_with(dock/NN-17,Module/NNP-21)
+				rcmod(test/NN-12,failed/VBD-22)
+				det(problems/NNS-26,the/DT-25)
+				nsubjpass(overcome/VBN-28,problems/NNS-26)
+				auxpass(overcome/VBN-28,were/VBD-27)
+				conj_and(put/VBN-9,overcome/VBN-28)
+				advmod(overcome/VBN-28,only/RB-29)
+				poss(skill/NN-33,Roosa/NNP-31)
+				agent(overcome/VBN-28,skill/NN-33)
+				amod(coordination/NN-36,careful/JJ-35)
+				agent(overcome/VBN-28,coordination/NN-36)
+				conj_and(skill/NN-33,coordination/NN-36)
+				det(controllers/NNS-42,the/DT-38)
+				nn(controllers/NNS-42,crew/NN-39)
+				conj_and(crew/NN-39,ground/NN-41)
+				nn(controllers/NNS-42,ground/NN-41)
+				prep_of(skill/NN-33,controllers/NNS-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also carried tree seeds as part of a joint U.S. Forest Service/NASA project.	</value>
+
+		<annotated-sentence>	He also carried [[tree|Tree]] [[seeds|The_Seeds]] as part of a joint [[U.S.|United_States]] [[Forest|Forest]] Service/NASA [[project|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He also carried tree [[seeds|The_Seeds]] as part of a joint [[U.S.|United_States]] Forest Service/NASA project.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(carried/VBD-3,He/PRP-1)
+				advmod(carried/VBD-3,also/RB-2)
+				nn(seeds/NNS-5,tree/NN-4)
+				dobj(carried/VBD-3,seeds/NNS-5)
+				prep_as(carried/VBD-3,part/NN-7)
+				det(project/NN-14,a/DT-9)
+				amod(project/NN-14,joint/JJ-10)
+				nn(project/NN-14,U.S./NNP-11)
+				nn(project/NN-14,Forest/NN-12)
+				nn(project/NN-14,Service/NASA/NN-13)
+				prep_of(part/NN-7,project/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>tree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>seeds</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Seeds</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Forest</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Forest</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Seeds http://dbpedia.org/ontology/hometown http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The seeds were germinated on his return and planted throughout the United States, becoming known as the "Moon Trees".	</value>
+
+		<annotated-sentence>	[[The seeds|The_Seeds]] were germinated on his return and planted throughout [[the United States|United_States]], becoming known as the "[[Moon Trees|Moon_tree]]".	</annotated-sentence>
+
+		<pattern_crowdsource>	[[The seeds|The_Seeds]] were germinated on his return and planted throughout [[the United States|United_States]], becoming known as the "Moon Trees".	</pattern_crowdsource>
+
+
+		<tree>
+				det(seeds/NNS-2,The/DT-1)
+				nsubjpass(germinated/VBN-4,seeds/NNS-2)
+				nsubjpass(planted/VBD-9,seeds/NNS-2)
+				auxpass(germinated/VBN-4,were/VBD-3)
+				poss(return/NN-7,his/PRP$-6)
+				prep_on(germinated/VBN-4,return/NN-7)
+				conj_and(germinated/VBN-4,planted/VBD-9)
+				det(States/NNPS-13,the/DT-11)
+				nn(States/NNPS-13,United/NNP-12)
+				prep_throughout(planted/VBD-9,States/NNPS-13)
+				xcomp(planted/VBD-9,becoming/VBG-15)
+				dep(becoming/VBG-15,known/VBN-16)
+				det(Trees/NNP-21,the/DT-18)
+				nn(Trees/NNP-21,Moon/NNP-20)
+				prep_as(known/VBN-16,Trees/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The seeds</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Seeds</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moon Trees</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_tree</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_Seeds http://dbpedia.org/ontology/hometown http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following Apollo 14, Roosa served as backup command module pilot for Apollo 16 and Apollo 17, and based on crew rotations, would probably have commanded one of the last Apollo missions had it not been cancelled.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(served/VBD-6,Apollo/NNP-2)
+				num(Apollo/NNP-2,14/CD-3)
+				nsubj(served/VBD-6,Roosa/NNP-5)
+				nn(pilot/NN-11,backup/NN-8)
+				nn(pilot/NN-11,command/NN-9)
+				nn(pilot/NN-11,module/NN-10)
+				prep_as(served/VBD-6,pilot/NN-11)
+				prep_for(served/VBD-6,Apollo/NNP-13)
+				num(Apollo/NNP-13,16/CD-14)
+				nsubj(commanded/VBN-28,Apollo/NNP-16)
+				num(Apollo/NNP-16,17/CD-17)
+				prep_based_on(rotations/NNS-23,crew/NN-22)
+				conj_and(Apollo/NNP-16,rotations/NNS-23)
+				nsubj(commanded/VBN-28,rotations/NNS-23)
+				aux(commanded/VBN-28,would/MD-25)
+				advmod(commanded/VBN-28,probably/RB-26)
+				aux(commanded/VBN-28,have/VB-27)
+				conj_and(served/VBD-6,commanded/VBN-28)
+				nsubjpass(cancelled/VBN-39,one/CD-29)
+				det(missions/NNS-34,the/DT-31)
+				amod(missions/NNS-34,last/JJ-32)
+				nn(missions/NNS-34,Apollo/NNP-33)
+				prep_of(one/CD-29,missions/NNS-34)
+				aux(cancelled/VBN-39,had/VBD-35)
+				dobj(cancelled/VBN-39,it/PRP-36)
+				neg(cancelled/VBN-39,not/RB-37)
+				auxpass(cancelled/VBN-39,been/VBN-38)
+				ccomp(commanded/VBN-28,cancelled/VBN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was assigned to the Space Shuttle program until his retirement as a colonel from the Air Force in 1976.	</value>
+
+		<annotated-sentence>	He was assigned to [[the Space Shuttle program|Space_Shuttle_program]] until [[his retirement|Retirement]] as [[a colonel|Colonel]] from [[the Air Force|Air_force]] in [[1976|1976]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was assigned to the Space Shuttle program until his retirement as a colonel from the Air Force in 1976.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-3,He/PRP-1)
+				auxpass(assigned/VBN-3,was/VBD-2)
+				det(program/NN-8,the/DT-5)
+				nn(program/NN-8,Space/NN-6)
+				nn(program/NN-8,Shuttle/NN-7)
+				prep_to(assigned/VBN-3,program/NN-8)
+				poss(retirement/NN-11,his/PRP$-10)
+				prep_until(assigned/VBN-3,retirement/NN-11)
+				det(colonel/NN-14,a/DT-13)
+				prep_as(retirement/NN-11,colonel/NN-14)
+				det(Force/NNP-18,the/DT-16)
+				nn(Force/NNP-18,Air/NNP-17)
+				prep_from(assigned/VBN-3,Force/NNP-18)
+				prep_in(Force/NNP-18,1976/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1976</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1976</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving NASA and the Air Force, he held a number of positions in international and U.S. businesses, and became owner and president of Gulf Coast Coors in 1981.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(held/VBD-10,leaving/VBG-2)
+				dobj(leaving/VBG-2,NASA/NNP-3)
+				det(Force/NNP-7,the/DT-5)
+				nn(Force/NNP-7,Air/NNP-6)
+				dobj(leaving/VBG-2,Force/NNP-7)
+				conj_and(NASA/NNP-3,Force/NNP-7)
+				nsubj(held/VBD-10,he/PRP-9)
+				det(number/NN-12,a/DT-11)
+				dobj(held/VBD-10,number/NN-12)
+				prep_of(number/NN-12,positions/NNS-14)
+				prep_in(positions/NNS-14,international/JJ-16)
+				nn(businesses/NNS-19,U.S./NNP-18)
+				prep_in(positions/NNS-14,businesses/NNS-19)
+				conj_and(international/JJ-16,businesses/NNS-19)
+				cop(owner/NN-23,became/VBD-22)
+				conj_and(held/VBD-10,owner/NN-23)
+				conj_and(held/VBD-10,president/NN-25)
+				conj_and(owner/NN-23,president/NN-25)
+				nn(Coors/NNP-29,Gulf/NNP-27)
+				nn(Coors/NNP-29,Coast/NNP-28)
+				prep_of(owner/NN-23,Coors/NNP-29)
+				prep_in(Coors/NNP-29,1981/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His daughter Rosemary was named CEO of Gulf Coast Coors several years later.	</value>
+
+		<annotated-sentence>	[[His daughter|His_Daughter]] [[Rosemary|Rosemary]] was named [[CEO|Chief_executive_officer]] of Gulf Coast [[Coors|CoorsTek]] [[several years|Year]] later.	</annotated-sentence>
+
+		<pattern_crowdsource>	His daughter Rosemary was named CEO of Gulf Coast Coors several years later.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Rosemary/NNP-3,His/PRP$-1)
+				nn(Rosemary/NNP-3,daughter/NN-2)
+				nsubjpass(named/VBN-5,Rosemary/NNP-3)
+				auxpass(named/VBN-5,was/VBD-4)
+				dobj(named/VBN-5,CEO/NNP-6)
+				nn(Coors/NNP-10,Gulf/NNP-8)
+				nn(Coors/NNP-10,Coast/NNP-9)
+				prep_of(CEO/NNP-6,Coors/NNP-10)
+				amod(years/NNS-12,several/JJ-11)
+				npadvmod(later/RB-13,years/NNS-12)
+				advmod(Coors/NNP-10,later/RB-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/His_Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rosemary</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rosemary</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CEO</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chief_executive_officer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Coors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CoorsTek</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Roosa's honors include the NASA Distinguished Service Medal; the Johnson Space Center Superior Achievement Award (1970); the Air Force Command Pilot Astronaut Wings; the Air Force Distinguished Service Medal; the Arnold Air Society's John F. Kennedy Award (1971); the City of New York Gold Medal (1971); the American Astronautical Society's Flight Achievement Award (1971); the Order of Tehad (1973); and the Order of the Central African Empire (1973).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(honors/NNS-3,Roosa/NNP-1)
+				nsubj(include/VBP-4,honors/NNS-3)
+				det(Medal/NN-9,the/DT-5)
+				nn(Medal/NN-9,NASA/NNP-6)
+				nn(Medal/NN-9,Distinguished/NNP-7)
+				nn(Medal/NN-9,Service/NNP-8)
+				dobj(include/VBP-4,Medal/NN-9)
+				det(Award/NN-17,the/DT-11)
+				nn(Award/NN-17,Johnson/NNP-12)
+				nn(Award/NN-17,Space/NNP-13)
+				nn(Award/NN-17,Center/NNP-14)
+				nn(Award/NN-17,Superior/NNP-15)
+				nn(Award/NN-17,Achievement/NNP-16)
+				dep(Medal/NN-9,Award/NN-17)
+				appos(Award/NN-17,1970/CD-19)
+				det(Pilot/NN-26,the/DT-22)
+				nn(Pilot/NN-26,Air/NNP-23)
+				nn(Pilot/NN-26,Force/NNP-24)
+				nn(Pilot/NN-26,Command/NN-25)
+				dep(Medal/NN-9,Pilot/NN-26)
+				conj_and(Award/NN-17,Pilot/NN-26)
+				nn(Wings/NNS-28,Astronaut/NN-27)
+				dep(Pilot/NN-26,Wings/NNS-28)
+				det(Service/NNP-34,the/DT-30)
+				nn(Service/NNP-34,Air/NNP-31)
+				nn(Service/NNP-34,Force/NNP-32)
+				nn(Service/NNP-34,Distinguished/NNP-33)
+				dep(Medal/NN-9,Service/NNP-34)
+				conj_and(Award/NN-17,Service/NNP-34)
+				dep(Service/NNP-34,Medal/NN-35)
+				det(Society/NNP-40,the/DT-37)
+				nn(Society/NNP-40,Arnold/NNP-38)
+				nn(Society/NNP-40,Air/NNP-39)
+				poss(Award/NN-45,Society/NNP-40)
+				nn(Award/NN-45,John/NNP-42)
+				nn(Award/NN-45,F./NNP-43)
+				nn(Award/NN-45,Kennedy/NNP-44)
+				dep(Medal/NN-9,Award/NN-45)
+				conj_and(Award/NN-17,Award/NN-45)
+				appos(Award/NN-45,1971/CD-47)
+				det(Medal/NN-56,the/DT-50)
+				dep(Medal/NN-56,City/NNP-51)
+				nn(Gold/NNP-55,New/NNP-53)
+				nn(Gold/NNP-55,York/NNP-54)
+				prep_of(City/NNP-51,Gold/NNP-55)
+				dep(Medal/NN-9,Medal/NN-56)
+				conj_and(Award/NN-17,Medal/NN-56)
+				appos(Medal/NN-56,1971/CD-58)
+				det(Society/NNP-64,the/DT-61)
+				amod(Society/NNP-64,American/JJ-62)
+				nn(Society/NNP-64,Astronautical/NNP-63)
+				poss(Award/NN-68,Society/NNP-64)
+				nn(Award/NN-68,Flight/NNP-66)
+				nn(Award/NN-68,Achievement/NNP-67)
+				dep(Medal/NN-9,Award/NN-68)
+				conj_and(Award/NN-17,Award/NN-68)
+				appos(Award/NN-68,1971/CD-70)
+				det(Order/NN-74,the/DT-73)
+				dep(Medal/NN-9,Order/NN-74)
+				conj_and(Award/NN-17,Order/NN-74)
+				prep_of(Order/NN-74,Tehad/NNP-76)
+				appos(Tehad/NNP-76,1973/CD-78)
+				det(Order/NN-83,the/DT-82)
+				dep(Medal/NN-9,Order/NN-83)
+				conj_and(Award/NN-17,Order/NN-83)
+				det(Empire/NN-88,the/DT-85)
+				amod(African/JJ-87,Central/JJ-86)
+				amod(Empire/NN-88,African/JJ-87)
+				prep_of(Order/NN-83,Empire/NN-88)
+				appos(Empire/NN-88,1973/CD-90)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Additionally, an elementary school in Claremore, Oklahoma is named in his honor.	</value>
+
+		<annotated-sentence>	Additionally, [[an elementary school|Elementary_school]] in [[Claremore , Oklahoma|Claremore,_Oklahoma]]is named in his honor.	</annotated-sentence>
+
+		<pattern_crowdsource>	Additionally, an elementary school in Claremore, Oklahoma is named in his honor.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(named/VBN-11,Additionally/RB-1)
+				det(school/NN-5,an/DT-3)
+				amod(school/NN-5,elementary/JJ-4)
+				nsubjpass(named/VBN-11,school/NN-5)
+				nn(Oklahoma/NNP-9,Claremore/NNP-7)
+				prep_in(school/NN-5,Oklahoma/NNP-9)
+				auxpass(named/VBN-11,is/VBZ-10)
+				poss(honor/NN-14,his/PRP$-13)
+				prep_in(named/VBN-11,honor/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an elementary school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Elementary_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Claremore , Oklahoma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Claremore,_Oklahoma</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Roosa earned a PMD from Harvard Business School, Cambridge, Massachusetts, in 1973 and an honorary LL.D.	</value>
+
+		<annotated-sentence>	[[Roosa|R%C3%B6%C3%B6sa]] earned a PMD from [[Harvard Business School|Harvard_Business_School]], Cambridge, Massachusetts, in [[1973|1973]] and an honorary LL.D.	</annotated-sentence>
+
+		<pattern_crowdsource>	Roosa earned a PMD from Harvard Business School, Cambridge, Massachusetts, in 1973 and an honorary LL.D.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,Roosa/NNP-1)
+				det(PMD/NN-4,a/DT-3)
+				dobj(earned/VBD-2,PMD/NN-4)
+				nn(School/NNP-8,Harvard/NNP-6)
+				nn(School/NNP-8,Business/NNP-7)
+				prep_from(earned/VBD-2,School/NNP-8)
+				nn(Massachusetts/NNP-12,Cambridge/NNP-10)
+				appos(School/NNP-8,Massachusetts/NNP-12)
+				prep_in(earned/VBD-2,1973/CD-15)
+				det(LL.D/NN-19,an/DT-17)
+				amod(LL.D/NN-19,honorary/JJ-18)
+				prep_in(earned/VBD-2,LL.D/NN-19)
+				conj_and(1973/CD-15,LL.D/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Harvard Business School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvard_Business_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1973</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1973</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	from University of St. Thomas, Houston in 1971.	</value>
+
+		<annotated-sentence>	from University of St. Thomas, [[Houston|Houston]] in [[1971|1971_(film)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	from University of St. Thomas, Houston in 1971.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Houston/NNP-7,University/NNP-2)
+				nn(Thomas/NNP-5,St./NNP-4)
+				prep_of(University/NNP-2,Thomas/NNP-5)
+				prep_in(Houston/NNP-7,1971/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Houston</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1971</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1971_(film)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stuart Roosa died at age 61 on December 12, 1994 in Washington D.C. from complications of pancreatitis.	</value>
+
+		<annotated-sentence>	[[Stuart Roosa|Stuart_Roosa]] died at age 61 on December 12, 1994 in Washington D.C. from complications of [[pancreatitis|Pancreatitis]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Stuart Roosa died at age 61 on December 12, 1994 in Washington D.C. from complications of pancreatitis.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Roosa/NNP-2,Stuart/NNP-1)
+				nsubj(died/VBD-3,Roosa/NNP-2)
+				prep_at(died/VBD-3,age/NN-5)
+				num(age/NN-5,61/CD-6)
+				prep_on(age/NN-5,December/NNP-8)
+				num(December/NNP-8,12/CD-9)
+				num(December/NNP-8,1994/CD-11)
+				nn(D.C./NNP-14,Washington/NNP-13)
+				prep_in(died/VBD-3,D.C./NNP-14)
+				prep_from(D.C./NNP-14,complications/NNS-16)
+				prep_of(complications/NNS-16,pancreatitis/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stuart Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stuart_Roosa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pancreatitis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pancreatitis</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was survived by his wife Joan, three sons and a daughter, and 5 grandchildren.	</value>
+
+		<annotated-sentence>	He was survived by his [[wife|Wife]] Joan, three sons and [[a daughter|Daughter]], and 5 [[grandchildren|Family]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was survived by his wife Joan, three sons and a daughter, and 5 grandchildren.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(survived/VBN-3,He/PRP-1)
+				auxpass(survived/VBN-3,was/VBD-2)
+				poss(Joan/NNP-7,his/PRP$-5)
+				nn(Joan/NNP-7,wife/NN-6)
+				agent(survived/VBN-3,Joan/NNP-7)
+				num(sons/NNS-10,three/CD-9)
+				agent(survived/VBN-3,sons/NNS-10)
+				conj_and(Joan/NNP-7,sons/NNS-10)
+				det(daughter/NN-13,a/DT-12)
+				conj_and(Joan/NNP-7,daughter/NN-13)
+				conj_and(sons/NNS-10,daughter/NN-13)
+				num(grandchildren/NNS-17,5/CD-16)
+				agent(survived/VBN-3,grandchildren/NNS-17)
+				conj_and(Joan/NNP-7,grandchildren/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>grandchildren</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Family</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is buried in section 7A of Arlington National Cemetery.	</value>
+
+		<annotated-sentence>	He is buried in section 7A of [[Arlington National Cemetery|Arlington_National_Cemetery]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is buried in section 7A of Arlington National Cemetery.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(buried/VBN-3,He/PRP-1)
+				auxpass(buried/VBN-3,is/VBZ-2)
+				nn(7A/NN-6,section/NN-5)
+				prep_in(buried/VBN-3,7A/NN-6)
+				nn(Cemetery/NNP-10,Arlington/NNP-8)
+				nn(Cemetery/NNP-10,National/NNP-9)
+				prep_of(7A/NN-6,Cemetery/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Arlington National Cemetery</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Arlington_National_Cemetery</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His wife Joan died on October 30, 2007 in Gulfport, MS. She was interred at Arlington Cemetery with her husband.	</value>
+
+		<annotated-sentence>	[[His wife|Carolyn_Bessette-Kennedy]] Joan died on October 30, 2007 in Gulfport, MS. She was interred at Arlington Cemetery with [[her husband|Husband]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His wife Joan died on October 30, 2007 in Gulfport, MS. She was interred at Arlington Cemetery with her husband.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Joan/NNP-3,His/PRP$-1)
+				nn(Joan/NNP-3,wife/NN-2)
+				nsubj(died/VBD-4,Joan/NNP-3)
+				dep(interred/VBN-16,died/VBD-4)
+				prep_on(died/VBD-4,October/NNP-6)
+				num(October/NNP-6,30/CD-7)
+				num(October/NNP-6,2007/CD-9)
+				nn(MS./NNP-13,Gulfport/NNP-11)
+				prep_in(died/VBD-4,MS./NNP-13)
+				nsubjpass(interred/VBN-16,She/PRP-14)
+				auxpass(interred/VBN-16,was/VBD-15)
+				nn(Cemetery/NNP-19,Arlington/NNP-18)
+				prep_at(interred/VBN-16,Cemetery/NNP-19)
+				poss(husband/NN-22,her/PRP$-21)
+				prep_with(Cemetery/NNP-19,husband/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>His wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carolyn_Bessette-Kennedy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her husband</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Husband</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In the 1998 miniseries From the Earth to the Moon, Roosa was played by George Newbern.	</value>
+
+		<annotated-sentence>	In the [[1998|1998]] [[miniseries|Limited_series]] From [[the Earth|Earth]] to [[the Moon|Moon]], [[Roosa|R%C3%B6%C3%B6sa]] was played by [[George Newbern|George_Newbern]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In the 1998 miniseries From [[the Earth|Earth]] to [[the Moon|Moon]], Roosa was played by George Newbern.	</pattern_crowdsource>
+
+
+		<tree>
+				det(miniseries/NNS-4,the/DT-2)
+				num(miniseries/NNS-4,1998/CD-3)
+				prep_in(played/VBN-14,miniseries/NNS-4)
+				det(Earth/NNP-7,the/DT-6)
+				prep_from(played/VBN-14,Earth/NNP-7)
+				det(Moon/NNP-10,the/DT-9)
+				prep_to(Earth/NNP-7,Moon/NNP-10)
+				nsubjpass(played/VBN-14,Roosa/NNP-12)
+				auxpass(played/VBN-14,was/VBD-13)
+				nn(Newbern/NNP-17,George/NNP-16)
+				agent(played/VBN-14,Newbern/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1998</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1998</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miniseries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Limited_series</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>George Newbern</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_Newbern</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Moon http://dbpedia.org/property/satelliteOf http://dbpedia.org/resource/Earth
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The 2011 book Smoke Jumper, Moon Pilot, by Willie G. Moseley is a biography on Roosa's life.	</value>
+
+		<annotated-sentence>	The [[2011|2011_(album)]] [[book|Book]] [[Smoke Jumper|Smokejumper]], [[Moon Pilot|Moon_Pilot]], by Willie G. [[Moseley|Moseley]] is [[a biography|Biography]] on [[Roosa|R%C3%B6%C3%B6sa]]'s life.	</annotated-sentence>
+
+		<pattern_crowdsource>	The 2011 book Smoke Jumper, Moon Pilot, by Willie G. Moseley is a biography on Roosa's life.	</pattern_crowdsource>
+
+
+		<tree>
+				det(book/NN-3,The/DT-1)
+				num(book/NN-3,2011/CD-2)
+				nsubj(biography/NN-16,book/NN-3)
+				nn(Jumper/NNP-5,Smoke/NNP-4)
+				dep(book/NN-3,Jumper/NNP-5)
+				nn(Pilot/NN-8,Moon/NNP-7)
+				appos(book/NN-3,Pilot/NN-8)
+				nn(Moseley/NNP-13,Willie/NNP-11)
+				nn(Moseley/NNP-13,G./NNP-12)
+				prep_by(book/NN-3,Moseley/NNP-13)
+				cop(biography/NN-16,is/VBZ-14)
+				det(biography/NN-16,a/DT-15)
+				poss(life/NN-20,Roosa/NNP-18)
+				prep_on(biography/NN-16,life/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Smoke Jumper</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Smokejumper</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moon Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moon_Pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moseley</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moseley</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a biography</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Biography</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2013, Roosa's photo appeared in USAA insurance television ads in the United States.	</value>
+
+		<annotated-sentence>	In [[2013|Sisaket_F.C.]], [[Roosa|R%C3%B6%C3%B6sa]]'s photo appeared in [[USAA|USAA]] [[insurance|Insurance]] [[television ads|Television_advertisement]] in [[the United States|United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2013, Roosa's photo appeared in [[USAA|USAA]] [[insurance|Insurance]] television ads in [[the United States|United_States]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appeared/VBD-7,2013/CD-2)
+				poss(photo/NN-6,Roosa/NNP-4)
+				nsubj(appeared/VBD-7,photo/NN-6)
+				nn(ads/NNS-12,USAA/NNP-9)
+				nn(ads/NNS-12,insurance/NN-10)
+				nn(ads/NNS-12,television/NN-11)
+				prep_in(appeared/VBD-7,ads/NNS-12)
+				det(States/NNPS-16,the/DT-14)
+				nn(States/NNPS-16,United/NNP-15)
+				prep_in(appeared/VBD-7,States/NNPS-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sisaket_F.C.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roosa</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/R%C3%B6%C3%B6sa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>USAA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/USAA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>insurance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Insurance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>television ads</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Television_advertisement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/USAA http://dbpedia.org/ontology/product http://dbpedia.org/resource/Insurance
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/USAA http://dbpedia.org/ontology/location http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Article based on NASA press release 94-210	</value>
+
+		<annotated-sentence>	Article based on [[NASA|NASA]] [[press release|Press_release]] 94-210	</annotated-sentence>
+
+		<pattern_crowdsource>	Article based on [[NASA|NASA]] press release 94-210	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(based/VBN-2,Article/NNP-1)
+				nn(release/NN-6,NASA/NNP-4)
+				nn(release/NN-6,press/NN-5)
+				prep_on(based/VBN-2,release/NN-6)
+				tmod(based/VBN-2,94-210/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>press release</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Press_release</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Stuart_Roosa http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

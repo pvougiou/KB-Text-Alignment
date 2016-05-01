@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This article discusses poisoning caused by swallowing antifreeze.</value>
+		<pattern_crowdsource> This article discusses [[poisoning|C0032343]] caused by swallowing [[antifreeze|C0598248]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>poisoning</surface-form>
+				<RDF-ID>C0032343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swallowing</surface-form>
+				<RDF-ID>C0740170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antifreeze</surface-form>
+				<RDF-ID>C0598248</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0598248 CAUSES C0032343</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The poisonous ingredients in antifreeze are:  - Ethylene glycol   - Methanol  - Propylene glycol</value>
+		<pattern_crowdsource> The poisonous [[ingredients|C1550600]] in antifreeze are:  - Ethylene glycol   - Methanol  - [[Propylene glycol|C0033437]]		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>poisonous</surface-form>
+				<RDF-ID>C0032346</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ingredients</surface-form>
+				<RDF-ID>C1550600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antifreeze</surface-form>
+				<RDF-ID>C0598248</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ethylene glycol</surface-form>
+				<RDF-ID>C0015083</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Methanol</surface-form>
+				<RDF-ID>C0001963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Propylene glycol</surface-form>
+				<RDF-ID>C0033437</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033437 ISA C1550600</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Use standard first aid and CPR for signs of shock or no heartbeat (cardiac arrest).</value>
+		<pattern_crowdsource> Use standard [[first aid|C0016143]] and [[CPR|C0007203]] for [[signs|C0311392]] of shock or no heartbeat (cardiac arrest).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>standard</surface-form>
+				<RDF-ID>C1442989</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>first aid</surface-form>
+				<RDF-ID>C0016143</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CPR</surface-form>
+				<RDF-ID>C0007203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shock</surface-form>
+				<RDF-ID>C0036974</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heartbeat</surface-form>
+				<RDF-ID>C0425583</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cardiac arrest</surface-form>
+				<RDF-ID>C0018790</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0007203 TREATS C0311392</triple>
+			<triple>C0016143 TREATS C0311392</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

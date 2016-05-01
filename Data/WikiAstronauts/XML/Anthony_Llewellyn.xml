@@ -1,0 +1,981 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	John Anthony Llewellyn (22 April 1933 - 2 July 2013), was a Welsh-born American scientist and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[John Anthony Llewellyn|Anthony_Llewellyn]] (22 [[April 1933|April_1933]] - 2 [[July 2013|2013]]), was a Welsh-born [[American scientist|American_Scientist]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[John Anthony Llewellyn|Anthony_Llewellyn]] (22 April 1933 - 2 July 2013), was a Welsh-born American scientist and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Llewellyn/NNP-3,John/NNP-1)
+				nn(Llewellyn/NNP-3,Anthony/NNP-2)
+				nsubj(scientist/NN-18,Llewellyn/NNP-3)
+				num(April/NNP-6,22/CD-5)
+				dep(Llewellyn/NNP-3,April/NNP-6)
+				num(April/NNP-6,1933/CD-7)
+				dep(April/NNP-6,2/CD-9)
+				tmod(2/CD-9,July/NNP-10)
+				num(July/NNP-10,2013/CD-11)
+				cop(scientist/NN-18,was/VBD-14)
+				det(scientist/NN-18,a/DT-15)
+				amod(scientist/NN-18,Welsh-born/JJ-16)
+				amod(scientist/NN-18,American/JJ-17)
+				det(astronaut/NN-23,a/DT-20)
+				amod(astronaut/NN-23,former/JJ-21)
+				nn(astronaut/NN-23,NASA/NNP-22)
+				conj_and(scientist/NN-18,astronaut/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>John Anthony Llewellyn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Anthony_Llewellyn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 1933</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_1933</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2013</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/American_Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Llewellyn was born in Cardiff, Wales, United Kingdom, and graduated from Cardiff High School in 1949.	</value>
+
+		<annotated-sentence>	[[Llewellyn|Willie_Llewellyn]] was born in [[Cardiff|Cardiff_RFC]], [[Wales|Wales]], [[United Kingdom|United_Kingdom]], and graduated from [[Cardiff High School|Cardiff_High_School]] in [[1949|1949_(EP)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Llewellyn|Willie_Llewellyn]] was born in [[Cardiff|Cardiff_RFC]], [[Wales|Wales]], [[United Kingdom|United_Kingdom]], and graduated from [[Cardiff|Cardiff_RFC]] High School in 1949.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Llewellyn/NNP-1)
+				nsubjpass(graduated/VBD-13,Llewellyn/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Kingdom/NNP-10,Cardiff/NNP-5)
+				appos(Kingdom/NNP-10,Wales/NNP-7)
+				appos(Kingdom/NNP-10,United/NNP-9)
+				prep_in(born/VBN-3,Kingdom/NNP-10)
+				conj_and(born/VBN-3,graduated/VBD-13)
+				nn(School/NNP-17,Cardiff/NNP-15)
+				nn(School/NNP-17,High/NNP-16)
+				prep_from(graduated/VBD-13,School/NNP-17)
+				prep_in(School/NNP-17,1949/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Llewellyn</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Willie_Llewellyn</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cardiff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cardiff_RFC</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wales</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wales</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United Kingdom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_Kingdom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cardiff High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cardiff_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1949</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1949_(EP)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Willie_Llewellyn http://dbpedia.org/property/ruAmateurclubs http://dbpedia.org/resource/Cardiff_RFC
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Willie_Llewellyn http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Wales
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Cardiff_RFC http://dbpedia.org/ontology/location http://dbpedia.org/resource/Wales
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Wales
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Wales
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Cardiff_High_School http://dbpedia.org/ontology/country http://dbpedia.org/resource/Wales
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Cardiff_High_School http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_Kingdom
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received his BSc degree from University College, Cardiff in 1955 and went on to achieve his PhD degree in chemistry in 1958.	</value>
+
+		<annotated-sentence>	He received his BSc degree from University College, [[Cardiff|Cardiff]] in [[1955|1955]] and went on to achieve his PhD degree in [[chemistry|Chemistry]] in [[1958|1958]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received his BSc degree from University College, [[Cardiff|Cardiff]] in 1955 and went on to achieve his PhD degree in chemistry in 1958.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				nsubj(went/VBD-14,He/PRP-1)
+				poss(degree/NN-5,his/PRP$-3)
+				nn(degree/NN-5,BSc/NN-4)
+				dobj(received/VBD-2,degree/NN-5)
+				nn(College/NNP-8,University/NNP-7)
+				prep_from(received/VBD-2,College/NNP-8)
+				appos(College/NNP-8,Cardiff/NNP-10)
+				prep_in(Cardiff/NNP-10,1955/CD-12)
+				conj_and(received/VBD-2,went/VBD-14)
+				prt(went/VBD-14,on/IN-15)
+				aux(achieve/VB-17,to/TO-16)
+				xcomp(went/VBD-14,achieve/VB-17)
+				poss(degree/NN-20,his/PRP$-18)
+				nn(degree/NN-20,PhD/NN-19)
+				dobj(achieve/VB-17,degree/NN-20)
+				prep_in(achieve/VB-17,chemistry/NN-22)
+				prep_in(chemistry/NN-22,1958/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cardiff</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Cardiff</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1955</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1955</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>chemistry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chemistry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1958</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1958</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Cardiff
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He married Valerie Mya Davies-Jones, and they had three children.	</value>
+
+		<annotated-sentence>	He married Valerie Mya Davies-Jones, and they had three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He married Valerie Mya Davies-Jones, and they had three children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(married/VBD-2,He/PRP-1)
+				nn(Davies-Jones/NNP-5,Valerie/NNP-3)
+				nn(Davies-Jones/NNP-5,Mya/NNP-4)
+				dobj(married/VBD-2,Davies-Jones/NNP-5)
+				nsubj(had/VBD-9,they/PRP-8)
+				conj_and(married/VBD-2,had/VBD-9)
+				num(children/NNS-11,three/CD-10)
+				dobj(had/VBD-9,children/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the award of his doctorate, Llewellyn moved to Ottawa, Canada and served as a post-doctoral fellow at the National Research Council.	</value>
+
+		<annotated-sentence>	After [[the award|Award]] of [[his doctorate|Doctorate]], Llewellyn moved to Ottawa, Canada and served as [[a post-doctoral fellow|Postdoctoral_research]] at the National Research Council.	</annotated-sentence>
+
+		<pattern_crowdsource>	After the award of his doctorate, Llewellyn moved to Ottawa, Canada and served as a post-doctoral fellow at the National Research Council.	</pattern_crowdsource>
+
+
+		<tree>
+				det(award/NN-3,the/DT-2)
+				prep_after(moved/VBD-9,award/NN-3)
+				poss(doctorate/NN-6,his/PRP$-5)
+				prep_of(award/NN-3,doctorate/NN-6)
+				nsubj(moved/VBD-9,Llewellyn/NNP-8)
+				nsubj(served/VBD-15,Llewellyn/NNP-8)
+				nn(Canada/NNP-13,Ottawa/NNP-11)
+				prep_to(moved/VBD-9,Canada/NNP-13)
+				conj_and(moved/VBD-9,served/VBD-15)
+				det(fellow/NN-19,a/DT-17)
+				amod(fellow/NN-19,post-doctoral/JJ-18)
+				prep_as(served/VBD-15,fellow/NN-19)
+				det(Council/NNP-24,the/DT-21)
+				nn(Council/NNP-24,National/NNP-22)
+				nn(Council/NNP-24,Research/NNP-23)
+				prep_at(served/VBD-15,Council/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a post-doctoral fellow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Postdoctoral_research</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1960, he went to Florida State University as a research associate in the Chemistry Department and was subsequently appointed Assistant Professor.	</value>
+
+		<annotated-sentence>	In [[1960|1960]], he went to [[Florida State University|Florida_State_University]] as a research associate in the [[Chemistry|Chemistry]] Department and was subsequently appointed Assistant Professor.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1960, he went to Florida State University as a research associate in the Chemistry Department and was subsequently appointed Assistant Professor.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(went/VBD-5,1960/CD-2)
+				nsubj(went/VBD-5,he/PRP-4)
+				nsubjpass(appointed/VBN-21,he/PRP-4)
+				nn(University/NNP-9,Florida/NNP-7)
+				nn(University/NNP-9,State/NNP-8)
+				prep_to(went/VBD-5,University/NNP-9)
+				det(associate/NN-13,a/DT-11)
+				nn(associate/NN-13,research/NN-12)
+				prep_as(University/NNP-9,associate/NN-13)
+				det(Department/NNP-17,the/DT-15)
+				nn(Department/NNP-17,Chemistry/NNP-16)
+				prep_in(went/VBD-5,Department/NNP-17)
+				auxpass(appointed/VBN-21,was/VBD-19)
+				advmod(appointed/VBN-21,subsequently/RB-20)
+				conj_and(went/VBD-5,appointed/VBN-21)
+				nn(Professor/NNP-23,Assistant/NNP-22)
+				xcomp(appointed/VBN-21,Professor/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1960</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida State University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida_State_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chemistry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chemistry</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1964, he was jointly appointed Associate Professor in both the School of Engineering Science and the Department of Chemistry.	</value>
+
+		<annotated-sentence>	In [[1964|1964]], he was jointly appointed Associate Professor in both [[the School|School]] of [[Engineering Science|Engineering_Science]] and the Department of [[Chemistry|Chemistry]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1964, he was jointly appointed Associate Professor in both the School of Engineering Science and the Department of Chemistry.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appointed/VBN-7,1964/CD-2)
+				nsubjpass(appointed/VBN-7,he/PRP-4)
+				auxpass(appointed/VBN-7,was/VBD-5)
+				advmod(appointed/VBN-7,jointly/RB-6)
+				nn(Professor/NNP-9,Associate/NNP-8)
+				dobj(appointed/VBN-7,Professor/NNP-9)
+				preconj(School/NNP-13,both/CC-11)
+				det(School/NNP-13,the/DT-12)
+				prep_in(Professor/NNP-9,School/NNP-13)
+				nn(Science/NNP-16,Engineering/NNP-15)
+				prep_of(School/NNP-13,Science/NNP-16)
+				det(Department/NNP-19,the/DT-18)
+				prep_in(Professor/NNP-9,Department/NNP-19)
+				conj_and(School/NNP-13,Department/NNP-19)
+				prep_of(Professor/NNP-9,Chemistry/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1964</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Chemistry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chemistry</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Llewellyn was selected as a scientist-astronaut by NASA in August 1967.	</value>
+
+		<annotated-sentence>	Llewellyn was selected as a scientist-astronaut by [[NASA|NASA]] in August [[1967|1967]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Llewellyn was selected as a scientist-astronaut by [[NASA|NASA]] in August 1967.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Llewellyn/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(scientist-astronaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,scientist-astronaut/NN-6)
+				agent(selected/VBN-3,NASA/NNP-8)
+				prep_in(NASA/NNP-8,August/NNP-10)
+				num(August/NNP-10,1967/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He participated in flight training; however, he dropped out of flight school and resigned from NASA in September 1968.	</value>
+
+		<annotated-sentence>	He participated in [[flight training|Flight_training]]; however, he dropped out of [[flight school|Flight_training]] and resigned from [[NASA|NASA]] in [[September|September]] [[1968|An_American_Carol]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He participated in flight training; however, he dropped out of flight school and resigned from [[NASA|NASA]] in September 1968.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(participated/VBD-2,He/PRP-1)
+				nn(training/NN-5,flight/NN-4)
+				prep_in(participated/VBD-2,training/NN-5)
+				advmod(dropped/VBD-10,however/RB-7)
+				nsubj(dropped/VBD-10,he/PRP-9)
+				nsubj(resigned/VBD-16,he/PRP-9)
+				parataxis(participated/VBD-2,dropped/VBD-10)
+				nn(school/NN-14,flight/NN-13)
+				prep_out_of(dropped/VBD-10,school/NN-14)
+				parataxis(participated/VBD-2,resigned/VBD-16)
+				conj_and(dropped/VBD-10,resigned/VBD-16)
+				prep_from(resigned/VBD-16,NASA/NNP-18)
+				prep_in(resigned/VBD-16,September/NNP-20)
+				num(September/NNP-20,1968/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight school</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1968</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/An_American_Carol</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While with the University of South Florida's department of Chemical Engineering, Llewellyn also served as Director of the College of Engineering's computing department, and later as University Director of Academic Computing, where he helped initiate USF's programs in High-Performance Computing and electronic and distance learning.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(with/IN-2,While/IN-1)
+				advcl(served/VBD-16,with/IN-2)
+				det(University/NNP-4,the/DT-3)
+				pobj(with/IN-2,University/NNP-4)
+				nn(Florida/NNP-7,South/NNP-6)
+				poss(department/NN-9,Florida/NNP-7)
+				prep_of(University/NNP-4,department/NN-9)
+				nn(Engineering/NNP-12,Chemical/NNP-11)
+				prep_of(department/NN-9,Engineering/NNP-12)
+				nsubj(served/VBD-16,Llewellyn/NNP-14)
+				advmod(served/VBD-16,also/RB-15)
+				prep_as(served/VBD-16,Director/NN-18)
+				det(College/NNP-21,the/DT-20)
+				prep_of(Director/NN-18,College/NNP-21)
+				poss(department/NN-26,Engineering/NNP-23)
+				nn(department/NN-26,computing/NN-25)
+				prep_of(College/NNP-21,department/NN-26)
+				advmod(as/RB-30,later/RB-29)
+				advmod(College/NNP-21,as/RB-30)
+				nn(Director/NNP-32,University/NNP-31)
+				prep_of(Director/NN-18,Director/NNP-32)
+				conj_and(College/NNP-21,Director/NNP-32)
+				nn(Computing/NNP-35,Academic/NNP-34)
+				prep_of(Director/NNP-32,Computing/NNP-35)
+				advmod(helped/VBD-39,where/WRB-37)
+				nsubj(helped/VBD-39,he/PRP-38)
+				advcl(served/VBD-16,helped/VBD-39)
+				xcomp(helped/VBD-39,initiate/VB-40)
+				poss(programs/NNS-43,USF/NN-41)
+				dobj(initiate/VB-40,programs/NNS-43)
+				nn(Computing/NNP-46,High-Performance/NNP-45)
+				prep_in(initiate/VB-40,Computing/NNP-46)
+				amod(learning/NN-51,electronic/JJ-48)
+				conj_and(electronic/JJ-48,distance/NN-50)
+				amod(learning/NN-51,distance/NN-50)
+				prep_in(initiate/VB-40,learning/NN-51)
+				conj_and(Computing/NNP-46,learning/NN-51)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2007, he retired from the directorship position and served as Professor Emeritus in the Department of Chemical and Biomedical Engineering until his death.	</value>
+
+		<annotated-sentence>	In [[2007|2007]], he retired from the directorship position and served as [[Professor Emeritus|Professor_emeritus]] in the Department of Chemical and Biomedical [[Engineering|Engineering]] until [[his death|Death]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2007, he retired from the directorship position and served as Professor Emeritus in the Department of Chemical and Biomedical Engineering until his death.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(retired/VBD-5,2007/CD-2)
+				nsubj(retired/VBD-5,he/PRP-4)
+				nsubj(served/VBD-11,he/PRP-4)
+				det(position/NN-9,the/DT-7)
+				nn(position/NN-9,directorship/NN-8)
+				prep_from(retired/VBD-5,position/NN-9)
+				conj_and(retired/VBD-5,served/VBD-11)
+				nn(Emeritus/NNP-14,Professor/NNP-13)
+				prep_as(served/VBD-11,Emeritus/NNP-14)
+				det(Department/NNP-17,the/DT-16)
+				prep_in(Emeritus/NNP-14,Department/NNP-17)
+				nn(Engineering/NNP-22,Chemical/NNP-19)
+				conj_and(Chemical/NNP-19,Biomedical/NNP-21)
+				nn(Engineering/NNP-22,Biomedical/NNP-21)
+				prep_of(Department/NNP-17,Engineering/NNP-22)
+				poss(death/NN-25,his/PRP$-24)
+				prep_until(served/VBD-11,death/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Professor Emeritus</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_emeritus</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his death</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Death</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His research interests included the development of impedance-based sensor measurement methods and instrumentation for invivo monitoring of tissue after the application of an electric field mediated plasmid delivery protocol (IEEE Transactions on Dielectrics and Electrical Insulation 16(5): 1348-1355.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(interests/NNS-3,His/PRP$-1)
+				nn(interests/NNS-3,research/NN-2)
+				nsubj(included/VBD-4,interests/NNS-3)
+				det(development/NN-6,the/DT-5)
+				dobj(included/VBD-4,development/NN-6)
+				amod(methods/NNS-11,impedance-based/JJ-8)
+				nn(methods/NNS-11,sensor/NN-9)
+				nn(methods/NNS-11,measurement/NN-10)
+				prep_of(development/NN-6,methods/NNS-11)
+				dobj(included/VBD-4,instrumentation/NN-13)
+				conj_and(development/NN-6,instrumentation/NN-13)
+				nn(monitoring/NN-16,invivo/NN-15)
+				prep_for(instrumentation/NN-13,monitoring/NN-16)
+				prep_of(monitoring/NN-16,tissue/NN-18)
+				det(application/NN-21,the/DT-20)
+				prep_after(included/VBD-4,application/NN-21)
+				det(field/NN-25,an/DT-23)
+				amod(field/NN-25,electric/JJ-24)
+				prep_of(application/NN-21,field/NN-25)
+				partmod(field/NN-25,mediated/VBN-26)
+				nn(protocol/NN-29,plasmid/NN-27)
+				nn(protocol/NN-29,delivery/NN-28)
+				dobj(mediated/VBN-26,protocol/NN-29)
+				nn(Transactions/NNS-32,IEEE/NNP-31)
+				dep(protocol/NN-29,Transactions/NNS-32)
+				prep_on(Transactions/NNS-32,Dielectrics/NNS-34)
+				amod(Insulation/NN-37,Electrical/JJ-36)
+				prep_on(Transactions/NNS-32,Insulation/NN-37)
+				conj_and(Dielectrics/NNS-34,Insulation/NN-37)
+				num(Insulation/NN-37,16/CD-38)
+				appos(Insulation/NN-37,5/CD-40)
+				dep(protocol/NN-29,1348-1355/CD-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His current work was presented at the 2010 American Society for Gene and Cell Therapy and he was an invited session leader at the 2010 Gordon Conference in Bioelectrochemistry.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(work/NN-3,His/PRP$-1)
+				amod(work/NN-3,current/JJ-2)
+				nsubjpass(presented/VBN-5,work/NN-3)
+				auxpass(presented/VBN-5,was/VBD-4)
+				det(Society/NNP-10,the/DT-7)
+				num(Society/NNP-10,2010/CD-8)
+				nn(Society/NNP-10,American/NNP-9)
+				prep_at(presented/VBN-5,Society/NNP-10)
+				prep_for(Society/NNP-10,Gene/NNP-12)
+				nn(Therapy/NN-15,Cell/NNP-14)
+				prep_for(Society/NNP-10,Therapy/NN-15)
+				conj_and(Gene/NNP-12,Therapy/NN-15)
+				nsubj(leader/NN-22,he/PRP-17)
+				cop(leader/NN-22,was/VBD-18)
+				det(leader/NN-22,an/DT-19)
+				amod(leader/NN-22,invited/VBN-20)
+				nn(leader/NN-22,session/NN-21)
+				conj_and(presented/VBN-5,leader/NN-22)
+				det(Conference/NNP-27,the/DT-24)
+				num(Conference/NNP-27,2010/CD-25)
+				nn(Conference/NNP-27,Gordon/NNP-26)
+				prep_at(leader/NN-22,Conference/NNP-27)
+				prep_in(Conference/NNP-27,Bioelectrochemistry/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Llewellyn passed away on July 2, 2013 after suffering from a brief illness.	</value>
+
+		<annotated-sentence>	Llewellyn passed away on [[July|July]] 2, 2013 after suffering from [[a brief illness|Illness]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Llewellyn passed away on July 2, 2013 after suffering from a brief illness.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(passed/VBD-2,Llewellyn/NNP-1)
+				advmod(passed/VBD-2,away/RB-3)
+				prep_on(away/RB-3,July/NNP-5)
+				num(July/NNP-5,2/CD-6)
+				num(July/NNP-5,2013/CD-8)
+				prepc_after(passed/VBD-2,suffering/VBG-10)
+				det(illness/NN-14,a/DT-12)
+				amod(illness/NN-14,brief/JJ-13)
+				prep_from(suffering/VBG-10,illness/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a brief illness</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Illness</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Llewellyn's career is chronicled in the book "NASA's Scientist-Astronauts" by David Shayler and Colin Burgess.	</value>
+
+		<annotated-sentence>	Llewellyn's [[career|Career]] is chronicled in the [[book|Book]] "[[NASA|NASA]]'s Scientist-Astronauts" by [[David Shayler|David_Shayler]] and Colin Burgess.	</annotated-sentence>
+
+		<pattern_crowdsource>	Llewellyn's career is chronicled in the book "[[NASA|NASA]]'s Scientist-Astronauts" by David Shayler and Colin Burgess.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(career/NN-3,Llewellyn/NNP-1)
+				nsubjpass(chronicled/VBN-5,career/NN-3)
+				auxpass(chronicled/VBN-5,is/VBZ-4)
+				det(Scientist-Astronauts/NNP-12,the/DT-7)
+				nn(Scientist-Astronauts/NNP-12,book/NN-8)
+				nn(Scientist-Astronauts/NNP-12,NASA/NNP-10)
+				possessive(Scientist-Astronauts/NNP-12,'s/POS-11)
+				prep_in(chronicled/VBN-5,Scientist-Astronauts/NNP-12)
+				nn(Shayler/NNP-16,David/NNP-15)
+				agent(chronicled/VBN-5,Shayler/NNP-16)
+				nn(Burgess/NNP-19,Colin/NNP-18)
+				agent(chronicled/VBN-5,Burgess/NNP-19)
+				conj_and(Shayler/NNP-16,Burgess/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>book</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Book</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Shayler</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Shayler</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Anthony_Llewellyn http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

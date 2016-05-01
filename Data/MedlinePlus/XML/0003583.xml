@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A sinus x-ray is an imaging test to look at the sinuses.</value>
+		<pattern_crowdsource> A [[sinus x-ray|C0202732]] is an imaging test to look at the [[sinuses|C0030471]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sinus x-ray</surface-form>
+				<RDF-ID>C0202732</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sinuses</surface-form>
+				<RDF-ID>C0030471</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030471 LOCATION_OF C0202732</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A sinus x-ray is taken in a hospital radiology department.</value>
+		<pattern_crowdsource> A [[sinus x-ray|C0202732]] is taken in a [[hospital radiology department|C0034600]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>sinus x-ray</surface-form>
+				<RDF-ID>C0202732</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital radiology department</surface-form>
+				<RDF-ID>C0034600</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034600 LOCATION_OF C0202732</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

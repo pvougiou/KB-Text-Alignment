@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Terry W. Virts, Jr. (born 1 December 1967) is a NASA astronaut, and Colonel in the United States Air Force.	</value>
+
+		<annotated-sentence>	[[Terry W. Virts|Terry_W._Virts]], Jr. (born 1 December [[1967|1967]]) is a [[NASA|NASA]] [[astronaut|Astronaut]], and [[Colonel|Colonel]] in [[the United States Air Force|United_States_Air_Force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Terry W. Virts|Terry_W._Virts]], Jr. (born 1 December 1967) is a [[NASA|NASA]] [[astronaut|Astronaut]], and [[Colonel|Colonel]] in [[the United States Air Force|United_States_Air_Force]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Virts/NNP-3,Terry/NNP-1)
+				nn(Virts/NNP-3,W./NNP-2)
+				nsubj(astronaut/NN-15,Virts/NNP-3)
+				appos(Virts/NNP-3,Jr./NNP-5)
+				dep(Virts/NNP-3,born/VBN-7)
+				dobj(born/VBN-7,1/CD-8)
+				tmod(born/VBN-7,December/NNP-9)
+				num(December/NNP-9,1967/CD-10)
+				cop(astronaut/NN-15,is/VBZ-12)
+				det(astronaut/NN-15,a/DT-13)
+				nn(astronaut/NN-15,NASA/NNP-14)
+				conj_and(astronaut/NN-15,Colonel/NNP-18)
+				det(Force/NNP-24,the/DT-20)
+				nn(Force/NNP-24,United/NNP-21)
+				nn(Force/NNP-24,States/NNP-22)
+				nn(Force/NNP-24,Air/NNP-23)
+				prep_in(Colonel/NNP-18,Force/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Terry W. Virts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terry_W._Virts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Virts was born in 1967 in Baltimore, Maryland, but considers Columbia, Maryland, to be his hometown.	</value>
+
+		<annotated-sentence>	Virts was born in [[1967|1967]] in Baltimore, Maryland, but considers Columbia, [[Maryland|Maryland]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Virts was born in 1967 in Baltimore, [[Maryland|Maryland]], but considers Columbia, [[Maryland|Maryland]], to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Virts/NNP-1)
+				nsubj(considers/VBZ-12,Virts/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,1967/CD-5)
+				nn(Maryland/NNP-9,Baltimore/NNP-7)
+				prep_in(born/VBN-3,Maryland/NNP-9)
+				conj_but(born/VBN-3,considers/VBZ-12)
+				nsubj(hometown/NN-20,Columbia/NNP-13)
+				appos(Columbia/NNP-13,Maryland/NNP-15)
+				aux(hometown/NN-20,to/TO-17)
+				cop(hometown/NN-20,be/VB-18)
+				poss(hometown/NN-20,his/PRP$-19)
+				xcomp(considers/VBZ-12,hometown/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Maryland</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Maryland</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Maryland
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Oakland Mills High School in Columbia, Maryland in 1985.	</value>
+
+		<annotated-sentence>	He graduated from [[Oakland Mills High School|Oakland_Mills_High_School]] in Columbia, Maryland in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Oakland Mills High School in Columbia, Maryland in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-7,Oakland/NNP-4)
+				nn(School/NNP-7,Mills/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(Maryland/NNP-11,Columbia/NNP-9)
+				prep_in(School/NNP-7,Maryland/NNP-11)
+				prep_in(graduated/VBD-2,1985/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Oakland Mills High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Oakland_Mills_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He earned a bachelor of science degree in mathematics (with a French minor) from the United States Air Force Academy in 1989 and a master of aeronautical science degree in aeronautics from Embry-Riddle Aeronautical University in 1997.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,He/PRP-1)
+				det(bachelor/NN-4,a/DT-3)
+				dobj(earned/VBD-2,bachelor/NN-4)
+				nn(degree/NN-7,science/NN-6)
+				prep_of(bachelor/NN-4,degree/NN-7)
+				prep_in(degree/NN-7,mathematics/NN-9)
+				dep(earned/VBD-2,with/IN-11)
+				det(minor/JJ-14,a/DT-12)
+				amod(minor/JJ-14,French/JJ-13)
+				pobj(with/IN-11,minor/JJ-14)
+				det(Academy/NNP-22,the/DT-17)
+				nn(Academy/NNP-22,United/NNP-18)
+				nn(Academy/NNP-22,States/NNP-19)
+				nn(Academy/NNP-22,Air/NNP-20)
+				nn(Academy/NNP-22,Force/NNP-21)
+				prep_from(earned/VBD-2,Academy/NNP-22)
+				prep_in(Academy/NNP-22,1989/CD-24)
+				det(master/NN-27,a/DT-26)
+				prep_from(earned/VBD-2,master/NN-27)
+				conj_and(Academy/NNP-22,master/NN-27)
+				amod(degree/NN-31,aeronautical/JJ-29)
+				nn(degree/NN-31,science/NN-30)
+				prep_of(master/NN-27,degree/NN-31)
+				prep_in(degree/NN-31,aeronautics/NNS-33)
+				nn(University/NNP-37,Embry-Riddle/NNP-35)
+				nn(University/NNP-37,Aeronautical/NNP-36)
+				prep_from(aeronautics/NNS-33,University/NNP-37)
+				prep_in(University/NNP-37,1997/CD-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	While at the Air Force Academy, Virts attended the École de l'Air in 1988 on an exchange program.	</value>
+
+		<annotated-sentence>	While at [[the Air Force Academy|Air_force_academy]], Virts attended the [[École de l'Air|%C3%89cole_de_l'Air]] in [[1988|1988]] on [[an exchange program|Student_exchange_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	While at the Air Force Academy, Virts attended the École de l'Air in 1988 on an exchange program.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(at/IN-2,While/IN-1)
+				advcl(attended/VBD-9,at/IN-2)
+				det(Academy/NNP-6,the/DT-3)
+				nn(Academy/NNP-6,Air/NNP-4)
+				nn(Academy/NNP-6,Force/NNP-5)
+				pobj(at/IN-2,Academy/NNP-6)
+				nsubj(attended/VBD-9,Virts/NNP-8)
+				det(l'Air/NNP-13,the/DT-10)
+				nn(l'Air/NNP-13,École/NNP-11)
+				amod(l'Air/NNP-13,de/IN-12)
+				dobj(attended/VBD-9,l'Air/NNP-13)
+				prep_in(attended/VBD-9,1988/CD-15)
+				det(program/NN-19,an/DT-17)
+				nn(program/NN-19,exchange/NN-18)
+				prep_on(attended/VBD-9,program/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force_academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>École de l'Air</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/%C3%89cole_de_l'Air</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an exchange program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Student_exchange_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Virts was commissioned as a Second Lieutenant upon graduation from the United States Air Force Academy in 1989 and earned his pilot wings at Williams Air Force Base, Arizona.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(commissioned/VBN-3,Virts/NNP-1)
+				nsubjpass(earned/VBD-20,Virts/NNP-1)
+				auxpass(commissioned/VBN-3,was/VBD-2)
+				det(Lieutenant/NN-7,a/DT-5)
+				amod(Lieutenant/NN-7,Second/JJ-6)
+				prep_as(commissioned/VBN-3,Lieutenant/NN-7)
+				prep_upon(commissioned/VBN-3,graduation/NN-9)
+				det(Academy/NNP-16,the/DT-11)
+				nn(Academy/NNP-16,United/NNP-12)
+				nn(Academy/NNP-16,States/NNP-13)
+				nn(Academy/NNP-16,Air/NNP-14)
+				nn(Academy/NNP-16,Force/NNP-15)
+				prep_from(commissioned/VBN-3,Academy/NNP-16)
+				prep_in(Academy/NNP-16,1989/CD-18)
+				conj_and(commissioned/VBN-3,earned/VBD-20)
+				poss(wings/NNS-23,his/PRP$-21)
+				nn(wings/NNS-23,pilot/NN-22)
+				dobj(earned/VBD-20,wings/NNS-23)
+				nn(Base/NNP-28,Williams/NNP-25)
+				nn(Base/NNP-28,Air/NNP-26)
+				nn(Base/NNP-28,Force/NNP-27)
+				prep_at(earned/VBD-20,Base/NNP-28)
+				appos(Base/NNP-28,Arizona/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed basic fighter lead-in training at Holloman Air Force Base, New Mexico followed by formal training in the F-16 Fighting Falcon with the 56th Tactical Fighter Wing at MacDill Air Force Base, Florida.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				amod(training/NN-6,basic/JJ-3)
+				nn(training/NN-6,fighter/NN-4)
+				nn(training/NN-6,lead-in/NN-5)
+				dobj(completed/VBD-2,training/NN-6)
+				nn(Base/NNP-11,Holloman/NNP-8)
+				nn(Base/NNP-11,Air/NNP-9)
+				nn(Base/NNP-11,Force/NNP-10)
+				prep_at(training/NN-6,Base/NNP-11)
+				nn(Mexico/NNP-14,New/NNP-13)
+				appos(Base/NNP-11,Mexico/NNP-14)
+				partmod(Mexico/NNP-14,followed/VBN-15)
+				amod(training/NN-18,formal/JJ-17)
+				agent(followed/VBN-15,training/NN-18)
+				det(Fighting/NN-22,the/DT-20)
+				nn(Fighting/NN-22,F-16/NNP-21)
+				prep_in(training/NN-18,Fighting/NN-22)
+				tmod(followed/VBN-15,Falcon/NN-23)
+				det(Wing/NN-29,the/DT-25)
+				amod(Wing/NN-29,56th/JJ-26)
+				nn(Wing/NN-29,Tactical/NNP-27)
+				nn(Wing/NN-29,Fighter/NNP-28)
+				prep_with(followed/VBN-15,Wing/NN-29)
+				nn(Base/NNP-34,MacDill/NNP-31)
+				nn(Base/NNP-34,Air/NNP-32)
+				nn(Base/NNP-34,Force/NNP-33)
+				prep_at(Wing/NN-29,Base/NNP-34)
+				appos(Base/NNP-34,Florida/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was then assigned to the 31st Tactical Fighter Wing at Homestead Air Force Base, Florida.	</value>
+
+		<annotated-sentence>	He was then assigned to [[the 31st Tactical Fighter Wing|31st_Fighter_Wing]] at Homestead Air Force Base, [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was then assigned to the 31st Tactical Fighter Wing at Homestead Air Force Base, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,then/RB-3)
+				det(Wing/NN-10,the/DT-6)
+				num(Wing/NN-10,31st/CD-7)
+				nn(Wing/NN-10,Tactical/NNP-8)
+				nn(Wing/NN-10,Fighter/NNP-9)
+				prep_to(assigned/VBN-4,Wing/NN-10)
+				nn(Base/NNP-15,Homestead/NNP-12)
+				nn(Base/NNP-15,Air/NNP-13)
+				nn(Base/NNP-15,Force/NNP-14)
+				prep_at(Wing/NN-10,Base/NNP-15)
+				appos(Base/NNP-15,Florida/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the 31st Tactical Fighter Wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/31st_Fighter_Wing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After Hurricane Andrew struck southern Florida in 1992, his squadron was moved to Moody Air Force Base, Georgia.	</value>
+
+		<annotated-sentence>	After [[Hurricane Andrew|Hurricane_Andrew]] struck southern Florida in [[1992|1992]], his squadron was moved to [[Moody Air Force Base|Moody_Air_Force_Base]], Georgia.	</annotated-sentence>
+
+		<pattern_crowdsource>	After Hurricane Andrew struck southern Florida in 1992, his squadron was moved to Moody Air Force Base, Georgia.	</pattern_crowdsource>
+
+
+		<tree>
+				mark(struck/VBD-4,After/IN-1)
+				nn(Andrew/NNP-3,Hurricane/NNP-2)
+				nsubj(struck/VBD-4,Andrew/NNP-3)
+				advcl(moved/VBN-13,struck/VBD-4)
+				amod(Florida/NNP-6,southern/JJ-5)
+				dobj(struck/VBD-4,Florida/NNP-6)
+				prep_in(struck/VBD-4,1992/CD-8)
+				poss(squadron/NN-11,his/PRP$-10)
+				nsubjpass(moved/VBN-13,squadron/NN-11)
+				auxpass(moved/VBN-13,was/VBD-12)
+				nn(Base/NNP-18,Moody/NNP-15)
+				nn(Base/NNP-18,Air/NNP-16)
+				nn(Base/NNP-18,Force/NNP-17)
+				prep_to(moved/VBN-13,Base/NNP-18)
+				appos(Base/NNP-18,Georgia/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hurricane Andrew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hurricane_Andrew</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moody Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moody_Air_Force_Base</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was later assigned to the 36th Fighter Squadron at Osan Air Base, Republic of Korea, and the 22d Fighter Squadron at Spangdahlem Air Base, Germany.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,later/RB-3)
+				det(Squadron/NNP-9,the/DT-6)
+				amod(Squadron/NNP-9,36th/JJ-7)
+				nn(Squadron/NNP-9,Fighter/NNP-8)
+				prep_to(assigned/VBN-4,Squadron/NNP-9)
+				nn(Base/NNP-13,Osan/NNP-11)
+				nn(Base/NNP-13,Air/NNP-12)
+				prep_at(Squadron/NNP-9,Base/NNP-13)
+				prep_to(assigned/VBN-4,Republic/NNP-15)
+				conj_and(Squadron/NNP-9,Republic/NNP-15)
+				prep_of(Republic/NNP-15,Korea/NNP-17)
+				det(Squadron/NNP-23,the/DT-20)
+				amod(Squadron/NNP-23,22d/JJ-21)
+				nn(Squadron/NNP-23,Fighter/NNP-22)
+				prep_to(assigned/VBN-4,Squadron/NNP-23)
+				conj_and(Squadron/NNP-9,Squadron/NNP-23)
+				nn(Base/NNP-27,Spangdahlem/NNP-25)
+				nn(Base/NNP-27,Air/NNP-26)
+				prep_at(Squadron/NNP-23,Base/NNP-27)
+				appos(Base/NNP-27,Germany/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Virts was selected for Test Pilot School in 1997 at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	Virts was selected for [[Test Pilot School|U.S._Air_Force_Test_Pilot_School]] in [[1997|1997]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Virts was selected for [[Test Pilot School|U.S._Air_Force_Test_Pilot_School]] in 1997 at [[Edwards Air Force Base|Edwards_Air_Force_Base]], California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Virts/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				nn(School/NN-7,Test/NN-5)
+				nn(School/NN-7,Pilot/NN-6)
+				prep_for(selected/VBN-3,School/NN-7)
+				prep_in(School/NN-7,1997/CD-9)
+				nn(Base/NNP-14,Edwards/NNP-11)
+				nn(Base/NNP-14,Air/NNP-12)
+				nn(Base/NNP-14,Force/NNP-13)
+				prep_at(selected/VBN-3,Base/NNP-14)
+				appos(Base/NNP-14,California/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Test Pilot School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/U.S._Air_Force_Test_Pilot_School http://dbpedia.org/ontology/garrison http://dbpedia.org/resource/Edwards_Air_Force_Base
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following graduation, he was an Experimental Test Pilot at the F-16 Combined Test Force.	</value>
+
+		<annotated-sentence>	Following [[graduation|Graduation]], he was an Experimental [[Test Pilot|Test_pilot]] at the [[F-16|General_Dynamics_F-16_VISTA]] Combined [[Test|Test_pilot]] Force.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following graduation, he was an Experimental Test Pilot at the F-16 Combined Test Force.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(Pilot/NN-9,graduation/NN-2)
+				nsubj(Pilot/NN-9,he/PRP-4)
+				cop(Pilot/NN-9,was/VBD-5)
+				det(Pilot/NN-9,an/DT-6)
+				amod(Pilot/NN-9,Experimental/JJ-7)
+				nn(Pilot/NN-9,Test/NN-8)
+				det(Force/NNP-15,the/DT-11)
+				nn(Force/NNP-15,F-16/NNP-12)
+				nn(Force/NNP-15,Combined/NNP-13)
+				nn(Force/NNP-15,Test/NNP-14)
+				prep_at(Pilot/NN-9,Force/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>graduation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Graduation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-16_VISTA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has logged over 3,000 flight hours in more than 40 different aircraft.	</value>
+
+		<annotated-sentence>	He has logged over [[3,000|Harvest:_3,000_Years]] [[flight|Flight]] [[hours|Hour]] in more than 40 different [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has logged over 3,000 flight hours in more than 40 different aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBN-3,He/PRP-1)
+				aux(logged/VBN-3,has/VBZ-2)
+				num(hours/NNS-7,3,000/CD-5)
+				nn(hours/NNS-7,flight/NN-6)
+				prep_over(logged/VBN-3,hours/NNS-7)
+				mwe(than/IN-10,more/JJR-9)
+				quantmod(40/CD-11,than/IN-10)
+				num(aircraft/NN-13,40/CD-11)
+				amod(aircraft/NN-13,different/JJ-12)
+				prep_in(hours/NNS-7,aircraft/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>3,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Harvest:_3,000_Years</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as a pilot by NASA in July 2000, Virts reported for training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as a pilot by [[NASA|NASA]] in [[July 2000|July_2000]], [[Virts|Terry_W._Virts]] reported for [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as a pilot by [[NASA|NASA]] in July 2000, [[Virts|Terry_W._Virts]] reported for training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-12,Selected/VBN-1)
+				det(pilot/NN-4,a/DT-3)
+				prep_as(Selected/VBN-1,pilot/NN-4)
+				agent(Selected/VBN-1,NASA/NNP-6)
+				prep_in(Selected/VBN-1,July/NNP-8)
+				num(July/NNP-8,2000/CD-9)
+				nsubj(reported/VBD-12,Virts/NNP-11)
+				prep_for(reported/VBD-12,training/NN-14)
+				prep_in(reported/VBD-12,August/NNP-16)
+				num(August/NNP-16,2000/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Virts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Terry_W._Virts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His technical assignments have included lead astronaut for the NASA T-38 program, Shuttle Avionics Integration Laboratory (SAIL) test crewmember, and Expedition 9 crew support astronaut.	</value>
+
+		<annotated-sentence>	His technical assignments have included lead [[astronaut|Astronaut]] for the [[NASA T-38|1966_NASA_T-38_crash]] [[program|NASA]], [[Shuttle Avionics Integration Laboratory|Shuttle_Avionics_Integration_Laboratory]] ([[SAIL|Shuttle_Avionics_Integration_Laboratory]]) test [[crewmember|Crewman]], and [[Expedition 9|Expedition_9]] [[crew|Crewman]] support [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His technical assignments have included lead [[astronaut|Astronaut]] for the NASA T-38 [[program|NASA]], Shuttle Avionics Integration Laboratory (SAIL) test crewmember, and [[Expedition 9|Expedition_9]] crew support [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-3,His/PRP$-1)
+				amod(assignments/NNS-3,technical/JJ-2)
+				nsubj(included/VBN-5,assignments/NNS-3)
+				aux(included/VBN-5,have/VBP-4)
+				amod(astronaut/NN-7,lead/JJ-6)
+				dobj(included/VBN-5,astronaut/NN-7)
+				det(program/NN-12,the/DT-9)
+				nn(program/NN-12,NASA/NNP-10)
+				nn(program/NN-12,T-38/NN-11)
+				prep_for(astronaut/NN-7,program/NN-12)
+				nn(Laboratory/NN-17,Shuttle/NNP-14)
+				nn(Laboratory/NN-17,Avionics/NNP-15)
+				nn(Laboratory/NN-17,Integration/NN-16)
+				dobj(included/VBN-5,Laboratory/NN-17)
+				conj_and(astronaut/NN-7,Laboratory/NN-17)
+				appos(Laboratory/NN-17,SAIL/NN-19)
+				nn(crewmember/NN-22,test/NN-21)
+				dep(Laboratory/NN-17,crewmember/NN-22)
+				nn(support/NN-28,Expedition/NN-25)
+				num(support/NN-28,9/CD-26)
+				nn(support/NN-28,crew/NN-27)
+				dobj(included/VBN-5,support/NN-28)
+				conj_and(astronaut/NN-7,support/NN-28)
+				dep(support/NN-28,astronaut/NN-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA T-38</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1966_NASA_T-38_crash</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle Avionics Integration Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Avionics_Integration_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SAIL</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Avionics_Integration_Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crewmember</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 9</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_9</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crew</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_9 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Terry_W._Virts http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the pilot of STS-130 aboard Space Shuttle Endeavour and is currently assigned as a CAPCOM, communicating with station crews from mission control in Houston.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-4,He/PRP-1)
+				nsubjpass(assigned/VBN-14,He/PRP-1)
+				cop(pilot/NN-4,was/VBD-2)
+				det(pilot/NN-4,the/DT-3)
+				prep_of(pilot/NN-4,STS-130/NN-6)
+				nn(Endeavour/NNP-10,Space/NN-8)
+				nn(Endeavour/NNP-10,Shuttle/NNP-9)
+				prep_aboard(pilot/NN-4,Endeavour/NNP-10)
+				auxpass(assigned/VBN-14,is/VBZ-12)
+				advmod(assigned/VBN-14,currently/RB-13)
+				conj_and(pilot/NN-4,assigned/VBN-14)
+				det(CAPCOM/NNP-17,a/DT-16)
+				prep_as(assigned/VBN-14,CAPCOM/NNP-17)
+				xcomp(assigned/VBN-14,communicating/VBG-19)
+				nn(crews/NNS-22,station/NN-21)
+				prep_with(communicating/VBG-19,crews/NNS-22)
+				nn(control/NN-25,mission/NN-24)
+				prep_from(communicating/VBG-19,control/NN-25)
+				prep_in(control/NN-25,Houston/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Virts will be a part of the Expedition 42 and Expedition 43 crews, launching to the International Space Station in November 2014.	</value>
+
+		<annotated-sentence>	Virts will be a part of [[the Expedition 42|Expedition_42]] and [[Expedition|Exploration]] 43 crews, launching to [[the International Space Station|International_Space_Station]] in [[November 2014|2014]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Virts will be a part of [[the Expedition 42|Expedition_42]] and Expedition 43 crews, launching to [[the International Space Station|International_Space_Station]] in November 2014.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(part/NN-5,Virts/NNP-1)
+				aux(part/NN-5,will/MD-2)
+				cop(part/NN-5,be/VB-3)
+				det(part/NN-5,a/DT-4)
+				det(Expedition/NN-8,the/DT-7)
+				prep_of(part/NN-5,Expedition/NN-8)
+				num(Expedition/NN-8,42/CD-9)
+				conj_and(part/NN-5,Expedition/NN-11)
+				num(crews/NNS-13,43/CD-12)
+				dep(Expedition/NN-11,crews/NNS-13)
+				partmod(part/NN-5,launching/VBG-15)
+				det(Station/NNP-20,the/DT-17)
+				nn(Station/NNP-20,International/NNP-18)
+				nn(Station/NNP-20,Space/NNP-19)
+				prep_to(launching/VBG-15,Station/NNP-20)
+				prep_in(Station/NNP-20,November/NNP-22)
+				num(November/NNP-22,2014/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Expedition 42</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_42</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 2014</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2014</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_42 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Terry_W._Virts
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_42 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_42 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Virts graduated with Academic Distinction from the United States Air Force Academy and Embry-Riddle Aeronautical University, was a distinguished graduate of Undergraduate Pilot Training at Williams Air Force Base, Arizona, and F-16 training at MacDill Air Force Base, Florida.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Virts/NNP-1)
+				ccomp(graduate/NN-21,graduated/VBD-2)
+				nn(Distinction/NNP-5,Academic/NNP-4)
+				prep_with(graduated/VBD-2,Distinction/NNP-5)
+				det(Academy/NNP-12,the/DT-7)
+				nn(Academy/NNP-12,United/NNP-8)
+				nn(Academy/NNP-12,States/NNP-9)
+				nn(Academy/NNP-12,Air/NNP-10)
+				nn(Academy/NNP-12,Force/NNP-11)
+				prep_from(graduated/VBD-2,Academy/NNP-12)
+				nn(University/NNP-16,Embry-Riddle/NNP-14)
+				nn(University/NNP-16,Aeronautical/NNP-15)
+				prep_from(graduated/VBD-2,University/NNP-16)
+				conj_and(Academy/NNP-12,University/NNP-16)
+				cop(graduate/NN-21,was/VBD-18)
+				det(graduate/NN-21,a/DT-19)
+				amod(graduate/NN-21,distinguished/JJ-20)
+				nn(Training/NN-25,Undergraduate/NNP-23)
+				nn(Training/NN-25,Pilot/NN-24)
+				prep_of(graduate/NN-21,Training/NN-25)
+				nn(Air/NNP-28,Williams/NNP-27)
+				prep_at(graduate/NN-21,Air/NNP-28)
+				nn(Base/NNP-30,Force/NNP-29)
+				nsubj(graduate/NN-21,Base/NNP-30)
+				nsubj(graduate/NN-21,Arizona/NNP-32)
+				conj_and(Base/NNP-30,Arizona/NNP-32)
+				nn(training/NN-36,F-16/NN-35)
+				nsubj(graduate/NN-21,training/NN-36)
+				conj_and(Base/NNP-30,training/NN-36)
+				nn(Base/NNP-41,MacDill/NNP-38)
+				nn(Base/NNP-41,Air/NNP-39)
+				nn(Base/NNP-41,Force/NNP-40)
+				prep_at(training/NN-36,Base/NNP-41)
+				appos(Base/NNP-41,Florida/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His military decorations include the Meritorious Service Medal, the Air Medal, Aerial Achievement Medal, and the Air Force Commendation Medal.	</value>
+
+		<annotated-sentence>	His military decorations include [[the Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], [[the Air Medal|Air_Medal]], [[Aerial Achievement Medal|Aerial_Achievement_Medal]], and [[the Air Force Commendation Medal|Commendation_Medal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His military decorations include [[the Meritorious Service Medal|Meritorious_Service_Medal_(United_States)]], [[the Air Medal|Air_Medal]], [[Aerial Achievement Medal|Aerial_Achievement_Medal]], and [[the Air Force Commendation Medal|Commendation_Medal]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(decorations/NNS-3,His/PRP$-1)
+				amod(decorations/NNS-3,military/JJ-2)
+				nsubj(include/VBP-4,decorations/NNS-3)
+				det(Medal/NN-8,the/DT-5)
+				nn(Medal/NN-8,Meritorious/NNP-6)
+				nn(Medal/NN-8,Service/NNP-7)
+				dobj(include/VBP-4,Medal/NN-8)
+				det(Medal/NN-12,the/DT-10)
+				nn(Medal/NN-12,Air/NNP-11)
+				dobj(include/VBP-4,Medal/NN-12)
+				conj_and(Medal/NN-8,Medal/NN-12)
+				amod(Medal/NN-16,Aerial/JJ-14)
+				nn(Medal/NN-16,Achievement/NNP-15)
+				dobj(include/VBP-4,Medal/NN-16)
+				conj_and(Medal/NN-8,Medal/NN-16)
+				det(Medal/NN-23,the/DT-19)
+				nn(Medal/NN-23,Air/NNP-20)
+				nn(Medal/NN-23,Force/NNP-21)
+				nn(Medal/NN-23,Commendation/NNP-22)
+				dobj(include/VBP-4,Medal/NN-23)
+				conj_and(Medal/NN-8,Medal/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Meritorious Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aerial Achievement Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerial_Achievement_Medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force Commendation Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commendation_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States) http://dbpedia.org/property/lower http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Air_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Meritorious_Service_Medal_(United_States)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Aerial_Achievement_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Commendation_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Air_Medal
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Commendation_Medal http://dbpedia.org/property/higher http://dbpedia.org/resource/Aerial_Achievement_Medal
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

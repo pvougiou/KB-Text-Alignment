@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Delta-ALA is a protein (amino acid) produced by the liver.</value>
+		<pattern_crowdsource> [[Delta-ALA|C0002563]] is a [[protein|C0033684]] (amino acid) produced by the [[liver|C0023884]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Delta-ALA</surface-form>
+				<RDF-ID>C0002563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>protein</surface-form>
+				<RDF-ID>C0033684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>amino acid</surface-form>
+				<RDF-ID>C0002520</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002563 ISA C0033684</triple>
+			<triple>C0023884 PRODUCES C0033684</triple>
+			<triple>C0023884 PRODUCES C0002563</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your health care provider may tell you to temporarily stop taking any medicines that can affect test results.</value>
+		<pattern_crowdsource> Your health care provider may tell you to temporarily stop taking any [[medicines|C0013227]] that can affect [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These include:  - Penicillin (an antibiotic)  - Barbiturates (medicnes to treat anxiety)  - Birth control pills  - Griseofulvin (medicine to treat fungal infections)</value>
+		<pattern_crowdsource> These include:  - Penicillin (an antibiotic)  - Barbiturates (medicnes to treat anxiety)  - Birth control pills  - [[Griseofulvin|C0018242]] ([[medicine|C0013227]] to treat [[fungal infections|C0026946]])		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Penicillin</surface-form>
+				<RDF-ID>C0030842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>antibiotic</surface-form>
+				<RDF-ID>C0003232</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Barbiturates</surface-form>
+				<RDF-ID>C0004745</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anxiety</surface-form>
+				<RDF-ID>C0003467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Birth control pills</surface-form>
+				<RDF-ID>C0009905</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Griseofulvin</surface-form>
+				<RDF-ID>C0018242</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fungal infections</surface-form>
+				<RDF-ID>C0026946</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018242 ISA C0013227</triple>
+			<triple>C0013227 TREATS C0026946</triple>
+			<triple>C0018242 TREATS C0026946</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

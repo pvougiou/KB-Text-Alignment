@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Some people are born with droopy eyelids or develop a disease that causes eyelid drooping.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] are born with [[droopy eyelids|C0005745]] or develop a disease that causes eyelid drooping.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>droopy eyelids</surface-form>
+				<RDF-ID>C0005745</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>eyelid drooping</surface-form>
+				<RDF-ID>C0005745</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005745 PART_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The eyelid lift may be done alone or with other surgery such as a browlift or facelift.</value>
+		<pattern_crowdsource> The [[eyelid|C1280734]] [[lift|C0181620]] may be done alone or with other [[surgery|C0543467]] such as a [[browlift|C0395122]] or [[facelift|C0035519]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>eyelid</surface-form>
+				<RDF-ID>C1280734</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lift</surface-form>
+				<RDF-ID>C0181620</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>browlift</surface-form>
+				<RDF-ID>C0395122</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>facelift</surface-form>
+				<RDF-ID>C0035519</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0395122 ISA C0543467</triple>
+			<triple>C0035519 ISA C0543467</triple>
+			<triple>C1280734 LOCATION_OF C0181620</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

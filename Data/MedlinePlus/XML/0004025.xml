@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis.</value>
+		<pattern_crowdsource> [[Trichomoniasis|C0040921]] is a sexually transmitted [[infection|C0009450]] caused by the [[parasite|C0030498]] [[Trichomonas vaginalis|C0040922]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Trichomoniasis</surface-form>
+				<RDF-ID>C0040921</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parasite</surface-form>
+				<RDF-ID>C0030498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Trichomonas vaginalis</surface-form>
+				<RDF-ID>C0040922</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040922 ISA C0030498</triple>
+			<triple>C0040921 ISA C0009450</triple>
+			<triple>C0040922 CAUSES C0009450</triple>
+			<triple>C0040922 CAUSES C0040921</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

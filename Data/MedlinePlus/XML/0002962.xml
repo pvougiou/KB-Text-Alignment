@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A related blood test is prothrombin time (PT).</value>
+		<pattern_crowdsource> A related [[blood test|C0018941]] is [[prothrombin time|C0033707]] (PT).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>related</surface-form>
+				<RDF-ID>C1522149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood test</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prothrombin time</surface-form>
+				<RDF-ID>C0033707</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033707 ISA C0018941</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you are taking any blood-thinning medicines, you will be watched for signs of bleeding.</value>
+		<pattern_crowdsource> If you are taking any blood-thinning [[medicines|C0013227]], you will be watched for [[signs|C0311392]] of bleeding.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thinning</surface-form>
+				<RDF-ID>C0332528</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0311392</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your health care provider may tell you to temporarily stop taking medicines that may affect the test results.</value>
+		<pattern_crowdsource> Your health care provider may tell you to temporarily stop taking [[medicines|C0013227]] that may affect the [[test results|C0456984]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test results</surface-form>
+				<RDF-ID>C0456984</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 AFFECTS C0456984</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

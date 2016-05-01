@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The disorder most often affects the small intestine, but can also occur in the large intestine.</value>
+		<pattern_crowdsource> The [[disorder|C0012634]] most often affects the small intestine, but can also occur in the [[large intestine|C0009368]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>disorder</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large intestine</surface-form>
+				<RDF-ID>C0009368</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009368 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Colonoscopy may be used to remove air from the large intestine.</value>
+		<pattern_crowdsource> - [[Colonoscopy|C0009378]] may be used to remove air from the [[large intestine|C0009368]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Colonoscopy</surface-form>
+				<RDF-ID>C0009378</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>air</surface-form>
+				<RDF-ID>C0001861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large intestine</surface-form>
+				<RDF-ID>C0009368</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009368 LOCATION_OF C0009378</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Neostigmine may be used to treat intestinal pseudo-obstruction that is only in the large bowel (Ogilvie's syndrome).</value>
+		<pattern_crowdsource> - [[Neostigmine|C0027679]] may be used to treat [[intestinal pseudo-obstruction|C0021847]] that is only in the large bowel ([[Ogilvie's syndrome|C1527395]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Neostigmine</surface-form>
+				<RDF-ID>C0027679</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestinal pseudo-obstruction</surface-form>
+				<RDF-ID>C0021847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large bowel</surface-form>
+				<RDF-ID>C0021851</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Ogilvie's syndrome</surface-form>
+				<RDF-ID>C1527395</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1527395 ISA C0021847</triple>
+			<triple>C0027679 TREATS C0021847</triple>
+			<triple>C0027679 TREATS C1527395</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>However, vitamin B12 and other vitamin supplements should be used for patients with vitamin deficiency.</value>
+		<pattern_crowdsource> However, [[vitamin B12|C0042845]] and other vitamin supplements should be used for [[patients|C0030705]] with [[vitamin deficiency|C1510471]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>vitamin B12</surface-form>
+				<RDF-ID>C0042845</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamin supplements</surface-form>
+				<RDF-ID>C0681579</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamin deficiency</surface-form>
+				<RDF-ID>C1510471</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042845 TREATS C0030705</triple>
+			<triple>C1510471 PROCESS_OF C0030705</triple>
+			<triple>C0042845 TREATS C1510471</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

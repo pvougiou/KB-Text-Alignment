@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>ACTH is a hormone produced in the pituitary gland that stimulates the adrenal glands to release a hormone called cortisol.</value>
+		<pattern_crowdsource> [[ACTH|C0001655]] is a [[hormone|C0019932]] produced in the [[pituitary gland|C0032005]] that stimulates the [[adrenal glands|C0001625]] to release a hormone called cortisol.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenal glands</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormone</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001655 ISA C0019932</triple>
+			<triple>C0032005 LOCATION_OF C0001655</triple>
+			<triple>C0001655 AUGMENTS C0001625</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An increase in cortisol after stimulation by ACTH is normal.</value>
+		<pattern_crowdsource> An increase in [[cortisol|C0020268]] after stimulation by [[ACTH|C0001655]] is normal.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>increase</surface-form>
+				<RDF-ID>C0442805</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stimulation</surface-form>
+				<RDF-ID>C1292856</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001655 STIMULATES C0020268</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This test is helpful in finding out if you have:  - Acute adrenal crisis  - Addison disease (adrenal glands do not produce enough cortisol)  - Hypopituitarism (pituitary gland is not producing enough hormones such as ACTH)  - Pituitary tumor</value>
+		<pattern_crowdsource> This test is helpful in finding out if you have:  - Acute adrenal crisis  - Addison disease ([[adrenal glands|C0001625]] do not produce enough [[cortisol|C0020268]])  - Hypopituitarism ([[pituitary gland|C0032005]] is not producing enough [[hormones|C0019932]] such as [[ACTH|C0001655]])  - Pituitary tumor		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>helpful</surface-form>
+				<RDF-ID>C1552861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>finding</surface-form>
+				<RDF-ID>C0243095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>out</surface-form>
+				<RDF-ID>C0439787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Acute</surface-form>
+				<RDF-ID>C0205178</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenal crisis</surface-form>
+				<RDF-ID>C0151467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Addison disease</surface-form>
+				<RDF-ID>C0001403</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>adrenal glands</surface-form>
+				<RDF-ID>C0001625</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cortisol</surface-form>
+				<RDF-ID>C0020268</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hypopituitarism</surface-form>
+				<RDF-ID>C0020635</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pituitary gland</surface-form>
+				<RDF-ID>C0032005</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hormones</surface-form>
+				<RDF-ID>C0019932</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACTH</surface-form>
+				<RDF-ID>C0001655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Pituitary tumor</surface-form>
+				<RDF-ID>C0032019</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0001655 ISA C0019932</triple>
+			<triple>C0001625 NEG_PRODUCES C0020268</triple>
+			<triple>C0032005 NEG_PRODUCES C0019932</triple>
+			<triple>C0032005 NEG_PRODUCES C0001655</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

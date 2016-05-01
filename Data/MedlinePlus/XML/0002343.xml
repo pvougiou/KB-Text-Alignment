@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Lavender oil is an oil made from the flowers of lavender.</value>
+		<pattern_crowdsource> [[Lavender oil|C0064694]] is an [[oil|C0028908]] made from the [[flowers|C0330090]] of lavender.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Lavender oil</surface-form>
+				<RDF-ID>C0064694</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oil</surface-form>
+				<RDF-ID>C0028908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flowers</surface-form>
+				<RDF-ID>C0330090</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lavender</surface-form>
+				<RDF-ID>C0524903</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0064694 ISA C0028908</triple>
+			<triple>C0330090 LOCATION_OF C0028908</triple>
+			<triple>C0330090 LOCATION_OF C0064694</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Do NOT give water or milk if the patient is having symptoms (such as vomiting, convulsions, or a decreased level of alertness) that make it hard to swallow.</value>
+		<pattern_crowdsource> Do NOT give water or milk if the [[patient|C0030705]] is having [[symptoms|C1457887]] (such as vomiting, convulsions, or a decreased level of alertness) that make it hard to swallow.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>NOT</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0043047</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>milk</surface-form>
+				<RDF-ID>C0026131</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patient</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>convulsions</surface-form>
+				<RDF-ID>C0009951</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>decreased</surface-form>
+				<RDF-ID>C0205216</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>alertness</surface-form>
+				<RDF-ID>C1443086</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hard</surface-form>
+				<RDF-ID>C0018599</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

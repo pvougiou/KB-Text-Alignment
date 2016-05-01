@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Anaplastic thyroid carcinoma is a rare and aggressive form of cancer of the thyroid gland.</value>
+		<pattern_crowdsource> [[Anaplastic thyroid carcinoma|C0238461]] is a rare and aggressive form of [[cancer|C0006826]] of the [[thyroid gland|C0040132]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Anaplastic thyroid carcinoma</surface-form>
+				<RDF-ID>C0238461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rare</surface-form>
+				<RDF-ID>C0522498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>form</surface-form>
+				<RDF-ID>C1522492</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid gland</surface-form>
+				<RDF-ID>C0040132</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0238461 ISA C0006826</triple>
+			<triple>C0006826 PART_OF C0040132</triple>
+			<triple>C0238461 PART_OF C0040132</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- A CT scan or MRI of the neck may show a tumor growing from the thyroid gland.</value>
+		<pattern_crowdsource> - A [[CT scan|C0040405]] or [[MRI|C0024485]] of the [[neck|C0027530]] may show a tumor growing from the [[thyroid gland|C0040132]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>CT scan</surface-form>
+				<RDF-ID>C0040405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>MRI</surface-form>
+				<RDF-ID>C0024485</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>neck</surface-form>
+				<RDF-ID>C0027530</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tumor</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid gland</surface-form>
+				<RDF-ID>C0040132</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0027530 LOCATION_OF C0024485</triple>
+			<triple>C0027530 LOCATION_OF C0040405</triple>
+			<triple>C0040132 LOCATION_OF C0024485</triple>
+			<triple>C0040132 LOCATION_OF C0040405</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This type of cancer cannot be cured by surgery.</value>
+		<pattern_crowdsource> This type of [[cancer|C0006826]] cannot be cured by [[surgery|C0543467]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Complete removal of the thyroid gland does not prolong most patients' lives.</value>
+		<pattern_crowdsource> Complete [[removal|C0728940]] of the thyroid gland does not prolong most [[patients|C0030705]]' lives.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Complete</surface-form>
+				<RDF-ID>C0205197</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>removal</surface-form>
+				<RDF-ID>C0728940</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid gland</surface-form>
+				<RDF-ID>C0040132</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0728940 NEG_AFFECTS C0030705</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

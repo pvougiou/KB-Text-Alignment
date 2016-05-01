@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>ACL reconstruction is surgery to reconstruct the ligament in the center of your knee.</value>
+		<pattern_crowdsource> ACL [[reconstruction|C0524865]] is [[surgery|C0543467]] to reconstruct the ligament in the center of your knee.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACL</surface-form>
+				<RDF-ID>C0078960</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>reconstruction</surface-form>
+				<RDF-ID>C0524865</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>center</surface-form>
+				<RDF-ID>C0205099</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0524865 ISA C0543467</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A tear of this ligament can cause your knee to give way during physical activity.</value>
+		<pattern_crowdsource> A [[tear|C0043246]] of this [[ligament|C0023685]] can cause your knee to give way during physical activity.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tear</surface-form>
+				<RDF-ID>C0043246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>physical activity</surface-form>
+				<RDF-ID>C0026606</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023685 LOCATION_OF C0043246</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other kinds of anesthesia, like regional anesthesia or a block, may also be used for this surgery.</value>
+		<pattern_crowdsource> Other kinds of [[anesthesia|C0002903]], like [[regional anesthesia|C0002911]] or a block, may also be used for this [[surgery|C0543467]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>anesthesia</surface-form>
+				<RDF-ID>C0002903</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>regional anesthesia</surface-form>
+				<RDF-ID>C0002911</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>block</surface-form>
+				<RDF-ID>C0028778</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0002911 METHOD_OF C0543467</triple>
+			<triple>C0002903 METHOD_OF C0543467</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your surgeon will use the camera to check the ligaments and other tissues of your knee.</value>
+		<pattern_crowdsource> Your [[surgeon|C0582175]] will use the [[camera|C0179533]] to check the ligaments and other tissues of your knee.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>camera</surface-form>
+				<RDF-ID>C0179533</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligaments</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissues</surface-form>
+				<RDF-ID>C0040300</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0582175 USES C0179533</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your surgeon will fix any other damage found, and then will replace your ACL by following these steps:  - The torn ligament will be removed with a shaver or other instruments.</value>
+		<pattern_crowdsource> Your [[surgeon|C0582175]] will fix any other damage found, and then will replace your ACL by following these steps:  - The torn ligament will be removed with a [[shaver|C0311227]] or other instruments.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ACL</surface-form>
+				<RDF-ID>C0683459</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>steps</surface-form>
+				<RDF-ID>C1261552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>torn</surface-form>
+				<RDF-ID>C0043246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shaver</surface-form>
+				<RDF-ID>C0311227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>instruments</surface-form>
+				<RDF-ID>C0243113</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0311227 PROCESS_OF C0582175</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Your surgeon will attach the new ligament to the bone with screws or other devices to hold it in place.</value>
+		<pattern_crowdsource> - Your [[surgeon|C0582175]] will attach the new ligament to the bone with [[screws|C0301559]] or other devices to hold it in place.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone</surface-form>
+				<RDF-ID>C1266909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>screws</surface-form>
+				<RDF-ID>C0301559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>devices</surface-form>
+				<RDF-ID>C0220819</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>place</surface-form>
+				<RDF-ID>C0442504</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0582175 USES C0301559</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>At the end of the surgery, your surgeon will close your cuts with sutures (stitches) and cover the area with a dressing.</value>
+		<pattern_crowdsource> At the end of the surgery, your [[surgeon|C0582175]] will close your cuts with sutures (stitches) and cover the area with a [[dressing|C0013119]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>end</surface-form>
+				<RDF-ID>C0444930</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgeon</surface-form>
+				<RDF-ID>C0582175</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cuts</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>area</surface-form>
+				<RDF-ID>C0205146</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dressing</surface-form>
+				<RDF-ID>C0013119</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0582175 USES C0013119</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>ACL reconstruction may be used for these knee problems:  - Knee that gives way or feels unstable during daily activities  - Knee pain  - Inability to continue playing sports or other activities  - When other ligaments are also injured  - When your meniscus is torn    Before surgery, talk to your health care provider about the time and effort you will need to recover.</value>
+		<pattern_crowdsource> ACL reconstruction may be used for these knee problems:  - Knee that gives way or feels unstable during daily activities  - Knee pain  - Inability to continue playing [[sports|C0038039]] or other [[activities|C0441655]]  - When other ligaments are also injured  - When your meniscus is torn    Before surgery, talk to your health care provider about the time and effort you will need to recover.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ACL</surface-form>
+				<RDF-ID>C0683459</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>reconstruction</surface-form>
+				<RDF-ID>C0524865</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>daily activities</surface-form>
+				<RDF-ID>C0871707</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Knee pain</surface-form>
+				<RDF-ID>C0231749</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>playing</surface-form>
+				<RDF-ID>C0032214</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sports</surface-form>
+				<RDF-ID>C0038039</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>C0441655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligaments</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>talk</surface-form>
+				<RDF-ID>C0600118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>time</surface-form>
+				<RDF-ID>C0040223</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>effort</surface-form>
+				<RDF-ID>C0015264</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038039 ISA C0441655</triple>
+			<triple>C0441655 ISA C0038039</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The risks from any anesthesia are:  - Allergic reactions to medicines  - Breathing problems   The risks from any surgery are:  - Bleeding  - Infection    Other risks from this surgery may include:  - Blood clot in the leg  - Failure of the ligament to heal  - Failure of the surgery to relieve symptoms  - Injury to a nearby blood vessel  - Pain in the knee  - Stiffness of the knee or lost range of motion  - Weakness of the knee</value>
+		<pattern_crowdsource> The risks from any anesthesia are:  - Allergic reactions to medicines  - Breathing problems   The risks from any surgery are:  - Bleeding  - Infection    Other risks from this surgery may include:  - Blood clot in the leg  - Failure of the ligament to heal  - Failure of the [[surgery|C0543467]] to relieve symptoms  - [[Injury|C0175677]] to a nearby [[blood vessel  - Pain|C0858765]] in the [[knee  - Stiffness|C0240129]] of the knee or lost range of motion  - Weakness of the knee		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>anesthesia</surface-form>
+				<RDF-ID>C0002903</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Allergic reactions</surface-form>
+				<RDF-ID>C1527304</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Breathing problems</surface-form>
+				<RDF-ID>C1260922</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blood clot</surface-form>
+				<RDF-ID>C0302148</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>leg</surface-form>
+				<RDF-ID>C0023216</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ligament</surface-form>
+				<RDF-ID>C0023685</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood vessel  - Pain</surface-form>
+				<RDF-ID>C0858765</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee  - Stiffness</surface-form>
+				<RDF-ID>C0240129</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lost</surface-form>
+				<RDF-ID>C0745777</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>range</surface-form>
+				<RDF-ID>C1514721</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>motion</surface-form>
+				<RDF-ID>C0026597</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Weakness</surface-form>
+				<RDF-ID>C0004093</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>knee</surface-form>
+				<RDF-ID>C0022742</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0175677</triple>
+			<triple>C0858765 COEXISTS_WITH C0240129</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These include aspirin, ibuprofen (Advil, Motrin), naproxen (Naprosyn, Aleve), and other drugs.</value>
+		<pattern_crowdsource> These include aspirin, [[ibuprofen|C0020740]] ([[Advil|C0593507]], Motrin), [[naproxen|C0027396]] ([[Naprosyn|C0700017]], [[Aleve|C0718343]]), and other [[drugs|C0013227]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ibuprofen</surface-form>
+				<RDF-ID>C0020740</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Advil</surface-form>
+				<RDF-ID>C0593507</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Motrin</surface-form>
+				<RDF-ID>C0699203</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>naproxen</surface-form>
+				<RDF-ID>C0027396</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Naprosyn</surface-form>
+				<RDF-ID>C0700017</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Aleve</surface-form>
+				<RDF-ID>C0718343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0593507 ISA C0020740</triple>
+			<triple>C0700017 ISA C0027396</triple>
+			<triple>C0013227 ISA C0027396</triple>
+			<triple>C0718343 ISA C0027396</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jeremy Roger Hansen, CD (born January 27, 1976) is a Canadian astronaut with the Canadian Space Agency (CSA).	</value>
+
+		<annotated-sentence>	[[Jeremy|Jeremy_Hansen]] [[Roger Hansen|Roger_Hansen]], CD (born [[January|January]] 27, 1976) is [[a Canadian astronaut|Canadian_Astronaut_Corps]] with [[the Canadian Space Agency|Canadian_Space_Agency]] ([[CSA|Canadian_Space_Agency]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Jeremy|Jeremy_Hansen]] Roger Hansen, CD (born January 27, 1976) is [[a Canadian astronaut|Canadian_Astronaut_Corps]] with [[the Canadian Space Agency|Canadian_Space_Agency]] ([[CSA|Canadian_Space_Agency]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hansen/NNP-3,Jeremy/NNP-1)
+				nn(Hansen/NNP-3,Roger/NNP-2)
+				nsubj(astronaut/NN-16,Hansen/NNP-3)
+				appos(Hansen/NNP-3,CD/NNP-5)
+				dep(Hansen/NNP-3,born/VBN-7)
+				tmod(born/VBN-7,January/NNP-8)
+				num(January/NNP-8,27/CD-9)
+				num(January/NNP-8,1976/CD-11)
+				cop(astronaut/NN-16,is/VBZ-13)
+				det(astronaut/NN-16,a/DT-14)
+				amod(astronaut/NN-16,Canadian/JJ-15)
+				det(Agency/NNP-21,the/DT-18)
+				amod(Agency/NNP-21,Canadian/JJ-19)
+				nn(Agency/NNP-21,Space/NN-20)
+				prep_with(astronaut/NN-16,Agency/NNP-21)
+				appos(Agency/NNP-21,CSA/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Jeremy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jeremy_Hansen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Roger Hansen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Roger_Hansen</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Canadian astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Canadian Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Canadian_Space_Agency http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Canadian_Astronaut_Corps
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Canadian_Space_Agency http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Canadian_Astronaut_Corps
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected to join the CSA in the 2009 CSA selection along with David Saint-Jacques.	</value>
+
+		<annotated-sentence>	He was selected to join [[the CSA|Canadian_Space_Agency]] in the [[2009|2009]] [[CSA|Canadian_Space_Agency]] [[selection|Selection]] along with [[David Saint-Jacques|David_Saint-Jacques]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected to join [[the [[CSA|Canadian_Space_Agency]]|Canadian_Space_Agency]] in the 2009 [[CSA|Canadian_Space_Agency]] selection along with [[David Saint-Jacques|David_Saint-Jacques]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				aux(join/VB-5,to/TO-4)
+				xcomp(selected/VBN-3,join/VB-5)
+				det(CSA/NNP-7,the/DT-6)
+				dobj(join/VB-5,CSA/NNP-7)
+				det(selection/NN-12,the/DT-9)
+				num(selection/NN-12,2009/CD-10)
+				nn(selection/NN-12,CSA/NNP-11)
+				prep_in(CSA/NNP-7,selection/NN-12)
+				prepc_along_with(join/VB-5,with/IN-14)
+				nn(Saint-Jacques/NNP-16,David/NNP-15)
+				pobj(join/VB-5,Saint-Jacques/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CSA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadian_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Saint-Jacques</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/David_Saint-Jacques</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Jeremy_Hansen http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/David_Saint-Jacques http://dbpedia.org/ontology/type http://dbpedia.org/resource/Canadian_Space_Agency
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to his selection as one of Canada's newest astronauts, Hansen held the rank of Captain in the Royal Canadian Air Force, piloting the CF-18 fighter plane from deployment at CFB Cold Lake, Alberta.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(selection/NN-4,his/PRP$-3)
+				prep_prior_to(held/VBD-14,selection/NN-4)
+				prep_as(selection/NN-4,one/CD-6)
+				poss(astronauts/NNS-11,Canada/NNP-8)
+				amod(astronauts/NNS-11,newest/JJS-10)
+				prep_of(one/CD-6,astronauts/NNS-11)
+				nsubj(held/VBD-14,Hansen/NNP-13)
+				det(rank/NN-16,the/DT-15)
+				dobj(held/VBD-14,rank/NN-16)
+				prep_of(rank/NN-16,Captain/NNP-18)
+				det(Force/NNP-24,the/DT-20)
+				nn(Force/NNP-24,Royal/NNP-21)
+				nn(Force/NNP-24,Canadian/NNP-22)
+				nn(Force/NNP-24,Air/NNP-23)
+				prep_in(held/VBD-14,Force/NNP-24)
+				partmod(held/VBD-14,piloting/VBG-26)
+				det(plane/NN-30,the/DT-27)
+				nn(plane/NN-30,CF-18/NN-28)
+				nn(plane/NN-30,fighter/NN-29)
+				dobj(piloting/VBG-26,plane/NN-30)
+				prep_from(piloting/VBG-26,deployment/NN-32)
+				nn(Lake/NNP-36,CFB/NNP-34)
+				nn(Lake/NNP-36,Cold/NNP-35)
+				prep_at(piloting/VBG-26,Lake/NNP-36)
+				appos(Lake/NNP-36,Alberta/NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has since been promoted to the rank of Major.	</value>
+
+		<annotated-sentence>	He has since been promoted to [[the rank|Major]] of [[Major|Major]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has since been promoted to the rank of Major.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(promoted/VBN-5,He/PRP-1)
+				aux(promoted/VBN-5,has/VBZ-2)
+				advmod(promoted/VBN-5,since/IN-3)
+				auxpass(promoted/VBN-5,been/VBN-4)
+				det(rank/NN-8,the/DT-7)
+				prep_to(promoted/VBN-5,rank/NN-8)
+				prep_of(rank/NN-8,Major/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Major</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Major</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Major</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hansen was born on January 27, 1976 in London, Ontario, and raised on a farm near Ailsa Craig, Ontario, in a little hamlet called West Mcgillivray, until moving to Ingersoll for his high school years.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Hansen/NNP-1)
+				nsubjpass(raised/VBN-15,Hansen/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,January/NNP-5)
+				num(January/NNP-5,27/CD-6)
+				num(January/NNP-5,1976/CD-8)
+				nn(Ontario/NNP-12,London/NNP-10)
+				prep_in(born/VBN-3,Ontario/NNP-12)
+				conj_and(born/VBN-3,raised/VBN-15)
+				det(farm/NN-18,a/DT-17)
+				prep_on(raised/VBN-15,farm/NN-18)
+				nn(Craig/NNP-21,Ailsa/NNP-20)
+				prep_near(farm/NN-18,Craig/NNP-21)
+				appos(Craig/NNP-21,Ontario/NNP-23)
+				det(hamlet/NN-28,a/DT-26)
+				amod(hamlet/NN-28,little/JJ-27)
+				prep_in(born/VBN-3,hamlet/NN-28)
+				partmod(hamlet/NN-28,called/VBN-29)
+				nn(Mcgillivray/NNP-31,West/NNP-30)
+				dobj(called/VBN-29,Mcgillivray/NNP-31)
+				prepc_until(called/VBN-29,moving/VBG-34)
+				prep_to(moving/VBG-34,Ingersoll/NNP-36)
+				poss(years/NNS-41,his/PRP$-38)
+				amod(years/NNS-41,high/JJ-39)
+				nn(years/NNS-41,school/NN-40)
+				prep_for(Ingersoll/NNP-36,years/NNS-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Major Hansen is married with three children.	</value>
+
+		<annotated-sentence>	[[Major|Major]] Hansen is married with three [[children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Major Hansen is married with three children.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Hansen/NNP-2,Major/JJ-1)
+				nsubjpass(married/VBN-4,Hansen/NNP-2)
+				auxpass(married/VBN-4,is/VBZ-3)
+				num(children/NNS-7,three/CD-6)
+				prep_with(married/VBN-4,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Major</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Major</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hansen holds a Bachelor of Science degree in Space Science (First Class Honours) from Royal Military College in Kingston, Ontario (1999).	</value>
+
+		<annotated-sentence>	Hansen holds [[a Bachelor|Bachelor]] of [[Science|Science]] [[degree|British_undergraduate_degree_classification]] in [[Space Science|Space_science]] ([[First Class Honours|British_undergraduate_degree_classification]]) from Royal Military College in [[Kingston , Ontario|Kingston,_Ontario]]([[1999|1999]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Hansen holds a Bachelor of Science degree in Space Science (First Class Honours) from Royal Military College in Kingston, Ontario (1999).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,Hansen/NNP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(holds/VBZ-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				nn(Science/NNP-10,Space/NNP-9)
+				prep_in(Bachelor/NN-4,Science/NNP-10)
+				nn(Honours/NNP-14,First/NNP-12)
+				nn(Honours/NNP-14,Class/NNP-13)
+				appos(Science/NNP-10,Honours/NNP-14)
+				nn(College/NNP-19,Royal/NNP-17)
+				nn(College/NNP-19,Military/NNP-18)
+				prep_from(holds/VBZ-2,College/NNP-19)
+				nn(Ontario/NNP-23,Kingston/NNP-21)
+				prep_in(College/NNP-19,Ontario/NNP-23)
+				appos(Ontario/NNP-23,1999/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Bachelor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/British_undergraduate_degree_classification</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>First Class Honours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/British_undergraduate_degree_classification</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kingston , Ontario</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kingston,_Ontario</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He earned a Master of Science in Physics from the same institution in 2000, with a research focus on Wide Field of View Satellite Tracking.	</value>
+
+		<annotated-sentence>	He earned [[a Master of Science|Master_of_Science]] in [[Physics|Physics]] from [[the same institution|Institution]] in [[2000|2000]], with a research focus on [[Wide|WIDE]] Field of View [[Satellite Tracking|Animal_migration_tracking]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He earned a Master of Science in Physics from the same institution in 2000, with a research focus on Wide Field of View Satellite Tracking.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,He/PRP-1)
+				det(Master/NN-4,a/DT-3)
+				dobj(earned/VBD-2,Master/NN-4)
+				prep_of(Master/NN-4,Science/NN-6)
+				prep_in(earned/VBD-2,Physics/NN-8)
+				det(institution/NN-12,the/DT-10)
+				amod(institution/NN-12,same/JJ-11)
+				prep_from(earned/VBD-2,institution/NN-12)
+				prep_in(institution/NN-12,2000/CD-14)
+				det(focus/NN-19,a/DT-17)
+				nn(focus/NN-19,research/NN-18)
+				prep_with(earned/VBD-2,focus/NN-19)
+				nn(Field/NN-22,Wide/NN-21)
+				prep_on(focus/NN-19,Field/NN-22)
+				nn(Tracking/NNP-26,View/NNP-24)
+				nn(Tracking/NNP-26,Satellite/NNP-25)
+				prep_of(Field/NN-22,Tracking/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Master of Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the same institution</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institution</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wide</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/WIDE</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Satellite Tracking</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Animal_migration_tracking</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Canadian Forces Decoration - 12 Years of Good Service (October 2006) Canadian Air Force Pilot Wings (May 2002) Clancy Scheldrup Memorial Trophy - Outstanding Graduate on the Basic Flying Course (2001) Air Cadet League of Canada Award - Top Air Force Graduate from the Royal Military College of Canada (May 1999)	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Forces/NNS-2,Canadian/JJ-1)
+				dep(Forces/NNS-2,Decoration/NN-3)
+				num(Years/NNS-6,12/CD-5)
+				dep(Forces/NNS-2,Years/NNS-6)
+				nn(Canadian/NNP-14,Good/NNP-8)
+				nn(Canadian/NNP-14,Service/NNP-9)
+				dep(Canadian/NNP-14,October/NNP-11)
+				num(October/NNP-11,2006/CD-12)
+				prep_of(Years/NNS-6,Canadian/NNP-14)
+				nn(Wings/NNS-18,Air/NNP-15)
+				nn(Wings/NNS-18,Force/NNP-16)
+				nn(Wings/NNS-18,Pilot/NN-17)
+				dep(Canadian/NNP-14,Wings/NNS-18)
+				dep(Wings/NNS-18,May/NNP-20)
+				num(May/NNP-20,2002/CD-21)
+				nn(Trophy/NN-26,Clancy/NNP-23)
+				nn(Trophy/NN-26,Scheldrup/NNP-24)
+				nn(Trophy/NN-26,Memorial/NNP-25)
+				dep(Wings/NNS-18,Trophy/NN-26)
+				amod(Graduate/NN-29,Outstanding/JJ-28)
+				dep(Wings/NNS-18,Graduate/NN-29)
+				det(Course/NNP-34,the/DT-31)
+				amod(Course/NNP-34,Basic/JJ-32)
+				nn(Course/NNP-34,Flying/NNP-33)
+				prep_on(Graduate/NN-29,Course/NNP-34)
+				appos(Course/NNP-34,2001/CD-36)
+				nn(League/NNP-40,Air/NNP-38)
+				nn(League/NNP-40,Cadet/NNP-39)
+				dep(Course/NNP-34,League/NNP-40)
+				nn(Award/NN-43,Canada/NNP-42)
+				prep_of(League/NNP-40,Award/NN-43)
+				nn(Graduate/NN-48,Top/NNP-45)
+				nn(Graduate/NN-48,Air/NNP-46)
+				nn(Graduate/NN-48,Force/NNP-47)
+				dep(Wings/NNS-18,Graduate/NN-48)
+				det(College/NNP-53,the/DT-50)
+				nn(College/NNP-53,Royal/NNP-51)
+				nn(College/NNP-53,Military/NNP-52)
+				prep_from(Graduate/NN-48,College/NNP-53)
+				prep_of(Years/NNS-6,Canada/NNP-55)
+				dep(Canada/NNP-55,May/NNP-57)
+				num(May/NNP-57,1999/CD-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,1078 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Kathleen Hallisey (Kate) Rubins is a current NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Kathleen|Kathleen_Rubins]] [[Hallisey|Laura_Hallisey]] ([[Kate|Kathleen_Rubins]]) [[Rubins|Kathleen_Rubins]] is a current [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Kathleen|Kathleen_Rubins]] Hallisey ([[Kate|Kathleen_Rubins]]) [[Rubins|Kathleen_Rubins]] is a current [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Hallisey/NNP-2,Kathleen/NNP-1)
+				nn(Rubins/NNS-6,Hallisey/NNP-2)
+				appos(Rubins/NNS-6,Kate/NNP-4)
+				nsubj(astronaut/NN-11,Rubins/NNS-6)
+				cop(astronaut/NN-11,is/VBZ-7)
+				det(astronaut/NN-11,a/DT-8)
+				amod(astronaut/NN-11,current/JJ-9)
+				nn(astronaut/NN-11,NASA/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kathleen</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kathleen_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Hallisey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laura_Hallisey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kathleen_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kathleen_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rubins was selected in July 2009 as a member of the NASA Astronaut Group 20.	</value>
+
+		<annotated-sentence>	[[Rubins|Reuniting_the_Rubins]] was selected in [[July 2009|July_2009]] as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Rubins was selected in July 2009 as a member of [[the NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Rubins/NNS-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_in(selected/VBN-3,July/NNP-5)
+				num(July/NNP-5,2009/CD-6)
+				det(member/NN-9,a/DT-8)
+				prep_as(selected/VBN-3,member/NN-9)
+				det(Group/NNP-14,the/DT-11)
+				nn(Group/NNP-14,NASA/NNP-12)
+				nn(Group/NNP-14,Astronaut/NNP-13)
+				prep_of(member/NN-9,Group/NNP-14)
+				num(Group/NNP-14,20/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reuniting_the_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Astronaut Group 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_20</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_20
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Rubins was born in Farmington, Connecticut and raised in Napa, California.	</value>
+
+		<annotated-sentence>	Dr. [[Rubins|Kathleen_Rubins]] was born in [[Farmington , Connecticut|Farmington,_Connecticut]]and raised in [[Napa , California|Napa,_California]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. [[Rubins|Kathleen_Rubins]] was born in Farmington, Connecticut and raised in Napa, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rubins/NNS-2,Dr./NNP-1)
+				nsubjpass(born/VBN-4,Rubins/NNS-2)
+				nsubjpass(raised/VBN-10,Rubins/NNS-2)
+				auxpass(born/VBN-4,was/VBD-3)
+				nn(Connecticut/NNP-8,Farmington/NNP-6)
+				prep_in(born/VBN-4,Connecticut/NNP-8)
+				conj_and(born/VBN-4,raised/VBN-10)
+				nn(California/NNP-14,Napa/NNP-12)
+				prep_in(raised/VBN-10,California/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kathleen_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Farmington , Connecticut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Farmington,_Connecticut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Napa , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Napa,_California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://dbpedia.org/property/birthPlace http://dbpedia.org/resource/Farmington,_Connecticut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Rubins is married to Michael Magnani.	</value>
+
+		<annotated-sentence>	Dr. [[Rubins|Reuniting_the_Rubins]] is married to Michael Magnani.	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Rubins is married to Michael Magnani.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rubins/NNS-2,Dr./NNP-1)
+				nsubjpass(married/VBN-4,Rubins/NNS-2)
+				auxpass(married/VBN-4,is/VBZ-3)
+				nn(Magnani/NNP-7,Michael/NNP-6)
+				prep_to(married/VBN-4,Magnani/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reuniting_the_Rubins</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She graduated from Vintage High School, received a Bachelor of Science degree in Molecular Biology from the University of California, San Diego and a Ph.D. in Cancer Biology from Stanford University Medical School Biochemistry Department and Microbiology and Immunology Department.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,She/PRP-1)
+				ccomp(received/VBD-8,graduated/VBD-2)
+				nn(School/NNP-6,Vintage/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				det(Bachelor/NN-10,a/DT-9)
+				dobj(received/VBD-8,Bachelor/NN-10)
+				prep_of(Bachelor/NN-10,Science/NNP-12)
+				nsubj(received/VBD-8,degree/NN-13)
+				amod(Biology/NN-16,Molecular/JJ-15)
+				prep_in(degree/NN-13,Biology/NN-16)
+				det(University/NNP-19,the/DT-18)
+				prep_from(Biology/NN-16,University/NNP-19)
+				prep_of(degree/NN-13,California/NNP-21)
+				nn(Diego/NNP-24,San/NNP-23)
+				nsubj(received/VBD-8,Diego/NNP-24)
+				conj_and(degree/NN-13,Diego/NNP-24)
+				det(Ph.D./NNP-27,a/DT-26)
+				nsubj(received/VBD-8,Ph.D./NNP-27)
+				conj_and(degree/NN-13,Ph.D./NNP-27)
+				nn(Biology/NNP-30,Cancer/NNP-29)
+				prep_in(Ph.D./NNP-27,Biology/NNP-30)
+				nn(Department/NNP-37,Stanford/NNP-32)
+				nn(Department/NNP-37,University/NNP-33)
+				nn(Department/NNP-37,Medical/NNP-34)
+				nn(Department/NNP-37,School/NNP-35)
+				nn(Department/NNP-37,Biochemistry/NNP-36)
+				prep_from(Biology/NNP-30,Department/NNP-37)
+				nn(Department/NNP-42,Microbiology/NNP-39)
+				conj_and(Microbiology/NNP-39,Immunology/NNP-41)
+				nn(Department/NNP-42,Immunology/NNP-41)
+				prep_from(Biology/NNP-30,Department/NNP-42)
+				conj_and(Department/NNP-37,Department/NNP-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Rubins conducted her undergraduate research on HIV-1 integration in the Infectious Diseases Laboratory at the Salk Institute for Biological Studies.	</value>
+
+		<annotated-sentence>	Dr. [[Rubins|Reuniting_the_Rubins]] conducted her undergraduate [[research|Research]] on [[HIV-1 integration|HIV_integration]] in the [[Infectious Diseases|Infectious_disease]] [[Laboratory|Laboratory]] at [[the Salk Institute for Biological Studies|Salk_Institute_for_Biological_Studies]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Dr. Rubins conducted her undergraduate research on HIV-1 integration in the Infectious Diseases Laboratory at the Salk Institute for Biological Studies.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rubins/NNS-2,Dr./NNP-1)
+				nsubj(conducted/VBD-3,Rubins/NNS-2)
+				poss(research/NN-6,her/PRP$-4)
+				amod(research/NN-6,undergraduate/JJ-5)
+				dobj(conducted/VBD-3,research/NN-6)
+				nn(integration/NN-9,HIV-1/NN-8)
+				prep_on(conducted/VBD-3,integration/NN-9)
+				det(Laboratory/NN-14,the/DT-11)
+				amod(Laboratory/NN-14,Infectious/JJ-12)
+				nn(Laboratory/NN-14,Diseases/NNS-13)
+				prep_in(integration/NN-9,Laboratory/NN-14)
+				det(Institute/NNP-18,the/DT-16)
+				nn(Institute/NNP-18,Salk/NNP-17)
+				prep_at(conducted/VBD-3,Institute/NNP-18)
+				nn(Studies/NNPS-21,Biological/NNP-20)
+				prep_for(Institute/NNP-18,Studies/NNPS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reuniting_the_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HIV-1 integration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HIV_integration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Infectious Diseases</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Infectious_disease</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Salk Institute for Biological Studies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Salk_Institute_for_Biological_Studies</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She analyzed the mechanism of HIV integration, including several studies of HIV-1 Integrase inhibitors and genome-wide analyses of HIV integration patterns into host genomic DNA.	</value>
+
+		<annotated-sentence>	She analyzed the mechanism of [[HIV integration|HIV_integration]], including several studies of [[HIV-1|HIV_integration]] [[Integrase inhibitors|Integrase_inhibitor]] and genome-wide [[analyses|Analysis]] of [[HIV integration|HIV_integration]] [[patterns|Fringe_(TV_series)]] into host genomic [[DNA|DNA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She analyzed the mechanism of HIV integration, including several studies of HIV-1 Integrase inhibitors and genome-wide analyses of HIV integration patterns into host genomic DNA.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(analyzed/VBD-2,She/PRP-1)
+				det(mechanism/NN-4,the/DT-3)
+				dobj(analyzed/VBD-2,mechanism/NN-4)
+				nn(integration/NN-7,HIV/NN-6)
+				prep_of(mechanism/NN-4,integration/NN-7)
+				amod(studies/NNS-11,several/JJ-10)
+				prep_including(analyzed/VBD-2,studies/NNS-11)
+				nn(inhibitors/NNS-15,HIV-1/NN-13)
+				nn(inhibitors/NNS-15,Integrase/NN-14)
+				prep_of(studies/NNS-11,inhibitors/NNS-15)
+				amod(analyses/NNS-18,genome-wide/JJ-17)
+				prep_including(analyzed/VBD-2,analyses/NNS-18)
+				conj_and(studies/NNS-11,analyses/NNS-18)
+				nn(patterns/NNS-22,HIV/NN-20)
+				nn(patterns/NNS-22,integration/NN-21)
+				prep_of(analyses/NNS-18,patterns/NNS-22)
+				nn(DNA/NN-26,host/NN-24)
+				amod(DNA/NN-26,genomic/JJ-25)
+				prep_into(patterns/NNS-22,DNA/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>HIV integration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HIV_integration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HIV-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HIV_integration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Integrase inhibitors</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Integrase_inhibitor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>analyses</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Analysis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HIV integration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HIV_integration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>patterns</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fringe_(TV_series)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>DNA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/DNA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She obtained her Ph.D. from Stanford University and, with the U.S. Army Medical Research Institute of Infectious Diseases and the Centers for Disease Control and Prevention, Dr. Rubins and colleagues developed the first model of smallpox infection.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(obtained/VBD-2,She/PRP-1)
+				poss(Ph.D./NN-4,her/PRP$-3)
+				dobj(obtained/VBD-2,Ph.D./NN-4)
+				nn(University/NNP-7,Stanford/NNP-6)
+				prep_from(obtained/VBD-2,University/NNP-7)
+				prep_from(obtained/VBD-2,with/IN-10)
+				conj_and(University/NNP-7,with/IN-10)
+				det(Institute/NNP-16,the/DT-11)
+				nn(Institute/NNP-16,U.S./NNP-12)
+				nn(Institute/NNP-16,Army/NNP-13)
+				nn(Institute/NNP-16,Medical/NNP-14)
+				nn(Institute/NNP-16,Research/NNP-15)
+				pobj(with/IN-10,Institute/NNP-16)
+				amod(Diseases/NNS-19,Infectious/JJ-18)
+				prep_of(with/IN-10,Diseases/NNS-19)
+				det(Centers/NNPS-22,the/DT-21)
+				nsubj(developed/VBD-33,Centers/NNPS-22)
+				nn(Control/NNP-25,Disease/NNP-24)
+				prep_for(Centers/NNPS-22,Control/NNP-25)
+				nn(Rubins/NNS-30,Prevention/NNP-27)
+				appos(Rubins/NNS-30,Dr./NNP-29)
+				prep_for(Centers/NNPS-22,Rubins/NNS-30)
+				conj_and(Control/NNP-25,Rubins/NNS-30)
+				prep_for(Centers/NNPS-22,colleagues/NNS-32)
+				conj_and(Control/NNP-25,colleagues/NNS-32)
+				conj_and(obtained/VBD-2,developed/VBD-33)
+				det(model/NN-36,the/DT-34)
+				amod(model/NN-36,first/JJ-35)
+				dobj(developed/VBD-33,model/NN-36)
+				nn(infection/NN-39,smallpox/NN-38)
+				prep_of(model/NN-36,infection/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She also developed a complete map of the poxvirus transcriptome and studied virus-host interactions using both in-vitro and animal model systems.	</value>
+
+		<annotated-sentence>	She also developed a complete map of the [[poxvirus|Poxviridae]] [[transcriptome|Transcriptome]] and studied virus-host [[interactions|Interaction]] using both in-vitro and [[animal model|Animal_model]] [[systems|System]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She also developed a complete map of the poxvirus transcriptome and studied virus-host interactions using both in-vitro and animal model systems.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(developed/VBD-3,She/PRP-1)
+				nsubj(studied/VBN-12,She/PRP-1)
+				advmod(developed/VBD-3,also/RB-2)
+				det(map/NN-6,a/DT-4)
+				amod(map/NN-6,complete/JJ-5)
+				dobj(developed/VBD-3,map/NN-6)
+				det(transcriptome/NN-10,the/DT-8)
+				nn(transcriptome/NN-10,poxvirus/NN-9)
+				prep_of(map/NN-6,transcriptome/NN-10)
+				conj_and(developed/VBD-3,studied/VBN-12)
+				amod(interactions/NNS-14,virus-host/JJ-13)
+				dobj(studied/VBN-12,interactions/NNS-14)
+				xcomp(studied/VBN-12,using/VBG-15)
+				preconj(in-vitro/FW-17,both/CC-16)
+				dobj(using/VBG-15,in-vitro/FW-17)
+				amod(systems/NNS-21,animal/JJ-19)
+				nn(systems/NNS-21,model/NN-20)
+				dobj(using/VBG-15,systems/NNS-21)
+				conj_and(in-vitro/FW-17,systems/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>poxvirus</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Poxviridae</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>transcriptome</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Transcriptome</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interactions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interaction</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>animal model</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Animal_model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Rubins accepted a Fellow/Principal Investigator position at the Whitehead Institute for Biomedical Research (MIT/Cambridge, Massachusetts) and headed a lab of researchers studying viral diseases that primarily affect Central and West Africa.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rubins/NNS-2,Dr./NNP-1)
+				nsubj(accepted/VBD-3,Rubins/NNS-2)
+				nsubj(headed/VBD-21,Rubins/NNS-2)
+				det(position/NN-7,a/DT-4)
+				nn(position/NN-7,Fellow/Principal/NNP-5)
+				nn(position/NN-7,Investigator/NNP-6)
+				dobj(accepted/VBD-3,position/NN-7)
+				det(Institute/NNP-11,the/DT-9)
+				nn(Institute/NNP-11,Whitehead/NNP-10)
+				prep_at(accepted/VBD-3,Institute/NNP-11)
+				nn(Research/NNP-14,Biomedical/NNP-13)
+				prep_for(accepted/VBD-3,Research/NNP-14)
+				appos(Research/NNP-14,MIT/Cambridge/NNP-16)
+				dep(MIT/Cambridge/NNP-16,Massachusetts/NNP-18)
+				conj_and(accepted/VBD-3,headed/VBD-21)
+				det(lab/NN-23,a/DT-22)
+				dobj(headed/VBD-21,lab/NN-23)
+				prep_of(lab/NN-23,researchers/NNS-25)
+				partmod(researchers/NNS-25,studying/VBG-26)
+				amod(diseases/NNS-28,viral/JJ-27)
+				dobj(studying/VBG-26,diseases/NNS-28)
+				nsubj(affect/VBP-31,that/WDT-29)
+				advmod(affect/VBP-31,primarily/RB-30)
+				rcmod(diseases/NNS-28,affect/VBP-31)
+				dobj(affect/VBP-31,Central/NNP-32)
+				nn(Africa/NNP-35,West/NNP-34)
+				dobj(affect/VBP-31,Africa/NNP-35)
+				conj_and(Central/NNP-32,Africa/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Work in the Rubins Lab focused on poxviruses and host-pathogen interaction as well as viral mechanisms for regulating host cell mRNA transcription, translation and decay.	</value>
+
+		<annotated-sentence>	[[Work|Work]] in the [[Rubins|Reuniting_the_Rubins]] Lab focused on [[poxviruses|Poxviridae]] and [[host-pathogen interaction|Host-pathogen_interaction]] as well as viral mechanisms for regulating [[host cell|Host_(biology)]] [[mRNA|Messenger_RNA]] transcription, [[translation|Translation]] and decay.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Work|Work]] in the [[Rubins|Reuniting_the_Rubins]] Lab focused on poxviruses and host-pathogen interaction as well as viral mechanisms for regulating host cell mRNA transcription, translation and decay.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(focused/VBD-6,Work/NN-1)
+				det(Lab/NN-5,the/DT-3)
+				nn(Lab/NN-5,Rubins/NNS-4)
+				prep_in(Work/NN-1,Lab/NN-5)
+				prep_on(focused/VBD-6,poxviruses/NNS-8)
+				amod(interaction/NN-11,host-pathogen/JJ-10)
+				prep_on(focused/VBD-6,interaction/NN-11)
+				conj_and(poxviruses/NNS-8,interaction/NN-11)
+				amod(mechanisms/NNS-16,viral/JJ-15)
+				prep_on(focused/VBD-6,mechanisms/NNS-16)
+				conj_and(poxviruses/NNS-8,mechanisms/NNS-16)
+				prepc_for(mechanisms/NNS-16,regulating/VBG-18)
+				nn(transcription/NN-22,host/NN-19)
+				nn(transcription/NN-22,cell/NN-20)
+				nn(transcription/NN-22,mRNA/NN-21)
+				dobj(regulating/VBG-18,transcription/NN-22)
+				dobj(regulating/VBG-18,translation/NN-24)
+				conj_and(transcription/NN-22,translation/NN-24)
+				dobj(regulating/VBG-18,decay/NN-26)
+				conj_and(transcription/NN-22,decay/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reuniting_the_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>poxviruses</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Poxviridae</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>host-pathogen interaction</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Host-pathogen_interaction</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>host cell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Host_(biology)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mRNA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Messenger_RNA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>translation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Translation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reuniting_the_Rubins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Work
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition, she conducted research on transcriptome and genome sequencing of filoviruses (Ebola and Marburg) and Arenaviruses (Lassa Fever) and collaborative projects with the U.S. Army to develop therapies for Ebola and Lassa viruses.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(conducted/VBD-5,addition/NN-2)
+				nsubj(conducted/VBD-5,she/PRP-4)
+				dobj(conducted/VBD-5,research/NN-6)
+				nn(sequencing/NN-11,transcriptome/NN-8)
+				conj_and(transcriptome/NN-8,genome/NN-10)
+				nn(sequencing/NN-11,genome/NN-10)
+				prep_on(conducted/VBD-5,sequencing/NN-11)
+				prep_of(sequencing/NN-11,filoviruses/NNS-13)
+				dep(filoviruses/NNS-13,Ebola/NN-15)
+				dep(filoviruses/NNS-13,Marburg/NN-17)
+				conj_and(Ebola/NN-15,Marburg/NN-17)
+				prep_of(sequencing/NN-11,Arenaviruses/NNS-20)
+				conj_and(filoviruses/NNS-13,Arenaviruses/NNS-20)
+				nn(Fever/NN-23,Lassa/NNP-22)
+				appos(filoviruses/NNS-13,Fever/NN-23)
+				amod(projects/NNS-27,collaborative/JJ-26)
+				prep_on(conducted/VBD-5,projects/NNS-27)
+				conj_and(sequencing/NN-11,projects/NNS-27)
+				det(Army/NNP-31,the/DT-29)
+				nn(Army/NNP-31,U.S./NNP-30)
+				prep_with(projects/NNS-27,Army/NNP-31)
+				aux(develop/VB-33,to/TO-32)
+				xcomp(conducted/VBD-5,develop/VB-33)
+				dobj(develop/VB-33,therapies/NNS-34)
+				nn(viruses/NNS-39,Ebola/NNP-36)
+				conj_and(Ebola/NNP-36,Lassa/NNP-38)
+				nn(viruses/NNS-39,Lassa/NNP-38)
+				prep_for(therapies/NNS-34,viruses/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rubins was selected in July 2009 as 1 of 14 members of NASA Astronaut Group 20.	</value>
+
+		<annotated-sentence>	[[Rubins|Reuniting_the_Rubins]] was selected in [[July 2009|July_2009]] as 1 of 14 members of [[NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Rubins was selected in July 2009 as 1 of 14 members of [[NASA Astronaut Group 20|NASA_Astronaut_Group_20]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Rubins/NNS-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_in(selected/VBN-3,July/NNP-5)
+				num(July/NNP-5,2009/CD-6)
+				prep_as(selected/VBN-3,1/CD-8)
+				num(members/NNS-11,14/CD-10)
+				prep_of(1/CD-8,members/NNS-11)
+				nn(Group/NNP-15,NASA/NNP-13)
+				nn(Group/NNP-15,Astronaut/NNP-14)
+				prep_of(members/NNS-11,Group/NNP-15)
+				num(Group/NNP-15,20/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rubins</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reuniting_the_Rubins</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2009</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2009</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Astronaut Group 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_20</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://dbpedia.org/ontology/selection http://dbpedia.org/resource/NASA_Astronaut_Group_20
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She graduated from Astronaut Candidate Training.	</value>
+
+		<annotated-sentence>	She graduated from [[Astronaut|Astronaut]] [[Candidate|Candidate]] [[Training|Training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She graduated from [[Astronaut|Astronaut]] Candidate Training.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,She/PRP-1)
+				nn(Training/NN-6,Astronaut/NNP-4)
+				nn(Training/NN-6,Candidate/NNP-5)
+				prep_from(graduated/VBD-2,Training/NN-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kathleen_Rubins http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her training included International Space Station (ISS) systems, Extravehicular Activity (EVA), robotics, physiological training, T-38 flight training and water and wilderness survival training.	</value>
+
+		<annotated-sentence>	Her [[training|Flight_training]] included [[International|International]] [[Space|Extra-vehicular_activity]] [[Station|Station]] ([[ISS|S]]) [[systems|System]], [[Extravehicular Activity|Extra-vehicular_activity]] ([[EVA|Extra-vehicular_activity]]), robotics, physiological [[training|Flight_training]], T-38 [[flight training|Flight_training]] and water and wilderness survival [[training|Flight_training]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Her training included International Space Station (ISS) systems, Extravehicular Activity (EVA), robotics, physiological training, T-38 flight training and water and wilderness survival training.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(training/NN-2,Her/PRP$-1)
+				nsubj(included/VBD-3,training/NN-2)
+				nn(systems/NNS-10,International/NNP-4)
+				nn(systems/NNS-10,Space/NNP-5)
+				nn(systems/NNS-10,Station/NNP-6)
+				appos(systems/NNS-10,ISS/NNP-8)
+				dobj(included/VBD-3,systems/NNS-10)
+				amod(EVA/NN-15,Extravehicular/JJ-12)
+				nn(EVA/NN-15,Activity/NN-13)
+				appos(systems/NNS-10,EVA/NN-15)
+				appos(systems/NNS-10,robotics/NNS-18)
+				conj_and(EVA/NN-15,robotics/NNS-18)
+				amod(training/NN-21,physiological/JJ-20)
+				appos(systems/NNS-10,training/NN-21)
+				conj_and(EVA/NN-15,training/NN-21)
+				nn(training/NN-25,T-38/NN-23)
+				nn(training/NN-25,flight/NN-24)
+				appos(systems/NNS-10,training/NN-25)
+				conj_and(EVA/NN-15,training/NN-25)
+				nn(training/NN-31,water/NN-27)
+				conj_and(water/NN-27,wilderness/NN-29)
+				nn(training/NN-31,wilderness/NN-29)
+				nn(training/NN-31,survival/NN-30)
+				appos(systems/NNS-10,training/NN-31)
+				conj_and(EVA/NN-15,training/NN-31)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Extravehicular Activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EVA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

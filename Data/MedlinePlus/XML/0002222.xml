@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>An IVP is done in a hospital radiology department or a health care provider's office.</value>
+		<pattern_crowdsource> An [[IVP|C0203108]] is done in a [[hospital radiology department|C0034600]] or a health care provider's office.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>IVP</surface-form>
+				<RDF-ID>C0203108</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital radiology department</surface-form>
+				<RDF-ID>C0034600</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health care provider's</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>office</surface-form>
+				<RDF-ID>C0442603</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0034600 LOCATION_OF C0203108</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your provider will inject an iodine-based contrast (dye) into a vein in your arm.</value>
+		<pattern_crowdsource> Your provider will inject an [[iodine|C0021968]]-based contrast (dye) into a vein in your [[arm|C1140618]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>iodine</surface-form>
+				<RDF-ID>C0021968</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dye</surface-form>
+				<RDF-ID>C0013343</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1140618 LOCATION_OF C0021968</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people develop a headache, nausea, or vomiting after the dye is injected.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] develop a [[headache|C0018681]], [[nausea|C0027497]], or [[vomiting|C0042963]] after the dye is injected.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>headache</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nausea</surface-form>
+				<RDF-ID>C0027497</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vomiting</surface-form>
+				<RDF-ID>C0042963</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>dye</surface-form>
+				<RDF-ID>C0013343</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018681 PROCESS_OF C0027361</triple>
+			<triple>C0042963 PROCESS_OF C0027361</triple>
+			<triple>C0027497 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An IVP can be used to evaluate:  - An abdominal injury  - Bladder and kidney infections  - Blood in the urine  - Flank pain (possibly due to kidney stones)  - Tumors</value>
+		<pattern_crowdsource> An [[IVP|C0203108]] can be used to evaluate:  - An abdominal injury  - Bladder and kidney infections  - Blood in the urine  - [[Flank pain|C0016199]] (possibly due to kidney stones)  - Tumors		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>IVP</surface-form>
+				<RDF-ID>C0203108</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>abdominal injury</surface-form>
+				<RDF-ID>C0000733</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney infections</surface-form>
+				<RDF-ID>C0021313</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Flank pain</surface-form>
+				<RDF-ID>C0016199</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>possibly</surface-form>
+				<RDF-ID>C0332149</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney stones</surface-form>
+				<RDF-ID>C0022650</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Tumors</surface-form>
+				<RDF-ID>C0027651</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0203108 DIAGNOSES C0016199</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

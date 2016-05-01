@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>An infant with a short philtrum may have other symptoms and signs.</value>
+		<pattern_crowdsource> An [[infant|C0021270]] with a short [[philtrum|C0226931]] may have other [[symptoms|C1457887]] and [[signs|C0311392]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>infant</surface-form>
+				<RDF-ID>C0021270</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>short</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>philtrum</surface-form>
+				<RDF-ID>C0226931</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0226931 PART_OF C0021270</triple>
+			<triple>C1457887 PROCESS_OF C0021270</triple>
+			<triple>C0311392 PROCESS_OF C0021270</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Have any other family members been diagnosed with a disorder associated with a short philtrum?</value>
+		<pattern_crowdsource> - Have any other [[family members|C0086282]] been diagnosed with a [[disorder|C0012634]] associated with a short philtrum?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>family members</surface-form>
+				<RDF-ID>C0086282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disorder</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>short</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>philtrum</surface-form>
+				<RDF-ID>C0226931</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 PROCESS_OF C0086282</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>This test is most often done in the emergency room or hospital.</value>
+		<pattern_crowdsource> This [[test|C0039593]] is most often done in the [[emergency room|C0562508]] or [[hospital|C0019994]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>most</surface-form>
+				<RDF-ID>C0205393</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>emergency room</surface-form>
+				<RDF-ID>C0562508</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0562508 LOCATION_OF C0039593</triple>
+			<triple>C0019994 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>In general, results of less than 100 pg/ml are a sign a person does not have heart failure.</value>
+		<pattern_crowdsource> In general, results of less than 100 pg/ml are a sign a [[person|C0027361]] does not have [[heart failure|C0018801]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>general</surface-form>
+				<RDF-ID>C0205246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>person</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018801 NEG_PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Yelena Vladimirovna Kondakova (Russian: ????? ???????????? ??????ó??; born March 30, 1957) was the third Soviet/Russian female cosmonaut to travel to space and the first woman to make a long-duration spaceflight.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Vladimirovna/NNP-2,Yelena/NNP-1)
+				nn(Russian/NNP-5,Kondakova/NNP-3)
+				dep(Vladimirovna/NNP-2,Russian/NNP-5)
+				nn(??????ó??/NNP-9,?????/NNP-7)
+				nn(??????ó??/NNP-9,????????????/NNP-8)
+				nsubj(cosmonaut/NN-22,??????ó??/NNP-9)
+				partmod(??????ó??/NNP-9,born/VBN-11)
+				tmod(born/VBN-11,March/NNP-12)
+				num(March/NNP-12,30/CD-13)
+				num(March/NNP-12,1957/CD-15)
+				cop(cosmonaut/NN-22,was/VBD-17)
+				det(cosmonaut/NN-22,the/DT-18)
+				amod(cosmonaut/NN-22,third/JJ-19)
+				amod(cosmonaut/NN-22,Soviet/Russian/JJ-20)
+				amod(cosmonaut/NN-22,female/JJ-21)
+				dep(Vladimirovna/NNP-2,cosmonaut/NN-22)
+				aux(travel/VB-24,to/TO-23)
+				infmod(cosmonaut/NN-22,travel/VB-24)
+				prep_to(travel/VB-24,space/NN-26)
+				det(woman/NN-30,the/DT-28)
+				amod(woman/NN-30,first/JJ-29)
+				prep_to(travel/VB-24,woman/NN-30)
+				conj_and(space/NN-26,woman/NN-30)
+				aux(make/VB-32,to/TO-31)
+				xcomp(travel/VB-24,make/VB-32)
+				det(spaceflight/NN-35,a/DT-33)
+				amod(spaceflight/NN-35,long-duration/JJ-34)
+				dobj(make/VB-32,spaceflight/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Her first trip into space was on Soyuz TM-20 on October 4, 1994.	</value>
+
+		<annotated-sentence>	Her first trip into [[space|Space]] was on [[Soyuz TM-20|Soyuz_TM-20]] on October 4, 1994.	</annotated-sentence>
+
+		<pattern_crowdsource>	Her first trip into space was on [[Soyuz TM-20|Soyuz_TM-20]] on October 4, 1994.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(trip/NN-3,Her/PRP$-1)
+				amod(trip/NN-3,first/JJ-2)
+				nsubj(was/VBD-6,trip/NN-3)
+				prep_into(trip/NN-3,space/NN-5)
+				nn(TM-20/NN-9,Soyuz/NNP-8)
+				prep_on(was/VBD-6,TM-20/NN-9)
+				prep_on(was/VBD-6,October/NNP-11)
+				num(October/NNP-11,4/CD-12)
+				num(October/NNP-11,1994/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-20</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Kondakova http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-20 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Yelena_Kondakova
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She returned to Earth on March 22, 1995 after a five-month stay at the Mir space station.	</value>
+
+		<annotated-sentence>	She returned to [[Earth|Earth]] on March 22, 1995 after a five-month stay at [[the Mir space station|Mir]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She returned to Earth on March 22, 1995 after a five-month stay at [[the Mir space station|Mir]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,She/PRP-1)
+				prep_to(returned/VBD-2,Earth/NNP-4)
+				prep_on(returned/VBD-2,March/NNP-6)
+				num(March/NNP-6,22/CD-7)
+				num(March/NNP-6,1995/CD-9)
+				det(stay/NN-13,a/DT-11)
+				amod(stay/NN-13,five-month/JJ-12)
+				prep_after(returned/VBD-2,stay/NN-13)
+				det(station/NN-18,the/DT-15)
+				nn(station/NN-18,Mir/NNS-16)
+				nn(station/NN-18,space/NN-17)
+				prep_at(stay/NN-13,station/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mir space station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Kondakova http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Mir
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Kondakova's second flight was as a mission specialist on the United States Space Shuttle Atlantis during mission STS-84 in May 1997.	</value>
+
+		<annotated-sentence>	[[Kondakova|Yelena_Kondakova]]'s second [[flight|Flight]] was as [[a mission specialist|Mission_Specialist]] on the [[United States Space Shuttle|Space_Shuttle_program]] Atlantis during [[mission|Mission_Specialist]] [[STS-84|STS-84]] in [[May 1997|1997]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Kondakova|Yelena_Kondakova]]'s second flight was as a mission specialist on the [[United States Space Shuttle|Space_Shuttle_program]] Atlantis during mission [[STS-84|STS-84]] in May 1997.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-4,Kondakova/NNP-1)
+				amod(flight/NN-4,second/JJ-3)
+				nsubj(was/VBD-5,flight/NN-4)
+				det(specialist/NN-9,a/DT-7)
+				nn(specialist/NN-9,mission/NN-8)
+				prep_as(was/VBD-5,specialist/NN-9)
+				det(Atlantis/NNP-16,the/DT-11)
+				nn(Atlantis/NNP-16,United/NNP-12)
+				nn(Atlantis/NNP-16,States/NNPS-13)
+				nn(Atlantis/NNP-16,Space/NNP-14)
+				nn(Atlantis/NNP-16,Shuttle/NNP-15)
+				prep_on(specialist/NN-9,Atlantis/NNP-16)
+				nn(STS-84/NN-19,mission/NN-18)
+				prep_during(Atlantis/NNP-16,STS-84/NN-19)
+				prep_in(STS-84/NN-19,May/NNP-21)
+				num(May/NNP-21,1997/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kondakova</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yelena_Kondakova</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-84</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-84</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>May 1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-84 http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Kondakova http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-84
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-84 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Yelena_Kondakova
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-84 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Yelena_Kondakova
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since then no other Russian woman has flown to space.	</value>
+
+		<annotated-sentence>	Since then no other Russian [[woman|Woman]] has flown to [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Since then no other Russian woman has flown to space.	</pattern_crowdsource>
+
+
+		<tree>
+				prep(flown/VBN-8,Since/IN-1)
+				pobj(Since/IN-1,then/RB-2)
+				det(woman/NN-6,no/DT-3)
+				amod(woman/NN-6,other/JJ-4)
+				amod(woman/NN-6,Russian/JJ-5)
+				nsubj(flown/VBN-8,woman/NN-6)
+				aux(flown/VBN-8,has/VBZ-7)
+				prep_to(flown/VBN-8,space/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>woman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Woman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Kondakova was born in Mytishchi in the Moscow Region of Russia and is married to fellow cosmonaut Valeri Ryumin.	</value>
+
+		<annotated-sentence>	[[Kondakova|Yelena_Kondakova]] was born in [[Mytishchi|Mytishchi]] in [[the Moscow Region|Moscow_Oblast]] of [[Russia|Russia]] and is married to fellow [[cosmonaut|Astronaut]] [[Valeri Ryumin|Valery_Ryumin]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Kondakova|Yelena_Kondakova]] was born in [[Mytishchi|Mytishchi]] in [[the Moscow Region|Moscow_Oblast]] of [[Russia|Russia]] and is married to fellow cosmonaut Valeri Ryumin.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Kondakova/NNP-1)
+				nsubjpass(married/VBN-14,Kondakova/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Mytishchi/NNP-5)
+				det(Region/NN-9,the/DT-7)
+				nn(Region/NN-9,Moscow/NNP-8)
+				prep_in(born/VBN-3,Region/NN-9)
+				prep_of(Region/NN-9,Russia/NNP-11)
+				auxpass(married/VBN-14,is/VBZ-13)
+				conj_and(born/VBN-3,married/VBN-14)
+				amod(Ryumin/NNP-19,fellow/JJ-16)
+				nn(Ryumin/NNP-19,cosmonaut/NN-17)
+				nn(Ryumin/NNP-19,Valeri/NNP-18)
+				prep_to(married/VBN-14,Ryumin/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kondakova</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yelena_Kondakova</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mytishchi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mytishchi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Moscow Region</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Valeri Ryumin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Valery_Ryumin</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Kondakova http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Mytishchi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Mytishchi http://dbpedia.org/property/federalSubject http://dbpedia.org/resource/Moscow_Oblast
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Mytishchi http://www.w3.org/2000/01/rdf-schema#seeAlso http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Moscow_Oblast http://dbpedia.org/ontology/country http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yelena_Kondakova http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was selected as a cosmonaut candidate in 1989.	</value>
+
+		<annotated-sentence>	She was selected as a cosmonaut [[candidate|Candidate]] in [[1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She was selected as a cosmonaut candidate in 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,She/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(candidate/NN-7,a/DT-5)
+				nn(candidate/NN-7,cosmonaut/NN-6)
+				prep_as(selected/VBN-3,candidate/NN-7)
+				prep_in(candidate/NN-7,1989/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since 1999, Kondakova has served as a deputy in the Duma, the lower house of the Russian parliament.	</value>
+
+		<annotated-sentence>	Since [[1999|1999]], Kondakova has served as [[a deputy|National_Assembly_(France)]] in [[the Duma|State_Duma]], [[the lower house|Lower_house]] of [[the Russian parliament|Federal_Assembly_(Russia)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Since 1999, Kondakova has served as [[a deputy|National_Assembly_(France)]] in [[the Duma|State_Duma]], [[the lower house|Lower_house]] of [[the Russian parliament|Federal_Assembly_(Russia)]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_since(served/VBN-6,1999/CD-2)
+				nsubj(served/VBN-6,Kondakova/NNP-4)
+				aux(served/VBN-6,has/VBZ-5)
+				det(deputy/NN-9,a/DT-8)
+				prep_as(served/VBN-6,deputy/NN-9)
+				det(Duma/NNP-12,the/DT-11)
+				prep_in(deputy/NN-9,Duma/NNP-12)
+				det(house/NN-16,the/DT-14)
+				amod(house/NN-16,lower/JJR-15)
+				appos(Duma/NNP-12,house/NN-16)
+				det(parliament/NN-20,the/DT-18)
+				amod(parliament/NN-20,Russian/JJ-19)
+				prep_of(house/NN-16,parliament/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a deputy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Assembly_(France)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Duma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/State_Duma</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the lower house</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lower_house</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian parliament</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Federal_Assembly_(Russia)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/National_Assembly_(France) http://dbpedia.org/ontology/type http://dbpedia.org/resource/Lower_house
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/State_Duma http://dbpedia.org/ontology/type http://dbpedia.org/resource/Lower_house
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Federal_Assembly_(Russia) http://dbpedia.org/ontology/house http://dbpedia.org/resource/State_Duma
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

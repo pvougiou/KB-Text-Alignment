@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Herpetic stomatitis is a viral infection of the mouth that causes sores and ulcers.</value>
+		<pattern_crowdsource> [[Herpetic stomatitis|C0038366]] is a [[viral infection|C0042769]] of the [[mouth|C1278910]] that causes sores and ulcers.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Herpetic stomatitis</surface-form>
+				<RDF-ID>C0038366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>viral infection</surface-form>
+				<RDF-ID>C0042769</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>causes</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ulcers</surface-form>
+				<RDF-ID>C0041582</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038366 ISA C0042769</triple>
+			<triple>C1278910 LOCATION_OF C0042769</triple>
+			<triple>C1278910 LOCATION_OF C0038366</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These mouth ulcers are not the same as canker sores, which are not caused by a virus.</value>
+		<pattern_crowdsource> These [[mouth ulcers|C0149745]] are not the same as [[canker sores|C0038363]], which are not caused by a [[virus|C0042776]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>mouth ulcers</surface-form>
+				<RDF-ID>C0149745</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>canker sores</surface-form>
+				<RDF-ID>C0038363</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042776</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038363 ISA C0149745</triple>
+			<triple>C0042776 NEG_CAUSES C0038363</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Herpetic stomatitis is an infection caused by the herpes simplex virus (HSV), or oral herpes.</value>
+		<pattern_crowdsource> [[Herpetic stomatitis|C0038366]] is an [[infection|C0009450]] caused by the [[herpes simplex virus|C0206558]] (HSV), or oral [[herpes|C0019340]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Herpetic stomatitis</surface-form>
+				<RDF-ID>C0038366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes simplex virus</surface-form>
+				<RDF-ID>C0206558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>oral</surface-form>
+				<RDF-ID>C0442027</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpes</surface-form>
+				<RDF-ID>C0019340</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038366 ISA C0009450</triple>
+			<triple>C0206558 CAUSES C0009450</triple>
+			<triple>C0019340 CAUSES C0009450</triple>
+			<triple>C0206558 CAUSES C0038366</triple>
+			<triple>C0019340 CAUSES C0038366</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you or another adult in the family has a cold sore, it could have spread to your child and caused herpetic stomatitis.</value>
+		<pattern_crowdsource> If you or another adult in the [[family|C0015576]] has a [[cold sore|C0019345]], it could have spread to your child and caused herpetic stomatitis.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>adult</surface-form>
+				<RDF-ID>C0001675</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>C0015576</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cold sore</surface-form>
+				<RDF-ID>C0019345</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>caused</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>herpetic stomatitis</surface-form>
+				<RDF-ID>C0038366</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019345 PROCESS_OF C0015576</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

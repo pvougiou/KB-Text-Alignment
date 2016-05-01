@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>- They reduce triglycerides, a type of fat in your blood.</value>
+		<pattern_crowdsource> - They reduce [[triglycerides|C0041004]], a type of fat in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>triglycerides</surface-form>
+				<RDF-ID>C0041004</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fat</surface-form>
+				<RDF-ID>C0424612</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0041004</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- They reduce the risk of an irregular heart beat (arrhythmias).</value>
+		<pattern_crowdsource> - They reduce the risk of an [[irregular heart beat|C0237314]] ([[arrhythmias|C0003811]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>irregular heart beat</surface-form>
+				<RDF-ID>C0237314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arrhythmias</surface-form>
+				<RDF-ID>C0003811</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0237314 ISA C0003811</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- They slow the buildup of plaque in your arteries.</value>
+		<pattern_crowdsource> - They slow the buildup of [[plaque|C0333463]] in your [[arteries|C0003842]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>slow</surface-form>
+				<RDF-ID>C0439834</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plaque</surface-form>
+				<RDF-ID>C0333463</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0003842 LOCATION_OF C0333463</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some fish can be tainted with mercury and other chemicals.</value>
+		<pattern_crowdsource> Some fish can be tainted with [[mercury|C0025424]] and other [[chemicals|C0220806]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>fish</surface-form>
+				<RDF-ID>C0016163</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mercury</surface-form>
+				<RDF-ID>C0025424</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chemicals</surface-form>
+				<RDF-ID>C0220806</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0025424 ISA C0220806</triple>
+			<triple>C0220806 ISA C0025424</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>ALA benefits your heart, but not as directly as EPA and DHA.</value>
+		<pattern_crowdsource> [[ALA|C0702172]] benefits your heart, but not as directly as [[EPA|C1522552]] and DHA.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>ALA</surface-form>
+				<RDF-ID>C0702172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EPA</surface-form>
+				<RDF-ID>C1522552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>DHA</surface-form>
+				<RDF-ID>C0058129</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0702172 compared_with C1522552</triple>
+			<triple>C0702172 lower_than C1522552</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

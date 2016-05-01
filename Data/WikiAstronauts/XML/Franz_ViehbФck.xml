@@ -1,0 +1,804 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Franz Artur Viehböck (born August 24, 1960 in Vienna) is an Austrian electrical engineer, and was Austria's first astronaut, and thus titulated „Austronaut“ by his country's media.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Viehböck/NNP-3,Franz/NNP-1)
+				nn(Viehböck/NNP-3,Artur/NNP-2)
+				nsubj(engineer/NN-17,Viehböck/NNP-3)
+				dep(Viehböck/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,August/NNP-6)
+				num(August/NNP-6,24/CD-7)
+				num(August/NNP-6,1960/CD-9)
+				prep_in(born/VBN-5,Vienna/NNP-11)
+				cop(engineer/NN-17,is/VBZ-13)
+				det(engineer/NN-17,an/DT-14)
+				amod(engineer/NN-17,Austrian/JJ-15)
+				amod(engineer/NN-17,electrical/JJ-16)
+				cop(astronaut/NN-24,was/VBD-20)
+				poss(astronaut/NN-24,Austria/NNP-21)
+				amod(astronaut/NN-24,first/JJ-23)
+				conj_and(engineer/NN-17,astronaut/NN-24)
+				advmod(titulated/VBN-28,thus/RB-27)
+				conj_and(engineer/NN-17,titulated/VBN-28)
+				conj_and(astronaut/NN-24,titulated/VBN-28)
+				nn(Austronaut/NN-30,„/NN-29)
+				dobj(titulated/VBN-28,Austronaut/NN-30)
+				poss(country/NN-34,his/PRP$-33)
+				poss(media/NNS-36,country/NN-34)
+				prep_by(titulated/VBN-28,media/NNS-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He visited the Mir space station in 1991 aboard Soyuz TM-13, returning aboard Soyuz TM-12 after spending just over a week in space.	</value>
+
+		<annotated-sentence>	He visited [[the Mir space station|Mir]] in [[1991|1991]] aboard [[Soyuz TM-13|Soyuz_TM-13]], returning aboard [[Soyuz TM-12|Soyuz_TM-12]] after spending just over a week in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He visited the Mir space station in 1991 aboard [[Soyuz TM-13|Soyuz_TM-13]], returning aboard [[Soyuz TM-12|Soyuz_TM-12]] after spending just over a week in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(visited/VBD-2,He/PRP-1)
+				det(station/NN-6,the/DT-3)
+				nn(station/NN-6,Mir/NNS-4)
+				nn(station/NN-6,space/NN-5)
+				dobj(visited/VBD-2,station/NN-6)
+				prep_in(visited/VBD-2,1991/CD-8)
+				nn(TM-13/NNP-11,Soyuz/NNP-10)
+				prep_aboard(visited/VBD-2,TM-13/NNP-11)
+				partmod(visited/VBD-2,returning/VBG-13)
+				nn(TM-12/NN-16,Soyuz/NNP-15)
+				prep_aboard(returning/VBG-13,TM-12/NN-16)
+				prepc_after(returning/VBG-13,spending/VBG-18)
+				advmod(spending/VBG-18,just/RB-19)
+				det(week/NN-22,a/DT-21)
+				prep_over(spending/VBG-18,week/NN-22)
+				prep_in(week/NN-22,space/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Mir space station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-13</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-13</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-13 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Soyuz_TM-12
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-12 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Soyuz_TM-13
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Together with Clemens Lothaller, he was selected for the Soviet-Austrian space project Austromir 91.	</value>
+
+		<annotated-sentence>	Together with Clemens Lothaller, he was selected for the Soviet-Austrian [[space|Space]] [[project|Project]] [[Austromir 91|Soyuz_TM-13]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Together with Clemens Lothaller, he was selected for the Soviet-Austrian space project Austromir 91.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Lothaller/NNP-4,Clemens/NNP-3)
+				prep_together_with(selected/VBN-8,Lothaller/NNP-4)
+				nsubjpass(selected/VBN-8,he/PRP-6)
+				auxpass(selected/VBN-8,was/VBD-7)
+				det(Austromir/NNP-14,the/DT-10)
+				amod(Austromir/NNP-14,Soviet-Austrian/JJ-11)
+				nn(Austromir/NNP-14,space/NN-12)
+				nn(Austromir/NNP-14,project/NN-13)
+				prep_for(selected/VBN-8,Austromir/NNP-14)
+				num(Austromir/NNP-14,91/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Austromir 91</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-13</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After two years of training he was chosen for the mission, and launched on October 2, 1991 together with the Russian cosmonauts Alexander A. Volkov and the Kazakh Toktar Aubakirov in Soyuz TM-13 from the Baikonur Cosmodrome spaceport.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-3,two/CD-2)
+				prep_after(chosen/VBN-8,years/NNS-3)
+				prep_of(years/NNS-3,training/NN-5)
+				nsubjpass(chosen/VBN-8,he/PRP-6)
+				nsubjpass(launched/VBN-14,he/PRP-6)
+				auxpass(chosen/VBN-8,was/VBD-7)
+				det(mission/NN-11,the/DT-10)
+				prep_for(chosen/VBN-8,mission/NN-11)
+				conj_and(chosen/VBN-8,launched/VBN-14)
+				prep_on(launched/VBN-14,October/NNP-16)
+				num(October/NNP-16,2/CD-17)
+				num(October/NNP-16,1991/CD-19)
+				det(cosmonauts/NNS-24,the/DT-22)
+				amod(cosmonauts/NNS-24,Russian/JJ-23)
+				prep_together_with(launched/VBN-14,cosmonauts/NNS-24)
+				nn(Volkov/NNP-27,Alexander/NNP-25)
+				nn(Volkov/NNP-27,A./NNP-26)
+				dep(cosmonauts/NNS-24,Volkov/NNP-27)
+				det(Aubakirov/NNP-32,the/DT-29)
+				nn(Aubakirov/NNP-32,Kazakh/NNP-30)
+				nn(Aubakirov/NNP-32,Toktar/NNP-31)
+				prep_together_with(launched/VBN-14,Aubakirov/NNP-32)
+				conj_and(cosmonauts/NNS-24,Aubakirov/NNP-32)
+				nn(TM-13/NNP-35,Soyuz/NNP-34)
+				prep_in(Aubakirov/NNP-32,TM-13/NNP-35)
+				det(spaceport/NN-40,the/DT-37)
+				nn(spaceport/NN-40,Baikonur/NNP-38)
+				nn(spaceport/NN-40,Cosmodrome/NNP-39)
+				prep_from(TM-13/NNP-35,spaceport/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the Mir space station he conducted 15 experiments in the fields of space medicine, physics and space technology, together with the cosmonauts Anatoly Artsebarsky and Sergey Krikalev.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(station/NN-5,the/DT-2)
+				nn(station/NN-5,Mir/NNS-3)
+				nn(station/NN-5,space/NN-4)
+				prep_at(conducted/VBD-7,station/NN-5)
+				nsubj(conducted/VBD-7,he/PRP-6)
+				num(experiments/NNS-9,15/CD-8)
+				dobj(conducted/VBD-7,experiments/NNS-9)
+				det(fields/NNS-12,the/DT-11)
+				prep_in(conducted/VBD-7,fields/NNS-12)
+				nn(medicine/NN-15,space/NN-14)
+				prep_of(fields/NNS-12,medicine/NN-15)
+				prep_of(fields/NNS-12,physics/NN-17)
+				conj_and(medicine/NN-15,physics/NN-17)
+				nn(technology/NN-20,space/NN-19)
+				prep_of(fields/NNS-12,technology/NN-20)
+				conj_and(medicine/NN-15,technology/NN-20)
+				advmod(conducted/VBD-7,together/RB-22)
+				det(Artsebarsky/NNP-27,the/DT-24)
+				nn(Artsebarsky/NNP-27,cosmonauts/NNS-25)
+				nn(Artsebarsky/NNP-27,Anatoly/NNP-26)
+				prep_with(conducted/VBD-7,Artsebarsky/NNP-27)
+				nn(Krikalev/NNP-30,Sergey/NNP-29)
+				prep_with(conducted/VBD-7,Krikalev/NNP-30)
+				conj_and(Artsebarsky/NNP-27,Krikalev/NNP-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Viehböck returned after 7 days and 22 hours with Soyuz TM-12, and landed in Kazakhstan on October 10.	</value>
+
+		<annotated-sentence>	[[Viehböck|Franz_Viehb%C3%B6ck]] returned after 7 days and 22 [[hours|Hour]] with [[Soyuz TM-12|Soyuz_TM-12]], and landed in [[Kazakhstan|Kazakhstan]] on [[October 10|October_10]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Viehböck|Franz_Viehb%C3%B6ck]] returned after 7 days and 22 hours with [[Soyuz TM-12|Soyuz_TM-12]], and landed in Kazakhstan on October 10.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(returned/VBD-2,Viehböck/NNP-1)
+				nsubj(landed/VBD-14,Viehböck/NNP-1)
+				num(days/NNS-5,7/CD-4)
+				prep_after(returned/VBD-2,days/NNS-5)
+				num(hours/NNS-8,22/CD-7)
+				prep_after(returned/VBD-2,hours/NNS-8)
+				conj_and(days/NNS-5,hours/NNS-8)
+				nn(TM-12/NNP-11,Soyuz/NNP-10)
+				prep_with(returned/VBD-2,TM-12/NNP-11)
+				conj_and(returned/VBD-2,landed/VBD-14)
+				prep_in(landed/VBD-14,Kazakhstan/NNP-16)
+				prep_on(landed/VBD-14,October/NNP-18)
+				num(October/NNP-18,10/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Viehböck</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franz_Viehb%C3%B6ck</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kazakhstan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kazakhstan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>October 10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/October_10</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Franz_Viehb%C3%B6ck http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-12
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-12 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Franz_Viehb%C3%B6ck
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The following two years he gave numerous lectures on the mission, then went to the United States and worked for Rockwell.	</value>
+
+		<annotated-sentence>	The following two [[years|Year]] he gave numerous lectures on the mission, then went to [[the United States|United_States]] and worked for [[Rockwell|George_Lincoln_Rockwell]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The following two years he gave numerous lectures on the mission, then went to [[the United States|United_States]] and worked for [[Rockwell|George_Lincoln_Rockwell]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(years/NNS-4,The/DT-1)
+				amod(years/NNS-4,following/VBG-2)
+				num(years/NNS-4,two/CD-3)
+				nsubj(went/VBD-14,years/NNS-4)
+				nsubj(worked/VBD-20,years/NNS-4)
+				nsubj(gave/VBD-6,he/PRP-5)
+				parataxis(went/VBD-14,gave/VBD-6)
+				nsubj(lectures/VBZ-8,numerous/JJ-7)
+				ccomp(gave/VBD-6,lectures/VBZ-8)
+				det(mission/NN-11,the/DT-10)
+				prep_on(lectures/VBZ-8,mission/NN-11)
+				advmod(went/VBD-14,then/RB-13)
+				det(States/NNPS-18,the/DT-16)
+				nn(States/NNPS-18,United/NNP-17)
+				prep_to(went/VBD-14,States/NNPS-18)
+				conj_and(went/VBD-14,worked/VBD-20)
+				prep_for(worked/VBD-20,Rockwell/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rockwell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/George_Lincoln_Rockwell</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/George_Lincoln_Rockwell http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Lincoln_Rockwell http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/George_Lincoln_Rockwell http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When Rockwell was taken over by Boeing he became Director for International Business Development in Vienna.	</value>
+
+		<annotated-sentence>	When Rockwell was taken over by [[Boeing|Boeing]] he became Director for [[International Business Development|International_business_development]] in [[Vienna|Vienna]].	</annotated-sentence>
+
+		<pattern_crowdsource>	When Rockwell was taken over by Boeing he became Director for International Business Development in Vienna.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(taken/VBN-4,When/WRB-1)
+				nsubjpass(taken/VBN-4,Rockwell/NNP-2)
+				auxpass(taken/VBN-4,was/VBD-3)
+				advcl(Director/NN-10,taken/VBN-4)
+				prt(taken/VBN-4,over/RP-5)
+				agent(taken/VBN-4,Boeing/NNP-7)
+				nsubj(Director/NN-10,he/PRP-8)
+				cop(Director/NN-10,became/VBD-9)
+				nn(Development/NNP-14,International/NNP-12)
+				nn(Development/NNP-14,Business/NNP-13)
+				prep_for(Director/NN-10,Development/NNP-14)
+				prep_in(Development/NNP-14,Vienna/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Business Development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_business_development</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vienna</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vienna</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later he was assigned Technologiebeauftragter (technology coordinator) of Lower Austria.	</value>
+
+		<annotated-sentence>	Later he was assigned Technologiebeauftragter ([[technology|Technology]] [[coordinator|Parenting_coordinator]]) of [[Lower Austria|Lower_Austria]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Later he was assigned Technologiebeauftragter (technology coordinator) of Lower Austria.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(assigned/VBN-4,Later/RB-1)
+				nsubjpass(assigned/VBN-4,he/PRP-2)
+				auxpass(assigned/VBN-4,was/VBD-3)
+				dobj(assigned/VBN-4,Technologiebeauftragter/NNP-5)
+				nn(coordinator/NN-8,technology/NN-7)
+				appos(Technologiebeauftragter/NNP-5,coordinator/NN-8)
+				prep_of(Technologiebeauftragter/NNP-5,Lower/JJR-11)
+				appos(Lower/JJR-11,Austria/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>coordinator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parenting_coordinator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lower Austria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lower_Austria</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Viehböck resides in Berndorf, Lower Austria.	</value>
+
+		<annotated-sentence>	[[Viehböck|Franz_Viehb%C3%B6ck]] resides in [[Berndorf|Berndorf,_Lower_Austria]], [[Lower Austria|Lower_Austria]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Viehböck resides in [[Berndorf|Berndorf,_Lower_Austria]], [[Lower Austria|Lower_Austria]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(resides/VBZ-2,Viehböck/NNP-1)
+				prep_in(resides/VBZ-2,Berndorf/NNP-4)
+				nn(Austria/NNP-7,Lower/NNP-6)
+				appos(Berndorf/NNP-4,Austria/NNP-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Viehböck</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franz_Viehb%C3%B6ck</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Berndorf</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Berndorf,_Lower_Austria</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lower Austria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lower_Austria</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Berndorf,_Lower_Austria http://dbpedia.org/ontology/state http://dbpedia.org/resource/Lower_Austria
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is married, his daughter Carina was born during his space mission.	</value>
+
+		<annotated-sentence>	He is married, his [[daughter|Daughter]] Carina was born during [[his space mission|SpaceMission]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is married, his daughter Carina was born during his space mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,is/VBZ-2)
+				ccomp(born/VBN-9,married/VBN-3)
+				poss(Carina/NNP-7,his/PRP$-5)
+				nn(Carina/NNP-7,daughter/NN-6)
+				nsubjpass(born/VBN-9,Carina/NNP-7)
+				auxpass(born/VBN-9,was/VBD-8)
+				poss(mission/NN-13,his/PRP$-11)
+				nn(mission/NN-13,space/NN-12)
+				prep_during(born/VBN-9,mission/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his space mission</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The only other space traveller who became parent while on orbit is Randolph Bresnik (NASA).	</value>
+
+		<annotated-sentence>	[[The only|The_Only]] other [[space|Space]][[space traveller|Astronaut]] who became [[parent|Parent]] while on orbit is [[Randolph Bresnik|Randolph_Bresnik]] ([[NASA|NASA]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	The only other [[space traveller|Astronaut]] who became parent while on orbit is [[Randolph Bresnik|Randolph_Bresnik]] ([[NASA|NASA]]).	</pattern_crowdsource>
+
+
+		<tree>
+				det(traveller/NN-5,The/DT-1)
+				amod(traveller/NN-5,only/JJ-2)
+				amod(traveller/NN-5,other/JJ-3)
+				nn(traveller/NN-5,space/NN-4)
+				nsubj(Bresnik/NNP-14,traveller/NN-5)
+				nsubj(parent/NN-8,who/WP-6)
+				cop(parent/NN-8,became/VBD-7)
+				rcmod(traveller/NN-5,parent/NN-8)
+				mark(on/IN-10,while/IN-9)
+				advcl(parent/NN-8,on/IN-10)
+				pobj(on/IN-10,orbit/NN-11)
+				cop(Bresnik/NNP-14,is/VBZ-12)
+				nn(Bresnik/NNP-14,Randolph/NNP-13)
+				appos(Bresnik/NNP-14,NASA/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The only</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Only</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space traveller</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>parent</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Randolph Bresnik</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Randolph_Bresnik</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Randolph_Bresnik http://dbpedia.org/property/shortDescription http://dbpedia.org/resource/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Randolph_Bresnik http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

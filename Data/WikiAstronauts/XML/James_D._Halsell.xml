@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	James Donald Halsell, Jr. (born 29 September 1956) is a retired United States Air Force officer and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[James Donald Halsell|James_D._Halsell]], Jr. (born 29 [[September 1956|1956]]) is a retired [[United States Air Force|United_States_Air_Force]] [[officer|Officer_(armed_forces)]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[James Donald Halsell|James_D._Halsell]], Jr. (born 29 September 1956) is a retired [[United States Air Force|United_States_Air_Force]] officer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Halsell/NNP-3,James/NNP-1)
+				nn(Halsell/NNP-3,Donald/NNP-2)
+				nsubj(officer/NN-19,Halsell/NNP-3)
+				appos(Halsell/NNP-3,Jr./NNP-5)
+				dep(Halsell/NNP-3,born/VBN-7)
+				dobj(born/VBN-7,29/CD-8)
+				tmod(born/VBN-7,September/NNP-9)
+				num(September/NNP-9,1956/CD-10)
+				cop(officer/NN-19,is/VBZ-12)
+				det(officer/NN-19,a/DT-13)
+				amod(officer/NN-19,retired/JJ-14)
+				nn(officer/NN-19,United/NNP-15)
+				nn(officer/NN-19,States/NNP-16)
+				nn(officer/NN-19,Air/NNP-17)
+				nn(officer/NN-19,Force/NNP-18)
+				det(astronaut/NN-24,a/DT-21)
+				amod(astronaut/NN-24,former/JJ-22)
+				nn(astronaut/NN-24,NASA/NNP-23)
+				conj_and(officer/NN-19,astronaut/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>James Donald Halsell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_D._Halsell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1956</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1956</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a veteran of five Space Shuttle missions.	</value>
+
+		<annotated-sentence>	He is [[a veteran|Veteran]] of [[five Space Shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a veteran of five Space Shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(veteran/NN-4,He/PRP-1)
+				cop(veteran/NN-4,is/VBZ-2)
+				det(veteran/NN-4,a/DT-3)
+				num(Space/NN-7,five/CD-6)
+				prep_of(veteran/NN-4,Space/NN-7)
+				nn(missions/NNS-9,Shuttle/NNP-8)
+				dep(Space/NN-7,missions/NNS-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>five Space Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has been quoted as saying he loves floating in zero gravity and watching the earth from space.	</value>
+
+		<annotated-sentence>	He has been quoted as saying he loves floating in zero gravity and watching [[the earth|Earth]] from [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has been quoted as saying he loves floating in zero gravity and watching the earth from space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(quoted/VBN-4,He/PRP-1)
+				aux(quoted/VBN-4,has/VBZ-2)
+				auxpass(quoted/VBN-4,been/VBN-3)
+				prepc_as(quoted/VBN-4,saying/VBG-6)
+				nsubj(loves/VBZ-8,he/PRP-7)
+				ccomp(saying/VBG-6,loves/VBZ-8)
+				ccomp(loves/VBZ-8,floating/VBG-9)
+				num(gravity/NN-12,zero/CD-11)
+				prep_in(floating/VBG-9,gravity/NN-12)
+				ccomp(loves/VBZ-8,watching/VBG-14)
+				conj_and(floating/VBG-9,watching/VBG-14)
+				det(earth/NN-16,the/DT-15)
+				dobj(watching/VBG-14,earth/NN-16)
+				prep_from(watching/VBG-14,space/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	"It's amazing to hold a handful of Skittles and watch them float away from you," Halsell has said.	</value>
+
+		<annotated-sentence>	"It's amazing to hold a handful of Skittles and watch them float away from you," Halsell has said.	</annotated-sentence>
+
+		<pattern_crowdsource>	"It's amazing to hold a handful of Skittles and watch them float away from you," Halsell has said.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(amazing/JJ-4,It/PRP-2)
+				cop(amazing/JJ-4,'s/VBZ-3)
+				ccomp(said/VBN-22,amazing/JJ-4)
+				aux(hold/VB-6,to/TO-5)
+				xcomp(amazing/JJ-4,hold/VB-6)
+				det(handful/NN-8,a/DT-7)
+				dobj(hold/VB-6,handful/NN-8)
+				prep_of(handful/NN-8,Skittles/NNP-10)
+				xcomp(amazing/JJ-4,watch/VB-12)
+				conj_and(hold/VB-6,watch/VB-12)
+				nsubj(float/VB-14,them/PRP-13)
+				ccomp(watch/VB-12,float/VB-14)
+				prep_away_from(float/VB-14,you/PRP-17)
+				nsubj(said/VBN-22,Halsell/NNP-20)
+				aux(said/VBN-22,has/VBZ-21)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Halsell was born and raised in West Monroe, Louisiana and attended the United States Air Force Academy.	</value>
+
+		<annotated-sentence>	[[Halsell|James_D._Halsell]] was born and raised in [[West Monroe|West_Monroe,_Louisiana]], [[Louisiana|Louisiana]] and attended [[the United States Air Force Academy|United_States_Air_Force_Academy]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Halsell|James_D._Halsell]] was born and raised in [[West Monroe|West_Monroe,_Louisiana]], [[Louisiana|Louisiana]] and attended the United States Air Force Academy.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Halsell/NNP-1)
+				nsubjpass(raised/VBN-5,Halsell/NNP-1)
+				nsubjpass(attended/VBD-12,Halsell/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				conj_and(born/VBN-3,raised/VBN-5)
+				nn(Monroe/NNP-8,West/NNP-7)
+				prep_in(born/VBN-3,Monroe/NNP-8)
+				appos(Monroe/NNP-8,Louisiana/NNP-10)
+				conj_and(born/VBN-3,attended/VBD-12)
+				det(Academy/NNP-18,the/DT-13)
+				nn(Academy/NNP-18,United/NNP-14)
+				nn(Academy/NNP-18,States/NNP-15)
+				nn(Academy/NNP-18,Air/NNP-16)
+				nn(Academy/NNP-18,Force/NNP-17)
+				dobj(attended/VBD-12,Academy/NNP-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Halsell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_D._Halsell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Monroe</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Monroe,_Louisiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Louisiana</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Louisiana</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Air Force Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Air_Force_Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/West_Monroe,_Louisiana
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/West_Monroe,_Louisiana http://dbpedia.org/ontology/state http://dbpedia.org/resource/Louisiana
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After training as a test pilot, he worked on F-4, F-16 and SR-71 aircraft.	</value>
+
+		<annotated-sentence>	After [[training|Training]] as [[a test pilot|Test_pilot]], he worked on F-4, [[F-16|General_Dynamics_F-16_VISTA]] and SR-71 [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After training as [[a test pilot|Test_pilot]], he worked on F-4, F-16 and SR-71 aircraft.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(worked/VBD-9,training/NN-2)
+				det(pilot/NN-6,a/DT-4)
+				nn(pilot/NN-6,test/NN-5)
+				prep_as(training/NN-2,pilot/NN-6)
+				nsubj(worked/VBD-9,he/PRP-8)
+				prep_on(worked/VBD-9,F-4/NN-11)
+				prep_on(worked/VBD-9,F-16/NN-13)
+				conj_and(F-4/NN-11,F-16/NN-13)
+				nn(aircraft/NN-16,SR-71/NN-15)
+				prep_on(worked/VBD-9,aircraft/NN-16)
+				conj_and(F-4/NN-11,aircraft/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-16</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/General_Dynamics_F-16_VISTA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Halsell was selected as an astronaut candidate in 1990 and was trained as a Space Shuttle pilot.	</value>
+
+		<annotated-sentence>	[[Halsell|James_D._Halsell]] was selected as an [[astronaut|Astronaut]] [[candidate|Candidate]] in [[1990|1990]] and was trained as a [[Space Shuttle|SpaceShuttle]] pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Halsell|James_D._Halsell]] was selected as an [[astronaut|Astronaut]] candidate in 1990 and was trained as a Space Shuttle pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Halsell/NNP-1)
+				nsubjpass(trained/VBN-12,Halsell/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(candidate/NN-7,an/DT-5)
+				nn(candidate/NN-7,astronaut/NN-6)
+				prep_as(selected/VBN-3,candidate/NN-7)
+				prep_in(candidate/NN-7,1990/CD-9)
+				auxpass(trained/VBN-12,was/VBD-11)
+				conj_and(selected/VBN-3,trained/VBN-12)
+				det(pilot/NN-17,a/DT-14)
+				nn(pilot/NN-17,Space/NN-15)
+				nn(pilot/NN-17,Shuttle/NNP-16)
+				prep_as(trained/VBN-12,pilot/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Halsell</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/James_D._Halsell</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He piloted missions STS-65 (1994) and STS-74 (1995), and commanded missions STS-83, STS-94 (1997) and STS-101 (2000).	</value>
+
+		<annotated-sentence>	He piloted missions [[STS-65|STS-65]] ([[1994|1994]]) and [[STS-74|STS-74]] ([[1995|1995]]), and commanded missions [[STS-83|STS-83]], STS-94 ([[1997|1997]]) and [[STS-101|STS-101]] ([[2000|2000]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He piloted missions [[STS-65|STS-65]] (1994) and [[STS-74|STS-74]] (1995), and commanded missions [[STS-83|STS-83]], STS-94 (1997) and [[STS-101|STS-101]] (2000).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(piloted/VBD-2,He/PRP-1)
+				nsubj(commanded/VBD-15,He/PRP-1)
+				nn(STS-65/NN-4,missions/NNS-3)
+				dobj(piloted/VBD-2,STS-65/NN-4)
+				appos(STS-65/NN-4,1994/CD-6)
+				dobj(piloted/VBD-2,STS-74/NN-9)
+				conj_and(STS-65/NN-4,STS-74/NN-9)
+				appos(STS-74/NN-9,1995/CD-11)
+				conj_and(piloted/VBD-2,commanded/VBD-15)
+				nn(STS-94/NN-19,missions/NNS-16)
+				nn(STS-94/NN-19,STS-83/NN-17)
+				dobj(commanded/VBD-15,STS-94/NN-19)
+				appos(STS-94/NN-19,1997/CD-21)
+				dobj(commanded/VBD-15,STS-101/NN-24)
+				conj_and(STS-94/NN-19,STS-101/NN-24)
+				appos(STS-101/NN-24,2000/CD-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-65</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-65</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-74</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-74</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-83</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-83</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-101</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-101</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-65
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-65 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-65 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-74
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-74 http://dbpedia.org/property/crew2Up http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-74 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-83
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crew1Up http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/James_D._Halsell
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-101
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Halsell was Space Shuttle Program manager for launch integration at the Kennedy Space Center from 2000–2002, responsible for giving the "go for launch" on 13 Shuttle missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(manager/NN-6,Halsell/NNP-1)
+				cop(manager/NN-6,was/VBD-2)
+				nn(manager/NN-6,Space/NNP-3)
+				nn(manager/NN-6,Shuttle/NNP-4)
+				nn(manager/NN-6,Program/NNP-5)
+				nn(integration/NN-9,launch/NN-8)
+				prep_for(manager/NN-6,integration/NN-9)
+				det(Center/NNP-14,the/DT-11)
+				nn(Center/NNP-14,Kennedy/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_at(manager/NN-6,Center/NNP-14)
+				num(2002/CD-18,2000/CD-16)
+				prep_from(manager/NN-6,2002/CD-18)
+				amod(2002/CD-18,responsible/JJ-20)
+				prepc_for(responsible/JJ-20,giving/VBG-22)
+				dep(go/VB-25,the/DT-23)
+				dep(giving/VBG-22,go/VB-25)
+				prep_for(go/VB-25,launch/NN-27)
+				num(missions/NNS-32,13/CD-30)
+				nn(missions/NNS-32,Shuttle/NNP-31)
+				prep_on(giving/VBG-22,missions/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the Columbia accident, he led the NASA Return to Flight Planning Team, responsible for converting the recommendations of the accident investigation board into Shuttle Program actions that resulted in resumption of missions in 2005.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(accident/NN-4,the/DT-2)
+				nn(accident/NN-4,Columbia/NNP-3)
+				prep_after(led/VBD-7,accident/NN-4)
+				nsubj(led/VBD-7,he/PRP-6)
+				det(Return/NN-10,the/DT-8)
+				nn(Return/NN-10,NASA/NNP-9)
+				dobj(led/VBD-7,Return/NN-10)
+				nn(Team/NNP-14,Flight/NNP-12)
+				nn(Team/NNP-14,Planning/NNP-13)
+				prep_to(led/VBD-7,Team/NNP-14)
+				dep(led/VBD-7,responsible/JJ-16)
+				prepc_for(responsible/JJ-16,converting/VBG-18)
+				det(recommendations/NNS-20,the/DT-19)
+				dobj(converting/VBG-18,recommendations/NNS-20)
+				det(board/NN-25,the/DT-22)
+				nn(board/NN-25,accident/NN-23)
+				nn(board/NN-25,investigation/NN-24)
+				prep_of(recommendations/NNS-20,board/NN-25)
+				nn(actions/NNS-29,Shuttle/NNP-27)
+				nn(actions/NNS-29,Program/NNP-28)
+				prep_into(converting/VBG-18,actions/NNS-29)
+				nsubj(resulted/VBD-31,that/WDT-30)
+				ccomp(actions/NNS-29,resulted/VBD-31)
+				prep_in(resulted/VBD-31,resumption/NN-33)
+				prep_of(resumption/NN-33,missions/NNS-35)
+				prep_in(resulted/VBD-31,2005/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Halsell earned a masters degree in Space Operations from the Air Force Institute of Technology in 1985.	</value>
+
+		<annotated-sentence>	Halsell earned a masters degree in [[Space|Space]] Operations from [[the Air Force Institute of Technology|Air_Force_Institute_of_Technology]] in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Halsell earned a masters degree in Space Operations from the Air Force Institute of Technology in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,Halsell/NNP-1)
+				det(degree/NN-5,a/DT-3)
+				nn(degree/NN-5,masters/NNS-4)
+				dobj(earned/VBD-2,degree/NN-5)
+				nn(Operations/NNP-8,Space/NNP-7)
+				prep_in(earned/VBD-2,Operations/NNP-8)
+				det(Institute/NNP-13,the/DT-10)
+				nn(Institute/NNP-13,Air/NNP-11)
+				nn(Institute/NNP-13,Force/NNP-12)
+				prep_from(Operations/NNP-8,Institute/NNP-13)
+				prep_of(Institute/NNP-13,Technology/NNP-15)
+				prep_in(earned/VBD-2,1985/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Air Force Institute of Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Institute_of_Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from NASA in November 2006 to accept a position with ATK Launch Systems.	</value>
+
+		<annotated-sentence>	He retired from [[NASA|NASA]] in [[November 2006|November_2006]] to accept a position with [[ATK|ATK_motorcycles]] Launch Systems.	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from [[NASA|NASA]] in November 2006 to accept a position with ATK Launch Systems.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				prep_in(retired/VBD-2,November/NNP-6)
+				num(November/NNP-6,2006/CD-7)
+				aux(accept/VB-9,to/TO-8)
+				xcomp(retired/VBD-2,accept/VB-9)
+				det(position/NN-11,a/DT-10)
+				nsubj(Launch/VB-14,position/NN-11)
+				prep_with(position/NN-11,ATK/NNP-13)
+				ccomp(accept/VB-9,Launch/VB-14)
+				dobj(Launch/VB-14,Systems/NNPS-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 2006</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_2006</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ATK</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ATK_motorcycles</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/James_D._Halsell http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Halsell is Vice President, Space Exploration Systems, and the ATK site manager at Marshall Space Flight Center, Huntsville, AL.	</value>
+
+		<annotated-sentence>	Halsell is [[Vice President|Vice_president]], [[Space Exploration|Space_exploration]] Systems, and the [[ATK|ATK_motorcycles]] [[site manager|Site_manager]] at [[Marshall Space Flight Center|Marshall_Space_Flight_Center]], Huntsville, AL.	</annotated-sentence>
+
+		<pattern_crowdsource>	Halsell is Vice President, Space Exploration Systems, and the ATK site manager at Marshall Space Flight Center, Huntsville, AL.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(President/NNP-4,Halsell/NNP-1)
+				cop(President/NNP-4,is/VBZ-2)
+				nn(President/NNP-4,Vice/NNP-3)
+				nn(Systems/NNPS-8,Space/NNP-6)
+				nn(Systems/NNPS-8,Exploration/NNP-7)
+				conj_and(President/NNP-4,Systems/NNPS-8)
+				det(manager/NN-14,the/DT-11)
+				nn(manager/NN-14,ATK/NN-12)
+				nn(manager/NN-14,site/NN-13)
+				conj_and(President/NNP-4,manager/NN-14)
+				nn(Center/NNP-19,Marshall/NNP-16)
+				nn(Center/NNP-19,Space/NNP-17)
+				nn(Center/NNP-19,Flight/NNP-18)
+				prep_at(manager/NN-14,Center/NNP-19)
+				nn(AL./NNP-23,Huntsville/NNP-21)
+				appos(Center/NNP-19,AL./NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Exploration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ATK</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ATK_motorcycles</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>site manager</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Site_manager</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marshall Space Flight Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marshall_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

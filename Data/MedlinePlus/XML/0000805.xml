@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Chlorophyll is the chemical that makes plants green.</value>
+		<pattern_crowdsource> [[Chlorophyll|C0008260]] is the [[chemical|C0220806]] that makes plants green.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Chlorophyll</surface-form>
+				<RDF-ID>C0008260</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chemical</surface-form>
+				<RDF-ID>C0220806</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>plants</surface-form>
+				<RDF-ID>C0032098</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008260 ISA C0220806</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Most people who swallow chlorophyll have no symptoms.</value>
+		<pattern_crowdsource> Most [[people|C0027361]] who swallow chlorophyll have no [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chlorophyll</surface-form>
+				<RDF-ID>C0008260</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

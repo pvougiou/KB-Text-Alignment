@@ -1,0 +1,986 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Rodolfo Neri Vela (born 19 February 1952) is a Mexican scientist and astronaut who flew aboard a NASA Space Shuttle mission in the year 1985.	</value>
+
+		<annotated-sentence>	[[Rodolfo Neri Vela|Rodolfo_Neri_Vela]] (born 19 [[February|February]] [[1952|1952_(album)]]) is a [[Mexican|Mexico]] [[scientist|Scientist]] and astronaut who flew aboard a [[NASA|NASA]] [[Space Shuttle|SpaceShuttle]] [[mission|Lyndon_B._Johnson_Space_Center]] in the [[year|Year]] [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Rodolfo Neri Vela|Rodolfo_Neri_Vela]] (born 19 February 1952) is a [[Mexican|Mexico]] scientist and astronaut who flew aboard a [[NASA|NASA]] Space Shuttle [[mission|Lyndon_B._Johnson_Space_Center]] in the [[year|Year]] [[1985|1985]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Vela/NNP-3,Rodolfo/NNP-1)
+				nn(Vela/NNP-3,Neri/NNP-2)
+				nsubj(scientist/NN-13,Vela/NNP-3)
+				dep(Vela/NNP-3,born/VBN-5)
+				dobj(born/VBN-5,19/CD-6)
+				tmod(born/VBN-5,February/NNP-7)
+				num(February/NNP-7,1952/CD-8)
+				cop(scientist/NN-13,is/VBZ-10)
+				det(scientist/NN-13,a/DT-11)
+				amod(scientist/NN-13,Mexican/JJ-12)
+				conj_and(scientist/NN-13,astronaut/NN-15)
+				nsubj(flew/VBD-17,who/WP-16)
+				rcmod(scientist/NN-13,flew/VBD-17)
+				det(mission/NN-23,a/DT-19)
+				nn(mission/NN-23,NASA/NNP-20)
+				nn(mission/NN-23,Space/NNP-21)
+				nn(mission/NN-23,Shuttle/NNP-22)
+				prep_aboard(flew/VBD-17,mission/NN-23)
+				det(year/NN-26,the/DT-25)
+				prep_in(flew/VBD-17,year/NN-26)
+				num(year/NN-26,1985/CD-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Rodolfo Neri Vela</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rodolfo_Neri_Vela</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1952</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1952_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mexican</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Rodolfo_Neri_Vela http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Mexico
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Rodolfo_Neri_Vela http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/1985 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is the first and only Mexican, and the second Latin-American to have traveled to space.	</value>
+
+		<annotated-sentence>	He is the first and only Mexican, and the second Latin-American to have traveled to [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is the first and only Mexican, and the second Latin-American to have traveled to space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(first/JJ-4,He/PRP-1)
+				nsubj(Mexican/JJ-7,He/PRP-1)
+				cop(first/JJ-4,is/VBZ-2)
+				det(first/JJ-4,the/DT-3)
+				advmod(Mexican/JJ-7,only/RB-6)
+				conj_and(first/JJ-4,Mexican/JJ-7)
+				det(Latin-American/NN-12,the/DT-10)
+				amod(Latin-American/NN-12,second/JJ-11)
+				conj_and(first/JJ-4,Latin-American/NN-12)
+				aux(traveled/VBN-15,to/TO-13)
+				aux(traveled/VBN-15,have/VB-14)
+				infmod(Latin-American/NN-12,traveled/VBN-15)
+				prep_to(traveled/VBN-15,space/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Neri was born in Chilpancingo de los Bravo, Guerrero, Mexico.	</value>
+
+		<annotated-sentence>	Neri was born in [[Chilpancingo de los Bravo|Chilpancingo_de_los_Bravo_(municipality)]], [[Guerrero , Mexico|Guerrero,_Mexico]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Neri was born in Chilpancingo de los Bravo, Guerrero, Mexico.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Neri/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Bravo/NNP-8,Chilpancingo/NNP-5)
+				nn(Bravo/NNP-8,de/FW-6)
+				nn(Bravo/NNP-8,los/FW-7)
+				prep_in(born/VBN-3,Bravo/NNP-8)
+				nn(Mexico/NNP-12,Guerrero/NNP-10)
+				appos(Bravo/NNP-8,Mexico/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chilpancingo de los Bravo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Chilpancingo_de_los_Bravo_(municipality)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Guerrero , Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Guerrero,_Mexico</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a professor for the Telecommunications Department in the Electrical Engineering Division of the Engineering Faculty, at the National Autonomous University of Mexico (UNAM).	</value>
+
+		<annotated-sentence>	He is [[a professor|Professor_Farnsworth]] for the [[Telecommunications|Telecommunication]] Department in the [[Electrical Engineering|Electrical_engineering]] Division of the [[Engineering|Engineering]] Faculty, at [[the National Autonomous University|National_Autonomous_University_of_Mexico]] of [[Mexico|Mexico]] ([[UNAM|Club_Universidad_Nacional]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a professor for the Telecommunications Department in the Electrical Engineering Division of the Engineering Faculty, at [[the National Autonomous University|National_Autonomous_University_of_Mexico]] of [[Mexico|Mexico]] ([[UNAM|Club_Universidad_Nacional]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(professor/NN-4,He/PRP-1)
+				cop(professor/NN-4,is/VBZ-2)
+				det(professor/NN-4,a/DT-3)
+				det(Department/NNP-8,the/DT-6)
+				nn(Department/NNP-8,Telecommunications/NNP-7)
+				prep_for(professor/NN-4,Department/NNP-8)
+				det(Division/NNP-13,the/DT-10)
+				amod(Division/NNP-13,Electrical/JJ-11)
+				nn(Division/NNP-13,Engineering/NNP-12)
+				prep_in(Department/NNP-8,Division/NNP-13)
+				det(Faculty/NNP-17,the/DT-15)
+				nn(Faculty/NNP-17,Engineering/NNP-16)
+				prep_of(Division/NNP-13,Faculty/NNP-17)
+				det(University/NNP-23,the/DT-20)
+				nn(University/NNP-23,National/NNP-21)
+				nn(University/NNP-23,Autonomous/NNP-22)
+				prep_at(professor/NN-4,University/NNP-23)
+				prep_of(University/NNP-23,Mexico/NNP-25)
+				appos(Mexico/NNP-25,UNAM/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor_Farnsworth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Telecommunications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Telecommunication</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Electrical Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electrical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the National Autonomous University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/National_Autonomous_University_of_Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mexico</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mexico</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UNAM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Club_Universidad_Nacional</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Club_Universidad_Nacional http://dbpedia.org/ontology/owner http://dbpedia.org/resource/National_Autonomous_University_of_Mexico
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Rodolfo_Neri_Vela http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Mexico
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Club_Universidad_Nacional http://dbpedia.org/ontology/ground http://dbpedia.org/resource/Mexico
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is Mexican born of Spanish and Italian ancestry.	</value>
+
+		<annotated-sentence>	He is [[Mexican|Mexican_people]] born of [[Spanish|Spain]] and [[Italian|Italy]] [[ancestry|Ancestry_of_the_people_of_the_United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is Mexican born of Spanish and Italian ancestry.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Mexican/JJ-3,He/PRP-1)
+				cop(Mexican/JJ-3,is/VBZ-2)
+				partmod(Mexican/JJ-3,born/VBN-4)
+				amod(ancestry/NN-9,Spanish/JJ-6)
+				conj_and(Spanish/JJ-6,Italian/JJ-8)
+				amod(ancestry/NN-9,Italian/JJ-8)
+				prep_of(born/VBN-4,ancestry/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mexican</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mexican_people</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spanish</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Italian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Italy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ancestry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ancestry_of_the_people_of_the_United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Neri received a bachelor's degree in mechanical and electrical engineering, National Autonomous University of Mexico (UNAM) 1975, and received a master's degree in science, specialized in telecommunications systems, in 1976 from the University of Essex, England.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Neri/NNP-1)
+				nsubj(received/VBD-24,Neri/NNP-1)
+				det(bachelor/NN-4,a/DT-3)
+				poss(degree/NN-6,bachelor/NN-4)
+				iobj(received/VBD-2,degree/NN-6)
+				amod(engineering/NN-11,mechanical/JJ-8)
+				conj_and(mechanical/JJ-8,electrical/JJ-10)
+				amod(engineering/NN-11,electrical/JJ-10)
+				prep_in(degree/NN-6,engineering/NN-11)
+				nn(University/NNP-15,National/NNP-13)
+				nn(University/NNP-15,Autonomous/NNP-14)
+				appos(engineering/NN-11,University/NNP-15)
+				prep_of(University/NNP-15,Mexico/NNP-17)
+				appos(degree/NN-6,UNAM/NNP-19)
+				dobj(received/VBD-2,1975/CD-21)
+				conj_and(received/VBD-2,received/VBD-24)
+				det(master/NN-26,a/DT-25)
+				poss(degree/NN-28,master/NN-26)
+				dobj(received/VBD-24,degree/NN-28)
+				prep_in(degree/NN-28,science/NN-30)
+				appos(science/NN-30,specialized/VBN-32)
+				nn(systems/NNS-35,telecommunications/NN-34)
+				prep_in(specialized/VBN-32,systems/NNS-35)
+				prep_in(received/VBD-24,1976/CD-38)
+				det(University/NNP-41,the/DT-40)
+				prep_from(received/VBD-24,University/NNP-41)
+				nn(England/NNP-45,Essex/NNP-43)
+				prep_of(University/NNP-41,England/NNP-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Neri then received a doctorate degree in electromagnetic radiation from the University of Birmingham in 1979, and performed one year of postdoctoral research in waveguides at the University of Birmingham.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-3,Neri/NNP-1)
+				nsubj(performed/VBD-19,Neri/NNP-1)
+				advmod(received/VBD-3,then/RB-2)
+				det(degree/NN-6,a/DT-4)
+				nn(degree/NN-6,doctorate/NN-5)
+				dobj(received/VBD-3,degree/NN-6)
+				amod(radiation/NN-9,electromagnetic/JJ-8)
+				prep_in(received/VBD-3,radiation/NN-9)
+				det(University/NNP-12,the/DT-11)
+				prep_from(received/VBD-3,University/NNP-12)
+				prep_of(University/NNP-12,Birmingham/NNP-14)
+				prep_in(Birmingham/NNP-14,1979/CD-16)
+				conj_and(received/VBD-3,performed/VBD-19)
+				num(year/NN-21,one/CD-20)
+				dobj(performed/VBD-19,year/NN-21)
+				amod(research/NN-24,postdoctoral/JJ-23)
+				prep_of(year/NN-21,research/NN-24)
+				prep_in(performed/VBD-19,waveguides/NNS-26)
+				det(University/NNP-29,the/DT-28)
+				prep_at(waveguides/NNS-26,University/NNP-29)
+				prep_of(University/NNP-29,Birmingham/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Institute of Electrical and Electronics Engineers, U.S.; The Institution of Electrical Engineers, UK; Asociación Mexicana de Ingenieros en Comunicaciones Eléctricas y Electrónicas, Mexico; and Colegio de Ingenieros Mecánicos y Electricistas, Mexico.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Institute/NNP-2,The/DT-1)
+				prep_of(Institute/NNP-2,Electrical/JJ-4)
+				nn(Engineers/NNPS-7,Electronics/NNP-6)
+				prep_of(Institute/NNP-2,Engineers/NNPS-7)
+				conj_and(Electrical/JJ-4,Engineers/NNPS-7)
+				appos(Engineers/NNPS-7,U.S./NNP-9)
+				det(Institution/NNP-12,The/DT-11)
+				conj_and(Electrical/JJ-4,Institution/NNP-12)
+				conj_and(Engineers/NNPS-7,Institution/NNP-12)
+				amod(Engineers/NNS-15,Electrical/JJ-14)
+				prep_of(Institution/NNP-12,Engineers/NNS-15)
+				appos(Engineers/NNS-15,UK/NNP-17)
+				nn(Ingenieros/NNP-22,Asociación/NNP-19)
+				nn(Ingenieros/NNP-22,Mexicana/NNP-20)
+				amod(Ingenieros/NNP-22,de/IN-21)
+				conj_and(Electrical/JJ-4,Ingenieros/NNP-22)
+				conj_and(Engineers/NNPS-7,Ingenieros/NNP-22)
+				nn(Electrónicas/NNP-27,Comunicaciones/NNP-24)
+				nn(Electrónicas/NNP-27,Eléctricas/NNP-25)
+				nn(Electrónicas/NNP-27,y/NNP-26)
+				prep_en(Ingenieros/NNP-22,Electrónicas/NNP-27)
+				appos(Electrónicas/NNP-27,Mexico/NNP-29)
+				nn(Mecánicos/NNP-35,Colegio/NNP-32)
+				amod(Mecánicos/NNP-35,de/IN-33)
+				nn(Mecánicos/NNP-35,Ingenieros/NNP-34)
+				conj_and(Electrical/JJ-4,Mecánicos/NNP-35)
+				conj_and(Engineers/NNPS-7,Mecánicos/NNP-35)
+				nn(Electricistas/NNP-37,y/NNP-36)
+				dep(Institute/NNP-2,Electricistas/NNP-37)
+				appos(Electricistas/NNP-37,Mexico/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Neri has worked at the Institute of Electrical Research, Mexico, in the Radiocommunications Group, doing research and system planning on antenna theory and design, satellite communications systems, and Earth station technology.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBN-3,Neri/NNP-1)
+				aux(worked/VBN-3,has/VBZ-2)
+				det(Institute/NNP-6,the/DT-5)
+				prep_at(worked/VBN-3,Institute/NNP-6)
+				amod(Research/NN-9,Electrical/JJ-8)
+				prep_of(Institute/NNP-6,Research/NN-9)
+				appos(Research/NN-9,Mexico/NNP-11)
+				det(Group/NNP-16,the/DT-14)
+				nn(Group/NNP-16,Radiocommunications/NNP-15)
+				prep_in(worked/VBN-3,Group/NNP-16)
+				xcomp(worked/VBN-3,doing/VBG-18)
+				nn(planning/NN-22,research/NN-19)
+				conj_and(research/NN-19,system/NN-21)
+				nn(planning/NN-22,system/NN-21)
+				dobj(doing/VBG-18,planning/NN-22)
+				nn(theory/NN-25,antenna/NN-24)
+				prep_on(doing/VBG-18,theory/NN-25)
+				prep_on(doing/VBG-18,design/NN-27)
+				conj_and(theory/NN-25,design/NN-27)
+				nn(systems/NNS-31,satellite/NN-29)
+				nn(systems/NNS-31,communications/NNS-30)
+				prep_on(doing/VBG-18,systems/NNS-31)
+				conj_and(theory/NN-25,systems/NNS-31)
+				nn(technology/NN-36,Earth/NNP-34)
+				nn(technology/NN-36,station/NN-35)
+				prep_on(doing/VBG-18,technology/NN-36)
+				conj_and(theory/NN-25,technology/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently also a full-time researcher at the Electric Engineering department of the Faculty of Engineering at UNAM.	</value>
+
+		<annotated-sentence>	He is currently also a full-time [[researcher|Researcher]] at the [[Electric Engineering|Electrical_engineering]] department of the Faculty of [[Engineering|Engineering]] at [[UNAM|Unam_sanctam]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently also a full-time researcher at the Electric Engineering department of the Faculty of Engineering at UNAM.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(researcher/NN-7,He/PRP-1)
+				cop(researcher/NN-7,is/VBZ-2)
+				advmod(researcher/NN-7,currently/RB-3)
+				advmod(researcher/NN-7,also/RB-4)
+				det(researcher/NN-7,a/DT-5)
+				amod(researcher/NN-7,full-time/JJ-6)
+				det(department/NN-12,the/DT-9)
+				nn(department/NN-12,Electric/NNP-10)
+				nn(department/NN-12,Engineering/NNP-11)
+				prep_at(researcher/NN-7,department/NN-12)
+				det(Faculty/NNP-15,the/DT-14)
+				prep_of(department/NN-12,Faculty/NNP-15)
+				prep_of(Faculty/NNP-15,Engineering/NNP-17)
+				prep_at(Engineering/NNP-17,UNAM/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>researcher</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Researcher</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Electric Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electrical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>UNAM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Unam_sanctam</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Neri was a Payload Specialist aboard the STS-61-B Atlantis mission, from (November 26 to December 3, 1985).	</value>
+
+		<annotated-sentence>	Neri was [[a Payload Specialist|Payload_Specialist]] aboard the [[STS-61-B|STS-61-B]] [[Atlantis|Atlantis]] mission, from ([[November 26|November_26]] to December 3, 1985).	</annotated-sentence>
+
+		<pattern_crowdsource>	Neri was a Payload Specialist aboard the [[STS-61-B|STS-61-B]] Atlantis mission, from (November 26 to December 3, 1985).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Specialist/NNP-5,Neri/NNP-1)
+				cop(Specialist/NNP-5,was/VBD-2)
+				det(Specialist/NNP-5,a/DT-3)
+				nn(Specialist/NNP-5,Payload/NNP-4)
+				det(mission/NN-10,the/DT-7)
+				nn(mission/NN-10,STS-61-B/NN-8)
+				nn(mission/NN-10,Atlantis/NNP-9)
+				prep_aboard(Specialist/NNP-5,mission/NN-10)
+				prep(Specialist/NNP-5,from/IN-12)
+				dep(from/IN-12,November/NNP-14)
+				num(November/NNP-14,26/CD-15)
+				prep_to(November/NNP-14,December/NNP-17)
+				num(December/NNP-17,3/CD-18)
+				num(December/NNP-17,1985/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Atlantis</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Atlantis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November_26</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Rodolfo_Neri_Vela http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Rodolfo_Neri_Vela
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Rodolfo_Neri_Vela
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-61B launched at night from Kennedy Space Center, Florida, and returned to land at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	[[STS-61B|STS-61-B]] launched at night from [[Kennedy Space Center|Kennedy_Space_Center]], [[Florida|Florida]], and returned to land at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-61B|STS-61-B]] launched at night from [[Kennedy Space Center|Kennedy_Space_Center]], Florida, and returned to land at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(launched/VBD-2,STS-61B/NN-1)
+				nsubj(returned/VBD-13,STS-61B/NN-1)
+				prep_at(launched/VBD-2,night/NN-4)
+				nn(Center/NNP-8,Kennedy/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_from(launched/VBD-2,Center/NNP-8)
+				appos(Center/NNP-8,Florida/NNP-10)
+				conj_and(launched/VBD-2,returned/VBD-13)
+				aux(land/VB-15,to/TO-14)
+				xcomp(returned/VBD-13,land/VB-15)
+				nn(Base/NNP-20,Edwards/NNP-17)
+				nn(Base/NNP-20,Air/NNP-18)
+				nn(Base/NNP-20,Force/NNP-19)
+				prep_at(land/VB-15,Base/NNP-20)
+				appos(Base/NNP-20,California/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-61B</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-B</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Rodolfo_Neri_Vela http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-B
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Rodolfo_Neri_Vela
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Rodolfo_Neri_Vela
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-B http://dbpedia.org/property/launchSite http://dbpedia.org/resource/Kennedy_Space_Center
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the mission the crew deployed the MORELOS-B, AUSSATT II, and SATCOM K-2 communications satellites, conducted two six-hour spacewalks to demonstrate space station construction techniques with the EASE/ACCESS experiments, operated the Continuous Flow Electrophoresis (CRFES) experiment for McDonell Douglas and a Getaway Special (GAS) container for Telesat, Canada, conducted several Mexican Payload Specialists Experiments for the Mexican government, and tested the Orbiter Experiments Digital Autopilot (OEX DAP).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_during(deployed/VBD-6,mission/NN-3)
+				det(crew/NN-5,the/DT-4)
+				nsubj(deployed/VBD-6,crew/NN-5)
+				det(MORELOS-B/NN-8,the/DT-7)
+				dobj(deployed/VBD-6,MORELOS-B/NN-8)
+				nn(II/NNP-11,AUSSATT/NNP-10)
+				dobj(deployed/VBD-6,II/NNP-11)
+				conj_and(MORELOS-B/NN-8,II/NNP-11)
+				nn(K-2/NNP-15,SATCOM/NNP-14)
+				dobj(deployed/VBD-6,K-2/NNP-15)
+				conj_and(MORELOS-B/NN-8,K-2/NNP-15)
+				nn(satellites/NNS-17,communications/NNS-16)
+				nsubj(operated/VBD-34,satellites/NNS-17)
+				partmod(satellites/NNS-17,conducted/VBN-19)
+				num(spacewalks/NNS-22,two/CD-20)
+				amod(spacewalks/NNS-22,six-hour/JJ-21)
+				dobj(conducted/VBN-19,spacewalks/NNS-22)
+				aux(demonstrate/VB-24,to/TO-23)
+				xcomp(conducted/VBN-19,demonstrate/VB-24)
+				nn(techniques/NNS-28,space/NN-25)
+				nn(techniques/NNS-28,station/NN-26)
+				nn(techniques/NNS-28,construction/NN-27)
+				dobj(demonstrate/VB-24,techniques/NNS-28)
+				det(experiments/NNS-32,the/DT-30)
+				nn(experiments/NNS-32,EASE/ACCESS/NN-31)
+				prep_with(demonstrate/VB-24,experiments/NNS-32)
+				rcmod(K-2/NNP-15,operated/VBD-34)
+				det(Electrophoresis/NN-38,the/DT-35)
+				amod(Electrophoresis/NN-38,Continuous/JJ-36)
+				nn(Electrophoresis/NN-38,Flow/NN-37)
+				nsubj(experiment/NN-42,Electrophoresis/NN-38)
+				appos(Electrophoresis/NN-38,CRFES/NN-40)
+				ccomp(operated/VBD-34,experiment/NN-42)
+				nn(Douglas/NNP-45,McDonell/NNP-44)
+				prep_for(experiment/NN-42,Douglas/NNP-45)
+				det(Getaway/NNP-48,a/DT-47)
+				prep_for(experiment/NN-42,Getaway/NNP-48)
+				conj_and(Douglas/NNP-45,Getaway/NNP-48)
+				amod(container/NN-53,Special/JJ-49)
+				appos(container/NN-53,GAS/NN-51)
+				nsubj(conducted/VBD-59,container/NN-53)
+				nn(Canada/NNP-57,Telesat/NNP-55)
+				prep_for(container/NN-53,Canada/NNP-57)
+				rcmod(Getaway/NNP-48,conducted/VBD-59)
+				advmod(conducted/VBD-59,several/JJ-60)
+				amod(Experiments/NNS-64,Mexican/JJ-61)
+				nn(Experiments/NNS-64,Payload/NNP-62)
+				nn(Experiments/NNS-64,Specialists/NNPS-63)
+				dobj(conducted/VBD-59,Experiments/NNS-64)
+				det(government/NN-68,the/DT-66)
+				amod(government/NN-68,Mexican/JJ-67)
+				prep_for(conducted/VBD-59,government/NN-68)
+				conj_and(deployed/VBD-6,tested/VBD-71)
+				det(Experiments/NNS-74,the/DT-72)
+				nn(Experiments/NNS-74,Orbiter/NNP-73)
+				dobj(tested/VBD-71,Experiments/NNS-74)
+				nn(Autopilot/NNP-76,Digital/NNP-75)
+				nsubj(tested/VBD-71,Autopilot/NNP-76)
+				nn(DAP/NNP-79,OEX/NNP-78)
+				appos(Autopilot/NNP-76,DAP/NNP-79)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At mission conclusion, Neri had traveled 2.4 million miles (3.8 million km) in 108 Earth orbits, and logged over 165 hours in space.	</value>
+
+		<annotated-sentence>	At mission conclusion, Neri had traveled 2.4 [[million|Million_(band)]] [[miles|Mile]] (3.8 million km) in 108 [[Earth orbits|Geocentric_orbit]], and logged over 165 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	At mission conclusion, Neri had traveled 2.4 million miles (3.8 million km) in 108 Earth orbits, and logged over 165 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(conclusion/NN-3,mission/NN-2)
+				prep_at(traveled/VBN-7,conclusion/NN-3)
+				nsubj(traveled/VBN-7,Neri/NNP-5)
+				nsubj(logged/VBD-22,Neri/NNP-5)
+				aux(traveled/VBN-7,had/VBD-6)
+				number(million/CD-9,2.4/CD-8)
+				num(miles/NNS-10,million/CD-9)
+				dobj(traveled/VBN-7,miles/NNS-10)
+				dep(miles/NNS-10,3.8/CD-12)
+				num(km/NN-14,million/CD-13)
+				dep(3.8/CD-12,km/NN-14)
+				num(orbits/NNS-19,108/CD-17)
+				nn(orbits/NNS-19,Earth/NNP-18)
+				prep_in(traveled/VBN-7,orbits/NNS-19)
+				conj_and(traveled/VBN-7,logged/VBD-22)
+				num(hours/NNS-25,165/CD-24)
+				prep_over(logged/VBD-22,hours/NNS-25)
+				prep_in(logged/VBD-22,space/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

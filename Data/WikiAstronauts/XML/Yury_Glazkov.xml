@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Yury Nikolayevich Glazkov (Russian: ????? ??????????? ????????; 2 October 1939 – 9 December 2008) was a Soviet Air Force officer and a cosmonaut.	</value>
+
+		<annotated-sentence>	[[Yury Nikolayevich Glazkov|Yury_Glazkov]] ([[Russian|Soviet_Union]]: ????? ??????????? ????????; 2 October [[1939|1939]] – 9 [[December 2008|December_2008]]) was a [[Soviet Air Force|Soviet_Air_Forces]] [[officer|Officer_(armed_forces)]] and [[a cosmonaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Yury Nikolayevich Glazkov|Yury_Glazkov]] ([[Russian|Soviet_Union]]: ????? ??????????? ????????; 2 October 1939 – 9 December 2008) was a [[Soviet Air Force|Soviet_Air_Forces]] officer and a cosmonaut.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Glazkov/NNP-3,Yury/NNP-1)
+				nn(Glazkov/NNP-3,Nikolayevich/NNP-2)
+				nsubj(officer/NN-24,Glazkov/NNP-3)
+				dep(Glazkov/NNP-3,Russian/NNP-5)
+				dep(Russian/NNP-5,?????/NN-7)
+				nn(????????/NN-9,???????????/NN-8)
+				dep(?????/NN-7,????????/NN-9)
+				dep(?????/NN-7,2/CD-11)
+				tmod(2/CD-11,October/NNP-12)
+				num(October/NNP-12,1939/CD-13)
+				dep(?????/NN-7,9/CD-15)
+				tmod(9/CD-15,December/NNP-16)
+				num(December/NNP-16,2008/CD-17)
+				cop(officer/NN-24,was/VBD-19)
+				det(officer/NN-24,a/DT-20)
+				nn(officer/NN-24,Soviet/NNP-21)
+				nn(officer/NN-24,Air/NNP-22)
+				nn(officer/NN-24,Force/NNP-23)
+				det(cosmonaut/NN-27,a/DT-26)
+				conj_and(officer/NN-24,cosmonaut/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yury Nikolayevich Glazkov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yury_Glazkov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1939</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1939</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>December 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soviet Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer_(armed_forces)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soviet_Air_Forces http://dbpedia.org/ontology/country http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Glazkov held the rank of major general in the Russian Air Force.	</value>
+
+		<annotated-sentence>	[[Glazkov|Yury_Glazkov]] held [[the rank|RANK]] of [[major general|Major_general]] in [[the Russian Air Force|Russian_Air_Force]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Glazkov|Yury_Glazkov]] held the rank of major general in [[the Russian Air Force|Russian_Air_Force]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(held/VBD-2,Glazkov/NNP-1)
+				det(rank/NN-4,the/DT-3)
+				dobj(held/VBD-2,rank/NN-4)
+				amod(general/JJ-7,major/JJ-6)
+				prep_of(rank/NN-4,general/JJ-7)
+				det(Force/NNP-12,the/DT-9)
+				nn(Force/NNP-12,Russian/NNP-10)
+				nn(Force/NNP-12,Air/NNP-11)
+				prep_in(held/VBD-2,Force/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Glazkov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yury_Glazkov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RANK</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>major general</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Major_general</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Air_Force</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/property/rank http://dbpedia.org/resource/Russian_Air_Force
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Moscow, in the USSR, Glazkov graduated from Kharkov Military Engineering High School in 1962, receiving the candidate of technical sciences degree.	</value>
+
+		<annotated-sentence>	Born in [[Moscow|Soviet_Union]], in [[the USSR|Soviet_Union]], [[Glazkov|Yury_Glazkov]] graduated from Kharkov [[Military Engineering|Military_engineering]] [[High School|High_school]] in [[1962|1962]], receiving [[the candidate|Candidate]] of technical [[sciences|Science]] degree.	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in [[Moscow|Soviet_Union]], in [[the USSR|Soviet_Union]], [[Glazkov|Yury_Glazkov]] graduated from Kharkov Military Engineering High School in 1962, receiving the candidate of technical sciences degree.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(graduated/VBD-10,Born/VBN-1)
+				prep_in(Born/VBN-1,Moscow/NNP-3)
+				det(USSR/NNP-7,the/DT-6)
+				prep_in(Born/VBN-1,USSR/NNP-7)
+				nsubj(graduated/VBD-10,Glazkov/NNP-9)
+				nn(School/NNP-16,Kharkov/NNP-12)
+				nn(School/NNP-16,Military/NNP-13)
+				nn(School/NNP-16,Engineering/NNP-14)
+				nn(School/NNP-16,High/NNP-15)
+				prep_from(graduated/VBD-10,School/NNP-16)
+				prep_in(graduated/VBD-10,1962/CD-18)
+				xcomp(graduated/VBD-10,receiving/VBG-20)
+				det(candidate/NN-22,the/DT-21)
+				dobj(receiving/VBG-20,candidate/NN-22)
+				amod(degree/NN-26,technical/JJ-24)
+				nn(degree/NN-26,sciences/NNS-25)
+				prep_of(candidate/NN-22,degree/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the USSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Glazkov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yury_Glazkov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Military Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/High_school</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a flight engineer in the Soviet Air Force before being selected as a cosmonaut on October 23, 1965.	</value>
+
+		<annotated-sentence>	He served as [[a flight engineer|Flight_engineer]] in [[the Soviet Air Force|Soviet_Air_Forces]] before being selected as a cosmonaut on October 23, 1965.	</annotated-sentence>
+
+		<pattern_crowdsource>	He served as a flight engineer in the Soviet Air Force before being selected as a cosmonaut on October 23, 1965.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(engineer/NN-6,a/DT-4)
+				nn(engineer/NN-6,flight/NN-5)
+				prep_as(served/VBD-2,engineer/NN-6)
+				det(Force/NNP-11,the/DT-8)
+				nn(Force/NNP-11,Soviet/NNP-9)
+				nn(Force/NNP-11,Air/NNP-10)
+				prep_in(engineer/NN-6,Force/NNP-11)
+				auxpass(selected/VBN-14,being/VBG-13)
+				prepc_before(served/VBD-2,selected/VBN-14)
+				det(cosmonaut/NN-17,a/DT-16)
+				prep_as(selected/VBN-14,cosmonaut/NN-17)
+				prep_on(cosmonaut/NN-17,October/NNP-19)
+				num(October/NNP-19,23/CD-20)
+				num(October/NNP-19,1965/CD-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a flight engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Soviet Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Air_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew as a Flight Engineer on the Soyuz 24 mission.	</value>
+
+		<annotated-sentence>	He flew as [[a Flight Engineer|Flight_engineer]] on the [[Soyuz 24|Soyuz_24]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew as a Flight Engineer on the [[Soyuz 24|Soyuz_24]] mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				det(Engineer/NN-6,a/DT-4)
+				nn(Engineer/NN-6,Flight/NN-5)
+				prep_as(flew/VBD-2,Engineer/NN-6)
+				det(mission/NN-11,the/DT-8)
+				nn(mission/NN-11,Soyuz/NNP-9)
+				num(mission/NN-11,24/CD-10)
+				prep_on(flew/VBD-2,mission/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz 24</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_24</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_24
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He retired from the cosmonaut corps on January 26, 1982.	</value>
+
+		<annotated-sentence>	He retired from the cosmonaut corps on [[January|January]] 26, 1982.	</annotated-sentence>
+
+		<pattern_crowdsource>	He retired from the cosmonaut corps on January 26, 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,He/PRP-1)
+				det(corps/NN-6,the/DT-4)
+				nn(corps/NN-6,cosmonaut/NN-5)
+				prep_from(retired/VBD-2,corps/NN-6)
+				prep_on(retired/VBD-2,January/NNP-8)
+				num(January/NNP-8,26/CD-9)
+				num(January/NNP-8,1982/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After Soyuz 24, he was made a Hero of the Soviet Union.	</value>
+
+		<annotated-sentence>	After [[Soyuz 24|Soyuz_24]], he was made [[a Hero of the Soviet Union|Hero_of_the_Soviet_Union]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After [[Soyuz 24|Soyuz_24]], he was made [[a Hero of the Soviet Union|Hero_of_the_Soviet_Union]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(made/VBN-7,Soyuz/NNP-2)
+				num(Soyuz/NNP-2,24/CD-3)
+				nsubjpass(made/VBN-7,he/PRP-5)
+				auxpass(made/VBN-7,was/VBD-6)
+				det(Hero/NN-9,a/DT-8)
+				dobj(made/VBN-7,Hero/NN-9)
+				det(Union/NNP-13,the/DT-11)
+				nn(Union/NNP-13,Soviet/NNP-12)
+				prep_of(Hero/NN-9,Union/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Soyuz 24</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_24</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Hero of the Soviet Union</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hero_of_the_Soviet_Union</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_24
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yury_Glazkov http://dbpedia.org/property/awards http://dbpedia.org/resource/Hero_of_the_Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded a doctorate in technical sciences in 1974, and in 1989 he became the first Deputy Chief of Gagarin Cosmonaut Training Center, a position from which he retired in May 2000.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(doctorate/NN-5,a/DT-4)
+				dobj(awarded/VBN-3,doctorate/NN-5)
+				amod(sciences/NNS-8,technical/JJ-7)
+				prep_in(doctorate/NN-5,sciences/NNS-8)
+				prep_in(awarded/VBN-3,1974/CD-10)
+				prep_in(Chief/NNP-20,1989/CD-14)
+				nsubj(Chief/NNP-20,he/PRP-15)
+				cop(Chief/NNP-20,became/VBD-16)
+				det(Chief/NNP-20,the/DT-17)
+				amod(Chief/NNP-20,first/JJ-18)
+				nn(Chief/NNP-20,Deputy/NNP-19)
+				conj_and(awarded/VBN-3,Chief/NNP-20)
+				nn(Center/NNP-25,Gagarin/NNP-22)
+				nn(Center/NNP-25,Cosmonaut/NNP-23)
+				nn(Center/NNP-25,Training/NNP-24)
+				prep_of(Chief/NNP-20,Center/NNP-25)
+				det(position/NN-28,a/DT-27)
+				appos(Center/NNP-25,position/NN-28)
+				prep_from(retired/VBD-32,which/WDT-30)
+				nsubj(retired/VBD-32,he/PRP-31)
+				rcmod(position/NN-28,retired/VBD-32)
+				prep_in(retired/VBD-32,May/NNP-34)
+				num(May/NNP-34,2000/CD-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Glazkov wrote several books, including a technical guide to spacewalking, "Outside Orbiting Spacecraft" in 1977 and a book about space exploration, "The World Around Us" in 1986.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(wrote/VBD-2,Glazkov/NNP-1)
+				amod(books/NNS-4,several/JJ-3)
+				dobj(wrote/VBD-2,books/NNS-4)
+				dep(wrote/VBD-2,including/VBG-6)
+				det(guide/NN-9,a/DT-7)
+				amod(guide/NN-9,technical/JJ-8)
+				pobj(including/VBG-6,guide/NN-9)
+				prep_to(guide/NN-9,spacewalking/NN-11)
+				amod(Spacecraft/NN-16,Outside/JJ-14)
+				nn(Spacecraft/NN-16,Orbiting/NN-15)
+				pobj(including/VBG-6,Spacecraft/NN-16)
+				conj_and(guide/NN-9,Spacecraft/NN-16)
+				prep_in(Spacecraft/NN-16,1977/CD-19)
+				det(book/NN-22,a/DT-21)
+				pobj(including/VBG-6,book/NN-22)
+				conj_and(guide/NN-9,book/NN-22)
+				nn(exploration/NN-25,space/NN-24)
+				prep_about(book/NN-22,exploration/NN-25)
+				det(World/NNP-29,The/DT-28)
+				dobj(wrote/VBD-2,World/NNP-29)
+				prep_around(World/NNP-29,Us/NNP-31)
+				prep_in(wrote/VBD-2,1986/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Glazkov also authored several science-fiction novels.	</value>
+
+		<annotated-sentence>	Glazkov also authored several science-fiction [[novels|Novel]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Glazkov also authored several science-fiction novels.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(authored/VBD-3,Glazkov/NNP-1)
+				advmod(authored/VBD-3,also/RB-2)
+				amod(novels/NNS-6,several/JJ-4)
+				nn(novels/NNS-6,science-fiction/NN-5)
+				dobj(authored/VBD-3,novels/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>novels</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Novel</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	One of which, "?????? ?????????" ("The Black Silence") was illustrated by fellow cosmonaut Vladimir Dzhanibekov.	</value>
+
+		<annotated-sentence>	One of which, "?????? ?????????" ("The [[Black|Black]] Silence") was illustrated by fellow [[cosmonaut|Astronaut]] [[Vladimir Dzhanibekov|Vladimir_Dzhanibekov]].	</annotated-sentence>
+
+		<pattern_crowdsource>	One of which, "?????? ?????????" ("The Black Silence") was illustrated by fellow [[cosmonaut|Astronaut]] [[Vladimir Dzhanibekov|Vladimir_Dzhanibekov]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(illustrated/VBN-17,One/CD-1)
+				prep_of(One/CD-1,which/WDT-3)
+				nsubjpass(illustrated/VBN-17,??????/NNP-6)
+				dep(??????/NNP-6,?????????/NN-7)
+				dep(??????/NNP-6,The/NNP-11)
+				dep(The/NNP-11,Black/NNP-12)
+				dep(Black/NNP-12,Silence/NN-13)
+				auxpass(illustrated/VBN-17,was/VBD-16)
+				amod(Dzhanibekov/NNP-22,fellow/JJ-19)
+				nn(Dzhanibekov/NNP-22,cosmonaut/NN-20)
+				nn(Dzhanibekov/NNP-22,Vladimir/NNP-21)
+				agent(illustrated/VBN-17,Dzhanibekov/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Black</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Black</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>cosmonaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vladimir Dzhanibekov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vladimir_Dzhanibekov</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Vladimir_Dzhanibekov http://dbpedia.org/ontology/type http://dbpedia.org/resource/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was published in 1987.	</value>
+
+		<annotated-sentence>	It was published in [[1987|1987]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was published in 1987.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(published/VBN-3,It/PRP-1)
+				auxpass(published/VBN-3,was/VBD-2)
+				prep_in(published/VBN-3,1987/CD-5)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Glazkov was survived by his wife Lyubov, and two children.	</value>
+
+		<annotated-sentence>	Glazkov was survived by his [[wife|Wife]] [[Lyubov|3108_Lyubov]], and [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Glazkov was survived by his wife Lyubov, and two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(survived/VBN-3,Glazkov/NNP-1)
+				auxpass(survived/VBN-3,was/VBD-2)
+				poss(Lyubov/NNP-7,his/PRP$-5)
+				nn(Lyubov/NNP-7,wife/NN-6)
+				agent(survived/VBN-3,Lyubov/NNP-7)
+				num(children/NNS-11,two/CD-10)
+				agent(survived/VBN-3,children/NNS-11)
+				conj_and(Lyubov/NNP-7,children/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>wife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lyubov</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/3108_Lyubov</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

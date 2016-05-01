@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Russell Lee Rogers was an astronaut assigned to the X-20 Dyna-Soar program.	</value>
+
+		<annotated-sentence>	[[Russell Lee Rogers|Russell_L._Rogers]] was [[an astronaut|Astronaut]] assigned to the [[X-20 Dyna-Soar|Boeing_X-20_Dyna-Soar]] program.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Russell Lee Rogers|Russell_L._Rogers]] was [[an astronaut|Astronaut]] assigned to the X-20 Dyna-Soar program.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Rogers/NNP-3,Russell/NNP-1)
+				nn(Rogers/NNP-3,Lee/NNP-2)
+				nsubj(astronaut/NN-6,Rogers/NNP-3)
+				cop(astronaut/NN-6,was/VBD-4)
+				det(astronaut/NN-6,an/DT-5)
+				partmod(astronaut/NN-6,assigned/VBN-7)
+				det(program/NN-12,the/DT-9)
+				nn(program/NN-12,X-20/NN-10)
+				nn(program/NN-12,Dyna-Soar/NN-11)
+				prep_to(assigned/VBN-7,program/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Russell Lee Rogers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russell_L._Rogers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>X-20 Dyna-Soar</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing_X-20_Dyna-Soar</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Russell_L._Rogers http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born on April 12, 1928 in Lawrence, Kansas.	</value>
+
+		<annotated-sentence>	He was born on April 12, 1928 in Lawrence, Kansas.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born on April 12, 1928 in Lawrence, Kansas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_on(born/VBN-3,April/NNP-5)
+				num(April/NNP-5,12/CD-6)
+				num(April/NNP-5,1928/CD-8)
+				nn(Kansas/NNP-12,Lawrence/NNP-10)
+				prep_in(April/NNP-5,Kansas/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was married with five children.	</value>
+
+		<annotated-sentence>	He was married with [[five children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was married with five children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(married/VBN-3,He/PRP-1)
+				auxpass(married/VBN-3,was/VBD-2)
+				num(children/NNS-6,five/CD-5)
+				prep_with(married/VBN-3,children/NNS-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>five children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rogers was killed when the engine of his F-105 fighter plane failed near Kadena AB, Okinawa, Japan on September 13, 1967.	</value>
+
+		<annotated-sentence>	Rogers was killed when [[the engine|Engine]] of his [[F-105|Republic_F-105_Thunderchief]] [[fighter plane|Fighter_aircraft]] failed near [[Kadena AB|Kadena_Air_Base]], Okinawa, Japan on [[September|September]] 13, 1967.	</annotated-sentence>
+
+		<pattern_crowdsource>	Rogers was killed when the engine of his F-105 fighter plane failed near Kadena AB, Okinawa, Japan on September 13, 1967.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(killed/VBN-3,Rogers/NNP-1)
+				auxpass(killed/VBN-3,was/VBD-2)
+				advmod(failed/VBD-12,when/WRB-4)
+				det(engine/NN-6,the/DT-5)
+				nsubj(failed/VBD-12,engine/NN-6)
+				poss(plane/NN-11,his/PRP$-8)
+				nn(plane/NN-11,F-105/NN-9)
+				nn(plane/NN-11,fighter/NN-10)
+				prep_of(engine/NN-6,plane/NN-11)
+				advcl(killed/VBN-3,failed/VBD-12)
+				nn(AB/NNP-15,Kadena/NNP-14)
+				prep_near(failed/VBD-12,AB/NNP-15)
+				nn(Japan/NNP-19,Okinawa/NNP-17)
+				appos(AB/NNP-15,Japan/NNP-19)
+				prep_on(failed/VBD-12,September/NNP-21)
+				num(September/NNP-21,13/CD-22)
+				num(September/NNP-21,1967/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the engine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>F-105</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Republic_F-105_Thunderchief</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fighter plane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Kadena AB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kadena_Air_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He ejected from his aircraft, but his parachute failed to deploy properly.	</value>
+
+		<annotated-sentence>	He ejected from [[his aircraft|Aircraft]], but [[his parachute|Parachute]] failed to deploy properly.	</annotated-sentence>
+
+		<pattern_crowdsource>	He ejected from his aircraft, but his parachute failed to deploy properly.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(ejected/VBD-2,He/PRP-1)
+				poss(aircraft/NN-5,his/PRP$-4)
+				prep_from(ejected/VBD-2,aircraft/NN-5)
+				poss(parachute/NN-9,his/PRP$-8)
+				nsubj(failed/VBD-10,parachute/NN-9)
+				conj_but(ejected/VBD-2,failed/VBD-10)
+				aux(deploy/VB-12,to/TO-11)
+				xcomp(failed/VBD-10,deploy/VB-12)
+				advmod(deploy/VB-12,properly/RB-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his parachute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Parachute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Rogers was an experimental test pilot at Edwards AFB when selected for the X-20 program in April, 1960.	</value>
+
+		<annotated-sentence>	Rogers was an experimental [[test pilot|Test_pilot]] at [[Edwards AFB|Edwards_Air_Force_Base]] when selected for the [[X-20|Boeing_X-20_Dyna-Soar]] program in April, [[1960|1960]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Rogers was an experimental [[test pilot|Test_pilot]] at Edwards AFB when selected for the X-20 program in April, 1960.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-6,Rogers/NNP-1)
+				cop(pilot/NN-6,was/VBD-2)
+				det(pilot/NN-6,an/DT-3)
+				amod(pilot/NN-6,experimental/JJ-4)
+				nn(pilot/NN-6,test/NN-5)
+				nn(AFB/NNP-9,Edwards/NNP-8)
+				prep_at(pilot/NN-6,AFB/NNP-9)
+				advmod(selected/VBN-11,when/WRB-10)
+				advcl(pilot/NN-6,selected/VBN-11)
+				det(program/NN-15,the/DT-13)
+				nn(program/NN-15,X-20/NN-14)
+				prep_for(selected/VBN-11,program/NN-15)
+				prep_in(selected/VBN-11,April/NNP-17)
+				dobj(selected/VBN-11,1960/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards AFB</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>X-20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing_X-20_Dyna-Soar</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1960</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1960</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Russell_L._Rogers http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He left the program on December 10, 1963 when it was cancelled.	</value>
+
+		<annotated-sentence>	He left the program on December 10, 1963 when it was cancelled.	</annotated-sentence>
+
+		<pattern_crowdsource>	He left the program on December 10, 1963 when it was cancelled.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,He/PRP-1)
+				det(program/NN-4,the/DT-3)
+				dobj(left/VBD-2,program/NN-4)
+				prep_on(left/VBD-2,December/NNP-6)
+				num(December/NNP-6,10/CD-7)
+				num(December/NNP-6,1963/CD-9)
+				advmod(cancelled/VBN-13,when/WRB-10)
+				nsubjpass(cancelled/VBN-13,it/PRP-11)
+				auxpass(cancelled/VBN-13,was/VBD-12)
+				advcl(left/VBD-2,cancelled/VBN-13)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a Bachelor of Science degree in electrical engineering from the University of Colorado in 1958.	</value>
+
+		<annotated-sentence>	He received [[a Bachelor of Science degree|Bachelor_of_Science]] in [[electrical engineering|Electrical_engineering]] from [[the University of Colorado|University_of_Colorado]] in [[1958|1958]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received a Bachelor of Science degree in electrical engineering from the University of Colorado in 1958.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				amod(engineering/NN-10,electrical/JJ-9)
+				prep_in(received/VBD-2,engineering/NN-10)
+				det(University/NNP-13,the/DT-12)
+				prep_from(received/VBD-2,University/NNP-13)
+				prep_of(University/NNP-13,Colorado/NNP-15)
+				prep_in(received/VBD-2,1958/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>electrical engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Electrical_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Colorado</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Colorado</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1958</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1958</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the X-20 program, he remained in the U.S. Air Force on active flight duty as a pilot with the rank of Lt. Colonel at the time of his death.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(program/NN-4,the/DT-2)
+				nn(program/NN-4,X-20/NN-3)
+				prep_after(remained/VBD-7,program/NN-4)
+				nsubj(remained/VBD-7,he/PRP-6)
+				det(Force/NNP-12,the/DT-9)
+				nn(Force/NNP-12,U.S./NNP-10)
+				nn(Force/NNP-12,Air/NNP-11)
+				prep_in(remained/VBD-7,Force/NNP-12)
+				amod(duty/NN-16,active/JJ-14)
+				nn(duty/NN-16,flight/NN-15)
+				prep_on(remained/VBD-7,duty/NN-16)
+				det(pilot/NN-19,a/DT-18)
+				prep_as(duty/NN-16,pilot/NN-19)
+				det(rank/NN-22,the/DT-21)
+				prep_with(remained/VBD-7,rank/NN-22)
+				nn(Colonel/NNP-25,Lt./NNP-24)
+				prep_of(rank/NN-22,Colonel/NNP-25)
+				det(time/NN-28,the/DT-27)
+				prep_at(Colonel/NNP-25,time/NN-28)
+				poss(death/NN-31,his/PRP$-30)
+				prep_of(time/NN-28,death/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

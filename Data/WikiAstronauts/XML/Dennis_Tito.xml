@@ -1,0 +1,1500 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Dennis Anthony Tito (born August 8, 1940) is an American engineer and multimillionaire, most widely known as the first space tourist to fund his own trip into space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Tito/NNP-3,Dennis/NNP-1)
+				nn(Tito/NNP-3,Anthony/NNP-2)
+				nsubj(engineer/NN-14,Tito/NNP-3)
+				dep(Tito/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,August/NNP-6)
+				num(August/NNP-6,8/CD-7)
+				num(August/NNP-6,1940/CD-9)
+				cop(engineer/NN-14,is/VBZ-11)
+				det(engineer/NN-14,an/DT-12)
+				amod(engineer/NN-14,American/JJ-13)
+				conj_and(engineer/NN-14,multimillionaire/NN-16)
+				appos(engineer/NN-14,most/JJS-18)
+				advmod(known/VBN-20,widely/RB-19)
+				partmod(most/JJS-18,known/VBN-20)
+				det(tourist/NN-25,the/DT-22)
+				amod(tourist/NN-25,first/JJ-23)
+				nn(tourist/NN-25,space/NN-24)
+				prep_as(known/VBN-20,tourist/NN-25)
+				aux(fund/VB-27,to/TO-26)
+				xcomp(known/VBN-20,fund/VB-27)
+				poss(trip/NN-30,his/PRP$-28)
+				amod(trip/NN-30,own/JJ-29)
+				dobj(fund/VB-27,trip/NN-30)
+				prep_into(fund/VB-27,space/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In mid-2001, he spent nearly eight days in orbit as a crew member of ISS EP-1, a visiting mission to the International Space Station.	</value>
+
+		<annotated-sentence>	In mid-2001, he spent nearly eight days in orbit as [[a crew member|Crewman]] of [[ISS EP-1|Expedition_2]], [[a visiting mission|1975_United_Nations_visiting_mission_to_Spanish_Sahara]] to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In mid-2001, he spent nearly eight days in orbit as a crew member of [[ISS EP-1|Expedition_2]], a visiting mission to [[the International Space Station|International_Space_Station]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(spent/VBD-5,mid-2001/NN-2)
+				nsubj(spent/VBD-5,he/PRP-4)
+				quantmod(eight/CD-7,nearly/RB-6)
+				num(days/NNS-8,eight/CD-7)
+				dobj(spent/VBD-5,days/NNS-8)
+				prep_in(days/NNS-8,orbit/NN-10)
+				det(member/NN-14,a/DT-12)
+				nn(member/NN-14,crew/NN-13)
+				prep_as(spent/VBD-5,member/NN-14)
+				nn(EP-1/NN-17,ISS/NN-16)
+				prep_of(member/NN-14,EP-1/NN-17)
+				det(mission/NN-21,a/DT-19)
+				amod(mission/NN-21,visiting/VBG-20)
+				appos(EP-1/NN-17,mission/NN-21)
+				det(Station/NNP-26,the/DT-23)
+				nn(Station/NNP-26,International/NNP-24)
+				nn(Station/NNP-26,Space/NNP-25)
+				prep_to(mission/NN-21,Station/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS EP-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_2</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a visiting mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1975_United_Nations_visiting_mission_to_Spanish_Sahara</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/programme http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_2 http://dbpedia.org/property/spaceStation http://dbpedia.org/resource/International_Space_Station
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This mission was launched by the spacecraft Soyuz TM-32, and was landed by Soyuz TM-31.	</value>
+
+		<annotated-sentence>	This mission was launched by the [[spacecraft|Spacecraft]] [[Soyuz TM-32|Soyuz_TM-32]], and was landed by [[Soyuz TM-31|Soyuz_TM-31]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This mission was launched by the spacecraft [[Soyuz TM-32|Soyuz_TM-32]], and was landed by [[Soyuz TM-31|Soyuz_TM-31]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,This/DT-1)
+				nsubjpass(launched/VBN-4,mission/NN-2)
+				nsubjpass(landed/VBN-13,mission/NN-2)
+				auxpass(launched/VBN-4,was/VBD-3)
+				det(TM-32/NNP-9,the/DT-6)
+				nn(TM-32/NNP-9,spacecraft/NN-7)
+				nn(TM-32/NNP-9,Soyuz/NNP-8)
+				agent(launched/VBN-4,TM-32/NNP-9)
+				auxpass(landed/VBN-13,was/VBD-12)
+				conj_and(launched/VBN-4,landed/VBN-13)
+				nn(TM-31/NNP-16,Soyuz/NNP-15)
+				agent(landed/VBN-13,TM-31/NNP-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-32</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-32</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-31</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-31</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-32 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Dennis_Tito
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-32 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Dennis_Tito
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-32 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Soyuz_TM-31
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-31 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Soyuz_TM-32
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Dennis_Tito http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TM-31
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-31 http://dbpedia.org/property/crewLanding http://dbpedia.org/resource/Dennis_Tito
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TM-31 http://dbpedia.org/property/crew3Down http://dbpedia.org/resource/Dennis_Tito
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tito was born in Queens, New York.	</value>
+
+		<annotated-sentence>	Tito was born in [[Queens|Queens]], [[New York|New_York]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Tito was born in [[Queens|Queens]], [[New York|New_York]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Tito/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Queens/NNP-5)
+				nn(York/NNP-8,New/NNP-7)
+				appos(Queens/NNP-5,York/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Queens</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Queens</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Queens http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/New_York
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He graduated from Forest Hills High School in New York City.	</value>
+
+		<annotated-sentence>	He graduated from [[Forest Hills High School|Forest_Hills_High_School_(New_York)]] in [[New York City|New_York_City]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He graduated from Forest Hills High School in New York City.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,He/PRP-1)
+				nn(School/NNP-7,Forest/NNP-4)
+				nn(School/NNP-7,Hills/NNP-5)
+				nn(School/NNP-7,High/NNP-6)
+				prep_from(graduated/VBD-2,School/NNP-7)
+				nn(City/NNP-11,New/NNP-9)
+				nn(City/NNP-11,York/NNP-10)
+				prep_in(graduated/VBD-2,City/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Forest Hills High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Forest_Hills_High_School_(New_York)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York City</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York_City</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds a Bachelor of Science in Astronautics and Aeronautics from New York University, 1962 and a Master of Science in Engineering Science from Rensselaer Polytechnic Institute satellite campus in Hartford, Connecticut.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(holds/VBZ-2,Bachelor/NN-4)
+				prep_of(Bachelor/NN-4,Science/NN-6)
+				prep_in(Science/NN-6,Astronautics/NNP-8)
+				prep_in(Science/NN-6,Aeronautics/NNP-10)
+				conj_and(Astronautics/NNP-8,Aeronautics/NNP-10)
+				nn(University/NNP-14,New/NNP-12)
+				nn(University/NNP-14,York/NNP-13)
+				prep_from(holds/VBZ-2,University/NNP-14)
+				prep_from(holds/VBZ-2,1962/CD-16)
+				conj_and(University/NNP-14,1962/CD-16)
+				det(Master/NN-19,a/DT-18)
+				prep_from(holds/VBZ-2,Master/NN-19)
+				conj_and(University/NNP-14,Master/NN-19)
+				prep_of(Master/NN-19,Science/NN-21)
+				nn(Science/NNP-24,Engineering/NNP-23)
+				prep_in(Science/NN-21,Science/NNP-24)
+				nn(campus/NN-30,Rensselaer/NNP-26)
+				nn(campus/NN-30,Polytechnic/NNP-27)
+				nn(campus/NN-30,Institute/NNP-28)
+				nn(campus/NN-30,satellite/NN-29)
+				prep_from(Science/NNP-24,campus/NN-30)
+				nn(Connecticut/NNP-34,Hartford/NNP-32)
+				prep_in(Master/NN-19,Connecticut/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a member of Psi Upsilon and received an honorary doctorate of engineering from Rensselaer Polytechnic Institute on 18 May 2002 and is a former scientist of the NASA Jet Propulsion Laboratory.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				nsubj(received/VBD-9,He/PRP-1)
+				cop(member/NN-4,is/VBZ-2)
+				det(member/NN-4,a/DT-3)
+				nn(Upsilon/NNP-7,Psi/NNP-6)
+				prep_of(member/NN-4,Upsilon/NNP-7)
+				conj_and(member/NN-4,received/VBD-9)
+				det(doctorate/NN-12,an/DT-10)
+				amod(doctorate/NN-12,honorary/JJ-11)
+				dobj(received/VBD-9,doctorate/NN-12)
+				prep_of(doctorate/NN-12,engineering/NN-14)
+				nn(Institute/NNP-18,Rensselaer/NNP-16)
+				nn(Institute/NNP-18,Polytechnic/NNP-17)
+				prep_from(received/VBD-9,Institute/NNP-18)
+				prep_on(Institute/NNP-18,18/CD-20)
+				tmod(received/VBD-9,May/NNP-21)
+				num(May/NNP-21,2002/CD-22)
+				cop(scientist/NN-27,is/VBZ-24)
+				det(scientist/NN-27,a/DT-25)
+				amod(scientist/NN-27,former/JJ-26)
+				conj_and(member/NN-4,scientist/NN-27)
+				conj_and(received/VBD-9,scientist/NN-27)
+				det(Laboratory/NNP-33,the/DT-29)
+				nn(Laboratory/NNP-33,NASA/NNP-30)
+				nn(Laboratory/NNP-33,Jet/NNP-31)
+				nn(Laboratory/NNP-33,Propulsion/NNP-32)
+				prep_of(scientist/NN-27,Laboratory/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1972, he founded Wilshire Associates, a leading provider of investment management, consulting and technology services in Santa Monica, California.	</value>
+
+		<annotated-sentence>	In [[1972|1972_(album)]], he founded [[Wilshire Associates|Wilshire_Associates]], a leading provider of [[investment|Investment]] [[management|Investment_management]], consulting and technology [[services|Investment]] in [[Santa Monica|Santa_Monica,_California]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1972, he founded [[Wilshire Associates|Wilshire_Associates]], a leading provider of investment [[management|Investment_management]], consulting and technology services in [[Santa Monica|Santa_Monica,_California]], [[California|California]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(founded/VBD-5,1972/CD-2)
+				nsubj(founded/VBD-5,he/PRP-4)
+				nn(Associates/NNPS-7,Wilshire/NNP-6)
+				dobj(founded/VBD-5,Associates/NNPS-7)
+				det(provider/NN-11,a/DT-9)
+				amod(provider/NN-11,leading/VBG-10)
+				appos(Associates/NNPS-7,provider/NN-11)
+				nn(services/NNS-19,investment/NN-13)
+				nn(services/NNS-19,management/NN-14)
+				conj_and(management/NN-14,consulting/NN-16)
+				nn(services/NNS-19,consulting/NN-16)
+				conj_and(management/NN-14,technology/NN-18)
+				nn(services/NNS-19,technology/NN-18)
+				prep_of(provider/NN-11,services/NNS-19)
+				nn(Monica/NNP-22,Santa/NNP-21)
+				prep_in(services/NNS-19,Monica/NNP-22)
+				appos(Monica/NNP-22,California/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wilshire Associates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wilshire_Associates</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>investment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Investment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Investment_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>services</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Investment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Santa Monica</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Santa_Monica,_California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Wilshire_Associates http://dbpedia.org/ontology/keyPerson http://dbpedia.org/resource/Dennis_Tito
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Wilshire_Associates http://dbpedia.org/ontology/industry http://dbpedia.org/resource/Investment_management
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Wilshire_Associates http://dbpedia.org/ontology/location http://dbpedia.org/resource/Santa_Monica,_California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Santa_Monica,_California http://dbpedia.org/ontology/isPartOf http://dbpedia.org/resource/California
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dennis Tito serves an international clientele representing assets of $71 billion.	</value>
+
+		<annotated-sentence>	[[Dennis Tito|Dennis_Tito]] serves an international [[clientele|The_Clientele]] representing [[assets|Asset]] of $71 billion.	</annotated-sentence>
+
+		<pattern_crowdsource>	Dennis Tito serves an international clientele representing assets of $71 billion.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Tito/NNP-2,Dennis/NNP-1)
+				nsubj(serves/VBZ-3,Tito/NNP-2)
+				det(clientele/NN-6,an/DT-4)
+				amod(clientele/NN-6,international/JJ-5)
+				dobj(serves/VBZ-3,clientele/NN-6)
+				partmod(clientele/NN-6,representing/VBG-7)
+				dobj(representing/VBG-7,assets/NNS-8)
+				prep_of(assets/NNS-8,$/$-10)
+				number(billion/CD-12,71/CD-11)
+				num($/$-10,billion/CD-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Dennis Tito</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dennis_Tito</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>clientele</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Clientele</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>assets</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Asset</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Wilshire relies on the field of quantitative analytics, which uses mathematical tools to analyze market risks - a methodology Tito is credited with helping to develop by applying the same techniques he used to determine a spacecraft's path at JPL.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(relies/VBZ-2,Wilshire/NNP-1)
+				det(field/NN-5,the/DT-4)
+				prep_on(relies/VBZ-2,field/NN-5)
+				amod(analytics/NNS-8,quantitative/JJ-7)
+				prep_of(field/NN-5,analytics/NNS-8)
+				nsubj(uses/VBZ-11,which/WDT-10)
+				rcmod(analytics/NNS-8,uses/VBZ-11)
+				amod(tools/NNS-13,mathematical/JJ-12)
+				nsubj(analyze/VB-15,tools/NNS-13)
+				aux(analyze/VB-15,to/TO-14)
+				xcomp(uses/VBZ-11,analyze/VB-15)
+				nn(risks/NNS-17,market/NN-16)
+				dobj(analyze/VB-15,risks/NNS-17)
+				det(Tito/NNP-21,a/DT-19)
+				nn(Tito/NNP-21,methodology/NN-20)
+				nsubjpass(credited/VBN-23,Tito/NNP-21)
+				auxpass(credited/VBN-23,is/VBZ-22)
+				parataxis(relies/VBZ-2,credited/VBN-23)
+				prepc_with(credited/VBN-23,helping/VBG-25)
+				aux(develop/VB-27,to/TO-26)
+				xcomp(helping/VBG-25,develop/VB-27)
+				prepc_by(develop/VB-27,applying/VBG-29)
+				det(techniques/NNS-32,the/DT-30)
+				amod(techniques/NNS-32,same/JJ-31)
+				dobj(applying/VBG-29,techniques/NNS-32)
+				nsubj(used/VBD-34,he/PRP-33)
+				rcmod(techniques/NNS-32,used/VBD-34)
+				aux(determine/VB-36,to/TO-35)
+				xcomp(used/VBD-34,determine/VB-36)
+				det(spacecraft/NN-38,a/DT-37)
+				poss(path/NN-40,spacecraft/NN-38)
+				dobj(determine/VB-36,path/NN-40)
+				prep_at(determine/VB-36,JPL/NNP-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Despite a career change from aerospace engineering to investment management, Tito remained interested in space.	</value>
+
+		<annotated-sentence>	Despite [[a career change|Career]] from [[aerospace engineering|Aerospace_engineering]] to [[investment management|Investment_management]], Tito remained interested in [[space|Space_exploration]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Despite a career change from [[aerospace engineering|Aerospace_engineering]] to investment management, Tito remained interested in [[space|Space_exploration]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(change/NN-4,a/DT-2)
+				nn(change/NN-4,career/NN-3)
+				prep_despite(interested/JJ-14,change/NN-4)
+				nn(engineering/NN-7,aerospace/NN-6)
+				prep_from(change/NN-4,engineering/NN-7)
+				nn(management/NN-10,investment/NN-9)
+				prep_to(engineering/NN-7,management/NN-10)
+				nsubj(interested/JJ-14,Tito/NNP-12)
+				cop(interested/JJ-14,remained/VBD-13)
+				prep_in(interested/JJ-14,space/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a career change</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>investment management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Investment_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Aerospace_engineering http://dbpedia.org/property/employmentField http://dbpedia.org/resource/Space_exploration
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tito was appointed to the Los Angeles Department of Water and Power Board of Commissioners in the 1990s and led the board to support the landmark 1994 state ruling protecting Mono Lake from excessive water diversions by the city.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(appointed/VBN-3,Tito/NNP-1)
+				nsubjpass(led/VBD-20,Tito/NNP-1)
+				auxpass(appointed/VBN-3,was/VBD-2)
+				det(Department/NNP-8,the/DT-5)
+				nn(Department/NNP-8,Los/NNP-6)
+				nn(Department/NNP-8,Angeles/NNP-7)
+				prep_to(appointed/VBN-3,Department/NNP-8)
+				prep_of(Department/NNP-8,Water/NNP-10)
+				nn(Board/NNP-13,Power/NNP-12)
+				prep_to(appointed/VBN-3,Board/NNP-13)
+				conj_and(Department/NNP-8,Board/NNP-13)
+				prep_of(Board/NNP-13,Commissioners/NNPS-15)
+				det(1990s/CD-18,the/DT-17)
+				prep_in(appointed/VBN-3,1990s/CD-18)
+				conj_and(appointed/VBN-3,led/VBD-20)
+				det(board/NN-22,the/DT-21)
+				dobj(led/VBD-20,board/NN-22)
+				aux(support/VB-24,to/TO-23)
+				xcomp(led/VBD-20,support/VB-24)
+				det(ruling/NN-29,the/DT-25)
+				nn(ruling/NN-29,landmark/NN-26)
+				num(ruling/NN-29,1994/CD-27)
+				nn(ruling/NN-29,state/NN-28)
+				nsubj(protecting/VBG-30,ruling/NN-29)
+				dep(support/VB-24,protecting/VBG-30)
+				nn(Lake/NN-32,Mono/NN-31)
+				dobj(protecting/VBG-30,Lake/NN-32)
+				amod(diversions/NNS-36,excessive/JJ-34)
+				nn(diversions/NNS-36,water/NN-35)
+				prep_from(protecting/VBG-30,diversions/NNS-36)
+				det(city/NN-39,the/DT-38)
+				prep_by(protecting/VBG-30,city/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In a project first arranged by MirCorp, Tito was accepted by the Russian Federal Space Agency as a candidate for a commercial spaceflight.	</value>
+
+		<annotated-sentence>	In [[a project|Project]] first arranged by [[MirCorp|MirCorp]], Tito was accepted by [[the Russian Federal Space Agency|Russian_Federal_Space_Agency]] as [[a candidate|Candidate]] for [[a commercial spaceflight|Private_spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In a project first arranged by MirCorp, Tito was accepted by the Russian Federal Space Agency as a candidate for a commercial spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				det(project/NN-3,a/DT-2)
+				prep_in(accepted/VBN-11,project/NN-3)
+				advmod(arranged/VBN-5,first/RB-4)
+				partmod(project/NN-3,arranged/VBN-5)
+				agent(arranged/VBN-5,MirCorp/NNP-7)
+				nsubjpass(accepted/VBN-11,Tito/NNP-9)
+				auxpass(accepted/VBN-11,was/VBD-10)
+				det(Agency/NNP-17,the/DT-13)
+				nn(Agency/NNP-17,Russian/NNP-14)
+				nn(Agency/NNP-17,Federal/NNP-15)
+				nn(Agency/NNP-17,Space/NNP-16)
+				agent(accepted/VBN-11,Agency/NNP-17)
+				det(candidate/NN-20,a/DT-19)
+				prep_as(accepted/VBN-11,candidate/NN-20)
+				det(spaceflight/NN-24,a/DT-22)
+				amod(spaceflight/NN-24,commercial/JJ-23)
+				prep_for(candidate/NN-20,spaceflight/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>MirCorp</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/MirCorp</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian Federal Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Federal_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a commercial spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Private_spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tito met criticism from NASA before the launch, primarily from Daniel Goldin, at that time the Administrator of NASA, who considered it inappropriate for a tourist to take a ride into space.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(met/VBD-2,Tito/NNP-1)
+				dobj(met/VBD-2,criticism/NN-3)
+				prep_from(met/VBD-2,NASA/NNP-5)
+				det(launch/NN-8,the/DT-7)
+				prep_before(met/VBD-2,launch/NN-8)
+				advmod(met/VBD-2,primarily/RB-10)
+				nn(Goldin/NNP-13,Daniel/NNP-12)
+				prep_from(met/VBD-2,Goldin/NNP-13)
+				advmod(Goldin/NNP-13,at/IN-15)
+				det(time/NN-17,that/DT-16)
+				pobj(at/IN-15,time/NN-17)
+				det(Administrator/NNP-19,the/DT-18)
+				dep(Goldin/NNP-13,Administrator/NNP-19)
+				prep_of(Administrator/NNP-19,NASA/NNP-21)
+				nsubj(considered/VBD-24,who/WP-23)
+				rcmod(NASA/NNP-21,considered/VBD-24)
+				nsubj(inappropriate/JJ-26,it/PRP-25)
+				xcomp(considered/VBD-24,inappropriate/JJ-26)
+				det(tourist/NN-29,a/DT-28)
+				prep_for(inappropriate/JJ-26,tourist/NN-29)
+				aux(take/VB-31,to/TO-30)
+				infmod(tourist/NN-29,take/VB-31)
+				det(ride/NN-33,a/DT-32)
+				dobj(take/VB-31,ride/NN-33)
+				prep_into(take/VB-31,space/NN-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	MirCorp, Goldin and Tito are profiled in the documentary film, Orphans of Apollo.	</value>
+
+		<annotated-sentence>	MirCorp, Goldin and Tito are profiled in [[the documentary film|Documentary_film]], [[Orphans of Apollo|Orphans_of_Apollo]].	</annotated-sentence>
+
+		<pattern_crowdsource>	MirCorp, Goldin and Tito are profiled in the documentary film, Orphans of Apollo.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(profiled/VBN-7,MirCorp/NNP-1)
+				conj_and(MirCorp/NNP-1,Goldin/NNP-3)
+				nsubjpass(profiled/VBN-7,Goldin/NNP-3)
+				conj_and(MirCorp/NNP-1,Tito/NNP-5)
+				nsubjpass(profiled/VBN-7,Tito/NNP-5)
+				auxpass(profiled/VBN-7,are/VBP-6)
+				det(film/NN-11,the/DT-9)
+				nn(film/NN-11,documentary/NN-10)
+				prep_in(profiled/VBN-7,film/NN-11)
+				appos(film/NN-11,Orphans/NNS-13)
+				prep_of(Orphans/NNS-13,Apollo/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the documentary film</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Documentary_film</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orphans of Apollo</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orphans_of_Apollo</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	When Tito arrived at the Johnson Space Center for additional training on the American portion of the ISS, Robert D. Cabana, NASA manager, sent Tito and his two fellow cosmonauts home, stating "...We will not be able to begin training, because we are not willing to train with Dennis Tito."	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(arrived/VBD-3,When/WRB-1)
+				nsubj(arrived/VBD-3,Tito/NNP-2)
+				advcl(sent/VBD-27,arrived/VBD-3)
+				det(Center/NNP-8,the/DT-5)
+				nn(Center/NNP-8,Johnson/NNP-6)
+				nn(Center/NNP-8,Space/NNP-7)
+				prep_at(arrived/VBD-3,Center/NNP-8)
+				amod(training/NN-11,additional/JJ-10)
+				prep_for(Center/NNP-8,training/NN-11)
+				det(portion/NN-15,the/DT-13)
+				amod(portion/NN-15,American/JJ-14)
+				prep_on(arrived/VBD-3,portion/NN-15)
+				det(ISS/NNP-18,the/DT-17)
+				prep_of(portion/NN-15,ISS/NNP-18)
+				nn(Cabana/NNP-22,Robert/NNP-20)
+				nn(Cabana/NNP-22,D./NNP-21)
+				nsubj(sent/VBD-27,Cabana/NNP-22)
+				nn(manager/NN-25,NASA/NNP-24)
+				appos(Cabana/NNP-22,manager/NN-25)
+				dobj(sent/VBD-27,Tito/NNP-28)
+				poss(home/NN-34,his/PRP$-30)
+				num(home/NN-34,two/CD-31)
+				amod(home/NN-34,fellow/JJ-32)
+				nn(home/NN-34,cosmonauts/NNS-33)
+				dobj(sent/VBD-27,home/NN-34)
+				conj_and(Tito/NNP-28,home/NN-34)
+				partmod(sent/VBD-27,stating/VBG-36)
+				nsubj(able/JJ-43,We/PRP-39)
+				aux(able/JJ-43,will/MD-40)
+				neg(able/JJ-43,not/RB-41)
+				cop(able/JJ-43,be/VB-42)
+				parataxis(sent/VBD-27,able/JJ-43)
+				aux(begin/VB-45,to/TO-44)
+				xcomp(able/JJ-43,begin/VB-45)
+				dobj(begin/VB-45,training/NN-46)
+				mark(willing/JJ-52,because/IN-48)
+				nsubj(willing/JJ-52,we/PRP-49)
+				cop(willing/JJ-52,are/VBP-50)
+				neg(willing/JJ-52,not/RB-51)
+				advcl(able/JJ-43,willing/JJ-52)
+				aux(train/VB-54,to/TO-53)
+				xcomp(willing/JJ-52,train/VB-54)
+				nn(Tito/NNP-57,Dennis/NNP-56)
+				prep_with(train/VB-54,Tito/NNP-57)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Later, through an arrangement with space tourism company Space Adventures, Ltd., Tito joined the Soyuz TM-32 mission on April 28, 2001, spending 7 days, 22 hours, 4 minutes in space and orbiting Earth 128 times.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(joined/VBD-16,Later/RB-1)
+				det(arrangement/NN-5,an/DT-4)
+				prep_through(joined/VBD-16,arrangement/NN-5)
+				nn(Adventures/NNS-11,space/NN-7)
+				nn(Adventures/NNS-11,tourism/NN-8)
+				nn(Adventures/NNS-11,company/NN-9)
+				nn(Adventures/NNS-11,Space/NN-10)
+				prep_with(arrangement/NN-5,Adventures/NNS-11)
+				nn(Tito/NNP-15,Ltd./NNP-13)
+				nsubj(joined/VBD-16,Tito/NNP-15)
+				det(mission/NN-20,the/DT-17)
+				nn(mission/NN-20,Soyuz/NNP-18)
+				nn(mission/NN-20,TM-32/NN-19)
+				dobj(joined/VBD-16,mission/NN-20)
+				prep_on(joined/VBD-16,April/NNP-22)
+				num(April/NNP-22,28/CD-23)
+				num(April/NNP-22,2001/CD-25)
+				dep(joined/VBD-16,spending/VBG-27)
+				num(days/NNS-29,7/CD-28)
+				dobj(spending/VBG-27,days/NNS-29)
+				num(hours/NNS-32,22/CD-31)
+				appos(days/NNS-29,hours/NNS-32)
+				num(minutes/NNS-35,4/CD-34)
+				tmod(days/NNS-29,minutes/NNS-35)
+				prep_in(days/NNS-29,space/NN-37)
+				dep(joined/VBD-16,orbiting/VBG-39)
+				conj_and(spending/VBG-27,orbiting/VBG-39)
+				dobj(orbiting/VBG-39,Earth/NNP-40)
+				num(times/NNS-42,128/CD-41)
+				tmod(orbiting/VBG-39,times/NNS-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tito performed several scientific experiments in orbit that he said would be useful for his company and business.	</value>
+
+		<annotated-sentence>	Tito performed several scientific [[experiments|Experiment]] in orbit that he said would be useful for his [[company|Company]] and business.	</annotated-sentence>
+
+		<pattern_crowdsource>	Tito performed several scientific experiments in orbit that he said would be useful for his company and business.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Tito/NNP-1)
+				amod(experiments/NNS-5,several/JJ-3)
+				amod(experiments/NNS-5,scientific/JJ-4)
+				dobj(performed/VBD-2,experiments/NNS-5)
+				prep_in(performed/VBD-2,orbit/NN-7)
+				mark(said/VBD-10,that/IN-8)
+				nsubj(said/VBD-10,he/PRP-9)
+				ccomp(performed/VBD-2,said/VBD-10)
+				aux(useful/JJ-13,would/MD-11)
+				cop(useful/JJ-13,be/VB-12)
+				ccomp(said/VBD-10,useful/JJ-13)
+				poss(company/NN-16,his/PRP$-15)
+				prep_for(useful/JJ-13,company/NN-16)
+				prep_for(useful/JJ-13,business/NN-18)
+				conj_and(company/NN-16,business/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tito paid a reported $20 million for his trip.	</value>
+
+		<annotated-sentence>	Tito paid a reported $[[20 million|Rivermaya_(album)]] for [[his trip|Trip_(Rivermaya_album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Tito paid a reported $[[20 million|Rivermaya_(album)]] for [[his trip|Trip_(Rivermaya_album)]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(paid/VBD-2,Tito/NNP-1)
+				det($/$-5,a/DT-3)
+				amod($/$-5,reported/VBN-4)
+				dobj(paid/VBD-2,$/$-5)
+				number(million/CD-7,20/CD-6)
+				num($/$-5,million/CD-7)
+				poss(trip/NN-10,his/PRP$-9)
+				prep_for($/$-5,trip/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>20 million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rivermaya_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his trip</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Trip_(Rivermaya_album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Rivermaya_(album) http://dbpedia.org/ontology/subsequentWork http://dbpedia.org/resource/Trip_(Rivermaya_album)
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Trip_(Rivermaya_album) http://dbpedia.org/ontology/previousWork http://dbpedia.org/resource/Rivermaya_(album)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Since returning from space, he has testified at the Senate Committee on Commerce, Science & Transportation, Subcommittee on Science, Technology, and Space and the House Committee on Science, Subcommittee on Space & Aeronautics Joint Hearing on "Commercial Human Spaceflight" on July 24, 2003.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_since(testified/VBN-8,returning/VBG-2)
+				prep_from(returning/VBG-2,space/NN-4)
+				nsubj(testified/VBN-8,he/PRP-6)
+				aux(testified/VBN-8,has/VBZ-7)
+				det(Committee/NNP-12,the/DT-10)
+				nn(Committee/NNP-12,Senate/NNP-11)
+				prep_at(testified/VBN-8,Committee/NNP-12)
+				prep_on(Committee/NNP-12,Commerce/NNP-14)
+				prep_on(Committee/NNP-12,Science/NNP-16)
+				conj_and(Commerce/NNP-14,Science/NNP-16)
+				prep_on(Committee/NNP-12,Transportation/NNP-18)
+				conj_and(Commerce/NNP-14,Transportation/NNP-18)
+				prep_at(testified/VBN-8,Subcommittee/NNP-20)
+				conj_and(Committee/NNP-12,Subcommittee/NNP-20)
+				nn(Technology/NNP-24,Science/NNP-22)
+				prep_on(Subcommittee/NNP-20,Technology/NNP-24)
+				prep_at(testified/VBN-8,Space/NN-27)
+				conj_and(Committee/NNP-12,Space/NN-27)
+				det(Committee/NNP-31,the/DT-29)
+				nn(Committee/NNP-31,House/NNP-30)
+				conj_and(Committee/NNP-12,Committee/NNP-31)
+				conj_and(Space/NN-27,Committee/NNP-31)
+				nn(Subcommittee/NNP-35,Science/NNP-33)
+				prep_on(testified/VBN-8,Subcommittee/NNP-35)
+				nn(Hearing/NN-41,Space/NNP-37)
+				conj_and(Space/NNP-37,Aeronautics/NNP-39)
+				nn(Hearing/NN-41,Aeronautics/NNP-39)
+				nn(Hearing/NN-41,Joint/NNP-40)
+				prep_on(Subcommittee/NNP-35,Hearing/NN-41)
+				amod(Spaceflight/NN-46,Commercial/JJ-44)
+				amod(Spaceflight/NN-46,Human/JJ-45)
+				prep_on(testified/VBN-8,Spaceflight/NN-46)
+				prep_on(Spaceflight/NN-46,July/NNP-49)
+				num(July/NNP-49,24/CD-50)
+				num(July/NNP-49,2003/CD-52)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Ten years after his flight, he gave an interview to BBC News about it.	</value>
+
+		<annotated-sentence>	[[Ten years|10_Years_(film)]] after [[his flight|Flight]], he gave [[an interview|Interview]] to [[BBC News|BBC_News]] about it.	</annotated-sentence>
+
+		<pattern_crowdsource>	Ten years after his flight, he gave an interview to BBC News about it.	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-2,Ten/CD-1)
+				npadvmod(gave/VBD-8,years/NNS-2)
+				poss(flight/NN-5,his/PRP$-4)
+				prep_after(gave/VBD-8,flight/NN-5)
+				nsubj(gave/VBD-8,he/PRP-7)
+				det(interview/NN-10,an/DT-9)
+				dobj(gave/VBD-8,interview/NN-10)
+				nn(News/NNP-13,BBC/NNP-12)
+				prep_to(gave/VBD-8,News/NNP-13)
+				prep_about(gave/VBD-8,it/PRP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Ten years</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/10_Years_(film)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an interview</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interview</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>BBC News</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/BBC_News</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In February 2013, Tito announced his intention to send a privately financed spaceflight to Mars by 2018.	</value>
+
+		<annotated-sentence>	In [[February 2013|February_2013]], Tito announced [[his intention|Intention]] to send [[a privately financed spaceflight|Private_finance_initiative]] to [[Mars|Mars]] by [[2018|2018]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In February 2013, Tito announced his intention to send a privately financed spaceflight to Mars by 2018.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(announced/VBD-6,February/NNP-2)
+				num(February/NNP-2,2013/CD-3)
+				nsubj(announced/VBD-6,Tito/NNP-5)
+				poss(intention/NN-8,his/PRP$-7)
+				dobj(announced/VBD-6,intention/NN-8)
+				aux(send/VB-10,to/TO-9)
+				xcomp(announced/VBD-6,send/VB-10)
+				det(spaceflight/NN-14,a/DT-11)
+				advmod(spaceflight/NN-14,privately/RB-12)
+				amod(spaceflight/NN-14,financed/VBN-13)
+				dobj(send/VB-10,spaceflight/NN-14)
+				prep_to(spaceflight/NN-14,Mars/NNP-16)
+				prep_by(announced/VBD-6,2018/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February 2013</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February_2013</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his intention</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Intention</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a privately financed spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Private_finance_initiative</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mars</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mars</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2018</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2018</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stating that the technology is already in place and that the issues that need to be overcome are only the requirements of the rigor of a 501 day trip on a psychological and physical level for the human crew.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(is/VBZ-5,that/IN-2)
+				det(technology/NN-4,the/DT-3)
+				nsubj(is/VBZ-5,technology/NN-4)
+				ccomp(Stating/VBG-1,is/VBZ-5)
+				advmod(is/VBZ-5,already/RB-6)
+				prep_in(is/VBZ-5,place/NN-8)
+				mark(requirements/NNS-21,that/IN-10)
+				det(issues/NNS-12,the/DT-11)
+				nsubj(requirements/NNS-21,issues/NNS-12)
+				nsubj(need/VBP-14,that/WDT-13)
+				rcmod(issues/NNS-12,need/VBP-14)
+				aux(overcome/VBN-17,to/TO-15)
+				auxpass(overcome/VBN-17,be/VB-16)
+				xcomp(need/VBP-14,overcome/VBN-17)
+				cop(requirements/NNS-21,are/VBP-18)
+				advmod(requirements/NNS-21,only/RB-19)
+				det(requirements/NNS-21,the/DT-20)
+				ccomp(Stating/VBG-1,requirements/NNS-21)
+				conj_and(is/VBZ-5,requirements/NNS-21)
+				det(rigor/NN-24,the/DT-23)
+				prep_of(requirements/NNS-21,rigor/NN-24)
+				det(trip/NN-29,a/DT-26)
+				num(trip/NN-29,501/CD-27)
+				nn(trip/NN-29,day/NN-28)
+				prep_of(rigor/NN-24,trip/NN-29)
+				det(level/NN-35,a/DT-31)
+				amod(level/NN-35,psychological/JJ-32)
+				conj_and(psychological/JJ-32,physical/JJ-34)
+				amod(level/NN-35,physical/JJ-34)
+				prep_on(trip/NN-29,level/NN-35)
+				det(crew/NN-39,the/DT-37)
+				amod(crew/NN-39,human/JJ-38)
+				prep_for(level/NN-35,crew/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	However, in November 2013, Tito and other Mars Inspiration team members admitted that their plan was impossible without significant levels of assistance and funding from NASA.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(admitted/VBD-14,However/RB-1)
+				prep_in(admitted/VBD-14,November/NNP-4)
+				num(November/NNP-4,2013/CD-5)
+				nsubj(admitted/VBD-14,Tito/NNP-7)
+				amod(members/NNS-13,other/JJ-9)
+				nn(members/NNS-13,Mars/NNP-10)
+				nn(members/NNS-13,Inspiration/NNP-11)
+				nn(members/NNS-13,team/NN-12)
+				conj_and(Tito/NNP-7,members/NNS-13)
+				nsubj(admitted/VBD-14,members/NNS-13)
+				mark(impossible/JJ-19,that/IN-15)
+				poss(plan/NN-17,their/PRP$-16)
+				nsubj(impossible/JJ-19,plan/NN-17)
+				cop(impossible/JJ-19,was/VBD-18)
+				ccomp(admitted/VBD-14,impossible/JJ-19)
+				amod(levels/NNS-22,significant/JJ-21)
+				prep_without(impossible/JJ-19,levels/NNS-22)
+				prep_of(levels/NNS-22,assistance/NN-24)
+				prep_of(levels/NNS-22,funding/NN-26)
+				conj_and(assistance/NN-24,funding/NN-26)
+				prep_from(impossible/JJ-19,NASA/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

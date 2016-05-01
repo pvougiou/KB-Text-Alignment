@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>People with obesity have a higher chance of developing these health problems:  - High blood glucose (sugar) or diabetes.</value>
+		<pattern_crowdsource> [[People|C0027361]] with [[obesity|C0028754]] have a higher chance of developing these health problems:  - High [[blood glucose|C0005802]] ([[sugar|C0242209]]) or diabetes.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>People</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obesity</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>higher</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chance</surface-form>
+				<RDF-ID>C0237506</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood glucose</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0242209</triple>
+			<triple>C0028754 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Heart attacks due to coronary heart disease, heart failure, and stroke.</value>
+		<pattern_crowdsource> - [[Heart attacks|C0027051]] due to [[coronary heart disease|C0010068]], [[heart failure|C0018801]], and [[stroke|C0038454]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Heart attacks</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coronary heart disease</surface-form>
+				<RDF-ID>C0010068</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart failure</surface-form>
+				<RDF-ID>C0018801</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010068 CAUSES C0027051</triple>
+			<triple>C0038454 CAUSES C0027051</triple>
+			<triple>C0018801 CAUSES C0027051</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Bone and joint problems, more weight puts pressure on the bones and joints.</value>
+		<pattern_crowdsource> - Bone and [[joint problems|C0575044]], more weight puts pressure on the [[bones|C0262950]] and joints.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Bone</surface-form>
+				<RDF-ID>C1266909</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint problems</surface-form>
+				<RDF-ID>C0575044</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>weight</surface-form>
+				<RDF-ID>C0043100</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bones</surface-form>
+				<RDF-ID>C0262950</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joints</surface-form>
+				<RDF-ID>C0022417</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0262950 LOCATION_OF C0575044</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This can lead to osteoarthritis, a disease that causes joint pain and stiffness.</value>
+		<pattern_crowdsource> This can lead to osteoarthritis, a [[disease|C0012634]] that causes [[joint pain|C0003862]] and [[stiffness|C0427008]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>osteoarthritis</surface-form>
+				<RDF-ID>C0029408</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>disease</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>joint pain</surface-form>
+				<RDF-ID>C0003862</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stiffness</surface-form>
+				<RDF-ID>C0427008</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0012634 CAUSES C0003862</triple>
+			<triple>C0012634 CAUSES C0427008</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your risk of developing health problems such as heart disease, stroke, and kidney problems increases if you are obese and have these risk factors:  - High blood pressure (hypertension)  - High blood cholesterol or triglycerides  - High blood glucose (sugar), a sign of type 2 diabetes    These other risk factors for heart disease and stroke are not caused by obesity:   - Having a family member under the age of 50 with heart disease  - Being physically inactive or having a sedentary lifestyle  - Smoking or using tobacco products of any kind</value>
+		<pattern_crowdsource> Your risk of developing health problems such as heart disease, [[stroke|C0038454]], and kidney problems increases if you are obese and have these risk factors:  - High blood pressure (hypertension)  - High blood cholesterol or triglycerides  - High [[blood glucose|C0005802]] ([[sugar|C0242209]]), a [[sign|C0311392]] of [[type 2 diabetes|C0011860]]    These other risk factors for heart disease and [[stroke|C0038454]] are not caused by [[obesity|C0028754]]:   - Having a [[family member|C0086282]] under the age of 50 with [[heart disease|C0018799]]  - Being physically inactive or having a sedentary lifestyle  - [[Smoking|C0037369]] or using [[tobacco products|C0040329]] of any kind		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>health</surface-form>
+				<RDF-ID>C0018684</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>kidney problems</surface-form>
+				<RDF-ID>C0812426</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obese</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk factors</surface-form>
+				<RDF-ID>C0035648</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High blood pressure</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hypertension</surface-form>
+				<RDF-ID>C0020538</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>High blood cholesterol</surface-form>
+				<RDF-ID>C0848569</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>triglycerides  - High</surface-form>
+				<RDF-ID>C0020557</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood glucose</surface-form>
+				<RDF-ID>C0005802</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sugar</surface-form>
+				<RDF-ID>C0242209</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sign</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type 2 diabetes</surface-form>
+				<RDF-ID>C0011860</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk factors</surface-form>
+				<RDF-ID>C0035648</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>obesity</surface-form>
+				<RDF-ID>C0028754</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>family member</surface-form>
+				<RDF-ID>C0086282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>age</surface-form>
+				<RDF-ID>C0001779</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart disease</surface-form>
+				<RDF-ID>C0018799</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inactive</surface-form>
+				<RDF-ID>C0205254</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sedentary lifestyle</surface-form>
+				<RDF-ID>C1532253</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Smoking</surface-form>
+				<RDF-ID>C0037369</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tobacco products</surface-form>
+				<RDF-ID>C0040329</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005802 ISA C0242209</triple>
+			<triple>C0311392 PREDISPOSES C0011860</triple>
+			<triple>C0028754 NEG_CAUSES C0038454</triple>
+			<triple>C0028754 NEG_CAUSES C0038454</triple>
+			<triple>C0018799 PROCESS_OF C0086282</triple>
+			<triple>C0037369 PROCESS_OF C0086282</triple>
+			<triple>C0040329 ADMINISTERED_TO C0086282</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

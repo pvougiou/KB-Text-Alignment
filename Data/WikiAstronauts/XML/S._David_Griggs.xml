@@ -1,0 +1,1582 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Stanley David Griggs (September 7, 1939 – June 17, 1989) was a United States Navy officer and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Stanley|S._David_Griggs]] [[David Griggs|S._David_Griggs]] ([[September|September]] 7, 1939 – June 17, 1989) was a [[United States Navy|United_States_Navy]] officer and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Stanley|S._David_Griggs]] [[David Griggs|S._David_Griggs]] (September 7, 1939 – June 17, 1989) was a [[United States Navy|United_States_Navy]] officer and a [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Griggs/NNP-3,Stanley/NNP-1)
+				nn(Griggs/NNP-3,David/NNP-2)
+				nsubj(officer/NN-20,Griggs/NNP-3)
+				dep(Griggs/NNP-3,September/NNP-5)
+				num(September/NNP-5,7/CD-6)
+				num(September/NNP-5,1939/CD-8)
+				dep(September/NNP-5,June/NNP-10)
+				num(June/NNP-10,17/CD-11)
+				num(June/NNP-10,1989/CD-13)
+				cop(officer/NN-20,was/VBD-15)
+				det(officer/NN-20,a/DT-16)
+				nn(officer/NN-20,United/NNP-17)
+				nn(officer/NN-20,States/NNPS-18)
+				nn(officer/NN-20,Navy/NNP-19)
+				det(astronaut/NN-24,a/DT-22)
+				nn(astronaut/NN-24,NASA/NNP-23)
+				conj_and(officer/NN-20,astronaut/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stanley</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S._David_Griggs</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>David Griggs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S._David_Griggs</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is credited with conducting the first unscheduled extra-vehicular activity of the space program during Space Shuttle mission STS-51-D.	</value>
+
+		<annotated-sentence>	He is credited with conducting the first [[unscheduled extra-vehicular|Extra-vehicular_activity]] [[activity|Activity]] of the space program during [[Space|Extra-vehicular_activity]] Shuttle mission [[STS-51-D|STS-51-D]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is credited with conducting the first unscheduled extra-vehicular activity of the space program during Space Shuttle mission [[STS-51-D|STS-51-D]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(credited/VBN-3,He/PRP-1)
+				auxpass(credited/VBN-3,is/VBZ-2)
+				prepc_with(credited/VBN-3,conducting/VBG-5)
+				det(activity/NN-10,the/DT-6)
+				amod(activity/NN-10,first/JJ-7)
+				amod(activity/NN-10,unscheduled/JJ-8)
+				amod(activity/NN-10,extra-vehicular/JJ-9)
+				dobj(conducting/VBG-5,activity/NN-10)
+				det(program/NN-14,the/DT-12)
+				nn(program/NN-14,space/NN-13)
+				prep_of(activity/NN-10,program/NN-14)
+				prep_during(conducting/VBG-5,Space/NN-16)
+				nn(STS-51-D/NN-19,Shuttle/NNP-17)
+				nn(STS-51-D/NN-19,mission/NN-18)
+				dep(Space/NN-16,STS-51-D/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>unscheduled extra-vehicular</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>activity</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-D</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-D
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/S._David_Griggs
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/S._David_Griggs
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Griggs was killed when the vintage World War II training aircraft he was piloting crashed near Earle, Arkansas.	</value>
+
+		<annotated-sentence>	[[Griggs|S._David_Griggs]] was killed when [[the vintage|Vintage]] [[World War II|World_War_II]] [[training aircraft|Trainer_(aircraft)]] he was piloting crashed near [[Earle , Arkansas|Earle,_Arkansas]]	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Griggs|S._David_Griggs]] was killed when the vintage World War II training aircraft he was piloting crashed near Earle, Arkansas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(killed/VBN-3,Griggs/NNP-1)
+				auxpass(killed/VBN-3,was/VBD-2)
+				advmod(piloting/VBG-14,when/WRB-4)
+				det(vintage/NN-6,the/DT-5)
+				dep(when/WRB-4,vintage/NN-6)
+				nn(aircraft/NN-11,World/NNP-7)
+				nn(aircraft/NN-11,War/NNP-8)
+				nn(aircraft/NN-11,II/NNP-9)
+				nn(aircraft/NN-11,training/NN-10)
+				dep(vintage/NN-6,aircraft/NN-11)
+				nsubj(piloting/VBG-14,he/PRP-12)
+				aux(piloting/VBG-14,was/VBD-13)
+				advcl(killed/VBN-3,piloting/VBG-14)
+				dep(piloting/VBG-14,crashed/VBN-15)
+				nn(Arkansas/NNP-19,Earle/NNP-17)
+				prep_near(crashed/VBN-15,Arkansas/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Griggs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/S._David_Griggs</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the vintage</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vintage</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>World War II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World_War_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Trainer_(aircraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earle , Arkansas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earle,_Arkansas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/Earle,_Arkansas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born in Portland, Oregon, Griggs graduated from Lincoln High School in his hometown in 1957.	</value>
+
+		<annotated-sentence>	Born in [[Portland , Oregon|Portland,_Oregon]] Griggs graduated from Lincoln High School in his hometown in [[1957|1957]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born in Portland, Oregon, Griggs graduated from Lincoln High School in his hometown in 1957.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(graduated/VBD-8,Born/VBN-1)
+				nn(Oregon/NNP-5,Portland/NNP-3)
+				prep_in(Born/VBN-1,Oregon/NNP-5)
+				nsubj(graduated/VBD-8,Griggs/NNP-7)
+				nn(School/NNP-12,Lincoln/NNP-10)
+				nn(School/NNP-12,High/NNP-11)
+				prep_from(graduated/VBD-8,School/NNP-12)
+				poss(hometown/NN-15,his/PRP$-14)
+				prep_in(School/NNP-12,hometown/NN-15)
+				prep_in(graduated/VBD-8,1957/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Portland , Oregon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Portland,_Oregon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1957</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1957</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Portland,_Oregon
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was an Eagle Scout.	</value>
+
+		<annotated-sentence>	He was an Eagle Scout.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was an Eagle Scout.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Scout/NNP-5,He/PRP-1)
+				cop(Scout/NNP-5,was/VBD-2)
+				det(Scout/NNP-5,an/DT-3)
+				nn(Scout/NNP-5,Eagle/NNP-4)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1962 he received a Bachelor of Science degree from the United States Naval Academy and in 1970 a Master of Science in administration from George Washington University.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-4,1962/CD-2)
+				nsubj(received/VBD-4,he/PRP-3)
+				nsubj(received/VBD-4,he/PRP-3)
+				conj_and(received/VBD-4,received/VBD-4)
+				det(Bachelor/NN-6,a/DT-5)
+				dobj(received/VBD-4,Bachelor/NN-6)
+				nn(degree/NN-9,Science/NNP-8)
+				prep_of(Bachelor/NN-6,degree/NN-9)
+				det(Academy/NNP-15,the/DT-11)
+				nn(Academy/NNP-15,United/NNP-12)
+				nn(Academy/NNP-15,States/NNPS-13)
+				nn(Academy/NNP-15,Naval/NNP-14)
+				prep_from(received/VBD-4,Academy/NNP-15)
+				prep_in(received/VBD-4,1970/CD-18)
+				det(Master/NN-20,a/DT-19)
+				pobj(received/VBD-4,Master/NN-20)
+				prep_of(received/VBD-4,Science/NN-22)
+				prep_in(Science/NN-22,administration/NN-24)
+				nn(University/NNP-28,George/NNP-26)
+				nn(University/NNP-28,Washington/NNP-27)
+				prep_from(received/VBD-4,University/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He enjoyed flying, auto restoration, running, and skiing.	</value>
+
+		<annotated-sentence>	He enjoyed flying, [[auto restoration|Automotive_restoration]], running, and [[skiing|Skiing]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He enjoyed flying, auto restoration, running, and skiing.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoyed/VBD-2,He/PRP-1)
+				dobj(enjoyed/VBD-2,flying/VBG-3)
+				nn(restoration/NN-6,auto/NN-5)
+				dobj(enjoyed/VBD-2,restoration/NN-6)
+				conj_and(flying/VBG-3,restoration/NN-6)
+				partmod(restoration/NN-6,running/VBG-8)
+				dobj(enjoyed/VBD-2,skiing/NN-11)
+				conj_and(flying/VBG-3,skiing/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>auto restoration</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Automotive_restoration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skiing</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He married Karen Frances Kreeb and they had two daughters together, Alison Marie (August 21, 1971) and Carre Anne (May 14, 1974).	</value>
+
+		<annotated-sentence>	He married Karen [[Frances|Frances]] Kreeb and they had [[two daughters|Daughter]] together, Alison Marie (August 21, 1971) and [[Carre|Carr%C3%A9_(Stockhausen)]] Anne (May 14, 1974).	</annotated-sentence>
+
+		<pattern_crowdsource>	He married Karen Frances Kreeb and they had two daughters together, Alison Marie (August 21, 1971) and Carre Anne (May 14, 1974).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(married/VBD-2,He/PRP-1)
+				nn(Kreeb/NNP-5,Karen/NNP-3)
+				nn(Kreeb/NNP-5,Frances/NNP-4)
+				dobj(married/VBD-2,Kreeb/NNP-5)
+				nsubj(had/VBD-8,they/PRP-7)
+				conj_and(married/VBD-2,had/VBD-8)
+				num(daughters/NNS-10,two/CD-9)
+				dobj(had/VBD-8,daughters/NNS-10)
+				advmod(had/VBD-8,together/RB-11)
+				nn(Marie/NNP-14,Alison/NNP-13)
+				dobj(had/VBD-8,Marie/NNP-14)
+				dep(Marie/NNP-14,August/NNP-16)
+				num(August/NNP-16,21/CD-17)
+				num(August/NNP-16,1971/CD-19)
+				nn(Anne/NNP-23,Carre/NNP-22)
+				dobj(had/VBD-8,Anne/NNP-23)
+				conj_and(Marie/NNP-14,Anne/NNP-23)
+				dep(Anne/NNP-23,May/NNP-25)
+				num(May/NNP-25,14/CD-26)
+				num(May/NNP-25,1974/CD-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Frances</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Frances</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two daughters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Carre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Carr%C3%A9_(Stockhausen)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Griggs graduated from Annapolis in 1962 and entered Naval pilot training shortly thereafter.	</value>
+
+		<annotated-sentence>	Griggs graduated from Annapolis in [[1962|1962]] and entered [[Naval pilot|Naval_aviation]] training shortly thereafter.	</annotated-sentence>
+
+		<pattern_crowdsource>	Griggs graduated from Annapolis in 1962 and entered Naval pilot training shortly thereafter.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Griggs/NNP-1)
+				nsubj(entered/VBD-8,Griggs/NNP-1)
+				prep_from(graduated/VBD-2,Annapolis/NNP-4)
+				prep_in(graduated/VBD-2,1962/CD-6)
+				conj_and(graduated/VBD-2,entered/VBD-8)
+				nn(training/NN-11,Naval/NNP-9)
+				nn(training/NN-11,pilot/NN-10)
+				dobj(entered/VBD-8,training/NN-11)
+				advmod(thereafter/RB-13,shortly/RB-12)
+				advmod(entered/VBD-8,thereafter/RB-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Naval pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Naval_aviation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1964, he received his United States Navy pilot wings and was attached to Attack Squadron-72 flying A-4 Skyhawks.	</value>
+
+		<annotated-sentence>	In [[1964|1964]], he received his [[United States Navy|United_States_Navy]] pilot wings and was attached to Attack Squadron-72 flying A-4 [[Skyhawks|Douglas_A-4_Skyhawk]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1964, he received his [[United States Navy|United_States_Navy]] pilot wings and was attached to Attack Squadron-72 flying A-4 Skyhawks.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-5,1964/CD-2)
+				nsubj(received/VBD-5,he/PRP-4)
+				nsubjpass(attached/VBN-14,he/PRP-4)
+				poss(pilot/NN-10,his/PRP$-6)
+				nn(pilot/NN-10,United/NNP-7)
+				nn(pilot/NN-10,States/NNPS-8)
+				nn(pilot/NN-10,Navy/NNP-9)
+				dep(received/VBD-5,pilot/NN-10)
+				dobj(received/VBD-5,wings/NNS-11)
+				auxpass(attached/VBN-14,was/VBD-13)
+				conj_and(received/VBD-5,attached/VBN-14)
+				aux(Attack/VB-16,to/TO-15)
+				xcomp(attached/VBN-14,Attack/VB-16)
+				dobj(Attack/VB-16,Squadron-72/NN-17)
+				xcomp(Attack/VB-16,flying/VBG-18)
+				dobj(flying/VBG-18,A-4/NN-19)
+				dobj(received/VBD-5,Skyhawks/NNPS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1964</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1964</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Skyhawks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Douglas_A-4_Skyhawk</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/property/rank http://dbpedia.org/resource/United_States_Navy
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He completed one Mediterranean cruise and two Southeast Asia combat cruises aboard the aircraft carriers USS Independence and USS Franklin Roosevelt.	</value>
+
+		<annotated-sentence>	He completed one Mediterranean cruise and two [[Southeast Asia|Southeast_Asia]] combat cruises aboard the [[aircraft carriers|Aircraft_carrier]] USS Independence and USS [[Franklin Roosevelt|Franklin_D._Roosevelt]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He completed one Mediterranean cruise and two Southeast Asia combat cruises aboard the aircraft carriers USS Independence and USS Franklin Roosevelt.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,He/PRP-1)
+				num(cruise/NN-5,one/CD-3)
+				amod(cruise/NN-5,Mediterranean/JJ-4)
+				dobj(completed/VBD-2,cruise/NN-5)
+				num(cruises/NNS-11,two/CD-7)
+				nn(cruises/NNS-11,Southeast/NNP-8)
+				nn(cruises/NNS-11,Asia/NNP-9)
+				nn(cruises/NNS-11,combat/NN-10)
+				dobj(completed/VBD-2,cruises/NNS-11)
+				conj_and(cruise/NN-5,cruises/NNS-11)
+				det(Independence/NNP-17,the/DT-13)
+				nn(Independence/NNP-17,aircraft/NN-14)
+				nn(Independence/NNP-17,carriers/NNS-15)
+				nn(Independence/NNP-17,USS/NNP-16)
+				prep_aboard(cruise/NN-5,Independence/NNP-17)
+				nn(Roosevelt/NNP-21,USS/NNP-19)
+				nn(Roosevelt/NNP-21,Franklin/NNP-20)
+				prep_aboard(cruise/NN-5,Roosevelt/NNP-21)
+				conj_and(Independence/NNP-17,Roosevelt/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Southeast Asia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Southeast_Asia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft carriers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircraft_carrier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Franklin Roosevelt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franklin_D._Roosevelt</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1967 Griggs entered the U.S. Naval Test Pilot School at Patuxent River, Maryland and upon completion of test pilot training was assigned to the Flying Qualities and Performance Branch, Flight Test Division, where he flew various test projects on fighter and attack-type aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(entered/VBD-4,1967/CD-2)
+				nsubj(entered/VBD-4,Griggs/NNP-3)
+				det(Pilot/NN-9,the/DT-5)
+				nn(Pilot/NN-9,U.S./NNP-6)
+				nn(Pilot/NN-9,Naval/NNP-7)
+				nn(Pilot/NN-9,Test/NNP-8)
+				dobj(entered/VBD-4,Pilot/NN-9)
+				conj_and(School/NNP-10,School/NNP-10)
+				nsubjpass(assigned/VBN-24,School/NNP-10)
+				nsubjpass(assigned/VBN-24,School/NNP-10)
+				nn(River/NNP-13,Patuxent/NNP-12)
+				prep_at(School/NNP-10,River/NNP-13)
+				appos(River/NNP-13,Maryland/NNP-15)
+				prep_upon(School/NNP-10,completion/NN-18)
+				nn(training/NN-22,test/NN-20)
+				nn(training/NN-22,pilot/NN-21)
+				prep_of(completion/NN-18,training/NN-22)
+				auxpass(assigned/VBN-24,was/VBD-23)
+				rcmod(Pilot/NN-9,assigned/VBN-24)
+				det(Qualities/NNPS-28,the/DT-26)
+				nn(Qualities/NNPS-28,Flying/NNP-27)
+				prep_to(assigned/VBN-24,Qualities/NNPS-28)
+				nn(Branch/NNP-31,Performance/NNP-30)
+				prep_to(assigned/VBN-24,Branch/NNP-31)
+				conj_and(Qualities/NNPS-28,Branch/NNP-31)
+				nn(Division/NNP-35,Flight/NNP-33)
+				nn(Division/NNP-35,Test/NNP-34)
+				appos(Pilot/NN-9,Division/NNP-35)
+				advmod(flew/VBD-39,where/WRB-37)
+				nsubj(flew/VBD-39,he/PRP-38)
+				rcmod(Pilot/NN-9,flew/VBD-39)
+				amod(projects/NNS-42,various/JJ-40)
+				nn(projects/NNS-42,test/NN-41)
+				dobj(flew/VBD-39,projects/NNS-42)
+				prep_on(flew/VBD-39,fighter/NN-44)
+				amod(aircraft/NN-47,attack-type/JJ-46)
+				prep_on(flew/VBD-39,aircraft/NN-47)
+				conj_and(fighter/NN-44,aircraft/NN-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1970, he resigned his regular United States Navy commission and affiliated with the Naval Air Reserve in which he achieved the rank of Rear Admiral.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(resigned/VBD-5,1970/CD-2)
+				nsubj(resigned/VBD-5,he/PRP-4)
+				nsubj(affiliated/VBN-13,he/PRP-4)
+				poss(commission/NN-11,his/PRP$-6)
+				amod(commission/NN-11,regular/JJ-7)
+				nn(commission/NN-11,United/NNP-8)
+				nn(commission/NN-11,States/NNPS-9)
+				nn(commission/NN-11,Navy/NNP-10)
+				dobj(resigned/VBD-5,commission/NN-11)
+				conj_and(resigned/VBD-5,affiliated/VBN-13)
+				det(Reserve/NNP-18,the/DT-15)
+				nn(Reserve/NNP-18,Naval/NNP-16)
+				nn(Reserve/NNP-18,Air/NNP-17)
+				prep_with(affiliated/VBN-13,Reserve/NNP-18)
+				prep_in(achieved/VBD-22,which/WDT-20)
+				nsubj(achieved/VBD-22,he/PRP-21)
+				rcmod(Reserve/NNP-18,achieved/VBD-22)
+				det(rank/NN-24,the/DT-23)
+				dobj(achieved/VBD-22,rank/NN-24)
+				nn(Admiral/NN-27,Rear/NNP-26)
+				prep_of(rank/NN-24,Admiral/NN-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As a Naval Reservist, Griggs was assigned to several fighter and attack squadrons flying A-4 Skyhawk, A-7 Corsair II and F-8 Crusader aircraft based at Naval Air Stations in New Orleans, Louisiana and Miramar, California.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(Reservist/NNP-4,a/DT-2)
+				nn(Reservist/NNP-4,Naval/NNP-3)
+				prep_as(assigned/VBN-8,Reservist/NNP-4)
+				nsubjpass(assigned/VBN-8,Griggs/NNP-6)
+				auxpass(assigned/VBN-8,was/VBD-7)
+				amod(fighter/NN-11,several/JJ-10)
+				prep_to(assigned/VBN-8,fighter/NN-11)
+				nn(squadrons/NNS-14,attack/NN-13)
+				prep_to(assigned/VBN-8,squadrons/NNS-14)
+				conj_and(fighter/NN-11,squadrons/NNS-14)
+				xcomp(assigned/VBN-8,flying/VBG-15)
+				nn(Skyhawk/NNP-17,A-4/NNP-16)
+				nsubj(California/NNP-39,Skyhawk/NNP-17)
+				nn(II/NNP-21,A-7/NNP-19)
+				nn(II/NNP-21,Corsair/NNP-20)
+				appos(Skyhawk/NNP-17,II/NNP-21)
+				nn(aircraft/NN-25,F-8/NNP-23)
+				nn(aircraft/NN-25,Crusader/NNP-24)
+				appos(Skyhawk/NNP-17,aircraft/NN-25)
+				conj_and(II/NNP-21,aircraft/NN-25)
+				partmod(II/NNP-21,based/VBN-26)
+				nn(Stations/NNPS-30,Naval/NNP-28)
+				nn(Stations/NNPS-30,Air/NNP-29)
+				prep_at(based/VBN-26,Stations/NNPS-30)
+				nn(Orleans/NNP-33,New/NNP-32)
+				prep_in(Stations/NNPS-30,Orleans/NNP-33)
+				prep_in(Stations/NNPS-30,Louisiana/NNP-35)
+				conj_and(Orleans/NNP-33,Louisiana/NNP-35)
+				prep_in(Stations/NNPS-30,Miramar/NNP-37)
+				conj_and(Orleans/NNP-33,Miramar/NNP-37)
+				xcomp(flying/VBG-15,California/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He logged 9,500 hours flying time, 7,800 hours in jet aircraft, and flew over 45 different types of aircraft including single and multi engine prop, turboprop and jet aircraft, helicopters, gliders, hot air balloons and the Space Shuttle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,He/PRP-1)
+				nsubj(flew/VBD-15,He/PRP-1)
+				num(hours/NNS-4,9,500/CD-3)
+				dobj(logged/VBD-2,hours/NNS-4)
+				xcomp(logged/VBD-2,flying/VBG-5)
+				dobj(flying/VBG-5,time/NN-6)
+				num(hours/NNS-9,7,800/CD-8)
+				appos(time/NN-6,hours/NNS-9)
+				nn(aircraft/NN-12,jet/NN-11)
+				prep_in(hours/NNS-9,aircraft/NN-12)
+				conj_and(logged/VBD-2,flew/VBD-15)
+				quantmod(45/CD-17,over/IN-16)
+				num(types/NNS-19,45/CD-17)
+				amod(types/NNS-19,different/JJ-18)
+				nsubj(prop/VBP-27,types/NNS-19)
+				prep_of(types/NNS-19,aircraft/NN-21)
+				amod(engine/NN-26,single/JJ-23)
+				conj_and(single/JJ-23,multi/JJ-25)
+				amod(engine/NN-26,multi/JJ-25)
+				prep_including(aircraft/NN-21,engine/NN-26)
+				ccomp(flew/VBD-15,prop/VBP-27)
+				nn(aircraft/NN-32,turboprop/NN-29)
+				conj_and(turboprop/NN-29,jet/NN-31)
+				nn(aircraft/NN-32,jet/NN-31)
+				nsubj(Shuttle/NNP-44,aircraft/NN-32)
+				conj_and(aircraft/NN-32,helicopters/NNS-34)
+				nsubj(Shuttle/NNP-44,helicopters/NNS-34)
+				conj_and(aircraft/NN-32,gliders/NNS-36)
+				nsubj(Shuttle/NNP-44,gliders/NNS-36)
+				amod(balloons/NNS-40,hot/JJ-38)
+				nn(balloons/NNS-40,air/NN-39)
+				conj_and(aircraft/NN-32,balloons/NNS-40)
+				nsubj(Shuttle/NNP-44,balloons/NNS-40)
+				det(Space/NN-43,the/DT-42)
+				conj_and(aircraft/NN-32,Space/NN-43)
+				nsubj(Shuttle/NNP-44,Space/NN-43)
+				xcomp(prop/VBP-27,Shuttle/NNP-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He made over 300 aircraft carrier landings, held an Airline Transport Pilot License, and was a certified flight instructor.	</value>
+
+		<annotated-sentence>	He made over 300 [[aircraft carrier|Aircraft_carrier]] [[landings|Amphibious_warfare]], held [[an Airline Transport Pilot License|Airline_Transport_Pilot_License]], and was [[a certified flight instructor|Flight_instructor]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He made over 300 aircraft carrier landings, held an Airline Transport Pilot License, and was a certified flight instructor.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,He/PRP-1)
+				nsubj(held/VBD-9,He/PRP-1)
+				prt(made/VBD-2,over/RP-3)
+				num(landings/NNS-7,300/CD-4)
+				nn(landings/NNS-7,aircraft/NN-5)
+				nn(landings/NNS-7,carrier/NN-6)
+				dobj(made/VBD-2,landings/NNS-7)
+				conj_and(made/VBD-2,held/VBD-9)
+				det(License/NN-14,an/DT-10)
+				nn(License/NN-14,Airline/NN-11)
+				nn(License/NN-14,Transport/NN-12)
+				nn(License/NN-14,Pilot/NN-13)
+				dobj(held/VBD-9,License/NN-14)
+				cop(instructor/NN-21,was/VBD-17)
+				det(instructor/NN-21,a/DT-18)
+				amod(instructor/NN-21,certified/JJ-19)
+				nn(instructor/NN-21,flight/NN-20)
+				conj_and(made/VBD-2,instructor/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>aircraft carrier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aircraft_carrier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>landings</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an Airline Transport Pilot License</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airline_Transport_Pilot_License</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a certified flight instructor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_instructor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 1970, Griggs was employed at the Lyndon B. Johnson Space Center as a research pilot, working on various flight test and research projects in support of NASA programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(employed/VBN-7,July/NNP-2)
+				num(July/NNP-2,1970/CD-3)
+				nsubjpass(employed/VBN-7,Griggs/NNP-5)
+				auxpass(employed/VBN-7,was/VBD-6)
+				det(Center/NNP-14,the/DT-9)
+				nn(Center/NNP-14,Lyndon/NNP-10)
+				nn(Center/NNP-14,B./NNP-11)
+				nn(Center/NNP-14,Johnson/NNP-12)
+				nn(Center/NNP-14,Space/NNP-13)
+				prep_at(employed/VBN-7,Center/NNP-14)
+				det(pilot/NN-18,a/DT-16)
+				nn(pilot/NN-18,research/NN-17)
+				prep_as(employed/VBN-7,pilot/NN-18)
+				xcomp(employed/VBN-7,working/VBG-20)
+				amod(test/NN-24,various/JJ-22)
+				nn(test/NN-24,flight/NN-23)
+				prep_on(working/VBG-20,test/NN-24)
+				nn(projects/NNS-27,research/NN-26)
+				prep_on(working/VBG-20,projects/NNS-27)
+				conj_and(test/NN-24,projects/NNS-27)
+				prep_in(working/VBG-20,support/NN-29)
+				nn(programs/NNS-32,NASA/NNP-31)
+				prep_of(support/NN-29,programs/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1974, he was assigned duties as the project pilot for the space shuttle trainer aircraft and participated in the design, development, and testing of those aircraft pending their operational deployment in 1976.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(assigned/VBN-6,1974/CD-2)
+				nsubjpass(assigned/VBN-6,he/PRP-4)
+				nsubjpass(participated/VBD-19,he/PRP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				dobj(assigned/VBN-6,duties/NNS-7)
+				det(pilot/NN-11,the/DT-9)
+				nn(pilot/NN-11,project/NN-10)
+				prep_as(assigned/VBN-6,pilot/NN-11)
+				det(aircraft/NN-17,the/DT-13)
+				nn(aircraft/NN-17,space/NN-14)
+				nn(aircraft/NN-17,shuttle/NN-15)
+				nn(aircraft/NN-17,trainer/NN-16)
+				prep_for(pilot/NN-11,aircraft/NN-17)
+				conj_and(assigned/VBN-6,participated/VBD-19)
+				det(design/NN-22,the/DT-21)
+				prep_in(participated/VBD-19,design/NN-22)
+				prep_in(participated/VBD-19,development/NN-24)
+				conj_and(design/NN-22,development/NN-24)
+				prep_in(participated/VBD-19,testing/NN-27)
+				conj_and(design/NN-22,testing/NN-27)
+				det(aircraft/NN-30,those/DT-29)
+				prep_of(design/NN-22,aircraft/NN-30)
+				poss(deployment/NN-34,their/PRP$-32)
+				amod(deployment/NN-34,operational/JJ-33)
+				prep_pending(aircraft/NN-30,deployment/NN-34)
+				prep_in(deployment/NN-34,1976/CD-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was appointed Chief of the Shuttle Training Aircraft Operations Office in January 1976 with responsibility for the operational use of the shuttle trainer, and held that position until being selected as an astronaut candidate by NASA in January 1978.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(appointed/VBN-3,He/PRP-1)
+				nsubjpass(held/VBD-27,He/PRP-1)
+				auxpass(appointed/VBN-3,was/VBD-2)
+				dobj(appointed/VBN-3,Chief/NNP-4)
+				det(Office/NNP-11,the/DT-6)
+				nn(Office/NNP-11,Shuttle/NNP-7)
+				nn(Office/NNP-11,Training/NNP-8)
+				nn(Office/NNP-11,Aircraft/NNP-9)
+				nn(Office/NNP-11,Operations/NNP-10)
+				prep_of(Chief/NNP-4,Office/NNP-11)
+				prep_in(appointed/VBN-3,January/NNP-13)
+				num(January/NNP-13,1976/CD-14)
+				prep_with(appointed/VBN-3,responsibility/NN-16)
+				det(use/NN-20,the/DT-18)
+				amod(use/NN-20,operational/JJ-19)
+				prep_for(responsibility/NN-16,use/NN-20)
+				det(trainer/NN-24,the/DT-22)
+				nn(trainer/NN-24,shuttle/NN-23)
+				prep_of(use/NN-20,trainer/NN-24)
+				conj_and(appointed/VBN-3,held/VBD-27)
+				mark(position/NN-29,that/IN-28)
+				dep(held/VBD-27,position/NN-29)
+				dep(position/NN-29,until/IN-30)
+				auxpass(selected/VBN-32,being/VBG-31)
+				pcomp(until/IN-30,selected/VBN-32)
+				det(candidate/NN-36,an/DT-34)
+				nn(candidate/NN-36,astronaut/NN-35)
+				prep_as(selected/VBN-32,candidate/NN-36)
+				agent(selected/VBN-32,NASA/NNP-38)
+				prep_in(NASA/NNP-38,January/NNP-40)
+				num(January/NNP-40,1978/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In August 1979, he completed a one-year training and evaluation period and became eligible for Space Shuttle flight crew assignment.	</value>
+
+		<annotated-sentence>	In [[August 1979|1979]], he completed a one-year [[training|Training]] and [[evaluation|Evaluation]] period and became eligible for [[Space|Space]] [[Shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] crew assignment.	</annotated-sentence>
+
+		<pattern_crowdsource>	In August 1979, he completed a one-year training and evaluation period and became eligible for Space [[Shuttle|Shuttle_(video_game)]] [[flight|Flight_simulator]] crew assignment.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(completed/VBD-6,August/NNP-2)
+				num(August/NNP-2,1979/CD-3)
+				nsubj(completed/VBD-6,he/PRP-5)
+				det(training/NN-9,a/DT-7)
+				amod(training/NN-9,one-year/JJ-8)
+				dobj(completed/VBD-6,training/NN-9)
+				nn(period/NN-12,evaluation/NN-11)
+				dobj(completed/VBD-6,period/NN-12)
+				conj_and(training/NN-9,period/NN-12)
+				cop(assignment/NN-21,became/VBD-14)
+				amod(assignment/NN-21,eligible/JJ-15)
+				prep_for(eligible/JJ-15,Space/NN-17)
+				nn(assignment/NN-21,Shuttle/NNP-18)
+				nn(assignment/NN-21,flight/NN-19)
+				nn(assignment/NN-21,crew/NN-20)
+				conj_and(completed/VBD-6,assignment/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>August 1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>evaluation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_simulator</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Shuttle_(video_game) http://dbpedia.org/property/genre http://dbpedia.org/resource/Flight_simulator
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1979 to 1983, Griggs was involved in several Space Shuttle engineering capacities including the development and testing of the Head-Up Display (HUD) approach and landing avionics system, development of the Manned Maneuvering Unit (MMU), and the requirements definition and verification of on-orbit rendezvous and entry flight phase software and procedures.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(1983/CD-4,1979/CD-2)
+				dep(1983/CD-4,to/TO-3)
+				prep_from(involved/VBN-8,1983/CD-4)
+				nsubjpass(involved/VBN-8,Griggs/NNP-6)
+				auxpass(involved/VBN-8,was/VBD-7)
+				amod(Space/NN-11,several/JJ-10)
+				prep_in(involved/VBN-8,Space/NN-11)
+				nn(capacities/NNS-14,Shuttle/NNP-12)
+				nn(capacities/NNS-14,engineering/NN-13)
+				tmod(involved/VBN-8,capacities/NNS-14)
+				det(development/NN-17,the/DT-16)
+				prep_including(capacities/NNS-14,development/NN-17)
+				prep_including(capacities/NNS-14,testing/NN-19)
+				conj_and(development/NN-17,testing/NN-19)
+				det(Head-Up/JJ-22,the/DT-21)
+				prep_of(development/NN-17,Head-Up/JJ-22)
+				dep(flight/NN-54,Display/VB-23)
+				dobj(Display/VB-23,HUD/NNP-25)
+				nn(system/NN-31,approach/NN-27)
+				conj_and(approach/NN-27,landing/NN-29)
+				nn(system/NN-31,landing/NN-29)
+				nn(system/NN-31,avionics/NNS-30)
+				dep(HUD/NNP-25,system/NN-31)
+				dobj(Display/VB-23,development/NN-33)
+				conj_and(HUD/NNP-25,development/NN-33)
+				det(Unit/NN-38,the/DT-35)
+				amod(Unit/NN-38,Manned/JJ-36)
+				nn(Unit/NN-38,Maneuvering/NN-37)
+				prep_of(development/NN-33,Unit/NN-38)
+				appos(Unit/NN-38,MMU/NN-40)
+				det(definition/NN-46,the/DT-44)
+				nn(definition/NN-46,requirements/NNS-45)
+				dobj(Display/VB-23,definition/NN-46)
+				conj_and(HUD/NNP-25,definition/NN-46)
+				conj_and(HUD/NNP-25,verification/NN-48)
+				conj_and(definition/NN-46,verification/NN-48)
+				amod(rendezvous/NN-51,on-orbit/JJ-50)
+				prep_of(definition/NN-46,rendezvous/NN-51)
+				prep_of(definition/NN-46,entry/NN-53)
+				conj_and(rendezvous/NN-51,entry/NN-53)
+				dep(Head-Up/JJ-22,flight/NN-54)
+				nn(software/NN-56,phase/NN-55)
+				dep(capacities/NNS-14,software/NN-56)
+				dep(capacities/NNS-14,procedures/NNS-58)
+				conj_and(software/NN-56,procedures/NNS-58)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 1983 he began crew training as a mission specialist for flight STS-51-D, which flew April 12–19, 1985.	</value>
+
+		<annotated-sentence>	In [[September 1983|1983]] he began crew [[training|Training]] as [[a mission specialist|Mission_Specialist]] for [[flight|Flight]] [[STS-51-D|STS-51-D]], which flew [[April 12|April_12]]–19, [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In September 1983 he began crew training as a mission specialist for flight [[STS-51-D|STS-51-D]], which flew April 12–19, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(began/VBD-5,September/NNP-2)
+				num(September/NNP-2,1983/CD-3)
+				nsubj(began/VBD-5,he/PRP-4)
+				nn(training/NN-7,crew/NN-6)
+				dobj(began/VBD-5,training/NN-7)
+				det(specialist/NN-11,a/DT-9)
+				nn(specialist/NN-11,mission/NN-10)
+				prep_as(began/VBD-5,specialist/NN-11)
+				nn(STS-51-D/NN-14,flight/NN-13)
+				prep_for(specialist/NN-11,STS-51-D/NN-14)
+				nsubj(flew/VBD-17,which/WDT-16)
+				rcmod(STS-51-D/NN-14,flew/VBD-17)
+				tmod(flew/VBD-17,April/NNP-18)
+				num(April/NNP-18,12/CD-19)
+				dep(specialist/NN-11,19/CD-21)
+				amod(19/CD-21,1985/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>September 1983</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1983</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-D</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-D</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 12</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_12</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/S._David_Griggs http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-D
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crew4Up http://dbpedia.org/resource/S._David_Griggs
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-D http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/S._David_Griggs
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the flight, Mr. Griggs conducted the first unscheduled extravehicular activity (space walk) of the space program.	</value>
+
+		<annotated-sentence>	During [[the flight|Darts]], Mr. Griggs conducted the first unscheduled [[extravehicular activity|Extra-vehicular_activity]] ([[space walk|Extra-vehicular_activity]]) of the space program.	</annotated-sentence>
+
+		<pattern_crowdsource>	During the flight, Mr. Griggs conducted the first unscheduled extravehicular activity (space walk) of the space program.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-3,the/DT-2)
+				prep_during(conducted/VBD-7,flight/NN-3)
+				nn(Griggs/NNP-6,Mr./NNP-5)
+				nsubj(conducted/VBD-7,Griggs/NNP-6)
+				det(activity/NN-12,the/DT-8)
+				amod(activity/NN-12,first/JJ-9)
+				amod(activity/NN-12,unscheduled/JJ-10)
+				amod(activity/NN-12,extravehicular/JJ-11)
+				dobj(conducted/VBD-7,activity/NN-12)
+				nn(walk/NN-15,space/NN-14)
+				appos(activity/NN-12,walk/NN-15)
+				det(program/NN-20,the/DT-18)
+				nn(program/NN-20,space/NN-19)
+				prep_of(activity/NN-12,program/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Darts</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>extravehicular activity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The space walk lasted for over three hours during which preparations for a satellite rescue attempt were completed.	</value>
+
+		<annotated-sentence>	The [[space walk|Extra-vehicular_activity]] lasted for over [[three hours|Three_Hours]] during which preparations for a [[satellite|Satellite]] rescue [[attempt|Attempt]] were completed.	</annotated-sentence>
+
+		<pattern_crowdsource>	The space walk lasted for over three hours during which preparations for a satellite rescue attempt were completed.	</pattern_crowdsource>
+
+
+		<tree>
+				det(walk/NN-3,The/DT-1)
+				nn(walk/NN-3,space/NN-2)
+				nsubj(lasted/VBD-4,walk/NN-3)
+				dep(lasted/VBD-4,for/IN-5)
+				num(hours/NNS-8,three/CD-7)
+				prep_over(lasted/VBD-4,hours/NNS-8)
+				prep_during(completed/VBN-18,which/WDT-10)
+				nsubjpass(completed/VBN-18,preparations/NNS-11)
+				det(attempt/NN-16,a/DT-13)
+				nn(attempt/NN-16,satellite/NN-14)
+				nn(attempt/NN-16,rescue/NN-15)
+				prep_for(preparations/NNS-11,attempt/NN-16)
+				auxpass(completed/VBN-18,were/VBD-17)
+				rcmod(hours/NNS-8,completed/VBN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space walk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Extra-vehicular_activity</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>three hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Three_Hours</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>attempt</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Attempt</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	At the time of his death, Griggs was in flight crew training as pilot for STS-33, a dedicated Department of Defense mission, scheduled for launch in November 1989.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,the/DT-2)
+				prep_at(was/VBD-9,time/NN-3)
+				poss(death/NN-6,his/PRP$-5)
+				prep_of(time/NN-3,death/NN-6)
+				nsubj(was/VBD-9,Griggs/NNP-8)
+				nn(training/NN-13,flight/NN-11)
+				nn(training/NN-13,crew/NN-12)
+				prep_in(was/VBD-9,training/NN-13)
+				prep_as(training/NN-13,pilot/NN-15)
+				prep_for(was/VBD-9,STS-33/NN-17)
+				det(mission/NN-24,a/DT-19)
+				amod(mission/NN-24,dedicated/JJ-20)
+				dep(dedicated/JJ-20,Department/NNP-21)
+				prep_of(Department/NNP-21,Defense/NNP-23)
+				appos(STS-33/NN-17,mission/NN-24)
+				partmod(STS-33/NN-17,scheduled/VBN-26)
+				prep_for(scheduled/VBN-26,launch/NN-28)
+				prep_in(launch/NN-28,November/NNP-30)
+				num(November/NNP-30,1989/CD-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

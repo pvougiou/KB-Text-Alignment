@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Prof. Dr. Reinhard Alfred Furrer (November 25, 1940 – September 9, 1995) was a German physicist and astronaut.	</value>
+
+		<annotated-sentence>	[[Prof. Dr.|Prof._Dr.]] [[Reinhard Alfred Furrer|Reinhard_Furrer]] ([[November|November]] 25, 1940 – [[September|September]] 9, 1995) was a [[German|Germany]] [[physicist|Physics]] and [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Prof. Dr. [[Reinhard Alfred Furrer|Reinhard_Furrer]] (November 25, 1940 – September 9, 1995) was a [[German|Germany]] [[physicist|Physics]] and [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Furrer/NNP-5,Prof./NNP-1)
+				nn(Furrer/NNP-5,Dr./NNP-2)
+				nn(Furrer/NNP-5,Reinhard/NNP-3)
+				nn(Furrer/NNP-5,Alfred/NNP-4)
+				nsubj(physicist/NN-20,Furrer/NNP-5)
+				dep(Furrer/NNP-5,November/NNP-7)
+				num(November/NNP-7,25/CD-8)
+				num(November/NNP-7,1940/CD-10)
+				dep(November/NNP-7,September/NNP-12)
+				num(September/NNP-12,9/CD-13)
+				num(September/NNP-12,1995/CD-15)
+				cop(physicist/NN-20,was/VBD-17)
+				det(physicist/NN-20,a/DT-18)
+				amod(physicist/NN-20,German/JJ-19)
+				conj_and(physicist/NN-20,astronaut/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Prof. Dr.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Prof._Dr.</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Reinhard Alfred Furrer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reinhard_Furrer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>German</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physicist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Physics
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Furrer was born in Wörgl, Austria (then part of Germany).	</value>
+
+		<annotated-sentence>	[[Furrer|Reinhard_Furrer]] was born in [[Wörgl , Austria|W%C3%B6rgl]](then part of [[Germany|Germany]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Furrer|Reinhard_Furrer]] was born in Wörgl, Austria (then part of [[Germany|Germany]]).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Furrer/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				nn(Austria/NNP-7,Wörgl/NNP-5)
+				prep_in(born/VBN-3,Austria/NNP-7)
+				advmod(part/NN-10,then/RB-9)
+				dep(Austria/NNP-7,part/NN-10)
+				prep_of(part/NN-10,Germany/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Furrer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reinhard_Furrer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wörgl , Austria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/W%C3%B6rgl</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Germany</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Germany</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/W%C3%B6rgl
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/Germany
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Germany
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After the end of World War II, his father was expelled from Austria.	</value>
+
+		<annotated-sentence>	After the end of [[World War II|World_War_II]], [[his father|Father]] was expelled from [[Austria|Austria]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After the end of World War II, his father was expelled from [[Austria|Austria]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(end/NN-3,the/DT-2)
+				prep_after(expelled/VBN-12,end/NN-3)
+				nn(II/NNP-7,World/NNP-5)
+				nn(II/NNP-7,War/NNP-6)
+				prep_of(end/NN-3,II/NNP-7)
+				poss(father/NN-10,his/PRP$-9)
+				nsubjpass(expelled/VBN-12,father/NN-10)
+				auxpass(expelled/VBN-12,was/VBD-11)
+				prep_from(expelled/VBN-12,Austria/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>World War II</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/World_War_II</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Austria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Austria</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Austria
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The family found a new home in Kempten im Allgäu, Bavaria.	</value>
+
+		<annotated-sentence>	The family found a new home in [[Kempten im Allgäu|Kempten]], [[Bavaria|Bavaria]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The family found a new home in Kempten im Allgäu, Bavaria.	</pattern_crowdsource>
+
+
+		<tree>
+				det(family/NN-2,The/DT-1)
+				nsubj(found/VBD-3,family/NN-2)
+				det(home/NN-6,a/DT-4)
+				amod(home/NN-6,new/JJ-5)
+				dobj(found/VBD-3,home/NN-6)
+				nn(Allgäu/NNP-10,Kempten/NNP-8)
+				nn(Allgäu/NNP-10,im/NNP-9)
+				prep_in(found/VBD-3,Allgäu/NNP-10)
+				appos(Allgäu/NNP-10,Bavaria/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Kempten im Allgäu</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kempten</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bavaria</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bavaria</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Furrer stayed there until he joined the University of Kiel to study physics.	</value>
+
+		<annotated-sentence>	[[Furrer|Reinhard_Furrer]] stayed there until he joined [[the University of Kiel|University_of_Kiel]] to study [[physics|Physics]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Furrer|Reinhard_Furrer]] stayed there until he joined the University of Kiel to study [[physics|Physics]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(there/EX-3,Furrer/NNP-1)
+				cop(there/EX-3,stayed/VBD-2)
+				mark(joined/VBD-6,until/IN-4)
+				nsubj(joined/VBD-6,he/PRP-5)
+				advcl(there/EX-3,joined/VBD-6)
+				det(University/NNP-8,the/DT-7)
+				dobj(joined/VBD-6,University/NNP-8)
+				prep_of(University/NNP-8,Kiel/NNP-10)
+				aux(study/VB-12,to/TO-11)
+				xcomp(joined/VBD-6,study/VB-12)
+				dobj(study/VB-12,physics/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Furrer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reinhard_Furrer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Kiel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Kiel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Physics
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He later transferred to the Free University of Berlin, where he received a diploma in 1969, and a doctorate in 1972.	</value>
+
+		<annotated-sentence>	He later transferred to [[the Free University of Berlin|Free_University_of_Berlin]], where he received [[a diploma|Diploma]] in [[1969|1969]], and [[a doctorate|Doctorate]] in [[1972|1972_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He later transferred to the Free University of Berlin, where he received a diploma in 1969, and a doctorate in 1972.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(transferred/VBD-3,He/PRP-1)
+				advmod(transferred/VBD-3,later/RB-2)
+				det(University/NNP-7,the/DT-5)
+				nn(University/NNP-7,Free/NNP-6)
+				prep_to(transferred/VBD-3,University/NNP-7)
+				prep_of(University/NNP-7,Berlin/NNP-9)
+				advmod(received/VBD-13,where/WRB-11)
+				nsubj(received/VBD-13,he/PRP-12)
+				advcl(transferred/VBD-3,received/VBD-13)
+				det(diploma/NN-15,a/DT-14)
+				dobj(received/VBD-13,diploma/NN-15)
+				prep_in(diploma/NN-15,1969/CD-17)
+				det(doctorate/NN-21,a/DT-20)
+				dobj(received/VBD-13,doctorate/NN-21)
+				conj_and(diploma/NN-15,doctorate/NN-21)
+				prep_in(doctorate/NN-21,1972/CD-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Free University of Berlin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Free_University_of_Berlin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a diploma</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Diploma</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1969</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1969</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Doctorate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1972</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1972_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his time as a student in Berlin, he was involved in the building of the 145 m long "Tunnel 57" below the Berlin Wall, which was the escape route of 57 people from East Berlin to the West.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,his/PRP$-2)
+				prep_during(involved/VBN-12,time/NN-3)
+				det(student/NN-6,a/DT-5)
+				prep_as(time/NN-3,student/NN-6)
+				prep_in(student/NN-6,Berlin/NNP-8)
+				nsubjpass(involved/VBN-12,he/PRP-10)
+				auxpass(involved/VBN-12,was/VBD-11)
+				det(building/NN-15,the/DT-14)
+				prep_in(involved/VBN-12,building/NN-15)
+				det(m/NN-19,the/DT-17)
+				num(m/NN-19,145/CD-18)
+				prep_of(building/NN-15,m/NN-19)
+				advmod(building/NN-15,long/RB-20)
+				dep(building/NN-15,Tunnel/NN-22)
+				num(Tunnel/NN-22,57/CD-23)
+				det(Wall/NNP-28,the/DT-26)
+				nn(Wall/NNP-28,Berlin/NNP-27)
+				prep_below(Tunnel/NN-22,Wall/NNP-28)
+				nsubj(route/NN-34,which/WDT-30)
+				cop(route/NN-34,was/VBD-31)
+				det(route/NN-34,the/DT-32)
+				nn(route/NN-34,escape/NN-33)
+				rcmod(Tunnel/NN-22,route/NN-34)
+				num(people/NNS-37,57/CD-36)
+				prep_of(route/NN-34,people/NNS-37)
+				nn(Berlin/NNP-40,East/NNP-39)
+				prep_from(people/NNS-37,Berlin/NNP-40)
+				det(West/NNP-43,the/DT-42)
+				prep_to(Berlin/NNP-40,West/NNP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1974 he became assistant professor in Stuttgart and in 1979 qualified for full professorship.	</value>
+
+		<annotated-sentence>	In [[1974|Rudebox]] he became [[assistant professor|Professor]] in [[Stuttgart|Stuttgart]] and in [[1979|1979]] qualified for full [[professorship|Professor]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1974 he became assistant professor in Stuttgart and in 1979 qualified for full professorship.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(professor/NN-6,1974/CD-2)
+				nsubj(professor/NN-6,he/PRP-3)
+				cop(professor/NN-6,became/VBD-4)
+				amod(professor/NN-6,assistant/JJ-5)
+				prep_in(professor/NN-6,Stuttgart/NNP-8)
+				prep_in(professor/NN-6,1979/CD-11)
+				conj_and(Stuttgart/NNP-8,1979/CD-11)
+				amod(1979/CD-11,qualified/VBN-12)
+				amod(professorship/NN-15,full/JJ-14)
+				prep_for(qualified/VBN-12,professorship/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1974</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rudebox</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>assistant professor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stuttgart</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stuttgart</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>professorship</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Professor</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He spent time during 1980-1981 at the University of Chicago and during 1981 at the Argonne National Laboratory in Chicago, USA.	</value>
+
+		<annotated-sentence>	He spent time during [[1980-1981|1980%E2%80%9381_in_English_football]] at [[the University of Chicago|University_of_Chicago]] and during [[1981|1981]] at [[the Argonne National Laboratory|Argonne_National_Laboratory]] in Chicago, USA.	</annotated-sentence>
+
+		<pattern_crowdsource>	He spent time during 1980-1981 at the University of Chicago and during 1981 at the Argonne National Laboratory in Chicago, USA.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,He/PRP-1)
+				nsubj(spent/VBD-2,He/PRP-1)
+				conj_and(spent/VBD-2,spent/VBD-2)
+				tmod(spent/VBD-2,time/NN-3)
+				prep_during(spent/VBD-2,1980-1981/CD-5)
+				det(University/NNP-8,the/DT-7)
+				prep_at(spent/VBD-2,University/NNP-8)
+				prep_of(University/NNP-8,Chicago/NNP-10)
+				prep_during(spent/VBD-2,1981/CD-13)
+				det(Laboratory/NNP-18,the/DT-15)
+				nn(Laboratory/NNP-18,Argonne/NNP-16)
+				nn(Laboratory/NNP-18,National/NNP-17)
+				prep_at(spent/VBD-2,Laboratory/NNP-18)
+				nn(USA/NNP-22,Chicago/NNP-20)
+				prep_in(Laboratory/NNP-18,USA/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1980-1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980%E2%80%9381_in_English_football</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Chicago</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Chicago</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1981</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1981</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Argonne National Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Argonne_National_Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1977 Furrer applied for selection as an astronaut for the first Spacelab mission.	</value>
+
+		<annotated-sentence>	In [[1977|1977]] [[Furrer|Reinhard_Furrer]] applied for [[selection|Selection]] as [[an astronaut|Astronaut]] for the first [[Spacelab|Spacelab]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1977 [[Furrer|Reinhard_Furrer]] applied for selection as [[an astronaut|Astronaut]] for the first Spacelab mission.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(applied/VBD-4,1977/CD-2)
+				nsubj(applied/VBD-4,Furrer/NNP-3)
+				prep_for(applied/VBD-4,selection/NN-6)
+				det(astronaut/NN-9,an/DT-8)
+				prep_as(applied/VBD-4,astronaut/NN-9)
+				det(mission/NN-14,the/DT-11)
+				amod(mission/NN-14,first/JJ-12)
+				amod(mission/NN-14,Spacelab/JJ-13)
+				prep_for(astronaut/NN-9,mission/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Furrer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Reinhard_Furrer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He made it into the final round of candidates, although Ulf Merbold was finally selected.	</value>
+
+		<annotated-sentence>	He made it into [[the final round|Boxing]] of [[candidates|Candidate]], although [[Ulf Merbold|Ulf_Merbold]] was finally selected.	</annotated-sentence>
+
+		<pattern_crowdsource>	He made it into the final round of candidates, although Ulf Merbold was finally selected.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,He/PRP-1)
+				dobj(made/VBD-2,it/PRP-3)
+				det(round/NN-7,the/DT-5)
+				amod(round/NN-7,final/JJ-6)
+				prep_into(made/VBD-2,round/NN-7)
+				prep_of(round/NN-7,candidates/NNS-9)
+				mark(selected/VBN-16,although/IN-11)
+				nn(Merbold/NNP-13,Ulf/NNP-12)
+				nsubjpass(selected/VBN-16,Merbold/NNP-13)
+				auxpass(selected/VBN-16,was/VBD-14)
+				advmod(selected/VBN-16,finally/RB-15)
+				advcl(made/VBD-2,selected/VBN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the final round</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boxing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidates</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ulf Merbold</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ulf_Merbold</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1982, the astronauts for the first German Spacelab mission were selected from the finalists for the first mission, and Furrer was one of the two chosen.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-13,1982/CD-2)
+				det(astronauts/NNS-5,the/DT-4)
+				nsubjpass(selected/VBN-13,astronauts/NNS-5)
+				det(mission/NN-11,the/DT-7)
+				amod(mission/NN-11,first/JJ-8)
+				amod(mission/NN-11,German/JJ-9)
+				amod(mission/NN-11,Spacelab/JJ-10)
+				prep_for(astronauts/NNS-5,mission/NN-11)
+				auxpass(selected/VBN-13,were/VBD-12)
+				det(finalists/NNS-16,the/DT-15)
+				prep_from(selected/VBN-13,finalists/NNS-16)
+				det(mission/NN-20,the/DT-18)
+				amod(mission/NN-20,first/JJ-19)
+				prep_for(finalists/NNS-16,mission/NN-20)
+				nsubj(one/CD-25,Furrer/NNP-23)
+				cop(one/CD-25,was/VBD-24)
+				conj_and(selected/VBN-13,one/CD-25)
+				det(two/CD-28,the/DT-27)
+				prep_of(one/CD-25,two/CD-28)
+				partmod(two/CD-28,chosen/VBN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a payload specialist on STS-61-A (D1), which was launched October 30, 1985.	</value>
+
+		<annotated-sentence>	He was [[a payload specialist|Payload_Specialist]] on [[STS-61-A|STS-61-A]] (D1), which was launched October 30, 1985.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a payload specialist on [[STS-61-A|STS-61-A]] (D1), which was launched October 30, 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,He/PRP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,payload/NN-4)
+				prep_on(specialist/NN-5,STS-61-A/NN-7)
+				appos(STS-61-A/NN-7,D1/NN-9)
+				nsubjpass(launched/VBN-14,which/WDT-12)
+				auxpass(launched/VBN-14,was/VBD-13)
+				rcmod(STS-61-A/NN-7,launched/VBN-14)
+				tmod(launched/VBN-14,October/NNP-15)
+				num(October/NNP-15,30/CD-16)
+				num(October/NNP-15,1985/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a payload specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-A</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-A</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Reinhard_Furrer http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-A
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-A http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Reinhard_Furrer
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-A http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Reinhard_Furrer
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The other payload specialists on the flight were Ernst Messerschmid and Wubbo Ockels (Netherlands).	</value>
+
+		<annotated-sentence>	[[The other|The_Other]] payload specialists on [[the flight|Flight]] were [[Ernst Messerschmid|Ernst_Messerschmid]] and [[Wubbo Ockels|Wubbo_Ockels]] ([[Netherlands|Netherlands]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	The other payload specialists on the flight were Ernst Messerschmid and [[Wubbo Ockels|Wubbo_Ockels]] ([[Netherlands|Netherlands]]).	</pattern_crowdsource>
+
+
+		<tree>
+				det(specialists/NNS-4,The/DT-1)
+				amod(specialists/NNS-4,other/JJ-2)
+				nn(specialists/NNS-4,payload/NN-3)
+				nsubj(Messerschmid/NNP-10,specialists/NNS-4)
+				det(flight/NN-7,the/DT-6)
+				prep_on(specialists/NNS-4,flight/NN-7)
+				cop(Messerschmid/NNP-10,were/VBD-8)
+				nn(Messerschmid/NNP-10,Ernst/NNP-9)
+				nn(Ockels/NNP-13,Wubbo/NNP-12)
+				conj_and(Messerschmid/NNP-10,Ockels/NNP-13)
+				appos(Ockels/NNP-13,Netherlands/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The other</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Other</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ernst Messerschmid</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ernst_Messerschmid</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wubbo Ockels</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Wubbo_Ockels</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Netherlands</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Netherlands</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Wubbo_Ockels http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Netherlands
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Wubbo_Ockels http://dbpedia.org/ontology/deathPlace http://dbpedia.org/resource/Netherlands
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Wubbo_Ockels http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Netherlands
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his spaceflight he became a professor in 1987 as well as the Director of the Institute of Space Sciences at the Free University of Berlin.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(spaceflight/NN-3,his/PRP$-2)
+				prep_after(professor/NN-7,spaceflight/NN-3)
+				nsubj(professor/NN-7,he/PRP-4)
+				cop(professor/NN-7,became/VBD-5)
+				det(professor/NN-7,a/DT-6)
+				prep_in(professor/NN-7,1987/CD-9)
+				det(Director/NN-14,the/DT-13)
+				conj_and(professor/NN-7,Director/NN-14)
+				det(Institute/NNP-17,the/DT-16)
+				prep_of(Director/NN-14,Institute/NNP-17)
+				nn(Sciences/NNPS-20,Space/NNP-19)
+				prep_of(Institute/NNP-17,Sciences/NNPS-20)
+				det(University/NNP-24,the/DT-22)
+				nn(University/NNP-24,Free/NNP-23)
+				prep_at(professor/NN-7,University/NNP-24)
+				prep_of(University/NNP-24,Berlin/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Furrer was an avid pilot.	</value>
+
+		<annotated-sentence>	Furrer was an avid pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	Furrer was an avid pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,Furrer/NNP-1)
+				cop(pilot/NN-5,was/VBD-2)
+				det(pilot/NN-5,an/DT-3)
+				amod(pilot/NN-5,avid/JJ-4)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He earned his pilot license in 1974, doing several long distance trips with one engine planes - including a flight over the inland ice of Greenland in 1979 and a solo flight from Germany to Quito, Ecuador in 1981.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(earned/VBD-2,He/PRP-1)
+				poss(license/NN-5,his/PRP$-3)
+				nn(license/NN-5,pilot/NN-4)
+				dobj(earned/VBD-2,license/NN-5)
+				prep_in(earned/VBD-2,1974/CD-7)
+				partmod(earned/VBD-2,doing/VBG-9)
+				amod(trips/NNS-13,several/JJ-10)
+				amod(trips/NNS-13,long/JJ-11)
+				nn(trips/NNS-13,distance/NN-12)
+				dobj(doing/VBG-9,trips/NNS-13)
+				num(planes/NNS-17,one/CD-15)
+				nn(planes/NNS-17,engine/NN-16)
+				prep_with(doing/VBG-9,planes/NNS-17)
+				det(flight/NN-21,a/DT-20)
+				prep_including(doing/VBG-9,flight/NN-21)
+				det(flight/NN-33,the/DT-23)
+				advmod(flight/NN-33,inland/RB-24)
+				pobj(inland/RB-24,ice/NN-25)
+				prep_of(ice/NN-25,Greenland/NNP-27)
+				prep_in(inland/RB-24,1979/CD-29)
+				det(solo/NN-32,a/DT-31)
+				prep_in(inland/RB-24,solo/NN-32)
+				conj_and(1979/CD-29,solo/NN-32)
+				prep_over(flight/NN-21,flight/NN-33)
+				prep_from(flight/NN-33,Germany/NNP-35)
+				nn(Ecuador/NNP-39,Quito/NNP-37)
+				prep_to(doing/VBG-9,Ecuador/NNP-39)
+				prep_in(Ecuador/NNP-39,1981/CD-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His love for planes finally cost him his life, as he died in a plane crash during a flight show on the Johannisthal Air Field (Berlin).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(love/NN-2,His/PRP$-1)
+				nsubj(cost/VBD-6,love/NN-2)
+				prep_for(love/NN-2,planes/NNS-4)
+				advmod(cost/VBD-6,finally/RB-5)
+				iobj(cost/VBD-6,him/PRP-7)
+				poss(life/NN-9,his/PRP$-8)
+				dobj(cost/VBD-6,life/NN-9)
+				mark(died/VBD-13,as/IN-11)
+				nsubj(died/VBD-13,he/PRP-12)
+				dep(life/NN-9,died/VBD-13)
+				det(crash/NN-17,a/DT-15)
+				nn(crash/NN-17,plane/NN-16)
+				prep_in(died/VBD-13,crash/NN-17)
+				det(show/NN-21,a/DT-19)
+				nn(show/NN-21,flight/NN-20)
+				prep_during(died/VBD-13,show/NN-21)
+				det(Field/NNP-26,the/DT-23)
+				nn(Field/NNP-26,Johannisthal/NNP-24)
+				nn(Field/NNP-26,Air/NNP-25)
+				prep_on(show/NN-21,Field/NNP-26)
+				appos(Field/NNP-26,Berlin/NNP-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a passenger on a flight of the historic Bf 108 after the end of the official flight show when the pilot Gerd Kahdemann lost control of the plane shortly after 6:00 p.m Both Kahdemann and Furrer were killed immediately.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(passenger/NN-4,He/PRP-1)
+				cop(passenger/NN-4,was/VBD-2)
+				det(passenger/NN-4,a/DT-3)
+				det(flight/NN-7,a/DT-6)
+				prep_on(passenger/NN-4,flight/NN-7)
+				det(Bf/NN-11,the/DT-9)
+				amod(Bf/NN-11,historic/JJ-10)
+				prep_of(flight/NN-7,Bf/NN-11)
+				dep(killed/VBN-40,108/CD-12)
+				mark(killed/VBN-40,after/IN-13)
+				det(end/NN-15,the/DT-14)
+				nsubjpass(killed/VBN-40,end/NN-15)
+				det(show/NN-20,the/DT-17)
+				amod(show/NN-20,official/JJ-18)
+				nn(show/NN-20,flight/NN-19)
+				prep_of(end/NN-15,show/NN-20)
+				advmod(lost/VBD-26,when/WRB-21)
+				det(Kahdemann/NNP-25,the/DT-22)
+				nn(Kahdemann/NNP-25,pilot/NN-23)
+				nn(Kahdemann/NNP-25,Gerd/NNP-24)
+				nsubj(lost/VBD-26,Kahdemann/NNP-25)
+				rcmod(show/NN-20,lost/VBD-26)
+				dobj(lost/VBD-26,control/NN-27)
+				det(plane/NN-30,the/DT-29)
+				prep_of(control/NN-27,plane/NN-30)
+				advmod(lost/VBD-26,shortly/RB-31)
+				prep_after(lost/VBD-26,6:00/CD-33)
+				advmod(6:00/CD-33,p.m/RB-34)
+				preconj(6:00/CD-33,Both/CC-35)
+				conj(6:00/CD-33,Kahdemann/NNP-36)
+				conj(6:00/CD-33,Furrer/NNP-38)
+				conj_and(Kahdemann/NNP-36,Furrer/NNP-38)
+				auxpass(killed/VBN-40,were/VBD-39)
+				advcl(passenger/NN-4,killed/VBN-40)
+				advmod(killed/VBN-40,immediately/RB-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

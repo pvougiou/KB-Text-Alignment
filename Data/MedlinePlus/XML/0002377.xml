@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Leukemia is a type of blood cancer that begins in the bone marrow.</value>
+		<pattern_crowdsource> [[Leukemia|C0023418]] is a type of [[blood cancer|C0376544]] that begins in the [[bone marrow|C0005953]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Leukemia</surface-form>
+				<RDF-ID>C0023418</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>type</surface-form>
+				<RDF-ID>C1547052</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood cancer</surface-form>
+				<RDF-ID>C0376544</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bone marrow</surface-form>
+				<RDF-ID>C0005953</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0023418 ISA C0376544</triple>
+			<triple>C0005953 LOCATION_OF C0376544</triple>
+			<triple>C0005953 LOCATION_OF C0023418</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

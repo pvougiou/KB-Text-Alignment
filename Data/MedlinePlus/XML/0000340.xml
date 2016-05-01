@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Is my child using the inhaler the right way?</value>
+		<pattern_crowdsource> Is my [[child|C0008059]] using the [[inhaler|C0021461]] the right way?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>inhaler</surface-form>
+				<RDF-ID>C0021461</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>right</surface-form>
+				<RDF-ID>C0205090</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0008059 USES C0021461</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- How can I make sure my child can use the medicines at school?</value>
+		<pattern_crowdsource> - How can I make sure my [[child|C0008059]] can use the [[medicines|C0013227]] at school?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0008059</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What types of exercises or activities are better for a child with asthma to do?</value>
+		<pattern_crowdsource> What types of [[exercises|C0015259]] or activities are better for a [[child|C0008059]] with [[asthma|C0004096]] to do?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>types</surface-form>
+				<RDF-ID>C0332307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercises</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>activities</surface-form>
+				<RDF-ID>C0441655</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>better</surface-form>
+				<RDF-ID>C0332272</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>child</surface-form>
+				<RDF-ID>C0008059</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>asthma</surface-form>
+				<RDF-ID>C0004096</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0015259 TREATS C0008059</triple>
+			<triple>C0004096 PROCESS_OF C0008059</triple>
+			<triple>C0015259 TREATS C0004096</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

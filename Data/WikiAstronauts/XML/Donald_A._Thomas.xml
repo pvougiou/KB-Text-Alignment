@@ -1,0 +1,2653 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Donald Alan Thomas, Ph.D., is an American engineer and a former NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Donald Alan Thomas|Donald_A._Thomas]], Ph.D., is an American [[engineer|Engineer]] and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Donald Alan Thomas|Donald_A._Thomas]], Ph.D., is an American engineer and a former [[NASA|NASA]] [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Thomas/NNP-3,Donald/NNP-1)
+				nn(Thomas/NNP-3,Alan/NNP-2)
+				nsubj(engineer/NN-10,Thomas/NNP-3)
+				appos(Thomas/NNP-3,Ph.D./NNP-5)
+				cop(engineer/NN-10,is/VBZ-7)
+				det(engineer/NN-10,an/DT-8)
+				amod(engineer/NN-10,American/JJ-9)
+				det(astronaut/NN-15,a/DT-12)
+				amod(astronaut/NN-15,former/JJ-13)
+				nn(astronaut/NN-15,NASA/NNP-14)
+				conj_and(engineer/NN-10,astronaut/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Donald Alan Thomas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Donald_A._Thomas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated from Cleveland Heights High School, Cleveland Heights, Ohio, in 1973; received a bachelor of science degree in Physics from Case Western Reserve University in 1977, and a master of science degree and a doctorate in Materials Science from Cornell University in 1980 and 1982, respectively.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(received/VBD-16,Graduated/VBN-1)
+				nn(School/NNP-6,Cleveland/NNP-3)
+				nn(School/NNP-6,Heights/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(Graduated/VBN-1,School/NNP-6)
+				nn(Heights/NNP-9,Cleveland/NNP-8)
+				nsubj(received/VBD-16,Heights/NNP-9)
+				appos(Heights/NNP-9,Ohio/NNP-11)
+				prep_in(Heights/NNP-9,1973/CD-14)
+				det(bachelor/NN-18,a/DT-17)
+				dobj(received/VBD-16,bachelor/NN-18)
+				nn(degree/NN-21,science/NN-20)
+				prep_of(bachelor/NN-18,degree/NN-21)
+				prep_in(degree/NN-21,Physics/NN-23)
+				nn(University/NNP-28,Case/NNP-25)
+				nn(University/NNP-28,Western/NNP-26)
+				nn(University/NNP-28,Reserve/NNP-27)
+				prep_from(received/VBD-16,University/NNP-28)
+				prep_in(University/NNP-28,1977/CD-30)
+				det(master/NN-34,a/DT-33)
+				prep_from(received/VBD-16,master/NN-34)
+				conj_and(University/NNP-28,master/NN-34)
+				nn(degree/NN-37,science/NN-36)
+				prep_of(master/NN-34,degree/NN-37)
+				det(doctorate/NN-40,a/DT-39)
+				conj_and(University/NNP-28,doctorate/NN-40)
+				conj_and(master/NN-34,doctorate/NN-40)
+				nn(Science/NNP-43,Materials/NNPS-42)
+				prep_in(doctorate/NN-40,Science/NNP-43)
+				nn(University/NNP-46,Cornell/NNP-45)
+				prep_from(received/VBD-16,University/NNP-46)
+				prep_in(University/NNP-46,1980/CD-48)
+				prep_in(University/NNP-46,1982/CD-50)
+				conj_and(1980/CD-48,1982/CD-50)
+				advmod(received/VBD-16,respectively/RB-52)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His dissertation involved evaluating the effect of crystalline defects and sample purity on the superconducting properties of niobium.	</value>
+
+		<annotated-sentence>	His [[dissertation|Dissertation,_Honey]] involved evaluating the effect of crystalline defects and sample purity on the superconducting [[properties|Property]] of [[niobium|Niobium]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His dissertation involved evaluating the effect of crystalline defects and sample purity on the superconducting properties of niobium.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(dissertation/NN-2,His/PRP$-1)
+				nsubj(involved/VBN-3,dissertation/NN-2)
+				xcomp(involved/VBN-3,evaluating/VBG-4)
+				det(effect/NN-6,the/DT-5)
+				dobj(evaluating/VBG-4,effect/NN-6)
+				amod(defects/NNS-9,crystalline/JJ-8)
+				prep_of(effect/NN-6,defects/NNS-9)
+				nn(purity/NN-12,sample/NN-11)
+				conj_and(involved/VBN-3,purity/NN-12)
+				det(properties/NNS-16,the/DT-14)
+				amod(properties/NNS-16,superconducting/JJ-15)
+				prep_on(purity/NN-12,properties/NNS-16)
+				prep_of(properties/NNS-16,niobium/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>dissertation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dissertation,_Honey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>properties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Property</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>niobium</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Niobium</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Tau Beta Pi; Association of Space Explorers (ASE).	</value>
+
+		<annotated-sentence>	[[Tau Beta Pi|Tau_Beta_Pi]]; Association of [[Space Explorers|The_Space_Explorers]] ([[ASE|Ase_(Yoruba)]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Tau Beta Pi; Association of Space Explorers (ASE).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Pi/NNP-3,Tau/NNP-1)
+				nn(Pi/NNP-3,Beta/NNP-2)
+				dep(Pi/NNP-3,Association/NNP-5)
+				nn(Explorers/NNS-8,Space/NNP-7)
+				prep_of(Association/NNP-5,Explorers/NNS-8)
+				appos(Explorers/NNS-8,ASE/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Tau Beta Pi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tau_Beta_Pi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Space_Explorers</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ASE</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ase_(Yoruba)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Graduated with Honors from Case Western Reserve University in 1977.	</value>
+
+		<annotated-sentence>	Graduated with Honors from [[Case Western Reserve University|Case_Western_Reserve_University]] in [[1977|1977]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Graduated with Honors from Case Western Reserve University in 1977.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_with(Graduated/VBN-1,Honors/NNS-3)
+				nn(University/NNP-8,Case/NNP-5)
+				nn(University/NNP-8,Western/NNP-6)
+				nn(University/NNP-8,Reserve/NNP-7)
+				prep_from(Honors/NNS-3,University/NNP-8)
+				prep_in(University/NNP-8,1977/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Case Western Reserve University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Case_Western_Reserve_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1977</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1977</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recipient of NASA Sustained Superior Performance Award, 1989.	</value>
+
+		<annotated-sentence>	[[Recipient|Lists_of_Victoria_Cross_recipients]] of [[NASA|NASA]] Sustained Superior [[Performance|Performance]] [[Award|Award]], [[1989|1989]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Recipient of [[NASA|NASA]] Sustained Superior Performance Award, 1989.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_of(Recipient/NN-1,NASA/NNP-3)
+				amod(Award/NN-7,Sustained/JJ-4)
+				nn(Award/NN-7,Superior/NNP-5)
+				nn(Award/NN-7,Performance/NNP-6)
+				dep(Recipient/NN-1,Award/NN-7)
+				amod(Award/NN-7,1989/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Recipient</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lists_of_Victoria_Cross_recipients</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Performance</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Performance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Recipient of 4 NASA Group Achievement Awards, 4 NASA Space Flight Medals, 2 NASA Exceptional Service Medals, and the NASA Distinguished Service Medal.	</value>
+
+		<annotated-sentence>	[[Recipient|Lists_of_Victoria_Cross_recipients]] of 4 [[NASA|NASA]] Group [[Achievement|Xbox_Live]] Awards, 4 [[NASA|NASA]] Space Flight [[Medals|Service_medal]], 2 [[NASA|NASA]] [[Exceptional|Exceptional_object]] [[Service Medals|Service_medal]], and [[the NASA Distinguished Service Medal|NASA_Distinguished_Service_Medal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Recipient of 4 [[NASA|NASA]] Group Achievement Awards, 4 [[NASA|NASA]] Space Flight Medals, 2 [[NASA|NASA]] Exceptional Service Medals, and the [[NASA|NASA]] Distinguished Service Medal.	</pattern_crowdsource>
+
+
+		<tree>
+				num(Awards/NNS-7,4/CD-3)
+				nn(Awards/NNS-7,NASA/NNP-4)
+				nn(Awards/NNS-7,Group/NNP-5)
+				nn(Awards/NNS-7,Achievement/NNP-6)
+				prep_of(Recipient/NN-1,Awards/NNS-7)
+				appos(Recipient/NN-1,4/CD-9)
+				nn(Medals/NNPS-13,NASA/NNP-10)
+				nn(Medals/NNPS-13,Space/NNP-11)
+				nn(Medals/NNPS-13,Flight/NNP-12)
+				dep(4/CD-9,Medals/NNPS-13)
+				appos(Recipient/NN-1,2/CD-15)
+				nn(Medals/NNPS-19,NASA/NNP-16)
+				nn(Medals/NNPS-19,Exceptional/NNP-17)
+				nn(Medals/NNPS-19,Service/NNP-18)
+				dep(2/CD-15,Medals/NNPS-19)
+				det(Medal/NN-26,the/DT-22)
+				nn(Medal/NN-26,NASA/NNP-23)
+				nn(Medal/NN-26,Distinguished/NNP-24)
+				nn(Medal/NN-26,Service/NNP-25)
+				appos(Recipient/NN-1,Medal/NN-26)
+				conj_and(2/CD-15,Medal/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Recipient</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lists_of_Victoria_Cross_recipients</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Achievement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Xbox_Live</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Medals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Exceptional</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Exceptional_object</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Service Medals</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Service_medal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the NASA Distinguished Service Medal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Distinguished_Service_Medal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Dr. Thomas has been nominated by Towson to be one of the USA Science and Engineering Festival's Nifty Fifty Speakers who will speak about his work and career to middle and high school students in October 2010.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Thomas/NNP-2,Dr./NNP-1)
+				nsubjpass(nominated/VBN-5,Thomas/NNP-2)
+				aux(nominated/VBN-5,has/VBZ-3)
+				auxpass(nominated/VBN-5,been/VBN-4)
+				agent(nominated/VBN-5,Towson/NNP-7)
+				aux(one/CD-10,to/TO-8)
+				cop(one/CD-10,be/VB-9)
+				xcomp(nominated/VBN-5,one/CD-10)
+				det(Science/NNP-14,the/DT-12)
+				nn(Science/NNP-14,USA/NNP-13)
+				poss(Speakers/NNS-21,Science/NNP-14)
+				nn(Festival/NNP-17,Engineering/NNP-16)
+				conj_and(Science/NNP-14,Festival/NNP-17)
+				poss(Speakers/NNS-21,Festival/NNP-17)
+				nn(Speakers/NNS-21,Nifty/NNP-19)
+				num(Speakers/NNS-21,Fifty/CD-20)
+				prep_of(one/CD-10,Speakers/NNS-21)
+				nsubj(speak/VB-24,who/WP-22)
+				aux(speak/VB-24,will/MD-23)
+				rcmod(one/CD-10,speak/VB-24)
+				poss(work/NN-27,his/PRP$-26)
+				prep_about(speak/VB-24,work/NN-27)
+				prep_about(speak/VB-24,career/NN-29)
+				conj_and(work/NN-27,career/NN-29)
+				amod(students/NNS-35,middle/JJ-31)
+				conj_and(middle/JJ-31,high/JJ-33)
+				amod(students/NNS-35,high/JJ-33)
+				nn(students/NNS-35,school/NN-34)
+				prep_to(speak/VB-24,students/NNS-35)
+				prep_in(students/NNS-35,October/NNP-37)
+				num(October/NNP-37,2010/CD-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following graduation from Cornell University in 1982, Dr. Thomas joined AT&T Bell Laboratories in Princeton, New Jersey, working as a Senior Member of the Technical Staff.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(joined/VBD-11,graduation/NN-2)
+				nn(University/NNP-5,Cornell/NNP-4)
+				prep_from(graduation/NN-2,University/NNP-5)
+				prep_in(University/NNP-5,1982/CD-7)
+				nn(Thomas/NNP-10,Dr./NNP-9)
+				nsubj(joined/VBD-11,Thomas/NNP-10)
+				nn(Laboratories/NNPS-14,AT&T/NNP-12)
+				nn(Laboratories/NNPS-14,Bell/NNP-13)
+				dobj(joined/VBD-11,Laboratories/NNPS-14)
+				nn(Jersey/NNP-19,Princeton/NNP-16)
+				appos(Jersey/NNP-19,New/NNP-18)
+				prep_in(Laboratories/NNPS-14,Jersey/NNP-19)
+				partmod(joined/VBD-11,working/VBG-21)
+				det(Member/NNP-25,a/DT-23)
+				amod(Member/NNP-25,Senior/JJ-24)
+				prep_as(working/VBG-21,Member/NNP-25)
+				det(Staff/NNP-29,the/DT-27)
+				nn(Staff/NNP-29,Technical/NNP-28)
+				prep_of(Member/NNP-25,Staff/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His responsibilities there included the development of advanced materials and processes for high density interconnections of semiconductor devices.	</value>
+
+		<annotated-sentence>	His responsibilities there included the development of advanced [[materials|Material]] and processes for high density [[interconnections|Interconnection]] of [[semiconductor devices|Semiconductor_device]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His responsibilities there included the development of advanced materials and processes for high density interconnections of semiconductor devices.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(responsibilities/NNS-2,His/PRP$-1)
+				nsubj(included/VBD-4,responsibilities/NNS-2)
+				advmod(included/VBD-4,there/RB-3)
+				det(development/NN-6,the/DT-5)
+				dobj(included/VBD-4,development/NN-6)
+				amod(materials/NNS-9,advanced/JJ-8)
+				prep_of(development/NN-6,materials/NNS-9)
+				prep_of(development/NN-6,processes/NNS-11)
+				conj_and(materials/NNS-9,processes/NNS-11)
+				amod(interconnections/NNS-15,high/JJ-13)
+				nn(interconnections/NNS-15,density/NN-14)
+				prep_for(included/VBD-4,interconnections/NNS-15)
+				nn(devices/NNS-18,semiconductor/NN-17)
+				prep_of(interconnections/NNS-15,devices/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>materials</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interconnections</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interconnection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>semiconductor devices</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Semiconductor_device</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also an adjunct professor in the Physics Department at Trenton State College in New Jersey.	</value>
+
+		<annotated-sentence>	He was also an adjunct professor in the [[Physics|Physics]] Department at [[Trenton State College|The_College_of_New_Jersey]] in [[New Jersey|New_Jersey]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also an adjunct professor in the Physics Department at [[Trenton State College|The_College_of_New_Jersey]] in [[New Jersey|New_Jersey]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(professor/NN-6,He/PRP-1)
+				cop(professor/NN-6,was/VBD-2)
+				advmod(professor/NN-6,also/RB-3)
+				det(professor/NN-6,an/DT-4)
+				nn(professor/NN-6,adjunct/NN-5)
+				det(Department/NNP-10,the/DT-8)
+				nn(Department/NNP-10,Physics/NN-9)
+				prep_in(professor/NN-6,Department/NNP-10)
+				nn(College/NNP-14,Trenton/NNP-12)
+				nn(College/NNP-14,State/NNP-13)
+				prep_at(professor/NN-6,College/NNP-14)
+				nn(Jersey/NNP-17,New/NNP-16)
+				prep_in(College/NNP-14,Jersey/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Physics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Physics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Trenton State College</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_College_of_New_Jersey</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New Jersey</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_Jersey</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/The_College_of_New_Jersey http://dbpedia.org/ontology/state http://dbpedia.org/resource/New_Jersey
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He holds two patents and has authored several technical papers.	</value>
+
+		<annotated-sentence>	He holds [[two patents|Patent]] and has authored [[several technical papers|Scientific_journal]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He holds two patents and has authored several technical papers.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,He/PRP-1)
+				nsubj(authored/VBN-7,He/PRP-1)
+				num(patents/NNS-4,two/CD-3)
+				dobj(holds/VBZ-2,patents/NNS-4)
+				aux(authored/VBN-7,has/VBZ-6)
+				conj_and(holds/VBZ-2,authored/VBN-7)
+				amod(papers/NNS-10,several/JJ-8)
+				amod(papers/NNS-10,technical/JJ-9)
+				dobj(authored/VBN-7,papers/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two patents</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patent</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>several technical papers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scientific_journal</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He left AT&T in 1987 to work for Lockheed Engineering and Sciences Company in Houston, Texas, where his responsibilities involved reviewing materials used in Space Shuttle payloads.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(left/VBD-2,He/PRP-1)
+				dobj(left/VBD-2,AT&T/NNP-3)
+				prep_in(AT&T/NNP-3,1987/CD-5)
+				aux(work/VB-7,to/TO-6)
+				xcomp(left/VBD-2,work/VB-7)
+				nn(Engineering/NNP-10,Lockheed/NNP-9)
+				prep_for(work/VB-7,Engineering/NNP-10)
+				nn(Company/NNP-13,Sciences/NNP-12)
+				prep_for(work/VB-7,Company/NNP-13)
+				conj_and(Engineering/NNP-10,Company/NNP-13)
+				nn(Texas/NNP-17,Houston/NNP-15)
+				prep_in(work/VB-7,Texas/NNP-17)
+				advmod(used/VBN-25,where/WRB-19)
+				poss(responsibilities/NNS-21,his/PRP$-20)
+				nsubj(used/VBN-25,responsibilities/NNS-21)
+				partmod(responsibilities/NNS-21,involved/VBN-22)
+				xcomp(involved/VBN-22,reviewing/VBG-23)
+				dobj(reviewing/VBG-23,materials/NNS-24)
+				advcl(left/VBD-2,used/VBN-25)
+				nn(payloads/NNS-29,Space/NN-27)
+				nn(payloads/NNS-29,Shuttle/NNP-28)
+				prep_in(used/VBN-25,payloads/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1988 he joined NASA's Lyndon B. Johnson Space Center as a Materials Engineer.	</value>
+
+		<annotated-sentence>	In [[1988|1988]] he joined [[NASA|NASA]]'s Lyndon B. Johnson [[Space|NASA]] [[Center|Goddard_Space_Flight_Center]] as [[a Materials Engineer|Materials_science]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1988 he joined [[NASA|NASA]]'s Lyndon B. Johnson [[Space|NASA]] [[Center|Goddard_Space_Flight_Center]] as a Materials Engineer.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-4,1988/CD-2)
+				nsubj(joined/VBD-4,he/PRP-3)
+				poss(Center/NNP-11,NASA/NNP-5)
+				nn(Center/NNP-11,Lyndon/NNP-7)
+				nn(Center/NNP-11,B./NNP-8)
+				nn(Center/NNP-11,Johnson/NNP-9)
+				nn(Center/NNP-11,Space/NNP-10)
+				dobj(joined/VBD-4,Center/NNP-11)
+				det(Engineer/NNP-15,a/DT-13)
+				nn(Engineer/NNP-15,Materials/NNPS-14)
+				prep_as(Center/NNP-11,Engineer/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Goddard_Space_Flight_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Materials Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Materials_science</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Goddard_Space_Flight_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Goddard_Space_Flight_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His work involved lifetime projections of advanced composite materials for use on Space Station Freedom.	</value>
+
+		<annotated-sentence>	His [[work|Work]] involved lifetime projections of advanced composite materials for use on [[Space Station Freedom|Space_Station_Freedom]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His work involved lifetime projections of advanced composite materials for use on Space Station Freedom.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(work/NN-2,His/PRP$-1)
+				nsubj(involved/VBN-3,work/NN-2)
+				nn(projections/NNS-5,lifetime/NN-4)
+				dobj(involved/VBN-3,projections/NNS-5)
+				amod(materials/NNS-9,advanced/JJ-7)
+				amod(materials/NNS-9,composite/JJ-8)
+				prep_of(projections/NNS-5,materials/NNS-9)
+				prep_for(materials/NNS-9,use/NN-11)
+				nn(Freedom/NNP-15,Space/NN-13)
+				nn(Freedom/NNP-15,Station/NNP-14)
+				prep_on(involved/VBN-3,Freedom/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>work</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Work</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Station Freedom</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Station_Freedom</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was also a Principal Investigator for the Microgravity Disturbances Experiment, a middeck crystal growth experiment which flew on STS-32 in January 1990.	</value>
+
+		<annotated-sentence>	He was also [[a Principal Investigator|Principal_investigator]] for the [[Microgravity|Microgravity_(album)]] Disturbances [[Experiment|Experiment]], a [[middeck|Mid-Deck_Tanker]] [[crystal growth|Crystal_growth]] [[experiment|Experiment]] which flew on [[STS-32|STS-32]] in [[January 1990|1990]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was also a Principal Investigator for the Microgravity Disturbances Experiment, a middeck crystal growth experiment which flew on STS-32 in January 1990.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Investigator/NN-6,He/PRP-1)
+				cop(Investigator/NN-6,was/VBD-2)
+				advmod(Investigator/NN-6,also/RB-3)
+				det(Investigator/NN-6,a/DT-4)
+				nn(Investigator/NN-6,Principal/NN-5)
+				det(Experiment/NNP-11,the/DT-8)
+				nn(Experiment/NNP-11,Microgravity/NNP-9)
+				nn(Experiment/NNP-11,Disturbances/NNPS-10)
+				prep_for(Investigator/NN-6,Experiment/NNP-11)
+				det(experiment/NN-17,a/DT-13)
+				nn(experiment/NN-17,middeck/NN-14)
+				nn(experiment/NN-17,crystal/NN-15)
+				nn(experiment/NN-17,growth/NN-16)
+				appos(Experiment/NNP-11,experiment/NN-17)
+				nsubj(flew/VBD-19,which/WDT-18)
+				rcmod(experiment/NN-17,flew/VBD-19)
+				prep_on(flew/VBD-19,STS-32/NN-21)
+				prep_in(flew/VBD-19,January/NNP-23)
+				num(January/NNP-23,1990/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Principal Investigator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Principal_investigator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>middeck</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mid-Deck_Tanker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>crystal growth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crystal_growth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-32</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-32</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This experiment investigated the effects of Orbiter and crew-induced disturbances on the growth of crystals in space.	</value>
+
+		<annotated-sentence>	This [[experiment|Experiment]] investigated the effects of [[Orbiter|Orbiter]] and crew-induced disturbances on the growth of crystals in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This experiment investigated the effects of Orbiter and crew-induced disturbances on the growth of crystals in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(experiment/NN-2,This/DT-1)
+				nsubj(investigated/VBD-3,experiment/NN-2)
+				det(effects/NNS-5,the/DT-4)
+				dobj(investigated/VBD-3,effects/NNS-5)
+				prep_of(effects/NNS-5,Orbiter/NNP-7)
+				amod(disturbances/NNS-10,crew-induced/JJ-9)
+				prep_of(effects/NNS-5,disturbances/NNS-10)
+				conj_and(Orbiter/NNP-7,disturbances/NNS-10)
+				det(growth/NN-13,the/DT-12)
+				prep_on(investigated/VBD-3,growth/NN-13)
+				prep_of(growth/NN-13,crystals/NNS-15)
+				prep_in(crystals/NNS-15,space/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>experiment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Orbiter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Don Thomas is now head of the Willard Hackerman Academy of Mathematics and Science at Towson University in Towson, Maryland.	</value>
+
+		<annotated-sentence>	Don Thomas is now head of the Willard Hackerman [[Academy|Academy]] of Mathematics and Science at [[Towson University|Towson_University]] in Towson, Maryland.	</annotated-sentence>
+
+		<pattern_crowdsource>	Don Thomas is now head of the Willard Hackerman Academy of Mathematics and Science at Towson University in Towson, Maryland.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Thomas/NNP-2,Don/NNP-1)
+				nsubj(head/NN-5,Thomas/NNP-2)
+				cop(head/NN-5,is/VBZ-3)
+				advmod(head/NN-5,now/RB-4)
+				det(Academy/NNP-10,the/DT-7)
+				nn(Academy/NNP-10,Willard/NNP-8)
+				nn(Academy/NNP-10,Hackerman/NNP-9)
+				prep_of(head/NN-5,Academy/NNP-10)
+				prep_of(Academy/NNP-10,Mathematics/NNPS-12)
+				prep_of(Academy/NNP-10,Science/NNP-14)
+				conj_and(Mathematics/NNPS-12,Science/NNP-14)
+				nn(University/NNP-17,Towson/NNP-16)
+				prep_at(head/NN-5,University/NNP-17)
+				nn(Maryland/NNP-21,Towson/NNP-19)
+				prep_in(University/NNP-17,Maryland/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Towson University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Towson_University</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a private pilot with over 250 hours in single engine land aircraft and gliders, and over 800 hours flying as mission specialist in NASA T-38 jet aircraft.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(pilot/NN-5,He/PRP-1)
+				cop(pilot/NN-5,is/VBZ-2)
+				det(pilot/NN-5,a/DT-3)
+				amod(pilot/NN-5,private/JJ-4)
+				conj_and(pilot/NN-5,pilot/NN-5)
+				quantmod(250/CD-8,over/IN-7)
+				num(hours/NNS-9,250/CD-8)
+				prep_with(pilot/NN-5,hours/NNS-9)
+				amod(aircraft/NN-14,single/JJ-11)
+				nn(aircraft/NN-14,engine/NN-12)
+				nn(aircraft/NN-14,land/NN-13)
+				prep_in(hours/NNS-9,aircraft/NN-14)
+				prep_in(hours/NNS-9,gliders/NNS-16)
+				conj_and(aircraft/NN-14,gliders/NNS-16)
+				num(hours/NNS-21,800/CD-20)
+				prep_over(pilot/NN-5,hours/NNS-21)
+				partmod(hours/NNS-21,flying/VBG-22)
+				nn(specialist/NN-25,mission/NN-24)
+				prep_as(flying/VBG-22,specialist/NN-25)
+				nn(aircraft/NN-30,NASA/NNP-27)
+				nn(aircraft/NN-30,T-38/NNP-28)
+				nn(aircraft/NN-30,jet/NN-29)
+				prep_in(specialist/NN-25,aircraft/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by NASA in January 1990, Dr. Thomas became an astronaut in July 1991.	</value>
+
+		<annotated-sentence>	Selected by [[NASA|NASA]] in [[January 1990|1990]], [[Dr. Thomas|Tommaso_Ciampa]] became [[an astronaut|Astronaut]] in [[July 1991|1991]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[NASA|NASA]] in January 1990, Dr. Thomas became [[an astronaut|Astronaut]] in July 1991.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(astronaut/NN-12,Selected/VBN-1)
+				agent(Selected/VBN-1,NASA/NNP-3)
+				prep_in(NASA/NNP-3,January/NNP-5)
+				num(January/NNP-5,1990/CD-6)
+				nn(Thomas/NNP-9,Dr./NNP-8)
+				nsubj(astronaut/NN-12,Thomas/NNP-9)
+				cop(astronaut/NN-12,became/VBD-10)
+				det(astronaut/NN-12,an/DT-11)
+				prep_in(astronaut/NN-12,July/NNP-14)
+				num(July/NNP-14,1991/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>January 1990</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1990</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Thomas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tommaso_Ciampa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1991</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1991</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Thomas has served in the Safety, Operations Development, and Payloads Branches of the Astronaut Office.	</value>
+
+		<annotated-sentence>	Thomas has served in the Safety, Operations Development, and [[Payloads|Payload_(air_and_space_craft)]] Branches of [[the Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Thomas has served in the Safety, Operations Development, and Payloads Branches of the Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBN-3,Thomas/NNP-1)
+				aux(served/VBN-3,has/VBZ-2)
+				det(Safety/NN-6,the/DT-5)
+				prep_in(served/VBN-3,Safety/NN-6)
+				nn(Development/NNP-9,Operations/NNP-8)
+				prep_in(served/VBN-3,Development/NNP-9)
+				conj_and(Safety/NN-6,Development/NNP-9)
+				nn(Branches/NNPS-13,Payloads/NNP-12)
+				prep_in(served/VBN-3,Branches/NNPS-13)
+				conj_and(Safety/NN-6,Branches/NNPS-13)
+				det(Office/NNP-17,the/DT-15)
+				nn(Office/NNP-17,Astronaut/NNP-16)
+				prep_of(Branches/NNPS-13,Office/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Payloads</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_(air_and_space_craft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was CAPCOM (spacecraft communicator) for Shuttle missions STS-47, 52 and 53.	</value>
+
+		<annotated-sentence>	He was [[CAPCOM|Capcom]] ([[spacecraft|Spacecraft]] communicator) for [[Shuttle missions|List_of_space_shuttle_missions]] [[STS-47|STS-47]], 52 and 53.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was CAPCOM (spacecraft communicator) for Shuttle missions STS-47, 52 and 53.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(CAPCOM/NNP-3,He/PRP-1)
+				cop(CAPCOM/NNP-3,was/VBD-2)
+				nn(communicator/NN-6,spacecraft/NN-5)
+				appos(CAPCOM/NNP-3,communicator/NN-6)
+				nn(STS-47/NN-11,Shuttle/NNP-9)
+				nn(STS-47/NN-11,missions/NNS-10)
+				prep_for(CAPCOM/NNP-3,STS-47/NN-11)
+				prep_for(CAPCOM/NNP-3,52/CD-13)
+				conj_and(STS-47/NN-11,52/CD-13)
+				prep_for(CAPCOM/NNP-3,53/CD-15)
+				conj_and(STS-47/NN-11,53/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-47</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-47</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From July 1999 to June 2000 he was Director of Operations for NASA at the Gagarin Cosmonaut Training Center in Star City, Moscow, Russia.	</value>
+
+		<annotated-sentence>	From [[July 1999|July_1999]] to [[June 2000|June_2000]] he was Director of Operations for [[NASA|NASA]] at the Gagarin Cosmonaut Training Center in Star City, Moscow, Russia.	</annotated-sentence>
+
+		<pattern_crowdsource>	From July 1999 to June 2000 he was Director of Operations for [[NASA|NASA]] at the Gagarin Cosmonaut Training Center in Star City, Moscow, Russia.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_from(Director/NNP-9,July/NNP-2)
+				num(July/NNP-2,1999/CD-3)
+				prep_to(July/NNP-2,June/NNP-5)
+				num(June/NNP-5,2000/CD-6)
+				nsubj(Director/NNP-9,he/PRP-7)
+				cop(Director/NNP-9,was/VBD-8)
+				prep_of(Director/NNP-9,Operations/NNP-11)
+				prep_for(Operations/NNP-11,NASA/NNP-13)
+				det(Center/NNP-19,the/DT-15)
+				nn(Center/NNP-19,Gagarin/NNP-16)
+				nn(Center/NNP-19,Cosmonaut/NNP-17)
+				nn(Center/NNP-19,Training/NNP-18)
+				prep_at(NASA/NNP-13,Center/NNP-19)
+				nn(City/NNP-22,Star/NNP-21)
+				prep_in(Director/NNP-9,City/NNP-22)
+				nn(Russia/NNP-26,Moscow/NNP-24)
+				appos(City/NNP-22,Russia/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 1999</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_1999</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of four space flights, he logged over 1,040 hours in space.	</value>
+
+		<annotated-sentence>	A [[veteran|Veteran]] of four [[space|Space]] [[flights|Flight]], he logged over 1,040 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	A veteran of four space flights, he logged over 1,040 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				ccomp(logged/VBD-9,veteran/NN-2)
+				num(flights/NNS-6,four/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				nsubj(logged/VBD-9,he/PRP-8)
+				num(hours/NNS-12,1,040/CD-11)
+				prep_over(logged/VBD-9,hours/NNS-12)
+				prep_in(logged/VBD-9,space/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a mission specialist on STS-65 (July 8, 1994-July 23, 1994), STS-70 (July 13, 1995-July 22, 1995), STS-83 (April 4, 1997-April 8, 1997) and STS-94 (July 1, 1997-July 17, 1997).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(specialist/NN-5,He/PRP-1)
+				cop(specialist/NN-5,was/VBD-2)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_on(specialist/NN-5,STS-65/NN-7)
+				appos(STS-65/NN-7,July/NNP-9)
+				num(July/NNP-9,8/CD-10)
+				dep(July/NNP-9,1994-July/NN-12)
+				num(1994-July/NN-12,23/CD-13)
+				dep(July/NNP-9,1994/CD-15)
+				prep_on(specialist/NN-5,STS-70/NN-18)
+				conj_and(STS-65/NN-7,STS-70/NN-18)
+				appos(STS-70/NN-18,July/NNP-20)
+				num(July/NNP-20,13/CD-21)
+				dep(July/NNP-20,1995-July/NN-23)
+				num(1995-July/NN-23,22/CD-24)
+				dep(July/NNP-20,1995/CD-26)
+				prep_on(specialist/NN-5,STS-83/NN-29)
+				conj_and(STS-65/NN-7,STS-83/NN-29)
+				appos(STS-83/NN-29,April/NNP-31)
+				num(April/NNP-31,4/CD-32)
+				dep(April/NNP-31,1997-April/NN-34)
+				num(1997-April/NN-34,8/CD-35)
+				dep(April/NNP-31,1997/CD-37)
+				prep_on(specialist/NN-5,STS-94/NN-40)
+				conj_and(STS-65/NN-7,STS-94/NN-40)
+				appos(STS-94/NN-40,July/NNP-42)
+				num(July/NNP-42,1/CD-43)
+				dep(July/NNP-42,1997-July/NN-45)
+				num(1997-July/NN-45,17/CD-46)
+				dep(July/NNP-42,1997/CD-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Initially assigned to the ISS Expedition 6 crew, his flight assignment withdrawal resulted from a medical issue affecting long duration space flight qualifications.	</value>
+
+		<annotated-sentence>	Initially assigned to the [[ISS|S]] [[Expedition 6|Expedition_6]] crew, his [[flight|Flight]] assignment [[withdrawal|Withdrawal]] resulted from a medical issue affecting long duration [[space flight|Kennedy_Space_Center]] qualifications.	</annotated-sentence>
+
+		<pattern_crowdsource>	Initially assigned to the ISS Expedition 6 crew, his flight assignment withdrawal resulted from a medical issue affecting long duration space flight qualifications.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(assigned/VBN-2,Initially/RB-1)
+				partmod(resulted/VBD-14,assigned/VBN-2)
+				det(crew/NN-8,the/DT-4)
+				nn(crew/NN-8,ISS/NNP-5)
+				nn(crew/NN-8,Expedition/NN-6)
+				num(crew/NN-8,6/CD-7)
+				prep_to(assigned/VBN-2,crew/NN-8)
+				poss(withdrawal/NN-13,his/PRP$-10)
+				nn(withdrawal/NN-13,flight/NN-11)
+				nn(withdrawal/NN-13,assignment/NN-12)
+				nsubj(resulted/VBD-14,withdrawal/NN-13)
+				det(issue/NN-18,a/DT-16)
+				amod(issue/NN-18,medical/JJ-17)
+				prep_from(resulted/VBD-14,issue/NN-18)
+				xcomp(resulted/VBD-14,affecting/VBG-19)
+				amod(qualifications/NNS-24,long/JJ-20)
+				nn(qualifications/NNS-24,duration/NN-21)
+				nn(qualifications/NNS-24,space/NN-22)
+				nn(qualifications/NNS-24,flight/NN-23)
+				dobj(affecting/VBG-19,qualifications/NNS-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_6</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>withdrawal</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Withdrawal</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In his last assignment he served as the International Space Station Program Scientist overseeing NASA experiments performed on the ISS.	</value>
+
+		<annotated-sentence>	In his last assignment he served as the [[International Space Station Program|International_Space_Station_program]] [[Scientist|Scientist]] overseeing [[NASA|NASA]] [[experiments|Experiment]] performed on [[the ISS|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In his last assignment he served as the [[International Space Station Program|International_Space_Station_program]] Scientist overseeing [[NASA|NASA]] experiments performed on the ISS.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignment/NN-4,his/PRP$-2)
+				amod(assignment/NN-4,last/JJ-3)
+				prep_in(served/VBD-6,assignment/NN-4)
+				nsubj(served/VBD-6,he/PRP-5)
+				det(Scientist/NNP-13,the/DT-8)
+				nn(Scientist/NNP-13,International/NNP-9)
+				nn(Scientist/NNP-13,Space/NNP-10)
+				nn(Scientist/NNP-13,Station/NNP-11)
+				nn(Scientist/NNP-13,Program/NNP-12)
+				prep_as(served/VBD-6,Scientist/NNP-13)
+				xcomp(served/VBD-6,overseeing/VBG-14)
+				nn(experiments/NNS-16,NASA/NNP-15)
+				dobj(overseeing/VBG-14,experiments/NNS-16)
+				partmod(experiments/NNS-16,performed/VBN-17)
+				det(ISS/NNP-20,the/DT-19)
+				prep_on(performed/VBN-17,ISS/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>International Space Station Program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station_program</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scientist</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Scientist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/International_Space_Station_program http://dbpedia.org/property/label http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Thomas retired from NASA in July 2007 in order to pursue private interests.	</value>
+
+		<annotated-sentence>	Thomas retired from [[NASA|NASA]] in [[July 2007|July_2007]] in order to pursue private [[interests|Interest]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Thomas retired from [[NASA|NASA]] in July 2007 in order to pursue private interests.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Thomas/NNP-1)
+				prep_from(retired/VBD-2,NASA/NNP-4)
+				prep_in(NASA/NNP-4,July/NNP-6)
+				num(July/NNP-6,2007/CD-7)
+				mark(pursue/VB-11,in/IN-8)
+				dep(pursue/VB-11,order/NN-9)
+				aux(pursue/VB-11,to/TO-10)
+				advcl(retired/VBD-2,pursue/VB-11)
+				amod(interests/NNS-13,private/JJ-12)
+				dobj(pursue/VB-11,interests/NNS-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2007</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2007</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>interests</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Interest</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-65 Columbia (July 8, 1994-July 23, 1994) set a new flight duration record for the Space Shuttle program.	</value>
+
+		<annotated-sentence>	[[STS-65|STS-65]] Columbia ([[July 8|July_8]], 1994-July 23, [[1994|1994]]) set [[a new flight duration record|Flight_endurance_record]] for [[the Space Shuttle program|Space_Shuttle_program]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-65|STS-65]] Columbia (July 8, 1994-July 23, 1994) set a new flight duration record for [[the Space Shuttle program|Space_Shuttle_program]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Columbia/NNP-2,STS-65/NN-1)
+				nsubj(set/VBD-12,Columbia/NNP-2)
+				appos(Columbia/NNP-2,July/NNP-4)
+				num(July/NNP-4,8/CD-5)
+				dep(July/NNP-4,1994-July/NN-7)
+				num(1994-July/NN-7,23/CD-8)
+				dep(July/NNP-4,1994/CD-10)
+				det(record/NN-17,a/DT-13)
+				amod(record/NN-17,new/JJ-14)
+				nn(record/NN-17,flight/NN-15)
+				nn(record/NN-17,duration/NN-16)
+				dobj(set/VBD-12,record/NN-17)
+				det(program/NN-22,the/DT-19)
+				nn(program/NN-22,Space/NN-20)
+				nn(program/NN-22,Shuttle/NN-21)
+				prep_for(record/NN-17,program/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-65</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-65</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 8</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_8</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a new flight duration record</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_endurance_record</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle program</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_program</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-65
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-65 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-65 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-65 http://dbpedia.org/property/programme http://dbpedia.org/resource/Space_Shuttle_program
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission flew the second International Microgravity Laboratory (IML-2).	</value>
+
+		<annotated-sentence>	The mission flew the second [[International|International]] [[Microgravity|Microgravity_(album)]] [[Laboratory|Laboratory]] (IML-2).	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission flew the second International Microgravity Laboratory (IML-2).	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(flew/VBD-3,mission/NN-2)
+				det(Laboratory/NNP-8,the/DT-4)
+				amod(Laboratory/NNP-8,second/JJ-5)
+				nn(Laboratory/NNP-8,International/NNP-6)
+				nn(Laboratory/NNP-8,Microgravity/NNP-7)
+				dobj(flew/VBD-3,Laboratory/NNP-8)
+				appos(Laboratory/NNP-8,IML-2/NN-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the 15-day flight the crew conducted more than 80 experiments focusing on materials and life sciences research in microgravity.	</value>
+
+		<annotated-sentence>	During the 15-day [[flight|Flight]] the crew conducted more than 80 [[experiments|Experiment]] focusing on [[materials|Material]] and [[life sciences|Life_sciences]] research in [[microgravity|Microgravity_(album)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the 15-day flight the crew conducted more than 80 experiments focusing on materials and life sciences research in microgravity.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-4,the/DT-2)
+				amod(flight/NN-4,15-day/JJ-3)
+				pobj(During/IN-1,flight/NN-4)
+				det(crew/NN-6,the/DT-5)
+				nsubj(conducted/VBN-7,crew/NN-6)
+				rcmod(flight/NN-4,conducted/VBN-7)
+				mwe(than/IN-9,more/JJR-8)
+				quantmod(80/CD-10,than/IN-9)
+				num(experiments/NNS-11,80/CD-10)
+				dobj(conducted/VBN-7,experiments/NNS-11)
+				xcomp(conducted/VBN-7,focusing/VBG-12)
+				prep_on(focusing/VBG-12,materials/NNS-14)
+				nn(sciences/NNS-17,life/NN-16)
+				prep_on(focusing/VBG-12,sciences/NNS-17)
+				conj_and(materials/NNS-14,sciences/NNS-17)
+				dobj(focusing/VBG-12,research/NN-18)
+				prep_in(research/NN-18,microgravity/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>experiments</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experiment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>materials</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>life sciences</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Life_sciences</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission was accomplished in 236 orbits of the Earth, traveling 6.1 million miles in 353 hours and 55 minutes.	</value>
+
+		<annotated-sentence>	The mission was accomplished in 236 orbits of [[the Earth|Earth]], traveling 6.1 [[million|Million_(band)]] [[miles|Mile]] in 353 [[hours|Hour]] and 55 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission was accomplished in 236 orbits of the Earth, traveling 6.1 million miles in 353 hours and 55 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubjpass(accomplished/VBN-4,mission/NN-2)
+				auxpass(accomplished/VBN-4,was/VBD-3)
+				num(orbits/NNS-7,236/CD-6)
+				prep_in(accomplished/VBN-4,orbits/NNS-7)
+				det(Earth/NNP-10,the/DT-9)
+				prep_of(orbits/NNS-7,Earth/NNP-10)
+				xcomp(accomplished/VBN-4,traveling/VBG-12)
+				number(million/CD-14,6.1/CD-13)
+				num(miles/NNS-15,million/CD-14)
+				dobj(traveling/VBG-12,miles/NNS-15)
+				num(hours/NNS-18,353/CD-17)
+				prep_in(traveling/VBG-12,hours/NNS-18)
+				num(minutes/NNS-21,55/CD-20)
+				prep_in(traveling/VBG-12,minutes/NNS-21)
+				conj_and(hours/NNS-18,minutes/NNS-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-70 Discovery (July 13, 1995-July 22, 1995).	</value>
+
+		<annotated-sentence>	[[STS-70|STS-70]] Discovery ([[July 13|July_13]], 1995-July 22, [[1995|1995]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-70|STS-70]] Discovery (July 13, 1995-July 22, 1995).	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Discovery/NNP-2,STS-70/JJ-1)
+				appos(Discovery/NNP-2,July/NNP-4)
+				num(July/NNP-4,13/CD-5)
+				dep(July/NNP-4,1995-July/NN-7)
+				num(1995-July/NN-7,22/CD-8)
+				dep(July/NNP-4,1995/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-70</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-70</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 13</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_13</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-70
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the STS-70 mission, Dr. Thomas was responsible for the deployment of the sixth and final Tracking and Data Relay Satellite from the Space Shuttle.	</value>
+
+		<annotated-sentence>	During the [[STS-70|STS-70]] mission, [[Dr. Thomas|Tommaso_Ciampa]] was responsible for the deployment of the sixth and final Tracking and Data [[Relay Satellite|Communications_satellite]] from [[the Space Shuttle|SpaceShuttle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During the [[STS-70|STS-70]] mission, Dr. Thomas was responsible for the deployment of the sixth and final Tracking and Data Relay Satellite from the Space Shuttle.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				nn(mission/NN-4,STS-70/NN-3)
+				prep_during(Tracking/NNP-18,mission/NN-4)
+				nn(Thomas/NNP-7,Dr./NNP-6)
+				nsubj(Tracking/NNP-18,Thomas/NNP-7)
+				cop(Tracking/NNP-18,was/VBD-8)
+				amod(Tracking/NNP-18,responsible/JJ-9)
+				det(deployment/NN-12,the/DT-11)
+				prep_for(responsible/JJ-9,deployment/NN-12)
+				dep(sixth/JJ-15,the/DT-14)
+				prep_of(deployment/NN-12,sixth/JJ-15)
+				prep_of(deployment/NN-12,final/JJ-17)
+				conj_and(sixth/JJ-15,final/JJ-17)
+				nn(Satellite/NNP-22,Data/NNP-20)
+				nn(Satellite/NNP-22,Relay/NNP-21)
+				conj_and(Tracking/NNP-18,Satellite/NNP-22)
+				det(Shuttle/NNP-26,the/DT-24)
+				nn(Shuttle/NNP-26,Space/NN-25)
+				prep_from(Tracking/NNP-18,Shuttle/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-70</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-70</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dr. Thomas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tommaso_Ciampa</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Relay Satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communications_satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-70
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-70 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 214 hours and 20 minutes, traveling 3.7 million miles in 142 orbits of the Earth.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 214 [[hours|Hour]] and 20 minutes, traveling 3.7 [[million|Million_(band)]] [[miles|Mile]] in 142 orbits of [[the Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 214 hours and 20 minutes, traveling 3.7 million miles in 142 orbits of the Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,214/CD-4)
+				num(minutes/NNS-8,20/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+				partmod(hours/NNS-5,traveling/VBG-10)
+				number(million/CD-12,3.7/CD-11)
+				num(miles/NNS-13,million/CD-12)
+				dobj(traveling/VBG-10,miles/NNS-13)
+				num(orbits/NNS-16,142/CD-15)
+				prep_in(traveling/VBG-10,orbits/NNS-16)
+				det(Earth/NNP-19,the/DT-18)
+				prep_of(orbits/NNS-16,Earth/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-83 Columbia (April 4, 1997-April 8, 1997).	</value>
+
+		<annotated-sentence>	[[STS-83|STS-83]] Columbia ([[April 4|April_4]], 1997-April 8, [[1997|1997]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-83|STS-83]] Columbia (April 4, 1997-April 8, 1997).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Columbia/NNP-2,STS-83/NN-1)
+				appos(Columbia/NNP-2,April/NNP-4)
+				num(April/NNP-4,4/CD-5)
+				dep(April/NNP-4,1997-April/NN-7)
+				num(1997-April/NN-7,8/CD-8)
+				dep(April/NNP-4,1997/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-83</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-83</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-83
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-83 Microgravity Science Laboratory (MSL-1) Spacelab mission, was cut short because of problems with one of the Shuttle's three fuel cell power generation units.	</value>
+
+		<annotated-sentence>	The [[STS-83|STS-83]] [[Microgravity|Microgravity_(album)]] [[Science|Science]] [[Laboratory|Laboratory]] (MSL-1) [[Spacelab|Spacelab]] mission, was cut short because of [[problems|Problem]] with one of the [[Shuttle|Space_Shuttle]]'s three [[fuel|Fuel]] cell power [[generation|Generation]] [[units|UNIT]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[STS-83|STS-83]] Microgravity Science Laboratory (MSL-1) [[Spacelab|Spacelab]] mission, was cut short because of problems with one of the [[Shuttle|Space_Shuttle]]'s three fuel cell power generation units.	</pattern_crowdsource>
+
+
+		<tree>
+				det(STS-83/NN-2,The/DT-1)
+				nsubjpass(cut/VBN-13,STS-83/NN-2)
+				nn(Laboratory/NNP-5,Microgravity/NNP-3)
+				nn(Laboratory/NNP-5,Science/NNP-4)
+				dep(STS-83/NN-2,Laboratory/NNP-5)
+				appos(STS-83/NN-2,MSL-1/NN-7)
+				amod(mission/NN-10,Spacelab/JJ-9)
+				dep(STS-83/NN-2,mission/NN-10)
+				auxpass(cut/VBN-13,was/VBD-12)
+				advmod(cut/VBN-13,short/RB-14)
+				prep_because_of(cut/VBN-13,problems/NNS-17)
+				prep_with(problems/NNS-17,one/CD-19)
+				det(Shuttle/NNP-22,the/DT-21)
+				poss(units/NNS-29,Shuttle/NNP-22)
+				num(units/NNS-29,three/CD-24)
+				nn(units/NNS-29,fuel/NN-25)
+				nn(units/NNS-29,cell/NN-26)
+				nn(units/NNS-29,power/NN-27)
+				nn(units/NNS-29,generation/NN-28)
+				prep_of(one/CD-19,units/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-83</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-83</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacelab</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacelab</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Problem</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fuel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fuel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>generation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Generation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>units</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/UNIT</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Donald_A._Thomas http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-83
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-83 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Donald_A._Thomas
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle http://dbpedia.org/property/payloads http://dbpedia.org/resource/Spacelab
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 95 hours and 12 minutes, traveling 1.5 million miles in 63 orbits of the Earth.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 95 [[hours|Hour]] and 12 [[minutes|Minute]], traveling 1.5 [[million|Million_(band)]] [[miles|Mile]] in 63 orbits of [[the Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 95 hours and 12 minutes, traveling 1.5 million miles in 63 orbits of the Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,95/CD-4)
+				num(minutes/NNS-8,12/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+				partmod(hours/NNS-5,traveling/VBG-10)
+				number(million/CD-12,1.5/CD-11)
+				num(miles/NNS-13,million/CD-12)
+				dobj(traveling/VBG-10,miles/NNS-13)
+				num(orbits/NNS-16,63/CD-15)
+				prep_in(traveling/VBG-10,orbits/NNS-16)
+				det(Earth/NNP-19,the/DT-18)
+				prep_of(orbits/NNS-16,Earth/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-94 Columbia (July 1, 1997-July 17, 1997), was a re-flight of the Microgravity Science Laboratory (MSL-1) Spacelab mission, and focused on materials and combustion science research in microgravity.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Columbia/NNP-2,STS-94/NN-1)
+				nsubj(re-flight/NN-15,Columbia/NNP-2)
+				nsubj(focused/VBD-28,Columbia/NNP-2)
+				appos(Columbia/NNP-2,July/NNP-4)
+				num(July/NNP-4,1/CD-5)
+				dep(July/NNP-4,1997-July/NN-7)
+				num(1997-July/NN-7,17/CD-8)
+				dep(July/NNP-4,1997/CD-10)
+				cop(re-flight/NN-15,was/VBD-13)
+				det(re-flight/NN-15,a/DT-14)
+				det(Laboratory/NNP-20,the/DT-17)
+				nn(Laboratory/NNP-20,Microgravity/NNP-18)
+				nn(Laboratory/NNP-20,Science/NNP-19)
+				prep_of(re-flight/NN-15,Laboratory/NNP-20)
+				appos(Laboratory/NNP-20,MSL-1/NN-22)
+				amod(mission/NN-25,Spacelab/JJ-24)
+				dep(Laboratory/NNP-20,mission/NN-25)
+				conj_and(re-flight/NN-15,focused/VBD-28)
+				prep_on(focused/VBD-28,materials/NNS-30)
+				nn(research/NN-34,combustion/NN-32)
+				nn(research/NN-34,science/NN-33)
+				prep_on(focused/VBD-28,research/NN-34)
+				conj_and(materials/NNS-30,research/NN-34)
+				prep_in(focused/VBD-28,microgravity/NN-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 376 hours and 45 minutes, traveling 6.3 million miles in 251 orbits of the Earth.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 376 [[hours|Hour]] and [[45 minutes|September_Dossier]], traveling 6.3 [[million|Million_(band)]] [[miles|Mile]] in 251 orbits of [[the Earth|Earth]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 376 hours and 45 minutes, traveling 6.3 million miles in 251 orbits of the Earth.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(hours/NNS-5,duration/NN-2)
+				cop(hours/NNS-5,was/VBD-3)
+				num(hours/NNS-5,376/CD-4)
+				num(minutes/NNS-8,45/CD-7)
+				conj_and(hours/NNS-5,minutes/NNS-8)
+				partmod(hours/NNS-5,traveling/VBG-10)
+				number(million/CD-12,6.3/CD-11)
+				num(miles/NNS-13,million/CD-12)
+				dobj(traveling/VBG-10,miles/NNS-13)
+				num(orbits/NNS-16,251/CD-15)
+				prep_in(traveling/VBG-10,orbits/NNS-16)
+				det(Earth/NNP-19,the/DT-18)
+				prep_of(orbits/NNS-16,Earth/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>45 minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September_Dossier</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Earth</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Earth</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Amebiasis is an infection of the intestines caused by the parasite Entamoeba histolytica.</value>
+		<pattern_crowdsource> [[Amebiasis|C0002438]] is an [[infection|C0009450]] of the [[intestines|C0021853]] caused by the [[parasite|C0030498]] [[Entamoeba histolytica|C0014323]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Amebiasis</surface-form>
+				<RDF-ID>C0002438</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>parasite</surface-form>
+				<RDF-ID>C0030498</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Entamoeba histolytica</surface-form>
+				<RDF-ID>C0014323</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0014323 ISA C0030498</triple>
+			<triple>C0002438 ISA C0009450</triple>
+			<triple>C0021853 LOCATION_OF C0009450</triple>
+			<triple>C0014323 CAUSES C0009450</triple>
+			<triple>C0021853 LOCATION_OF C0002438</triple>
+			<triple>C0014323 CAUSES C0002438</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

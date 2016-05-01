@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The surgery is also used to treat certain diseases of the pelvic organs.</value>
+		<pattern_crowdsource> The [[surgery|C0543467]] is also used to treat certain [[diseases|C0012634]] of the [[pelvic organs|C0230273]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>surgery</surface-form>
+				<RDF-ID>C0543467</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diseases</surface-form>
+				<RDF-ID>C0012634</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pelvic organs</surface-form>
+				<RDF-ID>C0230273</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0543467 TREATS C0012634</triple>
+			<triple>C0230273 LOCATION_OF C0012634</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

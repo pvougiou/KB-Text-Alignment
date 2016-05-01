@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The health care provider may ask you to stop using drugs or food additives that could affect the test.</value>
+		<pattern_crowdsource> The [[health care provider|C0018724]] may ask you to stop using [[drugs|C0013227]] or food additives that could affect the test.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>food additives</surface-form>
+				<RDF-ID>C0016453</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>To absorb fat normally, the body needs bile from the gallbladder (or liver if the gallbladder has been removed), enzymes from the pancreas, and normal intestines.</value>
+		<pattern_crowdsource> To absorb fat normally, the body needs bile from the gallbladder (or liver if the gallbladder has been removed), [[enzymes|C0014442]] from the [[pancreas|C0030274]], and normal [[intestines|C0021853]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>fat</surface-form>
+				<RDF-ID>C0424612</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gallbladder</surface-form>
+				<RDF-ID>C0016976</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>gallbladder</surface-form>
+				<RDF-ID>C0016976</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>enzymes</surface-form>
+				<RDF-ID>C0014442</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pancreas</surface-form>
+				<RDF-ID>C0030274</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>intestines</surface-form>
+				<RDF-ID>C0021853</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0030274 LOCATION_OF C0014442</triple>
+			<triple>C0021853 LOCATION_OF C0014442</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

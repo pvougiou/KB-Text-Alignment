@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Head CT is done in the hospital or radiology center.</value>
+		<pattern_crowdsource> [[Head CT|C0202691]] is done in the [[hospital|C0019994]] or radiology center.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Head CT</surface-form>
+				<RDF-ID>C0202691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hospital</surface-form>
+				<RDF-ID>C0019994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>radiology</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>center</surface-form>
+				<RDF-ID>C0205099</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0019994 LOCATION_OF C0202691</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Before receiving the contrast, tell your health care provider if you take the diabetes medicine metformin (Glucophage).</value>
+		<pattern_crowdsource> - Before receiving the contrast, tell your [[health care provider|C0018724]] if you take the diabetes medicine [[metformin|C0025598]] ([[Glucophage|C0591573]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>health care provider</surface-form>
+				<RDF-ID>C0018724</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes medicine</surface-form>
+				<RDF-ID>C1319409</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>metformin</surface-form>
+				<RDF-ID>C0025598</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Glucophage</surface-form>
+				<RDF-ID>C0591573</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0591573 ISA C0025598</triple>
+			<triple>C0025598 ADMINISTERED_TO C0018724</triple>
+			<triple>C0591573 ADMINISTERED_TO C0018724</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The x-rays produced by the CT scan are painless.</value>
+		<pattern_crowdsource> The [[x-rays|C0043299]] produced by the [[CT scan|C0040405]] are painless.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>x-rays</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>CT scan</surface-form>
+				<RDF-ID>C0040405</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>painless</surface-form>
+				<RDF-ID>C0234226</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040405 METHOD_OF C0043299</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Contrast given through a vein may cause a:   - Slight burning feeling  - Metallic taste in the mouth  - Warm flushing of the body    This is normal and usually goes away within a few seconds.</value>
+		<pattern_crowdsource> Contrast given through a vein may cause a:   - Slight burning feeling  - [[Metallic taste|C0240327]] in the mouth  - Warm [[flushing|C0016382]] of the body    This is normal and usually goes away within a few seconds.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>vein</surface-form>
+				<RDF-ID>C0042449</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Slight</surface-form>
+				<RDF-ID>C0547040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>burning</surface-form>
+				<RDF-ID>C0175627</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feeling</surface-form>
+				<RDF-ID>C1527305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Metallic taste</surface-form>
+				<RDF-ID>C0240327</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>flushing</surface-form>
+				<RDF-ID>C0016382</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>normal</surface-form>
+				<RDF-ID>C0205307</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>few</surface-form>
+				<RDF-ID>C0205388</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seconds</surface-form>
+				<RDF-ID>C0457385</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0240327 COEXISTS_WITH C0016382</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>A head CT scan is recommended to help diagnose or monitor the following conditions:  - Birth (congenital) defect of the head or brain  - Brain infection  - Brain tumor  - Buildup of fluid inside the skull (hydrocephalus)  - Craniosynostosis  - Injury (trauma) to the brain, head, or face  - Stroke or bleeding in the brain    A head CT may also be done to look for the cause of:  - Changes in thinking or behavior  - Fainting  - Headache, when you have certain other signs or symptoms  - Hearing loss (in some patients)  - Symptoms of damage to part of the brain, such as vision problems, muscle weakness, numbness and tingling, hearing loss, speaking difficulties, or swallowing problems</value>
+		<pattern_crowdsource> A head CT scan is recommended to help diagnose or monitor the following conditions:  - Birth ([[congenital) defect|C0000768]] of the [[head|C1281590]] or brain  - Brain infection  - Brain tumor  - Buildup of fluid inside the [[skull|C0037303]] (hydrocephalus)  - Craniosynostosis  - Injury (trauma) to the brain, head, or face  - [[Stroke|C0038454]] or [[bleeding|C0019080]] in the [[brain|C0006104]]    A head CT may also be done to look for the cause of:  - Changes in thinking or behavior  - Fainting  - Headache, when you have certain other signs or symptoms  - Hearing loss (in some patients)  - Symptoms of damage to part of the [[brain|C0006104]], such as vision problems, muscle weakness, numbness and tingling, hearing loss, speaking difficulties, or swallowing problems		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>head CT scan</surface-form>
+				<RDF-ID>C0202691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>or monitor</surface-form>
+				<RDF-ID>C0182037</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>following</surface-form>
+				<RDF-ID>C0332282</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Birth</surface-form>
+				<RDF-ID>C0005615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>congenital) defect</surface-form>
+				<RDF-ID>C0000768</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head</surface-form>
+				<RDF-ID>C1281590</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain  - Brain infection  - Brain tumor</surface-form>
+				<RDF-ID>C0006118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>fluid</surface-form>
+				<RDF-ID>C0302908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>skull</surface-form>
+				<RDF-ID>C0037303</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hydrocephalus</surface-form>
+				<RDF-ID>C0020255</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Craniosynostosis</surface-form>
+				<RDF-ID>C0010278</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Injury</surface-form>
+				<RDF-ID>C0175677</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>trauma</surface-form>
+				<RDF-ID>C0043251</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head</surface-form>
+				<RDF-ID>C1281590</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>face</surface-form>
+				<RDF-ID>C1281591</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Stroke</surface-form>
+				<RDF-ID>C0038454</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>head CT</surface-form>
+				<RDF-ID>C0202691</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cause</surface-form>
+				<RDF-ID>C0015127</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Changes</surface-form>
+				<RDF-ID>C0392747</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thinking</surface-form>
+				<RDF-ID>C0039869</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>behavior</surface-form>
+				<RDF-ID>C0004927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Fainting</surface-form>
+				<RDF-ID>C0039070</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Headache</surface-form>
+				<RDF-ID>C0018681</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>signs</surface-form>
+				<RDF-ID>C0311392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Hearing loss</surface-form>
+				<RDF-ID>C1384666</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>patients</surface-form>
+				<RDF-ID>C0030705</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>brain</surface-form>
+				<RDF-ID>C0006104</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vision problems</surface-form>
+				<RDF-ID>C0042798</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>muscle weakness</surface-form>
+				<RDF-ID>C0151786</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>numbness</surface-form>
+				<RDF-ID>C0028643</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tingling</surface-form>
+				<RDF-ID>C0423572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hearing loss</surface-form>
+				<RDF-ID>C1384666</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>speaking</surface-form>
+				<RDF-ID>C0234856</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>difficulties</surface-form>
+				<RDF-ID>C1299586</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>swallowing problems</surface-form>
+				<RDF-ID>C0392678</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1281590 LOCATION_OF C0000768</triple>
+			<triple>C0006104 LOCATION_OF C0019080</triple>
+			<triple>C0006104 LOCATION_OF C0038454</triple>
+			<triple>C0037303 PART_OF C0006104</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

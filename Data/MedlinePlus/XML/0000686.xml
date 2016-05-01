@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A catheter was inserted into an artery in your groin or arm.</value>
+		<pattern_crowdsource> A catheter was inserted into an [[artery|C0003842]] in your [[groin|C0018246]] or arm.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>artery</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arm</surface-form>
+				<RDF-ID>C1140618</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018246 LOCATION_OF C0003842</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you had a blockage, you may have had angioplasty and a stent placed in your heart during the procedure.</value>
+		<pattern_crowdsource> If you had a blockage, you may have had angioplasty and a [[stent|C0038257]] placed in your [[heart|C0018787]] during the procedure.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>angioplasty</surface-form>
+				<RDF-ID>C0162577</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stent</surface-form>
+				<RDF-ID>C0038257</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart</surface-form>
+				<RDF-ID>C0018787</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018787 LOCATION_OF C0038257</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

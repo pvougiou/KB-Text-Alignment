@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A simple goiter is an enlargement of the thyroid gland.</value>
+		<pattern_crowdsource> A [[simple goiter|C0018022]] is an [[enlargement|C0020564]] of the [[thyroid gland|C0040132]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>simple goiter</surface-form>
+				<RDF-ID>C0018022</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>enlargement</surface-form>
+				<RDF-ID>C0020564</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>thyroid gland</surface-form>
+				<RDF-ID>C0040132</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018022 ISA C0020564</triple>
+			<triple>C0040132 LOCATION_OF C0020564</triple>
+			<triple>C0040132 LOCATION_OF C0018022</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

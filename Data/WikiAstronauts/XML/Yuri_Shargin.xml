@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Yuri Georgiyevich Shargin (Russian: ???? ?????????? ??????) is a cosmonaut in the Russian Space Forces.	</value>
+
+		<annotated-sentence>	[[Yuri Georgiyevich Shargin|Yuri_Shargin]] ([[Russian|Russia]]: ???? ?????????? ??????) is a cosmonaut in [[the Russian Space Forces|Russian_Space_Forces]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Yuri Georgiyevich Shargin|Yuri_Shargin]] ([[Russian|Russia]]: ???? ?????????? ??????) is a cosmonaut in the [[Russian|Russia]] Space Forces.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Shargin/NNP-3,Yuri/NNP-1)
+				nn(Shargin/NNP-3,Georgiyevich/NNP-2)
+				nsubj(cosmonaut/NN-13,Shargin/NNP-3)
+				dep(Shargin/NNP-3,Russian/NNP-5)
+				nn(??????/NNP-9,????/NNP-7)
+				nn(??????/NNP-9,??????????/NNP-8)
+				dep(Russian/NNP-5,??????/NNP-9)
+				cop(cosmonaut/NN-13,is/VBZ-11)
+				det(cosmonaut/NN-13,a/DT-12)
+				det(Forces/NNS-18,the/DT-15)
+				amod(Forces/NNS-18,Russian/JJ-16)
+				nn(Forces/NNS-18,Space/NN-17)
+				prep_in(cosmonaut/NN-13,Forces/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Yuri Georgiyevich Shargin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Shargin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Russian Space Forces</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Space_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yuri_Shargin http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Yuri_Shargin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Russia
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Russian_Space_Forces http://dbpedia.org/ontology/country http://dbpedia.org/resource/Russia
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was born March 20, 1960 in Engels, Saratov Oblast, Russian SFSR.	</value>
+
+		<annotated-sentence>	He was born March 20, 1960 in [[Engels|Engels,_Saratov_Oblast]], [[Saratov Oblast|Saratov_Oblast]], [[Russian SFSR|Russian_Soviet_Federative_Socialist_Republic]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was born March 20, 1960 in [[Engels|Engels,_Saratov_Oblast]], [[Saratov Oblast|Saratov_Oblast]], Russian SFSR.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,He/PRP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				tmod(born/VBN-3,March/NNP-4)
+				num(March/NNP-4,20/CD-5)
+				num(March/NNP-4,1960/CD-7)
+				prep_in(born/VBN-3,Engels/NNP-9)
+				nn(Oblast/NNP-12,Saratov/NNP-11)
+				appos(Engels/NNP-9,Oblast/NNP-12)
+				nn(SFSR/NNP-15,Russian/NNP-14)
+				appos(Oblast/NNP-12,SFSR/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Engels</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engels,_Saratov_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saratov Oblast</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saratov_Oblast</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russian SFSR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Soviet_Federative_Socialist_Republic</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Engels,_Saratov_Oblast http://dbpedia.org/property/federalSubject http://dbpedia.org/resource/Saratov_Oblast
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is divorced and has two children.	</value>
+
+		<annotated-sentence>	He is divorced and has [[two children|Child]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is divorced and has two children.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(divorced/VBN-3,He/PRP-1)
+				nsubj(has/VBZ-5,He/PRP-1)
+				auxpass(divorced/VBN-3,is/VBZ-2)
+				conj_and(divorced/VBN-3,has/VBZ-5)
+				num(children/NNS-7,two/CD-6)
+				dobj(has/VBZ-5,children/NNS-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shargin graduated from the Military Engineering Academy for Aeronautics and Astronautics located in Leningrad.	</value>
+
+		<annotated-sentence>	Shargin graduated from the [[Military Engineering|Military_engineering]] [[Academy|Academy]] for Aeronautics and Astronautics located in Leningrad.	</annotated-sentence>
+
+		<pattern_crowdsource>	Shargin graduated from the Military Engineering Academy for Aeronautics and Astronautics located in Leningrad.	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Shargin/VBG-1,graduated/VBN-2)
+				det(Academy/NNP-7,the/DT-4)
+				nn(Academy/NNP-7,Military/NNP-5)
+				nn(Academy/NNP-7,Engineering/NNP-6)
+				prep_from(graduated/VBN-2,Academy/NNP-7)
+				prep_for(Academy/NNP-7,Aeronautics/NNP-9)
+				prep_for(Academy/NNP-7,Astronautics/NNP-11)
+				conj_and(Aeronautics/NNP-9,Astronautics/NNP-11)
+				dep(graduated/VBN-2,located/JJ-12)
+				prep_in(located/JJ-12,Leningrad/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Military Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a Lieutenant Colonel in the Russian Space Forces.	</value>
+
+		<annotated-sentence>	He is a Lieutenant Colonel in [[the Russian Space Forces|Russian_Space_Forces]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a Lieutenant Colonel in the Russian Space Forces.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Colonel/NNP-5,He/PRP-1)
+				cop(Colonel/NNP-5,is/VBZ-2)
+				det(Colonel/NNP-5,a/DT-3)
+				nn(Colonel/NNP-5,Lieutenant/NNP-4)
+				det(Forces/NNS-10,the/DT-7)
+				amod(Forces/NNS-10,Russian/JJ-8)
+				nn(Forces/NNS-10,Space/NN-9)
+				prep_in(Colonel/NNP-5,Forces/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Russian Space Forces</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russian_Space_Forces</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected as a cosmonaut on February 9, 1996.	</value>
+
+		<annotated-sentence>	He was selected as a cosmonaut on [[February|February]] 9, 1996.	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected as a cosmonaut on February 9, 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(cosmonaut/NN-6,a/DT-5)
+				prep_as(selected/VBN-3,cosmonaut/NN-6)
+				prep_on(cosmonaut/NN-6,February/NNP-8)
+				num(February/NNP-8,9/CD-9)
+				num(February/NNP-8,1996/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>February</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/February</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was selected in 2004, to be the Flight Engineer on the Soyuz TMA-5 mission to the International Space Station.	</value>
+
+		<annotated-sentence>	He was selected in [[2004|2004]], to be [[the Flight Engineer|Flight_engineer]] on the [[Soyuz TMA-5|Soyuz_TMA-5]] mission to [[the International Space Station|International_Space_Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was selected in 2004, to be the Flight Engineer on the [[Soyuz TMA-5|Soyuz_TMA-5]] mission to the International Space Station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,He/PRP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				prep_in(selected/VBN-3,2004/CD-5)
+				aux(Engineer/NN-11,to/TO-7)
+				cop(Engineer/NN-11,be/VB-8)
+				det(Engineer/NN-11,the/DT-9)
+				nn(Engineer/NN-11,Flight/NN-10)
+				xcomp(selected/VBN-3,Engineer/NN-11)
+				det(mission/NN-16,the/DT-13)
+				nn(mission/NN-16,Soyuz/NNP-14)
+				nn(mission/NN-16,TMA-5/NN-15)
+				prep_on(Engineer/NN-11,mission/NN-16)
+				det(Station/NNP-21,the/DT-18)
+				nn(Station/NNP-21,International/NNP-19)
+				nn(Station/NNP-21,Space/NNP-20)
+				prep_to(Engineer/NN-11,Station/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TMA-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TMA-5</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Yuri_Shargin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Soyuz_TMA-5
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Soyuz_TMA-5 http://dbpedia.org/property/crewLaunching http://dbpedia.org/resource/Yuri_Shargin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shargin was the first Russian military cosmonaut on board and had a secret mission.	</value>
+
+		<annotated-sentence>	[[Shargin|Yuri_Shargin]] was the first Russian military cosmonaut on board and had [[a secret mission|Secret_Mission]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Shargin was the first Russian military cosmonaut on board and had a secret mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(cosmonaut/NN-7,Shargin/NN-1)
+				nsubj(had/VBD-11,Shargin/NN-1)
+				cop(cosmonaut/NN-7,was/VBD-2)
+				det(cosmonaut/NN-7,the/DT-3)
+				amod(cosmonaut/NN-7,first/JJ-4)
+				amod(cosmonaut/NN-7,Russian/JJ-5)
+				amod(cosmonaut/NN-7,military/JJ-6)
+				prep_on(cosmonaut/NN-7,board/NN-9)
+				conj_and(cosmonaut/NN-7,had/VBD-11)
+				det(mission/NN-14,a/DT-12)
+				amod(mission/NN-14,secret/JJ-13)
+				dobj(had/VBD-11,mission/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Shargin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Shargin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a secret mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Secret_Mission</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

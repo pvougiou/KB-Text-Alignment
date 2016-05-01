@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You had chemotherapy treatment for your cancer.</value>
+		<pattern_crowdsource> You had [[chemotherapy|C0392920]] [[treatment|C0087111]] for your [[cancer|C0006826]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>chemotherapy</surface-form>
+				<RDF-ID>C0392920</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0392920 ISA C0087111</triple>
+			<triple>C0392920 TREATS C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Tell your doctor if you develop new mouth sores or pain.</value>
+		<pattern_crowdsource> Tell your [[doctor|C0031831]] if you develop new [[mouth sores|C0423615]] or [[pain|C0030193]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>new</surface-form>
+				<RDF-ID>C0205314</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth sores</surface-form>
+				<RDF-ID>C0423615</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pain</surface-form>
+				<RDF-ID>C0030193</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0423615 PROCESS_OF C0031831</triple>
+			<triple>C0030193 PROCESS_OF C0031831</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Retrograde cystography is a detailed x-ray of the bladder.</value>
+		<pattern_crowdsource> [[Retrograde cystography|C0412155]] is a detailed [[x-ray|C0043299]] of the [[bladder|C0005682]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Retrograde cystography</surface-form>
+				<RDF-ID>C0412155</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>detailed</surface-form>
+				<RDF-ID>C1522508</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>x-ray</surface-form>
+				<RDF-ID>C0043299</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0412155 ISA C0043299</triple>
+			<triple>C0005682 LOCATION_OF C0043299</triple>
+			<triple>C0005682 LOCATION_OF C0412155</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The urethra is the tube that carries urine from the bladder to the outside of the body.</value>
+		<pattern_crowdsource> The [[urethra|C0041967]] is the tube that carries [[urine|C0042036]] from the bladder to the outside of the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>urethra</surface-form>
+				<RDF-ID>C0041967</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tube</surface-form>
+				<RDF-ID>C1561954</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>urine</surface-form>
+				<RDF-ID>C0042036</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bladder</surface-form>
+				<RDF-ID>C0005682</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>outside of the body</surface-form>
+				<RDF-ID>C1518642</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042036 PART_OF C0041967</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

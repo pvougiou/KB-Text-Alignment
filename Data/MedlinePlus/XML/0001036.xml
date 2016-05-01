@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A crush injury occurs when force or pressure is put on a body part.</value>
+		<pattern_crowdsource> A [[crush injury|C0332679]] occurs when force or pressure is put on a [[body part|C0229962]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>crush injury</surface-form>
+				<RDF-ID>C0332679</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>force</surface-form>
+				<RDF-ID>C0441722</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pressure</surface-form>
+				<RDF-ID>C0234222</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>body part</surface-form>
+				<RDF-ID>C0229962</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0229962 LOCATION_OF C0332679</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Steps for first aid treatment of a crush injury are:  - Stop bleeding by applying direct pressure.</value>
+		<pattern_crowdsource> Steps for [[first aid|C0016143]] [[treatment|C0087111]] of a [[crush injury|C0332679]] are:  - Stop bleeding by applying direct pressure.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Steps</surface-form>
+				<RDF-ID>C1261552</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>first aid</surface-form>
+				<RDF-ID>C0016143</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>crush injury</surface-form>
+				<RDF-ID>C0332679</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bleeding</surface-form>
+				<RDF-ID>C0019080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>pressure</surface-form>
+				<RDF-ID>C0234222</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0016143 ISA C0087111</triple>
+			<triple>C0016143 TREATS C0332679</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

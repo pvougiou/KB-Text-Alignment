@@ -1,0 +1,2085 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Philippe Perrin (Colonel, French Air Force) is a French test pilot and former CNES and European Space Agency astronaut.	</value>
+
+		<annotated-sentence>	[[Philippe Perrin|Philippe_Perrin]] ([[Colonel|Colonel]], [[French Air Force|French_Air_Force]]) is a [[French|France]] [[test pilot|Test_pilot]] and [[former CNES|CNES]] and [[European Space Agency|European_Space_Agency]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Philippe Perrin|Philippe_Perrin]] ([[Colonel|Colonel]], [[French Air Force|French_Air_Force]]) is a [[French|France]] test pilot and [[former CNES|CNES]] and European Space Agency [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Perrin/NNP-2,Philippe/NNP-1)
+				nsubj(pilot/NN-14,Perrin/NNP-2)
+				appos(Perrin/NNP-2,Colonel/NNP-4)
+				nn(Force/NNP-8,French/NNP-6)
+				nn(Force/NNP-8,Air/NNP-7)
+				dep(Colonel/NNP-4,Force/NNP-8)
+				cop(pilot/NN-14,is/VBZ-10)
+				det(pilot/NN-14,a/DT-11)
+				amod(pilot/NN-14,French/JJ-12)
+				nn(pilot/NN-14,test/NN-13)
+				amod(CNES/NNP-17,former/JJ-16)
+				conj_and(pilot/NN-14,CNES/NNP-17)
+				nn(Agency/NNP-21,European/NNP-19)
+				nn(Agency/NNP-21,Space/NNP-20)
+				conj_and(pilot/NN-14,Agency/NNP-21)
+				dep(Agency/NNP-21,astronaut/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Philippe Perrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Philippe_Perrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Colonel</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Colonel</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>French Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/French_Air_Force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>French</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>former CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/property/rank http://dbpedia.org/resource/Colonel
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/property/rank http://dbpedia.org/resource/French_Air_Force
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/French_Air_Force http://dbpedia.org/ontology/country http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/CNES http://dbpedia.org/property/headquarters http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin was born 6 January 1963, in Meknes, Morocco, but considers Avignon, Provence, to be his hometown.	</value>
+
+		<annotated-sentence>	Perrin was born 6 [[January 1963|January_1963]], in Meknes, Morocco, but considers [[Avignon|Avignon]], [[Provence|Provence]], to be his hometown.	</annotated-sentence>
+
+		<pattern_crowdsource>	Perrin was born 6 January 1963, in Meknes, Morocco, but considers Avignon, Provence, to be his hometown.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Perrin/NNP-1)
+				nsubj(considers/VBZ-14,Perrin/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				dobj(born/VBN-3,6/CD-4)
+				tmod(born/VBN-3,January/NNP-5)
+				num(January/NNP-5,1963/CD-6)
+				nn(Morocco/NNP-11,Meknes/NNP-9)
+				prep_in(born/VBN-3,Morocco/NNP-11)
+				conj_but(born/VBN-3,considers/VBZ-14)
+				nsubj(hometown/NN-22,Avignon/NNP-15)
+				appos(Avignon/NNP-15,Provence/NNP-17)
+				aux(hometown/NN-22,to/TO-19)
+				cop(hometown/NN-22,be/VB-20)
+				poss(hometown/NN-22,his/PRP$-21)
+				xcomp(considers/VBZ-14,hometown/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>January 1963</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/January_1963</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Avignon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Avignon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Provence</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Provence</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He entered the French École polytechnique (Paris) in 1982 and graduated as "Ingénieur Polytechnicien" (engineering degree) in 1985.	</value>
+
+		<annotated-sentence>	He entered the [[French|France]] [[École polytechnique|%C3%89cole_Polytechnique]] ([[Paris|Paris]]) in [[1982|1982]] and graduated as "[[Ingénieur|Master's_degree]] Polytechnicien" ([[engineering degree|Engineer's_degree]]) in [[1985|1985]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He entered the [[French|France]] [[École polytechnique|%C3%89cole_Polytechnique]] ([[Paris|Paris]]) in 1982 and graduated as "Ingénieur Polytechnicien" (engineering degree) in 1985.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-2,He/PRP-1)
+				nsubj(graduated/VBD-13,He/PRP-1)
+				det(polytechnique/NN-6,the/DT-3)
+				amod(polytechnique/NN-6,French/JJ-4)
+				nn(polytechnique/NN-6,École/NN-5)
+				dobj(entered/VBD-2,polytechnique/NN-6)
+				appos(polytechnique/NN-6,Paris/NNP-8)
+				prep_in(entered/VBD-2,1982/CD-11)
+				conj_and(entered/VBD-2,graduated/VBD-13)
+				nn(Polytechnicien/NNP-17,Ingénieur/NNP-16)
+				prep_as(graduated/VBD-13,Polytechnicien/NNP-17)
+				nn(degree/NN-21,engineering/NN-20)
+				appos(Polytechnicien/NNP-17,degree/NN-21)
+				prep_in(graduated/VBD-13,1985/CD-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>French</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>École polytechnique</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/%C3%89cole_Polytechnique</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Paris</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Paris</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ingénieur</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Master's_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineering degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineer's_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1985</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1985</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/%C3%89cole_Polytechnique http://dbpedia.org/ontology/country http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/France http://dbpedia.org/ontology/capital http://dbpedia.org/resource/Paris
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Paris http://dbpedia.org/ontology/country http://dbpedia.org/resource/France
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin then received his Test Pilot Licence in 1993 from the École du personnel navigant d'essais et de réception (EPNER), the French Test Pilot School at Istres Air Force Base and received his Air Line Pilot Certificate in 1995.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-3,Perrin/NNP-1)
+				nsubj(received/VBD-35,Perrin/NNP-1)
+				advmod(received/VBD-3,then/RB-2)
+				poss(Licence/NN-7,his/PRP$-4)
+				nn(Licence/NN-7,Test/NN-5)
+				nn(Licence/NN-7,Pilot/NN-6)
+				dobj(received/VBD-3,Licence/NN-7)
+				prep_in(received/VBD-3,1993/CD-9)
+				det(personnel/NNS-14,the/DT-11)
+				nn(personnel/NNS-14,École/NNP-12)
+				nn(personnel/NNS-14,du/NNP-13)
+				prep_from(1993/CD-9,personnel/NNS-14)
+				amod(d'essais/NNPS-16,navigant/JJ-15)
+				dep(1993/CD-9,d'essais/NNPS-16)
+				nn(réception/NN-19,et/FW-17)
+				nn(réception/NN-19,de/FW-18)
+				dep(d'essais/NNPS-16,réception/NN-19)
+				appos(réception/NN-19,EPNER/NN-21)
+				det(School/NN-28,the/DT-24)
+				amod(School/NN-28,French/JJ-25)
+				nn(School/NN-28,Test/NN-26)
+				nn(School/NN-28,Pilot/NN-27)
+				appos(1993/CD-9,School/NN-28)
+				nn(Base/NNP-33,Istres/NNP-30)
+				nn(Base/NNP-33,Air/NNP-31)
+				nn(Base/NNP-33,Force/NNP-32)
+				prep_at(School/NN-28,Base/NNP-33)
+				conj_and(received/VBD-3,received/VBD-35)
+				poss(Certificate/NN-40,his/PRP$-36)
+				nn(Certificate/NN-40,Air/NNP-37)
+				nn(Certificate/NN-40,Line/NNP-38)
+				nn(Certificate/NN-40,Pilot/NN-39)
+				dobj(received/VBD-35,Certificate/NN-40)
+				prep_in(received/VBD-35,1995/CD-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to graduating from the École polytechnique, Perrin completed military duty in the French Navy, where he was trained in ship piloting and navigation, and spent six months at sea in the Indian Ocean.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_prior_to(completed/VBD-10,graduating/VBG-3)
+				det(polytechnique/NN-7,the/DT-5)
+				nn(polytechnique/NN-7,École/NNP-6)
+				prep_from(graduating/VBG-3,polytechnique/NN-7)
+				nsubj(completed/VBD-10,Perrin/NNP-9)
+				nsubj(spent/VBD-29,Perrin/NNP-9)
+				amod(duty/NN-12,military/JJ-11)
+				dobj(completed/VBD-10,duty/NN-12)
+				det(Navy/NNP-16,the/DT-14)
+				amod(Navy/NNP-16,French/JJ-15)
+				prep_in(completed/VBD-10,Navy/NNP-16)
+				advmod(trained/VBN-21,where/WRB-18)
+				nsubjpass(trained/VBN-21,he/PRP-19)
+				auxpass(trained/VBN-21,was/VBD-20)
+				rcmod(Navy/NNP-16,trained/VBN-21)
+				nn(piloting/NN-24,ship/NN-23)
+				prep_in(trained/VBN-21,piloting/NN-24)
+				prep_in(trained/VBN-21,navigation/NN-26)
+				conj_and(piloting/NN-24,navigation/NN-26)
+				conj_and(completed/VBD-10,spent/VBD-29)
+				num(months/NNS-31,six/CD-30)
+				tmod(spent/VBD-29,months/NNS-31)
+				prep_at(spent/VBD-29,sea/NN-33)
+				det(Ocean/NN-37,the/DT-35)
+				amod(Ocean/NN-37,Indian/JJ-36)
+				prep_in(spent/VBD-29,Ocean/NN-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following École polytechnique, he entered the French Air Force in 1985, was awarded his pilot’s wings in 1986, and was assigned to the 33rd Reconnaissance Wing at Strasbourg Air Force Base (1987-1991).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(polytechnique/NN-3,École/JJ-2)
+				prep_following(entered/VBD-6,polytechnique/NN-3)
+				nsubj(entered/VBD-6,he/PRP-5)
+				nsubjpass(awarded/VBN-15,he/PRP-5)
+				nsubjpass(assigned/VBN-25,he/PRP-5)
+				det(Force/NNP-10,the/DT-7)
+				nn(Force/NNP-10,French/NNP-8)
+				nn(Force/NNP-10,Air/NNP-9)
+				dobj(entered/VBD-6,Force/NNP-10)
+				prep_in(Force/NNP-10,1985/CD-12)
+				auxpass(awarded/VBN-15,was/VBD-14)
+				conj_and(entered/VBD-6,awarded/VBN-15)
+				poss(pilot/NN-17,his/PRP$-16)
+				poss(wings/NNS-19,pilot/NN-17)
+				dobj(awarded/VBN-15,wings/NNS-19)
+				prep_in(awarded/VBN-15,1986/CD-21)
+				auxpass(assigned/VBN-25,was/VBD-24)
+				conj_and(entered/VBD-6,assigned/VBN-25)
+				det(Wing/NN-30,the/DT-27)
+				amod(Wing/NN-30,33rd/JJ-28)
+				nn(Wing/NN-30,Reconnaissance/NNP-29)
+				prep_to(assigned/VBN-25,Wing/NN-30)
+				nn(Base/NNP-35,Strasbourg/NNP-32)
+				nn(Base/NNP-35,Air/NNP-33)
+				nn(Base/NNP-35,Force/NNP-34)
+				prep_at(Wing/NN-30,Base/NNP-35)
+				appos(Base/NNP-35,1987-1991/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew the Mirage F1CR and made detachments in Africa and Saudi Arabia.	</value>
+
+		<annotated-sentence>	He flew the Mirage [[F1CR|Dassault_Mirage_F1]] and made detachments in Africa and Saudi Arabia.	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew the Mirage F1CR and made detachments in Africa and Saudi Arabia.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				nsubj(made/VBD-7,He/PRP-1)
+				det(F1CR/NN-5,the/DT-3)
+				nn(F1CR/NN-5,Mirage/NNP-4)
+				dobj(flew/VBD-2,F1CR/NN-5)
+				conj_and(flew/VBD-2,made/VBD-7)
+				dobj(made/VBD-7,detachments/NNS-8)
+				nn(Arabia/NNP-13,Africa/NNP-10)
+				conj_and(Africa/NNP-10,Saudi/NNP-12)
+				nn(Arabia/NNP-13,Saudi/NNP-12)
+				prep_in(made/VBD-7,Arabia/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>F1CR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dassault_Mirage_F1</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin has flown 26 combat missions and has logged over 2,500 flying hours in over 30 types (from jet fighters to Airbus).	</value>
+
+		<annotated-sentence>	Perrin has flown 26 [[combat missions|Combat_Missions]] and has logged over 2,500 flying hours in over 30 types (from [[jet fighters|Jet_Fighters_(video_game)]] to [[Airbus|Airbus]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Perrin has flown 26 combat missions and has logged over 2,500 flying hours in over 30 types (from jet fighters to Airbus).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-3,Perrin/NNP-1)
+				nsubj(logged/VBN-9,Perrin/NNP-1)
+				aux(flown/VBN-3,has/VBZ-2)
+				num(missions/NNS-6,26/CD-4)
+				nn(missions/NNS-6,combat/NN-5)
+				dobj(flown/VBN-3,missions/NNS-6)
+				aux(logged/VBN-9,has/VBZ-8)
+				conj_and(flown/VBN-3,logged/VBN-9)
+				num(hours/NNS-13,2,500/CD-11)
+				amod(hours/NNS-13,flying/VBG-12)
+				prep_over(logged/VBN-9,hours/NNS-13)
+				quantmod(30/CD-16,over/IN-15)
+				num(types/NNS-17,30/CD-16)
+				prep_in(hours/NNS-13,types/NNS-17)
+				nn(fighters/NNS-21,jet/NN-20)
+				prep_from(types/NNS-17,fighters/NNS-21)
+				prep_to(fighters/NNS-21,Airbus/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>combat missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Combat_Missions</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet fighters</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_Fighters_(video_game)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Airbus</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airbus</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Upon graduating from EPNER, the French Test Pilot School, he worked on a variety of test programs while assigned to the Bretigny Test Center.	</value>
+
+		<annotated-sentence>	Upon graduating from [[EPNER|%C3%89cole_du_personnel_navigant_d'essais_et_de_r%C3%A9ception]], the [[French|France]] [[Test Pilot|Test_pilot]] [[School|School]], he worked on a variety of [[test|Test_pilot]] programs while assigned to the [[Bretigny|Bretigny,_C%C3%B4te-d'Or]] [[Test|Test_pilot]] Center.	</annotated-sentence>
+
+		<pattern_crowdsource>	Upon graduating from EPNER, the [[French|France]] Test Pilot School, he worked on a variety of test programs while assigned to the [[Bretigny|Bretigny,_C%C3%B4te-d'Or]] Test Center.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_upon(worked/VBD-13,graduating/VBG-2)
+				prep_from(graduating/VBG-2,EPNER/NNP-4)
+				det(Pilot/NN-9,the/DT-6)
+				amod(Pilot/NN-9,French/JJ-7)
+				nn(Pilot/NN-9,Test/NN-8)
+				appos(EPNER/NNP-4,Pilot/NN-9)
+				appos(Pilot/NN-9,School/NNP-10)
+				nsubj(worked/VBD-13,he/PRP-12)
+				det(variety/NN-16,a/DT-15)
+				prep_on(worked/VBD-13,variety/NN-16)
+				nn(programs/NNS-19,test/NN-18)
+				prep_of(variety/NN-16,programs/NNS-19)
+				mark(assigned/VBN-21,while/IN-20)
+				advcl(worked/VBD-13,assigned/VBN-21)
+				det(Center/NNP-26,the/DT-23)
+				nn(Center/NNP-26,Bretigny/NNP-24)
+				nn(Center/NNP-26,Test/NNP-25)
+				prep_to(assigned/VBN-21,Center/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>EPNER</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/%C3%89cole_du_personnel_navigant_d'essais_et_de_r%C3%A9ception</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>French</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test Pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bretigny</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bretigny,_C%C3%B4te-d'Or</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bretigny,_C%C3%B4te-d'Or http://dbpedia.org/ontology/country http://dbpedia.org/resource/France
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, he was temporarily detached to the French Space Agency (CNES) and sent to Star City, Russia, where he trained for two months.	</value>
+
+		<annotated-sentence>	In [[1992|1992]], he was temporarily detached to [[the French Space Agency|CNES]] ([[CNES|CNES]]) and sent to Star City, [[Russia|Russia]], where he trained for [[two months|Month]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1992, he was temporarily detached to [[the French Space Agency|CNES]] ([[CNES|CNES]]) and sent to Star City, Russia, where he trained for two months.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(detached/VBN-7,1992/CD-2)
+				nsubjpass(detached/VBN-7,he/PRP-4)
+				nsubjpass(sent/VBN-17,he/PRP-4)
+				auxpass(detached/VBN-7,was/VBD-5)
+				advmod(detached/VBN-7,temporarily/RB-6)
+				det(Agency/NNP-12,the/DT-9)
+				amod(Agency/NNP-12,French/JJ-10)
+				nn(Agency/NNP-12,Space/NN-11)
+				prep_to(detached/VBN-7,Agency/NNP-12)
+				appos(Agency/NNP-12,CNES/NNP-14)
+				conj_and(detached/VBN-7,sent/VBN-17)
+				nn(City/NNP-20,Star/NNP-19)
+				prep_to(sent/VBN-17,City/NNP-20)
+				appos(City/NNP-20,Russia/NNP-22)
+				advmod(trained/VBD-26,where/WRB-24)
+				nsubj(trained/VBD-26,he/PRP-25)
+				advcl(sent/VBN-17,trained/VBD-26)
+				num(months/NNS-29,two/CD-28)
+				prep_for(trained/VBD-26,months/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the French Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>two months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1993, he reported to the 2nd Air Defense Wing of Dijon Air Force Base as Senior Operations Officer (Operation Southern Watch).	</value>
+
+		<annotated-sentence>	In [[1993|1993]], he reported to the 2nd [[Air Defense|Air_Defense,_Tactical_Air_Command]] [[Wing|140th_Wing]] of [[Dijon|Dijon]] [[Air Force Base|Air_Force_Base]] as Senior [[Operations Officer|Operations_(military_staff)]] ([[Operation Southern Watch|Operation_Southern_Watch]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1993, he reported to the 2nd Air Defense [[Wing|140th_Wing]] of Dijon Air Force Base as Senior Operations Officer ([[Operation Southern Watch|Operation_Southern_Watch]]).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(reported/VBD-5,1993/CD-2)
+				nsubj(reported/VBD-5,he/PRP-4)
+				det(Wing/NN-11,the/DT-7)
+				amod(Wing/NN-11,2nd/JJ-8)
+				nn(Wing/NN-11,Air/NNP-9)
+				nn(Wing/NN-11,Defense/NNP-10)
+				prep_to(reported/VBD-5,Wing/NN-11)
+				nn(Base/NNP-16,Dijon/NNP-13)
+				nn(Base/NNP-16,Air/NNP-14)
+				nn(Base/NNP-16,Force/NNP-15)
+				prep_of(Wing/NN-11,Base/NNP-16)
+				nn(Officer/NNP-20,Senior/NNP-18)
+				nn(Officer/NNP-20,Operations/NNP-19)
+				prep_as(reported/VBD-5,Officer/NNP-20)
+				nn(Watch/NNP-24,Operation/NNP-22)
+				nn(Watch/NNP-24,Southern/NNP-23)
+				appos(Officer/NNP-20,Watch/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1993</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1993</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Defense</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Defense,_Tactical_Air_Command</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/140th_Wing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dijon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dijon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operations Officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Operation Southern Watch</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operation_Southern_Watch</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/140th_Wing http://dbpedia.org/ontology/battle http://dbpedia.org/resource/Operation_Southern_Watch
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1995, he returned to the Bretigny Test Center, as Chief Pilot Deputy, in charge of the development of the Mirage 2000-5.	</value>
+
+		<annotated-sentence>	In [[1995|1995]], he returned to the [[Bretigny|Sandrine_Br%C3%A9tigny]] Test [[Center|Forward_(association_football)]], as Chief Pilot Deputy, in charge of the development of [[the Mirage 2000-5|Dassault_Mirage_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1995, he returned to the [[Bretigny|Sandrine_Br%C3%A9tigny]] Test [[Center|Forward_(association_football)]], as Chief Pilot Deputy, in charge of the development of the Mirage 2000-5.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(returned/VBD-5,1995/CD-2)
+				nsubj(returned/VBD-5,he/PRP-4)
+				det(Center/NNP-10,the/DT-7)
+				nn(Center/NNP-10,Bretigny/NNP-8)
+				nn(Center/NNP-10,Test/NNP-9)
+				prep_to(returned/VBD-5,Center/NNP-10)
+				nn(Deputy/NNP-15,Chief/NNP-13)
+				nn(Deputy/NNP-15,Pilot/NN-14)
+				prep_as(returned/VBD-5,Deputy/NNP-15)
+				prep_in(returned/VBD-5,charge/NN-18)
+				det(development/NN-21,the/DT-20)
+				prep_of(charge/NN-18,development/NN-21)
+				det(Mirage/NNP-24,the/DT-23)
+				prep_of(development/NN-21,Mirage/NNP-24)
+				num(Mirage/NNP-24,2000-5/CD-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Bretigny</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sandrine_Br%C3%A9tigny</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Forward_(association_football)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Mirage 2000-5</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dassault_Mirage_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sandrine_Br%C3%A9tigny http://dbpedia.org/ontology/position http://dbpedia.org/resource/Forward_(association_football)
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In July 1996, CNES announced his selection as an astronaut candidate and assigned him to attend NASA’s Astronaut Candidate Training in Houston, Texas.	</value>
+
+		<annotated-sentence>	In [[July 1996|1996]], [[CNES|CNES]] announced [[his selection|Selection]] as an [[astronaut|Astronaut]] [[candidate|Candidate]] and assigned him to attend [[NASA|NASA]]’s [[Astronaut|Astronaut]] [[Candidate|Candidate]] [[Training|Training]] in Houston, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	In July 1996, [[CNES|CNES]] announced his selection as an [[astronaut|Astronaut]] candidate and assigned him to attend NASA’s [[Astronaut|Astronaut]] Candidate Training in Houston, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(announced/VBD-6,July/NNP-2)
+				num(July/NNP-2,1996/CD-3)
+				nsubj(announced/VBD-6,CNES/NNP-5)
+				nsubj(assigned/VBN-14,CNES/NNP-5)
+				poss(selection/NN-8,his/PRP$-7)
+				dobj(announced/VBD-6,selection/NN-8)
+				det(candidate/NN-12,an/DT-10)
+				nn(candidate/NN-12,astronaut/NN-11)
+				prep_as(announced/VBD-6,candidate/NN-12)
+				conj_and(announced/VBD-6,assigned/VBN-14)
+				nsubj(attend/VB-17,him/PRP-15)
+				aux(attend/VB-17,to/TO-16)
+				xcomp(assigned/VBN-14,attend/VB-17)
+				poss(Training/NN-22,NASA/NNP-18)
+				nn(Training/NN-22,Astronaut/NNP-20)
+				nn(Training/NN-22,Candidate/NNP-21)
+				dobj(attend/VB-17,Training/NN-22)
+				nn(Texas/NNP-26,Houston/NNP-24)
+				prep_in(Training/NN-22,Texas/NNP-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>July 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his selection</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Selection</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin reported to the Johnson Space Center in August 1996.	</value>
+
+		<annotated-sentence>	Perrin reported to [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] in [[August 1996|1996]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Perrin reported to the Johnson Space Center in August 1996.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(reported/VBD-2,Perrin/NNP-1)
+				det(Center/NNP-7,the/DT-4)
+				nn(Center/NNP-7,Johnson/NNP-5)
+				nn(Center/NNP-7,Space/NNP-6)
+				prep_to(reported/VBD-2,Center/NNP-7)
+				prep_in(reported/VBD-2,August/NNP-9)
+				num(August/NNP-9,1996/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1996</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1996</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Having completed two years of training and evaluation, he qualified for flight assignments as a mission specialist.	</value>
+
+		<annotated-sentence>	Having completed [[two years|Year]] of [[training and evaluation|Course_evaluation]], he qualified for [[flight|Flight]] assignments as [[a mission specialist|Mission_Specialist]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Having completed two years of training and evaluation, he qualified for flight assignments as a mission specialist.	</pattern_crowdsource>
+
+
+		<tree>
+				aux(completed/VBN-2,Having/VBG-1)
+				partmod(qualified/VBD-11,completed/VBN-2)
+				num(years/NNS-4,two/CD-3)
+				dobj(completed/VBN-2,years/NNS-4)
+				prep_of(years/NNS-4,training/NN-6)
+				prep_of(years/NNS-4,evaluation/NN-8)
+				conj_and(training/NN-6,evaluation/NN-8)
+				nsubj(qualified/VBD-11,he/PRP-10)
+				nn(assignments/NNS-14,flight/NN-13)
+				prep_for(qualified/VBD-11,assignments/NNS-14)
+				det(specialist/NN-18,a/DT-16)
+				nn(specialist/NN-18,mission/NN-17)
+				prep_as(qualified/VBD-11,specialist/NN-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training and evaluation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Course_evaluation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin was initially assigned technical duties in the Astronaut Office Spacecraft Systems/Operations Branch.	</value>
+
+		<annotated-sentence>	[[Perrin|Philippe_Perrin]] was initially assigned technical [[duties|Duty]] in the [[Astronaut Office|NASA_Astronaut_Corps]] [[Spacecraft|Spacecraft]] Systems/Operations Branch.	</annotated-sentence>
+
+		<pattern_crowdsource>	Perrin was initially assigned technical duties in the Astronaut Office Spacecraft Systems/Operations Branch.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,Perrin/NNP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,initially/RB-3)
+				amod(duties/NNS-6,technical/JJ-5)
+				dobj(assigned/VBN-4,duties/NNS-6)
+				det(Branch/NNP-13,the/DT-8)
+				nn(Branch/NNP-13,Astronaut/NNP-9)
+				nn(Branch/NNP-13,Office/NNP-10)
+				nn(Branch/NNP-13,Spacecraft/NNP-11)
+				nn(Branch/NNP-13,Systems/Operations/NNP-12)
+				prep_in(assigned/VBN-4,Branch/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Perrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Philippe_Perrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>duties</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Duty</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a mission specialist on the STS-111 mission in 2002 and logged over 332 hours in space, including 19 hours and 31 minutes in three spacewalks, performed with Franklin Chang-Diaz.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				nsubj(logged/VBD-14,He/PRP-1)
+				nsubj(performed/VBN-31,He/PRP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(served/VBD-2,specialist/NN-6)
+				det(mission/NN-10,the/DT-8)
+				nn(mission/NN-10,STS-111/NN-9)
+				prep_on(served/VBD-2,mission/NN-10)
+				prep_in(mission/NN-10,2002/CD-12)
+				conj_and(served/VBD-2,logged/VBD-14)
+				num(hours/NNS-17,332/CD-16)
+				prep_over(logged/VBD-14,hours/NNS-17)
+				prep_in(logged/VBD-14,space/NN-19)
+				dep(served/VBD-2,including/VBG-21)
+				num(hours/NNS-23,19/CD-22)
+				pobj(including/VBG-21,hours/NNS-23)
+				num(minutes/NNS-26,31/CD-25)
+				pobj(including/VBG-21,minutes/NNS-26)
+				conj_and(hours/NNS-23,minutes/NNS-26)
+				num(spacewalks/NNS-29,three/CD-28)
+				prep_in(minutes/NNS-26,spacewalks/NNS-29)
+				conj_and(served/VBD-2,performed/VBN-31)
+				nn(Chang-Diaz/NNP-34,Franklin/NNP-33)
+				prep_with(performed/VBN-31,Chang-Diaz/NNP-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After his flight, Perrin returned to France to work as support astronaut on the Automated Transfer Vehicle program.	</value>
+
+		<annotated-sentence>	After [[his flight|Flight]], [[Perrin|Philippe_Perrin]] returned to [[France|France]] to work as support [[astronaut|Astronaut]] on the [[Automated Transfer Vehicle|Automated_Transfer_Vehicle]] program.	</annotated-sentence>
+
+		<pattern_crowdsource>	After his flight, [[Perrin|Philippe_Perrin]] returned to [[France|France]] to work as support [[astronaut|Astronaut]] on the Automated Transfer Vehicle program.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(flight/NN-3,his/PRP$-2)
+				prep_after(returned/VBD-6,flight/NN-3)
+				nsubj(returned/VBD-6,Perrin/NNP-5)
+				prep_to(returned/VBD-6,France/NNP-8)
+				aux(work/VB-10,to/TO-9)
+				xcomp(returned/VBD-6,work/VB-10)
+				nn(astronaut/NN-13,support/NN-12)
+				prep_as(work/VB-10,astronaut/NN-13)
+				det(program/NN-19,the/DT-15)
+				nn(program/NN-19,Automated/NNP-16)
+				nn(program/NN-19,Transfer/NN-17)
+				nn(program/NN-19,Vehicle/NNP-18)
+				prep_on(work/VB-10,program/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>his flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Perrin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Philippe_Perrin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>France</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Automated Transfer Vehicle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Automated_Transfer_Vehicle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/France
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	December 2002 he was transferred from CNES to the European Space Agency's astronaut corps.	</value>
+
+		<annotated-sentence>	[[December 2002|December_2002]] he was transferred from [[CNES|CNES]] to the [[European Space Agency|European_Space_Agency]]'s [[astronaut|Astronaut]] corps.	</annotated-sentence>
+
+		<pattern_crowdsource>	December 2002 he was transferred from [[CNES|CNES]] to the European Space Agency's [[astronaut|Astronaut]] corps.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(transferred/VBN-5,December/NNP-1)
+				num(December/NNP-1,2002/CD-2)
+				nsubjpass(transferred/VBN-5,he/PRP-3)
+				auxpass(transferred/VBN-5,was/VBD-4)
+				prep_from(transferred/VBN-5,CNES/NNS-7)
+				det(Agency/NNP-12,the/DT-9)
+				amod(Agency/NNP-12,European/JJ-10)
+				nn(Agency/NNP-12,Space/NNP-11)
+				poss(corps/NN-15,Agency/NNP-12)
+				nn(corps/NN-15,astronaut/NN-14)
+				prep_to(transferred/VBN-5,corps/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>December 2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/December_2002</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>European Space Agency</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Space_Agency</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He did not fly in space with ESA and left the European Astronaut Corps in 2004.	</value>
+
+		<annotated-sentence>	He did not fly in [[space|Space]] with ESA and left [[the European Astronaut Corps|European_Astronaut_Corps]] in [[2004|2004]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He did not fly in space with ESA and left the European Astronaut Corps in 2004.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(fly/VB-4,He/PRP-1)
+				nsubj(left/VBD-10,He/PRP-1)
+				aux(fly/VB-4,did/VBD-2)
+				neg(fly/VB-4,not/RB-3)
+				prep_in(fly/VB-4,space/NN-6)
+				prep_with(fly/VB-4,ESA/NN-8)
+				conj_and(fly/VB-4,left/VBD-10)
+				det(Corps/NNP-14,the/DT-11)
+				amod(Corps/NNP-14,European/JJ-12)
+				nn(Corps/NNP-14,Astronaut/NNP-13)
+				dobj(left/VBD-10,Corps/NNP-14)
+				prep_in(left/VBD-10,2004/CD-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the European Astronaut Corps</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/European_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is currently working as a test pilot for Airbus.	</value>
+
+		<annotated-sentence>	He is currently working as [[a test pilot|Test_pilot]] for [[Airbus|Airbus]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is currently working as a test pilot for Airbus.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-4,He/PRP-1)
+				aux(working/VBG-4,is/VBZ-2)
+				advmod(working/VBG-4,currently/RB-3)
+				det(pilot/NN-8,a/DT-6)
+				nn(pilot/NN-8,test/NN-7)
+				prep_as(working/VBG-4,pilot/NN-8)
+				prep_for(pilot/NN-8,Airbus/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Airbus</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Airbus</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-111 Endeavour (5-19 June 2002).	</value>
+
+		<annotated-sentence>	[[STS-111|STS-111]] [[Endeavour|Endeavour]] (5-19 [[June 2002|June_2002]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-111|STS-111]] Endeavour (5-19 June 2002).	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Endeavour/NN-2,STS-111/NN-1)
+				dep(Endeavour/NN-2,5-19/CD-4)
+				tmod(5-19/CD-4,June/NNP-5)
+				num(June/NNP-5,2002/CD-6)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-111</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Endeavour</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Endeavour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2002</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-111
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The STS-111 mission delivered a new ISS resident crew and a Canadian-built mobile base for the orbiting outpost’s robotic arm.	</value>
+
+		<annotated-sentence>	The [[STS-111|STS-111]] mission delivered a new [[ISS|S]] resident crew and a Canadian-built mobile base for the orbiting outpost’s robotic arm.	</annotated-sentence>
+
+		<pattern_crowdsource>	The [[STS-111|STS-111]] mission delivered a new ISS resident crew and a Canadian-built mobile base for the orbiting outpost’s robotic arm.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,The/DT-1)
+				nn(mission/NN-3,STS-111/NN-2)
+				nsubj(delivered/VBD-4,mission/NN-3)
+				det(crew/NN-9,a/DT-5)
+				amod(crew/NN-9,new/JJ-6)
+				nn(crew/NN-9,ISS/NN-7)
+				nn(crew/NN-9,resident/NN-8)
+				dobj(delivered/VBD-4,crew/NN-9)
+				det(base/NN-14,a/DT-11)
+				amod(base/NN-14,Canadian-built/JJ-12)
+				amod(base/NN-14,mobile/JJ-13)
+				dobj(delivered/VBD-4,base/NN-14)
+				conj_and(crew/NN-9,base/NN-14)
+				det(outpost/NN-18,the/DT-16)
+				amod(outpost/NN-18,orbiting/VBG-17)
+				poss(arm/NN-21,outpost/NN-18)
+				amod(arm/NN-21,robotic/JJ-20)
+				prep_for(delivered/VBD-4,arm/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-111</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-111
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The crew also performed late-notice repair of the station’s robot arm by replacing one of the arm’s joints.	</value>
+
+		<annotated-sentence>	The crew also performed late-notice repair of the [[station|Station]]’s [[robot|Robot]] arm by replacing one of the arm’s [[joints|Joint]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The crew also performed late-notice repair of the station’s robot arm by replacing one of the arm’s joints.	</pattern_crowdsource>
+
+
+		<tree>
+				det(crew/NN-2,The/DT-1)
+				nsubj(performed/VBD-4,crew/NN-2)
+				advmod(performed/VBD-4,also/RB-3)
+				amod(repair/NN-6,late-notice/JJ-5)
+				dobj(performed/VBD-4,repair/NN-6)
+				det(station/NN-9,the/DT-8)
+				poss(arm/NN-12,station/NN-9)
+				nn(arm/NN-12,robot/NN-11)
+				prep_of(repair/NN-6,arm/NN-12)
+				prepc_by(performed/VBD-4,replacing/VBG-14)
+				dobj(replacing/VBG-14,one/CD-15)
+				det(arm/NN-18,the/DT-17)
+				poss(joints/NNS-20,arm/NN-18)
+				prep_of(one/CD-15,joints/NNS-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>robot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>joints</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Joint</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	It was the second Space Shuttle mission dedicated to delivering research equipment to the space platform.	</value>
+
+		<annotated-sentence>	It was the second [[Space Shuttle|SpaceShuttle]] mission dedicated to delivering [[research equipment|Sports_equipment]] to [[the space platform|Space_Platform]].	</annotated-sentence>
+
+		<pattern_crowdsource>	It was the second Space Shuttle mission dedicated to delivering research equipment to the space platform.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(mission/NN-7,It/PRP-1)
+				cop(mission/NN-7,was/VBD-2)
+				det(mission/NN-7,the/DT-3)
+				amod(mission/NN-7,second/JJ-4)
+				nn(mission/NN-7,Space/NN-5)
+				nn(mission/NN-7,Shuttle/NNP-6)
+				partmod(mission/NN-7,dedicated/VBN-8)
+				prepc_to(dedicated/VBN-8,delivering/VBG-10)
+				nn(equipment/NN-12,research/NN-11)
+				dobj(delivering/VBG-10,equipment/NN-12)
+				det(platform/NN-16,the/DT-14)
+				nn(platform/NN-16,space/NN-15)
+				prep_to(delivering/VBG-10,platform/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research equipment</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sports_equipment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space platform</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Platform</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin performed three EVAs (spacewalks) with Franklin Chang-Diaz.	</value>
+
+		<annotated-sentence>	Perrin performed three EVAs ([[spacewalks|Spacewalk_(software)]]) with [[Franklin Chang-Diaz|Franklin_Chang-Diaz]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Perrin performed three EVAs (spacewalks) with Franklin Chang-Diaz.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(performed/VBD-2,Perrin/NNP-1)
+				num(EVAs/NNS-4,three/CD-3)
+				dobj(performed/VBD-2,EVAs/NNS-4)
+				appos(EVAs/NNS-4,spacewalks/NNS-6)
+				nn(Chang-Diaz/NNP-10,Franklin/NNP-9)
+				prep_with(performed/VBD-2,Chang-Diaz/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>spacewalks</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Franklin Chang-Diaz</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franklin_Chang-Diaz</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-111 also brought home the Expedition 4 crew from their 6-1/2 month stay aboard the station.	</value>
+
+		<annotated-sentence>	[[STS-111|STS-111]] also brought home the [[Expedition 4|Expedition_4]] crew from their [[6-1/2|Sixth_and_a_Half_Avenue]] [[month|Month]] stay aboard [[the station|Station]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-111|STS-111]] also brought home the [[Expedition 4|Expedition_4]] crew from their 6-1/2 month stay aboard the station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(brought/VBD-3,STS-111/NN-1)
+				advmod(brought/VBD-3,also/RB-2)
+				advmod(brought/VBD-3,home/NN-4)
+				det(crew/NN-8,the/DT-5)
+				nn(crew/NN-8,Expedition/NN-6)
+				num(crew/NN-8,4/CD-7)
+				dobj(brought/VBD-3,crew/NN-8)
+				poss(stay/NN-13,their/PRP$-10)
+				num(stay/NN-13,6-1/2/CD-11)
+				nn(stay/NN-13,month/NN-12)
+				prep_from(brought/VBD-3,stay/NN-13)
+				det(station/NN-16,the/DT-15)
+				prep_aboard(brought/VBD-3,station/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-111</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-111</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 4</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_4</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>6-1/2</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sixth_and_a_Half_Avenue</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>month</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Philippe_Perrin http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-111
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Philippe_Perrin
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/expedition5Down http://dbpedia.org/resource/Expedition_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/expedition6Down http://dbpedia.org/resource/Expedition_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-111 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_4
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_4 http://dbpedia.org/property/departureCraft http://dbpedia.org/resource/STS-111
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 13 days, 20 hours and 35 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 13 days, 20 [[hours|Hour]] and 35 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 13 days, 20 hours and 35 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(days/NNS-5,duration/NN-2)
+				cop(days/NNS-5,was/VBD-3)
+				num(days/NNS-5,13/CD-4)
+				num(hours/NNS-8,20/CD-7)
+				conj_and(days/NNS-5,hours/NNS-8)
+				num(minutes/NNS-11,35/CD-10)
+				conj_and(days/NNS-5,minutes/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Unacceptable weather conditions in Florida necessitated a landing at Edwards Air Force Base, California.	</value>
+
+		<annotated-sentence>	[[Unacceptable|Texas_Education_Agency_accountability_ratings_system]] [[weather conditions|Weather]] in [[Florida|Florida]] necessitated [[a landing|Amphibious_warfare]] at [[Edwards Air Force Base|Edwards_Air_Force_Base]], [[California|California]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Unacceptable weather conditions in Florida necessitated a landing at Edwards Air Force Base, California.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(conditions/NNS-3,Unacceptable/JJ-1)
+				nn(conditions/NNS-3,weather/NN-2)
+				nsubj(necessitated/VBD-6,conditions/NNS-3)
+				prep_in(conditions/NNS-3,Florida/NNP-5)
+				det(landing/NN-8,a/DT-7)
+				dobj(necessitated/VBD-6,landing/NN-8)
+				nn(Base/NNP-13,Edwards/NNP-10)
+				nn(Base/NNP-13,Air/NNP-11)
+				nn(Base/NNP-13,Force/NNP-12)
+				prep_at(necessitated/VBD-6,Base/NNP-13)
+				appos(Base/NNP-13,California/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Unacceptable</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas_Education_Agency_accountability_ratings_system</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>weather conditions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Weather</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a landing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Amphibious_warfare</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Edwards Air Force Base</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Edwards_Air_Force_Base</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/California</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Perrin is the only French astronaut to have received the Légion d'Honneur before flying in space as he became chevalier due to his actions while he was a military pilot.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(astronaut/NN-6,Perrin/NNP-1)
+				cop(astronaut/NN-6,is/VBZ-2)
+				det(astronaut/NN-6,the/DT-3)
+				amod(astronaut/NN-6,only/JJ-4)
+				amod(astronaut/NN-6,French/JJ-5)
+				aux(received/VBN-9,to/TO-7)
+				aux(received/VBN-9,have/VB-8)
+				infmod(astronaut/NN-6,received/VBN-9)
+				det(d'Honneur/NN-12,the/DT-10)
+				nn(d'Honneur/NN-12,Légion/NNP-11)
+				dobj(received/VBN-9,d'Honneur/NN-12)
+				prepc_before(received/VBN-9,flying/VBG-14)
+				prep_in(flying/VBG-14,space/NN-16)
+				mark(became/VBD-19,as/IN-17)
+				nsubj(became/VBD-19,he/PRP-18)
+				advcl(flying/VBG-14,became/VBD-19)
+				nsubj(pilot/NN-30,chevalier/NN-20)
+				poss(actions/NNS-24,his/PRP$-23)
+				prep_due_to(pilot/NN-30,actions/NNS-24)
+				mark(pilot/NN-30,while/IN-25)
+				nsubj(pilot/NN-30,he/PRP-26)
+				cop(pilot/NN-30,was/VBD-27)
+				det(pilot/NN-30,a/DT-28)
+				amod(pilot/NN-30,military/JJ-29)
+				xcomp(became/VBD-19,pilot/NN-30)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was then elevated to the officier class after his space mission.	</value>
+
+		<annotated-sentence>	He was then elevated to the [[officier|Officier_de_plume]] class after [[his space mission|SpaceMission]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was then elevated to the officier class after his space mission.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(elevated/JJ-4,He/PRP-1)
+				cop(elevated/JJ-4,was/VBD-2)
+				advmod(elevated/JJ-4,then/RB-3)
+				det(class/NN-8,the/DT-6)
+				nn(class/NN-8,officier/NN-7)
+				prep_to(elevated/JJ-4,class/NN-8)
+				poss(mission/NN-12,his/PRP$-10)
+				nn(mission/NN-12,space/NN-11)
+				prep_after(elevated/JJ-4,mission/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>officier</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officier_de_plume</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his space mission</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

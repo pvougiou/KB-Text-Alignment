@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Is cancer immunotherapy the same as chemotherapy?</value>
+		<pattern_crowdsource> Is cancer [[immunotherapy|C0021083]] the same as [[chemotherapy|C0013216]]?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>immunotherapy</surface-form>
+				<RDF-ID>C0021083</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>same</surface-form>
+				<RDF-ID>C0445247</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chemotherapy</surface-form>
+				<RDF-ID>C0013216</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0021083 compared_with C0013216</triple>
+			<triple>C0021083 same_as C0013216</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>What are the known side effects ?  - How soon after my treatment will I experience the side effects ?    Am I at risk of infections?</value>
+		<pattern_crowdsource> What are the known [[side effects|C0879626]] ?  - How soon after my treatment will I experience the [[side effects|C0879626]] ?    Am I at risk of infections?		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>known</surface-form>
+				<RDF-ID>C0205309</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>side effects</surface-form>
+				<RDF-ID>C0879626</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>side effects</surface-form>
+				<RDF-ID>C0879626</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>at risk</surface-form>
+				<RDF-ID>C1444641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infections</surface-form>
+				<RDF-ID>C0021311</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0879626 AFFECTS C0879626</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

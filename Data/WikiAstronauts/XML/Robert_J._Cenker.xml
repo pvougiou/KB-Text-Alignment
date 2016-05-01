@@ -1,0 +1,1113 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Robert Joseph Cenker is an engineer and aerospace systems consultant who flew aboard Space Shuttle mission STS-61-C as Payload Specialist for RCA.	</value>
+
+		<annotated-sentence>	[[Robert Joseph Cenker|Robert_J._Cenker]] is [[an engineer|Engineer]] and [[aerospace systems|Hamilton_Sundstrand]] [[consultant|Consultant]] who flew aboard [[Space Shuttle|SpaceShuttle]] [[mission|SpaceMission]] [[STS-61-C|STS-61-C]] as [[Payload Specialist|Payload_Specialist]] for [[RCA|RCA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Robert Joseph Cenker|Robert_J._Cenker]] is an engineer and aerospace systems consultant who flew aboard Space Shuttle mission [[STS-61-C|STS-61-C]] as Payload Specialist for [[RCA|RCA]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cenker/NNP-3,Robert/NNP-1)
+				nn(Cenker/NNP-3,Joseph/NNP-2)
+				nsubj(engineer/NN-6,Cenker/NNP-3)
+				cop(engineer/NN-6,is/VBZ-4)
+				det(engineer/NN-6,an/DT-5)
+				nn(consultant/NN-10,aerospace/NN-8)
+				nn(consultant/NN-10,systems/NNS-9)
+				conj_and(engineer/NN-6,consultant/NN-10)
+				nsubj(flew/VBD-12,who/WP-11)
+				rcmod(engineer/NN-6,flew/VBD-12)
+				nn(STS-61-C/NN-17,Space/NNP-14)
+				nn(STS-61-C/NN-17,Shuttle/NNP-15)
+				nn(STS-61-C/NN-17,mission/NN-16)
+				prep_aboard(flew/VBD-12,STS-61-C/NN-17)
+				nn(Specialist/NNP-20,Payload/NNP-19)
+				prep_as(flew/VBD-12,Specialist/NNP-20)
+				prep_for(Specialist/NNP-20,RCA/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Robert Joseph Cenker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_J._Cenker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hamilton_Sundstrand</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>consultant</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Consultant</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-C</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>RCA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RCA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-C
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Robert_J._Cenker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Robert_J._Cenker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/type http://dbpedia.org/resource/RCA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born November 5, 1948 and raised near Uniontown, Pennsylvania.	</value>
+
+		<annotated-sentence>	Born [[November|November]] 5, 1948 and raised near [[Uniontown , Pennsylvania|Uniontown,_Pennsylvania]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Born November 5, 1948 and raised near Uniontown, Pennsylvania.	</pattern_crowdsource>
+
+
+		<tree>
+				tmod(Born/VBN-1,November/NNP-2)
+				num(November/NNP-2,5/CD-3)
+				num(November/NNP-2,1948/CD-5)
+				conj_and(Born/VBN-1,raised/VBN-7)
+				nn(Pennsylvania/NNP-11,Uniontown/NNP-9)
+				prep_near(raised/VBN-7,Pennsylvania/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>November</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/November</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Uniontown , Pennsylvania</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Uniontown,_Pennsylvania</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Uniontown,_Pennsylvania
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to Barbara Ann (Cosentino) Cenker.	</value>
+
+		<annotated-sentence>	Married to Barbara Ann (Cosentino) [[Cenker|Robert_J._Cenker]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to Barbara Ann (Cosentino) Cenker.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Cenker/NNP-8,Barbara/NNP-3)
+				nn(Cenker/NNP-8,Ann/NNP-4)
+				appos(Cenker/NNP-8,Cosentino/NNP-6)
+				prep_to(Married/JJ-1,Cenker/NNP-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cenker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_J._Cenker</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They have two sons named Daniel and Brian and one daughter named Laura.	</value>
+
+		<annotated-sentence>	[[They|They]] have two sons named Daniel and Brian and [[one daughter|Daughter]] named Laura.	</annotated-sentence>
+
+		<pattern_crowdsource>	They have two sons named Daniel and Brian and one daughter named Laura.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(have/VBP-2,They/PRP-1)
+				num(sons/NNS-4,two/CD-3)
+				dobj(have/VBP-2,sons/NNS-4)
+				partmod(sons/NNS-4,named/VBN-5)
+				dobj(named/VBN-5,Daniel/NNP-6)
+				dobj(named/VBN-5,Brian/NNP-8)
+				conj_and(Daniel/NNP-6,Brian/NNP-8)
+				num(daughter/NN-11,one/CD-10)
+				dobj(named/VBN-5,daughter/NN-11)
+				conj_and(Daniel/NNP-6,daughter/NN-11)
+				partmod(daughter/NN-11,named/VBN-12)
+				dobj(named/VBN-12,Laura/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>They</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/They</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>one daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Cenker currently consults with various firms in the areas of spacecraft design, assembly, and flight operations, and micro-gravity research.	</value>
+
+		<annotated-sentence>	[[Cenker|Robert_J._Cenker]] currently consults with various firms in [[the areas|Area]] of [[spacecraft design|Spacecraft_design]], assembly, and [[flight operations|Flight_Operations]], and micro-gravity [[research|Research]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Cenker currently consults with various firms in the areas of spacecraft design, assembly, and flight operations, and micro-gravity research.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(consults/VBZ-3,Cenker/NNP-1)
+				advmod(consults/VBZ-3,currently/RB-2)
+				amod(firms/NNS-6,various/JJ-5)
+				prep_with(consults/VBZ-3,firms/NNS-6)
+				det(areas/NNS-9,the/DT-8)
+				prep_in(firms/NNS-6,areas/NNS-9)
+				nn(design/NN-12,spacecraft/NN-11)
+				prep_of(areas/NNS-9,design/NN-12)
+				prep_of(areas/NNS-9,assembly/NN-14)
+				conj_and(design/NN-12,assembly/NN-14)
+				nn(operations/NNS-18,flight/NN-17)
+				prep_of(areas/NNS-9,operations/NNS-18)
+				conj_and(design/NN-12,operations/NNS-18)
+				nn(research/NN-22,micro-gravity/NN-21)
+				prep_of(areas/NNS-9,research/NN-22)
+				conj_and(design/NN-12,research/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Cenker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_J._Cenker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the areas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Area</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacecraft_design</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This has included launch vehicle evaluation and systems engineering support for Motorola on Iridium; avionics architecture, generation of performance specification, and generation of performance map for small expendable launch vehicle; and constellation configuration and launch vehicle performance definition for proprietary smallsat communications system.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(included/VBN-3,This/DT-1)
+				aux(included/VBN-3,has/VBZ-2)
+				nn(evaluation/NN-6,launch/NN-4)
+				nn(evaluation/NN-6,vehicle/NN-5)
+				dobj(included/VBN-3,evaluation/NN-6)
+				nn(support/NN-10,systems/NNS-8)
+				nn(support/NN-10,engineering/NN-9)
+				dobj(included/VBN-3,support/NN-10)
+				conj_and(evaluation/NN-6,support/NN-10)
+				prep_for(evaluation/NN-6,Motorola/NNP-12)
+				prep_on(Motorola/NNP-12,Iridium/NNP-14)
+				prep_for(evaluation/NN-6,avionics/NNS-16)
+				conj_and(Motorola/NNP-12,avionics/NNS-16)
+				dep(avionics/NNS-16,architecture/NN-17)
+				prep_for(evaluation/NN-6,generation/NN-19)
+				conj_and(Motorola/NNP-12,generation/NN-19)
+				nn(specification/NN-22,performance/NN-21)
+				prep_of(generation/NN-19,specification/NN-22)
+				conj_and(Motorola/NNP-12,generation/NN-25)
+				conj_and(generation/NN-19,generation/NN-25)
+				nn(map/NN-28,performance/NN-27)
+				prep_of(generation/NN-25,map/NN-28)
+				amod(vehicle/NN-33,small/JJ-30)
+				amod(vehicle/NN-33,expendable/JJ-31)
+				nn(vehicle/NN-33,launch/NN-32)
+				prep_for(map/NN-28,vehicle/NN-33)
+				nn(configuration/NN-37,constellation/NN-36)
+				prep_for(evaluation/NN-6,configuration/NN-37)
+				conj_and(Motorola/NNP-12,configuration/NN-37)
+				nn(definition/NN-42,launch/NN-39)
+				nn(definition/NN-42,vehicle/NN-40)
+				nn(definition/NN-42,performance/NN-41)
+				conj_and(Motorola/NNP-12,definition/NN-42)
+				conj_and(configuration/NN-37,definition/NN-42)
+				amod(system/NN-47,proprietary/JJ-44)
+				nn(system/NN-47,smallsat/NN-45)
+				nn(system/NN-47,communications/NNS-46)
+				prep_for(included/VBN-3,system/NN-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Last two years with RCA were spent as Manager of Payload Accommodations on EOS Platform.	</value>
+
+		<annotated-sentence>	[[Last|Last]] two [[years|Year]] with [[RCA|RCA]] were spent as Manager of Payload [[Accommodations|Lodging]] on [[EOS|Eos]] Platform.	</annotated-sentence>
+
+		<pattern_crowdsource>	Last two years with [[RCA|RCA]] were spent as Manager of Payload Accommodations on EOS Platform.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(years/NNS-3,Last/JJ-1)
+				num(years/NNS-3,two/CD-2)
+				nsubjpass(spent/VBN-7,years/NNS-3)
+				prep_with(years/NNS-3,RCA/NN-5)
+				auxpass(spent/VBN-7,were/VBD-6)
+				prep_as(spent/VBN-7,Manager/NN-9)
+				nn(Accommodations/NNPS-12,Payload/NNP-11)
+				prep_of(Manager/NN-9,Accommodations/NNPS-12)
+				nn(Platform/NNP-15,EOS/NNP-14)
+				prep_on(spent/VBN-7,Platform/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Last</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Last</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>RCA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RCA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Accommodations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lodging</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>EOS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eos</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/type http://dbpedia.org/resource/RCA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior assignments at RCA included Integration and Test Manager for the Satcom D & E spacecraft, responsible for implementation of all launch site activities, and Spacecraft Bus Manager on the Spacenet/Gstar programs, responsible for satisfaction of multiple launch vehicle interfaces (Delta, STS and Ariane) by the spacecraft bus design.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(included/VBD-5,Prior/RB-1)
+				nsubj(included/VBD-5,assignments/NNS-2)
+				prep_at(assignments/NNS-2,RCA/NN-4)
+				nn(Manager/NN-9,Integration/NN-6)
+				conj_and(Integration/NN-6,Test/NN-8)
+				nn(Manager/NN-9,Test/NN-8)
+				dobj(included/VBD-5,Manager/NN-9)
+				det(D/NNP-13,the/DT-11)
+				nn(D/NNP-13,Satcom/NNP-12)
+				prep_for(included/VBD-5,D/NNP-13)
+				nn(spacecraft/NN-16,E/NNP-15)
+				prep_for(included/VBD-5,spacecraft/NN-16)
+				conj_and(D/NNP-13,spacecraft/NN-16)
+				amod(interfaces/NNS-43,responsible/JJ-18)
+				prep_for(responsible/JJ-18,implementation/NN-20)
+				det(launch/NN-23,all/DT-22)
+				prep_of(implementation/NN-20,launch/NN-23)
+				nn(interfaces/NNS-43,site/NN-24)
+				nn(interfaces/NNS-43,activities/NNS-25)
+				nn(Manager/NNP-30,Spacecraft/NNP-28)
+				nn(Manager/NNP-30,Bus/NNP-29)
+				appos(D/NNP-13,Manager/NNP-30)
+				conj_and(interfaces/NNS-43,Manager/NNP-30)
+				det(programs/NNS-34,the/DT-32)
+				amod(programs/NNS-34,Spacenet/Gstar/JJ-33)
+				prep_on(Manager/NNP-30,programs/NNS-34)
+				amod(interfaces/NNS-43,responsible/JJ-36)
+				prep_for(responsible/JJ-36,satisfaction/NN-38)
+				amod(vehicle/NN-42,multiple/JJ-40)
+				nn(vehicle/NN-42,launch/NN-41)
+				prep_of(satisfaction/NN-38,vehicle/NN-42)
+				appos(D/NNP-13,interfaces/NNS-43)
+				dep(interfaces/NNS-43,Delta/NN-45)
+				dep(interfaces/NNS-43,STS/NN-47)
+				conj_and(Delta/NN-45,STS/NN-47)
+				dep(interfaces/NNS-43,Ariane/NNP-49)
+				conj_and(Delta/NN-45,Ariane/NNP-49)
+				det(design/NN-55,the/DT-52)
+				nn(design/NN-55,spacecraft/NN-53)
+				nn(design/NN-55,bus/NN-54)
+				prep_by(included/VBD-5,design/NN-55)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Other efforts include systems engineering and operations support for INTELSAT on Intelsat K and Intelsat VIII; AT&T on Telstar 401 and 402; Fairchild Matra on SPAS III; and Martin Marietta on Astra 1B, BS3N, ACTS, and Series 7000 communications satellites.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				amod(efforts/NNS-2,Other/JJ-1)
+				nsubj(include/VBP-3,efforts/NNS-2)
+				dep(engineering/NN-5,systems/NNS-4)
+				nsubj(support/VBP-8,engineering/NN-5)
+				conj_and(engineering/NN-5,operations/NNS-7)
+				nsubj(support/VBP-8,operations/NNS-7)
+				ccomp(include/VBP-3,support/VBP-8)
+				prep_for(support/VBP-8,INTELSAT/NNP-10)
+				nn(K/NNP-13,Intelsat/NNP-12)
+				prep_on(support/VBP-8,K/NNP-13)
+				nn(VIII/NNP-16,Intelsat/NNP-15)
+				prep_on(support/VBP-8,VIII/NNP-16)
+				conj_and(K/NNP-13,VIII/NNP-16)
+				prep_on(support/VBP-8,AT&T/NNP-18)
+				conj_and(K/NNP-13,AT&T/NNP-18)
+				prep_on(AT&T/NNP-18,Telstar/NNP-20)
+				num(Telstar/NNP-20,401/CD-21)
+				prep_on(AT&T/NNP-18,402/CD-23)
+				conj_and(Telstar/NNP-20,402/CD-23)
+				nn(Matra/NNP-26,Fairchild/NNP-25)
+				prep_on(support/VBP-8,Matra/NNP-26)
+				conj_and(K/NNP-13,Matra/NNP-26)
+				nn(III/NNP-29,SPAS/NNP-28)
+				prep_on(Matra/NNP-26,III/NNP-29)
+				nn(Marietta/NNP-33,Martin/NNP-32)
+				prep_on(support/VBP-8,Marietta/NNP-33)
+				conj_and(K/NNP-13,Marietta/NNP-33)
+				nn(1B/NNP-36,Astra/NNP-35)
+				prep_on(Marietta/NNP-33,1B/NNP-36)
+				prep_on(Marietta/NNP-33,BS3N/NN-38)
+				conj_and(1B/NNP-36,BS3N/NN-38)
+				prep_on(Marietta/NNP-33,ACTS/NNS-40)
+				conj_and(1B/NNP-36,ACTS/NNS-40)
+				nn(communications/NNS-45,Series/NNP-43)
+				num(communications/NNS-45,7000/CD-44)
+				prep_on(Marietta/NNP-33,communications/NNS-45)
+				conj_and(1B/NNP-36,communications/NNS-45)
+				dep(communications/NNS-45,satellites/NNS-46)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Systems engineering and architecture for various spacecraft studies, ranging from individual Smallsats, military communications constellations, and large, assembled-in-orbit platforms.	</value>
+
+		<annotated-sentence>	Systems [[engineering|Engineering]] and architecture for various [[spacecraft|Spacecraft]] studies, ranging from individual Smallsats, [[military communications|Military_communications]] [[constellations|Constellation]], and large, assembled-in-orbit platforms.	</annotated-sentence>
+
+		<pattern_crowdsource>	Systems engineering and architecture for various spacecraft studies, ranging from individual Smallsats, military communications constellations, and large, assembled-in-orbit platforms.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(engineering/NN-2,Systems/NNP-1)
+				nsubj(ranging/VBG-10,engineering/NN-2)
+				conj_and(engineering/NN-2,architecture/NN-4)
+				nsubj(ranging/VBG-10,architecture/NN-4)
+				amod(studies/NNS-8,various/JJ-6)
+				nn(studies/NNS-8,spacecraft/NN-7)
+				prep_for(engineering/NN-2,studies/NNS-8)
+				amod(Smallsats/NNP-13,individual/JJ-12)
+				prep_from(ranging/VBG-10,Smallsats/NNP-13)
+				amod(constellations/NNS-17,military/JJ-15)
+				nn(constellations/NNS-17,communications/NNS-16)
+				prep_from(ranging/VBG-10,constellations/NNS-17)
+				conj_and(Smallsats/NNP-13,constellations/NNS-17)
+				amod(platforms/NNS-23,large/JJ-20)
+				amod(platforms/NNS-23,assembled-in-orbit/JJ-22)
+				prep_from(ranging/VBG-10,platforms/NNS-23)
+				conj_and(Smallsats/NNP-13,platforms/NNS-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>military communications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Military_communications</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>constellations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Constellation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Former member of the technical staff at the RCA/GE Astro Space Division.	</value>
+
+		<annotated-sentence>	[[Former|Former]] member of the technical staff at the RCA/GE [[Astro Space|Astro_Space]] Division.	</annotated-sentence>
+
+		<pattern_crowdsource>	Former member of the technical staff at the RCA/GE Astro Space Division.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(member/NN-2,Former/JJ-1)
+				det(staff/NN-6,the/DT-4)
+				amod(staff/NN-6,technical/JJ-5)
+				prep_of(member/NN-2,staff/NN-6)
+				det(Division/NNP-12,the/DT-8)
+				nn(Division/NNP-12,RCA/GE/NN-9)
+				nn(Division/NNP-12,Astro/NNP-10)
+				nn(Division/NNP-12,Space/NNP-11)
+				prep_at(member/NN-2,Division/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Former</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Former</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astro Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astro_Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 18 years with GE (formerly RCA) he worked in a variety of functions, including satellite attitude control and in-orbit operations; spacecraft assembly, test, and pre-launch operations; and satellite hardware and system design.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(years/NNS-3,18/CD-2)
+				prep_in(worked/VBD-11,years/NNS-3)
+				prep_with(years/NNS-3,GE/NNP-5)
+				advmod(RCA/NN-8,formerly/RB-7)
+				appos(GE/NNP-5,RCA/NN-8)
+				nsubj(worked/VBD-11,he/PRP-10)
+				det(variety/NN-14,a/DT-13)
+				prep_in(worked/VBD-11,variety/NN-14)
+				prep_of(variety/NN-14,functions/NNS-16)
+				nn(control/NN-21,satellite/NN-19)
+				nn(control/NN-21,attitude/NN-20)
+				prep_including(worked/VBD-11,control/NN-21)
+				amod(operations/NNS-24,in-orbit/JJ-23)
+				prep_including(worked/VBD-11,operations/NNS-24)
+				conj_and(control/NN-21,operations/NNS-24)
+				nn(assembly/NN-27,spacecraft/NN-26)
+				prep_including(worked/VBD-11,assembly/NN-27)
+				conj_and(control/NN-21,assembly/NN-27)
+				conj_and(control/NN-21,test/NN-29)
+				conj_and(assembly/NN-27,test/NN-29)
+				amod(operations/NNS-33,pre-launch/JJ-32)
+				conj_and(control/NN-21,operations/NNS-33)
+				conj_and(assembly/NN-27,operations/NNS-33)
+				nn(hardware/NN-37,satellite/NN-36)
+				prep_including(worked/VBD-11,hardware/NN-37)
+				conj_and(control/NN-21,hardware/NN-37)
+				nn(design/NN-40,system/NN-39)
+				conj_and(control/NN-21,design/NN-40)
+				conj_and(hardware/NN-37,design/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Approximately two years of this experience were with a Navy navigation satellite program, with the remaining time spent on various commercial communications satellite efforts.	</value>
+
+		<annotated-sentence>	[[Approximately|Approximation]] two [[years|Year]] of [[this experience|Experience]] were with a [[Navy|Navy]] navigation satellite program, with [[the remaining time|List_of_Naruto_episodes]] spent on various commercial [[communications|Communication]] [[satellite|Satellite]] [[efforts|Effort,_Pennsylvania]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Approximately two years of this experience were with a Navy navigation satellite program, with the remaining time spent on various commercial communications satellite efforts.	</pattern_crowdsource>
+
+
+		<tree>
+				quantmod(two/CD-2,Approximately/RB-1)
+				num(years/NNS-3,two/CD-2)
+				nsubj(were/VBD-7,years/NNS-3)
+				det(experience/NN-6,this/DT-5)
+				prep_of(years/NNS-3,experience/NN-6)
+				dep(spent/VBD-19,were/VBD-7)
+				det(program/NN-13,a/DT-9)
+				nn(program/NN-13,Navy/NNP-10)
+				nn(program/NN-13,navigation/NN-11)
+				nn(program/NN-13,satellite/NN-12)
+				prep_with(were/VBD-7,program/NN-13)
+				det(time/NN-18,the/DT-16)
+				amod(time/NN-18,remaining/VBG-17)
+				prep_with(were/VBD-7,time/NN-18)
+				amod(communications/NNS-23,various/JJ-21)
+				amod(communications/NNS-23,commercial/JJ-22)
+				prep_on(spent/VBD-19,communications/NNS-23)
+				nn(efforts/NNS-25,satellite/NN-24)
+				nsubj(spent/VBD-19,efforts/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Approximately</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Approximation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>this experience</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Experience</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the remaining time</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_Naruto_episodes</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>communications</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communication</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>satellite</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Satellite</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>efforts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Effort,_Pennsylvania</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected by RCA as a Payload Specialist; and approved by NASA to fly on the space shuttle Columbia on Space Shuttle Mission STS-61-C.	</value>
+
+		<annotated-sentence>	Selected by [[RCA|RCA]] as [[a Payload Specialist|Payload_Specialist]]; and approved by [[NASA|NASA]] to fly on [[the space shuttle Columbia|Space_Shuttle_Columbia]] on [[Space Shuttle|SpaceShuttle]] [[Mission|Lyndon_B._Johnson_Space_Center]] [[STS-61-C|STS-61-C]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected by [[RCA|RCA]] as a Payload Specialist; and approved by [[NASA|NASA]] to fly on [[the space shuttle Columbia|Space_Shuttle_Columbia]] on [[Space Shuttle|SpaceShuttle]] [[Mission|Lyndon_B._Johnson_Space_Center]] [[STS-61-C|STS-61-C]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_by(Selected/VBN-1,RCA/NN-3)
+				det(Specialist/NNP-7,a/DT-5)
+				nn(Specialist/NNP-7,Payload/NNP-6)
+				prep_as(Selected/VBN-1,Specialist/NNP-7)
+				conj_and(Selected/VBN-1,approved/VBN-10)
+				prep_by(approved/VBN-10,NASA/NNP-12)
+				aux(fly/VB-14,to/TO-13)
+				xcomp(approved/VBN-10,fly/VB-14)
+				det(Columbia/NNP-19,the/DT-16)
+				nn(Columbia/NNP-19,space/NN-17)
+				nn(Columbia/NNP-19,shuttle/NN-18)
+				prep_on(fly/VB-14,Columbia/NNP-19)
+				nn(STS-61-C/NN-24,Space/NNP-21)
+				nn(STS-61-C/NN-24,Shuttle/NNP-22)
+				nn(STS-61-C/NN-24,Mission/NNP-23)
+				prep_on(fly/VB-14,STS-61-C/NN-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>RCA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/RCA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Payload Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Payload_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space shuttle Columbia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_Shuttle_Columbia</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-61-C</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-61-C</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/type http://dbpedia.org/resource/RCA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Space_Shuttle_Columbia http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/SpaceShuttle
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Robert_J._Cenker http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-61-C
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Robert_J._Cenker
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-61-C http://dbpedia.org/property/crew7Up http://dbpedia.org/resource/Robert_J._Cenker
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During the six-day mission, (January 12 to 18, 1986) he performed a variety of physiological tests, observed the deployment of the RCA Satcom Ku-1 satellite, and operated primary experiment, an infrared imaging camera.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-4,the/DT-2)
+				amod(mission/NN-4,six-day/JJ-3)
+				prep_during(performed/VBD-15,mission/NN-4)
+				dep(mission/NN-4,January/NNP-7)
+				num(18/CD-10,12/CD-8)
+				dep(18/CD-10,to/TO-9)
+				dep(January/NNP-7,18/CD-10)
+				amod(18/CD-10,1986/CD-12)
+				nsubj(performed/VBD-15,he/PRP-14)
+				nsubj(observed/VBD-22,he/PRP-14)
+				nsubj(operated/VBD-33,he/PRP-14)
+				det(variety/NN-17,a/DT-16)
+				dobj(performed/VBD-15,variety/NN-17)
+				amod(tests/NNS-20,physiological/JJ-19)
+				prep_of(variety/NN-17,tests/NNS-20)
+				conj_and(performed/VBD-15,observed/VBD-22)
+				det(deployment/NN-24,the/DT-23)
+				dobj(observed/VBD-22,deployment/NN-24)
+				det(satellite/NN-30,the/DT-26)
+				nn(satellite/NN-30,RCA/NNP-27)
+				nn(satellite/NN-30,Satcom/NNP-28)
+				nn(satellite/NN-30,Ku-1/NN-29)
+				prep_of(deployment/NN-24,satellite/NN-30)
+				conj_and(performed/VBD-15,operated/VBD-33)
+				amod(experiment/NN-35,primary/JJ-34)
+				dobj(operated/VBD-33,experiment/NN-35)
+				det(camera/NN-40,an/DT-37)
+				amod(camera/NN-40,infrared/JJ-38)
+				nn(camera/NN-40,imaging/NN-39)
+				appos(experiment/NN-35,camera/NN-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In completing this flight, Cenker traveled over 2.1 million miles in 96 Earth orbits and logged over 146 hours in space.	</value>
+
+		<annotated-sentence>	In completing [[this flight|Flight]], [[Cenker|Robert_J._Cenker]] traveled over 2.1 [[million|Million_(band)]] [[miles|Mile]] in 96 [[Earth orbits|Geocentric_orbit]] and logged over 146 [[hours|Hour]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In completing this flight, Cenker traveled over 2.1 million miles in 96 Earth orbits and logged over 146 hours in space.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_in(traveled/VBD-7,completing/VBG-2)
+				det(flight/NN-4,this/DT-3)
+				dobj(completing/VBG-2,flight/NN-4)
+				nsubj(traveled/VBD-7,Cenker/NNP-6)
+				nsubj(logged/VBD-17,Cenker/NNP-6)
+				number(million/CD-10,2.1/CD-9)
+				num(miles/NNS-11,million/CD-10)
+				prep_over(traveled/VBD-7,miles/NNS-11)
+				num(orbits/NNS-15,96/CD-13)
+				nn(orbits/NNS-15,Earth/NNP-14)
+				prep_in(traveled/VBD-7,orbits/NNS-15)
+				conj_and(traveled/VBD-7,logged/VBD-17)
+				num(hours/NNS-20,146/CD-19)
+				prep_over(logged/VBD-17,hours/NNS-20)
+				prep_in(logged/VBD-17,space/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>this flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Cenker</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robert_J._Cenker</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>miles</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mile</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Earth orbits</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Geocentric_orbit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

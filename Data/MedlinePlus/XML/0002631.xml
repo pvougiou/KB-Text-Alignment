@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Some people only have mild symptoms.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] only have mild [[symptoms|C1457887]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mild</surface-form>
+				<RDF-ID>C0547040</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Wash your hands often with soap and water for 20 seconds.</value>
+		<pattern_crowdsource> - Wash your [[hands|C0018563]] often with [[soap|C0037392]] and water for 20 seconds.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>soap</surface-form>
+				<RDF-ID>C0037392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>water</surface-form>
+				<RDF-ID>C0020311</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>seconds</surface-form>
+				<RDF-ID>C0457385</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0037392 PART_OF C0018563</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Avoid touching your eyes, nose, and mouth with unwashed hands.</value>
+		<pattern_crowdsource> - Avoid touching your [[eyes|C0015392]], [[nose|C0028429]], and mouth with unwashed [[hands|C0018563]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>eyes</surface-form>
+				<RDF-ID>C0015392</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>nose</surface-form>
+				<RDF-ID>C0028429</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>mouth</surface-form>
+				<RDF-ID>C1278910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>hands</surface-form>
+				<RDF-ID>C0018563</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018563 PART_OF C0028429</triple>
+			<triple>C0018563 PART_OF C0015392</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

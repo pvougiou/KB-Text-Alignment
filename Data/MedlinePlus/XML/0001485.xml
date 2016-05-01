@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>The symptoms of EIA are coughing, wheezing, a feeling of tightness in your chest, or shortness of breath.</value>
+		<pattern_crowdsource> The [[symptoms|C1457887]] of [[EIA|C0004099]] are [[coughing|C0010200]], wheezing, a feeling of tightness in your [[chest|C0817096]], or shortness of breath.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EIA</surface-form>
+				<RDF-ID>C0004099</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>coughing</surface-form>
+				<RDF-ID>C0010200</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>wheezing</surface-form>
+				<RDF-ID>C0043144</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>feeling</surface-form>
+				<RDF-ID>C1527305</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>chest</surface-form>
+				<RDF-ID>C0817096</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>shortness</surface-form>
+				<RDF-ID>C1282927</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>breath</surface-form>
+				<RDF-ID>C0225386</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0010200 ISA C1457887</triple>
+			<triple>C0817096 LOCATION_OF C0004099</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Some people may have symptoms after they start exercising.</value>
+		<pattern_crowdsource> Some [[people|C0027361]] may have [[symptoms|C1457887]] after they start exercising.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>exercising</surface-form>
+				<RDF-ID>C0015259</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1457887 PROCESS_OF C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Swimming is a good sport for people with EIA.</value>
+		<pattern_crowdsource> - [[Swimming|C0039003]] is a good [[sport|C0038039]] for [[people|C0027361]] with [[EIA|C0014661]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Swimming</surface-form>
+				<RDF-ID>C0039003</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>good</surface-form>
+				<RDF-ID>C0205170</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>sport</surface-form>
+				<RDF-ID>C0038039</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>EIA</surface-form>
+				<RDF-ID>C0014661</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0039003 ISA C0038039</triple>
+			<triple>C0038039 TREATS C0027361</triple>
+			<triple>C0014661 PROCESS_OF C0027361</triple>
+			<triple>C0039003 TREATS C0027361</triple>
+			<triple>C0038039 TREATS C0014661</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

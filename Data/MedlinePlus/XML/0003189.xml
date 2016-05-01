@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Antidepressants, such as Prozac and other selective serotonin reuptake inhibitors (SSRIs), are often prescribed.</value>
+		<pattern_crowdsource> [[Antidepressants|C0003289]], such as [[Prozac|C0162373]] and other selective [[serotonin reuptake inhibitors|C0162758]] (SSRIs), are often prescribed.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Antidepressants</surface-form>
+				<RDF-ID>C0003289</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Prozac</surface-form>
+				<RDF-ID>C0162373</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>serotonin reuptake inhibitors</surface-form>
+				<RDF-ID>C0162758</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>often</surface-form>
+				<RDF-ID>C0332183</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0162373 ISA C0162758</triple>
+			<triple>C0162373 ISA C0003289</triple>
+			<triple>C0162758 ISA C0162373</triple>
+			<triple>C0162758 ISA C0003289</triple>
+			<triple>C0003289 ISA C0162758</triple>
+			<triple>C0003289 ISA C0162373</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Condom use also may have this effect for some men.</value>
+		<pattern_crowdsource> [[Condom|C0009653]] use also may have this effect for some [[men|C0025266]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Condom</surface-form>
+				<RDF-ID>C0009653</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>effect</surface-form>
+				<RDF-ID>C1280500</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0009653 TREATS C0025266</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Other medicines used for erectile dysfunction may help.</value>
+		<pattern_crowdsource> Other [[medicines|C0013227]] used for [[erectile dysfunction|C0242350]] may help.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>erectile dysfunction</surface-form>
+				<RDF-ID>C0242350</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C0242350</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Douglas B. Shane is Executive VP and General Manager of The Spaceship Company, as well as an American test pilot who has trained as a commercial astronaut.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Shane/NNP-3,Douglas/NNP-1)
+				nn(Shane/NNP-3,B./NNP-2)
+				nsubj(VP/NNP-6,Shane/NNP-3)
+				cop(VP/NNP-6,is/VBZ-4)
+				nn(VP/NNP-6,Executive/NNP-5)
+				nn(Manager/NNP-9,General/NNP-8)
+				conj_and(VP/NNP-6,Manager/NNP-9)
+				det(Company/NNP-13,The/DT-11)
+				nn(Company/NNP-13,Spaceship/NNP-12)
+				prep_of(VP/NNP-6,Company/NNP-13)
+				det(pilot/NN-21,an/DT-18)
+				amod(pilot/NN-21,American/JJ-19)
+				nn(pilot/NN-21,test/NN-20)
+				conj_and(VP/NNP-6,pilot/NN-21)
+				nsubj(trained/VBN-24,who/WP-22)
+				aux(trained/VBN-24,has/VBZ-23)
+				rcmod(pilot/NN-21,trained/VBN-24)
+				det(astronaut/NN-28,a/DT-26)
+				amod(astronaut/NN-28,commercial/JJ-27)
+				prep_as(trained/VBN-24,astronaut/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was a member of the Scaled Composites astronaut team and one of the test pilots for SpaceShipOne, the experimental spaceplane developed by Scaled Composites.	</value>
+
+		<annotated-sentence>	He was a member of the [[Scaled Composites|Scaled_Composites]] [[astronaut|Astronaut]] [[team|Team]] and one of [[the test pilots|Test_pilot]] for [[SpaceShipOne|SpaceShipOne]], the experimental [[spaceplane|Spaceplane]] developed by [[Scaled Composites|Scaled_Composites]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was a member of the [[Scaled Composites|Scaled_Composites]] [[astronaut|Astronaut]] team and one of [[the test pilots|Test_pilot]] for [[SpaceShipOne|SpaceShipOne]], the experimental [[spaceplane|Spaceplane]] developed by [[Scaled Composites|Scaled_Composites]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(member/NN-4,He/PRP-1)
+				cop(member/NN-4,was/VBD-2)
+				det(member/NN-4,a/DT-3)
+				det(team/NN-10,the/DT-6)
+				nn(team/NN-10,Scaled/NNP-7)
+				nn(team/NN-10,Composites/NNPS-8)
+				nn(team/NN-10,astronaut/NN-9)
+				prep_of(member/NN-4,team/NN-10)
+				prep_of(member/NN-4,one/CD-12)
+				conj_and(team/NN-10,one/CD-12)
+				det(pilots/NNS-16,the/DT-14)
+				nn(pilots/NNS-16,test/NN-15)
+				prep_of(one/CD-12,pilots/NNS-16)
+				prep_for(pilots/NNS-16,SpaceShipOne/NNP-18)
+				det(spaceplane/NN-22,the/DT-20)
+				amod(spaceplane/NN-22,experimental/JJ-21)
+				appos(SpaceShipOne/NNP-18,spaceplane/NN-22)
+				partmod(spaceplane/NN-22,developed/VBN-23)
+				nn(Composites/NNPS-26,Scaled/NNP-25)
+				agent(developed/VBN-23,Composites/NNPS-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Scaled Composites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scaled_Composites</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>team</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Team</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the test pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>SpaceShipOne</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/SpaceShipOne</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceplane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceplane</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scaled Composites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scaled_Composites</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceShipOne http://dbpedia.org/ontology/manufacturer http://dbpedia.org/resource/Scaled_Composites
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Doug_Shane http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Doug_Shane http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceShipOne http://dbpedia.org/ontology/type http://dbpedia.org/resource/Spaceplane
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/SpaceShipOne http://dbpedia.org/ontology/manufacturer http://dbpedia.org/resource/Scaled_Composites
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shane worked as the operations director on the SpaceShipOne project in addition to being one of the craft's astronaut pilots, and later served as President of Scaled Composites from 2008 through early 2013.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-2,Shane/NNP-1)
+				nsubj(served/VBD-25,Shane/NNP-1)
+				det(director/NN-6,the/DT-4)
+				nn(director/NN-6,operations/NNS-5)
+				prep_as(worked/VBD-2,director/NN-6)
+				det(project/NN-10,the/DT-8)
+				nn(project/NN-10,SpaceShipOne/NNP-9)
+				prep_on(director/NN-6,project/NN-10)
+				cop(one/CD-15,being/VBG-14)
+				prepc_in_addition_to(worked/VBD-2,one/CD-15)
+				det(craft/NN-18,the/DT-17)
+				poss(pilots/NNS-21,craft/NN-18)
+				nn(pilots/NNS-21,astronaut/NN-20)
+				prep_of(one/CD-15,pilots/NNS-21)
+				advmod(worked/VBD-2,later/RB-24)
+				conj_and(worked/VBD-2,served/VBD-25)
+				prep_as(served/VBD-25,President/NNP-27)
+				nn(Composites/NNPS-30,Scaled/NNP-29)
+				prep_of(President/NNP-27,Composites/NNPS-30)
+				prep_from(served/VBD-25,2008/CD-32)
+				amod(2013/CD-35,early/JJ-34)
+				prep_through(served/VBD-25,2013/CD-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shane received a Bachelor of Science degree in aerospace engineering from the University of Kansas in 1982.	</value>
+
+		<annotated-sentence>	Shane received [[a Bachelor of Science degree|Bachelor_of_Science]] in [[aerospace engineering|Aerospace_engineering]] from [[the University of Kansas|University_of_Kansas]] in [[1982|1982]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Shane received a Bachelor of Science degree in aerospace engineering from the University of Kansas in 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Shane/NNP-1)
+				det(Bachelor/NN-4,a/DT-3)
+				dobj(received/VBD-2,Bachelor/NN-4)
+				nn(degree/NN-7,Science/NNP-6)
+				prep_of(Bachelor/NN-4,degree/NN-7)
+				nn(engineering/NN-10,aerospace/NN-9)
+				prep_in(received/VBD-2,engineering/NN-10)
+				det(University/NNP-13,the/DT-12)
+				prep_from(received/VBD-2,University/NNP-13)
+				prep_of(University/NNP-13,Kansas/NNP-15)
+				prep_in(received/VBD-2,1982/CD-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Bachelor of Science degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bachelor_of_Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aerospace engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aerospace_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University of Kansas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/University_of_Kansas</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	That same year, Shane joined Scaled Composites in Mojave, California as a test pilot.	</value>
+
+		<annotated-sentence>	[[That same year|Philippine_legislative_election,_1987]], Shane joined [[Scaled Composites|Scaled_Composites]] in [[Mojave , California|Mojave,_California]]as [[a test pilot|Test_pilot]].	</annotated-sentence>
+
+		<pattern_crowdsource>	That same year, Shane joined [[Scaled Composites|Scaled_Composites]] in Mojave, California as [[a test pilot|Test_pilot]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-3,That/DT-1)
+				amod(year/NN-3,same/JJ-2)
+				tmod(joined/VBD-6,year/NN-3)
+				nsubj(joined/VBD-6,Shane/NNP-5)
+				nn(Composites/NNP-8,Scaled/NNP-7)
+				dobj(joined/VBD-6,Composites/NNP-8)
+				nn(California/NNP-12,Mojave/NNP-10)
+				prep_in(Composites/NNP-8,California/NNP-12)
+				det(pilot/NN-16,a/DT-14)
+				nn(pilot/NN-16,test/NN-15)
+				prep_as(joined/VBD-6,pilot/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>That same year</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Philippine_legislative_election,_1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scaled Composites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scaled_Composites</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mojave , California</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mojave,_California</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Scaled_Composites http://dbpedia.org/ontology/location http://dbpedia.org/resource/Mojave,_California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Scaled_Composites http://dbpedia.org/ontology/foundationPlace http://dbpedia.org/resource/Mojave,_California
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Doug_Shane http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shane designed a new model of single-engine, fixed wing airplane — the Shane Runabout — in 1988.	</value>
+
+		<annotated-sentence>	Shane designed [[a new model|Model]] of single-engine, [[fixed wing|Fixed-wing_aircraft]] [[airplane|Fixed-wing_aircraft]] — the Shane Runabout — in [[1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Shane designed a new model of single-engine, fixed wing airplane — the Shane Runabout — in 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(designed/VBD-2,Shane/NNP-1)
+				det(model/NN-5,a/DT-3)
+				amod(model/NN-5,new/JJ-4)
+				dobj(designed/VBD-2,model/NN-5)
+				amod(airplane/NN-11,single-engine/JJ-7)
+				amod(airplane/NN-11,fixed/JJ-9)
+				nn(airplane/NN-11,wing/NN-10)
+				prep_of(model/NN-5,airplane/NN-11)
+				det(Runabout/NNP-15,the/DT-13)
+				nn(Runabout/NNP-15,Shane/NNP-14)
+				dep(designed/VBD-2,Runabout/NNP-15)
+				prep_in(designed/VBD-2,1988/CD-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a new model</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Model</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fixed wing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fixed-wing_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>airplane</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fixed-wing_aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1997, Shane received the Iven C. Kincheloe Award from the Society of Experimental Test Pilots for his flight test work on the Williams V-Jet II and Vision Aire Vantage.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-5,1997/CD-2)
+				nsubj(received/VBD-5,Shane/NNP-4)
+				det(Award/NN-10,the/DT-6)
+				nn(Award/NN-10,Iven/NNP-7)
+				nn(Award/NN-10,C./NNP-8)
+				nn(Award/NN-10,Kincheloe/NNP-9)
+				dobj(received/VBD-5,Award/NN-10)
+				det(Society/NNP-13,the/DT-12)
+				prep_from(received/VBD-5,Society/NNP-13)
+				amod(Pilots/NNS-17,Experimental/JJ-15)
+				nn(Pilots/NNS-17,Test/NN-16)
+				prep_of(Society/NNP-13,Pilots/NNS-17)
+				poss(work/NN-22,his/PRP$-19)
+				nn(work/NN-22,flight/NN-20)
+				nn(work/NN-22,test/NN-21)
+				prep_for(Pilots/NNS-17,work/NN-22)
+				det(II/NNP-27,the/DT-24)
+				nn(II/NNP-27,Williams/NNP-25)
+				nn(II/NNP-27,V-Jet/NNP-26)
+				prep_on(received/VBD-5,II/NNP-27)
+				nn(Vantage/NNP-31,Vision/NNP-29)
+				nn(Vantage/NNP-31,Aire/NNP-30)
+				prep_on(received/VBD-5,Vantage/NNP-31)
+				conj_and(II/NNP-27,Vantage/NNP-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He is a past President of the Society of Experimental Test Pilots.	</value>
+
+		<annotated-sentence>	He is [[a past President|President]] of [[the Society of Experimental Test Pilots|Society_of_Experimental_Test_Pilots]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He is a past President of the Society of Experimental Test Pilots.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(President/NN-5,He/PRP-1)
+				cop(President/NN-5,is/VBZ-2)
+				det(President/NN-5,a/DT-3)
+				amod(President/NN-5,past/JJ-4)
+				det(Society/NNP-8,the/DT-7)
+				prep_of(President/NN-5,Society/NNP-8)
+				amod(Pilots/NNS-12,Experimental/JJ-10)
+				nn(Pilots/NNS-12,Test/NN-11)
+				prep_of(Society/NNP-8,Pilots/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a past President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Society of Experimental Test Pilots</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Society_of_Experimental_Test_Pilots</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Shane joined Scaled as a founding member in 1982.	</value>
+
+		<annotated-sentence>	Shane joined Scaled as [[a founding member|Founding_Clubs_of_the_DFB]] in [[1982|1982]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Shane joined Scaled as a founding member in 1982.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(joined/VBD-2,Shane/NNP-1)
+				dep(joined/VBD-2,Scaled/VBN-3)
+				det(member/NN-7,a/DT-5)
+				amod(member/NN-7,founding/VBG-6)
+				prep_as(Scaled/VBN-3,member/NN-7)
+				prep_in(member/NN-7,1982/CD-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a founding member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Founding_Clubs_of_the_DFB</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After 1989, he was been responsible for business development, contracts, and proposals, as well as the Company's flight test operations.	</value>
+
+		<annotated-sentence>	After [[1989|1989]], he was been responsible for [[business development|Business_development]], [[contracts|Contract]], and proposals, as well as the [[Company|Company]]'s [[flight|Flight]] test operations.	</annotated-sentence>
+
+		<pattern_crowdsource>	After 1989, he was been responsible for business development, contracts, and proposals, as well as the Company's flight test operations.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_after(responsible/JJ-7,1989/CD-2)
+				nsubjpass(responsible/JJ-7,he/PRP-4)
+				auxpass(responsible/JJ-7,was/VBD-5)
+				cop(responsible/JJ-7,been/VBN-6)
+				nn(development/NN-10,business/NN-9)
+				prep_for(responsible/JJ-7,development/NN-10)
+				prep_for(responsible/JJ-7,contracts/NNS-12)
+				conj_and(development/NN-10,contracts/NNS-12)
+				prep_for(responsible/JJ-7,proposals/NNS-15)
+				conj_and(development/NN-10,proposals/NNS-15)
+				det(Company/NN-21,the/DT-20)
+				poss(operations/NNS-25,Company/NN-21)
+				nn(operations/NNS-25,flight/NN-23)
+				nn(operations/NNS-25,test/NN-24)
+				conj_and(development/NN-10,operations/NNS-25)
+				conj_and(proposals/NNS-15,operations/NNS-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1989</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1989</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>business development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business_development</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>contracts</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Contract</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Despite his management responsibilities, he is still an active test pilot for Scaled.	</value>
+
+		<annotated-sentence>	Despite his [[management|Management]] responsibilities, he is still an active [[test pilot|Test_pilot]] for Scaled.	</annotated-sentence>
+
+		<pattern_crowdsource>	Despite his management responsibilities, he is still an active [[test pilot|Test_pilot]] for Scaled.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(responsibilities/NNS-4,his/PRP$-2)
+				nn(responsibilities/NNS-4,management/NN-3)
+				prep_despite(pilot/NN-12,responsibilities/NNS-4)
+				nsubj(pilot/NN-12,he/PRP-6)
+				cop(pilot/NN-12,is/VBZ-7)
+				advmod(pilot/NN-12,still/RB-8)
+				det(pilot/NN-12,an/DT-9)
+				amod(pilot/NN-12,active/JJ-10)
+				nn(pilot/NN-12,test/NN-11)
+				prepc_for(pilot/NN-12,Scaled/VBN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>management</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Doug_Shane http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/Test_pilot
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2008, Shane was appointed president of Scaled Composites, taking over this role from previous president and company founder Burt Rutan.	</value>
+
+		<annotated-sentence>	In [[June 2008|June_2008]], Shane was appointed [[president|President]] of [[Scaled Composites|Scaled_Composites]], taking over [[this role|Role]] from previous [[president|President]] and [[company|Company]] founder [[Burt Rutan|Burt_Rutan]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In June 2008, Shane was appointed president of [[Scaled Composites|Scaled_Composites]], taking over this role from previous president and [[company|Company]] founder [[Burt Rutan|Burt_Rutan]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appointed/VBN-7,June/NNP-2)
+				num(June/NNP-2,2008/CD-3)
+				nsubjpass(appointed/VBN-7,Shane/NNP-5)
+				auxpass(appointed/VBN-7,was/VBD-6)
+				dobj(appointed/VBN-7,president/NN-8)
+				nn(Composites/NNPS-11,Scaled/NNP-10)
+				prep_of(president/NN-8,Composites/NNPS-11)
+				partmod(appointed/VBN-7,taking/VBG-13)
+				prt(taking/VBG-13,over/RP-14)
+				det(role/NN-16,this/DT-15)
+				dobj(taking/VBG-13,role/NN-16)
+				amod(president/NN-19,previous/JJ-18)
+				prep_from(taking/VBG-13,president/NN-19)
+				nn(Rutan/NNP-24,company/NN-21)
+				nn(Rutan/NNP-24,founder/NN-22)
+				nn(Rutan/NNP-24,Burt/NNP-23)
+				prep_from(taking/VBG-13,Rutan/NNP-24)
+				conj_and(president/NN-19,Rutan/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>June 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/June_2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>president</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scaled Composites</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Scaled_Composites</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>this role</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Role</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>president</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Burt Rutan</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Burt_Rutan</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Scaled_Composites http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Company
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Scaled_Composites http://dbpedia.org/ontology/keyPerson http://dbpedia.org/resource/Burt_Rutan
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He stayed in this position for five years.	</value>
+
+		<annotated-sentence>	He stayed in this position for [[five years|Year]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He stayed in this position for five years.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(stayed/VBD-2,He/PRP-1)
+				det(position/NN-5,this/DT-4)
+				prep_in(stayed/VBD-2,position/NN-5)
+				num(years/NNS-8,five/CD-7)
+				prep_for(stayed/VBD-2,years/NNS-8)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>five years</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Although he was one of the four qualified pilots for SpaceShipOne, Shane did not fly any of the Ansari X Prize qualification flights of the craft in 2004.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				mark(one/CD-4,Although/IN-1)
+				nsubj(one/CD-4,he/PRP-2)
+				cop(one/CD-4,was/VBD-3)
+				advcl(fly/VB-16,one/CD-4)
+				det(pilots/NNS-9,the/DT-6)
+				num(pilots/NNS-9,four/CD-7)
+				amod(pilots/NNS-9,qualified/VBN-8)
+				prep_of(one/CD-4,pilots/NNS-9)
+				prep_for(pilots/NNS-9,SpaceShipOne/NNP-11)
+				nsubj(fly/VB-16,Shane/NNP-13)
+				aux(fly/VB-16,did/VBD-14)
+				neg(fly/VB-16,not/RB-15)
+				dobj(fly/VB-16,any/DT-17)
+				det(X/NN-21,the/DT-19)
+				nn(X/NN-21,Ansari/NNP-20)
+				prep_of(any/DT-17,X/NN-21)
+				nn(flights/NNS-24,Prize/NNP-22)
+				nn(flights/NNS-24,qualification/NN-23)
+				tmod(fly/VB-16,flights/NNS-24)
+				det(craft/NN-27,the/DT-26)
+				prep_of(flights/NNS-24,craft/NN-27)
+				prep_in(craft/NN-27,2004/CD-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Instead, as director of flight operations, he supervised the flights from the control room.	</value>
+
+		<annotated-sentence>	Instead, as director of [[flight operations|Flight_Operations]], he supervised [[the flights|Flight]] from [[the control room|Control_room]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Instead, as director of flight operations, he supervised the flights from the control room.	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(supervised/VBD-10,Instead/RB-1)
+				prep_as(supervised/VBD-10,director/NN-4)
+				nn(operations/NNS-7,flight/NN-6)
+				prep_of(director/NN-4,operations/NNS-7)
+				nsubj(supervised/VBD-10,he/PRP-9)
+				det(flights/NNS-12,the/DT-11)
+				dobj(supervised/VBD-10,flights/NNS-12)
+				det(room/NN-16,the/DT-14)
+				nn(room/NN-16,control/NN-15)
+				prep_from(supervised/VBD-10,room/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight operations</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_Operations</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the flights</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the control room</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Control_room</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In June 2013, Shane joined The Spaceship Company to become Executive VP and General Manager, ending a 31-year career with Scaled Composites, including five as President.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-6,June/NNP-2)
+				num(June/NNP-2,2013/CD-3)
+				nsubj(joined/VBD-6,Shane/NNP-5)
+				det(Company/NNP-9,The/DT-7)
+				nn(Company/NNP-9,Spaceship/NNP-8)
+				nsubj(VP/NNP-13,Company/NNP-9)
+				aux(VP/NNP-13,to/TO-10)
+				cop(VP/NNP-13,become/VB-11)
+				nn(VP/NNP-13,Executive/NNP-12)
+				xcomp(joined/VBD-6,VP/NNP-13)
+				nn(Manager/NNP-16,General/NNP-15)
+				xcomp(joined/VBD-6,Manager/NNP-16)
+				conj_and(VP/NNP-13,Manager/NNP-16)
+				partmod(VP/NNP-13,ending/VBG-18)
+				det(career/NN-21,a/DT-19)
+				amod(career/NN-21,31-year/JJ-20)
+				dobj(ending/VBG-18,career/NN-21)
+				prepc_with(ending/VBG-18,Scaled/VBN-23)
+				dobj(Scaled/VBN-23,Composites/NNS-24)
+				prep_including(Scaled/VBN-23,five/CD-27)
+				prep_as(five/CD-27,President/NNP-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

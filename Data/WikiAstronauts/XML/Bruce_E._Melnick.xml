@@ -1,0 +1,1800 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Bruce Edward Melnick (born December 5, 1949) is a former American astronaut and retired United States Coast Guard officer.	</value>
+
+		<annotated-sentence>	[[Bruce Edward Melnick|Bruce_E._Melnick]] (born December 5, 1949) is [[a former American astronaut|The_American_Astronaut]] and retired [[United States Coast Guard|United_States_Coast_Guard]] [[officer|Officer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Bruce Edward Melnick|Bruce_E._Melnick]] (born December 5, 1949) is a former American astronaut and retired [[United States Coast Guard|United_States_Coast_Guard]] officer.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Melnick/NNP-3,Bruce/NNP-1)
+				nn(Melnick/NNP-3,Edward/NNP-2)
+				nsubj(astronaut/NN-15,Melnick/NNP-3)
+				nsubj(retired/VBD-17,Melnick/NNP-3)
+				dep(Melnick/NNP-3,born/VBN-5)
+				tmod(born/VBN-5,December/NNP-6)
+				num(December/NNP-6,5/CD-7)
+				num(December/NNP-6,1949/CD-9)
+				cop(astronaut/NN-15,is/VBZ-11)
+				det(astronaut/NN-15,a/DT-12)
+				amod(astronaut/NN-15,former/JJ-13)
+				nn(astronaut/NN-15,American/NNP-14)
+				conj_and(astronaut/NN-15,retired/VBD-17)
+				nn(officer/NN-22,United/NNP-18)
+				nn(officer/NN-22,States/NNP-19)
+				nn(officer/NN-22,Coast/NNP-20)
+				nn(officer/NN-22,Guard/NNP-21)
+				dobj(retired/VBD-17,officer/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Bruce Edward Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a former American astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_American_Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>United States Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Coast_Guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Officer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/United_States_Coast_Guard
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following retirement from NASA and the Coast Guard, he entered the aerospace industry.	</value>
+
+		<annotated-sentence>	Following [[retirement|Retirement]] from [[NASA|NASA]] and [[the Coast Guard|Coast_guard]], he entered the aerospace industry.	</annotated-sentence>
+
+		<pattern_crowdsource>	Following retirement from [[NASA|NASA]] and the Coast Guard, he entered the aerospace industry.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_following(entered/VBD-11,retirement/NN-2)
+				prep_from(retirement/NN-2,NASA/NNP-4)
+				det(Guard/NNP-8,the/DT-6)
+				nn(Guard/NNP-8,Coast/NNP-7)
+				prep_from(retirement/NN-2,Guard/NNP-8)
+				conj_and(NASA/NNP-4,Guard/NNP-8)
+				nsubj(entered/VBD-11,he/PRP-10)
+				det(industry/NN-14,the/DT-12)
+				nn(industry/NN-14,aerospace/NN-13)
+				dobj(entered/VBD-11,industry/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>retirement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Retirement</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Coast_guard</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served as a Vice President with the Boeing Co.'s Integrated Defense Systems group, in charge of Boeing's Florida operations at the John F. Kennedy Space Center (KSC).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(President/NNP-6,a/DT-4)
+				nn(President/NNP-6,Vice/NNP-5)
+				prep_as(served/VBD-2,President/NNP-6)
+				det(Co./NNP-10,the/DT-8)
+				nn(Co./NNP-10,Boeing/NNP-9)
+				poss(group/NN-15,Co./NNP-10)
+				nn(group/NN-15,Integrated/NNP-12)
+				nn(group/NN-15,Defense/NNP-13)
+				nn(group/NN-15,Systems/NNPS-14)
+				prep_with(served/VBD-2,group/NN-15)
+				prep_in(served/VBD-2,charge/NN-18)
+				poss(operations/NNS-23,Boeing/NNP-20)
+				nn(operations/NNS-23,Florida/NNP-22)
+				prep_of(charge/NN-18,operations/NNS-23)
+				det(Center/NNP-30,the/DT-25)
+				nn(Center/NNP-30,John/NNP-26)
+				nn(Center/NNP-30,F./NNP-27)
+				nn(Center/NNP-30,Kennedy/NNP-28)
+				nn(Center/NNP-30,Space/NNP-29)
+				prep_at(served/VBD-2,Center/NNP-30)
+				appos(Center/NNP-30,KSC/NNP-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick retired in 2008 and currently resides on Merritt Island, Florida.	</value>
+
+		<annotated-sentence>	Melnick retired in [[2008|2008]] and currently resides on Merritt Island, [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Melnick retired in 2008 and currently resides on Merritt Island, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Melnick/NNP-1)
+				nsubj(resides/VBZ-7,Melnick/NNP-1)
+				prep_in(retired/VBD-2,2008/CD-4)
+				advmod(resides/VBZ-7,currently/RB-6)
+				conj_and(retired/VBD-2,resides/VBZ-7)
+				nn(Island/NNP-10,Merritt/NNP-9)
+				prep_on(resides/VBZ-7,Island/NNP-10)
+				appos(Island/NNP-10,Florida/NNP-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick graduated from Clearwater High School, Clearwater, Florida, in 1967.	</value>
+
+		<annotated-sentence>	Melnick graduated from [[Clearwater High School|Clearwater_High_School]], Clearwater, Florida, in [[1967|1967]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Melnick graduated from Clearwater High School, Clearwater, Florida, in 1967.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(graduated/VBD-2,Melnick/NNP-1)
+				nn(School/NNP-6,Clearwater/NNP-4)
+				nn(School/NNP-6,High/NNP-5)
+				prep_from(graduated/VBD-2,School/NNP-6)
+				nn(Florida/NNP-10,Clearwater/NNP-8)
+				appos(School/NNP-6,Florida/NNP-10)
+				prep_in(graduated/VBD-2,1967/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Clearwater High School</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clearwater_High_School</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1967</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1967</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He then went on to receive a bachelor's degree in engineering with honors from the United States Coast Guard Academy, and a master’s degree in aeronautical systems from the University of West Florida.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(went/VBD-3,He/PRP-1)
+				advmod(went/VBD-3,then/RB-2)
+				prep(went/VBD-3,on/IN-4)
+				aux(receive/VB-6,to/TO-5)
+				xcomp(went/VBD-3,receive/VB-6)
+				det(bachelor/NN-8,a/DT-7)
+				poss(degree/NN-10,bachelor/NN-8)
+				dobj(receive/VB-6,degree/NN-10)
+				prep_in(degree/NN-10,engineering/NN-12)
+				prep_with(receive/VB-6,honors/NNS-14)
+				det(Academy/NNP-21,the/DT-16)
+				nn(Academy/NNP-21,United/NNP-17)
+				nn(Academy/NNP-21,States/NNP-18)
+				nn(Academy/NNP-21,Coast/NNP-19)
+				nn(Academy/NNP-21,Guard/NNP-20)
+				prep_from(honors/NNS-14,Academy/NNP-21)
+				det(master/NN-25,a/DT-24)
+				poss(degree/NN-27,master/NN-25)
+				prep_with(receive/VB-6,degree/NN-27)
+				conj_and(honors/NNS-14,degree/NN-27)
+				amod(systems/NNS-30,aeronautical/JJ-29)
+				prep_in(degree/NN-27,systems/NNS-30)
+				det(University/NNP-33,the/DT-32)
+				prep_from(receive/VB-6,University/NNP-33)
+				nn(Florida/NNP-36,West/NNP-35)
+				prep_of(University/NNP-33,Florida/NNP-36)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was awarded an honorary doctorate of science degree from the University of West Florida on 28 April 2001.	</value>
+
+		<annotated-sentence>	He was awarded [[an honorary doctorate|Honorary_degree]] of [[science|Science]] [[degree|Honorary_degree]] from [[the University|University]] of [[West Florida|West_Florida]] on 28 [[April 2001|April_2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was awarded an honorary doctorate of science degree from the University of West Florida on 28 April 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(awarded/VBN-3,He/PRP-1)
+				auxpass(awarded/VBN-3,was/VBD-2)
+				det(doctorate/NN-6,an/DT-4)
+				amod(doctorate/NN-6,honorary/JJ-5)
+				dobj(awarded/VBN-3,doctorate/NN-6)
+				nn(degree/NN-9,science/NN-8)
+				prep_of(doctorate/NN-6,degree/NN-9)
+				det(University/NNP-12,the/DT-11)
+				prep_from(awarded/VBN-3,University/NNP-12)
+				nn(Florida/NNP-15,West/NNP-14)
+				prep_of(University/NNP-12,Florida/NNP-15)
+				prep_on(Florida/NNP-15,28/CD-17)
+				tmod(Florida/NNP-15,April/NNP-18)
+				num(April/NNP-18,2001/CD-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>an honorary doctorate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>science</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Science</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>degree</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Honorary_degree</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the University</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>West Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/West_Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>April 2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/April_2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick spent 20 years in the United States Coast Guard, rising to the rank of Commander.	</value>
+
+		<annotated-sentence>	[[Melnick|Bruce_E._Melnick]] spent [[20 years|Twenty_Years_(song)]] in [[the United States Coast Guard|United_States_Coast_Guard]], rising to [[the rank|Commander]] of [[Commander|Commander]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Melnick|Bruce_E._Melnick]] spent 20 years in [[the United States Coast Guard|United_States_Coast_Guard]], rising to the rank of Commander.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,Melnick/NNP-1)
+				num(years/NNS-4,20/CD-3)
+				dobj(spent/VBD-2,years/NNS-4)
+				det(Guard/NNP-10,the/DT-6)
+				nn(Guard/NNP-10,United/NNP-7)
+				nn(Guard/NNP-10,States/NNP-8)
+				nn(Guard/NNP-10,Coast/NNP-9)
+				prep_in(years/NNS-4,Guard/NNP-10)
+				partmod(spent/VBD-2,rising/VBG-12)
+				det(rank/NN-15,the/DT-14)
+				prep_to(rising/VBG-12,rank/NN-15)
+				prep_of(rank/NN-15,Commander/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>20 years</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Twenty_Years_(song)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the United States Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Coast_Guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the rank</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/United_States_Coast_Guard
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His assignments included serving as operations officer and chief test pilot at the Coast Guard Aircraft Program Office in Grand Prairie, Texas.	</value>
+
+		<annotated-sentence>	His assignments included serving as [[operations officer|Operations_(military_staff)]] and chief [[test pilot|Test_pilot]] at the [[Coast Guard|Coast_guard]] [[Aircraft|Aircraft]] Program [[Office|Office]] in Grand Prairie, [[Texas|Texas]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His assignments included serving as operations officer and chief test pilot at the Coast Guard Aircraft Program Office in Grand Prairie, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(assignments/NNS-2,His/PRP$-1)
+				nsubj(included/VBD-3,assignments/NNS-2)
+				xcomp(included/VBD-3,serving/VBG-4)
+				dep(officer/NN-7,operations/NNS-6)
+				prep_as(serving/VBG-4,officer/NN-7)
+				amod(pilot/NN-11,chief/JJ-9)
+				nn(pilot/NN-11,test/NN-10)
+				prep_as(serving/VBG-4,pilot/NN-11)
+				conj_and(officer/NN-7,pilot/NN-11)
+				det(Office/NNP-18,the/DT-13)
+				nn(Office/NNP-18,Coast/NNP-14)
+				nn(Office/NNP-18,Guard/NNP-15)
+				nn(Office/NNP-18,Aircraft/NNP-16)
+				nn(Office/NNP-18,Program/NNP-17)
+				prep_at(officer/NN-7,Office/NNP-18)
+				nn(Prairie/NNP-21,Grand/NNP-20)
+				prep_in(serving/VBG-4,Prairie/NNP-21)
+				appos(Prairie/NNP-21,Texas/NNP-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>operations officer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Operations_(military_staff)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>test pilot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Test_pilot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Coast_guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Office</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Texas</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Texas</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In that capacity, he conducted most of the developmental and all of the acceptance test flights for the HH-65 Dolphin helicopter, including sea trials, and wrote the HH-65 flight manual.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(capacity/NN-3,that/DT-2)
+				prep_in(conducted/VBD-6,capacity/NN-3)
+				nsubj(conducted/VBD-6,he/PRP-5)
+				nsubj(wrote/VBD-29,he/PRP-5)
+				dobj(conducted/VBD-6,most/JJS-7)
+				det(flights/NNS-17,the/DT-9)
+				amod(flights/NNS-17,developmental/JJ-10)
+				conj_and(developmental/JJ-10,all/DT-12)
+				amod(flights/NNS-17,all/DT-12)
+				det(acceptance/NN-15,the/DT-14)
+				prep_of(all/DT-12,acceptance/NN-15)
+				nn(flights/NNS-17,test/NN-16)
+				prep_of(most/JJS-7,flights/NNS-17)
+				det(helicopter/NN-22,the/DT-19)
+				nn(helicopter/NN-22,HH-65/NN-20)
+				nn(helicopter/NN-22,Dolphin/NNP-21)
+				prep_for(conducted/VBD-6,helicopter/NN-22)
+				nn(trials/NNS-26,sea/NN-25)
+				prep_including(helicopter/NN-22,trials/NNS-26)
+				conj_and(conducted/VBD-6,wrote/VBD-29)
+				det(manual/NN-33,the/DT-30)
+				nn(manual/NN-33,HH-65/NN-31)
+				nn(manual/NN-33,flight/NN-32)
+				dobj(wrote/VBD-29,manual/NN-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During his Coast Guard service, Melnick received numerous awards, including two Defense Distinguished Service Medals, two Distinguished Flying Crosses and the Secretary of Transportation Heroism Award.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(service/NN-5,his/PRP$-2)
+				nn(service/NN-5,Coast/NNP-3)
+				nn(service/NN-5,Guard/NNP-4)
+				prep_during(received/VBD-8,service/NN-5)
+				nsubj(received/VBD-8,Melnick/NNP-7)
+				amod(awards/NNS-10,numerous/JJ-9)
+				dobj(received/VBD-8,awards/NNS-10)
+				prep_including(received/VBD-8,two/CD-13)
+				nn(Medals/NNPS-17,Defense/NNP-14)
+				nn(Medals/NNPS-17,Distinguished/NNP-15)
+				nn(Medals/NNPS-17,Service/NNP-16)
+				dep(two/CD-13,Medals/NNPS-17)
+				appos(two/CD-13,two/CD-19)
+				partmod(two/CD-19,Distinguished/VBN-20)
+				nn(Crosses/NNP-22,Flying/NNP-21)
+				dobj(Distinguished/VBN-20,Crosses/NNP-22)
+				det(Award/NN-29,the/DT-24)
+				dep(Award/NN-29,Secretary/NNP-25)
+				nn(Heroism/NNP-28,Transportation/NNP-27)
+				prep_of(Secretary/NNP-25,Heroism/NNP-28)
+				dobj(Distinguished/VBN-20,Award/NN-29)
+				conj_and(Crosses/NNP-22,Award/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1992, he received the U.S. Coast Guard Academy Distinguished Alumni Award.	</value>
+
+		<annotated-sentence>	In [[1992|1992]], he received the [[U.S.|United_States]] [[Coast Guard Academy|United_States_Coast_Guard_Academy]] [[Distinguished|Distinguishing]] Alumni [[Award|Award]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1992, he received the [[U.S.|United_States]] Coast Guard Academy Distinguished Alumni Award.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(received/VBD-5,1992/CD-2)
+				nsubj(received/VBD-5,he/PRP-4)
+				det(Award/NN-13,the/DT-6)
+				nn(Award/NN-13,U.S./NNP-7)
+				nn(Award/NN-13,Coast/NNP-8)
+				nn(Award/NN-13,Guard/NNP-9)
+				nn(Award/NN-13,Academy/NNP-10)
+				nn(Award/NN-13,Distinguished/NNP-11)
+				nn(Award/NN-13,Alumni/NNP-12)
+				dobj(received/VBD-5,Award/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>U.S.</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Coast Guard Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Coast_Guard_Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Distinguished</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Distinguishing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Award</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He logged over 5,000 hours flying time, predominantly in the HH-3F Pelican, HH-52 Sea Guard, HH-65 Dolphin, and T-38 Talon aircraft.	</value>
+
+		<annotated-sentence>	He logged over [[5,000|5,000,000]] [[hours|Hour]] flying time, [[predominantly in the HH-3F Pelican|Sikorsky_S-61R]], [[HH-52 Sea|Sikorsky_S-62]] [[Guard|Coast_guard]], [[HH-65 Dolphin|Eurocopter_HH-65_Dolphin]], and [[T-38 Talon|Northrop_T-38_Talon]] [[aircraft|Aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He logged over 5,000 hours flying time, [[predominantly in the HH-3F Pelican|Sikorsky_S-61R]], HH-52 Sea Guard, [[HH-65 Dolphin|Eurocopter_HH-65_Dolphin]], and [[T-38 Talon|Northrop_T-38_Talon]] [[aircraft|Aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(logged/VBD-2,He/PRP-1)
+				num(hours/NNS-5,5,000/CD-4)
+				prep_over(logged/VBD-2,hours/NNS-5)
+				amod(time/NN-7,flying/VBG-6)
+				dobj(logged/VBD-2,time/NN-7)
+				amod(Pelican/NNP-13,predominantly/RB-9)
+				det(HH-3F/NN-12,the/DT-11)
+				prep_in(predominantly/RB-9,HH-3F/NN-12)
+				dobj(logged/VBD-2,Pelican/NNP-13)
+				conj_and(time/NN-7,Pelican/NNP-13)
+				nn(Guard/NNP-17,HH-52/NNP-15)
+				nn(Guard/NNP-17,Sea/NNP-16)
+				dobj(logged/VBD-2,Guard/NNP-17)
+				conj_and(time/NN-7,Guard/NNP-17)
+				nn(Dolphin/NNP-20,HH-65/NNP-19)
+				dobj(logged/VBD-2,Dolphin/NNP-20)
+				conj_and(time/NN-7,Dolphin/NNP-20)
+				nn(aircraft/NN-25,T-38/NNP-23)
+				nn(aircraft/NN-25,Talon/NNP-24)
+				dobj(logged/VBD-2,aircraft/NN-25)
+				conj_and(time/NN-7,aircraft/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>5,000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/5,000,000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>predominantly in the HH-3F Pelican</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sikorsky_S-61R</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HH-52 Sea</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sikorsky_S-62</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Coast_guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>HH-65 Dolphin</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Eurocopter_HH-65_Dolphin</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>T-38 Talon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Northrop_T-38_Talon</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sikorsky_S-61R http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Eurocopter_HH-65_Dolphin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Northrop_T-38_Talon http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick was selected by NASA in 1987 and became an astronaut in August 1988 with the missions STS-41 and STS-49.	</value>
+
+		<annotated-sentence>	[[Melnick|Bruce_E._Melnick]] was selected by [[NASA|NASA]] in [[1987|1987]] and became [[an astronaut|Astronaut]] in [[August 1988|1988]] with the missions [[STS-41|STS-41]] and STS-49.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Melnick|Bruce_E._Melnick]] was selected by [[NASA|NASA]] in 1987 and became [[an astronaut|Astronaut]] in August 1988 with the missions [[STS-41|STS-41]] and STS-49.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Melnick/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				agent(selected/VBN-3,NASA/NNP-5)
+				prep_in(selected/VBN-3,1987/CD-7)
+				cop(astronaut/NN-11,became/VBD-9)
+				det(astronaut/NN-11,an/DT-10)
+				conj_and(selected/VBN-3,astronaut/NN-11)
+				prep_in(astronaut/NN-11,August/NNP-13)
+				num(August/NNP-13,1988/CD-14)
+				det(STS-41/NN-18,the/DT-16)
+				nn(STS-41/NN-18,missions/NNS-17)
+				prep_with(astronaut/NN-11,STS-41/NN-18)
+				prep_with(astronaut/NN-11,STS-49/NN-20)
+				conj_and(STS-41/NN-18,STS-49/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-41</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-41</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41 http://dbpedia.org/property/operator http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-41
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Bruce_E._Melnick
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-41 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Bruce_E._Melnick
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was the first Coast Guard aviator to participate in the space program, and was the first Coast Guard aviator into space.	</value>
+
+		<annotated-sentence>	He was the first [[Coast Guard|Coast_guard]] [[aviator|Aviator]] to participate in the space program, and was [[the first Coast Guard|Coast_guard]] aviator into [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was the first Coast Guard aviator to participate in the space program, and was the first Coast Guard aviator into space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(aviator/NN-7,He/PRP-1)
+				nsubj(was/VBD-16,He/PRP-1)
+				aux(aviator/NN-7,was/VBD-2)
+				det(aviator/NN-7,the/DT-3)
+				amod(aviator/NN-7,first/JJ-4)
+				nn(aviator/NN-7,Coast/NNP-5)
+				nn(aviator/NN-7,Guard/NNP-6)
+				aux(participate/VB-9,to/TO-8)
+				xcomp(aviator/NN-7,participate/VB-9)
+				det(program/NN-13,the/DT-11)
+				nn(program/NN-13,space/NN-12)
+				prep_in(participate/VB-9,program/NN-13)
+				conj_and(aviator/NN-7,was/VBD-16)
+				det(Guard/NNP-20,the/DT-17)
+				amod(Guard/NNP-20,first/JJ-18)
+				nn(Guard/NNP-20,Coast/NNP-19)
+				nsubj(aviator/VBZ-21,Guard/NNP-20)
+				ccomp(was/VBD-16,aviator/VBZ-21)
+				prep_into(aviator/VBZ-21,space/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Coast_guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aviator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Aviator</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Coast_guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Commander Melnick retired from the U.S. Coast Guard and left NASA in July 1992.	</value>
+
+		<annotated-sentence>	[[Commander|Commander]] [[Melnick|Bruce_E._Melnick]] retired from [[the U.S. Coast Guard|United_States_Coast_Guard]] and left [[NASA|NASA]] in [[July 1992|1992]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Commander [[Melnick|Bruce_E._Melnick]] retired from [[the U.S. Coast Guard|United_States_Coast_Guard]] and left [[NASA|NASA]] in July 1992.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Melnick/NNP-2,Commander/NNP-1)
+				nsubj(retired/VBD-3,Melnick/NNP-2)
+				nsubj(left/VBD-10,Melnick/NNP-2)
+				det(Guard/NNP-8,the/DT-5)
+				nn(Guard/NNP-8,U.S./NNP-6)
+				nn(Guard/NNP-8,Coast/NNP-7)
+				prep_from(retired/VBD-3,Guard/NNP-8)
+				conj_and(retired/VBD-3,left/VBD-10)
+				dobj(left/VBD-10,NASA/NNP-11)
+				prep_in(NASA/NNP-11,July/NNP-13)
+				num(July/NNP-13,1992/CD-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Commander</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Commander</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the U.S. Coast Guard</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States_Coast_Guard</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/occupation http://dbpedia.org/resource/United_States_Coast_Guard
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Currently, Bruce Melnick is the Vice President for Boeing Florida Operations at the John F. Kennedy Space Center (KSC).	</value>
+
+		<annotated-sentence>	Currently, [[Bruce Melnick|Bruce_E._Melnick]] is [[the Vice President|Vice_president]] for [[Boeing|Boeing]] [[Florida|Florida]] Operations at [[the John F. Kennedy Space Center|Kennedy_Space_Center]] ([[KSC|Kennedy_Space_Center]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	Currently, Bruce Melnick is the Vice President for Boeing Florida Operations at the John F. Kennedy Space Center (KSC).	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(President/NNP-8,Currently/RB-1)
+				nn(Melnick/NNP-4,Bruce/NNP-3)
+				nsubj(President/NNP-8,Melnick/NNP-4)
+				cop(President/NNP-8,is/VBZ-5)
+				det(President/NNP-8,the/DT-6)
+				nn(President/NNP-8,Vice/NNP-7)
+				nn(Operations/NNP-12,Boeing/NNP-10)
+				nn(Operations/NNP-12,Florida/NNP-11)
+				prep_for(President/NNP-8,Operations/NNP-12)
+				det(Center/NNP-19,the/DT-14)
+				nn(Center/NNP-19,John/NNP-15)
+				nn(Center/NNP-19,F./NNP-16)
+				nn(Center/NNP-19,Kennedy/NNP-17)
+				nn(Center/NNP-19,Space/NNP-18)
+				prep_at(Operations/NNP-12,Center/NNP-19)
+				appos(Center/NNP-19,KSC/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Bruce Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the John F. Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick’s organization, a part of the Boeing Integrated Defense Systems group, provides a variety of support services to Boeing programs in the state.	</value>
+
+		<annotated-sentence>	[[Melnick|Bruce_E._Melnick]]’s [[organization|The_Organization_(band)]], a part of the [[Boeing Integrated Defense Systems|Boeing_Defense,_Space_&_Security]] group, provides [[a variety|Variety_Girl]] of [[support services|Support_Services]] to [[Boeing|Boeing]] programs in [[the state|United_States]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Melnick|Bruce_E._Melnick]]’s organization, a part of the [[Boeing Integrated Defense Systems|Boeing_Defense,_Space_&_Security]] group, provides [[a variety|Variety_Girl]] of support services to [[Boeing|Boeing]] programs in [[the state|United_States]].	</pattern_crowdsource>
+
+
+		<tree>
+				poss(organization/NN-3,Melnick/NNP-1)
+				nsubj(provides/VBZ-15,organization/NN-3)
+				det(part/NN-6,a/DT-5)
+				appos(organization/NN-3,part/NN-6)
+				det(group/NN-13,the/DT-8)
+				nn(group/NN-13,Boeing/NNP-9)
+				nn(group/NN-13,Integrated/NNP-10)
+				nn(group/NN-13,Defense/NNP-11)
+				nn(group/NN-13,Systems/NNPS-12)
+				prep_of(part/NN-6,group/NN-13)
+				det(variety/NN-17,a/DT-16)
+				dobj(provides/VBZ-15,variety/NN-17)
+				nn(services/NNS-20,support/NN-19)
+				prep_of(variety/NN-17,services/NNS-20)
+				nn(programs/NNS-23,Boeing/NNP-22)
+				prep_to(provides/VBZ-15,programs/NNS-23)
+				det(state/NN-26,the/DT-25)
+				prep_in(programs/NNS-23,state/NN-26)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>organization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Organization_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing Integrated Defense Systems</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing_Defense,_Space_&_Security</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a variety</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Variety_Girl</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>support services</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Support_Services</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the state</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Boeing_Defense,_Space_&_Security http://dbpedia.org/ontology/parentCompany http://dbpedia.org/resource/Boeing
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Variety_Girl http://dbpedia.org/ontology/country http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Headquartered in Titusville, Florida, the organization has approximately 2,400 employees.	</value>
+
+		<annotated-sentence>	Headquartered in [[Titusville , Florida|Titusville,_Florida]] [[the organization|Organization]] has approximately 2,400 [[employees|Employment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Headquartered in Titusville, Florida, the organization has approximately 2,400 employees.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(has/VBZ-9,Headquartered/VBN-1)
+				nn(Florida/NNP-5,Titusville/NNP-3)
+				prep_in(Headquartered/VBN-1,Florida/NNP-5)
+				det(organization/NN-8,the/DT-7)
+				nsubj(has/VBZ-9,organization/NN-8)
+				quantmod(2,400/CD-11,approximately/RB-10)
+				num(employees/NNS-12,2,400/CD-11)
+				dobj(has/VBZ-9,employees/NNS-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Titusville , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Titusville,_Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the organization</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Organization</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>employees</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Employment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Services provided by Boeing in Florida include engineering, facilities and maintenance support to NASA and the Department of Defense for the Space Shuttle, International Space Station and Delta rocket programs.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(include/VBP-7,Services/NNP-1)
+				partmod(Services/NNP-1,provided/VBN-2)
+				agent(provided/VBN-2,Boeing/NNP-4)
+				prep_in(provided/VBN-2,Florida/NNP-6)
+				nn(facilities/NNS-10,engineering/NN-8)
+				dobj(include/VBP-7,facilities/NNS-10)
+				nn(support/NN-13,maintenance/NN-12)
+				dobj(include/VBP-7,support/NN-13)
+				conj_and(facilities/NNS-10,support/NN-13)
+				prep_to(facilities/NNS-10,NASA/NNP-15)
+				det(Department/NNP-18,the/DT-17)
+				dobj(include/VBP-7,Department/NNP-18)
+				conj_and(facilities/NNS-10,Department/NNP-18)
+				prep_of(Department/NNP-18,Defense/NNP-20)
+				det(Station/NNP-28,the/DT-22)
+				nn(Station/NNP-28,Space/NN-23)
+				nn(Station/NNP-28,Shuttle/NNP-24)
+				appos(Station/NNP-28,International/NNP-26)
+				nn(Station/NNP-28,Space/NNP-27)
+				prep_for(Defense/NNP-20,Station/NNP-28)
+				nn(programs/NNS-32,Delta/NNP-30)
+				nn(programs/NNS-32,rocket/NN-31)
+				prep_for(Defense/NNP-20,programs/NNS-32)
+				conj_and(Station/NNP-28,programs/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick is also responsible for the pursuit of new business for the company in Florida.	</value>
+
+		<annotated-sentence>	Melnick is also responsible for the pursuit of [[new business|Business]] for [[the company|Company]] in [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Melnick is also responsible for the pursuit of new business for the company in Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(responsible/JJ-4,Melnick/NNP-1)
+				cop(responsible/JJ-4,is/VBZ-2)
+				advmod(responsible/JJ-4,also/RB-3)
+				det(pursuit/NN-7,the/DT-6)
+				prep_for(responsible/JJ-4,pursuit/NN-7)
+				amod(business/NN-10,new/JJ-9)
+				prep_of(pursuit/NN-7,business/NN-10)
+				det(company/NN-13,the/DT-12)
+				prep_for(business/NN-10,company/NN-13)
+				prep_in(company/NN-13,Florida/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>new business</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Business</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Melnick was formerly the Boeing Company Vice President at KSC for the Payload Ground Operations Contract with NASA, with 1,600 employees.	</value>
+
+		<annotated-sentence>	[[Melnick|Bruce_E._Melnick]] was formerly the [[Boeing Company|Boeing]] [[Vice President|Vice_president]] at [[KSC|Kennedy_Space_Center]] for the Payload Ground Operations [[Contract|Employment]] with [[NASA|NASA]], with 1,600 [[employees|Employment]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Melnick|Bruce_E._Melnick]] was formerly the Boeing Company Vice President at [[KSC|Kennedy_Space_Center]] for the Payload Ground Operations Contract with [[NASA|NASA]], with 1,600 employees.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(President/NNP-8,Melnick/NNP-1)
+				cop(President/NNP-8,was/VBD-2)
+				advmod(President/NNP-8,formerly/RB-3)
+				det(President/NNP-8,the/DT-4)
+				nn(President/NNP-8,Boeing/NNP-5)
+				nn(President/NNP-8,Company/NNP-6)
+				nn(President/NNP-8,Vice/NNP-7)
+				prep_at(President/NNP-8,KSC/NNP-10)
+				det(Contract/NN-16,the/DT-12)
+				nn(Contract/NN-16,Payload/NNP-13)
+				nn(Contract/NN-16,Ground/NNP-14)
+				nn(Contract/NN-16,Operations/NNP-15)
+				prep_for(KSC/NNP-10,Contract/NN-16)
+				prep_with(Contract/NN-16,NASA/NNP-18)
+				num(employees/NNS-22,1,600/CD-21)
+				prep_with(President/NNP-8,employees/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Melnick</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Bruce_E._Melnick</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Boeing Company</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Boeing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Vice President</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Contract</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Employment</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>employees</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Employment</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kennedy_Space_Center http://dbpedia.org/ontology/parentOrganisation http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The contract included all the engineering and facilities support and maintenance activities related to preparing spacecraft and/or payloads for the Space Shuttle missions prior to launch and after landing.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(contract/NN-2,The/DT-1)
+				nsubj(included/VBD-3,contract/NN-2)
+				dep(support/NN-9,all/PDT-4)
+				det(support/NN-9,the/DT-5)
+				nn(support/NN-9,engineering/NN-6)
+				conj_and(engineering/NN-6,facilities/NNS-8)
+				nn(support/NN-9,facilities/NNS-8)
+				nsubj(related/VBN-13,support/NN-9)
+				nn(activities/NNS-12,maintenance/NN-11)
+				conj_and(support/NN-9,activities/NNS-12)
+				nsubj(related/VBN-13,activities/NNS-12)
+				ccomp(included/VBD-3,related/VBN-13)
+				aux(preparing/VBG-15,to/TO-14)
+				dep(related/VBN-13,preparing/VBG-15)
+				dobj(preparing/VBG-15,spacecraft/NN-16)
+				dep(related/VBN-13,payloads/NNS-18)
+				conj_and/or(preparing/VBG-15,payloads/NNS-18)
+				det(Space/NN-21,the/DT-20)
+				prep_for(payloads/NNS-18,Space/NN-21)
+				nn(missions/NNS-23,Shuttle/NNP-22)
+				nsubj(launch/VB-26,missions/NNS-23)
+				advmod(launch/VB-26,prior/RB-24)
+				aux(launch/VB-26,to/TO-25)
+				infmod(Space/NN-21,launch/VB-26)
+				dep(related/VBN-13,after/IN-28)
+				conj_and(preparing/VBG-15,after/IN-28)
+				pobj(after/IN-28,landing/NN-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The division also provided support to NASA and its contractors for the International Space Station hardware.	</value>
+
+		<annotated-sentence>	[[The division|The_Division]] also provided support to [[NASA|NASA]] and its contractors for the [[International Space Station|International_Space_Station]] hardware.	</annotated-sentence>
+
+		<pattern_crowdsource>	The division also provided support to [[NASA|NASA]] and its contractors for the International Space Station hardware.	</pattern_crowdsource>
+
+
+		<tree>
+				det(division/NN-2,The/DT-1)
+				nsubj(provided/VBD-4,division/NN-2)
+				advmod(provided/VBD-4,also/RB-3)
+				dobj(provided/VBD-4,support/NN-5)
+				prep_to(provided/VBD-4,NASA/NNP-7)
+				poss(contractors/NNS-10,its/PRP$-9)
+				prep_to(provided/VBD-4,contractors/NNS-10)
+				conj_and(NASA/NNP-7,contractors/NNS-10)
+				det(hardware/NN-16,the/DT-12)
+				nn(hardware/NN-16,International/NNP-13)
+				nn(hardware/NN-16,Space/NNP-14)
+				nn(hardware/NN-16,Station/NNP-15)
+				prep_for(provided/VBD-4,hardware/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The division</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Division</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Bruce_E._Melnick http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Prior to joining Boeing (McDonnell Douglas at the time), Melnick was Vice President/Director for Shuttle Engineering at United Space Alliance, formerly Lockheed Martin Space Operations, from 1994 to 1996.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_prior_to(President/Director/NNP-16,joining/VBG-3)
+				dobj(joining/VBG-3,Boeing/NNP-4)
+				nn(Douglas/NNP-7,McDonnell/NNP-6)
+				dep(Boeing/NNP-4,Douglas/NNP-7)
+				det(time/NN-10,the/DT-9)
+				prep_at(Douglas/NNP-7,time/NN-10)
+				nsubj(President/Director/NNP-16,Melnick/NNP-13)
+				cop(President/Director/NNP-16,was/VBD-14)
+				nn(President/Director/NNP-16,Vice/NNP-15)
+				nn(Engineering/NNP-19,Shuttle/NNP-18)
+				prep_for(President/Director/NNP-16,Engineering/NNP-19)
+				nn(Alliance/NNP-23,United/NNP-21)
+				nn(Alliance/NNP-23,Space/NNP-22)
+				prep_at(Engineering/NNP-19,Alliance/NNP-23)
+				advmod(Alliance/NNP-23,formerly/RB-25)
+				nn(Operations/NNP-29,Lockheed/NNP-26)
+				nn(Operations/NNP-29,Martin/NNP-27)
+				nn(Operations/NNP-29,Space/NNP-28)
+				dep(Alliance/NNP-23,Operations/NNP-29)
+				num(1996/CD-34,1994/CD-32)
+				dep(1996/CD-34,to/TO-33)
+				prep_from(President/Director/NNP-16,1996/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	From 1992 to 1994, he was Director of Process Improvement Technology at Lockheed Space Operations Company.	</value>
+
+		<annotated-sentence>	From [[1992|1992]] to [[1994|1994]], he was Director of Process [[Improvement|Improve]] [[Technology|Technology]] at Lockheed [[Space|Space]] Operations [[Company|Company]].	</annotated-sentence>
+
+		<pattern_crowdsource>	From 1992 to 1994, he was Director of Process Improvement Technology at Lockheed Space Operations Company.	</pattern_crowdsource>
+
+
+		<tree>
+				num(1994/CD-4,1992/CD-2)
+				dep(1994/CD-4,to/TO-3)
+				prep_from(Director/NNP-8,1994/CD-4)
+				nsubj(Director/NNP-8,he/PRP-6)
+				cop(Director/NNP-8,was/VBD-7)
+				prepc_of(Director/NNP-8,Process/VB-10)
+				nn(Technology/NNP-12,Improvement/NNP-11)
+				dobj(Process/VB-10,Technology/NNP-12)
+				nn(Company/NNP-17,Lockheed/NNP-14)
+				nn(Company/NNP-17,Space/NNP-15)
+				nn(Company/NNP-17,Operations/NNP-16)
+				prep_at(Technology/NNP-12,Company/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1992</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1992</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Improvement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Improve</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Technology</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Company</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Company</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Memberships: Board of Directors: Board of Governors: Brevard Community College Foundation Board of Advisors:  This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Memberships/NNS-1,Board/NNP-3)
+				prep_of(Board/NNP-3,Directors/NNS-5)
+				dep(Board/NNP-3,Board/NNP-7)
+				prep_of(Board/NNP-7,Governors/NNP-9)
+				nn(Board/NNP-15,Brevard/NNP-11)
+				nn(Board/NNP-15,Community/NNP-12)
+				nn(Board/NNP-15,College/NNP-13)
+				nn(Board/NNP-15,Foundation/NNP-14)
+				dep(Board/NNP-3,Board/NNP-15)
+				prep_of(Board/NNP-15,Advisors/NNP-17)
+				det(article/NN-20,This/DT-19)
+				nsubj(incorporates/VBZ-21,article/NN-20)
+				dep(Memberships/NNS-1,incorporates/VBZ-21)
+				amod(material/NN-24,public/JJ-22)
+				nn(material/NN-24,domain/NN-23)
+				dobj(incorporates/VBZ-21,material/NN-24)
+				prep_from(incorporates/VBZ-21,websites/NNS-26)
+				prep_from(incorporates/VBZ-21,documents/NNS-28)
+				conj_or(websites/NNS-26,documents/NNS-28)
+				det(Aeronautics/NNP-32,the/DT-30)
+				nn(Aeronautics/NNP-32,National/NNP-31)
+				prep_of(websites/NNS-26,Aeronautics/NNP-32)
+				nn(Administration/NNP-35,Space/NNP-34)
+				prep_of(websites/NNS-26,Administration/NNP-35)
+				conj_and(Aeronautics/NNP-32,Administration/NNP-35)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

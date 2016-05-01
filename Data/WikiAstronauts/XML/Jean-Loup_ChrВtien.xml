@@ -1,0 +1,3412 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Jean-Loup Jacques Marie Chrétien, is a French retired Général de Brigade (brigadier general) in the Armée de l'Air (French air force), and a former CNES spationaut.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Chrétien/NNP-4,Jean-Loup/NNP-1)
+				nn(Chrétien/NNP-4,Jacques/NNP-2)
+				nn(Chrétien/NNP-4,Marie/NNP-3)
+				nsubj(Général/NNP-10,Chrétien/NNP-4)
+				cop(Général/NNP-10,is/VBZ-6)
+				det(Général/NNP-10,a/DT-7)
+				amod(Général/NNP-10,French/JJ-8)
+				amod(Général/NNP-10,retired/JJ-9)
+				prep_de(Général/NNP-10,Brigade/NN-12)
+				nn(general/NN-15,brigadier/NN-14)
+				appos(Brigade/NN-12,general/NN-15)
+				det(l'Air/NNP-21,the/DT-18)
+				nn(l'Air/NNP-21,Armée/NNP-19)
+				amod(l'Air/NNP-21,de/IN-20)
+				prep_in(Brigade/NN-12,l'Air/NNP-21)
+				dep(l'Air/NNP-21,French/NNP-23)
+				nn(force/NN-25,air/NN-24)
+				dep(French/NNP-23,force/NN-25)
+				det(spationaut/NN-32,a/DT-29)
+				amod(spationaut/NN-32,former/JJ-30)
+				nn(spationaut/NN-32,CNES/NNP-31)
+				prep_in(Brigade/NN-12,spationaut/NN-32)
+				conj_and(l'Air/NNP-21,spationaut/NN-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He flew on two Franco-Soviet space missions and a NASA Space Shuttle mission.	</value>
+
+		<annotated-sentence>	He flew on two [[Franco-Soviet|Franco-Soviet_Treaty_of_Mutual_Assistance]] [[space missions|Space_exploration]] and a [[NASA|NASA]] [[Space Shuttle|SpaceShuttle]] [[mission|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He flew on two Franco-Soviet space missions and a [[NASA|NASA]] Space Shuttle [[mission|Lyndon_B._Johnson_Space_Center]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,He/PRP-1)
+				num(missions/NNS-7,two/CD-4)
+				amod(missions/NNS-7,Franco-Soviet/JJ-5)
+				nn(missions/NNS-7,space/NN-6)
+				prep_on(flew/VBD-2,missions/NNS-7)
+				det(mission/NN-13,a/DT-9)
+				nn(mission/NN-13,NASA/NNP-10)
+				nn(mission/NN-13,Space/NNP-11)
+				nn(mission/NN-13,Shuttle/NNP-12)
+				prep_on(flew/VBD-2,mission/NN-13)
+				conj_and(missions/NNS-7,mission/NN-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Franco-Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Franco-Soviet_Treaty_of_Mutual_Assistance</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space_exploration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space Shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center http://dbpedia.org/property/parentAgency http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien was the first Frenchman and the first western European in space.	</value>
+
+		<annotated-sentence>	[[Chrétien|Micha%C3%ABl_Chr%C3%A9tien_Basser]] was [[the first Frenchman|France]] and the first [[western European|Western_Europe]] in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Chrétien|Micha%C3%ABl_Chr%C3%A9tien_Basser]] was [[the first Frenchman|France]] and the first western European in space.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(Frenchman/NN-5,Chrétien/NNP-1)
+				cop(Frenchman/NN-5,was/VBD-2)
+				det(Frenchman/NN-5,the/DT-3)
+				amod(Frenchman/NN-5,first/JJ-4)
+				det(space/NN-12,the/DT-7)
+				amod(space/NN-12,first/JJ-8)
+				amod(space/NN-12,western/JJ-9)
+				amod(space/NN-12,European/JJ-10)
+				prep(European/JJ-10,in/IN-11)
+				conj_and(Frenchman/NN-5,space/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Chrétien</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Micha%C3%ABl_Chr%C3%A9tien_Basser</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first Frenchman</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>western European</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Western_Europe</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Micha%C3%ABl_Chr%C3%A9tien_Basser http://dbpedia.org/property/birthPlace http://dbpedia.org/resource/France
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Born 20 August 1938, in the town of La Rochelle, France.	</value>
+
+		<annotated-sentence>	Born 20 August [[1938|1938]], in [[the town|Town]] of [[La Rochelle|La_Rochelle]], [[France|France]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Born 20 August 1938, in the town of [[La Rochelle|La_Rochelle]], [[France|France]].	</pattern_crowdsource>
+
+
+		<tree>
+				dobj(Born/VBN-1,20/CD-2)
+				tmod(Born/VBN-1,August/NNP-3)
+				num(August/NNP-3,1938/CD-4)
+				det(town/NN-8,the/DT-7)
+				prep_in(Born/VBN-1,town/NN-8)
+				nn(Rochelle/NNP-11,La/NNP-10)
+				prep_of(town/NN-8,Rochelle/NNP-11)
+				appos(Rochelle/NNP-11,France/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1938</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1938</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the town</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Town</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>La Rochelle</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/La_Rochelle</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>France</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/La_Rochelle http://dbpedia.org/ontology/country http://dbpedia.org/resource/France
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Married to and then divorced from Amy Kristine Jensen of New Canaan, Connecticut.	</value>
+
+		<annotated-sentence>	Married to and then divorced from Amy Kristine Jensen of New Canaan, [[Connecticut|Connecticut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Married to and then divorced from Amy Kristine Jensen of New Canaan, Connecticut.	</pattern_crowdsource>
+
+
+		<tree>
+				dep(Married/JJ-1,to/TO-2)
+				advmod(divorced/VBN-5,then/RB-4)
+				conj_and(Married/JJ-1,divorced/VBN-5)
+				nn(Jensen/NNP-9,Amy/NNP-7)
+				nn(Jensen/NNP-9,Kristine/NNP-8)
+				prep_from(divorced/VBN-5,Jensen/NNP-9)
+				nn(Canaan/NNP-12,New/NNP-11)
+				prep_of(Jensen/NNP-9,Canaan/NNP-12)
+				appos(Canaan/NNP-12,Connecticut/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Connecticut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Connecticut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Five children (one deceased), among whom one daughter named Lauren with Amy.	</value>
+
+		<annotated-sentence>	Five [[children|Child]] (one deceased), among whom [[one daughter|Daughter]] named Lauren with Amy.	</annotated-sentence>
+
+		<pattern_crowdsource>	Five children (one deceased), among whom one daughter named Lauren with Amy.	</pattern_crowdsource>
+
+
+		<tree>
+				num(children/NNS-2,Five/CD-1)
+				npadvmod(deceased/JJ-5,one/CD-4)
+				dep(children/NNS-2,deceased/JJ-5)
+				prep_among(children/NNS-2,whom/WP-9)
+				num(daughter/NN-11,one/CD-10)
+				dep(children/NNS-2,daughter/NN-11)
+				partmod(daughter/NN-11,named/VBN-12)
+				dobj(named/VBN-12,Lauren/NNP-13)
+				prep_with(Lauren/NNP-13,Amy/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>children</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Child</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>one daughter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Daughter</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Lauren and her mother currently live in Houston, TX.	</value>
+
+		<annotated-sentence>	Lauren and [[her mother|Mother]] currently live in [[Houston , TX|Houston]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Lauren and her mother currently live in Houston, TX.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(live/VBP-6,Lauren/NNP-1)
+				poss(mother/NN-4,her/PRP$-3)
+				conj_and(Lauren/NNP-1,mother/NN-4)
+				nsubj(live/VBP-6,mother/NN-4)
+				advmod(live/VBP-6,currently/RB-5)
+				nn(TX/NNP-10,Houston/NNP-8)
+				prep_in(live/VBP-6,TX/NNP-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>her mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mother</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Houston , TX</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Houston</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Hobbies include skiing in Winter and sailing in Summer.	</value>
+
+		<annotated-sentence>	[[Hobbies|HOBBIES_(electromagnetic_solver)]] include [[skiing|Skiing]] in [[Winter|Winter]] and [[sailing|Sailing]] in [[Summer|Summer]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Hobbies include skiing in Winter and sailing in Summer.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(include/VBP-2,Hobbies/NNS-1)
+				dobj(include/VBP-2,skiing/NN-3)
+				prep_in(skiing/NN-3,Winter/NNP-5)
+				dobj(include/VBP-2,sailing/NN-7)
+				conj_and(skiing/NN-3,sailing/NN-7)
+				prep_in(sailing/NN-7,Summer/NN-9)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Hobbies</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/HOBBIES_(electromagnetic_solver)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>skiing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Skiing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Winter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Winter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sailing</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sailing</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Summer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Summer</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He also enjoys golf, wind-surfing, car-rallying and woodworking.	</value>
+
+		<annotated-sentence>	He also enjoys golf, wind-surfing, car-rallying and woodworking.	</annotated-sentence>
+
+		<pattern_crowdsource>	He also enjoys golf, wind-surfing, car-rallying and woodworking.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(enjoys/VBZ-3,He/PRP-1)
+				advmod(enjoys/VBZ-3,also/RB-2)
+				dobj(enjoys/VBZ-3,golf/NN-4)
+				dobj(enjoys/VBZ-3,wind-surfing/NN-6)
+				conj_and(golf/NN-4,wind-surfing/NN-6)
+				dobj(enjoys/VBZ-3,car-rallying/NN-8)
+				conj_and(golf/NN-4,car-rallying/NN-8)
+				dobj(enjoys/VBZ-3,woodworking/NN-10)
+				conj_and(golf/NN-4,woodworking/NN-10)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition, he plays the church organ, and took an electric one with him during his first stay in Star City, Russia.	</value>
+
+		<annotated-sentence>	In [[addition|Addition]], he plays [[the church organ|Organ_(music)]], and took an electric one with him during his first stay in Star City, [[Russia|Russia]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In addition, he plays the church organ, and took an electric one with him during his first stay in Star City, Russia.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(plays/VBZ-5,addition/NN-2)
+				nsubj(plays/VBZ-5,he/PRP-4)
+				nsubj(took/VBD-11,he/PRP-4)
+				det(organ/NN-8,the/DT-6)
+				nn(organ/NN-8,church/NN-7)
+				dobj(plays/VBZ-5,organ/NN-8)
+				conj_and(plays/VBZ-5,took/VBD-11)
+				det(one/CD-14,an/DT-12)
+				amod(one/CD-14,electric/JJ-13)
+				dobj(took/VBD-11,one/CD-14)
+				prep_with(took/VBD-11,him/PRP-16)
+				poss(stay/NN-20,his/PRP$-18)
+				amod(stay/NN-20,first/JJ-19)
+				prep_during(took/VBD-11,stay/NN-20)
+				nn(City/NNP-23,Star/NNP-22)
+				prep_in(stay/NN-20,City/NNP-23)
+				appos(City/NNP-23,Russia/NNP-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>addition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Addition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the church organ</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Organ_(music)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Russia</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His father, Jacques, was a Navy sailor, and his mother, the former Marie-Blanche Coudurier, was a housewife.	</value>
+
+		<annotated-sentence>	His [[father|Father]], Jacques, was a [[Navy|Navy]] [[sailor|Sailor]], and [[his mother|Housewife]], the former [[Marie-Blanche|Marie-Blanche]] Coudurier, was [[a housewife|Housewife]].	</annotated-sentence>
+
+		<pattern_crowdsource>	His father, Jacques, was a Navy sailor, and his mother, the former Marie-Blanche Coudurier, was a housewife.	</pattern_crowdsource>
+
+
+		<tree>
+				poss(father/NN-2,His/PRP$-1)
+				nsubj(sailor/NN-9,father/NN-2)
+				appos(father/NN-2,Jacques/NNP-4)
+				cop(sailor/NN-9,was/VBD-6)
+				det(sailor/NN-9,a/DT-7)
+				nn(sailor/NN-9,Navy/NNP-8)
+				poss(mother/NN-13,his/PRP$-12)
+				nsubj(housewife/NN-22,mother/NN-13)
+				det(Coudurier/NNP-18,the/DT-15)
+				amod(Coudurier/NNP-18,former/JJ-16)
+				nn(Coudurier/NNP-18,Marie-Blanche/NNP-17)
+				appos(mother/NN-13,Coudurier/NNP-18)
+				cop(housewife/NN-22,was/VBD-20)
+				det(housewife/NN-22,a/DT-21)
+				conj_and(sailor/NN-9,housewife/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>father</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Father</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Navy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Navy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>sailor</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sailor</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his mother</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Housewife</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Marie-Blanche</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Marie-Blanche</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a housewife</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Housewife</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien is fluent in French, English and Russian.	</value>
+
+		<annotated-sentence>	Chrétien is fluent in French, English and Russian.	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien is fluent in French, English and Russian.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(fluent/JJ-3,Chrétien/NNP-1)
+				cop(fluent/JJ-3,is/VBZ-2)
+				prep_in(fluent/JJ-3,French/NNP-5)
+				prep_in(fluent/JJ-3,English/NNP-7)
+				conj_and(French/NNP-5,English/NNP-7)
+				prep_in(fluent/JJ-3,Russian/NNP-9)
+				conj_and(French/NNP-5,Russian/NNP-9)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien was educated at L'École communale à Ploujean, the Collège Saint-Charles à Saint-Brieuc, and the Lycée de Morlaix.	</value>
+
+		<annotated-sentence>	Chrétien was educated at L'École [[communale|Communale]] à [[Ploujean|Ploujean]], the Collège Saint-Charles à [[Saint-Brieuc|Saint-Brieuc]], and the Lycée de [[Morlaix|Morlaix]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien was educated at L'École communale à Ploujean, the Collège Saint-Charles à Saint-Brieuc, and the Lycée de Morlaix.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(educated/VBN-3,Chrétien/NNP-1)
+				auxpass(educated/VBN-3,was/VBD-2)
+				nn(Ploujean/NNP-8,L'École/NNP-5)
+				nn(Ploujean/NNP-8,communale/NNP-6)
+				nn(Ploujean/NNP-8,à/NNP-7)
+				prep_at(educated/VBN-3,Ploujean/NNP-8)
+				det(Saint-Brieuc/NNP-14,the/DT-10)
+				nn(Saint-Brieuc/NNP-14,Collège/NNP-11)
+				nn(Saint-Brieuc/NNP-14,Saint-Charles/NNP-12)
+				nn(Saint-Brieuc/NNP-14,à/NNP-13)
+				prep_at(educated/VBN-3,Saint-Brieuc/NNP-14)
+				conj_and(Ploujean/NNP-8,Saint-Brieuc/NNP-14)
+				det(Morlaix/NNP-20,the/DT-17)
+				nn(Morlaix/NNP-20,Lycée/NNP-18)
+				amod(Morlaix/NNP-20,de/IN-19)
+				prep_at(educated/VBN-3,Morlaix/NNP-20)
+				conj_and(Ploujean/NNP-8,Morlaix/NNP-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>communale</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Communale</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Ploujean</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Ploujean</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Saint-Brieuc</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Saint-Brieuc</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Morlaix</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Morlaix</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He entered the École de l'Air (the French Air Force Academy) at Salon-de-Provence in 1959, and graduated in 1961, receiving a master’s degree in aeronautical engineering.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(entered/VBD-2,He/PRP-1)
+				nsubj(graduated/VBD-20,He/PRP-1)
+				det(l'Air/NNP-6,the/DT-3)
+				nn(l'Air/NNP-6,École/NNP-4)
+				amod(l'Air/NNP-6,de/IN-5)
+				dobj(entered/VBD-2,l'Air/NNP-6)
+				det(Academy/NNP-12,the/DT-8)
+				nn(Academy/NNP-12,French/NNP-9)
+				nn(Academy/NNP-12,Air/NNP-10)
+				nn(Academy/NNP-12,Force/NNP-11)
+				appos(l'Air/NNP-6,Academy/NNP-12)
+				prep_at(entered/VBD-2,Salon-de-Provence/NNP-15)
+				prep_in(entered/VBD-2,1959/CD-17)
+				conj_and(entered/VBD-2,graduated/VBD-20)
+				prep_in(graduated/VBD-20,1961/CD-22)
+				xcomp(graduated/VBD-20,receiving/VBG-24)
+				det(master/NN-26,a/DT-25)
+				poss(degree/NN-28,master/NN-26)
+				dobj(receiving/VBG-24,degree/NN-28)
+				amod(engineering/NN-31,aeronautical/JJ-30)
+				prep_in(degree/NN-28,engineering/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Member of the board of the "Académie de l'Air et de l'Espace", and the French Air and Space Museum.	</value>
+
+		<annotated-sentence>	Member of the board of the "[[Académie|Academy]] de l'Air et de l'Espace", and [[the French Air and Space Museum|French_Air_and_Space_Museum]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Member of the board of the "Académie de l'Air et de l'Espace", and the French Air and Space Museum.	</pattern_crowdsource>
+
+
+		<tree>
+				det(board/NN-4,the/DT-3)
+				prep_of(Member/NNP-1,board/NN-4)
+				det(et/NNP-11,the/DT-6)
+				nn(et/NNP-11,Académie/NNP-8)
+				nn(et/NNP-11,de/NNP-9)
+				nn(et/NNP-11,l'Air/NNP-10)
+				prep_of(board/NN-4,et/NNP-11)
+				amod(et/NNP-11,de/FW-12)
+				dep(de/FW-12,l'Espace/FW-13)
+				det(Air/NNP-19,the/DT-17)
+				nn(Air/NNP-19,French/NNP-18)
+				prep_of(Member/NNP-1,Air/NNP-19)
+				conj_and(board/NN-4,Air/NNP-19)
+				nn(Museum/NNP-22,Space/NNP-21)
+				conj_and(board/NN-4,Museum/NNP-22)
+				conj_and(Air/NNP-19,Museum/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Académie</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the French Air and Space Museum</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/French_Air_and_Space_Museum</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Former Counselor for Space Activities (Manned) to the President of Dassault Aviation.	</value>
+
+		<annotated-sentence>	[[Former|Former]] Counselor for [[Space|Space]] Activities (Manned) to [[the President|President]] of [[Dassault Aviation|Dassault_Aviation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Former Counselor for Space Activities (Manned) to the President of Dassault Aviation.	</pattern_crowdsource>
+
+
+		<tree>
+				amod(Counselor/NN-2,Former/JJ-1)
+				nn(Activities/NNS-5,Space/NN-4)
+				prep_for(Counselor/NN-2,Activities/NNS-5)
+				dep(Counselor/NN-2,Manned/JJ-7)
+				det(President/NNP-11,the/DT-10)
+				prep_to(Counselor/NN-2,President/NNP-11)
+				nn(Aviation/NNP-14,Dassault/NNP-13)
+				prep_of(President/NNP-11,Aviation/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Former</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Former</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the President</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/President</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dassault Aviation</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dassault_Aviation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Member of the American Institute of Aeronautics and Astronautics, the International Academy of Astronautics, and the Association of Space Explorers.	</value>
+
+		<annotated-sentence>	Member of the American Institute of Aeronautics and Astronautics, [[the International Academy of Astronautics|International_Academy_of_Astronautics]], and [[the Association of Space Explorers|Association_of_Space_Explorers]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Member of the American Institute of Aeronautics and Astronautics, the International Academy of Astronautics, and the Association of Space Explorers.	</pattern_crowdsource>
+
+
+		<tree>
+				det(Institute/NNP-5,the/DT-3)
+				nn(Institute/NNP-5,American/NNP-4)
+				prep_of(Member/NNP-1,Institute/NNP-5)
+				prep_of(Institute/NNP-5,Aeronautics/NNP-7)
+				prep_of(Institute/NNP-5,Astronautics/NNP-9)
+				conj_and(Aeronautics/NNP-7,Astronautics/NNP-9)
+				det(Academy/NNP-13,the/DT-11)
+				nn(Academy/NNP-13,International/NNP-12)
+				prep_of(Member/NNP-1,Academy/NNP-13)
+				conj_and(Institute/NNP-5,Academy/NNP-13)
+				prep_of(Academy/NNP-13,Astronautics/NNPS-15)
+				det(Association/NNP-19,the/DT-18)
+				prep_of(Member/NNP-1,Association/NNP-19)
+				conj_and(Institute/NNP-5,Association/NNP-19)
+				nn(Explorers/NNPS-22,Space/NNP-21)
+				prep_of(Association/NNP-19,Explorers/NNPS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the International Academy of Astronautics</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Academy_of_Astronautics</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Association of Space Explorers</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Association_of_Space_Explorers</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Member of the Board of BRIT AIR, an airline in his hometown, Morlaix.	</value>
+
+		<annotated-sentence>	Member of the Board of [[BRIT AIR|Brit_Air]], [[an airline|Airline]] in his hometown, [[Morlaix|Morlaix]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Member of the Board of [[BRIT AIR|Brit_Air]], an airline in his hometown, [[Morlaix|Morlaix]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(Board/NNP-4,the/DT-3)
+				prep_of(Member/NNP-1,Board/NNP-4)
+				nn(AIR/NNP-7,BRIT/NNP-6)
+				prep_of(Board/NNP-4,AIR/NNP-7)
+				det(airline/NN-10,an/DT-9)
+				appos(Member/NNP-1,airline/NN-10)
+				poss(hometown/NN-13,his/PRP$-12)
+				prep_in(airline/NN-10,hometown/NN-13)
+				appos(Member/NNP-1,Morlaix/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>BRIT AIR</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Brit_Air</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>an airline</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Airline</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Morlaix</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Morlaix</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Brit_Air http://dbpedia.org/property/headquarters http://dbpedia.org/resource/Morlaix
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien received his fighter pilot/pilot-engineer wings in 1962, after one year of training on Mystère IVs.	</value>
+
+		<annotated-sentence>	Chrétien received his fighter pilot/pilot-engineer wings in [[1962|1962]], after [[one year|Year]] of [[training|Training]] on Mystère IVs.	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien received his fighter pilot/pilot-engineer wings in [[1962|1962]], after [[one year|Year]] of training on Mystère IVs.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,Chrétien/NNP-1)
+				poss(wings/NNS-6,his/PRP$-3)
+				nn(wings/NNS-6,fighter/NN-4)
+				nn(wings/NNS-6,pilot/pilot-engineer/NN-5)
+				dobj(received/VBD-2,wings/NNS-6)
+				prep_in(received/VBD-2,1962/CD-8)
+				num(year/NN-12,one/CD-11)
+				prep_after(received/VBD-2,year/NN-12)
+				prep_of(year/NN-12,training/NN-14)
+				nn(IVs/NNS-17,Mystère/NNP-16)
+				prep_on(training/NN-14,IVs/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1962</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1962</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>one year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/1962 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Year
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was promoted to Lieutenant, and joined the 5th Fighter Squadron in Orange, in the Southeast of France, where he served for seven years as a fighter pilot in an operational squadron flying Super-Mystere B2’s and then Mirage III interceptors.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(promoted/VBN-3,He/PRP-1)
+				nsubjpass(joined/VBD-8,He/PRP-1)
+				auxpass(promoted/VBN-3,was/VBD-2)
+				prep_to(promoted/VBN-3,Lieutenant/NNP-5)
+				conj_and(promoted/VBN-3,joined/VBD-8)
+				det(Squadron/NNP-12,the/DT-9)
+				amod(Squadron/NNP-12,5th/JJ-10)
+				nn(Squadron/NNP-12,Fighter/NNP-11)
+				dobj(joined/VBD-8,Squadron/NNP-12)
+				prep_in(joined/VBD-8,Orange/NNP-14)
+				conj_and(promoted/VBN-3,in/IN-16)
+				det(Southeast/NNP-18,the/DT-17)
+				pobj(in/IN-16,Southeast/NNP-18)
+				prep_of(Southeast/NNP-18,France/NNP-20)
+				advmod(served/VBD-24,where/WRB-22)
+				nsubj(served/VBD-24,he/PRP-23)
+				rcmod(Southeast/NNP-18,served/VBD-24)
+				num(years/NNS-27,seven/CD-26)
+				prep_for(served/VBD-24,years/NNS-27)
+				det(pilot/NN-31,a/DT-29)
+				nn(pilot/NN-31,fighter/NN-30)
+				prep_as(years/NNS-27,pilot/NN-31)
+				det(squadron/NN-35,an/DT-33)
+				amod(squadron/NN-35,operational/JJ-34)
+				prep_in(served/VBD-24,squadron/NN-35)
+				xcomp(served/VBD-24,flying/VBG-36)
+				nn(B2/NN-38,Super-Mystere/NNP-37)
+				nsubj(interceptors/NNS-44,B2/NN-38)
+				possessive(B2/NN-38,'s/POS-39)
+				conj_and(B2/NN-38,then/RB-41)
+				nsubj(interceptors/NNS-44,then/RB-41)
+				nn(interceptors/NNS-44,Mirage/NNP-42)
+				nn(interceptors/NNS-44,III/NNP-43)
+				xcomp(flying/VBG-36,interceptors/NNS-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1970, he was assigned to the French test pilots school, EPNER (Ecole du Personnel Navigant d'Essais et de Réception), then served as a test pilot at the Istres Flight Test Center for seven years.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(served/VBD-27,1970/CD-2)
+				nsubjpass(assigned/VBN-6,he/PRP-4)
+				auxpass(assigned/VBN-6,was/VBD-5)
+				parataxis(served/VBD-27,assigned/VBN-6)
+				det(school/NN-12,the/DT-8)
+				amod(school/NN-12,French/JJ-9)
+				nn(school/NN-12,test/NN-10)
+				nn(school/NN-12,pilots/NNS-11)
+				prep_to(assigned/VBN-6,school/NN-12)
+				nsubj(served/VBD-27,EPNER/NN-14)
+				nn(Navigant/NNP-19,Ecole/NNP-16)
+				nn(Navigant/NNP-19,du/NNP-17)
+				nn(Navigant/NNP-19,Personnel/NNP-18)
+				dep(EPNER/NN-14,Navigant/NNP-19)
+				nn(Réception/NNP-23,d'Essais/NNP-20)
+				nn(Réception/NNP-23,et/NNP-21)
+				nn(Réception/NNP-23,de/FW-22)
+				dep(Navigant/NNP-19,Réception/NNP-23)
+				advmod(served/VBD-27,then/RB-26)
+				det(pilot/NN-31,a/DT-29)
+				nn(pilot/NN-31,test/NN-30)
+				prep_as(served/VBD-27,pilot/NN-31)
+				det(Center/NNP-37,the/DT-33)
+				nn(Center/NNP-37,Istres/NNP-34)
+				nn(Center/NNP-37,Flight/NNP-35)
+				nn(Center/NNP-37,Test/NNP-36)
+				prep_at(pilot/NN-31,Center/NNP-37)
+				num(years/NNS-40,seven/CD-39)
+				prep_for(served/VBD-27,years/NNS-40)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During that time he was responsible for supervising the flight test program for the Mirage F-1 fighter.	</value>
+
+		<annotated-sentence>	During that time he was responsible for supervising the [[flight test|Flight_test]] program for the [[Mirage F-1|Dassault_Mirage_F1]] [[fighter|Fighter_aircraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During that time he was responsible for supervising the flight test program for the [[Mirage F-1|Dassault_Mirage_F1]] [[fighter|Fighter_aircraft]].	</pattern_crowdsource>
+
+
+		<tree>
+				det(time/NN-3,that/DT-2)
+				prep_during(responsible/JJ-6,time/NN-3)
+				nsubj(responsible/JJ-6,he/PRP-4)
+				cop(responsible/JJ-6,was/VBD-5)
+				prepc_for(responsible/JJ-6,supervising/VBG-8)
+				det(program/NN-12,the/DT-9)
+				nn(program/NN-12,flight/NN-10)
+				nn(program/NN-12,test/NN-11)
+				dobj(supervising/VBG-8,program/NN-12)
+				det(fighter/NN-17,the/DT-14)
+				nn(fighter/NN-17,Mirage/NNP-15)
+				nn(fighter/NN-17,F-1/NN-16)
+				prep_for(supervising/VBG-8,fighter/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>flight test</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_test</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mirage F-1</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dassault_Mirage_F1</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>fighter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Fighter_aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Dassault_Mirage_F1 http://dbpedia.org/ontology/type http://dbpedia.org/resource/Fighter_aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1977-78, he was appointed Deputy Commander of the South Air Defence Division in Aix en Provence, and he served in this position until his selection as a cosmonaut in June 1980.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(appointed/VBN-6,1977-78/CD-2)
+				nsubjpass(appointed/VBN-6,he/PRP-4)
+				auxpass(appointed/VBN-6,was/VBD-5)
+				nn(Commander/NNP-8,Deputy/NNP-7)
+				dobj(appointed/VBN-6,Commander/NNP-8)
+				det(Division/NNP-14,the/DT-10)
+				nn(Division/NNP-14,South/NNP-11)
+				nn(Division/NNP-14,Air/NNP-12)
+				nn(Division/NNP-14,Defence/NNP-13)
+				prep_of(Commander/NNP-8,Division/NNP-14)
+				prep_in(appointed/VBN-6,Aix/NNP-16)
+				prep_en(appointed/VBN-6,Provence/NNP-18)
+				nsubj(served/VBD-22,he/PRP-21)
+				conj_and(appointed/VBN-6,served/VBD-22)
+				det(position/NN-25,this/DT-24)
+				prep_in(served/VBD-22,position/NN-25)
+				poss(selection/NN-28,his/PRP$-27)
+				prep_until(served/VBD-22,selection/NN-28)
+				det(cosmonaut/NN-31,a/DT-30)
+				prep_as(served/VBD-22,cosmonaut/NN-31)
+				prep_in(cosmonaut/NN-31,June/NNP-33)
+				num(June/NNP-33,1980/CD-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien remained a French Air Force officer but was placed on detachment to CNES for his space flight activities ensuring his availability for future flights with the Shuttle (NASA), Mir (Soviet Union) or Spacelab (ESA).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(officer/NN-7,Chrétien/NNP-1)
+				nsubjpass(placed/VBN-10,Chrétien/NNP-1)
+				cop(officer/NN-7,remained/VBD-2)
+				det(officer/NN-7,a/DT-3)
+				nn(officer/NN-7,French/NNP-4)
+				nn(officer/NN-7,Air/NNP-5)
+				nn(officer/NN-7,Force/NNP-6)
+				auxpass(placed/VBN-10,was/VBD-9)
+				conj_but(officer/NN-7,placed/VBN-10)
+				prep_on(placed/VBN-10,detachment/NN-12)
+				prep_to(placed/VBN-10,CNES/NNP-14)
+				poss(activities/NNS-19,his/PRP$-16)
+				nn(activities/NNS-19,space/NN-17)
+				nn(activities/NNS-19,flight/NN-18)
+				prep_for(CNES/NNP-14,activities/NNS-19)
+				xcomp(placed/VBN-10,ensuring/VBG-20)
+				poss(availability/NN-22,his/PRP$-21)
+				dobj(ensuring/VBG-20,availability/NN-22)
+				amod(flights/NNS-25,future/JJ-24)
+				prep_for(ensuring/VBG-20,flights/NNS-25)
+				det(Shuttle/NNP-28,the/DT-27)
+				prep_with(ensuring/VBG-20,Shuttle/NNP-28)
+				appos(Shuttle/NNP-28,NASA/NNP-30)
+				prep_with(ensuring/VBG-20,Mir/NNS-33)
+				conj_or(Shuttle/NNP-28,Mir/NNS-33)
+				nn(Union/NNP-36,Soviet/NNP-35)
+				appos(Mir/NNS-33,Union/NNP-36)
+				prep_with(ensuring/VBG-20,Spacelab/JJ-39)
+				conj_or(Shuttle/NNP-28,Spacelab/JJ-39)
+				appos(Spacelab/JJ-39,ESA/NN-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has accumulated over 8000 hours of flying time in various aircraft, including Russia’s Tupolev 154, MiG-25, and Sukhoi Su-26 and Sukhoi Su-27.	</value>
+
+		<annotated-sentence>	He has accumulated over 8000 [[hours|Hour]] of flying time in [[various aircraft|Aircraft]], including [[Russia|Soviet_Union]]’s [[Tupolev|Tupolev]] 154, MiG-25, and [[Sukhoi Su-26|Sukhoi_Su-26]] and [[Sukhoi Su-27|Sukhoi_Su-27]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He has accumulated over 8000 hours of flying time in [[various aircraft|Aircraft]], including [[Russia|Soviet_Union]]’s Tupolev 154, MiG-25, and [[Sukhoi Su-26|Sukhoi_Su-26]] and [[Sukhoi Su-27|Sukhoi_Su-27]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(accumulated/VBN-3,He/PRP-1)
+				aux(accumulated/VBN-3,has/VBZ-2)
+				num(hours/NNS-6,8000/CD-5)
+				prep_over(accumulated/VBN-3,hours/NNS-6)
+				prepc_of(hours/NNS-6,flying/VBG-8)
+				dobj(flying/VBG-8,time/NN-9)
+				amod(aircraft/NN-12,various/JJ-11)
+				prep_in(time/NN-9,aircraft/NN-12)
+				poss(Tupolev/NNP-17,Russia/NNP-15)
+				prep_including(time/NN-9,Tupolev/NNP-17)
+				num(Tupolev/NNP-17,154/CD-18)
+				prep_including(time/NN-9,MiG-25/NN-20)
+				conj_and(Tupolev/NNP-17,MiG-25/NN-20)
+				nn(Su-26/NNP-24,Sukhoi/NNP-23)
+				prep_including(time/NN-9,Su-26/NNP-24)
+				conj_and(Tupolev/NNP-17,Su-26/NNP-24)
+				nn(Su-27/NN-27,Sukhoi/NNP-26)
+				conj_and(Tupolev/NNP-17,Su-27/NN-27)
+				conj_and(Su-26/NNP-24,Su-27/NN-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>various aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Russia</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soviet_Union</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Tupolev</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tupolev</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sukhoi Su-26</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sukhoi_Su-26</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Sukhoi Su-27</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Sukhoi_Su-27</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Sukhoi_Su-27 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sukhoi_Su-26 http://dbpedia.org/property/nationalOrigin http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Sukhoi_Su-27 http://dbpedia.org/ontology/origin http://dbpedia.org/resource/Soviet_Union
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	A veteran of three space flights, Chrétien was the 10th Intercosmos cosmonaut, and has spent a total of 43 days, 11 hours, 18 minutes, 42 seconds in space, including an EVA of 5 hours, 57 minutes.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(veteran/NN-2,A/DT-1)
+				nsubj(cosmonaut/NN-13,veteran/NN-2)
+				num(flights/NNS-6,three/CD-4)
+				nn(flights/NNS-6,space/NN-5)
+				prep_of(veteran/NN-2,flights/NNS-6)
+				appos(flights/NNS-6,Chrétien/NNP-8)
+				cop(cosmonaut/NN-13,was/VBD-9)
+				det(cosmonaut/NN-13,the/DT-10)
+				amod(cosmonaut/NN-13,10th/JJ-11)
+				nn(cosmonaut/NN-13,Intercosmos/NNS-12)
+				aux(spent/VBN-17,has/VBZ-16)
+				conj_and(cosmonaut/NN-13,spent/VBN-17)
+				det(total/NN-19,a/DT-18)
+				dobj(spent/VBN-17,total/NN-19)
+				num(days/NNS-22,43/CD-21)
+				prep_of(total/NN-19,days/NNS-22)
+				num(hours/NNS-25,11/CD-24)
+				appos(days/NNS-22,hours/NNS-25)
+				num(minutes/NNS-28,18/CD-27)
+				nsubj(spent/VBN-17,minutes/NNS-28)
+				num(seconds/NNS-31,42/CD-30)
+				appos(minutes/NNS-28,seconds/NNS-31)
+				prep_in(seconds/NNS-31,space/NN-33)
+				det(EVA/NN-37,an/DT-36)
+				prep_including(spent/VBN-17,EVA/NN-37)
+				num(hours/NNS-40,5/CD-39)
+				prep_of(EVA/NN-37,hours/NNS-40)
+				num(minutes/NNS-43,57/CD-42)
+				appos(hours/NNS-40,minutes/NNS-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 1979, the Soviet Union offered France the opportunity to fly a cosmonaut on board a joint Soviet-French space flight, along the same lines as the agreement to fly non-Soviet cosmonauts from member countries of the Intercosmos program.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(offered/VBD-8,April/NNP-2)
+				num(April/NNP-2,1979/CD-3)
+				det(Union/NNP-7,the/DT-5)
+				nn(Union/NNP-7,Soviet/NNP-6)
+				nsubj(offered/VBD-8,Union/NNP-7)
+				iobj(offered/VBD-8,France/NNP-9)
+				det(opportunity/NN-11,the/DT-10)
+				dobj(offered/VBD-8,opportunity/NN-11)
+				aux(fly/VB-13,to/TO-12)
+				infmod(opportunity/NN-11,fly/VB-13)
+				det(cosmonaut/NN-15,a/DT-14)
+				dobj(fly/VB-13,cosmonaut/NN-15)
+				prep_on(fly/VB-13,board/NN-17)
+				det(flight/NN-22,a/DT-18)
+				amod(flight/NN-22,joint/JJ-19)
+				amod(flight/NN-22,Soviet-French/JJ-20)
+				nn(flight/NN-22,space/NN-21)
+				dep(board/NN-17,flight/NN-22)
+				advmod(board/NN-17,along/IN-24)
+				det(lines/NNS-27,the/DT-25)
+				amod(lines/NNS-27,same/JJ-26)
+				pobj(along/IN-24,lines/NNS-27)
+				det(agreement/NN-30,the/DT-29)
+				prep_as(board/NN-17,agreement/NN-30)
+				aux(fly/VB-32,to/TO-31)
+				infmod(agreement/NN-30,fly/VB-32)
+				amod(cosmonauts/NNS-34,non-Soviet/JJ-33)
+				dobj(fly/VB-32,cosmonauts/NNS-34)
+				nn(countries/NNS-37,member/NN-36)
+				prep_from(fly/VB-32,countries/NNS-37)
+				det(program/NN-41,the/DT-39)
+				nn(program/NN-41,Intercosmos/NNP-40)
+				prep_of(countries/NNS-37,program/NN-41)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The offer was accepted, and France began a spationaut selection process in September 1979.	</value>
+
+		<annotated-sentence>	The offer was accepted, and [[France|France]] began a [[spationaut|Astronaut]] [[selection process|NCAA_basketball_tournament_selection_process]] in [[September 1979|1979]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The offer was accepted, and France began a spationaut selection process in September 1979.	</pattern_crowdsource>
+
+
+		<tree>
+				det(offer/NN-2,The/DT-1)
+				nsubjpass(accepted/VBN-4,offer/NN-2)
+				auxpass(accepted/VBN-4,was/VBD-3)
+				nsubj(began/VBD-8,France/NNP-7)
+				conj_and(accepted/VBN-4,began/VBD-8)
+				det(process/NN-12,a/DT-9)
+				nn(process/NN-12,spationaut/NN-10)
+				nn(process/NN-12,selection/NN-11)
+				dobj(began/VBD-8,process/NN-12)
+				prep_in(began/VBD-8,September/NNP-14)
+				num(September/NNP-14,1979/CD-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>France</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/France</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spationaut</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>selection process</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NCAA_basketball_tournament_selection_process</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1979</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1979</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien was one of two finalists named on 12 June 1980.	</value>
+
+		<annotated-sentence>	Chrétien was one of [[two finalists|Final_(competition)]] named on 12 [[June 1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien was one of two finalists named on 12 June 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(one/CD-3,Chrétien/NNP-1)
+				cop(one/CD-3,was/VBD-2)
+				num(finalists/NNS-6,two/CD-5)
+				prep_of(one/CD-3,finalists/NNS-6)
+				partmod(finalists/NNS-6,named/VBN-7)
+				prep_on(named/VBN-7,12/CD-9)
+				tmod(named/VBN-7,June/NNP-10)
+				num(June/NNP-10,1980/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>two finalists</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Final_(competition)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>June 1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He started training at the Yuri Gagarin Cosmonaut Training Center in September 1980.	</value>
+
+		<annotated-sentence>	He started training at [[the Yuri Gagarin Cosmonaut Training Center|Yuri_Gagarin_Cosmonaut_Training_Center]] in [[September 1980|1980]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He started training at the Yuri Gagarin Cosmonaut Training Center in September 1980.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(started/VBD-2,He/PRP-1)
+				xcomp(started/VBD-2,training/VBG-3)
+				det(Center/NNP-10,the/DT-5)
+				nn(Center/NNP-10,Yuri/NNP-6)
+				nn(Center/NNP-10,Gagarin/NNP-7)
+				nn(Center/NNP-10,Cosmonaut/NNP-8)
+				nn(Center/NNP-10,Training/NNP-9)
+				prep_at(training/VBG-3,Center/NNP-10)
+				prep_in(training/VBG-3,September/NNP-12)
+				num(September/NNP-12,1980/CD-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Yuri Gagarin Cosmonaut Training Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Yuri_Gagarin_Cosmonaut_Training_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September 1980</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1980</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The following year he was named as the Research Cosmonaut for the prime crew of the Soyuz T-6 mission.	</value>
+
+		<annotated-sentence>	[[The following|The_Following]] [[year|Year]] he was named as the [[Research|Research]] Cosmonaut for the prime crew of the [[Soyuz T-6|Soyuz_T-6]] mission.	</annotated-sentence>
+
+		<pattern_crowdsource>	The following year he was named as the Research Cosmonaut for the prime crew of the Soyuz T-6 mission.	</pattern_crowdsource>
+
+
+		<tree>
+				det(year/NN-3,The/DT-1)
+				amod(year/NN-3,following/JJ-2)
+				tmod(named/VBN-6,year/NN-3)
+				nsubjpass(named/VBN-6,he/PRP-4)
+				auxpass(named/VBN-6,was/VBD-5)
+				det(Cosmonaut/NNP-10,the/DT-8)
+				nn(Cosmonaut/NNP-10,Research/NNP-9)
+				prep_as(named/VBN-6,Cosmonaut/NNP-10)
+				det(crew/NN-14,the/DT-12)
+				amod(crew/NN-14,prime/JJ-13)
+				prep_for(named/VBN-6,crew/NN-14)
+				det(mission/NN-19,the/DT-16)
+				nn(mission/NN-19,Soyuz/NNP-17)
+				nn(mission/NN-19,T-6/NNP-18)
+				prep_of(crew/NN-14,mission/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The following</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Following</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz T-6</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_T-6</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Soyuz T-6 was launched on 24 June 1982, and Chrétien, Dzhanibekov and Ivanchenkov linked up with Salyut 7 and joined the crew of Berezovoi and Lebedev already on board.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(T-6/NNP-2,Soyuz/NNP-1)
+				nsubjpass(launched/VBN-4,T-6/NNP-2)
+				auxpass(launched/VBN-4,was/VBD-3)
+				prep_on(launched/VBN-4,24/CD-6)
+				tmod(launched/VBN-4,June/NNP-7)
+				num(June/NNP-7,1982/CD-8)
+				nsubj(linked/VBD-16,Chrétien/NNP-11)
+				nsubj(joined/VBD-22,Chrétien/NNP-11)
+				conj_and(Chrétien/NNP-11,Dzhanibekov/NNP-13)
+				nsubj(linked/VBD-16,Dzhanibekov/NNP-13)
+				conj_and(Chrétien/NNP-11,Ivanchenkov/NNP-15)
+				nsubj(linked/VBD-16,Ivanchenkov/NNP-15)
+				conj_and(launched/VBN-4,linked/VBD-16)
+				prt(linked/VBD-16,up/RP-17)
+				prep_with(linked/VBD-16,Salyut/NN-19)
+				num(Salyut/NN-19,7/CD-20)
+				conj_and(launched/VBN-4,joined/VBD-22)
+				conj_and(linked/VBD-16,joined/VBD-22)
+				det(crew/NN-24,the/DT-23)
+				dobj(joined/VBD-22,crew/NN-24)
+				prep_of(crew/NN-24,Berezovoi/NNP-26)
+				prep_of(crew/NN-24,Lebedev/NNP-28)
+				conj_and(Berezovoi/NNP-26,Lebedev/NNP-28)
+				advmod(joined/VBD-22,already/RB-29)
+				prep_on(joined/VBD-22,board/NN-31)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They spent nearly seven days carrying out a program of joint Soviet-French experiments, including a series of French echography cardiovascular monitoring system experiments, before returning to Earth after a flight lasting 7 days, 21 hours, 50 minutes, 42 seconds.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,They/PRP-1)
+				quantmod(seven/CD-4,nearly/RB-3)
+				num(days/NNS-5,seven/CD-4)
+				dobj(spent/VBD-2,days/NNS-5)
+				partmod(days/NNS-5,carrying/VBG-6)
+				prt(carrying/VBG-6,out/RP-7)
+				det(program/NN-9,a/DT-8)
+				dobj(carrying/VBG-6,program/NN-9)
+				amod(experiments/NNS-13,joint/JJ-11)
+				amod(experiments/NNS-13,Soviet-French/JJ-12)
+				prep_of(program/NN-9,experiments/NNS-13)
+				det(series/NN-17,a/DT-16)
+				prep_including(program/NN-9,series/NN-17)
+				amod(experiments/NNS-24,French/JJ-19)
+				nn(experiments/NNS-24,echography/NN-20)
+				amod(experiments/NNS-24,cardiovascular/JJ-21)
+				nn(experiments/NNS-24,monitoring/NN-22)
+				nn(experiments/NNS-24,system/NN-23)
+				prep_of(series/NN-17,experiments/NNS-24)
+				prepc_before(spent/VBD-2,returning/VBG-27)
+				prep_to(returning/VBG-27,Earth/NNP-29)
+				det(flight/NN-32,a/DT-31)
+				prep_after(returning/VBG-27,flight/NN-32)
+				amod(flight/NN-32,lasting/JJ-33)
+				num(days/NNS-35,7/CD-34)
+				tmod(lasting/JJ-33,days/NNS-35)
+				num(hours/NNS-38,21/CD-37)
+				appos(flight/NN-32,hours/NNS-38)
+				num(minutes/NNS-41,50/CD-40)
+				appos(flight/NN-32,minutes/NNS-41)
+				num(seconds/NNS-44,42/CD-43)
+				appos(minutes/NNS-41,seconds/NNS-44)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This flight made him the first Western non-American to go to space, as well as the first Western European.	</value>
+
+		<annotated-sentence>	[[This|This_(Darius_Rucker_song)]] [[flight|Flight]] made him [[the first Western|Country_music]] non-American to go to [[space|Space]], as well as [[the first Western European|Western_Europe]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[This|This_(Darius_Rucker_song)]] flight made him [[the first Western|Country_music]] non-American to go to space, as well as [[the first Western|Country_music]] European.	</pattern_crowdsource>
+
+
+		<tree>
+				det(flight/NN-2,This/DT-1)
+				nsubj(made/VBD-3,flight/NN-2)
+				iobj(made/VBD-3,him/PRP-4)
+				det(Western/JJ-7,the/DT-5)
+				amod(Western/JJ-7,first/JJ-6)
+				dobj(made/VBD-3,Western/JJ-7)
+				amod(Western/JJ-7,non-American/JJ-8)
+				aux(go/VB-10,to/TO-9)
+				xcomp(non-American/JJ-8,go/VB-10)
+				xcomp(non-American/JJ-8,go/VB-10)
+				conj_and(go/VB-10,go/VB-10)
+				prep_to(go/VB-10,space/NN-12)
+				det(European/JJ-20,the/DT-17)
+				amod(European/JJ-20,first/JJ-18)
+				amod(European/JJ-20,Western/JJ-19)
+				prep_as(go/VB-10,European/JJ-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>This</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/This_(Darius_Rucker_song)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first Western</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Country_music</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first Western European</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Western_Europe</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/This_(Darius_Rucker_song) http://dbpedia.org/ontology/genre http://dbpedia.org/resource/Country_music
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the mission he was appointed Chief, CNES Astronaut Office.	</value>
+
+		<annotated-sentence>	Following the mission he was appointed Chief, [[CNES|CNES]] [[Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Following the mission he was appointed Chief, CNES Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,the/DT-2)
+				prep_following(appointed/VBN-6,mission/NN-3)
+				nsubjpass(appointed/VBN-6,he/PRP-4)
+				auxpass(appointed/VBN-6,was/VBD-5)
+				dobj(appointed/VBN-6,Chief/NNP-7)
+				nn(Office/NNP-11,CNES/NNP-9)
+				nn(Office/NNP-11,Astronaut/NNP-10)
+				appos(Chief/NNP-7,Office/NNP-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien was selected as the back-up crew member for STS-51-G (Patrick Baudry, another CNES astronaut, flew on that mission).	</value>
+
+		<annotated-sentence>	Chrétien was selected as the back-up [[crew member|Crewman]] for [[STS-51-G|STS-51-G]] ([[Patrick Baudry|Patrick_Baudry]], another [[CNES|CNES]] [[astronaut|Astronaut]], flew on that mission).	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien was selected as the back-up crew member for [[STS-51-G|STS-51-G]] ([[Patrick Baudry|Patrick_Baudry]], another [[CNES|CNES]] [[astronaut|Astronaut]], flew on that mission).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(selected/VBN-3,Chrétien/NNP-1)
+				auxpass(selected/VBN-3,was/VBD-2)
+				det(member/NN-8,the/DT-5)
+				amod(member/NN-8,back-up/JJ-6)
+				nn(member/NN-8,crew/NN-7)
+				prep_as(selected/VBN-3,member/NN-8)
+				prep_for(member/NN-8,STS-51-G/NN-10)
+				nn(Baudry/NNP-13,Patrick/NNP-12)
+				nsubj(flew/VBD-19,Baudry/NNP-13)
+				det(astronaut/NN-17,another/DT-15)
+				nn(astronaut/NN-17,CNES/NN-16)
+				appos(Baudry/NNP-13,astronaut/NN-17)
+				dep(member/NN-8,flew/VBD-19)
+				det(mission/NN-22,that/DT-21)
+				prep_on(flew/VBD-19,mission/NN-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>crew member</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Crewman</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-51-G</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-51-G</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Patrick Baudry</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Patrick_Baudry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CNES</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/CNES</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-G http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Patrick_Baudry
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-G http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Patrick_Baudry
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Patrick_Baudry http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-51-G
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-51-G http://dbpedia.org/property/agency6Up http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Patrick_Baudry http://dbpedia.org/ontology/type http://dbpedia.org/resource/CNES
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Patrick_Baudry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 1984-85, he participated in mission training at the Johnson Space Center.	</value>
+
+		<annotated-sentence>	During 1984-85, he participated in [[mission|Lyndon_B._Johnson_Space_Center]] [[training|Training]] at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During 1984-85, he participated in mission training at the Johnson Space Center.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(participated/VBD-5,1984-85/CD-2)
+				nsubj(participated/VBD-5,he/PRP-4)
+				nn(training/NN-8,mission/NN-7)
+				prep_in(participated/VBD-5,training/NN-8)
+				det(Center/NNP-13,the/DT-10)
+				nn(Center/NNP-13,Johnson/NNP-11)
+				nn(Center/NNP-13,Space/NNP-12)
+				prep_at(participated/VBD-5,Center/NNP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>mission</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien made his second space flight as a Research Cosmonaut on board Soyuz TM-7, which launched on 26 November 1988.	</value>
+
+		<annotated-sentence>	Chrétien made his second space flight as a [[Research|Research]] Cosmonaut on board [[Soyuz TM-7|Soyuz_TM-7]], which launched on 26 [[November 1988|1988]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien made his second space flight as a Research Cosmonaut on board Soyuz TM-7, which launched on 26 November 1988.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(made/VBD-2,Chrétien/NNP-1)
+				poss(flight/NN-6,his/PRP$-3)
+				amod(flight/NN-6,second/JJ-4)
+				nn(flight/NN-6,space/NN-5)
+				dobj(made/VBD-2,flight/NN-6)
+				det(Cosmonaut/NNP-10,a/DT-8)
+				nn(Cosmonaut/NNP-10,Research/NNP-9)
+				prep_as(made/VBD-2,Cosmonaut/NNP-10)
+				nn(TM-7/NNP-14,board/NN-12)
+				nn(TM-7/NNP-14,Soyuz/NNP-13)
+				prep_on(made/VBD-2,TM-7/NNP-14)
+				nsubj(launched/VBD-17,which/WDT-16)
+				rcmod(TM-7/NNP-14,launched/VBD-17)
+				prep_on(launched/VBD-17,26/CD-19)
+				tmod(launched/VBD-17,November/NNP-20)
+				num(November/NNP-20,1988/CD-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Research</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Soyuz TM-7</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Soyuz_TM-7</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>November 1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Together with Volkov and Krikalev, he linked up with Mir and joined the crew of Titov, Manarov and Polyakov already on board.	</value>
+
+		<annotated-sentence>	Together with Volkov and Krikalev, he linked up with Mir and joined the crew of Titov, Manarov and Polyakov already on board.	</annotated-sentence>
+
+		<pattern_crowdsource>	Together with Volkov and Krikalev, he linked up with Mir and joined the crew of Titov, Manarov and Polyakov already on board.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_together_with(linked/VBD-8,Volkov/NNP-3)
+				conj_and(Volkov/NNP-3,Krikalev/NNP-5)
+				prep_together_with(linked/VBD-8,Krikalev/NNP-5)
+				nsubj(linked/VBD-8,he/PRP-7)
+				nsubj(joined/VBD-13,he/PRP-7)
+				prt(linked/VBD-8,up/RP-9)
+				prep_with(linked/VBD-8,Mir/NNS-11)
+				conj_and(linked/VBD-8,joined/VBD-13)
+				det(crew/NN-15,the/DT-14)
+				dobj(joined/VBD-13,crew/NN-15)
+				prep_of(crew/NN-15,Titov/NNP-17)
+				prep_of(crew/NN-15,Manarov/NNP-19)
+				conj_and(Titov/NNP-17,Manarov/NNP-19)
+				prep_of(crew/NN-15,Polyakov/NNP-21)
+				conj_and(Titov/NNP-17,Polyakov/NNP-21)
+				advmod(joined/VBD-13,already/RB-22)
+				prep_on(joined/VBD-13,board/NN-24)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	They spent 22 days carrying out a program of joint Soviet-French experiments, including a 5 hour and 57 minute EVA by Volkov and Chrétien during which the two men installed the French ERA experimental deployable structure and a panel of material samples.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,They/PRP-1)
+				num(days/NNS-4,22/CD-3)
+				tmod(spent/VBD-2,days/NNS-4)
+				xcomp(spent/VBD-2,carrying/VBG-5)
+				prt(carrying/VBG-5,out/RP-6)
+				det(program/NN-8,a/DT-7)
+				dobj(carrying/VBG-5,program/NN-8)
+				amod(experiments/NNS-12,joint/JJ-10)
+				amod(experiments/NNS-12,Soviet-French/JJ-11)
+				prep_of(program/NN-8,experiments/NNS-12)
+				det(hour/NN-17,a/DT-15)
+				num(hour/NN-17,5/CD-16)
+				prep_including(program/NN-8,hour/NN-17)
+				num(EVA/NN-21,57/CD-19)
+				nn(EVA/NN-21,minute/NN-20)
+				prep_including(program/NN-8,EVA/NN-21)
+				conj_and(hour/NN-17,EVA/NN-21)
+				prep_by(carrying/VBG-5,Volkov/NNP-23)
+				prep_by(carrying/VBG-5,Chrétien/NNP-25)
+				conj_and(Volkov/NNP-23,Chrétien/NNP-25)
+				prep_during(installed/VBN-31,which/WDT-27)
+				det(men/NNS-30,the/DT-28)
+				num(men/NNS-30,two/CD-29)
+				nsubj(installed/VBN-31,men/NNS-30)
+				rcmod(Volkov/NNP-23,installed/VBN-31)
+				det(ERA/NN-34,the/DT-32)
+				amod(ERA/NN-34,French/JJ-33)
+				dobj(installed/VBN-31,ERA/NN-34)
+				amod(deployable/JJ-36,experimental/JJ-35)
+				amod(structure/NN-37,deployable/JJ-36)
+				dep(ERA/NN-34,structure/NN-37)
+				det(panel/NN-40,a/DT-39)
+				dobj(installed/VBN-31,panel/NN-40)
+				conj_and(ERA/NN-34,panel/NN-40)
+				nn(samples/NNS-43,material/NN-42)
+				prep_of(panel/NN-40,samples/NNS-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In making the EVA, he became the first non-American and non-Soviet to walk in space.	</value>
+
+		<annotated-sentence>	In making the EVA, he became [[the first non-American and non-Soviet|NASCAR]] to walk in [[space|Space]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In making the EVA, he became the first non-American and non-Soviet to walk in space.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_in(non-American/JJ-10,making/VBG-2)
+				det(EVA/NNP-4,the/DT-3)
+				dobj(making/VBG-2,EVA/NNP-4)
+				nsubj(non-American/JJ-10,he/PRP-6)
+				nsubj(non-Soviet/JJ-12,he/PRP-6)
+				cop(non-American/JJ-10,became/VBD-7)
+				dep(non-American/JJ-10,the/DT-8)
+				amod(non-American/JJ-10,first/JJ-9)
+				conj_and(non-American/JJ-10,non-Soviet/JJ-12)
+				aux(walk/VB-14,to/TO-13)
+				xcomp(non-American/JJ-10,walk/VB-14)
+				prep_in(walk/VB-14,space/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first non-American and non-Soviet</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASCAR</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In addition, he was the first non-Soviet cosmonaut to make a second space flight aboard a Soviet spacecraft.	</value>
+
+		<annotated-sentence>	In [[addition|Addition]], he was the first non-Soviet cosmonaut to make a second space flight aboard a Soviet [[spacecraft|Spacecraft]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In addition, he was the first non-Soviet cosmonaut to make a second space flight aboard a Soviet spacecraft.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(cosmonaut/NN-9,addition/NN-2)
+				nsubj(cosmonaut/NN-9,he/PRP-4)
+				cop(cosmonaut/NN-9,was/VBD-5)
+				det(cosmonaut/NN-9,the/DT-6)
+				amod(cosmonaut/NN-9,first/JJ-7)
+				amod(cosmonaut/NN-9,non-Soviet/JJ-8)
+				aux(make/VB-11,to/TO-10)
+				infmod(cosmonaut/NN-9,make/VB-11)
+				det(flight/NN-15,a/DT-12)
+				amod(flight/NN-15,second/JJ-13)
+				nn(flight/NN-15,space/NN-14)
+				dobj(make/VB-11,flight/NN-15)
+				det(spacecraft/NN-19,a/DT-17)
+				amod(spacecraft/NN-19,Soviet/JJ-18)
+				prep_aboard(make/VB-11,spacecraft/NN-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>addition</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Addition</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Spacecraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The mission lasted 24 days, 18 hours, 7 minutes.	</value>
+
+		<annotated-sentence>	The mission lasted 24 days, 18 [[hours|Hour]], 7 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The mission lasted 24 days, 18 hours, 7 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-2,The/DT-1)
+				nsubj(lasted/VBD-3,mission/NN-2)
+				num(days/NNS-5,24/CD-4)
+				dobj(lasted/VBD-3,days/NNS-5)
+				num(hours/NNS-8,18/CD-7)
+				appos(days/NNS-5,hours/NNS-8)
+				num(minutes/NNS-11,7/CD-10)
+				tmod(days/NNS-5,minutes/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During 1990-93, Chrétien participated in Buran spacecraft pilot training at the Moscow Joukovski Institute.	</value>
+
+		<annotated-sentence>	During 1990-93, Chrétien participated in [[Buran spacecraft|Buran_(spacecraft)]] [[pilot training|Flight_training]] at the [[Moscow|Moscow]] Joukovski [[Institute|Institute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During 1990-93, Chrétien participated in Buran spacecraft pilot training at the Moscow Joukovski Institute.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_during(participated/VBD-5,1990-93/CD-2)
+				nsubj(participated/VBD-5,Chrétien/NNP-4)
+				nn(training/NN-10,Buran/NNP-7)
+				nn(training/NN-10,spacecraft/NN-8)
+				nn(training/NN-10,pilot/NN-9)
+				prep_in(participated/VBD-5,training/NN-10)
+				det(Institute/NNP-15,the/DT-12)
+				nn(Institute/NNP-15,Moscow/NNP-13)
+				nn(Institute/NNP-15,Joukovski/NNP-14)
+				prep_at(training/NN-10,Institute/NNP-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Buran spacecraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Buran_(spacecraft)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>pilot training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Institute</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Institute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He has also flown the Tupolev 154 and MiG-25 aircraft, flying simulators equivalent to the Shuttle Training Aircraft (STA).	</value>
+
+		<annotated-sentence>	He has also flown [[the Tupolev 154|Tupolev_Tu-154]] and MiG-25 [[aircraft|Aircraft]], flying simulators equivalent to [[the Shuttle Training Aircraft|Shuttle_Training_Aircraft]] ([[STA|Shuttle_Training_Aircraft]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	He has also flown [[the Tupolev 154|Tupolev_Tu-154]] and MiG-25 [[aircraft|Aircraft]], flying simulators equivalent to the Shuttle Training Aircraft (STA).	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flown/VBN-4,He/PRP-1)
+				aux(flown/VBN-4,has/VBZ-2)
+				advmod(flown/VBN-4,also/RB-3)
+				det(Tupolev/NNP-6,the/DT-5)
+				dobj(flown/VBN-4,Tupolev/NNP-6)
+				num(Tupolev/NNP-6,154/CD-7)
+				nn(aircraft/NN-10,MiG-25/NN-9)
+				dobj(flown/VBN-4,aircraft/NN-10)
+				conj_and(Tupolev/NNP-6,aircraft/NN-10)
+				partmod(flown/VBN-4,flying/VBG-12)
+				dobj(flying/VBG-12,simulators/NNS-13)
+				amod(simulators/NNS-13,equivalent/JJ-14)
+				det(Aircraft/NNP-19,the/DT-16)
+				nn(Aircraft/NNP-19,Shuttle/NNP-17)
+				nn(Aircraft/NNP-19,Training/NNP-18)
+				prep_to(equivalent/JJ-14,Aircraft/NNP-19)
+				appos(simulators/NNS-13,STA/NNP-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the Tupolev 154</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tupolev_Tu-154</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Shuttle Training Aircraft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Training_Aircraft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shuttle_Training_Aircraft</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Tupolev_Tu-154 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Aircraft
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1994, he was selected as part of NASA Astronaut Group 15 to officially become an International Mission Specialist with NASA.	</value>
+
+		<annotated-sentence>	In [[1994|1994]], he was selected as part of [[NASA Astronaut Group 15|NASA_Astronaut_Group_15]] to officially become an [[International|International]] [[Mission Specialist|Mission_Specialist]] with [[NASA|NASA]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1994, he was selected as part of NASA Astronaut Group 15 to officially become an International Mission Specialist with NASA.	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(selected/VBN-6,1994/CD-2)
+				nsubjpass(selected/VBN-6,he/PRP-4)
+				auxpass(selected/VBN-6,was/VBD-5)
+				prep_as(selected/VBN-6,part/NN-8)
+				nn(Group/NNP-12,NASA/NNP-10)
+				nn(Group/NNP-12,Astronaut/NNP-11)
+				prep_of(part/NN-8,Group/NNP-12)
+				num(Group/NNP-12,15/CD-13)
+				aux(Specialist/NN-20,to/TO-14)
+				advmod(Specialist/NN-20,officially/RB-15)
+				cop(Specialist/NN-20,become/VB-16)
+				det(Specialist/NN-20,an/DT-17)
+				amod(Specialist/NN-20,International/JJ-18)
+				nn(Specialist/NN-20,Mission/NNP-19)
+				xcomp(selected/VBN-6,Specialist/NN-20)
+				prep_with(Specialist/NN-20,NASA/NNP-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1994</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1994</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA Astronaut Group 15</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Group_15</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>International</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien attended ASCAN Training at the Johnson Space Center during 1995.	</value>
+
+		<annotated-sentence>	Chrétien attended [[ASCAN|A-scan_ultrasound_biometry]] [[Training|Training]] at [[the Johnson Space Center|Lyndon_B._Johnson_Space_Center]] during [[1995|1995]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien attended ASCAN Training at the Johnson Space Center during 1995.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,Chrétien/NNP-1)
+				dobj(attended/VBD-2,ASCAN/NNP-3)
+				partmod(ASCAN/NNP-3,Training/VBG-4)
+				det(Center/NNP-9,the/DT-6)
+				nn(Center/NNP-9,Johnson/NNP-7)
+				nn(Center/NNP-9,Space/NNP-8)
+				prep_at(Training/VBG-4,Center/NNP-9)
+				prep_during(Training/VBG-4,1995/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>ASCAN</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/A-scan_ultrasound_biometry</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Johnson Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lyndon_B._Johnson_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1995</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1995</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was initially assigned to work technical issues for the Operations Planning Branch of the Astronaut Office.	</value>
+
+		<annotated-sentence>	He was initially assigned to work technical issues for the Operations [[Planning|Planning]] Branch of [[the Astronaut Office|NASA_Astronaut_Corps]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was initially assigned to work technical issues for the Operations Planning Branch of the Astronaut Office.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,He/PRP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,initially/RB-3)
+				aux(work/VB-6,to/TO-5)
+				xcomp(assigned/VBN-4,work/VB-6)
+				amod(issues/NNS-8,technical/JJ-7)
+				dobj(work/VB-6,issues/NNS-8)
+				det(Branch/NNP-13,the/DT-10)
+				nn(Branch/NNP-13,Operations/NNP-11)
+				nn(Branch/NNP-13,Planning/NNP-12)
+				prep_for(work/VB-6,Branch/NNP-13)
+				det(Office/NNP-17,the/DT-15)
+				nn(Office/NNP-17,Astronaut/NNP-16)
+				prep_of(Branch/NNP-13,Office/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Planning</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Planning</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Astronaut Office</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA_Astronaut_Corps</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He served on the crew of STS-86 Atlantis (25 September to 6 October 1997) the seventh mission to rendezvous and dock with the Russian Space Station Mir.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,He/PRP-1)
+				det(crew/NN-5,the/DT-4)
+				prep_on(served/VBD-2,crew/NN-5)
+				nn(Atlantis/NNP-8,STS-86/NNP-7)
+				prep_of(crew/NN-5,Atlantis/NNP-8)
+				num(September/NNP-11,25/CD-10)
+				dep(Atlantis/NNP-8,September/NNP-11)
+				prep_to(September/NNP-11,6/CD-13)
+				tmod(6/CD-13,October/NNP-14)
+				num(October/NNP-14,1997/CD-15)
+				det(mission/NN-19,the/DT-17)
+				amod(mission/NN-19,seventh/JJ-18)
+				dobj(served/VBD-2,mission/NN-19)
+				prep_to(served/VBD-2,rendezvous/NN-21)
+				prep_to(served/VBD-2,dock/NN-23)
+				conj_and(rendezvous/NN-21,dock/NN-23)
+				det(Mir/NNS-29,the/DT-25)
+				amod(Mir/NNS-29,Russian/JJ-26)
+				nn(Mir/NNS-29,Space/NN-27)
+				nn(Mir/NNS-29,Station/NNP-28)
+				prep_with(served/VBD-2,Mir/NNS-29)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Highlights included the delivery of a Mir attitude control computer, the exchange of U.S. crew members Mike Foale and David Wolf, a spacewalk by Scott Parazynski and Vladimir Titov to retrieve four experiments first deployed on Mir during the STS-76 docking mission, the transfer to Mir of 10,400 pounds of science and logistics, and the return of experiment hardware and results to Earth.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(included/VBD-2,Highlights/NNS-1)
+				nsubj(results/VBZ-65,Highlights/NNS-1)
+				det(delivery/NN-4,the/DT-3)
+				dobj(included/VBD-2,delivery/NN-4)
+				det(computer/NN-10,a/DT-6)
+				nn(computer/NN-10,Mir/NNS-7)
+				nn(computer/NN-10,attitude/NN-8)
+				nn(computer/NN-10,control/NN-9)
+				prep_of(delivery/NN-4,computer/NN-10)
+				det(exchange/NN-13,the/DT-12)
+				appos(delivery/NN-4,exchange/NN-13)
+				nn(Foale/NNP-19,U.S./NNP-15)
+				nn(Foale/NNP-19,crew/NN-16)
+				nn(Foale/NNP-19,members/NNS-17)
+				nn(Foale/NNP-19,Mike/NNP-18)
+				prep_of(exchange/NN-13,Foale/NNP-19)
+				nn(Wolf/NNP-22,David/NNP-21)
+				prep_of(exchange/NN-13,Wolf/NNP-22)
+				conj_and(Foale/NNP-19,Wolf/NNP-22)
+				det(spacewalk/NN-25,a/DT-24)
+				appos(delivery/NN-4,spacewalk/NN-25)
+				nn(Parazynski/NNP-28,Scott/NNP-27)
+				prep_by(spacewalk/NN-25,Parazynski/NNP-28)
+				nn(Titov/NNP-31,Vladimir/NNP-30)
+				prep_by(spacewalk/NN-25,Titov/NNP-31)
+				conj_and(Parazynski/NNP-28,Titov/NNP-31)
+				aux(retrieve/VB-33,to/TO-32)
+				xcomp(included/VBD-2,retrieve/VB-33)
+				num(experiments/NNS-35,four/CD-34)
+				dobj(retrieve/VB-33,experiments/NNS-35)
+				amod(experiments/NNS-35,first/JJ-36)
+				partmod(experiments/NNS-35,deployed/VBN-37)
+				prep_on(deployed/VBN-37,Mir/NNS-39)
+				det(mission/NN-44,the/DT-41)
+				nn(mission/NN-44,STS-76/NN-42)
+				nn(mission/NN-44,docking/NN-43)
+				prep_during(deployed/VBN-37,mission/NN-44)
+				det(transfer/NN-47,the/DT-46)
+				dobj(retrieve/VB-33,transfer/NN-47)
+				conj_and(experiments/NNS-35,transfer/NN-47)
+				prep_to(transfer/NN-47,Mir/NNS-49)
+				num(pounds/NNS-52,10,400/CD-51)
+				prep_of(Mir/NNS-49,pounds/NNS-52)
+				prep_of(pounds/NNS-52,science/NN-54)
+				prep_of(pounds/NNS-52,logistics/NNS-56)
+				conj_and(science/NN-54,logistics/NNS-56)
+				det(return/NN-60,the/DT-59)
+				dobj(retrieve/VB-33,return/NN-60)
+				conj_and(experiments/NNS-35,return/NN-60)
+				nn(hardware/NN-63,experiment/NN-62)
+				prep_of(return/NN-60,hardware/NN-63)
+				conj_and(included/VBD-2,results/VBZ-65)
+				prep_to(results/VBZ-65,Earth/NNP-67)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Mission duration was 10 days, 19 hours, 21 minutes.	</value>
+
+		<annotated-sentence>	[[Mission duration|missionDuration]] was 10 days, 19 [[hours|Hour]], 21 [[minutes|Minute]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Mission duration was 10 days, 19 hours, 21 minutes.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(duration/NN-2,Mission/NNP-1)
+				nsubj(days/NNS-5,duration/NN-2)
+				cop(days/NNS-5,was/VBD-3)
+				num(days/NNS-5,10/CD-4)
+				num(hours/NNS-8,19/CD-7)
+				appos(days/NNS-5,hours/NNS-8)
+				num(minutes/NNS-11,21/CD-10)
+				tmod(days/NNS-5,minutes/NNS-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Mission duration</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceMission/missionDuration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>hours</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Hour</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>minutes</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Minute</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In September 2000, while visiting a Home Depot store in Webster, Texas, he was hit by a 68 pounds (31 kg) drill press that fell from a shelf more than 10 feet (3.0 m) above him.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(hit/VBN-18,September/NNP-2)
+				num(September/NNP-2,2000/CD-3)
+				mark(visiting/VBG-6,while/IN-5)
+				advcl(hit/VBN-18,visiting/VBG-6)
+				det(store/NN-10,a/DT-7)
+				nn(store/NN-10,Home/NN-8)
+				nn(store/NN-10,Depot/NNP-9)
+				dobj(visiting/VBG-6,store/NN-10)
+				nn(Texas/NNP-14,Webster/NNP-12)
+				prep_in(store/NN-10,Texas/NNP-14)
+				nsubjpass(hit/VBN-18,he/PRP-16)
+				auxpass(hit/VBN-18,was/VBD-17)
+				det(press/NN-28,a/DT-20)
+				num(pounds/NNS-22,68/CD-21)
+				nn(press/NN-28,pounds/NNS-22)
+				num(kg/NN-25,31/CD-24)
+				appos(pounds/NNS-22,kg/NN-25)
+				nn(press/NN-28,drill/NN-27)
+				agent(hit/VBN-18,press/NN-28)
+				nsubj(fell/VBD-30,that/WDT-29)
+				rcmod(press/NN-28,fell/VBD-30)
+				det(shelf/NN-33,a/DT-32)
+				prep_from(fell/VBD-30,shelf/NN-33)
+				advmod(than/IN-35,more/RBR-34)
+				quantmod(10/CD-36,than/IN-35)
+				num(feet/NNS-37,10/CD-36)
+				dobj(fell/VBD-30,feet/NNS-37)
+				num(m/NN-40,3.0/CD-39)
+				appos(feet/NNS-37,m/NN-40)
+				prep_above(fell/VBD-30,him/PRP-43)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The injuries to his neck, head and shoulders were severe enough that a NASA flight surgeon determined that Chrétien couldn't fly anymore.	</value>
+
+		<annotated-sentence>	The [[injuries|Injury]] to [[his neck|Neck]], head and [[shoulders|Shoulder]] were severe enough that a [[NASA|NASA]] [[flight surgeon|Flight_surgeon]] determined that Chrétien couldn't fly anymore.	</annotated-sentence>
+
+		<pattern_crowdsource>	The injuries to his neck, head and shoulders were severe enough that a NASA flight surgeon determined that Chrétien couldn't fly anymore.	</pattern_crowdsource>
+
+
+		<tree>
+				det(injuries/NNS-2,The/DT-1)
+				nsubj(enough/JJ-12,injuries/NNS-2)
+				poss(neck/NN-5,his/PRP$-4)
+				prep_to(injuries/NNS-2,neck/NN-5)
+				prep_to(injuries/NNS-2,head/NN-7)
+				conj_and(neck/NN-5,head/NN-7)
+				prep_to(injuries/NNS-2,shoulders/NNS-9)
+				conj_and(neck/NN-5,shoulders/NNS-9)
+				cop(enough/JJ-12,were/VBD-10)
+				amod(enough/JJ-12,severe/JJ-11)
+				mark(determined/VBD-18,that/IN-13)
+				det(surgeon/NN-17,a/DT-14)
+				nn(surgeon/NN-17,NASA/NNP-15)
+				nn(surgeon/NN-17,flight/NN-16)
+				nsubj(determined/VBD-18,surgeon/NN-17)
+				ccomp(enough/JJ-12,determined/VBD-18)
+				mark(fly/VB-23,that/IN-19)
+				nsubj(fly/VB-23,Chrétien/NNP-20)
+				aux(fly/VB-23,could/MD-21)
+				neg(fly/VB-23,n't/RB-22)
+				ccomp(determined/VBD-18,fly/VB-23)
+				advmod(fly/VB-23,anymore/RB-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>injuries</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Injury</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>his neck</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Neck</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>shoulders</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Shoulder</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight surgeon</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_surgeon</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He was forced to retire from the space program in 2001.	</value>
+
+		<annotated-sentence>	He was forced to retire from the space program in [[2001|2001]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He was forced to retire from the space program in 2001.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(forced/VBN-3,He/PRP-1)
+				auxpass(forced/VBN-3,was/VBD-2)
+				aux(retire/VB-5,to/TO-4)
+				xcomp(forced/VBN-3,retire/VB-5)
+				det(program/NN-9,the/DT-7)
+				nn(program/NN-9,space/NN-8)
+				prep_from(retire/VB-5,program/NN-9)
+				prep_in(program/NN-9,2001/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2001</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2001</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He filed a $15 million lawsuit against Home Depot several months after the accident.	</value>
+
+		<annotated-sentence>	He filed a $15 [[million|Million_(band)]] [[lawsuit|Lawsuit]] against [[Home Depot|The_Home_Depot]] several [[months|Month]] after [[the accident|Traffic_collision]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He filed a $15 million lawsuit against Home Depot several months after the accident.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(filed/VBD-2,He/PRP-1)
+				det(lawsuit/NN-7,a/DT-3)
+				amod(lawsuit/NN-7,$/$-4)
+				number(million/CD-6,15/CD-5)
+				num($/$-4,million/CD-6)
+				dobj(filed/VBD-2,lawsuit/NN-7)
+				nn(months/NNS-12,Home/NNP-9)
+				nn(months/NNS-12,Depot/NNP-10)
+				amod(months/NNS-12,several/JJ-11)
+				prep_against(lawsuit/NN-7,months/NNS-12)
+				det(accident/NN-15,the/DT-14)
+				prep_after(filed/VBD-2,accident/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>million</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Million_(band)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>lawsuit</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lawsuit</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Home Depot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Home_Depot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>months</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Month</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the accident</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Traffic_collision</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The company settled the suit in 2002.	</value>
+
+		<annotated-sentence>	The company settled the suit in [[2002|2002]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The company settled the suit in 2002.	</pattern_crowdsource>
+
+
+		<tree>
+				det(company/NN-2,The/DT-1)
+				nsubj(settled/VBD-3,company/NN-2)
+				det(suit/NN-5,the/DT-4)
+				dobj(settled/VBD-3,suit/NN-5)
+				prep_in(settled/VBD-3,2002/CD-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2002</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2002</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The terms of the settlement are protected by a confidentiality agreement.	</value>
+
+		<annotated-sentence>	The terms of the settlement are protected by [[a confidentiality agreement|Non-disclosure_agreement]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The terms of the settlement are protected by a confidentiality agreement.	</pattern_crowdsource>
+
+
+		<tree>
+				det(terms/NNS-2,The/DT-1)
+				nsubjpass(protected/VBN-7,terms/NNS-2)
+				det(settlement/NN-5,the/DT-4)
+				prep_of(terms/NNS-2,settlement/NN-5)
+				auxpass(protected/VBN-7,are/VBP-6)
+				det(agreement/NN-11,a/DT-9)
+				nn(agreement/NN-11,confidentiality/NN-10)
+				agent(protected/VBN-7,agreement/NN-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a confidentiality agreement</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Non-disclosure_agreement</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Chrétien is currently working for Tietronix Software as the vice president of Research and Development in Houston, Texas.	</value>
+
+		<annotated-sentence>	Chrétien is currently working for Tietronix [[Software|Software]] as [[the vice president|Vice_president]] of [[Research and Development|Research_and_development]] in Houston, Texas.	</annotated-sentence>
+
+		<pattern_crowdsource>	Chrétien is currently working for Tietronix Software as the vice president of Research and Development in Houston, Texas.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(working/VBG-4,Chrétien/NNP-1)
+				aux(working/VBG-4,is/VBZ-2)
+				advmod(working/VBG-4,currently/RB-3)
+				nn(Software/NNP-7,Tietronix/NNP-6)
+				prep_for(working/VBG-4,Software/NNP-7)
+				det(president/NN-11,the/DT-9)
+				nn(president/NN-11,vice/NN-10)
+				prep_as(Software/NNP-7,president/NN-11)
+				prep_of(president/NN-11,Research/NNP-13)
+				prep_of(president/NN-11,Development/NNP-15)
+				conj_and(Research/NNP-13,Development/NNP-15)
+				nn(Texas/NNP-19,Houston/NNP-17)
+				prep_in(working/VBG-4,Texas/NNP-19)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Software</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Software</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the vice president</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Vice_president</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Research and Development</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Research_and_development</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

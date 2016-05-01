@@ -1,0 +1,1836 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Nicole Marie Passonno Stott is an American engineer and a NASA astronaut.	</value>
+
+		<annotated-sentence>	[[Nicole Marie Passonno Stott|Nicole_Stott]] is an [[American|United_States]] [[engineer|Engineer]] and a [[NASA|NASA]] [[astronaut|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Nicole Marie Passonno Stott|Nicole_Stott]] is an [[American|United_States]] engineer and a NASA [[astronaut|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Stott/NNP-4,Nicole/NNP-1)
+				nn(Stott/NNP-4,Marie/NNP-2)
+				nn(Stott/NNP-4,Passonno/NNP-3)
+				nsubj(engineer/NN-8,Stott/NNP-4)
+				cop(engineer/NN-8,is/VBZ-5)
+				det(engineer/NN-8,an/DT-6)
+				amod(engineer/NN-8,American/JJ-7)
+				det(astronaut/NN-12,a/DT-10)
+				nn(astronaut/NN-12,NASA/NNP-11)
+				conj_and(engineer/NN-8,astronaut/NN-12)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicole Marie Passonno Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nicole_Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>American</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/United_States</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/United_States
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She served as a Flight Engineer on ISS Expedition 20 and Expedition 21 and was a Mission Specialist on STS-128.	</value>
+
+		<annotated-sentence>	She served as [[a Flight Engineer|Flight_engineer]] on [[ISS|STS-128]] [[Expedition 20|Expedition_20]] and [[Expedition 21|Expedition_21]] and was [[a Mission Specialist|Mission_Specialist]] on [[STS-128|STS-128]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She served as a Flight Engineer on [[ISS|STS-128]] [[Expedition 20|Expedition_20]] and [[Expedition 21|Expedition_21]] and was a Mission Specialist on [[STS-128|STS-128]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(served/VBD-2,She/PRP-1)
+				det(Engineer/NN-6,a/DT-4)
+				nn(Engineer/NN-6,Flight/NN-5)
+				prep_as(served/VBD-2,Engineer/NN-6)
+				nn(Expedition/NNP-9,ISS/NNP-8)
+				prep_on(served/VBD-2,Expedition/NNP-9)
+				num(Expedition/NNP-9,20/CD-10)
+				prep_on(served/VBD-2,Expedition/NN-12)
+				conj_and(Expedition/NNP-9,Expedition/NN-12)
+				num(Expedition/NN-12,21/CD-13)
+				cop(Specialist/NN-18,was/VBD-15)
+				det(Specialist/NN-18,a/DT-16)
+				nn(Specialist/NN-18,Mission/NNP-17)
+				conj_and(served/VBD-2,Specialist/NN-18)
+				prep_on(Specialist/NN-18,STS-128/NN-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a Flight Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight_engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_20</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 21</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_21</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-128</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-128</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/expedition7Up http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_20 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_20 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Expedition_21
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_21 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/expedition7Down http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-128 http://dbpedia.org/property/expedition7Up http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_21
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-128
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 2011, She flew a second time as a Mission Specialist on STS-133.	</value>
+
+		<annotated-sentence>	In [[2011|2011_(album)]], She flew a second time as [[a Mission Specialist|Mission_Specialist]] on [[STS-133|STS-133]].	</annotated-sentence>
+
+		<pattern_crowdsource>	In 2011, She flew a second time as a Mission Specialist on [[STS-133|STS-133]].	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(flew/VBD-5,2011/CD-2)
+				nsubj(flew/VBD-5,She/PRP-4)
+				det(time/NN-8,a/DT-6)
+				amod(time/NN-8,second/JJ-7)
+				dobj(flew/VBD-5,time/NN-8)
+				det(Specialist/NN-12,a/DT-10)
+				nn(Specialist/NN-12,Mission/NNP-11)
+				prep_as(flew/VBD-5,Specialist/NN-12)
+				prep_on(flew/VBD-5,STS-133/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>2011</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2011_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a Mission Specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-133</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-133</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-133
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-133 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-133 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stott was born in Albany, New York and resides in Clearwater, Florida.	</value>
+
+		<annotated-sentence>	[[Stott|Stott]] was born in Albany, [[New York|New_York]] and resides in [[Clearwater , Florida|Clearwater,_Florida]]	</annotated-sentence>
+
+		<pattern_crowdsource>	Stott was born in Albany, New York and resides in Clearwater, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(born/VBN-3,Stott/NNP-1)
+				nsubj(resides/VBZ-10,Stott/NNP-1)
+				auxpass(born/VBN-3,was/VBD-2)
+				prep_in(born/VBN-3,Albany/NNP-5)
+				nn(York/NNP-8,New/NNP-7)
+				appos(Albany/NNP-5,York/NNP-8)
+				conj_and(born/VBN-3,resides/VBZ-10)
+				nn(Florida/NNP-14,Clearwater/NNP-12)
+				prep_in(resides/VBZ-10,Florida/NNP-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>New York</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/New_York</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Clearwater , Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Clearwater,_Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She attended St. Petersburg College studying aviation administration, graduated with a B.S. degree from Embry-Riddle Aeronautical University in 1987, and received her M.S. degree in Engineering Management from the University of Central Florida in 1992.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(attended/VBD-2,She/PRP-1)
+				nsubj(received/VBD-23,She/PRP-1)
+				nn(College/NNP-5,St./NNP-3)
+				nn(College/NNP-5,Petersburg/NNP-4)
+				dobj(attended/VBD-2,College/NNP-5)
+				partmod(College/NNP-5,studying/VBG-6)
+				nn(administration/NN-8,aviation/NN-7)
+				dobj(studying/VBG-6,administration/NN-8)
+				partmod(administration/NN-8,graduated/VBN-10)
+				det(degree/NN-14,a/DT-12)
+				nn(degree/NN-14,B.S./NNP-13)
+				prep_with(graduated/VBN-10,degree/NN-14)
+				nn(University/NNP-18,Embry-Riddle/NNP-16)
+				nn(University/NNP-18,Aeronautical/NNP-17)
+				prep_from(graduated/VBN-10,University/NNP-18)
+				prep_in(University/NNP-18,1987/CD-20)
+				conj_and(attended/VBD-2,received/VBD-23)
+				poss(degree/NN-26,her/PRP$-24)
+				nn(degree/NN-26,M.S./NNP-25)
+				dobj(received/VBD-23,degree/NN-26)
+				nn(Management/NNP-29,Engineering/NNP-28)
+				prep_in(received/VBD-23,Management/NNP-29)
+				det(University/NNP-32,the/DT-31)
+				prep_from(received/VBD-23,University/NNP-32)
+				nn(Florida/NNP-35,Central/NNP-34)
+				prep_of(University/NNP-32,Florida/NNP-35)
+				prep_in(Florida/NNP-35,1992/CD-37)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Nicole Stott began her career in 1987 as a structural design engineer with Pratt & Whitney Government Engines in West Palm Beach, Florida.	</value>
+
+		<annotated-sentence>	[[Nicole Stott|Nicole_Stott]] began [[her career|Career]] in [[1987|1987]] as a [[structural design|Structural_engineering]] engineer with [[Pratt & Whitney|Pratt_&_Whitney]] [[Government|Government]] [[Engines|Jet_engine]] in West Palm Beach, [[Florida|Florida]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Nicole Stott began her career in 1987 as a structural design engineer with [[Pratt & Whitney|Pratt_&_Whitney]] Government [[Engines|Jet_engine]] in West Palm Beach, Florida.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Stott/NNP-2,Nicole/NNP-1)
+				nsubj(began/VBD-3,Stott/NNP-2)
+				poss(career/NN-5,her/PRP$-4)
+				dobj(began/VBD-3,career/NN-5)
+				prep_in(began/VBD-3,1987/CD-7)
+				det(engineer/NN-12,a/DT-9)
+				amod(engineer/NN-12,structural/JJ-10)
+				nn(engineer/NN-12,design/NN-11)
+				prep_as(began/VBD-3,engineer/NN-12)
+				nn(Engines/NNP-18,Pratt/NNP-14)
+				conj_and(Pratt/NNP-14,Whitney/NNP-16)
+				nn(Engines/NNP-18,Whitney/NNP-16)
+				nn(Engines/NNP-18,Government/NNP-17)
+				prep_with(engineer/NN-12,Engines/NNP-18)
+				nn(Beach/NNP-22,West/NNP-20)
+				nn(Beach/NNP-22,Palm/NNP-21)
+				prep_in(Engines/NNP-18,Beach/NNP-22)
+				appos(Beach/NNP-22,Florida/NNP-24)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Nicole Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nicole_Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her career</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Career</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1987</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1987</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>structural design</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Structural_engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Pratt & Whitney</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Pratt_&_Whitney</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Government</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Government</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_engine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Pratt_&_Whitney http://dbpedia.org/ontology/product http://dbpedia.org/resource/Jet_engine
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She spent a year with the Advanced Engines Group performing structural analyses of advanced jet engine component designs.	</value>
+
+		<annotated-sentence>	She spent [[a year|Year]] with the [[Advanced|Relative_articulation]] [[Engines|Jet_engine]] Group performing structural [[analyses|Analysis]] of advanced [[jet engine|Jet_engine]] component [[designs|Design]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She spent a year with the Advanced Engines Group performing structural analyses of advanced jet engine component designs.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(spent/VBD-2,She/PRP-1)
+				det(year/NN-4,a/DT-3)
+				tmod(spent/VBD-2,year/NN-4)
+				det(Group/NNP-9,the/DT-6)
+				nn(Group/NNP-9,Advanced/NNP-7)
+				nn(Group/NNP-9,Engines/NNP-8)
+				prep_with(spent/VBD-2,Group/NNP-9)
+				xcomp(spent/VBD-2,performing/VBG-10)
+				amod(analyses/NNS-12,structural/JJ-11)
+				dobj(performing/VBG-10,analyses/NNS-12)
+				amod(designs/NNS-18,advanced/JJ-14)
+				nn(designs/NNS-18,jet/NN-15)
+				nn(designs/NNS-18,engine/NN-16)
+				nn(designs/NNS-18,component/NN-17)
+				prep_of(analyses/NNS-12,designs/NNS-18)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a year</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Year</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Advanced</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Relative_articulation</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engines</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_engine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>analyses</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Analysis</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>jet engine</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Jet_engine</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>designs</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Design</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stott is an instrument rated private pilot.	</value>
+
+		<annotated-sentence>	[[Stott|Stott]] is an instrument rated private pilot.	</annotated-sentence>
+
+		<pattern_crowdsource>	Stott is an instrument rated private pilot.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(instrument/NN-4,Stott/NNP-1)
+				cop(instrument/NN-4,is/VBZ-2)
+				det(instrument/NN-4,an/DT-3)
+				partmod(instrument/NN-4,rated/VBN-5)
+				amod(pilot/NN-7,private/JJ-6)
+				dobj(rated/VBN-5,pilot/NN-7)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stott</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1988, Stott joined NASA at the Kennedy Space Center (KSC), Florida as an Operations Engineer in the Orbiter Processing Facility (OPF).	</value>
+
+		<annotated-sentence>	In [[1988|1988]], [[Stott|Stott]] joined [[NASA|NASA]] at [[the Kennedy Space Center|Kennedy_Space_Center]] ([[KSC|Kennedy_Space_Center]]), [[Florida|Florida]] as an Operations [[Engineer|Engineer]] in [[the Orbiter Processing Facility|Orbiter_Processing_Facility]] ([[OPF|Orbiter_Processing_Facility]]).	</annotated-sentence>
+
+		<pattern_crowdsource>	In 1988, Stott joined [[NASA|NASA]] at [[the Kennedy Space Center|Kennedy_Space_Center]] ([[KSC|Kennedy_Space_Center]]), Florida as an Operations Engineer in the Orbiter Processing Facility (OPF).	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,1988/CD-2)
+				nsubj(joined/VBD-5,Stott/NNP-4)
+				dobj(joined/VBD-5,NASA/NNP-6)
+				det(Center/NNP-11,the/DT-8)
+				nn(Center/NNP-11,Kennedy/NNP-9)
+				nn(Center/NNP-11,Space/NNP-10)
+				prep_at(joined/VBD-5,Center/NNP-11)
+				appos(Center/NNP-11,KSC/NNP-13)
+				appos(Center/NNP-11,Florida/NNP-16)
+				det(Engineer/NNP-20,an/DT-18)
+				nn(Engineer/NNP-20,Operations/NNP-19)
+				prep_as(Florida/NNP-16,Engineer/NNP-20)
+				det(Facility/NNP-25,the/DT-22)
+				nn(Facility/NNP-25,Orbiter/NNP-23)
+				nn(Facility/NNP-25,Processing/NNP-24)
+				prep_in(joined/VBD-5,Facility/NNP-25)
+				appos(Facility/NNP-25,OPF/NNP-27)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1988</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1988</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Kennedy Space Center</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Florida</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Florida</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineer</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Engineer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the Orbiter Processing Facility</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter_Processing_Facility</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>OPF</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Orbiter_Processing_Facility</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kennedy_Space_Center http://dbpedia.org/ontology/parentOrganisation http://dbpedia.org/resource/NASA
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Kennedy_Space_Center http://dbpedia.org/ontology/parentOrganisation http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After six months, she was detailed to the Director of Shuttle Processing as part of a two-person team tasked with assessing the overall efficiency of Shuttle processing flows, and implementing tools for measuring the effectiveness of improvements.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				num(months/NNS-3,six/CD-2)
+				prep_after(detailed/VBN-7,months/NNS-3)
+				nsubjpass(detailed/VBN-7,she/PRP-5)
+				auxpass(detailed/VBN-7,was/VBD-6)
+				det(Director/NN-10,the/DT-9)
+				prep_to(detailed/VBN-7,Director/NN-10)
+				nn(Processing/NNP-13,Shuttle/NNP-12)
+				prep_of(Director/NN-10,Processing/NNP-13)
+				prep_as(detailed/VBN-7,part/NN-15)
+				det(team/NN-19,a/DT-17)
+				amod(team/NN-19,two-person/JJ-18)
+				prep_of(part/NN-15,team/NN-19)
+				partmod(team/NN-19,tasked/VBN-20)
+				prepc_with(tasked/VBN-20,assessing/VBG-22)
+				det(efficiency/NN-25,the/DT-23)
+				amod(efficiency/NN-25,overall/JJ-24)
+				dobj(assessing/VBG-22,efficiency/NN-25)
+				nn(processing/NN-28,Shuttle/NNP-27)
+				prep_of(efficiency/NN-25,processing/NN-28)
+				dep(processing/NN-28,flows/VBZ-29)
+				prepc_with(tasked/VBN-20,implementing/VBG-32)
+				conj_and(assessing/VBG-22,implementing/VBG-32)
+				dobj(implementing/VBG-32,tools/NNS-33)
+				prepc_for(implementing/VBG-32,measuring/VBG-35)
+				det(effectiveness/NN-37,the/DT-36)
+				dobj(measuring/VBG-35,effectiveness/NN-37)
+				prep_of(effectiveness/NN-37,improvements/NNS-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was the NASA KSC Lead for a joint Ames/KSC software project to develop intelligent scheduling tools.	</value>
+
+		<annotated-sentence>	She was the [[NASA|NASA]] [[KSC|Kennedy_Space_Center]] [[Lead|Lead]] for a joint Ames/KSC [[software project|Software_project_management]] to develop intelligent [[scheduling|Broadcast_programming]] [[tools|Tool]].	</annotated-sentence>
+
+		<pattern_crowdsource>	She was the [[NASA|NASA]] [[KSC|Kennedy_Space_Center]] Lead for a joint Ames/[[KSC|Kennedy_Space_Center]] software project to develop intelligent scheduling tools.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(KSC/NNP-5,She/PRP-1)
+				cop(KSC/NNP-5,was/VBD-2)
+				det(KSC/NNP-5,the/DT-3)
+				nn(KSC/NNP-5,NASA/NNP-4)
+				amod(KSC/NNP-5,Lead/JJ-6)
+				det(project/NN-12,a/DT-8)
+				amod(project/NN-12,joint/JJ-9)
+				nn(project/NN-12,Ames/KSC/NN-10)
+				nn(project/NN-12,software/NN-11)
+				prep_for(KSC/NNP-5,project/NN-12)
+				aux(develop/VB-14,to/TO-13)
+				infmod(KSC/NNP-5,develop/VB-14)
+				amod(tools/NNS-17,intelligent/JJ-15)
+				nn(tools/NNS-17,scheduling/NN-16)
+				dobj(develop/VB-14,tools/NNS-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>KSC</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Kennedy_Space_Center</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Lead</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Lead</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>software project</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Software_project_management</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>scheduling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadcast_programming</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>tools</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Tool</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Kennedy_Space_Center http://dbpedia.org/ontology/parentOrganisation http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	The Ground Processing Scheduling System (GPSS) was developed as the technology demonstrator for this project.	</value>
+
+		<annotated-sentence>	[[The Ground|The_Ground]] Processing [[Scheduling|Broadcast_programming]] [[System|System]] ([[GPSS|GPSS]]) was developed as [[the technology demonstrator|Technology_demonstration]] for [[this project|Project]].	</annotated-sentence>
+
+		<pattern_crowdsource>	The Ground Processing Scheduling System (GPSS) was developed as the technology demonstrator for this project.	</pattern_crowdsource>
+
+
+		<tree>
+				det(System/NN-5,The/DT-1)
+				nn(System/NN-5,Ground/NN-2)
+				nn(System/NN-5,Processing/NN-3)
+				nn(System/NN-5,Scheduling/NN-4)
+				nsubjpass(developed/VBN-10,System/NN-5)
+				appos(System/NN-5,GPSS/NN-7)
+				auxpass(developed/VBN-10,was/VBD-9)
+				det(demonstrator/NN-14,the/DT-12)
+				nn(demonstrator/NN-14,technology/NN-13)
+				prep_as(developed/VBN-10,demonstrator/NN-14)
+				det(project/NN-17,this/DT-16)
+				prep_for(demonstrator/NN-14,project/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>The Ground</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Ground</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Scheduling</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Broadcast_programming</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>System</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/System</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>GPSS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/GPSS</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the technology demonstrator</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Technology_demonstration</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>this project</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Project</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	GPSS was a success at KSC, and also a commercial success that is part of the PeopleSoft suite of software products.	</value>
+
+		<annotated-sentence>	[[GPSS|GPSS]] was a success at KSC, and also a commercial success that is part of the [[PeopleSoft|PeopleSoft]] suite of [[software products|Software_Products]].	</annotated-sentence>
+
+		<pattern_crowdsource>	GPSS was a success at KSC, and also a commercial success that is part of the PeopleSoft suite of software products.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(success/NN-4,GPSS/NN-1)
+				cop(success/NN-4,was/VBD-2)
+				det(success/NN-4,a/DT-3)
+				prep_at(success/NN-4,KSC/NNP-6)
+				det(success/NN-12,a/DT-10)
+				amod(success/NN-12,commercial/JJ-11)
+				conj_and(success/NN-4,success/NN-12)
+				nsubj(part/NN-15,that/WDT-13)
+				cop(part/NN-15,is/VBZ-14)
+				rcmod(success/NN-12,part/NN-15)
+				det(suite/NN-19,the/DT-17)
+				nn(suite/NN-19,PeopleSoft/NNP-18)
+				prep_of(part/NN-15,suite/NN-19)
+				nn(products/NNS-22,software/NN-21)
+				prep_of(suite/NN-19,products/NNS-22)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>GPSS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/GPSS</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>PeopleSoft</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/PeopleSoft</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>software products</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Software_Products</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During her time at KSC, Stott also held a variety of positions within NASA Shuttle Processing, including Vehicle Operations Engineer; NASA Convoy Commander; Shuttle Flow Director for Endeavour; and Orbiter Project Engineer for Columbia.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(time/NN-3,her/PRP$-2)
+				prep_during(held/VBD-9,time/NN-3)
+				prep_at(time/NN-3,KSC/NNP-5)
+				nsubj(held/VBD-9,Stott/NNP-7)
+				advmod(held/VBD-9,also/RB-8)
+				det(variety/NN-11,a/DT-10)
+				dobj(held/VBD-9,variety/NN-11)
+				prep_of(variety/NN-11,positions/NNS-13)
+				nn(Processing/NNP-17,NASA/NNP-15)
+				nn(Processing/NNP-17,Shuttle/NNP-16)
+				prep_within(held/VBD-9,Processing/NNP-17)
+				nn(Engineer/NNP-22,Vehicle/NNP-20)
+				nn(Engineer/NNP-22,Operations/NNP-21)
+				prep_including(held/VBD-9,Engineer/NNP-22)
+				nn(Commander/NNP-26,NASA/NNP-24)
+				nn(Commander/NNP-26,Convoy/NNP-25)
+				prep_including(held/VBD-9,Commander/NNP-26)
+				conj_and(Engineer/NNP-22,Commander/NNP-26)
+				nn(Director/NN-30,Shuttle/NNP-28)
+				nn(Director/NN-30,Flow/NN-29)
+				prep_including(held/VBD-9,Director/NN-30)
+				conj_and(Engineer/NNP-22,Director/NN-30)
+				prep_for(Director/NN-30,Endeavour/NNP-32)
+				nn(Engineer/NNP-37,Orbiter/NNP-35)
+				nn(Engineer/NNP-37,Project/NNP-36)
+				prep_including(held/VBD-9,Engineer/NNP-37)
+				conj_and(Engineer/NNP-22,Engineer/NNP-37)
+				prep_for(Engineer/NNP-37,Columbia/NNP-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During her last two years at KSC, she was a member of the Space Station Hardware Integration Office and relocated to Huntington Beach, California where she served as the NASA Project Lead for the ISS truss elements under construction at the Boeing Space Station facility.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				poss(years/NNS-5,her/PRP$-2)
+				amod(years/NNS-5,last/JJ-3)
+				num(years/NNS-5,two/CD-4)
+				prep_during(member/NN-12,years/NNS-5)
+				prep_at(years/NNS-5,KSC/NNP-7)
+				nsubj(member/NN-12,she/PRP-9)
+				cop(member/NN-12,was/VBD-10)
+				det(member/NN-12,a/DT-11)
+				det(Integration/NN-18,the/DT-14)
+				nn(Integration/NN-18,Space/NN-15)
+				nn(Integration/NN-18,Station/NNP-16)
+				nn(Integration/NN-18,Hardware/NNP-17)
+				prep_of(member/NN-12,Integration/NN-18)
+				dep(member/NN-12,Office/NNP-19)
+				dep(member/NN-12,relocated/VBN-21)
+				conj_and(Office/NNP-19,relocated/VBN-21)
+				nn(Beach/NNP-24,Huntington/NNP-23)
+				prep_to(relocated/VBN-21,Beach/NNP-24)
+				appos(Beach/NNP-24,California/NNP-26)
+				advmod(served/VBD-29,where/WRB-27)
+				nsubj(served/VBD-29,she/PRP-28)
+				rcmod(California/NNP-26,served/VBD-29)
+				det(Project/NNP-33,the/DT-31)
+				nn(Project/NNP-33,NASA/NNP-32)
+				prep_as(served/VBD-29,Project/NNP-33)
+				amod(Project/NNP-33,Lead/JJ-34)
+				det(elements/NNS-39,the/DT-36)
+				nn(elements/NNS-39,ISS/NNP-37)
+				nn(elements/NNS-39,truss/NN-38)
+				prep_for(Project/NNP-33,elements/NNS-39)
+				prep_under(served/VBD-29,construction/NN-41)
+				det(facility/NN-47,the/DT-43)
+				nn(facility/NN-47,Boeing/NNP-44)
+				nn(facility/NN-47,Space/NNP-45)
+				nn(facility/NN-47,Station/NNP-46)
+				prep_at(served/VBD-29,facility/NN-47)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In 1998, she joined the Johnson Space Center (JSC) team in Houston, Texas as a member of the NASA Aircraft Operations Division, where she served as a Flight Simulation Engineer (FSE) on the Shuttle Training Aircraft (STA).	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(joined/VBD-5,1998/CD-2)
+				nsubj(joined/VBD-5,she/PRP-4)
+				det(team/NN-13,the/DT-6)
+				nn(Center/NNP-9,Johnson/NNP-7)
+				nn(Center/NNP-9,Space/NNP-8)
+				nn(team/NN-13,Center/NNP-9)
+				appos(Center/NNP-9,JSC/NNP-11)
+				dobj(joined/VBD-5,team/NN-13)
+				nn(Texas/NNP-17,Houston/NNP-15)
+				prep_in(team/NN-13,Texas/NNP-17)
+				det(member/NN-20,a/DT-19)
+				prep_as(joined/VBD-5,member/NN-20)
+				det(Division/NNP-26,the/DT-22)
+				nn(Division/NNP-26,NASA/NNP-23)
+				nn(Division/NNP-26,Aircraft/NNP-24)
+				nn(Division/NNP-26,Operations/NNP-25)
+				prep_of(member/NN-20,Division/NNP-26)
+				advmod(served/VBD-30,where/WRB-28)
+				nsubj(served/VBD-30,she/PRP-29)
+				advcl(joined/VBD-5,served/VBD-30)
+				det(Engineer/NN-35,a/DT-32)
+				nn(Engineer/NN-35,Flight/NN-33)
+				nn(Engineer/NN-35,Simulation/NN-34)
+				prep_as(served/VBD-30,Engineer/NN-35)
+				appos(Engineer/NN-35,FSE/NN-37)
+				det(Aircraft/NNP-43,the/DT-40)
+				nn(Aircraft/NNP-43,Shuttle/NNP-41)
+				nn(Aircraft/NNP-43,Training/NNP-42)
+				prep_on(served/VBD-30,Aircraft/NNP-43)
+				appos(Aircraft/NNP-43,STA/NNP-45)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Selected as a mission specialist by NASA in July 2000, Stott reported for astronaut candidate training in August 2000.	</value>
+
+		<annotated-sentence>	Selected as [[a mission specialist|Mission_Specialist]] by [[NASA|NASA]] in [[July 2000|July_2000]], [[Stott|Nicole_Stott]] reported for [[astronaut|Astronaut]] [[candidate|Candidate]] [[training|Training]] in [[August 2000|August_2000]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Selected as a mission specialist by NASA in July 2000, [[Stott|Nicole_Stott]] reported for [[astronaut|Astronaut]] candidate training in August 2000.	</pattern_crowdsource>
+
+
+		<tree>
+				partmod(reported/VBD-13,Selected/VBN-1)
+				det(specialist/NN-5,a/DT-3)
+				nn(specialist/NN-5,mission/NN-4)
+				prep_as(Selected/VBN-1,specialist/NN-5)
+				agent(Selected/VBN-1,NASA/NNP-7)
+				prep_in(Selected/VBN-1,July/NNP-9)
+				num(July/NNP-9,2000/CD-10)
+				nsubj(reported/VBD-13,Stott/NNP-12)
+				nn(training/NN-17,astronaut/NN-15)
+				nn(training/NN-17,candidate/NN-16)
+				prep_for(reported/VBD-13,training/NN-17)
+				prep_in(reported/VBD-13,August/NNP-19)
+				num(August/NNP-19,2000/CD-20)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>July 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/July_2000</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nicole_Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>candidate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Candidate</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>training</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Training</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>August 2000</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/August_2000</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Following the completion of two years of training and evaluation, she was assigned technical duties in the Astronaut Office Station Operations Branch, where she performed crew evaluations of station payloads.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				det(completion/NN-3,the/DT-2)
+				prep_following(assigned/VBN-14,completion/NN-3)
+				num(years/NNS-6,two/CD-5)
+				prep_of(completion/NN-3,years/NNS-6)
+				prep_of(years/NNS-6,training/NN-8)
+				prep_of(years/NNS-6,evaluation/NN-10)
+				conj_and(training/NN-8,evaluation/NN-10)
+				nsubjpass(assigned/VBN-14,she/PRP-12)
+				auxpass(assigned/VBN-14,was/VBD-13)
+				amod(duties/NNS-16,technical/JJ-15)
+				dobj(assigned/VBN-14,duties/NNS-16)
+				det(Branch/NNP-23,the/DT-18)
+				nn(Branch/NNP-23,Astronaut/NNP-19)
+				nn(Branch/NNP-23,Office/NNP-20)
+				nn(Branch/NNP-23,Station/NNP-21)
+				nn(Branch/NNP-23,Operations/NNP-22)
+				prep_in(duties/NNS-16,Branch/NNP-23)
+				advmod(performed/VBD-27,where/WRB-25)
+				nsubj(performed/VBD-27,she/PRP-26)
+				advcl(assigned/VBN-14,performed/VBD-27)
+				nn(evaluations/NNS-29,crew/NN-28)
+				dobj(performed/VBD-27,evaluations/NNS-29)
+				nn(payloads/NNS-32,station/NN-31)
+				prep_of(evaluations/NNS-29,payloads/NNS-32)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She also worked as a support astronaut and CAPCOM for the ISS Expedition 10 crew.	</value>
+
+		<annotated-sentence>	She also worked as a support [[astronaut|Astronaut]] and [[CAPCOM|Capcom]] for the [[ISS|S]] [[Expedition 10|Expedition_10]] crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	She also worked as a support [[astronaut|Astronaut]] and CAPCOM for the ISS Expedition 10 crew.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(worked/VBD-3,She/PRP-1)
+				advmod(worked/VBD-3,also/RB-2)
+				det(astronaut/NN-7,a/DT-5)
+				nn(astronaut/NN-7,support/NN-6)
+				prep_as(worked/VBD-3,astronaut/NN-7)
+				prep_as(worked/VBD-3,CAPCOM/NNP-9)
+				conj_and(astronaut/NN-7,CAPCOM/NNP-9)
+				det(crew/NN-15,the/DT-11)
+				nn(crew/NN-15,ISS/NNP-12)
+				nn(crew/NN-15,Expedition/NN-13)
+				num(crew/NN-15,10/CD-14)
+				prep_for(worked/VBD-3,crew/NN-15)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>CAPCOM</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Capcom</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>ISS</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/ISS_A/S</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 10</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_10</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	In April 2006, she was a crew member on the NEEMO 9 mission (NASA Extreme Environment Mission Operations) where she lived and worked with a six-person crew for 18 days on the Aquarius undersea research habitat.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_in(member/NN-9,April/NNP-2)
+				num(April/NNP-2,2006/CD-3)
+				nsubj(member/NN-9,she/PRP-5)
+				cop(member/NN-9,was/VBD-6)
+				det(member/NN-9,a/DT-7)
+				nn(member/NN-9,crew/NN-8)
+				det(mission/NN-14,the/DT-11)
+				nn(mission/NN-14,NEEMO/NNP-12)
+				num(mission/NN-14,9/CD-13)
+				prep_on(member/NN-9,mission/NN-14)
+				nn(Operations/NNP-20,NASA/NNP-16)
+				nn(Operations/NNP-20,Extreme/NNP-17)
+				nn(Operations/NNP-20,Environment/NNP-18)
+				nn(Operations/NNP-20,Mission/NNP-19)
+				appos(member/NN-9,Operations/NNP-20)
+				advmod(lived/VBD-24,where/WRB-22)
+				nsubj(lived/VBD-24,she/PRP-23)
+				nsubj(worked/VBD-26,she/PRP-23)
+				rcmod(member/NN-9,lived/VBD-24)
+				rcmod(member/NN-9,worked/VBD-26)
+				conj_and(lived/VBD-24,worked/VBD-26)
+				det(crew/NN-30,a/DT-28)
+				amod(crew/NN-30,six-person/JJ-29)
+				prep_with(worked/VBD-26,crew/NN-30)
+				num(days/NNS-33,18/CD-32)
+				prep_for(crew/NN-30,days/NNS-33)
+				det(habitat/NN-39,the/DT-35)
+				nn(habitat/NN-39,Aquarius/NNP-36)
+				nn(habitat/NN-39,undersea/NN-37)
+				nn(habitat/NN-39,research/NN-38)
+				prep_on(worked/VBD-26,habitat/NN-39)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stott was previously assigned to Expedition 20 and Expedition 21.	</value>
+
+		<annotated-sentence>	[[Stott|Nicole_Stott]] was previously assigned to [[Expedition 20|Expedition_20]] and [[Expedition 21|Expedition_21]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Stott|Nicole_Stott]] was previously assigned to [[Expedition 20|Expedition_20]] and [[Expedition 21|Expedition_21]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(assigned/VBN-4,Stott/NNP-1)
+				auxpass(assigned/VBN-4,was/VBD-2)
+				advmod(assigned/VBN-4,previously/RB-3)
+				prep_to(assigned/VBN-4,Expedition/NNP-6)
+				num(Expedition/NNP-6,20/CD-7)
+				prep_to(assigned/VBN-4,Expedition/NN-9)
+				conj_and(Expedition/NNP-6,Expedition/NN-9)
+				num(Expedition/NN-9,21/CD-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Nicole_Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 20</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_20</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Expedition 21</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Expedition_21</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_20 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_20 http://dbpedia.org/property/nextMission http://dbpedia.org/resource/Expedition_21
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Expedition_21 http://dbpedia.org/property/previousMission http://dbpedia.org/resource/Expedition_20
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/Expedition_21
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	She was launched to the International Space Station with the crew of STS-128, participating in the first spacewalk of that mission, and returned on STS-129, thus becoming the last Expedition crew-member to return to Earth via the space shuttle.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubjpass(launched/VBN-3,She/PRP-1)
+				nsubjpass(returned/VBD-25,She/PRP-1)
+				auxpass(launched/VBN-3,was/VBD-2)
+				det(Station/NNP-8,the/DT-5)
+				nn(Station/NNP-8,International/NNP-6)
+				nn(Station/NNP-8,Space/NNP-7)
+				prep_to(launched/VBN-3,Station/NNP-8)
+				det(crew/NN-11,the/DT-10)
+				prep_with(launched/VBN-3,crew/NN-11)
+				prep_of(crew/NN-11,STS-128/NN-13)
+				xcomp(launched/VBN-3,participating/VBG-15)
+				det(spacewalk/NN-19,the/DT-17)
+				amod(spacewalk/NN-19,first/JJ-18)
+				prep_in(participating/VBG-15,spacewalk/NN-19)
+				det(mission/NN-22,that/DT-21)
+				prep_of(spacewalk/NN-19,mission/NN-22)
+				conj_and(launched/VBN-3,returned/VBD-25)
+				prep_on(returned/VBD-25,STS-129/NN-27)
+				advmod(returned/VBD-25,thus/RB-29)
+				xcomp(returned/VBD-25,becoming/VBG-30)
+				det(crew-member/NN-34,the/DT-31)
+				amod(crew-member/NN-34,last/JJ-32)
+				nn(crew-member/NN-34,Expedition/NN-33)
+				xcomp(becoming/VBG-30,crew-member/NN-34)
+				aux(return/VB-36,to/TO-35)
+				xcomp(becoming/VBG-30,return/VB-36)
+				prep_to(return/VB-36,Earth/NNP-38)
+				det(shuttle/NN-42,the/DT-40)
+				nn(shuttle/NN-42,space/NN-41)
+				prep_via(Earth/NNP-38,shuttle/NN-42)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Stott completed her second spaceflight on STS-133, the penultimate scheduled flight of the space shuttle.	</value>
+
+		<annotated-sentence>	[[Stott|Stott]] completed [[her second spaceflight|Spaceflight]] on [[STS-133|STS-133]], [[the penultimate|Penultimate_Hop_Popping]] scheduled [[flight|Flight]] of [[the space shuttle|SpaceShuttle]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Stott completed her second spaceflight on [[STS-133|STS-133]], the penultimate scheduled flight of the space shuttle.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(completed/VBD-2,Stott/NNP-1)
+				poss(spaceflight/NN-5,her/PRP$-3)
+				amod(spaceflight/NN-5,second/JJ-4)
+				dobj(completed/VBD-2,spaceflight/NN-5)
+				prep_on(completed/VBD-2,STS-133/NN-7)
+				det(penultimate/NN-10,the/DT-9)
+				appos(STS-133/NN-7,penultimate/NN-10)
+				partmod(penultimate/NN-10,scheduled/VBN-11)
+				dobj(scheduled/VBN-11,flight/NN-12)
+				det(shuttle/NN-16,the/DT-14)
+				nn(shuttle/NN-16,space/NN-15)
+				prep_of(flight/NN-12,shuttle/NN-16)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Stott</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Stott</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>her second spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-133</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-133</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the penultimate</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Penultimate_Hop_Popping</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>flight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Flight</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space shuttle</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceShuttle</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-133
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-133 http://dbpedia.org/property/crew3Up http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-133 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Nicole_Stott
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	On October 21, 2009, Stott and her Expedition 21 crewmate, Jeff Williams, participated in the first NASA Tweetup from the station with members of the public gathered at NASA Headquarters in Washington, D.C.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				prep_on(participated/VBD-17,October/NNP-2)
+				num(October/NNP-2,21/CD-3)
+				num(October/NNP-2,2009/CD-5)
+				nsubj(participated/VBD-17,Stott/NNP-7)
+				poss(crewmate/NN-12,her/PRP$-9)
+				nn(crewmate/NN-12,Expedition/NN-10)
+				num(crewmate/NN-12,21/CD-11)
+				conj_and(Stott/NNP-7,crewmate/NN-12)
+				nsubj(participated/VBD-17,crewmate/NN-12)
+				nn(Williams/NNP-15,Jeff/NNP-14)
+				appos(Stott/NNP-7,Williams/NNP-15)
+				det(Tweetup/NNP-22,the/DT-19)
+				amod(Tweetup/NNP-22,first/JJ-20)
+				nn(Tweetup/NNP-22,NASA/NNP-21)
+				prep_in(participated/VBD-17,Tweetup/NNP-22)
+				det(station/NN-25,the/DT-24)
+				prep_from(participated/VBD-17,station/NN-25)
+				prep_with(participated/VBD-17,members/NNS-27)
+				det(public/JJ-30,the/DT-29)
+				prep_of(members/NNS-27,public/JJ-30)
+				partmod(public/JJ-30,gathered/VBN-31)
+				nn(Headquarters/NN-34,NASA/NNP-33)
+				prep_at(gathered/VBN-31,Headquarters/NN-34)
+				nn(D.C./NNP-38,Washington/NNP-36)
+				prep_in(gathered/VBN-31,D.C./NNP-38)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This involved the first live Twitter connection for the astronauts.	</value>
+
+		<annotated-sentence>	This involved the first live [[Twitter|Twitter]] connection for [[the astronauts|Astronaut]].	</annotated-sentence>
+
+		<pattern_crowdsource>	This involved the first live Twitter connection for [[the astronauts|Astronaut]].	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(involved/VBD-2,This/DT-1)
+				det(connection/NN-7,the/DT-3)
+				amod(connection/NN-7,first/JJ-4)
+				amod(connection/NN-7,live/JJ-5)
+				nn(connection/NN-7,Twitter/NN-6)
+				dobj(involved/VBD-2,connection/NN-7)
+				det(astronauts/NNS-10,the/DT-9)
+				prep_for(connection/NN-7,astronauts/NNS-10)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Twitter</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Twitter</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the astronauts</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Nicole_Stott http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Previously, astronauts on board the Space Shuttle or ISS had sent the messages they desired to send as tweets down to Mission Control which then posted them via the Internet to Twitter.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				advmod(sent/VBN-12,Previously/RB-1)
+				nsubj(sent/VBN-12,astronauts/NNS-3)
+				prep_on(astronauts/NNS-3,board/NN-5)
+				det(Space/NN-7,the/DT-6)
+				dep(board/NN-5,Space/NN-7)
+				dep(Space/NN-7,Shuttle/NNP-8)
+				dep(Space/NN-7,ISS/NNP-10)
+				conj_or(Shuttle/NNP-8,ISS/NNP-10)
+				aux(sent/VBN-12,had/VBD-11)
+				det(messages/NNS-14,the/DT-13)
+				dobj(sent/VBN-12,messages/NNS-14)
+				nsubj(desired/VBD-16,they/PRP-15)
+				rcmod(messages/NNS-14,desired/VBD-16)
+				aux(send/VB-18,to/TO-17)
+				xcomp(desired/VBD-16,send/VB-18)
+				advmod(tweets/NNS-20,as/RB-19)
+				npadvmod(down/IN-21,tweets/NNS-20)
+				advmod(send/VB-18,down/IN-21)
+				nn(Control/NNP-24,Mission/NNP-23)
+				prep_to(send/VB-18,Control/NNP-24)
+				nsubj(posted/VBD-27,which/WDT-25)
+				advmod(posted/VBD-27,then/RB-26)
+				rcmod(Control/NNP-24,posted/VBD-27)
+				dobj(posted/VBD-27,them/PRP-28)
+				det(Internet/NN-31,the/DT-30)
+				prep_via(posted/VBD-27,Internet/NN-31)
+				prep_to(posted/VBD-27,Twitter/NNP-33)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</value>
+
+		<annotated-sentence>	This article incorporates [[public domain|Public_domain]] [[material|Material]] from websites or documents of the National Aeronautics and Space Administration.	</annotated-sentence>
+
+		<pattern_crowdsource>	This article incorporates public domain material from websites or documents of the National Aeronautics and Space Administration.	</pattern_crowdsource>
+
+
+		<tree>
+				det(article/NN-2,This/DT-1)
+				nsubj(incorporates/VBZ-3,article/NN-2)
+				amod(material/NN-6,public/JJ-4)
+				nn(material/NN-6,domain/NN-5)
+				dobj(incorporates/VBZ-3,material/NN-6)
+				prep_from(incorporates/VBZ-3,websites/NNS-8)
+				prep_from(incorporates/VBZ-3,documents/NNS-10)
+				conj_or(websites/NNS-8,documents/NNS-10)
+				det(Aeronautics/NNP-14,the/DT-12)
+				nn(Aeronautics/NNP-14,National/NNP-13)
+				prep_of(websites/NNS-8,Aeronautics/NNP-14)
+				nn(Administration/NNP-17,Space/NNP-16)
+				prep_of(websites/NNS-8,Administration/NNP-17)
+				conj_and(Aeronautics/NNP-14,Administration/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>public domain</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Public_domain</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>material</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Material</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

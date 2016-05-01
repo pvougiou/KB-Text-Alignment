@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Bile acid sequestrants are medicines that help lower your LDL (bad) cholesterol.</value>
+		<pattern_crowdsource> [[Bile acid sequestrants|C0304522]] are [[medicines|C0013227]] that help lower your LDL (bad) cholesterol.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Bile acid sequestrants</surface-form>
+				<RDF-ID>C0304522</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bad</surface-form>
+				<RDF-ID>C0205169</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0304522 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Too much cholesterol in your blood can stick to the walls of your arteries and narrow or block them.</value>
+		<pattern_crowdsource> Too much [[cholesterol|C0008377]] in your [[blood|C0005767]] can stick to the walls of your arteries and narrow or block them.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>arteries</surface-form>
+				<RDF-ID>C0003842</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>narrow</surface-form>
+				<RDF-ID>C0333164</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0008377</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines work by blocking bile acid in your stomach from being absorbed in your blood.</value>
+		<pattern_crowdsource> These medicines work by blocking [[bile acid|C0005390]] in your [[stomach|C0038351]] from being absorbed in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blocking</surface-form>
+				<RDF-ID>C0332206</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bile acid</surface-form>
+				<RDF-ID>C0005390</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>stomach</surface-form>
+				<RDF-ID>C0038351</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0038351 LOCATION_OF C0005390</triple>
+			<triple>C0005767 LOCATION_OF C0005390</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your liver then needs the cholesterol from your blood to make more bile acid.</value>
+		<pattern_crowdsource> Your liver then needs the [[cholesterol|C0008377]] from your [[blood|C0005767]] to make more bile acid.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>liver</surface-form>
+				<RDF-ID>C0023884</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bile acid</surface-form>
+				<RDF-ID>C0005390</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0008377</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If this is not successful, medicines to lower the cholesterol may be the next step.</value>
+		<pattern_crowdsource> If this is not successful, [[medicines|C0013227]] to lower the [[cholesterol|C0008377]] may be the next step.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>successful</surface-form>
+				<RDF-ID>C1272703</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>next</surface-form>
+				<RDF-ID>C1552851</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>step</surface-form>
+				<RDF-ID>C1261552</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 INHIBITS C0008377</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Statins are thought to be the best drugs to use for people who need medicines to lower their cholesterol.</value>
+		<pattern_crowdsource> [[Statins|C0360714]] are thought to be the best [[drugs|C0013227]] to use for [[people|C0027361]] who need [[medicines|C0013227]] to lower their [[cholesterol|C0008377]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Statins</surface-form>
+				<RDF-ID>C0360714</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>drugs</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>people</surface-form>
+				<RDF-ID>C0027361</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cholesterol</surface-form>
+				<RDF-ID>C0008377</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0360714 ISA C0013227</triple>
+			<triple>C0013227 TREATS C0027361</triple>
+			<triple>C0013227 INHIBITS C0008377</triple>
+			<triple>C0360714 TREATS C0027361</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>However, some studies show that using other medicines along with statins may not help reduce the risk of heart attack or stroke more than using statins alone.</value>
+		<pattern_crowdsource> However, some studies show that using other medicines along with [[statins|C0360714]] may not help reduce the risk of [[heart attack|C0027051]] or stroke more than using [[statins|C0360714]] alone.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>studies</surface-form>
+				<RDF-ID>C0008972</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>statins</surface-form>
+				<RDF-ID>C0360714</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>risk</surface-form>
+				<RDF-ID>C0035647</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>heart attack</surface-form>
+				<RDF-ID>C0027051</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>more</surface-form>
+				<RDF-ID>C0205172</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>statins</surface-form>
+				<RDF-ID>C0360714</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0360714 compared_with C0360714</triple>
+			<triple>C0360714 higher_than C0360714</triple>
+			<triple>C0360714 PREVENTS C0027051</triple>
+			<triple>C0360714 PREVENTS C0027051</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Certain medicines may interact with bile acid sequestrants.</value>
+		<pattern_crowdsource> Certain [[medicines|C0013227]] may interact with [[bile acid sequestrants|C0304522]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Certain</surface-form>
+				<RDF-ID>C0205423</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bile acid sequestrants</surface-form>
+				<RDF-ID>C0304522</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 INTERACTS_WITH C0304522</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Taking this medicine may also affect how vitamins and other medications are absorbed in the body.</value>
+		<pattern_crowdsource> Taking this medicine may also affect how [[vitamins|C0042890]] and other [[medications|C0013227]] are absorbed in the body.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0025118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>vitamins</surface-form>
+				<RDF-ID>C0042890</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medications</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0042890 ISA C0013227</triple>
+			<triple>C0013227 ISA C0042890</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

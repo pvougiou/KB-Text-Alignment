@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>However, at present it is not clear if screening for prostate cancer is helpful for most men.</value>
+		<pattern_crowdsource> However, at present it is not clear if [[screening|C0220908]] for prostate cancer is helpful for most [[men|C0025266]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>present</surface-form>
+				<RDF-ID>C0150312</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>screening</surface-form>
+				<RDF-ID>C0220908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate cancer</surface-form>
+				<RDF-ID>C0376358</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>helpful</surface-form>
+				<RDF-ID>C1552861</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0220908 TREATS C0025266</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Prostate-specific antigen (PSA) test is a blood test that checks the level of PSA in your blood.</value>
+		<pattern_crowdsource> Prostate-specific antigen (PSA) test is a blood test that checks the level of [[PSA|C0138741]] in your [[blood|C0005767]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Prostate-specific antigen (PSA) test</surface-form>
+				<RDF-ID>C0201544</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood test</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>PSA</surface-form>
+				<RDF-ID>C0138741</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 LOCATION_OF C0138741</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- But other conditions can also cause a high level, such as infection in the prostate or an enlarged prostate.</value>
+		<pattern_crowdsource> - But other conditions can also cause a high level, such as [[infection|C0009450]] in the [[prostate|C0033572]] or an enlarged prostate.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>conditions</surface-form>
+				<RDF-ID>C0348080</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate</surface-form>
+				<RDF-ID>C0033572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>enlarged prostate</surface-form>
+				<RDF-ID>C0426732</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033572 LOCATION_OF C0009450</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>- Other blood tests or a prostate biopsy can help diagnose a cancer if the PSA test is high.</value>
+		<pattern_crowdsource> - Other [[blood tests|C0018941]] or a [[prostate|C0033572]] [[biopsy|C0005558]] can help diagnose a [[cancer|C0006826]] if the PSA test is high.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>blood tests</surface-form>
+				<RDF-ID>C0018941</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate</surface-form>
+				<RDF-ID>C0033572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>PSA test</surface-form>
+				<RDF-ID>C0201544</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>high</surface-form>
+				<RDF-ID>C0205250</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0033572 LOCATION_OF C0005558</triple>
+			<triple>C0005558 DIAGNOSES C0006826</triple>
+			<triple>C0018941 DIAGNOSES C0006826</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This allows the provider to check the prostate for lumps or unusual areas.</value>
+		<pattern_crowdsource> This allows the [[provider|C1441436]] to check the prostate for [[lumps|C0577559]] or unusual areas.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>provider</surface-form>
+				<RDF-ID>C1441436</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate</surface-form>
+				<RDF-ID>C0033572</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lumps</surface-form>
+				<RDF-ID>C0577559</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>areas</surface-form>
+				<RDF-ID>C1504310</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1441436 TREATS C0577559</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Imaging tests such as an ultrasound or an MRI do not do an accurate job of screening for prostate cancer.</value>
+		<pattern_crowdsource> Imaging tests such as an ultrasound or an [[MRI|C0024485]] do not do an accurate job of screening for [[prostate cancer|C0376358]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>tests</surface-form>
+				<RDF-ID>C0392366</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>ultrasound</surface-form>
+				<RDF-ID>C0220934</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>MRI</surface-form>
+				<RDF-ID>C0024485</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>not</surface-form>
+				<RDF-ID>C1518422</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>accurate</surface-form>
+				<RDF-ID>C0443131</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>job</surface-form>
+				<RDF-ID>C0028811</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>screening</surface-form>
+				<RDF-ID>C0220908</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate cancer</surface-form>
+				<RDF-ID>C0376358</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0024485 DIAGNOSES C0376358</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>PSA levels can begin to rise years before a cancer causes any symptoms or problems.</value>
+		<pattern_crowdsource> [[PSA|C1366489]] levels can begin to rise years before a cancer causes any [[symptoms|C1457887]] or problems.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>PSA</surface-form>
+				<RDF-ID>C1366489</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>levels</surface-form>
+				<RDF-ID>C0441889</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>years</surface-form>
+				<RDF-ID>C0439234</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>cancer</surface-form>
+				<RDF-ID>C0006826</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>symptoms</surface-form>
+				<RDF-ID>C1457887</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>problems</surface-form>
+				<RDF-ID>C1546466</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1366489 CAUSES C1457887</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Men with a family history of prostate cancer and African-American men should have this talk at age 40 to 45.</value>
+		<pattern_crowdsource> [[Men|C0025266]] with a family history of prostate cancer and African-American [[men|C0025266]] should have this [[talk|C0600118]] at age 40 to 45.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>family</surface-form>
+				<RDF-ID>C0015576</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>history</surface-form>
+				<RDF-ID>C0019665</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>prostate cancer</surface-form>
+				<RDF-ID>C0376358</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>African-American</surface-form>
+				<RDF-ID>C0085756</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>men</surface-form>
+				<RDF-ID>C0025266</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>talk</surface-form>
+				<RDF-ID>C0600118</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>age</surface-form>
+				<RDF-ID>C0001779</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0600118 PROCESS_OF C0025266</triple>
+			<triple>C0600118 PROCESS_OF C0025266</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Takao Doi (?? ??, Doi Takao, born September 18, 1954) is a Japanese astronaut and a veteran of two NASA space shuttle missions.	</value>
+
+		<annotated-sentence>	[[Takao Doi|Takao_Doi]] (?? ??, [[Doi Takao|Takao_Doi]], born [[September|September]] 18, 1954) is a [[Japanese|Japan]] [[astronaut|Astronaut]] and [[a veteran|Veteran]] of two [[NASA|NASA]] [[space shuttle missions|List_of_space_shuttle_missions]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Takao Doi|Takao_Doi]] (?? ??, [[Doi Takao|Takao_Doi]], born September 18, 1954) is a [[Japanese|Japan]] [[astronaut|Astronaut]] and a veteran of two [[NASA|NASA]] space shuttle missions.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Doi/NNP-2,Takao/NNP-1)
+				nsubj(astronaut/NN-19,Doi/NNP-2)
+				num(??/NN-5,??/CD-4)
+				dep(Doi/NNP-2,??/NN-5)
+				nn(Takao/NNP-8,Doi/NNP-7)
+				appos(??/NN-5,Takao/NNP-8)
+				partmod(Takao/NNP-8,born/VBN-10)
+				tmod(born/VBN-10,September/NNP-11)
+				num(September/NNP-11,18/CD-12)
+				num(September/NNP-11,1954/CD-14)
+				cop(astronaut/NN-19,is/VBZ-16)
+				det(astronaut/NN-19,a/DT-17)
+				amod(astronaut/NN-19,Japanese/JJ-18)
+				det(veteran/NN-22,a/DT-21)
+				conj_and(astronaut/NN-19,veteran/NN-22)
+				prep_of(veteran/NN-22,two/CD-24)
+				nn(missions/NNS-28,NASA/NNP-25)
+				nn(missions/NNS-28,space/NN-26)
+				nn(missions/NNS-28,shuttle/NN-27)
+				dep(veteran/NN-22,missions/NNS-28)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Takao Doi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Takao_Doi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Doi Takao</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Takao_Doi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>September</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/September</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Japanese</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a veteran</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Veteran</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>NASA</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/NASA</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space shuttle missions</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/List_of_space_shuttle_missions</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/type http://dbpedia.org/resource/NASA
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Doi holds a doctorate from the University of Tokyo in aerospace engineering, and has studied and published in the fields of propulsion systems, and microgravity technology.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(holds/VBZ-2,Doi/NNP-1)
+				nsubj(studied/VBN-16,Doi/NNP-1)
+				det(doctorate/NN-4,a/DT-3)
+				dobj(holds/VBZ-2,doctorate/NN-4)
+				det(University/NNP-7,the/DT-6)
+				prep_from(holds/VBZ-2,University/NNP-7)
+				prep_of(University/NNP-7,Tokyo/NNP-9)
+				nn(engineering/NN-12,aerospace/NN-11)
+				prep_in(Tokyo/NNP-9,engineering/NN-12)
+				aux(studied/VBN-16,has/VBZ-15)
+				conj_and(holds/VBZ-2,studied/VBN-16)
+				conj_and(holds/VBZ-2,published/VBN-18)
+				conj_and(studied/VBN-16,published/VBN-18)
+				det(fields/NNS-21,the/DT-20)
+				prep_in(studied/VBN-16,fields/NNS-21)
+				nn(systems/NNS-24,propulsion/NN-23)
+				prep_of(fields/NNS-21,systems/NNS-24)
+				nn(technology/NN-28,microgravity/NN-27)
+				prep_in(studied/VBN-16,technology/NN-28)
+				conj_and(fields/NNS-21,technology/NN-28)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He researched at the Institute of Space and Astronautical Science and was selected by NASDA as an astronaut candidate in 1985 for the Japanese manned space program while also conducting research in the United States at NASA's Lewis Research Center and the University of Colorado at Boulder.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(researched/VBD-2,He/PRP-1)
+				nsubjpass(selected/VBN-13,He/PRP-1)
+				det(Institute/NNP-5,the/DT-4)
+				prep_at(researched/VBD-2,Institute/NNP-5)
+				nn(Science/NNP-10,Space/NNP-7)
+				conj_and(Space/NNP-7,Astronautical/NNP-9)
+				nn(Science/NNP-10,Astronautical/NNP-9)
+				prep_of(Institute/NNP-5,Science/NNP-10)
+				auxpass(selected/VBN-13,was/VBD-12)
+				conj_and(researched/VBD-2,selected/VBN-13)
+				agent(selected/VBN-13,NASDA/NNP-15)
+				det(candidate/NN-19,an/DT-17)
+				nn(candidate/NN-19,astronaut/NN-18)
+				prep_as(NASDA/NNP-15,candidate/NN-19)
+				prep_in(candidate/NN-19,1985/CD-21)
+				det(program/NN-27,the/DT-23)
+				amod(program/NN-27,Japanese/JJ-24)
+				amod(program/NN-27,manned/JJ-25)
+				nn(program/NN-27,space/NN-26)
+				prep_for(selected/VBN-13,program/NN-27)
+				mark(conducting/VBG-30,while/IN-28)
+				advmod(conducting/VBG-30,also/RB-29)
+				dep(program/NN-27,conducting/VBG-30)
+				dobj(conducting/VBG-30,research/NN-31)
+				det(States/NNPS-35,the/DT-33)
+				nn(States/NNPS-35,United/NNP-34)
+				prep_in(research/NN-31,States/NNPS-35)
+				poss(Center/NNP-41,NASA/NNP-37)
+				nn(Center/NNP-41,Lewis/NNP-39)
+				nn(Center/NNP-41,Research/NNP-40)
+				prep_at(conducting/VBG-30,Center/NNP-41)
+				det(University/NNP-44,the/DT-43)
+				prep_at(conducting/VBG-30,University/NNP-44)
+				conj_and(Center/NNP-41,University/NNP-44)
+				prep_of(University/NNP-44,Colorado/NNP-46)
+				prep_at(conducting/VBG-30,Boulder/NNP-48)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Doi flew as a mission specialist aboard STS-87 in 1997, during which he became the first Japanese astronaut to conduct a spacewalk.	</value>
+
+		<annotated-sentence>	Doi flew as [[a mission specialist|Mission_Specialist]] aboard [[STS-87|STS-87]] in [[1997|1997]], during which he became the first Japanese [[astronaut|Astronaut]] to conduct [[a spacewalk|Spacewalk_(software)]].	</annotated-sentence>
+
+		<pattern_crowdsource>	Doi flew as a mission specialist aboard [[STS-87|STS-87]] in 1997, during which he became the first Japanese [[astronaut|Astronaut]] to conduct a spacewalk.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(flew/VBD-2,Doi/NNP-1)
+				det(specialist/NN-6,a/DT-4)
+				nn(specialist/NN-6,mission/NN-5)
+				prep_as(flew/VBD-2,specialist/NN-6)
+				prep_aboard(flew/VBD-2,STS-87/NN-8)
+				prep_in(flew/VBD-2,1997/CD-10)
+				prep_during(astronaut/NN-19,which/WDT-13)
+				nsubj(astronaut/NN-19,he/PRP-14)
+				cop(astronaut/NN-19,became/VBD-15)
+				det(astronaut/NN-19,the/DT-16)
+				amod(astronaut/NN-19,first/JJ-17)
+				amod(astronaut/NN-19,Japanese/JJ-18)
+				rcmod(1997/CD-10,astronaut/NN-19)
+				aux(conduct/VB-21,to/TO-20)
+				xcomp(astronaut/NN-19,conduct/VB-21)
+				det(spacewalk/NN-23,a/DT-22)
+				dobj(conduct/VB-21,spacewalk/NN-23)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>a mission specialist</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mission_Specialist</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-87</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-87</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>1997</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1997</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>astronaut</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Astronaut</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>a spacewalk</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spacewalk_(software)</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-87
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-87 http://dbpedia.org/property/crew5Up http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-87 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Astronaut
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	He received a Ph.D in Astronomy from Rice University in 2004.	</value>
+
+		<annotated-sentence>	He received a Ph.D in [[Astronomy|Astronomy]] from [[Rice University|Rice_University]] in [[2004|2004]].	</annotated-sentence>
+
+		<pattern_crowdsource>	He received a Ph.D in Astronomy from Rice University in 2004.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(received/VBD-2,He/PRP-1)
+				det(Ph.D/NN-4,a/DT-3)
+				dobj(received/VBD-2,Ph.D/NN-4)
+				prep_in(received/VBD-2,Astronomy/NNP-6)
+				nn(University/NNP-9,Rice/NNP-8)
+				prep_from(received/VBD-2,University/NNP-9)
+				prep_in(University/NNP-9,2004/CD-11)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Astronomy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Astronomy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Rice University</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Rice_University</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>2004</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/2004</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Takao Doi visited the International Space Station in March 2008 as a member of the STS-123 crew.	</value>
+
+		<annotated-sentence>	[[Takao Doi|Takao_Doi]] visited [[the International Space Station|International_Space_Station]] in [[March 2008|March_2008]] as a member of the [[STS-123|STS-123]] crew.	</annotated-sentence>
+
+		<pattern_crowdsource>	[[Takao Doi|Takao_Doi]] visited the International Space Station in March 2008 as a member of the [[STS-123|STS-123]] crew.	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Doi/NNP-2,Takao/NNP-1)
+				nsubj(visited/VBD-3,Doi/NNP-2)
+				det(Station/NNP-7,the/DT-4)
+				nn(Station/NNP-7,International/NNP-5)
+				nn(Station/NNP-7,Space/NNP-6)
+				dobj(visited/VBD-3,Station/NNP-7)
+				prep_in(visited/VBD-3,March/NNP-9)
+				num(March/NNP-9,2008/CD-10)
+				det(member/NN-13,a/DT-12)
+				prep_as(visited/VBD-3,member/NN-13)
+				det(crew/NN-17,the/DT-15)
+				nn(crew/NN-17,STS-123/NN-16)
+				prep_of(member/NN-13,crew/NN-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>Takao Doi</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Takao_Doi</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the International Space Station</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/International_Space_Station</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>March 2008</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/March_2008</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	STS-123 delivered the first module of the Japanese laboratory, Kib?, and the Canadian Dextre robot to the space station.	</value>
+
+		<annotated-sentence>	[[STS-123|STS-123]] delivered [[the first module|Mir]] of the [[Japanese|Japan]] [[laboratory|Laboratory]], Kib?, and the [[Canadian|Canadians]] [[Dextre|Dextre]] [[robot|Robot]] to [[the space station|SpaceStation]].	</annotated-sentence>
+
+		<pattern_crowdsource>	[[STS-123|STS-123]] delivered the first module of the [[Japanese|Japan]] laboratory, Kib?, and the [[Canadian|Canadians]] Dextre robot to the space station.	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(delivered/VBD-2,STS-123/NN-1)
+				det(module/NN-5,the/DT-3)
+				amod(module/NN-5,first/JJ-4)
+				dobj(delivered/VBD-2,module/NN-5)
+				det(laboratory/NN-9,the/DT-7)
+				amod(laboratory/NN-9,Japanese/JJ-8)
+				prep_of(module/NN-5,laboratory/NN-9)
+				prep_of(module/NN-5,Kib?/NN-11)
+				conj_and(laboratory/NN-9,Kib?/NN-11)
+				det(robot/NN-17,the/DT-14)
+				amod(robot/NN-17,Canadian/JJ-15)
+				nn(robot/NN-17,Dextre/NNP-16)
+				prep_of(module/NN-5,robot/NN-17)
+				conj_and(laboratory/NN-9,robot/NN-17)
+				det(station/NN-21,the/DT-19)
+				nn(station/NN-21,space/NN-20)
+				prep_to(delivered/VBD-2,station/NN-21)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>STS-123</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/STS-123</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the first module</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Mir</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Japanese</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Japan</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>laboratory</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Laboratory</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Canadian</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Canadians</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Dextre</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Dextre</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>robot</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Robot</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>the space station</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/SpaceStation</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/mission http://dbpedia.org/resource/STS-123
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crewMembers http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/STS-123 http://dbpedia.org/property/crew6Up http://dbpedia.org/resource/Takao_Doi
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/birthPlace http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://dbpedia.org/ontology/nationality http://dbpedia.org/resource/Japan
+			</triple>
+
+			<triple>
+				http://dbpedia.org/resource/Canadians http://dbpedia.org/ontology/populationPlace http://dbpedia.org/resource/Japan
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	During this mission, he became the first person to throw a boomerang in space that was specifically designed for use in microgravity during spaceflight.	</value>
+
+		<annotated-sentence>	During this mission, he became [[the first person|Person]] to throw a boomerang in [[space|Space]] that was specifically designed for use in [[microgravity|Microgravity_(album)]] during [[spaceflight|Spaceflight]].	</annotated-sentence>
+
+		<pattern_crowdsource>	During this mission, he became [[the first person|Person]] to throw a boomerang in space that was specifically designed for use in microgravity during spaceflight.	</pattern_crowdsource>
+
+
+		<tree>
+				det(mission/NN-3,this/DT-2)
+				prep_during(person/NN-9,mission/NN-3)
+				nsubj(person/NN-9,he/PRP-5)
+				cop(person/NN-9,became/VBD-6)
+				det(person/NN-9,the/DT-7)
+				amod(person/NN-9,first/JJ-8)
+				aux(throw/VB-11,to/TO-10)
+				xcomp(person/NN-9,throw/VB-11)
+				det(boomerang/NN-13,a/DT-12)
+				dobj(throw/VB-11,boomerang/NN-13)
+				prep_in(boomerang/NN-13,space/NN-15)
+				nsubjpass(designed/VBN-19,that/WDT-16)
+				auxpass(designed/VBN-19,was/VBD-17)
+				advmod(designed/VBN-19,specifically/RB-18)
+				rcmod(boomerang/NN-13,designed/VBN-19)
+				prep_for(designed/VBN-19,use/NN-21)
+				prep_in(use/NN-21,microgravity/NN-23)
+				prep_during(designed/VBN-19,spaceflight/NN-25)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>the first person</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Person</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>space</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Space</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>microgravity</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Microgravity_(album)</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>spaceflight</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Spaceflight</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+			<triple>
+				http://dbpedia.org/resource/Takao_Doi http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://dbpedia.org/ontology/Person
+			</triple>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	Doi retired from the astronaut duty and he works as the chief of Space Applications Section of United Nations Office for Outer Space Affairs starting September 2009.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nsubj(retired/VBD-2,Doi/NNP-1)
+				det(duty/NN-6,the/DT-4)
+				nn(duty/NN-6,astronaut/NN-5)
+				prep_from(retired/VBD-2,duty/NN-6)
+				nsubj(works/VBZ-9,he/PRP-8)
+				conj_and(retired/VBD-2,works/VBZ-9)
+				det(Section/NN-16,the/DT-11)
+				dep(Section/NN-16,chief/NN-12)
+				nn(Applications/NNS-15,Space/NN-14)
+				prep_of(chief/NN-12,Applications/NNS-15)
+				prep_as(works/VBZ-9,Section/NN-16)
+				nn(Office/NNP-20,United/NNP-18)
+				nn(Office/NNP-20,Nations/NNP-19)
+				prep_of(Section/NN-16,Office/NNP-20)
+				nn(Affairs/NNP-24,Outer/NNP-22)
+				nn(Affairs/NNP-24,Space/NNP-23)
+				prep_for(Office/NNP-20,Affairs/NNP-24)
+				partmod(Affairs/NNP-24,starting/VBG-25)
+				tmod(starting/VBG-25,September/NNP-26)
+				num(September/NNP-26,2009/CD-27)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	As an avid amateur astronomer, he found supernovae SN 2002gw and SN 2007aa.	</value>
+
+		<annotated-sentence>	As an avid [[amateur astronomer|The_Amateur_Astronomer]], he found [[supernovae|Supernova]] SN 2002gw and SN 2007aa.	</annotated-sentence>
+
+		<pattern_crowdsource>	As an avid amateur astronomer, he found supernovae SN 2002gw and SN 2007aa.	</pattern_crowdsource>
+
+
+		<tree>
+				det(astronomer/NN-5,an/DT-2)
+				amod(astronomer/NN-5,avid/JJ-3)
+				amod(astronomer/NN-5,amateur/JJ-4)
+				prep_as(found/VBD-8,astronomer/NN-5)
+				nsubj(found/VBD-8,he/PRP-7)
+				nn(2002gw/NN-11,supernovae/NN-9)
+				nn(2002gw/NN-11,SN/NN-10)
+				dobj(found/VBD-8,2002gw/NN-11)
+				nn(2007aa/NN-14,SN/NN-13)
+				dobj(found/VBD-8,2007aa/NN-14)
+				conj_and(2002gw/NN-11,2007aa/NN-14)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>amateur astronomer</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/The_Amateur_Astronomer</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>supernovae</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Supernova</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

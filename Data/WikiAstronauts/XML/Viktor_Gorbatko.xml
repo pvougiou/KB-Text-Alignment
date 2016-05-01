@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Document>
+
+	<sentence>
+
+		<value>	Viktor Vasilyevich Gorbatko (Russian: ??????? ??????????? ?????????; born December 3, 1934) was a Soviet cosmonaut who flew on the Soyuz 7, Soyuz 24, and Soyuz 37 missions.	</value>
+
+		<annotated-sentence>	null	</annotated-sentence>
+
+		<pattern_crowdsource>	null	</pattern_crowdsource>
+
+
+		<tree>
+				nn(Vasilyevich/NNP-2,Viktor/NNP-1)
+				nn(Russian/NNP-5,Gorbatko/NNP-3)
+				dep(Vasilyevich/NNP-2,Russian/NNP-5)
+				nn(?????????/NN-9,???????/NN-7)
+				nn(?????????/NN-9,???????????/NN-8)
+				nsubj(cosmonaut/NN-20,?????????/NN-9)
+				partmod(?????????/NN-9,born/VBN-11)
+				tmod(born/VBN-11,December/NNP-12)
+				num(December/NNP-12,3/CD-13)
+				num(December/NNP-12,1934/CD-15)
+				cop(cosmonaut/NN-20,was/VBD-17)
+				det(cosmonaut/NN-20,a/DT-18)
+				amod(cosmonaut/NN-20,Soviet/JJ-19)
+				dep(Vasilyevich/NNP-2,cosmonaut/NN-20)
+				nsubj(flew/VBD-22,who/WP-21)
+				rcmod(cosmonaut/NN-20,flew/VBD-22)
+				det(Soyuz/NNP-25,the/DT-24)
+				prep_on(flew/VBD-22,Soyuz/NNP-25)
+				num(Soyuz/NNP-25,7/CD-26)
+				prep_on(flew/VBD-22,Soyuz/NNP-28)
+				conj_and(Soyuz/NNP-25,Soyuz/NNP-28)
+				num(Soyuz/NNP-28,24/CD-29)
+				nn(missions/NNS-34,Soyuz/NNP-32)
+				num(missions/NNS-34,37/CD-33)
+				prep_on(flew/VBD-22,missions/NNS-34)
+				conj_and(Soyuz/NNP-25,missions/NNS-34)
+
+		</tree>
+
+		<annotations>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	After leaving the space program in 1982 he taught at the Air Force Engineering Academy in Moscow.	</value>
+
+		<annotated-sentence>	After leaving the space program in [[1982|1982]] he taught at the [[Air Force|Air_force]] [[Engineering|Engineering]] [[Academy|Academy]] in [[Moscow|Moscow]].	</annotated-sentence>
+
+		<pattern_crowdsource>	After leaving the space program in 1982 he taught at the Air Force Engineering Academy in Moscow.	</pattern_crowdsource>
+
+
+		<tree>
+				prepc_after(taught/VBD-9,leaving/VBG-2)
+				det(program/NN-5,the/DT-3)
+				nn(program/NN-5,space/NN-4)
+				dobj(leaving/VBG-2,program/NN-5)
+				prep_in(leaving/VBG-2,1982/CD-7)
+				nsubj(taught/VBD-9,he/PRP-8)
+				det(Academy/NNP-15,the/DT-11)
+				nn(Academy/NNP-15,Air/NNP-12)
+				nn(Academy/NNP-15,Force/NNP-13)
+				nn(Academy/NNP-15,Engineering/NNP-14)
+				prep_at(taught/VBD-9,Academy/NNP-15)
+				prep_in(taught/VBD-9,Moscow/NNP-17)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>1982</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/1982</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Air Force</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Air_force</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Engineering</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Engineering</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Academy</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Academy</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>Moscow</surface-form>
+				<RDF-ID>http://dbpedia.org/resource/Moscow</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+	<sentence>
+
+		<value>	His multiple Soviet and Russian Federation awards include: His foreign awards include:	</value>
+
+		<annotated-sentence>	His multiple Soviet and Russian Federation [[awards|Award]] include: His foreign [[awards|Award]] include:	</annotated-sentence>
+
+		<pattern_crowdsource>	His multiple Soviet and Russian Federation awards include: His foreign awards include:	</pattern_crowdsource>
+
+
+		<tree>
+				poss(Soviet/JJ-3,His/PRP$-1)
+				amod(Soviet/JJ-3,multiple/JJ-2)
+				nsubj(include/VBP-8,Soviet/JJ-3)
+				amod(awards/NNS-7,Russian/JJ-5)
+				nn(awards/NNS-7,Federation/NNP-6)
+				conj_and(Soviet/JJ-3,awards/NNS-7)
+				nsubj(include/VBP-8,awards/NNS-7)
+				poss(awards/NNS-12,His/PRP$-10)
+				amod(awards/NNS-12,foreign/JJ-11)
+				dobj(include/VBP-8,awards/NNS-12)
+				rcmod(awards/NNS-12,include/VBP-13)
+
+		</tree>
+
+		<annotations>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+			<annotation>
+				<surface-form>awards</surface-form>
+				<RDF-ID>http://dbpedia.org/ontology/Award</RDF-ID>
+			</annotation>
+
+
+		</annotations>
+
+		<triples>
+
+		</triples>
+
+		<pattern>
+
+			null
+
+		</pattern>
+
+	</sentence>
+
+</Document>

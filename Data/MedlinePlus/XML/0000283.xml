@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>You had endovascular aortic surgery repair for an aneurysm (a widened part) of the large artery that carries blood to your lower body (aorta).</value>
+		<pattern_crowdsource> You had endovascular aortic surgery repair for an aneurysm (a widened part) of the [[large artery|C1282824]] that carries [[blood|C0005767]] to your lower body (aorta).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>endovascular</surface-form>
+				<RDF-ID>C0524425</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aortic surgery</surface-form>
+				<RDF-ID>C0877130</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>repair</surface-form>
+				<RDF-ID>C0043240</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aneurysm</surface-form>
+				<RDF-ID>C0002940</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>widened</surface-form>
+				<RDF-ID>C0332464</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>large artery</surface-form>
+				<RDF-ID>C1282824</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood</surface-form>
+				<RDF-ID>C0005767</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lower</surface-form>
+				<RDF-ID>C0441994</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aorta</surface-form>
+				<RDF-ID>C0003483</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005767 PART_OF C1282824</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The cut in your groin may be sore for several days.</value>
+		<pattern_crowdsource> The [[cut|C0000925]] in your [[groin|C0018246]] may be sore for several days.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>cut</surface-form>
+				<RDF-ID>C0000925</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>groin</surface-form>
+				<RDF-ID>C0018246</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>several</surface-form>
+				<RDF-ID>C0443302</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>days</surface-form>
+				<RDF-ID>C0439228</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0018246 LOCATION_OF C0000925</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>Your doctor may ask you to take aspirin or another medicine called clopidogrel (Plavix) when you go home.</value>
+		<pattern_crowdsource> Your [[doctor|C0031831]] may ask you to take [[aspirin|C0004057]] or another [[medicine|C0013227]] called [[clopidogrel|C0070166]] ([[Plavix|C0633084]]) when you go home.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>aspirin</surface-form>
+				<RDF-ID>C0004057</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>medicine</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>clopidogrel</surface-form>
+				<RDF-ID>C0070166</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>Plavix</surface-form>
+				<RDF-ID>C0633084</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0633084 ISA C0070166</triple>
+			<triple>C0004057 ADMINISTERED_TO C0031831</triple>
+			<triple>C0013227 ADMINISTERED_TO C0031831</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>These medicines are anti-platelet agents.</value>
+		<pattern_crowdsource> These [[medicines|C0013227]] are [[anti-platelet agents|C0040616]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>platelet</surface-form>
+				<RDF-ID>C0005821</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>anti-platelet agents</surface-form>
+				<RDF-ID>C0040616</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0040616 ISA C0013227</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>If you are given medicines for blood pressure or diabetes, take them as your doctor has asked you to.</value>
+		<pattern_crowdsource> If you are given [[medicines|C0013227]] for [[blood pressure|C1272641]] or [[diabetes|C0011847]], take them as your doctor has asked you to.		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>medicines</surface-form>
+				<RDF-ID>C0013227</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>blood pressure</surface-form>
+				<RDF-ID>C1272641</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diabetes</surface-form>
+				<RDF-ID>C0011847</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>doctor</surface-form>
+				<RDF-ID>C0031831</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0013227 TREATS C1272641</triple>
+			<triple>C0013227 TREATS C0011847</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A piece of tissue from the first part of the small intestine is taken during an upper endoscopy (esophagogastroduodenoscopy).</value>
+		<pattern_crowdsource> A piece of tissue from the first part of the small intestine is taken during an upper [[endoscopy|C0014245]] ([[esophagogastroduodenoscopy|C0079304]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>first</surface-form>
+				<RDF-ID>C1279901</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>part</surface-form>
+				<RDF-ID>C0449719</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>small intestine</surface-form>
+				<RDF-ID>C0021852</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>upper</surface-form>
+				<RDF-ID>C1282910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>endoscopy</surface-form>
+				<RDF-ID>C0014245</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagogastroduodenoscopy</surface-form>
+				<RDF-ID>C0079304</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0079304 ISA C0014245</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>This is a test done in a lab.</value>
+		<pattern_crowdsource> This is a [[test|C0039593]] done in a [[lab|C0022877]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>test</surface-form>
+				<RDF-ID>C0039593</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>lab</surface-form>
+				<RDF-ID>C0022877</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0022877 LOCATION_OF C0039593</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>The sample is collected during an upper endoscopy and biopsy procedure (esophagogastroduodenoscopy).</value>
+		<pattern_crowdsource> The sample is collected during an upper [[endoscopy|C0014245]] and [[biopsy|C0005558]] [[procedure|C0184661]] ([[esophagogastroduodenoscopy|C0079304]]).		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>upper</surface-form>
+				<RDF-ID>C1282910</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>endoscopy</surface-form>
+				<RDF-ID>C0014245</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>biopsy</surface-form>
+				<RDF-ID>C0005558</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>procedure</surface-form>
+				<RDF-ID>C0184661</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>esophagogastroduodenoscopy</surface-form>
+				<RDF-ID>C0079304</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0005558 ISA C0184661</triple>
+			<triple>C0079304 ISA C0184661</triple>
+			<triple>C0079304 ISA C0014245</triple>
+		</triples>
+	</Sentence>
+	<Sentence>
+		<value>An abnormal finding means that harmful bacteria or a virus has been found in the tissue sample.</value>
+		<pattern_crowdsource> An abnormal finding means that harmful [[bacteria|C0004611]] or a [[virus|C0042776]] has been found in the [[tissue sample|C1292533]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>abnormal</surface-form>
+				<RDF-ID>C0205161</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>finding</surface-form>
+				<RDF-ID>C0243095</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>bacteria</surface-form>
+				<RDF-ID>C0004611</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>virus</surface-form>
+				<RDF-ID>C0042776</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>tissue sample</surface-form>
+				<RDF-ID>C1292533</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C1292533 LOCATION_OF C0042776</triple>
+			<triple>C1292533 LOCATION_OF C0004611</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>A secondary infection is an infection that occurs during or after treatment for another infection.</value>
+		<pattern_crowdsource> A [[secondary infection|C0442886]] is an [[infection|C0009450]] that occurs during or after [[treatment|C0087111]] for another [[infection|C0009450]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>secondary infection</surface-form>
+				<RDF-ID>C0442886</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>treatment</surface-form>
+				<RDF-ID>C0087111</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0442886 ISA C0009450</triple>
+			<triple>C0087111 TREATS C0009450</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+

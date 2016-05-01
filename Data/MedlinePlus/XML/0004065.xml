@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Document>
+
+	<Sentence>
+		<value>Typhoid fever is an infection that causes diarrhea and a rash.</value>
+		<pattern_crowdsource> [[Typhoid fever|C0041466]] is an [[infection|C0009450]] that causes [[diarrhea|C0011991]] and a [[rash|C0015230]].		</pattern_crowdsource>
+		<annotations>
+			<annotation>
+				<surface-form>Typhoid fever</surface-form>
+				<RDF-ID>C0041466</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>infection</surface-form>
+				<RDF-ID>C0009450</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>diarrhea</surface-form>
+				<RDF-ID>C0011991</RDF-ID>
+			</annotation>
+			<annotation>
+				<surface-form>rash</surface-form>
+				<RDF-ID>C0015230</RDF-ID>
+			</annotation>
+		</annotations>
+		<triples>
+			<triple>C0041466 ISA C0009450</triple>
+			<triple>C0009450 CAUSES C0011991</triple>
+			<triple>C0009450 CAUSES C0015230</triple>
+			<triple>C0041466 CAUSES C0011991</triple>
+			<triple>C0041466 CAUSES C0015230</triple>
+		</triples>
+	</Sentence>
+
+</Document>
+
