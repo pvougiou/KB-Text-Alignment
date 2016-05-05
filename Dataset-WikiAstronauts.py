@@ -10,10 +10,13 @@ from mpl_toolkits.mplot3d import axes3d
 import os
 import glob
 import shutil
+import cPickle as pickle
+
 
 xml_dir = 'Data/WikiAstronauts/XML/'
 csv_dir = 'Data/wikiAstronauts/CSV/'
 exp_dir = 'CrowdFlower/WikiAstronauts/'
+cache_dir = 'Caches/WikiAstronauts/'
 
 
 num_files = 0
@@ -29,6 +32,10 @@ num_tokens = []
 unique_predicates = []
 predicates = {}
 num_annotations = 0
+dictionary = []
+
+# The structure of the data -- list of dictionaries.
+#data = [{'value': .., 'annotated_sentence': .., 'triples': [..], 'simplification': ..}]
 
 
 def annotate(text):
@@ -120,8 +127,8 @@ def construct_graph_tokens(data):
         y.append(total[item])
     print(x)
     print(y)
-    plt.plot(x, y, '-o', color='c', linewidth=2.0)
     
+    plt.plot(x, y, '-o', color='c', linewidth=2.0)
     plt.xlabel("Number of Tokens")
     plt.ylabel("Number of Sentences")
     plt.grid()
@@ -131,14 +138,19 @@ def construct_graph_tokens(data):
 def construct_graph_tokens_to_triples(tokens, triples):
     plt.rc('text', usetex=True)
     plt.rc('font', family='serif')
-
-
     plt.plot(tokens, triples, 'o', color='r', linewidth=2.0)
-    
     plt.xlabel("Number of Tokens")
     plt.ylabel("Number of Triples")
     plt.grid()
     plt.show()
+    
+
+def dump_cache(data):
+    if os.path.exists(cache_dir):
+        shutil.rmtree(cache_dir)
+    os.makedirs(cache_dir)
+
+    pickle.dump(data, open(cache_dir + 'dataset-WikiAstronauts.p', "wb"))
 
     
 def add_annotations(text, sentence):
@@ -174,6 +186,7 @@ def dataset():
     global num_annotations
     global unique_predicates
     global predicates
+    global dictionary
     
     
     if os.path.exists(exp_dir + 'experiment.csv'):
@@ -202,17 +215,25 @@ def dataset():
                         """
                         if len(root[sentence_number][5]) >= 1 and row[0].find('?') == -1:
                             rows_flag = rows_flag + 1
+                            dictionary.append({'annotated_sentence': root[sentence_number][2].text, 'value': root[sentence_number][0].text, 'triples': [], 'simplification': ''})
+                            for triple in range(0, len(root[sentence_number][5])):
+                                dictionary[sum(included_sentences)]['triples'].append(root[sentence_number][5][triple].text)
+
                             included_sentences[0] = included_sentences[0] + 1
                             writer.writerow({'Sentence': row[0]})
                             num_triples.append(len(root[sentence_number][5]))
                             num_tokens.append(len(tokenizer.tokenize(root[sentence_number][0].text)))    
                             tokens_triples.append(len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]))
                             processed_facts = processed_facts + len(root[sentence_number][5])
-                        """   
+                        """
                         
                         if len(root[sentence_number][5]) >= 1:
                             if row[0].find('?') == -1 and (len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]) >= 20)  and included_sentences[2] < 200:
                                 rows_flag = rows_flag + 1
+                                dictionary.append({'annotated_sentence': root[sentence_number][2].text, 'value': root[sentence_number][0].text, 'triples': [], 'simplification': ''})
+                                for triple in range(0, len(root[sentence_number][5])):
+                                    dictionary[sum(included_sentences)]['triples'].append(root[sentence_number][5][triple].text)
+
                                 included_sentences[2] = included_sentences[2] + 1
                                 writer.writerow({'Sentence': row[0]})
                                 #print row[0]
@@ -235,6 +256,10 @@ def dataset():
                             if row[0].find('?') == -1 and (len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]) < 20) \
                                and len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]) >= 10 and included_sentences[1] < 200:
                                 rows_flag = rows_flag + 1
+                                dictionary.append({'annotated_sentence': root[sentence_number][2].text, 'value': root[sentence_number][0].text, 'triples': [], 'simplification': ''})
+                                for triple in range(0, len(root[sentence_number][5])):
+                                    dictionary[sum(included_sentences)]['triples'].append(root[sentence_number][5][triple].text)
+
                                 included_sentences[1] = included_sentences[1] + 1
                                 writer.writerow({'Sentence': row[0]})
                                 #print row[0]
@@ -258,6 +283,10 @@ def dataset():
                             if row[0].find('?') == -1 and (len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]) < 10) \
                                and len(tokenizer.tokenize(root[sentence_number][0].text)) / len(root[sentence_number][5]) >= 5 and included_sentences[0] < 200:
                                 rows_flag = rows_flag + 1
+                                dictionary.append({'annotated_sentence': root[sentence_number][2].text, 'value': root[sentence_number][0].text, 'triples': [], 'simplification': ''})
+                                for triple in range(0, len(root[sentence_number][5])):
+                                    dictionary[sum(included_sentences)]['triples'].append(root[sentence_number][5][triple].text)
+
                                 included_sentences[0] = included_sentences[0] + 1
                                 writer.writerow({'Sentence': row[0]})
                                 #print row[0]
@@ -284,7 +313,7 @@ def dataset():
                 csv_file.close()
         exp_file.close()
     # It sorts the dictionary of predicates according to the times of occurrence.
-    #print sorted(predicates.items(), key=lambda x:x[1])
+    #print sorted(predicates.items(), key=lambda x:x[1], reverse=True)
     print('%d out of the total %d sentences have been included.' % (sum(included_sentences), num_sentences))
     print('Total number of facts-triples that have been included: %d' % (processed_facts))
     print('Total number of tokens of the sentences that have been included: %d' % (sum(num_tokens)))
@@ -331,6 +360,7 @@ def main():
 
 main()
 dataset()
+dump_cache(dictionary)
 #construct_graph_token_triples(tokens_triples)
 #construct_graph_triples(num_triples)
 #construct_graph_tokens(num_tokens)

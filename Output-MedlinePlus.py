@@ -1,18 +1,43 @@
 import math
 import pandas as pd
 pd.set_option('display.max_colwidth', -1)
+
 import re
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
 import os
+import sys
 import glob
 import shutil
+import cPickle as pickle
 
+# Useful for .xml files manipulation
+import dicttoxml
+from xml.dom import minidom
+import xml.etree.ElementTree as ET
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import KMeans
+
+
+csv_dir = 'CrowdFlower/MedlinePlus/f902529.csv'
+output_csv_dir = 'Output/MedlinePlus/Output.xls'
+output_xml_dir = 'Output/MedlinePlus/Output.xml'
+output_eval_dir = 'Output/MedlinePlus/Evaluation.xls'
+cache_dir = 'Caches/MedlinePlus/'
+
+num_tokens = []
+
+
+def load_cache():
+    if os.path.isfile(cache_dir + 'dataset-MedlinePlus.p') :
+        temp = pickle.load(open(cache_dir + 'dataset-MedlinePlus.p', "rb"))
+    else:
+        temp = []
+    return temp
+        
 
 def shortest_length(sentences):
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
@@ -31,12 +56,14 @@ def distance(v1, v2):
     delta = v1_normalized - v2_normalized
     return sp.linalg.norm(delta)
 
+
 def get_original(sentence):
     while sentence.find('<') > -1:
         start_flag = sentence.find('<')
         end_flag = sentence.find('>')
         sentence = sentence.replace(sentence[start_flag:end_flag + 1], '')
     return sentence
+
 
 def shortening(sentences):
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
@@ -55,6 +82,7 @@ def shortening(sentences):
     #plt.show()
     return [extent[sentence] for sentence in range(0, extent.shape[0])]
 
+
 def baseline(sentences):
     count = np.zeros(len(sentences))
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
@@ -69,6 +97,7 @@ def baseline(sentences):
     #print count
     return sentences[index]
 
+
 def count_tokens(sentence):
     tokenizer = RegexpTokenizer(r'\w+')
     return len(tokenizer.tokenize(sentence))
@@ -82,8 +111,7 @@ def counter(tensor):
     flag = []
     [flag.append(False) for row in range(0, tensor.shape[0])]
     #print flag
-     
-     
+       
     for i in range(0, tensor.shape[0]):
         count = 1
         unique[i, :tensor.shape[1]] = tensor.getrow(i).toarray()
@@ -103,6 +131,7 @@ def counter(tensor):
     #print flag
     return unique
 
+
 def distance_from_original(initial, simplifications):
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
     full = simplifications[:]
@@ -110,9 +139,6 @@ def distance_from_original(initial, simplifications):
     full.insert(0, initial)
     #print len(full)
     train = vectorizer.fit_transform(full)
-
-
-    #print train.shape
     distances = np.zeros(train.shape[0] - 1)
     for i in range(0, train.shape[0] - 1):
         distances[i] = distance(train.getrow(0).toarray(), train.getrow(i + 1).toarray())
@@ -120,7 +146,6 @@ def distance_from_original(initial, simplifications):
     return distances
 
 
-    
 def cluster(sentences):
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
     train = vectorizer.fit_transform(sentences)
@@ -133,7 +158,6 @@ def cluster(sentences):
         num_clusters = int(math.ceil (uniques.shape[0] / 3.0))
     km = KMeans(n_clusters=num_clusters, init='random', n_init=1, verbose=1)
     km.fit(uniques[:, :uniques.shape[1] - 2])
-
 
     total = np.zeros(km.labels_.shape[0])
     for i in range(0, km.labels_.shape[0]):
@@ -148,6 +172,7 @@ def cluster(sentences):
     
     return [sentences[j] for j in indeces]
 
+
 def get_annotations(sentence):
     annotations = []
     print sentence
@@ -161,19 +186,22 @@ def get_annotations(sentence):
     return annotations
 
     
-
-csv_dir = 'CrowdFlower/MedlinePlus/f902529.csv'
-output_csv_dir = 'Output/MedlinePlus/Output.xls'
-output_eval_dir = 'Output/MedlinePlus/Evaluation.xls'
-
-num_tokens = []
-
 csv = pd.read_csv(csv_dir, header=0, usecols = ['result1', 'sentence'], skip_blank_lines=False)
 
+dictionary = load_cache()
+if len(dictionary) == 0:
+    raw_input('Cache file: ' + cache_dir +  "dataset-MedlinePlus.p was not found. You should try to execute Dataset-MedlinePlus.py first. Press Enter to kill this process...")
+    sys.exit()
+else:
+    raw_input('Cache file: ' + cache_dir +  'dataset-MedlinePlus.p has been loaded successfully. Press Enter to continue...')
+
+
 """
+
 for i in range(0, len(csv.sentence)):
     csv.sentence[i] = get_original(csv.sentence[i])
 print csv
+
 """
 
 flag = 0
@@ -191,22 +219,13 @@ baseline_result = {}
 for original in sentences:
     baseline_result[original] = baseline(sentences[original])
 
-"""
-output={'Sentence': [], 'Annotated Sentence': [], 'Simplification': []}
-for original in sentences:
-    output['Sentence'].append(get_original(original))
-    output['Annotated Sentence'].append(original)
-    output['Simplification'].append(result[original])
-output_df = pd.DataFrame(output, index=[i for i in range(0, len(output['Sentence']))])
-output_df.to_csv(output_csv_dir, index=False)
-"""
-
 
 # Get results according to the k-means clustering approach.
 result = {}
 for original in sentences:
     result[original] = cluster(sentences[original])
 
+    
 ratios = {}
 for original in sentences:
     num_highlighted = []
@@ -284,8 +303,6 @@ for original in sentences:
         score[original].append(shortening_extent[original][j] * (math.exp(ratios[original][j] * integrity[original][j] * distances[original][j])))
 
     
-
-
 unclustered_ratios = {}
 for original in sentences:
     num_highlighted = []
@@ -349,12 +366,10 @@ for original in sentences:
     print('Length of num_additional: %d' % (len(num_additional)))
     print('Length of shortening: %d' % (len(unclustered_shortening_extent[original])))
     print('Length of result[original]: %d' % (len(sentences[original])))
-
-           
+          
     unclustered_integrity[original] = num_additional
     print('Length of integrity: %d' % (len(unclustered_integrity[original])))
  
-
 
 unclustered_score = {}
 clustered_distances = {}
@@ -371,6 +386,7 @@ for original in sentences:
 
 
 """
+#
 
 evaluation={'Annotated Sentence': [], '#1 Simplification': [], '#1 Rating': [], '#2 Simplification': [], '#2 Rating': [], '#3 Simplification': [], '#3 Rating': [], '#4 Simplification': [], '#4 Rating': [],\
         '#5 Simplification': [], '#5 Rating': [], '#6 Simplification': [], '#6 Rating': [], '#7 Simplification': [], '#7 Rating': []}
@@ -382,19 +398,19 @@ while num_eval_sentences < 30:
         
         key = output['Annotated Sentence'][random]
         evaluation['Annotated Sentence'].append(key.replace('\t', ''))
-        evaluation['#1 Simplification'].append(result[key][score[key].index(max(score[key]))])
+        evaluation['#1 Simplification'].append(unicode(result[key][score[key].index(max(score[key]))], 'ascii', errors='ignore'))
         evaluation['#1 Rating'].append(0)
-        evaluation['#2 Simplification'].append(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))])
+        evaluation['#2 Simplification'].append(unicode(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))], 'ascii', errors='ignore'))
         evaluation['#2 Rating'].append(0)
-        evaluation['#3 Simplification'].append(sentences[key][unclustered_integrity[key].index(max(unclustered_integrity[key]))])
+        evaluation['#3 Simplification'].append(unicode(sentences[key][unclustered_integrity[key].index(max(unclustered_integrity[key]))], 'ascii', errors='ignore'))
         evaluation['#3 Rating'].append(0)
-        evaluation['#4 Simplification'].append(sentences[key][unclustered_shortening_extent[key].index(max(unclustered_shortening_extent[key]))])
+        evaluation['#4 Simplification'].append(unicode(sentences[key][unclustered_shortening_extent[key].index(max(unclustered_shortening_extent[key]))], 'ascii', errors='ignore'))
         evaluation['#4 Rating'].append(0)
-        evaluation['#5 Simplification'].append(sentences[key][unclustered_conformity[key].index(max(unclustered_conformity[key]))])
+        evaluation['#5 Simplification'].append(unicode(sentences[key][unclustered_conformity[key].index(max(unclustered_conformity[key]))], 'ascii', errors='ignore'))
         evaluation['#5 Rating'].append(0)
-        evaluation['#6 Simplification'].append(baseline_result[key])
+        evaluation['#6 Simplification'].append(unicode(baseline_result[key], 'ascii', errors='ignore'))
         evaluation['#6 Rating'].append(0)
-        evaluation['#7 Simplification'].append(clustered_distances[key])
+        evaluation['#7 Simplification'].append(unicode(clustered_distances[key], 'ascii', errors='ignore'))
         evaluation['#7 Rating'].append(0)
         num_eval_sentences = num_eval_sentences + 1
         indeces_eval_sentences.append(random)
@@ -404,13 +420,57 @@ eval_df = pd.DataFrame(evaluation, index=[i for i in range(0, len(evaluation['An
 eval_df.to_html(output_eval_dir, index=False, escape=False)
 """
 
-output={'Annotated Sentence': [], 'Total Score After Clustering': []}
+output={'Annotated Sentence': [], 'Simplification': []}
 for original in sentences:
-    output['Annotated Sentence'].append(original.replace('\t', ''))
-    output['Total Score After Clustering'].append(result[original][score[original].index(max(score[original]))])
+    output['Annotated Sentence'].append(original)
+    output['Simplification'].append(unicode(result[original][score[original].index(max(score[original]))], 'ascii', errors='ignore'))
     num_tokens.append(count_tokens(result[original][score[original].index(max(score[original]))]))
     
 print('Total number of tokens of the simplifications: %d' % (sum(num_tokens)))
 
 output_df = pd.DataFrame(output, index=[i for i in range(0, len(output['Annotated Sentence']))])
+output_df['Annotated Sentence'] = output_df['Annotated Sentence'].replace(to_replace='\t', value='', regex=True)
 output_df.to_html(output_csv_dir, index=False, escape=False)
+
+
+
+tokenizer = RegexpTokenizer(r'\w+')
+for i in range(0, len(dictionary)):
+    flag = False
+    for original in output['Annotated Sentence']:
+        if tokenizer.tokenize(dictionary[i]['value']) == tokenizer.tokenize(get_original(original)):
+            dictionary[i]['simplification'] = result[original][score[original].index(max(score[original]))]
+            flag = True
+            break
+    if flag is False:
+        print dictionary[i]['annotated_sentence']
+
+
+xml_dict = []
+for i in range(0 , len(dictionary)):
+    xml_dict.append({'annotated_sentence': dictionary[i]['annotated_sentence'], \
+                     'value': dictionary[i]['value'], \
+                     'triples': dictionary[i]['triples'], \
+                     'simplification': dictionary[i]['simplification']})
+        
+xml = dicttoxml.dicttoxml(xml_dict, attr_type=False, custom_root='MedlinePlus')
+root = ET.fromstring(xml)
+for i in range(0, len(root)):
+    root[i][2], root[i][3] = root[i][3], root[i][2]
+    root[i][2], root[i][1] = root[i][1], root[i][2]
+    root[i][0], root[i][1] = root[i][1], root[i][0]
+for child in root:
+    child.tag = 'sentence'
+    for grandchild in child:
+        if grandchild.tag == 'triples':
+            for item in grandchild:
+                item.tag = 'triple'
+tree = ET.ElementTree(root)
+tree.write(output_xml_dir, encoding='utf-8', xml_declaration=True)
+xml = minidom.parse(output_xml_dir)
+dom = xml.toprettyxml(encoding='utf-8')    
+
+with open(output_xml_dir, "w") as xml_file:
+    xml_file.write(dom)
+    xml_file.close()
+
