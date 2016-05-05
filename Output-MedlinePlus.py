@@ -381,44 +381,7 @@ for original in sentences:
     for j in range(0, len(sentences[original])):
         unclustered_conformity[original].append(math.exp(unclustered_ratios[original][j] * unclustered_integrity[original][j]))
         unclustered_score[original].append(unclustered_shortening_extent[original][j] * (math.exp(unclustered_ratios[original][j] * unclustered_integrity[original][j] * unclustered_distances[original][j])))
-    
-        
 
-
-"""
-#
-
-evaluation={'Annotated Sentence': [], '#1 Simplification': [], '#1 Rating': [], '#2 Simplification': [], '#2 Rating': [], '#3 Simplification': [], '#3 Rating': [], '#4 Simplification': [], '#4 Rating': [],\
-        '#5 Simplification': [], '#5 Rating': [], '#6 Simplification': [], '#6 Rating': [], '#7 Simplification': [], '#7 Rating': []}
-indeces_eval_sentences = []
-num_eval_sentences = 0
-while num_eval_sentences < 30:
-    random = np.random.randint(0, len(output['Annotated Sentence']))
-    if random not in indeces_eval_sentences:
-        
-        key = output['Annotated Sentence'][random]
-        evaluation['Annotated Sentence'].append(key.replace('\t', ''))
-        evaluation['#1 Simplification'].append(unicode(result[key][score[key].index(max(score[key]))], 'ascii', errors='ignore'))
-        evaluation['#1 Rating'].append(0)
-        evaluation['#2 Simplification'].append(unicode(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))], 'ascii', errors='ignore'))
-        evaluation['#2 Rating'].append(0)
-        evaluation['#3 Simplification'].append(unicode(sentences[key][unclustered_integrity[key].index(max(unclustered_integrity[key]))], 'ascii', errors='ignore'))
-        evaluation['#3 Rating'].append(0)
-        evaluation['#4 Simplification'].append(unicode(sentences[key][unclustered_shortening_extent[key].index(max(unclustered_shortening_extent[key]))], 'ascii', errors='ignore'))
-        evaluation['#4 Rating'].append(0)
-        evaluation['#5 Simplification'].append(unicode(sentences[key][unclustered_conformity[key].index(max(unclustered_conformity[key]))], 'ascii', errors='ignore'))
-        evaluation['#5 Rating'].append(0)
-        evaluation['#6 Simplification'].append(unicode(baseline_result[key], 'ascii', errors='ignore'))
-        evaluation['#6 Rating'].append(0)
-        evaluation['#7 Simplification'].append(unicode(clustered_distances[key], 'ascii', errors='ignore'))
-        evaluation['#7 Rating'].append(0)
-        num_eval_sentences = num_eval_sentences + 1
-        indeces_eval_sentences.append(random)
-
-    
-eval_df = pd.DataFrame(evaluation, index=[i for i in range(0, len(evaluation['Annotated Sentence']))], columns=['Annotated Sentence', '#1 Simplification', '#1 Rating', '#2 Simplification', '#2 Rating', '#3 Simplification', '#3 Rating', '#4 Simplification', '#4 Rating', '#5 Simplification', '#5 Rating', '#6 Simplification', '#6 Rating', '#7 Simplification', '#7 Rating'])
-eval_df.to_html(output_eval_dir, index=False, escape=False)
-"""
 
 output={'Annotated Sentence': [], 'Simplification': []}
 for original in sentences:
@@ -432,6 +395,37 @@ output_df = pd.DataFrame(output, index=[i for i in range(0, len(output['Annotate
 output_df['Annotated Sentence'] = output_df['Annotated Sentence'].replace(to_replace='\t', value='', regex=True)
 output_df.to_html(output_csv_dir, index=False, escape=False)
 
+
+
+"""
+
+# Randomly select sentences for the evaluation tables.
+
+evaluation={'Annotated Sentence': [], '#1 Simplification': [], '#1 Rating': [], '#2 Simplification': [], '#2 Rating': [], '#3 Simplification': [], '#3 Rating': [], '#4 Simplification': [], '#4 Rating': []}
+indeces_eval_sentences = []
+num_eval_sentences = 0
+while num_eval_sentences < 30:
+    random = np.random.randint(0, len(output['Annotated Sentence']))
+    if random not in indeces_eval_sentences:
+        
+        key = output['Annotated Sentence'][random]
+        evaluation['Annotated Sentence'].append(key.replace('\t', ''))
+        evaluation['#1 Simplification'].append(unicode(result[key][score[key].index(max(score[key]))], 'ascii', errors='ignore'))
+        evaluation['#1 Rating'].append(0)
+        evaluation['#2 Simplification'].append(unicode(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))], 'ascii', errors='ignore'))
+        evaluation['#2 Rating'].append(0)
+        evaluation['#3 Simplification'].append(unicode(baseline_result[key], 'ascii', errors='ignore'))
+        evaluation['#3 Rating'].append(0)
+        evaluation['#4 Simplification'].append(unicode(clustered_distances[key], 'ascii', errors='ignore'))
+        evaluation['#4 Rating'].append(0)
+        num_eval_sentences = num_eval_sentences + 1
+        indeces_eval_sentences.append(random)
+
+    
+eval_df = pd.DataFrame(evaluation, index=[i for i in range(0, len(evaluation['Annotated Sentence']))], columns=['Annotated Sentence', '#1 Simplification', '#1 Rating', '#2 Simplification', '#2 Rating', '#3 Simplification', '#3 Rating', '#4 Simplification', '#4 Rating'])
+eval_df.to_html(output_eval_dir, index=False, escape=False)
+
+"""
 
 
 tokenizer = RegexpTokenizer(r'\w+')
