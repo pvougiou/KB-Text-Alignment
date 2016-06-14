@@ -38,22 +38,22 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import KMeans
 
 
-csv_dir = 'CrowdFlower/MedlinePlus/f902529.csv'
-output_csv_dir = 'Output/MedlinePlus/Output.xls'
-output_xml_dir = 'Output/MedlinePlus/Output.xml'
-output_eval_dir = 'Output/MedlinePlus/Evaluation.xls'
-cache_dir = 'Caches/MedlinePlus/'
+csv_dir = 'CrowdFlower/WikiAstronauts/f900315.csv'
+output_csv_dir = '../Datasets/WikiAstronauts/WikiAstronauts-DBpedia.xls'
+output_xml_dir = '../Datasets/WikiAstronauts/WikiAstronauts-DBpedia.xml'
+output_eval_dir = '../Evaluation/WikiAstronauts-DBpedia.xls'
+cache_dir = 'Caches/WikiAstronauts/'
 
 num_tokens = []
 
 
 def load_cache():
-    if os.path.isfile(cache_dir + 'dataset-MedlinePlus.p') :
-        temp = pickle.load(open(cache_dir + 'dataset-MedlinePlus.p', "rb"))
+    if os.path.isfile(cache_dir + 'dataset-WikiAstronauts.p') :
+        temp = pickle.load(open(cache_dir + 'dataset-WikiAstronauts.p', "rb"))
     else:
         temp = []
     return temp
-        
+
 
 def shortest_length(sentences):
     vectorizer = CountVectorizer(min_df=1, token_pattern='\w+', lowercase=True)
@@ -127,7 +127,7 @@ def counter(tensor):
     flag = []
     [flag.append(False) for row in range(0, tensor.shape[0])]
     #print flag
-       
+     
     for i in range(0, tensor.shape[0]):
         count = 1
         unique[i, :tensor.shape[1]] = tensor.getrow(i).toarray()
@@ -201,15 +201,15 @@ def get_annotations(sentence):
         #print sentence
     return annotations
 
-    
+
 csv = pd.read_csv(csv_dir, header=0, usecols = ['result1', 'sentence'], skip_blank_lines=False)
 
 dictionary = load_cache()
 if len(dictionary) == 0:
-    raw_input('Cache file: ' + cache_dir +  "dataset-MedlinePlus.p was not found. You should try to execute Dataset-MedlinePlus.py first. Press Enter to kill this process...")
+    raw_input('Cache file: ' + cache_dir +  "dataset-WikiAstronauts.p was not found. You should try to execute Dataset-WikiAstronauts.py first. Press Enter to kill this process...")
     sys.exit()
 else:
-    raw_input('Cache file: ' + cache_dir +  'dataset-MedlinePlus.p has been loaded successfully. Press Enter to continue...')
+    raw_input('Cache file: ' + cache_dir +  'dataset-WikiAstronauts.p has been loaded successfully. Press Enter to continue...')
 
 
 """
@@ -318,7 +318,7 @@ for original in sentences:
     for j in range(0, len(result[original])): 
         score[original].append(shortening_extent[original][j] * (math.exp(ratios[original][j] * integrity[original][j] * distances[original][j])))
 
-    
+
 unclustered_ratios = {}
 for original in sentences:
     num_highlighted = []
@@ -382,7 +382,7 @@ for original in sentences:
     print('Length of num_additional: %d' % (len(num_additional)))
     print('Length of shortening: %d' % (len(unclustered_shortening_extent[original])))
     print('Length of result[original]: %d' % (len(sentences[original])))
-          
+ 
     unclustered_integrity[original] = num_additional
     print('Length of integrity: %d' % (len(unclustered_integrity[original])))
  
@@ -397,7 +397,7 @@ for original in sentences:
     for j in range(0, len(sentences[original])):
         unclustered_conformity[original].append(math.exp(unclustered_ratios[original][j] * unclustered_integrity[original][j]))
         unclustered_score[original].append(unclustered_shortening_extent[original][j] * (math.exp(unclustered_ratios[original][j] * unclustered_integrity[original][j] * unclustered_distances[original][j])))
-
+    
 
 output={'Annotated Sentence': [], 'Simplification': []}
 for original in sentences:
@@ -463,7 +463,7 @@ for i in range(0 , len(dictionary)):
                      'triples': dictionary[i]['triples'], \
                      'simplification': dictionary[i]['simplification']})
         
-xml = dicttoxml.dicttoxml(xml_dict, attr_type=False, custom_root='MedlinePlus')
+xml = dicttoxml.dicttoxml(xml_dict, attr_type=False, custom_root='WikiAstronauts')
 root = ET.fromstring(xml)
 for i in range(0, len(root)):
     root[i][2], root[i][3] = root[i][3], root[i][2]
@@ -483,4 +483,4 @@ dom = xml.toprettyxml(encoding='utf-8')
 with open(output_xml_dir, "w") as xml_file:
     xml_file.write(dom)
     xml_file.close()
-
+    
