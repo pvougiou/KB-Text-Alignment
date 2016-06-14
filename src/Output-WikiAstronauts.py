@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
+import argparse
 import math
 import pandas as pd
 pd.set_option('display.max_colwidth', -1)
@@ -37,6 +38,9 @@ import xml.etree.ElementTree as ET
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import KMeans
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--evaluation', action='store_true', default=False)
+args = parser.parse_args()
 
 csv_dir = 'CrowdFlower/WikiAstronauts/f900315.csv'
 output_csv_dir = '../Datasets/WikiAstronauts/WikiAstronauts-DBpedia.xls'
@@ -413,35 +417,34 @@ output_df.to_html(output_csv_dir, index=False, escape=False)
 
 
 
-"""
+if args.evaluation:
 
-# Randomly select sentences for the evaluation tables.
+    # Randomly select sentences for the evaluation tables.
 
-evaluation={'Annotated Sentence': [], '#1 Simplification': [], '#1 Rating': [], '#2 Simplification': [], '#2 Rating': [], '#3 Simplification': [], '#3 Rating': [], '#4 Simplification': [], '#4 Rating': []}
-indeces_eval_sentences = []
-num_eval_sentences = 0
-while num_eval_sentences < 30:
-    random = np.random.randint(0, len(output['Annotated Sentence']))
-    if random not in indeces_eval_sentences:
+    evaluation={'Annotated Sentence': [], '#1 Simplification': [], '#1 Rating': [], '#2 Simplification': [], '#2 Rating': [], '#3 Simplification': [], '#3 Rating': [], '#4 Simplification': [], '#4 Rating': []}
+    indeces_eval_sentences = []
+    num_eval_sentences = 0
+    while num_eval_sentences < 30:
+        random = np.random.randint(0, len(output['Annotated Sentence']))
+        if random not in indeces_eval_sentences:
+            
+            key = output['Annotated Sentence'][random]
+            evaluation['Annotated Sentence'].append(key.replace('\t', ''))
+            evaluation['#1 Simplification'].append(unicode(result[key][score[key].index(max(score[key]))], 'ascii', errors='ignore'))
+            evaluation['#1 Rating'].append(0)
+            evaluation['#2 Simplification'].append(unicode(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))], 'ascii', errors='ignore'))
+            evaluation['#2 Rating'].append(0)
+            evaluation['#3 Simplification'].append(unicode(baseline_result[key], 'ascii', errors='ignore'))
+            evaluation['#3 Rating'].append(0)
+            evaluation['#4 Simplification'].append(unicode(clustered_distances[key], 'ascii', errors='ignore'))
+            evaluation['#4 Rating'].append(0)
+            num_eval_sentences = num_eval_sentences + 1
+            indeces_eval_sentences.append(random)
+
         
-        key = output['Annotated Sentence'][random]
-        evaluation['Annotated Sentence'].append(key.replace('\t', ''))
-        evaluation['#1 Simplification'].append(unicode(result[key][score[key].index(max(score[key]))], 'ascii', errors='ignore'))
-        evaluation['#1 Rating'].append(0)
-        evaluation['#2 Simplification'].append(unicode(sentences[key][unclustered_score[key].index(max(unclustered_score[key]))], 'ascii', errors='ignore'))
-        evaluation['#2 Rating'].append(0)
-        evaluation['#3 Simplification'].append(unicode(baseline_result[key], 'ascii', errors='ignore'))
-        evaluation['#3 Rating'].append(0)
-        evaluation['#4 Simplification'].append(unicode(clustered_distances[key], 'ascii', errors='ignore'))
-        evaluation['#4 Rating'].append(0)
-        num_eval_sentences = num_eval_sentences + 1
-        indeces_eval_sentences.append(random)
+    eval_df = pd.DataFrame(evaluation, index=[i for i in range(0, len(evaluation['Annotated Sentence']))], columns=['Annotated Sentence', '#1 Simplification', '#1 Rating', '#2 Simplification', '#2 Rating', '#3 Simplification', '#3 Rating', '#4 Simplification', '#4 Rating'])
+    eval_df.to_html(output_eval_dir, index=False, escape=False)
 
-    
-eval_df = pd.DataFrame(evaluation, index=[i for i in range(0, len(evaluation['Annotated Sentence']))], columns=['Annotated Sentence', '#1 Simplification', '#1 Rating', '#2 Simplification', '#2 Rating', '#3 Simplification', '#3 Rating', '#4 Simplification', '#4 Rating'])
-eval_df.to_html(output_eval_dir, index=False, escape=False)
-
-"""
 
 
 tokenizer = RegexpTokenizer(r'\w+')
