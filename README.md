@@ -41,19 +41,19 @@ Aligning Texts and Knowledge Bases with Semantic Sentence Simplification
     1. MedlinePlus
     2. WikiAstronauts
       * Folders that contain (in .csv and .xml format) the original sentences from the two datasets along with their respective annotated versions and the triples-facts.
-  3. Dataset-MedlinePlus.py
+  3. ```Dataset-MedlinePlus.py```
     * Python script that parses the original sentences that are found at ```./Data/MedlinePlus/XML```.
     * Provides various statistics regarding the dataset.
     * Stores the CrowdFlower table (in .csv format) at ```./CrowdFlower/MedlinePlus/experiment.csv```.
-  4. Dataset-WikiAstronauts.py
+  4. ```Dataset-WikiAstronauts.py```
     * Python script that parses the original sentences that are found at ```./Data/WikiAstronauts/XML```.
     * Provides various statistics regarding the dataset.
     * Stores the CrowdFlower table (in .csv format) at ```./CrowdFlower/WikiAstronauts/experiment.csv```.
-  5. Output-MedlinePlus.py
+  5. ```Output-MedlinePlus.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/MedlinePlus/f902529.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
     * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
-  6. Output-WikiAstronauts.py
+  6. ```Output-WikiAstronauts.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/WikiAstronauts/f900315.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
     * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
