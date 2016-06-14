@@ -1,20 +1,20 @@
 # KB-Text-Alignment
 Aligning Texts and Knowledge Bases with Semantic Sentence Simplification
 ## Contents
-1. Datasets
+1. **Datasets**
   * Folder that contains the final datasets.
   1. MedlinePlus
-    1. MedlinePlus-SemRep.xls
+    1. **MedlinePlus-SemRep.xls**
       * A two-column table (in .xls format) that presents the annotated version of each sentence in the MedlinePlus dataset along with the proposed simplification.
-    2. MedlinePlus-SemRep.xml
+    2. **MedlinePlus-SemRep.xml**
       * For each sentence in the MedlinePlus dataset, we provide:
         1. Its annotated version
         2. Its simplification
         3. The triples-facts that have been identified in the original sentence
   2. WikiAstronauts
-    1. WikiAstronauts-DBpedia.xls
+    1. **WikiAstronauts-DBpedia.xls**
       * A two-column table (in .xls format) that presents the annotated version of each sentence in the WikiAstronauts dataset along with the proposed simplification.
-    2. WikiAstronauts-DBpedia.xml
+    2. **WikiAstronauts-DBpedia.xml**
       * For each sentence in the WikiAstronauts dataset, we provide:
         1. Its annotated version
         2. Its simplification
@@ -52,11 +52,11 @@ Aligning Texts and Knowledge Bases with Semantic Sentence Simplification
   5. Output-MedlinePlus.py
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/MedlinePlus/f902529.csv```.
     * Carries out a variety of metrics in order to choose the most appropriate simplification.
-    * By commenting-in the evaluation section of the code, it is able to select 30 sentences in random that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
+    * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
   6. Output-WikiAstronauts.py
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/WikiAstronauts/f900315.csv```.
     * Carries out a variety of metrics in order to choose the most appropriate simplification.
-    * By commenting-in the evaluation section of the code, it is able to select 30 sentences in random that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
+    * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
 
 ## License
 This project is licensed under the terms of the Apache 2.0 License.
