@@ -1,5 +1,5 @@
-# KB-Text-Alignment
-Aligning Texts and Knowledge Bases with Semantic Sentence Simplification
+# S3 Dataset (S3D)
+S3 Dataset (S3D) - Generation Code and Resources
 ## Contents
 1. **Datasets**
   1. MedlinePlus
