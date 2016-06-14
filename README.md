@@ -1,5 +1,5 @@
-# S3 Dataset (S3D)
-S3 Dataset (S3D) with Generation Code and Resources
+# S3 Dataset
+S3 Dataset with Generation Code and Resources
 ## Contents
 1. **Datasets**
   1. MedlinePlus
@@ -9,7 +9,7 @@ S3 Dataset (S3D) with Generation Code and Resources
       * For each sentence in the MedlinePlus dataset, we provide:
         1. Its annotated version
         2. Its simplification
-        3. The triples-facts that have been identified in the original sentence
+        3. The triples that have been identified in the original sentence
   2. WikiAstronauts
     1. **WikiAstronauts-DBpedia.xls**
       * A two-column table (in .xls format) that presents the annotated version of each sentence in the WikiAstronauts dataset along with the proposed simplification.
@@ -17,7 +17,7 @@ S3 Dataset (S3D) with Generation Code and Resources
       * For each sentence in the WikiAstronauts dataset, we provide:
         1. Its annotated version
         2. Its simplification
-        3. The triples-facts that have been identified in the original sentence
+        3. The triples that have been identified in the original sentence
 2. Evaluations
   1. MedlinePlus-SemRep.xls
   2. WikiAstronauts-DBpedia.xls
@@ -39,7 +39,7 @@ S3 Dataset (S3D) with Generation Code and Resources
   2. Data
     1. MedlinePlus
     2. WikiAstronauts
-      * Folders that contain (in .csv and .xml format) the original sentences from the two datasets along with their respective annotated versions and the triples-facts.
+      * Folders that contain (in .csv and .xml format) the original sentences from the two datasets along with their respective annotated versions and the triples.
   3. ```Dataset-MedlinePlus.py```
     * Python script that parses the original sentences that are found at ```./Data/MedlinePlus/XML```.
     * Provides various statistics regarding the dataset.
@@ -51,11 +51,11 @@ S3 Dataset (S3D) with Generation Code and Resources
   5. ```Output-MedlinePlus.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/MedlinePlus/f902529.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
-    * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
+    * BBy executing ```python Output-MedlinePlus.py --evaluation```, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
   6. ```Output-WikiAstronauts.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/WikiAstronauts/f900315.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
-    * By commenting-in the evaluation section of the code, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
+    * By executing ```python Output-WikiAstronauts.py --evaluation```, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
 
 ## License
 This project is licensed under the terms of the Apache 2.0 License.
