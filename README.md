@@ -2,6 +2,7 @@
 Aligning Texts and Knowledge Bases with Semantic Sentence Simplification
 ## Contents
 1. Datasets
+  * Folder that contains the final datasets.
   1. MedlinePlus
     1. MedlinePlus-SemRep.xls
       * A two-column table (in .xls format) that presents the annotated version of each sentence in the MedlinePlus dataset along with the proposed simplification.
