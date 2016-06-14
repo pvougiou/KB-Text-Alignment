@@ -51,11 +51,11 @@ S3 Dataset with Generation Code and Resources
   5. ```Output-MedlinePlus.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/MedlinePlus/f902529.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
-    * By executing ```python Output-MedlinePlus.py --evaluation```, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
+    * By executing ```python Output-MedlinePlus.py --evaluation```, it selects 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/MedlinePlus-SemRep.xls```.
   6. ```Output-WikiAstronauts.py```
     * Python script that processes the simplifications that are proposed by the contributors and are located at ```./CrowdFlower/WikiAstronauts/f900315.csv```.
     * Implements a variety of metrics in order to choose the most appropriate simplification.
-    * By executing ```python Output-WikiAstronauts.py --evaluation```, it is able to select 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
+    * By executing ```python Output-WikiAstronauts.py --evaluation```, it selects 30 random sentences that are used for the evaluation purposes and are stored by default at ```../Evaluation/WikiAstronauts-DBpedia.xls```.
 
 ## License
 This project is licensed under the terms of the Apache 2.0 License.
